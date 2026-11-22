@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: d605328d6ea5df78 -->
+<!-- wiki-i18n source: 91ebd8675b1f7ea3 -->
 <!-- wiki-i18n title: Hajótest-páncélzat -->
 # Hajótest-páncélzat {#hull-plating}
 
 <!-- wiki-search: hull plate; hull plate slot; hull plate slots; plate slot; plate; armour; armor; hpl; páncélzat; páncélzatfoglalat; páncélozás -->
 
-A Dormant raj tanulmányozása előrelépést mutatott a páncélzat technológiájában. Ezzel a technológiával a hajók javíthatják a hajótestüket: a **hajótest-páncélzat** olyan páncélzat, amely egy legyártott hajó hajótestlemez-foglalatába illeszkedik, és hajótestpontokat ad hozzá. Ez nem a Hull Plating **Booster**, amelyről a [Boosterek](/wiki/06-Items/Boosters.md) oldal szól: az egy időleges bónusz.
+A Dormant raj tanulmányozása előrelépést mutatott a páncélzat technológiájában. Ezzel a technológiával a hajók javíthatják a hajótestüket: a **hajótest-páncélzat** olyan páncélzat, amely egy hajó hajótestlemez-foglalatába illeszkedik, és hajótestpontokat ad hozzá. Ez nem a Hull Plating **Booster**, amelyről a [Boosterek](/wiki/06-Items/Boosters.md) oldal szól: az egy időleges bónusz.
 
 ![The Hull plates card of the Hangar: the slots researched hold Hull Plating, the others show a padlock](../../img/wiki-img/shots/hull-plates.jpg)
 
@@ -28,26 +28,27 @@ Hull Plating I => Hull Plating II => Hull Plating III
 
 | Tárgy | Hozzáadott hajótest | Honnan származik |
 | :--- | ---: | :--- |
-| **Hull Plating I** | 8 000 | Bolt, 5 000 Thulium |
-| **Hull Plating II** | 15 000 | Gyártás, Hull Plating I-ből |
-| **Hull Plating III** | 25 000 | Gyártás, Hull Plating II-ből |
+| **Hull Plating I** | 7 000 | Bolt, 5 000 Thulium |
+| **Hull Plating II** | 14 000 | Gyártás, Hull Plating I-ből |
+| **Hull Plating III** | 20 000 | Gyártás, Hull Plating II-ből |
 
 A Hull Plating I-et megveszik. **A II és a III fejlesztés**: a Gyártás elhasznál egy eggyel alacsonyabb szintű páncélzatot (a leltáradban szabadon), és Thuliumot, nyersanyagot és **Dark Matter Plate-et** kér, a II-höz 5-öt, a III-hoz 8-at, miközben bármely más felszerelés utolsó szintje 4-et és egy Ancient Control Unitot kér. Mindegyikhez előbb a technológiája kell, a [Kutatás](/wiki/03-Mechanics/Research.md#tree-hull-plating) oldal Hull Plating fájában: a II-höz 1 nap és 25 Dark Matter, a III-hoz 2 nap és 40, magának a Dark Matter Plate-nek a technológiáján felül. A fenti fa mutatja az árakat, az anyagokat és az időket.
 
-A [Kovácsműhely](/wiki/06-Items/Forge.md) minden páncélzatot elfogad, a fejlesztés megtartja az elhasznált páncélzat kovácsolási fokozatát és bónuszát. A páncélzatnak egyetlen értéke van, a hajóteste, ezért egyetlen bónuszt hordoz, fokozattól függően +2%-tól +15%-ig: egy Felemelkedett fokozatú Hull Plating III legfeljebb 28 750-et ad. Az [Aukció](/wiki/03-Mechanics/Auction.md) a Hull Plating II-t és III-at listázza, a Hull Plating I-et soha, mert azt a Bolt árulja.
+A [Kovácsműhely](/wiki/06-Items/Forge.md) minden páncélzatot elfogad, a fejlesztés megtartja az elhasznált páncélzat kovácsolási fokozatát és bónuszát. A páncélzatnak egyetlen értéke van, a hajóteste, ezért egyetlen bónuszt hordoz, fokozattól függően +2%-tól +15%-ig: egy Felemelkedett fokozatú Hull Plating III legfeljebb 23 000-et ad. Az [Aukció](/wiki/03-Mechanics/Auction.md) a Hull Plating II-t és III-at listázza, a Hull Plating I-et soha, mert azt a Bolt árulja.
 
 ## Páncélzatfoglalatok {#hull-plate-slots}
 
-A hajótest-páncélzat csak **páncélzatfoglalatba** illik, egy önálló foglalattípusba, amely a négy hajónak, amelyet a Gyártásban készítesz, megvan a lézer-, generátor-, extra-, képesség- és drónfoglalatai mellett:
+A hajótest-páncélzat csak **páncélzatfoglalatba** illik, egy önálló foglalattípusba, amely minden hajónak megvan a lézer-, generátor-, extra-, képesség- és drónfoglalatai mellett. A legtöbbel a Gyártásban készített hajók rendelkeznek: a táblázat négy hajója és a [Miyuki](/wiki/02-Ships/Miyuki.md), amelynek 5–9 van, szintenként eggyel több:
 
 | Hajó | Páncélzatfoglalatok | Egy teljes Hull Plating III készlet hozzáad |
 | :--- | ---: | ---: |
-| **Paragon** | 5 | 125 000 |
-| **Storm** | 8 | 200 000 |
-| **Ironclad** | 15 | 375 000 |
-| **Wraith** | 10 | 250 000 |
+| **Paragon** | 5 | 100 000 |
+| **Storm** | 8 | 160 000 |
+| **Ironclad** | 15 | 300 000 |
+| **Wraith** | 10 | 200 000 |
 
-- **Kezdetben mind zárolva.** Egy foglalat akkor nyílik meg, ha a Skylabben kikutatod: foglalatonként egy technológia, 1 óra és 10 Dark Matter, az elsőtől kezdve sorban. A [Kutatás](/wiki/03-Mechanics/Research.md#ship-technologies) nézet egy hajó foglalatait egyetlen kártyaként mutatja, foglalatonként egy ponttal.
+- **Legyártott hajón kezdetben mind zárolva.** Egy foglalat akkor nyílik meg, ha a Skylabben kikutatod: foglalatonként egy technológia, 1 óra és 10 Dark Matter, az elsőtől kezdve sorban. A [Kutatás](/wiki/03-Mechanics/Research.md#ship-technologies) nézet egy hajó foglalatait egyetlen kártyaként mutatja, foglalatonként egy ponttal.
+- **A Bolt négy hajójának három van, kezdettől nyitva.** A Protosnak, a Kitefinnek, az Ostirionnak és a Nomadnak egyaránt 3 páncélzatfoglalata van, és nincs mit kutatni: az első repüléstől nyitva vannak. A Hull Plating III teljes készlete mindegyikhez 60 000-et ad hozzá.
 - **Hajófajta, nem egy hajó.** A foglalatok, amelyeket a Paragonhoz kinyitottál, a Paragon minden dizájnján is nyitva vannak ([Hajódizájnok](/wiki/03-Mechanics/Ship-Designs.md)). A technológia örökre a tiéd: a wipe megtartja.
 - **A két konfiguráció osztozik rajtuk.** A páncélzatok a hajóhoz tartoznak: a konfigurációváltás rajta hagyja őket, és a hangár mindkettőben ugyanazokat mutatja.
 - **Bármilyen keverék.** A foglalat bármilyen hajótest-páncélzatot elfogad, és két egyforma is rendben van.
@@ -62,4 +63,4 @@ A páncélzat a hajó saját hajótestéhez adja a magáét, és a hangár meg a
 
 ## Hull Plating vagy Hull Plating Booster? {#hull-plating-or-booster}
 
-Két dolog osztozik a néven. A **hajótest-páncélzat** (ez az oldal) páncél: egy lemez, amely egy legyártott hajó páncélzatfoglalatában ül, és addig adja a hajótestét, amíg fel van szerelve. A **Hull Plating Booster** a [Boosterek](/wiki/06-Items/Boosters.md) oldal időre szóló bónusza, +10% maximális hajótest-pont 10 órára arra a hajóra, amelyet éppen repülsz, és nincs mit felszerelni hozzá. Összeadódnak: a páncélzatok jönnek először, és a Booster 10%-át az összegből veszik.
+Két dolog osztozik a néven. A **hajótest-páncélzat** (ez az oldal) páncél: egy lemez, amely egy hajó páncélzatfoglalatában ül, és addig adja a hajótestét, amíg fel van szerelve. A **Hull Plating Booster** a [Boosterek](/wiki/06-Items/Boosters.md) oldal időre szóló bónusza, +10% maximális hajótest-pont 10 órára arra a hajóra, amelyet éppen repülsz, és nincs mit felszerelni hozzá. Összeadódnak: a páncélzatok jönnek először, és a Booster 10%-át az összegből veszik.

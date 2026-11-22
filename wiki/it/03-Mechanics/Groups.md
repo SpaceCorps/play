@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9530756071d3a3eb -->
+<!-- wiki-i18n source: ab422d8b5066fe56 -->
 <!-- wiki-i18n title: Gruppi -->
 # Gruppi {#groups}
 
@@ -72,6 +72,8 @@ La scheda **Sistema** è dorata e di sola lettura, con un elenco tutto suo: cont
 ### Messaggi privati {#private-messages}
 
 Scrivi `/m`, il nome di un pilota e il tuo messaggio per scrivere solo a quel pilota: `/m nova o7` (`/msg` e `/w` fanno lo stesso). Il pilota deve essere online sul tuo server, in qualsiasi mondo, alla stazione o in volo. Il nome è quello del pilota come lo mostra la chat, con maiuscole e minuscole a piacere (`/m NOVA`, `/m @nova` e `/m nova:` trovano tutti nova): deve essere il nome intero, mai solo il suo inizio, così un messaggio non può finire al pilota sbagliato. `/r` e la tua risposta (`/r o7`) risponde al pilota che ti ha scritto per ultimo, oppure all’ultimo pilota a cui hai scritto se nessuno ti ha scritto.
+
+Fai clic destro sul nome di un pilota per aprire un piccolo menu (su una riga della chat, nella finestra **Piloti online**, nell'**Elenco piloti** del clan o sulla riga di un membro nella **finestra Gruppo**; sul telefono, tieni premuto il nome): **Invia messaggio** avvia un messaggio privato a quel pilota (il campo di testo contiene `/m name` e riceve la tastiera), **Vedi scheda pilota** apre il profilo del pilota e **Copia nome** mette il nome negli appunti. **Invia messaggio** non c'è sul tuo nome, su un pilota di un altro server né su un server di gioco precedente alla 0.4.22.
 
 Un messaggio privato compare nella scheda che stai guardando, tra le sue righe, in viola: **A nova:** per quello che hai inviato, **Da nova:** per quello che hai ricevuto, così hai entrambi i lati della conversazione nella finestra della chat in volo e nella barra alla stazione. Tutte le schede lo mostrano, anche la scheda **Sistema** e una scheda **Globale** nascosta. Un messaggio ricevuto conta come non letto (sul pulsante della barra degli strumenti e nella barra alla stazione) finché non apri una scheda, e suona un tintinnio leggero, al massimo una volta ogni 2 secondi; inviarne uno suona un suono leggero tutto suo. Fai clic destro su un messaggio ricevuto per **Rispondere**, **Invitare nel gruppo**, **Ignorare** o **Segnalare…**.
 

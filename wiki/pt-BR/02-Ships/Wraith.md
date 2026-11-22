@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9a37517663b28a4d -->
+<!-- wiki-i18n source: 030846e1bbc2affc -->
 <!-- wiki-i18n title: Wraith -->
 # Wraith
 
@@ -27,7 +27,7 @@ A Wraith é a nave definitiva da classe dos encouraçados, com poder de fogo inc
 
 ## Pesquisa {#research}
 
-- **Slots de blindagem.** Esta nave tem 10 [slots de blindagem](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) para [blindagem de casco](/wiki/06-Items/Hull-Plating.md), todos bloqueados quando você a fabrica. Cada um é uma tecnologia própria no Skylab, 1 h e 10 Dark Matter, pesquisada em ordem a partir do primeiro; ela abre aquele slot nesta nave e em cada um dos seus designs. Com os 10 cheios de Hull Plating III, somam-se 250.000 de casco.
+- **Slots de blindagem.** Esta nave tem 10 [slots de blindagem](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) para [blindagem de casco](/wiki/06-Items/Hull-Plating.md), todos bloqueados quando você a fabrica. Cada um é uma tecnologia própria no Skylab, 1 h e 10 Dark Matter, pesquisada em ordem a partir do primeiro; ela abre aquele slot nesta nave e em cada um dos seus designs. Com os 10 cheios de Hull Plating III, somam-se 200.000 de casco.
 - **Designs.** Esta nave tem 5 [designs](/wiki/03-Mechanics/Ship-Designs.md). Pesquise um (10 h e 10 Dark Matter) e depois converta a sua Wraith nele na Montagem: a mudança não pode ser desfeita.
 
 | Design | O que muda |
@@ -36,7 +36,7 @@ A Wraith é a nave definitiva da classe dos encouraçados, com poder de fogo inc
 | **Wraith BILLY** | +5% de casco base, +10% de capacidade de escudo, Diminisher |
 | **Wraith MENATI** | +20% de casco base, +20 de velocidade base, +5% de absorção de escudo, Heal Pod |
 | **Wraith ATARAXIS** | -1 slot de laser, +1 slot de suporte, +25% de capacidade de escudo, +10% de absorção de escudo, Shield Buff |
-| **Wraith MATT** | +2 slots de laser, -20% de capacidade de escudo, +10% de penetração de laser |
+| **Wraith MATT** | +2 slots de laser, -20% de capacidade de escudo, +10% de penetração de laser, +5% de dano de laser |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

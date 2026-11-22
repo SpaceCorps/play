@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 31273b68fd73e552 -->
+<!-- wiki-i18n source: 4c0d294abe2063d8 -->
 <!-- wiki-i18n title: P.E.T.-ek -->
 # P.E.T.-ek {#pets}
 
@@ -110,7 +110,7 @@ A tíz típusból nyolc csak bónuszt ad. A **Retriever** és a **Mole** is ad b
 - **Minden Mole dolgozik, egy Retriever.** A 0.4.27 óta minden dokkolt Mole dolgozik, mindegyiknek saját drónja és sugara van, és a 0.5.0 óta a Mole-jaid ugyanazon az aszteroidán is dolgozhatnak: mindegyik a legközelebbit veszi, így ha csak egy aszteroida van hatótávon belül, mind azon dolgozik, és amikor széttörik, együtt mennek tovább a következőre. Egy három Mole-os Station legfeljebb nagyjából háromszor annyi aszteroidát tör szét, mint egy Mole, amíg elég aszteroida van hatótávon belül; az aszteroidát szétromboló impulzus után érkező impulzusok elvesznek, ezért az a Mole-csapat, amely egyszerre üt egy kis aszteroidát, egy kicsit kevesebbet ér. Egy Retriever dolgozik, amelyiknek a legnagyobb a hatótávja; a többi Retrievered csak bónuszt ad.
 - **Repülve, biztonságos zónán kívül.** Megállnak, amíg egy [biztonságos zóna](/wiki/03-Mechanics/Combat.md#2-safe-zone-immunity) védi a hajódat, amíg megsemmisült, [újraéledési védelem](/wiki/01-General/Getting-Started.md#dying-and-coming-back) alatt van, álcázva van vagy ugrik, és folytatják, amikor ezek közül egyik sem áll fenn. A kijelentkezett pilótának nincs hajója az űrben, így érte semmi nem dolgozik.
 - **Tétlenül vagy sem.** Nincs szabály arról, hogy a billentyűknél ülsz-e: a Mole ugyanúgy dolgozik, amíg vadászol, amíg egy ablakot nézel, és amíg elmentél a képernyő elől.
-- **Amit soha nem tesznek.** A Retriever nem vesz fel olyan ládát, amelyet te magad nem vehetnél fel, vagyis soha nem más pilóta védett ládáit. A Mole soha nem dolgozik biztonságos zónában lévő aszteroidán: az aszteroidák legalább 1 500 egységre állnak egy biztonságos gyűrűtől.
+- **Amit soha nem tesznek.** A Retriever nem vesz fel olyan ládát, amelyet te magad nem vehetnél fel, vagyis soha nem más pilóta védett ládáit. A Mole soha nem dolgozik biztonságos zónában lévő aszteroidán: az aszteroidák legalább 1 550 egységre állnak egy biztonságos gyűrűtől.
 
 ### A Retriever {#the-retriever}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 31273b68fd73e552 -->
+<!-- wiki-i18n source: 4c0d294abe2063d8 -->
 <!-- wiki-i18n title: P.E.T. -->
 # P.E.T. {#pets}
 
@@ -110,7 +110,7 @@ Otto dei dieci tipi danno solo boost. Il **Retriever** e il **Mole** li danno an
 - **Lavorano tutti i Mole, un solo Retriever.** Dalla 0.4.27 lavora ogni Mole agganciato, ciascuno con il proprio drone e il proprio fascio, e dalla 0.5.0 i tuoi Mole possono lavorare lo stesso asteroide: ciascuno prende il più vicino, quindi con un solo asteroide a portata lavorano tutti su quello, e quando si spezza passano insieme al successivo. Una Station con tre Mole spezza fino a circa tre volte più asteroidi di un Mole finché ci sono abbastanza asteroidi a portata; gli impulsi che arrivano dopo quello che spezza un asteroide vanno persi, quindi dei Mole che colpiscono tutti insieme un piccolo asteroide valgono un po’ meno. Lavora un Retriever, quello con la portata maggiore; i tuoi altri Retriever danno solo boost.
 - **In volo, fuori da una zona sicura.** Si fermano finché una [zona sicura](/wiki/03-Mechanics/Combat.md#2-safe-zone-immunity) protegge la tua nave, e finché è distrutta, sotto la [protezione dopo il respawn](/wiki/01-General/Getting-Started.md#dying-and-coming-back), occultata o in salto, e riprendono quando nulla di questo vale. Un pilota scollegato non ha una nave nello spazio, quindi nulla lavora per lui.
 - **Inattivo o no.** Nessuna regola chiede che tu sia ai comandi: un Mole lavora allo stesso modo mentre cacci, mentre guardi una finestra e mentre sei lontano dallo schermo.
-- **Ciò che non fanno mai.** Un Retriever non prende nessuna cassa che tu non potresti prendere da solo, quindi mai le casse protette di un altro pilota. Un Mole non lavora mai un asteroide in una zona sicura: gli asteroidi stanno ad almeno 1.500 unità da un anello sicuro.
+- **Ciò che non fanno mai.** Un Retriever non prende nessuna cassa che tu non potresti prendere da solo, quindi mai le casse protette di un altro pilota. Un Mole non lavora mai un asteroide in una zona sicura: gli asteroidi stanno ad almeno 1.550 unità da un anello sicuro.
 
 ### Il Retriever {#the-retriever}
 

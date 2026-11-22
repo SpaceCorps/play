@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: d605328d6ea5df78 -->
+<!-- wiki-i18n source: 91ebd8675b1f7ea3 -->
 <!-- wiki-i18n title: Hüllenpanzerung -->
 # Hüllenpanzerung {#hull-plating}
 
 <!-- wiki-search: hull plate; hull plate slot; hull plate slots; plate slot; plate; armour; armor; hpl; panzerung; panzerungs-slot; panzerungsplatte -->
 
-Die Erforschung des Dormant-Schwarms zeigte Fortschritte in der Panzerungstechnik. Mit dieser Technik können Schiffe ihre Hülle verbessern: **Hüllenpanzerung** ist eine Panzerung, die in einen Hüllenplatten-Slot eines hergestellten Schiffs passt und ihm Hüllenpunkte hinzufügt. Sie ist nicht der Hull Plating **Booster** der Seite [Booster](/wiki/06-Items/Boosters.md), ein Bonus auf Zeit.
+Die Erforschung des Dormant-Schwarms zeigte Fortschritte in der Panzerungstechnik. Mit dieser Technik können Schiffe ihre Hülle verbessern: **Hüllenpanzerung** ist eine Panzerung, die in einen Hüllenplatten-Slot eines Schiffs passt und ihm Hüllenpunkte hinzufügt. Sie ist nicht der Hull Plating **Booster** der Seite [Booster](/wiki/06-Items/Boosters.md), ein Bonus auf Zeit.
 
 ![The Hull plates card of the Hangar: the slots researched hold Hull Plating, the others show a padlock](../../img/wiki-img/shots/hull-plates.jpg)
 
@@ -28,26 +28,27 @@ Hull Plating I => Hull Plating II => Hull Plating III
 
 | Gegenstand | Hinzugefügte Hülle | Woher er kommt |
 | :--- | ---: | :--- |
-| **Hull Plating I** | 8.000 | Shop, 5.000 Thulium |
-| **Hull Plating II** | 15.000 | Montage, aus einer Hull Plating I |
-| **Hull Plating III** | 25.000 | Montage, aus einer Hull Plating II |
+| **Hull Plating I** | 7.000 | Shop, 5.000 Thulium |
+| **Hull Plating II** | 14.000 | Montage, aus einer Hull Plating I |
+| **Hull Plating III** | 20.000 | Montage, aus einer Hull Plating II |
 
 Hull Plating I wird gekauft. **II und III sind Aufwertungen**: Die Montage verbraucht eine Panzerung der Stufe darunter (lose in deinem Inventar) und verlangt Thulium, Materialien und **Dark Matter Plates**, 5 für die II und 8 für die III, wo die letzte Stufe jedes anderen Ausrüstungsstücks 4 und eine Ancient Control Unit verlangt. Jede braucht zuerst ihre Technologie, im Hull-Plating-Baum der Seite [Forschung](/wiki/03-Mechanics/Research.md#tree-hull-plating): 1 Tag und 25 Dark Matter für die II, 2 Tage und 40 für die III, zusätzlich zur Technologie der Dark Matter Plate selbst. Der Baum oben zeigt die Preise, die Materialien und die Zeiten.
 
-Die [Schmiede](/wiki/06-Items/Forge.md) nimmt jede Panzerung an, und eine Aufwertung behält die Schmiedestufe und den Bonus der verbrauchten Panzerung. Eine Panzerung hat nur einen Wert, ihre Hülle, und fasst deshalb einen Bonus, +2 % bis +15 % je nach Stufe: Eine Hull Plating III auf Aufgestiegen fügt bis zu 28.750 hinzu. Die [Auktion](/wiki/03-Mechanics/Auction.md) listet Hull Plating II und III, nie Hull Plating I, die der Shop verkauft.
+Die [Schmiede](/wiki/06-Items/Forge.md) nimmt jede Panzerung an, und eine Aufwertung behält die Schmiedestufe und den Bonus der verbrauchten Panzerung. Eine Panzerung hat nur einen Wert, ihre Hülle, und fasst deshalb einen Bonus, +2 % bis +15 % je nach Stufe: Eine Hull Plating III auf Aufgestiegen fügt bis zu 23.000 hinzu. Die [Auktion](/wiki/03-Mechanics/Auction.md) listet Hull Plating II und III, nie Hull Plating I, die der Shop verkauft.
 
 ## Panzerungs-Slots {#hull-plate-slots}
 
-Hüllenpanzerung passt nur in **Panzerungs-Slots**, eine eigene Art von Slot, die die vier Schiffe, die du in der Montage baust, zusätzlich zu ihren Laser-, Generator-, Extra-, Fähigkeits- und Drohnen-Slots haben:
+Hüllenpanzerung passt nur in **Panzerungs-Slots**, eine eigene Art von Slot, die jedes Schiff zusätzlich zu seinen Laser-, Generator-, Extra-, Fähigkeits- und Drohnen-Slots hat. Die meisten haben die Schiffe, die du in der Montage baust: die vier in der Tabelle und die [Miyuki](/wiki/02-Ships/Miyuki.md) mit 5 bis 9, einem mehr mit jeder Stufe:
 
 | Schiff | Panzerungs-Slots | Ein voller Satz Hull Plating III fügt hinzu |
 | :--- | ---: | ---: |
-| **Paragon** | 5 | 125.000 |
-| **Storm** | 8 | 200.000 |
-| **Ironclad** | 15 | 375.000 |
-| **Wraith** | 10 | 250.000 |
+| **Paragon** | 5 | 100.000 |
+| **Storm** | 8 | 160.000 |
+| **Ironclad** | 15 | 300.000 |
+| **Wraith** | 10 | 200.000 |
 
-- **Anfangs alle gesperrt.** Ein Slot öffnet sich, wenn du ihn im Skylab erforschst: eine Technologie für jeden Slot, 1 Stunde und 10 Dark Matter, der Reihe nach vom ersten an. Die Ansicht [Forschung](/wiki/03-Mechanics/Research.md#ship-technologies) zeigt die Slots eines Schiffs als eine Karte mit einem Punkt für jeden.
+- **Bei hergestellten Schiffen anfangs alle gesperrt.** Ein Slot öffnet sich, wenn du ihn im Skylab erforschst: eine Technologie für jeden Slot, 1 Stunde und 10 Dark Matter, der Reihe nach vom ersten an. Die Ansicht [Forschung](/wiki/03-Mechanics/Research.md#ship-technologies) zeigt die Slots eines Schiffs als eine Karte mit einem Punkt für jeden.
+- **Die vier Schiffe des Shops haben drei, von Anfang an offen.** Protos, Kitefin, Ostirion und Nomad haben je 3 Panzerungs-Slots und nichts zu erforschen: Sie sind ab dem ersten Flug offen. Ein voller Satz Hull Plating III fügt jedem von ihnen 60.000 hinzu.
 - **Eine Schiffsart, nicht ein Schiff.** Die Slots, die du für die Paragon geöffnet hast, sind auch an jedem Paragon-Design offen ([Schiffsdesigns](/wiki/03-Mechanics/Ship-Designs.md)). Eine Technologie gehört dir für immer: Der Wipe lässt sie dir.
 - **Beide Konfigurationen teilen sie.** Die Panzerungen gehören zum Schiff: Ein Wechsel der Konfiguration lässt sie dran, und der Hangar zeigt in beiden dieselben.
 - **Beliebig gemischt.** Ein Slot nimmt jede Hüllenpanzerung auf, auch zwei gleiche.
@@ -62,4 +63,4 @@ Eine Panzerung fügt ihre Hülle der eigenen des Schiffs hinzu, und der Hangar u
 
 ## Hull Plating oder Hull Plating Booster? {#hull-plating-or-booster}
 
-Zwei Dinge teilen sich den Namen. **Hüllenpanzerung** (diese Seite) ist eine Panzerung: eine Platte, die in einem Panzerungs-Slot eines gebauten Schiffs sitzt und ihre Hülle hinzufügt, solange sie eingebaut ist. Der **Hull Plating Booster** ist ein Bonus auf Zeit der Seite [Booster](/wiki/06-Items/Boosters.md), +10 % maximale Trefferpunkte für 10 Stunden auf jedem Schiff, das du fliegst, und hat nichts zum Einbauen. Sie addieren sich: Die Panzerungen kommen zuerst, und die 10 % des Boosters werden von der Summe genommen.
+Zwei Dinge teilen sich den Namen. **Hüllenpanzerung** (diese Seite) ist eine Panzerung: eine Platte, die in einem Panzerungs-Slot eines Schiffs sitzt und ihre Hülle hinzufügt, solange sie eingebaut ist. Der **Hull Plating Booster** ist ein Bonus auf Zeit der Seite [Booster](/wiki/06-Items/Boosters.md), +10 % maximale Trefferpunkte für 10 Stunden auf jedem Schiff, das du fliegst, und hat nichts zum Einbauen. Sie addieren sich: Die Panzerungen kommen zuerst, und die 10 % des Boosters werden von der Summe genommen.

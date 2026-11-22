@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a95170ddd6f01c2a -->
+<!-- wiki-i18n source: 0b4fab38b0c9363e -->
 <!-- wiki-i18n title: Pilot Becerileri -->
 # Pilot Becerileri {#pilot-skills}
 
@@ -79,7 +79,8 @@ Tablolar her buff’ı 1. seviyede ve son seviyede verir; arada buff düz bir ç
 | **Taktik** (Refleks) | Yeteneklerin süresi | ×1 | ×1,2 |
 | **Kalkan soğurması** (Dayanıklılık) | Kalkanlarının soğurması | +0 puan | +5 puan |
 | **İyileştirme** (Kütle) | Kendi onarımlarının ve iyileştirmelerinin gücü | ×1 | ×1,3 |
-| **Gizlenme Dolumu** (Refleks) | Gizlenme dolum süresi | ×1 | ×0,5 |
+|  | Miyuki’nin iyileştirme yeteneklerinin dolum süresi | ×1 | ×0,9 |
+| **Gizlilik** (Refleks) | Gizlenme dolum süresi | ×1 | ×0,5 |
 
 ### Gemi kontrolü {#ship-control}
 
@@ -114,13 +115,13 @@ Tablolar her buff’ı 1. seviyede ve son seviyede verir; arada buff düz bir ç
 - **Lazerler.** Lazer teknolojisi her salvonun hasarını ve isabet şansını değiştirir; ıskalayan bir salvo uçuşan bir “Miss” gösterir ve yine de cephanesini harcar ([Savaş](/wiki/03-Mechanics/Combat.md#laser-tech)). Lazerlerinin menzili geminin kendi menzilidir: Nişancılık, düz x1 dışındaki cephaneyle yaptığın isabetlerle seviye atlar, ancak yalnızca Mine’lara etki eder (aşağıda).
 - **Roketler.** Roket teknolojisi her roketin hasarını ve bir roketin ateşlenmeme şansını değiştirir ([Roket teknolojisi](/wiki/06-Items/Rockets.md#rocket-tech)).
 - **Darbe almak.** Dayanıklılık aldığın her darbeden bir pay çıkarır, Kaçınma doğrudan bir darbenin hiçbir şey yapmama şansını artırır, Kalkan soğurması da bir vuruşun kalkanlarının aldığı payı artırır ([Savaş](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). Kütle gövdeni artırır.
-- **İyileştirme.** İyileştirme, kendi ekipmanının iyileştirmelerini güçlendirir: Repair Drone’unun onarımı, bir Emergency Repair ve bıraktığın Heal Pod ([Yetenekler](/wiki/03-Mechanics/Abilities.md#pilot-skills)). İyileştirmelerinin geri getirdiği gövdeyle gelişir; güvenli bölgedeki bir gemiyi iyileştirmek sayılmaz. Support Rocket her seviyede hep aynı sabit miktarı iyileştirir ve yine de İyileştirme XP’si verir.
-- **Gizlenme.** Gizlenme Dolumu, bir gizlenme bittikten sonraki bekleme süresini hem Cloaking CPU için ([Ekstralar](/wiki/06-Items/Extras.md#cloaking-cpu)) hem de Chameleon için ([Yetenekler](/wiki/03-Mechanics/Abilities.md)) kısaltır. Gizlenmiş geçirdiğin saniyelerle gelişir; güvenli bölgede ya da hiç komut vermediğin sürece hiçbiri sayılmaz.
+- **İyileştirme.** İyileştirme, kendi ekipmanının iyileştirmelerini güçlendirir: Repair Drone’unun onarımı, bir Emergency Repair ile kullandığın Heal Pod, Channel Heal ve Channel Shield ([Yetenekler](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Miyuki’de bu üç yetenek ayrıca bir sonraki kullanıma kadar daha az bekler. İyileştirmelerinin geri getirdiği gövdeyle gelişir; güvenli bölgedeki bir gemiyi iyileştirmek sayılmaz. Support Rocket her seviyede hep aynı sabit miktarı iyileştirir ve yine de İyileştirme XP’si verir.
+- **Gizlenme.** Gizlilik, bir gizlenme bittikten sonraki bekleme süresini hem Cloaking CPU için ([Ekstralar](/wiki/06-Items/Extras.md#cloaking-cpu)) hem de Chameleon için ([Yetenekler](/wiki/03-Mechanics/Abilities.md)) kısaltır. Gizlenmiş geçirdiğin saniyelerle gelişir; güvenli bölgede ya da hiç komut vermediğin sürece hiçbiri sayılmaz.
 - **Yetenekler.** Refleks yeteneklerinin bekleme süresini kısaltır, Taktik de onları daha uzun sürdürür ([Yetenekler](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Sabotaj zehirleri güçlendirir.
 - **Mine.** Sabotaj bir Mine’ın hasarını artırır, Nişancılık da onu daha hızlı ve daha uzağa fırlatır ([Ekstralar](/wiki/06-Items/Extras.md#mine)).
 - **Hız.** İtici teorisi hızına, motorların ve bir Afterburner’ın üstüne ekler ([Hız](/wiki/03-Mechanics/Speed.md)).
 - **Toplama.** İçgüdü her ganimet satırının şansını bir Loot Luck Booster gibi artırır ve ikisi toplanır; Antimadde topladığın Dark Matter’ı artırır ([Kargo](/wiki/03-Mechanics/Cargo.md), [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)).
-- **Radyasyon.** Radyasyon teknolojisi kara deliğin, ekskavatörlerin dairelerinin, pulsarların ve Unwakened’in aurasının dozunu düşürür ([Kara delik](/wiki/03-Mechanics/Black-Hole.md)).
+- **Radyasyon.** Radyasyon teknolojisi kara deliğin, N.U.K.E. ve Gravitational N.U.K.E. radyasyon bölgelerinin, ekskavatörlerin dairelerinin, pulsarların ve Unwakened’in aurasının dozunu düşürür ([Kara delik](/wiki/03-Mechanics/Black-Hole.md)).
 - **Ev.** Çıkarma ve Lojistik [Skylab](/wiki/03-Mechanics/Skylab.md)’ın ürettiğini ve tuttuğunu değiştirir, İçgüdü iki toplayıcısını artırır, İmalat Montaj’ın üretimlerini kısaltır, Bilim [Araştırma](/wiki/03-Mechanics/Research.md) Merkezi’ni daha hızlı doldurur, Ticaret de Mağaza’nın fiyatlarını ve Montaj’ın üretimlerinin kredi ile Thulium bedelini düşürür, Mağaza’nın geri alırken ödediğini artırır ve bir [Açık Artırma](/wiki/03-Mechanics/Auction.md) ilanının teminatını düşürür. [Demirhane](/wiki/06-Items/Forge.md)’de Ticaret, bir adımın kredisini ve Thulium’unu ve bir birleştirmenin kredisini düşürür ([Kademe yükselt](/wiki/06-Items/Forge.md#tier-up)); İmalat ise bir yeniden düzenlemenin bir parçadan aldığı bütünlüğü düşürür ([Bütünlük ve çatlaklar](/wiki/06-Items/Forge.md#integrity-and-fractures)).
 
 ## XP nasıl ödenir {#how-xp-is-paid}
@@ -159,7 +160,7 @@ Tablo, XP’yi neyin ödediğini değer değer sıralar. XP, ikinci sütunda ad�
 | **Taktik** (Refleks) | Lazer menzilinde bir düşman varken bastığın her yetenek için | 2 | saatte 600 XP |
 | **Kalkan soğurması** (Dayanıklılık) | Düşman vuruşlarının aldığı azami kalkanın her %1’i için | 0,1 | saatte 300 XP |
 | **İyileştirme** (Kütle) | Senin bir iyileştirmenin geri getirdiği geminin azami gövdesinin her %1’i için | 0,1 | saatte 300 XP |
-| **Gizlenme Dolumu** (Refleks) | Son 1 dk içinde emir verilmişken gizlenmiş geçirilen her saniye için, güvenli bölgeler dışında | 0,1 | Yok |
+| **Gizlilik** (Refleks) | Son 1 dk içinde emir verilmişken gizlenmiş geçirilen her saniye için, güvenli bölgeler dışında | 0,1 | Yok |
 | **Radyasyon teknolojisi** (Dayanıklılık) | Bir radyasyon bandının içindeki her saniye için | 0,2 | Yok |
 |  | Radyasyonun aldığı azami gövdenin her %1’i için | 1 |  |
 | **İtici teorisi** (Kütle) | Geminin hızının %80 kadarını aşarak uçulan her saniye için, Afterburner altında iki katı | 0,1 | Yok |

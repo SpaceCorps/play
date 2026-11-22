@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c91f93d3941bb3bf -->
+<!-- wiki-i18n source: dde8093210ad8db3 -->
 <!-- wiki-i18n title: Schwarzes Loch -->
 # Das Schwarze Loch {#the-black-hole}
 
@@ -15,7 +15,7 @@ Die Entfernungen gelten ab der Mitte des Sektors, in Karteneinheiten. Der Sektor
 
 | Ring | Entfernung | Was passiert |
 | :--- | ---: | :--- |
-| **Strahlung** | 4.000 | Dein Schiff nimmt jede Sekunde Schaden, einen Anteil seiner gesamten maximalen HP. Je näher, desto mehr. |
+| **Strahlung** | 4.000 | Deine Hülle nimmt jede Sekunde Schaden, einen Anteil ihrer maximalen Hülle. Je näher, desto mehr. |
 | **Sog** | 3.000 | Das Schwarze Loch zieht dein Schiff zur Mitte, umso stärker, je näher du bist. Ein Schiff, das nicht fliegt, wird mitgetragen. |
 | **Punkt ohne Wiederkehr** | etwa 800 bis 2.600 | Dort, wo der Sog dem Tempo deines Schiffs entspricht. Innerhalb davon wirst du selbst mit voller Kraft hineingezogen. Er hängt von deinem Tempo ab. |
 | **Ereignishorizont** | 300 | Jedes Schiff, das ihn erreicht, wird sofort zerstört, egal wie stark Hülle und Schild sind. |
@@ -33,7 +33,7 @@ Das Schwarze Loch ist nicht die ganze Saison über gleich groß. In den letzten 
 | **Strahlung** | 4.000 | 5.600 | 7.200 |
 | **Lenkring** | 4.200 | 5.880 | 7.560 |
 
-Was sich nicht ändert, ist die Härte am gleichen Anteil des Wegs nach innen: Ein Schiff, das bei 1,8-fachem Loch 3.600 Einheiten von der Mitte entfernt ist, spürt, was ein Schiff 2.000 Einheiten von der Mitte an einem normalen Tag spürt (einen Sog von 96 Einheiten pro Sekunde und 2 % seiner HP pro Sekunde). Das vergrößerte Loch ist nicht stärker, sondern breiter, und ein Schiff braucht 1,8-mal so lange, es zu durchqueren. Der Punkt ohne Wiederkehr jedes Schiffs liegt 1,8-mal so weit draußen. Alle Entfernungen auf dieser Seite gelten für die normale Größe: Multipliziere sie mit der Größe des Lochs, um das vergrößerte Loch zu lesen.
+Was sich nicht ändert, ist die Härte am gleichen Anteil des Wegs nach innen: Ein Schiff, das bei 1,8-fachem Loch 3.600 Einheiten von der Mitte entfernt ist, spürt, was ein Schiff 2.000 Einheiten von der Mitte an einem normalen Tag spürt (einen Sog von 96 Einheiten pro Sekunde und 2 % seiner Hülle pro Sekunde). Das vergrößerte Loch ist nicht stärker, sondern breiter, und ein Schiff braucht 1,8-mal so lange, es zu durchqueren. Der Punkt ohne Wiederkehr jedes Schiffs liegt 1,8-mal so weit draußen. Alle Entfernungen auf dieser Seite gelten für die normale Größe: Multipliziere sie mit der Größe des Lochs, um das vergrößerte Loch zu lesen.
 
 - **So siehst du es.** In den letzten 72 Stunden zeigen das Dashboard oben eine Karte und die Flugansicht ein Etikett über dem Schwarzen Loch, die bis zum Wipe herunterzählen („Universums-Wipe in 1d 05:12:33“) und sagen, wievielmal so groß das Loch gerade ist; in den letzten fünf Minuten übernimmt der eigene Countdown des Wipes. Der Tooltip der Minikarte nennt die Ringe in der Größe, die das Loch jetzt hat.
 - **Wann.** Die Größe hängt nur von der Uhr der Saison ab, ist also in jeder Welt gleich. Solange ein Admin die Saison auf einem Tag hält, ist nichts geplant und das Loch bleibt in seiner normalen Größe; wird der Saisontag verschoben, folgt das Loch sofort; die nächste Saison beginnt mit einem normalen Loch.
@@ -42,7 +42,7 @@ Was sich nicht ändert, ist die Härte am gleichen Anteil des Wegs nach innen: E
 
 ## Strahlung {#radiation}
 
-Der Schaden ist ein **Prozentsatz der gesamten maximalen HP deines Schiffs** (Hülle plus Schild) pro Sekunde, daher hält jede Schiffsklasse in einer bestimmten Entfernung genau gleich lange durch: Bei 2.000 Einheiten brennt die Strahlung eine volle Protos ebenso wie eine volle Wraith in 50 Sekunden herunter.
+Der Schaden ist ein **Prozentsatz der maximalen Hülle deines Schiffs** pro Sekunde und kommt **direkt aus der Hülle**: Dein Schild fängt ihn nicht ab. Daher hält jede Schiffsklasse in einer bestimmten Entfernung genau gleich lange durch: Bei 2.000 Einheiten brennt die Strahlung die volle Hülle einer Protos ebenso wie die einer Wraith in 50 Sekunden herunter.
 
 | Entfernung | Schaden pro Sekunde | Ein volles Schiff hält |
 | ---: | ---: | ---: |
@@ -54,24 +54,25 @@ Der Schaden ist ein **Prozentsatz der gesamten maximalen HP deines Schiffs** (H�
 | 700 | 11 % | 9 s |
 | 300 | 24 % | 4 s |
 
-Zwischen zwei Zeilen steigt der Schaden linear. In Trefferpunkten pro Sekunde, für die Standardausstattung:
+Zwischen zwei Zeilen steigt der Schaden linear. In Hüllenpunkten pro Sekunde, für die Standardausstattung:
 
-| Schiff | Max. HP gesamt | Bei 3.500 | Bei 3.000 | Bei 2.000 | Bei 1.200 | Bei 700 |
+| Schiff | Max. Hülle | Bei 3.500 | Bei 3.000 | Bei 2.000 | Bei 1.200 | Bei 700 |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| Protos | 30.000 | 165 | 240 | 600 | 1.500 | 3.300 |
-| Kitefin | 46.000 | 253 | 368 | 920 | 2.300 | 5.060 |
-| Ostirion | 98.500 | 542 | 788 | 1.970 | 4.925 | 10.835 |
-| Nomad | 145.500 | 800 | 1.164 | 2.910 | 7.275 | 16.005 |
-| Paragon | 162.500 | 894 | 1.300 | 3.250 | 8.125 | 17.875 |
-| Storm | 228.000 | 1.254 | 1.824 | 4.560 | 11.400 | 25.080 |
-| Wraith | 304.000 | 1.672 | 2.432 | 6.080 | 15.200 | 33.440 |
-| Ironclad | 573.200 | 3.153 | 4.586 | 11.464 | 28.660 | 63.052 |
+| Protos | 8.000 | 44 | 64 | 160 | 400 | 880 |
+| Kitefin | 24.000 | 132 | 192 | 480 | 1.200 | 2.640 |
+| Ostirion | 64.000 | 352 | 512 | 1.280 | 3.200 | 7.040 |
+| Nomad | 111.000 | 611 | 888 | 2.220 | 5.550 | 12.210 |
+| Paragon | 128.000 | 704 | 1.024 | 2.560 | 6.400 | 14.080 |
+| Storm | 180.000 | 990 | 1.440 | 3.600 | 9.000 | 19.800 |
+| Wraith | 256.000 | 1.408 | 2.048 | 5.120 | 12.800 | 28.160 |
+| Ironclad | 500.000 | 2.750 | 4.000 | 10.000 | 25.000 | 55.000 |
 
-- Den Schaden **nimmt zuerst der Schild**, dann die Hülle. Es ist kein Treffer: Die Absorption des Schilds spielt keine Rolle, und ausweichen kannst du ihm nicht.
+- Der Schaden geht **direkt in die Hülle**: Der Schild nimmt nichts davon, ein Schiff ohne Schild verliert also genau so viel wie eines mit einem Heavy Shield Core. Es ist kein Treffer: Die Absorption des Schilds spielt keine Rolle, und ausweichen kannst du ihm nicht.
 - Strahlung zählt als **erlittener Schaden**: Dein Schild lädt sich nicht auf, eine Repair Drone stoppt („Reparatur unterbrochen: Strahlung.“) und lässt sich nicht starten, und eine Schutzzone würde dich erst 5 Sekunden nach der letzten Dosis schützen.
-- Booster und Upgrades ändern, wie groß deine Gesamtsumme ist, nicht, wie lange du durchhältst: Der Schaden ist ein Anteil davon.
-- Nichts macht ein Schiff immun. Strahlung ist kein Treffer, also fängt nichts sie ab; die Fähigkeiten wirken darin aber weiter: Ein Shield Surge stellt deinen Schild weiter wieder her und eine Emergency Repair heilt deine Hülle weiter, jeweils für ihre zehn Sekunden (sie sind nicht die natürlichen Reparaturen, die die Dosis stoppt). Eine Tarnung verbirgt das Schiff nicht vor ihr.
-- Die **Strahlungstechnik**, eine Pilotenfähigkeit, senkt die Dosis: Der Anteil deines Gesamtwerts, den du pro Sekunde verlierst, fällt in einer geraden Linie vom Ganzen auf Stufe 1 auf das 0,40-Fache auf Stufe 100, und die Anzeige zeigt die Dosis, die du wirklich bekommst.
+- Booster und Upgrades ändern, wie groß deine Hülle ist, nicht, wie lange du durchhältst: Der Schaden ist ein Anteil davon.
+- Nichts macht ein Schiff immun. Strahlung ist kein Treffer, also fängt nichts sie ab, der Schild am wenigsten; die Fähigkeiten wirken darin aber weiter: Eine Emergency Repair heilt deine Hülle weiter, für ihre zehn Sekunden (sie gehört nicht zu den natürlichen Reparaturen, die die Dosis stoppt), und ein Shield Surge stellt weiter einen Schild wieder her, den die Strahlung nie angreift. Eine Tarnung verbirgt das Schiff nicht vor ihr.
+- Die **Strahlungstechnik**, eine Pilotenfähigkeit, senkt die Dosis: Der Anteil deiner Hülle, den du pro Sekunde verlierst, fällt in einer geraden Linie vom Ganzen auf Stufe 1 auf das 0,40-Fache auf Stufe 100, und die Anzeige zeigt die Dosis, die du wirklich bekommst.
+- Die **N.U.K.E.** und die **Gravitational N.U.K.E.** hinterlassen dort, wo sie detonieren, eigene Strahlungszonen, die die Hülle auf die gleiche Weise verbrennen: [Raketen](/wiki/06-Items/Rockets.md#the-craft-only-rockets) beschreibt sie.
 
 ## Der Sog {#the-pull}
 
@@ -131,7 +132,7 @@ Der Bildausschnitt ist klein (beim Standardzoom etwa 1.900 mal 1.150 Einheiten a
 
 - **Aus der Ferne.** Neigst du die Kamera nach unten, um über die Ebene zu blicken, wird das Schwarze Loch dort gezeichnet, wo es auf dem Bildschirm liegt, von überall im Sektor aus, sobald es im Bild ist: eine schwarze Scheibe mit einem Ring in einem Schein aus Akkretionslicht, so skaliert, dass sie gut zu sehen bleibt (etwa 2 % der Bildhöhe aus der entferntesten Ecke, die etwa 18.000 Einheiten entfernt ist), und sie wächst in ihr eigentliches Bild hinein, während du dich näherst. Nichts darin bewegt sich von selbst. Ist das Schwarze Loch nicht im Bild, gibt es auf dem Bildschirm keine Markierung dafür.
 - **Ringe auf der Flugebene.** Ein violettes Band leuchtet bis zu einer scharfen Kante am Rand der Strahlung (4.000 Einheiten), und ein dünneres bernsteinfarbenes markiert den Rand des Sogs (3.000). Innerhalb des Sogs zeigt eine **rote Linie** *deinen eigenen* Punkt ohne Wiederkehr. Sie folgt deinem Tempo und wandert also, wenn dein Schiff schneller oder langsamer wird.
-- **Die Anzeige** über der Aktionsleiste erscheint innerhalb von tausend Einheiten vor dem Rand und bleibt, solange du brennst. Sie zeigt die Strahlung in Prozent der gesamten HP deines Schiffs pro Sekunde, wie lange die Strahlung allein bräuchte, um den Rest aufzuzehren („Tödlich in 31 s“, rot unter zehn), einen Balken dieser HP, den Sog an deiner Position gegen dein Tempo und die Strecke, die dir noch bis zu deinem Punkt ohne Wiederkehr bleibt, oder eine blinkende Warnung, sobald du ihn hinter dir hast. Zeige auf eine Zeile, um zu sehen, was sie bedeutet; das (i) öffnet eine Karte.
+- **Die Anzeige** über der Aktionsleiste erscheint innerhalb von tausend Einheiten vor dem Rand und bleibt, solange du brennst. Sie zeigt die Strahlung in Prozent der maximalen Hülle deines Schiffs pro Sekunde, wie lange die Strahlung allein bräuchte, um den Rest deiner Hülle aufzuzehren („Tödlich in 31 s“, rot unter zehn), einen Balken dieser Hülle, den Sog an deiner Position gegen dein Tempo und die Strecke, die dir noch bis zu deinem Punkt ohne Wiederkehr bleibt, oder eine blinkende Warnung, sobald du ihn hinter dir hast. Zeige auf eine Zeile, um zu sehen, was sie bedeutet; das (i) öffnet eine Karte.
 - **Die Bildschirmränder** leuchten violett, werden mit steigender Dosis rot und pulsieren einmal pro Sekunde.
 - **Die Minikarte** zeichnet das Schwarze Loch mit seinen Ringen als Ellipsen (die Karte streckt sich mit ihrem Fenster), und ihr Tooltip nennt die Radien. Die Sternensystem-Karte markiert den Sektor mit einem kleinen Schwarzen Loch.
 - **Ein Strahlungszähler** tickt über den Kampflärm hinweg umso schneller, je höher die Dosis steigt. Ein Warnton aus zwei Tönen erklingt, wenn du den Rand überquerst, und noch einmal an deinem Punkt ohne Wiederkehr, und ab etwa 6.500 Einheiten ist ein tiefes Grollen zu hören, umso tiefer, je näher du bist.
@@ -156,8 +157,8 @@ Neu bei Dark Matter? [Dark Matter und Dark Matter Plates](/wiki/03-Mechanics/Dar
 
 Das Loch gibt **Dark Matter** für eine **N.I.K.E.**-Rakete zurück, die es erreicht. Eine N.I.K.E. ist eine Rakete mit 67.500 bis 75.000 Schaden, die das erste Schiff trifft, das sie verletzen darf, und daran verbraucht ist; ist nichts im Weg, fliegt sie zum Loch und wird verbraucht, wenn sie den Ereignishorizont überquert. Die [Montage](/wiki/06-Items/Rockets.md) stellt N.I.K.E.s her, sobald ihre Technologie erforscht ist ([Forschung](/wiki/03-Mechanics/Research.md)), fünf pro Herstellung (100.000 Credits, 1.500 Thulium, 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite).
 
-- **Abfeuern.** Eine N.I.K.E. fliegt 4.050 Einheiten in 4,5 Sekunden (900 pro Sekunde) geradeaus dorthin, wohin du gezielt hast: Ohne gewähltes Ziel setzt du den Mauszeiger auf das Schwarze Loch (oder richtest dein Schiff darauf aus). Sie erreicht den Horizont von überall zwischen dem Rand der Strahlung (4.000 Einheiten) und 4.380 Einheiten von der Mitte. Von weiter draußen fällt sie zu kurz und ist verschwendet. Wie jede Rakete nutzt sie den gemeinsamen Timer, und danach wartest du 4,6 Sekunden auf die nächste Rakete (du brauchst dafür keinen ausgerüsteten Laser); das Abfeuern beendet deinen Schutz in der Schutzzone und deine Tarnung. **Ein Schiff in der Schusslinie bekommt sie stattdessen ab**: Ein Rivale, der am Rand wartet, oder ein Pilot eines anderen Konzerns, der im Weg Kisten einsammelt, wird mit 67.500 bis 75.000 getroffen, und das Loch bekommt nichts. Aliens und Konzernpiloten kommen nie in den Ring, also liegt es an dir, die Linie frei zu halten; die Rakete fliegt durch deine eigene Gruppe hindurch und durch Schiffe, die vor dir sicher sind; ein Pilot deines eigenen Konzerns, der nicht in deiner Gruppe ist, ist hier, wo PvP aktiv ist, ein Schiff wie jedes andere. Verlässt du die Karte nach dem Schuss, fliegt sie weiter, ohne jemanden zu verletzen, und erzeugt trotzdem dein Dark Matter. Eine Drohnenformation kann den Schaden des Treffers ändern, aber nicht die Wartezeit nach einer N.I.K.E. (siehe [Drohnenformationen und Raketen](/wiki/06-Items/Rockets.md#drone-formations-and-rockets)).
-- **Was zurückkommt.** Jede N.I.K.E., die den Horizont erreicht, bringt **1, 2 oder 3 Dark Matter** (im Schnitt 2, fünf N.I.K.E.s machen also etwa zehn), in kleinen Kisten, eine für jede Einheit (also eine bis drei Kisten), die am Rand der Zone des Lochs erscheinen, **3.050 bis 3.950 Einheiten von der Mitte**, nahe der Linie, auf der dein Schuss hereinkam. Der Sog endet bei 3.000, also werden die Kisten und die Schiffe, die sie einsammeln, nicht gezogen, und die Strahlung beträgt dort 0,3 bis 0,8 % der HP eines Schiffs pro Sekunde: Eine Minute in der Mitte des Bands kostet ein Drittel deines Schiffs. Ein volles Schiff hält dort drei Minuten durch.
+- **Abfeuern.** Eine N.I.K.E. fliegt 4.455 Einheiten in 4,5 Sekunden (1000 pro Sekunde) geradeaus dorthin, wohin du gezielt hast: Ohne gewähltes Ziel setzt du den Mauszeiger auf das Schwarze Loch (oder richtest dein Schiff darauf aus). Sie erreicht den Horizont von überall zwischen dem Rand der Strahlung (4.000 Einheiten) und 4.785 Einheiten von der Mitte. Von weiter draußen fällt sie zu kurz und ist verschwendet. Wie jede Rakete nutzt sie den gemeinsamen Timer, und danach wartest du 4,6 Sekunden auf die nächste Rakete (du brauchst dafür keinen ausgerüsteten Laser); das Abfeuern beendet deinen Schutz in der Schutzzone und deine Tarnung. **Ein Schiff in der Schusslinie bekommt sie stattdessen ab**: Ein Rivale, der am Rand wartet, oder ein Pilot eines anderen Konzerns, der im Weg Kisten einsammelt, wird mit 67.500 bis 75.000 getroffen, und das Loch bekommt nichts. Aliens und Konzernpiloten kommen nie in den Ring, also liegt es an dir, die Linie frei zu halten; die Rakete fliegt durch deine eigene Gruppe hindurch und durch Schiffe, die vor dir sicher sind; ein Pilot deines eigenen Konzerns, der nicht in deiner Gruppe ist, ist hier, wo PvP aktiv ist, ein Schiff wie jedes andere. Verlässt du die Karte nach dem Schuss, fliegt sie weiter, ohne jemanden zu verletzen, und erzeugt trotzdem dein Dark Matter. Eine Drohnenformation kann den Schaden des Treffers ändern, aber nicht die Wartezeit nach einer N.I.K.E. (siehe [Drohnenformationen und Raketen](/wiki/06-Items/Rockets.md#drone-formations-and-rockets)).
+- **Was zurückkommt.** Jede N.I.K.E., die den Horizont erreicht, bringt **1, 2 oder 3 Dark Matter** (im Schnitt 2, fünf N.I.K.E.s machen also etwa zehn), in kleinen Kisten, eine für jede Einheit (also eine bis drei Kisten), die am Rand der Zone des Lochs erscheinen, **3.050 bis 3.950 Einheiten von der Mitte**, nahe der Linie, auf der dein Schuss hereinkam. Der Sog endet bei 3.000, also werden die Kisten und die Schiffe, die sie einsammeln, nicht gezogen, und die Strahlung beträgt dort 0,3 bis 0,8 % der Hülle eines Schiffs pro Sekunde: Eine Minute in der Mitte des Bands kostet ein Drittel deines Schiffs. Ein volles Schiff hält dort drei Minuten durch.
 - **Wem sie gehören.** Die Kisten gehören dir und deinem Clan, **60 Sekunden** lang ab dem Schuss. Danach darf jeder auf der Karte sie nehmen, und nach **4 Minuten** treiben sie davon. Der Gefahrensektor ist ein PvP-Sektor, also rechne mit Gesellschaft. Ein Pilot, der sich nach dem Abfeuern ausloggt, behält seine Kisten.
 - **Wie viele.** Eine Karte fasst höchstens 52 Dark-Matter-Kisten; eine neue verdrängt die älteste von ihnen und nie eine andere Art von Kiste. Der [Resource Magnet Booster](/wiki/03-Mechanics/Cargo.md) fügt Dark Matter nichts hinzu.
 - **Was du siehst.** Überquert eine N.I.K.E. den Horizont, wird sie in das Loch hineingestreckt, der Raum kräuselt sich von der Stelle aus, an der sie eintrat, und die Scheibe und der Photonenring flammen etwa anderthalb Sekunden lang auf (ein Drittel davon, mit halbem Licht, unter **Bewegung reduzieren**). Einen Moment später kommen die Kisten aus dem Loch und treiben an ihre Plätze am Rand: Jede ist eine violett-schwarze Kugel mit hellem Rand und Funkeln, von Weitem gut zu sehen, und trägt den Titel **Dark Matter**, wenn du auf sie zeigst. Über deinen stehen die Sekunden, die dir bleiben, und sie erscheinen auf der Minikarte als kleine violette Markierung, ebenso für deinen Clan; die Kisten anderer Piloten erscheinen auf der Minikarte erst, wenn ihre Minute vorbei ist.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c91f93d3941bb3bf -->
+<!-- wiki-i18n source: dde8093210ad8db3 -->
 <!-- wiki-i18n title: Svart hål -->
 # Det svarta hålet {#the-black-hole}
 
@@ -15,7 +15,7 @@ Avstånden räknas från sektorns mitt, i kartenheter. Sektorn är 32 000 gång
 
 | Ring | Avstånd | Vad som händer |
 | :--- | ---: | :--- |
-| **Strålning** | 4 000 | Ditt skepp tar skada varje sekund, en andel av dess totala maximala HP. Ju närmare, desto mer. |
+| **Strålning** | 4 000 | Ditt skrov tar skada varje sekund, en andel av dess maximala skrov. Ju närmare, desto mer. |
 | **Dragning** | 3 000 | Det svarta hålet drar ditt skepp mot mitten, hårdare ju närmare du är. Ett skepp som inte flyger förs med. |
 | **Punkt utan återvändo** | ungefär 800 till 2 600 | Där dragningen är lika stark som ditt skepps fart. Innanför den dras du in, även med full kraft. Den beror på din fart. |
 | **Händelsehorisont** | 300 | Varje skepp som når den förstörs på stört, oavsett skrov och sköld. |
@@ -33,7 +33,7 @@ Det svarta hålet är inte lika stort hela säsongen. Under de sista **72 timmar
 | **Strålning** | 4 000 | 5 600 | 7 200 |
 | **Styrring** | 4 200 | 5 880 | 7 560 |
 
-Det som inte ändras är hur hårt det är på samma andel av vägen in: ett skepp 3 600 enheter från mitten, med hålet på 1,8 gånger, känner det som ett skepp 2 000 enheter ut känner en vanlig dag (en dragning på 96 enheter i sekunden och 2 % av sin HP i sekunden). Det växta hålet är inte starkare, det är bredare, och ett skepp behöver 1,8 gånger så lång tid för att ta sig igenom det. Varje skepps punkt utan återvändo ligger 1,8 gånger så långt ut. Alla avstånd på den här sidan gäller normal storlek: multiplicera dem med hålets storlek för att läsa det växta hålet.
+Det som inte ändras är hur hårt det är på samma andel av vägen in: ett skepp 3 600 enheter från mitten, med hålet på 1,8 gånger, känner det som ett skepp 2 000 enheter ut känner en vanlig dag (en dragning på 96 enheter i sekunden och 2 % av sitt skrov i sekunden). Det växta hålet är inte starkare, det är bredare, och ett skepp behöver 1,8 gånger så lång tid för att ta sig igenom det. Varje skepps punkt utan återvändo ligger 1,8 gånger så långt ut. Alla avstånd på den här sidan gäller normal storlek: multiplicera dem med hålets storlek för att läsa det växta hålet.
 
 - **Så ser du det.** Under de sista 72 timmarna har Dashboard ett kort överst, och flygvyn en etikett över det svarta hålet, som räknar ner till återställningen (”Universumet återställs om 1d 05:12:33”) och säger hur många gånger sin storlek hålet har just nu; under de sista fem minuterna tar återställningens egen nedräkning över. Minikartans verktygstips nämner ringarna i den storlek hålet har nu.
 - **När.** Storleken beror bara på säsongens klocka, så den är densamma i alla världar. Så länge en admin håller säsongen på en dag är inget schemalagt och hålet förblir i normal storlek; flyttas säsongsdagen följer hålet med direkt; nästa säsong börjar med ett normalt hål.
@@ -42,7 +42,7 @@ Det som inte ändras är hur hårt det är på samma andel av vägen in: ett ske
 
 ## Strålning {#radiation}
 
-Skadan är en **andel av ditt skepps totala maximala HP** (skrov plus sköld) varje sekund, så alla skeppsklasser håller precis lika länge på ett givet avstånd: en Protos och en Wraith på 2 000 enheter bränns båda genom ett helt skepp på 50 sekunder.
+Skadan är en **andel av ditt skepps maximala skrov** varje sekund och går **rakt på skrovet**: din sköld tar inte emot den. Därför håller alla skeppsklasser precis lika länge på ett givet avstånd: en Protos och en Wraith på 2 000 enheter bränns båda genom ett helt skrov på 50 sekunder.
 
 | Avstånd | Skada per sekund | Ett helt skepp håller i |
 | ---: | ---: | ---: |
@@ -54,24 +54,25 @@ Skadan är en **andel av ditt skepps totala maximala HP** (skrov plus sköld) va
 | 700 | 11 % | 9 s |
 | 300 | 24 % | 4 s |
 
-Mellan två rader ökar skadan längs en rät linje. I träffpoäng per sekund, för grundutrustningarna:
+Mellan två rader ökar skadan längs en rät linje. I skrovpoäng per sekund, för grundutrustningarna:
 
-| Skepp | Totalt max. HP | Vid 3 500 | Vid 3 000 | Vid 2 000 | Vid 1 200 | Vid 700 |
+| Skepp | Max. skrov | Vid 3 500 | Vid 3 000 | Vid 2 000 | Vid 1 200 | Vid 700 |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| Protos | 30 000 | 165 | 240 | 600 | 1 500 | 3 300 |
-| Kitefin | 46 000 | 253 | 368 | 920 | 2 300 | 5 060 |
-| Ostirion | 98 500 | 542 | 788 | 1 970 | 4 925 | 10 835 |
-| Nomad | 145 500 | 800 | 1 164 | 2 910 | 7 275 | 16 005 |
-| Paragon | 162 500 | 894 | 1 300 | 3 250 | 8 125 | 17 875 |
-| Storm | 228 000 | 1 254 | 1 824 | 4 560 | 11 400 | 25 080 |
-| Wraith | 304 000 | 1 672 | 2 432 | 6 080 | 15 200 | 33 440 |
-| Ironclad | 573 200 | 3 153 | 4 586 | 11 464 | 28 660 | 63 052 |
+| Protos | 8 000 | 44 | 64 | 160 | 400 | 880 |
+| Kitefin | 24 000 | 132 | 192 | 480 | 1 200 | 2 640 |
+| Ostirion | 64 000 | 352 | 512 | 1 280 | 3 200 | 7 040 |
+| Nomad | 111 000 | 611 | 888 | 2 220 | 5 550 | 12 210 |
+| Paragon | 128 000 | 704 | 1 024 | 2 560 | 6 400 | 14 080 |
+| Storm | 180 000 | 990 | 1 440 | 3 600 | 9 000 | 19 800 |
+| Wraith | 256 000 | 1 408 | 2 048 | 5 120 | 12 800 | 28 160 |
+| Ironclad | 500 000 | 2 750 | 4 000 | 10 000 | 25 000 | 55 000 |
 
-- **Skölden tar skadan först**, sedan skrovet. Det är ingen träff: sköldens absorption kommer inte in i bilden, och strålningen går inte att väja undan.
+- Den går **rakt på skrovet**: skölden tar ingenting av den, så ett skepp utan sköld förlorar precis lika mycket som ett med en Heavy Shield Core. Det är ingen träff: sköldens absorption kommer inte in i bilden, och strålningen går inte att väja undan.
 - Strålning räknas som **skada du tar**: din sköld laddas inte om, en Repair Drone stannar (”Reparationer avbrutna: strålning.”) och går inte att starta, och en säker zon skyddar dig inte förrän 5 sekunder efter den sista dosen.
-- Boosters och uppgraderingar ändrar hur stor din totalsumma är, inte hur länge du håller: skadan är en andel av den.
-- Inget gör ett skepp immunt. Strålning är ingen träff, så ingenting suger upp den; men förmågorna fortsätter att fungera i den: en Shield Surge fortsätter att återställa din sköld och en Emergency Repair fortsätter att läka ditt skrov under sina tio sekunder (de är inte de naturliga reparationer som dosen stoppar). Kamouflage döljer inte skeppet för den.
-- **Strålningsteknik**, en pilotförmåga, sänker dosen: den andel av din totalsumma du förlorar per sekund sjunker i rak linje från hela på nivå 1 till 0,40 av den på nivå 100, och mätaren visar den dos du verkligen får.
+- Boosters och uppgraderingar ändrar hur stort ditt skrov är, inte hur länge du håller: skadan är en andel av det.
+- Inget gör ett skepp immunt. Strålning är ingen träff, så ingenting suger upp den, allra minst skölden; men förmågorna fortsätter att fungera i den: en Emergency Repair fortsätter att läka ditt skrov under sina tio sekunder (den är inte en av de naturliga reparationer som dosen stoppar), och en Shield Surge fortsätter att återställa en sköld som strålningen aldrig rör. Kamouflage döljer inte skeppet för den.
+- **Strålningsteknik**, en pilotförmåga, sänker dosen: den andel av ditt skrov du förlorar per sekund sjunker i rak linje från hela på nivå 1 till 0,40 av den på nivå 100, och mätaren visar den dos du verkligen får.
+- **N.U.K.E.** och **Gravitational N.U.K.E.** lämnar efter sig egna strålningszoner där de detonerar, och de bränner skrovet på samma sätt: [Raketer](/wiki/06-Items/Rockets.md#the-craft-only-rockets) beskriver dem.
 
 ## Dragningen {#the-pull}
 
@@ -131,7 +132,7 @@ Vyn är liten (ungefär 1 900 gånger 1 150 enheter på skärmen med standardz
 
 - **Från långt håll.** Om du vinklar kameran nedåt för att titta längs planet ritas det svarta hålet ut där det ligger på skärmen, från var som helst i sektorn, så fort det är i bild: en svart skiva med en ring i ett sken av ackretionsljus, skalad så att den förblir lätt att se (ungefär 2 % av vyns höjd från det bortre hörnet, som ligger ungefär 18 000 enheter bort), och den växer till sin egen bild när du kommer närmare. Ingenting i den rör sig av sig själv. När det svarta hålet är utanför bild finns ingen markör för det på skärmen.
 - **Ringar på flygplanet.** Ett violett band glöder upp mot en skarp kant vid strålningens rand (4 000 enheter), och ett tunnare bärnstensfärgat markerar dragningens kant (3 000). Innanför dragningen visar en **röd linje** *din egen* punkt utan återvändo. Den följer din fart, så den flyttar sig när ditt skepp blir snabbare eller långsammare.
-- **Mätaren**, ovanför snabbfältet, visas inom tusen enheter från randen och finns kvar medan du bränns. Den visar strålningen i procent av ditt skepps totala HP per sekund, hur lång tid strålningen ensam skulle behöva för att bränna genom det som är kvar (”Dödligt om 31 s”, rött under tio), en stapel för den HP:n, dragningen där du är mot din fart, och avståndet som återstår att flyga till din punkt utan återvändo, eller en blinkande varning när du är förbi den. Håll pekaren över en rad för att se vad den betyder; (i) öppnar ett hjälpkort.
+- **Mätaren**, ovanför snabbfältet, visas inom tusen enheter från randen och finns kvar medan du bränns. Den visar strålningen i procent av ditt skepps maximala skrov per sekund, hur lång tid strålningen ensam skulle behöva för att bränna genom det som är kvar av ditt skrov (”Dödligt om 31 s”, rött under tio), en stapel för det skrovet, dragningen där du är mot din fart, och avståndet som återstår att flyga till din punkt utan återvändo, eller en blinkande varning när du är förbi den. Håll pekaren över en rad för att se vad den betyder; (i) öppnar ett hjälpkort.
 - **Skärmkanterna** glöder violetta, blir röda när dosen stiger, och pulserar en gång i sekunden.
 - **Minikartan** ritar det svarta hålet med dess ringar som ellipser (kartan sträcks ut med sitt fönster), och dess verktygstips anger radierna. Kartan Stjärnsystem markerar sektorn med ett litet svart hål.
 - **En strålningsräknare** tickar snabbare när dosen stiger, ovanpå striden. En varningssignal i två toner ljuder när du korsar randen och igen vid din punkt utan återvändo, och ett lågt mullrande hörs från ungefär 6 500 enheter, djupare ju närmare du är.
@@ -156,8 +157,8 @@ Ny med Dark Matter? [Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark
 
 Hålet ger tillbaka **Dark Matter** för en **N.I.K.E.**-raket som når det. En N.I.K.E. är en raket med 67 500 till 75 000 i skada som träffar det första skepp den kan skada och förbrukas på det; om inget är i vägen flyger den till hålet och förbrukas när den korsar händelsehorisonten. [Monteringen](/wiki/06-Items/Rockets.md) tillverkar N.I.K.E.-raketer när deras teknologi är framforskad ([Forskning](/wiki/03-Mechanics/Research.md)), fem per tillverkning (100 000 krediter, 1 500 Thulium, 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite).
 
-- **Avfyrning.** En N.I.K.E. flyger 4 050 enheter på 4,5 sekunder (900 i sekunden) rakt mot det du siktade på: utan valt mål, lägg markören på det svarta hålet (eller rikta skeppet mot det). Den når horisonten från var som helst mellan strålningens rand (4 000 enheter) och 4 380 enheter från mitten. Längre bort faller den kort och går till spillo. Som alla raketer använder den den gemensamma omladdningen, och efter den väntar du 4,6 sekunder på nästa raket (ingen laser behöver vara monterad); att avfyra den avslutar ditt skydd i den säkra zonen och ditt kamouflage. **Ett skepp på linjen tar den i stället**: en rival som väntar vid randen, eller en pilot från en annan koncern som plockar upp lådor i vägen, träffas av 67 500 till 75 000 och hålet får ingenting. Utomjordingar och koncernpiloter kommer aldrig innanför ringen, så en fri linje är din att hålla fri; den flyger genom din egen grupp och genom skepp som är säkra för dig; en pilot i din egen koncern som inte är i din grupp är ett skepp som alla andra där PvP är på. Lämnar du kartan efter skottet flyger den vidare utan att skada någon och ger ändå din Dark Matter. En drönarformation kan ändra träffens skada, men inte väntan efter en N.I.K.E. (se [Drönarformationer och raketer](/wiki/06-Items/Rockets.md#drone-formations-and-rockets)).
-- **Vad som kommer tillbaka.** Varje N.I.K.E. som når horisonten ger **1, 2 eller 3 Dark Matter** (2 i snitt, så ungefär fem N.I.K.E.-raketer ger tio), i små lådor, en för varje enhet (alltså en till tre lådor), som dyker upp vid randen av hålets zon, **3 050 till 3 950 enheter från mitten**, nära linjen ditt skott kom in på. Dragningen slutar vid 3 000, så lådorna och skeppen som tar dem dras inte, och strålningen där är 0,3 till 0,8 % av ett skepps HP i sekunden: en minut mitt i bandet kostar en tredjedel av ditt skepp. Ett helt skepp håller tre minuter där.
+- **Avfyrning.** En N.I.K.E. flyger 4 455 enheter på 4,5 sekunder (1000 i sekunden) rakt mot det du siktade på: utan valt mål, lägg markören på det svarta hålet (eller rikta skeppet mot det). Den når horisonten från var som helst mellan strålningens rand (4 000 enheter) och 4 785 enheter från mitten. Längre bort faller den kort och går till spillo. Som alla raketer använder den den gemensamma omladdningen, och efter den väntar du 4,6 sekunder på nästa raket (ingen laser behöver vara monterad); att avfyra den avslutar ditt skydd i den säkra zonen och ditt kamouflage. **Ett skepp på linjen tar den i stället**: en rival som väntar vid randen, eller en pilot från en annan koncern som plockar upp lådor i vägen, träffas av 67 500 till 75 000 och hålet får ingenting. Utomjordingar och koncernpiloter kommer aldrig innanför ringen, så en fri linje är din att hålla fri; den flyger genom din egen grupp och genom skepp som är säkra för dig; en pilot i din egen koncern som inte är i din grupp är ett skepp som alla andra där PvP är på. Lämnar du kartan efter skottet flyger den vidare utan att skada någon och ger ändå din Dark Matter. En drönarformation kan ändra träffens skada, men inte väntan efter en N.I.K.E. (se [Drönarformationer och raketer](/wiki/06-Items/Rockets.md#drone-formations-and-rockets)).
+- **Vad som kommer tillbaka.** Varje N.I.K.E. som når horisonten ger **1, 2 eller 3 Dark Matter** (2 i snitt, så ungefär fem N.I.K.E.-raketer ger tio), i små lådor, en för varje enhet (alltså en till tre lådor), som dyker upp vid randen av hålets zon, **3 050 till 3 950 enheter från mitten**, nära linjen ditt skott kom in på. Dragningen slutar vid 3 000, så lådorna och skeppen som tar dem dras inte, och strålningen där är 0,3 till 0,8 % av ett skepps skrov i sekunden: en minut mitt i bandet kostar en tredjedel av ditt skepp. Ett helt skepp håller tre minuter där.
 - **Vems.** Lådorna är dina, och din klans, i **60 sekunder** från skottet. Därefter får vem som helst på kartan ta dem, och de driver bort efter **4 minuter**. Farosektorn är en PvP-sektor, så räkna med sällskap. En pilot som loggar ut efter att ha avfyrat har fortfarande sina lådor.
 - **Hur många.** En karta rymmer högst 52 lådor med Dark Matter; en ny knuffar ut den äldsta av dem, och aldrig någon annan sorts låda. [Resource Magnet Booster](/wiki/03-Mechanics/Cargo.md) lägger inget till Dark Matter.
 - **Vad du ser.** När en N.I.K.E. korsar horisonten sträcks den ut in i hålet, rymden krusar sig ut från där den gick in, och skivan och fotonringen blossar upp i ungefär en och en halv sekund (en tredjedel av det, med hälften av ljuset, under **Minska rörelser**). Ett ögonblick senare kommer lådorna ut ur hålet och driver till sina platser vid randen: var och en är ett violettsvart klot med en ljus kant och gnistor, lätt att se på långt håll, och med titeln **Dark Matter** när du håller pekaren över den. Dina visar sekunderna du har kvar över dem, och syns på minikartan som ett litet violett märke, liksom för din klan; andra piloters lådor syns på minikartan först när deras minut är slut.

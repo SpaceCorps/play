@@ -1,12 +1,14 @@
-<!-- wiki-i18n source: 522d6b0bd8a4106c -->
+<!-- wiki-i18n source: b40e4bea60303f48 -->
 <!-- wiki-i18n title: Gemi tasarımları -->
 # Gemi tasarımları {#ship-designs}
 
-<!-- wiki-search: design; designs; refit; convert; conversion; thunder; bucky; lich; notsum; bratan; recon; duma; titanic; raptor; billy; menati; ataraxis; matt; tasarım; tasarımlar; dönüşüm; dönüştürme; dönüştürmek; gemi tasarımı -->
+<!-- wiki-search: design; designs; refit; convert; conversion; thunder; bucky; lich; notsum; bratan; recon; duma; titanic; raptor; billy; menati; ataraxis; matt; tasarım; tasarımlar; dönüşüm; dönüştürme; dönüştürmek; gemi tasarımı; protosaur; protos -->
 
-Bir **tasarım**, Montaj’da ürettiğin dört gemiden birinin birkaç sayısı bilerek değiştirilmiş hâlidir: daha çok hız için daha az gövde, daha sağlam kalkanlar için bir lazer yuvası eksik. On üç tasarımın dokuzu, özgün geminin sahip olmadığı yedi [yetenekten](/wiki/03-Mechanics/Abilities.md#ship-abilities) biriyle de gelir. Storm RECON’da Chameleon’un yanında iki düğme daha vardır: Target ve Slow. Bir tasarımı Skylab’da araştırırsın, sonra sahip olduğun bir gemiyi Montaj’da ona dönüştürürsün. **Dönüşüm geri alınamaz.**
+Bir **tasarım**, Montaj’da ürettiğin dört gemiden birinin birkaç sayısı bilerek değiştirilmiş hâlidir: daha çok hız için daha az gövde, daha sağlam kalkanlar için bir lazer yuvası eksik. On dört tasarımın onu, özgün geminin sahip olmadığı yedi [yetenekten](/wiki/03-Mechanics/Abilities.md#ship-abilities) biriyle de gelir. Storm RECON’da Chameleon’un yanında iki düğme daha vardır: Target ve Slow. Bir tasarımı Skylab’da araştırırsın, sonra sahip olduğun bir gemiyi Montaj’da ona dönüştürürsün. **Dönüşüm geri alınamaz.**
 
-## On üç tasarım {#the-thirteen-designs}
+**Protosaur**, başlangıç gemisi [Protos](/wiki/02-Ships/Protos.md)’un tasarımıdır ve kendi adı olan tek tasarımdır. Gemi teknolojisi gerektirmez, yalnızca Dark Matter Plate teknolojisi gerekir; maliyeti 50.000 Thulium ve 8 Dark Matter Plate’tir. Protos’a +5 gövde plakası yuvası (hepsi baştan açık), +1 lazer yuvası, +1 ekstra yuva, +30 temel hız, +%50 roket hasarı ve Blink ile Chameleon düğmelerini verir. Başka bir gemi uçurur uçurmaz Protos’unu dönüştürebilirsin.
+
+## On dört tasarım {#the-thirteen-designs}
 
 Son üç sütun, dönüştürülmüş geminin sahip olduklarıdır: plakalardan, boosterlardan, formasyonlardan ve motorlardan önceki kendi gövdesi ve temel hızı ile lazer yuvaları. Tablonun söylemediği her şey geminin sahip olduğu gibi kalır; [gövde plakası yuvaları](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) da.
 
@@ -24,12 +26,13 @@ Son üç sütun, dönüştürülmüş geminin sahip olduklarıdır: plakalardan,
 | **Wraith BILLY** | +%5 temel gövde, +%10 kalkan, Diminisher | 268.800 | 210 | 13 |
 | **Wraith MENATI** | +%20 temel gövde, +20 temel hız, +%5 kalkan soğurması, Heal Pod | 307.200 | 230 | 13 |
 | **Wraith ATARAXIS** | -1 lazer yuvası, +1 destek yuvası, +%25 kalkan, +%10 kalkan soğurması, Shield Buff | 256.000 | 210 | 12 |
-| **Wraith MATT** | +2 lazer yuvası, -%20 kalkan, +%10 lazer delme | 256.000 | 210 | 15 |
+| **Wraith MATT** | +2 lazer yuvası, -%20 kalkan, +%10 lazer delme, +%5 lazer hasarı | 256.000 | 210 | 15 |
+| **Protosaur** | +30 temel hız, +1 lazer yuvası, +5 gövde plakası yuvası, +1 ekstra yuva, +%50 roket hasarı, Blink, Chameleon | 8.000 | 220 | 3 |
 
 ## Tasarımı edinmek {#getting-a-design}
 
 1. **Araştır.** Her tasarım, Skylab’ındaki Araştırma görünümünün Gemiler ağacında bir teknolojidir ([Araştırma](/wiki/03-Mechanics/Research.md#ship-technologies)). 10 saat sürer ve 10 Dark Matter ister; ayrıca kendi geminin teknolojisini ve Dark Matter plakasının teknolojisini gerektirir. Araştırmak henüz hiçbir şey üretmez.
-2. **Gemiyi dönüştür.** Montaj’ın Tasarımlar bölümü on üç dönüşümü listeler. Birini seç ve onayla: iş Üretim kuyruğuna girer ve 10 dakika sürer. Kendi kendine biter, onu toplaman gerekmez.
+2. **Gemiyi dönüştür.** Montaj’ın Tasarımlar bölümü on dört dönüşümü listeler. Birini seç ve onayla: iş Üretim kuyruğuna girer ve 10 dakika sürer. Kendi kendine biter, onu toplaman gerekmez.
 3. **Bedelini öde.** Bir dönüşüm, tablonun söylediği gibi Thulium, malzeme ve Dark Matter plakasına mal olur.
 
 | Tasarım | Thulium | Dark Matter Plate | Ship Fragment | Reinforced Hull Plate | Power Core | Ancient Control Unit |
@@ -47,6 +50,7 @@ Son üç sütun, dönüştürülmüş geminin sahip olduklarıdır: plakalardan,
 | **Wraith MENATI** | 100.000 | 35 | 375 | 65 | 20 | 3 |
 | **Wraith ATARAXIS** | 100.000 | 35 | 375 | 65 | 20 | 3 |
 | **Wraith MATT** | 100.000 | 25 | 375 | 65 | 20 | 3 |
+| **Protosaur** | 50.000 | 8 | 30 | 5 | 2 | – |
 
 Dönüştürülecek gemi, o türden sahip olduğun gemidir (THUNDER, BUCKY veya LICH için bir Paragon) ve uçtuğun gemi olmamalıdır: önce başka bir gemiyi aktif yap. Yok edilmiş bir gemi dönüştürülemez.
 
@@ -61,21 +65,22 @@ Dönüştürülecek gemi, o türden sahip olduğun gemidir (THUNDER, BUCKY veya 
 | **Storm** | 8 | 8 sa | 80 | 3 | 30 sa | 30 |
 | **Ironclad** | 15 | 15 sa | 150 | 2 | 20 sa | 20 |
 | **Wraith** | 10 | 10 sa | 100 | 5 | 50 sa | 50 |
-| **Dördü birden** | 38 | 38 sa | 380 | 13 | 130 sa | 130 |
+| **Protos** | 0 | 0 sa | 0 | 1 | 10 sa | 10 |
+| **Beşi birden** | 38 | 38 sa | 380 | 14 | 140 sa | 140 |
 
-Birlikte, diğer tüm teknolojilerin istediği 979’e ek olarak 510 Dark Matter ister; Skylab’ın modül seviyeleri 115 tane daha ister: oyundaki her teknoloji için toplam 1.604.
+Birlikte, diğer tüm teknolojilerin istediği 979’e ek olarak 520 Dark Matter ister; Skylab’ın modül seviyeleri 115 tane daha ister: oyundaki her teknoloji için toplam 1.614.
 
 ## Geminin başına ne gelir {#what-happens-to-your-ship}
 
 - **Gemi aynı gemidir.** Dönüşüm onu olduğu yerde değiştirir: ekipmanı, gövde plakaları, dronların ve kuşandığın formasyon olduğu gibi kalır.
 - **Lazerler yuvasını kaybedebilir.** Daha az lazer yuvası olan bir tasarım (RECON, DUMA, ATARAXIS), yuvası ortadan kalkan lazerleri amfileri ve Demirhane bonuslarıyla birlikte envanterine geri gönderir. Yeni bir yuva boş gelir.
 - **Bittiğinde gövde ve kalkan tamdır.** O zamana kadar gemi kilitlidir: aktif yapılamaz, donatılamaz ve yeniden dönüştürülemez.
-- **Geri dönüş yok.** Başka bir tasarımı ya da özgün gemiyi yeniden elde etmek için gemiyi Montaj’da yeniden üret. Her türden yalnızca bir gemin olabilir; yani bir Paragon ile bir THUNDER aynı anda senin olabilir, iki THUNDER olamaz.
+- **Geri dönüş yok.** Başka bir tasarımı ya da özgün gemiyi yeniden elde etmek için gemiyi Montaj’da yeniden üret. Tek istisna Protos’tur: üretilemez ve yeniden satın alınamaz (Mağaza onu listeler ama asla satmaz, yalnızca yeni bir hesap onunla başlar); bu yüzden Protos’unu dönüştürürsen elinde bir Protosaur olur, Protos kalmaz. Her türden yalnızca bir gemin olabilir; yani bir Paragon ile bir THUNDER aynı anda senin olabilir, iki THUNDER olamaz.
 - **Sıfırlamada** bir tasarım, sahip olduğun her gemi gibi korunur. Hâlâ süren bir dönüşüm, üretim kuyruğundaki her üretim gibi iptal edilir ve iade edilir: gemi eskisi gibi kalır.
 
 ## Görünüm ve boyut {#looks-and-size}
 
-Her tasarımın kendi modeli vardır: geminin modeli, ne işe yaradığını gösteren birkaç değişiklikle. Gemiler gibi, bir [skin](/wiki/06-Items/Cosmetics.md) giyene kadar düz gridir: bir tasarım, yapıldığı geminin skinlerini giyer ve bir dönüşüm görünümü korur. BUCKY ve TITANIC %20 daha büyüktür ve daha büyük bir gemiyi roketle vurmak daha kolaydır. Hangar bir tasarımı TASARIM rozetiyle işaretler; diğer pilotlar adını Hedef penceresinde ve öldürme akışında görür.
+Her tasarımın kendi modeli vardır: geminin modeli, ne işe yaradığını gösteren birkaç değişiklikle. Ürettiğin dört geminin on üç tasarımı, bir [skin](/wiki/06-Items/Cosmetics.md) giyene kadar o gemiler gibi düz gridir: bir tasarım, yapıldığı geminin skinlerini giyer ve bir dönüşüm görünümü korur. Protosaur, Protos gibi turuncu ve beyazdır ve henüz skini yoktur. BUCKY ve TITANIC %20 daha büyüktür ve daha büyük bir gemiyi roketle vurmak daha kolaydır. Hangar bir tasarımı TASARIM rozetiyle işaretler; diğer pilotlar adını Hedef penceresinde ve öldürme akışında görür.
 
 ## Mağaza, Açık Artırma ve puanlar {#shop-auction-and-points}
 

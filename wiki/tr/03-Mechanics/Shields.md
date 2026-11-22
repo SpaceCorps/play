@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5f4f8c45180bc787 -->
+<!-- wiki-i18n source: c205efd6ca83bd6f -->
 <!-- wiki-i18n title: Kalkanlar -->
 # Kalkan mekaniği {#shield-mechanics}
 
@@ -46,16 +46,16 @@ Bazı saldırıların bir **kalkan delmesi** vardır: o vuruş için soğurmanda
 - Uzaylıların soğurma özelliği yoktur: her vuruş, vuruşun delmesi düşüldükten sonra %80 kalkana / %20 gövdeye bölünür.
 - Siphon Battery cephanesinin hasarı yalnızca kalkandan düşer: soğurma ve delme buna karışmaz.
 
-**Kalkanların hiçbir şey almadığı yerler.** Soğurmaya eşit ya da ondan yüksek bir delme, kalkanlara vuruştan hiçbir pay bırakmaz: gövde hepsini alır. Tablo, kalkanların en iyi lazerin (%85; Experimental Fusion Core yerine bir Antimatter Battery kullanırsan x3 hasarla %95) ve en iyi doğrudan roketin (Stiletto formasyonlu bir Lancet III ya da Rivet III, %70) tek bir vuruşundan ne aldığını gösterir:
+**Kalkanların hiçbir şey almadığı yerler.** Soğurmaya eşit ya da ondan yüksek bir delme, kalkanlara vuruştan hiçbir pay bırakmaz: gövde hepsini alır. Tablo, kalkanların en iyi lazerin (%100; Experimental Fusion Core yerine bir Antimatter Battery kullanırsan x3 hasarla %110) ve en iyi doğrudan roketin (Stiletto formasyonlu bir Lancet III ya da Rivet III, %70) tek bir vuruşundan ne aldığını gösterir:
 
-| Kalkan | Soğurma | Kalkanların aldığı, en iyi lazer (%85) | Kalkanların aldığı, en iyi doğrudan roket (%70) |
+| Kalkan | Soğurma | Kalkanların aldığı, en iyi lazer (%100) | Kalkanların aldığı, en iyi doğrudan roket (%70) |
 | :--- | ---: | ---: | ---: |
 | Light Shield Core | %45 | %0 | %0 |
 | Basic Shield Core | %50 | %0 | %0 |
 | Heavy Shield Core | %55 | %0 | %0 |
-| Bonussuz en iyi kalkan | %91 | %6 | %21 |
-| %100’lük bir kalkan | %100 | %15 | %30 |
-| %120’lik bir kalkan | %120 | %35 | %50 |
+| Bonussuz en iyi kalkan | %91 | %0 | %21 |
+| %100’lük bir kalkan | %100 | %0 | %30 |
+| %120’lik bir kalkan | %120 | %20 | %50 |
 
 #### %100’e ulaşmak ve aşmak {#reaching-and-passing-100-}
 

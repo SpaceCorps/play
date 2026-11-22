@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 471213bf365fc9b9 -->
+<!-- wiki-i18n source: f36888650a9078b3 -->
 <!-- wiki-i18n title: Miyuki -->
 # Miyuki
 
@@ -7,7 +7,7 @@ La Miyuki è una nave di supporto a cinque livelli. Costruisci il livello I nell
 ## Statistiche {#stats}
 
 - **Punti scafo (HP)**: 128.000
-- **Velocità di base**: 270
+- **Velocità di base**: 250
 - **Slot laser**: 5
 - **Slot extra**: 3
 - **Slot corazza**: 5
@@ -31,11 +31,11 @@ Le statistiche qui sopra sono quelle del livello I. Un livello oltre il primo si
 
 | Livello | Scafo | Velocità di base | Laser | Corazze | Principali / supporto / ausiliari | Capacità dello scudo | Assorbimento dello scudo |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Miyuki** | 128.000 | 270 | 5 | 5 | 3 / 3 / 2 | – | – |
-| **Miyuki II** | 134.400 | 270 | 6 | 6 | 3 / 3 / 2 | +5% | +2% |
-| **Miyuki III** | 141.120 | 270 | 7 | 7 | 3 / 3 / 2 | +10,25% | +4,04% |
-| **Miyuki IV** | 148.176 | 320 | 8 | 8 | 3 / 3 / 2 | +15,76% | +6,12% |
-| **Miyuki V** | 155.585 | 320 | 9 | 9 | 4 / 4 / 4 | +21,55% | +8,24% |
+| **Miyuki** | 128.000 | 250 | 5 | 5 | 3 / 3 / 2 | – | – |
+| **Miyuki II** | 134.400 | 250 | 6 | 6 | 3 / 3 / 2 | +5% | +2% |
+| **Miyuki III** | 141.120 | 250 | 7 | 7 | 3 / 3 / 2 | +10,25% | +4,04% |
+| **Miyuki IV** | 148.176 | 300 | 8 | 8 | 3 / 3 / 2 | +15,76% | +6,12% |
+| **Miyuki V** | 155.585 | 300 | 9 | 9 | 4 / 4 / 4 | +21,55% | +8,24% |
 
 Capacità dello scudo e assorbimento dello scudo sono bonus rispetto al livello I.
 
@@ -63,11 +63,13 @@ Le abilità della Miyuki appartengono alla nave, non a un oggetto: non occupano 
 
 Un collegamento dura 5 secondi e raggiunge una nave del tuo gruppo o della tua corporazione entro 1.200 unità. L’Heal Pod arriva a 600. Un Channel Shield ripristina, oltre ai suoi punti, ogni secondo una parte dello scudo massimo di ciascuna nave: il 3% sulla Miyuki III, il 4% sulla IV e il 5% sulla V (la percentuale della tabella).
 
+La tua competenza del pilota [Guarigione](/wiki/03-Mechanics/Pilot-Skills.md) agisce su tutte e tre: al livello 100 rende il Heal Pod, il Channel Heal e il Channel Shield (i loro punti e la loro quota dello scudo massimo) più forti del 30% e ne accorcia le attese del 10%, così un Channel Heal che riposa 100 secondi ne riposa 90. Le tabelle sopra danno i numeri senza di essa.
+
 ## Ricerca {#research}
 
 - **Livelli.** Miyuki II–V sono tecnologie a sé nello Skylab, ciascuna dietro il livello sotto: 1 g per II e III, 2 g per IV e V, e 10 Dark Matter ciascuna. Nella vista Ricerca i cinque livelli sono disegnati uno sotto l’altro, con una freccia da ogni livello al successivo: ricerchi il II dopo il I, il III dopo il II, il IV dopo il III e il V dopo il IV.
 - **Slot.** Gli slot corazza, gli slot laser dal sesto in poi e gli slot generatore dal nono in poi sono tecnologie a sé nello Skylab, da 1 h e 10 Dark Matter ciascuna: slot corazza da 1 a 9 in ordine a partire dal primo, slot laser da 6 a 9 (ciascuno dietro il suo livello) e slot generatore da 9 a 12 (ciascuno dietro il livello V). Uno slot si apre sulla nave, a qualunque livello sia, appena l’hai ricercato; uno non ancora ricercato appare bloccato nell’Hangar.
-- **Slot corazza.** La Miyuki ha 5 [slot corazza](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) per la [corazza dello scafo](/wiki/06-Items/Hull-Plating.md) al livello I e 9 al livello V, tutti bloccati quando la costruisci. Tutti e 9 riempiti di Hull Plating III aggiungono 225.000 di scafo.
+- **Slot corazza.** La Miyuki ha 5 [slot corazza](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) per la [corazza dello scafo](/wiki/06-Items/Hull-Plating.md) al livello I e 9 al livello V, tutti bloccati quando la costruisci. Tutti e 9 riempiti di Hull Plating III aggiungono 180.000 di scafo.
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

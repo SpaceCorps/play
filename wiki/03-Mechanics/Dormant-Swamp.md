@@ -39,11 +39,11 @@ Damage of a shot, in each world:
 | [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) turret | 5,000 / 4,400 | 5 s | 1,080 | 50,000 | 75,000 | 100,000 |
 | Laser turret × 2 | 3,600 / 5,200; 6,400 / 5,200 | 1 s | 2,500 | 45,000–55,000 | 67,500–82,500 | 90,000–110,000 |
 
-- A rocket is fired from 90% of the reach the same rocket has in a pilot's hands, so that it arrives; a laser turret fires once a second, and its damage is rolled in the range shown.
+- A rocket is fired from 82% of the reach the same rocket has in a pilot's hands, so that it arrives; a laser turret fires once a second, and its damage is rolled in the range shown.
 - A N.I.K.E. has 35% shield penetration, taken off a shield's absorbance.
-- The turret's N.I.K.E. flies 25% faster and 2× as far as yours: 1,125 units a second, 8,100 units in all, so a ship that runs from it is followed a long way.
-- A N.U.K.E. bursts over a radius of 1,350 units, hardest in the middle.
-- The turret's N.U.K.E. flies 25% faster and 2× as far as yours: 375 units a second, 2,400 units in all, so a ship that runs from it is followed a long way.
+- The turret's N.I.K.E. flies 25% faster and 2× as far as yours: 1,250 units a second, 8,910 units in all, so a ship that runs from it is followed a long way.
+- A N.U.K.E. bursts over a radius of 1,013 units, hardest in the middle.
+- The turret's N.U.K.E. flies 25% faster and 2× as far as yours: 375 units a second, 2,640 units in all, so a ship that runs from it is followed a long way.
 
 <!-- swamp-guns:end -->
 
@@ -106,7 +106,7 @@ Three aliens of the lost civilisation live here, each with its own numbers. They
 | Credits | 125,000 | 250,000 | 375,000 |
 | Thulium | 335 | 670 | 1,005 |
 | Experience (XP) | 20,200 | 40,400 | 60,600 |
-| Honor | 87 | 174 | 261 |
+| Honor | 88 | 176 | 264 |
 | PvE points per kill | 15 | 15 | 15 |
 
 **Drop**: one box, for the pilot who dealt the most damage.

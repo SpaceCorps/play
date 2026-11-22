@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d64f7bbe1a7fadf7 -->
+<!-- wiki-i18n source: cd97e3b7b68a76f0 -->
 <!-- wiki-i18n title: Protos -->
 # Protos
 
@@ -10,6 +10,7 @@ A Protos é a nave inicial básica entregue a todos os pilotos novos do SpaceCor
 - **Velocidade base**: 190
 - **Slots de laser**: 2
 - **Slots extras**: 2
+- **Slots de blindagem**: 3
 
 ### Slots de gerador e suporte {#generator-support-slots}
 
@@ -25,6 +26,12 @@ A Protos é a nave inicial básica entregue a todos os pilotos novos do SpaceCor
 - **Thulium**: 0
 
 ## Pesquisa {#research}
+
+- **Design.** Esta nave tem 1 [design](/wiki/03-Mechanics/Ship-Designs.md). Pesquise-o (10 h e 10 Dark Matter) e depois converta a sua Protos nele na Montagem. A conversão é definitiva, e a Protos é a única nave que você não consegue ter de novo: ela não pode ser fabricada, a Loja a exibe mas nunca a vende, e só uma conta nova começa com uma. Se você converter a sua Protos, ficará com um Protosaur e sem Protos.
+
+| Design | O que muda |
+| :--- | :--- |
+| **Protosaur** | +30 de velocidade base, +1 slot de laser, +5 slots de blindagem, +1 slot extra, +50% de dano de foguetes, Blink, Chameleon |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

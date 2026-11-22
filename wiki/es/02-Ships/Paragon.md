@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ff5c11c45c5ccbf6 -->
+<!-- wiki-i18n source: 89b28eb0b5f250b5 -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon
 
@@ -27,7 +27,7 @@ La Paragon es un crucero de combate pesado, diseñado con un equilibrio entre de
 
 ## Investigación {#research}
 
-- **Ranuras de blindaje.** La Paragon tiene 5 [ranuras de blindaje](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) para [blindaje de casco](/wiki/06-Items/Hull-Plating.md), todas bloqueadas cuando la fabricas. Cada una es una tecnología propia del Skylab, 1 h y 10 Dark Matter, que se investiga en orden desde la primera; abre esa ranura en la Paragon y en todos sus diseños. Con las 5 llenas de Hull Plating III se suman 125.000 de casco.
+- **Ranuras de blindaje.** La Paragon tiene 5 [ranuras de blindaje](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) para [blindaje de casco](/wiki/06-Items/Hull-Plating.md), todas bloqueadas cuando la fabricas. Cada una es una tecnología propia del Skylab, 1 h y 10 Dark Matter, que se investiga en orden desde la primera; abre esa ranura en la Paragon y en todos sus diseños. Con las 5 llenas de Hull Plating III se suman 100.000 de casco.
 - **Diseños.** La Paragon tiene 3 [diseños](/wiki/03-Mechanics/Ship-Designs.md). Investiga uno (10 h y 10 Dark Matter) y convierte después tu Paragon en él en Ensamblaje: el cambio no se puede deshacer.
 
 | Diseño | Qué cambia |

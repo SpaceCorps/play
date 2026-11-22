@@ -41,11 +41,11 @@ Dano de um tiro, em cada mundo:
 | Torre de [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | 5.000 / 4.400 | 5 s | 1.080 | 50.000 | 75.000 | 100.000 |
 | Torre laser × 2 | 3.600 / 5.200; 6.400 / 5.200 | 1 s | 2.500 | 45.000–55.000 | 67.500–82.500 | 90.000–110.000 |
 
-- Um foguete é disparado a 90% do alcance que o mesmo foguete tem nas mãos de um piloto, para que chegue; uma torre laser atira uma vez por segundo, e o dano dela é sorteado na faixa mostrada.
+- Um foguete é disparado a 82% do alcance que o mesmo foguete tem nas mãos de um piloto, para que chegue; uma torre laser atira uma vez por segundo, e o dano dela é sorteado na faixa mostrada.
 - Um N.I.K.E. tem 35% de penetração de escudo, descontada da absorção de um escudo.
-- O N.I.K.E. da torre voa 25% mais rápido e 2× mais longe que o seu: 1.125 unidades por segundo, 8.100 unidades no total, então uma nave que foge dele é perseguida por muito tempo.
-- Um N.U.K.E. explode num raio de 1.350 unidades, mais forte no centro.
-- O N.U.K.E. da torre voa 25% mais rápido e 2× mais longe que o seu: 375 unidades por segundo, 2.400 unidades no total, então uma nave que foge dele é perseguida por muito tempo.
+- O N.I.K.E. da torre voa 25% mais rápido e 2× mais longe que o seu: 1.250 unidades por segundo, 8.910 unidades no total, então uma nave que foge dele é perseguida por muito tempo.
+- Um N.U.K.E. explode num raio de 1.013 unidades, mais forte no centro.
+- O N.U.K.E. da torre voa 25% mais rápido e 2× mais longe que o seu: 375 unidades por segundo, 2.640 unidades no total, então uma nave que foge dele é perseguida por muito tempo.
 
 <!-- swamp-guns:end -->
 
@@ -108,7 +108,7 @@ Três alienígenas da civilização perdida vivem aqui, cada um com seus própri
 | Créditos | 125.000 | 250.000 | 375.000 |
 | Thulium | 335 | 670 | 1.005 |
 | Experiência (XP) | 20.200 | 40.400 | 60.600 |
-| Honra | 87 | 174 | 261 |
+| Honra | 88 | 176 | 264 |
 | Pontos PvE por abate | 15 | 15 | 15 |
 
 **Saque**: uma caixa, para o piloto que mais causou dano.

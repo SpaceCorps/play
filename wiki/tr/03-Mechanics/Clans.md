@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d9722fd08d8980ff -->
+<!-- wiki-i18n source: e819db509b714a18 -->
 <!-- wiki-i18n title: Klanlar -->
 # Klanlar {#clans}
 
@@ -193,7 +193,7 @@ Yanındaki **Skylab** sütunu, her pilotun [Skylab’ının](/wiki/03-Mechanics/
 Sistem araç çubuğundaki (sağ üst) **Kim çevrimiçi** düğmesi ya da **H** tuşu (Ayarlar › Kontroller bölümünden değiştirebilirsin) **Çevrimiçi pilotlar** penceresini açar.
 
 - **Kimler listelenir.** Şu an **dünyanda** uçan pilotlar, sen hariç: Alpha, Beta ve Gamma birbiriyle karşılaşmaz. Gizlenmiş gemisini göremediğin bir pilot ne listelenir ne de sayılır. Pencere en çok **100** satır gösterir: önce klan arkadaşların, sonra yüksek seviyeliler, sonra ada göre; en üstte çevrimiçi pilotların gerçek sayısı yazar.
-- **Bir satır ne gösterir.** Pilotun adı, seviyesi, şirketi, klan etiketi ve rütbe simgesi: sohbetin ve sıralamaların zaten gösterdiği şeyler. Asla bir konum, bir harita ya da geminin durumu değil.
+- **Bir satır ne gösterir.** Pilotun adı, seviyesi, şirketi, klan etiketi ve rütbe simgesi: sohbetin ve sıralamaların zaten gösterdiği şeyler. Asla bir konum, bir harita ya da geminin durumu değil. **Altın isim**, pilotun bir zamanlar Premium ile oyunu desteklediği anlamına gelir, tıpkı sohbetteki gibi; isimden sonra gelen **altın taç** ise pilotun Premium'unun şu an etkin olduğu anlamına gelir.
 - **Arama.** Bir adın ya da klan etiketinin bir kısmını yaz; liste kesilmişse pencere sunucuya yeniden sorar.
 - **Davet.** Bir satırın **Davet et** düğmesi, Grup penceresinin kendi davetidir ([Gruplar](/wiki/03-Mechanics/Groups.md)); aynı yanıtlar ve ret nedenleri geçerlidir (pilot bir grupta, grup dolu, Rahatsız etme açık). Oyun reddedileceğini zaten biliyorsa düğme gri olur ve nedeni üzerine gelince yazar.
 - Liste, pencere açıkken her 10 saniyede bir yeniden okunur.

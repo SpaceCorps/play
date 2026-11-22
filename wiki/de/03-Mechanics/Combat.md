@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 49bacd415901ee2e -->
+<!-- wiki-i18n source: 9c4de69d519972a3 -->
 <!-- wiki-i18n title: Kampf -->
 # Kampfmechanik {#combat-mechanics}
 
@@ -122,7 +122,7 @@ Wird dein Schiff von einem Feind oder NPC getroffen, wird der Schaden so verarbe
 
 Eingehender Schaden wird nach der **durchschnittlichen Absorption** deines Schiffs auf Schilde und Trefferpunkte aufgeteilt: dem Durchschnitt der Absorption deiner Schilde, jeweils mit der ihrer Schildzellen, plus dem Schildabsorptions-Boost aus dem Saison-Shop (siehe [Schildmechanik](/wiki/03-Mechanics/Shields.md)). Sie ist **nicht auf 100 % begrenzt**: Was die Schilde von einem Treffer nehmen, ist deine Absorption **abzüglich der Schilddurchdringung des Angreifers**, zwischen 0 % und 100 %.
 - **Absorption** (z. B. 91 % für den besten Schild mit den besten Zellen, 62 % für einen Basic Shield Core mit zwei Absorption Shield Cell I) jedes Treffers wird von den Schilden genommen, abzüglich der Durchdringung des Treffers: Die 35 % einer Lancet III lassen 56 % auf den Schilden eines Schiffs mit 91 %, und der Rest (dort 44 %) trifft direkt die HP.
-- **Schilddurchdringung** kommt von direkten Raketen (10 bis 35 %) und der Lasermunition x3 und x4 (5 % und 10 %); Aliens haben keine. Ein Schiff über 100 % (etwa 112 %) hält einen ganzen Treffer gegen eine Durchdringung bis zur Differenz aus (dort 12 %). Die Penetration Amps der Laser des Schützen (+5 % bis +20 % pro Slot) und eine Drohnenformation kommen dazu, und nichts begrenzt die Summe.
+- **Schilddurchdringung** kommt von direkten Raketen (10 bis 35 %) und der Lasermunition x3 und x4 (5 % und 10 %); Aliens haben keine. Ein Schiff über 100 % (etwa 112 %) hält einen ganzen Treffer gegen eine Durchdringung bis zur Differenz aus (dort 12 %). Die Penetration Amps der Laser des Schützen (+7 % bis +25 % pro Slot) und eine Drohnenformation kommen dazu, und nichts begrenzt die Summe.
 - Ein Schild, der für seinen Anteil zu niedrig ist, gibt die Differenz an die HP weiter; sind die Schilde ganz erschöpft, trifft **100 %** des gesamten restlichen Schadens die HP.
 - Aliens haben keinen Absorptionswert: Ihre Schilde nehmen 80 % jedes Treffers (abzüglich der Durchdringung des Treffers), ihre Hülle den Rest.
 - **Drohnenformationen.** Rampart erhöht deine Absorption um 17 % (Shrike senkt sie um 10 %), und Asterism gibt jedem direkten Treffer auf dich eine Chance von 7 %, gar keinen Schaden anzurichten (ein schwebendes „Verfehlt“ erscheint), und die Treffer, die ankommen, teilen sich Schild und Hülle wie gewohnt. Gemini (+15 Punkte) addiert Durchdringung zu deiner eigenen Munition und zu direkten Raketen, Stiletto (+35 Punkte Raketendurchdringung) nur zu direkten Raketen, ohne Obergrenze ([Drohnenformationen](/wiki/03-Mechanics/Formations.md)). Bei einem Laser zählen auch seine Amps mit.

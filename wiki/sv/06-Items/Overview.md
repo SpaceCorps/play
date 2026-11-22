@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bf737868ee14ecc2 -->
+<!-- wiki-i18n source: 115842cfacf12619 -->
 <!-- wiki-i18n title: Översikt -->
 # Översikt över föremål {#items-overview}
 
@@ -118,7 +118,7 @@ Varje material och båda valutorna, med varifrån var och en kommer och vad den 
 
 Butiken, hangarens inventarie och de andra föremålslistorna följer en och samma ordning: skeppet, dess skrovpansar, sedan en laser med sina förstärkare och sin ammunition, en sköld med sina celler, en motor med sina styrraketer, de adaptiva kärnorna, extrautrustning, förbrukningsvaror, drönare, drönarformationer, boosters och resurser. Inom ett slag kommer det billigaste först.
 
-- **Skrovpansar**: Pansar för pansarplatserna på de fyra skeppen du tillverkar, Hull Plating I till III, var och en med mer skrov. Se [Skrovpansar](/wiki/06-Items/Hull-Plating.md).
+- **Skrovpansar**: Pansar för pansarplatserna på alla skepp (3 öppna på vart och ett av Butikens fyra skepp, fler på skeppen du tillverkar), Hull Plating I till III, var och en med mer skrov. Se [Skrovpansar](/wiki/06-Items/Hull-Plating.md).
 - **Lasrar**: Dina primära vapensystem, och de [förstärkare](/wiki/06-Items/Lasers.md) som sätts i dem.
 - **Sköldar**: Generatorer och [celler](/wiki/06-Items/Shields.md) för försvar.
 - **Framdrivning**: Motorer och [styrraketer](/wiki/06-Items/Propulsion.md) för fart.

@@ -41,11 +41,11 @@ Dégâts d’un tir, dans chaque monde :
 | Tourelle de [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | 5 000 / 4 400 | 5 s | 1 080 | 50 000 | 75 000 | 100 000 |
 | Tourelle laser × 2 | 3 600 / 5 200; 6 400 / 5 200 | 1 s | 2 500 | 45 000–55 000 | 67 500–82 500 | 90 000–110 000 |
 
-- Une roquette est tirée à 90 % de la portée que la même roquette a entre les mains d’un pilote, pour qu’elle arrive ; une tourelle laser tire une fois par seconde, et ses dégâts sont tirés au sort dans la plage indiquée.
+- Une roquette est tirée à 82 % de la portée que la même roquette a entre les mains d’un pilote, pour qu’elle arrive ; une tourelle laser tire une fois par seconde, et ses dégâts sont tirés au sort dans la plage indiquée.
 - Un N.I.K.E. a 35 % de pénétration de bouclier, retranchée de l’absorption d’un bouclier.
-- Le N.I.K.E. de la tourelle vole 25 % plus vite et 2× plus loin que le vôtre : 1 125 unités par seconde, 8 100 unités en tout, si bien qu’un vaisseau qui le fuit est poursuivi très loin.
-- Un N.U.K.E. éclate sur un rayon de 1 350 unités, avec le plus de force au centre.
-- Le N.U.K.E. de la tourelle vole 25 % plus vite et 2× plus loin que le vôtre : 375 unités par seconde, 2 400 unités en tout, si bien qu’un vaisseau qui le fuit est poursuivi très loin.
+- Le N.I.K.E. de la tourelle vole 25 % plus vite et 2× plus loin que le vôtre : 1 250 unités par seconde, 8 910 unités en tout, si bien qu’un vaisseau qui le fuit est poursuivi très loin.
+- Un N.U.K.E. éclate sur un rayon de 1 013 unités, avec le plus de force au centre.
+- Le N.U.K.E. de la tourelle vole 25 % plus vite et 2× plus loin que le vôtre : 375 unités par seconde, 2 640 unités en tout, si bien qu’un vaisseau qui le fuit est poursuivi très loin.
 
 <!-- swamp-guns:end -->
 
@@ -108,7 +108,7 @@ Trois aliens de la civilisation perdue vivent ici, chacun avec ses propres chiff
 | Crédits | 125 000 | 250 000 | 375 000 |
 | Thulium | 335 | 670 | 1 005 |
 | Expérience (XP) | 20 200 | 40 400 | 60 600 |
-| Honneur | 87 | 174 | 261 |
+| Honneur | 88 | 176 | 264 |
 | Points PvE par élimination | 15 | 15 | 15 |
 
 **Butin** : une caisse, pour le pilote qui a infligé le plus de dégâts.

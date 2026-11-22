@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d64f7bbe1a7fadf7 -->
+<!-- wiki-i18n source: cd97e3b7b68a76f0 -->
 <!-- wiki-i18n title: Protos -->
 # Protos
 
@@ -10,6 +10,7 @@ Protos — базовый стартовый корабль, который по
 - **Базовая скорость**: 190
 - **Слоты лазеров**: 2
 - **Слоты устройств**: 2
+- **Слоты брони**: 3
 
 ### Слоты генераторов и поддержки {#generator-support-slots}
 
@@ -25,6 +26,12 @@ Protos — базовый стартовый корабль, который по
 - **Thulium**: 0
 
 ## Исследования {#research}
+
+- **Вариант.** У этого корабля 1 [вариант](/wiki/03-Mechanics/Ship-Designs.md). Исследуйте его (10 ч и 10 Dark Matter), а затем в Сборочном цехе переделайте свой корабль в него. Переделку нельзя отменить, и Protos — единственный корабль, который нельзя получить снова: его нельзя произвести, Магазин показывает его, но никогда не продаёт, а начинают с ним только новые аккаунты. Если вы переделаете свой Protos, у вас будет Protosaur и не будет Protos.
+
+| Вариант | Что меняет |
+| :--- | :--- |
+| **Protosaur** | +30 к базовой скорости, +1 слот лазера, +5 слотов брони, +1 слот устройств, +50% к урону ракет, Blink, Chameleon |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

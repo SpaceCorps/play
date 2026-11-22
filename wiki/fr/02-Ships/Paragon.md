@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ff5c11c45c5ccbf6 -->
+<!-- wiki-i18n source: 89b28eb0b5f250b5 -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon
 
@@ -27,7 +27,7 @@ Le Paragon est un croiseur de combat lourd qui équilibre défense et attaque, a
 
 ## Recherche {#research}
 
-- **Emplacements de blindage.** Ce vaisseau a 5 [emplacements de blindage](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) pour du [blindage de coque](/wiki/06-Items/Hull-Plating.md), tous verrouillés quand vous le fabriquez. Chacun est une technologie à part dans le Skylab, 1 h et 10 Dark Matter, à rechercher dans l’ordre à partir du premier ; elle ouvre cet emplacement sur ce vaisseau et sur chacun de ses designs. Les 5 remplis de Hull Plating III ajoutent 125 000 de coque.
+- **Emplacements de blindage.** Ce vaisseau a 5 [emplacements de blindage](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) pour du [blindage de coque](/wiki/06-Items/Hull-Plating.md), tous verrouillés quand vous le fabriquez. Chacun est une technologie à part dans le Skylab, 1 h et 10 Dark Matter, à rechercher dans l’ordre à partir du premier ; elle ouvre cet emplacement sur ce vaisseau et sur chacun de ses designs. Les 5 remplis de Hull Plating III ajoutent 100 000 de coque.
 - **Designs.** Ce vaisseau a 3 [designs](/wiki/03-Mechanics/Ship-Designs.md). Recherchez-en un (10 h et 10 Dark Matter), puis transformez votre Paragon en l’un d’eux dans l’Assemblage : le changement est définitif.
 
 | Design | Ce qu’il change |

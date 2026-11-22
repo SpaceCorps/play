@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 49bacd415901ee2e -->
+<!-- wiki-i18n source: 9c4de69d519972a3 -->
 <!-- wiki-i18n title: Combat -->
 # Mécaniques de combat {#combat-mechanics}
 
@@ -122,7 +122,7 @@ Quand votre vaisseau est touché par un ennemi ou un PNJ, les dégâts sont trai
 
 Les dégâts reçus sont répartis entre boucliers et points de vie selon l’**absorption moyenne** de votre vaisseau : la moyenne de l’absorption de vos boucliers, chacun avec celle de ses cellules de bouclier, plus le Shield Absorbance Boost de la Boutique de saison (voir [Mécaniques des boucliers](/wiki/03-Mechanics/Shields.md)). Elle n’est **pas plafonnée à 100 %** : la part d’un tir que prennent les boucliers est votre absorption **moins la pénétration de bouclier de l’attaquant**, entre 0 % et 100 %.
 - L’**absorption** (par ex. 91 % pour le meilleur bouclier avec les meilleures cellules, 62 % pour un Basic Shield Core avec deux Absorption Shield Cell I) de chaque tir est prise par les boucliers, moins la pénétration du tir : les 35 % d’une Lancet III laissent 56 % sur les boucliers d’un vaisseau à 91 %, et le reste (ici 44 %) frappe directement les PV.
-- La **pénétration de bouclier** vient des roquettes directes (10 à 35 %) et des munitions laser x3 et x4 (5 % et 10 %) ; les aliens n’en ont pas. Un vaisseau au-delà de 100 % (disons 112 %) garde un tir entier sur ses boucliers face à une pénétration allant jusqu’à la différence (ici 12 %). Les Penetration Amps des lasers du tireur (+5 % à +20 % par emplacement) et une formation de drones s’y ajoutent, et rien ne plafonne le total.
+- La **pénétration de bouclier** vient des roquettes directes (10 à 35 %) et des munitions laser x3 et x4 (5 % et 10 %) ; les aliens n’en ont pas. Un vaisseau au-delà de 100 % (disons 112 %) garde un tir entier sur ses boucliers face à une pénétration allant jusqu’à la différence (ici 12 %). Les Penetration Amps des lasers du tireur (+7 % à +25 % par emplacement) et une formation de drones s’y ajoutent, et rien ne plafonne le total.
 - Un bouclier trop faible pour sa part reporte la différence sur les PV ; si les boucliers sont entièrement vides, **100 %** des dégâts restants frappent les PV.
 - Les aliens n’ont pas de statistique d’absorption : leurs boucliers prennent 80 % de chaque tir (moins la pénétration du tir), leur coque le reste.
 - **Formations de drones.** Rampart augmente votre absorption de 17 % (Shrike la réduit de 10 %), et Asterism donne à chaque coup direct reçu 7 % de chances de ne faire aucun dégât (un « Raté » flottant s’affiche), et les coups qui arrivent se partagent entre bouclier et coque comme d’habitude. Gemini (+15 points) ajoute de la pénétration à vos propres munitions et aux roquettes directes, et Stiletto (+35 points de pénétration de roquettes) aux roquettes directes seulement, sans plafond ([Formations de drones](/wiki/03-Mechanics/Formations.md)). Pour un laser, ses amplis comptent aussi.

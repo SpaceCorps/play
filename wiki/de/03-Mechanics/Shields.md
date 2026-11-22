@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5f4f8c45180bc787 -->
+<!-- wiki-i18n source: c205efd6ca83bd6f -->
 <!-- wiki-i18n title: Schilde -->
 # Schildmechanik {#shield-mechanics}
 
@@ -46,16 +46,16 @@ Manche Angriffe haben eine **Schilddurchdringung**: Punkte, die für diesen Tref
 - Aliens haben keinen Absorptionswert: Sie teilen jeden Treffer 80 % / 20 % auf, abzüglich der Durchdringung des Treffers.
 - Der Schaden einer Siphon Battery geht allein vom Schild ab: Absorption und Durchdringung spielen dabei keine Rolle.
 
-**Wo die Schilde nichts nehmen.** Eine Durchdringung in Höhe der Absorption oder darüber lässt den Schilden nichts vom Treffer: Die Hülle nimmt alles. Die Tabelle zeigt, was die Schilde von einem Treffer des besten Lasers (85 %; ein Antimatter Battery statt des Experimental Fusion Core ergibt 95 % bei x3 Schaden) und der besten direkten Rakete (eine Lancet III oder eine Rivet III mit einer Stiletto, 70 %) nehmen:
+**Wo die Schilde nichts nehmen.** Eine Durchdringung in Höhe der Absorption oder darüber lässt den Schilden nichts vom Treffer: Die Hülle nimmt alles. Die Tabelle zeigt, was die Schilde von einem Treffer des besten Lasers (100 %; ein Antimatter Battery statt des Experimental Fusion Core ergibt 110 % bei x3 Schaden) und der besten direkten Rakete (eine Lancet III oder eine Rivet III mit einer Stiletto, 70 %) nehmen:
 
-| Schild | Absorption | Schilde nehmen, bester Laser (85 %) | Schilde nehmen, beste direkte Rakete (70 %) |
+| Schild | Absorption | Schilde nehmen, bester Laser (100 %) | Schilde nehmen, beste direkte Rakete (70 %) |
 | :--- | ---: | ---: | ---: |
 | Light Shield Core | 45 % | 0 % | 0 % |
 | Basic Shield Core | 50 % | 0 % | 0 % |
 | Heavy Shield Core | 55 % | 0 % | 0 % |
-| Der beste Schild ab Werk | 91 % | 6 % | 21 % |
-| Ein Schild mit 100 % | 100 % | 15 % | 30 % |
-| Ein Schild mit 120 % | 120 % | 35 % | 50 % |
+| Der beste Schild ab Werk | 91 % | 0 % | 21 % |
+| Ein Schild mit 100 % | 100 % | 0 % | 30 % |
+| Ein Schild mit 120 % | 120 % | 20 % | 50 % |
 
 #### 100 % erreichen und überschreiten {#reaching-and-passing-100-}
 

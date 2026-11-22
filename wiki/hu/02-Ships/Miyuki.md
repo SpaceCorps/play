@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 471213bf365fc9b9 -->
+<!-- wiki-i18n source: f36888650a9078b3 -->
 <!-- wiki-i18n title: Miyuki -->
 # Miyuki
 
@@ -7,7 +7,7 @@ A Miyuki ötszintes támogató hajó. Az I. szintet a Gyártásban készíted el
 ## Értékek {#stats}
 
 - **Életerő (HP)**: 128 000
-- **Alapsebesség**: 270
+- **Alapsebesség**: 250
 - **Lézerfoglalatok**: 5
 - **Extrafoglalatok**: 3
 - **Páncélzatfoglalatok**: 5
@@ -31,11 +31,11 @@ A fenti értékek az I. szintéi. Az elsőnél magasabb szintet a Gyártásban k
 
 | Szint | Hajótest | Alapsebesség | Lézerek | Páncélok | Mag / támogató / segéd | Pajzskapacitás | Pajzselnyelés |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Miyuki** | 128 000 | 270 | 5 | 5 | 3 / 3 / 2 | – | – |
-| **Miyuki II** | 134 400 | 270 | 6 | 6 | 3 / 3 / 2 | +5% | +2% |
-| **Miyuki III** | 141 120 | 270 | 7 | 7 | 3 / 3 / 2 | +10,25% | +4,04% |
-| **Miyuki IV** | 148 176 | 320 | 8 | 8 | 3 / 3 / 2 | +15,76% | +6,12% |
-| **Miyuki V** | 155 585 | 320 | 9 | 9 | 4 / 4 / 4 | +21,55% | +8,24% |
+| **Miyuki** | 128 000 | 250 | 5 | 5 | 3 / 3 / 2 | – | – |
+| **Miyuki II** | 134 400 | 250 | 6 | 6 | 3 / 3 / 2 | +5% | +2% |
+| **Miyuki III** | 141 120 | 250 | 7 | 7 | 3 / 3 / 2 | +10,25% | +4,04% |
+| **Miyuki IV** | 148 176 | 300 | 8 | 8 | 3 / 3 / 2 | +15,76% | +6,12% |
+| **Miyuki V** | 155 585 | 300 | 9 | 9 | 4 / 4 / 4 | +21,55% | +8,24% |
 
 A pajzskapacitás és a pajzselnyelés az I. szinthez képest járó bónusz.
 
@@ -63,11 +63,13 @@ A Miyuki képességei a hajóhoz tartoznak, nem egy tárgyhoz: nem foglalnak ké
 
 Egy kapcsolat 5 másodpercig tart, és a csoportod vagy a vállalatod egy hajójáig ér 1 200 egységen belül. A Heal Pod 600-ig ér. A Channel Shield a pontjain felül minden másodpercben visszatölti mindkét hajó saját maximális pajzsának egy részét is: a Miyuki III-nál 3%-ot, a IV-nél 4%-ot, az V-nél 5%-ot (a táblázat százaléka).
 
+A [Gyógyítás](/wiki/03-Mechanics/Pilot-Skills.md) pilótakészséged mindhármon működik: a 100. szinten a Heal Podot, a Channel Healt és a Channel Shieldet (a pontjaikat és a maximális pajzsból vett hányadukat) 30%-kal erősebbé teszi, a várakozásukat pedig 10%-kal rövidíti, így egy Channel Heal, amely 100 másodpercet pihen, 90-et pihen. A fenti táblázatok a számokat nélküle adják.
+
 ## Kutatás {#research}
 
 - **Szintek.** A Miyuki II.–V. külön technológia a Skylabben, mindegyik az alatta lévő szint mögött: 1 nap a II.-hoz és a III.-hoz, 2 nap a IV.-hez és az V.-höz, és mindegyikhez 10 Dark Matter. A Kutatás nézetben az öt szint egymás alatt jelenik meg, minden szinttől nyíl mutat a következőre: a II.-at az I. után, a III.-at a II. után, a IV.-et a III. után, az V.-et pedig a IV. után kutatod.
 - **Foglalatok.** A páncélzatfoglalatok, a hatodiktól kezdve a lézerfoglalatok és a kilencediktől kezdve a generátorfoglalatok külön technológiák a Skylabben, egyenként 1 óra és 10 Dark Matter: az 1–9. páncélzatfoglalat az elsőtől kezdve sorban, a 6–9. lézerfoglalat (mindegyik a saját szintje mögött) és a 9–12. generátorfoglalat (mindegyik az V. szint mögött). A foglalat azonnal megnyílik a hajón, bármelyik szinten van is, amint kikutattad; amelyiket még nem, azt zárolva mutatja a Hangár.
-- **Páncélzatfoglalatok.** A Miyukinak az I. szinten 5, az V. szinten 9 [páncélzatfoglalata](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) van [hajótest-páncélzatnak](/wiki/06-Items/Hull-Plating.md) számára, mind zárolva, amikor elkészíted. Mind a 9 Hull Plating III-mal megtöltve 225 000 hajótestet ad hozzá.
+- **Páncélzatfoglalatok.** A Miyukinak az I. szinten 5, az V. szinten 9 [páncélzatfoglalata](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) van [hajótest-páncélzatnak](/wiki/06-Items/Hull-Plating.md) számára, mind zárolva, amikor elkészíted. Mind a 9 Hull Plating III-mal megtöltve 180 000 hajótestet ad hozzá.
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

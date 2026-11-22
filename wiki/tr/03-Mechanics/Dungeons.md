@@ -134,7 +134,7 @@ Her tür sırayla. Gövde ve kalkan, olağan değerlerin sütundaki aşamanın �
 - **Görünüşü**: Pirate Boss
 - **Sürü büyüklüğü**: 2
 - **Ödülü ve ganimeti şunun gibi**: Pirate Boss
-- **Roket**: Her 5 sn bir düz roket, menzil 1.000 birim
+- **Roket**: Her 5 sn bir düz roket, menzil 1.100 birim
 
 |  | Aşama 1 | Aşama 2 | Aşama 3 |
 | :--- | ---: | ---: | ---: |
@@ -207,7 +207,7 @@ Savaş Lordu, labirentin uzak ucundaki odada bekler ve düşüşü tamamlamanın
 | :--- | ---: | ---: | ---: |
 | Gövde | 10.000.000 | 15.000.000 | 25.000.000 |
 | Kalkan | 8.000.000 | 12.000.000 | 20.000.000 |
-| Lazer hasarı (saniyede bir salvo) | 12.500–15.000 | 2 pilotun her birine 15.000–17.500 | 2 pilotun her birine 20.000–25.000 |
+| Lazer hasarı (saniyede bir salvo) | 17.500–22.500 | 2 pilotun her birine 26.250–33.750 | 2 pilotun her birine 35.000–45.000 |
 | Hız | 120 | 120 | 120 |
 | Lazer menzili | 1.100 | 1.100 | 1.100 |
 
@@ -260,8 +260,8 @@ Klan zindanı penceresi odayı açmak için bunlardan kaçının daha yok edilme
 | :--- | :--- | :--- | :--- |
 | **Can çalma aurası** | Saniyede 8.000 | Saniyede 10.000 | Saniyede 12.000 |
 | **Meteor yağmuru** | Salvo başına 6 meteor, her biri 80.000 | Salvo başına 8 meteor, her biri 100.000 | Salvo başına 10 meteor, her biri 120.000 |
-| **En aranana odaklan** | En çok hasar veren pilota fazladan mermi başına 18.750–22.500, her 1 sn bir mermi | En çok hasar veren pilota fazladan mermi başına 22.500–26.250, her 1 sn bir mermi | En çok hasar veren pilota fazladan mermi başına 30.000–37.500, her 1 sn bir mermi |
-| **Roket yağmuru** | Her pilota roket başına 50.000–75.000, her 15 sn bir roket | Her pilota roket başına 62.500–93.750, her 15 sn bir roket | Her pilota roket başına 75.000–112.500, her 15 sn bir roket |
+| **En aranana odaklan** | En çok hasar veren pilota fazladan mermi başına 26.250–33.750, her 1 sn bir mermi | En çok hasar veren pilota fazladan mermi başına 39.375–50.625, her 1 sn bir mermi | En çok hasar veren pilota fazladan mermi başına 52.500–67.500, her 1 sn bir mermi |
+| **Roket yağmuru** | Her pilota roket başına 100.000–150.000, her 15 sn bir roket | Her pilota roket başına 125.000–187.500, her 15 sn bir roket | Her pilota roket başına 150.000–225.000, her 15 sn bir roket |
 | **Kalkan emilimi** | Saniyede 10.000 kalkan | Saniyede 12.500 kalkan | Saniyede 15.000 kalkan |
 | **Sürü desteği** | 12 Goombah | 18 Goombah | 24 Goombah |
 | **Kaos Bölgesi** | Halkanın içindeki pilotlar saldıramaz | Halkanın içindeki pilotlar saldıramaz | Halkanın içindeki pilotlar saldıramaz |
@@ -311,14 +311,14 @@ Kartlar, aşağıdaki havuzdan teker teker çekilir. Şans, bir kartın tek bir 
 
 | Kart | Aşama 1 | Aşama 2 | Aşama 3 | Şans | Kime gider |
 | :--- | ---: | ---: | ---: | ---: | :--- |
-| Thulium | 2.000 | 3.000 | 5.000 | %23,9 | Ödeme alan her pilot |
+| Thulium | 4.000 | 6.000 | 10.000 | %23,9 | Ödeme alan her pilot |
 | Velkonite Reinforced Plate | 10 | 15 | 25 | %13,65 | Ödeme alan her pilot |
 | Velkonite | 200 | 300 | 500 | %13,65 | Ödeme alan her pilot |
 | Orvium | 200 | 300 | 500 | %13,65 | Ödeme alan her pilot |
 | Ultra Core | 5.000 | 7.500 | 12.500 | %11,4 | Ödeme alan her pilot |
 | Experimental Fusion Core | 3.000 | 4.500 | 7.500 | %9,1 | Ödeme alan her pilot |
 | Dark Matter | 10 | 16 | 24 | %9,1 | Ödeme alan her pilot |
-| Dark Matter Plate | 1 | 1 | 2 | %4,55 | Ödeme alan her pilot |
+| Dark Matter Plate | 4 | 6 | 8 | %4,55 | Ödeme alan her pilot |
 | Starfire-III | – | – | 1 | %0,07 | Ödeme alan her pilot |
 | Helios Beam | – | – | 1 | %0,07 | Ödeme alan her pilot |
 | Engine III | – | – | 1 | %0,07 | Ödeme alan her pilot |
@@ -351,9 +351,9 @@ Savaş Lordu düştüğünde, hak eden her pilota tamamlanan tur için bir kez �
 
 | Aşama | Onur | Deneyim | Kredi | Thulium | x4 cephane | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE sıralama puanı |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Aşama 1** | 25.000 | 600.000 | 5.000.000 | 4.000 | 4.000 | 5 | 12 | 5 | 850 |
-| **Aşama 2** | 50.000 | 1.500.000 | 10.000.000 | 9.000 | 9.000 | 10 | 8 | 6 | 2.000 |
-| **Aşama 3** | 100.000 | 2.400.000 | 17.500.000 | 15.000 | 15.000 | 15 | 8 | 7 | 3.400 |
+| **Aşama 1** | 25.000 | 600.000 | 5.000.000 | 8.000 | 4.000 | 5 | 12 | 5 | 850 |
+| **Aşama 2** | 50.000 | 1.500.000 | 10.000.000 | 18.000 | 9.000 | 10 | 8 | 6 | 2.000 |
+| **Aşama 3** | 100.000 | 2.400.000 | 17.500.000 | 30.000 | 15.000 | 15 | 8 | 7 | 3.400 |
 
 - **Heartshards**: Bir sezonda her aşamanın ilk ücretli tamamlanmasında 1; ayrıca her ücretli tamamlamada %5 ihtimalle bir tane daha.
 
@@ -382,8 +382,8 @@ Bir pilotun bir günde ve sınırların izin verdiği en iyi haftada alabileceğ
 
 | Her pilota ödeme | Onur | Deneyim | Kredi | Thulium | x4 cephane | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE sıralama puanı |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Bir gün, her aşama bir kez | 175.000 | 4.500.000 | 32.500.000 | 28.000 | 28.000 | 30 | 28 | 18 | 6.250 |
-| En iyi hafta: 7 × Aşama 3 ve 3 × Aşama 2 | 850.000 | 21.300.000 | 152.500.000 | 132.000 | 132.000 | 135 | 80 | 67 | 29.800 |
+| Bir gün, her aşama bir kez | 175.000 | 4.500.000 | 32.500.000 | 56.000 | 28.000 | 30 | 28 | 18 | 6.250 |
+| En iyi hafta: 7 × Aşama 3 ve 3 × Aşama 2 | 850.000 | 21.300.000 | 152.500.000 | 264.000 | 132.000 | 135 | 80 | 67 | 29.800 |
 
 Ödemesi yapılan bir tamamlamanın deneyimi ve onuru PvE sıralama puanlarınıza sayılır: her 1.000 deneyim için bir puan, her 100 onur için de bir puan.
 

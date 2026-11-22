@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 38baebcbfc5e575a -->
+<!-- wiki-i18n source: 55107c4d57b624af -->
 <!-- wiki-i18n title: Ostirion -->
 # Ostirion
 
@@ -10,6 +10,7 @@ Ostirion, sağlam bir orta kademe önleme gemisidir; hızda, savunmada ve ateş 
 - **Temel hız**: 260
 - **Lazer yuvaları**: 5
 - **Ekstra yuvalar**: 2
+- **Gövde plakası yuvaları**: 3
 
 ### Jeneratör ve destek yuvaları {#generator-support-slots}
 

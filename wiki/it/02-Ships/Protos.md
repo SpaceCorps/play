@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d64f7bbe1a7fadf7 -->
+<!-- wiki-i18n source: cd97e3b7b68a76f0 -->
 <!-- wiki-i18n title: Protos -->
 # Protos
 
@@ -10,6 +10,7 @@ La Protos è la nave iniziale di base che viene data a tutti i nuovi piloti di S
 - **Velocità di base**: 190
 - **Slot laser**: 2
 - **Slot extra**: 2
+- **Slot corazza**: 3
 
 ### Slot dei generatori e di supporto {#generator-support-slots}
 
@@ -25,6 +26,12 @@ La Protos è la nave iniziale di base che viene data a tutti i nuovi piloti di S
 - **Thulium**: 0
 
 ## Ricerca {#research}
+
+- **Design.** Questa nave ha 1 [design](/wiki/03-Mechanics/Ship-Designs.md). Ricercalo (10 h e 10 Dark Matter), poi converti la tua Protos in quel design nell’Assemblaggio. La conversione non si annulla, e la Protos è l’unica nave che non puoi riavere: non si può costruire, il Negozio la elenca ma non la vende mai, e solo un account nuovo parte con una. Se converti la tua Protos, hai un Protosaur e nessuna Protos.
+
+| Design | Cosa cambia |
+| :--- | :--- |
+| **Protosaur** | +30 velocità base, +1 slot laser, +5 slot corazza, +1 slot extra, +50% danno dei razzi, Blink, Chameleon |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

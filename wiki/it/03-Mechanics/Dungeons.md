@@ -134,7 +134,7 @@ Un tipo alla volta. Scafo e scudo sono i valori usuali moltiplicati per il fatto
 - **Ha l’aspetto di**: Pirate Boss
 - **Vola in branchi da**: 2
 - **Ricompensa e bottino come**: Pirate Boss
-- **Razzo**: Un razzo diritto ogni 5 s, gittata 1.000 unità
+- **Razzo**: Un razzo diritto ogni 5 s, gittata 1.100 unità
 
 |  | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
@@ -207,7 +207,7 @@ Il Signore della guerra aspetta nella sala all’estremità opposta del labirint
 | :--- | ---: | ---: | ---: |
 | Scafo | 10.000.000 | 15.000.000 | 25.000.000 |
 | Scudo | 8.000.000 | 12.000.000 | 20.000.000 |
-| Danno dei laser (una raffica al secondo) | 12.500–15.000 | 15.000–17.500 su ciascuno di 2 piloti | 20.000–25.000 su ciascuno di 2 piloti |
+| Danno dei laser (una raffica al secondo) | 17.500–22.500 | 26.250–33.750 su ciascuno di 2 piloti | 35.000–45.000 su ciascuno di 2 piloti |
 | Velocità | 120 | 120 | 120 |
 | Portata dei laser | 1.100 | 1.100 | 1.100 |
 
@@ -260,8 +260,8 @@ La finestra Dungeon del clan conta quanti di essi restano da distruggere per apr
 | :--- | :--- | :--- | :--- |
 | **Aura di furto vitale** | 8.000 al secondo | 10.000 al secondo | 12.000 al secondo |
 | **Pioggia di meteore** | 6 meteoriti per raffica, 80.000 ciascuno | 8 meteoriti per raffica, 100.000 ciascuno | 10 meteoriti per raffica, 120.000 ciascuno |
-| **Focus sul più ricercato** | 18.750–22.500 per colpo extra al pilota che ha inflitto più danni, uno ogni 1 s | 22.500–26.250 per colpo extra al pilota che ha inflitto più danni, uno ogni 1 s | 30.000–37.500 per colpo extra al pilota che ha inflitto più danni, uno ogni 1 s |
-| **Raffica di razzi** | 50.000–75.000 a razzo su ogni pilota, uno ogni 15 s | 62.500–93.750 a razzo su ogni pilota, uno ogni 15 s | 75.000–112.500 a razzo su ogni pilota, uno ogni 15 s |
+| **Focus sul più ricercato** | 26.250–33.750 per colpo extra al pilota che ha inflitto più danni, uno ogni 1 s | 39.375–50.625 per colpo extra al pilota che ha inflitto più danni, uno ogni 1 s | 52.500–67.500 per colpo extra al pilota che ha inflitto più danni, uno ogni 1 s |
+| **Raffica di razzi** | 100.000–150.000 a razzo su ogni pilota, uno ogni 15 s | 125.000–187.500 a razzo su ogni pilota, uno ogni 15 s | 150.000–225.000 a razzo su ogni pilota, uno ogni 15 s |
 | **Assorbimento dello scudo** | 10.000 di scudo al secondo | 12.500 di scudo al secondo | 15.000 di scudo al secondo |
 | **Supporto dello sciame** | 12 Goombahs | 18 Goombahs | 24 Goombahs |
 | **Zona del Caos** | I piloti dentro l’anello non possono attaccare | I piloti dentro l’anello non possono attaccare | I piloti dentro l’anello non possono attaccare |
@@ -311,14 +311,14 @@ Le carte vengono estratte una alla volta dal mazzo qui sotto. La probabilità è
 
 | Carta | Fase 1 | Fase 2 | Fase 3 | Probabilità | Va a |
 | :--- | ---: | ---: | ---: | ---: | :--- |
-| Thulium | 2.000 | 3.000 | 5.000 | 23,9% | Ogni pilota pagato |
+| Thulium | 4.000 | 6.000 | 10.000 | 23,9% | Ogni pilota pagato |
 | Velkonite Reinforced Plate | 10 | 15 | 25 | 13,65% | Ogni pilota pagato |
 | Velkonite | 200 | 300 | 500 | 13,65% | Ogni pilota pagato |
 | Orvium | 200 | 300 | 500 | 13,65% | Ogni pilota pagato |
 | Ultra Core | 5.000 | 7.500 | 12.500 | 11,4% | Ogni pilota pagato |
 | Experimental Fusion Core | 3.000 | 4.500 | 7.500 | 9,1% | Ogni pilota pagato |
 | Dark Matter | 10 | 16 | 24 | 9,1% | Ogni pilota pagato |
-| Dark Matter Plate | 1 | 1 | 2 | 4,55% | Ogni pilota pagato |
+| Dark Matter Plate | 4 | 6 | 8 | 4,55% | Ogni pilota pagato |
 | Starfire-III | – | – | 1 | 0,07% | Ogni pilota pagato |
 | Helios Beam | – | – | 1 | 0,07% | Ogni pilota pagato |
 | Engine III | – | – | 1 | 0,07% | Ogni pilota pagato |
@@ -351,9 +351,9 @@ Le **Orvium Reinforced Plates** e gli **Echo Shard** e **Lattice Shard** della F
 
 | Fase | Onore | Esperienza | Crediti | Thulium | Munizioni x4 | Orvium Reinforced Plates | Echo Shards | Lattice Shards | Punti classifica PvE |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Fase 1** | 25.000 | 600.000 | 5.000.000 | 4.000 | 4.000 | 5 | 12 | 5 | 850 |
-| **Fase 2** | 50.000 | 1.500.000 | 10.000.000 | 9.000 | 9.000 | 10 | 8 | 6 | 2.000 |
-| **Fase 3** | 100.000 | 2.400.000 | 17.500.000 | 15.000 | 15.000 | 15 | 8 | 7 | 3.400 |
+| **Fase 1** | 25.000 | 600.000 | 5.000.000 | 8.000 | 4.000 | 5 | 12 | 5 | 850 |
+| **Fase 2** | 50.000 | 1.500.000 | 10.000.000 | 18.000 | 9.000 | 10 | 8 | 6 | 2.000 |
+| **Fase 3** | 100.000 | 2.400.000 | 17.500.000 | 30.000 | 15.000 | 15 | 8 | 7 | 3.400 |
 
 - **Heartshards**: 1 con il primo completamento pagato di ogni livello in una stagione, e il 5% di probabilità di uno in più a ogni completamento pagato.
 
@@ -382,8 +382,8 @@ Ciò che un pilota può ricevere in un giorno, e nella settimana migliore che i 
 
 | Paga per ogni pilota | Onore | Esperienza | Crediti | Thulium | Munizioni x4 | Orvium Reinforced Plates | Echo Shards | Lattice Shards | Punti classifica PvE |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Un giorno, ogni fase una volta | 175.000 | 4.500.000 | 32.500.000 | 28.000 | 28.000 | 30 | 28 | 18 | 6.250 |
-| La settimana migliore: 7 × Fase 3 e 3 × Fase 2 | 850.000 | 21.300.000 | 152.500.000 | 132.000 | 132.000 | 135 | 80 | 67 | 29.800 |
+| Un giorno, ogni fase una volta | 175.000 | 4.500.000 | 32.500.000 | 56.000 | 28.000 | 30 | 28 | 18 | 6.250 |
+| La settimana migliore: 7 × Fase 3 e 3 × Fase 2 | 850.000 | 21.300.000 | 152.500.000 | 264.000 | 132.000 | 135 | 80 | 67 | 29.800 |
 
 L’esperienza e l’onore di una fase completata e pagata contano per i tuoi punti classifica PvE: un punto ogni 1.000 di esperienza e uno ogni 100 di onore.
 

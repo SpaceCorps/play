@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9c01b98d8c696970 -->
+<!-- wiki-i18n source: a0ac7234aa147795 -->
 <!-- wiki-i18n title: 重置时间线 -->
 # 重置时间线与赛季 {#wipe-timeline-seasons}
 
@@ -81,7 +81,7 @@ SpaceCorps 的宇宙遵循循环往复的赛季周期。每隔 30 天，星系�
 * **没有部件的扫描**也会给一份奖励（[单人星门](/wiki/03-Mechanics/Solo-Gates.md#a-spin-without-a-part)）。
 * **Chrono-Gate 完成后扫描仍可继续。**每次扫描都会扣费，此时找到的部件属于单人星门。Chrono-Gate 的选项会被锁定，另外两个类别保持 13% 的几率。
 
-*小技巧：你可以使用倍数（1x、5x、10x、100x）一次进行多次扫描，加快星门的建造。*
+*小技巧：你可以使用倍数（1x、5x、10x、100x、1000x）一次进行多次扫描，加快星门的建造。*
 
 ---
 

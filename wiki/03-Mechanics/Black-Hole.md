@@ -11,7 +11,7 @@ Distances are from the centre of the sector, in map units. The sector is 32,000 
 
 | Ring | Distance | What happens |
 | :--- | ---: | :--- |
-| **Radiation** | 4,000 | Your ship takes damage every second, a share of its total maximum HP. The closer, the more. |
+| **Radiation** | 4,000 | Your hull takes damage every second, a share of its maximum hull. The closer, the more. |
 | **Pull** | 3,000 | The black hole pulls your ship toward the centre, harder the closer you are. A ship that is not flying is carried. |
 | **Point of no return** | about 800 to 2,600 | Where the pull equals your ship's speed. Inside it, even at full power, you are drawn in. It depends on your speed. |
 | **Event horizon** | 300 | Any ship that reaches it is destroyed at once, whatever its hull and shield. |
@@ -29,7 +29,7 @@ The black hole is not the same size all season. In the last **72 hours** before 
 | **Radiation** | 4,000 | 5,600 | 7,200 |
 | **Steering ring** | 4,200 | 5,880 | 7,560 |
 
-What does not change is how hard it is at the same share of the way in: a ship 3,600 units from the centre, with the hole at 1.8 times, feels what a ship 2,000 units out feels on a normal day (a pull of 96 units a second and 2 % of its HP a second). The grown hole is not stronger, it is wider, and a ship needs 1.8 times as long to cross it. The point of no return of every ship lies 1.8 times as far out. All the distances on this page are the normal size: multiply them by the hole's size to read the grown hole.
+What does not change is how hard it is at the same share of the way in: a ship 3,600 units from the centre, with the hole at 1.8 times, feels what a ship 2,000 units out feels on a normal day (a pull of 96 units a second and 2 % of its hull a second). The grown hole is not stronger, it is wider, and a ship needs 1.8 times as long to cross it. The point of no return of every ship lies 1.8 times as far out. All the distances on this page are the normal size: multiply them by the hole's size to read the grown hole.
 
 - **How you see it.** For the last 72 hours the Dashboard has a card at the top, and the flight view a label over the black hole, that count down to the wipe ("Universe Wipe in 1d 05:12:33") and say how many times its size the hole is now; in the last five minutes the wipe's own countdown takes over. The minimap's tooltip names the rings of the size the hole has now.
 - **When.** The size depends only on the season's clock, so it is the same in every world. While an admin holds the season on a day nothing is scheduled and the hole stays at its normal size; when the season day is moved, the hole follows at once; the next season starts with a normal hole.
@@ -38,7 +38,7 @@ What does not change is how hard it is at the same share of the way in: a ship 3
 
 ## Radiation
 
-The damage is a **percentage of your ship's total maximum HP** (hull plus shield) every second, so every ship class lasts exactly as long at a given distance: a Protos and a Wraith at 2,000 units both burn through a full ship in 50 seconds.
+The damage is a **percentage of your ship's maximum hull** every second, and it comes **straight out of the hull**: your shield does not soak it. So every ship class lasts exactly as long at a given distance: a Protos and a Wraith at 2,000 units both burn through a full hull in 50 seconds.
 
 | Distance | Damage a second | A full ship lasts |
 | ---: | ---: | ---: |
@@ -50,24 +50,25 @@ The damage is a **percentage of your ship's total maximum HP** (hull plus shield
 | 700 | 11 % | 9 s |
 | 300 | 24 % | 4 s |
 
-Between two rows the damage rises in a straight line. In hit points a second, for the stock builds:
+Between two rows the damage rises in a straight line. In hull points a second, for the stock builds:
 
-| Ship | Total max HP | At 3,500 | At 3,000 | At 2,000 | At 1,200 | At 700 |
+| Ship | Max hull | At 3,500 | At 3,000 | At 2,000 | At 1,200 | At 700 |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| Protos | 30,000 | 165 | 240 | 600 | 1,500 | 3,300 |
-| Kitefin | 46,000 | 253 | 368 | 920 | 2,300 | 5,060 |
-| Ostirion | 98,500 | 542 | 788 | 1,970 | 4,925 | 10,835 |
-| Nomad | 145,500 | 800 | 1,164 | 2,910 | 7,275 | 16,005 |
-| Paragon | 162,500 | 894 | 1,300 | 3,250 | 8,125 | 17,875 |
-| Storm | 228,000 | 1,254 | 1,824 | 4,560 | 11,400 | 25,080 |
-| Wraith | 304,000 | 1,672 | 2,432 | 6,080 | 15,200 | 33,440 |
-| Ironclad | 573,200 | 3,153 | 4,586 | 11,464 | 28,660 | 63,052 |
+| Protos | 8,000 | 44 | 64 | 160 | 400 | 880 |
+| Kitefin | 24,000 | 132 | 192 | 480 | 1,200 | 2,640 |
+| Ostirion | 64,000 | 352 | 512 | 1,280 | 3,200 | 7,040 |
+| Nomad | 111,000 | 611 | 888 | 2,220 | 5,550 | 12,210 |
+| Paragon | 128,000 | 704 | 1,024 | 2,560 | 6,400 | 14,080 |
+| Storm | 180,000 | 990 | 1,440 | 3,600 | 9,000 | 19,800 |
+| Wraith | 256,000 | 1,408 | 2,048 | 5,120 | 12,800 | 28,160 |
+| Ironclad | 500,000 | 2,750 | 4,000 | 10,000 | 25,000 | 55,000 |
 
-- The **shield takes it first**, then the hull. It is not a hit: the shield's absorbance does not come into it, and it cannot be dodged.
+- It goes **straight to the hull**: the shield takes none of it, so a ship with no shield loses exactly what a ship with a Heavy Shield Core loses. It is not a hit: the shield's absorbance does not come into it, and it cannot be dodged.
 - Radiation counts as **damage taken**: your shield does not recharge, a Repair Drone stops ("Repairs interrupted: radiation.") and cannot be started, and a safe zone would not protect you until 5 seconds after the last dose.
-- Boosters and upgrades change how big your total is, not how long you last: the damage is a share of it.
-- Nothing makes a ship immune. Radiation is not a hit, so nothing soaks it up; but the abilities go on in it: a Shield Surge keeps restoring your shield and an Emergency Repair keeps healing your hull for their ten seconds (they are not the natural repairs the dose stops). A cloak does not hide the ship from it.
-- **Radiation tech**, a pilot skill, lowers the dose: the share of your total you lose a second falls in a straight line from all of it at level 1 to 0.40 of it at level 100, and the gauge shows the dose you really take.
+- Boosters and upgrades change how big your hull is, not how long you last: the damage is a share of it.
+- Nothing makes a ship immune. Radiation is not a hit, so nothing soaks it up, the shield least of all; but the abilities go on in it: an Emergency Repair keeps healing your hull for its ten seconds (it is not one of the natural repairs the dose stops), and a Shield Surge keeps restoring a shield the radiation never takes. A cloak does not hide the ship from it.
+- **Radiation tech**, a pilot skill, lowers the dose: the share of your hull you lose a second falls in a straight line from all of it at level 1 to 0.40 of it at level 100, and the gauge shows the dose you really take.
+- The **N.U.K.E.** and the **Gravitational N.U.K.E.** leave radiation zones of their own where they go off, and those burn the hull in the same way: [Rockets](/wiki/06-Items/Rockets.md#the-craft-only-rockets) has them.
 
 ## The Pull
 
@@ -127,7 +128,7 @@ The view is small (about 1,900 by 1,150 units on screen at the default zoom, 4,4
 
 - **From far away.** If you turn the camera down to look across the plane, the black hole is drawn where it lies on the screen, from anywhere in the sector, whenever it is in the frame: a black disc with a ring in a glow of accretion light, scaled to stay easy to see (about 2 % of the view's height from the far corner, which is about 18,000 units away), and it grows into its own picture as you close in. Nothing in it moves by itself. With the black hole out of the view there is no marker on the screen for it.
 - **Rings on the flight plane.** A violet band glows up to a crisp edge at the radiation's rim (4,000 units), and a thinner amber one marks the edge of the pull (3,000). Inside the pull a **red line** shows *your own* point of no return. It follows your speed, so it moves as your ship gets faster or slower.
-- **The gauge**, above the hotbar, appears within a thousand units of the rim and stays while you burn. It shows the radiation in percent of your ship's total HP a second, how long the radiation alone would take to burn through what is left ("Lethal in 31 s", red under ten), a bar of that HP, the pull where you are against your speed, and the distance still to fly to your point of no return, or a flashing warning once you are past it. Hover a row for what it means; the (i) opens a card.
+- **The gauge**, above the hotbar, appears within a thousand units of the rim and stays while you burn. It shows the radiation in percent of your ship's maximum hull a second, how long the radiation alone would take to burn through what is left of your hull ("Lethal in 31 s", red under ten), a bar of that hull, the pull where you are against your speed, and the distance still to fly to your point of no return, or a flashing warning once you are past it. Hover a row for what it means; the (i) opens a card.
 - **The screen edges** glow violet, turning red as the dose climbs, and pulse once a second.
 - **The minimap** draws the black hole with its rings as ellipses (the chart stretches with its window), and its tooltip names the radii. The star chart marks the sector with a small black hole.
 - **A radiation counter** clicks faster as the dose rises, over the fight. A two-tone warning sounds as you cross the rim and again at your point of no return, and a low rumble is heard from about 6,500 units, lower the closer you are.
@@ -152,8 +153,8 @@ New to Dark Matter? [Dark Matter and Dark Matter Plates](/wiki/03-Mechanics/Dark
 
 The hole gives back **Dark Matter** for a **N.I.K.E.** rocket that reaches it. A N.I.K.E. is a rocket that deals 67,500 to 75,000 damage to the first ship it may hurt and is spent on it; if nothing is in the way it flies to the hole and is used up when it crosses the event horizon. [Assembly](/wiki/06-Items/Rockets.md) makes N.I.K.E.s once their technology is researched ([Research](/wiki/03-Mechanics/Research.md)), five a craft (100,000 Credits, 1,500 Thulium, 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite).
 
-- **Firing.** A N.I.K.E. flies 4,050 units in 4.5 seconds (900 a second) straight at where you aimed it: with no target selected, put the cursor on the black hole (or point your ship at it). It reaches the horizon from anywhere between the rim of the radiation (4,000 units) and 4,380 units from the centre. Farther out it falls short and is wasted. Like every rocket it uses the shared timer, and after it you wait 4.6 seconds for the next rocket (no laser needs to be fitted); firing it ends your safe-zone protection and your cloak. **A ship on the line takes it instead**: a rival waiting at the rim, or a pilot of another company collecting crates in the way, is hit for 67,500 to 75,000 and the hole gets nothing. Aliens and company pilots never come inside the ring, so a clear line is yours to keep clear; it flies through your own group and through ships that are safe from you (a pilot of your own company who is not in your group is a ship like any other here, where PvP is on). If you leave the map after the shot, it flies on without hurting anyone and still makes your Dark Matter. A drone formation can change the damage of the hit, but not the wait after a N.I.K.E. (see [Drone formations and rockets](/wiki/06-Items/Rockets.md#drone-formations-and-rockets)).
-- **What comes back.** Each N.I.K.E. that reaches the horizon gives **1, 2 or 3 Dark Matter** (2 on average, so about five N.I.K.E.s make ten), in small crates, one for each unit (so one to three crates), that appear on the rim of the hole's zone, **3,050 to 3,950 units from the centre**, near the line your shot came in on. The pull ends at 3,000, so the crates and the ships taking them are not pulled, and the radiation there is 0.3 to 0.8 % of a ship's HP a second: a minute in the middle of the band costs a third of your ship. A full ship lasts three minutes there.
+- **Firing.** A N.I.K.E. flies 4,455 units in 4.5 seconds (1,000 a second) straight at where you aimed it: with no target selected, put the cursor on the black hole (or point your ship at it). It reaches the horizon from anywhere between the rim of the radiation (4,000 units) and 4,785 units from the centre. Farther out it falls short and is wasted. Like every rocket it uses the shared timer, and after it you wait 4.6 seconds for the next rocket (no laser needs to be fitted); firing it ends your safe-zone protection and your cloak. **A ship on the line takes it instead**: a rival waiting at the rim, or a pilot of another company collecting crates in the way, is hit for 67,500 to 75,000 and the hole gets nothing. Aliens and company pilots never come inside the ring, so a clear line is yours to keep clear; it flies through your own group and through ships that are safe from you (a pilot of your own company who is not in your group is a ship like any other here, where PvP is on). If you leave the map after the shot, it flies on without hurting anyone and still makes your Dark Matter. A drone formation can change the damage of the hit, but not the wait after a N.I.K.E. (see [Drone formations and rockets](/wiki/06-Items/Rockets.md#drone-formations-and-rockets)).
+- **What comes back.** Each N.I.K.E. that reaches the horizon gives **1, 2 or 3 Dark Matter** (2 on average, so about five N.I.K.E.s make ten), in small crates, one for each unit (so one to three crates), that appear on the rim of the hole's zone, **3,050 to 3,950 units from the centre**, near the line your shot came in on. The pull ends at 3,000, so the crates and the ships taking them are not pulled, and the radiation there is 0.3 to 0.8 % of a ship's hull a second: a minute in the middle of the band costs a third of your ship. A full ship lasts three minutes there.
 - **Whose.** The crates are yours, and your clan's, for **60 seconds** from the shot. After that anyone on the map may take them, and they drift away after **4 minutes**. The Danger Sector is a PvP sector, so expect company. A pilot who logs out after firing still has its crates.
 - **How many.** A map holds at most 52 Dark Matter crates; a new one pushes out the oldest of them, and never another kind of crate. The [Resource Magnet Booster](/wiki/03-Mechanics/Cargo.md) adds nothing to Dark Matter.
 - **What you see.** When a N.I.K.E. crosses the horizon it is stretched into the hole, space ripples out from where it went in, and the disk and the photon ring flare for about a second and a half (a third of that, at half the light, under **Reduce Motion**). A moment later the crates come out of the hole and drift to their places on the rim: each is a violet-black orb with a bright rim and sparkles, easy to see from far, and titled **Dark Matter** when you hover it. Yours show the seconds you have left over them, and show on the minimap as a small violet mark, as they do for your clan; other pilots' crates show on the minimap only once their minute is over.

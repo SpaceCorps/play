@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0c9164c462c27a1a -->
+<!-- wiki-i18n source: 74bb4919fe97756e -->
 <!-- wiki-i18n title: Ricerca -->
 # Ricerca {#research}
 
@@ -30,7 +30,7 @@ Questa pagina riunisce l’intero albero delle tecnologie con il tempo di ciascu
 
 <!-- research-centre:end -->
 
-**Schematics.** Uno [Schematics](/wiki/06-Items/Special-Items.md#schematics) toglie 24 ore alla ricerca in corso: se ne restano 24 o meno, viene completata subito, e una più lunga perde 24 ore e continua (187 delle 209 tecnologie richiedono 24 ore o meno, quindi uno le completa fin dall’inizio; le altre 22 ne richiedono da 2 a 10). Ciò che la ricerca è costata è stato pagato all’inizio e non viene restituito, la scienza che il tempo saltato avrebbe bruciato resta nel tuo serbatoio e, quando la ricerca è completata, la tecnologia successiva della tua coda parte subito.
+**Schematics.** Uno [Schematics](/wiki/06-Items/Special-Items.md#schematics) toglie 24 ore alla ricerca in corso: se ne restano 24 o meno, viene completata subito, e una più lunga perde 24 ore e continua (188 delle 210 tecnologie richiedono 24 ore o meno, quindi uno le completa fin dall’inizio; le altre 22 ne richiedono da 2 a 10). Ciò che la ricerca è costata è stato pagato all’inizio e non viene restituito, la scienza che il tempo saltato avrebbe bruciato resta nel tuo serbatoio e, quando la ricerca è completata, la tecnologia successiva della tua coda parte subito.
 
 **Gli amplificatori laser e l’ultimo tier.** I Damage, Crit e Penetration Amp dei tier da II a IV si ricercano come ogni altra creazione. I piloti che possedevano o avevano in coda degli amp all’arrivo delle linee di amp hanno ricevuto la tecnologia di ciascuno di essi e quella dei tier sotto. Tredici tecnologie richiedono una tecnologia di un altro albero, quella della Dark Matter Plate, dell’albero Risorse, perché l’ultimo tier di ogni catena di potenziamento richiede quattro plate e una Ancient Control Unit: i Damage, Crit e Penetration Amp del tier IV, le Absorption e Capacity Shield Cell del tier IV, gli Impulse e Momentum Thruster del tier IV, l’Heavy Shield Core, l’Engine III, l’Adaptive Core III, l’Helios Beam, l’Extra Slots CPU III e il Base CPU II. Un pilota che ne ha ricercata una prima la conserva, ma per creare le sue plate gli serve la tecnologia della plate. L’albero qui sotto non traccia alcuna freccia per essa, ma la tabella la elenca e la scheda nel gioco la nomina ([Dark Matter e Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)).
 

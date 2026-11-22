@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: d605328d6ea5df78 -->
+<!-- wiki-i18n source: 91ebd8675b1f7ea3 -->
 <!-- wiki-i18n title: Blindage de coque -->
 # Blindage de coque {#hull-plating}
 
 <!-- wiki-search: hull plate; hull plate slot; hull plate slots; plate slot; plate; armour; armor; hpl; blindage; emplacement de blindage; plaque de coque -->
 
-L’étude de l’essaim Dormant a montré des progrès dans la technologie du blindage. Grâce à elle, les vaisseaux peuvent améliorer leur coque : le **blindage de coque** est un blindage qui se monte dans un emplacement de plaque de coque d’un vaisseau fabriqué et lui ajoute des points de coque. Ce n’est pas le Hull Plating **Booster** de la page [Boosters](/wiki/06-Items/Boosters.md), un bonus temporaire.
+L’étude de l’essaim Dormant a montré des progrès dans la technologie du blindage. Grâce à elle, les vaisseaux peuvent améliorer leur coque : le **blindage de coque** est un blindage qui se monte dans un emplacement de plaque de coque d’un vaisseau et lui ajoute des points de coque. Ce n’est pas le Hull Plating **Booster** de la page [Boosters](/wiki/06-Items/Boosters.md), un bonus temporaire.
 
 ![The Hull plates card of the Hangar: the slots researched hold Hull Plating, the others show a padlock](../../img/wiki-img/shots/hull-plates.jpg)
 
@@ -28,26 +28,27 @@ Hull Plating I => Hull Plating II => Hull Plating III
 
 | Objet | Coque ajoutée | D’où il vient |
 | :--- | ---: | :--- |
-| **Hull Plating I** | 8 000 | Boutique, 5 000 Thulium |
-| **Hull Plating II** | 15 000 | Assemblage, à partir d’un Hull Plating I |
-| **Hull Plating III** | 25 000 | Assemblage, à partir d’un Hull Plating II |
+| **Hull Plating I** | 7 000 | Boutique, 5 000 Thulium |
+| **Hull Plating II** | 14 000 | Assemblage, à partir d’un Hull Plating I |
+| **Hull Plating III** | 20 000 | Assemblage, à partir d’un Hull Plating II |
 
 Le Hull Plating I s’achète. **Le II et le III sont des améliorations** : l’Assemblage consomme un blindage du palier en dessous (libre dans votre inventaire) et demande du Thulium, des matériaux et des **Dark Matter Plates**, 5 pour le II et 8 pour le III, là où le dernier palier de toute autre pièce d’équipement en demande 4 et une Ancient Control Unit. Chacun a d’abord besoin de sa technologie, dans l’arbre Hull Plating de la page [Recherche](/wiki/03-Mechanics/Research.md#tree-hull-plating) : 1 jour et 25 Dark Matter pour le II, 2 jours et 40 pour le III, en plus de la technologie de la Dark Matter Plate elle-même. L’arbre ci-dessus donne les prix, les matériaux et les durées.
 
-La [Forge](/wiki/06-Items/Forge.md) accepte tous les blindages, et une amélioration conserve le rang de forge et le bonus du blindage consommé. Un blindage n’a qu’une seule stat, sa coque, il porte donc un seul bonus, de +2 % à +15 % selon le rang : un Hull Plating III Ascendant ajoute jusqu’à 28 750. Les [Enchères](/wiki/03-Mechanics/Auction.md) acceptent les Hull Plating II et III, jamais le Hull Plating I, que vend la boutique.
+La [Forge](/wiki/06-Items/Forge.md) accepte tous les blindages, et une amélioration conserve le rang de forge et le bonus du blindage consommé. Un blindage n’a qu’une seule stat, sa coque, il porte donc un seul bonus, de +2 % à +15 % selon le rang : un Hull Plating III Ascendant ajoute jusqu’à 23 000. Les [Enchères](/wiki/03-Mechanics/Auction.md) acceptent les Hull Plating II et III, jamais le Hull Plating I, que vend la boutique.
 
 ## Emplacements de blindage {#hull-plate-slots}
 
-Le blindage de coque ne se monte que dans des **emplacements de blindage**, un type d’emplacement à part qu’ont les quatre vaisseaux que vous fabriquez dans l’Assemblage, en plus de leurs emplacements de laser, de générateur, d’extra, de compétence et de drone :
+Le blindage de coque ne se monte que dans des **emplacements de blindage**, un type d’emplacement à part que tout vaisseau a en plus de ses emplacements de laser, de générateur, d’extra, de compétence et de drone. Les vaisseaux que vous fabriquez dans l’Assemblage en ont le plus : les quatre du tableau et le [Miyuki](/wiki/02-Ships/Miyuki.md), qui en a de 5 à 9, un de plus à chaque niveau :
 
 | Vaisseau | Emplacements de blindage | Un jeu complet de Hull Plating III ajoute |
 | :--- | ---: | ---: |
-| **Paragon** | 5 | 125 000 |
-| **Storm** | 8 | 200 000 |
-| **Ironclad** | 15 | 375 000 |
-| **Wraith** | 10 | 250 000 |
+| **Paragon** | 5 | 100 000 |
+| **Storm** | 8 | 160 000 |
+| **Ironclad** | 15 | 300 000 |
+| **Wraith** | 10 | 200 000 |
 
-- **Tous verrouillés au départ.** Un emplacement s’ouvre quand vous le recherchez dans le Skylab : une technologie par emplacement, 1 heure et 10 Dark Matter, dans l’ordre à partir du premier. La vue [Recherche](/wiki/03-Mechanics/Research.md#ship-technologies) montre les emplacements d’un vaisseau sous la forme d’une seule carte avec un point par emplacement.
+- **Sur un vaisseau fabriqué, tous verrouillés au départ.** Un emplacement s’ouvre quand vous le recherchez dans le Skylab : une technologie par emplacement, 1 heure et 10 Dark Matter, dans l’ordre à partir du premier. La vue [Recherche](/wiki/03-Mechanics/Research.md#ship-technologies) montre les emplacements d’un vaisseau sous la forme d’une seule carte avec un point par emplacement.
+- **Les quatre vaisseaux de la Boutique en ont trois, ouverts dès le départ.** Le Protos, le Kitefin, l’Ostirion et le Nomad ont chacun 3 emplacements de blindage et rien à rechercher : ils sont ouverts dès le premier vol. Un jeu complet de Hull Plating III ajoute 60 000 à chacun.
 - **Un type de vaisseau, pas un seul vaisseau.** Les emplacements que vous avez ouverts pour le Paragon sont ouverts aussi sur chaque design du Paragon ([Designs de vaisseaux](/wiki/03-Mechanics/Ship-Designs.md)). Une technologie est à vous pour toujours : la réinitialisation la conserve.
 - **Les deux configurations les partagent.** Les blindages appartiennent au vaisseau : changer de configuration les laisse en place, et le hangar montre les mêmes dans les deux.
 - **Tout mélange.** Un emplacement accepte n’importe quel blindage de coque, et deux identiques ne posent aucun problème.
@@ -62,4 +63,4 @@ Un blindage ajoute sa coque à celle du vaisseau, et le hangar et la fenêtre du
 
 ## Hull Plating ou Hull Plating Booster ? {#hull-plating-or-booster}
 
-Deux choses portent le même nom. Le **blindage de coque** (cette page) est une armure : une plaque qui se place dans un emplacement de blindage d’un vaisseau fabriqué et ajoute sa coque tant qu’elle est montée. Le **Hull Plating Booster** est un bonus temporaire de la page [Boosters](/wiki/06-Items/Boosters.md), +10 % de points de coque maximum pendant 10 heures sur le vaisseau que vous pilotez, et il n’y a rien à monter. Ils s’additionnent : les blindages viennent d’abord, et les 10 % du Booster sont pris sur le total.
+Deux choses portent le même nom. Le **blindage de coque** (cette page) est une armure : une plaque qui se place dans un emplacement de blindage d’un vaisseau et ajoute sa coque tant qu’elle est montée. Le **Hull Plating Booster** est un bonus temporaire de la page [Boosters](/wiki/06-Items/Boosters.md), +10 % de points de coque maximum pendant 10 heures sur le vaisseau que vous pilotez, et il n’y a rien à monter. Ils s’additionnent : les blindages viennent d’abord, et les 10 % du Booster sont pris sur le total.

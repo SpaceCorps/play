@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 38baebcbfc5e575a -->
+<!-- wiki-i18n source: 55107c4d57b624af -->
 <!-- wiki-i18n title: Ostirion -->
 # Ostirion
 
@@ -10,6 +10,7 @@ Ostirion は中堅クラスの堅実なインターセプターで、基本の P
 - **基本速度**：260
 - **レーザースロット**：5
 - **エクストラスロット**：2
+- **装甲スロット**: 3
 
 ### ジェネレーターとサポートのスロット {#generator-support-slots}
 

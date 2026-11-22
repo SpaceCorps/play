@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4f623748df04b99c -->
+<!-- wiki-i18n source: d81d149a539b43ee -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
@@ -27,7 +27,7 @@ Storm は、全艦中最高の基本速度と最多のレーザー数（15門）
 
 ## 研究 {#research}
 
-- **装甲スロット。** この艦には、[船体装甲](/wiki/06-Items/Hull-Plating.md)用の[装甲スロット](/wiki/06-Items/Hull-Plating.md#hull-plate-slots)が8つあり、建造した時点ではすべてロックされています。スロットは1つにつき、Skylab の専用の技術です。1時間と Dark Matter 10個で、最初のものから順に研究します。研究すると、この艦とそのすべてのデザインでそのスロットが開きます。8つすべてに Hull Plating III を装着すると、船体が 200,000 増えます。
+- **装甲スロット。** この艦には、[船体装甲](/wiki/06-Items/Hull-Plating.md)用の[装甲スロット](/wiki/06-Items/Hull-Plating.md#hull-plate-slots)が8つあり、建造した時点ではすべてロックされています。スロットは1つにつき、Skylab の専用の技術です。1時間と Dark Matter 10個で、最初のものから順に研究します。研究すると、この艦とそのすべてのデザインでそのスロットが開きます。8つすべてに Hull Plating III を装着すると、船体が 160,000 増えます。
 - **デザイン。** この艦には[デザイン](/wiki/03-Mechanics/Ship-Designs.md)が3つあります。1つ研究して（10時間と Dark Matter 10個）、アセンブリで Storm をそのデザインに改造します。この変更は元に戻せません。
 
 | デザイン | 変更点 |

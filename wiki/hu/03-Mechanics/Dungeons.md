@@ -134,7 +134,7 @@ Sorban az egyes fajták. A hajótest és a pajzs a szokásos érték szorozva az
 - **Úgy néz ki, mint**: Pirate Boss
 - **Falkaméret**: 2
 - **Jutalma és zsákmánya, mint**: Pirate Boss
-- **Rakéta**: Egyenes rakéta 5 mp időközönként, hatótávolsága 1 000 egység
+- **Rakéta**: Egyenes rakéta 5 mp időközönként, hatótávolsága 1 100 egység
 
 |  | 1. fokozat | 2. fokozat | 3. fokozat |
 | :--- | ---: | ---: | ---: |
@@ -207,7 +207,7 @@ A Hadúr a labirintus túlsó végén lévő teremben vár, és az ő bukása fi
 | :--- | ---: | ---: | ---: |
 | Hajótest | 10 000 000 | 15 000 000 | 25 000 000 |
 | Pajzs | 8 000 000 | 12 000 000 | 20 000 000 |
-| Lézersebzés (másodpercenként egy sorozat) | 12 500–15 000 | 2 pilóta mindegyikére 15 000–17 500 | 2 pilóta mindegyikére 20 000–25 000 |
+| Lézersebzés (másodpercenként egy sorozat) | 17 500–22 500 | 2 pilóta mindegyikére 26 250–33 750 | 2 pilóta mindegyikére 35 000–45 000 |
 | Sebesség | 120 | 120 | 120 |
 | Lézer hatótávja | 1 100 | 1 100 | 1 100 |
 
@@ -260,8 +260,8 @@ A Klánkazamata ablak számolja, hány ilyet kell még megsemmisíteni a terem m
 | :--- | :--- | :--- | :--- |
 | **Életszívó aura** | 8 000 másodpercenként | 10 000 másodpercenként | 12 000 másodpercenként |
 | **Meteorzápor** | 6 meteor sorozatonként, egyenként 80 000 | 8 meteor sorozatonként, egyenként 100 000 | 10 meteor sorozatonként, egyenként 120 000 |
-| **Fókusz a legkeresettebbre** | 18 750–22 500 extra lövésenként a legtöbb sebzést okozó pilótára, 1 mp időközönként egy | 22 500–26 250 extra lövésenként a legtöbb sebzést okozó pilótára, 1 mp időközönként egy | 30 000–37 500 extra lövésenként a legtöbb sebzést okozó pilótára, 1 mp időközönként egy |
-| **Rakétazápor** | 50 000–75 000 rakétánként minden pilótára, 15 mp időközönként egy | 62 500–93 750 rakétánként minden pilótára, 15 mp időközönként egy | 75 000–112 500 rakétánként minden pilótára, 15 mp időközönként egy |
+| **Fókusz a legkeresettebbre** | 26 250–33 750 extra lövésenként a legtöbb sebzést okozó pilótára, 1 mp időközönként egy | 39 375–50 625 extra lövésenként a legtöbb sebzést okozó pilótára, 1 mp időközönként egy | 52 500–67 500 extra lövésenként a legtöbb sebzést okozó pilótára, 1 mp időközönként egy |
+| **Rakétazápor** | 100 000–150 000 rakétánként minden pilótára, 15 mp időközönként egy | 125 000–187 500 rakétánként minden pilótára, 15 mp időközönként egy | 150 000–225 000 rakétánként minden pilótára, 15 mp időközönként egy |
 | **Pajzselnyelés** | 10 000 pajzs másodpercenként | 12 500 pajzs másodpercenként | 15 000 pajzs másodpercenként |
 | **Rajtámogatás** | 12 Goombah | 18 Goombah | 24 Goombah |
 | **Káoszzóna** | A gyűrűben lévő pilóták nem támadhatnak | A gyűrűben lévő pilóták nem támadhatnak | A gyűrűben lévő pilóták nem támadhatnak |
@@ -311,14 +311,14 @@ A kártyákat egyenként húzzák az alábbi készletből. Az esély egy kárty�
 
 | Kártya | 1. fokozat | 2. fokozat | 3. fokozat | Esély | Ki kapja |
 | :--- | ---: | ---: | ---: | ---: | :--- |
-| Thulium | 2 000 | 3 000 | 5 000 | 23,9% | Minden kifizetett pilóta |
+| Thulium | 4 000 | 6 000 | 10 000 | 23,9% | Minden kifizetett pilóta |
 | Velkonite Reinforced Plate | 10 | 15 | 25 | 13,65% | Minden kifizetett pilóta |
 | Velkonite | 200 | 300 | 500 | 13,65% | Minden kifizetett pilóta |
 | Orvium | 200 | 300 | 500 | 13,65% | Minden kifizetett pilóta |
 | Ultra Core | 5 000 | 7 500 | 12 500 | 11,4% | Minden kifizetett pilóta |
 | Experimental Fusion Core | 3 000 | 4 500 | 7 500 | 9,1% | Minden kifizetett pilóta |
 | Dark Matter | 10 | 16 | 24 | 9,1% | Minden kifizetett pilóta |
-| Dark Matter Plate | 1 | 1 | 2 | 4,55% | Minden kifizetett pilóta |
+| Dark Matter Plate | 4 | 6 | 8 | 4,55% | Minden kifizetett pilóta |
 | Starfire-III | – | – | 1 | 0,07% | Minden kifizetett pilóta |
 | Helios Beam | – | – | 1 | 0,07% | Minden kifizetett pilóta |
 | Engine III | – | – | 1 | 0,07% | Minden kifizetett pilóta |
@@ -351,9 +351,9 @@ Az **Orvium Reinforced Plates**, valamint a Kovácsműhely **Echo Shard** és **
 
 | Fokozat | Becsület | Tapasztalat | Kredit | Thulium | x4 lőszer | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE-ranglistapont |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **1. fokozat** | 25 000 | 600 000 | 5 000 000 | 4 000 | 4 000 | 5 | 12 | 5 | 850 |
-| **2. fokozat** | 50 000 | 1 500 000 | 10 000 000 | 9 000 | 9 000 | 10 | 8 | 6 | 2 000 |
-| **3. fokozat** | 100 000 | 2 400 000 | 17 500 000 | 15 000 | 15 000 | 15 | 8 | 7 | 3 400 |
+| **1. fokozat** | 25 000 | 600 000 | 5 000 000 | 8 000 | 4 000 | 5 | 12 | 5 | 850 |
+| **2. fokozat** | 50 000 | 1 500 000 | 10 000 000 | 18 000 | 9 000 | 10 | 8 | 6 | 2 000 |
+| **3. fokozat** | 100 000 | 2 400 000 | 17 500 000 | 30 000 | 15 000 | 15 | 8 | 7 | 3 400 |
 
 - **Heartshards**: 1 az évad során az egyes szintek első fizetett teljesítésekor, és 5% eséllyel még egy minden fizetett teljesítéskor.
 
@@ -382,8 +382,8 @@ Amit egy pilóta egy nap alatt kaphat, és a korlátok által megengedett legjob
 
 | Fizetség pilótánként | Becsület | Tapasztalat | Kredit | Thulium | x4 lőszer | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE-ranglistapont |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Egy nap, minden fokozat egyszer | 175 000 | 4 500 000 | 32 500 000 | 28 000 | 28 000 | 30 | 28 | 18 | 6 250 |
-| A legjobb hét: 7 × 3. fokozat és 3 × 2. fokozat | 850 000 | 21 300 000 | 152 500 000 | 132 000 | 132 000 | 135 | 80 | 67 | 29 800 |
+| Egy nap, minden fokozat egyszer | 175 000 | 4 500 000 | 32 500 000 | 56 000 | 28 000 | 30 | 28 | 18 | 6 250 |
+| A legjobb hét: 7 × 3. fokozat és 3 × 2. fokozat | 850 000 | 21 300 000 | 152 500 000 | 264 000 | 132 000 | 135 | 80 | 67 | 29 800 |
 
 Egy kifizetett teljesítés tapasztalata és becsülete beleszámít a PvE-ranglistapontjaidba: minden 1 000 tapasztalat egy pont, és minden 100 becsület is egy pont.
 

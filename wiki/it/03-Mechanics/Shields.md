@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5f4f8c45180bc787 -->
+<!-- wiki-i18n source: c205efd6ca83bd6f -->
 <!-- wiki-i18n title: Scudi -->
 # Meccaniche degli scudi {#shield-mechanics}
 
@@ -46,16 +46,16 @@ Alcuni attacchi hanno una **penetrazione dello scudo**: punti che vengono tolti 
 - Gli alieni non hanno una statistica di assorbimento: ripartiscono ogni colpo 80% / 20%, meno la penetrazione del colpo.
 - Il danno di una Siphon Battery esce solo dallo scudo: assorbimento e penetrazione non c’entrano.
 
-**Dove gli scudi non prendono nulla.** Una penetrazione pari o superiore all’assorbimento non lascia agli scudi nulla del colpo: lo scafo prende tutto. La tabella mostra quanto prendono gli scudi di un colpo del miglior laser (85%; con una Antimatter Battery al posto dell’Experimental Fusion Core diventa 95% con danno x3) e del miglior razzo diretto (un Lancet III o un Rivet III con uno Stiletto, 70%):
+**Dove gli scudi non prendono nulla.** Una penetrazione pari o superiore all’assorbimento non lascia agli scudi nulla del colpo: lo scafo prende tutto. La tabella mostra quanto prendono gli scudi di un colpo del miglior laser (100%; con una Antimatter Battery al posto dell’Experimental Fusion Core diventa 110% con danno x3) e del miglior razzo diretto (un Lancet III o un Rivet III con uno Stiletto, 70%):
 
-| Scudo | Assorbimento | Gli scudi prendono, miglior laser (85%) | Gli scudi prendono, miglior razzo diretto (70%) |
+| Scudo | Assorbimento | Gli scudi prendono, miglior laser (100%) | Gli scudi prendono, miglior razzo diretto (70%) |
 | :--- | ---: | ---: | ---: |
 | Light Shield Core | 45% | 0% | 0% |
 | Basic Shield Core | 50% | 0% | 0% |
 | Heavy Shield Core | 55% | 0% | 0% |
-| Il miglior scudo di serie | 91% | 6% | 21% |
-| Uno scudo al 100% | 100% | 15% | 30% |
-| Uno scudo al 120% | 120% | 35% | 50% |
+| Il miglior scudo di serie | 91% | 0% | 21% |
+| Uno scudo al 100% | 100% | 0% | 30% |
+| Uno scudo al 120% | 120% | 20% | 50% |
 
 #### Raggiungere e superare il 100% {#reaching-and-passing-100-}
 

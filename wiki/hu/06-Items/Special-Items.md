@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 064e305cf560906d -->
+<!-- wiki-i18n source: 9da2aba86c37f5e2 -->
 <!-- wiki-i18n title: Különleges tárgyak -->
 # Különleges tárgyak {#special-items}
 
@@ -44,7 +44,7 @@ A ritkaság a játék szokásos skáláját követi. Hogy a fiókod egy fajtáb�
 
 ### Schematics
 
-**24 órát levesz a most futó kutatásból.** Ha **legfeljebb 24 óra** van hátra, a kutatás azonnal **befejeződik**; ha több, 24 órát veszít, és fut tovább, és még egy Schematics használható rajta. A [Kutatóközpont](/wiki/03-Mechanics/Research.md) 209 technológiájából 187 legfeljebb 24 órát vesz igénybe, ezért egyetlen Schematics az elejétől befejezi őket. A másik 22 tovább tart, a legtöbb 48 vagy 72 órát, a Rocket Launcher III, IV és V pedig 96, 168 és 240 órát, és 2–10 Schematics kell hozzájuk.
+**24 órát levesz a most futó kutatásból.** Ha **legfeljebb 24 óra** van hátra, a kutatás azonnal **befejeződik**; ha több, 24 órát veszít, és fut tovább, és még egy Schematics használható rajta. A [Kutatóközpont](/wiki/03-Mechanics/Research.md) 210 technológiájából 188 legfeljebb 24 órát vesz igénybe, ezért egyetlen Schematics az elejétől befejezi őket. A másik 22 tovább tart, a legtöbb 48 vagy 72 órát, a Rocket Launcher III, IV és V pedig 96, 168 és 240 órát, és 2–10 Schematics kell hozzájuk.
 
 - **A technológia saját idejét veszi le, nem a falióráét.** A 24 óra a technológia saját kutatási ideje, az, amelyik a kártyáján áll. A Thulium-boost gyorsabban futtat egy kutatást, de nem változtatja meg, mennyit vesz le egy használat; ha egy boost lefedné a kutatás végét, egy használat kevesebb várakozási órát spórol (dupla sebességnél egy nap kutatás 12 óra várakozás). A megerősítés megmondja, mit fog mutatni az időzítő.
 - **A kutatás úgy megy tovább, ahogy volt.** A kutatás, amely 24 órát veszít, megtartja a helyét: a boost tovább fut, a sor érintetlen marad, és mögötte semmi sem indul el. A tudományra váró kutatás továbbra is vár: a Schematics időt ad, nem üzemanyagot.

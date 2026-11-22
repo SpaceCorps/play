@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9c01b98d8c696970 -->
+<!-- wiki-i18n source: a0ac7234aa147795 -->
 <!-- wiki-i18n title: Sıfırlama zaman çizelgesi -->
 # Sıfırlama zaman çizelgesi ve sezonlar {#wipe-timeline-seasons}
 
@@ -81,7 +81,7 @@ Parçaları, yerel enerji sektörlerini çevirerek geçit parçalarını bulan E
 * **Parçasız bir çevirme** de bir ödül verir ([Solo Geçitler](/wiki/03-Mechanics/Solo-Gates.md#a-spin-without-a-part)).
 * **Chrono-Gate tamamlandıktan sonra da çevirmeler sürer.** Her çevirme ücretlendirilir ve bulduğu parçalar artık solo geçitlerin parçalarıdır: Chrono-Gate seçeneği kapanır, diğer iki kategori %13 şansını korur.
 
-*İpucu: Toplu çevirme yapmak ve geçit inşasını hızlandırmak için çarpanları (1x, 5x, 10x, 100x) kullanabilirsin.*
+*İpucu: Toplu çevirme yapmak ve geçit inşasını hızlandırmak için çarpanları (1x, 5x, 10x, 100x, 1000x) kullanabilirsin.*
 
 ---
 

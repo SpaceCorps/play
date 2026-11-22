@@ -134,7 +134,7 @@ Cada tipo por turno. El casco y el escudo son los habituales multiplicados por e
 - **Se parece a**: Pirate Boss
 - **Vuela en manadas de**: 2
 - **Paga y suelta como**: Pirate Boss
-- **Cohete**: Un cohete recto cada 5 s, alcance de 1.000 unidades
+- **Cohete**: Un cohete recto cada 5 s, alcance de 1.100 unidades
 
 |  | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
@@ -207,7 +207,7 @@ El Señor de la guerra espera en la sala del extremo lejano del laberinto, y su 
 | :--- | ---: | ---: | ---: |
 | Casco | 10.000.000 | 15.000.000 | 25.000.000 |
 | Escudo | 8.000.000 | 12.000.000 | 20.000.000 |
-| Daño de los láseres (una salva por segundo) | 12.500–15.000 | 15.000–17.500 a cada uno de 2 pilotos | 20.000–25.000 a cada uno de 2 pilotos |
+| Daño de los láseres (una salva por segundo) | 17.500–22.500 | 26.250–33.750 a cada uno de 2 pilotos | 35.000–45.000 a cada uno de 2 pilotos |
 | Velocidad | 120 | 120 | 120 |
 | Alcance de los láseres | 1.100 | 1.100 | 1.100 |
 
@@ -260,8 +260,8 @@ La ventana Mazmorra de clan cuenta cuántos de ellos faltan por destruir para ab
 | :--- | :--- | :--- | :--- |
 | **Aura de robo de vida** | 8.000 por segundo | 10.000 por segundo | 12.000 por segundo |
 | **Lluvia de meteoros** | 6 meteoros por salva, 80.000 cada uno | 8 meteoros por salva, 100.000 cada uno | 10 meteoros por salva, 120.000 cada uno |
-| **Foco en el más buscado** | 18.750–22.500 por disparo adicional al piloto que más daño ha causado, uno cada 1 s | 22.500–26.250 por disparo adicional al piloto que más daño ha causado, uno cada 1 s | 30.000–37.500 por disparo adicional al piloto que más daño ha causado, uno cada 1 s |
-| **Andanada de cohetes** | 50.000–75.000 por cohete a cada piloto, uno cada 15 s | 62.500–93.750 por cohete a cada piloto, uno cada 15 s | 75.000–112.500 por cohete a cada piloto, uno cada 15 s |
+| **Foco en el más buscado** | 26.250–33.750 por disparo adicional al piloto que más daño ha causado, uno cada 1 s | 39.375–50.625 por disparo adicional al piloto que más daño ha causado, uno cada 1 s | 52.500–67.500 por disparo adicional al piloto que más daño ha causado, uno cada 1 s |
+| **Andanada de cohetes** | 100.000–150.000 por cohete a cada piloto, uno cada 15 s | 125.000–187.500 por cohete a cada piloto, uno cada 15 s | 150.000–225.000 por cohete a cada piloto, uno cada 15 s |
 | **Absorción de escudo** | 10.000 de escudo por segundo | 12.500 de escudo por segundo | 15.000 de escudo por segundo |
 | **Apoyo de enjambre** | 12 Goombahs | 18 Goombahs | 24 Goombahs |
 | **Zona del Caos** | Los pilotos dentro del anillo no pueden atacar | Los pilotos dentro del anillo no pueden atacar | Los pilotos dentro del anillo no pueden atacar |
@@ -311,14 +311,14 @@ Las cartas se sacan una a una del conjunto de abajo. La probabilidad es la de un
 
 | Carta | Fase 1 | Fase 2 | Fase 3 | Probabilidad | Para |
 | :--- | ---: | ---: | ---: | ---: | :--- |
-| Thulium | 2.000 | 3.000 | 5.000 | 23,9 % | Cada piloto pagado |
+| Thulium | 4.000 | 6.000 | 10.000 | 23,9 % | Cada piloto pagado |
 | Velkonite Reinforced Plate | 10 | 15 | 25 | 13,65 % | Cada piloto pagado |
 | Velkonite | 200 | 300 | 500 | 13,65 % | Cada piloto pagado |
 | Orvium | 200 | 300 | 500 | 13,65 % | Cada piloto pagado |
 | Ultra Core | 5.000 | 7.500 | 12.500 | 11,4 % | Cada piloto pagado |
 | Experimental Fusion Core | 3.000 | 4.500 | 7.500 | 9,1 % | Cada piloto pagado |
 | Dark Matter | 10 | 16 | 24 | 9,1 % | Cada piloto pagado |
-| Dark Matter Plate | 1 | 1 | 2 | 4,55 % | Cada piloto pagado |
+| Dark Matter Plate | 4 | 6 | 8 | 4,55 % | Cada piloto pagado |
 | Starfire-III | – | – | 1 | 0,07 % | Cada piloto pagado |
 | Helios Beam | – | – | 1 | 0,07 % | Cada piloto pagado |
 | Engine III | – | – | 1 | 0,07 % | Cada piloto pagado |
@@ -351,9 +351,9 @@ Las **Orvium Reinforced Plates** y las **Echo Shards** y **Lattice Shards** de l
 
 | Fase | Honor | Experiencia | Créditos | Thulium | Munición x4 | Orvium Reinforced Plates | Echo Shards | Lattice Shards | Puntos de ranking PvE |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Fase 1** | 25.000 | 600.000 | 5.000.000 | 4.000 | 4.000 | 5 | 12 | 5 | 850 |
-| **Fase 2** | 50.000 | 1.500.000 | 10.000.000 | 9.000 | 9.000 | 10 | 8 | 6 | 2.000 |
-| **Fase 3** | 100.000 | 2.400.000 | 17.500.000 | 15.000 | 15.000 | 15 | 8 | 7 | 3.400 |
+| **Fase 1** | 25.000 | 600.000 | 5.000.000 | 8.000 | 4.000 | 5 | 12 | 5 | 850 |
+| **Fase 2** | 50.000 | 1.500.000 | 10.000.000 | 18.000 | 9.000 | 10 | 8 | 6 | 2.000 |
+| **Fase 3** | 100.000 | 2.400.000 | 17.500.000 | 30.000 | 15.000 | 15 | 8 | 7 | 3.400 |
 
 - **Heartshards**: 1 con la primera finalización pagada de cada etapa en una temporada, y un 5 % de probabilidad de uno más con cada finalización pagada.
 
@@ -382,8 +382,8 @@ Lo que un piloto puede cobrar en un día y en la mejor semana que permiten los l
 
 | Pago por piloto | Honor | Experiencia | Créditos | Thulium | Munición x4 | Orvium Reinforced Plates | Echo Shards | Lattice Shards | Puntos de ranking PvE |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Un día, cada fase una vez | 175.000 | 4.500.000 | 32.500.000 | 28.000 | 28.000 | 30 | 28 | 18 | 6.250 |
-| La mejor semana: 7 × Fase 3 y 3 × Fase 2 | 850.000 | 21.300.000 | 152.500.000 | 132.000 | 132.000 | 135 | 80 | 67 | 29.800 |
+| Un día, cada fase una vez | 175.000 | 4.500.000 | 32.500.000 | 56.000 | 28.000 | 30 | 28 | 18 | 6.250 |
+| La mejor semana: 7 × Fase 3 y 3 × Fase 2 | 850.000 | 21.300.000 | 152.500.000 | 264.000 | 132.000 | 135 | 80 | 67 | 29.800 |
 
 La experiencia y el honor de una fase completada y pagada cuentan para tus puntos de ranking PvE: un punto por cada 1.000 de experiencia y uno por cada 100 de honor.
 

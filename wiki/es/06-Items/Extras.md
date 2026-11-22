@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a198ee7b25672782 -->
+<!-- wiki-i18n source: 27ed2fafb9709c5b -->
 <!-- wiki-i18n title: Extras -->
 # Extras
 
@@ -87,7 +87,7 @@ Pulsa la ranura CLK para camuflarte. **Una pulsación es un uso**, sea cual sea 
 - **Quién sí te ve.** Tú ves tu propia nave, tenue y con un contorno. Los pilotos de tu corporación te ven como un fantasma pálido; los compañeros de clan de otras corporaciones no, porque un clan admite a cualquiera que lo solicite. Nadie puede fijar al fantasma, ni siquiera tu corporación.
 - **No puedes camuflarte** dentro de una zona segura, mientras la CPU se recarga, ni en los **10 segundos** posteriores a recibir un impacto o disparar.
 - **Qué lo termina.** Volver a pulsar la ranura, tu primera andanada o cohete (llega a su destino y te ven), que la CPU salga de la configuración que pilotas, un **EMP que se active a menos de 1500 unidades** de ti, lo haya lanzado quien lo haya lanzado (también el de tu corporación, pero no el de un compañero de grupo), y la explosión en área de un cohete que te alcanza. El tiempo no lo termina, entrar en una zona segura o saltar por el portal tampoco, recoger carga tampoco (una caja que recoges desaparece para todos, así que se enteran de que algo estuvo al alcance de ese punto, no de quién), las habilidades tampoco, y la radiación del agujero negro daña a una nave camuflada pero no termina su camuflaje. Cerrar sesión o morir lo termina, porque una nave que nadie pilota no está camuflada.
-- **Recarga.** Cuando un camuflaje termina, sea como sea, la CPU se recarga durante **60 segundos**. La recarga es tuya, no de la nave: continúa si saltas por un portal, cierras sesión o mueres. Cada pulsación sigue costando un uso. La destreza de piloto Recarga de camuflaje acorta esta espera, hasta la mitad en el nivel más alto.
+- **Recarga.** Cuando un camuflaje termina, sea como sea, la CPU se recarga durante **60 segundos**. La recarga es tuya, no de la nave: continúa si saltas por un portal, cierras sesión o mueres. Cada pulsación sigue costando un uso. La destreza de piloto Sigilo acorta esta espera, hasta la mitad en el nivel más alto.
 - **Los alienígenas** que iban tras de ti te pierden. Tus reclamaciones de derribo se liberan cuando te camuflas.
 - **Cohetes.** Nadie puede fijar un cohete guiado sobre ti, y un cohete recto de un objetivo te atraviesa. Una **explosión en área** sigue dañando a una nave que cubre y termina su camuflaje, y a los pilotos que pueden ver el lugar de la nave se les muestra antes de que aparezca el número de daño. Lanzar un cohete es un disparo: termina tu propio camuflaje igual que una andanada (la CPU se recarga entonces los 60 segundos indicados arriba) y, camuflado o no, te impide camuflarte durante los 10 segundos siguientes.
 - **El agujero negro** se traga una nave camuflada como cualquier otra, y todo el mapa lo oye.

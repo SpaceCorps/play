@@ -8,6 +8,7 @@ The Ostirion is a solid mid-tier interceptor, offering a significant upgrade in 
 - **Base Speed**: 260
 - **Laser Slots**: 5
 - **Extra Slots**: 2
+- **Hull Plate Slots**: 3
 
 ### Generator & Support Slots
 

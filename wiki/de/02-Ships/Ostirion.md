@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 38baebcbfc5e575a -->
+<!-- wiki-i18n source: 55107c4d57b624af -->
 <!-- wiki-i18n title: Ostirion -->
 # Ostirion
 
@@ -10,6 +10,7 @@ Die Ostirion ist ein solider Abfangjäger der Mittelklasse und bietet gegenüber
 - **Grundtempo**: 260
 - **Laser-Slots**: 5
 - **Extra-Slots**: 2
+- **Panzerungs-Slots**: 3
 
 ### Generator- und Support-Slots {#generator-support-slots}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: dff7327a9780c393 -->
+<!-- wiki-i18n source: 872e92e0eed74049 -->
 <!-- wiki-i18n title: Nomad -->
 # Nomad
 
@@ -10,6 +10,7 @@ Le Nomad est un croiseur avec presque deux fois la coque d’un Ostirion et deux
 - **Vitesse de base** : 240
 - **Emplacements laser** : 7
 - **Emplacements extras** : 2
+- **Emplacements de blindage**: 3
 
 ### Emplacements de générateur et de soutien {#generator-support-slots}
 

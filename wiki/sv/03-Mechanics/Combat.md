@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 49bacd415901ee2e -->
+<!-- wiki-i18n source: 9c4de69d519972a3 -->
 <!-- wiki-i18n title: Strid -->
 # Stridsmekanik {#combat-mechanics}
 
@@ -122,7 +122,7 @@ När ditt skepp träffas av en fiende eller en NPC hanteras skadan så här:
 
 Inkommande skada delas mellan sköldar och träffpoäng efter ditt skepps **genomsnittliga absorption**: medelvärdet av dina sköldars absorption, var och en med sina sköldcellers, plus Shield Absorbance Boost från säsongsbutiken (se [Sköldmekanik](/wiki/03-Mechanics/Shields.md)). Den har **inget tak vid 100 %**: det sköldarna tar av en träff är din absorption **minus angriparens sköldgenomträngning**, mellan 0 % och 100 %.
 - **Absorption** (t.ex. 91 % för den bästa skölden med de bästa cellerna, 62 % för en Basic Shield Core med två Absorption Shield Cell I) av varje träff tas av sköldarna, minus träffens genomträngning: en Lancet IIIs 35 % lämnar 56 % på sköldarna hos ett skepp med 91 %, och resten (44 % där) träffar HP direkt.
-- **Sköldgenomträngning** kommer från enkelmålsraketer (10 till 35 %) och x3- och x4-laserammunitionen (5 % och 10 %); utomjordingar har ingen. Ett skepp över 100 % (112 %, till exempel) tål en hel träff mot genomträngning upp till skillnaden (12 % där). Penetration Amps i skyttens lasrar (+5 % till +20 % per plats) och en drönarformation läggs till, och inget sätter tak för summan.
+- **Sköldgenomträngning** kommer från enkelmålsraketer (10 till 35 %) och x3- och x4-laserammunitionen (5 % och 10 %); utomjordingar har ingen. Ett skepp över 100 % (112 %, till exempel) tål en hel träff mot genomträngning upp till skillnaden (12 % där). Penetration Amps i skyttens lasrar (+7 % till +25 % per plats) och en drönarformation läggs till, och inget sätter tak för summan.
 - En sköld som är för låg för sin andel för över skillnaden till HP; om sköldarna är helt tömda träffar **100 %** av all återstående skada HP.
 - Utomjordingar har inget absorptionsvärde: deras sköldar tar 80 % av varje träff (minus träffens genomträngning), deras skrov resten.
 - **Drönarformationer.** Rampart höjer din absorption med 17 % (Shrike sänker den med 10 %), och Asterism ger varje direkt träff på dig 7 % chans att inte göra någon skada alls (ett flytande ”Miss” visas), och de träffar som landar delas av sköld och skrov som vanligt. Gemini (+15 poäng) lägger genomträngning till din egen ammunition och direkta raketer, och Stiletto (+35 poäng raketgenomträngning) bara till direkta raketer, utan tak ([Drönarformationer](/wiki/03-Mechanics/Formations.md)). För en laser räknas även dess förstärkare.

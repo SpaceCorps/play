@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9c01b98d8c696970 -->
+<!-- wiki-i18n source: a0ac7234aa147795 -->
 <!-- wiki-i18n title: Chronologie des réinitialisations -->
 # Chronologie des réinitialisations et saisons {#wipe-timeline-seasons}
 
@@ -81,7 +81,7 @@ Vous obtenez des pièces avec l’interface du Matérialiseur d’énergie, qui 
 * **Un tirage sans pièce** paie tout de même un lot ([Portes solo](/wiki/03-Mechanics/Solo-Gates.md#a-spin-without-a-part)).
 * **Les tirages continuent quand le Chrono-Gate est complet.** Chaque tirage est facturé, et les pièces qu’il trouve sont alors celles des portes solo : l’entrée du Chrono-Gate est fermée, et les deux autres catégories gardent leur chance de 13 %.
 
-*Astuce de pro : vous pouvez utiliser les multiplicateurs (1×, 5×, 10×, 100×) pour lancer des scans en série et accélérer la construction de la porte.*
+*Astuce de pro : vous pouvez utiliser les multiplicateurs (1×, 5×, 10×, 100×, 1000×) pour lancer des scans en série et accélérer la construction de la porte.*
 
 ---
 

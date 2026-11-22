@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d64f7bbe1a7fadf7 -->
+<!-- wiki-i18n source: cd97e3b7b68a76f0 -->
 <!-- wiki-i18n title: Protos -->
 # Protos
 
@@ -10,6 +10,7 @@ Le Protos est le vaisseau de départ de base remis à chaque nouveau pilote de S
 - **Vitesse de base** : 190
 - **Emplacements laser** : 2
 - **Emplacements extras** : 2
+- **Emplacements de blindage**: 3
 
 ### Emplacements de générateur et de soutien {#generator-support-slots}
 
@@ -25,6 +26,12 @@ Le Protos est le vaisseau de départ de base remis à chaque nouveau pilote de S
 - **Thulium** : 0
 
 ## Recherche {#research}
+
+- **Design.** Ce vaisseau a 1 [design](/wiki/03-Mechanics/Ship-Designs.md). Recherchez-le (10 h et 10 Dark Matter), puis transformez votre Protos en ce design dans l’Assemblage. La transformation est définitive, et le Protos est le seul vaisseau que vous ne pouvez pas retrouver : il ne peut pas être fabriqué, la Boutique l’affiche mais ne le vend jamais, et seul un nouveau compte démarre avec un. Si vous transformez votre Protos, vous avez un Protosaur et plus de Protos.
+
+| Design | Ce qu’il change |
+| :--- | :--- |
+| **Protosaur** | +30 de vitesse de base, +1 emplacement laser, +5 emplacements de blindage, +1 emplacement extra, +50 % de dégâts des roquettes, Blink, Chameleon |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

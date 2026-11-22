@@ -79,7 +79,7 @@ You obtain parts by using the Energy Materializer interface, which spins local e
 * **A spin without a part** still pays a prize ([Solo Gates](/wiki/03-Mechanics/Solo-Gates.md#a-spin-without-a-part)).
 * **Spins go on after the Chrono-Gate is complete.** Every spin is charged, and the parts it finds are then parts of the solo gates: the Chrono-Gate's entry is shut, and the other two categories keep their 13% chance.
 
-*Pro-Tip: You can use multipliers (1x, 5x, 10x, 100x) to perform bulk spins and accelerate gate construction.*
+*Pro-Tip: You can use multipliers (1x, 5x, 10x, 100x, 1000x) to perform bulk spins and accelerate gate construction.*
 
 ---
 

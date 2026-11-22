@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: dff7327a9780c393 -->
+<!-- wiki-i18n source: 872e92e0eed74049 -->
 <!-- wiki-i18n title: Nomad -->
 # Nomad
 
@@ -10,6 +10,7 @@ Nomad, bir Ostirion gemisinin neredeyse iki katı gövdeye ve iki top fazlasına
 - **Temel hız**: 240
 - **Lazer yuvaları**: 7
 - **Ekstra yuvalar**: 2
+- **Gövde plakası yuvaları**: 3
 
 ### Jeneratör ve destek yuvaları {#generator-support-slots}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a198ee7b25672782 -->
+<!-- wiki-i18n source: 27ed2fafb9709c5b -->
 <!-- wiki-i18n title: Extrautrustning -->
 # Extrautrustning {#extras}
 
@@ -87,7 +87,7 @@ Tryck på platsen CLK för att kamouflera dig. **Ett tryck är en användning**,
 - **Vem som kan se dig.** Du ser ditt eget skepp, svagt, med en kontur. Piloter i din koncern ser dig som ett blekt spöke; klankamrater från andra koncerner gör det inte, eftersom en klan tar emot vem som helst som ansöker. Ingen kan välja spöket som mål, inte ens din koncern.
 - **Du kan inte kamouflera dig** i en säker zon, medan CPU:n laddas om eller inom **10 sekunder** efter att du blivit träffad eller avlossat ett skott.
 - **Vad som avslutar det.** Att trycka på platsen igen, din första salva eller raket (den träffar, och du syns), att CPU:n lämnar den konfiguration du flyger, en **EMP som utlöses inom 1 500 enheter** från dig, vem som än avfyrade den (din egen koncerns också, men inte en gruppmedlems), och områdesskadan från en raket som träffar dig. Tid gör det inte, att gå in i en säker zon eller hoppa genom en portal gör det inte, att plocka upp last gör det inte (en låda du tar är borta för alla, så de får veta att något fanns inom räckhåll för den platsen, inte vem), förmågor gör det inte, och det svarta hålets strålning skadar ett kamouflerat skepp men avslutar inte dess kamouflage. Att logga ut eller dö avslutar det, eftersom ett skepp som inte flygs inte är kamouflerat.
-- **Omladdning.** När ett kamouflage tar slut, hur det än tog slut, laddas CPU:n om i **60 sekunder**. Omladdningen tillhör dig, inte skeppet: den fortsätter om du hoppar genom en portal, loggar ut eller dör. Varje tryck kostar fortfarande en användning. Pilotfärdigheten Kamouflage-uppladdning förkortar den här väntan, till hälften på högsta nivån.
+- **Omladdning.** När ett kamouflage tar slut, hur det än tog slut, laddas CPU:n om i **60 sekunder**. Omladdningen tillhör dig, inte skeppet: den fortsätter om du hoppar genom en portal, loggar ut eller dör. Varje tryck kostar fortfarande en användning. Pilotfärdigheten Smygande förkortar den här väntan, till hälften på högsta nivån.
 - **Utomjordingar** som var ute efter dig tappar dig. Dina pax släpps när du kamouflerar dig.
 - **Raketer.** Ingen kan låsa en målsökande raket på dig, och en rak raket med enkelmål flyger rakt igenom dig. En raket med **områdesskada** skadar ändå ett skepp som ligger inom den och avslutar dess kamouflage, och de piloter som kan se skeppets plats får se den innan skadesiffran visas. Att avfyra en raket är ett skott: det avslutar ditt eget kamouflage på samma sätt som en salva (CPU:n laddas då om i de 60 sekunder som nämns ovan) och hindrar dig, kamouflerad eller inte, från att kamouflera dig under 10 sekunder efteråt.
 - **Det svarta hålet** sväljer ett kamouflerat skepp som vilket annat som helst, och kartan får veta det.

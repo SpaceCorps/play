@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: dff7327a9780c393 -->
+<!-- wiki-i18n source: 872e92e0eed74049 -->
 <!-- wiki-i18n title: Nomad -->
 # Nomad
 
@@ -10,6 +10,7 @@ La Nomad es un crucero con casi el doble de casco que una Ostirion y dos cañone
 - **Velocidad base**: 240
 - **Ranuras de láser**: 7
 - **Ranuras de extra**: 2
+- **Ranuras de blindaje**: 3
 
 ### Ranuras de generador y de apoyo {#generator-support-slots}
 

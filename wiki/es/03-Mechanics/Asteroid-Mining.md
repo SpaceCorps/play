@@ -73,7 +73,7 @@ Un **Mole** acoplado (un tipo de [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole)) 
 - La paga es igual para todos: ningún bono Premium, mejora de la tienda de temporada, mejora de clan, Loot Luck ni potenciador cambia los créditos, el Thulium ni los hallazgos. El [Resource Magnet Booster](/wiki/06-Items/Boosters.md) aumenta, al recogerlo, los recursos de un fragmento de mineral, como en cualquier caja.
 - El blindaje resta sus puntos de cada impacto, pero al menos el 20 % de un impacto siempre pasa.
 - Una explosión de área hace 1,6 veces más daño a un asteroide frágil que a cualquier otro.
-- Un asteroide nunca está a menos de 1.500 unidades del borde de un anillo seguro, de 5.000 unidades del centro del agujero negro ni de 600 unidades del borde del mapa, y nunca aparece a menos de 1.200 unidades de un piloto.
+- Un asteroide nunca está a menos de 1.550 unidades del borde de un anillo seguro, de 5.000 unidades del centro del agujero negro ni de 600 unidades del borde del mapa, y nunca aparece a menos de 1.200 unidades de un piloto.
 - Tras una rotura, un asteroide del mismo tipo vuelve a crecer en otro lugar del mapa pasado el tiempo de la fila del sector, con una variación de ±25 %.
 - Motherlode vuelve tras 1 h, en cualquier sector.
 

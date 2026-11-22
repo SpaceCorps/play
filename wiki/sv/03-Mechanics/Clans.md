@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d9722fd08d8980ff -->
+<!-- wiki-i18n source: e819db509b714a18 -->
 <!-- wiki-i18n title: Klaner -->
 # Klaner {#clans}
 
@@ -193,7 +193,7 @@ Kolumnen **Skylab** bredvid visar var varje pilots [Skylab](/wiki/03-Mechanics/S
 Knappen **Vem är online** i systemverktygsfältet (uppe till höger) eller tangenten **H** (kan bindas om under Inställningar › Kontroller) öppnar fönstret **Piloter online**.
 
 - **Vem som visas.** Piloterna som flyger just nu i **din värld**, utom du själv: Alpha, Beta och Gamma möts inte. En pilot vars kamouflerade skepp du inte kan se visas inte och räknas inte. Fönstret visar högst **100** rader, först dina klankamrater, sedan de högre nivåerna, sedan efter namn, och överst det verkliga antalet piloter som är online.
-- **Vad en rad visar.** Pilotens namn, nivå, koncern, klantagg och gradsymbol: det chatten och topplistorna redan visar. Aldrig en position, en karta eller skeppets tillstånd.
+- **Vad en rad visar.** Pilotens namn, nivå, koncern, klantagg och gradsymbol: det chatten och topplistorna redan visar. Aldrig en position, en karta eller skeppets tillstånd. Ett **guldnamn** betyder att piloten någon gång har stött spelet med Premium, som i chatten; en **guldkrona** efter namnet betyder att hans Premium är aktivt just nu.
 - **Sök.** Skriv en del av ett namn eller av en klantagg; fönstret frågar servern igen när listan var avkortad.
 - **Bjud in.** Radens knapp **Bjud in** är gruppfönstrets egen inbjudan ([Grupper](/wiki/03-Mechanics/Groups.md)), med samma svar och avslag (piloten är med i en grupp, gruppen är full, Stör ej är på). Knappen är grå, med orsaken när du håller muspekaren över den, när spelet redan vet att inbjudan skulle avvisas.
 - Listan läses om var 10:e sekund medan fönstret är öppet.

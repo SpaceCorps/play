@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9a37517663b28a4d -->
+<!-- wiki-i18n source: 030846e1bbc2affc -->
 <!-- wiki-i18n title: Wraith -->
 # Wraith
 
@@ -27,7 +27,7 @@ Wraith 是终极战列舰级舰船，拥有无与伦比的火力、庞大的护�
 
 ## 研究 {#research}
 
-- **装甲槽位。** 这艘舰船有 10 个用于[船体装甲](/wiki/06-Items/Hull-Plating.md)的[装甲槽位](/wiki/06-Items/Hull-Plating.md#hull-plate-slots)，制造出来时全部锁定。每个槽位都是 Skylab 里独立的一项科技，需要 1 小时和 10 个 Dark Matter，从第一个起依次研究；研究后，这个槽位会在这艘舰船及其所有设计上开启。10 个槽位全部装上 Hull Plating III，可增加 250,000 点船体。
+- **装甲槽位。** 这艘舰船有 10 个用于[船体装甲](/wiki/06-Items/Hull-Plating.md)的[装甲槽位](/wiki/06-Items/Hull-Plating.md#hull-plate-slots)，制造出来时全部锁定。每个槽位都是 Skylab 里独立的一项科技，需要 1 小时和 10 个 Dark Matter，从第一个起依次研究；研究后，这个槽位会在这艘舰船及其所有设计上开启。10 个槽位全部装上 Hull Plating III，可增加 200,000 点船体。
 - **设计。** 这艘舰船有 5 种[设计](/wiki/03-Mechanics/Ship-Designs.md)。研究其中一种（10 小时和 10 个 Dark Matter），然后在装配站把你的 Wraith 改装成它：改装无法撤销。
 
 | 设计 | 改变了什么 |
@@ -36,7 +36,7 @@ Wraith 是终极战列舰级舰船，拥有无与伦比的火力、庞大的护�
 | **Wraith BILLY** | 基础船体 +5%，护盾容量 +10%，Diminisher |
 | **Wraith MENATI** | 基础船体 +20%，基础速度 +20，护盾吸收率 +5%，Heal Pod |
 | **Wraith ATARAXIS** | 激光槽位 -1，支援槽位 +1，护盾容量 +25%，护盾吸收率 +10%，Shield Buff |
-| **Wraith MATT** | 激光槽位 +2，护盾容量 -20%，激光护盾穿透 +10% |
+| **Wraith MATT** | 激光槽位 +2，护盾容量 -20%，激光护盾穿透 +10%，激光伤害 +5% |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9c01b98d8c696970 -->
+<!-- wiki-i18n source: a0ac7234aa147795 -->
 <!-- wiki-i18n title: Linha do tempo do reset -->
 # Linha do tempo do reset e temporadas {#wipe-timeline-seasons}
 
@@ -81,7 +81,7 @@ Você obtém peças usando a interface do Materializador de Energia, que gira se
 * **Um giro sem peça** ainda paga um prêmio ([Portões solo](/wiki/03-Mechanics/Solo-Gates.md#a-spin-without-a-part)).
 * **Os giros continuam quando o Chrono-Gate está completo.** Cada giro é cobrado, e as peças que ele encontra são então dos portões solo: a entrada do Chrono-Gate fica fechada e as outras duas categorias mantêm a chance de 13%.
 
-*Dica profissional: você pode usar multiplicadores (1x, 5x, 10x, 100x) para fazer giros em lote e acelerar a construção do portão.*
+*Dica profissional: você pode usar multiplicadores (1x, 5x, 10x, 100x, 1000x) para fazer giros em lote e acelerar a construção do portão.*
 
 ---
 

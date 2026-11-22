@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bf737868ee14ecc2 -->
+<!-- wiki-i18n source: 115842cfacf12619 -->
 <!-- wiki-i18n title: Aperçu -->
 # Aperçu des objets {#items-overview}
 
@@ -118,7 +118,7 @@ Tous les matériaux et les deux monnaies, avec la provenance et l’usage de cha
 
 La boutique, l’inventaire du hangar et les autres listes d’objets suivent un même ordre : le vaisseau, son blindage de coque, puis un laser avec ses amplis et ses munitions, un bouclier avec ses cellules, un moteur avec ses propulseurs, les cœurs adaptatifs, les extras, les consommables, les drones, les formations de drones, les boosters et les ressources. Au sein d’un type, le moins cher vient en premier.
 
-- **Blindage de coque** : l’armure des emplacements de blindage des quatre vaisseaux que vous fabriquez, Hull Plating I à III, chacun ajoutant plus de coque. Voir [Blindage de coque](/wiki/06-Items/Hull-Plating.md).
+- **Blindage de coque** : l’armure des emplacements de blindage de tous les vaisseaux (3 ouverts sur chacun des quatre vaisseaux de la Boutique, davantage sur ceux que vous fabriquez), Hull Plating I à III, chacun ajoutant plus de coque. Voir [Blindage de coque](/wiki/06-Items/Hull-Plating.md).
 - **Lasers** : vos principaux systèmes d’armes, et les [amplis](/wiki/06-Items/Lasers.md) qui s’y installent.
 - **Boucliers** : générateurs et [cellules](/wiki/06-Items/Shields.md) pour la défense.
 - **Propulsion** : moteurs et [propulseurs](/wiki/06-Items/Propulsion.md) pour la vitesse.

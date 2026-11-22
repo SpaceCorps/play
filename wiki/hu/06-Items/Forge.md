@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 77908d7c08d3074c -->
+<!-- wiki-i18n source: 0684c16b2f2d0dbe -->
 <!-- wiki-i18n title: Kovácsműhely -->
 # A Kovácsműhely {#the-forge}
 
@@ -57,7 +57,7 @@ A **pajzs elnyelésbónusza** (és egy pajzscella elnyelésnövelő bónusza) me
 
 A hajtóművek, fúvókák, adaptív magok és Repair Drone-ok keveset mozdulnak egy százalékos bónusztól (egy Engine II 10 sebességet ad, így a +12% 1,2 pont): ha a fokozatot akarod, kovácsold őket, ne az értékek miatt.
 
-**A Penetration Amp buffja** megszorozza az áthatolását: egy Felemelkedett buff (+9%-tól +15%-ig) egy Penetration Amp IV-et foglalatonként 21,8–23 pontra viszi 20 helyett. Semmi sem korlátozza egy találat áthatolását, így minden pont számít: a legjobb lézerben (egy Fusion Core, egy Gemini és három Penetration Amp IV minden lézerben) a 10 + 15 + 60 összesen 85%, három Felemelkedett buff pedig akár 94%-ra emeli ([Lézerek és lőszer](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+**A Penetration Amp buffja** megszorozza az áthatolását: egy Felemelkedett buff (+9%-tól +15%-ig) egy Penetration Amp IV-et foglalatonként 27,3–28,8 pontra viszi 25 helyett. Semmi sem korlátozza egy találat áthatolását, így minden pont számít: a legjobb lézerben (egy Fusion Core, egy Gemini és három Penetration Amp IV minden lézerben) a 10 + 15 + 75 összesen 100%, három Felemelkedett buff pedig akár 111%-ra emeli ([Lézerek és lőszer](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
 
 ### Honnan jönnek a nyersanyagok {#where-the-materials-drop}
 

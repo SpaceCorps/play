@@ -191,7 +191,7 @@ The **Skylab** column beside it shows where each pilot's [Skylab](/wiki/03-Mecha
 The **Who is online** button in the system toolbar (top right) or the key **H** (rebind it in Settings › Controls) opens the **Online pilots** window.
 
 - **Who is listed.** The pilots flying in **your world** right now, not yourself: Alpha, Beta and Gamma do not meet. A pilot whose cloaked ship you cannot see is not listed or counted. The window shows at most **100** rows, your clan mates first, then the higher levels, then by name, and the true number of pilots online at the top.
-- **What a row shows.** The pilot's name, level, company, clan tag and rank symbol: what the chat and the rankings already show. Never a position, a map or the state of the ship.
+- **What a row shows.** The pilot's name, level, company, clan tag and rank symbol: what the chat and the rankings already show. Never a position, a map or the state of the ship. A **gold name** means the pilot has supported the game with Premium at some time, as in the chat; a **gold crown** after the name means his Premium is active now.
 - **Search.** Type part of a name or of a clan tag; the window asks the server again when the list was cut.
 - **Invite.** A row's **Invite** button is the Group window's own invitation ([Groups](/wiki/03-Mechanics/Groups.md)), with the same answers and refusals (the pilot is in a group, the group is full, Do Not Disturb is on). The button is grey, with the reason on hover, when the game already knows it will be refused.
 - The list is read again every 10 seconds while the window is open.

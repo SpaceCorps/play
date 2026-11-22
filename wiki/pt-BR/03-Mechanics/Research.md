@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0c9164c462c27a1a -->
+<!-- wiki-i18n source: 74bb4919fe97756e -->
 <!-- wiki-i18n title: Pesquisa -->
 # Pesquisa {#research}
 
@@ -30,7 +30,7 @@ Esta página reúne a árvore de tecnologias completa com o tempo de cada uma, a
 
 <!-- research-centre:end -->
 
-**Schematics.** Um [Schematics](/wiki/06-Items/Special-Items.md#schematics) tira 24 horas da pesquisa em andamento: se restarem 24 horas ou menos, ela é concluída na hora, e uma mais longa perde 24 horas e continua (187 das 209 tecnologias levam 24 horas ou menos, então um só as conclui desde o começo; as outras 22 precisam de 2 a 10). O que a pesquisa custou foi pago no início e não volta, a ciência que o tempo pulado teria queimado fica no seu tanque e, quando a pesquisa é concluída, a próxima tecnologia da sua fila começa na hora.
+**Schematics.** Um [Schematics](/wiki/06-Items/Special-Items.md#schematics) tira 24 horas da pesquisa em andamento: se restarem 24 horas ou menos, ela é concluída na hora, e uma mais longa perde 24 horas e continua (188 das 210 tecnologias levam 24 horas ou menos, então um só as conclui desde o começo; as outras 22 precisam de 2 a 10). O que a pesquisa custou foi pago no início e não volta, a ciência que o tempo pulado teria queimado fica no seu tanque e, quando a pesquisa é concluída, a próxima tecnologia da sua fila começa na hora.
 
 **Os amplificadores de laser e o último nível.** Os Damage, Crit e Penetration Amps dos níveis II a IV são pesquisados como todo o resto que se cria. Os pilotos que tinham ou haviam enfileirado amps quando as linhas de amps chegaram receberam a tecnologia de cada um deles e a dos níveis abaixo. Treze tecnologias exigem uma tecnologia de outra árvore, a da Dark Matter Plate, da árvore Recursos, porque o último nível de cada cadeia de melhoria pede quatro plates e uma Ancient Control Unit: os Damage, Crit e Penetration Amps do nível IV, as Absorption e Capacity Shield Cells do nível IV, os Impulse e Momentum Thrusters do nível IV, o Heavy Shield Core, o Engine III, o Adaptive Core III, o Helios Beam, o Extra Slots CPU III e o Base CPU II. Quem pesquisou uma delas antes a mantém, e precisa da tecnologia da plate para fazer as plates dela. A árvore abaixo não traça seta para ela, mas a tabela a lista e o cartão no jogo a nomeia ([Dark Matter e Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)).
 

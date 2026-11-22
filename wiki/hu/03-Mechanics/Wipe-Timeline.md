@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9c01b98d8c696970 -->
+<!-- wiki-i18n source: a0ac7234aa147795 -->
 <!-- wiki-i18n title: Wipe-idővonal -->
 # Wipe-idővonal és szezonok {#wipe-timeline-seasons}
 
@@ -81,7 +81,7 @@ Az alkatrészeket az Energiamaterializáló felületén szerzed, amely a helyi e
 * **Az alkatrész nélküli pörgetés** is fizet egy nyereményt ([Szólókapuk](/wiki/03-Mechanics/Solo-Gates.md#a-spin-without-a-part)).
 * **A pörgetések folytatódnak, amikor a Chrono-Gate kész.** Minden pörgetés pénzbe kerül, és az általa talált alkatrészek ilyenkor a szólókapukéi: a Chrono-Gate gombja le van zárva, a másik két kategória pedig megtartja a 13%-os esélyét.
 
-*Profi tipp: szorzókkal (1×, 5×, 10×, 100×) tömeges pörgetést végezhetsz, és felgyorsíthatod a kapu építését.*
+*Profi tipp: szorzókkal (1×, 5×, 10×, 100×, 1000×) tömeges pörgetést végezhetsz, és felgyorsíthatod a kapu építését.*
 
 ---
 

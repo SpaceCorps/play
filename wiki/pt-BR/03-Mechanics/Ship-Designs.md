@@ -1,12 +1,14 @@
-<!-- wiki-i18n source: 522d6b0bd8a4106c -->
+<!-- wiki-i18n source: b40e4bea60303f48 -->
 <!-- wiki-i18n title: Designs de naves -->
 # Designs de naves {#ship-designs}
 
-<!-- wiki-search: design; designs; refit; convert; conversion; thunder; bucky; lich; notsum; bratan; recon; duma; titanic; raptor; billy; menati; ataraxis; matt; conversão; converter; design de nave -->
+<!-- wiki-search: design; designs; refit; convert; conversion; thunder; bucky; lich; notsum; bratan; recon; duma; titanic; raptor; billy; menati; ataraxis; matt; conversão; converter; design de nave; protosaur; protos -->
 
-Um **design** é uma das quatro naves que você fabrica na Montagem com alguns números mudados de propósito: menos casco por mais velocidade, um slot de laser a menos por escudos mais duros. Nove dos treze designs vêm ainda com uma de sete [habilidades](/wiki/03-Mechanics/Abilities.md#ship-abilities) que a nave comum não tem. A Storm RECON tem, ao lado do seu Chameleon, mais dois botões: Target e Slow. Você pesquisa um design no Skylab e depois converte na Montagem uma nave que possui. **A conversão não pode ser desfeita.**
+Um **design** é uma das quatro naves que você fabrica na Montagem com alguns números mudados de propósito: menos casco por mais velocidade, um slot de laser a menos por escudos mais duros. Dez dos catorze designs vêm ainda com uma de sete [habilidades](/wiki/03-Mechanics/Abilities.md#ship-abilities) que a nave comum não tem. A Storm RECON tem, ao lado do seu Chameleon, mais dois botões: Target e Slow. Você pesquisa um design no Skylab e depois converte na Montagem uma nave que possui. **A conversão não pode ser desfeita.**
 
-## Os treze designs {#the-thirteen-designs}
+A **Protosaur** é o design da nave inicial, a [Protos](/wiki/02-Ships/Protos.md), e o único design com nome próprio. Ela não precisa de tecnologia de nave, só da da Dark Matter Plate, e custa 50.000 Thulium e 8 Dark Matter Plates. Dá à Protos +5 slots de blindagem, todos abertos desde o início, +1 slot de laser, +1 slot extra, +30 de velocidade base, +50% de dano de foguetes e os botões Blink e Chameleon. Você pode converter a sua Protos assim que pilotar outra nave.
+
+## Os catorze designs {#the-thirteen-designs}
 
 As três últimas colunas são o que a nave convertida tem: o casco e a velocidade base próprios dela, antes das blindagens, dos boosters, das formações e dos motores, e os slots de laser. Tudo o que a tabela não diz fica como a nave tinha, inclusive os [slots de blindagem](/wiki/06-Items/Hull-Plating.md#hull-plate-slots).
 
@@ -24,12 +26,13 @@ As três últimas colunas são o que a nave convertida tem: o casco e a velocida
 | **Wraith BILLY** | +5% de casco base, +10% de capacidade de escudo, Diminisher | 268.800 | 210 | 13 |
 | **Wraith MENATI** | +20% de casco base, +20 de velocidade base, +5% de absorção de escudo, Heal Pod | 307.200 | 230 | 13 |
 | **Wraith ATARAXIS** | -1 slot de laser, +1 slot de suporte, +25% de capacidade de escudo, +10% de absorção de escudo, Shield Buff | 256.000 | 210 | 12 |
-| **Wraith MATT** | +2 slots de laser, -20% de capacidade de escudo, +10% de penetração de laser | 256.000 | 210 | 15 |
+| **Wraith MATT** | +2 slots de laser, -20% de capacidade de escudo, +10% de penetração de laser, +5% de dano de laser | 256.000 | 210 | 15 |
+| **Protosaur** | +30 de velocidade base, +1 slot de laser, +5 slots de blindagem, +1 slot extra, +50% de dano de foguetes, Blink, Chameleon | 8.000 | 220 | 3 |
 
 ## Conseguir um design {#getting-a-design}
 
 1. **Pesquise.** Cada design é uma tecnologia da árvore de naves da tela de pesquisa do seu Skylab ([Pesquisa](/wiki/03-Mechanics/Research.md#ship-technologies)). Ela leva 10 horas e pede 10 Dark Matter, além da tecnologia da nave dele e a da Dark Matter Plate. Pesquisar ainda não fabrica nada.
-2. **Converta a nave.** A seção Designs da Montagem lista as treze conversões. Escolha uma e confirme: o trabalho entra na fila de produção e leva 10 minutos. Ele termina sozinho, e você não precisa recolhê-lo.
+2. **Converta a nave.** A seção Designs da Montagem lista as catorze conversões. Escolha uma e confirme: o trabalho entra na fila de produção e leva 10 minutos. Ele termina sozinho, e você não precisa recolhê-lo.
 3. **Pague.** Uma conversão custa Thulium, materiais e Dark Matter Plates, como diz a tabela.
 
 | Design | Thulium | Dark Matter Plate | Ship Fragment | Reinforced Hull Plate | Power Core | Ancient Control Unit |
@@ -47,6 +50,7 @@ As três últimas colunas são o que a nave convertida tem: o casco e a velocida
 | **Wraith MENATI** | 100.000 | 35 | 375 | 65 | 20 | 3 |
 | **Wraith ATARAXIS** | 100.000 | 35 | 375 | 65 | 20 | 3 |
 | **Wraith MATT** | 100.000 | 25 | 375 | 65 | 20 | 3 |
+| **Protosaur** | 50.000 | 8 | 30 | 5 | 2 | – |
 
 A nave a converter é a que você possui daquele tipo (uma Paragon para o THUNDER, o BUCKY ou o LICH), e ela não pode ser a nave que você está pilotando: torne outra nave ativa antes. Uma nave destruída não pode ser convertida.
 
@@ -61,21 +65,22 @@ A nave a converter é a que você possui daquele tipo (uma Paragon para o THUNDE
 | **Storm** | 8 | 8 h | 80 | 3 | 30 h | 30 |
 | **Ironclad** | 15 | 15 h | 150 | 2 | 20 h | 20 |
 | **Wraith** | 10 | 10 h | 100 | 5 | 50 h | 50 |
-| **As quatro** | 38 | 38 h | 380 | 13 | 130 h | 130 |
+| **Protos** | 0 | 0 h | 0 | 1 | 10 h | 10 |
+| **As cinco** | 38 | 38 h | 380 | 14 | 140 h | 140 |
 
-Juntas, elas pedem 510 Dark Matter, além dos 979 que todas as outras tecnologias pedem, e os níveis de módulo do Skylab pedem mais 115: 1.604 para todas as tecnologias do jogo.
+Juntas, elas pedem 520 Dark Matter, além dos 979 que todas as outras tecnologias pedem, e os níveis de módulo do Skylab pedem mais 115: 1.614 para todas as tecnologias do jogo.
 
 ## O que acontece com a sua nave {#what-happens-to-your-ship}
 
 - **É a mesma nave.** A conversão a muda no lugar: o equipamento, as blindagens, os seus drones e a formação que você usa ficam como estão.
 - **Lasers podem perder o slot.** Um design com menos slots de laser (RECON, DUMA, ATARAXIS) devolve ao seu inventário os lasers dos slots que somem, com os amps e os sorteios da Forja. Um slot novo chega vazio.
 - **Casco e escudos cheios** ao terminar. Até lá a nave fica bloqueada: não pode ser ativada, equipada nem convertida de novo.
-- **Não há volta.** Para outro design, ou para ter a nave comum de novo, você fabrica a nave outra vez na Montagem. Você possui uma nave de cada tipo, então uma Paragon e um THUNDER podem ser seus ao mesmo tempo, mas dois THUNDER não.
+- **Não há volta.** Para outro design, ou para ter a nave comum de novo, você fabrica a nave outra vez na Montagem. A Protos é a única exceção: ela não pode ser fabricada nem comprada de novo (a Loja a exibe mas nunca a vende, e só uma conta nova começa com uma), então, se você converter a sua Protos, ficará com um Protosaur e sem Protos. Você possui uma nave de cada tipo, então uma Paragon e um THUNDER podem ser seus ao mesmo tempo, mas dois THUNDER não.
 - **O reset** mantém um design como qualquer outra nave que você tem. Uma conversão ainda em andamento é cancelada e reembolsada, como toda fabricação da sua fila de produção: a nave continua como era.
 
 ## Aparência e tamanho {#looks-and-size}
 
-Cada design tem um modelo próprio, o da sua nave com algumas mudanças que mostram o que ele faz. Eles são de um cinza liso como as naves até vestirem uma [skin](/wiki/06-Items/Cosmetics.md): um design veste as skins da nave de que foi feito, e uma conversão mantém o visual. O BUCKY e o TITANIC são 20% maiores, e uma nave maior é mais fácil de acertar com um foguete. O hangar marca um design com um selo DESIGN, e os outros pilotos veem o nome dele na janela do alvo e no registro de baixas.
+Cada design tem um modelo próprio, o da sua nave com algumas mudanças que mostram o que ele faz. Os treze designs das quatro naves que você fabrica são de um cinza liso como essas naves até vestirem uma [skin](/wiki/06-Items/Cosmetics.md): um design veste as skins da nave de que foi feito, e uma conversão mantém o visual. O Protosaur é laranja e branco como a Protos e ainda não tem skins. O BUCKY e o TITANIC são 20% maiores, e uma nave maior é mais fácil de acertar com um foguete. O hangar marca um design com um selo DESIGN, e os outros pilotos veem o nome dele na janela do alvo e no registro de baixas.
 
 ## Loja, Leilão e pontos {#shop-auction-and-points}
 

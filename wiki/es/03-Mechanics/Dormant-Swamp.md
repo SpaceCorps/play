@@ -41,11 +41,11 @@ Daño de un disparo, en cada mundo:
 | Torreta de [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | 5.000 / 4.400 | 5 s | 1.080 | 50.000 | 75.000 | 100.000 |
 | Torreta láser × 2 | 3.600 / 5.200; 6.400 / 5.200 | 1 s | 2.500 | 45.000–55.000 | 67.500–82.500 | 90.000–110.000 |
 
-- Un cohete se dispara desde el 90 % del alcance que tiene el mismo cohete en manos de un piloto, para que llegue; una torreta láser dispara una vez por segundo, y su daño se sortea dentro del rango indicado.
+- Un cohete se dispara desde el 82 % del alcance que tiene el mismo cohete en manos de un piloto, para que llegue; una torreta láser dispara una vez por segundo, y su daño se sortea dentro del rango indicado.
 - Un N.I.K.E. tiene 35 % de penetración de escudo, que se resta de la absorción de un escudo.
-- El N.I.K.E. de la torreta vuela un 25 % más rápido y 2× más lejos que el tuyo: 1.125 unidades por segundo, 8.100 unidades en total, así que una nave que huye de él es perseguida durante un buen trecho.
-- Un N.U.K.E. estalla en un radio de 1.350 unidades, con más fuerza en el centro.
-- El N.U.K.E. de la torreta vuela un 25 % más rápido y 2× más lejos que el tuyo: 375 unidades por segundo, 2.400 unidades en total, así que una nave que huye de él es perseguida durante un buen trecho.
+- El N.I.K.E. de la torreta vuela un 25 % más rápido y 2× más lejos que el tuyo: 1.250 unidades por segundo, 8.910 unidades en total, así que una nave que huye de él es perseguida durante un buen trecho.
+- Un N.U.K.E. estalla en un radio de 1.013 unidades, con más fuerza en el centro.
+- El N.U.K.E. de la torreta vuela un 25 % más rápido y 2× más lejos que el tuyo: 375 unidades por segundo, 2.640 unidades en total, así que una nave que huye de él es perseguida durante un buen trecho.
 
 <!-- swamp-guns:end -->
 
@@ -108,7 +108,7 @@ Aquí viven tres alienígenas de la civilización perdida, cada uno con sus prop
 | Créditos | 125.000 | 250.000 | 375.000 |
 | Thulium | 335 | 670 | 1.005 |
 | Experiencia (XP) | 20.200 | 40.400 | 60.600 |
-| Honor | 87 | 174 | 261 |
+| Honor | 88 | 176 | 264 |
 | Puntos PvE por derribo | 15 | 15 | 15 |
 
 **Botín**: una caja, para el piloto que más daño causó.

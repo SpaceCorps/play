@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c91f93d3941bb3bf -->
+<!-- wiki-i18n source: dde8093210ad8db3 -->
 <!-- wiki-i18n title: Agujero negro -->
 # El agujero negro {#the-black-hole}
 
@@ -15,7 +15,7 @@ Las distancias se miden desde el centro del sector, en unidades del mapa. El sec
 
 | Anillo | Distancia | Qué ocurre |
 | :--- | ---: | :--- |
-| **Radiación** | 4.000 | Tu nave recibe daño cada segundo, una parte de sus HP máximos totales. Cuanto más cerca, más. |
+| **Radiación** | 4.000 | Tu casco recibe daño cada segundo, una parte de su casco máximo. Cuanto más cerca, más. |
 | **Atracción** | 3.000 | El agujero negro atrae tu nave hacia el centro, con más fuerza cuanto más cerca estás. Una nave que no vuela es arrastrada. |
 | **Punto de no retorno** | de unos 800 a 2.600 | Donde la atracción iguala la velocidad de tu nave. Dentro de él, ni a toda potencia puedes evitar que te arrastre. Depende de tu velocidad. |
 | **Horizonte de sucesos** | 300 | Toda nave que lo alcanza es destruida al instante, sean cuales sean su casco y su escudo. |
@@ -33,7 +33,7 @@ El agujero negro no tiene el mismo tamaño toda la temporada. En las últimas **
 | **Radiación** | 4.000 | 5.600 | 7.200 |
 | **Anillo de guiado** | 4.200 | 5.880 | 7.560 |
 
-Lo que no cambia es lo dura que es la zona a la misma fracción del camino hacia dentro: una nave a 3.600 unidades del centro, con el agujero a 1,8 veces, siente lo que siente una nave a 2.000 unidades en un día normal (una atracción de 96 unidades por segundo y el 2 % de sus HP por segundo). El agujero crecido no es más fuerte, es más ancho, y una nave tarda 1,8 veces más en cruzarlo. El punto de no retorno de cada nave queda 1,8 veces más lejos. Todas las distancias de esta página son del tamaño normal: multiplícalas por el tamaño del agujero para leer el agujero crecido.
+Lo que no cambia es lo dura que es la zona a la misma fracción del camino hacia dentro: una nave a 3.600 unidades del centro, con el agujero a 1,8 veces, siente lo que siente una nave a 2.000 unidades en un día normal (una atracción de 96 unidades por segundo y el 2 % de su casco por segundo). El agujero crecido no es más fuerte, es más ancho, y una nave tarda 1,8 veces más en cruzarlo. El punto de no retorno de cada nave queda 1,8 veces más lejos. Todas las distancias de esta página son del tamaño normal: multiplícalas por el tamaño del agujero para leer el agujero crecido.
 
 - **Cómo se ve.** En las últimas 72 horas el Panel tiene arriba una tarjeta, y la vista de vuelo una etiqueta sobre el agujero negro, que cuentan hacia atrás hasta el reinicio («Reinicio del universo en 1d 05:12:33») y dicen cuántas veces su tamaño mide ahora el agujero; en los últimos cinco minutos toma el relevo la cuenta atrás propia del reinicio. La descripción emergente del minimapa nombra los anillos con el tamaño que tiene ahora el agujero.
 - **Cuándo.** El tamaño depende solo del reloj de la temporada, así que es el mismo en todos los mundos. Mientras un administrador mantiene la temporada en un día, no hay nada programado y el agujero conserva su tamaño normal; si se cambia el día de la temporada, el agujero lo sigue al instante; la temporada siguiente empieza con un agujero normal.
@@ -42,7 +42,7 @@ Lo que no cambia es lo dura que es la zona a la misma fracción del camino hacia
 
 ## Radiación {#radiation}
 
-El daño es un **porcentaje de los HP máximos totales de tu nave** (casco más escudo) cada segundo, así que todas las clases de nave duran exactamente lo mismo a una distancia dada: una Protos y una Wraith a 2.000 unidades consumen una nave completa en 50 segundos.
+El daño es un **porcentaje del casco máximo de tu nave** cada segundo y sale **directamente del casco**: tu escudo no lo absorbe. Así, todas las clases de nave duran exactamente lo mismo a una distancia dada: una Protos y una Wraith a 2.000 unidades consumen un casco completo en 50 segundos.
 
 | Distancia | Daño por segundo | Una nave completa dura |
 | ---: | ---: | ---: |
@@ -54,24 +54,25 @@ El daño es un **porcentaje de los HP máximos totales de tu nave** (casco más 
 | 700 | 11 % | 9 s |
 | 300 | 24 % | 4 s |
 
-Entre dos filas el daño sube en línea recta. En puntos de vida por segundo, para las configuraciones de serie:
+Entre dos filas el daño sube en línea recta. En puntos de casco por segundo, para las configuraciones de serie:
 
-| Nave | HP máx. totales | A 3.500 | A 3.000 | A 2.000 | A 1.200 | A 700 |
+| Nave | Casco máx. | A 3.500 | A 3.000 | A 2.000 | A 1.200 | A 700 |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| Protos | 30.000 | 165 | 240 | 600 | 1.500 | 3.300 |
-| Kitefin | 46.000 | 253 | 368 | 920 | 2.300 | 5.060 |
-| Ostirion | 98.500 | 542 | 788 | 1.970 | 4.925 | 10.835 |
-| Nomad | 145.500 | 800 | 1.164 | 2.910 | 7.275 | 16.005 |
-| Paragon | 162.500 | 894 | 1.300 | 3.250 | 8.125 | 17.875 |
-| Storm | 228.000 | 1.254 | 1.824 | 4.560 | 11.400 | 25.080 |
-| Wraith | 304.000 | 1.672 | 2.432 | 6.080 | 15.200 | 33.440 |
-| Ironclad | 573.200 | 3.153 | 4.586 | 11.464 | 28.660 | 63.052 |
+| Protos | 8.000 | 44 | 64 | 160 | 400 | 880 |
+| Kitefin | 24.000 | 132 | 192 | 480 | 1.200 | 2.640 |
+| Ostirion | 64.000 | 352 | 512 | 1.280 | 3.200 | 7.040 |
+| Nomad | 111.000 | 611 | 888 | 2.220 | 5.550 | 12.210 |
+| Paragon | 128.000 | 704 | 1.024 | 2.560 | 6.400 | 14.080 |
+| Storm | 180.000 | 990 | 1.440 | 3.600 | 9.000 | 19.800 |
+| Wraith | 256.000 | 1.408 | 2.048 | 5.120 | 12.800 | 28.160 |
+| Ironclad | 500.000 | 2.750 | 4.000 | 10.000 | 25.000 | 55.000 |
 
-- El **escudo lo absorbe primero**, luego el casco. No es un impacto: la absorción del escudo no interviene y no se puede esquivar.
+- Va **directamente al casco**: el escudo no absorbe nada, así que una nave sin escudo pierde exactamente lo mismo que una con un Heavy Shield Core. No es un impacto: la absorción del escudo no interviene y no se puede esquivar.
 - La radiación cuenta como **daño recibido**: tu escudo no se recarga, un Repair Drone se detiene («Reparaciones interrumpidas: radiación.») y no se puede iniciar, y una zona segura no te protegería hasta 5 segundos después de la última dosis.
-- Los potenciadores y las mejoras cambian lo grande que es tu total, no cuánto duras: el daño es una parte de él.
-- Nada vuelve inmune a una nave. La radiación no es un impacto, así que nada la absorbe; pero las habilidades siguen funcionando dentro de ella: un Shield Surge sigue restaurando tu escudo y un Emergency Repair sigue reparando tu casco durante sus diez segundos (no son las reparaciones naturales que detiene la dosis). El camuflaje no oculta la nave de la radiación.
-- La **Tecnología de radiación**, una habilidad de piloto, baja la dosis: la parte de tu total que pierdes por segundo baja en línea recta desde toda ella en el nivel 1 hasta 0,40 de ella en el nivel 100, y el indicador muestra la dosis que realmente recibes.
+- Los potenciadores y las mejoras cambian lo grande que es tu casco, no cuánto duras: el daño es una parte de él.
+- Nada vuelve inmune a una nave. La radiación no es un impacto, así que nada la absorbe, y el escudo menos que nada; pero las habilidades siguen funcionando dentro de ella: un Emergency Repair sigue reparando tu casco durante sus diez segundos (no es una de las reparaciones naturales que detiene la dosis) y un Shield Surge sigue restaurando un escudo que la radiación nunca toca. El camuflaje no oculta la nave de la radiación.
+- La **Tecnología de radiación**, una habilidad de piloto, baja la dosis: la parte de tu casco que pierdes por segundo baja en línea recta desde toda ella en el nivel 1 hasta 0,40 de ella en el nivel 100, y el indicador muestra la dosis que realmente recibes.
+- La **N.U.K.E.** y la **Gravitational N.U.K.E.** dejan zonas de radiación propias donde estallan, y estas queman el casco de la misma manera: [Cohetes](/wiki/06-Items/Rockets.md#the-craft-only-rockets) las describe.
 
 ## La atracción {#the-pull}
 
@@ -131,7 +132,7 @@ La vista es pequeña (unas 1.900 por 1.150 unidades en pantalla con el zoom por 
 
 - **Desde lejos.** Si bajas la cámara para mirar a lo largo del plano, el agujero negro se dibuja donde se encuentra en la pantalla, desde cualquier punto del sector, siempre que esté en el encuadre: un disco negro con un anillo en un resplandor de luz de acreción, escalado para que se vea con facilidad (cerca del 2 % de la altura de la vista desde la esquina más lejana, que está a unas 18.000 unidades), y crece hasta convertirse en su propia imagen a medida que te acercas. Nada en él se mueve por sí solo. Con el agujero negro fuera de la vista no hay ningún marcador en la pantalla para él.
 - **Anillos en el plano de vuelo.** Una banda violeta brilla hasta un borde nítido en el límite de la radiación (4.000 unidades), y otra más fina, ámbar, marca el borde de la atracción (3.000). Dentro de la atracción una **línea roja** muestra *tu propio* punto de no retorno. Sigue tu velocidad, así que se mueve a medida que tu nave va más rápida o más lenta.
-- **El indicador**, sobre la barra rápida, aparece a menos de mil unidades del borde y se queda mientras te quemas. Muestra la radiación en porcentaje de los HP totales de tu nave por segundo, cuánto tardaría la radiación sola en consumir lo que te queda («Letal en 31 s», en rojo por debajo de diez), una barra de esos HP, la atracción donde estás frente a tu velocidad y la distancia que aún queda por volar hasta tu punto de no retorno, o un aviso parpadeante una vez que lo has pasado. Pasa el cursor por una fila para ver qué significa; la (i) abre una tarjeta.
+- **El indicador**, sobre la barra rápida, aparece a menos de mil unidades del borde y se queda mientras te quemas. Muestra la radiación en porcentaje del casco máximo de tu nave por segundo, cuánto tardaría la radiación sola en consumir lo que te queda de casco («Letal en 31 s», en rojo por debajo de diez), una barra de ese casco, la atracción donde estás frente a tu velocidad y la distancia que aún queda por volar hasta tu punto de no retorno, o un aviso parpadeante una vez que lo has pasado. Pasa el cursor por una fila para ver qué significa; la (i) abre una tarjeta.
 - **Los bordes de la pantalla** brillan en violeta, se vuelven rojos a medida que sube la dosis y pulsan una vez por segundo.
 - **El minimapa** dibuja el agujero negro con sus anillos como elipses (el plano se estira con su ventana), y su descripción emergente indica los radios. La carta estelar marca el sector con un pequeño agujero negro.
 - **Un contador de radiación** hace clic más rápido a medida que sube la dosis, por encima del ruido del combate. Un aviso de dos tonos suena al cruzar el borde y de nuevo en tu punto de no retorno, y se oye un rumor grave desde unas 6.500 unidades, más grave cuanto más cerca estás.
@@ -156,8 +157,8 @@ Los drones vuelan con su nave. Nunca se deja carga dentro del anillo: una caja q
 
 El agujero devuelve **Dark Matter** por un cohete **N.I.K.E.** que lo alcanza. Una N.I.K.E. es un cohete de 67.500 a 75.000 de daño que golpea a la primera nave a la que puede dañar y se gasta en ella; si no hay nada en el camino, vuela hasta el agujero y se consume al cruzar el horizonte de sucesos. El [Ensamblaje](/wiki/06-Items/Rockets.md) fabrica N.I.K.E. cuando su tecnología está investigada ([Investigación](/wiki/03-Mechanics/Research.md)), cinco por fabricación (100.000 créditos, 1.500 de Thulium, 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite).
 
-- **Disparo.** Una N.I.K.E. vuela 4.050 unidades en 4,5 segundos (900 por segundo) en línea recta hacia donde apuntaste: sin objetivo seleccionado, pon el cursor sobre el agujero negro (o apunta tu nave hacia él). Llega al horizonte desde cualquier punto entre el borde de la radiación (4.000 unidades) y 4.380 unidades del centro. Más lejos se queda corta y se desperdicia. Como todos los cohetes, usa el temporizador compartido, y después esperas 4,6 segundos hasta el siguiente cohete (no hace falta tener un láser equipado); dispararla pone fin a tu protección de zona segura y a tu camuflaje. **Una nave en la línea de tiro la recibe en su lugar**: un rival que espera en el borde, o un piloto de otra corporación que recoge cajas en el camino, recibe de 67.500 a 75.000 de daño y el agujero no recibe nada. Los alienígenas y los pilotos de corporación nunca entran en el anillo, así que mantener despejada la línea depende de ti; atraviesa a tu propio grupo y a las naves que están a salvo de ti; un piloto de tu propia corporación que no está en tu grupo es una nave como cualquier otra, donde el PvP está activo. Si sales del mapa después del disparo, sigue volando sin dañar a nadie y aun así genera tu Dark Matter. Una formación de drones puede cambiar el daño del impacto, pero no la espera tras una N.I.K.E. (consulta [Formaciones de drones y cohetes](/wiki/06-Items/Rockets.md#drone-formations-and-rockets)).
-- **Qué se obtiene.** Cada N.I.K.E. que llega al horizonte da **1, 2 o 3 Dark Matter** (2 de media, así que unas cinco N.I.K.E. dan diez), en cajas pequeñas, una por cada unidad (es decir, de una a tres cajas), que aparecen en el borde de la zona del agujero, **a entre 3.050 y 3.950 unidades del centro**, cerca de la línea por la que entró tu disparo. La atracción termina en 3.000, así que las cajas y las naves que las toman no son atraídas, y la radiación allí es del 0,3 al 0,8 % de los HP de una nave por segundo: un minuto en medio de la banda cuesta un tercio de tu nave. Una nave completa dura tres minutos allí.
+- **Disparo.** Una N.I.K.E. vuela 4.455 unidades en 4,5 segundos (1000 por segundo) en línea recta hacia donde apuntaste: sin objetivo seleccionado, pon el cursor sobre el agujero negro (o apunta tu nave hacia él). Llega al horizonte desde cualquier punto entre el borde de la radiación (4.000 unidades) y 4.785 unidades del centro. Más lejos se queda corta y se desperdicia. Como todos los cohetes, usa el temporizador compartido, y después esperas 4,6 segundos hasta el siguiente cohete (no hace falta tener un láser equipado); dispararla pone fin a tu protección de zona segura y a tu camuflaje. **Una nave en la línea de tiro la recibe en su lugar**: un rival que espera en el borde, o un piloto de otra corporación que recoge cajas en el camino, recibe de 67.500 a 75.000 de daño y el agujero no recibe nada. Los alienígenas y los pilotos de corporación nunca entran en el anillo, así que mantener despejada la línea depende de ti; atraviesa a tu propio grupo y a las naves que están a salvo de ti; un piloto de tu propia corporación que no está en tu grupo es una nave como cualquier otra, donde el PvP está activo. Si sales del mapa después del disparo, sigue volando sin dañar a nadie y aun así genera tu Dark Matter. Una formación de drones puede cambiar el daño del impacto, pero no la espera tras una N.I.K.E. (consulta [Formaciones de drones y cohetes](/wiki/06-Items/Rockets.md#drone-formations-and-rockets)).
+- **Qué se obtiene.** Cada N.I.K.E. que llega al horizonte da **1, 2 o 3 Dark Matter** (2 de media, así que unas cinco N.I.K.E. dan diez), en cajas pequeñas, una por cada unidad (es decir, de una a tres cajas), que aparecen en el borde de la zona del agujero, **a entre 3.050 y 3.950 unidades del centro**, cerca de la línea por la que entró tu disparo. La atracción termina en 3.000, así que las cajas y las naves que las toman no son atraídas, y la radiación allí es del 0,3 al 0,8 % del casco de una nave por segundo: un minuto en medio de la banda cuesta un tercio de tu nave. Una nave completa dura tres minutos allí.
 - **De quién.** Las cajas son tuyas, y de tu clan, durante **60 segundos** desde el disparo. Después, cualquiera que esté en el mapa puede tomarlas, y se alejan a la deriva a los **4 minutos**. El sector de peligro es un sector PvP, así que espera compañía. Un piloto que se desconecta tras disparar conserva sus cajas.
 - **Cuántas.** Un mapa admite como máximo 52 cajas de Dark Matter; una nueva desplaza a la más antigua de ellas, y nunca a otro tipo de caja. El [Resource Magnet Booster](/wiki/03-Mechanics/Cargo.md) no suma nada al Dark Matter.
 - **Lo que ves.** Cuando una N.I.K.E. cruza el horizonte, es estirada hacia el agujero, el espacio ondula desde donde entró, y el disco y el anillo de fotones destellan durante aproximadamente un segundo y medio (una tercera parte de eso, con la mitad de luz, con **Reducir movimiento**). Un momento después las cajas salen del agujero y derivan hasta sus lugares en el borde: cada una es una esfera de color negro violáceo con un borde brillante y destellos, fácil de ver desde lejos, y se titula **Dark Matter** cuando pasas el cursor por ella. Las tuyas muestran encima los segundos que te quedan, y aparecen en el minimapa como una pequeña marca violeta, igual que para tu clan; las cajas de otros pilotos aparecen en el minimapa solo cuando termina su minuto.

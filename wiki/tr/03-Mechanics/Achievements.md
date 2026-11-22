@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 56ff9739379ad0a6 -->
+<!-- wiki-i18n source: 53a080132ff6f6d9 -->
 <!-- wiki-i18n title: Başarımlar -->
 # Başarımlar {#achievements}
 
@@ -77,7 +77,7 @@ Gizli olmayan 45 başarım, gruplara göre. Bir hedef bir şey sayıyorsa, tüm 
 | İstasyon Kurucu | 5 farklı Skylab modülü inşa et. | Sıradan |
 | Tam Donanımlı | 16 Skylab modülünün hepsini inşa et. | Destansı |
 | Bilgin | 50 teknoloji araştır. | Seyrek |
-| Arşivci | 209 teknolojinin hepsini araştır. | Efsanevi |
+| Arşivci | 210 teknolojinin hepsini araştır. | Efsanevi |
 
 ### Filo {#group-fleet}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 110ad87b2e059bc1 -->
+<!-- wiki-i18n source: 4c08fb4a1e4f417d -->
 <!-- wiki-i18n title: Inventario -->
 # Inventario ed equipaggiamento {#inventory-equipment}
 
@@ -20,7 +20,7 @@ A differenza dei giochi spaziali tradizionali, SpaceCorps ha slot di equipaggiam
   - **Slot non assegnati/obsoleti**: gli oggetti messi qui non contribuiscono alle statistiche.
   - **Anche il cumulo si attenua**: scudi e motori vengono ordinati dal più forte (in base a ciò che ciascuno conta dopo la quota del suo slot), e la quota della fascia viene poi moltiplicata per la quota del loro posto: dal 1º al 4º contano per intero, dal 5º al 7º l’85%, il 70% e il 55%, dall’8º in poi il 50% per gli scudi e il 25% per i motori. Vedi [Scudi](/wiki/03-Mechanics/Shields.md) e [Velocità](/wiki/03-Mechanics/Speed.md).
 - **Slot extra**: per oggetti di utilità specializzati, come i Repair Drone. La Protos, la Kitefin, l’Ostirion e la Nomad ne hanno due; la Paragon, la Ironclad, la Wraith e la Storm, che costruisci, ne hanno tre. Le Extra Slots CPU ([Extra](/wiki/06-Items/Extras.md#extra-slots-cpus)) ne aggiungono 3, 5 o 7.
-- **Slot corazza**: per la [corazza dello scafo](/wiki/06-Items/Hull-Plating.md#hull-plate-slots), che aggiunge scafo. Li hanno solo le quattro navi che costruisci (la Paragon 5, la Storm 7, la Ironclad 15 e la Wraith 10), ciascuno bloccato finché non lo ricerchi nello Skylab, e sono uguali nelle due configurazioni.
+- **Slot corazza**: per la [corazza dello scafo](/wiki/06-Items/Hull-Plating.md#hull-plate-slots), che aggiunge scafo. Protos, Kitefin, Ostirion e Nomad ne hanno 3, aperti fin dall’inizio. Le navi che costruisci ne hanno di più (la Paragon 5, la Storm 8, la Ironclad 15, la Wraith 10 e la Miyuki da 5 a 9), ciascuno bloccato finché non lo ricerchi nello Skylab, e sono uguali nelle due configurazioni.
 
 ## Ordine dell’inventario {#inventory-order}
 

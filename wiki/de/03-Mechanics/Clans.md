@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d9722fd08d8980ff -->
+<!-- wiki-i18n source: e819db509b714a18 -->
 <!-- wiki-i18n title: Clans -->
 # Clans
 
@@ -193,7 +193,7 @@ Die Spalte **Skylab** daneben zeigt, wo das [Skylab](/wiki/03-Mechanics/Skylab.m
 Die Schaltfläche **Wer ist online** in der System-Symbolleiste (oben rechts) oder die Taste **H** (in Einstellungen › Steuerung belegbar) öffnet das Fenster **Piloten online**.
 
 - **Wer aufgeführt ist.** Die Piloten, die gerade in **deiner Welt** fliegen, außer dir selbst: Alpha, Beta und Gamma begegnen sich nicht. Ein Pilot, dessen getarntes Schiff du nicht sehen kannst, wird weder aufgeführt noch mitgezählt. Das Fenster zeigt höchstens **100** Zeilen, zuerst deine Clan-Kameraden, dann die höheren Level, dann nach Namen, und oben die wahre Zahl der Piloten, die online sind.
-- **Was eine Zeile zeigt.** Name, Level, Konzern, Clan-Tag und Rangsymbol des Piloten: das, was Chat und Ranglisten ohnehin zeigen. Nie eine Position, eine Karte oder den Zustand des Schiffs.
+- **Was eine Zeile zeigt.** Name, Level, Konzern, Clan-Tag und Rangsymbol des Piloten: das, was Chat und Ranglisten ohnehin zeigen. Nie eine Position, eine Karte oder den Zustand des Schiffs. Ein **goldener Name** heißt, dass der Pilot das Spiel irgendwann mit Premium unterstützt hat, wie im Chat; eine **goldene Krone** hinter dem Namen heißt, dass sein Premium gerade aktiv ist.
 - **Suche.** Tippe einen Teil eines Namens oder eines Clan-Tags; das Fenster fragt den Server erneut, wenn die Liste gekürzt war.
 - **Einladen.** Die Schaltfläche **Einladen** in einer Zeile ist die eigene Einladung des Gruppenfensters ([Gruppen](/wiki/03-Mechanics/Groups.md)), mit denselben Antworten und Ablehnungen (der Pilot ist in einer Gruppe, die Gruppe ist voll, Bitte nicht stören ist an). Die Schaltfläche ist grau, mit dem Grund beim Darüberfahren, wenn das Spiel schon weiß, dass die Einladung abgelehnt würde.
 - Die Liste wird alle 10 Sekunden neu gelesen, solange das Fenster offen ist.

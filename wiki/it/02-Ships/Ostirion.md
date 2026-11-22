@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 38baebcbfc5e575a -->
+<!-- wiki-i18n source: 55107c4d57b624af -->
 <!-- wiki-i18n title: Ostirion -->
 # Ostirion
 
@@ -10,6 +10,7 @@ L’Ostirion è un solido intercettore di fascia media, che offre un netto migli
 - **Velocità di base**: 260
 - **Slot laser**: 5
 - **Slot extra**: 2
+- **Slot corazza**: 3
 
 ### Slot dei generatori e di supporto {#generator-support-slots}
 

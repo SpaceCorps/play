@@ -134,7 +134,7 @@ Varje sort i tur och ordning. Skrov och sköld är de vanliga värdena gånger m
 - **Ser ut som**: Pirate Boss
 - **Flyger i flockar om**: 2
 - **Belöning och byte som**: Pirate Boss
-- **Raket**: En rak raket var 5 s, räckvidd 1 000 enheter
+- **Raket**: En rak raket var 5 s, räckvidd 1 100 enheter
 
 |  | Steg 1 | Steg 2 | Steg 3 |
 | :--- | ---: | ---: | ---: |
@@ -207,7 +207,7 @@ Krigsherren väntar i rummet i andra änden av labyrinten, och hans fall är det
 | :--- | ---: | ---: | ---: |
 | Skrov | 10 000 000 | 15 000 000 | 25 000 000 |
 | Sköld | 8 000 000 | 12 000 000 | 20 000 000 |
-| Laserskada (en salva per sekund) | 12 500–15 000 | 15 000–17 500 mot var och en av 2 piloter | 20 000–25 000 mot var och en av 2 piloter |
+| Laserskada (en salva per sekund) | 17 500–22 500 | 26 250–33 750 mot var och en av 2 piloter | 35 000–45 000 mot var och en av 2 piloter |
 | Hastighet | 120 | 120 | 120 |
 | Laserräckvidd | 1 100 | 1 100 | 1 100 |
 
@@ -260,8 +260,8 @@ Fönstret Klandungeon räknar hur många av dem som fortfarande måste förstör
 | :--- | :--- | :--- | :--- |
 | **Livsstjälande aura** | 8 000 per sekund | 10 000 per sekund | 12 000 per sekund |
 | **Meteorregn** | 6 meteorer per salva, 80 000 vardera | 8 meteorer per salva, 100 000 vardera | 10 meteorer per salva, 120 000 vardera |
-| **Fokus på mest efterlysta** | 18 750–22 500 per extra skott mot piloten som gjort mest skada, ett var 1 s | 22 500–26 250 per extra skott mot piloten som gjort mest skada, ett var 1 s | 30 000–37 500 per extra skott mot piloten som gjort mest skada, ett var 1 s |
-| **Raketsalva** | 50 000–75 000 per raket mot varje pilot, en var 15 s | 62 500–93 750 per raket mot varje pilot, en var 15 s | 75 000–112 500 per raket mot varje pilot, en var 15 s |
+| **Fokus på mest efterlysta** | 26 250–33 750 per extra skott mot piloten som gjort mest skada, ett var 1 s | 39 375–50 625 per extra skott mot piloten som gjort mest skada, ett var 1 s | 52 500–67 500 per extra skott mot piloten som gjort mest skada, ett var 1 s |
+| **Raketsalva** | 100 000–150 000 per raket mot varje pilot, en var 15 s | 125 000–187 500 per raket mot varje pilot, en var 15 s | 150 000–225 000 per raket mot varje pilot, en var 15 s |
 | **Sköldabsorption** | 10 000 sköld per sekund | 12 500 sköld per sekund | 15 000 sköld per sekund |
 | **Svärmhjälp** | 12 × Goombah | 18 × Goombah | 24 × Goombah |
 | **Kaoszonen** | Piloter i ringen kan inte attackera | Piloter i ringen kan inte attackera | Piloter i ringen kan inte attackera |
@@ -311,14 +311,14 @@ Korten dras ett i taget ur poolen nedan. Chansen är ett korts chans i en dragni
 
 | Kort | Steg 1 | Steg 2 | Steg 3 | Chans | Går till |
 | :--- | ---: | ---: | ---: | ---: | :--- |
-| Thulium | 2 000 | 3 000 | 5 000 | 23,9 % | Varje betald pilot |
+| Thulium | 4 000 | 6 000 | 10 000 | 23,9 % | Varje betald pilot |
 | Velkonite Reinforced Plate | 10 | 15 | 25 | 13,65 % | Varje betald pilot |
 | Velkonite | 200 | 300 | 500 | 13,65 % | Varje betald pilot |
 | Orvium | 200 | 300 | 500 | 13,65 % | Varje betald pilot |
 | Ultra Core | 5 000 | 7 500 | 12 500 | 11,4 % | Varje betald pilot |
 | Experimental Fusion Core | 3 000 | 4 500 | 7 500 | 9,1 % | Varje betald pilot |
 | Dark Matter | 10 | 16 | 24 | 9,1 % | Varje betald pilot |
-| Dark Matter Plate | 1 | 1 | 2 | 4,55 % | Varje betald pilot |
+| Dark Matter Plate | 4 | 6 | 8 | 4,55 % | Varje betald pilot |
 | Starfire-III | – | – | 1 | 0,07 % | Varje betald pilot |
 | Helios Beam | – | – | 1 | 0,07 % | Varje betald pilot |
 | Engine III | – | – | 1 | 0,07 % | Varje betald pilot |
@@ -351,9 +351,9 @@ När krigsherren faller får varje pilot som förtjänat det betalt, en gång pe
 
 | Steg | Heder | Erfarenhet | Krediter | Thulium | x4-ammunition | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE-rankingpoäng |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Steg 1** | 25 000 | 600 000 | 5 000 000 | 4 000 | 4 000 | 5 | 12 | 5 | 850 |
-| **Steg 2** | 50 000 | 1 500 000 | 10 000 000 | 9 000 | 9 000 | 10 | 8 | 6 | 2 000 |
-| **Steg 3** | 100 000 | 2 400 000 | 17 500 000 | 15 000 | 15 000 | 15 | 8 | 7 | 3 400 |
+| **Steg 1** | 25 000 | 600 000 | 5 000 000 | 8 000 | 4 000 | 5 | 12 | 5 | 850 |
+| **Steg 2** | 50 000 | 1 500 000 | 10 000 000 | 18 000 | 9 000 | 10 | 8 | 6 | 2 000 |
+| **Steg 3** | 100 000 | 2 400 000 | 17 500 000 | 30 000 | 15 000 | 15 | 8 | 7 | 3 400 |
 
 - **Heartshards**: 1 vid första betalda avklarningen av varje etapp under en säsong, och 5 % chans till ytterligare ett vid varje betald avklarning.
 
@@ -382,8 +382,8 @@ Vad en pilot kan få betalt på en dag, och under den bästa vecka som gränsern
 
 | Betalning per pilot | Heder | Erfarenhet | Krediter | Thulium | x4-ammunition | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE-rankingpoäng |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| En dag, varje steg en gång | 175 000 | 4 500 000 | 32 500 000 | 28 000 | 28 000 | 30 | 28 | 18 | 6 250 |
-| Den bästa veckan: 7 × Steg 3 och 3 × Steg 2 | 850 000 | 21 300 000 | 152 500 000 | 132 000 | 132 000 | 135 | 80 | 67 | 29 800 |
+| En dag, varje steg en gång | 175 000 | 4 500 000 | 32 500 000 | 56 000 | 28 000 | 30 | 28 | 18 | 6 250 |
+| Den bästa veckan: 7 × Steg 3 och 3 × Steg 2 | 850 000 | 21 300 000 | 152 500 000 | 264 000 | 132 000 | 135 | 80 | 67 | 29 800 |
 
 Erfarenheten och hedern från ett betalt, avklarat steg räknas med i dina PvE-rankingpoäng: en poäng för varje 1 000 erfarenhet och en för varje 100 heder.
 

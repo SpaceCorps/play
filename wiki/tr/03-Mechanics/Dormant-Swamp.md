@@ -41,11 +41,11 @@ Bir atışın hasarı, her dünyada:
 | [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) tareti | 5.000 / 4.400 | 5 sn | 1.080 | 50.000 | 75.000 | 100.000 |
 | Lazer tareti × 2 | 3.600 / 5.200; 6.400 / 5.200 | 1 sn | 2.500 | 45.000–55.000 | 67.500–82.500 | 90.000–110.000 |
 
-- Bir roket, aynı roketin bir pilotun elindeki menzilinin %90 kadarından ateşlenir ki hedefe ulaşsın; bir lazer tareti saniyede bir ateş eder ve hasarı gösterilen aralıkta belirlenir.
+- Bir roket, aynı roketin bir pilotun elindeki menzilinin %82 kadarından ateşlenir ki hedefe ulaşsın; bir lazer tareti saniyede bir ateş eder ve hasarı gösterilen aralıkta belirlenir.
 - Bir N.I.K.E., kalkan soğurmasından düşülen %35 kalkan delme oranına sahiptir.
-- Taretin N.I.K.E. roketi seninkinden %25 daha hızlı ve 2× daha uzağa uçar: saniyede 1.125 birim, toplam 8.100 birim; bu yüzden ondan kaçan bir gemi uzun bir mesafe boyunca takip edilir.
-- Bir N.U.K.E., 1.350 birimlik bir yarıçapta patlar; en şiddetlisi ortada.
-- Taretin N.U.K.E. roketi seninkinden %25 daha hızlı ve 2× daha uzağa uçar: saniyede 375 birim, toplam 2.400 birim; bu yüzden ondan kaçan bir gemi uzun bir mesafe boyunca takip edilir.
+- Taretin N.I.K.E. roketi seninkinden %25 daha hızlı ve 2× daha uzağa uçar: saniyede 1.250 birim, toplam 8.910 birim; bu yüzden ondan kaçan bir gemi uzun bir mesafe boyunca takip edilir.
+- Bir N.U.K.E., 1.013 birimlik bir yarıçapta patlar; en şiddetlisi ortada.
+- Taretin N.U.K.E. roketi seninkinden %25 daha hızlı ve 2× daha uzağa uçar: saniyede 375 birim, toplam 2.640 birim; bu yüzden ondan kaçan bir gemi uzun bir mesafe boyunca takip edilir.
 
 <!-- swamp-guns:end -->
 
@@ -108,7 +108,7 @@ Kayıp uygarlığın üç uzaylısı burada yaşar, her birinin kendi sayıları
 | Kredi | 125.000 | 250.000 | 375.000 |
 | Thulium | 335 | 670 | 1.005 |
 | Deneyim (XP) | 20.200 | 40.400 | 60.600 |
-| Onur | 87 | 174 | 261 |
+| Onur | 88 | 176 | 264 |
 | Öldürme başına PvE puanı | 15 | 15 | 15 |
 
 **Ganimet**: tek bir kutu, en çok hasar veren pilota ait.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2803f28f4597c776 -->
+<!-- wiki-i18n source: a9b3f1a14b051e92 -->
 <!-- wiki-i18n title: Kitefin -->
 # Kitefin
 
@@ -10,6 +10,7 @@ Kitefin은 경량 건십이자 대부분의 파일럿이 처음 구매하는 함
 - **기본 속도**: 220
 - **레이저 슬롯**: 4
 - **부가 슬롯**: 2
+- **장갑 슬롯**: 3
 
 ### 발전기 및 지원 슬롯 {#generator-support-slots}
 

@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: d605328d6ea5df78 -->
+<!-- wiki-i18n source: 91ebd8675b1f7ea3 -->
 <!-- wiki-i18n title: 船体装甲 -->
 # 船体装甲 {#hull-plating}
 
 <!-- wiki-search: hull plate; hull plate slot; hull plate slots; plate slot; plate; armour; armor; hpl; 船体装甲; 装甲槽位; 装甲板 -->
 
-对 Dormant 虫群的研究显示出装甲技术的进步。借助这项技术，飞船可以强化自己的船体：**船体装甲**是装入已制造飞船船体装甲槽位、为其增加船体值的装甲。它不是[增益](/wiki/06-Items/Boosters.md)页面里的 Hull Plating **Booster**，后者是限时加成。
+对 Dormant 虫群的研究显示出装甲技术的进步。借助这项技术，飞船可以强化自己的船体：**船体装甲**是装入飞船船体装甲槽位、为其增加船体值的装甲。它不是[增益](/wiki/06-Items/Boosters.md)页面里的 Hull Plating **Booster**，后者是限时加成。
 
 ![The Hull plates card of the Hangar: the slots researched hold Hull Plating, the others show a padlock](../../img/wiki-img/shots/hull-plates.jpg)
 
@@ -28,26 +28,27 @@ Hull Plating I => Hull Plating II => Hull Plating III
 
 | 物品 | 增加的船体值 | 来源 |
 | :--- | ---: | :--- |
-| **Hull Plating I** | 8,000 | 商店，5,000 Thulium |
-| **Hull Plating II** | 15,000 | 装配站，由 Hull Plating I 升级 |
-| **Hull Plating III** | 25,000 | 装配站，由 Hull Plating II 升级 |
+| **Hull Plating I** | 7,000 | 商店，5,000 Thulium |
+| **Hull Plating II** | 14,000 | 装配站，由 Hull Plating I 升级 |
+| **Hull Plating III** | 20,000 | 装配站，由 Hull Plating II 升级 |
 
 Hull Plating I 是买来的。**II 和 III 是升级**：装配站会消耗一块低一阶的装甲（要放在物品栏里，不能装在舰船上），并需要 Thulium、材料和 **Dark Matter Plate**，II 需要 5 块，III 需要 8 块，而任何其他装备的最后一阶只需要 4 块和 1 个 Ancient Control Unit。每一块都要先有对应的科技，位于[研究](/wiki/03-Mechanics/Research.md#tree-hull-plating)页的 Hull Plating 科技树中：II 需要 1 天和 25 个 Dark Matter，III 需要 2 天和 40 个，另外还要有 Dark Matter Plate 本身的科技。上面的科技树列出了价格、材料和时间。
 
-[锻造炉](/wiki/06-Items/Forge.md)可以处理每一种装甲，升级会保留被消耗装甲的锻造等级和加成。装甲只有一项属性，也就是船体，所以只带一条加成，按等级从 +2% 到 +15%：一块升华等级的 Hull Plating III 最多可增加 28,750。[拍卖行](/wiki/03-Mechanics/Auction.md)可以上架 Hull Plating II 和 III，但不能上架商店出售的 Hull Plating I。
+[锻造炉](/wiki/06-Items/Forge.md)可以处理每一种装甲，升级会保留被消耗装甲的锻造等级和加成。装甲只有一项属性，也就是船体，所以只带一条加成，按等级从 +2% 到 +15%：一块升华等级的 Hull Plating III 最多可增加 23,000。[拍卖行](/wiki/03-Mechanics/Auction.md)可以上架 Hull Plating II 和 III，但不能上架商店出售的 Hull Plating I。
 
 ## 装甲槽位 {#hull-plate-slots}
 
-船体装甲只能装进**装甲槽位**。这是你在装配站制造的四艘舰船除激光、发生器、附加、技能和无人机槽位之外另有的一种槽位：
+船体装甲只能装进**装甲槽位**。这是每艘舰船除激光、发生器、附加、技能和无人机槽位之外另有的一种槽位。槽位最多的是你在装配站制造的舰船：表中的四艘，以及有 5 到 9 个、每升一级多一个的 [Miyuki](/wiki/02-Ships/Miyuki.md)：
 
 | 舰船 | 装甲槽位 | 一整套 Hull Plating III 增加 |
 | :--- | ---: | ---: |
-| **Paragon** | 5 | 125,000 |
-| **Storm** | 8 | 200,000 |
-| **Ironclad** | 15 | 375,000 |
-| **Wraith** | 10 | 250,000 |
+| **Paragon** | 5 | 100,000 |
+| **Storm** | 8 | 160,000 |
+| **Ironclad** | 15 | 300,000 |
+| **Wraith** | 10 | 200,000 |
 
-- **起初全部锁定。** 槽位要在 Skylab 里研究后才会开启：每个槽位一项科技，需要 1 小时和 10 个 Dark Matter，从第一个起依次进行。[研究](/wiki/03-Mechanics/Research.md#ship-technologies)视图把一艘舰船的槽位显示为一张卡片，每个槽位一个圆点。
+- **在制造的飞船上，起初全部锁定。** 槽位要在 Skylab 里研究后才会开启：每个槽位一项科技，需要 1 小时和 10 个 Dark Matter，从第一个起依次进行。[研究](/wiki/03-Mechanics/Research.md#ship-technologies)视图把一艘舰船的槽位显示为一张卡片，每个槽位一个圆点。
+- **商店的四艘飞船各有三个槽位，开局即开启。** Protos、Kitefin、Ostirion 和 Nomad 各有 3 个装甲槽位，无需研究：从第一次飞行起就是开启的。装满 Hull Plating III 可为每艘增加 60,000。
 - **按舰船种类，而不是按单艘舰船。** 你为 Paragon 开启的槽位，在 Paragon 的每一种设计上也是开启的（[舰船设计](/wiki/03-Mechanics/Ship-Designs.md)）。科技永远属于你：重置也会保留。
 - **两种配置共用。** 装甲属于舰船：切换配置时它们仍然装着，机库在两种配置里显示的是同样的装甲。
 - **任意混搭。** 槽位可以装任何一种船体装甲，两块相同的也没问题。
@@ -62,4 +63,4 @@ Hull Plating I 是买来的。**II 和 III 是升级**：装配站会消耗一�
 
 ## Hull Plating 还是 Hull Plating Booster？ {#hull-plating-or-booster}
 
-有两样东西同名。**船体装甲**（本页）是一种护甲：一块装进已制造舰船的装甲槽位的板，装着的时候就增加它的船体。**Hull Plating Booster** 是[增益](/wiki/06-Items/Boosters.md)页上的限时加成，在你驾驶的任何舰船上提供 10 小时的 +10% 最大生命值，没有东西可装。两者会叠加：先算装甲，Booster 的 10% 在总数上计算。
+有两样东西同名。**船体装甲**（本页）是一种护甲：一块装进舰船的装甲槽位的板，装着的时候就增加它的船体。**Hull Plating Booster** 是[增益](/wiki/06-Items/Boosters.md)页上的限时加成，在你驾驶的任何舰船上提供 10 小时的 +10% 最大生命值，没有东西可装。两者会叠加：先算装甲，Booster 的 10% 在总数上计算。

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0c9164c462c27a1a -->
+<!-- wiki-i18n source: 74bb4919fe97756e -->
 <!-- wiki-i18n title: Forskning -->
 # Forskning {#research}
 
@@ -30,7 +30,7 @@ Den här sidan har hela teknologiträdet med tiden för varje teknologi, vetensk
 
 <!-- research-centre:end -->
 
-**Schematics.** Ett [Schematics](/wiki/06-Items/Special-Items.md#schematics) tar bort 24 timmar från den pågående forskningen: om 24 timmar eller mindre återstår slutförs den direkt, och en längre förlorar 24 timmar och fortsätter (187 av de 209 teknikerna tar 24 timmar eller mindre, så ett Schematics slutför dem från början; de andra 22 behöver 2 till 10). Vad forskningen kostade betalades vid starten och ges inte tillbaka, vetenskapen som den överhoppade tiden hade bränt stannar kvar i din tank, och när forskningen är slutförd startar nästa teknik i din kö direkt.
+**Schematics.** Ett [Schematics](/wiki/06-Items/Special-Items.md#schematics) tar bort 24 timmar från den pågående forskningen: om 24 timmar eller mindre återstår slutförs den direkt, och en längre förlorar 24 timmar och fortsätter (188 av de 210 teknikerna tar 24 timmar eller mindre, så ett Schematics slutför dem från början; de andra 22 behöver 2 till 10). Vad forskningen kostade betalades vid starten och ges inte tillbaka, vetenskapen som den överhoppade tiden hade bränt stannar kvar i din tank, och när forskningen är slutförd startar nästa teknik i din kö direkt.
 
 **Laserförstärkarna och sista nivån.** Damage Amp, Crit Amp och Penetration Amp på nivå II till IV forskas fram som allt annat som kan tillverkas. Piloter som hade eller hade köat förstärkare när förstärkarserierna kom fick teknologin för var och en av dem och för nivåerna under. Tretton teknologier kräver en teknologi i ett annat träd, Dark Matter Plates, i trädet Resurser, eftersom sista nivån i varje uppgraderingskedja kräver fyra plattor och en Ancient Control Unit: Damage Amp, Crit Amp och Penetration Amp av nivå IV, Absorption Shield Cell och Capacity Shield Cell av nivå IV, Impulse Thruster och Momentum Thruster av nivå IV, Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III och Base CPU II. En pilot som har forskat fram en av dem tidigare behåller den, men behöver plattans teknologi för att tillverka dess plattor. Trädet nedan ritar ingen pil för den, men tabellen listar den och kortet i spelet nämner den ([Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)).
 

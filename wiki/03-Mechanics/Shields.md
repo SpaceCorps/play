@@ -44,16 +44,16 @@ Some attacks have a **shield penetration**: points taken off your absorbance for
 - Aliens have no absorbance stat: they split every hit 80% / 20%, less the penetration of the hit.
 - A Siphon Battery's damage comes out of the shield alone: absorbance and penetration do not come into it.
 
-**Where the shields take nothing.** A penetration at or above the absorbance leaves the shields none of the hit: the hull takes all of it. The table shows what the shields take of one hit from the best laser (85%; an Antimatter Battery in place of the Experimental Fusion Core makes it 95% at x3 damage) and from the best direct rocket (a Lancet III or a Rivet III with a Stiletto, 70%):
+**Where the shields take nothing.** A penetration at or above the absorbance leaves the shields none of the hit: the hull takes all of it. The table shows what the shields take of one hit from the best laser (100%; an Antimatter Battery in place of the Experimental Fusion Core makes it 110% at x3 damage) and from the best direct rocket (a Lancet III or a Rivet III with a Stiletto, 70%):
 
-| Shield | Absorbance | Shields take, best laser (85%) | Shields take, best direct rocket (70%) |
+| Shield | Absorbance | Shields take, best laser (100%) | Shields take, best direct rocket (70%) |
 | :--- | ---: | ---: | ---: |
 | Light Shield Core | 45% | 0% | 0% |
 | Basic Shield Core | 50% | 0% | 0% |
 | Heavy Shield Core | 55% | 0% | 0% |
-| The best shield out of the box | 91% | 6% | 21% |
-| A shield at 100% | 100% | 15% | 30% |
-| A shield at 120% | 120% | 35% | 50% |
+| The best shield out of the box | 91% | 0% | 21% |
+| A shield at 100% | 100% | 0% | 30% |
+| A shield at 120% | 120% | 20% | 50% |
 
 #### Reaching and passing 100%
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a198ee7b25672782 -->
+<!-- wiki-i18n source: 27ed2fafb9709c5b -->
 <!-- wiki-i18n title: Extrák -->
 # Extrák {#extras}
 
@@ -87,7 +87,7 @@ Az álcázáshoz nyomd meg a CLK foglalatot. **Egy megnyomás egy használat**, 
 - **Ki láthat.** A saját hajódat halványan, körvonallal látod. A saját vállalatod pilótái sápadt szellemként látnak; a más vállalatba tartozó klántársak nem, mert a klán bárkit felvesz, aki jelentkezik. A szellemet senki sem veheti célba, a saját vállalatod sem.
 - **Nem álcázhatsz** biztonságos zónában, amíg a CPU tölt, és találat vagy lövés után **10 másodpercen** belül.
 - **Mi szünteti meg.** Ha újra megnyomod a foglalatot; az első sortüzed vagy rakétád (becsapódik, és meglátnak); ha a CPU kikerül abból a konfigurációból, amellyel repülsz; az **EMP, amely 1 500 egységen belül sül el** tőled, bárki lőtte is ki (a saját vállalatodé is, de a csoporttársadé nem); és a rád találó rakéta területi robbanása. Az idő nem, a biztonságos zónába lépés vagy a portálugrás nem, a rakomány felvétele nem (a felvett doboz mindenki számára eltűnik, így mindenki megtudja, hogy valami elérhető közelségben járt arról a helyről, de azt nem, hogy ki), a képességek nem, a feketelyuk sugárzása pedig sebzi az álcázott hajót, de nem szünteti meg az álcázását. A kijelentkezés vagy a megsemmisülés megszünteti, mert a hajó, amelyet senki sem repül, nincs álcázva.
-- **Töltődés.** Az álcázás végét követően, bárhogy ért is véget, a CPU **60 másodpercig** tölt. A töltődés a tiéd, nem a hajóé: akkor is folytatódik, ha portálon át ugrasz, kijelentkezel vagy megsemmisülsz. Minden megnyomás így is egy használatot visz el. Az Álcázás újratöltése pilótakészség lerövidíti ezt a várakozást, a legmagasabb szinten a felére.
+- **Töltődés.** Az álcázás végét követően, bárhogy ért is véget, a CPU **60 másodpercig** tölt. A töltődés a tiéd, nem a hajóé: akkor is folytatódik, ha portálon át ugrasz, kijelentkezel vagy megsemmisülsz. Minden megnyomás így is egy használatot visz el. A Lopakodás pilótakészség lerövidíti ezt a várakozást, a legmagasabb szinten a felére.
 - Az **idegenek**, amelyek utánad jöttek, elvesztenek. A kilövési foglalásaid feloldódnak, amikor álcázol.
 - **Rakéták.** Irányított rakétával senki sem foghat be téged, az egyenes, egy célpontú rakéta pedig átrepül rajtad. A **területi robbanás** viszont továbbra is megsebzi a hatókörébe eső hajót, és megszünteti az álcázását, és azok a pilóták, akik látják a hajó helyét, látni fogják a hajót, mielőtt a sebzésszám megjelenik. A rakéta kilövése lövésnek számít: a sortűzhöz hasonlóan megszünteti a saját álcázásodat (a CPU ekkor a fenti 60 másodpercig tölt), és álcázva voltál vagy sem, a kilövés után 10 másodpercig nem álcázhatsz.
 - A **feketelyuk** az álcázott hajót is elnyeli, mint bármelyiket, és a térkép tudomást szerez róla.

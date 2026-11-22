@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 471213bf365fc9b9 -->
+<!-- wiki-i18n source: f36888650a9078b3 -->
 <!-- wiki-i18n title: Miyuki -->
 # Miyuki
 
@@ -7,7 +7,7 @@ Die Miyuki ist ein Unterstützungsschiff in fünf Stufen. Du baust Stufe I in de
 ## Werte {#stats}
 
 - **Trefferpunkte (HP)**: 128.000
-- **Grundtempo**: 270
+- **Grundtempo**: 250
 - **Laser-Slots**: 5
 - **Extra-Slots**: 3
 - **Panzerungs-Slots**: 5
@@ -31,11 +31,11 @@ Die Werte oben sind die von Stufe I. Eine Stufe über der ersten baust du in der
 
 | Stufe | Hülle | Grundtempo | Laser | Panzerungen | Kern / Support / Hilfs | Schildkapazität | Schildabsorption |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Miyuki** | 128.000 | 270 | 5 | 5 | 3 / 3 / 2 | – | – |
-| **Miyuki II** | 134.400 | 270 | 6 | 6 | 3 / 3 / 2 | +5 % | +2 % |
-| **Miyuki III** | 141.120 | 270 | 7 | 7 | 3 / 3 / 2 | +10,25 % | +4,04 % |
-| **Miyuki IV** | 148.176 | 320 | 8 | 8 | 3 / 3 / 2 | +15,76 % | +6,12 % |
-| **Miyuki V** | 155.585 | 320 | 9 | 9 | 4 / 4 / 4 | +21,55 % | +8,24 % |
+| **Miyuki** | 128.000 | 250 | 5 | 5 | 3 / 3 / 2 | – | – |
+| **Miyuki II** | 134.400 | 250 | 6 | 6 | 3 / 3 / 2 | +5 % | +2 % |
+| **Miyuki III** | 141.120 | 250 | 7 | 7 | 3 / 3 / 2 | +10,25 % | +4,04 % |
+| **Miyuki IV** | 148.176 | 300 | 8 | 8 | 3 / 3 / 2 | +15,76 % | +6,12 % |
+| **Miyuki V** | 155.585 | 300 | 9 | 9 | 4 / 4 / 4 | +21,55 % | +8,24 % |
 
 Schildkapazität und Schildabsorption sind Boni gegenüber Stufe I.
 
@@ -63,11 +63,13 @@ Die Fähigkeiten der Miyuki gehören zum Schiff, nicht zu einem Gegenstand: Sie 
 
 Eine Verbindung dauert 5 Sekunden und reicht zu einem Schiff deiner Gruppe oder deines Konzerns im Umkreis von 1.200 Einheiten. Der Heal Pod reicht 600. Ein Channel Shield stellt zusätzlich zu seinen Punkten jede Sekunde einen Teil des eigenen maximalen Schilds jedes der beiden Schiffe wieder her: 3 % bei der Miyuki III, 4 % bei IV und 5 % bei V (das Prozent in der Tabelle).
 
+Deine Pilotenfertigkeit [Heilung](/wiki/03-Mechanics/Pilot-Skills.md) wirkt auf alle drei: Auf Stufe 100 macht sie Heal Pod, Channel Heal und Channel Shield (ihre Punkte und ihren Anteil am maximalen Schild) um 30 % stärker und verkürzt ihre Wartezeiten um 10 %, sodass ein Channel Heal, der 100 Sekunden ruht, nur noch 90 ruht. Die Tabellen oben nennen die Zahlen ohne sie.
+
 ## Forschung {#research}
 
 - **Stufen.** Miyuki II bis V sind eigene Technologien im Skylab, jede hinter der Stufe darunter: 1 d für II und III, 2 d für IV und V und je 10 Dark Matter. In der Ansicht Forschung stehen die fünf Stufen untereinander, mit einem Pfeil von jeder Stufe zur nächsten: Du erforschst II nach I, III nach II, IV nach III und V nach IV.
 - **Slots.** Die Panzerungs-Slots, die Laser-Slots ab dem sechsten und die Generator-Slots ab dem neunten sind eigene Technologien im Skylab, je 1 h und 10 Dark Matter: Panzerungs-Slots 1 bis 9 der Reihe nach vom ersten an, Laser-Slots 6 bis 9 (jeder hinter seiner Stufe) und Generator-Slots 9 bis 12 (jeder hinter Stufe V). Ein Slot öffnet sich am Schiff, egal auf welcher Stufe es ist, sobald du ihn erforscht hast; ein noch nicht erforschter erscheint im Hangar gesperrt.
-- **Panzerungs-Slots.** Die Miyuki hat auf Stufe I 5 [Panzerungs-Slots](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) für [Hüllenpanzerung](/wiki/06-Items/Hull-Plating.md) und auf Stufe V 9, alle gesperrt, wenn du sie baust. Alle 9 mit Hull Plating III gefüllt ergeben 225.000 Hülle.
+- **Panzerungs-Slots.** Die Miyuki hat auf Stufe I 5 [Panzerungs-Slots](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) für [Hüllenpanzerung](/wiki/06-Items/Hull-Plating.md) und auf Stufe V 9, alle gesperrt, wenn du sie baust. Alle 9 mit Hull Plating III gefüllt ergeben 180.000 Hülle.
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

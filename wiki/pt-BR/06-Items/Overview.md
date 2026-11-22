@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bf737868ee14ecc2 -->
+<!-- wiki-i18n source: 115842cfacf12619 -->
 <!-- wiki-i18n title: Visão geral -->
 # Visão geral dos itens {#items-overview}
 
@@ -118,7 +118,7 @@ Todos os materiais e as duas moedas, com a origem e a finalidade de cada um, est
 
 A Loja, o inventário do hangar e as outras listas de itens seguem uma só ordem: a nave, a sua blindagem de casco, depois um laser com seus amps e sua munição, um escudo com suas células, um motor com seus propulsores, os núcleos adaptativos, os extras, os consumíveis, os drones, as formações de drones, os boosters e os recursos. Dentro de cada tipo, o mais barato vem primeiro.
 
-- **Blindagem de casco**: armadura para os slots de blindagem das quatro naves que você fabrica, Hull Plating I a III, cada uma somando mais casco. Veja [Blindagem de casco](/wiki/06-Items/Hull-Plating.md).
+- **Blindagem de casco**: armadura para os slots de blindagem de todas as naves (3 abertos em cada uma das quatro da Loja, mais nas naves que você fabrica), Hull Plating I a III, cada uma somando mais casco. Veja [Blindagem de casco](/wiki/06-Items/Hull-Plating.md).
 - **Lasers**: seus principais sistemas de armas, e os [amps](/wiki/06-Items/Lasers.md) que entram neles.
 - **Escudos**: geradores e [células](/wiki/06-Items/Shields.md) para defesa.
 - **Propulsão**: motores e [propulsores](/wiki/06-Items/Propulsion.md) para velocidade.

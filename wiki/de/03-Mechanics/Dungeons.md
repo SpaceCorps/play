@@ -134,7 +134,7 @@ Die Arten der Reihe nach. Hülle und Schild sind die üblichen Werte mal dem Fak
 - **Sieht aus wie**: Pirate Boss
 - **Fliegt in Rudeln zu**: 2
 - **Zahlt und lässt fallen wie**: Pirate Boss
-- **Rakete**: Alle 5 s eine gerade Rakete, Reichweite 1.000 Einheiten
+- **Rakete**: Alle 5 s eine gerade Rakete, Reichweite 1.100 Einheiten
 
 |  | Stufe 1 | Stufe 2 | Stufe 3 |
 | :--- | ---: | ---: | ---: |
@@ -207,7 +207,7 @@ Der Kriegsherr wartet im Raum am fernen Ende des Labyrinths, und sein Fall zahlt
 | :--- | ---: | ---: | ---: |
 | Hülle | 10.000.000 | 15.000.000 | 25.000.000 |
 | Schild | 8.000.000 | 12.000.000 | 20.000.000 |
-| Laserschaden (eine Salve pro Sekunde) | 12.500–15.000 | 15.000–17.500 auf jeden von 2 Piloten | 20.000–25.000 auf jeden von 2 Piloten |
+| Laserschaden (eine Salve pro Sekunde) | 17.500–22.500 | 26.250–33.750 auf jeden von 2 Piloten | 35.000–45.000 auf jeden von 2 Piloten |
 | Tempo | 120 | 120 | 120 |
 | Laserreichweite | 1.100 | 1.100 | 1.100 |
 
@@ -260,8 +260,8 @@ Das Fenster Clan-Dungeon zählt, wie viele davon noch zerstört werden müssen, 
 | :--- | :--- | :--- | :--- |
 | **Lebensraub-Aura** | 8.000 pro Sekunde | 10.000 pro Sekunde | 12.000 pro Sekunde |
 | **Meteoritenhagel** | 6 Meteore pro Salve, je 80.000 | 8 Meteore pro Salve, je 100.000 | 10 Meteore pro Salve, je 120.000 |
-| **Fokus auf den Meistgesuchten** | 18.750–22.500 pro Extraschuss auf den Piloten mit dem meisten Schaden, einer alle 1 s | 22.500–26.250 pro Extraschuss auf den Piloten mit dem meisten Schaden, einer alle 1 s | 30.000–37.500 pro Extraschuss auf den Piloten mit dem meisten Schaden, einer alle 1 s |
-| **Raketensalve** | 50.000–75.000 pro Rakete auf jeden Piloten, eine alle 15 s | 62.500–93.750 pro Rakete auf jeden Piloten, eine alle 15 s | 75.000–112.500 pro Rakete auf jeden Piloten, eine alle 15 s |
+| **Fokus auf den Meistgesuchten** | 26.250–33.750 pro Extraschuss auf den Piloten mit dem meisten Schaden, einer alle 1 s | 39.375–50.625 pro Extraschuss auf den Piloten mit dem meisten Schaden, einer alle 1 s | 52.500–67.500 pro Extraschuss auf den Piloten mit dem meisten Schaden, einer alle 1 s |
+| **Raketensalve** | 100.000–150.000 pro Rakete auf jeden Piloten, eine alle 15 s | 125.000–187.500 pro Rakete auf jeden Piloten, eine alle 15 s | 150.000–225.000 pro Rakete auf jeden Piloten, eine alle 15 s |
 | **Schildabsorption** | 10.000 Schild pro Sekunde | 12.500 Schild pro Sekunde | 15.000 Schild pro Sekunde |
 | **Schwarm-Unterstützung** | 12 Goombahs | 18 Goombahs | 24 Goombahs |
 | **Zone des Chaos** | Piloten im Ring können nicht angreifen | Piloten im Ring können nicht angreifen | Piloten im Ring können nicht angreifen |
@@ -311,14 +311,14 @@ Die Karten werden eine nach der anderen aus dem Pool unten gezogen. Die Chance i
 
 | Karte | Stufe 1 | Stufe 2 | Stufe 3 | Chance | Geht an |
 | :--- | ---: | ---: | ---: | ---: | :--- |
-| Thulium | 2.000 | 3.000 | 5.000 | 23,9 % | Jeden bezahlten Piloten |
+| Thulium | 4.000 | 6.000 | 10.000 | 23,9 % | Jeden bezahlten Piloten |
 | Velkonite Reinforced Plate | 10 | 15 | 25 | 13,65 % | Jeden bezahlten Piloten |
 | Velkonite | 200 | 300 | 500 | 13,65 % | Jeden bezahlten Piloten |
 | Orvium | 200 | 300 | 500 | 13,65 % | Jeden bezahlten Piloten |
 | Ultra Core | 5.000 | 7.500 | 12.500 | 11,4 % | Jeden bezahlten Piloten |
 | Experimental Fusion Core | 3.000 | 4.500 | 7.500 | 9,1 % | Jeden bezahlten Piloten |
 | Dark Matter | 10 | 16 | 24 | 9,1 % | Jeden bezahlten Piloten |
-| Dark Matter Plate | 1 | 1 | 2 | 4,55 % | Jeden bezahlten Piloten |
+| Dark Matter Plate | 4 | 6 | 8 | 4,55 % | Jeden bezahlten Piloten |
 | Starfire-III | – | – | 1 | 0,07 % | Jeden bezahlten Piloten |
 | Helios Beam | – | – | 1 | 0,07 % | Jeden bezahlten Piloten |
 | Engine III | – | – | 1 | 0,07 % | Jeden bezahlten Piloten |
@@ -351,9 +351,9 @@ Die **Orvium Reinforced Plates** und die **Echo Shards** und **Lattice Shards** 
 
 | Stufe | Ehre | Erfahrung | Credits | Thulium | x4-Munition | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE-Rangpunkte |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Stufe 1** | 25.000 | 600.000 | 5.000.000 | 4.000 | 4.000 | 5 | 12 | 5 | 850 |
-| **Stufe 2** | 50.000 | 1.500.000 | 10.000.000 | 9.000 | 9.000 | 10 | 8 | 6 | 2.000 |
-| **Stufe 3** | 100.000 | 2.400.000 | 17.500.000 | 15.000 | 15.000 | 15 | 8 | 7 | 3.400 |
+| **Stufe 1** | 25.000 | 600.000 | 5.000.000 | 8.000 | 4.000 | 5 | 12 | 5 | 850 |
+| **Stufe 2** | 50.000 | 1.500.000 | 10.000.000 | 18.000 | 9.000 | 10 | 8 | 6 | 2.000 |
+| **Stufe 3** | 100.000 | 2.400.000 | 17.500.000 | 30.000 | 15.000 | 15 | 8 | 7 | 3.400 |
 
 - **Heartshards**: 1 beim ersten bezahlten Abschluss jeder Stufe in einer Saison und mit 5 % Wahrscheinlichkeit ein weiteres bei jedem bezahlten Abschluss.
 
@@ -382,8 +382,8 @@ Was ein Pilot an einem Tag und in der besten Woche bekommen kann, die die Grenze
 
 | Belohnung je Pilot | Ehre | Erfahrung | Credits | Thulium | x4-Munition | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE-Rangpunkte |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Ein Tag, jede Stufe einmal | 175.000 | 4.500.000 | 32.500.000 | 28.000 | 28.000 | 30 | 28 | 18 | 6.250 |
-| Die beste Woche: 7 × Stufe 3 und 3 × Stufe 2 | 850.000 | 21.300.000 | 152.500.000 | 132.000 | 132.000 | 135 | 80 | 67 | 29.800 |
+| Ein Tag, jede Stufe einmal | 175.000 | 4.500.000 | 32.500.000 | 56.000 | 28.000 | 30 | 28 | 18 | 6.250 |
+| Die beste Woche: 7 × Stufe 3 und 3 × Stufe 2 | 850.000 | 21.300.000 | 152.500.000 | 264.000 | 132.000 | 135 | 80 | 67 | 29.800 |
 
 Erfahrung und Ehre eines bezahlten Abschlusses zählen für deine PvE-Rangpunkte: ein Punkt je 1.000 Erfahrung und ein Punkt je 100 Ehre.
 

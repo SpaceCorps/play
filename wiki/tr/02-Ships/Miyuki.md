@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 471213bf365fc9b9 -->
+<!-- wiki-i18n source: f36888650a9078b3 -->
 <!-- wiki-i18n title: Miyuki -->
 # Miyuki
 
@@ -7,7 +7,7 @@ Miyuki, beş seviyeli bir destek gemisidir. I. seviyeyi diğer gemiler gibi Mont
 ## Özellikler {#stats}
 
 - **Gövde puanı (HP)**: 128.000
-- **Temel hız**: 270
+- **Temel hız**: 250
 - **Lazer yuvaları**: 5
 - **Ekstra yuvalar**: 3
 - **Gövde plakası yuvaları**: 5
@@ -31,11 +31,11 @@ Yukarıdaki özellikler I. seviyeye aittir. İlkinin üstündeki bir seviye, Mon
 
 | Seviye | Gövde | Temel hız | Lazerler | Plakalar | Çekirdek / destek / yardımcı | Kalkan kapasitesi | Kalkan soğurması |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Miyuki** | 128.000 | 270 | 5 | 5 | 3 / 3 / 2 | – | – |
-| **Miyuki II** | 134.400 | 270 | 6 | 6 | 3 / 3 / 2 | +%5  | +%2  |
-| **Miyuki III** | 141.120 | 270 | 7 | 7 | 3 / 3 / 2 | +%10,25  | +%4,04  |
-| **Miyuki IV** | 148.176 | 320 | 8 | 8 | 3 / 3 / 2 | +%15,76  | +%6,12  |
-| **Miyuki V** | 155.585 | 320 | 9 | 9 | 4 / 4 / 4 | +%21,55  | +%8,24  |
+| **Miyuki** | 128.000 | 250 | 5 | 5 | 3 / 3 / 2 | – | – |
+| **Miyuki II** | 134.400 | 250 | 6 | 6 | 3 / 3 / 2 | +%5  | +%2  |
+| **Miyuki III** | 141.120 | 250 | 7 | 7 | 3 / 3 / 2 | +%10,25  | +%4,04  |
+| **Miyuki IV** | 148.176 | 300 | 8 | 8 | 3 / 3 / 2 | +%15,76  | +%6,12  |
+| **Miyuki V** | 155.585 | 300 | 9 | 9 | 4 / 4 / 4 | +%21,55  | +%8,24  |
 
 Kalkan kapasitesi ve kalkan soğurması, I. seviyeye göre bonuslardır.
 
@@ -63,11 +63,13 @@ Miyuki’nin yetenekleri bir eşyaya değil, gemiye aittir: yetenek yuvası kull
 
 Bir bağlantı 5 saniye sürer ve grubundan veya şirketinden bir gemiye 1.200 birim içinde ulaşır. Heal Pod 600’e ulaşır. Channel Shield, puanlarına ek olarak her saniye iki geminin de kendi maksimum kalkanının bir kısmını geri doldurur: Miyuki III’te %3, IV’te %4, V’te %5 (tablodaki yüzde).
 
+[İyileştirme](/wiki/03-Mechanics/Pilot-Skills.md) pilot becerin üçüne de etki eder: 100. seviyede Heal Pod, Channel Heal ve Channel Shield’i (puanlarını ve maksimum kalkandan aldıkları payı) %30 güçlendirir ve bekleme sürelerini %10 kısaltır; böylece 100 saniye dinlenen bir Channel Heal 90 saniye dinlenir. Yukarıdaki tablolar sayıları onsuz verir.
+
 ## Araştırma {#research}
 
 - **Seviyeler.** Miyuki II–V, Skylab’da kendi başına birer teknolojidir ve her biri bir alttaki seviyenin arkasındadır: II ve III için 1 g, IV ve V için 2 g ve her biri için 10 Dark Matter. Araştırma görünümünde beş seviye alt alta çizilir ve her seviyeden bir sonrakine bir ok gider: II’yi I’den sonra, III’ü II’den sonra, IV’ü III’ten sonra ve V’i IV’ten sonra araştırırsın.
 - **Yuvalar.** Gövde plakası yuvaları, altıncıdan itibaren lazer yuvaları ve dokuzuncudan itibaren jeneratör yuvaları Skylab’da kendi başına birer teknolojidir; her biri 1 sa ve 10 Dark Matter gerektirir: gövde plakası yuvaları 1–9 ilkinden başlayarak sırayla, lazer yuvaları 6–9 (her biri kendi seviyesinin arkasında) ve jeneratör yuvaları 9–12 (her biri V. seviyenin arkasında). Bir yuva, gemi hangi seviyede olursa olsun, araştırdığın anda gemide açılır; henüz araştırmadığın yuva Hangar’da kilitli görünür.
-- **Gövde plakası yuvaları.** Miyuki’nin [Gövde Kaplaması](/wiki/06-Items/Hull-Plating.md) için I. seviyede 5, V. seviyede 9 [gövde plakası yuvası](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) vardır; gemiyi ürettiğinde hepsi kilitlidir. 9 yuvanın hepsi Hull Plating III ile dolduğunda 225.000 gövde ekler.
+- **Gövde plakası yuvaları.** Miyuki’nin [Gövde Kaplaması](/wiki/06-Items/Hull-Plating.md) için I. seviyede 5, V. seviyede 9 [gövde plakası yuvası](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) vardır; gemiyi ürettiğinde hepsi kilitlidir. 9 yuvanın hepsi Hull Plating III ile dolduğunda 180.000 gövde ekler.
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

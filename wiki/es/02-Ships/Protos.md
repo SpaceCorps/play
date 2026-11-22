@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d64f7bbe1a7fadf7 -->
+<!-- wiki-i18n source: cd97e3b7b68a76f0 -->
 <!-- wiki-i18n title: Protos -->
 # Protos
 
@@ -10,6 +10,7 @@ La Protos es la nave inicial básica que reciben todos los pilotos nuevos de Spa
 - **Velocidad base**: 190
 - **Ranuras de láser**: 2
 - **Ranuras de extra**: 2
+- **Ranuras de blindaje**: 3
 
 ### Ranuras de generador y de apoyo {#generator-support-slots}
 
@@ -25,6 +26,12 @@ La Protos es la nave inicial básica que reciben todos los pilotos nuevos de Spa
 - **Thulium**: 0
 
 ## Investigación {#research}
+
+- **Diseño.** La Protos tiene 1 [diseño](/wiki/03-Mechanics/Ship-Designs.md). Investígalo (10 h y 10 Dark Matter) y convierte después tu Protos en él en Ensamblaje. La conversión es definitiva, y la Protos es la única nave que no puedes volver a conseguir: no se puede fabricar, la Tienda la muestra pero nunca la vende, y solo una cuenta nueva empieza con una. Si conviertes tu Protos, tendrás una Protosaur y ninguna Protos.
+
+| Diseño | Qué cambia |
+| :--- | :--- |
+| **Protosaur** | +30 de velocidad base, +1 ranura de láser, +5 ranuras de blindaje, +1 ranura de extra, +50 % de daño de cohetes, Blink, Chameleon |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

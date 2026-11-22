@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a95170ddd6f01c2a -->
+<!-- wiki-i18n source: 0b4fab38b0c9363e -->
 <!-- wiki-i18n title: Aptitudes de pilote -->
 # Aptitudes de pilote {#pilot-skills}
 
@@ -79,7 +79,8 @@ Les tableaux donnent chaque bonus au niveau 1 et au dernier niveau ; entre les 
 | **Tactique** (Réflexes) | Durée des compétences | ×1 | ×1,2 |
 | **Absorption du bouclier** (Ténacité) | Absorption de vos boucliers | +0 points | +5 points |
 | **Soins** (Masse) | Force de vos propres réparations et soins | ×1 | ×1,3 |
-| **Recharge d’occultation** (Réflexes) | Temps de recharge de l’occultation | ×1 | ×0,5 |
+|  | Temps de recharge des compétences de soin du Miyuki | ×1 | ×0,9 |
+| **Furtivité** (Réflexes) | Temps de recharge de l’occultation | ×1 | ×0,5 |
 
 ### Pilotage {#ship-control}
 
@@ -114,13 +115,13 @@ Les tableaux donnent chaque bonus au niveau 1 et au dernier niveau ; entre les 
 - **Lasers.** La Technique laser change les dégâts de chaque salve et sa chance de toucher ; une salve qui part à côté affiche un « Miss » flottant et consomme quand même ses munitions ([Combat](/wiki/03-Mechanics/Combat.md#laser-tech)). La portée de vos lasers est celle de votre vaisseau : la Précision de tir progresse grâce à vos coups portés avec une autre munition que le x1 simple, mais elle n’agit que sur les Mines (ci-dessous).
 - **Roquettes.** La Technique des roquettes change les dégâts de chaque roquette et la chance qu’une soit un raté ([Technique des roquettes](/wiki/06-Items/Rockets.md#rocket-tech)).
 - **Encaisser les coups.** La Ténacité retire une part de chaque coup que vous encaissez, l’Esquive augmente la chance qu’un coup direct ne fasse rien, et l’Absorption du bouclier augmente la part d’un coup que prennent vos boucliers ([Combat](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). La Masse augmente votre coque.
-- **Soins.** Les Soins renforcent les soins de votre propre équipement : la réparation de votre Repair Drone, une Emergency Repair et le Heal Pod que vous larguez ([Compétences](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Ils s’entraînent avec la coque que vos soins restaurent ; soigner un vaisseau dans une zone sûre ne compte pas. Le Support Rocket soigne toujours la même quantité fixe, quel que soit le niveau, et paie quand même de l’XP de Soins.
-- **Occultation.** Recharge d’occultation raccourcit l’attente quand une occultation prend fin, pour un Cloaking CPU ([Extras](/wiki/06-Items/Extras.md#cloaking-cpu)) comme pour le Chameleon ([Compétences](/wiki/03-Mechanics/Abilities.md)). Elle s’entraîne avec les secondes passées occulté ; aucune ne compte dans une zone sûre ni quand vous ne donnez aucun ordre.
+- **Soins.** Les Soins renforcent les soins de votre propre équipement : la réparation de votre Repair Drone, une Emergency Repair, ainsi que le Heal Pod, le Channel Heal et le Channel Shield que vous utilisez ([Compétences](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Sur le Miyuki, ces trois compétences attendent aussi moins entre deux utilisations. Ils s’entraînent avec la coque que vos soins restaurent ; soigner un vaisseau dans une zone sûre ne compte pas. Le Support Rocket soigne toujours la même quantité fixe, quel que soit le niveau, et paie quand même de l’XP de Soins.
+- **Occultation.** Furtivité raccourcit l’attente quand une occultation prend fin, pour un Cloaking CPU ([Extras](/wiki/06-Items/Extras.md#cloaking-cpu)) comme pour le Chameleon ([Compétences](/wiki/03-Mechanics/Abilities.md)). Elle s’entraîne avec les secondes passées occulté ; aucune ne compte dans une zone sûre ni quand vous ne donnez aucun ordre.
 - **Compétences.** Les Réflexes raccourcissent le temps de recharge de vos compétences et la Tactique les fait durer plus longtemps ([Compétences](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Le Sabotage renforce les poisons.
 - **Mines.** Le Sabotage augmente les dégâts d’une Mine, et la Précision de tir la lance plus vite et plus loin ([Extras](/wiki/06-Items/Extras.md#mine)).
 - **Vitesse.** La Théorie des propulseurs s’ajoute à votre vitesse, en plus des moteurs et d’un Afterburner ([Vitesse](/wiki/03-Mechanics/Speed.md)).
 - **Ramassages.** L’Instinct augmente la chance de chaque ligne de butin, comme le fait un Loot Luck Booster, et les deux s’additionnent ; l’Antimatière augmente la Dark Matter que vous ramassez ([Cargaison](/wiki/03-Mechanics/Cargo.md), [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)).
-- **Radiations.** La Technique anti-radiations réduit la dose du trou noir, des cercles des excavateurs, des pulsars et de l’aura des Unwakened ([Trou noir](/wiki/03-Mechanics/Black-Hole.md)).
+- **Radiations.** La Technique anti-radiations réduit la dose du trou noir, des zones de radiation de la N.U.K.E. et de la Gravitational N.U.K.E., des cercles des excavateurs, des pulsars et de l’aura des Unwakened ([Trou noir](/wiki/03-Mechanics/Black-Hole.md)).
 - **À la maison.** L’Extraction et la Logistique changent ce que le [Skylab](/wiki/03-Mechanics/Skylab.md) produit et contient, l’Instinct augmente ses deux collecteurs, la Fabrication raccourcit les fabrications de l’Assemblage, la Science remplit plus vite le Centre de [recherche](/wiki/03-Mechanics/Research.md), et le Commerce baisse les prix de la boutique ainsi que les crédits et le Thulium des fabrications de l’Assemblage, augmente ce que la boutique paie au rachat et baisse la caution d’une annonce aux [Enchères](/wiki/03-Mechanics/Auction.md). Dans la [Forge](/wiki/06-Items/Forge.md), le Commerce baisse les crédits et le Thulium d’une étape et les crédits d’une fusion ([Monter de rang](/wiki/06-Items/Forge.md#tier-up)), et la Fabrication baisse l’intégrité qu’un réagencement retire à une pièce ([Intégrité et fractures](/wiki/06-Items/Forge.md#integrity-and-fractures)).
 
 ## Comment l’XP est payée {#how-xp-is-paid}
@@ -159,7 +160,7 @@ Le tableau liste ce qui paie de l’XP, statistique par statistique. L’XP vaut
 | **Tactique** (Réflexes) | Chaque compétence que vous activez avec un hostile à portée du laser | 2 | 600 XP par heure |
 | **Absorption du bouclier** (Ténacité) | Chaque 1 % de votre bouclier maximal pris par les tirs ennemis | 0,1 | 300 XP par heure |
 | **Soins** (Masse) | Chaque 1 % de la coque maximale d’un vaisseau que restaure un soin de votre part | 0,1 | 300 XP par heure |
-| **Recharge d’occultation** (Réflexes) | Chaque seconde passée occulté avec un ordre donné dans les 1 min précédentes, hors des zones sûres | 0,1 | Aucun |
+| **Furtivité** (Réflexes) | Chaque seconde passée occulté avec un ordre donné dans les 1 min précédentes, hors des zones sûres | 0,1 | Aucun |
 | **Technique anti-radiations** (Ténacité) | Chaque seconde dans une bande de radiation | 0,2 | Aucun |
 |  | Chaque 1 % de votre coque maximale que prend la radiation | 1 |  |
 | **Théorie des propulseurs** (Masse) | Chaque seconde de vol au-dessus de 80 % de la vitesse de votre vaisseau, le double sous un Afterburner | 0,1 | Aucun |

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2803f28f4597c776 -->
+<!-- wiki-i18n source: a9b3f1a14b051e92 -->
 <!-- wiki-i18n title: Kitefin -->
 # Kitefin
 
@@ -10,6 +10,7 @@ A Kitefin é uma canhoneira leve e a primeira nave que a maioria dos pilotos com
 - **Velocidade base**: 220
 - **Slots de laser**: 4
 - **Slots extras**: 2
+- **Slots de blindagem**: 3
 
 ### Slots de gerador e suporte {#generator-support-slots}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a95170ddd6f01c2a -->
+<!-- wiki-i18n source: 0b4fab38b0c9363e -->
 <!-- wiki-i18n title: Destrezas de piloto -->
 # Destrezas de piloto {#pilot-skills}
 
@@ -79,7 +79,8 @@ Las tablas dan cada bonificador en el nivel 1 y en el último nivel; entre ambos
 | **Táctica** (Reflejos) | Duración de las habilidades | ×1 | ×1,2 |
 | **Absorción de escudo** (Temple) | Absorción de tus escudos | +0 puntos | +5 puntos |
 | **Curación** (Masa) | Fuerza de tus propias reparaciones y curaciones | ×1 | ×1,3 |
-| **Recarga de camuflaje** (Reflejos) | Tiempo de recarga del camuflaje | ×1 | ×0,5 |
+|  | Tiempo de recarga de las habilidades de curación del Miyuki | ×1 | ×0,9 |
+| **Sigilo** (Reflejos) | Tiempo de recarga del camuflaje | ×1 | ×0,5 |
 
 ### Control de la nave {#ship-control}
 
@@ -114,13 +115,13 @@ Las tablas dan cada bonificador en el nivel 1 y en el último nivel; entre ambos
 - **Láseres.** La Tecnología láser cambia el daño de cada ráfaga y la probabilidad de que acierte; una ráfaga que se desvía muestra un «Miss» flotante y gasta igualmente su munición ([Combate](/wiki/03-Mechanics/Combat.md#laser-tech)). El alcance de tus láseres es el de tu nave: la Puntería sube con tus impactos con munición distinta de la simple x1, pero solo actúa sobre las Mines (abajo).
 - **Cohetes.** La Tecnología de cohetes cambia el daño de cada cohete y la probabilidad de que uno falle al encenderse ([Tecnología de cohetes](/wiki/06-Items/Rockets.md#rocket-tech)).
 - **Recibir golpes.** El Temple quita una parte de cada golpe que recibes, la Evasión aumenta la probabilidad de que un impacto directo no haga nada y la Absorción de escudo aumenta la parte de un impacto que se llevan tus escudos ([Combate](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). La Masa aumenta tu casco.
-- **Curación.** La Curación hace más fuertes las curaciones de tu propio equipo: la reparación de tu Repair Drone, una Emergency Repair y el Heal Pod que sueltas ([Habilidades](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Se entrena con el casco que restauran tus curaciones; curar una nave dentro de una zona segura no cuenta. El Support Rocket siempre cura la misma cantidad fija, a cualquier nivel, y aun así da XP de Curación.
-- **Camuflaje.** Recarga de camuflaje acorta la espera cuando termina un camuflaje, tanto con una Cloaking CPU ([Extras](/wiki/06-Items/Extras.md#cloaking-cpu)) como con el Chameleon ([Habilidades](/wiki/03-Mechanics/Abilities.md)). Se entrena con los segundos que pasas camuflado; no cuenta ninguno dentro de una zona segura ni mientras no des órdenes.
+- **Curación.** La Curación hace más fuertes las curaciones de tu propio equipo: la reparación de tu Repair Drone, una Emergency Repair y el Heal Pod, el Channel Heal y el Channel Shield que usas ([Habilidades](/wiki/03-Mechanics/Abilities.md#pilot-skills)). En el Miyuki, esas tres habilidades también esperan menos entre usos. Se entrena con el casco que restauran tus curaciones; curar una nave dentro de una zona segura no cuenta. El Support Rocket siempre cura la misma cantidad fija, a cualquier nivel, y aun así da XP de Curación.
+- **Camuflaje.** Sigilo acorta la espera cuando termina un camuflaje, tanto con una Cloaking CPU ([Extras](/wiki/06-Items/Extras.md#cloaking-cpu)) como con el Chameleon ([Habilidades](/wiki/03-Mechanics/Abilities.md)). Se entrena con los segundos que pasas camuflado; no cuenta ninguno dentro de una zona segura ni mientras no des órdenes.
 - **Habilidades.** Los Reflejos acortan el enfriamiento de tus habilidades y la Táctica hace que duren más ([Habilidades](/wiki/03-Mechanics/Abilities.md#pilot-skills)). El Sabotaje refuerza los venenos.
 - **Mines.** El Sabotaje aumenta el daño de una Mine, y la Puntería la lanza más rápido y más lejos ([Extras](/wiki/06-Items/Extras.md#mine)).
 - **Velocidad.** La Teoría de propulsores suma a tu velocidad, además de los motores y un Afterburner ([Velocidad](/wiki/03-Mechanics/Speed.md)).
 - **Recogidas.** El Instinto aumenta la probabilidad de cada línea de botín, igual que un Loot Luck Booster, y los dos se suman; la Antimateria aumenta la Dark Matter que recoges ([Carga](/wiki/03-Mechanics/Cargo.md), [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)).
-- **Radiación.** La Tecnología de radiación reduce la dosis del agujero negro, de los círculos de los excavadores, de los púlsares y del aura de los Unwakened ([Agujero negro](/wiki/03-Mechanics/Black-Hole.md)).
+- **Radiación.** La Tecnología de radiación reduce la dosis del agujero negro, de las zonas de radiación de la N.U.K.E. y la Gravitational N.U.K.E., de los círculos de los excavadores, de los púlsares y del aura de los Unwakened ([Agujero negro](/wiki/03-Mechanics/Black-Hole.md)).
 - **En casa.** La Extracción y la Logística cambian lo que el [Skylab](/wiki/03-Mechanics/Skylab.md) produce y guarda, el Instinto aumenta sus dos colectores, la Fabricación acorta las fabricaciones del Ensamblaje, la Ciencia llena más rápido el Centro de [Investigación](/wiki/03-Mechanics/Research.md), y el Comercio baja los precios de la tienda y los créditos y el Thulium de las fabricaciones del Ensamblaje, sube lo que paga la tienda al recomprar y baja la tarifa de un anuncio de la [Subasta](/wiki/03-Mechanics/Auction.md). En la [Forja](/wiki/06-Items/Forge.md), el Comercio baja los créditos y el Thulium de un paso y los créditos de una combinación ([Subir grado](/wiki/06-Items/Forge.md#tier-up)), y la Fabricación baja la integridad que una recolocación le quita a una pieza ([Integridad y fracturas](/wiki/06-Items/Forge.md#integrity-and-fractures)).
 
 ## Cómo se paga la XP {#how-xp-is-paid}
@@ -159,7 +160,7 @@ La tabla indica qué paga XP, estadística por estadística. La XP es por cada u
 | **Táctica** (Reflejos) | Cada habilidad que pulsas con un hostil al alcance del láser | 2 | 600 XP por hora |
 | **Absorción de escudo** (Temple) | Cada 1 % de tu escudo máximo que absorben los impactos enemigos | 0,1 | 300 XP por hora |
 | **Curación** (Masa) | Cada 1 % del casco máximo de una nave que restaura una curación tuya | 0,1 | 300 XP por hora |
-| **Recarga de camuflaje** (Reflejos) | Cada segundo que pasas camuflado con una orden dada en los últimos 1 min, fuera de las zonas seguras | 0,1 | Ninguno |
+| **Sigilo** (Reflejos) | Cada segundo que pasas camuflado con una orden dada en los últimos 1 min, fuera de las zonas seguras | 0,1 | Ninguno |
 | **Tecnología de radiación** (Temple) | Cada segundo dentro de una banda de radiación | 0,2 | Ninguno |
 |  | Cada 1 % de tu casco máximo que quita la radiación | 1 |  |
 | **Teoría de propulsores** (Masa) | Cada segundo volado por encima del 80 % de la velocidad de tu nave, el doble con un Afterburner | 0,1 | Ninguno |

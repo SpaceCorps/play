@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8a72341fc0a0a8d1 -->
+<!-- wiki-i18n source: 27e04944329244c2 -->
 <!-- wiki-i18n title: Sürüler -->
 # Sürüler {#swarms}
 
@@ -64,6 +64,8 @@ Dünya, bir sürüyü her uzaylıyı ölçeklediği gibi ölçekler ([Dünyalar]
 
 <!-- swarms-world:end -->
 
+Bir sürünün de, her uzaylı gibi, bir **kademesi** vardır ve kademesinin Yunan harfi adının önünde durur: `-=γ-Boss Seeker=-`, Gamma kademesinde bir Boss Seeker’dır. Bir sürünün lideri kademesini **göründüğü anda** kendi dünyasının tablosundan çeker ve sürü dünyasının kademesindedir: Alpha’da Alpha sürüsü, Beta’da Beta sürüsü, Gamma’da Gamma sürüsü; bu, yukarıdaki tablonun sürüsüdür, hep olduğu gibi. Yüksek dünyalarda arada bir, yaklaşık yirmide bir, daha düşük kademeden bir sürü çıkar: Beta’da Pirate ve Seeker sürüleri, Gamma’da ise Pirate, Seeker, Phantasm, Goombah ve Tesseract sürüleri; Crystalys sürüsü ile Beta’daki Phantasm, Goombah ve Tesseract sürüleri her zaman dünyalarının kademesindedir. Hiçbir sürü dünyasından yüksek kademede olmaz ve hiçbiri Delta değildir; Delta, Gamma’nın iki katı güçte dördüncü kademedir ve onu yalnızca sıradan uzaylılar çeker. Lidere eşlik eden gemiler onun kademesini paylaşır ve sektörün sonraki lideri yeniden çeker. Bir sürü, yukarıdaki tabloda kademesinin adını taşıyan satır kadar güçlüdür ve o kadar öder: daha zayıf bir sürü, alt dünyadakiyle aynı dayanıklılıktadır ve öldürülmesi orada bir öldürmenin ödediğini öder. Hız, menzil ve ganimet kademeyle değişmez. Dormant sürüsünün kademesi yoktur: dünyasının değerlerini korur.
+
 ## Pilotlara ne bildirilir {#what-the-pilots-are-told}
 
 Seeker, Pirate, Phantasm, Goombah, Crystalys ve Tesseract sürüleri, bir patron belirdiğinde ve yok edildiğinde kendi sektörlerindeki pilotlara haber verir. Dormant sürüsü tüm dünyasına haber verir ve pilotlar onu bulabilsin diye Tehlike Sektörü haritalarında ve galaksi haritasında işaretlenir. Bunlar Sistem satırlarıdır: sohbetin **Sistem** sekmesinde, okunmamış sayısıyla birlikte görünür; **Genel** ya da **Yerel** sekmesinde görünmez. Bir patron öldürmesi ayrıca öldürme akışında, öldürmeyi alan pilotu adıyla belirten bir satır alır. Her makalenin *Bir bakışta* listesi kimlere haber verildiğini söyler.
@@ -86,7 +88,7 @@ Seeker, Pirate, Phantasm, Goombah, Crystalys ve Tesseract sürüleri, bir patron
 
 Sıradan bir uzaylı, ona ilk vuran pilota öder ([Savaş](/wiki/03-Mechanics/Combat.md#kill-rewards-first-hit-claims)). Bir sürünün lideri ve her Dormant Pulse ise bunun yerine **verilen hasara göre** öder:
 
-- **Ödeme hasara göre bölüşülür.** Yukarıdaki kurallarda belirtilen payı veya daha fazlasını veren her pilot, verdiği hasarla orantılı olarak ödenir: öldürmenin kredisi, Thulium’u, XP’si ve onuru aralarında bölüşülür. Payın altında kalan pilota hiçbir şey ödenmez.
+- **Ödeme hasara göre bölüşülür.** Yukarıdaki kurallarda belirtilen payı veya daha fazlasını veren her pilot, verdiği hasarla orantılı olarak ödenir: öldürmenin kredisi, Thulium’u, XP’si ve onuru, sürünün kademesinin kazancıyla aralarında bölüşülür. Payın altında kalan pilota hiçbir şey ödenmez.
 - **Kargo kutusu en çok hasar veren pilota gider.** Her uzaylıda olduğu gibi 30 saniye boyunca o pilotun (ve klanının) olur, sonra herkes alabilir ([Kargo](/wiki/03-Mechanics/Cargo.md)). Her Dormant gemisinin kendi hasar sayımı ve kendi kutusu vardır. Tesseract istisnadır: kutu bırakmaz ve öldürülmesinin ödediği her pilot kendine ait bir özel kutu alır ([Tesseract sürüsü](/wiki/05-Swarms/Tesseract-Swarm.md#rewards-and-drops)). Grubunda lidere hasar veren iki veya daha fazla pilot varsa, kutu verilen hasara göre her biri için bir [kişisel kutuya](/wiki/03-Mechanics/Cargo.md#personal-crates) bölünür.
 - **Takipçiler olağan biçimde öder**: Pirate Scout ve Seeker Slave gemileri, Phantasm, Goombah ve Crystalys sürülerinin Guard gemileri ile Tesseract sürüsünün Facet gemileri kendilerine ilk vuran pilota öder ve ödemeleri bir patronunkinin yanında küçüktür.
 - **Bir patronun ödemesi, çevresindeki uzaylıları geçecek biçimde ayarlanmıştır.** Bir Pirate Boss, bir Boss Phantasm ya da bir Boss Goombah ile bir dakikalık savaş, bir Goombah ile bir dakikalık savaştan daha çok öder; Dormant sürüsüyle ya da bir Boss Crystalys ile bir dakikalık savaş ise bir Crystalys ile bir dakikalık savaştan daha çok öder; Boss Seeker tam olarak on Seeker öder.

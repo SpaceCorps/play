@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a198ee7b25672782 -->
+<!-- wiki-i18n source: 27ed2fafb9709c5b -->
 <!-- wiki-i18n title: Extra -->
 # Extra {#extras}
 
@@ -87,7 +87,7 @@ Premi lo slot CLK per occultarti. **Una pressione è un uso**, qualunque sia il 
 - **Chi può vederti.** Tu vedi la tua nave, sbiadita e con un contorno. I piloti della tua corporazione ti vedono come un fantasma pallido; i compagni di clan di altre corporazioni no, perché un clan accoglie chiunque faccia domanda. Nessuno può bersagliare il fantasma, nemmeno la tua corporazione.
 - **Non puoi occultarti** in una zona sicura, mentre la CPU si ricarica o entro **10 secondi** da un colpo subito o sparato.
 - **Che cosa lo interrompe.** Premere di nuovo lo slot, la tua prima raffica o il tuo primo razzo (arriva a segno e vieni visto), la CPU che esce dalla configurazione che stai usando, un **EMP che esplode entro 1500 unità** da te, chiunque l’abbia lanciato (anche quello della tua corporazione, ma non quello di un compagno di gruppo) e l’esplosione ad area di un razzo che ti colpisce. Il tempo no, entrare in una zona sicura o saltare attraverso un portale no, raccogliere carico no (una cassa che prendi sparisce per tutti, quindi sanno che qualcosa era a portata da quel punto, non chi), le abilità no, e le radiazioni del buco nero danneggiano una nave occultata ma non ne interrompono l’occultamento. Disconnettersi o morire lo interrompe, perché una nave che non è pilotata non è occultata.
-- **Ricarica.** Dopo la fine di un occultamento, comunque sia finito, la CPU si ricarica per **60 secondi**. La ricarica appartiene a te, non alla nave: continua se salti attraverso un portale, ti disconnetti o muori. Ogni pressione costa comunque un uso. La competenza del pilota Ricarica occultamento accorcia questa attesa, della metà al livello massimo.
+- **Ricarica.** Dopo la fine di un occultamento, comunque sia finito, la CPU si ricarica per **60 secondi**. La ricarica appartiene a te, non alla nave: continua se salti attraverso un portale, ti disconnetti o muori. Ogni pressione costa comunque un uso. La competenza del pilota Furtività accorcia questa attesa, della metà al livello massimo.
 - Gli **alieni** che ti stavano inseguendo ti perdono. Le tue rivendicazioni di abbattimento vengono rilasciate quando ti occulti.
 - **Razzi.** Nessuno può agganciarti con un razzo guidato e un razzo dritto a bersaglio singolo ti attraversa. Un’**esplosione ad area** danneggia comunque una nave che copre e ne interrompe l’occultamento, e ai piloti che possono vedere la posizione della nave questa viene mostrata prima che compaia il numero del danno. Lanciare un razzo è uno sparo: interrompe il tuo occultamento come una raffica (la CPU poi si ricarica per i 60 secondi indicati sopra) e, occultato o no, ti impedisce di occultarti per i 10 secondi successivi.
 - Il **buco nero** inghiotte una nave occultata come qualsiasi altra, e lo sente tutta la mappa.

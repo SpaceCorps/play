@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9a37517663b28a4d -->
+<!-- wiki-i18n source: 030846e1bbc2affc -->
 <!-- wiki-i18n title: Wraith -->
 # Wraith
 
@@ -27,7 +27,7 @@ Wraith, savaş gemisi sınıfının zirvesindeki araçtır: eşsiz ateş gücü,
 
 ## Araştırma {#research}
 
-- **Gövde plakası yuvaları.** Wraith gemisinin [Gövde Kaplaması](/wiki/06-Items/Hull-Plating.md) için 10 [gövde plakası yuvası](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) vardır; gemiyi ürettiğinde hepsi kilitlidir. Her biri Skylab’da kendi başına bir teknolojidir (1 sa ve 10 Dark Matter) ve ilkinden başlayarak sırayla araştırılır; araştırıldığında o yuvayı Wraith gemisinde ve tüm tasarımlarında açar. 10 yuvanın hepsi Hull Plating III ile dolduğunda 250.000 gövde ekler.
+- **Gövde plakası yuvaları.** Wraith gemisinin [Gövde Kaplaması](/wiki/06-Items/Hull-Plating.md) için 10 [gövde plakası yuvası](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) vardır; gemiyi ürettiğinde hepsi kilitlidir. Her biri Skylab’da kendi başına bir teknolojidir (1 sa ve 10 Dark Matter) ve ilkinden başlayarak sırayla araştırılır; araştırıldığında o yuvayı Wraith gemisinde ve tüm tasarımlarında açar. 10 yuvanın hepsi Hull Plating III ile dolduğunda 200.000 gövde ekler.
 - **Tasarımlar.** Wraith gemisinin 5 [tasarımı](/wiki/03-Mechanics/Ship-Designs.md) vardır. Birini araştır (10 sa ve 10 Dark Matter), sonra Montaj’da Wraith gemini o tasarıma dönüştür: değişiklik geri alınamaz.
 
 | Tasarım | Neyi değiştirir |
@@ -36,7 +36,7 @@ Wraith, savaş gemisi sınıfının zirvesindeki araçtır: eşsiz ateş gücü,
 | **Wraith BILLY** | +%5 temel gövde, +%10 kalkan, Diminisher |
 | **Wraith MENATI** | +%20 temel gövde, +20 temel hız, +%5 kalkan soğurması, Heal Pod |
 | **Wraith ATARAXIS** | -1 lazer yuvası, +1 destek yuvası, +%25 kalkan, +%10 kalkan soğurması, Shield Buff |
-| **Wraith MATT** | +2 lazer yuvası, -%20 kalkan, +%10 lazer delme |
+| **Wraith MATT** | +2 lazer yuvası, -%20 kalkan, +%10 lazer delme, +%5 lazer hasarı |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

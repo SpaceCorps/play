@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d9722fd08d8980ff -->
+<!-- wiki-i18n source: e819db509b714a18 -->
 <!-- wiki-i18n title: Clanes -->
 # Clanes {#clans}
 
@@ -193,7 +193,7 @@ La columna **Skylab** que la acompaña muestra dónde está el [Skylab](/wiki/03
 El botón **Quién está conectado** de la barra de herramientas del sistema (arriba a la derecha) o la tecla **H** (reasígnala en Configuración › Controles) abre la ventana **Pilotos conectados**.
 
 - **Quién aparece.** Los pilotos que vuelan ahora en **tu mundo**, sin contarte a ti: Alpha, Beta y Gamma no se encuentran. Un piloto cuya nave camuflada no puedes ver no aparece ni se cuenta. La ventana muestra como máximo **100** filas, primero tus compañeros de clan, luego los niveles más altos y luego por nombre, y arriba el número real de pilotos conectados.
-- **Qué muestra una fila.** El nombre, el nivel, la corporación, la etiqueta del clan y el símbolo de rango del piloto: lo que el chat y las clasificaciones ya muestran. Nunca una posición, un mapa ni el estado de la nave.
+- **Qué muestra una fila.** El nombre, el nivel, la corporación, la etiqueta del clan y el símbolo de rango del piloto: lo que el chat y las clasificaciones ya muestran. Nunca una posición, un mapa ni el estado de la nave. Un **nombre dorado** significa que el piloto ha apoyado el juego con Premium en algún momento, como en el chat; una **corona dorada** tras el nombre significa que su Premium está activo ahora.
 - **Búsqueda.** Escribe parte de un nombre o de una etiqueta de clan; la ventana vuelve a preguntar al servidor cuando la lista estaba recortada.
 - **Invitar.** El botón **Invitar** de una fila es la invitación propia de la ventana Grupo ([Grupos](/wiki/03-Mechanics/Groups.md)), con las mismas respuestas y rechazos (el piloto está en un grupo, el grupo está lleno, No molestar está activado). El botón sale en gris, con el motivo al pasar el ratón, cuando el juego ya sabe que la invitación se rechazaría.
 - La lista se vuelve a leer cada 10 segundos mientras la ventana está abierta.

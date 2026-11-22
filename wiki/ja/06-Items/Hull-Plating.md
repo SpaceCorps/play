@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: d605328d6ea5df78 -->
+<!-- wiki-i18n source: 91ebd8675b1f7ea3 -->
 <!-- wiki-i18n title: 船体装甲 -->
 # 船体装甲 {#hull-plating}
 
 <!-- wiki-search: hull plate; hull plate slot; hull plate slots; plate slot; plate; armour; armor; hpl; 船体装甲; 装甲スロット; 装甲板 -->
 
-Dormant の群れの研究で、装甲技術の進歩が明らかになりました。この技術を使って、艦は船体を強化できます。**船体装甲**は、製造した艦の船体プレートスロットに装着し、船体ポイントを加える装甲です。[ブースター](/wiki/06-Items/Boosters.md)のページにある Hull Plating **Booster** とは別物で、そちらは時間制のボーナスです。
+Dormant の群れの研究で、装甲技術の進歩が明らかになりました。この技術を使って、艦は船体を強化できます。**船体装甲**は、艦の船体プレートスロットに装着し、船体ポイントを加える装甲です。[ブースター](/wiki/06-Items/Boosters.md)のページにある Hull Plating **Booster** とは別物で、そちらは時間制のボーナスです。
 
 ![The Hull plates card of the Hangar: the slots researched hold Hull Plating, the others show a padlock](../../img/wiki-img/shots/hull-plates.jpg)
 
@@ -28,26 +28,27 @@ Hull Plating I => Hull Plating II => Hull Plating III
 
 | アイテム | 追加される船体 | 入手方法 |
 | :--- | ---: | :--- |
-| **Hull Plating I** | 8,000 | ショップ、5,000 Thulium |
-| **Hull Plating II** | 15,000 | アセンブリ、Hull Plating I から |
-| **Hull Plating III** | 25,000 | アセンブリ、Hull Plating II から |
+| **Hull Plating I** | 7,000 | ショップ、5,000 Thulium |
+| **Hull Plating II** | 14,000 | アセンブリ、Hull Plating I から |
+| **Hull Plating III** | 20,000 | アセンブリ、Hull Plating II から |
 
 Hull Plating I は購入します。**II と III は強化品です**。アセンブリは1つ下のティアの装甲（インベントリにそのままある1個）を消費し、Thulium、素材、そして **Dark Matter Plate** を要求します。II は5枚、III は8枚で、ほかの装備の最終ティアが要求する4枚（と Ancient Control Unit 1個）より多くなっています。どちらもまず技術が必要で、[研究](/wiki/03-Mechanics/Research.md#tree-hull-plating)ページの Hull Plating ツリーにあります。II は1日と Dark Matter 25個、III は2日と Dark Matter 40個で、Dark Matter Plate 自体の技術に加えて必要です。上のツリーに価格、素材、時間が載っています。
 
-[鍛冶場](/wiki/06-Items/Forge.md)はどの装甲も扱えます。強化すると、消費した装甲の鍛造の段階とボーナスが引き継がれます。装甲のステータスは船体の1つだけなので、ボーナスも1つで、段階に応じて +2% から +15% です。「昇華」の Hull Plating III は最大で 28,750 を加えます。[オークション](/wiki/03-Mechanics/Auction.md)に出せるのは Hull Plating II と III で、ショップで売られている Hull Plating I は出品できません。
+[鍛冶場](/wiki/06-Items/Forge.md)はどの装甲も扱えます。強化すると、消費した装甲の鍛造の段階とボーナスが引き継がれます。装甲のステータスは船体の1つだけなので、ボーナスも1つで、段階に応じて +2% から +15% です。「昇華」の Hull Plating III は最大で 23,000 を加えます。[オークション](/wiki/03-Mechanics/Auction.md)に出せるのは Hull Plating II と III で、ショップで売られている Hull Plating I は出品できません。
 
 ## 装甲スロット {#hull-plate-slots}
 
-船体装甲は**装甲スロット**にしか入りません。これは、アセンブリで製作する4隻の艦が、レーザー、ジェネレーター、エクストラ、アビリティ、ドローンの各スロットに加えて持つ、専用の種類のスロットです。
+船体装甲は**装甲スロット**にしか入りません。これは、どの艦もレーザー、ジェネレーター、エクストラ、アビリティ、ドローンの各スロットに加えて持つ、専用の種類のスロットです。最も多く持つのはアセンブリで製作する艦で、表の4隻と、5から9まで、レベルごとに1つ増える[Miyuki](/wiki/02-Ships/Miyuki.md)です。
 
 | 艦 | 装甲スロット | Hull Plating III のフルセットで増える船体 |
 | :--- | ---: | ---: |
-| **Paragon** | 5 | 125,000 |
-| **Storm** | 8 | 200,000 |
-| **Ironclad** | 15 | 375,000 |
-| **Wraith** | 10 | 250,000 |
+| **Paragon** | 5 | 100,000 |
+| **Storm** | 8 | 160,000 |
+| **Ironclad** | 15 | 300,000 |
+| **Wraith** | 10 | 200,000 |
 
-- **最初はすべてロック。** スロットは、Skylab で研究すると開きます。スロット1つにつき技術が1つで、1時間と Dark Matter 10個、最初のものから順に進めます。[研究](/wiki/03-Mechanics/Research.md#ship-technologies)画面では、艦のスロットが1枚のカードにまとめて表示され、スロット1つにつき点が1つ付きます。
+- **製造した艦では、最初はすべてロック。** スロットは、Skylab で研究すると開きます。スロット1つにつき技術が1つで、1時間と Dark Matter 10個、最初のものから順に進めます。[研究](/wiki/03-Mechanics/Research.md#ship-technologies)画面では、艦のスロットが1枚のカードにまとめて表示され、スロット1つにつき点が1つ付きます。
+- **ショップの4隻には、最初から開いているスロットが3つあります。** Protos、Kitefin、Ostirion、Nomad はそれぞれ装甲スロットを3つ持ち、研究は不要です。最初の飛行から開いています。Hull Plating III を全部そろえると、それぞれに60,000が加わります。
 - **艦1隻ではなく、艦の種類ごと。** Paragon のために開いたスロットは、Paragon のすべてのデザインでも開いています（[艦のデザイン](/wiki/03-Mechanics/Ship-Designs.md)）。技術は永久にあなたのものです。ワイプでも残ります。
 - **2つの構成で共有。** 装甲は艦に属します。構成を切り替えても付いたままで、ハンガーはどちらの構成でも同じ装甲を表示します。
 - **自由な組み合わせ。** スロットにはどの船体装甲でも入り、同じものを2つ入れても構いません。

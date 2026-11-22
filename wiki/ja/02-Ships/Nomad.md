@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: dff7327a9780c393 -->
+<!-- wiki-i18n source: 872e92e0eed74049 -->
 <!-- wiki-i18n title: Nomad -->
 # Nomad
 
@@ -10,6 +10,7 @@ Nomad は、Ostirion のほぼ2倍の船体と、Ostirion より2門多い砲を
 - **基本速度**：240
 - **レーザースロット**：7
 - **エクストラスロット**：2
+- **装甲スロット**: 3
 
 ### ジェネレーターとサポートのスロット {#generator-support-slots}
 

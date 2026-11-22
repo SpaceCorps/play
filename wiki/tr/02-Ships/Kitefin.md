@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2803f28f4597c776 -->
+<!-- wiki-i18n source: a9b3f1a14b051e92 -->
 <!-- wiki-i18n title: Kitefin -->
 # Kitefin
 
@@ -10,6 +10,7 @@ Kitefin hafif bir saldırı gemisidir ve çoğu pilotun satın aldığı ilk gem
 - **Temel hız**: 220
 - **Lazer yuvaları**: 4
 - **Ekstra yuvalar**: 2
+- **Gövde plakası yuvaları**: 3
 
 ### Jeneratör ve destek yuvaları {#generator-support-slots}
 

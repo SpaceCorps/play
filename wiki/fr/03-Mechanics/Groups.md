@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9530756071d3a3eb -->
+<!-- wiki-i18n source: ab422d8b5066fe56 -->
 <!-- wiki-i18n title: Groupes -->
 # Groupes {#groups}
 
@@ -72,6 +72,8 @@ L’onglet **Système** est doré et en lecture seule, avec sa propre liste : i
 ### Messages privés {#private-messages}
 
 Tapez `/m`, le nom d’un pilote et votre message pour écrire à ce seul pilote : `/m nova o7` (`/msg` et `/w` font la même chose). Le pilote doit être en ligne sur votre serveur, dans n’importe quel monde, à la station ou en vol. Le nom est celui du pilote tel que le chat l’affiche, quelle que soit la casse (`/m NOVA`, `/m @nova` et `/m nova:` trouvent tous nova) : il faut le nom entier, jamais seulement son début, pour qu’un message ne parte pas chez le mauvais pilote. `/r` et votre réponse (`/r o7`) répond au pilote qui vous a écrit en dernier, ou au dernier pilote à qui vous avez écrit si personne ne vous a écrit.
+
+Faites un clic droit sur le nom d'un pilote pour ouvrir un petit menu (sur une ligne du chat, dans la fenêtre **Pilotes en ligne**, dans le **Registre des pilotes** du clan ou sur la ligne d'un membre dans la **fenêtre Groupe** ; sur téléphone, maintenez le nom appuyé) : **Envoyer un message** commence un message privé à ce pilote (le champ de saisie contient `/m name` et reçoit le clavier), **Voir la fiche du pilote** ouvre le profil du pilote et **Copier le nom** place le nom dans le presse-papiers. **Envoyer un message** n'apparaît pas sur votre propre nom, sur un pilote d'un autre serveur ni sur un serveur de jeu antérieur à 0.4.22.
 
 Un message privé s’affiche dans l’onglet que vous regardez, parmi ses lignes, en violet : **À nova :** pour celui que vous avez envoyé, **De nova :** pour celui que vous avez reçu, de sorte que vous avez les deux côtés de la conversation dans la fenêtre du chat en vol et dans la barre à la station. Tous les onglets l’affichent, y compris l’onglet **Système** et un onglet **Global** masqué. Un message reçu compte comme non lu (sur le bouton de la barre d’outils et dans la barre à la station) jusqu’à ce que vous ouvriez un onglet, et joue un carillon discret, au plus une fois toutes les 2 secondes ; en envoyer un joue son propre son discret. Faites un clic droit sur un message reçu pour **Répondre**, **Inviter dans le groupe**, **Ignorer** ou **Signaler…**.
 

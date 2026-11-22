@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9530756071d3a3eb -->
+<!-- wiki-i18n source: ab422d8b5066fe56 -->
 <!-- wiki-i18n title: Grupos -->
 # Grupos {#groups}
 
@@ -72,6 +72,8 @@ La pestaña **Sistema** es dorada y de solo lectura, con una lista propia: recog
 ### Mensajes privados {#private-messages}
 
 Escribe `/m`, el nombre de un piloto y tu mensaje para escribir solo a ese piloto: `/m nova o7` (`/msg` y `/w` hacen lo mismo). El piloto tiene que estar conectado en tu servidor, en cualquier mundo, en la estación o en vuelo. El nombre es el del piloto tal como lo muestra el chat, con cualquier combinación de mayúsculas (`/m NOVA`, `/m @nova` y `/m nova:` encuentran a nova): tiene que ser el nombre entero, nunca solo su comienzo, para que un mensaje no vaya al piloto equivocado. `/r` y tu respuesta (`/r o7`) responde al piloto que te escribió por última vez, o al último piloto al que escribiste cuando nadie te ha escrito.
+
+Haz clic derecho en el nombre de un piloto para abrir un menú pequeño (en una línea del chat, en la ventana **Pilotos conectados**, en la **Lista de pilotos** del clan o en la fila de un miembro de la **ventana Grupo**; en el móvil, mantén pulsado el nombre): **Enviar mensaje** inicia un mensaje privado a ese piloto (el campo de texto contiene `/m name` y recibe el teclado), **Ver ficha del piloto** abre el perfil del piloto y **Copiar nombre** pone el nombre en el portapapeles. **Enviar mensaje** no aparece en tu propio nombre, en un piloto de otro servidor ni en un servidor de juego anterior a 0.4.22.
 
 Un mensaje privado aparece en la pestaña que estás mirando, entre sus líneas, en violeta: **Para nova:** el que enviaste y **De nova:** el que recibiste, de modo que tienes los dos lados de la conversación en la ventana del chat en vuelo y en la barra de la estación. Todas las pestañas la muestran, también la pestaña **Sistema** y una pestaña **Global** oculta. Un mensaje que recibes cuenta como no leído (en el botón de la barra de herramientas y en la barra de la estación) hasta que abres una pestaña, y suena un aviso suave, como máximo una vez cada 2 segundos; enviar uno reproduce su propio sonido suave. Haz clic derecho en un mensaje recibido para **Responder**, **Invitar al grupo**, **Ignorar** o **Denunciar…**.
 

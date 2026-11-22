@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a95170ddd6f01c2a -->
+<!-- wiki-i18n source: 0b4fab38b0c9363e -->
 <!-- wiki-i18n title: Competenze del pilota -->
 # Competenze del pilota {#pilot-skills}
 
@@ -79,7 +79,8 @@ Le tabelle danno ogni bonus al livello 1 e all’ultimo livello; tra i due un bo
 | **Tattica** (Riflessi) | Durata delle abilità | ×1 | ×1,2 |
 | **Assorbimento scudo** (Tenacia) | Assorbimento dei tuoi scudi | +0 punti | +5 punti |
 | **Guarigione** (Massa) | Forza delle tue riparazioni e cure | ×1 | ×1,3 |
-| **Ricarica occultamento** (Riflessi) | Tempo di ricarica dell’occultamento | ×1 | ×0,5 |
+|  | Tempo di ricarica delle abilità di cura del Miyuki | ×1 | ×0,9 |
+| **Furtività** (Riflessi) | Tempo di ricarica dell’occultamento | ×1 | ×0,5 |
 
 ### Controllo della nave {#ship-control}
 
@@ -114,13 +115,13 @@ Le tabelle danno ogni bonus al livello 1 e all’ultimo livello; tra i due un bo
 - **Laser.** La Tecnica laser cambia il danno di ogni raffica e la probabilità che colpisca; una raffica che va a vuoto mostra un “Miss” fluttuante e consuma comunque le munizioni ([Combattimento](/wiki/03-Mechanics/Combat.md#laser-tech)). La portata dei tuoi laser è quella della tua nave: la Mira sale con i tuoi colpi a segno con munizioni diverse dalle semplici x1, ma agisce solo sulle Mine (sotto).
 - **Razzi.** La Tecnica dei razzi cambia il danno di ogni razzo e la probabilità che uno sia un fallimento ([Tecnica dei razzi](/wiki/06-Items/Rockets.md#rocket-tech)).
 - **Subire colpi.** La Tenacia toglie una parte a ogni colpo che subisci, l’Evasione aumenta la probabilità che un colpo diretto non faccia nulla e l’Assorbimento scudo aumenta la quota di un colpo che prendono i tuoi scudi ([Combattimento](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). La Massa aumenta il tuo scafo.
-- **Guarigione.** La Guarigione rende più forti le cure del tuo equipaggiamento: la riparazione del tuo Repair Drone, una Emergency Repair e il Heal Pod che sganci ([Abilità](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Si allena con lo scafo che le tue cure ripristinano; curare una nave in una zona sicura non conta. Il Support Rocket cura sempre la stessa quantità fissa, a qualsiasi livello, e dà comunque XP di Guarigione.
-- **Occultamento.** Ricarica occultamento accorcia l’attesa quando un occultamento finisce, per una Cloaking CPU ([Extra](/wiki/06-Items/Extras.md#cloaking-cpu)) e per il Chameleon ([Abilità](/wiki/03-Mechanics/Abilities.md)). Si allena con i secondi passati occultato; nessuno conta in una zona sicura o mentre non dai ordini.
+- **Guarigione.** La Guarigione rende più forti le cure del tuo equipaggiamento: la riparazione del tuo Repair Drone, una Emergency Repair, più il Heal Pod, il Channel Heal e il Channel Shield che usi ([Abilità](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Sul Miyuki queste tre abilità aspettano anche meno tra un uso e l’altro. Si allena con lo scafo che le tue cure ripristinano; curare una nave in una zona sicura non conta. Il Support Rocket cura sempre la stessa quantità fissa, a qualsiasi livello, e dà comunque XP di Guarigione.
+- **Occultamento.** Furtività accorcia l’attesa quando un occultamento finisce, per una Cloaking CPU ([Extra](/wiki/06-Items/Extras.md#cloaking-cpu)) e per il Chameleon ([Abilità](/wiki/03-Mechanics/Abilities.md)). Si allena con i secondi passati occultato; nessuno conta in una zona sicura o mentre non dai ordini.
 - **Abilità.** I Riflessi accorciano il tempo di ricarica delle tue abilità e la Tattica le fa durare di più ([Abilità](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Il Sabotaggio rafforza i veleni.
 - **Mine.** Il Sabotaggio aumenta il danno di una Mine, e la Mira la lancia più veloce e più lontano ([Extra](/wiki/06-Items/Extras.md#mine)).
 - **Velocità.** La Teoria dei propulsori si aggiunge alla tua velocità, oltre ai motori e a un Afterburner ([Velocità](/wiki/03-Mechanics/Speed.md)).
 - **Raccolte.** L’Istinto aumenta la probabilità di ogni riga di bottino, come fa un Loot Luck Booster, e i due si sommano; l’Antimateria aumenta la Dark Matter che raccogli ([Carico](/wiki/03-Mechanics/Cargo.md), [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)).
-- **Radiazioni.** La Tecnica antiradiazioni riduce la dose del buco nero, dei cerchi degli escavatori, delle pulsar e dell’aura degli Unwakened ([Buco nero](/wiki/03-Mechanics/Black-Hole.md)).
+- **Radiazioni.** La Tecnica antiradiazioni riduce la dose del buco nero, delle zone di radiazioni della N.U.K.E. e della Gravitational N.U.K.E., dei cerchi degli escavatori, delle pulsar e dell’aura degli Unwakened ([Buco nero](/wiki/03-Mechanics/Black-Hole.md)).
 - **A casa.** L’Estrazione e la Logistica cambiano ciò che lo [Skylab](/wiki/03-Mechanics/Skylab.md) produce e contiene, l’Istinto aumenta i suoi due collettori, la Fabbricazione accorcia le fabbricazioni dell’Assemblaggio, la Scienza riempie più in fretta il Centro [ricerche](/wiki/03-Mechanics/Research.md), e il Commercio abbassa i prezzi del Negozio e i crediti e il Thulium delle fabbricazioni dell’Assemblaggio, alza ciò che il Negozio paga quando ricompra e abbassa la caparra di un annuncio all’[Asta](/wiki/03-Mechanics/Auction.md). Nella [Forgia](/wiki/06-Items/Forge.md), il Commercio abbassa i crediti e il Thulium di un passo e i crediti di un’unione ([Sali di grado](/wiki/06-Items/Forge.md#tier-up)), e la Fabbricazione abbassa l’integrità che una ridisposizione toglie a un pezzo ([Integrità e fratture](/wiki/06-Items/Forge.md#integrity-and-fractures)).
 
 ## Come si paga l’XP {#how-xp-is-paid}
@@ -159,7 +160,7 @@ La tabella elenca cosa paga XP, statistica per statistica. L’XP è per ogni un
 | **Tattica** (Riflessi) | Ogni abilità che premi con un ostile nella portata del laser | 2 | 600 XP all’ora |
 | **Assorbimento scudo** (Tenacia) | Ogni 1 % del tuo scudo massimo consumato dai colpi nemici | 0,1 | 300 XP all’ora |
 | **Guarigione** (Massa) | Ogni 1 % dello scafo massimo di una nave che una tua cura ripristina | 0,1 | 300 XP all’ora |
-| **Ricarica occultamento** (Riflessi) | Ogni secondo passato occultato con un ordine dato negli ultimi 1 min, fuori dalle zone sicure | 0,1 | Nessuno |
+| **Furtività** (Riflessi) | Ogni secondo passato occultato con un ordine dato negli ultimi 1 min, fuori dalle zone sicure | 0,1 | Nessuno |
 | **Tecnica antiradiazioni** (Tenacia) | Ogni secondo dentro una banda di radiazioni | 0,2 | Nessuno |
 |  | Ogni 1 % del tuo scafo massimo che le radiazioni tolgono | 1 |  |
 | **Teoria dei propulsori** (Massa) | Ogni secondo volato oltre il 80% della velocità della tua nave, il doppio sotto un Afterburner | 0,1 | Nessuno |

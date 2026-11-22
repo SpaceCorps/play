@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 18ef5043e15eb94e -->
+<!-- wiki-i18n source: eccec7a8b357e276 -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -27,7 +27,7 @@ L’Ironclad est un tank lourdement blindé : la coque la plus épaisse de tous
 
 ## Recherche {#research}
 
-- **Emplacements de blindage.** Ce vaisseau a 15 [emplacements de blindage](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) pour du [blindage de coque](/wiki/06-Items/Hull-Plating.md), tous verrouillés quand vous le fabriquez. Chacun est une technologie à part dans le Skylab, 1 h et 10 Dark Matter, à rechercher dans l’ordre à partir du premier ; elle ouvre cet emplacement sur ce vaisseau et sur chacun de ses designs. Les 15 remplis de Hull Plating III ajoutent 375 000 de coque.
+- **Emplacements de blindage.** Ce vaisseau a 15 [emplacements de blindage](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) pour du [blindage de coque](/wiki/06-Items/Hull-Plating.md), tous verrouillés quand vous le fabriquez. Chacun est une technologie à part dans le Skylab, 1 h et 10 Dark Matter, à rechercher dans l’ordre à partir du premier ; elle ouvre cet emplacement sur ce vaisseau et sur chacun de ses designs. Les 15 remplis de Hull Plating III ajoutent 300 000 de coque.
 - **Designs.** Ce vaisseau a 2 [designs](/wiki/03-Mechanics/Ship-Designs.md). Recherchez-en un (10 h et 10 Dark Matter), puis transformez votre Ironclad en l’un d’eux dans l’Assemblage : le changement est définitif.
 
 | Design | Ce qu’il change |

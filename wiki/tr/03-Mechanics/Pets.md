@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 31273b68fd73e552 -->
+<!-- wiki-i18n source: 4c0d294abe2063d8 -->
 <!-- wiki-i18n title: P.E.T.’ler -->
 # P.E.T.’ler {#pets}
 
@@ -110,7 +110,7 @@ On türün sekizi yalnızca bonus verir. **Retriever** ve **Mole** de bonus veri
 - **Her Mole çalışır, tek bir Retriever.** 0.4.27’den beri yanaştırılmış her Mole çalışır, her birinin kendi dronu ve kendi ışını vardır; 0.5.0’dan beri Mole P.E.T.’lerin aynı asteroit üzerinde de çalışabilir: her biri en yakın olanı seçer, bu yüzden erişim menzilinde tek asteroit varsa hepsi onda çalışır, o kırılınca birlikte bir sonrakine geçerler. Üç Mole P.E.T.’li bir Station, erişim menzilinde yeterince asteroit olduğu sürece tek bir Mole P.E.T.’nin kırdığının yaklaşık üç katına kadar asteroit kırar; bir asteroiti kıran darbeden sonra gelen darbeler boşa gider, bu yüzden küçük bir asteroite aynı anda vuran Mole P.E.T.’ler biraz daha az değer taşır. Tek bir Retriever çalışır, en uzun menzilli olan; diğer Retriever P.E.T.’lerin yalnızca bonus verir.
 - **Uçuşta, güvenli bölgenin dışında.** Bir [güvenli bölge](/wiki/03-Mechanics/Combat.md#2-safe-zone-immunity) gemini korurken, gemin yok edilmişken, [doğma korumasındayken](/wiki/01-General/Getting-Started.md#dying-and-coming-back), gizliyken ya da sıçrarken dururlar ve bunların hiçbiri geçerli olmadığında devam ederler. Oyundan çıkmış bir pilotun uzayda gemisi yoktur, bu yüzden onun için hiçbir şey çalışmaz.
 - **Boşta olsan da olmasan da.** Tuşların başında olmakla ilgili bir kural yoktur: bir Mole, sen avlanırken, bir pencereye bakarken ve ekrandan uzaktayken aynı şekilde çalışır.
-- **Asla yapmadıkları şeyler.** Bir Retriever senin alamayacağın hiçbir kutuyu almaz; yani başka bir pilotun korumalı kutularını asla. Bir Mole güvenli bölgedeki bir asteroiti asla işlemez: asteroitler güvenli halkadan en az 1.500 birim uzakta durur.
+- **Asla yapmadıkları şeyler.** Bir Retriever senin alamayacağın hiçbir kutuyu almaz; yani başka bir pilotun korumalı kutularını asla. Bir Mole güvenli bölgedeki bir asteroiti asla işlemez: asteroitler güvenli halkadan en az 1.550 birim uzakta durur.
 
 ### Retriever {#the-retriever}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0c9164c462c27a1a -->
+<!-- wiki-i18n source: 74bb4919fe97756e -->
 <!-- wiki-i18n title: Forschung -->
 # Forschung {#research}
 
@@ -30,7 +30,7 @@ Diese Seite zeigt den ganzen Technologiebaum mit der Dauer jeder Technologie, di
 
 <!-- research-centre:end -->
 
-**Schematics.** Ein [Schematics](/wiki/06-Items/Special-Items.md#schematics) nimmt 24 Stunden von der Forschung ab, die gerade läuft: Fehlen höchstens 24 Stunden, wird sie sofort abgeschlossen, eine längere verliert 24 Stunden und läuft weiter (187 der 209 Technologien dauern höchstens 24 Stunden, ein Schematics schließt sie also von Anfang an ab; die übrigen 22 brauchen 2 bis 10). Was die Forschung gekostet hat, wurde beim Start bezahlt und wird nicht zurückgegeben, die Wissenschaft, die die übersprungene Zeit verbrannt hätte, bleibt in deinem Tank, und wenn die Forschung abgeschlossen ist, startet die nächste Technologie deiner Warteschlange sofort.
+**Schematics.** Ein [Schematics](/wiki/06-Items/Special-Items.md#schematics) nimmt 24 Stunden von der Forschung ab, die gerade läuft: Fehlen höchstens 24 Stunden, wird sie sofort abgeschlossen, eine längere verliert 24 Stunden und läuft weiter (188 der 210 Technologien dauern höchstens 24 Stunden, ein Schematics schließt sie also von Anfang an ab; die übrigen 22 brauchen 2 bis 10). Was die Forschung gekostet hat, wurde beim Start bezahlt und wird nicht zurückgegeben, die Wissenschaft, die die übersprungene Zeit verbrannt hätte, bleibt in deinem Tank, und wenn die Forschung abgeschlossen ist, startet die nächste Technologie deiner Warteschlange sofort.
 
 **Die Laserverstärker und die letzte Stufe.** Die Damage, Crit und Penetration Amps der Stufen II bis IV werden wie alles andere erforscht. Piloten, die beim Erscheinen der Amp-Linien Amps besaßen oder in Auftrag hatten, erhielten die Technologie jedes dieser Amps und der Stufen darunter. Dreizehn Technologien brauchen eine Technologie eines anderen Baums, die der Dark Matter Plate aus dem Baum Ressourcen, weil die letzte Stufe jeder Aufwertungskette vier Plates und eine Ancient Control Unit verlangt: die Damage, Crit und Penetration Amps der Stufe IV, die Absorption und Capacity Shield Cells der Stufe IV, die Impulse und Momentum Thrusters der Stufe IV sowie Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III und Base CPU II. Wer eine davon früher erforscht hat, behält sie und braucht die Technologie der Plate, um ihre Plates herzustellen. Der Baum unten zeichnet dafür keinen Pfeil, aber die Tabelle führt sie auf, und die Karte im Spiel nennt sie ([Dark Matter und Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)).
 

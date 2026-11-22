@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a95170ddd6f01c2a -->
+<!-- wiki-i18n source: 0b4fab38b0c9363e -->
 <!-- wiki-i18n title: 파일럿 스킬 -->
 # 파일럿 스킬 {#pilot-skills}
 
@@ -79,7 +79,8 @@
 | **전술** (반사신경) | 능력의 지속 시간 | ×1 | ×1.2 |
 | **실드 흡수** (근성) | 실드의 흡수율 | +0 포인트 | +5 포인트 |
 | **치유** (중량) | 내 수리와 회복의 세기 | ×1 | ×1.3 |
-| **은폐 재충전** (반사신경) | 은폐 재충전 시간 | ×1 | ×0.5 |
+|  | Miyuki 회복 능력 재충전 시간 | ×1 | ×0.9 |
+| **은신** (반사신경) | 은폐 재충전 시간 | ×1 | ×0.5 |
 
 ### 선박 조종 {#ship-control}
 
@@ -114,13 +115,13 @@
 - **레이저.** 레이저 기술은 일제 사격마다 피해와 명중 확률을 바꿉니다. 빗나간 일제 사격에는 떠오르는 "Miss"가 표시되며 탄약은 그대로 소모됩니다([전투](/wiki/03-Mechanics/Combat.md#laser-tech)). 레이저의 사거리는 함선 자체의 값입니다. 사격술은 일반 x1이 아닌 탄약으로 명중할 때 오르지만 Mine에만 작용합니다(아래).
 - **로켓.** 로켓 기술은 로켓마다 피해와 불발될 확률을 바꿉니다([로켓 기술](/wiki/06-Items/Rockets.md#rocket-tech)).
 - **피격.** 근성은 받는 모든 피해에서 일정 비율을 덜어 주고, 회피는 직격이 아무 효과도 내지 못할 확률을 높이며, 실드 흡수는 공격 중 실드가 받는 몫을 높입니다([전투](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). 중량은 선체를 늘립니다.
-- **치유.** 치유는 내 장비의 회복을 더 강하게 만듭니다: Repair Drone의 수리, Emergency Repair, 투하하는 Heal Pod가 대상입니다([능력](/wiki/03-Mechanics/Abilities.md#pilot-skills)). 회복으로 복구된 선체로 성장하며, 안전 지대 안의 함선을 회복하는 것은 계산되지 않습니다. Support Rocket은 어떤 레벨에서도 늘 정해진 양을 회복하며, 그래도 치유 경험치를 줍니다.
-- **은폐.** 은폐 재충전은 은폐가 끝난 뒤의 대기 시간을 Cloaking CPU([부가 장비](/wiki/06-Items/Extras.md#cloaking-cpu))와 Chameleon([능력](/wiki/03-Mechanics/Abilities.md)) 모두에서 줄여 줍니다. 은폐 상태로 보낸 시간(초)으로 단련되며, 안전 지대 안이나 명령을 내리지 않는 동안에는 계산되지 않습니다.
+- **치유.** 치유는 내 장비의 회복을 더 강하게 만듭니다: Repair Drone의 수리, Emergency Repair, 그리고 사용하는 Heal Pod, Channel Heal, Channel Shield가 대상입니다([능력](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Miyuki에서는 이 세 능력이 다시 사용하기까지 기다리는 시간도 줄어듭니다. 회복으로 복구된 선체로 성장하며, 안전 지대 안의 함선을 회복하는 것은 계산되지 않습니다. Support Rocket은 어떤 레벨에서도 늘 정해진 양을 회복하며, 그래도 치유 경험치를 줍니다.
+- **은폐.** 은신은 은폐가 끝난 뒤의 대기 시간을 Cloaking CPU([부가 장비](/wiki/06-Items/Extras.md#cloaking-cpu))와 Chameleon([능력](/wiki/03-Mechanics/Abilities.md)) 모두에서 줄여 줍니다. 은폐 상태로 보낸 시간(초)으로 단련되며, 안전 지대 안이나 명령을 내리지 않는 동안에는 계산되지 않습니다.
 - **능력.** 반사신경은 능력의 재사용 대기를 줄이고, 전술은 능력이 더 오래 지속되게 합니다([능력](/wiki/03-Mechanics/Abilities.md#pilot-skills)). 파괴 공작은 독을 강화합니다.
 - **Mine.** 파괴 공작은 Mine의 피해를 늘리고, 사격술은 Mine을 더 빠르고 더 멀리 던지게 합니다([부가 장비](/wiki/06-Items/Extras.md#mine)).
 - **속도.** 추진 이론은 엔진과 Afterburner에 더해 속도를 높입니다([속도](/wiki/03-Mechanics/Speed.md)).
 - **획득.** 직감은 Loot Luck Booster처럼 모든 전리품 항목의 확률을 높이며 둘은 합산됩니다. 반물질은 획득하는 Dark Matter를 늘립니다([화물](/wiki/03-Mechanics/Cargo.md), [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)).
-- **방사선.** 방사선 기술은 블랙홀, 굴착기의 원, 펄서, Unwakened의 오라에서 받는 방사선량을 줄입니다([블랙홀](/wiki/03-Mechanics/Black-Hole.md)).
+- **방사선.** 방사선 기술은 블랙홀, N.U.K.E.와 Gravitational N.U.K.E.의 방사선 구역, 굴착기의 원, 펄서, Unwakened의 오라에서 받는 방사선량을 줄입니다([블랙홀](/wiki/03-Mechanics/Black-Hole.md)).
 - **홈.** 채굴과 물류는 [Skylab](/wiki/03-Mechanics/Skylab.md)이 만들고 보관하는 양을 바꾸고, 직감은 두 수집기를 늘리며, 제작은 어셈블리의 제작 시간을 줄이고, 과학은 [연구](/wiki/03-Mechanics/Research.md) 센터를 더 빨리 채우며, 상거래는 상점 가격과 어셈블리 제작의 크레딧·Thulium 비용을 낮추고, 상점이 되살 때 지급하는 금액을 높이며 [경매장](/wiki/03-Mechanics/Auction.md) 등록 보증금을 낮춥니다. [대장간](/wiki/06-Items/Forge.md)에서는 상거래가 한 단계의 크레딧·Thulium와 병합의 크레딧을 낮추고([등급 상승](/wiki/06-Items/Forge.md#tier-up)), 제작이 재배치로 장비에서 깎이는 내구도를 낮춥니다([내구도와 균열](/wiki/06-Items/Forge.md#integrity-and-fractures)).
 
 ## 경험치가 지급되는 방식 {#how-xp-is-paid}
@@ -159,7 +160,7 @@
 | **전술** (반사신경) | 레이저 사거리 안에 적이 있는 상태에서 누른 능력마다 | 2 | 시간당 600 경험치 |
 | **실드 흡수** (근성) | 적의 공격이 깎은 최대 실드의 1%마다 | 0.1 | 시간당 300 경험치 |
 | **치유** (중량) | 내 회복이 복구한 함선 최대 선체의 1%마다 | 0.1 | 시간당 300 경험치 |
-| **은폐 재충전** (반사신경) | 마지막 1분 안에 명령을 내린 상태로 은폐해 보내는 1초마다 (안전 지대 밖) | 0.1 | 없음 |
+| **은신** (반사신경) | 마지막 1분 안에 명령을 내린 상태로 은폐해 보내는 1초마다 (안전 지대 밖) | 0.1 | 없음 |
 | **방사선 기술** (근성) | 방사선 구역 안에서 보내는 1초마다 | 0.2 | 없음 |
 |  | 방사선에 빼앗긴 최대 선체의 1%마다 | 1 |  |
 | **추진 이론** (중량) | 함선 속도의 80%를 넘겨 비행한 1초마다(Afterburner 사용 중에는 두 배) | 0.1 | 없음 |

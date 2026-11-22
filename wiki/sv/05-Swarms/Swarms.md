@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8a72341fc0a0a8d1 -->
+<!-- wiki-i18n source: 27e04944329244c2 -->
 <!-- wiki-i18n title: Svärmar -->
 # Svärmar {#swarms}
 
@@ -64,6 +64,8 @@ Världen skalar en svärm som den skalar varje utomjording ([Världar](/wiki/03-
 
 <!-- swarms-world:end -->
 
+En svärm har också en **nivå**, som varje utomjording, och den grekiska bokstaven för nivån står framför namnet: `-=γ-Boss Seeker=-` är en Boss Seeker av nivå Gamma. En svärms ledare slumpar sin nivå **när den dyker upp**, ur tabellen för sin värld, och en svärm har sin världs nivå: en Alpha-svärm i Alpha, en Beta-svärm i Beta och en Gamma-svärm i Gamma, vilket är svärmen i tabellen ovan, som den alltid varit. I de högre världarna är en svärm då och då av en lägre nivå, ungefär en av tjugo: Pirate- och Seeker-svärmarna i Beta samt Pirate-, Seeker-, Phantasm-, Goombah- och Tesseract-svärmarna i Gamma; Crystalys-svärmen samt Phantasm-, Goombah- och Tesseract-svärmarna i Beta har alltid sin världs nivå. En svärm har aldrig högre nivå än sin värld, och ingen är en Delta, den fjärde nivån, dubbelt så stark som Gamma, som bara vanliga utomjordingar slumpar fram. Skeppen som kommer med ledaren delar dess nivå, och sektorns nästa ledare slumpar på nytt. En svärm är lika stark och betalar lika mycket som raden i tabellen ovan som bär namnet på dess nivå: en svagare svärm är lika tålig som en i den lägre världen och dess nedskjutning betalar vad en nedskjutning betalar där. Hastighet, räckvidd och byte ändras inte med nivån. Dormant-svärmen har ingen nivå: den behåller sin världs värden.
+
 ## Vad piloterna får veta {#what-the-pilots-are-told}
 
 Seeker-, Pirate-, Phantasm-, Goombah-, Crystalys- och Tesseract-svärmarna meddelar piloterna i sin egen sektor när en boss dyker upp och när den förstörs. Dormant-svärmen meddelar hela sin värld, och den är markerad på kartorna över farosektorerna och på galaxkartan, så att piloter kan hitta den. Det är systemrader: de syns på chattens flik **System**, med en räknare för olästa rader, och inte i **Global** eller **Lokal**. Nedskjutningen av en boss får också en rad i dödsloggen som nämner piloten den tillskrivs. Listan *I korthet* i varje artikel säger vem som meddelas.
@@ -86,7 +88,7 @@ Seeker-, Pirate-, Phantasm-, Goombah-, Crystalys- och Tesseract-svärmarna medde
 
 En vanlig utomjording betalar piloten som träffade den först ([Strid](/wiki/03-Mechanics/Combat.md#kill-rewards-first-hit-claims)). En svärms ledare, och varje Dormant Pulse, betalar i stället **efter den skada som gjorts**:
 
-- **Betalningen delas efter skada.** Varje pilot som gjort minst den andel som anges i reglerna ovan får betalt, i proportion till skadan: nedskjutningens krediter, Thulium, XP och heder delas mellan dem. En pilot under andelen får ingenting.
+- **Betalningen delas efter skada.** Varje pilot som gjort minst den andel som anges i reglerna ovan får betalt, i proportion till skadan: nedskjutningens krediter, Thulium, XP och heder delas, med betalningen för svärmens nivå, mellan dem. En pilot under andelen får ingenting.
 - **Lastlådan går till piloten som gjorde mest skada.** Den är den pilotens (och dess klans) i 30 sekunder, som för varje utomjording, och sedan kan vem som helst ta den ([Last](/wiki/03-Mechanics/Cargo.md)). Varje Dormant-skepp har sin egen skaderäkning och sin egen låda. Tesseract är undantaget: den lämnar ingen låda, och varje pilot som dess nedskjutning betalar får en egen privat låda ([Tesseract-svärm](/wiki/05-Swarms/Tesseract-Swarm.md#rewards-and-drops)). När hans grupp har två eller fler piloter som skadade ledaren delas lådan efter skadan upp i en [personlig låda](/wiki/03-Mechanics/Cargo.md#personal-crates) för var och en av dem.
 - **Följeslagare betalar som vanligt**: Pirate Scouts, Seeker Slaves, Guards i Phantasm-, Goombah- och Crystalys-svärmarna och Facets i Tesseract-svärmen betalar piloten som träffade dem först, och deras betalning är liten jämfört med en boss.
 - **Betalningen för en boss är gjord för att slå utomjordingarna omkring den.** En minuts strid mot en Pirate Boss, en Boss Phantasm eller en Boss Goombah betalar mer än en minuts strid mot en Goombah, och en minut mot Dormant-svärmen eller en Boss Crystalys betalar mer än en minut mot en Crystalys; Boss Seeker betalar exakt tio Seekers.

@@ -71,7 +71,7 @@ A docked **Mole** (a [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole) type) works f
 - The pay is the same for everybody: no Premium bonus, Season Store boost, clan boost, Loot Luck or booster changes the Credits, the Thulium or the finds. The [Resource Magnet Booster](/wiki/06-Items/Boosters.md) adds to the resources of an ore chunk when you collect it, as it does to any crate.
 - Armour takes its points off every hit, but at least 20% of a hit always gets through.
 - An area blast does 1.6 times as much to a brittle asteroid as to any other.
-- An asteroid never stands within 1,500 units of the edge of a safe ring, 5,000 units of the black hole's centre or 600 units of the map's edge, and it never appears within 1,200 units of a pilot.
+- An asteroid never stands within 1,550 units of the edge of a safe ring, 5,000 units of the black hole's centre or 600 units of the map's edge, and it never appears within 1,200 units of a pilot.
 - After a break, an asteroid of the same kind grows back somewhere else on the map after the time in the sector's row, give or take 25%.
 - The Motherlode comes back after 1 h, whatever the sector.
 

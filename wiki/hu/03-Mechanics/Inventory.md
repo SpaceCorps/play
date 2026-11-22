@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 110ad87b2e059bc1 -->
+<!-- wiki-i18n source: 4c08fb4a1e4f417d -->
 <!-- wiki-i18n title: Leltár -->
 # Leltár és felszerelés {#inventory-equipment}
 
@@ -20,7 +20,7 @@ A hagyományos űrjátékokkal ellentétben a SpaceCorpsban dinamikusan sávokra
   - **Besorolatlan/régi foglalatok**: az ide helyezett tárgyak nem járulnak hozzá az értékekhez.
   - **A halmozás is csökken**: a pajzsokat és a hajtóműveket a legerősebbtől kezdve rangsorolják (aszerint, hogy mi számít belőlük a foglalatuk részesedése után), és a sáv részesedését megszorozzák a rangjukéval: az 1.–4. teljes értékkel számít, az 5.–7. 85%-kal, 70%-kal és 55%-kal, a 8.-tól kezdve a pajzsok 50%-kal, a hajtóművek 25%-kal. Lásd: [Pajzsok](/wiki/03-Mechanics/Shields.md) és [Sebesség](/wiki/03-Mechanics/Speed.md).
 - **Extrafoglalatok**: speciális segédtárgyaknak, például Repair Drone-oknak. A Protoson, a Kitefinen, az Ostirionon és a Nomadon kettő van; a Paragonon, az Ironcladen, a Wraithen és a Stormon, amelyeket gyártasz, három. Az Extra Slots CPU-k ([Extrák](/wiki/06-Items/Extras.md#extra-slots-cpus)) 3, 5 vagy 7 foglalattal többet adnak.
-- **Páncélzatfoglalatok**: [hajótest-páncélzatnak](/wiki/06-Items/Hull-Plating.md#hull-plate-slots), amely hajótestet ad hozzá. Csak a négy hajónak vannak, amelyet gyártasz (a Paragonnak 5, a Stormnak 7, az Ironcladnek 15 és a Wraithnek 10), mindegyik zárolva, amíg a Skylabben ki nem kutatod, és a két konfigurációban egyformák.
+- **Páncélzatfoglalatok**: [hajótest-páncélzatnak](/wiki/06-Items/Hull-Plating.md#hull-plate-slots), amely hajótestet ad hozzá. A Protosnak, a Kitefinnek, az Ostirionnak és a Nomadnak 3 van, kezdettől nyitva. A hajóknak, amelyeket gyártasz, több van (a Paragonnak 5, a Stormnak 8, az Ironcladnek 15, a Wraithnek 10 és a Miyukinak 5–9), mindegyik zárolva, amíg a Skylabben ki nem kutatod, és a két konfigurációban egyformák.
 
 ## Leltárrend {#inventory-order}
 

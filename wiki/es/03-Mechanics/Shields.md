@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5f4f8c45180bc787 -->
+<!-- wiki-i18n source: c205efd6ca83bd6f -->
 <!-- wiki-i18n title: Escudos -->
 # Mecánicas de los escudos {#shield-mechanics}
 
@@ -46,16 +46,16 @@ Algunos ataques tienen **penetración de escudo**: puntos que se restan de tu ab
 - Los alienígenas no tienen estadística de absorción: reparten cada impacto 80 % / 20 %, menos la penetración del impacto.
 - El daño de una Siphon Battery sale solo del escudo: la absorción y la penetración no intervienen.
 
-**Dónde los escudos no reciben nada.** Una penetración igual o superior a la absorción no deja a los escudos nada del impacto: el casco se lo lleva todo. La tabla muestra lo que reciben los escudos de un impacto del mejor láser (85 %; una Antimatter Battery en lugar del Experimental Fusion Core la deja en 95 % con daño x3) y del mejor cohete directo (un Lancet III o un Rivet III con un Stiletto, 70 %):
+**Dónde los escudos no reciben nada.** Una penetración igual o superior a la absorción no deja a los escudos nada del impacto: el casco se lo lleva todo. La tabla muestra lo que reciben los escudos de un impacto del mejor láser (100 %; una Antimatter Battery en lugar del Experimental Fusion Core la deja en 110 % con daño x3) y del mejor cohete directo (un Lancet III o un Rivet III con un Stiletto, 70 %):
 
-| Escudo | Absorción | Los escudos reciben, mejor láser (85 %) | Los escudos reciben, mejor cohete directo (70 %) |
+| Escudo | Absorción | Los escudos reciben, mejor láser (100 %) | Los escudos reciben, mejor cohete directo (70 %) |
 | :--- | ---: | ---: | ---: |
 | Light Shield Core | 45 % | 0 % | 0 % |
 | Basic Shield Core | 50 % | 0 % | 0 % |
 | Heavy Shield Core | 55 % | 0 % | 0 % |
-| El mejor escudo de fábrica | 91 % | 6 % | 21 % |
-| Un escudo al 100 % | 100 % | 15 % | 30 % |
-| Un escudo al 120 % | 120 % | 35 % | 50 % |
+| El mejor escudo de fábrica | 91 % | 0 % | 21 % |
+| Un escudo al 100 % | 100 % | 0 % | 30 % |
+| Un escudo al 120 % | 120 % | 20 % | 50 % |
 
 #### Alcanzar y superar el 100 % {#reaching-and-passing-100-}
 

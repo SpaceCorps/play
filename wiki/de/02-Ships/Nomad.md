@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: dff7327a9780c393 -->
+<!-- wiki-i18n source: 872e92e0eed74049 -->
 <!-- wiki-i18n title: Nomad -->
 # Nomad
 
@@ -10,6 +10,7 @@ Die Nomad ist ein Kreuzer mit fast der doppelten Hülle einer Ostirion und zwei 
 - **Grundtempo**: 240
 - **Laser-Slots**: 7
 - **Extra-Slots**: 2
+- **Panzerungs-Slots**: 3
 
 ### Generator- und Support-Slots {#generator-support-slots}
 

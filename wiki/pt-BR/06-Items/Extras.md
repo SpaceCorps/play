@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a198ee7b25672782 -->
+<!-- wiki-i18n source: 27ed2fafb9709c5b -->
 <!-- wiki-i18n title: Extras -->
 # Extras
 
@@ -87,7 +87,7 @@ Pressione o slot CLK para se camuflar. **Um acionamento é um uso**, seja qual f
 - **Quem vê.** Você vê sua própria nave, esmaecida, com um contorno. Os pilotos da sua corporação veem você como um fantasma pálido; os colegas de clã de outras corporações não veem, porque um clã aceita qualquer um que se candidate. Ninguém pode marcar o fantasma como alvo, nem mesmo a sua corporação.
 - **Você não pode se camuflar** dentro de uma zona segura, enquanto a CPU recarrega, nem nos **10 segundos** seguintes a um acerto sofrido ou a um tiro disparado.
 - **O que a encerra.** Pressionar o slot de novo, a sua primeira rajada ou o seu primeiro foguete (o disparo atinge o alvo e você é visto), a CPU sair da configuração que você pilota, um **EMP disparado a até 1.500 unidades** de você, seja quem for que o disparou (também o da sua própria corporação, mas não o de um colega de grupo), e a explosão em área de um foguete que atinge você. O tempo não a encerra, entrar em uma zona segura ou saltar por um portal não, coletar carga não (uma caixa que você pega some para todos, então eles ficam sabendo que havia algo ao alcance daquele ponto, mas não quem), as habilidades não, e a radiação do buraco negro fere uma nave camuflada, mas não encerra a camuflagem dela. Sair do jogo ou morrer a encerra, porque uma nave que ninguém pilota não está camuflada.
-- **Recarga.** Depois que uma camuflagem termina, de qualquer maneira que tenha terminado, a CPU recarrega por **60 segundos**. A recarga pertence a você, não à nave: ela continua se você saltar por um portal, sair do jogo ou morrer. Cada acionamento ainda custa um uso. A perícia do piloto Recarga de camuflagem encurta essa espera, pela metade no nível mais alto.
+- **Recarga.** Depois que uma camuflagem termina, de qualquer maneira que tenha terminado, a CPU recarrega por **60 segundos**. A recarga pertence a você, não à nave: ela continua se você saltar por um portal, sair do jogo ou morrer. Cada acionamento ainda custa um uso. A perícia do piloto Furtividade encurta essa espera, pela metade no nível mais alto.
 - **Os alienígenas** que estavam atrás de você perdem você de vista. Suas reivindicações de abate são liberadas quando você se camufla.
 - **Foguetes.** Ninguém pode travar um foguete guiado em você, e um foguete reto de alvo único atravessa você. Uma **explosão em área** ainda fere uma nave que ela cubra e encerra a camuflagem dela, e os pilotos que conseguem ver o local da nave a veem antes de o número de dano aparecer. Lançar um foguete é um disparo: ele encerra a sua própria camuflagem como uma rajada (a CPU então recarrega pelos 60 segundos acima) e, camuflado ou não, impede você de se camuflar nos 10 segundos seguintes.
 - **O buraco negro** engole uma nave camuflada como qualquer outra, e o mapa toma conhecimento.

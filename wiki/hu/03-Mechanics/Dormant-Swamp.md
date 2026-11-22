@@ -41,11 +41,11 @@ Egy lövés sebzése, minden világban:
 | [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets)-lövegtorony | 5 000 / 4 400 | 5 mp | 1 080 | 50 000 | 75 000 | 100 000 |
 | Lézertorony × 2 | 3 600 / 5 200; 6 400 / 5 200 | 1 mp | 2 500 | 45 000–55 000 | 67 500–82 500 | 90 000–110 000 |
 
-- A rakétát annak a hatótávnak a 90% részénél lövik ki, amellyel ugyanez a rakéta a pilóták kezében rendelkezik, hogy odaérjen; a lézertorony másodpercenként egyszer tüzel, a sebzése a megadott tartományban dobódik.
+- A rakétát annak a hatótávnak a 82% részénél lövik ki, amellyel ugyanez a rakéta a pilóták kezében rendelkezik, hogy odaérjen; a lézertorony másodpercenként egyszer tüzel, a sebzése a megadott tartományban dobódik.
 - Egy N.I.K.E. pajzsáthatolása 35%, amelyet levonnak a pajzs elnyeléséből.
-- A lövegtorony N.I.K.E. rakétája gyorsabb a tiédnél (25%), és messzebbre repül (2×): másodpercenként 1 125 egységet, összesen 8 100 egységet tesz meg, így a menekülő hajót hosszan üldözi.
-- Egy N.U.K.E. 1 350 egység sugarú körben robban, középen a legerősebben.
-- A lövegtorony N.U.K.E. rakétája gyorsabb a tiédnél (25%), és messzebbre repül (2×): másodpercenként 375 egységet, összesen 2 400 egységet tesz meg, így a menekülő hajót hosszan üldözi.
+- A lövegtorony N.I.K.E. rakétája gyorsabb a tiédnél (25%), és messzebbre repül (2×): másodpercenként 1 250 egységet, összesen 8 910 egységet tesz meg, így a menekülő hajót hosszan üldözi.
+- Egy N.U.K.E. 1 013 egység sugarú körben robban, középen a legerősebben.
+- A lövegtorony N.U.K.E. rakétája gyorsabb a tiédnél (25%), és messzebbre repül (2×): másodpercenként 375 egységet, összesen 2 640 egységet tesz meg, így a menekülő hajót hosszan üldözi.
 
 <!-- swamp-guns:end -->
 
@@ -108,7 +108,7 @@ Az elveszett civilizáció három idegene él itt, mindegyiknek megvannak a saj�
 | Kredit | 125 000 | 250 000 | 375 000 |
 | Thulium | 335 | 670 | 1 005 |
 | Tapasztalat (XP) | 20 200 | 40 400 | 60 600 |
-| Becsület | 87 | 174 | 261 |
+| Becsület | 88 | 176 | 264 |
 | PvE-pont kilövésenként | 15 | 15 | 15 |
 
 **Zsákmány**: egy láda, annak a pilótának, aki a legtöbb sebzést okozta.

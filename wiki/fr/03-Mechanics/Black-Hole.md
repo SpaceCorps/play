@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c91f93d3941bb3bf -->
+<!-- wiki-i18n source: dde8093210ad8db3 -->
 <!-- wiki-i18n title: Trou noir -->
 # Le trou noir {#the-black-hole}
 
@@ -15,7 +15,7 @@ Les distances se mesurent depuis le centre du secteur, en unités de carte. Le s
 
 | Anneau | Distance | Ce qui se passe |
 | :--- | ---: | :--- |
-| **Radiation** | 4 000 | Votre vaisseau subit des dégâts chaque seconde, une part de ses PV maximum totaux. Plus vous êtes près, plus ils sont élevés. |
+| **Radiation** | 4 000 | Votre coque subit des dégâts chaque seconde, une part de sa coque maximale. Plus vous êtes près, plus ils sont élevés. |
 | **Attraction** | 3 000 | Le trou noir attire votre vaisseau vers le centre, d’autant plus fort que vous êtes près. Un vaisseau qui ne vole pas est emporté. |
 | **Point de non-retour** | environ 800 à 2 600 | Là où l’attraction égale la vitesse de votre vaisseau. En deçà, même à pleine puissance, vous êtes aspiré. Il dépend de votre vitesse. |
 | **Horizon des événements** | 300 | Tout vaisseau qui l’atteint est détruit sur-le-champ, quels que soient sa coque et son bouclier. |
@@ -33,7 +33,7 @@ Le trou noir n’a pas la même taille pendant toute la saison. Dans les **72 de
 | **Radiation** | 4 000 | 5 600 | 7 200 |
 | **Anneau de guidage** | 4 200 | 5 880 | 7 560 |
 
-Ce qui ne change pas, c’est la dureté à la même fraction du chemin vers l’intérieur : un vaisseau à 3 600 unités du centre, avec le trou à 1,8 fois, subit ce que subit un vaisseau à 2 000 unités un jour normal (une attraction de 96 unités par seconde et 2 % de ses PV par seconde). Le trou agrandi n’est pas plus fort, il est plus large, et un vaisseau met 1,8 fois plus de temps à le traverser. Le point de non-retour de chaque vaisseau est 1,8 fois plus loin. Toutes les distances de cette page sont celles de la taille normale : multipliez-les par la taille du trou pour lire le trou agrandi.
+Ce qui ne change pas, c’est la dureté à la même fraction du chemin vers l’intérieur : un vaisseau à 3 600 unités du centre, avec le trou à 1,8 fois, subit ce que subit un vaisseau à 2 000 unités un jour normal (une attraction de 96 unités par seconde et 2 % de sa coque par seconde). Le trou agrandi n’est pas plus fort, il est plus large, et un vaisseau met 1,8 fois plus de temps à le traverser. Le point de non-retour de chaque vaisseau est 1,8 fois plus loin. Toutes les distances de cette page sont celles de la taille normale : multipliez-les par la taille du trou pour lire le trou agrandi.
 
 - **Comment le voir.** Pendant les 72 dernières heures, le Tableau de bord a une carte en haut et la vue de vol une étiquette au-dessus du trou noir, qui comptent à rebours jusqu’à la réinitialisation (« Réinitialisation de l’univers dans 1 j 05:12:33 ») et disent combien de fois sa taille le trou fait maintenant ; dans les cinq dernières minutes, le compte à rebours propre à la réinitialisation prend le relais. L’infobulle de la minicarte nomme les anneaux de la taille actuelle du trou.
 - **Quand.** La taille ne dépend que de l’horloge de la saison, elle est donc la même dans chaque monde. Tant qu’un administrateur maintient la saison sur un jour, rien n’est programmé et le trou garde sa taille normale ; si le jour de la saison est déplacé, le trou suit aussitôt ; la saison suivante commence avec un trou normal.
@@ -42,7 +42,7 @@ Ce qui ne change pas, c’est la dureté à la même fraction du chemin vers l�
 
 ## Radiation
 
-Les dégâts sont un **pourcentage des PV maximum totaux de votre vaisseau** (coque plus bouclier) chaque seconde : à une distance donnée, toutes les classes de vaisseau tiennent donc exactement aussi longtemps. Un Protos et un Wraith à 2 000 unités consument tous deux un vaisseau plein en 50 secondes.
+Les dégâts sont un **pourcentage de la coque maximale de votre vaisseau** chaque seconde et **sortent directement de la coque** : votre bouclier ne les encaisse pas. À une distance donnée, toutes les classes de vaisseau tiennent donc exactement aussi longtemps. Un Protos et un Wraith à 2 000 unités consument tous deux une coque pleine en 50 secondes.
 
 | Distance | Dégâts par seconde | Un vaisseau plein tient |
 | ---: | ---: | ---: |
@@ -54,24 +54,25 @@ Les dégâts sont un **pourcentage des PV maximum totaux de votre vaisseau** (co
 | 700 | 11 % | 9 s |
 | 300 | 24 % | 4 s |
 
-Entre deux lignes, les dégâts augmentent de façon linéaire. En points de vie par seconde, pour les vaisseaux en équipement de série :
+Entre deux lignes, les dégâts augmentent de façon linéaire. En points de coque par seconde, pour les vaisseaux en équipement de série :
 
-| Vaisseau | PV max totaux | À 3 500 | À 3 000 | À 2 000 | À 1 200 | À 700 |
+| Vaisseau | Coque max. | À 3 500 | À 3 000 | À 2 000 | À 1 200 | À 700 |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| Protos | 30 000 | 165 | 240 | 600 | 1 500 | 3 300 |
-| Kitefin | 46 000 | 253 | 368 | 920 | 2 300 | 5 060 |
-| Ostirion | 98 500 | 542 | 788 | 1 970 | 4 925 | 10 835 |
-| Nomad | 145 500 | 800 | 1 164 | 2 910 | 7 275 | 16 005 |
-| Paragon | 162 500 | 894 | 1 300 | 3 250 | 8 125 | 17 875 |
-| Storm | 228 000 | 1 254 | 1 824 | 4 560 | 11 400 | 25 080 |
-| Wraith | 304 000 | 1 672 | 2 432 | 6 080 | 15 200 | 33 440 |
-| Ironclad | 573 200 | 3 153 | 4 586 | 11 464 | 28 660 | 63 052 |
+| Protos | 8 000 | 44 | 64 | 160 | 400 | 880 |
+| Kitefin | 24 000 | 132 | 192 | 480 | 1 200 | 2 640 |
+| Ostirion | 64 000 | 352 | 512 | 1 280 | 3 200 | 7 040 |
+| Nomad | 111 000 | 611 | 888 | 2 220 | 5 550 | 12 210 |
+| Paragon | 128 000 | 704 | 1 024 | 2 560 | 6 400 | 14 080 |
+| Storm | 180 000 | 990 | 1 440 | 3 600 | 9 000 | 19 800 |
+| Wraith | 256 000 | 1 408 | 2 048 | 5 120 | 12 800 | 28 160 |
+| Ironclad | 500 000 | 2 750 | 4 000 | 10 000 | 25 000 | 55 000 |
 
-- Le **bouclier encaisse en premier**, puis la coque. Ce n’est pas un coup : l’absorption du bouclier n’entre pas en jeu, et on ne peut pas l’esquiver.
+- Ils vont **directement à la coque** : le bouclier n’en prend rien, donc un vaisseau sans bouclier perd exactement ce que perd un vaisseau avec un Heavy Shield Core. Ce n’est pas un coup : l’absorption du bouclier n’entre pas en jeu, et on ne peut pas l’esquiver.
 - La radiation compte comme des **dégâts subis** : votre bouclier ne se recharge pas, un Repair Drone s’arrête (« Réparations interrompues : radiation. ») et ne peut pas être lancé, et une zone sûre ne vous protégerait qu’une fois 5 secondes écoulées depuis la dernière dose.
-- Les boosters et les améliorations changent la taille de votre total, pas le temps que vous tenez : les dégâts en sont une part.
-- Rien ne rend un vaisseau immunisé. La radiation n’est pas un coup, donc rien ne l’absorbe ; mais les compétences continuent d’agir dedans : un Shield Surge continue de restaurer votre bouclier et un Emergency Repair de réparer votre coque pendant leurs dix secondes (ce ne sont pas les réparations naturelles que la dose interrompt). L’occultation ne cache pas le vaisseau à la radiation.
-- La **Technique de radiation**, une compétence de pilote, réduit la dose : la part de votre total que vous perdez par seconde descend en ligne droite de la totalité au niveau 1 à 0,40 de celle-ci au niveau 100, et la jauge indique la dose que vous recevez réellement.
+- Les boosters et les améliorations changent la taille de votre coque, pas le temps que vous tenez : les dégâts en sont une part.
+- Rien ne rend un vaisseau immunisé. La radiation n’est pas un coup, donc rien ne l’absorbe, le bouclier moins que tout ; mais les compétences continuent d’agir dedans : un Emergency Repair continue de réparer votre coque pendant ses dix secondes (ce n’est pas l’une des réparations naturelles que la dose interrompt), et un Shield Surge continue de restaurer un bouclier que la radiation ne touche jamais. L’occultation ne cache pas le vaisseau à la radiation.
+- La **Technique de radiation**, une compétence de pilote, réduit la dose : la part de votre coque que vous perdez par seconde descend en ligne droite de la totalité au niveau 1 à 0,40 de celle-ci au niveau 100, et la jauge indique la dose que vous recevez réellement.
+- La **N.U.K.E.** et la **Gravitational N.U.K.E.** laissent là où elles explosent des zones de radiation propres, qui brûlent la coque de la même façon : [Roquettes](/wiki/06-Items/Rockets.md#the-craft-only-rockets) les décrit.
 
 ## L’attraction {#the-pull}
 
@@ -131,7 +132,7 @@ La vue est petite (environ 1 900 sur 1 150 unités à l’écran au zoom par d
 
 - **De loin.** Si vous inclinez la caméra pour regarder à travers le plan, le trou noir est dessiné là où il se trouve à l’écran, depuis n’importe quel point du secteur, dès qu’il est dans le cadre : un disque noir cerclé d’un anneau dans une lueur d’accrétion, mis à l’échelle pour rester bien visible (environ 2 % de la hauteur de la vue depuis le coin le plus éloigné, qui est à environ 18 000 unités), et il devient sa propre image à mesure que vous approchez. Rien n’y bouge de soi-même. Quand le trou noir est hors de la vue, aucun marqueur ne le signale à l’écran.
 - **Des anneaux sur le plan de vol.** Une bande violette s’illumine jusqu’à un bord net à la limite de la radiation (4 000 unités), et une bande ambre plus fine marque la limite de l’attraction (3 000). Dans l’attraction, une **ligne rouge** montre *votre propre* point de non-retour. Elle suit votre vitesse : elle se déplace quand votre vaisseau accélère ou ralentit.
-- **La jauge**, au-dessus de la barre rapide, apparaît à mille unités de la limite et reste tant que vous brûlez. Elle montre la radiation en pourcentage des PV totaux de votre vaisseau par seconde, le temps que la radiation seule mettrait à consumer ce qui reste (« Mortel dans 31 s », en rouge sous dix), une barre de ces PV, l’attraction là où vous êtes face à votre vitesse, et la distance qui vous sépare encore de votre point de non-retour, ou une alerte clignotante une fois que vous l’avez dépassé. Survolez une ligne pour savoir ce qu’elle signifie ; le (i) ouvre une fiche.
+- **La jauge**, au-dessus de la barre rapide, apparaît à mille unités de la limite et reste tant que vous brûlez. Elle montre la radiation en pourcentage de la coque maximale de votre vaisseau par seconde, le temps que la radiation seule mettrait à consumer ce qui reste de votre coque (« Mortel dans 31 s », en rouge sous dix), une barre de cette coque, l’attraction là où vous êtes face à votre vitesse, et la distance qui vous sépare encore de votre point de non-retour, ou une alerte clignotante une fois que vous l’avez dépassé. Survolez une ligne pour savoir ce qu’elle signifie ; le (i) ouvre une fiche.
 - **Les bords de l’écran** luisent en violet, virent au rouge à mesure que la dose augmente, et pulsent une fois par seconde.
 - **La mini-carte** dessine le trou noir avec ses anneaux en ellipses (la carte s’étire avec sa fenêtre), et son info-bulle indique les rayons. La carte stellaire marque le secteur d’un petit trou noir.
 - **Un compteur de radiation** crépite plus vite à mesure que la dose monte, par-dessus le combat. Une alerte à deux tons retentit quand vous franchissez la limite et de nouveau à votre point de non-retour, et un grondement sourd se fait entendre à partir d’environ 6 500 unités, plus grave à mesure que vous approchez.
@@ -156,8 +157,8 @@ Nouveau avec la Dark Matter ? [Dark Matter et Dark Matter Plates](/wiki/03-Mech
 
 Le trou rend de la **Dark Matter** pour chaque roquette **N.I.K.E.** qui l’atteint. Une N.I.K.E. est une roquette de 67 500 à 75 000 dégâts qui frappe le premier vaisseau qu’elle peut blesser et s’y épuise ; si rien n’est sur son chemin, elle vole jusqu’au trou et se consume en franchissant l’horizon des événements. L’[Assemblage](/wiki/06-Items/Rockets.md) fabrique les N.I.K.E. une fois leur technologie recherchée ([Recherche](/wiki/03-Mechanics/Research.md)), cinq par fabrication (100 000 crédits, 1 500 Thulium, 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite).
 
-- **Le tir.** Une N.I.K.E. parcourt 4 050 unités en 4,5 secondes (900 par seconde), tout droit vers l’endroit visé : sans cible sélectionnée, placez le curseur sur le trou noir (ou pointez votre vaisseau vers lui). Elle atteint l’horizon depuis n’importe quel point entre la limite de la radiation (4 000 unités) et 4 380 unités du centre. Plus loin, elle tombe trop court et est perdue. Comme toute roquette, elle utilise le minuteur commun, et vous attendez 4,6 secondes avant la roquette suivante (aucun laser n’a besoin d’être installé) ; la tirer met fin à votre protection de zone sûre et à votre occultation. **Un vaisseau sur la trajectoire la prend à la place** : un rival qui attend à la limite, ou un pilote d’une autre corporation qui ramasse des caisses sur le chemin, encaisse 67 500 à 75 000 dégâts et le trou n’a rien. Les aliens et les pilotes de corporation n’entrent jamais dans l’anneau : une trajectoire dégagée, c’est donc à vous de la garder dégagée ; la roquette traverse votre propre groupe et les vaisseaux qui sont à l’abri de vos tirs ; un pilote de votre propre corporation qui n’est pas dans votre groupe est un vaisseau comme un autre, là où le PvP est actif. Si vous quittez la carte après le tir, elle continue sans blesser personne et produit quand même votre Dark Matter. Une formation de drones peut changer les dégâts du coup, mais pas l’attente après une N.I.K.E. (voir [Formations de drones et roquettes](/wiki/06-Items/Rockets.md#drone-formations-and-rockets)).
-- **Ce qui revient.** Chaque N.I.K.E. qui atteint l’horizon donne **1, 2 ou 3 Dark Matter** (2 en moyenne : cinq N.I.K.E. en font donc environ dix), dans de petites caisses, une par unité (donc une à trois caisses), qui apparaissent sur le bord de la zone du trou, **entre 3 050 et 3 950 unités du centre**, près de la ligne par laquelle votre tir est arrivé. L’attraction s’arrête à 3 000 : les caisses et les vaisseaux qui les ramassent ne sont donc pas attirés, et la radiation y est de 0,3 à 0,8 % des PV d’un vaisseau par seconde : une minute au milieu de la bande coûte un tiers de votre vaisseau. Un vaisseau plein y tient trois minutes.
+- **Le tir.** Une N.I.K.E. parcourt 4 455 unités en 4,5 secondes (1000 par seconde), tout droit vers l’endroit visé : sans cible sélectionnée, placez le curseur sur le trou noir (ou pointez votre vaisseau vers lui). Elle atteint l’horizon depuis n’importe quel point entre la limite de la radiation (4 000 unités) et 4 785 unités du centre. Plus loin, elle tombe trop court et est perdue. Comme toute roquette, elle utilise le minuteur commun, et vous attendez 4,6 secondes avant la roquette suivante (aucun laser n’a besoin d’être installé) ; la tirer met fin à votre protection de zone sûre et à votre occultation. **Un vaisseau sur la trajectoire la prend à la place** : un rival qui attend à la limite, ou un pilote d’une autre corporation qui ramasse des caisses sur le chemin, encaisse 67 500 à 75 000 dégâts et le trou n’a rien. Les aliens et les pilotes de corporation n’entrent jamais dans l’anneau : une trajectoire dégagée, c’est donc à vous de la garder dégagée ; la roquette traverse votre propre groupe et les vaisseaux qui sont à l’abri de vos tirs ; un pilote de votre propre corporation qui n’est pas dans votre groupe est un vaisseau comme un autre, là où le PvP est actif. Si vous quittez la carte après le tir, elle continue sans blesser personne et produit quand même votre Dark Matter. Une formation de drones peut changer les dégâts du coup, mais pas l’attente après une N.I.K.E. (voir [Formations de drones et roquettes](/wiki/06-Items/Rockets.md#drone-formations-and-rockets)).
+- **Ce qui revient.** Chaque N.I.K.E. qui atteint l’horizon donne **1, 2 ou 3 Dark Matter** (2 en moyenne : cinq N.I.K.E. en font donc environ dix), dans de petites caisses, une par unité (donc une à trois caisses), qui apparaissent sur le bord de la zone du trou, **entre 3 050 et 3 950 unités du centre**, près de la ligne par laquelle votre tir est arrivé. L’attraction s’arrête à 3 000 : les caisses et les vaisseaux qui les ramassent ne sont donc pas attirés, et la radiation y est de 0,3 à 0,8 % de la coque d’un vaisseau par seconde : une minute au milieu de la bande coûte un tiers de votre vaisseau. Un vaisseau plein y tient trois minutes.
 - **À qui.** Les caisses sont à vous, et à votre clan, pendant **60 secondes** à partir du tir. Ensuite, n’importe qui sur la carte peut les prendre, et elles dérivent au loin au bout de **4 minutes**. Le Secteur dangereux est un secteur PvP : attendez-vous à de la compagnie. Un pilote qui se déconnecte après avoir tiré garde ses caisses.
 - **Combien.** Une carte contient au plus 52 caisses de Dark Matter ; une nouvelle chasse la plus ancienne d’entre elles, et jamais une caisse d’un autre type. Le [Resource Magnet Booster](/wiki/03-Mechanics/Cargo.md) n’ajoute rien à la Dark Matter.
 - **Ce que vous voyez.** Quand une N.I.K.E. franchit l’horizon, elle est étirée dans le trou, l’espace ondule à partir de son point d’entrée, et le disque et l’anneau de photons s’embrasent pendant environ une seconde et demie (un tiers de ce temps, deux fois moins lumineux, avec **Réduire les animations**). Un instant plus tard, les caisses sortent du trou et dérivent jusqu’à leur place sur le bord : chacune est un orbe violet-noir au bord brillant, parsemé d’étincelles, facile à voir de loin, et intitulé **Dark Matter** quand vous le survolez. Les vôtres affichent au-dessus d’elles les secondes qui vous restent, et apparaissent sur la mini-carte sous la forme d’une petite marque violette, comme pour votre clan ; les caisses des autres pilotes n’apparaissent sur la mini-carte qu’une fois leur minute écoulée.

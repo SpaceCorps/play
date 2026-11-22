@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 471213bf365fc9b9 -->
+<!-- wiki-i18n source: f36888650a9078b3 -->
 <!-- wiki-i18n title: Miyuki -->
 # Miyuki
 
@@ -7,7 +7,7 @@ Le Miyuki est un vaisseau de soutien en cinq niveaux. Vous fabriquez le niveau I
 ## Caractéristiques {#stats}
 
 - **Points de vie (PV)** : 128 000
-- **Vitesse de base** : 270
+- **Vitesse de base** : 250
 - **Emplacements laser** : 5
 - **Emplacements extras** : 3
 - **Emplacements de blindage**: 5
@@ -31,11 +31,11 @@ Les caractéristiques ci-dessus sont celles du niveau I. Un niveau au-dessus du 
 
 | Niveau | Coque | Vitesse de base | Lasers | Blindages | Principal / soutien / auxiliaire | Capacité du bouclier | Absorption du bouclier |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Miyuki** | 128 000 | 270 | 5 | 5 | 3 / 3 / 2 | – | – |
-| **Miyuki II** | 134 400 | 270 | 6 | 6 | 3 / 3 / 2 | +5 % | +2 % |
-| **Miyuki III** | 141 120 | 270 | 7 | 7 | 3 / 3 / 2 | +10,25 % | +4,04 % |
-| **Miyuki IV** | 148 176 | 320 | 8 | 8 | 3 / 3 / 2 | +15,76 % | +6,12 % |
-| **Miyuki V** | 155 585 | 320 | 9 | 9 | 4 / 4 / 4 | +21,55 % | +8,24 % |
+| **Miyuki** | 128 000 | 250 | 5 | 5 | 3 / 3 / 2 | – | – |
+| **Miyuki II** | 134 400 | 250 | 6 | 6 | 3 / 3 / 2 | +5 % | +2 % |
+| **Miyuki III** | 141 120 | 250 | 7 | 7 | 3 / 3 / 2 | +10,25 % | +4,04 % |
+| **Miyuki IV** | 148 176 | 300 | 8 | 8 | 3 / 3 / 2 | +15,76 % | +6,12 % |
+| **Miyuki V** | 155 585 | 300 | 9 | 9 | 4 / 4 / 4 | +21,55 % | +8,24 % |
 
 La capacité du bouclier et l’absorption du bouclier sont des bonus par rapport au niveau I.
 
@@ -63,11 +63,13 @@ Les compétences du Miyuki appartiennent au vaisseau, pas à un objet : elles n
 
 Un lien dure 5 secondes et atteint un vaisseau de votre groupe ou de votre corporation à moins de 1 200 unités. Le Heal Pod porte à 600. Un Channel Shield rend en plus de ses points, chaque seconde, une part du bouclier maximum propre à chaque vaisseau : 3 % au niveau III, 4 % au niveau IV et 5 % au niveau V (le pourcentage du tableau).
 
+Votre aptitude de pilote [Soins](/wiki/03-Mechanics/Pilot-Skills.md) agit sur les trois : au niveau 100, elle rend le Heal Pod, le Channel Heal et le Channel Shield (leurs points et leur part du bouclier maximum) 30 % plus forts et raccourcit leurs attentes de 10 %, si bien qu’un Channel Heal qui se repose 100 secondes n’en attend plus que 90. Les tableaux ci-dessus donnent les chiffres sans elle.
+
 ## Recherche {#research}
 
 - **Niveaux.** Miyuki II à V sont des technologies à part dans le Skylab, chacune derrière le niveau précédent : 1 j pour II et III, 2 j pour IV et V, et 10 Dark Matter chacune. Dans la vue Recherche, les cinq niveaux sont dessinés l’un sous l’autre, avec une flèche de chaque niveau vers le suivant : on recherche le II après le I, le III après le II, le IV après le III et le V après le IV.
 - **Emplacements.** Les emplacements de blindage, les emplacements laser à partir du sixième et les emplacements de générateur à partir du neuvième sont des technologies à part dans le Skylab, de 1 h et 10 Dark Matter chacune : emplacements de blindage 1 à 9 dans l’ordre à partir du premier, emplacements laser 6 à 9 (chacun derrière son niveau) et emplacements de générateur 9 à 12 (chacun derrière le niveau V). Un emplacement s’ouvre sur le vaisseau, quel que soit son niveau, dès que vous l’avez recherché ; celui que vous n’avez pas encore recherché apparaît verrouillé dans le Hangar.
-- **Emplacements de blindage.** Le Miyuki a 5 [emplacements de blindage](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) pour du [blindage de coque](/wiki/06-Items/Hull-Plating.md) au niveau I et 9 au niveau V, tous verrouillés quand vous le fabriquez. Avec les 9 remplis de Hull Plating III, ils ajoutent 225 000 de coque.
+- **Emplacements de blindage.** Le Miyuki a 5 [emplacements de blindage](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) pour du [blindage de coque](/wiki/06-Items/Hull-Plating.md) au niveau I et 9 au niveau V, tous verrouillés quand vous le fabriquez. Avec les 9 remplis de Hull Plating III, ils ajoutent 180 000 de coque.
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

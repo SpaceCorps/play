@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ff5c11c45c5ccbf6 -->
+<!-- wiki-i18n source: 89b28eb0b5f250b5 -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon
 
@@ -27,7 +27,7 @@ Paragon, dengeli bir savunma ve saldırı için tasarlanmış ağır bir muhareb
 
 ## Araştırma {#research}
 
-- **Gövde plakası yuvaları.** Paragon gemisinin [Gövde Kaplaması](/wiki/06-Items/Hull-Plating.md) için 5 [gövde plakası yuvası](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) vardır; gemiyi ürettiğinde hepsi kilitlidir. Her biri Skylab’da kendi başına bir teknolojidir (1 sa ve 10 Dark Matter) ve ilkinden başlayarak sırayla araştırılır; araştırıldığında o yuvayı Paragon gemisinde ve tüm tasarımlarında açar. 5 yuvanın hepsi Hull Plating III ile dolduğunda 125.000 gövde ekler.
+- **Gövde plakası yuvaları.** Paragon gemisinin [Gövde Kaplaması](/wiki/06-Items/Hull-Plating.md) için 5 [gövde plakası yuvası](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) vardır; gemiyi ürettiğinde hepsi kilitlidir. Her biri Skylab’da kendi başına bir teknolojidir (1 sa ve 10 Dark Matter) ve ilkinden başlayarak sırayla araştırılır; araştırıldığında o yuvayı Paragon gemisinde ve tüm tasarımlarında açar. 5 yuvanın hepsi Hull Plating III ile dolduğunda 100.000 gövde ekler.
 - **Tasarımlar.** Paragon gemisinin 3 [tasarımı](/wiki/03-Mechanics/Ship-Designs.md) vardır. Birini araştır (10 sa ve 10 Dark Matter), sonra Montaj’da Paragon gemini o tasarıma dönüştür: değişiklik geri alınamaz.
 
 | Tasarım | Neyi değiştirir |

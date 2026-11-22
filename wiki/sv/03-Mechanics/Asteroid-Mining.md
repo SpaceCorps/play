@@ -73,7 +73,7 @@ En dockad **Mole** (en [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole)-typ) arbeta
 - Betalningen är densamma för alla: ingen Premium-bonus, säsongsbutiksboost, klanboost, Loot Luck eller booster ändrar krediterna, Thulium eller fynden. [Resource Magnet Booster](/wiki/06-Items/Boosters.md) lägger till resurserna i en malmbit när du plockar upp den, som i vilken låda som helst.
 - Pansaret drar sina poäng från varje träff, men minst 20 % av en träff går alltid igenom.
 - En områdesexplosion gör 1,6 gånger så mycket mot en spröd asteroid som mot vilken annan som helst.
-- En asteroid står aldrig närmare än 1 500 enheter från kanten av en säker ring, 5 000 enheter från det svarta hålets mitt eller 600 enheter från kartans kant, och den dyker aldrig upp närmare än 1 200 enheter från en pilot.
+- En asteroid står aldrig närmare än 1 550 enheter från kanten av en säker ring, 5 000 enheter från det svarta hålets mitt eller 600 enheter från kartans kant, och den dyker aldrig upp närmare än 1 200 enheter från en pilot.
 - Efter en sprängning växer en asteroid av samma sort fram igen på ett annat ställe på kartan efter tiden på sektorns rad, plus eller minus 25 %.
 - Motherlode kommer tillbaka efter 1 h, i vilken sektor som helst.
 

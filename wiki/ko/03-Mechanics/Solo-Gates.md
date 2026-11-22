@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 0b67d55ade0b37c6 -->
+<!-- wiki-i18n source: 6fe66f282236a0de -->
 <!-- wiki-i18n title: 솔로 게이트 -->
 # 솔로 게이트 {#solo-gates}
 
-<!-- wiki-search: solo gates; solo gate; gate; gates; galaxy gates; rift; rifts; alpha rift; beta breach; gamma foundry; delta siege; omega vault; chrono gate; chrono-gate; materializer; energy materializer; scan; spin; gate part; gate parts; guarantee; pity; consolation; wave; waves; nuke wave; skip; boss; lives; resume; abandon; speedrun; no death; challenge; achievement; thulium cap; 솔로 게이트; 게이트; 갤럭시 게이트; 부품; 게이트 부품; 에너지 물질화 장치; 스핀; 보장; 웨이브; 목숨; 이어하기; 포기; 무사망; 도전; 도전 과제; Thulium 상한 -->
+<!-- wiki-search: solo gates; solo gate; gate; gates; galaxy gates; rift; rifts; alpha rift; beta breach; gamma foundry; delta siege; omega vault; chrono gate; chrono-gate; materializer; energy materializer; scan; spin; gate part; gate parts; guarantee; pity; consolation; wave; waves; nuke wave; skip; boss; lives; resume; abandon; speedrun; no death; challenge; achievement; thulium cap; davidski's nightmare; nightmare; evil davidski; angry davidski; evil ships; golden ships; 솔로 게이트; 게이트; 갤럭시 게이트; 부품; 게이트 부품; 에너지 물질화 장치; 스핀; 보장; 웨이브; 목숨; 이어하기; 포기; 무사망; 도전; 도전 과제; Thulium 상한; evil 함선; 금빛 함선; 분노한 davidski -->
 
-**솔로 게이트**는 갤럭시 게이트 가운데 혼자 날아 들어가는 다섯 게이트입니다. **Alpha Rift**, **Beta Breach**, **Gamma Foundry**, **Delta Siege**, **Omega Vault**가 있습니다. 각각 자기만의 텅 빈 경기장이며, 외계인 웨이브가 차례로 몰려오고 끝에는 보스가 기다립니다. 게이트는 **부품**으로 건설하며, 부품은 Thulium으로 에너지 물질화 장치를 스핀해서 찾습니다. 클리어하면 크레딧, Thulium, 경험치, 명예, 광석, 플레이트, 탄약이 지급됩니다.
+**솔로 게이트**는 갤럭시 게이트 가운데 혼자 날아 들어가는 다섯 게이트입니다. **Alpha Rift**, **Beta Breach**, **Gamma Foundry**, **Delta Siege**, **Omega Vault**가 있습니다. 각각 자기만의 텅 빈 경기장이며, 외계인 웨이브가 차례로 몰려오고 끝에는 보스가 기다립니다. **Davidski's Nightmare**는 그 다섯 게이트와 별개인 여섯 번째 게이트입니다. 웨이브가 외계인이 아니라 당신을 향해 날아오는 게임 속 함선인 **Evil 함선**이며, 건설 비용이 가장 비싼 게이트입니다. 게이트는 **부품**으로 건설하며, 부품은 Thulium으로 에너지 물질화 장치를 스핀해서 찾습니다. 클리어하면 크레딧, Thulium, 경험치, 명예, 광석, 플레이트, 탄약이 지급됩니다.
 
 솔로 게이트는 [클랜 던전](/wiki/03-Mechanics/Dungeons.md)이 아닙니다. 던전은 클랜이 그룹을 위해 여는 미로이고 끝에 워로드가 있으며, 솔로 게이트는 당신 혼자만 있는 경기장으로 다른 누구도 함께 들어올 수 없습니다. 둘은 규칙, 보상, 제한이 따로입니다. 갤럭시 게이트 페이지에는 **Chrono-Gate**도 있는데, 날아 들어가는 곳이 아니라 초기화를 위해 당신의 [수송 보관함](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-)을 여는 게이트이며, 그 부품도 같은 스핀으로 찾습니다.
 
@@ -14,7 +14,7 @@
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
 
 - **게이트**: 7: Chrono-Gate와 솔로 게이트 6개, Alpha Rift, Beta Breach, Gamma Foundry, Delta Siege, Omega Vault와 Davidski's Nightmare
-- **스핀**: 스핀 한 번에 Thulium 100, 한 번에 1, 5, 10 또는 100회 스핀
+- **스핀**: 스핀 한 번에 Thulium 100, 한 번에 1, 5, 10, 100 또는 1,000회 스핀
 - **부품 확률**: 스핀당 13%, 어느 카테고리를 스핀하든 같습니다. 부품은 그 카테고리의 게이트 중 하나에 속하며 확률은 모두 같습니다. 게이트별 확률은 다음과 같습니다. Chrono-Gate 단독: 전부, Alpha Rift, Beta Breach와 Gamma Foundry: 각각 4.33%, Delta Siege와 Omega Vault: 각각 6.5%. Chrono-Gate가 완성되면 그 카테고리에는 스핀으로 찾을 것이 남지 않습니다
 - **보장**: 부품 없이 스핀이 24번 연속되면 스핀마다 확률이 오르고, 47번 뒤에는 다음 스핀이 반드시 부품을 찾습니다. 어느 게이트의 부품이든 횟수가 처음으로 돌아갑니다
 - **목숨**: 한 번의 도전에 3. 죽을 때마다 하나씩 줄어듭니다
@@ -28,7 +28,7 @@
 
 ## 게이트 부품 찾기 {#finding-gate-parts}
 
-**갤럭시 게이트** 페이지를 열고 에너지 물질화 장치를 스핀합니다. 스핀은 한 번마다 Thulium으로 지불하며 부품은 많아야 하나 찾습니다. 먼저 **카테고리**를 고릅니다. **Chrono-Gate**, **Alpha–Gamma**(Alpha Rift, Beta Breach, Gamma Foundry), **Delta–Omega**(Delta Siege, Omega Vault) 중 하나입니다. 부품이 나올 확률은 어느 카테고리에서나 같고, 부품은 고른 카테고리의 게이트 중 하나에 속하며 확률은 모두 같습니다. 게이트를 건설하려면 그 게이트의 부품이 일정 수 필요하고, 부품은 쓰기 전까지 당신의 것입니다. 부품을 찾지 못한 스핀은 버려지지 않고 상품을 지급합니다([아래](#a-spin-without-a-part)). 스핀은 매번 청구됩니다. Chrono-Gate가 완성되면 그 항목은 선택할 수 없습니다. 더 찾을 것이 없기 때문입니다. 나머지 두 카테고리는 확률을 유지하므로 솔로 게이트의 부품은 Chrono-Gate가 있든 없든 같은 비용입니다.
+**갤럭시 게이트** 페이지를 열고 에너지 물질화 장치를 스핀합니다. 스핀은 한 번마다 Thulium으로 지불하며 부품은 많아야 하나 찾습니다. 먼저 **카테고리**를 고릅니다. **Chrono-Gate**, **Alpha–Gamma**(Alpha Rift, Beta Breach, Gamma Foundry), **Delta–Omega**(Delta Siege, Omega Vault), 자기만의 카테고리를 가진 **Davidski's Nightmare** 중 하나입니다. 부품이 나올 확률은 어느 카테고리에서나 같고, 부품은 고른 카테고리의 게이트 중 하나에 속하며 확률은 모두 같습니다. 게이트를 건설하려면 그 게이트의 부품이 일정 수 필요하고, 부품은 쓰기 전까지 당신의 것입니다. 부품을 찾지 못한 스핀은 버려지지 않고 상품을 지급합니다([아래](#a-spin-without-a-part)). 스핀은 매번 청구됩니다. Chrono-Gate가 완성되면 그 항목은 선택할 수 없습니다. 더 찾을 것이 없기 때문입니다. 나머지 두 카테고리는 확률을 유지하므로 솔로 게이트의 부품은 Chrono-Gate가 있든 없든 같은 비용입니다.
 
 표는 각 게이트의 부품 수와, 그 게이트가 속한 카테고리를 스핀할 때 **보장을 포함한** 평균 비용을 보여 줍니다(스핀은 추첨이므로 운 좋은 파일럿은 덜 내고 운 나쁜 파일럿은 더 내며, 보장이 허용하는 가장 긴 연속 스핀까지입니다).
 
@@ -111,7 +111,7 @@ Chrono-Gate의 부품은 초기화 때 0으로 돌아가며 시즌마다 다시 
 
 ### 웨이브 {#the-waves}
 
-외계인은 게임의 그 외계인(Seeker, Phantasm, Bulwark, Goombah, Crystalys)이며 게이트에 따라 더 단단하게 또는 더 무르게 조정됩니다. 계획 시간은 레이저 기술이 시작 레벨인 파일럿에게 게이트가 걸리도록 만들어진 시간입니다([파일럿 스킬](/wiki/03-Mechanics/Pilot-Skills.md)). 레이저 기술을 올린 파일럿은 더 일찍 끝냅니다.
+외계인은 게임의 그 외계인(Seeker, Phantasm, Bulwark, Goombah, Crystalys)이며 게이트에 따라 더 단단하게 또는 더 무르게 조정됩니다. **Davidski's Nightmare**의 웨이브는 대신 **Evil 함선**입니다. 파일럿이 몰 수 있는 선체마다 하나씩이며, Dormant 무리의 도색을 하고 있습니다. 작은 선체가 먼저 나오고, 웨이브마다 더 많고 더 큰 함선이 나와 보스 직전의 마지막 웨이브까지 이어집니다. Evil 함선은 파일럿의 함선이 갖춘 것을 갖추고 있습니다. 레이저, 몇 초마다 당신에게 쏘는 **로켓**, 아무 공격도 받지 않는 동안 선체를 수리하는 **수리 드론**입니다. 그래서 내버려 둔 함선은 회복합니다. 계획 시간은 레이저 기술이 시작 레벨인 파일럿에게 게이트가 걸리도록 만들어진 시간입니다([파일럿 스킬](/wiki/03-Mechanics/Pilot-Skills.md)). 레이저 기술을 올린 파일럿은 더 일찍 끝냅니다.
 
 일부 웨이브에는 **무리**가 나옵니다. 게임의 보스 NPC(Boss Seeker, Boss Phantasm, Boss Goombah 또는 Boss Crystalys)가 호위대를 거느리고 하나의 집단으로 공격합니다. 무리의 모든 함선은 그 웨이브의 일부이며, 마지막 함선이 파괴되면 웨이브가 끝납니다. 보상은 웨이브의 다른 함선과 같이 [외계인 표](#the-aliens)의 수치대로 지급됩니다. **보스 NPC는 게임의 섹터에서와 똑같이 전리품을 떨어뜨립니다**. 광석, 플레이트, 탄약, 로켓입니다(무엇을 떨어뜨리는지는 [무리의 페이지](/wiki/05-Swarms/Swarms.md)에 있습니다). 게이트에는 주워야 할 상자가 없습니다. 전리품은 보상과 함께 바로 인벤토리로 들어오며, 보상처럼 런마다 한 번만 들어옵니다. 호위대는 게이트에서도 섹터에서도 아무것도 떨어뜨리지 않고, 보스를 치료하지도 돌아오지도 않습니다. 각 게이트의 어느 웨이브에 무리가 나오는지는 아래의 표에 나와 있습니다.
 
@@ -135,6 +135,8 @@ Chrono-Gate의 부품은 초기화 때 0으로 돌아가며 시즌마다 다시 
 ### 보스 {#the-bosses}
 
 보스는 외계인의 함선을 키운 것으로, 선체, 실드, 일제 사격이 따로 있으며 게이트나 월드의 어떤 설정도 이를 바꾸지 않습니다. 보스의 선체가 표의 수치로 내려가면 페이즈가 시작됩니다. 실드가 다시 설정될 수 있고, 일제 사격이나 모든 피해가 바뀌며, 기술을 시작할 수 있습니다. 모든 기술은 예고됩니다. 원, 고리, 또는 당신의 함선 위의 표시가 떨어지기 직전에 알려 줍니다. 보스가 부르는 외계인은 보상도 드롭도 없습니다.
+
+**Evil Davidski**는 Davidski's Nightmare의 보스로, Davidski 본인의 Ironclad를 더 어두운 금색으로 칠해 몰고 나옵니다. 먼 거리까지 당신을 따라오는 유도 로켓인 Dormant Lance를 쏘고, 메테오와 고리, 그가 부르는 Evil 함선으로 싸웁니다. 선체가 절반이 되면 **분노한 DAVIDSKI**가 됩니다. 그의 테마곡이 흐르고, 더 세게 때리며, 그의 주위에 **게임 속 모든 함선의 금빛 함선**이 나타납니다. 금빛 함선이 하나라도 살아 있는 동안에는 그에게 전혀 피해를 줄 수 없습니다. 레이저와 로켓은 그를 조준 고정할 수 없고, 무엇을 해도 그의 선체나 실드에 닿지 않으므로 먼저 금빛 함선을 뚫고 나가야 합니다. 마지막 하나가 쓰러지면 보호는 영구히 사라집니다. 그는 매 웨이브가 시작될 때 자신의 창에서 당신을 조롱합니다. 그를 쓰러뜨리면 Davidski 처치를 요구하는 임무에서 위험 섹터에서와 마찬가지로 게이트에서도 처치로 인정됩니다. 최신 버전이 아닌 게임에는 이 게이트가 표시되지 않습니다.
 
 <!-- solo-bosses:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->

@@ -12,7 +12,7 @@ A solo gate is not a [clan dungeon](/wiki/03-Mechanics/Dungeons.md). A dungeon i
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
 
 - **Gates**: 7: the Chrono-Gate and 6 solo gates, Alpha Rift, Beta Breach, Gamma Foundry, Delta Siege, Omega Vault and Davidski's Nightmare
-- **Spin**: 100 Thulium for each spin, and 1, 5, 10 or 100 spins at a time
+- **Spin**: 100 Thulium for each spin, and 1, 5, 10, 100 or 1,000 spins at a time
 - **Chance of a part**: 13% a spin, in whichever category you scan. The part belongs to one of the gates of that category, all equally likely: the Chrono-Gate alone gets all of it, Alpha Rift, Beta Breach and Gamma Foundry get 4.33% each, and Delta Siege and Omega Vault get 6.5% each. Once the Chrono-Gate is complete there is nothing left to scan in its category
 - **Guarantee**: After 24 spins in a row without a part the chance rises with every spin, and after 47 the next spin always finds one. A part of any gate starts the count again
 - **Lives**: 3 in an attempt; every death costs one

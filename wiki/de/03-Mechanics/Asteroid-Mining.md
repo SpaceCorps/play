@@ -73,7 +73,7 @@ Ein angedockter **Mole** (ein [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole)-Typ)
 - Die Bezahlung ist für alle gleich: Kein Premium-Bonus, Saison-Shop-Boost, Clan-Boost, Loot Luck und kein Booster ändert die Credits, das Thulium oder die Funde. Der [Resource Magnet Booster](/wiki/06-Items/Boosters.md) erhöht beim Einsammeln die Ressourcen eines Erzbrockens, wie bei jeder Kiste.
 - Die Panzerung nimmt von jedem Treffer ihre Punkte ab, aber mindestens 20 % eines Treffers kommen immer durch.
 - Eine Flächenexplosion richtet bei einem spröden Asteroiden das 1,6-Fache an wie bei jedem anderen.
-- Ein Asteroid steht nie näher als 1.500 Einheiten am Rand eines Schutzrings, 5.000 Einheiten am Zentrum des Schwarzen Lochs oder 600 Einheiten am Kartenrand, und er erscheint nie näher als 1.200 Einheiten an einem Piloten.
+- Ein Asteroid steht nie näher als 1.550 Einheiten am Rand eines Schutzrings, 5.000 Einheiten am Zentrum des Schwarzen Lochs oder 600 Einheiten am Kartenrand, und er erscheint nie näher als 1.200 Einheiten an einem Piloten.
 - Nach dem Zerbrechen wächst ein Asteroid derselben Art an anderer Stelle der Karte wieder nach, nach der Zeit aus der Zeile des Sektors, plus oder minus 25 %.
 - Motherlode kommt nach 1 h zurück, in jedem Sektor.
 

@@ -2,7 +2,7 @@
 
 <!-- wiki-search: hull plate; hull plate slot; hull plate slots; plate slot; plate; armour; armor; hpl -->
 
-The study of the Dormant swarm showed advancements in armour technology. Using this technology, ships are able to improve their hull: **Hull Plating** is armour that fits a hull plate slot of a crafted ship and adds hull points to it. It is not the Hull Plating **Booster** of the [Boosters](/wiki/06-Items/Boosters.md) page, which is a timed bonus.
+The study of the Dormant swarm showed advancements in armour technology. Using this technology, ships are able to improve their hull: **Hull Plating** is armour that fits a hull plate slot of a ship and adds hull points to it. It is not the Hull Plating **Booster** of the [Boosters](/wiki/06-Items/Boosters.md) page, which is a timed bonus.
 
 ![The Hull plates card of the Hangar: the slots researched hold Hull Plating, the others show a padlock](../img/wiki-img/shots/hull-plates.jpg)
 
@@ -26,26 +26,27 @@ Hull Plating I => Hull Plating II => Hull Plating III
 
 | Item | Hull it adds | Where it comes from |
 | :--- | ---: | :--- |
-| **Hull Plating I** | 8,000 | Shop, 5,000 Thulium |
-| **Hull Plating II** | 15,000 | Assembly, from a Hull Plating I |
-| **Hull Plating III** | 25,000 | Assembly, from a Hull Plating II |
+| **Hull Plating I** | 7,000 | Shop, 5,000 Thulium |
+| **Hull Plating II** | 14,000 | Assembly, from a Hull Plating I |
+| **Hull Plating III** | 20,000 | Assembly, from a Hull Plating II |
 
 Hull Plating I is bought. **II and III are upgrades**: Assembly uses up one plating of the tier below (loose in your inventory) and asks for Thulium, materials and **Dark Matter Plates**, 5 for the II and 8 for the III, where the last tier of any other piece of equipment asks 4 and an Ancient Control Unit. Each one needs its technology first, in the Hull Plating tree of the [Research](/wiki/03-Mechanics/Research.md#tree-hull-plating) page: 1 day and 25 Dark Matter for the II, 2 days and 40 for the III, on top of the technology of the Dark Matter Plate itself. The tree above has the prices, the materials and the times.
 
-The [Forge](/wiki/06-Items/Forge.md) takes every plating, and an upgrade keeps the Forge tier and the buff of the plating it used up. A plating has one stat, its hull, so it holds one buff, +2% to +15% by tier: a Hull Plating III at Ascendant adds up to 28,750. The [Auction](/wiki/03-Mechanics/Auction.md) lists Hull Plating II and III, never Hull Plating I, which the Shop sells.
+The [Forge](/wiki/06-Items/Forge.md) takes every plating, and an upgrade keeps the Forge tier and the buff of the plating it used up. A plating has one stat, its hull, so it holds one buff, +2% to +15% by tier: a Hull Plating III at Ascendant adds up to 23,000. The [Auction](/wiki/03-Mechanics/Auction.md) lists Hull Plating II and III, never Hull Plating I, which the Shop sells.
 
 ## Hull plate slots
 
-Hull Plating fits only in **hull plate slots**, a kind of slot of its own that the four ships you craft in Assembly have besides their laser, generator, extra, ability and drone slots:
+Hull Plating fits only in **hull plate slots**, a kind of slot of its own that every ship has besides its laser, generator, extra, ability and drone slots. The ships you craft in Assembly have the most: the four in the table, and the [Miyuki](/wiki/02-Ships/Miyuki.md) with 5 to 9, one more with each level:
 
 | Ship | Hull plate slots | A full set of Hull Plating III adds |
 | :--- | ---: | ---: |
-| **Paragon** | 5 | 125,000 |
-| **Storm** | 8 | 200,000 |
-| **Ironclad** | 15 | 375,000 |
-| **Wraith** | 10 | 250,000 |
+| **Paragon** | 5 | 100,000 |
+| **Storm** | 8 | 160,000 |
+| **Ironclad** | 15 | 300,000 |
+| **Wraith** | 10 | 200,000 |
 
-- **All locked at first.** A slot opens when you research it in the Skylab: one technology for each slot, 1 hour and 10 Dark Matter, in order from the first. The [Research](/wiki/03-Mechanics/Research.md#ship-technologies) view shows a ship's slots as one card with a pip for each.
+- **Locked at first on a crafted ship.** A slot opens when you research it in the Skylab: one technology for each slot, 1 hour and 10 Dark Matter, in order from the first. The [Research](/wiki/03-Mechanics/Research.md#ship-technologies) view shows a ship's slots as one card with a pip for each.
+- **The Shop's four ships have three, open from the start.** The Protos, Kitefin, Ostirion and Nomad each have 3 hull plate slots and nothing to research: they are open from the first flight. A full set of Hull Plating III adds 60,000 to each of them.
 - **A kind of ship, not one ship.** The slots you opened for the Paragon are open on every Paragon design too ([Ship Designs](/wiki/03-Mechanics/Ship-Designs.md)). A technology is yours for good: the wipe keeps it.
 - **Both configurations share them.** The plates belong to the ship: swapping configuration leaves them on, and the Hangar shows the same plates in both.
 - **Any mix.** A slot takes any Hull Plating, and two of a kind are fine.
@@ -60,4 +61,4 @@ A plate adds its hull to the ship's own, and the Hangar and the Ship window show
 
 ## Hull Plating or Hull Plating Booster? {#hull-plating-or-booster}
 
-Two things share the name. **Hull Plating** (this page) is armour: a plate that sits in a hull plate slot of a crafted ship and adds its hull for as long as it is fitted. The **Hull Plating Booster** is a timed bonus of the [Boosters](/wiki/06-Items/Boosters.md) page, +10% max hitpoints for 10 hours on whatever ship you fly, and has nothing to fit. They add up: the plates come first and the Booster's 10% is taken from the total.
+Two things share the name. **Hull Plating** (this page) is armour: a plate that sits in a hull plate slot of a ship and adds its hull for as long as it is fitted. The **Hull Plating Booster** is a timed bonus of the [Boosters](/wiki/06-Items/Boosters.md) page, +10% max hitpoints for 10 hours on whatever ship you fly, and has nothing to fit. They add up: the plates come first and the Booster's 10% is taken from the total.

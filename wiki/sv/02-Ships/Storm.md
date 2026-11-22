@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4f623748df04b99c -->
+<!-- wiki-i18n source: d81d149a539b43ee -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
@@ -27,7 +27,7 @@ Storm är en jagare av glaskanonstyp: den högsta grundhastigheten och flest las
 
 ## Forskning {#research}
 
-- **Pansarplatser.** Det här skeppet har 8 [pansarplatser](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) för [skrovpansar](/wiki/06-Items/Hull-Plating.md), alla låsta när du tillverkar det. Var och en är en egen teknologi i Skylab, 1 h och 10 Dark Matter, som du forskar fram i ordning från den första; den öppnar den platsen på skeppet och på var och en av dess designer. Alla 8 fyllda med Hull Plating III ger 200 000 skrov.
+- **Pansarplatser.** Det här skeppet har 8 [pansarplatser](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) för [skrovpansar](/wiki/06-Items/Hull-Plating.md), alla låsta när du tillverkar det. Var och en är en egen teknologi i Skylab, 1 h och 10 Dark Matter, som du forskar fram i ordning från den första; den öppnar den platsen på skeppet och på var och en av dess designer. Alla 8 fyllda med Hull Plating III ger 160 000 skrov.
 - **Designer.** Skeppet har 3 [designer](/wiki/03-Mechanics/Ship-Designs.md). Forska fram en (10 h och 10 Dark Matter) och bygg sedan om ditt skepp till den i Monteringen: ändringen kan inte ångras.
 
 | Design | Vad den ändrar |

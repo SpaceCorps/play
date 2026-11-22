@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d64f7bbe1a7fadf7 -->
+<!-- wiki-i18n source: cd97e3b7b68a76f0 -->
 <!-- wiki-i18n title: Protos -->
 # Protos
 
@@ -10,6 +10,7 @@ Die Protos ist das einfache Startschiff, das jeder neue Pilot in SpaceCorps beko
 - **Grundtempo**: 190
 - **Laser-Slots**: 2
 - **Extra-Slots**: 2
+- **Panzerungs-Slots**: 3
 
 ### Generator- und Support-Slots {#generator-support-slots}
 
@@ -25,6 +26,12 @@ Die Protos ist das einfache Startschiff, das jeder neue Pilot in SpaceCorps beko
 - **Thulium**: 0
 
 ## Forschung {#research}
+
+- **Design.** Die Protos hat 1 [Design](/wiki/03-Mechanics/Ship-Designs.md). Erforsche es (10 h und 10 Dark Matter) und baue deine Protos dann in der Montage darauf um. Der Umbau ist endgültig, und die Protos ist das einzige Schiff, das du nicht noch einmal bekommen kannst: Sie lässt sich nicht herstellen, der Shop führt sie auf, verkauft sie aber nie, und nur ein neues Konto startet mit einer. Wenn du deine Protos umbaust, hast du danach eine Protosaur und keine Protos mehr.
+
+| Design | Was es ändert |
+| :--- | :--- |
+| **Protosaur** | +30 Basis-Tempo, +1 Laser-Slot, +5 Panzerungs-Slots, +1 Extra-Slot, +50 % Raketenschaden, Blink, Chameleon |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

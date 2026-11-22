@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 0b67d55ade0b37c6 -->
+<!-- wiki-i18n source: 6fe66f282236a0de -->
 <!-- wiki-i18n title: ソロゲート -->
 # ソロゲート {#solo-gates}
 
-<!-- wiki-search: solo gates; solo gate; gate; gates; galaxy gates; rift; rifts; alpha rift; beta breach; gamma foundry; delta siege; omega vault; chrono gate; chrono-gate; materializer; energy materializer; scan; spin; gate part; gate parts; guarantee; pity; consolation; wave; waves; nuke wave; skip; boss; lives; resume; abandon; speedrun; no death; challenge; achievement; thulium cap; ソロゲート; ゲート; ギャラクシーゲート; パーツ; ゲートパーツ; エネルギーマテリアライザー; スピン; 保証; ウェーブ; ライフ; 再開; 放棄; ノーデス; チャレンジ; 実績; Thulium上限 -->
+<!-- wiki-search: solo gates; solo gate; gate; gates; galaxy gates; rift; rifts; alpha rift; beta breach; gamma foundry; delta siege; omega vault; chrono gate; chrono-gate; materializer; energy materializer; scan; spin; gate part; gate parts; guarantee; pity; consolation; wave; waves; nuke wave; skip; boss; lives; resume; abandon; speedrun; no death; challenge; achievement; thulium cap; davidski's nightmare; nightmare; evil davidski; angry davidski; evil ships; golden ships; ソロゲート; ゲート; ギャラクシーゲート; パーツ; ゲートパーツ; エネルギーマテリアライザー; スピン; 保証; ウェーブ; ライフ; 再開; 放棄; ノーデス; チャレンジ; 実績; Thulium上限; Evilの船; 金色の船; 怒り狂う davidski -->
 
-**ソロゲート**は、ギャラクシーゲートのうち単独で飛ぶ5つのゲートです。**Alpha Rift**、**Beta Breach**、**Gamma Foundry**、**Delta Siege**、**Omega Vault**があります。それぞれが専用の空っぽのアリーナで、エイリアンのウェーブが次々に襲いかかり、最後にボスが待っています。ゲートは**パーツ**で建設し、パーツはThuliumでエネルギーマテリアライザーをスピンして見つけます。クリアするとクレジット、Thulium、経験値、名誉、鉱石、プレート、弾薬が支払われます。
+**ソロゲート**は、ギャラクシーゲートのうち単独で飛ぶ5つのゲートです。**Alpha Rift**、**Beta Breach**、**Gamma Foundry**、**Delta Siege**、**Omega Vault**があります。それぞれが専用の空っぽのアリーナで、エイリアンのウェーブが次々に襲いかかり、最後にボスが待っています。**Davidski's Nightmare**はこの5つとは別の6つ目のゲートです。ウェーブはエイリアンではなく、あなたに向かって飛んでくるゲーム内の船である**Evilの船**で、建設に最も費用がかかるゲートです。ゲートは**パーツ**で建設し、パーツはThuliumでエネルギーマテリアライザーをスピンして見つけます。クリアするとクレジット、Thulium、経験値、名誉、鉱石、プレート、弾薬が支払われます。
 
 ソロゲートは[クランのダンジョン](/wiki/03-Mechanics/Dungeons.md)ではありません。ダンジョンはクランがグループのために開く迷路で、最奥にウォーロードがいます。ソロゲートはあなた1人だけが入るアリーナで、ほかの誰も一緒に入れません。両者のルール、報酬、制限は別々です。ギャラクシーゲートのページには**Chrono-Gate**もあります。これは飛ぶ場所ではなく、ワイプに向けてあなたの[トランスポートキャッシュ](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-)を開くゲートで、そのパーツも同じスピンで見つかります。
 
@@ -14,7 +14,7 @@
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
 
 - **ゲート**：7：Chrono-Gateと6のソロゲート（Alpha Rift, Beta Breach, Gamma Foundry, Delta Siege, Omega Vault と Davidski's Nightmare）
-- **スピン**：1スピンあたり100 Thulium、一度に1, 5, 10または100スピンまで
+- **スピン**：1スピンあたり100 Thulium、一度に1, 5, 10, 100または1,000スピンまで
 - **パーツの確率**：1スピンあたり13%、どのカテゴリーをスピンしても同じです。パーツはそのカテゴリーのゲートのどれかに属し、どれも同じ確率です。Chrono-Gateは単独で全部を受け取り、Alpha Rift, Beta Breach と Gamma Foundryはそれぞれ4.33%、Delta Siege と Omega Vaultはそれぞれ6.5%です。Chrono-Gateが完成すると、そのカテゴリーにはスピンで見つけるものが残りません
 - **保証**：パーツなしのスピンが24回続くと、スピンごとに確率が上がり、47回続くと次のスピンは必ずパーツを見つけます。どのゲートのパーツでもカウントは最初に戻ります
 - **ライフ**：挑戦1回につき3。死亡するたびに1つ減ります
@@ -28,7 +28,7 @@
 
 ## ゲートパーツを見つける {#finding-gate-parts}
 
-**ギャラクシーゲート**のページを開き、エネルギーマテリアライザーをスピンします。スピンは1回ごとにThuliumで支払い、見つかるパーツは多くても1つです。まず**カテゴリー**を選びます。**Chrono-Gate**、**Alpha–Gamma**（Alpha Rift、Beta Breach、Gamma Foundry）、**Delta–Omega**（Delta Siege、Omega Vault）のいずれかです。パーツが出る確率はどのカテゴリーでも同じで、パーツは選んだカテゴリーのゲートのどれかに属し、どれも同じ確率です。ゲートを建設するにはそのゲートのパーツが一定数必要で、パーツは使うまであなたのものです。パーツが見つからなかったスピンは無駄になりません。賞品が支払われます（[下](#a-spin-without-a-part)）。スピンは毎回課金されます。Chrono-Gateが完成すると、その項目は選べなくなります。中に見つけるものが残っていないためです。ほかの2つのカテゴリーは確率を保つので、ソロゲートのパーツのコストはChrono-Gateの有無にかかわらず同じです。
+**ギャラクシーゲート**のページを開き、エネルギーマテリアライザーをスピンします。スピンは1回ごとにThuliumで支払い、見つかるパーツは多くても1つです。まず**カテゴリー**を選びます。**Chrono-Gate**、**Alpha–Gamma**（Alpha Rift、Beta Breach、Gamma Foundry）、**Delta–Omega**（Delta Siege、Omega Vault）、そして独自のカテゴリーを持つ**Davidski's Nightmare**のいずれかです。パーツが出る確率はどのカテゴリーでも同じで、パーツは選んだカテゴリーのゲートのどれかに属し、どれも同じ確率です。ゲートを建設するにはそのゲートのパーツが一定数必要で、パーツは使うまであなたのものです。パーツが見つからなかったスピンは無駄になりません。賞品が支払われます（[下](#a-spin-without-a-part)）。スピンは毎回課金されます。Chrono-Gateが完成すると、その項目は選べなくなります。中に見つけるものが残っていないためです。ほかの2つのカテゴリーは確率を保つので、ソロゲートのパーツのコストはChrono-Gateの有無にかかわらず同じです。
 
 表は、各ゲートに必要なパーツ数と、そのゲートのあるカテゴリーをスピンしたときの、**保証を含めた**平均コストを示します（スピンは抽選なので、運のいいパイロットは安く、運の悪いパイロットは高くつき、保証が許す最長のスピン連続までです）。
 
@@ -111,7 +111,7 @@ Chrono-Gateのパーツはワイプでゼロに戻り、毎シーズン見つけ
 
 ### ウェーブ {#the-waves}
 
-エイリアンはゲートのものと同じ（Seeker、Phantasm、Bulwark、Goombah、Crystalys）で、ゲートによって強くも弱くもなります。計画時間は、レーザー技術の初期レベルのパイロットにゲートが要求するように作られた時間です（[パイロットスキル](/wiki/03-Mechanics/Pilot-Skills.md)）。レーザー技術を育てたパイロットはもっと早く終わります。
+エイリアンはゲートのものと同じ（Seeker、Phantasm、Bulwark、Goombah、Crystalys）で、ゲートによって強くも弱くもなります。**Davidski's Nightmare**のウェーブは、代わりに**Evilの船**です。パイロットが操縦できる船体1つにつき1隻で、Dormantの群れの塗装をしています。小さな船体が先に来て、ウェーブごとに数が増え、より大きな船体が加わり、ボス前の最後のウェーブまで続きます。Evilの船はパイロットの船と同じものを積んでいます。レーザー、数秒おきにあなたへ撃ってくる**ロケット**、そして何も当たっていない間に船体を修理する**修理ドローン**です。そのため、放っておいた船は回復します。計画時間は、レーザー技術の初期レベルのパイロットにゲートが要求するように作られた時間です（[パイロットスキル](/wiki/03-Mechanics/Pilot-Skills.md)）。レーザー技術を育てたパイロットはもっと早く終わります。
 
 一部のウェーブには**群れ**が来ます。ゲームのボスNPC（Boss Seeker、Boss Phantasm、Boss Goombah、Boss Crystalys）が護衛を連れ、ひとつの集団で攻めてきます。群れの船はすべてそのウェーブの一部で、最後の1隻が倒れたときにウェーブが終わります。報酬はウェーブの他の船と同じで、[エイリアンの表](#the-aliens)の数値のとおりです。**ボスNPCは、ゲームのセクターと同じように戦利品を落とします**。鉱石、プレート、弾薬、ロケットです（何を落とすかは[群れのページ](/wiki/05-Swarms/Swarms.md)にあります）。ゲートには拾う箱はありません。戦利品は報酬と一緒に、そのままインベントリに入り、報酬と同じくランごとに1度だけです。護衛は、ゲートでもセクターでも何も落とさず、ボスを回復せず、戻ってもきません。どのゲートのどのウェーブに群れが来るかは、下の表に載っています。
 
@@ -135,6 +135,8 @@ Chrono-Gateのパーツはワイプでゼロに戻り、毎シーズン見つけ
 ### ボス {#the-bosses}
 
 ボスはエイリアンの船を大きくしたもので、船体、シールド、一斉射が専用で、ゲートやワールドの設定では変わりません。ボスの船体が表の値まで減るとフェーズが始まります。シールドが設定し直され、一斉射や全ダメージが変わり、技を始めることがあります。技はすべて予告されます。円、リング、あなたの船の上のマークが、着弾の少し前に示します。ボスが呼ぶエイリアンは、報酬もドロップもありません。
+
+**Evil Davidski**はDavidski's Nightmareのボスで、Davidski本人のIroncladをより暗い金色にした船で飛びます。誘導ロケットであるDormant Lanceを撃ち、遠くまであなたを追ってきます。また、メテオ、リング、自分が呼ぶEvilの船で戦います。船体が半分になると**怒り狂う Davidski**になり、彼のテーマ曲が流れ、攻撃が強まり、周囲に**ゲーム内のすべての船種の金色の船**が現れます。金色の船が1隻でも生きている間、彼にはまったくダメージが入りません。あなたのレーザーとロケットは彼をロックオンできず、何をしても船体にもシールドにも届かないので、まず金色の船を突破します。最後の1隻が落ちると、その保護は永久に消えます。各ウェーブの開始時に、専用のウィンドウからあなたを嘲ります。彼を倒すと、Davidskiの撃破を求めるミッションでは、危険セクターと同じくゲートでも撃破1回として数えられます。最新でないゲームにはこのゲートは表示されません。
 
 <!-- solo-bosses:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->

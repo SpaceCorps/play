@@ -132,7 +132,7 @@ Each kind in turn. The hull and shield are the usual ones times the multiplier o
 - **Looks like**: Pirate Boss
 - **Flies in packs of**: 2
 - **Pays and drops like**: Pirate Boss
-- **Rocket**: A straight rocket every 5 s, range 1,000 units
+- **Rocket**: A straight rocket every 5 s, range 1,100 units
 
 |  | Stage 1 | Stage 2 | Stage 3 |
 | :--- | ---: | ---: | ---: |
@@ -205,7 +205,7 @@ The Warlord waits in the room at the far end of the maze, and its fall is what p
 | :--- | ---: | ---: | ---: |
 | Hull | 10,000,000 | 15,000,000 | 25,000,000 |
 | Shield | 8,000,000 | 12,000,000 | 20,000,000 |
-| Laser damage (a volley a second) | 12,500–15,000 | 15,000–17,500 at each of 2 pilots | 20,000–25,000 at each of 2 pilots |
+| Laser damage (a volley a second) | 17,500–22,500 | 26,250–33,750 at each of 2 pilots | 35,000–45,000 at each of 2 pilots |
 | Speed | 120 | 120 | 120 |
 | Laser range | 1,100 | 1,100 | 1,100 |
 
@@ -258,8 +258,8 @@ The Clan dungeon window counts how many more of them have to be destroyed to ope
 | :--- | :--- | :--- | :--- |
 | **Lifesteal aura** | 8,000 a second | 10,000 a second | 12,000 a second |
 | **Meteor drop** | 6 meteors a volley, 80,000 each | 8 meteors a volley, 100,000 each | 10 meteors a volley, 120,000 each |
-| **Focus Most Wanted** | 18,750–22,500 an extra bolt at the pilot with the most damage dealt, one every 1 s | 22,500–26,250 an extra bolt at the pilot with the most damage dealt, one every 1 s | 30,000–37,500 an extra bolt at the pilot with the most damage dealt, one every 1 s |
-| **Rocket barrage** | 50,000–75,000 a rocket at every pilot, one every 15 s | 62,500–93,750 a rocket at every pilot, one every 15 s | 75,000–112,500 a rocket at every pilot, one every 15 s |
+| **Focus Most Wanted** | 26,250–33,750 an extra bolt at the pilot with the most damage dealt, one every 1 s | 39,375–50,625 an extra bolt at the pilot with the most damage dealt, one every 1 s | 52,500–67,500 an extra bolt at the pilot with the most damage dealt, one every 1 s |
+| **Rocket barrage** | 100,000–150,000 a rocket at every pilot, one every 15 s | 125,000–187,500 a rocket at every pilot, one every 15 s | 150,000–225,000 a rocket at every pilot, one every 15 s |
 | **Shield absorption** | 10,000 shield a second | 12,500 shield a second | 15,000 shield a second |
 | **Swarm assist** | 12 Goombahs | 18 Goombahs | 24 Goombahs |
 | **Zone of Chaos** | Pilots inside the ring cannot attack | Pilots inside the ring cannot attack | Pilots inside the ring cannot attack |
@@ -309,14 +309,14 @@ The cards are drawn one by one from the pool below. The chance is that of a card
 
 | Card | Stage 1 | Stage 2 | Stage 3 | Chance | Goes to |
 | :--- | ---: | ---: | ---: | ---: | :--- |
-| Thulium | 2,000 | 3,000 | 5,000 | 23.9% | Every paid pilot |
+| Thulium | 4,000 | 6,000 | 10,000 | 23.9% | Every paid pilot |
 | Velkonite Reinforced Plate | 10 | 15 | 25 | 13.65% | Every paid pilot |
 | Velkonite | 200 | 300 | 500 | 13.65% | Every paid pilot |
 | Orvium | 200 | 300 | 500 | 13.65% | Every paid pilot |
 | Ultra Core | 5,000 | 7,500 | 12,500 | 11.4% | Every paid pilot |
 | Experimental Fusion Core | 3,000 | 4,500 | 7,500 | 9.1% | Every paid pilot |
 | Dark Matter | 10 | 16 | 24 | 9.1% | Every paid pilot |
-| Dark Matter Plate | 1 | 1 | 2 | 4.55% | Every paid pilot |
+| Dark Matter Plate | 4 | 6 | 8 | 4.55% | Every paid pilot |
 | Starfire-III | – | – | 1 | 0.07% | Every paid pilot |
 | Helios Beam | – | – | 1 | 0.07% | Every paid pilot |
 | Engine III | – | – | 1 | 0.07% | Every paid pilot |
@@ -349,9 +349,9 @@ The **Orvium Reinforced Plates** and the Forge's **Echo Shards** and **Lattice S
 
 | Stage | Honor | Experience | Credits | Thulium | x4 ammo | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE ranking points |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Stage 1** | 25,000 | 600,000 | 5,000,000 | 4,000 | 4,000 | 5 | 12 | 5 | 850 |
-| **Stage 2** | 50,000 | 1,500,000 | 10,000,000 | 9,000 | 9,000 | 10 | 8 | 6 | 2,000 |
-| **Stage 3** | 100,000 | 2,400,000 | 17,500,000 | 15,000 | 15,000 | 15 | 8 | 7 | 3,400 |
+| **Stage 1** | 25,000 | 600,000 | 5,000,000 | 8,000 | 4,000 | 5 | 12 | 5 | 850 |
+| **Stage 2** | 50,000 | 1,500,000 | 10,000,000 | 18,000 | 9,000 | 10 | 8 | 6 | 2,000 |
+| **Stage 3** | 100,000 | 2,400,000 | 17,500,000 | 30,000 | 15,000 | 15 | 8 | 7 | 3,400 |
 
 - **Heartshards**: 1 with the first paid clear of each stage in a season, and a 5% chance of one more with every paid clear.
 
@@ -380,8 +380,8 @@ What a pilot can be paid in one day, and in the best week that the limits allow.
 
 | Pay for each pilot | Honor | Experience | Credits | Thulium | x4 ammo | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE ranking points |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| One day, every stage once | 175,000 | 4,500,000 | 32,500,000 | 28,000 | 28,000 | 30 | 28 | 18 | 6,250 |
-| The best week: 7 × Stage 3 and 3 × Stage 2 | 850,000 | 21,300,000 | 152,500,000 | 132,000 | 132,000 | 135 | 80 | 67 | 29,800 |
+| One day, every stage once | 175,000 | 4,500,000 | 32,500,000 | 56,000 | 28,000 | 30 | 28 | 18 | 6,250 |
+| The best week: 7 × Stage 3 and 3 × Stage 2 | 850,000 | 21,300,000 | 152,500,000 | 264,000 | 132,000 | 135 | 80 | 67 | 29,800 |
 
 The experience and the honor of a paid clear count for your PvE ranking points: one point for every 1,000 experience and one for every 100 honor.
 

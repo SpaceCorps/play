@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c91f93d3941bb3bf -->
+<!-- wiki-i18n source: dde8093210ad8db3 -->
 <!-- wiki-i18n title: Buco nero -->
 # Il buco nero {#the-black-hole}
 
@@ -15,7 +15,7 @@ Le distanze si misurano dal centro del settore, in unità di mappa. Il settore m
 
 | Anello | Distanza | Cosa succede |
 | :--- | ---: | :--- |
-| **Radiazioni** | 4.000 | La tua nave subisce danni ogni secondo, pari a una quota dei suoi punti massimi totali. Più ti avvicini, più aumentano. |
+| **Radiazioni** | 4.000 | Il tuo scafo subisce danni ogni secondo, pari a una quota del suo scafo massimo. Più ti avvicini, più aumentano. |
 | **Attrazione** | 3.000 | Il buco nero attira la tua nave verso il centro, tanto più forte quanto più ti avvicini. Una nave che non sta volando viene trascinata. |
 | **Punto di non ritorno** | da circa 800 a 2.600 | Dove l’attrazione eguaglia la velocità della tua nave. Al suo interno, anche a piena potenza, vieni risucchiato. Dipende dalla tua velocità. |
 | **Orizzonte degli eventi** | 300 | Qualsiasi nave lo raggiunga viene distrutta all’istante, qualunque siano il suo scafo e il suo scudo. |
@@ -33,7 +33,7 @@ Il buco nero non ha la stessa dimensione per tutta la stagione. Nelle ultime **7
 | **Radiazioni** | 4.000 | 5.600 | 7.200 |
 | **Anello di guida** | 4.200 | 5.880 | 7.560 |
 
-Ciò che non cambia è quanto è dura la zona alla stessa frazione del percorso verso l’interno: una nave a 3.600 unità dal centro, con il buco a 1,8 volte, sente ciò che sente una nave a 2.000 unità in un giorno normale (un’attrazione di 96 unità al secondo e il 2 % dei suoi HP al secondo). Il buco cresciuto non è più forte, è più largo, e una nave impiega 1,8 volte più tempo ad attraversarlo. Il punto di non ritorno di ogni nave è 1,8 volte più lontano. Tutte le distanze di questa pagina sono per la dimensione normale: moltiplicale per la dimensione del buco per leggere il buco cresciuto.
+Ciò che non cambia è quanto è dura la zona alla stessa frazione del percorso verso l’interno: una nave a 3.600 unità dal centro, con il buco a 1,8 volte, sente ciò che sente una nave a 2.000 unità in un giorno normale (un’attrazione di 96 unità al secondo e il 2 % del suo scafo al secondo). Il buco cresciuto non è più forte, è più largo, e una nave impiega 1,8 volte più tempo ad attraversarlo. Il punto di non ritorno di ogni nave è 1,8 volte più lontano. Tutte le distanze di questa pagina sono per la dimensione normale: moltiplicale per la dimensione del buco per leggere il buco cresciuto.
 
 - **Come lo vedi.** Per le ultime 72 ore la Dashboard ha una scheda in alto, e la vista di volo un’etichetta sopra il buco nero, che contano alla rovescia fino al reset («Reset dell’universo tra 1g 05:12:33») e dicono quante volte la sua dimensione è ora il buco; negli ultimi cinque minuti subentra il conto alla rovescia proprio del reset. Il suggerimento della minimappa nomina gli anelli della dimensione che il buco ha ora.
 - **Quando.** La dimensione dipende solo dall’orologio della stagione, quindi è la stessa in ogni mondo. Finché un amministratore tiene la stagione su un giorno, nulla è programmato e il buco resta alla sua dimensione normale; se il giorno della stagione viene spostato, il buco lo segue subito; la stagione successiva inizia con un buco normale.
@@ -42,7 +42,7 @@ Ciò che non cambia è quanto è dura la zona alla stessa frazione del percorso 
 
 ## Radiazioni {#radiation}
 
-Il danno è, ogni secondo, una **percentuale dei punti massimi totali della tua nave** (scafo più scudo), quindi a una data distanza ogni classe di nave resiste esattamente per lo stesso tempo: una Protos e una Wraith a 2.000 unità bruciano entrambe una nave piena in 50 secondi.
+Il danno è, ogni secondo, una **percentuale dello scafo massimo della tua nave** ed **esce direttamente dallo scafo**: il tuo scudo non lo assorbe. Così a una data distanza ogni classe di nave resiste esattamente per lo stesso tempo: una Protos e una Wraith a 2.000 unità bruciano entrambe uno scafo pieno in 50 secondi.
 
 | Distanza | Danno al secondo | Una nave piena resiste |
 | ---: | ---: | ---: |
@@ -54,24 +54,25 @@ Il danno è, ogni secondo, una **percentuale dei punti massimi totali della tua 
 | 700 | 11% | 9 s |
 | 300 | 24% | 4 s |
 
-Tra due righe il danno cresce in modo lineare. In punti al secondo, per gli allestimenti di serie:
+Tra due righe il danno cresce in modo lineare. In punti di scafo al secondo, per gli allestimenti di serie:
 
-| Nave | Punti max totali | A 3.500 | A 3.000 | A 2.000 | A 1.200 | A 700 |
+| Nave | Scafo max. | A 3.500 | A 3.000 | A 2.000 | A 1.200 | A 700 |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| Protos | 30.000 | 165 | 240 | 600 | 1.500 | 3.300 |
-| Kitefin | 46.000 | 253 | 368 | 920 | 2.300 | 5.060 |
-| Ostirion | 98.500 | 542 | 788 | 1.970 | 4.925 | 10.835 |
-| Nomad | 145.500 | 800 | 1.164 | 2.910 | 7.275 | 16.005 |
-| Paragon | 162.500 | 894 | 1.300 | 3.250 | 8.125 | 17.875 |
-| Storm | 228.000 | 1.254 | 1.824 | 4.560 | 11.400 | 25.080 |
-| Wraith | 304.000 | 1.672 | 2.432 | 6.080 | 15.200 | 33.440 |
-| Ironclad | 573.200 | 3.153 | 4.586 | 11.464 | 28.660 | 63.052 |
+| Protos | 8.000 | 44 | 64 | 160 | 400 | 880 |
+| Kitefin | 24.000 | 132 | 192 | 480 | 1.200 | 2.640 |
+| Ostirion | 64.000 | 352 | 512 | 1.280 | 3.200 | 7.040 |
+| Nomad | 111.000 | 611 | 888 | 2.220 | 5.550 | 12.210 |
+| Paragon | 128.000 | 704 | 1.024 | 2.560 | 6.400 | 14.080 |
+| Storm | 180.000 | 990 | 1.440 | 3.600 | 9.000 | 19.800 |
+| Wraith | 256.000 | 1.408 | 2.048 | 5.120 | 12.800 | 28.160 |
+| Ironclad | 500.000 | 2.750 | 4.000 | 10.000 | 25.000 | 55.000 |
 
-- **Prima lo subisce lo scudo**, poi lo scafo. Non è un colpo: l’assorbimento dello scudo non entra in gioco, e non si può schivare.
+- Va **direttamente allo scafo**: lo scudo non ne prende nulla, quindi una nave senza scudo perde esattamente ciò che perde una con un Heavy Shield Core. Non è un colpo: l’assorbimento dello scudo non entra in gioco, e non si può schivare.
 - Le radiazioni contano come **danno subito**: il tuo scudo non si ricarica, un Repair Drone si ferma (“Riparazioni interrotte: radiazioni.”) e non si può avviare, e una zona sicura non ti proteggerebbe prima che siano passati 5 secondi dall’ultima dose.
-- Booster e potenziamenti cambiano quanto è grande il tuo totale, non quanto resisti: il danno ne è una quota.
-- Niente rende una nave immune. Le radiazioni non sono un colpo, quindi niente le assorbe; ma le abilità continuano a funzionare: uno Shield Surge continua a ripristinare il tuo scudo e un Emergency Repair continua a curare il tuo scafo per i loro dieci secondi (non sono le riparazioni naturali che la dose interrompe). L’occultamento non nasconde la nave alle radiazioni.
-- La **Tecnica delle radiazioni**, un’abilità del pilota, abbassa la dose: la quota del tuo totale che perdi al secondo scende in linea retta dall’intero al livello 1 a 0,40 di esso al livello 100, e l’indicatore mostra la dose che subisci davvero.
+- Booster e potenziamenti cambiano quanto è grande il tuo scafo, non quanto resisti: il danno ne è una quota.
+- Niente rende una nave immune. Le radiazioni non sono un colpo, quindi niente le assorbe, lo scudo meno di tutto; ma le abilità continuano a funzionare: un Emergency Repair continua a curare il tuo scafo per i suoi dieci secondi (non è una delle riparazioni naturali che la dose interrompe) e uno Shield Surge continua a ripristinare uno scudo che le radiazioni non toccano mai. L’occultamento non nasconde la nave alle radiazioni.
+- La **Tecnica delle radiazioni**, un’abilità del pilota, abbassa la dose: la quota del tuo scafo che perdi al secondo scende in linea retta dall’intero al livello 1 a 0,40 di esso al livello 100, e l’indicatore mostra la dose che subisci davvero.
+- La **N.U.K.E.** e la **Gravitational N.U.K.E.** lasciano dove esplodono zone di radiazioni proprie, che bruciano lo scafo allo stesso modo: [Razzi](/wiki/06-Items/Rockets.md#the-craft-only-rockets) le descrive.
 
 ## L’attrazione {#the-pull}
 
@@ -131,7 +132,7 @@ La visuale è piccola (circa 1.900 per 1.150 unità sullo schermo con lo zoom pr
 
 - **Da lontano.** Se inclini la camera verso il basso per guardare lungo il piano, il buco nero viene disegnato dove si trova sullo schermo, da qualsiasi punto del settore, ogni volta che è nell’inquadratura: un disco nero con un anello in un bagliore di luce di accrescimento, in una scala che lo mantiene ben visibile (circa il 2% dell’altezza della visuale dall’angolo più lontano, che dista circa 18.000 unità), e man mano che ti avvicini diventa la sua vera immagine. Niente in esso si muove da solo. Con il buco nero fuori dalla visuale non c’è sullo schermo alcun indicatore che lo segnali.
 - **Anelli sul piano di volo.** Una fascia viola si illumina fino a un bordo netto al limite delle radiazioni (4.000 unità), e una più sottile color ambra segna il bordo dell’attrazione (3.000). Dentro l’attrazione una **linea rossa** mostra il *tuo* punto di non ritorno. Segue la tua velocità, quindi si sposta man mano che la tua nave diventa più veloce o più lenta.
-- **L’indicatore**, sopra la barra rapida, compare entro mille unità dal bordo e resta finché bruci. Mostra le radiazioni in percentuale dei punti totali della tua nave al secondo, quanto impiegherebbero le sole radiazioni a bruciare ciò che resta (“Letale tra 31 s”, in rosso sotto i dieci), una barra di quei punti, l’attrazione dove ti trovi contro la tua velocità e la distanza che ti separa ancora dal tuo punto di non ritorno, oppure un avviso lampeggiante una volta che l’hai superato. Passa il puntatore su una riga per sapere cosa significa; la (i) apre una scheda.
+- **L’indicatore**, sopra la barra rapida, compare entro mille unità dal bordo e resta finché bruci. Mostra le radiazioni in percentuale dello scafo massimo della tua nave al secondo, quanto impiegherebbero le sole radiazioni a bruciare ciò che resta del tuo scafo (“Letale tra 31 s”, in rosso sotto i dieci), una barra di quello scafo, l’attrazione dove ti trovi contro la tua velocità e la distanza che ti separa ancora dal tuo punto di non ritorno, oppure un avviso lampeggiante una volta che l’hai superato. Passa il puntatore su una riga per sapere cosa significa; la (i) apre una scheda.
 - **I bordi dello schermo** si illuminano di viola, virano al rosso man mano che la dose sale e pulsano una volta al secondo.
 - **La minimappa** disegna il buco nero con i suoi anelli come ellissi (la mappa si allunga con la sua finestra), e il suo suggerimento indica i raggi. La mappa stellare segna il settore con un piccolo buco nero.
 - **Un contatore di radiazioni** ticchetta più in fretta man mano che la dose sale, sopra i rumori del combattimento. Un avviso a due toni suona quando superi il bordo e di nuovo al tuo punto di non ritorno, e un rombo basso si sente da circa 6.500 unità, tanto più profondo quanto più sei vicino.
@@ -156,8 +157,8 @@ Sei nuovo con la Dark Matter? [Dark Matter e Dark Matter Plate](/wiki/03-Mechani
 
 Il buco restituisce **Dark Matter** per ogni razzo **N.I.K.E.** che lo raggiunge. Il N.I.K.E. è un razzo da 67.500 a 75.000 danni che colpisce la prima nave che può danneggiare e si esaurisce su di essa; se non c’è niente sulla sua strada, vola fino al buco e si consuma quando attraversa l’orizzonte degli eventi. L’[Assemblaggio](/wiki/06-Items/Rockets.md) produce i N.I.K.E. quando la loro tecnologia è ricercata ([Ricerca](/wiki/03-Mechanics/Research.md)), cinque per creazione (100.000 crediti, 1.500 Thulium, 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite).
 
-- **Lancio.** Un N.I.K.E. percorre 4.050 unità in 4,5 secondi (900 al secondo) dritto verso il punto in cui hai mirato: senza un bersaglio selezionato, metti il cursore sul buco nero (o punta la nave verso di esso). Raggiunge l’orizzonte da qualsiasi punto tra il bordo delle radiazioni (4.000 unità) e 4.380 unità dal centro. Più lontano non ci arriva e va sprecato. Come ogni razzo usa il timer condiviso, e dopo devi aspettare 4,6 secondi per il razzo successivo (non serve alcun laser montato); lanciarlo pone fine alla protezione della zona sicura e al tuo occultamento. **Una nave sulla traiettoria lo prende al posto del buco**: un rivale in attesa sul bordo, o un pilota di un’altra corporazione che raccoglie casse lungo la traiettoria, viene colpito per un danno da 67.500 a 75.000 e il buco non riceve nulla. Alieni e piloti di corporazione non entrano mai nell’anello, quindi tenere libera la traiettoria spetta a te; il razzo attraversa il tuo gruppo e le navi che non puoi danneggiare; un pilota della tua corporazione che non è nel tuo gruppo è una nave come le altre, dove il PvP è attivo. Se lasci la mappa dopo il lancio, prosegue senza ferire nessuno e produce comunque la tua Dark Matter. Una formazione di droni può cambiare il danno del colpo, ma non l’attesa dopo un N.I.K.E. (vedi [Formazioni di droni e razzi](/wiki/06-Items/Rockets.md#drone-formations-and-rockets)).
-- **Cosa torna indietro.** Ogni N.I.K.E. che raggiunge l’orizzonte dà **1, 2 o 3 Dark Matter** (2 in media, quindi circa cinque N.I.K.E. ne fanno dieci), in piccole casse, una per ogni unità (quindi da una a tre casse), che compaiono sul bordo della zona del buco, **tra 3.050 e 3.950 unità dal centro**, vicino alla linea da cui è arrivato il tuo colpo. L’attrazione finisce a 3.000, quindi le casse e le navi che le raccolgono non vengono attirate, e lì le radiazioni valgono dallo 0,3 allo 0,8% dei punti di una nave al secondo: un minuto a metà della fascia costa un terzo della tua nave. Lì una nave piena resiste tre minuti.
+- **Lancio.** Un N.I.K.E. percorre 4.455 unità in 4,5 secondi (1000 al secondo) dritto verso il punto in cui hai mirato: senza un bersaglio selezionato, metti il cursore sul buco nero (o punta la nave verso di esso). Raggiunge l’orizzonte da qualsiasi punto tra il bordo delle radiazioni (4.000 unità) e 4.785 unità dal centro. Più lontano non ci arriva e va sprecato. Come ogni razzo usa il timer condiviso, e dopo devi aspettare 4,6 secondi per il razzo successivo (non serve alcun laser montato); lanciarlo pone fine alla protezione della zona sicura e al tuo occultamento. **Una nave sulla traiettoria lo prende al posto del buco**: un rivale in attesa sul bordo, o un pilota di un’altra corporazione che raccoglie casse lungo la traiettoria, viene colpito per un danno da 67.500 a 75.000 e il buco non riceve nulla. Alieni e piloti di corporazione non entrano mai nell’anello, quindi tenere libera la traiettoria spetta a te; il razzo attraversa il tuo gruppo e le navi che non puoi danneggiare; un pilota della tua corporazione che non è nel tuo gruppo è una nave come le altre, dove il PvP è attivo. Se lasci la mappa dopo il lancio, prosegue senza ferire nessuno e produce comunque la tua Dark Matter. Una formazione di droni può cambiare il danno del colpo, ma non l’attesa dopo un N.I.K.E. (vedi [Formazioni di droni e razzi](/wiki/06-Items/Rockets.md#drone-formations-and-rockets)).
+- **Cosa torna indietro.** Ogni N.I.K.E. che raggiunge l’orizzonte dà **1, 2 o 3 Dark Matter** (2 in media, quindi circa cinque N.I.K.E. ne fanno dieci), in piccole casse, una per ogni unità (quindi da una a tre casse), che compaiono sul bordo della zona del buco, **tra 3.050 e 3.950 unità dal centro**, vicino alla linea da cui è arrivato il tuo colpo. L’attrazione finisce a 3.000, quindi le casse e le navi che le raccolgono non vengono attirate, e lì le radiazioni valgono dallo 0,3 allo 0,8% dello scafo di una nave al secondo: un minuto a metà della fascia costa un terzo della tua nave. Lì una nave piena resiste tre minuti.
 - **Di chi sono.** Le casse sono tue, e del tuo clan, per **60 secondi** dal lancio. Dopo, chiunque sulla mappa può prenderle, e vanno alla deriva dopo **4 minuti**. Il settore pericoloso è un settore PvP, quindi aspettati compagnia. Un pilota che si disconnette dopo il lancio conserva le sue casse.
 - **Quante.** Una mappa contiene al massimo 52 casse di Dark Matter; una nuova prende il posto della più vecchia tra queste, mai di un altro tipo di cassa. Il [Resource Magnet Booster](/wiki/03-Mechanics/Cargo.md) non aggiunge nulla alla Dark Matter.
 - **Cosa vedi.** Quando un N.I.K.E. attraversa l’orizzonte viene stirato dentro il buco, lo spazio si increspa a partire dal punto in cui è entrato, e il disco e l’anello di fotoni divampano per circa un secondo e mezzo (un terzo di quel tempo, a metà luminosità, con **Riduci movimento**). Un attimo dopo le casse escono dal buco e scivolano verso i loro posti sul bordo: ognuna è una sfera viola e nera con un bordo luminoso e scintille, facile da vedere da lontano, con il titolo **Dark Matter** quando ci passi sopra il puntatore. Sopra le tue compaiono i secondi che ti restano, e appaiono sulla minimappa come un piccolo segno viola, come per il tuo clan; le casse degli altri piloti compaiono sulla minimappa solo quando il loro minuto è finito.

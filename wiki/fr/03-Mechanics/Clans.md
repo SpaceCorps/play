@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d9722fd08d8980ff -->
+<!-- wiki-i18n source: e819db509b714a18 -->
 <!-- wiki-i18n title: Clans -->
 # Clans
 
@@ -193,7 +193,7 @@ La colonne **Skylab** à côté montre où se trouve le [Skylab](/wiki/03-Mechan
 Le bouton **Qui est en ligne** de la barre d’outils système (en haut à droite) ou la touche **H** (réassignable dans Paramètres › Commandes) ouvre la fenêtre **Pilotes en ligne**.
 
 - **Qui est listé.** Les pilotes qui volent en ce moment dans **votre monde**, vous excepté : Alpha, Beta et Gamma ne se croisent pas. Un pilote dont le vaisseau occulté ne vous est pas visible n’est ni listé ni compté. La fenêtre montre au plus **100** lignes, vos camarades de clan d’abord, puis les niveaux les plus élevés, puis par nom, et le vrai nombre de pilotes en ligne en haut.
-- **Ce que montre une ligne.** Le nom, le niveau, la corporation, le tag de clan et le symbole de grade du pilote : ce que le chat et les classements montrent déjà. Jamais une position, une carte ni l’état du vaisseau.
+- **Ce que montre une ligne.** Le nom, le niveau, la corporation, le tag de clan et le symbole de grade du pilote : ce que le chat et les classements montrent déjà. Jamais une position, une carte ni l’état du vaisseau. Un **nom doré** signifie que le pilote a soutenu le jeu avec Premium à un moment donné, comme dans le chat ; une **couronne dorée** après le nom signifie que son Premium est actif en ce moment.
 - **Recherche.** Tapez une partie d’un nom ou d’un tag de clan ; la fenêtre interroge de nouveau le serveur quand la liste a été coupée.
 - **Inviter.** Le bouton **Inviter** d’une ligne est l’invitation propre de la fenêtre Groupe ([Groupes](/wiki/03-Mechanics/Groups.md)), avec les mêmes réponses et les mêmes refus (le pilote est dans un groupe, le groupe est plein, Ne pas déranger est activé). Le bouton est grisé, avec la raison au survol, quand le jeu sait déjà que l’invitation sera refusée.
 - La liste est relue toutes les 10 secondes tant que la fenêtre est ouverte.

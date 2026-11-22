@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8a72341fc0a0a8d1 -->
+<!-- wiki-i18n source: 27e04944329244c2 -->
 <!-- wiki-i18n title: Enxames -->
 # Enxames {#swarms}
 
@@ -64,6 +64,8 @@ O mundo escala um enxame como escala todo alienígena ([Mundos](/wiki/03-Mechani
 
 <!-- swarms-world:end -->
 
+Um enxame também tem um **grau**, como todo alienígena, e a letra grega do seu grau fica antes do nome: `-=γ-Boss Seeker=-` é um Boss Seeker de grau Gamma. O líder de um enxame sorteia o seu grau **ao aparecer**, na tabela do seu mundo, e um enxame tem o grau do seu mundo: um enxame Alpha no Alpha, um Beta no Beta e um Gamma no Gamma, que é o enxame da tabela acima, como sempre foi. Nos mundos mais altos, de vez em quando um enxame é de um grau inferior, um em cada vinte mais ou menos: os enxames Pirate e Seeker no Beta, e os enxames Pirate, Seeker, Phantasm, Goombah e Tesseract no Gamma; o enxame Crystalys, e os enxames Phantasm, Goombah e Tesseract no Beta, são sempre do grau do seu mundo. Um enxame nunca é de um grau superior ao do seu mundo, e nenhum é Delta, o quarto grau, o dobro de Gamma, que só os alienígenas comuns sorteiam. As naves que vêm com o líder compartilham o seu grau, e o próximo líder do setor sorteia de novo. Um enxame é tão forte e paga o mesmo que a linha da tabela acima que leva o nome do seu grau: um enxame mais fraco é tão resistente quanto um do mundo inferior e o seu abate paga o que lá paga um abate. Velocidade, alcance e saque não mudam com o grau. O enxame Dormant não tem grau: mantém os números do seu mundo.
+
 ## O que os pilotos ficam sabendo {#what-the-pilots-are-told}
 
 Os enxames Seeker, Pirate, Phantasm, Goombah, Crystalys e Tesseract avisam os pilotos do seu próprio setor quando um chefe aparece e quando é destruído. O enxame Dormant avisa o mundo inteiro e é marcado nos mapas dos setores de perigo e no mapa da galáxia, para que os pilotos possam encontrá-lo. São linhas do Sistema: aparecem na aba **Sistema** do chat, com uma contagem de linhas não lidas, e não em **Global** nem em **Local**. O abate de um chefe também ganha uma linha no registro de baixas, que nomeia o piloto a quem ele é creditado. A lista *Resumo rápido* de cada artigo diz quem é avisado.
@@ -86,7 +88,7 @@ Os enxames Seeker, Pirate, Phantasm, Goombah, Crystalys e Tesseract avisam os pi
 
 Um alienígena comum paga o piloto que o acertou primeiro ([Combate](/wiki/03-Mechanics/Combat.md#kill-rewards-first-hit-claims)). O líder de um enxame, e cada Dormant Pulse, pagam em vez disso **pelo dano causado**:
 
-- **O pagamento é dividido pelo dano.** Todo piloto que causou pelo menos a parte indicada nas regras acima é pago, em proporção ao dano causado: os créditos, o Thulium, a XP e a honra do abate são divididos entre eles. Um piloto abaixo dessa parte não recebe nada.
+- **O pagamento é dividido pelo dano.** Todo piloto que causou pelo menos a parte indicada nas regras acima é pago, em proporção ao dano causado: os créditos, o Thulium, a XP e a honra do abate, com o pagamento do grau do enxame, são divididos entre eles. Um piloto abaixo dessa parte não recebe nada.
 - **A caixa de carga vai para o piloto que mais causou dano.** Ela é desse piloto (e do clã dele) por 30 segundos, como com qualquer alienígena, e depois qualquer um pode pegá-la ([Carga](/wiki/03-Mechanics/Cargo.md)). Cada nave Dormant tem a sua própria contagem de dano e a sua própria caixa. O Tesseract é a exceção: ele não larga caixa nenhuma, e cada piloto que o abate paga recebe uma caixa privada só dele ([Enxame Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md#rewards-and-drops)). Quando o grupo dele tem dois ou mais pilotos que danificaram o líder, a caixa é dividida conforme o dano em uma [caixa pessoal](/wiki/03-Mechanics/Cargo.md#personal-crates) para cada um deles.
 - **Os seguidores pagam como de costume**: os Pirate Scouts, os Seeker Slaves, os Guards dos enxames Phantasm, Goombah e Crystalys e os Facets do enxame Tesseract pagam o piloto que os acertou primeiro, e o pagamento deles é pequeno perto do de um chefe.
 - **O pagamento de um chefe é feito para superar os alienígenas ao redor.** Um minuto de luta contra um Pirate Boss, um Boss Phantasm ou um Boss Goombah paga mais do que um minuto de luta contra um Goombah, e um minuto contra o enxame Dormant ou um Boss Crystalys paga mais do que um minuto contra um Crystalys; o Boss Seeker paga exatamente dez Seekers.

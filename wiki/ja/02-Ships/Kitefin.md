@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2803f28f4597c776 -->
+<!-- wiki-i18n source: a9b3f1a14b051e92 -->
 <!-- wiki-i18n title: Kitefin -->
 # Kitefin
 
@@ -10,6 +10,7 @@ Kitefin は軽ガンシップで、多くのパイロットが最初に購入す
 - **基本速度**：220
 - **レーザースロット**：4
 - **エクストラスロット**：2
+- **装甲スロット**: 3
 
 ### ジェネレーターとサポートのスロット {#generator-support-slots}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5f4f8c45180bc787 -->
+<!-- wiki-i18n source: c205efd6ca83bd6f -->
 <!-- wiki-i18n title: Pajzsok -->
 # Pajzsmechanika {#shield-mechanics}
 
@@ -46,16 +46,16 @@ Egyes támadásoknak van **pajzsáthatolásuk**: annyi pontot vonnak le az elnye
 - Az idegeneknek nincs elnyelés értékük: minden találatot 80% / 20% arányban osztanak meg, a találat áthatolását levonva.
 - A Siphon Battery sebzése kizárólag a pajzsból jön: az elnyelés és az áthatolás nem játszik szerepet.
 
-**Hol nem kapnak semmit a pajzsok.** Az elnyeléssel egyenlő vagy annál nagyobb áthatolás semmit sem hagy a találatból a pajzsoknak: a hajótest viseli az egészet. A táblázat azt mutatja, mennyit kapnak a pajzsok a legjobb lézer (85%; ha az Experimental Fusion Core helyén egy Antimatter Battery áll, az 95%, x3 sebzéssel) és a legjobb egycélpontos rakéta (egy Stiletto-val párosított Lancet III vagy Rivet III, 70%) egyetlen találatából:
+**Hol nem kapnak semmit a pajzsok.** Az elnyeléssel egyenlő vagy annál nagyobb áthatolás semmit sem hagy a találatból a pajzsoknak: a hajótest viseli az egészet. A táblázat azt mutatja, mennyit kapnak a pajzsok a legjobb lézer (100%; ha az Experimental Fusion Core helyén egy Antimatter Battery áll, az 110%, x3 sebzéssel) és a legjobb egycélpontos rakéta (egy Stiletto-val párosított Lancet III vagy Rivet III, 70%) egyetlen találatából:
 
-| Pajzs | Elnyelés | A pajzsok része, legjobb lézer (85%) | A pajzsok része, legjobb egycélpontos rakéta (70%) |
+| Pajzs | Elnyelés | A pajzsok része, legjobb lézer (100%) | A pajzsok része, legjobb egycélpontos rakéta (70%) |
 | :--- | ---: | ---: | ---: |
 | Light Shield Core | 45% | 0% | 0% |
 | Basic Shield Core | 50% | 0% | 0% |
 | Heavy Shield Core | 55% | 0% | 0% |
-| A legjobb pajzs gyárilag | 91% | 6% | 21% |
-| Egy 100%-os pajzs | 100% | 15% | 30% |
-| Egy 120%-os pajzs | 120% | 35% | 50% |
+| A legjobb pajzs gyárilag | 91% | 0% | 21% |
+| Egy 100%-os pajzs | 100% | 0% | 30% |
+| Egy 120%-os pajzs | 120% | 20% | 50% |
 
 #### A 100% elérése és túllépése {#reaching-and-passing-100-}
 

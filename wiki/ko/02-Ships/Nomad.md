@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: dff7327a9780c393 -->
+<!-- wiki-i18n source: 872e92e0eed74049 -->
 <!-- wiki-i18n title: Nomad -->
 # Nomad
 
@@ -10,6 +10,7 @@ Nomad는 Ostirion의 거의 2배 선체에 화기가 두 문 더 많은 순양�
 - **기본 속도**: 240
 - **레이저 슬롯**: 7
 - **부가 슬롯**: 2
+- **장갑 슬롯**: 3
 
 ### 발전기 및 지원 슬롯 {#generator-support-slots}
 

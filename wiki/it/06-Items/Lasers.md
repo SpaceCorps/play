@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: eef162a0237c03ac -->
+<!-- wiki-i18n source: b2be88dc510d05b9 -->
 <!-- wiki-i18n title: Laser -->
 # Laser e munizioni {#lasers-ammo}
 
@@ -106,10 +106,10 @@ Montali direttamente nello slot di un laser per potenziarne le caratteristiche. 
 
 | Nome | Rarità | Bonus danno base | Bonus prob. critico | Danno critico fisso | Costo |
 | :--- | :--- | :---: | :---: | :---: | :--- |
-| **Damage Amp I** | Scadente | +10 | +5% | +5 | 10.000 crediti |
-| **Damage Amp II** | Non comune | +16 | +5% | +8 | Solo da creare |
-| **Damage Amp III** | Raro | +26 | +6% | +13 | Solo da creare |
-| **Damage Amp IV** | Epico | +38 | +7% | +20 | Solo da creare |
+| **Damage Amp I** | Scadente | +12 | +5% | +5 | 10.000 crediti |
+| **Damage Amp II** | Non comune | +20 | +5% | +8 | Solo da creare |
+| **Damage Amp III** | Raro | +30 | +6% | +13 | Solo da creare |
+| **Damage Amp IV** | Epico | +45 | +7% | +20 | Solo da creare |
 | **Crit Amp I** | Scadente | +5 | +15% | +0 | 15.000 crediti |
 | **Crit Amp II** | Non comune | +10 | +20% | +14 | Solo da creare |
 | **Crit Amp III** | Raro | +15 | +25% | +24 | Solo da creare |
@@ -117,10 +117,10 @@ Montali direttamente nello slot di un laser per potenziarne le caratteristiche. 
 
 | Nome | Rarità | Penetrazione scudo | Costo |
 | :--- | :--- | :---: | :--- |
-| **Penetration Amp I** | Scadente | +5% | 15.000 crediti |
-| **Penetration Amp II** | Non comune | +10% | Solo da creare |
-| **Penetration Amp III** | Raro | +15% | Solo da creare |
-| **Penetration Amp IV** | Epico | +20% | Solo da creare |
+| **Penetration Amp I** | Scadente | +7% | 15.000 crediti |
+| **Penetration Amp II** | Non comune | +15% | Solo da creare |
+| **Penetration Amp III** | Raro | +20% | Solo da creare |
+| **Penetration Amp IV** | Epico | +25% | Solo da creare |
 
 **Solo il primo tier di ogni linea è in vendita**, nel Negozio. Gli altri tre si creano in [Assemblaggio](/wiki/06-Items/Overview.md#upgrading-modules) dall’amp del tier sotto, dopo aver ricercato la loro tecnologia nello Skylab ([Ricerca](/wiki/03-Mechanics/Research.md)). Ogni passo richiede Thulium, drop degli alieni e piastre (Velkonite Reinforced Plate dal tuo Skylab per i tier II e III, 4 Dark Matter Plate e una Ancient Control Unit per il tier IV), e il nuovo amp mantiene il grado di incantamento e i bonus dell’amp che consuma ([Potenziamenti dei moduli nell’Assemblaggio](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). I passi Penetration aggiungono una lente di cristallo. Ogni amp del tier IV richiede 4 [Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md) (come l’ultimo tier delle altre catene di potenziamento): la tecnologia di un amp del tier IV richiede quindi prima quella della plate.
 
@@ -137,9 +137,9 @@ Un Helios Beam con i suoi 4 amp del tier IV contiene 5 pezzi dell’ultimo tier:
 
 ### Quale amp va dove {#which-amp-goes-where}
 
-Un amp di danno aggiunge lo stesso danno fisso a qualsiasi laser. Un amp critico aggiunge un po’ di danno fisso suo (da 5 a 20) e moltiplica ciò che il laser fa con la sua probabilità critica, quindi con lo stesso tier in ogni slot batte l’amp di danno dal tier II in su, su ogni laser: di circa il 19% al tier II, il 25% al tier III e dal 30% al 43% al tier IV (i Quantum Laser guadagnano di più). Al tier I i due sono vicini: il **Damage Amp I** è un po’ meglio sui **Quantum Laser** e il **Crit Amp I** un po’ meglio sulla **Starfire-III** e sull’**Helios Beam**. La probabilità critica di un laser si ferma al 100%: tre Crit Amp III portano un Helios Beam (che ha già il 20% di suo) al 95% e tre Crit Amp IV al 110%, dieci punti più di quanti ne possa usare. Un Penetration Amp non dà né danno né probabilità critica: serve contro le navi i cui scudi altrimenti prenderebbero la maggior parte del tuo colpo ([più sotto](#when-is-a-penetration-amp-worth-a-slot)).
+Un amp di danno aggiunge lo stesso danno fisso a qualsiasi laser. Un amp critico aggiunge un po’ di danno fisso suo (da 5 a 20) e moltiplica ciò che il laser fa con la sua probabilità critica, quindi con lo stesso tier in ogni slot batte l’amp di danno dal tier II in su, su ogni laser tranne il **Quantum Laser I**: di circa il 12% al tier II, il 19% al tier III e dal 22% al 25% al tier IV sulla **Starfire-III** e sull’**Helios Beam**, dal 9% al 28% sul Quantum Laser III e dal 2% all’11% sul Quantum Laser II. Sul **Quantum Laser I** l’amp di danno resta davanti, del 3–5%, e al tier I è il migliore su ogni laser: il **Damage Amp I** batte ovunque il **Crit Amp I**. La probabilità critica di un laser si ferma al 100%: tre Crit Amp III portano un Helios Beam (che ha già il 20% di suo) al 95% e tre Crit Amp IV al 110%, dieci punti più di quanti ne possa usare. Un Penetration Amp non dà né danno né probabilità critica: serve contro le navi i cui scudi altrimenti prenderebbero la maggior parte del tuo colpo ([più sotto](#when-is-a-penetration-amp-worth-a-slot)).
 
-Riempito con lo stesso amp, un laser è sempre più forte di quello inferiore, quindi un amp migliore compensa solo una parte di un laser migliore: un Quantum Laser III con tre Damage Amp IV fa più danno di un Helios Beam con tre Damage Amp I, ma meno di uno con tre Damage Amp III, e forgiare non colma il divario (un Quantum Laser III e dei Damage Amp IV forgiati a Ascendente, con i valori migliori, restano comunque un po’ sotto un Helios Beam semplice con dei Damage Amp III).
+Riempito con lo stesso amp, un laser è sempre più forte di quello inferiore, quindi un amp migliore compensa solo una parte di un laser migliore: un Quantum Laser III con tre Damage Amp IV fa più danno di un Helios Beam con tre Damage Amp I, ma meno di uno con tre Damage Amp III, e forgiare colma il divario solo in cima: un Quantum Laser III e dei Damage Amp IV forgiati a Ascendente, con i valori migliori, fanno un po’ più di un Helios Beam semplice con dei Damage Amp III (ogni tier di forgia inferiore resta comunque sotto).
 
 
 ---
@@ -194,41 +194,41 @@ La **Dark Matter Ammo II** colpisce a **x6**, ma solo **una raffica ogni 1,5 sec
 
 Ogni colpo laser toglie punti all’assorbimento del tuo bersaglio, da un massimo di tre fonti che si sommano: le tue **munizioni** (Ultra Core 5%, Experimental Fusion Core 10%, Antimatter Battery 20%), i tuoi **Penetration Amp** e una **formazione di droni** (Gemini +15%; [Formazioni di droni](/wiki/03-Mechanics/Formations.md)). **Niente limita il totale** (un razzo diretto somma allo stesso modo la propria penetrazione e quella della formazione: [Razzi](/wiki/06-Items/Rockets.md)). Gli scudi prendono poi l’assorbimento del bersaglio meno la penetrazione del colpo, lo scafo il resto ([Meccaniche degli scudi](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
-- **I tuoi amp contano come la media dei tuoi laser.** Una raffica è un solo colpo, quindi il gioco somma la penetrazione degli amp di ciascun laser (contano anche i laser nei tuoi droni) e fa la media sui tuoi laser, ciascuno pesato per il suo danno, come per la probabilità critica. Tre Penetration Amp IV in ogni laser da tre slot fanno 60% (quattro in ogni Helios Beam fanno 80%); un Penetration Amp IV in un laser su tredici fa circa l’1,5%. Un Wraith ha 13 slot laser, quindi 39 slot amp con laser da tre e 52 con Helios Beam, e vanno riempiti tutti per arrivare al 60% (80% con gli Helios Beam).
+- **I tuoi amp contano come la media dei tuoi laser.** Una raffica è un solo colpo, quindi il gioco somma la penetrazione degli amp di ciascun laser (contano anche i laser nei tuoi droni) e fa la media sui tuoi laser, ciascuno pesato per il suo danno, come per la probabilità critica. Tre Penetration Amp IV in ogni laser da tre slot fanno 75% (quattro in ogni Helios Beam fanno 100%); un Penetration Amp IV in un laser su tredici fa circa l’1,9%. Un Wraith ha 13 slot laser, quindi 39 slot amp con laser da tre e 52 con Helios Beam, e vanno riempiti tutti per arrivare al 75% (100% con gli Helios Beam).
 - **L’Hangar lo mostra.** Le statistiche di combattimento dell’Hangar hanno un riquadro **Penetrazione** su ogni nave, con il valore degli amp laser della configurazione mostrata (0,0% senza Penetration Amp); munizioni e formazione non ne fanno parte. La finestra **Nave** in volo ha un chip **Penetrazione** in fondo alla riga in basso (i chip della configurazione e della velocità mostrano solo un’icona e un numero per fargli posto): mostra il totale di un colpo laser, i tuoi amp, la formazione che indossi e le munizioni che spari, sommati non appena cambi qualcosa, e il suo suggerimento elenca le tre parti.
-- **Il miglior laser fa il 85% con l’x4, il 95% con l’Antimatter, con tre amp in ogni laser.** Un Experimental Fusion Core (10%), un Gemini (15%) e tre Penetration Amp IV in ogni laser (60%) fanno 85%; una Antimatter Battery (20%) al suo posto fa 95%, con danno x3 invece di x4. Un Helios Beam ha un quarto slot: quattro Penetration Amp IV in ogni Helios Beam, con il Fusion Core e il Gemini, fanno 105%, più di quanto qualsiasi scudo abbia da dare.
-- **Un bonus della Forgia su un Penetration Amp IV conta.** Un Penetration Amp si forgia come gli altri amp, e il suo unico bonus moltiplica la penetrazione: un bonus Ascendente (da +9% a +15%) porta un Penetration Amp IV a 21,8–23 punti invece di 20. Nella configurazione migliore, tre Ascendenti fanno 94%, e ogni punto conta.
+- **Il miglior laser fa il 100% con l’x4, il 110% con l’Antimatter, con tre amp in ogni laser.** Un Experimental Fusion Core (10%), un Gemini (15%) e tre Penetration Amp IV in ogni laser (75%) fanno 100%; una Antimatter Battery (20%) al suo posto fa 110%, con danno x3 invece di x4. Un Helios Beam ha un quarto slot: quattro Penetration Amp IV in ogni Helios Beam, con il Fusion Core e il Gemini, fanno 125%, più di quanto qualsiasi scudo abbia da dare.
+- **Un bonus della Forgia su un Penetration Amp IV conta.** Un Penetration Amp si forgia come gli altri amp, e il suo unico bonus moltiplica la penetrazione: un bonus Ascendente (da +9% a +15%) porta un Penetration Amp IV a 27,3–28,8 punti invece di 25. Nella configurazione migliore, tre Ascendenti fanno 111%, e ogni punto conta.
 
 | Raffica laser | Munizioni | Amp (3 slot) | Formazione | Totale |
 |---|---|---|---|---|
 | Experimental Fusion Core da solo | 10% | – | – | **10%** |
 | Fusion Core + Gemini (il migliore prima dei Penetration Amp) | 10% | – | 15% | **25%** |
-| Fusion Core + 3 Penetration Amp I | 10% | 15% | – | **25%** |
-| Fusion Core + 3 Penetration Amp II | 10% | 30% | – | **40%** |
-| Fusion Core + 3 Penetration Amp III | 10% | 45% | – | **55%** |
-| Fusion Core + 3 Penetration Amp IV | 10% | 60% | – | **70%** |
-| Ultra Core + 3 Penetration Amp IV + Gemini (il migliore di ogni giorno) | 5% | 60% | 15% | **80%** |
-| Fusion Core + 3 Penetration Amp IV + Gemini (il miglior laser) | 10% | 60% | 15% | **85%** |
+| Fusion Core + 3 Penetration Amp I | 10% | 21% | – | **31%** |
+| Fusion Core + 3 Penetration Amp II | 10% | 45% | – | **55%** |
+| Fusion Core + 3 Penetration Amp III | 10% | 60% | – | **70%** |
+| Fusion Core + 3 Penetration Amp IV | 10% | 75% | – | **85%** |
+| Ultra Core + 3 Penetration Amp IV + Gemini (il migliore di ogni giorno) | 5% | 75% | 15% | **95%** |
+| Fusion Core + 3 Penetration Amp IV + Gemini (il miglior laser) | 10% | 75% | 15% | **100%** |
 
 Cosa fa questo agli scudi del bersaglio: ogni cella è la quota di un colpo che **gli scudi prendono / lo scafo prende**.
 
-| Difensore (assorbimento) | Senza amp | Fusion Core da solo (10%) | Fusion Core + Gemini (25%) | Fusion Core + 3 Penetration Amp IV (70%) | Il miglior laser (85%) |
+| Difensore (assorbimento) | Senza amp | Fusion Core da solo (10%) | Fusion Core + Gemini (25%) | Fusion Core + 3 Penetration Amp IV (85%) | Il miglior laser (100%) |
 |---|---|---|---|---|---|
 | Light Shield Core, senza celle (45%) | 45 / 55 | 35 / 65 | 20 / 80 | 0 / 100 | 0 / 100 |
 | Heavy Shield Core, senza celle (55%) | 55 / 45 | 45 / 55 | 30 / 70 | 0 / 100 | 0 / 100 |
 | Light Shield Core + Absorption Shield Cell IV (57%) | 57 / 43 | 47 / 53 | 32 / 68 | 0 / 100 | 0 / 100 |
-| Heavy Shield Core + 3 Capacity Shield Cell IV (73%) | 73 / 27 | 63 / 37 | 48 / 52 | 3 / 97 | 0 / 100 |
-| Il miglior scudo di serie (91%) | 91 / 9 | 81 / 19 | 66 / 34 | 21 / 79 | 6 / 94 |
-| Il miglior scudo, Forgia Ascendente (miglior tiro) e 44 livelli dell’Emporio (109%) | 100 / 0 | 99 / 1 | 84 / 16 | 39 / 61 | 24 / 76 |
-| Il miglior scudo, Forgia Ascendente (miglior tiro) e l’Emporio al suo limite (114,7%) | 100 / 0 | 100 / 0 | 90 / 10 | 45 / 55 | 30 / 70 |
-| Qualsiasi alieno (80%) | 80 / 20 | 70 / 30 | 55 / 45 | 10 / 90 | 0 / 100 |
+| Heavy Shield Core + 3 Capacity Shield Cell IV (73%) | 73 / 27 | 63 / 37 | 48 / 52 | 0 / 100 | 0 / 100 |
+| Il miglior scudo di serie (91%) | 91 / 9 | 81 / 19 | 66 / 34 | 6 / 94 | 0 / 100 |
+| Il miglior scudo, Forgia Ascendente (miglior tiro) e 44 livelli dell’Emporio (109%) | 100 / 0 | 99 / 1 | 84 / 16 | 24 / 76 | 9 / 91 |
+| Il miglior scudo, Forgia Ascendente (miglior tiro) e l’Emporio al suo limite (114,7%) | 100 / 0 | 100 / 0 | 90 / 10 | 30 / 70 | 15 / 85 |
+| Qualsiasi alieno (80%) | 80 / 20 | 70 / 30 | 55 / 45 | 0 / 100 | 0 / 100 |
 
-Il miglior laser svuota ogni nucleo scudo, con la sua cella migliore o senza, e anche un Heavy Shield Core con tre celle Capacity (lo scafo prende tutto il colpo); il miglior scudo conserva il 6% di ogni colpo (il 24% con i bonus). Un razzo da solo non svuota mai uno scudo (al massimo il 35%), ma un Lancet III o un Rivet III con uno Stiletto (il 70%) sì.
+Il miglior laser svuota ogni nucleo scudo, con la sua cella migliore o senza, e anche un Heavy Shield Core con tre celle Capacity (lo scafo prende tutto il colpo); il miglior scudo conserva il 0% di ogni colpo (il 9% con i bonus). Un razzo da solo non svuota mai uno scudo (al massimo il 35%), ma un Lancet III o un Rivet III con uno Stiletto (il 70%) sì.
 
 ### Quando vale uno slot un Penetration Amp? {#when-is-a-penetration-amp-worth-a-slot}
 
-**Un Penetration Amp contrasta l’assorbimento, e più è alto, più conta: contro una nave con scafo piccolo a circa il 108% (configurazioni con Emporio, Forgia e Rampart) un assetto di Penetration uccide circa 10 volte più in fretta del miglior assetto semplice, e contro il miglior scudo di serie (91%) un trio di Penetration Amp impiega circa il 37% di tempo in meno di un trio di Crit Amp dello stesso tier. Contro gli alieni guadagna circa il 10% su un Phantasm o un Goombah con un Gemini e nulla su un Seeker, un Bulwark o un Crystalys.**
+**Un Penetration Amp contrasta l’assorbimento, e più è alto, più conta: contro una nave con scafo piccolo a circa il 108% (configurazioni con Emporio, Forgia e Rampart) un assetto di Penetration uccide circa 12 volte più in fretta del miglior assetto semplice, e contro il miglior scudo di serie (91%) un trio di Penetration Amp impiega circa il 47% di tempo in meno di un trio di Crit Amp dello stesso tier. Contro gli alieni guadagna circa il 18% su un Phantasm o un Goombah con un Gemini e nulla su un Seeker, un Bulwark o un Crystalys.**
 
-- **Non dà danno.** Su un Helios Beam, tre Penetration Amp IV fanno 158 di danno a raffica (munizioni x1, la media del tiro e dei critici), dove tre Damage Amp IV ne fanno 319 e tre Crit Amp IV 416: la metà del primo e poco più di un terzo del secondo. Ciò che riguadagna è la quota dello scudo, quindi rende di più dove lo scafo è piccolo rispetto allo scudo e l’assorbimento è alto; contro un Wraith o un Ironclad con il miglior scudo di serie, il cui grande scafo regge più a lungo, guadagna fino al 20%, e un Ironclad con gli scudi potenziati oltre il 100% si affronta ancora meglio con un set semplice di Crit.
-- **Alieni.** I loro scudi prendono l’80% di un colpo meno la tua penetrazione, e il miglior laser (85%) li trapassa interi, quindi funziona anche su di loro: un Penetration Amp è nel miglior assetto contro un Phantasm o un Goombah quando porti un Gemini (guadagna circa il 10%). Contro un Seeker, un Bulwark o un Crystalys un set di Crit Amp del tier uccide altrettanto in fretta o più in fretta.
+- **Non dà danno.** Su un Helios Beam, tre Penetration Amp IV fanno 158 di danno a raffica (munizioni x1, la media del tiro e dei critici), dove tre Damage Amp IV ne fanno 342 e tre Crit Amp IV 416: la metà del primo e poco più di un terzo del secondo. Ciò che riguadagna è la quota dello scudo, quindi rende di più dove lo scafo è piccolo rispetto allo scudo e l’assorbimento è alto; contro un Wraith o un Ironclad con il miglior scudo di serie, il cui grande scafo regge più a lungo, guadagna fino al 32%, e un Ironclad con gli scudi potenziati oltre il 100% si affronta ancora meglio con un set semplice di Crit.
+- **Alieni.** I loro scudi prendono l’80% di un colpo meno la tua penetrazione, e il miglior laser (100%) li trapassa interi, quindi funziona anche su di loro: un Penetration Amp è nel miglior assetto contro un Phantasm o un Goombah quando porti un Gemini (guadagna circa il 18%). Contro un Seeker, un Bulwark o un Crystalys un set di Crit Amp del tier uccide altrettanto in fretta o più in fretta.
 - **Quanto costa.** Ogni Penetration Amp IV richiede 4 Dark Matter Plate (20 Dark Matter), come ogni amp del tier IV, quindi un Wraith che riempie i suoi 52 slot ha bisogno di 208 plate, 1.040 Dark Matter.

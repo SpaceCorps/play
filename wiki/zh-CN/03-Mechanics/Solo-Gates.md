@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 0b67d55ade0b37c6 -->
+<!-- wiki-i18n source: 6fe66f282236a0de -->
 <!-- wiki-i18n title: 单人星门 -->
 # 单人星门 {#solo-gates}
 
-<!-- wiki-search: solo gates; solo gate; gate; gates; galaxy gates; rift; rifts; alpha rift; beta breach; gamma foundry; delta siege; omega vault; chrono gate; chrono-gate; materializer; energy materializer; scan; spin; gate part; gate parts; guarantee; pity; consolation; wave; waves; nuke wave; skip; boss; lives; resume; abandon; speedrun; no death; challenge; achievement; thulium cap; 单人星门; 星门; 星系之门; 部件; 星门部件; 能量具现器; 扫描; 保底; 波次; 生命; 继续; 放弃; 无死亡; 挑战; 成就; Thulium 上限 -->
+<!-- wiki-search: solo gates; solo gate; gate; gates; galaxy gates; rift; rifts; alpha rift; beta breach; gamma foundry; delta siege; omega vault; chrono gate; chrono-gate; materializer; energy materializer; scan; spin; gate part; gate parts; guarantee; pity; consolation; wave; waves; nuke wave; skip; boss; lives; resume; abandon; speedrun; no death; challenge; achievement; thulium cap; davidski's nightmare; nightmare; evil davidski; angry davidski; evil ships; golden ships; 单人星门; 星门; 星系之门; 部件; 星门部件; 能量具现器; 扫描; 保底; 波次; 生命; 继续; 放弃; 无死亡; 挑战; 成就; Thulium 上限; evil 飞船; 金色飞船; 暴怒的 davidski -->
 
-**单人星门**是星系之门中由你独自飞入的五座星门：**Alpha Rift**、**Beta Breach**、**Gamma Foundry**、**Delta Siege** 和 **Omega Vault**。每一座都是一个空旷的专属竞技场，外星人的波次一波接一波地向你袭来，最后有一个 Boss 在等着。你用星门的**部件**建造它，部件通过用 Thulium 扫描能量具现器来寻找，通关会发放信用点、Thulium、经验值、荣誉、矿石、装甲板和弹药。
+**单人星门**是星系之门中由你独自飞入的五座星门：**Alpha Rift**、**Beta Breach**、**Gamma Foundry**、**Delta Siege** 和 **Omega Vault**。每一座都是一个空旷的专属竞技场，外星人的波次一波接一波地向你袭来，最后有一个 Boss 在等着。**Davidski's Nightmare** 是与这五座星门分开的第六座星门：它的波次不是外星人，而是**Evil 飞船**，即游戏中向你飞来的飞船，它也是建造起来最贵的星门。你用星门的**部件**建造它，部件通过用 Thulium 扫描能量具现器来寻找，通关会发放信用点、Thulium、经验值、荣誉、矿石、装甲板和弹药。
 
 单人星门不是[战队地下城](/wiki/03-Mechanics/Dungeons.md)。地下城是战队为一个小队开启的迷宫，尽头有一名战争领主；单人星门是只有你一个人的竞技场，其他人无法与你一同进入。两者的规则、报酬和限制各自独立。星系之门页面里还有 **Chrono-Gate**，它不是用来飞入的地方，而是为重置打开你的[运输储藏库](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-)的星门：它的部件用同样的扫描来寻找。
 
@@ -14,7 +14,7 @@
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
 
 - **星门**：7：Chrono-Gate 和 6 座单人星门，Alpha Rift, Beta Breach, Gamma Foundry, Delta Siege, Omega Vault 和 Davidski's Nightmare
-- **扫描**：每次扫描 100 Thulium，一次最多 1, 5, 10或100 次扫描
+- **扫描**：每次扫描 100 Thulium，一次最多 1, 5, 10, 100或1,000 次扫描
 - **部件几率**：每次扫描 13%，无论扫描哪个类别。部件属于该类别的某一座星门，各座星门几率均等：Chrono-Gate 独占全部，Alpha Rift, Beta Breach 和 Gamma Foundry 各得 4.33%，Delta Siege 和 Omega Vault 各得 6.5%。Chrono-Gate 完成后，它的类别中没有可扫描的东西了
 - **保底**：连续 24 次扫描没有部件后，几率会随每次扫描上升，在 47 次之后，下一次扫描必定找到一个。任何一座星门的部件都会让计数重新开始
 - **生命**：每次尝试 3；每次死亡损失一条
@@ -28,7 +28,7 @@
 
 ## 寻找星门部件 {#finding-gate-parts}
 
-打开**星系之门**页面，扫描能量具现器。每次扫描用 Thulium 支付，至多找到一个部件。先选一个**类别**：**Chrono-Gate**、**Alpha–Gamma**（Alpha Rift、Beta Breach 和 Gamma Foundry）或 **Delta–Omega**（Delta Siege 和 Omega Vault）。每个类别找到部件的几率相同，部件属于所选类别中的某一座星门，各座星门几率均等。建造一座星门需要它的一定数量的部件，部件在你使用之前一直属于你。没有找到部件的扫描不会白费：它会发放一份奖品（[见下](#a-spin-without-a-part)）。每次扫描都要付费。Chrono-Gate 完成后，它的选项会被锁定，因为其中已没有可找的东西，另外两个类别保持自己的几率，所以单人星门的部件无论有没有它，花费都一样。
+打开**星系之门**页面，扫描能量具现器。每次扫描用 Thulium 支付，至多找到一个部件。先选一个**类别**：**Chrono-Gate**、**Alpha–Gamma**（Alpha Rift、Beta Breach 和 Gamma Foundry）、**Delta–Omega**（Delta Siege 和 Omega Vault）或自成一类的 **Davidski's Nightmare**。每个类别找到部件的几率相同，部件属于所选类别中的某一座星门，各座星门几率均等。建造一座星门需要它的一定数量的部件，部件在你使用之前一直属于你。没有找到部件的扫描不会白费：它会发放一份奖品（[见下](#a-spin-without-a-part)）。每次扫描都要付费。Chrono-Gate 完成后，它的选项会被锁定，因为其中已没有可找的东西，另外两个类别保持自己的几率，所以单人星门的部件无论有没有它，花费都一样。
 
 表格给出每座星门所需的部件数，以及扫描该星门所在类别时**含保底**的平均花费（一次扫描就是一次抽奖，所以运气好的飞行员花得少，运气差的花得多，最多到保底所允许的最长连续扫描次数）。
 
@@ -111,7 +111,7 @@ Chrono-Gate 的部件会在重置时归零，你每个赛季都要重新找。**
 
 ### 波次 {#the-waves}
 
-外星人就是游戏里的那些（Seeker、Phantasm、Bulwark、Goombah 和 Crystalys），由星门调得更硬或更软。预计时间是星门为处于激光技术起始等级的飞行员设计的耗时（[飞行员专长](/wiki/03-Mechanics/Pilot-Skills.md)）；把激光技术升上去的飞行员会更快完成。
+外星人就是游戏里的那些（Seeker、Phantasm、Bulwark、Goombah 和 Crystalys），由星门调得更硬或更软。**Davidski's Nightmare** 的波次则是 **Evil 飞船**：飞行员能驾驶的每种船体各一艘，涂装与 Dormant 虫群相同。小型船体先来，每一波都会带来更多、更大的飞船，直到 Boss 之前的最后一波。Evil 飞船带着飞行员飞船所带的东西：激光、每隔几秒向你发射一枚的**火箭**，以及在没有东西击中它时修复其船体的**维修无人机**，所以你放着不管的飞船会自己恢复。预计时间是星门为处于激光技术起始等级的飞行员设计的耗时（[飞行员专长](/wiki/03-Mechanics/Pilot-Skills.md)）；把激光技术升上去的飞行员会更快完成。
 
 有些波次会带来一支**虫群**：游戏中的 Boss NPC（Boss Seeker、Boss Phantasm、Boss Goombah 或 Boss Crystalys）带着它的护卫，作为一个整体发起攻击。虫群的每艘飞船都属于它所在的波次，最后一艘被击毁时这一波才结束。它们的报酬和该波次的其他飞船一样，数值见[外星人表](#the-aliens)。**Boss NPC 会像在游戏的星区里一样掉落战利品**：矿石、装甲板、弹药和火箭（每个会掉落什么，见[虫群的页面](/wiki/05-Swarms/Swarms.md)）。星门里没有需要拾取的箱子：战利品随奖励一起直接进入你的背包，并且和奖励一样每局只有一次。它的护卫无论在星门还是在星区都不掉落任何东西，既不会为 Boss 治疗，也不会再回来。下面的表格说明了每个星门的哪些波次会带来虫群。
 
@@ -135,6 +135,8 @@ Chrono-Gate 的部件会在重置时归零，你每个赛季都要重新找。**
 ### Boss {#the-bosses}
 
 Boss 是放大了的外星人飞船，有自己的船体、护盾和齐射，星门或世界的任何设置都不会改变它们。当 Boss 的船体降到表格中的数值时，一个阶段开始：它的护盾可能被重新设定，它的齐射或全部伤害会改变，并且它可能发动一个招式。每个招式都会预告：一个圆圈、一个圆环或你飞船上的标记会在落下前片刻显示。Boss 召唤的外星人不发放也不掉落任何东西。
+
+**Evil Davidski** 是 Davidski's Nightmare 的 Boss，驾驶 Davidski 自己那艘颜色更深的金色 Ironclad。他发射 Dormant Lance，这是会在很远的距离上追着你的制导火箭，并用陨石、一个圆环和他召唤的 Evil 飞船作战。船体降到一半时他会变成**暴怒的 DAVIDSKI**：他的主题曲响起，伤害更高，**游戏中每种飞船的一艘金色飞船**会出现在他周围。只要有任何一艘金色飞船存活，他就完全无法受到伤害：你的激光和火箭无法锁定他，你做的任何事都碰不到他的船体或护盾，所以要先杀出一条路穿过它们。最后一艘倒下后，保护就永久消失。每一波开始时他都会在自己的窗口里嘲讽你。击杀他算作一次击杀 Davidski，适用于需要击杀他的任务，在星门里和在危险星区一样。未更新的游戏不会显示这座星门。
 
 <!-- solo-bosses:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->

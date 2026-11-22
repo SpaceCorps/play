@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2803f28f4597c776 -->
+<!-- wiki-i18n source: a9b3f1a14b051e92 -->
 <!-- wiki-i18n title: Kitefin -->
 # Kitefin
 
@@ -10,6 +10,7 @@ A Kitefin könnyű ágyúshajó, és a legtöbb pilóta ezt veszi meg először:
 - **Alapsebesség**: 220
 - **Lézerfoglalatok**: 4
 - **Extrafoglalatok**: 2
+- **Páncélzatfoglalatok**: 3
 
 ### Generátor- és támogató foglalatok {#generator-support-slots}
 

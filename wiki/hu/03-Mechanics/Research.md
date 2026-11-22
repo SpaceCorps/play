@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0c9164c462c27a1a -->
+<!-- wiki-i18n source: 74bb4919fe97756e -->
 <!-- wiki-i18n title: Kutatás -->
 # Kutatás {#research}
 
@@ -30,7 +30,7 @@ Ez az oldal tartalmazza a teljes technológiafát az egyes technológiák idejé
 
 <!-- research-centre:end -->
 
-**Schematics.** Egy [Schematics](/wiki/06-Items/Special-Items.md#schematics) 24 órát levesz a most futó kutatásból: ha legfeljebb 24 óra van hátra, azonnal befejeződik, a hosszabb pedig 24 órát veszít, és fut tovább (a 209 technológiából 187 legfeljebb 24 órát vesz igénybe, így egyetlen Schematics az elejétől befejezi őket; a másik 22-nek 2–10 kell). Amibe a kutatás került, azt az elején kifizetted, és nem adják vissza, a tudomány, amelyet a kihagyott idő elégetett volna, a tartályodban marad, és amikor a kutatás befejeződött, a sorod következő technológiája azonnal elindul.
+**Schematics.** Egy [Schematics](/wiki/06-Items/Special-Items.md#schematics) 24 órát levesz a most futó kutatásból: ha legfeljebb 24 óra van hátra, azonnal befejeződik, a hosszabb pedig 24 órát veszít, és fut tovább (a 210 technológiából 188 legfeljebb 24 órát vesz igénybe, így egyetlen Schematics az elejétől befejezi őket; a másik 22-nek 2–10 kell). Amibe a kutatás került, azt az elején kifizetted, és nem adják vissza, a tudomány, amelyet a kihagyott idő elégetett volna, a tartályodban marad, és amikor a kutatás befejeződött, a sorod következő technológiája azonnal elindul.
 
 **A lézererősítők és az utolsó szint.** A II–IV. szintű Damage, Crit és Penetration Amp-eket úgy kell kikutatni, mint minden mást, ami gyártható. Azok a pilóták, akik az erősítővonalak érkezésekor erősítőt birtokoltak vagy sorba állítottak, megkapták mindegyik technológiáját és az alatta lévő szintekét. Tizenhárom technológiához másik fa technológiája kell, a Dark Matter Plate-é, az Erőforrások fáról, mert minden fejlesztési lánc utolsó szintje négy plate-et és egy Ancient Control Unitot kér. Ezek: a IV. szintű Damage, Crit és Penetration Amp, a IV. szintű Absorption és Capacity Shield Cell, a IV. szintű Impulse és Momentum Thruster, a Heavy Shield Core, az Engine III, az Adaptive Core III, a Helios Beam, az Extra Slots CPU III és a Base CPU II. Aki korábban kikutatta valamelyiket, az megtartja, de a plate-jeinek elkészítéséhez szüksége van a plate technológiájára. Az alábbi fa nem rajzol hozzá nyilat, de a táblázat felsorolja, a játékbeli kártya pedig megnevezi ([Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md)).
 

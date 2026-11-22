@@ -1,12 +1,14 @@
-<!-- wiki-i18n source: 522d6b0bd8a4106c -->
+<!-- wiki-i18n source: b40e4bea60303f48 -->
 <!-- wiki-i18n title: Diseños de naves -->
 # Diseños de naves {#ship-designs}
 
-<!-- wiki-search: design; designs; refit; convert; conversion; thunder; bucky; lich; notsum; bratan; recon; duma; titanic; raptor; billy; menati; ataraxis; matt; diseño; diseños; conversión; convertir -->
+<!-- wiki-search: design; designs; refit; convert; conversion; thunder; bucky; lich; notsum; bratan; recon; duma; titanic; raptor; billy; menati; ataraxis; matt; diseño; diseños; conversión; convertir; protosaur; protos -->
 
-Un **diseño** es una de las cuatro naves que fabricas en Ensamblaje con unas pocas cifras cambiadas a propósito: menos casco a cambio de más velocidad, una ranura de láser menos a cambio de escudos más duros. Nueve de los trece diseños traen además una de siete [habilidades](/wiki/03-Mechanics/Abilities.md#ship-abilities) que la nave normal no tiene. La Storm RECON tiene, junto a su Chameleon, dos botones más: Target y Slow. Un diseño se investiga en el Skylab y después se convierte en él una nave que posees en Ensamblaje. **La conversión no se puede deshacer.**
+Un **diseño** es una de las cuatro naves que fabricas en Ensamblaje con unas pocas cifras cambiadas a propósito: menos casco a cambio de más velocidad, una ranura de láser menos a cambio de escudos más duros. Diez de los catorce diseños traen además una de siete [habilidades](/wiki/03-Mechanics/Abilities.md#ship-abilities) que la nave normal no tiene. La Storm RECON tiene, junto a su Chameleon, dos botones más: Target y Slow. Un diseño se investiga en el Skylab y después se convierte en él una nave que posees en Ensamblaje. **La conversión no se puede deshacer.**
 
-## Los trece diseños {#the-thirteen-designs}
+La **Protosaur** es el diseño de la nave inicial, la [Protos](/wiki/02-Ships/Protos.md), y el único diseño con nombre propio. No necesita tecnología de nave, solo la de la Dark Matter Plate, y cuesta 50.000 Thulium y 8 Dark Matter Plates. Da a la Protos +5 ranuras de blindaje, todas abiertas desde el principio, +1 ranura de láser, +1 ranura de extra, +30 de velocidad base, +50 % de daño de cohetes y los botones Blink y Chameleon. Puedes convertir tu Protos en cuanto pilotes otra nave.
+
+## Los catorce diseños {#the-thirteen-designs}
 
 Las tres últimas columnas son lo que tiene la nave convertida: su casco y su velocidad base propios, antes de blindajes, potenciadores, formaciones y motores, y sus ranuras de láser. Todo lo que la tabla no dice se queda como lo tenía la nave, también las [ranuras de blindaje](/wiki/06-Items/Hull-Plating.md#hull-plate-slots).
 
@@ -24,12 +26,13 @@ Las tres últimas columnas son lo que tiene la nave convertida: su casco y su ve
 | **Wraith BILLY** | +5 % de casco base, +10 % de capacidad de escudo, Diminisher | 268.800 | 210 | 13 |
 | **Wraith MENATI** | +20 % de casco base, +20 de velocidad base, +5 % de absorción de escudo, Heal Pod | 307.200 | 230 | 13 |
 | **Wraith ATARAXIS** | -1 ranura de láser, +1 ranura de apoyo, +25 % de capacidad de escudo, +10 % de absorción de escudo, Shield Buff | 256.000 | 210 | 12 |
-| **Wraith MATT** | +2 ranuras de láser, -20 % de capacidad de escudo, +10 % de penetración de láser | 256.000 | 210 | 15 |
+| **Wraith MATT** | +2 ranuras de láser, -20 % de capacidad de escudo, +10 % de penetración de láser, +5 % de daño de láser | 256.000 | 210 | 15 |
+| **Protosaur** | +30 de velocidad base, +1 ranura de láser, +5 ranuras de blindaje, +1 ranura de extra, +50 % de daño de cohetes, Blink, Chameleon | 8.000 | 220 | 3 |
 
 ## Conseguir un diseño {#getting-a-design}
 
 1. **Investígalo.** Cada diseño es una tecnología del árbol de naves de la vista de investigación de tu Skylab ([Investigación](/wiki/03-Mechanics/Research.md#ship-technologies)). Cuesta 10 horas y 10 Dark Matter, y pide la tecnología de su nave y la de la Dark Matter Plate. Investigarlo todavía no fabrica nada.
-2. **Convierte la nave.** La sección Diseños de Ensamblaje lista las trece conversiones. Elige una y confirma: el trabajo entra en la cola de producción y dura 10 minutos. Termina solo y no hace falta recogerlo.
+2. **Convierte la nave.** La sección Diseños de Ensamblaje lista las catorce conversiones. Elige una y confirma: el trabajo entra en la cola de producción y dura 10 minutos. Termina solo y no hace falta recogerlo.
 3. **Págalo.** Una conversión cuesta Thulium, materiales y Dark Matter Plates, como dice la tabla.
 
 | Diseño | Thulium | Dark Matter Plate | Ship Fragment | Reinforced Hull Plate | Power Core | Ancient Control Unit |
@@ -47,6 +50,7 @@ Las tres últimas columnas son lo que tiene la nave convertida: su casco y su ve
 | **Wraith MENATI** | 100.000 | 35 | 375 | 65 | 20 | 3 |
 | **Wraith ATARAXIS** | 100.000 | 35 | 375 | 65 | 20 | 3 |
 | **Wraith MATT** | 100.000 | 25 | 375 | 65 | 20 | 3 |
+| **Protosaur** | 50.000 | 8 | 30 | 5 | 2 | – |
 
 La nave que se convierte es la que posees de esa clase (una Paragon para THUNDER, BUCKY o LICH), y no puede ser la nave que pilotas: activa antes otra nave. Una nave destruida no se puede convertir.
 
@@ -61,21 +65,22 @@ La nave que se convierte es la que posees de esa clase (una Paragon para THUNDER
 | **Storm** | 8 | 8 h | 80 | 3 | 30 h | 30 |
 | **Ironclad** | 15 | 15 h | 150 | 2 | 20 h | 20 |
 | **Wraith** | 10 | 10 h | 100 | 5 | 50 h | 50 |
-| **Las cuatro** | 38 | 38 h | 380 | 13 | 130 h | 130 |
+| **Protos** | 0 | 0 h | 0 | 1 | 10 h | 10 |
+| **Las cinco** | 38 | 38 h | 380 | 14 | 140 h | 140 |
 
-Juntas piden 510 Dark Matter, además de los 979 que piden todas las demás tecnologías, y los niveles de módulo del Skylab piden 115 más: 1.604 por todas las tecnologías del juego.
+Juntas piden 520 Dark Matter, además de los 979 que piden todas las demás tecnologías, y los niveles de módulo del Skylab piden 115 más: 1.614 por todas las tecnologías del juego.
 
 ## Qué le pasa a tu nave {#what-happens-to-your-ship}
 
 - **Es la misma nave.** La conversión la cambia en el sitio: su equipo, sus blindajes, tus drones y la formación que llevas se quedan como están.
 - **Los láseres pueden perder su ranura.** Un diseño con menos ranuras de láser (RECON, DUMA, ATARAXIS) devuelve a tu inventario los láseres de las ranuras que desaparecen, con sus amps y sus tiradas de la Forja. Una ranura nueva llega vacía.
 - **Casco y escudos llenos** al terminar. Hasta entonces la nave está bloqueada: no se puede activar, equipar ni convertir de nuevo.
-- **No hay vuelta atrás.** Para otro diseño, o para volver a la nave normal, fabricas la nave otra vez en Ensamblaje. Posees una nave de cada clase, así que una Paragon y un THUNDER pueden ser tuyos a la vez, y dos THUNDER no.
+- **No hay vuelta atrás.** Para otro diseño, o para volver a la nave normal, fabricas la nave otra vez en Ensamblaje. La Protos es la única excepción: no se puede fabricar ni volver a comprar (la Tienda la muestra pero nunca la vende, y solo una cuenta nueva empieza con una), así que si conviertes tu Protos tendrás una Protosaur y ninguna Protos. Posees una nave de cada clase, así que una Paragon y un THUNDER pueden ser tuyos a la vez, y dos THUNDER no.
 - **El reinicio** conserva un diseño como cualquier otra nave que tengas. Una conversión que aún está en marcha se cancela y se reembolsa, como toda fabricación de tu cola de producción: la nave sigue como estaba.
 
 ## Aspecto y tamaño {#looks-and-size}
 
-Cada diseño tiene un modelo propio, el de su nave con unos pocos cambios que muestran lo que hace. Son de un gris liso como las naves hasta que llevan una [skin](/wiki/06-Items/Cosmetics.md): un diseño lleva las skins de la nave de la que se hizo, y una conversión conserva el aspecto. El BUCKY y el TITANIC son un 20 % más grandes, y una nave más grande es más fácil de alcanzar con un cohete. El hangar marca un diseño con una insignia DISEÑO, y los demás pilotos ven su nombre en la ventana objetivo y en el registro de bajas.
+Cada diseño tiene un modelo propio, el de su nave con unos pocos cambios que muestran lo que hace. Los trece diseños de las cuatro naves que fabricas son de un gris liso como esas naves hasta que llevan una [skin](/wiki/06-Items/Cosmetics.md): un diseño lleva las skins de la nave de la que se hizo, y una conversión conserva el aspecto. La Protosaur es naranja y blanca como la Protos y aún no tiene skins. El BUCKY y el TITANIC son un 20 % más grandes, y una nave más grande es más fácil de alcanzar con un cohete. El hangar marca un diseño con una insignia DISEÑO, y los demás pilotos ven su nombre en la ventana objetivo y en el registro de bajas.
 
 ## Tienda, Subasta y puntos {#shop-auction-and-points}
 

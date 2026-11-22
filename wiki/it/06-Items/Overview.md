@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bf737868ee14ecc2 -->
+<!-- wiki-i18n source: 115842cfacf12619 -->
 <!-- wiki-i18n title: Panoramica -->
 # Panoramica degli oggetti {#items-overview}
 
@@ -118,7 +118,7 @@ Ogni materiale ed entrambe le valute, con la loro provenienza e il loro uso, son
 
 Il Negozio, l’inventario dell’Hangar e le altre liste di oggetti seguono un solo ordine: la nave, la sua corazza dello scafo, poi un laser con i suoi amp e le sue munizioni, uno scudo con le sue celle, un motore con i suoi propulsori, i Nuclei adattivi, gli extra, i consumabili, i droni, le formazioni di droni, i booster e le risorse. All’interno di un tipo viene prima il più economico.
 
-- **Corazza dello scafo**: armatura per gli slot corazza delle quattro navi che costruisci, Hull Plating da I a III, ciascuna con più scafo. Vedi [Corazza dello scafo](/wiki/06-Items/Hull-Plating.md).
+- **Corazza dello scafo**: armatura per gli slot corazza di ogni nave (3 aperti su ciascuna delle quattro navi del Negozio, di più su quelle che costruisci), Hull Plating da I a III, ciascuna con più scafo. Vedi [Corazza dello scafo](/wiki/06-Items/Hull-Plating.md).
 - **Laser**: i tuoi sistemi d’arma principali e gli [amp](/wiki/06-Items/Lasers.md) che vanno al loro interno.
 - **Scudi**: generatori e [celle](/wiki/06-Items/Shields.md) per la difesa.
 - **Propulsione**: motori e [propulsori](/wiki/06-Items/Propulsion.md) per la velocità.

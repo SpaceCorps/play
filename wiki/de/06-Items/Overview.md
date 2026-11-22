@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bf737868ee14ecc2 -->
+<!-- wiki-i18n source: 115842cfacf12619 -->
 <!-- wiki-i18n title: Überblick -->
 # Gegenstände im Überblick {#items-overview}
 
@@ -118,7 +118,7 @@ Jedes Material und beide Währungen, mit ihrer Herkunft und ihrem Verwendungszwe
 
 Der Shop, das Inventar des Hangars und die anderen Gegenstandslisten folgen einer Reihenfolge: das Schiff, seine Hüllenpanzerung, dann ein Laser mit seinen Verstärkern und seiner Munition, ein Schild mit seinen Zellen, ein Triebwerk mit seinen Schubdüsen, die adaptiven Kerne, Extras, Verbrauchsgüter, Drohnen, Drohnenformationen, Booster und Ressourcen. Innerhalb einer Art kommt das Günstigste zuerst.
 
-- **Hüllenpanzerung**: Panzerung für die Panzerungs-Slots der vier Schiffe, die du baust, Hull Plating I bis III, jede mit mehr Hülle. Siehe [Hüllenpanzerung](/wiki/06-Items/Hull-Plating.md).
+- **Hüllenpanzerung**: Panzerung für die Panzerungs-Slots jedes Schiffs (3 offene Slots auf jedem der vier Schiffe des Shops, mehr auf den Schiffen, die du baust), Hull Plating I bis III, jede mit mehr Hülle. Siehe [Hüllenpanzerung](/wiki/06-Items/Hull-Plating.md).
 - **Laser**: Deine wichtigsten Waffensysteme und die [Verstärker](/wiki/06-Items/Lasers.md), die in sie eingesetzt werden.
 - **Schilde**: Generatoren und [Zellen](/wiki/06-Items/Shields.md) für die Verteidigung.
 - **Antrieb**: Triebwerke und [Schubdüsen](/wiki/06-Items/Propulsion.md) für Tempo.

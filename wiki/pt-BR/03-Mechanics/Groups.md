@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9530756071d3a3eb -->
+<!-- wiki-i18n source: ab422d8b5066fe56 -->
 <!-- wiki-i18n title: Grupos -->
 # Grupos {#groups}
 
@@ -72,6 +72,8 @@ A aba **Sistema** é dourada e somente de leitura, com uma lista própria: nela 
 ### Mensagens privadas {#private-messages}
 
 Digite `/m`, o nome de um piloto e a sua mensagem para escrever só a esse piloto: `/m nova o7` (`/msg` e `/w` fazem o mesmo). O piloto precisa estar online no seu servidor, em qualquer mundo, na estação ou em voo. O nome é o do piloto como o chat o mostra, em maiúsculas ou minúsculas (`/m NOVA`, `/m @nova` e `/m nova:` encontram nova): precisa ser o nome inteiro, nunca só o começo, para que uma mensagem não vá para o piloto errado. `/r` e a sua resposta (`/r o7`) responde ao piloto que escreveu para você por último ou, se ninguém escreveu, ao último piloto para quem você escreveu.
+
+Clique com o botão direito no nome de um piloto para abrir um menu pequeno (em uma linha do chat, na janela **Pilotos online**, na **Lista de pilotos** do clã ou na linha de um membro na **janela do grupo**; no celular, mantenha o nome pressionado): **Enviar mensagem** inicia uma mensagem privada para esse piloto (o campo de texto recebe `/m name` e fica com o teclado), **Ver ficha do piloto** abre o perfil do piloto e **Copiar nome** coloca o nome na área de transferência. **Enviar mensagem** não aparece no seu próprio nome, em um piloto de outro servidor nem em um servidor de jogo anterior à 0.4.22.
 
 Uma mensagem privada aparece na aba que você está olhando, entre as linhas dela, em violeta: **Para nova:** a que você enviou e **De nova:** a que você recebeu, de modo que você tem os dois lados da conversa na janela do chat em voo e na barra da estação. Todas as abas a mostram, inclusive a aba **Sistema** e uma aba **Global** oculta. Uma mensagem recebida conta como não lida (no botão da barra de ferramentas e na barra da estação) até você abrir uma aba, e toca um aviso suave, no máximo uma vez a cada 2 segundos; enviar uma toca um som suave próprio. Clique com o botão direito em uma mensagem recebida para **Responder**, **Convidar para o grupo**, **Ignorar** ou **Denunciar…**.
 

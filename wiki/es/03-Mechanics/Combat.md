@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 49bacd415901ee2e -->
+<!-- wiki-i18n source: 9c4de69d519972a3 -->
 <!-- wiki-i18n title: Combate -->
 # Mecánicas de combate {#combat-mechanics}
 
@@ -122,7 +122,7 @@ Cuando un enemigo o un NPC impacta tu nave, el daño se procesa así:
 
 El daño entrante se reparte entre los escudos y los puntos de vida según la **absorción media** de tu nave: la media de la absorción de tus escudos, cada uno con la de sus células de escudo, más la mejora Shield Absorbance Boost de la Tienda de temporada (consulta [Mecánicas de los escudos](/wiki/03-Mechanics/Shields.md)). **No tiene un tope del 100 %**: lo que los escudos se llevan de un impacto es tu absorción **menos la penetración de escudo del atacante**, entre el 0 % y el 100 %.
 - Los escudos reciben la **absorción** de cada impacto (p. ej., 91 % con el mejor escudo y las mejores células, 62 % con un Basic Shield Core con dos Absorption Shield Cell I), menos la penetración del impacto: el 35 % de un Lancet III deja un 56 % en los escudos de una nave con 91 %, y el resto (allí, el 44 %) va directo a los HP.
-- La **penetración de escudo** viene de los cohetes directos (del 10 al 35 %) y de la munición láser x3 y x4 (5 % y 10 %); los alienígenas no tienen. Una nave por encima del 100 % (digamos, 112 %) aguanta en los escudos un impacto entero contra una penetración de hasta la diferencia (allí, 12 %). Los Penetration Amps de los láseres del atacante (de +5 % a +20 % por ranura) y una formación de drones se suman a ella, y nada limita el total.
+- La **penetración de escudo** viene de los cohetes directos (del 10 al 35 %) y de la munición láser x3 y x4 (5 % y 10 %); los alienígenas no tienen. Una nave por encima del 100 % (digamos, 112 %) aguanta en los escudos un impacto entero contra una penetración de hasta la diferencia (allí, 12 %). Los Penetration Amps de los láseres del atacante (de +7 % a +25 % por ranura) y una formación de drones se suman a ella, y nada limita el total.
 - Un escudo demasiado bajo para su parte pasa la diferencia a los HP; si los escudos están totalmente agotados, el **100 %** de todo el daño restante va a los HP.
 - Los alienígenas no tienen estadística de absorción: sus escudos reciben el 80 % de cada impacto (menos la penetración del impacto) y su casco, el resto.
 - **Formaciones de drones.** Rampart aumenta tu absorción un 17 % (Shrike la reduce un 10 %), y Asterism da a cada impacto directo contra ti un 7 % de probabilidad de no causar ningún daño (aparece un «Fallo» flotante), y los impactos que llegan se reparten entre escudo y casco como siempre. Gemini (+15 puntos) suma penetración a tu propia munición y a los cohetes directos, y Stiletto (+35 puntos de penetración de cohetes) solo a los cohetes directos, sin tope ([Formaciones de drones](/wiki/03-Mechanics/Formations.md)). En un láser, sus amps también cuentan.

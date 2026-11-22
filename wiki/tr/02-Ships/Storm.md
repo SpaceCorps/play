@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4f623748df04b99c -->
+<!-- wiki-i18n source: d81d149a539b43ee -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
@@ -27,7 +27,7 @@ Storm bir “cam top” savaşçısıdır: tüm gemiler arasında en yüksek tem
 
 ## Araştırma {#research}
 
-- **Gövde plakası yuvaları.** Storm gemisinin [Gövde Kaplaması](/wiki/06-Items/Hull-Plating.md) için 8 [gövde plakası yuvası](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) vardır; gemiyi ürettiğinde hepsi kilitlidir. Her biri Skylab’da kendi başına bir teknolojidir (1 sa ve 10 Dark Matter) ve ilkinden başlayarak sırayla araştırılır; araştırıldığında o yuvayı Storm gemisinde ve tüm tasarımlarında açar. 8 yuvanın hepsi Hull Plating III ile dolduğunda 200.000 gövde ekler.
+- **Gövde plakası yuvaları.** Storm gemisinin [Gövde Kaplaması](/wiki/06-Items/Hull-Plating.md) için 8 [gövde plakası yuvası](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) vardır; gemiyi ürettiğinde hepsi kilitlidir. Her biri Skylab’da kendi başına bir teknolojidir (1 sa ve 10 Dark Matter) ve ilkinden başlayarak sırayla araştırılır; araştırıldığında o yuvayı Storm gemisinde ve tüm tasarımlarında açar. 8 yuvanın hepsi Hull Plating III ile dolduğunda 160.000 gövde ekler.
 - **Tasarımlar.** Storm gemisinin 3 [tasarımı](/wiki/03-Mechanics/Ship-Designs.md) vardır. Birini araştır (10 sa ve 10 Dark Matter), sonra Montaj’da Storm gemini o tasarıma dönüştür: değişiklik geri alınamaz.
 
 | Tasarım | Neyi değiştirir |

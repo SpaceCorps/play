@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d9722fd08d8980ff -->
+<!-- wiki-i18n source: e819db509b714a18 -->
 <!-- wiki-i18n title: Clãs -->
 # Clãs {#clans}
 
@@ -193,7 +193,7 @@ A coluna **Skylab** ao lado mostra onde está o [Skylab](/wiki/03-Mechanics/Skyl
 O botão **Quem está online** na barra de ferramentas do sistema (no alto, à direita) ou a tecla **H** (reatribuível em Configurações › Controles) abre a janela **Pilotos online**.
 
 - **Quem aparece.** Os pilotos que estão voando agora no **seu mundo**, menos você: Alpha, Beta e Gamma não se encontram. Um piloto cuja nave camuflada você não vê não aparece nem é contado. A janela mostra no máximo **100** linhas, primeiro os seus companheiros de clã, depois os níveis mais altos, depois por nome, e em cima o número real de pilotos online.
-- **O que uma linha mostra.** Nome, nível, corporação, tag do clã e símbolo de patente do piloto: o que o chat e as classificações já mostram. Nunca uma posição, um mapa ou o estado da nave.
+- **O que uma linha mostra.** Nome, nível, corporação, tag do clã e símbolo de patente do piloto: o que o chat e as classificações já mostram. Nunca uma posição, um mapa ou o estado da nave. Um **nome dourado** significa que o piloto já apoiou o jogo com o Premium em algum momento, como no chat; uma **coroa dourada** depois do nome significa que o Premium dele está ativo agora.
 - **Busca.** Digite parte de um nome ou de uma tag de clã; a janela pergunta de novo ao servidor quando a lista foi cortada.
 - **Convidar.** O botão **Convidar** de uma linha é o convite próprio da janela Grupo ([Grupos](/wiki/03-Mechanics/Groups.md)), com as mesmas respostas e recusas (o piloto está em um grupo, o grupo está cheio, o Não perturbe está ativado). O botão fica cinza, com o motivo ao passar o mouse, quando o jogo já sabe que o convite seria recusado.
 - A lista é lida de novo a cada 10 segundos enquanto a janela está aberta.

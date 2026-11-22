@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 38baebcbfc5e575a -->
+<!-- wiki-i18n source: 55107c4d57b624af -->
 <!-- wiki-i18n title: Ostirion -->
 # Ostirion
 
@@ -10,6 +10,7 @@ L’Ostirion est un solide intercepteur de milieu de gamme, nettement supérieur
 - **Vitesse de base** : 260
 - **Emplacements laser** : 5
 - **Emplacements extras** : 2
+- **Emplacements de blindage**: 3
 
 ### Emplacements de générateur et de soutien {#generator-support-slots}
 

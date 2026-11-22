@@ -5,7 +5,7 @@ The Miyuki is a support ship in five levels. You make level I in Assembly like a
 ## Stats
 
 - **Hitpoints (HP)**: 128,000
-- **Base Speed**: 270
+- **Base Speed**: 250
 - **Laser Slots**: 5
 - **Extra Slots**: 3
 - **Hull Plate Slots**: 5
@@ -29,11 +29,11 @@ The Stats above are level I. A level above the first is made in Assembly from th
 
 | Level | Hull | Base speed | Lasers | Hull plates | Core / support / auxiliary | Shield capacity | Absorbance |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Miyuki** | 128,000 | 270 | 5 | 5 | 3 / 3 / 2 | – | – |
-| **Miyuki II** | 134,400 | 270 | 6 | 6 | 3 / 3 / 2 | +5% | +2% |
-| **Miyuki III** | 141,120 | 270 | 7 | 7 | 3 / 3 / 2 | +10.25% | +4.04% |
-| **Miyuki IV** | 148,176 | 320 | 8 | 8 | 3 / 3 / 2 | +15.76% | +6.12% |
-| **Miyuki V** | 155,585 | 320 | 9 | 9 | 4 / 4 / 4 | +21.55% | +8.24% |
+| **Miyuki** | 128,000 | 250 | 5 | 5 | 3 / 3 / 2 | – | – |
+| **Miyuki II** | 134,400 | 250 | 6 | 6 | 3 / 3 / 2 | +5% | +2% |
+| **Miyuki III** | 141,120 | 250 | 7 | 7 | 3 / 3 / 2 | +10.25% | +4.04% |
+| **Miyuki IV** | 148,176 | 300 | 8 | 8 | 3 / 3 / 2 | +15.76% | +6.12% |
+| **Miyuki V** | 155,585 | 300 | 9 | 9 | 4 / 4 / 4 | +21.55% | +8.24% |
 
 Shield capacity and absorbance are bonuses over level I.
 
@@ -61,11 +61,13 @@ The Miyuki's abilities belong to the ship, not to an item: they take no ability 
 
 A link lasts 5 seconds and reaches a ship of your group or company within 1,200 units. The Heal Pod reaches 600. A Channel Shield also restores a share of each ship's own maximum shield every second on top of its points: 3% on Miyuki III, 4% on IV and 5% on V (the percent in the table).
 
+Your [Healing](/wiki/03-Mechanics/Pilot-Skills.md) pilot skill works on all three: at level 100 it makes the Heal Pod, the Channel Heal and the Channel Shield (its points and its share of the maximum shield) 30% stronger and shortens their waits by 10%, so a Channel Heal that rests 100 seconds rests 90. The tables above give the numbers without it.
+
 ## Research
 
 - **Levels.** Miyuki II to V are technologies of their own in the Skylab, each behind the level below: 1 d for II and III, 2 d for IV and V, and 10 Dark Matter each. In the Research view the five levels are drawn one under the other with an arrow from each level to the next: you research II after I, III after II, IV after III and V after IV.
 - **Slots.** The hull plate slots, the laser slots from the sixth and the generator slots from the ninth are technologies of their own in the Skylab, 1 h and 10 Dark Matter each: hull plate slots 1 to 9 in order from the first, laser slots 6 to 9 (each behind its level) and generator slots 9 to 12 (each behind level V). A slot opens on the ship, at whatever level it is, as soon as you have researched it; one you have not is shown locked in the Hangar.
-- **Hull plate slots.** The Miyuki has 5 [hull plate slots](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) for [Hull Plating](/wiki/06-Items/Hull-Plating.md) at level I and 9 at level V, all locked when you make it. All 9 filled with Hull Plating III add 225,000 hull.
+- **Hull plate slots.** The Miyuki has 5 [hull plate slots](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) for [Hull Plating](/wiki/06-Items/Hull-Plating.md) at level I and 9 at level V, all locked when you make it. All 9 filled with Hull Plating III add 180,000 hull.
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

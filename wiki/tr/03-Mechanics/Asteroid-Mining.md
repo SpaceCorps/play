@@ -73,7 +73,7 @@ Yanaştırılmış bir **Mole** ([P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole) t
 - Ödeme herkes için aynıdır: hiçbir Premium bonusu, Sezon Mağazası güçlendirmesi, klan güçlendirmesi, Loot Luck ya da booster krediyi, Thulium miktarını ya da buluntuları değiştirmez. [Resource Magnet Booster](/wiki/06-Items/Boosters.md) ise bir cevher parçasını topladığında, her sandıkta olduğu gibi, kaynaklarına ekleme yapar.
 - Zırh her vuruştan puan düşürür, ancak bir vuruşun en az %20 kadarı her zaman geçer.
 - Alan patlaması, kırılgan asteroitlerde diğerlerine göre 1,6 kat daha fazla hasar verir.
-- Güvenli halkanın kenarının 1.500 birim, kara deliğin merkezinin 5.000 birim ve haritanın kenarının 600 birim yakınında asteroit bulunmaz; ayrıca bir asteroit bir pilotun 1.200 birim yakınında asla belirmez.
+- Güvenli halkanın kenarının 1.550 birim, kara deliğin merkezinin 5.000 birim ve haritanın kenarının 600 birim yakınında asteroit bulunmaz; ayrıca bir asteroit bir pilotun 1.200 birim yakınında asla belirmez.
 - Bir kırılmadan sonra aynı türden bir asteroit, sektörün satırındaki sürenin (artı eksi %25) ardından haritanın başka bir yerinde yeniden oluşur.
 - Motherlode, sektör ne olursa olsun 1 sa sonra geri gelir.
 

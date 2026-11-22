@@ -108,7 +108,7 @@ Eight of the ten types only boost. The **Retriever** and the **Mole** boost too,
 - **Every Mole works, one Retriever.** Since 0.4.27 every docked Mole works, each with its own drone and beam, and since 0.5.0 your Moles may work the same asteroid: each takes the nearest one, so with one asteroid in reach they all work it, and when it breaks they move on to the next together. A Station with three Moles breaks up to about three times as many asteroids as one Mole while there are enough asteroids in reach; the pulses that arrive after the one that breaks an asteroid are lost, so Moles that all hit one small asteroid at once are worth a little less. One Retriever works, the one with the longest reach; your other Retrievers only boost.
 - **Flying, outside a safe zone.** They stop while a [safe zone](/wiki/03-Mechanics/Combat.md#2-safe-zone-immunity) protects your ship, and while it is destroyed, under [spawn protection](/wiki/01-General/Getting-Started.md#dying-and-coming-back), cloaked or jumping, and go on when none of these holds. A pilot who is logged off has no ship in space, so nothing works for him.
 - **Idle or not.** There is no rule about being at the keys: a Mole works the same while you hunt, while you look at a window and while you are away from the screen.
-- **What they never do.** A Retriever takes no box you could not take yourself, so never another pilot's protected boxes. A Mole never works an asteroid in a safe zone: asteroids stand at least 1,500 units from a safe ring.
+- **What they never do.** A Retriever takes no box you could not take yourself, so never another pilot's protected boxes. A Mole never works an asteroid in a safe zone: asteroids stand at least 1,550 units from a safe ring.
 
 ### The Retriever
 

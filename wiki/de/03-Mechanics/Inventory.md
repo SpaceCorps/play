@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 110ad87b2e059bc1 -->
+<!-- wiki-i18n source: 4c08fb4a1e4f417d -->
 <!-- wiki-i18n title: Inventar -->
 # Inventar & Ausrüstung {#inventory-equipment}
 
@@ -20,7 +20,7 @@ Anders als in herkömmlichen Weltraumspielen hat SpaceCorps dynamisch gestufte A
   - **Nicht zugewiesene Slots/Alt-Slots**: Gegenstände, die hier sitzen, tragen nichts zu den Werten bei.
   - **Auch das Stapeln lässt nach**: Schilde und Triebwerke werden nach Stärke geordnet, die stärksten zuerst (nach dem, was jedes nach dem Anteil seines Slots zählt), und der Anteil der Stufe wird dann mit dem ihres Rangs multipliziert: Der 1. bis 4. zählt voll, der 5. bis 7. mit 85 %, 70 % und 55 %, ab dem 8. mit 50 % bei Schilden und 25 % bei Triebwerken. Siehe [Schilde](/wiki/03-Mechanics/Shields.md) und [Tempo](/wiki/03-Mechanics/Speed.md).
 - **Extra-Slots**: Für spezialisierte Hilfsgegenstände, etwa Repair Drones. Protos, Kitefin, Ostirion und Nomad haben zwei; Paragon, Ironclad, Wraith und Storm, die du baust, haben drei. Die Extra Slots CPUs ([Extras](/wiki/06-Items/Extras.md#extra-slots-cpus)) geben 3, 5 oder 7 dazu.
-- **Panzerungs-Slots**: Für [Hüllenpanzerung](/wiki/06-Items/Hull-Plating.md#hull-plate-slots), die Hülle hinzufügt. Nur die vier Schiffe, die du baust, haben sie (die Paragon 5, die Storm 7, die Ironclad 15 und die Wraith 10), jeder gesperrt, bis du ihn im Skylab erforschst, und sie sind in beiden Konfigurationen gleich.
+- **Panzerungs-Slots**: Für [Hüllenpanzerung](/wiki/06-Items/Hull-Plating.md#hull-plate-slots), die Hülle hinzufügt. Protos, Kitefin, Ostirion und Nomad haben 3, von Anfang an offen. Die Schiffe, die du baust, haben mehr (die Paragon 5, die Storm 8, die Ironclad 15, die Wraith 10 und die Miyuki 5 bis 9), jeder gesperrt, bis du ihn im Skylab erforschst, und sie sind in beiden Konfigurationen gleich.
 
 ## Reihenfolge im Inventar {#inventory-order}
 

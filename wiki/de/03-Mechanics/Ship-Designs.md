@@ -1,12 +1,14 @@
-<!-- wiki-i18n source: 522d6b0bd8a4106c -->
+<!-- wiki-i18n source: b40e4bea60303f48 -->
 <!-- wiki-i18n title: Schiffsdesigns -->
 # Schiffsdesigns {#ship-designs}
 
-<!-- wiki-search: design; designs; refit; convert; conversion; thunder; bucky; lich; notsum; bratan; recon; duma; titanic; raptor; billy; menati; ataraxis; matt; umbau; umbauen; umwandlung; schiffsdesign -->
+<!-- wiki-search: design; designs; refit; convert; conversion; thunder; bucky; lich; notsum; bratan; recon; duma; titanic; raptor; billy; menati; ataraxis; matt; umbau; umbauen; umwandlung; schiffsdesign; protosaur; protos -->
 
-Ein **Design** ist eines der vier Schiffe, die du in der Montage baust, mit ein paar absichtlich geänderten Werten: weniger Hülle für mehr Tempo, ein Laser-Slot weniger für härtere Schilde. Neun der dreizehn Designs haben außerdem eine von sieben [Fähigkeiten](/wiki/03-Mechanics/Abilities.md#ship-abilities), die das normale Schiff nicht hat. Die Storm RECON hat neben ihrem Chameleon noch zwei weitere Schaltflächen: Target und Slow. Ein Design erforschst du im Skylab und baust dann ein Schiff, das dir gehört, in der Montage darauf um. **Der Umbau lässt sich nicht rückgängig machen.**
+Ein **Design** ist eines der vier Schiffe, die du in der Montage baust, mit ein paar absichtlich geänderten Werten: weniger Hülle für mehr Tempo, ein Laser-Slot weniger für härtere Schilde. Zehn der vierzehn Designs haben außerdem eine von sieben [Fähigkeiten](/wiki/03-Mechanics/Abilities.md#ship-abilities), die das normale Schiff nicht hat. Die Storm RECON hat neben ihrem Chameleon noch zwei weitere Schaltflächen: Target und Slow. Ein Design erforschst du im Skylab und baust dann ein Schiff, das dir gehört, in der Montage darauf um. **Der Umbau lässt sich nicht rückgängig machen.**
 
-## Die dreizehn Designs {#the-thirteen-designs}
+Die **Protosaur** ist das Design des Startschiffs, der [Protos](/wiki/02-Ships/Protos.md), und das einzige Design, das einen eigenen Namen trägt. Sie braucht keine Schiffstechnologie, nur die der Dark Matter Plate, und kostet 50.000 Thulium und 8 Dark Matter Plates. Sie gibt der Protos +5 Panzerungs-Slots, alle sofort offen, +1 Laser-Slot, +1 Extra-Slot, +30 Grundtempo, +50 % Raketenschaden sowie die Schaltflächen Blink und Chameleon. Du kannst deine Protos umbauen, sobald du ein anderes Schiff fliegst.
+
+## Die vierzehn Designs {#the-thirteen-designs}
 
 Die letzten drei Spalten zeigen, was das umgebaute Schiff hat: seine eigene Hülle und sein Grundtempo, vor Panzerungen, Boostern, Formationen und Triebwerken, und seine Laser-Slots. Alles, was die Tabelle nicht nennt, bleibt, wie das Schiff es hatte, auch die [Panzerungs-Slots](/wiki/06-Items/Hull-Plating.md#hull-plate-slots).
 
@@ -24,12 +26,13 @@ Die letzten drei Spalten zeigen, was das umgebaute Schiff hat: seine eigene Hül
 | **Wraith BILLY** | +5 % Basis-Hülle, +10 % Schildkapazität, Diminisher | 268.800 | 210 | 13 |
 | **Wraith MENATI** | +20 % Basis-Hülle, +20 Basis-Tempo, +5 % Schildabsorption, Heal Pod | 307.200 | 230 | 13 |
 | **Wraith ATARAXIS** | -1 Laser-Slot, +1 Support-Slot, +25 % Schildkapazität, +10 % Schildabsorption, Shield Buff | 256.000 | 210 | 12 |
-| **Wraith MATT** | +2 Laser-Slots, -20 % Schildkapazität, +10 % Schilddurchdringung der Laser | 256.000 | 210 | 15 |
+| **Wraith MATT** | +2 Laser-Slots, -20 % Schildkapazität, +10 % Schilddurchdringung der Laser, +5 % Laserschaden | 256.000 | 210 | 15 |
+| **Protosaur** | +30 Basis-Tempo, +1 Laser-Slot, +5 Panzerungs-Slots, +1 Extra-Slot, +50 % Raketenschaden, Blink, Chameleon | 8.000 | 220 | 3 |
 
 ## Ein Design bekommen {#getting-a-design}
 
 1. **Erforsche es.** Jedes Design ist eine Technologie im Schiffsbaum der Forschungsansicht deines Skylabs ([Forschung](/wiki/03-Mechanics/Research.md#ship-technologies)). Sie dauert 10 Stunden und kostet 10 Dark Matter und verlangt die Technologie ihres Schiffs und die der Dark Matter Plate. Mit der Forschung entsteht noch nichts.
-2. **Baue das Schiff um.** Der Abschnitt Designs der Montage listet die dreizehn Umbauten auf. Wähle einen und bestätige: Der Auftrag kommt in die Produktionswarteschlange und dauert 10 Minuten. Er endet von selbst, du musst ihn nicht abholen.
+2. **Baue das Schiff um.** Der Abschnitt Designs der Montage listet die vierzehn Umbauten auf. Wähle einen und bestätige: Der Auftrag kommt in die Produktionswarteschlange und dauert 10 Minuten. Er endet von selbst, du musst ihn nicht abholen.
 3. **Bezahle ihn.** Ein Umbau kostet Thulium, Materialien und Dark Matter Plates, wie die Tabelle sagt.
 
 | Design | Thulium | Dark Matter Plate | Ship Fragment | Reinforced Hull Plate | Power Core | Ancient Control Unit |
@@ -47,6 +50,7 @@ Die letzten drei Spalten zeigen, was das umgebaute Schiff hat: seine eigene Hül
 | **Wraith MENATI** | 100.000 | 35 | 375 | 65 | 20 | 3 |
 | **Wraith ATARAXIS** | 100.000 | 35 | 375 | 65 | 20 | 3 |
 | **Wraith MATT** | 100.000 | 25 | 375 | 65 | 20 | 3 |
+| **Protosaur** | 50.000 | 8 | 30 | 5 | 2 | – |
 
 Das Schiff, das umgebaut wird, ist das, das du von dieser Art besitzt (eine Paragon für THUNDER, BUCKY oder LICH), und es darf nicht das Schiff sein, das du fliegst: Mache zuerst ein anderes Schiff aktiv. Ein zerstörtes Schiff lässt sich nicht umbauen.
 
@@ -61,21 +65,22 @@ Das Schiff, das umgebaut wird, ist das, das du von dieser Art besitzt (eine Para
 | **Storm** | 8 | 8 h | 80 | 3 | 30 h | 30 |
 | **Ironclad** | 15 | 15 h | 150 | 2 | 20 h | 20 |
 | **Wraith** | 10 | 10 h | 100 | 5 | 50 h | 50 |
-| **Alle vier** | 38 | 38 h | 380 | 13 | 130 h | 130 |
+| **Protos** | 0 | 0 h | 0 | 1 | 10 h | 10 |
+| **Alle fünf** | 38 | 38 h | 380 | 14 | 140 h | 140 |
 
-Zusammen verlangen sie 510 Dark Matter zusätzlich zu den 979, die alle anderen Technologien verlangen, und die Modul-Level des Skylab verlangen 115 mehr: 1.604 für jede Technologie des Spiels.
+Zusammen verlangen sie 520 Dark Matter zusätzlich zu den 979, die alle anderen Technologien verlangen, und die Modul-Level des Skylab verlangen 115 mehr: 1.614 für jede Technologie des Spiels.
 
 ## Was mit deinem Schiff geschieht {#what-happens-to-your-ship}
 
 - **Es bleibt dasselbe Schiff.** Der Umbau ändert es an Ort und Stelle: Seine Ausrüstung, seine Panzerungen, deine Drohnen und die Formation, die du trägst, bleiben, wie sie sind.
 - **Laser können ihren Slot verlieren.** Ein Design mit weniger Laser-Slots (RECON, DUMA, ATARAXIS) schickt die Laser der wegfallenden Slots samt ihren Verstärkern und ihren Schmiedewürfen zurück in dein Inventar. Ein neuer Slot kommt leer.
 - **Volle Hülle und volle Schilde**, wenn er fertig ist. Bis dahin ist das Schiff gesperrt: Es lässt sich nicht aktiv setzen, nicht ausrüsten und nicht noch einmal umbauen.
-- **Es gibt keinen Weg zurück.** Für ein anderes Design oder wieder das normale Schiff baust du das Schiff in der Montage noch einmal. Du besitzt ein Schiff jeder Art, also können dir eine Paragon und ein THUNDER gleichzeitig gehören, aber nicht zwei THUNDER.
+- **Es gibt keinen Weg zurück.** Für ein anderes Design oder wieder das normale Schiff baust du das Schiff in der Montage noch einmal. Die Protos ist die einzige Ausnahme: Sie lässt sich nicht herstellen und nicht noch einmal kaufen (der Shop führt sie auf, verkauft sie aber nie, und nur ein neues Konto startet mit einer). Wenn du deine Protos umbaust, hast du danach eine Protosaur und keine Protos mehr. Du besitzt ein Schiff jeder Art, also können dir eine Paragon und ein THUNDER gleichzeitig gehören, aber nicht zwei THUNDER.
 - **Der Wipe** behält ein Design wie jedes andere Schiff, das dir gehört. Ein Umbau, der noch läuft, wird abgebrochen und zurückerstattet wie jede Herstellung in deiner Produktionswarteschlange: Das Schiff bleibt, wie es war.
 
 ## Aussehen und Größe {#looks-and-size}
 
-Jedes Design hat ein eigenes Modell, das seines Schiffs mit ein paar Änderungen, die zeigen, was es kann. Sie sind wie die Schiffe schlicht grau, bis sie einen [Skin](/wiki/06-Items/Cosmetics.md) tragen: Ein Design trägt die Skins des Schiffs, aus dem es gemacht wurde, und ein Umbau behält den Look. BUCKY und TITANIC sind 20 % größer, und ein größeres Schiff wird von einer Rakete leichter getroffen. Der Hangar kennzeichnet ein Design mit einem DESIGN-Abzeichen, und andere Piloten sehen seinen Namen im Zielfenster und im Kill-Feed.
+Jedes Design hat ein eigenes Modell, das seines Schiffs mit ein paar Änderungen, die zeigen, was es kann. Die dreizehn Designs der vier Schiffe, die du baust, sind wie diese Schiffe schlicht grau, bis sie einen [Skin](/wiki/06-Items/Cosmetics.md) tragen: Ein Design trägt die Skins des Schiffs, aus dem es gemacht wurde, und ein Umbau behält den Look. Die Protosaur ist wie die Protos orange und weiß und hat noch keine Skins. BUCKY und TITANIC sind 20 % größer, und ein größeres Schiff wird von einer Rakete leichter getroffen. Der Hangar kennzeichnet ein Design mit einem DESIGN-Abzeichen, und andere Piloten sehen seinen Namen im Zielfenster und im Kill-Feed.
 
 ## Shop, Auktion und Punkte {#shop-auction-and-points}
 

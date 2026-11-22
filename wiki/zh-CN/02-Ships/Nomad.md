@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: dff7327a9780c393 -->
+<!-- wiki-i18n source: 872e92e0eed74049 -->
 <!-- wiki-i18n title: Nomad -->
 # Nomad
 
@@ -10,6 +10,7 @@ Nomad 是一艘巡洋舰，船体接近 Ostirion 的两倍，火炮多出两门�
 - **基础速度**：240
 - **激光槽位**：7
 - **附加槽位**：2
+- **装甲槽位**: 3
 
 ### 发生器与支援槽位 {#generator-support-slots}
 

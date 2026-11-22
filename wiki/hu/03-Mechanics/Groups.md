@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9530756071d3a3eb -->
+<!-- wiki-i18n source: ab422d8b5066fe56 -->
 <!-- wiki-i18n title: Csoportok -->
 # Csoportok {#groups}
 
@@ -72,6 +72,8 @@ Az **Enter** billentyű megnyitja a chatet, és átadja neki a billentyűzetet. 
 ### Privát üzenetek {#private-messages}
 
 Írd be, hogy `/m`, egy pilóta neve és az üzeneted, hogy csak neki írj: `/m nova o7` (a `/msg` és a `/w` ugyanezt teszi). A pilótának a szervereden online kell lennie, bármelyik világban, az állomáson vagy repülés közben. A név a pilóta neve úgy, ahogy a chat mutatja, kis- és nagybetűre nem érzékenyen (a `/m NOVA`, a `/m @nova` és a `/m nova:` is nova-t találja meg): a teljes névnek kell lennie, soha nem csak az elejének, így egy üzenet nem mehet rossz pilótához. A `/r` és a válaszod (`/r o7`) arra a pilótára válaszol, aki legutóbb írt neked, vagy arra, akinek te írtál legutóbb, ha senki sem írt neked.
+
+Kattints jobb gombbal egy pilóta nevére egy kis menühöz (egy chatsoron, az **Online pilóták** ablakban, a klán **Pilótanévsorában** vagy a **csoportablak** egyik sorában; telefonon tartsd nyomva a nevet): az **Üzenet küldése** privát üzenetet indít ennek a pilótának (a beviteli mező `/m name` szöveget kap, és övé a billentyűzet), a **Pilótakártya megtekintése** megnyitja a pilóta profilját, a **Név másolása** pedig a vágólapra teszi a nevet. Az **Üzenet küldése** nincs ott a saját neveden, egy másik szerver pilótáján és a 0.4.22 előtti játékszerveren.
 
 A privát üzenet abban a lapban jelenik meg, amelyet éppen nézel, a sorai között, lilával: **nova részére:** az, amelyet küldtél, **nova üzenete:** az, amelyet kaptál, így a beszélgetés mindkét oldala megvan a repülés közbeni chatablakban és az állomás sávjában. Minden lap mutatja, a **Rendszer** lap és az elrejtett **Globális** lap is. A kapott üzenet olvasatlannak számít (az eszköztár gombján és az állomás sávjában), amíg meg nem nyitsz egy lapot, és halk hangot játszik, legfeljebb 2 másodpercenként egyszer; a küldésnek saját halk hangja van. Kattints jobb gombbal egy kapott üzenetre, hogy **Válaszolj**, **Meghívd a csoportba**, **Mellőzd** vagy **Jelentsd…**.
 

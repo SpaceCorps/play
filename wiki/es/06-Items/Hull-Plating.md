@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: d605328d6ea5df78 -->
+<!-- wiki-i18n source: 91ebd8675b1f7ea3 -->
 <!-- wiki-i18n title: Blindaje de casco -->
 # Blindaje de casco {#hull-plating}
 
 <!-- wiki-search: hull plate; hull plate slot; hull plate slots; plate slot; plate; armour; armor; hpl; blindaje; ranura de blindaje; placa de casco -->
 
-El estudio del enjambre Dormant mostró avances en la tecnología de blindaje. Con ella, las naves pueden mejorar su casco: el **blindaje de casco** es un blindaje que encaja en una ranura de placa de casco de una nave fabricada y le añade puntos de casco. No es el Hull Plating **Booster** de la página [Potenciadores](/wiki/06-Items/Boosters.md), que es una bonificación temporal.
+El estudio del enjambre Dormant mostró avances en la tecnología de blindaje. Con ella, las naves pueden mejorar su casco: el **blindaje de casco** es un blindaje que encaja en una ranura de placa de casco de una nave y le añade puntos de casco. No es el Hull Plating **Booster** de la página [Potenciadores](/wiki/06-Items/Boosters.md), que es una bonificación temporal.
 
 ![The Hull plates card of the Hangar: the slots researched hold Hull Plating, the others show a padlock](../../img/wiki-img/shots/hull-plates.jpg)
 
@@ -28,26 +28,27 @@ Hull Plating I => Hull Plating II => Hull Plating III
 
 | Objeto | Casco que añade | De dónde sale |
 | :--- | ---: | :--- |
-| **Hull Plating I** | 8.000 | Tienda, 5.000 Thulium |
-| **Hull Plating II** | 15.000 | Ensamblaje, a partir de un Hull Plating I |
-| **Hull Plating III** | 25.000 | Ensamblaje, a partir de un Hull Plating II |
+| **Hull Plating I** | 7.000 | Tienda, 5.000 Thulium |
+| **Hull Plating II** | 14.000 | Ensamblaje, a partir de un Hull Plating I |
+| **Hull Plating III** | 20.000 | Ensamblaje, a partir de un Hull Plating II |
 
 El Hull Plating I se compra. **El II y el III son mejoras**: Ensamblaje consume un blindaje del nivel inferior (suelto en tu inventario) y pide Thulium, materiales y **Dark Matter Plates**, 5 para el II y 8 para el III, cuando el último nivel de cualquier otra pieza de equipo pide 4 y una Ancient Control Unit. Cada uno necesita antes su tecnología, en el árbol del Hull Plating de la página [Investigación](/wiki/03-Mechanics/Research.md#tree-hull-plating): 1 día y 25 Dark Matter para el II, 2 días y 40 para el III, además de la tecnología de la propia Dark Matter Plate. El árbol de arriba tiene los precios, los materiales y los tiempos.
 
-La [Forja](/wiki/06-Items/Forge.md) acepta todos los blindajes, y una mejora conserva el grado de forja y la bonificación del blindaje que consumió. Un blindaje tiene una sola estadística, su casco, así que lleva una sola bonificación, de +2 % a +15 % según el grado: un Hull Plating III en Ascendido suma hasta 28.750. La [Subasta](/wiki/03-Mechanics/Auction.md) lista el Hull Plating II y el III, nunca el Hull Plating I, que vende la tienda.
+La [Forja](/wiki/06-Items/Forge.md) acepta todos los blindajes, y una mejora conserva el grado de forja y la bonificación del blindaje que consumió. Un blindaje tiene una sola estadística, su casco, así que lleva una sola bonificación, de +2 % a +15 % según el grado: un Hull Plating III en Ascendido suma hasta 23.000. La [Subasta](/wiki/03-Mechanics/Auction.md) lista el Hull Plating II y el III, nunca el Hull Plating I, que vende la tienda.
 
 ## Ranuras de blindaje {#hull-plate-slots}
 
-El blindaje de casco solo encaja en las **ranuras de blindaje**, una clase de ranura propia que tienen las cuatro naves que fabricas en Ensamblaje además de sus ranuras de láser, generador, extra, habilidad y dron:
+El blindaje de casco solo encaja en las **ranuras de blindaje**, una clase de ranura propia que tiene toda nave además de sus ranuras de láser, generador, extra, habilidad y dron. Las naves que fabricas en Ensamblaje son las que más tienen: las cuatro de la tabla y la [Miyuki](/wiki/02-Ships/Miyuki.md), que tiene de 5 a 9, una más con cada nivel:
 
 | Nave | Ranuras de blindaje | Un juego completo de Hull Plating III suma |
 | :--- | ---: | ---: |
-| **Paragon** | 5 | 125.000 |
-| **Storm** | 8 | 200.000 |
-| **Ironclad** | 15 | 375.000 |
-| **Wraith** | 10 | 250.000 |
+| **Paragon** | 5 | 100.000 |
+| **Storm** | 8 | 160.000 |
+| **Ironclad** | 15 | 300.000 |
+| **Wraith** | 10 | 200.000 |
 
-- **Todas bloqueadas al principio.** Una ranura se abre cuando la investigas en el Skylab: una tecnología por cada ranura, 1 hora y 10 Dark Matter, en orden desde la primera. La vista de [Investigación](/wiki/03-Mechanics/Research.md#ship-technologies) muestra las ranuras de una nave como una sola tarjeta con un punto por ranura.
+- **En una nave fabricada, todas bloqueadas al principio.** Una ranura se abre cuando la investigas en el Skylab: una tecnología por cada ranura, 1 hora y 10 Dark Matter, en orden desde la primera. La vista de [Investigación](/wiki/03-Mechanics/Research.md#ship-technologies) muestra las ranuras de una nave como una sola tarjeta con un punto por ranura.
+- **Las cuatro naves de la Tienda tienen tres, abiertas desde el principio.** La Protos, la Kitefin, la Ostirion y la Nomad tienen 3 ranuras de blindaje cada una y nada que investigar: están abiertas desde el primer vuelo. Un juego completo de Hull Plating III añade 60.000 a cada una.
 - **Una clase de nave, no una sola nave.** Las ranuras que abriste para la Paragon están abiertas también en todos los diseños de la Paragon ([Diseños de naves](/wiki/03-Mechanics/Ship-Designs.md)). Una tecnología es tuya para siempre: el reinicio la conserva.
 - **Las dos configuraciones las comparten.** Los blindajes pertenecen a la nave: cambiar de configuración los deja puestos, y el hangar muestra los mismos en ambas.
 - **Cualquier mezcla.** Una ranura admite cualquier blindaje de casco, y dos iguales no son problema.
@@ -62,4 +63,4 @@ Un blindaje suma su casco al propio de la nave, y el hangar y la ventana de la n
 
 ## ¿Hull Plating o Hull Plating Booster? {#hull-plating-or-booster}
 
-Dos cosas comparten el nombre. El **blindaje de casco** (esta página) es una armadura: una placa que va en una ranura de blindaje de una nave fabricada y suma su casco mientras esté puesta. El **Hull Plating Booster** es una bonificación temporal de la página [Potenciadores](/wiki/06-Items/Boosters.md), +10 % de puntos de casco máximos durante 10 horas en la nave que pilotes, y no hay nada que equipar. Se suman: primero van los blindajes y el 10 % del Booster se toma sobre el total.
+Dos cosas comparten el nombre. El **blindaje de casco** (esta página) es una armadura: una placa que va en una ranura de blindaje de una nave y suma su casco mientras esté puesta. El **Hull Plating Booster** es una bonificación temporal de la página [Potenciadores](/wiki/06-Items/Boosters.md), +10 % de puntos de casco máximos durante 10 horas en la nave que pilotes, y no hay nada que equipar. Se suman: primero van los blindajes y el 10 % del Booster se toma sobre el total.

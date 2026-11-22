@@ -116,7 +116,7 @@ Every material and both currencies, with where each comes from and what it is fo
 
 The Shop, the Hangar's inventory and the other item lists read in one order: the ship, its Hull Plating, then a laser with its amps and ammo, a shield with its cells, an engine with its thrusters, the Adaptive Cores, extras, consumables, drones, drone formations, boosters and resources. Inside a kind the cheapest comes first.
 
-- **Hull Plating**: Armour for the hull plate slots of the four ships you craft, Hull Plating I to III, each adding more hull. See [Hull Plating](/wiki/06-Items/Hull-Plating.md).
+- **Hull Plating**: Armour for the hull plate slots of every ship (3 open slots on each of the Shop's four ships, more on the ships you craft), Hull Plating I to III, each adding more hull. See [Hull Plating](/wiki/06-Items/Hull-Plating.md).
 - **Lasers**: Your primary weapon systems, and the [amps](/wiki/06-Items/Lasers.md) that go into them.
 - **Shields**: Generators and [cells](/wiki/06-Items/Shields.md) for defense.
 - **Propulsion**: Engines and [thrusters](/wiki/06-Items/Propulsion.md) for speed.

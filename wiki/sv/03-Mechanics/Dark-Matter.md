@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3881f42052d63758 -->
+<!-- wiki-i18n source: 549a7ed0ceccbb12 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter och Dark Matter Plates {#dark-matter-and-dark-matter-plates}
 
@@ -12,7 +12,7 @@
 ## På en minut {#in-one-minute}
 
 - **Dark Matter är en resurs och heter bara Dark Matter överallt.** Det svarta hålet mitt i Farosektor 4 (`DS-4`) tillverkar den: varje N.I.K.E.-raket som når hålet ger tillbaka 1 till 3 Dark Matter (2 i snitt), i små lådor vid kanten av hålets zon.
-- **Vad den används till.** 132 teknologier i forskningscentrumet kräver den, 5 till 60 var och 1 604 sammanlagt, och Monteringen pressar den till Dark Matter Plate. Från säsongsdag 11 bränner även en [jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md) den, som bränsle: en tank är några få Dark Matter, och den går förlorad om grävmaskinen förstörs. I Beta och Gamma står jättegrävmaskinerna från säsongens första dag.
+- **Vad den används till.** 133 teknologier i forskningscentrumet kräver den, 5 till 60 var och 1 614 sammanlagt, och Monteringen pressar den till Dark Matter Plate. Från säsongsdag 11 bränner även en [jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md) den, som bränsle: en tank är några få Dark Matter, och den går förlorad om grävmaskinen förstörs. I Beta och Gamma står jättegrävmaskinerna från säsongens första dag.
 - **I forskningscentrumet** lägger du till Dark Matter från ditt lastrum (med landat skepp) innan du trycker på Starta. Forskningen tar den när den startar.
 - **En Dark Matter Plate är ett annat föremål.** Forska först fram receptet (gruppen Resurser i trädet: 1 dag och 10 Dark Matter), och tillverka den sedan i Monteringen av 5 Dark Matter, en Velkonite Reinforced Plate, en Orvium Reinforced Plate och 250 Thulium.
 - **Vad en platta används till.** Sista nivån i varje uppgraderingskedja kräver **4** och minst en Ancient Control Unit: Amp, sköldceller och styrraketer av nivå IV, Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III och Base CPU II (13 delar). Smedjan kräver 2 för att höja ett föremål från Resonant till Strålande, och 2 till från Strålande till Uppstigen. Skylabs motor-, försvars- och radarmodul kräver också plattor, för att byggas och för att uppgraderas ([Resurser](/wiki/06-Items/Resources.md#dark-matter-plate)).
@@ -27,14 +27,14 @@
 | **Vad det är** | En Episk resurs | En Mytisk resurs |
 | **Var den kommer ifrån** | Det svarta hålet i farosektor 4, för N.I.K.E.-raketer som skjuts in i det; lite från Dormant-svärmen och från Inert Masses i Dormant Swamp, mycket mer från Tesseract i farosektor 4 | Monteringen, pressad av 5 Dark Matter, en Velkonite Reinforced Plate, en Orvium Reinforced Plate och 250 Thulium |
 | **Vad du gör först** | Forska fram N.I.K.E. (3 h, ingen Dark Matter) och tillverka några | Forska fram plattans recept (1 d, 10 Dark Matter) |
-| **Vad den används till** | Forskningskostnader (132 teknologier, 1 604 sammanlagt) och plattan | Sista nivån i varje uppgraderingskedja: 4 för var och en av 13 delar; Master Drones uppgradering: 10; Smedjan: 2 för vart och ett av dess två översta steg |
+| **Vad den används till** | Forskningskostnader (133 teknologier, 1 614 sammanlagt) och plattan | Sista nivån i varje uppgraderingskedja: 4 för var och en av 13 delar; Master Drones uppgradering: 10; Smedjan: 2 för vart och ett av dess två översta steg |
 
 ## Så får du tag på Dark Matter {#how-to-get-dark-matter}
 
 1. **Bygg forskningscentrumet och forska fram N.I.K.E.** Centrumet öppnas på Skylabs kärnnivå 10 ([Forskning](/wiki/03-Mechanics/Research.md)). N.I.K.E.:s teknologi tar 3 timmar och kräver ingen Dark Matter.
 2. **Tillverka N.I.K.E. i Monteringen.** En tillverkning ger 5 raketer på 5 minuter för 100 000 krediter, 1 500 Thulium, 20 Ship Fragment, 4 Reinforced Hull Plate och 40 Cataclysite. Du kan bära 20. Se [Raketer](/wiki/06-Items/Rockets.md#the-craft-only-rockets).
 3. **Flyg till Farosektor 4 (`DS-4`).** Det är PvP-sektorn mitt i galaxen, och det svarta hålet hänger i dess exakta mitt i varje värld ([Det svarta hålet](/wiki/03-Mechanics/Black-Hole.md)). Ingen utomjording och ingen koncernpilot kommer i närheten, men andra piloter gör det. Från säsongsdag 11 lever utomjordingarna i [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) i sektorns övre vänstra hörn, långt från din skottlinje.
-4. **Skjut mot det svarta hålet från dess kant.** Strålningen börjar 4 000 enheter från mitten. En N.I.K.E. flyger 4 050 enheter, så du kan skjuta från var som helst mellan 4 000 och 4 380 enheters avstånd. Utan valt mål lägger du pekaren på hålet. Du kan skjuta en raket med 4,6 sekunders mellanrum. Från längre bort hamnar den för kort.
+4. **Skjut mot det svarta hålet från dess kant.** Strålningen börjar 4 000 enheter från mitten. En N.I.K.E. flyger 4 455 enheter, så du kan skjuta från var som helst mellan 4 000 och 4 785 enheters avstånd. Utan valt mål lägger du pekaren på hålet. Du kan skjuta en raket med 4,6 sekunders mellanrum. Från längre bort hamnar den för kort.
 5. **Plocka upp lådorna.** Varje N.I.K.E. som når hålet ger tillbaka **1, 2 eller 3 Dark Matter** (1 en gång av fyra, 2 varannan gång, 3 en gång av fyra), i en låda per enhet, alltså en till tre lådor. De landar vid kanten av hålets zon, 3 050 till 3 950 enheter från mitten, nära linjen för ditt skott. Flyg till inom 200 enheter från varje låda: upplockningen tar en halv sekund.
 6. **Ta den hem.** Dark Matter hamnar i ditt inventarie. På stationen, med landat skepp, kan du lägga till den i forskningscentrumet eller använda den i Monteringen.
 
@@ -43,13 +43,13 @@ Ungefär **5 raketer ger 10 Dark Matter**. Resource Magnet Booster lägger inte 
 ### Så klarar du dig {#keeping-it-safe}
 
 - **Lådorna är dina i 60 sekunder**, och din klans. Därefter får vem som helst på kartan ta dem, och efter 240 sekunder försvinner de. En karta rymmer högst 52 lådor med Dark Matter, och en ny knuffar ut den äldsta av dem.
-- **Kanten ligger inne i strålningen.** Där kostar den 0,3 till 0,8 % av ditt skepps totala HP varje sekund, mer ju närmare hålet du är. Ett helt skepp klarar ungefär 2 till 5 minuter; en minut mitt i bandet kostar en tredjedel. Dragningen slutar vid 3 000 enheter, så ingenting drar bort varken dig eller lådorna.
+- **Kanten ligger inne i strålningen.** Där kostar den 0,3 till 0,8 % av ditt skepps skrov varje sekund, mer ju närmare hålet du är. Ett helt skepp klarar ungefär 2 till 5 minuter; en minut mitt i bandet kostar en tredjedel. Dragningen slutar vid 3 000 enheter, så ingenting drar bort varken dig eller lådorna.
 - **Farosektor 4 är PvP.** En rival kan vänta på din linje: en N.I.K.E. träffar det första skeppet den rör vid (67 500 till 75 000 skada) och hålet får ingenting. En rival kan också vänta på lådorna när dina 60 sekunder är slut. Skjut från kanten, plocka upp lådorna i den ordning du sköt och ta med sällskap.
 - **Andra källor.** En Dormant Pulse i [Dormant-svärmen](/wiki/05-Swarms/Dormant-Swarm.md) tappar 1 till 5 Dark Matter en gång av fem, åt piloten som gjorde mest skada på den. Svärmen kräver en stor grupp. En Inert Mass i [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) tappar också lite då och då, men den lever under träskets kanoner. Den stora är [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md) i farosektor 4: varje pilot som dess nedskjutning betalar får en privat låda, och nedskjutningens pott på 10 till 20 Dark Matter delas mellan dem efter skada, högst 5 per pilot, så en grupp på fyra eller fler tar hem ungefär 15 per nedskjutning. Den kräver en mycket stor grupp i en PvP-sektor och kommer tillbaka 30 minuter efter att den förstörts.
 
 ## Dark Matter i forskningscentrumet {#in-the-research-centre}
 
-Teknologier högst upp i trädet kräver Dark Matter utöver sin forskning: **10** för var och en av de 22 översta teknologierna, och **5, 13 eller 20** för var och en av de 16 drönarformationerna (ju starkare formation, desto mer). De två forskningarna för Hull Plating kräver **25 och 40**, och skeppsteknologierna, de 13 designerna och de 55 platserna, **10** var. Skylabs motor-, försvars- och radarmodul kräver **5, 10, 15 eller 20** för varje nivå från den andra, 115 sammanlagt ([Forskning](/wiki/03-Mechanics/Research.md#module-technologies)). Tabellerna i [Forskning](/wiki/03-Mechanics/Research.md#dark-matter) listar alla de övriga.
+Teknologier högst upp i trädet kräver Dark Matter utöver sin forskning: **10** för var och en av de 22 översta teknologierna, och **5, 13 eller 20** för var och en av de 16 drönarformationerna (ju starkare formation, desto mer). De två forskningarna för Hull Plating kräver **25 och 40**, och skeppsteknologierna, de 14 designerna och de 55 platserna, **10** var. Skylabs motor-, försvars- och radarmodul kräver **5, 10, 15 eller 20** för varje nivå från den andra, 115 sammanlagt ([Forskning](/wiki/03-Mechanics/Research.md#module-technologies)). Tabellerna i [Forskning](/wiki/03-Mechanics/Research.md#dark-matter) listar alla de övriga.
 
 1. **Öppna vyn Forskning** i din Skylab på stationen och välj teknologin. Dess kort har en rad **Dark Matter**: hur mycket som finns i centrumet, av hur mycket den kräver (till exempel 3 / 10).
 2. **Tryck på Lägg till.** Det flyttar Dark Matter från ditt lastrum till forskningscentrumet, det som saknas, så långt du bär den. Ditt skepp måste vara landat. **Ta tillbaka** lämnar den tillbaka till ditt lastrum.
@@ -107,7 +107,7 @@ De 58 delarna i en Paragon är dess 10 lasrar, deras 40 Amp och dess 8 generator
 | En Dark Matter Plate | 5 | 2,5 |
 | De två plattorna till ett steg i Smedjan | 10 | 5 |
 | De fyra plattorna i en del av sista nivån | 20 | 10 |
-| Varje teknologi som kräver Dark Matter | 1 604 | 802 |
+| Varje teknologi som kräver Dark Matter | 1 614 | 807 |
 
 En första uppgradering från noll är receptet (10) och två plattor (10): 20 Dark Matter, ungefär 10 N.I.K.E.-raketer, alltså två tillverkningar. En första förstärkare av nivå IV från noll är plattans recept (10), förstärkarens egen teknologi (10) och 4 plattor (20): 40 Dark Matter, ungefär 20 N.I.K.E.-raketer.
 

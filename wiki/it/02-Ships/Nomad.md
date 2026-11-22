@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: dff7327a9780c393 -->
+<!-- wiki-i18n source: 872e92e0eed74049 -->
 <!-- wiki-i18n title: Nomad -->
 # Nomad
 
@@ -10,6 +10,7 @@ La Nomad è un incrociatore con quasi il doppio dello scafo di un’Ostirion e d
 - **Velocità di base**: 240
 - **Slot laser**: 7
 - **Slot extra**: 2
+- **Slot corazza**: 3
 
 ### Slot dei generatori e di supporto {#generator-support-slots}
 

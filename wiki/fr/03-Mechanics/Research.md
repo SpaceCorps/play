@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0c9164c462c27a1a -->
+<!-- wiki-i18n source: 74bb4919fe97756e -->
 <!-- wiki-i18n title: Recherche -->
 # Recherche {#research}
 
@@ -30,7 +30,7 @@ Cette page rassemble l’arbre complet des technologies avec la durée de chacun
 
 <!-- research-centre:end -->
 
-**Schematics.** Un [Schematics](/wiki/06-Items/Special-Items.md#schematics) retire 24 heures à la recherche en cours : s’il en reste 24 heures ou moins, elle est terminée sur-le-champ, et une plus longue perd 24 heures et continue (187 des 209 technologies demandent 24 heures ou moins, donc un seul les termine dès le départ ; les 22 autres en demandent de 2 à 10). Ce que la recherche a coûté a été payé au départ et n’est pas rendu, la science que le temps sauté aurait brûlée reste dans votre réservoir, et quand la recherche est terminée, la technologie suivante de votre file démarre aussitôt.
+**Schematics.** Un [Schematics](/wiki/06-Items/Special-Items.md#schematics) retire 24 heures à la recherche en cours : s’il en reste 24 heures ou moins, elle est terminée sur-le-champ, et une plus longue perd 24 heures et continue (188 des 210 technologies demandent 24 heures ou moins, donc un seul les termine dès le départ ; les 22 autres en demandent de 2 à 10). Ce que la recherche a coûté a été payé au départ et n’est pas rendu, la science que le temps sauté aurait brûlée reste dans votre réservoir, et quand la recherche est terminée, la technologie suivante de votre file démarre aussitôt.
 
 **Les amplis laser et le dernier palier.** Les Damage, Crit et Penetration Amps des paliers II à IV se recherchent comme tout ce qui se fabrique. Les pilotes qui possédaient ou avaient en file des amplis à l’arrivée des gammes d’amplis ont reçu la technologie de chacun d’eux et celle des paliers en dessous. Treize technologies demandent une technologie d’un autre arbre, celle de la Dark Matter Plate, de l’arbre Ressources, parce que le dernier palier de chaque chaîne d’amélioration demande quatre plates et une Ancient Control Unit : les Damage, Crit et Penetration Amps du palier IV, les Absorption et Capacity Shield Cells du palier IV, les Impulse et Momentum Thrusters du palier IV, le Heavy Shield Core, l’Engine III, l’Adaptive Core III, le Helios Beam, l’Extra Slots CPU III et le Base CPU II. Un pilote qui a déjà recherché l’une d’elles la garde, mais il lui faut la technologie de la plate pour fabriquer ses plates. L’arbre ci-dessous ne trace aucune flèche pour elle, mais le tableau la liste et la carte en jeu la nomme ([Dark Matter et Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)).
 

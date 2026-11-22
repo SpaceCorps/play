@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bf737868ee14ecc2 -->
+<!-- wiki-i18n source: 115842cfacf12619 -->
 <!-- wiki-i18n title: 개요 -->
 # 아이템 개요 {#items-overview}
 
@@ -118,7 +118,7 @@ Goombah는 평균적으로 Cataclysite 4개, Ship Fragment 3.25개, Reinforced H
 
 상점, 격납고 인벤토리와 그 밖의 아이템 목록은 같은 순서로 정렬됩니다. 함선, 그 선체 장갑, 이어서 증폭기와 탄약이 딸린 레이저, 셀이 딸린 실드, 추진기가 딸린 엔진, 적응형 코어, 부가 장비, 소모품, 드론, 드론 편대, 부스터, 자원 순입니다. 같은 종류 안에서는 가장 저렴한 것이 먼저 옵니다.
 
-- **선체 장갑**: 제작하는 네 함선의 장갑 슬롯에 들어가는 장갑으로, Hull Plating I에서 III까지 올라갈수록 더 많은 선체를 더합니다. [선체 장갑](/wiki/06-Items/Hull-Plating.md)을 보세요.
+- **선체 장갑**: 모든 함선의 장갑 슬롯(상점의 네 함선은 열린 슬롯 3개, 제작하는 함선은 그보다 많음)에 들어가는 장갑으로, Hull Plating I에서 III까지 올라갈수록 더 많은 선체를 더합니다. [선체 장갑](/wiki/06-Items/Hull-Plating.md)을 보세요.
 - **레이저**: 주력 무기 시스템과, 거기에 장착하는 [증폭기](/wiki/06-Items/Lasers.md).
 - **실드**: 방어용 발생기와 [셀](/wiki/06-Items/Shields.md).
 - **추진 장치**: 속도를 위한 엔진과 [추진기](/wiki/06-Items/Propulsion.md).

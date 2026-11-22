@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: dff7327a9780c393 -->
+<!-- wiki-i18n source: 872e92e0eed74049 -->
 <!-- wiki-i18n title: Nomad -->
 # Nomad
 
@@ -10,6 +10,7 @@ Nomad är en kryssare med nästan dubbelt så stort skrov som en Ostirion och tv
 - **Grundhastighet**: 240
 - **Laserplatser**: 7
 - **Extraplatser**: 2
+- **Pansarplatser**: 3
 
 ### Generator- och stödplatser {#generator-support-slots}
 

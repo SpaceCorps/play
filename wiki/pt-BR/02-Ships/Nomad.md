@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: dff7327a9780c393 -->
+<!-- wiki-i18n source: 872e92e0eed74049 -->
 <!-- wiki-i18n title: Nomad -->
 # Nomad
 
@@ -10,6 +10,7 @@ A Nomad é um cruzador com quase o dobro do casco de uma Ostirion e dois canhõe
 - **Velocidade base**: 240
 - **Slots de laser**: 7
 - **Slots extras**: 2
+- **Slots de blindagem**: 3
 
 ### Slots de gerador e suporte {#generator-support-slots}
 

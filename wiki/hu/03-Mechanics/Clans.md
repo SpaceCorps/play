@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d9722fd08d8980ff -->
+<!-- wiki-i18n source: e819db509b714a18 -->
 <!-- wiki-i18n title: Klánok -->
 # Klánok {#clans}
 
@@ -193,7 +193,7 @@ Mellette a **Skylab** oszlop megmutatja, hol van az egyes pilóták [Skylabja](/
 A rendszereszköztár **Ki van online** gombja (jobb felül) vagy a **H** billentyű (a Beállítások › Vezérlés alatt átállítható) megnyitja az **Online pilóták** ablakot.
 
 - **Ki szerepel.** A pilóták, akik éppen a **te világodban** repülnek, magadat kivéve: az Alpha, a Beta és a Gamma nem találkozik. Az a pilóta, akinek az álcázott hajóját nem látod, nem szerepel és nincs megszámolva. Az ablak legfeljebb **100** sort mutat, előbb a klántársaidat, aztán a magasabb szinteket, aztán név szerint, és felül az online pilóták valódi számát.
-- **Mit mutat egy sor.** A pilóta nevét, szintjét, vállalatát, klánjának címkéjét és rangjelét: amit a chat és a ranglisták már amúgy is mutatnak. Soha nem pozíciót, térképet vagy a hajó állapotát.
+- **Mit mutat egy sor.** A pilóta nevét, szintjét, vállalatát, klánjának címkéjét és rangjelét: amit a chat és a ranglisták már amúgy is mutatnak. Soha nem pozíciót, térképet vagy a hajó állapotát. Az **arany név** azt jelenti, hogy a pilóta valamikor támogatta a játékot Prémiummal, mint a chatben; a név után álló **arany korona** azt jelenti, hogy a Prémiuma éppen aktív.
 - **Keresés.** Írd be egy név vagy klán-címke egy részét; az ablak újra megkérdezi a szervert, ha a lista le volt vágva.
 - **Meghívás.** A sor **Meghívás** gombja a Csoport ablak saját meghívása ([Csoportok](/wiki/03-Mechanics/Groups.md)), ugyanazokkal a válaszokkal és elutasításokkal (a pilóta csoportban van, a csoport tele van, a Ne zavarjanak be van kapcsolva). A gomb szürke, az okkal együtt, ha rámutatsz, ha a játék már tudja, hogy a meghívást elutasítanák.
 - A listát 10 másodpercenként újraolvassa, amíg az ablak nyitva van.

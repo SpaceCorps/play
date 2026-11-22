@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0c9164c462c27a1a -->
+<!-- wiki-i18n source: 74bb4919fe97756e -->
 <!-- wiki-i18n title: Araştırma -->
 # Araştırma {#research}
 
@@ -30,7 +30,7 @@ Bu sayfada teknoloji ağacının tamamı, her teknolojinin süresi, her kaynağ�
 
 <!-- research-centre:end -->
 
-**Schematics.** Bir [Schematics](/wiki/06-Items/Special-Items.md#schematics), süren araştırmadan 24 saat götürür: geriye 24 saat ya da daha azı kalmışsa araştırma hemen biter, daha uzun olan 24 saat kaybeder ve sürer (209 teknolojiden 187’i 24 saat ya da daha kısa sürer, bu yüzden biri onları baştan bitirir; diğer 22’i 2 ila 10 tane ister). Araştırmanın maliyeti başlarken ödenmişti ve geri verilmez, atlanan sürenin yakacağı bilim puanı tankında kalır ve araştırma bitince kuyruğundaki sıradaki teknoloji hemen başlar.
+**Schematics.** Bir [Schematics](/wiki/06-Items/Special-Items.md#schematics), süren araştırmadan 24 saat götürür: geriye 24 saat ya da daha azı kalmışsa araştırma hemen biter, daha uzun olan 24 saat kaybeder ve sürer (210 teknolojiden 188’i 24 saat ya da daha kısa sürer, bu yüzden biri onları baştan bitirir; diğer 22’i 2 ila 10 tane ister). Araştırmanın maliyeti başlarken ödenmişti ve geri verilmez, atlanan sürenin yakacağı bilim puanı tankında kalır ve araştırma bitince kuyruğundaki sıradaki teknoloji hemen başlar.
 
 **Lazer amfileri ve son kademe.** II ile IV arasındaki kademelerin Damage Amp, Crit Amp ve Penetration Amp eşyaları da diğerleri gibi araştırılan üretimlerdir. Amfi serileri oyuna geldiğinde amfilere sahip olan ya da onları kuyruğa almış olan pilotlar, bu amfilerin her birinin ve altındaki kademelerin teknolojisini aldı. On üç teknoloji başka bir ağacın teknolojisini, Kaynaklar ağacındaki Dark Matter Plate teknolojisini gerektirir, çünkü her yükseltme zincirinin son kademesi dört plaka ve bir Ancient Control Unit ister: IV. kademe Damage Amp, Crit Amp ve Penetration Amp, IV. kademe Absorption Shield Cell ve Capacity Shield Cell, IV. kademe Impulse Thruster ve Momentum Thruster, Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III ve Base CPU II. Bunlardan birini daha önce araştırmış bir pilot onu korur ve plakalarını üretmek için plakanın teknolojisine ihtiyaç duyar. Aşağıdaki ağaç bunun için ok çizmez, ama tablo onu listeler ve oyundaki kart onu adıyla anar ([Dark Matter ve Dark Matter plakaları](/wiki/03-Mechanics/Dark-Matter.md)).
 

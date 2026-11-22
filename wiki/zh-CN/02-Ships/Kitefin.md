@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2803f28f4597c776 -->
+<!-- wiki-i18n source: a9b3f1a14b051e92 -->
 <!-- wiki-i18n title: Kitefin -->
 # Kitefin
 
@@ -10,6 +10,7 @@ Kitefin 是一艘轻型炮艇，也是大多数飞行员买下的第一艘舰船
 - **基础速度**：220
 - **激光槽位**：4
 - **附加槽位**：2
+- **装甲槽位**: 3
 
 ### 发生器与支援槽位 {#generator-support-slots}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5f4f8c45180bc787 -->
+<!-- wiki-i18n source: c205efd6ca83bd6f -->
 <!-- wiki-i18n title: Escudos -->
 # Mecânica dos escudos {#shield-mechanics}
 
@@ -46,16 +46,16 @@ Alguns ataques têm uma **penetração de escudo**: pontos que são descontados 
 - Os alienígenas não têm atributo de absorção: eles dividem cada impacto em 80% / 20%, menos a penetração do impacto.
 - O dano de uma Siphon Battery sai só do escudo: a absorção e a penetração não entram na conta.
 
-**Onde os escudos não recebem nada.** Uma penetração igual ou maior que a absorção não deixa nada do impacto para os escudos: o casco leva tudo. A tabela mostra o que os escudos recebem de um impacto do melhor laser (85%; uma Antimatter Battery no lugar do Experimental Fusion Core leva a 95% com dano x3) e do melhor foguete de alvo único (um Lancet III ou um Rivet III com um Stiletto, 70%):
+**Onde os escudos não recebem nada.** Uma penetração igual ou maior que a absorção não deixa nada do impacto para os escudos: o casco leva tudo. A tabela mostra o que os escudos recebem de um impacto do melhor laser (100%; uma Antimatter Battery no lugar do Experimental Fusion Core leva a 110% com dano x3) e do melhor foguete de alvo único (um Lancet III ou um Rivet III com um Stiletto, 70%):
 
-| Escudo | Absorção | Os escudos recebem, melhor laser (85%) | Os escudos recebem, melhor foguete de alvo único (70%) |
+| Escudo | Absorção | Os escudos recebem, melhor laser (100%) | Os escudos recebem, melhor foguete de alvo único (70%) |
 | :--- | ---: | ---: | ---: |
 | Light Shield Core | 45% | 0% | 0% |
 | Basic Shield Core | 50% | 0% | 0% |
 | Heavy Shield Core | 55% | 0% | 0% |
-| O melhor escudo de fábrica | 91% | 6% | 21% |
-| Um escudo a 100% | 100% | 15% | 30% |
-| Um escudo a 120% | 120% | 35% | 50% |
+| O melhor escudo de fábrica | 91% | 0% | 21% |
+| Um escudo a 100% | 100% | 0% | 30% |
+| Um escudo a 120% | 120% | 20% | 50% |
 
 #### Chegar a 100% e passar dele {#reaching-and-passing-100-}
 

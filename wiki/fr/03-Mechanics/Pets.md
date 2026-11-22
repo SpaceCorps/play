@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 31273b68fd73e552 -->
+<!-- wiki-i18n source: 4c0d294abe2063d8 -->
 <!-- wiki-i18n title: P.E.T.s -->
 # P.E.T.s {#pets}
 
@@ -110,7 +110,7 @@ Huit des dix types ne font qu’apporter des boosts. Le **Retriever** et le **Mo
 - **Tous les Moles travaillent, un seul Retriever.** Depuis la 0.4.27, chaque Mole arrimé travaille, chacun avec son propre drone et son propre faisceau, et depuis la 0.5.0 vos Moles peuvent travailler le même astéroïde : chacun prend le plus proche, donc avec un seul astéroïde à portée ils y travaillent tous, et quand il se brise ils passent ensemble au suivant. Une Station de trois Moles brise jusqu’à environ trois fois plus d’astéroïdes qu’un seul Mole tant qu’il y a assez d’astéroïdes à portée ; les impulsions qui arrivent après celle qui brise un astéroïde sont perdues, donc des Moles qui frappent tous en même temps un petit astéroïde valent un peu moins. Un Retriever travaille, celui qui a la plus grande portée ; vos autres Retrievers n’apportent que des boosts.
 - **En vol, hors d’une zone sûre.** Ils s’arrêtent tant qu’une [zone sûre](/wiki/03-Mechanics/Combat.md#2-safe-zone-immunity) protège votre vaisseau, et tant qu’il est détruit, sous [protection de réapparition](/wiki/01-General/Getting-Started.md#dying-and-coming-back), occulté ou en saut, et reprennent quand rien de tout cela ne vaut. Un pilote déconnecté n’a pas de vaisseau dans l’espace, donc rien ne travaille pour lui.
 - **Inactif ou non.** Aucune règle ne demande que vous soyez aux commandes : un Mole travaille pareil pendant que vous chassez, que vous regardez une fenêtre ou que vous êtes loin de l’écran.
-- **Ce qu’ils ne font jamais.** Un Retriever ne prend aucune caisse que vous ne pourriez pas prendre vous-même, donc jamais les caisses protégées d’un autre pilote. Un Mole ne travaille jamais un astéroïde en zone sûre : les astéroïdes restent à au moins 1 500 unités d’un anneau de zone sûre.
+- **Ce qu’ils ne font jamais.** Un Retriever ne prend aucune caisse que vous ne pourriez pas prendre vous-même, donc jamais les caisses protégées d’un autre pilote. Un Mole ne travaille jamais un astéroïde en zone sûre : les astéroïdes restent à au moins 1 550 unités d’un anneau de zone sûre.
 
 ### Le Retriever {#the-retriever}
 

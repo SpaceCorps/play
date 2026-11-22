@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 49bacd415901ee2e -->
+<!-- wiki-i18n source: 9c4de69d519972a3 -->
 <!-- wiki-i18n title: Savaş -->
 # Savaş mekaniği {#combat-mechanics}
 
@@ -122,7 +122,7 @@ Geminin bir düşman ya da NPC tarafından vurulduğunda hasar şu şekilde işl
 
 Gelen hasar, kalkanlar ile gövde puanları arasında geminin **ortalama soğurması** ile bölüşülür: kalkanlarının soğurmasının ortalaması, her biri kendi kalkan hücrelerininkiyle birlikte, artı Sezon Mağazası’ndaki Shield Absorbance Boost (bkz. [Kalkan mekaniği](/wiki/03-Mechanics/Shields.md)). **%100 ile sınırlı değildir**: kalkanların bir vuruştan aldığı pay, soğurman **eksi saldırganın kalkan delmesidir**, %0 ile %100 arasında.
 - **Soğurma** (örneğin en iyi kalkan ve en iyi hücrelerle %91, iki Absorption Shield Cell I taşıyan bir Basic Shield Core ile %62) her vuruşun bir kısmını kalkanlara aktarır, vuruşun delmesi düşüldükten sonra: Lancet III roketinin %35 delmesi, %91 soğurmalı bir geminin kalkanlarında %56 bırakır ve geri kalanı (orada %44) doğrudan gövde puanına vurur.
-- **Kalkan delme** doğrudan roketlerden (%10 ile %35) ve x3 ile x4 lazer cephanesinden (%5 ve %10) gelir; uzaylılarda yoktur. Soğurması %100’ü aşan bir gemi (diyelim %112), farka (orada %12) kadar delmeye karşı bir vuruşun tamamını tutar. Atıcının lazerlerine takılı Penetration Amp eşyaları (yuva başına +%5 ile +%20) ve bir dron formasyonu buna eklenir ve toplamı hiçbir şey sınırlamaz.
+- **Kalkan delme** doğrudan roketlerden (%10 ile %35) ve x3 ile x4 lazer cephanesinden (%5 ve %10) gelir; uzaylılarda yoktur. Soğurması %100’ü aşan bir gemi (diyelim %112), farka (orada %12) kadar delmeye karşı bir vuruşun tamamını tutar. Atıcının lazerlerine takılı Penetration Amp eşyaları (yuva başına +%7 ile +%25) ve bir dron formasyonu buna eklenir ve toplamı hiçbir şey sınırlamaz.
 - Payı için fazla düşük kalan bir kalkan farkı gövde puanına aktarır; kalkanlar tamamen bittiyse kalan tüm hasar (**%100**) gövde puanına vurur.
 - Uzaylıların soğurma özelliği yoktur: kalkanları her vuruşun %80 kadarını alır (vuruşun delmesi düşülür), gövdeleri geri kalanını.
 - **Dron formasyonları.** Rampart soğurmanı %17 artırır (Shrike %10 azaltır), Asterism, sana gelen her doğrudan vuruşun %7 şansla hiç hasar vermemesini sağlar (süzülen bir “Iska” görünür) ve isabet eden vuruşlar her zamanki gibi kalkan ile gövde arasında bölüşülür. Gemini (+15 puan) kendi cephanene ve doğrudan roketlerine kalkan delme ekler, Stiletto (+35 puan roket delmesi) yalnızca doğrudan roketlere ekler, sınır yoktur ([Dron formasyonları](/wiki/03-Mechanics/Formations.md)). Bir lazer için amfileri de sayılır.

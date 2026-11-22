@@ -73,7 +73,7 @@ Un **Mole** agganciato (un tipo di [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole)
 - La ricompensa è uguale per tutti: nessun bonus Premium, potenziamento dell’Emporio, potenziamento del clan, Loot Luck o booster cambia i crediti, il Thulium o i ritrovamenti. Il [Resource Magnet Booster](/wiki/06-Items/Boosters.md) aggiunge alle risorse di un frammento di minerale quando lo raccogli, come a qualsiasi cassa.
 - La corazza toglie i suoi punti da ogni colpo, ma almeno 20% di un colpo passa sempre.
 - Un’esplosione ad area fa 1,6 volte tanto a un asteroide fragile rispetto a qualsiasi altro.
-- Un asteroide non sta mai a meno di 1.500 unità dal bordo di un anello sicuro, a meno di 5.000 unità dal centro del buco nero né a meno di 600 unità dal bordo della mappa, e non compare mai a meno di 1.200 unità da un pilota.
+- Un asteroide non sta mai a meno di 1.550 unità dal bordo di un anello sicuro, a meno di 5.000 unità dal centro del buco nero né a meno di 600 unità dal bordo della mappa, e non compare mai a meno di 1.200 unità da un pilota.
 - Dopo una rottura, un asteroide dello stesso tipo ricresce altrove sulla mappa dopo il tempo indicato nella riga del settore, con uno scarto di 25%.
 - Motherlode ritorna dopo 1 h, in qualsiasi settore.
 

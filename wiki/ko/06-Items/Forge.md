@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 77908d7c08d3074c -->
+<!-- wiki-i18n source: 0684c16b2f2d0dbe -->
 <!-- wiki-i18n title: 대장간 -->
 # 대장간 {#the-forge}
 
@@ -57,7 +57,7 @@
 
 엔진, 추진기, 적응형 코어, Repair Drone은 퍼센트 보너스로는 거의 변하지 않습니다(Engine II의 속도는 10이므로 +12%는 1.2포인트입니다). 능력치가 아니라 등급이 필요할 때 단련하세요.
 
-**Penetration Amp의 보너스**는 그 관통을 곱합니다. 승천한 등급의 보너스(+9%~+15%)는 Penetration Amp IV를 슬롯당 20이 아니라 21.8~23포인트로 만듭니다. 한 번의 공격이 가진 관통에는 상한이 없으므로 1포인트마다 의미가 있습니다. 최강의 레이저(Fusion Core, Gemini, 그리고 모든 레이저에 Penetration Amp IV 3개)에서는 10 + 15 + 60가 85%이고, 승천한 등급의 보너스 3개면 최대 94%까지 올라갑니다([레이저와 탄약](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+**Penetration Amp의 보너스**는 그 관통을 곱합니다. 승천한 등급의 보너스(+9%~+15%)는 Penetration Amp IV를 슬롯당 25이 아니라 27.3~28.8포인트로 만듭니다. 한 번의 공격이 가진 관통에는 상한이 없으므로 1포인트마다 의미가 있습니다. 최강의 레이저(Fusion Core, Gemini, 그리고 모든 레이저에 Penetration Amp IV 3개)에서는 10 + 15 + 75가 100%이고, 승천한 등급의 보너스 3개면 최대 111%까지 올라갑니다([레이저와 탄약](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
 
 ### 재료 드롭처 {#where-the-materials-drop}
 

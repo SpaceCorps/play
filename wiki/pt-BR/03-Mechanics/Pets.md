@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 31273b68fd73e552 -->
+<!-- wiki-i18n source: 4c0d294abe2063d8 -->
 <!-- wiki-i18n title: P.E.T.s -->
 # P.E.T.s {#pets}
 
@@ -110,7 +110,7 @@ Oito dos dez tipos só dão bônus. O **Retriever** e o **Mole** também dão, e
 - **Todos os Moles trabalham, um Retriever.** Desde a 0.4.27 cada Mole acoplado trabalha, cada um com seu próprio drone e seu próprio feixe, e desde a 0.5.0 os seus Moles podem trabalhar no mesmo asteroide: cada um pega o mais próximo, então com um único asteroide ao alcance todos trabalham nele, e quando ele quebra eles passam juntos para o próximo. Uma Station com três Moles quebra até cerca de três vezes mais asteroides que um Mole enquanto houver asteroides suficientes ao alcance; os pulsos que chegam depois do que quebra um asteroide se perdem, então Moles que atingem todos de uma vez um asteroide pequeno valem um pouco menos. Trabalha um Retriever, o de maior alcance; seus outros Retrievers só dão bônus.
 - **Em voo, fora de uma zona segura.** Eles param enquanto uma [zona segura](/wiki/03-Mechanics/Combat.md#2-safe-zone-immunity) protege a sua nave, e enquanto ela está destruída, sob a [proteção de reaparecimento](/wiki/01-General/Getting-Started.md#dying-and-coming-back), camuflada ou saltando, e continuam quando nada disso vale. Um piloto desconectado não tem nave no espaço, então nada trabalha para ele.
 - **Ativo ou não.** Não há regra sobre estar nas teclas: um Mole trabalha igual enquanto você caça, enquanto você olha uma janela e enquanto você está longe da tela.
-- **O que eles nunca fazem.** Um Retriever não pega nenhuma caixa que você não poderia pegar, então nunca as caixas protegidas de outro piloto. Um Mole nunca trabalha um asteroide numa zona segura: os asteroides ficam a pelo menos 1.500 unidades de um anel seguro.
+- **O que eles nunca fazem.** Um Retriever não pega nenhuma caixa que você não poderia pegar, então nunca as caixas protegidas de outro piloto. Um Mole nunca trabalha um asteroide numa zona segura: os asteroides ficam a pelo menos 1.550 unidades de um anel seguro.
 
 ### O Retriever {#the-retriever}
 

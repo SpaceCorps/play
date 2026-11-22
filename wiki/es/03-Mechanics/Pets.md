@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 31273b68fd73e552 -->
+<!-- wiki-i18n source: 4c0d294abe2063d8 -->
 <!-- wiki-i18n title: P.E.T.s -->
 # P.E.T.s {#pets}
 
@@ -110,7 +110,7 @@ Ocho de los diez tipos solo dan bonificaciones. El **Retriever** y el **Mole** t
 - **Trabajan todos los Moles, un Retriever.** Desde la 0.4.27 trabaja cada Mole acoplado, cada uno con su propio dron y su propio haz, y desde la 0.5.0 tus Moles pueden trabajar el mismo asteroide: cada uno toma el más cercano, así que con un solo asteroide a su alcance trabajan todos en él, y cuando se rompe pasan juntos al siguiente. Una Station con tres Moles rompe hasta unas tres veces más asteroides que un Mole mientras haya asteroides suficientes a su alcance; los pulsos que llegan después del que rompe un asteroide se pierden, así que los Moles que golpean a la vez un asteroide pequeño valen algo menos. Trabaja un Retriever, el de mayor alcance; tus demás Retrievers solo dan bonificaciones.
 - **En vuelo, fuera de una zona segura.** Se detienen mientras una [zona segura](/wiki/03-Mechanics/Combat.md#2-safe-zone-immunity) protege tu nave, y mientras está destruida, bajo la [protección al reaparecer](/wiki/01-General/Getting-Started.md#dying-and-coming-back), camuflada o saltando, y siguen cuando nada de eso se da. Un piloto desconectado no tiene nave en el espacio, así que nada trabaja para él.
 - **Activo o no.** No hay ninguna regla sobre estar ante las teclas: un Mole trabaja igual mientras cazas, mientras miras una ventana y mientras estás lejos de la pantalla.
-- **Lo que nunca hacen.** Un Retriever no toma ninguna caja que tú no pudieras tomar, así que nunca las cajas protegidas de otro piloto. Un Mole nunca trabaja un asteroide en una zona segura: los asteroides están al menos a 1.500 unidades de un anillo seguro.
+- **Lo que nunca hacen.** Un Retriever no toma ninguna caja que tú no pudieras tomar, así que nunca las cajas protegidas de otro piloto. Un Mole nunca trabaja un asteroide en una zona segura: los asteroides están al menos a 1.550 unidades de un anillo seguro.
 
 ### El Retriever {#the-retriever}
 

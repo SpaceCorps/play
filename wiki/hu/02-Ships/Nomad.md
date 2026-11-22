@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: dff7327a9780c393 -->
+<!-- wiki-i18n source: 872e92e0eed74049 -->
 <!-- wiki-i18n title: Nomad -->
 # Nomad
 
@@ -10,6 +10,7 @@ A Nomad olyan cirkáló, amelynek közel kétszer akkora a hajóteste, mint egy 
 - **Alapsebesség**: 240
 - **Lézerfoglalatok**: 7
 - **Extrafoglalatok**: 2
+- **Páncélzatfoglalatok**: 3
 
 ### Generátor- és támogató foglalatok {#generator-support-slots}
 

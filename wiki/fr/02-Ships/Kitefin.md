@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2803f28f4597c776 -->
+<!-- wiki-i18n source: a9b3f1a14b051e92 -->
 <!-- wiki-i18n title: Kitefin -->
 # Kitefin
 
@@ -10,6 +10,7 @@ Le Kitefin est une canonnière légère et le premier vaisseau qu’achètent la
 - **Vitesse de base** : 220
 - **Emplacements laser** : 4
 - **Emplacements extras** : 2
+- **Emplacements de blindage**: 3
 
 ### Emplacements de générateur et de soutien {#generator-support-slots}
 

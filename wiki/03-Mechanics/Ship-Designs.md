@@ -1,10 +1,12 @@
 # Ship Designs
 
-<!-- wiki-search: design; designs; refit; convert; conversion; thunder; bucky; lich; notsum; bratan; recon; duma; titanic; raptor; billy; menati; ataraxis; matt -->
+<!-- wiki-search: design; designs; refit; convert; conversion; thunder; bucky; lich; notsum; bratan; recon; duma; titanic; raptor; billy; menati; ataraxis; matt; protosaur; protos -->
 
-A **design** is one of the four ships you craft in Assembly with a few numbers changed on purpose: less hull for more speed, one laser slot fewer for tougher shields. Nine of the thirteen designs also come with one of seven [abilities](/wiki/03-Mechanics/Abilities.md#ship-abilities) that the plain ship does not have. The Storm RECON has two more buttons beside its Chameleon: Target and Slow. You research a design in the Skylab, then convert a ship you own into it in Assembly. **The conversion cannot be undone.**
+A **design** is one of the four ships you craft in Assembly with a few numbers changed on purpose: less hull for more speed, one laser slot fewer for tougher shields. Ten of the fourteen designs also come with one of seven [abilities](/wiki/03-Mechanics/Abilities.md#ship-abilities) that the plain ship does not have. The Storm RECON has two more buttons beside its Chameleon: Target and Slow. You research a design in the Skylab, then convert a ship you own into it in Assembly. **The conversion cannot be undone.**
 
-## The thirteen designs
+The **Protosaur** is the design of the starter ship, the [Protos](/wiki/02-Ships/Protos.md), and the only design named by itself. It needs no ship technology, only the one of the Dark Matter Plate, and it costs 50,000 Thulium and 8 Dark Matter Plates. It gives the Protos +5 hull plate slots, all open at once, +1 laser slot, +1 extra slot, +30 base speed, +50% rocket damage, and the buttons Blink and Chameleon. You can convert your Protos once you fly another ship.
+
+## The fourteen designs {#the-thirteen-designs}
 
 The last three columns are what the converted ship has: its own hull and base speed, before plates, boosters, formations and engines, and its laser slots. Everything the table does not say stays as the ship had it, the [hull plate slots](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) too.
 
@@ -22,12 +24,13 @@ The last three columns are what the converted ship has: its own hull and base sp
 | **Wraith BILLY** | +5% base hull, +10% shields, Diminisher | 268,800 | 210 | 13 |
 | **Wraith MENATI** | +20% base hull, +20 base speed, +5% shield absorption, Heal Pod | 307,200 | 230 | 13 |
 | **Wraith ATARAXIS** | -1 laser slot, +1 support slot, +25% shields, +10% shield absorption, Shield Buff | 256,000 | 210 | 12 |
-| **Wraith MATT** | +2 laser slots, -20% shields, +10% laser penetration | 256,000 | 210 | 15 |
+| **Wraith MATT** | +2 laser slots, -20% shields, +10% laser penetration, +5% laser damage | 256,000 | 210 | 15 |
+| **Protosaur** | +30 base speed, +1 laser slot, +5 hull plate slots, +1 extra slot, +50% rocket damage, Blink, Chameleon | 8,000 | 220 | 3 |
 
 ## Getting a design
 
 1. **Research it.** Each design is a technology in the Ships tree of the Research view of your Skylab ([Research](/wiki/03-Mechanics/Research.md#ship-technologies)). It takes 10 hours and 10 Dark Matter, and asks for the technology of its ship and the one of the Dark Matter Plate. Researching it makes nothing yet.
-2. **Convert the ship.** The Designs section of the Assembly lists the thirteen conversions. Pick one and confirm: the job joins the Production Queue and takes 10 minutes. It finishes by itself, and you do not need to collect it.
+2. **Convert the ship.** The Designs section of the Assembly lists the fourteen conversions. Pick one and confirm: the job joins the Production Queue and takes 10 minutes. It finishes by itself, and you do not need to collect it.
 3. **Pay for it.** A conversion costs Thulium, materials and Dark Matter Plates, as the table says.
 
 | Design | Thulium | Dark Matter Plate | Ship Fragment | Reinforced Hull Plate | Power Core | Ancient Control Unit |
@@ -45,6 +48,7 @@ The last three columns are what the converted ship has: its own hull and base sp
 | **Wraith MENATI** | 100,000 | 35 | 375 | 65 | 20 | 3 |
 | **Wraith ATARAXIS** | 100,000 | 35 | 375 | 65 | 20 | 3 |
 | **Wraith MATT** | 100,000 | 25 | 375 | 65 | 20 | 3 |
+| **Protosaur** | 50,000 | 8 | 30 | 5 | 2 | – |
 
 The ship to convert is the one you own of that kind (a Paragon for THUNDER, BUCKY or LICH), and it must not be the ship you fly: make another ship active first. A wrecked ship cannot be converted.
 
@@ -59,21 +63,22 @@ The ship to convert is the one you own of that kind (a Paragon for THUNDER, BUCK
 | **Storm** | 8 | 8 h | 80 | 3 | 30 h | 30 |
 | **Ironclad** | 15 | 15 h | 150 | 2 | 20 h | 20 |
 | **Wraith** | 10 | 10 h | 100 | 5 | 50 h | 50 |
-| **All four** | 38 | 38 h | 380 | 13 | 130 h | 130 |
+| **Protos** | 0 | 0 h | 0 | 1 | 10 h | 10 |
+| **All five** | 38 | 38 h | 380 | 14 | 140 h | 140 |
 
-Together they ask 510 Dark Matter on top of the 979 that every other technology asks, and the module levels of the Skylab ask 115 more: 1,604 for every technology of the game.
+Together they ask 520 Dark Matter on top of the 979 that every other technology asks, and the module levels of the Skylab ask 115 more: 1,614 for every technology of the game.
 
 ## What happens to your ship
 
 - **It is the same ship.** The conversion changes it in place: its fittings, its hull plates, your drones and the formation you wear stay as they are.
 - **Lasers can lose their slot.** A design with fewer laser slots (RECON, DUMA, ATARAXIS) sends the lasers of the slots that go back to your inventory, with their amps and their Forge rolls. A slot that is new arrives empty.
 - **Full hull and shields** when it is done. Until then the ship is locked: it cannot be made active, fitted or converted again.
-- **There is no way back.** To get another design, or the plain ship again, craft the ship again in Assembly. You own one ship of each kind, so a Paragon and a THUNDER can be yours at once, and two THUNDERs cannot.
+- **There is no way back.** To get another design, or the plain ship again, craft the ship again in Assembly. The Protos is the one exception: it cannot be crafted or bought again (the Shop lists it but never sells it, and only a new account starts with one), so once you convert your Protos you have a Protosaur and no Protos. You own one ship of each kind, so a Paragon and a THUNDER can be yours at once, and two THUNDERs cannot.
 - **The wipe** keeps a design like any other ship you own. A conversion still under way is cancelled and refunded, like every craft in your Production Queue: the ship stays as it was.
 
 ## Looks and size
 
-Each design has a model of its own, its ship's with a few changes that show what it does. They are plain grey like the ships until they wear a [skin](/wiki/06-Items/Cosmetics.md): a design wears the skins of the ship it was made from, and a conversion keeps the look. BUCKY and TITANIC are 20% larger, and a larger ship is easier to hit with a rocket. The Hangar marks a design with a DESIGN badge, and other pilots see its name in the Target window and the kill feed.
+Each design has a model of its own, its ship's with a few changes that show what it does. The thirteen designs of the four ships you craft are plain grey like those ships until they wear a [skin](/wiki/06-Items/Cosmetics.md): a design wears the skins of the ship it was made from, and a conversion keeps the look. The Protosaur is orange and white like the Protos, and it has no skins yet. BUCKY and TITANIC are 20% larger, and a larger ship is easier to hit with a rocket. The Hangar marks a design with a DESIGN badge, and other pilots see its name in the Target window and the kill feed.
 
 ## Shop, Auction and points
 

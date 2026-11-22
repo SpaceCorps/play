@@ -8,6 +8,7 @@ The Nomad is a cruiser with nearly twice the hull of an Ostirion and two more gu
 - **Base Speed**: 240
 - **Laser Slots**: 7
 - **Extra Slots**: 2
+- **Hull Plate Slots**: 3
 
 ### Generator & Support Slots
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a95170ddd6f01c2a -->
+<!-- wiki-i18n source: 0b4fab38b0c9363e -->
 <!-- wiki-i18n title: Perícias do piloto -->
 # Perícias do piloto {#pilot-skills}
 
@@ -79,7 +79,8 @@ As tabelas dão cada bônus no nível 1 e no último nível; entre os dois, o b�
 | **Tática** (Reflexos) | Duração das habilidades | ×1 | ×1,2 |
 | **Absorção de escudo** (Tenacidade) | Absorção dos seus escudos | +0 pontos | +5 pontos |
 | **Cura** (Massa) | Força dos seus reparos e curas | ×1 | ×1,3 |
-| **Recarga de camuflagem** (Reflexos) | Tempo de recarga da camuflagem | ×1 | ×0,5 |
+|  | Tempo de recarga das habilidades de cura da Miyuki | ×1 | ×0,9 |
+| **Furtividade** (Reflexos) | Tempo de recarga da camuflagem | ×1 | ×0,5 |
 
 ### Controle da nave {#ship-control}
 
@@ -114,13 +115,13 @@ As tabelas dão cada bônus no nível 1 e no último nível; entre os dois, o b�
 - **Lasers.** A Tecnologia laser muda o dano de cada rajada e a chance de ela acertar; uma rajada que erra mostra um “Miss” flutuante e gasta a munição do mesmo jeito ([Combate](/wiki/03-Mechanics/Combat.md#laser-tech)). O alcance dos seus lasers é o da sua nave: a Pontaria sobe com os seus acertos com munição diferente da simples x1, mas só age sobre as Mines (abaixo).
 - **Foguetes.** A Tecnologia de foguetes muda o dano de cada foguete e a chance de um falhar ao acender ([Tecnologia de foguetes](/wiki/06-Items/Rockets.md#rocket-tech)).
 - **Levar golpes.** A Tenacidade tira uma parte de cada golpe que você leva, a Evasão aumenta a chance de um acerto direto não fazer nada e a Absorção de escudo aumenta a parte de um acerto que os seus escudos recebem ([Combate](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). A Massa aumenta o seu casco.
-- **Cura.** A Cura fortalece as curas do seu próprio equipamento: o reparo do seu Repair Drone, um Emergency Repair e o Heal Pod que você solta ([Habilidades](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Ela treina com o casco que as suas curas restauram; curar uma nave dentro de uma zona segura não conta. O Support Rocket sempre cura a mesma quantidade fixa, em qualquer nível, e ainda assim paga XP de Cura.
-- **Camuflagem.** Recarga de camuflagem encurta a espera depois que uma camuflagem termina, tanto para uma Cloaking CPU ([Extras](/wiki/06-Items/Extras.md#cloaking-cpu)) quanto para o Chameleon ([Habilidades](/wiki/03-Mechanics/Abilities.md)). Treina com os segundos que você passa camuflado; nenhum conta dentro de uma zona segura ou enquanto você não der ordens.
+- **Cura.** A Cura fortalece as curas do seu próprio equipamento: o reparo do seu Repair Drone, um Emergency Repair, além do Heal Pod, do Channel Heal e do Channel Shield que você usa ([Habilidades](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Na Miyuki, essas três habilidades também esperam menos entre um uso e outro. Ela treina com o casco que as suas curas restauram; curar uma nave dentro de uma zona segura não conta. O Support Rocket sempre cura a mesma quantidade fixa, em qualquer nível, e ainda assim paga XP de Cura.
+- **Camuflagem.** Furtividade encurta a espera depois que uma camuflagem termina, tanto para uma Cloaking CPU ([Extras](/wiki/06-Items/Extras.md#cloaking-cpu)) quanto para o Chameleon ([Habilidades](/wiki/03-Mechanics/Abilities.md)). Treina com os segundos que você passa camuflado; nenhum conta dentro de uma zona segura ou enquanto você não der ordens.
 - **Habilidades.** Os Reflexos encurtam o tempo de recarga das suas habilidades e a Tática as faz durar mais ([Habilidades](/wiki/03-Mechanics/Abilities.md#pilot-skills)). A Sabotagem fortalece os venenos.
 - **Mines.** A Sabotagem aumenta o dano de uma Mine, e a Pontaria a lança mais rápido e mais longe ([Extras](/wiki/06-Items/Extras.md#mine)).
 - **Velocidade.** A Teoria de propulsores soma à sua velocidade, além dos motores e de um Afterburner ([Velocidade](/wiki/03-Mechanics/Speed.md)).
 - **Coletas.** O Instinto aumenta a chance de cada linha de saque, como faz um Loot Luck Booster, e os dois se somam; a Antimatéria aumenta a Dark Matter que você coleta ([Carga](/wiki/03-Mechanics/Cargo.md), [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)).
-- **Radiação.** A Tecnologia de radiação reduz a dose do buraco negro, dos círculos das escavadeiras, dos pulsares e da aura dos Unwakened ([Buraco negro](/wiki/03-Mechanics/Black-Hole.md)).
+- **Radiação.** A Tecnologia de radiação reduz a dose do buraco negro, das zonas de radiação da N.U.K.E. e da Gravitational N.U.K.E., dos círculos das escavadeiras, dos pulsares e da aura dos Unwakened ([Buraco negro](/wiki/03-Mechanics/Black-Hole.md)).
 - **Em casa.** A Extração e a Logística mudam o que o [Skylab](/wiki/03-Mechanics/Skylab.md) produz e guarda, o Instinto aumenta os seus dois coletores, a Fabricação encurta as criações da Montagem, a Ciência enche mais rápido o Centro de [Pesquisa](/wiki/03-Mechanics/Research.md), e o Comércio baixa os preços da Loja e os créditos e o Thulium das criações da Montagem, aumenta o que a Loja paga na recompra e baixa o depósito de um anúncio no [Leilão](/wiki/03-Mechanics/Auction.md). Na [Forja](/wiki/06-Items/Forge.md), o Comércio baixa os créditos e o Thulium de uma etapa e os créditos de uma combinação ([Subir de grau](/wiki/06-Items/Forge.md#tier-up)), e a Fabricação baixa a integridade que uma reorganização tira de uma peça ([Integridade e fraturas](/wiki/06-Items/Forge.md#integrity-and-fractures)).
 
 ## Como o XP é pago {#how-xp-is-paid}
@@ -159,7 +160,7 @@ A tabela lista o que paga XP, estatística por estatística. O XP é por cada un
 | **Tática** (Reflexos) | A cada habilidade que você aciona com um hostil ao alcance do laser | 2 | 600 XP por hora |
 | **Absorção de escudo** (Tenacidade) | A cada 1% do seu escudo máximo consumido por acertos de inimigos | 0,1 | 300 XP por hora |
 | **Cura** (Massa) | A cada 1% do casco máximo de uma nave que uma cura sua restaura | 0,1 | 300 XP por hora |
-| **Recarga de camuflagem** (Reflexos) | A cada segundo que você passa camuflado com uma ordem dada nos últimos 1 min, fora das zonas seguras | 0,1 | Nenhum |
+| **Furtividade** (Reflexos) | A cada segundo que você passa camuflado com uma ordem dada nos últimos 1 min, fora das zonas seguras | 0,1 | Nenhum |
 | **Tecnologia de radiação** (Tenacidade) | A cada segundo dentro de uma faixa de radiação | 0,2 | Nenhum |
 |  | A cada 1% do seu casco máximo que a radiação tira | 1 |  |
 | **Teoria de propulsores** (Massa) | A cada segundo voado acima de 80% da velocidade da sua nave, o dobro sob um Afterburner | 0,1 | Nenhum |

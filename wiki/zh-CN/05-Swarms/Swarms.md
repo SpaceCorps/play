@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8a72341fc0a0a8d1 -->
+<!-- wiki-i18n source: 27e04944329244c2 -->
 <!-- wiki-i18n title: 虫群 -->
 # 虫群 {#swarms}
 
@@ -64,6 +64,8 @@
 
 <!-- swarms-world:end -->
 
+虫群也和所有外星人一样有**阶位**，阶位对应的希腊字母显示在名字前：`-=γ-Boss Seeker=-` 是 Gamma 阶位的 Boss Seeker。虫群的头领在**出现时**按所在世界的表抽取阶位，虫群的阶位就是其所在世界的阶位：Alpha 中是 Alpha 虫群，Beta 中是 Beta 虫群，Gamma 中是 Gamma 虫群，也就是上表中的虫群，和以前一样。在更高的世界里，偶尔（大约二十分之一）会出现阶位更低的虫群：Beta 中的 Pirate 和 Seeker 虫群，以及 Gamma 中的 Pirate、Seeker、Phantasm、Goombah 和 Tesseract 虫群；Crystalys 虫群，以及 Beta 中的 Phantasm、Goombah 和 Tesseract 虫群，始终是其世界的阶位。虫群的阶位绝不会高于其所在世界，也没有虫群是 Delta；Delta 是强度为 Gamma 两倍的第四阶位，只有普通外星人才会抽到。与头领一同出现的舰船共用它的阶位，该星区的下一个头领会重新抽取。虫群的强度和奖励，就是上表中与其阶位同名的那一行：较弱的虫群与较低世界中的虫群一样坚固，击杀的奖励也与那里的击杀相同。速度、射程和掉落不随阶位改变。Dormant 虫群没有阶位，保持其世界的数值。
+
 ## 飞行员会收到什么通知 {#what-the-pilots-are-told}
 
 Seeker、Pirate、Phantasm、Goombah、Crystalys 和 Tesseract 虫群会在 Boss 出现和被击毁时，通知所在星区的飞行员。Dormant 虫群会通知整个世界，并在危险星区的地图和星系地图上标出，方便飞行员找到它。这些是系统行：它们显示在聊天的**系统**标签页中，带有未读计数，不会出现在**全球**或**本地**标签页里。击杀 Boss 还会在击杀播报中生成一行，写明获得这次击杀功劳的飞行员。各篇文章的*一览*列表说明了会通知谁。
@@ -86,7 +88,7 @@ Seeker、Pirate、Phantasm、Goombah、Crystalys 和 Tesseract 虫群会在 Boss
 
 普通外星人把奖励付给第一个击中它的飞行员（[战斗](/wiki/03-Mechanics/Combat.md#kill-rewards-first-hit-claims)）。虫群的头领和每个 Dormant Pulse 则改为**按造成的伤害**支付：
 
-- **奖励按伤害分配。** 每个造成了不低于上面规则所给比例的伤害的飞行员都会获得奖励，与其造成的伤害成比例：这次击杀的信用点、Thulium、经验值和荣誉在他们之间分配。低于该比例的飞行员什么都得不到。
+- **奖励按伤害分配。** 每个造成了不低于上面规则所给比例的伤害的飞行员都会获得奖励，与其造成的伤害成比例：这次击杀的信用点、Thulium、经验值和荣誉，按该虫群阶位的奖励倍率，在他们之间分配。低于该比例的飞行员什么都得不到。
 - **货箱归造成伤害最多的飞行员。** 和任何外星人一样，它在 30 秒内属于该飞行员（及其战队），之后任何人都可以拾取（[货箱](/wiki/03-Mechanics/Cargo.md)）。Dormant 的每艘舰船都有自己的伤害统计和自己的货箱。Tesseract 是例外：它不掉落货箱，击杀所支付的每名飞行员都会得到属于自己的私人货箱（[Tesseract 虫群](/wiki/05-Swarms/Tesseract-Swarm.md#rewards-and-drops)）。当他的小队里有两名或更多飞行员对头领造成过伤害时，货箱会按所造成的伤害分成每人一个[个人货箱](/wiki/03-Mechanics/Cargo.md#personal-crates)。
 - **随从照常支付**：Pirate Scout、Seeker Slave、Phantasm、Goombah 和 Crystalys 虫群的 Guard，以及 Tesseract 虫群的 Facet，把奖励付给第一个击中它们的飞行员，它们的奖励与 Boss 相比很少。
 - **Boss 的奖励被设计得高于它周围的外星人。** 与 Pirate Boss、Boss Phantasm 或 Boss Goombah 战斗一分钟的收益高于与 Goombah 战斗一分钟，与 Dormant 虫群或 Boss Crystalys 战斗一分钟的收益则高于与 Crystalys 战斗一分钟；Boss Seeker 的奖励恰好是十只 Seeker。

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2803f28f4597c776 -->
+<!-- wiki-i18n source: a9b3f1a14b051e92 -->
 <!-- wiki-i18n title: Kitefin -->
 # Kitefin
 
@@ -10,6 +10,7 @@ La Kitefin è una cannoniera leggera e la prima nave che compra la maggior parte
 - **Velocità di base**: 220
 - **Slot laser**: 4
 - **Slot extra**: 2
+- **Slot corazza**: 3
 
 ### Slot dei generatori e di supporto {#generator-support-slots}
 

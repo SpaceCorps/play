@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 38baebcbfc5e575a -->
+<!-- wiki-i18n source: 55107c4d57b624af -->
 <!-- wiki-i18n title: Ostirion -->
 # Ostirion
 
@@ -10,6 +10,7 @@ Ostirion은 믿음직한 중급 요격기로, 기본 Protos 섀시보다 속도,
 - **기본 속도**: 260
 - **레이저 슬롯**: 5
 - **부가 슬롯**: 2
+- **장갑 슬롯**: 3
 
 ### 발전기 및 지원 슬롯 {#generator-support-slots}
 

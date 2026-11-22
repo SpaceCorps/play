@@ -41,11 +41,11 @@ Schaden eines Schusses, in jeder Welt:
 | [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets)-Turm | 5.000 / 4.400 | 5 s | 1.080 | 50.000 | 75.000 | 100.000 |
 | Laserturm × 2 | 3.600 / 5.200; 6.400 / 5.200 | 1 s | 2.500 | 45.000–55.000 | 67.500–82.500 | 90.000–110.000 |
 
-- Eine Rakete wird ab 90 % der Reichweite abgefeuert, die dieselbe Rakete in der Hand eines Piloten hat, damit sie ankommt; ein Laserturm feuert einmal pro Sekunde, und sein Schaden wird im gezeigten Bereich ausgewürfelt.
+- Eine Rakete wird ab 82 % der Reichweite abgefeuert, die dieselbe Rakete in der Hand eines Piloten hat, damit sie ankommt; ein Laserturm feuert einmal pro Sekunde, und sein Schaden wird im gezeigten Bereich ausgewürfelt.
 - Eine N.I.K.E. hat 35 % Schilddurchdringung, die von der Absorption eines Schilds abgezogen wird.
-- Die N.I.K.E. des Turms fliegt 25 % schneller und 2× so weit wie deine: 1.125 Einheiten pro Sekunde, 8.100 Einheiten insgesamt, sodass ein Schiff, das vor ihr flieht, weit verfolgt wird.
-- Eine N.U.K.E. detoniert in einem Radius von 1.350 Einheiten, in der Mitte am härtesten.
-- Die N.U.K.E. des Turms fliegt 25 % schneller und 2× so weit wie deine: 375 Einheiten pro Sekunde, 2.400 Einheiten insgesamt, sodass ein Schiff, das vor ihr flieht, weit verfolgt wird.
+- Die N.I.K.E. des Turms fliegt 25 % schneller und 2× so weit wie deine: 1.250 Einheiten pro Sekunde, 8.910 Einheiten insgesamt, sodass ein Schiff, das vor ihr flieht, weit verfolgt wird.
+- Eine N.U.K.E. detoniert in einem Radius von 1.013 Einheiten, in der Mitte am härtesten.
+- Die N.U.K.E. des Turms fliegt 25 % schneller und 2× so weit wie deine: 375 Einheiten pro Sekunde, 2.640 Einheiten insgesamt, sodass ein Schiff, das vor ihr flieht, weit verfolgt wird.
 
 <!-- swamp-guns:end -->
 
@@ -108,7 +108,7 @@ Drei Aliens der verlorenen Zivilisation leben hier, jedes mit eigenen Zahlen. Si
 | Credits | 125.000 | 250.000 | 375.000 |
 | Thulium | 335 | 670 | 1.005 |
 | Erfahrung (EP) | 20.200 | 40.400 | 60.600 |
-| Ehre | 87 | 174 | 261 |
+| Ehre | 88 | 176 | 264 |
 | PvE-Punkte pro Abschuss | 15 | 15 | 15 |
 
 **Beute**: eine Kiste, für den Piloten mit dem meisten Schaden.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 77908d7c08d3074c -->
+<!-- wiki-i18n source: 0684c16b2f2d0dbe -->
 <!-- wiki-i18n title: Demirhane -->
 # Demirhane {#the-forge}
 
@@ -57,7 +57,7 @@ Bir **kalkanın Soğurma bonusu** (ve bir kalkan hücresinin Soğurma artışı)
 
 Motorlar, iticiler, Uyarlanabilir Çekirdekler ve Repair Drone eşyaları yüzdelik bir bonusla çok az değişir (bir Engine II 10 hız ekler, bu yüzden +%12, 1,2 puan eder): özellikler için değil, kademeyi istiyorsan döv.
 
-**Penetration Amp bonusu** delmesini çarpar: Yücelmiş bir bonus (+%9 ile +%15), bir Penetration Amp IV eşyasını yuva başına 20 yerine 21,8 ile 23 puan yapar. Bir vuruşun delmesini hiçbir şey sınırlamaz, bu yüzden her puan sayılır: en iyi lazerde (bir Fusion Core, bir Gemini ve her lazerde üç Penetration Amp IV) 10 + 15 + 60 toplamı %85 eder ve üç Yücelmiş bonus bunu %94’e kadar çıkarır ([Lazerler](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+**Penetration Amp bonusu** delmesini çarpar: Yücelmiş bir bonus (+%9 ile +%15), bir Penetration Amp IV eşyasını yuva başına 25 yerine 27,3 ile 28,8 puan yapar. Bir vuruşun delmesini hiçbir şey sınırlamaz, bu yüzden her puan sayılır: en iyi lazerde (bir Fusion Core, bir Gemini ve her lazerde üç Penetration Amp IV) 10 + 15 + 75 toplamı %100 eder ve üç Yücelmiş bonus bunu %111’e kadar çıkarır ([Lazerler](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
 
 ### Malzemeler nereden düşer {#where-the-materials-drop}
 

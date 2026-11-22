@@ -8,6 +8,7 @@ The Protos is the basic starter ship given to all new pilots in SpaceCorps. It i
 - **Base Speed**: 190
 - **Laser Slots**: 2
 - **Extra Slots**: 2
+- **Hull Plate Slots**: 3
 
 ### Generator & Support Slots
 
@@ -23,6 +24,12 @@ The Protos is the basic starter ship given to all new pilots in SpaceCorps. It i
 - **Thulium**: 0
 
 ## Research
+
+- **Design.** The Protos has 1 [design](/wiki/03-Mechanics/Ship-Designs.md). Research it (10 h and 10 Dark Matter), then convert your Protos into it in Assembly. The conversion is final, and the Protos is the one ship you cannot get again: it cannot be crafted, the Shop lists it but never sells it, and only a new account starts with one. Once you convert your Protos, you have a Protosaur and no Protos.
+
+| Design | What it changes |
+| :--- | :--- |
+| **Protosaur** | +30 base speed, +1 laser slot, +5 hull plate slots, +1 extra slot, +50% rocket damage, Blink, Chameleon |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

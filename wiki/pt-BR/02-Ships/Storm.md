@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4f623748df04b99c -->
+<!-- wiki-i18n source: d81d149a539b43ee -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
@@ -27,7 +27,7 @@ A Storm é um caça de canhão de vidro: a velocidade base mais alta e o maior n
 
 ## Pesquisa {#research}
 
-- **Slots de blindagem.** Esta nave tem 8 [slots de blindagem](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) para [blindagem de casco](/wiki/06-Items/Hull-Plating.md), todos bloqueados quando você a fabrica. Cada um é uma tecnologia própria no Skylab, 1 h e 10 Dark Matter, pesquisada em ordem a partir do primeiro; ela abre aquele slot nesta nave e em cada um dos seus designs. Com os 8 cheios de Hull Plating III, somam-se 200.000 de casco.
+- **Slots de blindagem.** Esta nave tem 8 [slots de blindagem](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) para [blindagem de casco](/wiki/06-Items/Hull-Plating.md), todos bloqueados quando você a fabrica. Cada um é uma tecnologia própria no Skylab, 1 h e 10 Dark Matter, pesquisada em ordem a partir do primeiro; ela abre aquele slot nesta nave e em cada um dos seus designs. Com os 8 cheios de Hull Plating III, somam-se 160.000 de casco.
 - **Designs.** Esta nave tem 3 [designs](/wiki/03-Mechanics/Ship-Designs.md). Pesquise um (10 h e 10 Dark Matter) e depois converta a sua Storm nele na Montagem: a mudança não pode ser desfeita.
 
 | Design | O que muda |

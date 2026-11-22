@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0c9164c462c27a1a -->
+<!-- wiki-i18n source: 74bb4919fe97756e -->
 <!-- wiki-i18n title: 研究 -->
 # 研究 {#research}
 
@@ -30,7 +30,7 @@
 
 <!-- research-centre:end -->
 
-**Schematics。** [Schematics](/wiki/06-Items/Special-Items.md#schematics) は、進行中の研究から24時間を引きます。残りが24時間以内なら研究はすぐに完了し、それより長ければ24時間が減って続きます（209の技術のうち187は24時間以内なので、1つで最初から完了させられます。残りの22は2〜10個必要です）。研究にかかった費用は開始時に支払い済みで返ってきません。飛ばした時間が燃やすはずだった科学ポイントはタンクに残り、研究が完了するとキューの次の技術はすぐに始まります。
+**Schematics。** [Schematics](/wiki/06-Items/Special-Items.md#schematics) は、進行中の研究から24時間を引きます。残りが24時間以内なら研究はすぐに完了し、それより長ければ24時間が減って続きます（210の技術のうち188は24時間以内なので、1つで最初から完了させられます。残りの22は2〜10個必要です）。研究にかかった費用は開始時に支払い済みで返ってきません。飛ばした時間が燃やすはずだった科学ポイントはタンクに残り、研究が完了するとキューの次の技術はすぐに始まります。
 
 **レーザーアンプと最終ティア。** ティアII～IVの Damage Amp、Crit Amp、Penetration Amp は、ほかの製作物と同じく研究します。アンプの系統が登場した時点でアンプを所持していた、または製作待ちにしていたパイロットは、そのアンプそれぞれの技術と、その下のティアの技術を受け取りました。別のツリーの技術を必要とする技術は13あります。リソースのツリーにある Dark Matter Plate の技術です。各強化系統の最終ティアがプレートを4枚と Ancient Control Unit を1個要求するためで、ティアIVの Damage Amp・Crit Amp・Penetration Amp、ティアIVの Absorption Shield Cell・Capacity Shield Cell、ティアIVの Impulse Thruster・Momentum Thruster、Heavy Shield Core、Engine III、Adaptive Core III、Helios Beam、Extra Slots CPU III、Base CPU II が該当します。以前にそのどれかを研究済みなら、その技術はそのまま残りますが、必要なプレートを作るには Dark Matter Plate の技術が要ります。下のツリーにはそのための矢印は描かれませんが、表には載っており、ゲーム内のカードにも名前が出ます（[Dark Matter と Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）。
 

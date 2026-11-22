@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 064e305cf560906d -->
+<!-- wiki-i18n source: 9da2aba86c37f5e2 -->
 <!-- wiki-i18n title: Specialföremål -->
 # Specialföremål {#special-items}
 
@@ -44,7 +44,7 @@ Slutför **en Skylab-uppgradering direkt**: välj modulen som uppgraderas så av
 
 ### Schematics
 
-Tar bort **24 timmar från forskningen som pågår just nu**. Om **24 timmar eller mindre** återstår, **slutförs** forskningen direkt; om mer återstår förlorar den 24 timmar och fortsätter, och du kan använda ett till Schematics på den. 187 av de 209 teknikerna i [Forskningscentrumet](/wiki/03-Mechanics/Research.md) tar 24 timmar eller mindre, så ett Schematics slutför dem från början. De andra 22 tar längre tid, de flesta 48 eller 72 timmar och Rocket Launcher III, IV och V 96, 168 och 240 timmar, och kräver 2 till 10 Schematics.
+Tar bort **24 timmar från forskningen som pågår just nu**. Om **24 timmar eller mindre** återstår, **slutförs** forskningen direkt; om mer återstår förlorar den 24 timmar och fortsätter, och du kan använda ett till Schematics på den. 188 av de 210 teknikerna i [Forskningscentrumet](/wiki/03-Mechanics/Research.md) tar 24 timmar eller mindre, så ett Schematics slutför dem från början. De andra 22 tar längre tid, de flesta 48 eller 72 timmar och Rocket Launcher III, IV och V 96, 168 och 240 timmar, och kräver 2 till 10 Schematics.
 
 - **Teknikens timmar, inte klockans.** De 24 timmarna är teknikens egen forskningstid, den som står på dess kort. Thulium-boosten får en forskning att gå snabbare men ändrar inte vad en användning tar bort; om en boost skulle täcka forskningens slut sparar en användning färre väntetimmar (vid dubbel hastighet är ett dygn av forskning 12 timmars väntan). Bekräftelsen säger vad timern kommer att visa.
 - **Forskningen fortsätter som förut.** En forskning som förlorar 24 timmar behåller sin plats: boosten fortsätter, kön rörs inte och inget startar bakom den. En forskning som väntar på vetenskap väntar fortfarande: Schematics ger tid, inte bränsle.

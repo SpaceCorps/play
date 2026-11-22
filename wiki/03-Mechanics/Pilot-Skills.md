@@ -77,7 +77,8 @@ The tables give every buff at level 1 and at the last level; between them a buff
 | **Tactics** (Reflex) | Duration of abilities | ×1 | ×1.2 |
 | **Shield absorption** (Grit) | Absorbance of your shields | +0 points | +5 points |
 | **Healing** (Heft) | Strength of your own repairs and heals | ×1 | ×1.3 |
-| **Cloak Recharge** (Reflex) | Recharge time of your cloak | ×1 | ×0.5 |
+|  | Recharge time of the Miyuki's heal abilities | ×1 | ×0.9 |
+| **Stealth** (Reflex) | Recharge time of your cloak | ×1 | ×0.5 |
 
 ### Ship control
 
@@ -112,13 +113,13 @@ The tables give every buff at level 1 and at the last level; between them a buff
 - **Lasers.** Laser tech changes the damage of every volley and the chance that it hits; a volley that goes wide shows a floating "Miss" and still uses its ammo ([Combat](/wiki/03-Mechanics/Combat.md#laser-tech)). The range of your lasers is the ship's own: Marksmanship levels from your hits with ammo other than plain x1, but it only works on Mines (below).
 - **Rockets.** Rocket tech changes the damage of every rocket and the chance that one is a dud ([Rocket tech](/wiki/06-Items/Rockets.md#rocket-tech)).
 - **Taking hits.** Grit takes a share off every hit you take, Evasion adds to the chance that a direct hit does nothing, and Shield absorption adds to the share of a hit that your shields take ([Combat](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). Heft adds to your hull.
-- **Healing.** Healing makes the heals of your own gear stronger: the repair of your Repair Drone, an Emergency Repair and the Heal Pod you drop ([Abilities](/wiki/03-Mechanics/Abilities.md#pilot-skills)). It trains on the hull your heals restore; healing a ship in a safe zone does not count. The Support Rocket always heals the same fixed amount, at any level, and still pays Healing XP.
-- **Cloaking.** Cloak Recharge shortens the wait after a cloak ends, for a Cloaking CPU ([Extras](/wiki/06-Items/Extras.md#cloaking-cpu)) and for the Chameleon ([Abilities](/wiki/03-Mechanics/Abilities.md)). It trains on the seconds you spend cloaked; none count in a safe zone or while you give no orders.
+- **Healing.** Healing makes the heals of your own gear stronger: the repair of your Repair Drone, an Emergency Repair, and the Heal Pod, Channel Heal and Channel Shield you use ([Abilities](/wiki/03-Mechanics/Abilities.md#pilot-skills)). On the Miyuki, those three abilities also wait less before the next use. It trains on the hull your heals restore; healing a ship in a safe zone does not count. The Support Rocket always heals the same fixed amount, at any level, and still pays Healing XP.
+- **Cloaking.** Stealth shortens the wait after a cloak ends, for a Cloaking CPU ([Extras](/wiki/06-Items/Extras.md#cloaking-cpu)) and for the Chameleon ([Abilities](/wiki/03-Mechanics/Abilities.md)). It trains on the seconds you spend cloaked; none count in a safe zone or while you give no orders.
 - **Abilities.** Reflex shortens the cooldown of your abilities and Tactics makes them last longer ([Abilities](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Sabotage strengthens the poisons.
 - **Mines.** Sabotage adds to the damage of a Mine, and Marksmanship throws it faster and farther ([Extras](/wiki/06-Items/Extras.md#mine)).
 - **Speed.** Thruster theory adds to your speed, on top of the engines and an Afterburner ([Speed](/wiki/03-Mechanics/Speed.md)).
 - **Pick-ups.** Instinct raises the chance of every loot line, as a Loot Luck Booster does, and the two add up; Antimatter raises the Dark Matter you pick up ([Cargo](/wiki/03-Mechanics/Cargo.md), [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)).
-- **Radiation.** Radiation tech lowers the dose of the black hole, the excavators' circles, the pulsars and the Unwakened's aura ([Black Hole](/wiki/03-Mechanics/Black-Hole.md)).
+- **Radiation.** Radiation tech lowers the dose of the black hole, the radiation zones of the N.U.K.E. and the Gravitational N.U.K.E., the excavators' circles, the pulsars and the Unwakened's aura ([Black Hole](/wiki/03-Mechanics/Black-Hole.md)).
 - **Home.** Extraction and Logistics change what the [Skylab](/wiki/03-Mechanics/Skylab.md) makes and holds, Instinct adds to its two collectors, Fabrication shortens the crafts of the Assembly, Science fills the [Research](/wiki/03-Mechanics/Research.md) Centre faster, and Commerce lowers the prices of the Shop and the credits and Thulium that the Assembly's crafts cost, raises what the Shop pays when it buys back, and lowers the deposit of an [Auction](/wiki/03-Mechanics/Auction.md) listing. In the [Forge](/wiki/06-Items/Forge.md), Commerce lowers the credits and Thulium of a step and the credits of a merge ([Tier up](/wiki/06-Items/Forge.md#tier-up)), and Fabrication lowers the integrity that a re-lay takes off a piece ([Integrity and fractures](/wiki/06-Items/Forge.md#integrity-and-fractures)).
 
 ## How XP is paid
@@ -157,7 +158,7 @@ The table lists what pays XP, stat by stat. The XP is for each unit of what is n
 | **Tactics** (Reflex) | Each ability you press with a hostile in laser range | 2 | 600 XP an hour |
 | **Shield absorption** (Grit) | Each 1% of your maximum shield that enemy hits take | 0.1 | 300 XP an hour |
 | **Healing** (Heft) | Each 1% of a ship's maximum hull that a heal of yours restores | 0.1 | 300 XP an hour |
-| **Cloak Recharge** (Reflex) | Each second you spend cloaked with an order given in the last 1 min, outside the safe zones | 0.1 | None |
+| **Stealth** (Reflex) | Each second you spend cloaked with an order given in the last 1 min, outside the safe zones | 0.1 | None |
 | **Radiation tech** (Grit) | Each second inside a radiation band | 0.2 | None |
 |  | Each 1% of your maximum hull the radiation takes | 1 |  |
 | **Thruster theory** (Heft) | Each second flown above 80% of your ship's speed, twice as much under an Afterburner | 0.1 | None |

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c91f93d3941bb3bf -->
+<!-- wiki-i18n source: dde8093210ad8db3 -->
 <!-- wiki-i18n title: Buraco negro -->
 # O buraco negro {#the-black-hole}
 
@@ -15,7 +15,7 @@ As distâncias são contadas a partir do centro do setor, em unidades do mapa. O
 
 | Anel | Distância | O que acontece |
 | :--- | ---: | :--- |
-| **Radiação** | 4.000 | A sua nave sofre dano a cada segundo, uma parte do total dos HP máximos dela. Quanto mais perto, mais. |
+| **Radiação** | 4.000 | O seu casco sofre dano a cada segundo, uma parte do casco máximo dele. Quanto mais perto, mais. |
 | **Atração** | 3.000 | O buraco negro puxa a sua nave em direção ao centro, com mais força quanto mais perto você está. Uma nave que não está voando é arrastada. |
 | **Ponto sem retorno** | cerca de 800 a 2.600 | Onde a atração se iguala à velocidade da sua nave. Dentro dele, mesmo a toda potência, você é puxado para dentro. Depende da sua velocidade. |
 | **Horizonte de eventos** | 300 | Qualquer nave que o alcance é destruída na hora, seja qual for o casco e o escudo. |
@@ -33,7 +33,7 @@ O buraco negro não tem o mesmo tamanho durante toda a temporada. Nas últimas *
 | **Radiação** | 4.000 | 5.600 | 7.200 |
 | **Anel de guiagem** | 4.200 | 5.880 | 7.560 |
 
-O que não muda é a dureza na mesma fração do caminho para dentro: uma nave a 3.600 unidades do centro, com o buraco em 1,8 vez, sente o que uma nave a 2.000 unidades sente num dia normal (uma atração de 96 unidades por segundo e 2 % dos seus HP por segundo). O buraco crescido não é mais forte, é mais largo, e uma nave leva 1,8 vez mais tempo para atravessá-lo. O ponto sem retorno de cada nave fica 1,8 vez mais longe. Todas as distâncias desta página são do tamanho normal: multiplique-as pelo tamanho do buraco para ler o buraco crescido.
+O que não muda é a dureza na mesma fração do caminho para dentro: uma nave a 3.600 unidades do centro, com o buraco em 1,8 vez, sente o que uma nave a 2.000 unidades sente num dia normal (uma atração de 96 unidades por segundo e 2 % do seu casco por segundo). O buraco crescido não é mais forte, é mais largo, e uma nave leva 1,8 vez mais tempo para atravessá-lo. O ponto sem retorno de cada nave fica 1,8 vez mais longe. Todas as distâncias desta página são do tamanho normal: multiplique-as pelo tamanho do buraco para ler o buraco crescido.
 
 - **Como você vê.** Nas últimas 72 horas, o Painel tem um cartão no alto, e a vista de voo uma etiqueta sobre o buraco negro, que contam regressivamente até o reset («Reset do universo em 1d 05:12:33») e dizem quantas vezes o seu tamanho o buraco tem agora; nos últimos cinco minutos, a contagem regressiva do próprio reset assume. A dica do minimapa nomeia os anéis do tamanho que o buraco tem agora.
 - **Quando.** O tamanho depende só do relógio da temporada, então é o mesmo em todos os mundos. Enquanto um administrador mantém a temporada em um dia, nada está agendado e o buraco fica no tamanho normal; se o dia da temporada é movido, o buraco o acompanha na hora; a próxima temporada começa com um buraco normal.
@@ -42,7 +42,7 @@ O que não muda é a dureza na mesma fração do caminho para dentro: uma nave a
 
 ## Radiação {#radiation}
 
-O dano é uma **porcentagem do total dos HP máximos da sua nave** (casco mais escudo) a cada segundo, então toda classe de nave dura exatamente o mesmo tempo a uma dada distância: uma Protos e uma Wraith a 2.000 unidades consomem uma nave cheia em 50 segundos.
+O dano é uma **porcentagem do casco máximo da sua nave** a cada segundo e sai **direto do casco**: o seu escudo não o absorve. Então toda classe de nave dura exatamente o mesmo tempo a uma dada distância: uma Protos e uma Wraith a 2.000 unidades consomem um casco cheio em 50 segundos.
 
 | Distância | Dano por segundo | Uma nave cheia dura |
 | ---: | ---: | ---: |
@@ -54,24 +54,25 @@ O dano é uma **porcentagem do total dos HP máximos da sua nave** (casco mais e
 | 700 | 11% | 9 s |
 | 300 | 24% | 4 s |
 
-Entre duas linhas da tabela o dano sobe em linha reta. Em pontos de vida por segundo, para as configurações originais das naves:
+Entre duas linhas da tabela o dano sobe em linha reta. Em pontos de casco por segundo, para as configurações originais das naves:
 
-| Nave | HP máx. total | A 3.500 | A 3.000 | A 2.000 | A 1.200 | A 700 |
+| Nave | Casco máx. | A 3.500 | A 3.000 | A 2.000 | A 1.200 | A 700 |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| Protos | 30.000 | 165 | 240 | 600 | 1.500 | 3.300 |
-| Kitefin | 46.000 | 253 | 368 | 920 | 2.300 | 5.060 |
-| Ostirion | 98.500 | 542 | 788 | 1.970 | 4.925 | 10.835 |
-| Nomad | 145.500 | 800 | 1.164 | 2.910 | 7.275 | 16.005 |
-| Paragon | 162.500 | 894 | 1.300 | 3.250 | 8.125 | 17.875 |
-| Storm | 228.000 | 1.254 | 1.824 | 4.560 | 11.400 | 25.080 |
-| Wraith | 304.000 | 1.672 | 2.432 | 6.080 | 15.200 | 33.440 |
-| Ironclad | 573.200 | 3.153 | 4.586 | 11.464 | 28.660 | 63.052 |
+| Protos | 8.000 | 44 | 64 | 160 | 400 | 880 |
+| Kitefin | 24.000 | 132 | 192 | 480 | 1.200 | 2.640 |
+| Ostirion | 64.000 | 352 | 512 | 1.280 | 3.200 | 7.040 |
+| Nomad | 111.000 | 611 | 888 | 2.220 | 5.550 | 12.210 |
+| Paragon | 128.000 | 704 | 1.024 | 2.560 | 6.400 | 14.080 |
+| Storm | 180.000 | 990 | 1.440 | 3.600 | 9.000 | 19.800 |
+| Wraith | 256.000 | 1.408 | 2.048 | 5.120 | 12.800 | 28.160 |
+| Ironclad | 500.000 | 2.750 | 4.000 | 10.000 | 25.000 | 55.000 |
 
-- O **escudo recebe o dano primeiro**, depois o casco. Não é um acerto: a absorção do escudo não entra na conta, e ele não pode ser desviado.
+- Ele vai **direto para o casco**: o escudo não leva nada, então uma nave sem escudo perde exatamente o que perde uma com um Heavy Shield Core. Não é um acerto: a absorção do escudo não entra na conta, e ele não pode ser desviado.
 - A radiação conta como **dano recebido**: o seu escudo não recarrega, um drone de reparo para (“Reparos interrompidos: radiação.”) e não pode ser iniciado, e uma zona segura só protegeria você 5 segundos depois da última dose.
-- Os boosters e as melhorias mudam o tamanho do seu total, não por quanto tempo você aguenta: o dano é uma parte dele.
-- Nada torna uma nave imune. A radiação não é um acerto, então nada a absorve; mas as habilidades continuam funcionando nela: um Shield Surge continua restaurando o seu escudo e um Emergency Repair continua curando o seu casco durante os seus dez segundos (elas não são os reparos naturais que a dose interrompe). A camuflagem não esconde a nave da radiação.
-- A **Tecnologia de radiação**, uma habilidade de piloto, reduz a dose: a parte do seu total que você perde por segundo cai em linha reta de tudo no nível 1 até 0,40 dela no nível 100, e o indicador mostra a dose que você realmente recebe.
+- Os boosters e as melhorias mudam o tamanho do seu casco, não por quanto tempo você aguenta: o dano é uma parte dele.
+- Nada torna uma nave imune. A radiação não é um acerto, então nada a absorve, o escudo menos ainda; mas as habilidades continuam funcionando nela: um Emergency Repair continua curando o seu casco durante os seus dez segundos (não é um dos reparos naturais que a dose interrompe) e um Shield Surge continua restaurando um escudo que a radiação nunca toca. A camuflagem não esconde a nave da radiação.
+- A **Tecnologia de radiação**, uma habilidade de piloto, reduz a dose: a parte do seu casco que você perde por segundo cai em linha reta de tudo no nível 1 até 0,40 dela no nível 100, e o indicador mostra a dose que você realmente recebe.
+- A **N.U.K.E.** e a **Gravitational N.U.K.E.** deixam zonas de radiação próprias onde explodem, e elas queimam o casco do mesmo jeito: [Foguetes](/wiki/06-Items/Rockets.md#the-craft-only-rockets) as descreve.
 
 ## A atração {#the-pull}
 
@@ -131,7 +132,7 @@ A visão é pequena (cerca de 1.900 por 1.150 unidades na tela com o zoom padrã
 
 - **De longe.** Se você abaixar a câmera para olhar ao longo do plano, o buraco negro é desenhado onde está na tela, de qualquer lugar do setor, sempre que está no quadro: um disco preto com um anel em um brilho de luz de acreção, com a escala ajustada para continuar fácil de ver (cerca de 2% da altura da visão a partir do canto mais distante, que fica a cerca de 18.000 unidades), e ele cresce até virar a sua própria imagem conforme você se aproxima. Nada nele se move sozinho. Com o buraco negro fora da visão, não há marcador dele na tela.
 - **Anéis no plano de voo.** Uma faixa violeta brilha até uma borda nítida no limite da radiação (4.000 unidades), e uma mais fina, âmbar, marca o limite da atração (3.000). Dentro da atração, uma **linha vermelha** mostra o *seu próprio* ponto sem retorno. Ela acompanha a sua velocidade, então se move conforme a sua nave fica mais rápida ou mais lenta.
-- **O medidor**, acima da barra de atalhos, aparece a até mil unidades da borda e fica enquanto você queima. Ele mostra a radiação em porcentagem do total de HP da sua nave por segundo, quanto tempo a radiação sozinha levaria para consumir o que resta (“Letal em 31 s”, em vermelho abaixo de dez), uma barra desse HP, a atração onde você está contra a sua velocidade e a distância que ainda falta voar até o seu ponto sem retorno, ou um aviso piscante quando você já passou dele. Passe o mouse sobre uma linha para ver o que ela significa; o (i) abre um cartão.
+- **O medidor**, acima da barra de atalhos, aparece a até mil unidades da borda e fica enquanto você queima. Ele mostra a radiação em porcentagem do casco máximo da sua nave por segundo, quanto tempo a radiação sozinha levaria para consumir o que resta do seu casco (“Letal em 31 s”, em vermelho abaixo de dez), uma barra desse casco, a atração onde você está contra a sua velocidade e a distância que ainda falta voar até o seu ponto sem retorno, ou um aviso piscante quando você já passou dele. Passe o mouse sobre uma linha para ver o que ela significa; o (i) abre um cartão.
 - **As bordas da tela** brilham em violeta, ficando vermelhas conforme a dose sobe, e pulsam uma vez por segundo.
 - **O minimapa** desenha o buraco negro com os seus anéis como elipses (o mapa se estica junto com a janela dele), e a dica ao passar o mouse informa os raios. O mapa do Sistema estelar marca o setor com um pequeno buraco negro.
 - **Um contador de radiação** estala mais rápido conforme a dose sobe, por cima do som da luta. Um aviso de dois tons soa quando você cruza a borda e de novo no seu ponto sem retorno, e um ronco grave é ouvido a partir de cerca de 6.500 unidades, mais grave quanto mais perto você está.
@@ -156,8 +157,8 @@ Os drones voam com a sua nave. A carga nunca é deixada dentro do anel: uma caix
 
 O buraco devolve **Dark Matter** por um foguete **N.I.K.E.** que o alcance. Uma N.I.K.E. é um foguete de 67.500 a 75.000 de dano que atinge a primeira nave que pode ferir e se gasta nela; se nada estiver no caminho, ela voa até o buraco e é consumida quando cruza o horizonte de eventos. A [Montagem](/wiki/06-Items/Rockets.md) fabrica N.I.K.E. depois que a tecnologia delas é pesquisada ([Pesquisa](/wiki/03-Mechanics/Research.md)), cinco por criação (100.000 créditos, 1.500 Thulium, 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite).
 
-- **Disparo.** Uma N.I.K.E. voa 4.050 unidades em 4,5 segundos (900 por segundo) em linha reta para o ponto em que você a mirou: sem alvo selecionado, ponha o cursor sobre o buraco negro (ou aponte a sua nave para ele). Ela chega ao horizonte a partir de qualquer ponto entre a borda da radiação (4.000 unidades) e 4.380 unidades do centro. Mais longe, ela não alcança e é desperdiçada. Como todo foguete, usa a recarga compartilhada, e depois dela você espera 4,6 segundos pelo próximo foguete (não é preciso ter um laser equipado); dispará-la encerra a sua proteção de zona segura e a sua camuflagem. **Uma nave na linha a recebe no seu lugar**: um rival esperando na borda, ou um piloto de outra corporação coletando caixas no caminho, leva de 67.500 a 75.000 de dano e o buraco não ganha nada. Alienígenas e pilotos de corporação nunca entram no anel, então manter a linha livre fica por sua conta; ela atravessa o seu próprio grupo e as naves que estão a salvo de você; um piloto da sua própria corporação que não está no seu grupo é uma nave como qualquer outra, onde o PvP está ativo. Se você sair do mapa depois do disparo, ela continua voando sem ferir ninguém e ainda produz a sua Dark Matter. Uma formação de drones pode alterar o dano do acerto, mas não a espera depois de uma N.I.K.E. (veja [Formações de drones e foguetes](/wiki/06-Items/Rockets.md#drone-formations-and-rockets)).
-- **O que volta.** Cada N.I.K.E. que chega ao horizonte dá **1, 2 ou 3 Dark Matter** (2 em média, então cerca de cinco N.I.K.E. rendem dez), em caixas pequenas, uma para cada unidade (ou seja, de uma a três caixas), que surgem na borda da zona do buraco, **a 3.050 a 3.950 unidades do centro**, perto da linha por onde o seu disparo entrou. A atração termina em 3.000, então as caixas e as naves que as pegam não são puxadas, e a radiação ali é de 0,3 a 0,8% do HP de uma nave por segundo: um minuto no meio da faixa custa um terço da sua nave. Uma nave cheia aguenta três minutos ali.
+- **Disparo.** Uma N.I.K.E. voa 4.455 unidades em 4,5 segundos (1000 por segundo) em linha reta para o ponto em que você a mirou: sem alvo selecionado, ponha o cursor sobre o buraco negro (ou aponte a sua nave para ele). Ela chega ao horizonte a partir de qualquer ponto entre a borda da radiação (4.000 unidades) e 4.785 unidades do centro. Mais longe, ela não alcança e é desperdiçada. Como todo foguete, usa a recarga compartilhada, e depois dela você espera 4,6 segundos pelo próximo foguete (não é preciso ter um laser equipado); dispará-la encerra a sua proteção de zona segura e a sua camuflagem. **Uma nave na linha a recebe no seu lugar**: um rival esperando na borda, ou um piloto de outra corporação coletando caixas no caminho, leva de 67.500 a 75.000 de dano e o buraco não ganha nada. Alienígenas e pilotos de corporação nunca entram no anel, então manter a linha livre fica por sua conta; ela atravessa o seu próprio grupo e as naves que estão a salvo de você; um piloto da sua própria corporação que não está no seu grupo é uma nave como qualquer outra, onde o PvP está ativo. Se você sair do mapa depois do disparo, ela continua voando sem ferir ninguém e ainda produz a sua Dark Matter. Uma formação de drones pode alterar o dano do acerto, mas não a espera depois de uma N.I.K.E. (veja [Formações de drones e foguetes](/wiki/06-Items/Rockets.md#drone-formations-and-rockets)).
+- **O que volta.** Cada N.I.K.E. que chega ao horizonte dá **1, 2 ou 3 Dark Matter** (2 em média, então cerca de cinco N.I.K.E. rendem dez), em caixas pequenas, uma para cada unidade (ou seja, de uma a três caixas), que surgem na borda da zona do buraco, **a 3.050 a 3.950 unidades do centro**, perto da linha por onde o seu disparo entrou. A atração termina em 3.000, então as caixas e as naves que as pegam não são puxadas, e a radiação ali é de 0,3 a 0,8% do casco de uma nave por segundo: um minuto no meio da faixa custa um terço da sua nave. Uma nave cheia aguenta três minutos ali.
 - **De quem.** As caixas são suas, e do seu clã, durante **60 segundos** a partir do disparo. Depois disso, qualquer um no mapa pode pegá-las, e elas somem à deriva depois de **4 minutos**. O Setor de perigo é um setor PvP, então espere companhia. Um piloto que se desconecta depois de disparar ainda tem as suas caixas.
 - **Quantas.** Um mapa comporta no máximo 52 caixas de Dark Matter; uma nova empurra para fora a mais antiga delas, e nunca outro tipo de caixa. O [Resource Magnet Booster](/wiki/03-Mechanics/Cargo.md) não soma nada ao Dark Matter.
 - **O que você vê.** Quando uma N.I.K.E. cruza o horizonte, ela é esticada para dentro do buraco, o espaço ondula a partir de onde ela entrou, e o disco e o anel de fótons lampejam por cerca de um segundo e meio (um terço disso, com metade da luz, com **Reduzir movimento**). Um instante depois as caixas saem do buraco e derivam até os seus lugares na borda: cada uma é uma esfera preto-violeta com a borda brilhante e cintilações, fácil de ver de longe, e com o título **Dark Matter** quando você passa o mouse sobre ela. As suas mostram, acima delas, os segundos que ainda restam e aparecem no minimapa como uma pequena marca violeta, como também aparecem para o seu clã; as caixas dos outros pilotos só aparecem no minimapa depois que o minuto delas termina.

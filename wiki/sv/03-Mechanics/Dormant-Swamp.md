@@ -41,11 +41,11 @@ Skada per skott, i varje värld:
 | [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets)-torn | 5 000 / 4 400 | 5 s | 1 080 | 50 000 | 75 000 | 100 000 |
 | Laserkanon × 2 | 3 600 / 5 200; 6 400 / 5 200 | 1 s | 2 500 | 45 000–55 000 | 67 500–82 500 | 90 000–110 000 |
 
-- En raket avfyras från 90 % av den räckvidd som samma raket har i en pilots händer, så att den når fram; ett lasertorn skjuter en gång i sekunden, och dess skada slumpas inom det visade intervallet.
+- En raket avfyras från 82 % av den räckvidd som samma raket har i en pilots händer, så att den når fram; ett lasertorn skjuter en gång i sekunden, och dess skada slumpas inom det visade intervallet.
 - En N.I.K.E. har 35 % sköldgenomträngning, som dras av från en sköldabsorption.
-- Tornets N.I.K.E. flyger 25 % snabbare och 2× så långt som din: 1 125 enheter i sekunden, 8 100 enheter totalt, så ett skepp som flyr från den förföljs långt.
-- En N.U.K.E. exploderar över en radie på 1 350 enheter, hårdast i mitten.
-- Tornets N.U.K.E. flyger 25 % snabbare och 2× så långt som din: 375 enheter i sekunden, 2 400 enheter totalt, så ett skepp som flyr från den förföljs långt.
+- Tornets N.I.K.E. flyger 25 % snabbare och 2× så långt som din: 1 250 enheter i sekunden, 8 910 enheter totalt, så ett skepp som flyr från den förföljs långt.
+- En N.U.K.E. exploderar över en radie på 1 013 enheter, hårdast i mitten.
+- Tornets N.U.K.E. flyger 25 % snabbare och 2× så långt som din: 375 enheter i sekunden, 2 640 enheter totalt, så ett skepp som flyr från den förföljs långt.
 
 <!-- swamp-guns:end -->
 
@@ -108,7 +108,7 @@ Tre utomjordingar från den försvunna civilisationen lever här, var och en med
 | Krediter | 125 000 | 250 000 | 375 000 |
 | Thulium | 335 | 670 | 1 005 |
 | Erfarenhet (XP) | 20 200 | 40 400 | 60 600 |
-| Heder | 87 | 174 | 261 |
+| Heder | 88 | 176 | 264 |
 | PvE-poäng per nedskjutning | 15 | 15 | 15 |
 
 **Byte**: en låda, för piloten som gjorde mest skada.

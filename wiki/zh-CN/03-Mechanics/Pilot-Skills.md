@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a95170ddd6f01c2a -->
+<!-- wiki-i18n source: 0b4fab38b0c9363e -->
 <!-- wiki-i18n title: 飞行员专长 -->
 # 飞行员专长 {#pilot-skills}
 
@@ -79,7 +79,8 @@
 | **战术**（反射） | 技能的持续时间 | ×1 | ×1.2 |
 | **护盾吸收**（坚韧） | 护盾的吸收率 | +0 点 | +5 点 |
 | **治疗**（质量） | 你自己的维修和治疗的强度 | ×1 | ×1.3 |
-| **隐形充能**（反射） | 隐形充能时间 | ×1 | ×0.5 |
+|  | Miyuki 治疗技能的冷却时间 | ×1 | ×0.9 |
+| **潜行**（反射） | 隐形充能时间 | ×1 | ×0.5 |
 
 ### 飞船操控 {#ship-control}
 
@@ -114,13 +115,13 @@
 - **激光。**激光技术会改变每次齐射的伤害和命中几率；打偏的齐射会浮现“Miss”，并且照样消耗弹药（[战斗](/wiki/03-Mechanics/Combat.md#laser-tech)）。激光的射程由飞船本身决定：射击会因你用普通 x1 以外的弹药命中而升级，但只对 Mine 起作用（见下文）。
 - **火箭。**火箭技术会改变每枚火箭的伤害，以及一枚火箭哑火的几率（[火箭技术](/wiki/06-Items/Rockets.md#rocket-tech)）。
 - **承受打击。**坚韧会从你受到的每次打击中扣掉一部分，闪避提高直接命中无效的几率，护盾吸收则提高护盾承受的命中份额（[战斗](/wiki/03-Mechanics/Combat.md#grit-and-evasion)）。质量会增加你的船体。
-- **治疗。**治疗会让你自己装备的治疗更强：你的 Repair Drone 的维修、Emergency Repair 和你投放的 Heal Pod（[技能](/wiki/03-Mechanics/Abilities.md#pilot-skills)）。它通过你的治疗所恢复的船体来训练；治疗处于安全区内的飞船不计入。Support Rocket 在任何等级都始终固定治疗相同的量，并且仍会给治疗经验值。
-- **隐形。** 隐形充能会缩短隐形结束后的等待时间，对 Cloaking CPU（[附加装置](/wiki/06-Items/Extras.md#cloaking-cpu)）和 Chameleon（[技能](/wiki/03-Mechanics/Abilities.md)）都有效。它按你处于隐形状态的秒数训练；在安全区内，或你没有下达任何指令时，不计入。
+- **治疗。**治疗会让你自己装备的治疗更强：你的 Repair Drone 的维修、Emergency Repair，以及你使用的 Heal Pod、Channel Heal 和 Channel Shield（[技能](/wiki/03-Mechanics/Abilities.md#pilot-skills)）。在 Miyuki 上，这三个技能的等待时间也会缩短。它通过你的治疗所恢复的船体来训练；治疗处于安全区内的飞船不计入。Support Rocket 在任何等级都始终固定治疗相同的量，并且仍会给治疗经验值。
+- **隐形。** 潜行会缩短隐形结束后的等待时间，对 Cloaking CPU（[附加装置](/wiki/06-Items/Extras.md#cloaking-cpu)）和 Chameleon（[技能](/wiki/03-Mechanics/Abilities.md)）都有效。它按你处于隐形状态的秒数训练；在安全区内，或你没有下达任何指令时，不计入。
 - **技能。**反射缩短你技能的冷却，战术则让它们持续更久（[技能](/wiki/03-Mechanics/Abilities.md#pilot-skills)）。破坏会增强毒素。
 - **Mine。**破坏会增加 Mine 的伤害，射击则让它投得更快、更远（[附加装置](/wiki/06-Items/Extras.md#mine)）。
 - **速度。**推进理论会在引擎和 Afterburner 之外再增加你的速度（[速度](/wiki/03-Mechanics/Speed.md)）。
 - **拾取。**直觉会像 Loot Luck Booster 一样提高每一条战利品的几率，两者相加；反物质会增加你拾取的 Dark Matter（[货箱](/wiki/03-Mechanics/Cargo.md)、[Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)）。
-- **辐射。**辐射防护会降低黑洞、挖掘机的圆圈、脉冲星和 Unwakened 光环的辐射剂量（[黑洞](/wiki/03-Mechanics/Black-Hole.md)）。
+- **辐射。**辐射防护会降低黑洞、N.U.K.E. 和 Gravitational N.U.K.E. 的辐射区、挖掘机的圆圈、脉冲星和 Unwakened 光环的辐射剂量（[黑洞](/wiki/03-Mechanics/Black-Hole.md)）。
 - **主场。**开采和物流会改变 [Skylab](/wiki/03-Mechanics/Skylab.md) 的产出和容量，直觉会增加它的两个采集器，制造会缩短装配站的制造时间，科学会让[研究中心](/wiki/03-Mechanics/Research.md)更快充满，贸易则会降低商店的价格和装配站制造所需的信用点与 Thulium，提高商店回购时的支付，并降低[拍卖行](/wiki/03-Mechanics/Auction.md)挂单的押金。在[锻造炉](/wiki/06-Items/Forge.md)中，贸易会降低一个步骤的信用点和 Thulium 以及合并的信用点（[升级](/wiki/06-Items/Forge.md#tier-up)），制造会降低重排从一件装备上扣除的完整度（[完整度与裂痕](/wiki/06-Items/Forge.md#integrity-and-fractures)）。
 
 ## 经验值如何发放 {#how-xp-is-paid}
@@ -159,7 +160,7 @@
 | **战术**（反射） | 每次在敌对目标处于激光射程内时使用的技能 | 2 | 每小时 600 经验值 |
 | **护盾吸收**（坚韧） | 敌人的攻击每消耗 1% 的最大护盾 | 0.1 | 每小时 300 经验值 |
 | **治疗**（质量） | 你的治疗每恢复一艘飞船最大船体的 1% | 0.1 | 每小时 300 经验值 |
-| **隐形充能**（反射） | 每一秒处于隐形状态，前提是最近 1 分钟 内下达过指令，且不在安全区内 | 0.1 | 无 |
+| **潜行**（反射） | 每一秒处于隐形状态，前提是最近 1 分钟 内下达过指令，且不在安全区内 | 0.1 | 无 |
 | **辐射防护**（坚韧） | 每一秒身处辐射带中 | 0.2 | 无 |
 |  | 每被辐射夺走 1% 的最大船体 | 1 |  |
 | **推进理论**（质量） | 每一秒以超过飞船速度的 80% 飞行，在 Afterburner 下翻倍 | 0.1 | 无 |

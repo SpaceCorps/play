@@ -1,12 +1,14 @@
-<!-- wiki-i18n source: 522d6b0bd8a4106c -->
+<!-- wiki-i18n source: b40e4bea60303f48 -->
 <!-- wiki-i18n title: Designs de vaisseaux -->
 # Designs de vaisseaux {#ship-designs}
 
-<!-- wiki-search: design; designs; refit; convert; conversion; thunder; bucky; lich; notsum; bratan; recon; duma; titanic; raptor; billy; menati; ataraxis; matt; transformation; transformer; design de vaisseau -->
+<!-- wiki-search: design; designs; refit; convert; conversion; thunder; bucky; lich; notsum; bratan; recon; duma; titanic; raptor; billy; menati; ataraxis; matt; transformation; transformer; design de vaisseau; protosaur; protos -->
 
-Un **design** est l’un des quatre vaisseaux que vous fabriquez dans l’Assemblage, avec quelques chiffres changés exprès : moins de coque pour plus de vitesse, un emplacement de laser en moins pour des boucliers plus solides. Neuf des treize designs ont en plus l’une de sept [compétences](/wiki/03-Mechanics/Abilities.md#ship-abilities) que le vaisseau de base n’a pas. Le Storm RECON a, à côté de son Chameleon, deux boutons de plus : Target et Slow. Vous recherchez un design dans le Skylab, puis vous transformez dans l’Assemblage un vaisseau que vous possédez. **La transformation est définitive.**
+Un **design** est l’un des quatre vaisseaux que vous fabriquez dans l’Assemblage, avec quelques chiffres changés exprès : moins de coque pour plus de vitesse, un emplacement de laser en moins pour des boucliers plus solides. Dix des quatorze designs ont en plus l’une de sept [compétences](/wiki/03-Mechanics/Abilities.md#ship-abilities) que le vaisseau de base n’a pas. Le Storm RECON a, à côté de son Chameleon, deux boutons de plus : Target et Slow. Vous recherchez un design dans le Skylab, puis vous transformez dans l’Assemblage un vaisseau que vous possédez. **La transformation est définitive.**
 
-## Les treize designs {#the-thirteen-designs}
+Le **Protosaur** est le design du vaisseau de départ, le [Protos](/wiki/02-Ships/Protos.md), et le seul design qui porte un nom à lui. Il n’exige aucune technologie de vaisseau, seulement celle de la Dark Matter Plate, et coûte 50 000 Thulium et 8 Dark Matter Plates. Il donne au Protos +5 emplacements de blindage, tous ouverts d’emblée, +1 emplacement laser, +1 emplacement extra, +30 de vitesse de base, +50 % de dégâts des roquettes et les boutons Blink et Chameleon. Vous pouvez transformer votre Protos dès que vous pilotez un autre vaisseau.
+
+## Les quatorze designs {#the-thirteen-designs}
 
 Les trois dernières colonnes sont ce qu’a le vaisseau transformé : sa coque et sa vitesse de base propres, avant les blindages, les boosters, les formations et les moteurs, et ses emplacements de laser. Tout ce que le tableau ne dit pas reste comme le vaisseau l’avait, y compris les [emplacements de blindage](/wiki/06-Items/Hull-Plating.md#hull-plate-slots).
 
@@ -24,12 +26,13 @@ Les trois dernières colonnes sont ce qu’a le vaisseau transformé : sa coque
 | **Wraith BILLY** | +5 % de coque de base, +10 % de capacité du bouclier, Diminisher | 268 800 | 210 | 13 |
 | **Wraith MENATI** | +20 % de coque de base, +20 de vitesse de base, +5 % d’absorption du bouclier, Heal Pod | 307 200 | 230 | 13 |
 | **Wraith ATARAXIS** | -1 emplacement laser, +1 emplacement de soutien, +25 % de capacité du bouclier, +10 % d’absorption du bouclier, Shield Buff | 256 000 | 210 | 12 |
-| **Wraith MATT** | +2 emplacements laser, -20 % de capacité du bouclier, +10 % de pénétration des lasers | 256 000 | 210 | 15 |
+| **Wraith MATT** | +2 emplacements laser, -20 % de capacité du bouclier, +10 % de pénétration des lasers, +5 % de dégâts des lasers | 256 000 | 210 | 15 |
+| **Protosaur** | +30 de vitesse de base, +1 emplacement laser, +5 emplacements de blindage, +1 emplacement extra, +50 % de dégâts des roquettes, Blink, Chameleon | 8 000 | 220 | 3 |
 
 ## Obtenir un design {#getting-a-design}
 
 1. **Recherchez-le.** Chaque design est une technologie de l’arbre des vaisseaux de la vue de recherche de votre Skylab ([Recherche](/wiki/03-Mechanics/Research.md#ship-technologies)). Elle prend 10 heures et demande 10 Dark Matter, ainsi que la technologie de son vaisseau et celle de la Dark Matter Plate. La recherche ne fabrique encore rien.
-2. **Transformez le vaisseau.** La section Designs de l’Assemblage liste les treize transformations. Choisissez-en une et confirmez : le travail entre dans la file de production et dure 10 minutes. Il se termine tout seul, et vous n’avez pas à le récupérer.
+2. **Transformez le vaisseau.** La section Designs de l’Assemblage liste les quatorze transformations. Choisissez-en une et confirmez : le travail entre dans la file de production et dure 10 minutes. Il se termine tout seul, et vous n’avez pas à le récupérer.
 3. **Payez-la.** Une transformation coûte du Thulium, des matériaux et des Dark Matter Plates, comme le dit le tableau.
 
 | Design | Thulium | Dark Matter Plate | Ship Fragment | Reinforced Hull Plate | Power Core | Ancient Control Unit |
@@ -47,6 +50,7 @@ Les trois dernières colonnes sont ce qu’a le vaisseau transformé : sa coque
 | **Wraith MENATI** | 100 000 | 35 | 375 | 65 | 20 | 3 |
 | **Wraith ATARAXIS** | 100 000 | 35 | 375 | 65 | 20 | 3 |
 | **Wraith MATT** | 100 000 | 25 | 375 | 65 | 20 | 3 |
+| **Protosaur** | 50 000 | 8 | 30 | 5 | 2 | – |
 
 Le vaisseau transformé est celui que vous possédez de ce type (un Paragon pour THUNDER, BUCKY ou LICH), et ce ne peut pas être le vaisseau que vous pilotez : rendez d’abord un autre vaisseau actif. Un vaisseau détruit ne peut pas être transformé.
 
@@ -61,21 +65,22 @@ Le vaisseau transformé est celui que vous possédez de ce type (un Paragon pour
 | **Storm** | 8 | 8 h | 80 | 3 | 30 h | 30 |
 | **Ironclad** | 15 | 15 h | 150 | 2 | 20 h | 20 |
 | **Wraith** | 10 | 10 h | 100 | 5 | 50 h | 50 |
-| **Les quatre** | 38 | 38 h | 380 | 13 | 130 h | 130 |
+| **Protos** | 0 | 0 h | 0 | 1 | 10 h | 10 |
+| **Les cinq** | 38 | 38 h | 380 | 14 | 140 h | 140 |
 
-Ensemble, elles demandent 510 Dark Matter, en plus des 979 que demandent toutes les autres technologies, et les niveaux de module du Skylab en demandent 115 de plus : 1 604 pour toutes les technologies du jeu.
+Ensemble, elles demandent 520 Dark Matter, en plus des 979 que demandent toutes les autres technologies, et les niveaux de module du Skylab en demandent 115 de plus : 1 614 pour toutes les technologies du jeu.
 
 ## Ce qui arrive à votre vaisseau {#what-happens-to-your-ship}
 
 - **C’est le même vaisseau.** La transformation le change sur place : son équipement, ses blindages, vos drones et la formation que vous portez restent tels quels.
 - **Des lasers peuvent perdre leur emplacement.** Un design avec moins d’emplacements de laser (RECON, DUMA, ATARAXIS) renvoie dans votre inventaire les lasers des emplacements qui disparaissent, avec leurs amplis et leurs tirages de la Forge. Un nouvel emplacement arrive vide.
 - **Coque et boucliers pleins** à la fin. Jusque-là, le vaisseau est verrouillé : on ne peut ni l’activer, ni l’équiper, ni le transformer de nouveau.
-- **Il n’y a pas de retour en arrière.** Pour un autre design, ou pour retrouver le vaisseau de base, vous fabriquez de nouveau le vaisseau dans l’Assemblage. Vous possédez un vaisseau de chaque type : un Paragon et un THUNDER peuvent être à vous en même temps, mais pas deux THUNDER.
+- **Il n’y a pas de retour en arrière.** Pour un autre design, ou pour retrouver le vaisseau de base, vous fabriquez de nouveau le vaisseau dans l’Assemblage. Le Protos fait exception : il ne peut être ni fabriqué ni racheté (la Boutique l’affiche mais ne le vend jamais, et seul un nouveau compte démarre avec un), donc si vous transformez votre Protos, vous avez un Protosaur et plus de Protos. Vous possédez un vaisseau de chaque type : un Paragon et un THUNDER peuvent être à vous en même temps, mais pas deux THUNDER.
 - **La réinitialisation** garde un design comme tout autre vaisseau que vous possédez. Une conversion encore en cours est annulée et remboursée, comme toute fabrication de votre file de production : le vaisseau reste tel qu’il était.
 
 ## Aspect et taille {#looks-and-size}
 
-Chaque design a son propre modèle, celui de son vaisseau avec quelques changements qui montrent ce qu’il fait. Ils sont d’un gris uni comme les vaisseaux tant qu’ils ne portent pas de [skin](/wiki/06-Items/Cosmetics.md) : un design porte les skins du vaisseau dont il est issu, et une transformation garde le look. Le BUCKY et le TITANIC sont 20 % plus grands, et un vaisseau plus grand est plus facile à toucher avec une roquette. Le hangar marque un design d’un badge DESIGN, et les autres pilotes voient son nom dans la fenêtre cible et dans le fil des éliminations.
+Chaque design a son propre modèle, celui de son vaisseau avec quelques changements qui montrent ce qu’il fait. Les treize designs des quatre vaisseaux que vous fabriquez sont d’un gris uni comme ces vaisseaux tant qu’ils ne portent pas de [skin](/wiki/06-Items/Cosmetics.md) : un design porte les skins du vaisseau dont il est issu, et une transformation garde le look. Le Protosaur est orange et blanc comme le Protos et n’a pas encore de skin. Le BUCKY et le TITANIC sont 20 % plus grands, et un vaisseau plus grand est plus facile à toucher avec une roquette. Le hangar marque un design d’un badge DESIGN, et les autres pilotes voient son nom dans la fenêtre cible et dans le fil des éliminations.
 
 ## Boutique, Enchères et points {#shop-auction-and-points}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9c01b98d8c696970 -->
+<!-- wiki-i18n source: a0ac7234aa147795 -->
 <!-- wiki-i18n title: Wipe-tidslinje -->
 # Wipe-tidslinje och säsonger {#wipe-timeline-seasons}
 
@@ -81,7 +81,7 @@ Du får delar genom att använda gränssnittet Energimaterialiserare, som snurra
 * **Ett snurr utan del** betalar ändå ett pris ([Soloportar](/wiki/03-Mechanics/Solo-Gates.md#a-spin-without-a-part)).
 * **Snurren fortsätter när Chrono-Gate är klar.** Varje snurr debiteras, och delarna den hittar tillhör då soloportarna: valet Chrono-Gate är låst, och de två andra kategorierna behåller sin chans på 13 %.
 
-*Proffstips: Du kan använda multiplikatorer (1×, 5×, 10×, 100×) för att köra många snurr på en gång och påskynda portbygget.*
+*Proffstips: Du kan använda multiplikatorer (1×, 5×, 10×, 100×, 1000×) för att köra många snurr på en gång och påskynda portbygget.*
 
 ---
 

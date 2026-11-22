@@ -8,6 +8,7 @@ The Kitefin is a light gunship and the first ship most pilots buy: four lasers, 
 - **Base Speed**: 220
 - **Laser Slots**: 4
 - **Extra Slots**: 2
+- **Hull Plate Slots**: 3
 
 ### Generator & Support Slots
 

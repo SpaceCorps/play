@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d64f7bbe1a7fadf7 -->
+<!-- wiki-i18n source: cd97e3b7b68a76f0 -->
 <!-- wiki-i18n title: Protos -->
 # Protos
 
@@ -10,6 +10,7 @@ Protos는 SpaceCorps의 모든 신규 파일럿에게 주어지는 기본 시작
 - **기본 속도**: 190
 - **레이저 슬롯**: 2
 - **부가 슬롯**: 2
+- **장갑 슬롯**: 3
 
 ### 발전기 및 지원 슬롯 {#generator-support-slots}
 
@@ -25,6 +26,12 @@ Protos는 SpaceCorps의 모든 신규 파일럿에게 주어지는 기본 시작
 - **Thulium**: 0
 
 ## 연구 {#research}
+
+- **디자인.** 이 함선에는 [디자인](/wiki/03-Mechanics/Ship-Designs.md)이 1개 있습니다. 연구한 뒤(10시간과 Dark Matter 10개), 어셈블리에서 내 함선을 그 디자인으로 개조하세요. 개조는 되돌릴 수 없으며, Protos는 다시 얻을 수 없는 유일한 함선입니다. 제작할 수 없고, 상점에는 표시되지만 판매하지 않으며, Protos를 가지고 시작하는 것은 새 계정뿐입니다. Protos를 개조하면 Protosaur만 남고 Protos는 사라집니다.
+
+| 디자인 | 바뀌는 점 |
+| :--- | :--- |
+| **Protosaur** | 기본 속도 +30, 레이저 슬롯 +1, 장갑 슬롯 +5, 부가 슬롯 +1, 로켓 피해 +50%, Blink, Chameleon |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

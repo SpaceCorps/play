@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bf737868ee14ecc2 -->
+<!-- wiki-i18n source: 115842cfacf12619 -->
 <!-- wiki-i18n title: Áttekintés -->
 # Tárgyak áttekintése {#items-overview}
 
@@ -118,7 +118,7 @@ Minden nyersanyag és mindkét fizetőeszköz, azzal együtt, hogy honnan szárm
 
 A Bolt, a hangár leltára és a többi tárgylista egyetlen sorrendben mutatja a dolgokat: először a hajó, a hajótest-páncélzata, aztán egy lézer az erősítőivel és a lőszerével, egy pajzs a celláival, egy hajtómű a fúvókáival, az adaptív magok, az extrák, a fogyóeszközök, a drónok, a drónformációk, a boosterek és a nyersanyagok. Egy fajtán belül a legolcsóbb áll elöl.
 
-- **Hajótest-páncélzat**: páncél a négy hajó páncélzatfoglalataihoz, amelyet gyártasz, Hull Plating I–III, mindegyik több hajótestet ad. Lásd a [hajótest-páncélzatot](/wiki/06-Items/Hull-Plating.md).
+- **Hajótest-páncélzat**: páncél minden hajó páncélzatfoglalataihoz (a Bolt négy hajójának mindegyikén 3 nyitott foglalat, a gyártott hajókon több), Hull Plating I–III, mindegyik több hajótestet ad. Lásd a [hajótest-páncélzatot](/wiki/06-Items/Hull-Plating.md).
 - **Lézerek**: az elsődleges fegyverrendszereid, és a beléjük való [erősítők](/wiki/06-Items/Lasers.md).
 - **Pajzsok**: védelmi generátorok és [cellák](/wiki/06-Items/Shields.md).
 - **Hajtás**: hajtóművek és [fúvókák](/wiki/06-Items/Propulsion.md) a sebességhez.

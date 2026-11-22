@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 18ef5043e15eb94e -->
+<!-- wiki-i18n source: eccec7a8b357e276 -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -27,7 +27,7 @@ Ironclad は重装甲のタンク艦です。全艦中もっとも厚い船体�
 
 ## 研究 {#research}
 
-- **装甲スロット。** この艦には、[船体装甲](/wiki/06-Items/Hull-Plating.md)用の[装甲スロット](/wiki/06-Items/Hull-Plating.md#hull-plate-slots)が15つあり、建造した時点ではすべてロックされています。スロットは1つにつき、Skylab の専用の技術です。1時間と Dark Matter 10個で、最初のものから順に研究します。研究すると、この艦とそのすべてのデザインでそのスロットが開きます。15つすべてに Hull Plating III を装着すると、船体が 375,000 増えます。
+- **装甲スロット。** この艦には、[船体装甲](/wiki/06-Items/Hull-Plating.md)用の[装甲スロット](/wiki/06-Items/Hull-Plating.md#hull-plate-slots)が15つあり、建造した時点ではすべてロックされています。スロットは1つにつき、Skylab の専用の技術です。1時間と Dark Matter 10個で、最初のものから順に研究します。研究すると、この艦とそのすべてのデザインでそのスロットが開きます。15つすべてに Hull Plating III を装着すると、船体が 300,000 増えます。
 - **デザイン。** この艦には[デザイン](/wiki/03-Mechanics/Ship-Designs.md)が2つあります。1つ研究して（10時間と Dark Matter 10個）、アセンブリで Ironclad をそのデザインに改造します。この変更は元に戻せません。
 
 | デザイン | 変更点 |

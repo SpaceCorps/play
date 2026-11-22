@@ -73,7 +73,7 @@ Um **Mole** acoplado (um tipo de [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole)) 
 - O pagamento é igual para todos: nenhum bônus Premium, reforço da loja de temporada, reforço de clã, Loot Luck nem booster muda os créditos, o Thulium ou os achados. O [Resource Magnet Booster](/wiki/06-Items/Boosters.md) aumenta os recursos de um fragmento de minério quando você o coleta, como em qualquer caixa.
 - A blindagem tira seus pontos de cada acerto, mas pelo menos 20% de um acerto sempre passa.
 - Uma explosão de área faz 1,6 vezes mais a um asteroide frágil do que a qualquer outro.
-- Um asteroide nunca fica a menos de 1.500 unidades da borda de um anel seguro, de 5.000 unidades do centro do buraco negro nem de 600 unidades da borda do mapa, e nunca aparece a menos de 1.200 unidades de um piloto.
+- Um asteroide nunca fica a menos de 1.550 unidades da borda de um anel seguro, de 5.000 unidades do centro do buraco negro nem de 600 unidades da borda do mapa, e nunca aparece a menos de 1.200 unidades de um piloto.
 - Depois de uma quebra, um asteroide do mesmo tipo cresce de novo em outro lugar do mapa após o tempo da linha do setor, com variação de 25% para mais ou para menos.
 - Motherlode volta após 1 h, em qualquer setor.
 

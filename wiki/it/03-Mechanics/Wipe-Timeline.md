@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9c01b98d8c696970 -->
+<!-- wiki-i18n source: a0ac7234aa147795 -->
 <!-- wiki-i18n title: Cronologia del reset -->
 # Cronologia del reset e stagioni {#wipe-timeline-seasons}
 
@@ -81,7 +81,7 @@ I pezzi si ottengono usando l’interfaccia del Materializzatore di energia, che
 * **Un giro senza pezzo** paga comunque un premio ([Porte solo](/wiki/03-Mechanics/Solo-Gates.md#a-spin-without-a-part)).
 * **I giri continuano quando il Chrono-Gate è completo.** Ogni giro viene addebitato, e i pezzi che trova sono allora delle porte solo: la voce del Chrono-Gate è chiusa e le altre due categorie mantengono la loro probabilità del 13%.
 
-*Consiglio da esperti: puoi usare i moltiplicatori (1x, 5x, 10x, 100x) per eseguire giri multipli e accelerare la costruzione della porta.*
+*Consiglio da esperti: puoi usare i moltiplicatori (1x, 5x, 10x, 100x, 1000x) per eseguire giri multipli e accelerare la costruzione della porta.*
 
 ---
 

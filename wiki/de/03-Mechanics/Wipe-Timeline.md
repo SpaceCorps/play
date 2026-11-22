@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9c01b98d8c696970 -->
+<!-- wiki-i18n source: a0ac7234aa147795 -->
 <!-- wiki-i18n title: Wipe-Zeitleiste -->
 # Wipe-Zeitleiste & Saisons {#wipe-timeline-seasons}
 
@@ -81,7 +81,7 @@ Teile bekommst du über die Oberfläche des Energie-Materialisators, der lokale 
 * **Ein Scan ohne Teil** zahlt trotzdem einen Preis ([Solo-Tore](/wiki/03-Mechanics/Solo-Gates.md#a-spin-without-a-part)).
 * **Die Scans gehen weiter, wenn das Chrono-Gate komplett ist.** Jeder Scan wird berechnet, und die Teile, die er findet, gehören dann zu den Solo-Toren: Der Eintrag des Chrono-Gates ist gesperrt, und die beiden anderen Kategorien behalten ihre Chance von 13 %.
 
-*Profi-Tipp: Mit Multiplikatoren (1x, 5x, 10x, 100x) kannst du mehrere Scans auf einmal durchführen und den Torbau beschleunigen.*
+*Profi-Tipp: Mit Multiplikatoren (1x, 5x, 10x, 100x, 1000x) kannst du mehrere Scans auf einmal durchführen und den Torbau beschleunigen.*
 
 ---
 

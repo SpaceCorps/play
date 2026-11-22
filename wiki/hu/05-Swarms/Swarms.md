@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8a72341fc0a0a8d1 -->
+<!-- wiki-i18n source: 27e04944329244c2 -->
 <!-- wiki-i18n title: Rajok -->
 # Rajok {#swarms}
 
@@ -64,6 +64,8 @@ A világ úgy skálázza a rajt, ahogy minden idegent ([Világok](/wiki/03-Mecha
 
 <!-- swarms-world:end -->
 
+A rajnak is van **fokozata**, mint minden idegennek, és a fokozatának görög betűje a neve előtt áll: a `-=γ-Boss Seeker=-` egy Gamma fokozatú Boss Seeker. A raj vezére a fokozatát **megjelenésekor** sorsolja ki a világa táblázatából, és a raj fokozata a világáé: Alpha raj az Alphában, Beta raj a Betában és Gamma raj a Gammában, vagyis a fenti táblázat rajáé, ahogy mindig is volt. A magasabb világokban időnként alacsonyabb fokozatú raj is akad, nagyjából húszból egy: a Pirate és a Seeker raj a Betában, valamint a Pirate, a Seeker, a Phantasm, a Goombah és a Tesseract raj a Gammában; a Crystalys raj, valamint a Phantasm, a Goombah és a Tesseract raj a Betában mindig a világa fokozatú. Egy raj soha nem magasabb fokozatú a világánál, és egyik sem Delta, a negyedik fokozat, a Gamma kétszerese, amelyet csak a közönséges idegenek kapnak. A vezérrel érkező hajók osztoznak a fokozatán, a szektor következő vezére pedig újra sorsol. Egy raj olyan erős, és annyit fizet, mint a fenti táblázatnak az a sora, amelyik a fokozat nevét viseli: egy gyengébb raj olyan kemény, mint az alacsonyabb világbeli, a kilövése pedig annyit fizet, amennyit ott egy kilövés. A sebesség, a hatótáv és a zsákmány nem változik a fokozattal. A Dormant raj fokozat nélküli: megtartja a világa értékeit.
+
 ## Mit tudnak meg a pilóták {#what-the-pilots-are-told}
 
 A Seeker-, a Pirate-, a Phantasm-, a Goombah-, a Crystalys- és a Tesseract-raj értesíti a saját szektorának pilótáit, amikor egy boss megjelenik, és amikor megsemmisül. A Dormant-raj az egész világát értesíti, és a veszélyes szektorok térképén és a galaxistérképen jelölve van, hogy a pilóták megtalálhassák. Ezek rendszersorok: a chat **Rendszer** lapján jelennek meg, olvasatlan sorok számlálójával, és nem a **Globális** vagy a **Helyi** lapon. A boss kilövése a kill feedben is kap egy sort, amely megnevezi a pilótát, akinek jóváírják. Az egyes cikkek *Röviden* listája megmondja, kit értesítenek.
@@ -86,7 +88,7 @@ A Seeker-, a Pirate-, a Phantasm-, a Goombah-, a Crystalys- és a Tesseract-raj 
 
 A közönséges idegen annak a pilótának fizet, aki először eltalálta ([Harc](/wiki/03-Mechanics/Combat.md#kill-rewards-first-hit-claims)). A raj vezére és minden Dormant Pulse ehelyett **a leadott sebzés szerint** fizet:
 
-- **A fizetést a sebzés szerint osztják el.** Minden pilóta, aki legalább a fenti szabályokban megadott részt okozta, fizetést kap, a leadott sebzéssel arányosan: a kilövés kreditjét, Thuliumát, XP-jét és becsületét elosztják köztük. Aki a rész alatt marad, semmit sem kap.
+- **A fizetést a sebzés szerint osztják el.** Minden pilóta, aki legalább a fenti szabályokban megadott részt okozta, fizetést kap, a leadott sebzéssel arányosan: a kilövés kreditjét, Thuliumát, XP-jét és becsületét a raj fokozatának fizetésével elosztják köztük. Aki a rész alatt marad, semmit sem kap.
 - **A rakományláda annak a pilótának jár, aki a legtöbb sebzést okozta.** Az övé (és a klánjáé) 30 másodpercig, mint minden idegennél, utána bárki elviheti ([Rakomány](/wiki/03-Mechanics/Cargo.md)). Minden Dormant-hajónak saját sebzésszámlálója és saját ládája van. A Tesseract a kivétel: nem ejt ládát, és minden pilóta, akit a megölése kifizet, saját privát ládát kap ([Tesseract-raj](/wiki/05-Swarms/Tesseract-Swarm.md#rewards-and-drops)). Ha a csoportjában legalább két pilóta sebezte meg a vezért, a ládát az okozott sebzés arányában [személyes ládákra](/wiki/03-Mechanics/Cargo.md#personal-crates) osztják, mindegyikük számára egyet.
 - **A kísérők a megszokott módon fizetnek**: a Pirate Scoutok, a Seeker Slave-ek, a Phantasm-, a Goombah- és a Crystalys-raj Guardjai, valamint a Tesseract-raj Facetjei annak a pilótának fizetnek, aki először eltalálta őket, és a fizetésük kicsi egy boss fizetéséhez képest.
 - **Egy boss fizetése úgy van megszabva, hogy felülmúlja a körülötte lévő idegeneket.** Egy perc harc egy Pirate Bossszal, egy Boss Phantasmmal vagy egy Boss Goombával többet fizet, mint egy perc harc egy Goombah ellen, egy perc harc a Dormant-rajjal vagy egy Boss Crystalysszal pedig többet, mint egy perc harc egy Crystalys ellen; a Boss Seeker pontosan tíz Seekert fizet.

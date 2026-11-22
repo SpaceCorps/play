@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9530756071d3a3eb -->
+<!-- wiki-i18n source: ab422d8b5066fe56 -->
 <!-- wiki-i18n title: Gruplar -->
 # Gruplar {#groups}
 
@@ -72,6 +72,8 @@ Bir komut sekmeyi de değiştirir; tek başına yazılırsa (`/g`) yalnızca sek
 ### Özel mesajlar {#private-messages}
 
 Yalnızca tek bir pilota yazmak için `/m`, pilotun adını ve mesajını yaz: `/m nova o7` (`/msg` ve `/w` aynı işi yapar). Pilotun senin sunucunda çevrimiçi olması gerekir; hangi dünyada olursa olsun, istasyonda ya da uçuşta. Ad, pilotun sohbette göründüğü addır ve büyük küçük harf fark etmez (`/m NOVA`, `/m @nova` ve `/m nova:` aynı pilotu bulur): adın tamamı yazılmalıdır, yalnızca başlangıcı olmaz; böylece bir mesaj yanlış pilota gidemez. `/r` ve yanıtın (`/r o7`) sana en son yazan pilota gider; kimse sana yazmamışsa en son yazdığın pilota.
+
+Küçük bir menü için bir pilotun adına sağ tıkla (bir sohbet satırında, **Çevrimiçi pilotlar** penceresinde, klanın **Pilot kadrosu**nda veya **Grup penceresi**ndeki bir üyenin satırında; telefonda adın üzerine basılı tut): **Mesaj gönder** o pilota özel bir mesaj başlatır (giriş alanına `/m name` gelir ve klavye ona geçer), **Pilot kartını gör** pilotun profilini açar, **Adı kopyala** ise adı panoya koyar. **Mesaj gönder**, kendi adında, başka bir sunucudaki pilotta ve 0.4.22'den eski bir oyun sunucusunda görünmez.
 
 Özel bir mesaj, baktığın sekmede satırlarının arasında mor renkte görünür: gönderdiğin için **nova adlı pilota:**, aldığın için **nova adlı pilottan:**; böylece konuşmanın iki tarafı da uçuştaki sohbet penceresinde ve istasyondaki çubukta elindedir. Her sekme onu gösterir; **Sistem** sekmesi ve gizli bir **Genel** sekmesi de dahil. Aldığın bir mesaj, bir sekme açana kadar okunmamış sayılır (araç çubuğundaki düğmede ve istasyondaki çubukta) ve en fazla 2 saniyede bir yumuşak bir çınlama çalar; göndermenin de kendi hafif sesi vardır. Aldığın bir mesaja sağ tıklayarak **Yanıtla**, **Gruba davet et**, **Yoksay** ya da **Bildir…** seçeneklerini kullanabilirsin.
 

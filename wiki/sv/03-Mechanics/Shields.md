@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5f4f8c45180bc787 -->
+<!-- wiki-i18n source: c205efd6ca83bd6f -->
 <!-- wiki-i18n title: Sköldar -->
 # Sköldmekanik {#shield-mechanics}
 
@@ -46,16 +46,16 @@ Vissa attacker har en **sköldgenomträngning**: punkter som dras av från din a
 - Utomjordingar har inget absorptionsvärde: de delar varje träff 80 % / 20 %, minus träffens genomträngning.
 - Skadan från en Siphon Battery tas enbart ur målets sköld: absorption och genomträngning spelar ingen roll.
 
-**Där sköldarna inte tar något.** En genomträngning som är lika med eller större än absorptionen lämnar sköldarna ingenting av träffen: skrovet tar allt. Tabellen visar vad sköldarna tar av en träff från den bästa lasern (85 %; en Antimatter Battery i stället för Experimental Fusion Core ger 95 % vid x3 skada) och den bästa enkelmålsraketen (en Lancet III eller en Rivet III med en Stiletto, 70 %):
+**Där sköldarna inte tar något.** En genomträngning som är lika med eller större än absorptionen lämnar sköldarna ingenting av träffen: skrovet tar allt. Tabellen visar vad sköldarna tar av en träff från den bästa lasern (100 %; en Antimatter Battery i stället för Experimental Fusion Core ger 110 % vid x3 skada) och den bästa enkelmålsraketen (en Lancet III eller en Rivet III med en Stiletto, 70 %):
 
-| Sköld | Absorption | Sköldarna tar, bästa laser (85 %) | Sköldarna tar, bästa enkelmålsraket (70 %) |
+| Sköld | Absorption | Sköldarna tar, bästa laser (100 %) | Sköldarna tar, bästa enkelmålsraket (70 %) |
 | :--- | ---: | ---: | ---: |
 | Light Shield Core | 45 % | 0 % | 0 % |
 | Basic Shield Core | 50 % | 0 % | 0 % |
 | Heavy Shield Core | 55 % | 0 % | 0 % |
-| Den bästa skölden utan buffar | 91 % | 6 % | 21 % |
-| En sköld på 100 % | 100 % | 15 % | 30 % |
-| En sköld på 120 % | 120 % | 35 % | 50 % |
+| Den bästa skölden utan buffar | 91 % | 0 % | 21 % |
+| En sköld på 100 % | 100 % | 0 % | 30 % |
+| En sköld på 120 % | 120 % | 20 % | 50 % |
 
 #### Att nå och passera 100 % {#reaching-and-passing-100-}
 

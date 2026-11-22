@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 471213bf365fc9b9 -->
+<!-- wiki-i18n source: f36888650a9078b3 -->
 <!-- wiki-i18n title: Miyuki -->
 # Miyuki
 
@@ -7,7 +7,7 @@ La Miyuki es una nave de apoyo de cinco niveles. Fabricas el nivel I en Ensambla
 ## Estadísticas {#stats}
 
 - **Puntos de vida (HP)**: 128.000
-- **Velocidad base**: 270
+- **Velocidad base**: 250
 - **Ranuras de láser**: 5
 - **Ranuras de extra**: 3
 - **Ranuras de blindaje**: 5
@@ -31,11 +31,11 @@ Las estadísticas de arriba son las del nivel I. Un nivel superior al primero se
 
 | Nivel | Casco | Velocidad base | Láseres | Blindajes | Principales / apoyo / auxiliares | Capacidad de escudo | Absorción de escudo |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Miyuki** | 128.000 | 270 | 5 | 5 | 3 / 3 / 2 | – | – |
-| **Miyuki II** | 134.400 | 270 | 6 | 6 | 3 / 3 / 2 | +5 % | +2 % |
-| **Miyuki III** | 141.120 | 270 | 7 | 7 | 3 / 3 / 2 | +10,25 % | +4,04 % |
-| **Miyuki IV** | 148.176 | 320 | 8 | 8 | 3 / 3 / 2 | +15,76 % | +6,12 % |
-| **Miyuki V** | 155.585 | 320 | 9 | 9 | 4 / 4 / 4 | +21,55 % | +8,24 % |
+| **Miyuki** | 128.000 | 250 | 5 | 5 | 3 / 3 / 2 | – | – |
+| **Miyuki II** | 134.400 | 250 | 6 | 6 | 3 / 3 / 2 | +5 % | +2 % |
+| **Miyuki III** | 141.120 | 250 | 7 | 7 | 3 / 3 / 2 | +10,25 % | +4,04 % |
+| **Miyuki IV** | 148.176 | 300 | 8 | 8 | 3 / 3 / 2 | +15,76 % | +6,12 % |
+| **Miyuki V** | 155.585 | 300 | 9 | 9 | 4 / 4 / 4 | +21,55 % | +8,24 % |
 
 La capacidad de escudo y la absorción de escudo son bonificaciones sobre el nivel I.
 
@@ -63,11 +63,13 @@ Las habilidades de la Miyuki pertenecen a la nave, no a un objeto: no ocupan nin
 
 Un enlace dura 5 segundos y llega a una nave de tu grupo o de tu corporación a menos de 1.200 unidades. El Heal Pod llega a 600. Un Channel Shield repone además de sus puntos, cada segundo, una parte del escudo máximo propio de cada nave: el 3 % en la Miyuki III, el 4 % en la IV y el 5 % en la V (el porcentaje de la tabla).
 
+Tu destreza de piloto [Curación](/wiki/03-Mechanics/Pilot-Skills.md) actúa sobre las tres: en el nivel 100 hace que el Heal Pod, el Channel Heal y el Channel Shield (sus puntos y su parte del escudo máximo) sean un 30 % más fuertes y acorta sus esperas un 10 %, así que un Channel Heal que descansa 100 segundos descansa 90. Las tablas de arriba dan las cifras sin ella.
+
 ## Investigación {#research}
 
 - **Niveles.** Miyuki II a V son tecnologías propias del Skylab, cada una detrás del nivel anterior: 1 d para II y III, 2 d para IV y V, y 10 Dark Matter cada una. En la vista Investigación, los cinco niveles aparecen uno bajo otro, con una flecha de cada nivel al siguiente: investigas el II después del I, el III después del II, el IV después del III y el V después del IV.
 - **Ranuras.** Las ranuras de blindaje, las de láser a partir de la sexta y las de generador a partir de la novena son tecnologías propias del Skylab, de 1 h y 10 Dark Matter cada una: ranuras de blindaje 1 a 9 en orden desde la primera, ranuras de láser 6 a 9 (cada una detrás de su nivel) y ranuras de generador 9 a 12 (cada una detrás del nivel V). Una ranura se abre en la nave, sea cual sea su nivel, en cuanto la investigas; la que aún no has investigado aparece bloqueada en el Hangar.
-- **Ranuras de blindaje.** La Miyuki tiene 5 [ranuras de blindaje](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) para [blindaje de casco](/wiki/06-Items/Hull-Plating.md) en el nivel I y 9 en el nivel V, todas bloqueadas cuando la fabricas. Con las 9 llenas de Hull Plating III se suman 225.000 de casco.
+- **Ranuras de blindaje.** La Miyuki tiene 5 [ranuras de blindaje](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) para [blindaje de casco](/wiki/06-Items/Hull-Plating.md) en el nivel I y 9 en el nivel V, todas bloqueadas cuando la fabricas. Con las 9 llenas de Hull Plating III se suman 180.000 de casco.
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

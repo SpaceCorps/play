@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c91f93d3941bb3bf -->
+<!-- wiki-i18n source: dde8093210ad8db3 -->
 <!-- wiki-i18n title: Kara delik -->
 # Kara delik {#the-black-hole}
 
@@ -15,7 +15,7 @@ Mesafeler sektörün merkezinden, harita birimi cinsinden ölçülür. Sektör 3
 
 | Halka | Mesafe | Ne olur |
 | :--- | ---: | :--- |
-| **Radyasyon** | 4.000 | Geminin her saniye hasar alır; hasar, toplam azami gövde puanının bir payıdır. Ne kadar yakınsan o kadar çok. |
+| **Radyasyon** | 4.000 | Gövden her saniye hasar alır; hasar, azami gövdenin bir payıdır. Ne kadar yakınsan o kadar çok. |
 | **Çekim** | 3.000 | Kara delik geminin merkeze doğru çeker, ne kadar yakınsan o kadar sert. Uçmayan bir gemi sürüklenir. |
 | **Dönüşü olmayan nokta** | yaklaşık 800 ile 2.600 arası | Çekimin geminin hızına eşit olduğu yer. Bunun içinde, tam güçte bile, içeri çekilirsin. Hızına bağlıdır. |
 | **Olay ufku** | 300 | Ona ulaşan her gemi, gövdesi ve kalkanı ne olursa olsun, anında yok edilir. |
@@ -33,7 +33,7 @@ Kara delik sezon boyunca aynı boyutta değildir. [Evren sıfırlamasından](/wi
 | **Radyasyon** | 4.000 | 5.600 | 7.200 |
 | **Yönlendirme halkası** | 4.200 | 5.880 | 7.560 |
 
-Değişmeyen şey, içeri giden yolun aynı payındaki sertliktir: delik 1,8 katındayken merkezden 3.600 birim uzaktaki bir gemi, normal bir günde merkezden 2.000 birim uzaktaki bir geminin hissettiğini hisseder (saniyede 96 birim çekim ve saniyede HP’sinin %2’si). Büyümüş delik daha güçlü değil, daha geniştir; bir geminin onu geçmesi 1,8 kat uzun sürer. Her geminin dönüşü olmayan noktası 1,8 kat daha uzaktadır. Bu sayfadaki tüm mesafeler normal boyuta aittir: büyümüş deliği okumak için onları deliğin boyutuyla çarp.
+Değişmeyen şey, içeri giden yolun aynı payındaki sertliktir: delik 1,8 katındayken merkezden 3.600 birim uzaktaki bir gemi, normal bir günde merkezden 2.000 birim uzaktaki bir geminin hissettiğini hisseder (saniyede 96 birim çekim ve saniyede gövdesinin %2’si). Büyümüş delik daha güçlü değil, daha geniştir; bir geminin onu geçmesi 1,8 kat uzun sürer. Her geminin dönüşü olmayan noktası 1,8 kat daha uzaktadır. Bu sayfadaki tüm mesafeler normal boyuta aittir: büyümüş deliği okumak için onları deliğin boyutuyla çarp.
 
 - **Nasıl görürsün.** Son 72 saat boyunca Dashboard’un en üstünde bir kart, uçuş görünümünde de kara deliğin üstünde bir etiket sıfırlamaya kadar geri sayar (“Evren sıfırlamasına 1g 05:12:33 kaldı”) ve deliğin şu anda boyutunun kaç katı olduğunu söyler; son beş dakikada sıfırlamanın kendi geri sayımı devralır. Mini haritanın ipucu, deliğin şu anki boyutundaki halkaları adlandırır.
 - **Ne zaman.** Boyut yalnızca sezonun saatine bağlıdır, bu yüzden her dünyada aynıdır. Bir yönetici sezonu bir günde tuttuğu sürece hiçbir şey planlanmaz ve delik normal boyutunda kalır; sezon günü kaydırılırsa delik hemen onu izler; sonraki sezon normal bir delikle başlar.
@@ -42,7 +42,7 @@ Değişmeyen şey, içeri giden yolun aynı payındaki sertliktir: delik 1,8 kat
 
 ## Radyasyon {#radiation}
 
-Hasar, her saniye **geminin toplam azami gövde puanının yüzdesidir** (gövde artı kalkan); bu yüzden belli bir mesafede her gemi sınıfı tam olarak aynı süre dayanır: 2.000 birimde bir Protos ile bir Wraith dolu bir gemiyi 50 saniyede eritir.
+Hasar, her saniye **geminin azami gövdesinin yüzdesidir** ve **doğrudan gövdeden** düşer: kalkanın onu emmez. Bu yüzden belli bir mesafede her gemi sınıfı tam olarak aynı süre dayanır: 2.000 birimde bir Protos ile bir Wraith dolu bir gövdeyi 50 saniyede eritir.
 
 | Mesafe | Saniyede hasar | Dolu bir gemi dayanır |
 | ---: | ---: | ---: |
@@ -56,22 +56,23 @@ Hasar, her saniye **geminin toplam azami gövde puanının yüzdesidir** (gövde
 
 İki satır arasında hasar doğrusal olarak artar. Standart donanımlar için saniyede gövde puanı olarak:
 
-| Gemi | Toplam azami puan | 3.500’de | 3.000’de | 2.000’de | 1.200’de | 700’de |
+| Gemi | Azami gövde | 3.500’de | 3.000’de | 2.000’de | 1.200’de | 700’de |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| Protos | 30.000 | 165 | 240 | 600 | 1.500 | 3.300 |
-| Kitefin | 46.000 | 253 | 368 | 920 | 2.300 | 5.060 |
-| Ostirion | 98.500 | 542 | 788 | 1.970 | 4.925 | 10.835 |
-| Nomad | 145.500 | 800 | 1.164 | 2.910 | 7.275 | 16.005 |
-| Paragon | 162.500 | 894 | 1.300 | 3.250 | 8.125 | 17.875 |
-| Storm | 228.000 | 1.254 | 1.824 | 4.560 | 11.400 | 25.080 |
-| Wraith | 304.000 | 1.672 | 2.432 | 6.080 | 15.200 | 33.440 |
-| Ironclad | 573.200 | 3.153 | 4.586 | 11.464 | 28.660 | 63.052 |
+| Protos | 8.000 | 44 | 64 | 160 | 400 | 880 |
+| Kitefin | 24.000 | 132 | 192 | 480 | 1.200 | 2.640 |
+| Ostirion | 64.000 | 352 | 512 | 1.280 | 3.200 | 7.040 |
+| Nomad | 111.000 | 611 | 888 | 2.220 | 5.550 | 12.210 |
+| Paragon | 128.000 | 704 | 1.024 | 2.560 | 6.400 | 14.080 |
+| Storm | 180.000 | 990 | 1.440 | 3.600 | 9.000 | 19.800 |
+| Wraith | 256.000 | 1.408 | 2.048 | 5.120 | 12.800 | 28.160 |
+| Ironclad | 500.000 | 2.750 | 4.000 | 10.000 | 25.000 | 55.000 |
 
-- **Önce kalkan alır**, sonra gövde. Bu bir vuruş değildir: kalkanın soğurması işe karışmaz ve ondan kaçınılamaz.
+- **Doğrudan gövdeye** gider: kalkan bundan hiçbir şey almaz, yani kalkansız bir gemi, Heavy Shield Core’lu bir geminin kaybettiğinin aynısını kaybeder. Bu bir vuruş değildir: kalkanın soğurması işe karışmaz ve ondan kaçınılamaz.
 - Radyasyon **alınan hasar** sayılır: kalkanın dolmaz, bir Repair Drone durur (“Onarım kesintiye uğradı: radyasyon.”) ve başlatılamaz; güvenli bölge de son dozdan 5 saniye geçene kadar seni korumaz.
-- Boosterlar ve yükseltmeler toplamının ne kadar büyük olduğunu değiştirir, ne kadar dayandığını değil: hasar onun bir payıdır.
-- Hiçbir şey bir gemiyi bağışık yapmaz. Radyasyon bir vuruş değildir, bu yüzden onu hiçbir şey emmez; ama yetenekler içinde de çalışır: Shield Surge kalkanını geri yüklemeye, Emergency Repair da gövdeni iyileştirmeye on saniyelik süreleri boyunca devam eder (dozun durdurduğu doğal onarımlardan değildirler). Gizlenme gemiyi ondan saklamaz.
-- Bir pilot yeteneği olan **Radyasyon tekniği** dozu düşürür: saniyede kaybettiğin toplam payı, 1. seviyedeki tamamından 100. seviyedeki 0,40 katına kadar düz bir çizgide düşer ve gösterge gerçekten aldığın dozu gösterir.
+- Boosterlar ve yükseltmeler gövdenin ne kadar büyük olduğunu değiştirir, ne kadar dayandığını değil: hasar onun bir payıdır.
+- Hiçbir şey bir gemiyi bağışık yapmaz. Radyasyon bir vuruş değildir, bu yüzden onu hiçbir şey emmez, en az da kalkan; ama yetenekler içinde de çalışır: Emergency Repair gövdeni iyileştirmeye on saniyelik süresi boyunca devam eder (dozun durdurduğu doğal onarımlardan biri değildir), Shield Surge ise radyasyonun asla dokunmadığı bir kalkanı geri yüklemeye devam eder. Gizlenme gemiyi ondan saklamaz.
+- Bir pilot yeteneği olan **Radyasyon tekniği** dozu düşürür: saniyede kaybettiğin gövde payı, 1. seviyedeki tamamından 100. seviyedeki 0,40 katına kadar düz bir çizgide düşer ve gösterge gerçekten aldığın dozu gösterir.
+- **N.U.K.E.** ve **Gravitational N.U.K.E.** patladıkları yerde kendi radyasyon bölgelerini bırakır ve bunlar da gövdeyi aynı şekilde yakar: [Roketler](/wiki/06-Items/Rockets.md#the-craft-only-rockets) sayfasında.
 
 ## Çekim {#the-pull}
 
@@ -131,7 +132,7 @@ Görüş alanı küçüktür (varsayılan yakınlaştırmada ekranda yaklaşık 
 
 - **Uzaktan.** Kamerayı düzleme yandan bakacak şekilde aşağı çevirirsen kara delik, sektörün herhangi bir yerinden, kadraja girdiği sürece ekranda bulunduğu yerde çizilir: toplanma diskinin ışığının parıltısı içinde halkalı siyah bir disk; kolay görülecek şekilde ölçeklenir (yaklaşık 18.000 birim uzaktaki uzak köşeden bakıldığında görüş yüksekliğinin yaklaşık %2’si) ve yaklaştıkça kendi görüntüsüne dönüşür. İçindeki hiçbir şey kendi kendine hareket etmez. Kara delik görüş alanının dışındayken ekranda onu gösteren bir işaret yoktur.
 - **Uçuş düzlemindeki halkalar.** Radyasyonun kenarında (4.000 birim) mor bir bant parlayarak net bir kenara ulaşır; daha ince, kehribar renginde bir bant çekimin kenarını (3.000) gösterir. Çekimin içinde bir **kırmızı çizgi** *senin kendi* dönüşü olmayan noktanı gösterir. Hızını izler; gemin hızlandıkça ya da yavaşladıkça yer değiştirir.
-- **Gösterge**, kısayol çubuğunun üstünde, kenarın bin birim yakınında belirir ve yanarken kalır. Radyasyonun saniyede geminin toplam gövde puanının yüzde kaçı olduğunu, yalnızca radyasyonun geriye kalanı eritmesinin ne kadar süreceğini (“31 sn içinde ölümcül”, on saniyenin altında kırmızı), o gövde puanının bir çubuğunu, bulunduğun yerdeki çekimi hızınla karşılaştırmasını ve dönüşü olmayan noktana kadar uçman gereken mesafeyi ya da noktayı geçtikten sonra yanıp sönen bir uyarıyı gösterir. Bir satırın üzerine gelirsen ne anlama geldiğini görürsün; (i) bir kart açar.
+- **Gösterge**, kısayol çubuğunun üstünde, kenarın bin birim yakınında belirir ve yanarken kalır. Radyasyonun saniyede geminin azami gövdesinin yüzde kaçı olduğunu, yalnızca radyasyonun gövdenin geriye kalanını eritmesinin ne kadar süreceğini (“31 sn içinde ölümcül”, on saniyenin altında kırmızı), o gövdenin bir çubuğunu, bulunduğun yerdeki çekimi hızınla karşılaştırmasını ve dönüşü olmayan noktana kadar uçman gereken mesafeyi ya da noktayı geçtikten sonra yanıp sönen bir uyarıyı gösterir. Bir satırın üzerine gelirsen ne anlama geldiğini görürsün; (i) bir kart açar.
 - **Ekranın kenarları** mor parlar, doz arttıkça kırmızıya döner ve saniyede bir atar.
 - **Mini harita** kara deliği halkalarıyla birlikte elips olarak çizer (harita penceresiyle birlikte gerilir) ve ipucu yarıçapları söyler. Yıldız Sistemi haritası sektörü küçük bir kara delikle işaretler.
 - **Bir radyasyon sayacı**, doz arttıkça çatışma gürültüsünün üzerinde daha sık tıkırdar. Kenarı geçerken ve dönüşü olmayan noktanda iki tonlu bir uyarı çalar; yaklaşık 6.500 birimden itibaren alçak bir gümbürtü duyulur, yaklaştıkça daha da alçalır.
@@ -156,8 +157,8 @@ Dark Matter konusunda yeni misin? [Dark Matter ve Dark Matter plakaları](/wiki/
 
 Delik, ona ulaşan bir **N.I.K.E.** roketi karşılığında **Dark Matter** verir. N.I.K.E., zarar verebileceği ilk gemiye 67.500 ile 75.000 arasında hasar veren ve o gemide harcanan bir rokettir; yolda hiçbir şey yoksa deliğe uçar ve olay ufkunu geçtiğinde tükenir. [Montaj](/wiki/06-Items/Rockets.md), teknolojisi araştırıldığında ([Araştırma](/wiki/03-Mechanics/Research.md)) N.I.K.E. üretir, her üretimde beş tane (100.000 kredi, 1.500 Thulium, 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite).
 
-- **Ateş etmek.** Bir N.I.K.E., nişan aldığın yere doğrudan 4,5 saniyede 4.050 birim uçar (saniyede 900): hedef seçili değilken imleci kara deliğin üzerine koy (ya da gemini ona çevir). Ufka, radyasyon kenarı (4.000 birim) ile merkezden 4.380 birim arasındaki herhangi bir yerden ulaşır. Daha uzaktan kısa kalır ve boşa gider. Her roket gibi ortak zamanlayıcıyı kullanır ve ardından sonraki roket için 4,6 saniye beklersin (lazer takmana gerek yok); ateşlemek güvenli bölge korumanı ve gizlenmeni bitirir. **Hattaki bir gemi onu senin yerine alır**: kenarda bekleyen bir rakip ya da yolda kutu toplayan başka bir şirketin pilotu 67.500 ile 75.000 arasında hasar alır ve delik hiçbir şey vermez. Uzaylılar ve şirket pilotları halkanın içine hiç girmez, yani açık bir hat senin elindedir; roket kendi grubunun ve senden güvenli olan gemilerin içinden geçer; grubunda olmayan kendi şirketinin pilotu, PvP’nin açık olduğu yerde diğer gemiler gibi bir gemidir. Atıştan sonra haritadan ayrılırsan roket kimseye zarar vermeden uçmaya devam eder ve yine de Dark Matter üretir. Bir dron formasyonu vuruşun hasarını değiştirebilir, ama N.I.K.E. sonrasındaki bekleme süresini değiştirmez (bkz. [Dron formasyonları ve roketler](/wiki/06-Items/Rockets.md#drone-formations-and-rockets)).
-- **Ne geri gelir.** Ufka ulaşan her N.I.K.E. **1, 2 veya 3 Dark Matter** verir (ortalama 2; yani yaklaşık beş atış on eder), deliğin bölgesinin kenarında, atışının geldiği hattın yakınında, **merkezden 3.050 ile 3.950 birim** uzakta beliren küçük kutularda (her birim kendi kutusunda, yani bir ila üç kutu). Çekim 3.000’de biter, bu yüzden kutular ve onları alan gemiler çekilmez; oradaki radyasyon saniyede geminin gövde puanının %0,3 ile %0,8 arasında bir payı kadardır: bandın ortasında bir dakika geminin üçte birine mal olur. Dolu bir gemi orada üç dakika dayanır.
+- **Ateş etmek.** Bir N.I.K.E., nişan aldığın yere doğrudan 4,5 saniyede 4.455 birim uçar (saniyede 1000): hedef seçili değilken imleci kara deliğin üzerine koy (ya da gemini ona çevir). Ufka, radyasyon kenarı (4.000 birim) ile merkezden 4.785 birim arasındaki herhangi bir yerden ulaşır. Daha uzaktan kısa kalır ve boşa gider. Her roket gibi ortak zamanlayıcıyı kullanır ve ardından sonraki roket için 4,6 saniye beklersin (lazer takmana gerek yok); ateşlemek güvenli bölge korumanı ve gizlenmeni bitirir. **Hattaki bir gemi onu senin yerine alır**: kenarda bekleyen bir rakip ya da yolda kutu toplayan başka bir şirketin pilotu 67.500 ile 75.000 arasında hasar alır ve delik hiçbir şey vermez. Uzaylılar ve şirket pilotları halkanın içine hiç girmez, yani açık bir hat senin elindedir; roket kendi grubunun ve senden güvenli olan gemilerin içinden geçer; grubunda olmayan kendi şirketinin pilotu, PvP’nin açık olduğu yerde diğer gemiler gibi bir gemidir. Atıştan sonra haritadan ayrılırsan roket kimseye zarar vermeden uçmaya devam eder ve yine de Dark Matter üretir. Bir dron formasyonu vuruşun hasarını değiştirebilir, ama N.I.K.E. sonrasındaki bekleme süresini değiştirmez (bkz. [Dron formasyonları ve roketler](/wiki/06-Items/Rockets.md#drone-formations-and-rockets)).
+- **Ne geri gelir.** Ufka ulaşan her N.I.K.E. **1, 2 veya 3 Dark Matter** verir (ortalama 2; yani yaklaşık beş atış on eder), deliğin bölgesinin kenarında, atışının geldiği hattın yakınında, **merkezden 3.050 ile 3.950 birim** uzakta beliren küçük kutularda (her birim kendi kutusunda, yani bir ila üç kutu). Çekim 3.000’de biter, bu yüzden kutular ve onları alan gemiler çekilmez; oradaki radyasyon saniyede geminin gövdesinin %0,3 ile %0,8 arasında bir payı kadardır: bandın ortasında bir dakika geminin üçte birine mal olur. Dolu bir gemi orada üç dakika dayanır.
 - **Kimin.** Kutular, atıştan sonraki **60 saniye** boyunca senin ve klanındır. Ondan sonra haritadaki herkes alabilir ve **4 dakika** sonra sürüklenip giderler. Tehlike Sektörü bir PvP sektörüdür, yani yanında başkalarının da olmasını bekle. Ateş ettikten sonra oyundan çıkan bir pilotun kutuları yine de ona aittir.
 - **Kaç tane.** Bir harita en fazla 52 Dark Matter kutusu taşır; yeni bir kutu bunların en eskisini iter, başka türden bir kutuyu asla. [Resource Magnet Booster](/wiki/03-Mechanics/Cargo.md) Dark Matter miktarına hiçbir şey eklemez.
 - **Ne görürsün.** Bir N.I.K.E. ufku geçtiğinde deliğin içine doğru gerilir, uzay girdiği yerden dalgalanarak yayılır; disk ve foton halkası yaklaşık bir buçuk saniye parlar (**Hareketi azalt** açıkken bunun üçte biri, yarı ışıkta). Bir an sonra kutular delikten çıkar ve kenardaki yerlerine süzülür: her biri parlak kenarlı ve kıvılcımlı mor-siyah bir küredir, uzaktan kolay görülür ve üzerine gelince **Dark Matter** yazar. Seninkilerin üzerinde kalan saniyeler yazar ve mini haritada küçük bir mor işaret olarak belirir, klanın için de öyle; diğer pilotların kutuları mini haritada yalnızca dakikaları dolduktan sonra görünür.

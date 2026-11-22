@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8a72341fc0a0a8d1 -->
+<!-- wiki-i18n source: 27e04944329244c2 -->
 <!-- wiki-i18n title: 무리 -->
 # 무리 {#swarms}
 
@@ -64,6 +64,8 @@
 
 <!-- swarms-world:end -->
 
+무리에도 다른 모든 외계인과 마찬가지로 **등급**이 있으며, 등급을 나타내는 그리스 문자가 이름 앞에 붙습니다. `-=γ-Boss Seeker=-`는 Gamma 등급의 Boss Seeker입니다. 무리의 리더는 **나타날 때** 자기 월드의 표에서 등급을 뽑으며, 무리는 자기 월드의 등급을 가집니다. Alpha에서는 Alpha 무리, Beta에서는 Beta 무리, Gamma에서는 Gamma 무리이며, 이는 위 표의 무리 그대로이고 예전과 같습니다. 상위 월드에서는 가끔, 대략 스무 번에 한 번꼴로 더 낮은 등급의 무리가 나옵니다. Beta의 Pirate와 Seeker 무리, Gamma의 Pirate, Seeker, Phantasm, Goombah, Tesseract 무리가 그렇고, Crystalys 무리와 Beta의 Phantasm, Goombah, Tesseract 무리는 언제나 자기 월드의 등급입니다. 무리는 자기 월드보다 높은 등급이 되는 일이 없고, Delta 무리도 없습니다. Delta는 Gamma의 두 배인 네 번째 등급으로, 일반 외계인만 뽑습니다. 리더와 함께 오는 함선은 같은 등급을 공유하고, 그 섹터의 다음 리더는 다시 뽑습니다. 무리의 강도와 보상은 위 표에서 등급 이름이 붙은 행과 같습니다. 더 약한 무리는 낮은 월드의 무리만큼 단단하며 처치 보상도 그곳의 처치와 같습니다. 속도, 사거리, 전리품은 등급에 따라 달라지지 않습니다. Dormant 무리에는 등급이 없으며 월드의 수치를 그대로 유지합니다.
+
 ## 파일럿에게 알려지는 내용 {#what-the-pilots-are-told}
 
 Seeker, Pirate, Phantasm, Goombah, Crystalys, Tesseract 무리는 보스가 나타날 때와 처치될 때 해당 섹터의 파일럿에게 알립니다. Dormant 무리는 월드 전체에 알리며, 위험 섹터 맵과 은하 지도에 표시되어 파일럿이 찾을 수 있습니다. 이 줄들은 시스템 줄입니다. 채팅의 **시스템** 탭에 읽지 않은 줄 수와 함께 표시되고, **전체** 탭이나 **지역** 탭에는 나오지 않습니다. 보스 처치는 킬 피드에도 한 줄이 올라오며, 처치 공로를 인정받은 파일럿의 이름이 나옵니다. 누구에게 알려지는지는 각 문서의 *한눈에 보기* 목록에 적혀 있습니다.
@@ -86,7 +88,7 @@ Seeker, Pirate, Phantasm, Goombah, Crystalys, Tesseract 무리는 보스가 나�
 
 일반 외계인은 처음 명중시킨 파일럿에게 보상을 지급합니다([전투](/wiki/03-Mechanics/Combat.md#kill-rewards-first-hit-claims)). 무리의 리더와 각 Dormant Pulse는 대신 **입힌 피해량에 따라** 보상을 지급합니다.
 
-- **보상은 피해량에 따라 나뉩니다.** 위 규칙에 나온 비율 이상의 피해를 입힌 파일럿이 입힌 피해에 비례해 보상을 받습니다. 처치의 크레딧, Thulium, 경험치, 명예는 이들 사이에서 나뉩니다. 그 비율에 못 미친 파일럿은 아무것도 받지 못합니다.
+- **보상은 피해량에 따라 나뉩니다.** 위 규칙에 나온 비율 이상의 피해를 입힌 파일럿이 입힌 피해에 비례해 보상을 받습니다. 처치의 크레딧, Thulium, 경험치, 명예는 무리 등급의 보상 배율로 이들 사이에서 나뉩니다. 그 비율에 못 미친 파일럿은 아무것도 받지 못합니다.
 - **화물 상자는 가장 많은 피해를 입힌 파일럿에게 돌아갑니다.** 다른 외계인과 마찬가지로 30초 동안은 그 파일럿(과 소속 클랜)의 것이고, 그 뒤에는 누구나 가져갈 수 있습니다([화물](/wiki/03-Mechanics/Cargo.md)). Dormant의 각 함선은 자체 피해 집계와 자체 상자를 가집니다. Tesseract는 예외입니다. 상자를 남기지 않으며, 처치로 보상을 받는 파일럿은 모두 자기만의 개인 상자를 받습니다([Tesseract 무리](/wiki/05-Swarms/Tesseract-Swarm.md#rewards-and-drops)). 그의 그룹에 리더에게 피해를 준 파일럿이 두 명 이상이면, 상자는 준 피해에 따라 각자에게 [개별 상자](/wiki/03-Mechanics/Cargo.md#personal-crates) 하나씩으로 나뉩니다.
 - **부하는 평소처럼 지급합니다.** Pirate Scout, Seeker Slave, Phantasm, Goombah, Crystalys 무리의 Guard, 그리고 Tesseract 무리의 Facet은 처음 명중시킨 파일럿에게 지급하며, 보상은 보스에 비해 소액입니다.
 - **보스의 보상은 주변 외계인보다 크게 설계되어 있습니다.** Pirate Boss, Boss Phantasm, Boss Goombah와 1분 싸우면 Goombah와 1분 싸우는 것보다 보상이 많고, Dormant 무리나 Boss Crystalys와 1분 싸우면 Crystalys와 1분 싸우는 것보다 많습니다. Boss Seeker의 보상은 정확히 Seeker 10마리분입니다.

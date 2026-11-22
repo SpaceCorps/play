@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d64f7bbe1a7fadf7 -->
+<!-- wiki-i18n source: cd97e3b7b68a76f0 -->
 <!-- wiki-i18n title: Protos -->
 # Protos
 
@@ -10,6 +10,7 @@ Protos, SpaceCorps’ta tüm yeni pilotlara verilen temel başlangıç gemisidir
 - **Temel hız**: 190
 - **Lazer yuvaları**: 2
 - **Ekstra yuvalar**: 2
+- **Gövde plakası yuvaları**: 3
 
 ### Jeneratör ve destek yuvaları {#generator-support-slots}
 
@@ -25,6 +26,12 @@ Protos, SpaceCorps’ta tüm yeni pilotlara verilen temel başlangıç gemisidir
 - **Thulium**: 0
 
 ## Araştırma {#research}
+
+- **Tasarım.** Protos gemisinin 1 [tasarımı](/wiki/03-Mechanics/Ship-Designs.md) vardır. Onu araştır (10 sa ve 10 Dark Matter), sonra Montaj’da Protos gemini o tasarıma dönüştür. Dönüşüm geri alınamaz ve Protos, yeniden edinemeyeceğin tek gemidir: üretilemez, Mağaza onu listeler ama asla satmaz ve yalnızca yeni bir hesap bir Protos ile başlar. Protos’unu dönüştürürsen elinde bir Protosaur olur, Protos kalmaz.
+
+| Tasarım | Neyi değiştirir |
+| :--- | :--- |
+| **Protosaur** | +30 temel hız, +1 lazer yuvası, +5 gövde plakası yuvası, +1 ekstra yuva, +%50 roket hasarı, Blink, Chameleon |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

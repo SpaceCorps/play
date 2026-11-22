@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c91f93d3941bb3bf -->
+<!-- wiki-i18n source: dde8093210ad8db3 -->
 <!-- wiki-i18n title: Feketelyuk -->
 # A feketelyuk {#the-black-hole}
 
@@ -15,7 +15,7 @@ A távolságok a szektor középpontjától értendők, térképi egységben. A 
 
 | Gyűrű | Távolság | Mi történik |
 | :--- | ---: | :--- |
-| **Sugárzás** | 4 000 | A hajód másodpercenként sebzést kap: az összes maximális életerejének egy hányadát. Minél közelebb vagy, annál többet. |
+| **Sugárzás** | 4 000 | A hajótested másodpercenként sebzést kap: a maximális hajótestének egy hányadát. Minél közelebb vagy, annál többet. |
 | **Vonzás** | 3 000 | A feketelyuk a középpont felé húzza a hajódat, minél közelebb vagy, annál erősebben. A nem repülő hajót sodorja. |
 | **A nincs visszaút pontja** | kb. 800–2 600 | Ott van, ahol a vonzás egyenlő a hajód sebességével. Ezen belül még teljes tolóerővel is behúz a lyuk. A sebességedtől függ. |
 | **Eseményhorizont** | 300 | Minden hajó, amely eléri, azonnal megsemmisül, bármilyen hajótest és pajzs van rajta. |
@@ -33,7 +33,7 @@ A feketelyuk nem egész szezonban ugyanakkora. Az [univerzum-wipe](/wiki/03-Mech
 | **Sugárzás** | 4 000 | 5 600 | 7 200 |
 | **Terelőgyűrű** | 4 200 | 5 880 | 7 560 |
 
-Ami nem változik, az az, hogy milyen kemény a hely a befelé vezető út ugyanazon hányadánál: egy hajó, amely 3 600 egységre van a középponttól, 1,8-szeres lyuk mellett azt érzi, amit egy hajó 2 000 egységre egy normál napon (másodpercenként 96 egységnyi vonzást és az életerejének másodpercenként 2 %-át). A megnőtt lyuk nem erősebb, hanem szélesebb, és egy hajónak 1,8-szer annyi idő átkelni rajta. Minden hajó „nincs visszaút” pontja 1,8-szer olyan messze van. Az oldalon minden távolság a normál méretre vonatkozik: szorozd meg a lyuk méretével, hogy a megnőtt lyukat olvasd le.
+Ami nem változik, az az, hogy milyen kemény a hely a befelé vezető út ugyanazon hányadánál: egy hajó, amely 3 600 egységre van a középponttól, 1,8-szeres lyuk mellett azt érzi, amit egy hajó 2 000 egységre egy normál napon (másodpercenként 96 egységnyi vonzást és a hajótestének másodpercenként 2 %-át). A megnőtt lyuk nem erősebb, hanem szélesebb, és egy hajónak 1,8-szer annyi idő átkelni rajta. Minden hajó „nincs visszaút” pontja 1,8-szer olyan messze van. Az oldalon minden távolság a normál méretre vonatkozik: szorozd meg a lyuk méretével, hogy a megnőtt lyukat olvasd le.
 
 - **Hogyan látod.** Az utolsó 72 órában az Irányítópult tetején egy kártya, a repülési nézetben pedig egy felirat a feketelyuk fölött visszaszámol a wipe-ig („Univerzum-wipe 1n 05:12:33 múlva”), és megmondja, hányszorosa a lyuk a méretének; az utolsó öt percben a wipe saját visszaszámlálója veszi át. A kistérkép buboréka a lyuk mostani méretének gyűrűit nevezi meg.
 - **Mikor.** A méret csak a szezon órájától függ, ezért minden világban ugyanaz. Amíg egy admin egy napon tartja a szezont, semmi nincs ütemezve, és a lyuk a normál méretén marad; ha a szezon napját átállítják, a lyuk azonnal követi; a következő szezon normál lyukkal indul.
@@ -42,7 +42,7 @@ Ami nem változik, az az, hogy milyen kemény a hely a befelé vezető út ugyan
 
 ## Sugárzás {#radiation}
 
-A sebzés másodpercenként a **hajód összes maximális életerejének** (hajótest plusz pajzs) **meghatározott százaléka**, ezért adott távolságban minden hajóosztály pontosan ugyanannyi ideig bírja: a sugárzás egy Protost és egy Wraithet is 50 másodperc alatt éget át 2 000 egységnél, ha teljes az életerejük.
+A sebzés másodpercenként a **hajód maximális hajótestének meghatározott százaléka**, és **közvetlenül a hajótestből** megy: a pajzsod nem nyeli el. Ezért adott távolságban minden hajóosztály pontosan ugyanannyi ideig bírja: a sugárzás egy Protos és egy Wraith teljes hajótestét is 50 másodperc alatt égeti át 2 000 egységnél.
 
 | Távolság | Sebzés másodpercenként | Egy teljes hajó kitart |
 | ---: | ---: | ---: |
@@ -54,24 +54,25 @@ A sebzés másodpercenként a **hajód összes maximális életerejének** (haj�
 | 700 | 11% | 9 mp |
 | 300 | 24% | 4 mp |
 
-Két sor között a sebzés egyenes vonalban nő. Életerőpontban másodpercenként, az alap felszerelésű hajókra:
+Két sor között a sebzés egyenes vonalban nő. Hajótestpontban másodpercenként, az alap felszerelésű hajókra:
 
-| Hajó | Összes max. életerő | 3 500-nál | 3 000-nél | 2 000-nél | 1 200-nál | 700-nál |
+| Hajó | Max. hajótest | 3 500-nál | 3 000-nél | 2 000-nél | 1 200-nál | 700-nál |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| Protos | 30 000 | 165 | 240 | 600 | 1 500 | 3 300 |
-| Kitefin | 46 000 | 253 | 368 | 920 | 2 300 | 5 060 |
-| Ostirion | 98 500 | 542 | 788 | 1 970 | 4 925 | 10 835 |
-| Nomad | 145 500 | 800 | 1 164 | 2 910 | 7 275 | 16 005 |
-| Paragon | 162 500 | 894 | 1 300 | 3 250 | 8 125 | 17 875 |
-| Storm | 228 000 | 1 254 | 1 824 | 4 560 | 11 400 | 25 080 |
-| Wraith | 304 000 | 1 672 | 2 432 | 6 080 | 15 200 | 33 440 |
-| Ironclad | 573 200 | 3 153 | 4 586 | 11 464 | 28 660 | 63 052 |
+| Protos | 8 000 | 44 | 64 | 160 | 400 | 880 |
+| Kitefin | 24 000 | 132 | 192 | 480 | 1 200 | 2 640 |
+| Ostirion | 64 000 | 352 | 512 | 1 280 | 3 200 | 7 040 |
+| Nomad | 111 000 | 611 | 888 | 2 220 | 5 550 | 12 210 |
+| Paragon | 128 000 | 704 | 1 024 | 2 560 | 6 400 | 14 080 |
+| Storm | 180 000 | 990 | 1 440 | 3 600 | 9 000 | 19 800 |
+| Wraith | 256 000 | 1 408 | 2 048 | 5 120 | 12 800 | 28 160 |
+| Ironclad | 500 000 | 2 750 | 4 000 | 10 000 | 25 000 | 55 000 |
 
-- A **pajzs veszi fel először**, utána a hajótest. Nem találat: a pajzs elnyelése nem számít bele, és kitérni sem lehet előle.
+- **Közvetlenül a hajótestet** éri: a pajzs semmit sem vesz fel belőle, így a pajzs nélküli hajó pontosan annyit veszít, mint a Heavy Shield Core-ral felszerelt. Nem találat: a pajzs elnyelése nem számít bele, és kitérni sem lehet előle.
 - A sugárzás **elszenvedett sebzésnek** számít: a pajzsod nem töltődik, a Repair Drone leáll („Javítás megszakítva: sugárzás.”), és nem is indítható, a biztonságos zóna pedig az utolsó adag után még 5 másodpercig nem védene meg.
-- A boosterek és a fejlesztések az összesített életerőd nagyságát módosítják, nem azt, mennyi ideig bírod: a sebzés ennek egy hányada.
-- Semmi sem tesz egy hajót immunissá. A sugárzás nem találat, ezért nincs, ami felszívná; de a képességek tovább működnek benne: a Shield Surge tovább állítja vissza a pajzsodat, az Emergency Repair pedig tovább gyógyítja a hajótestedet a tíz másodpercük alatt (ezek nem a természetes javítások, amelyeket az adag leállít). Az álcázás nem rejti el előle a hajót.
-- A **Sugárzástechnika**, egy pilótaképesség, csökkenti az adagot: a teljes értékednek az a másodpercenkénti része, amelyet elveszítesz, egyenes vonalban csökken az 1. szint teljes értékéről a 100. szinten annak 0,40-szeresére, és a mérő azt az adagot mutatja, amelyet valóban kapsz.
+- A boosterek és a fejlesztések a hajótested nagyságát módosítják, nem azt, mennyi ideig bírod: a sebzés ennek egy hányada.
+- Semmi sem tesz egy hajót immunissá. A sugárzás nem találat, ezért nincs, ami felszívná, a pajzs a legkevésbé; de a képességek tovább működnek benne: az Emergency Repair a tíz másodperce alatt tovább gyógyítja a hajótestedet (nem tartozik a természetes javítások közé, amelyeket az adag leállít), a Shield Surge pedig tovább állít vissza egy olyan pajzsot, amelyhez a sugárzás soha nem nyúl. Az álcázás nem rejti el előle a hajót.
+- A **Sugárzástechnika**, egy pilótaképesség, csökkenti az adagot: a hajótestednek az a másodpercenkénti része, amelyet elveszítesz, egyenes vonalban csökken az 1. szint teljes értékéről a 100. szinten annak 0,40-szeresére, és a mérő azt az adagot mutatja, amelyet valóban kapsz.
+- A **N.U.K.E.** és a **Gravitational N.U.K.E.** ott, ahol felrobbannak, saját sugárzási zónát hagynak, amely ugyanígy égeti a hajótestet: a [Rakéták](/wiki/06-Items/Rockets.md#the-craft-only-rockets) oldal tárgyalja őket.
 
 ## A vonzás {#the-pull}
 
@@ -131,7 +132,7 @@ A látótér kicsi (az alapértelmezett nagyításnál nagyjából 1 900 × 1 
 
 - **Messziről.** Ha a kamerát lejjebb döntöd, hogy végigtekints a síkon, a feketelyukat ott rajzolja ki a képernyőn, ahol van, a szektor bármely pontjáról, amíg a képben van: fekete korongot egy gyűrűvel, akkréciós fény izzásában, úgy méretezve, hogy könnyen látható maradjon (a kép magasságának nagyjából 2%-a a túlsó sarokból, ami körülbelül 18 000 egységre van), és ahogy közeledsz, átnő a saját képébe. Semmi nem mozog benne magától. Ha a feketelyuk kívül esik a képen, nincs rá jelölés a képernyőn.
 - **Gyűrűk a repülési síkon.** Egy ibolyaszínű sáv egyre fényesebben izzik, és a sugárzás peremén (4 000 egység) éles szélben ér véget, egy vékonyabb borostyánsárga pedig a vonzás szélét jelöli (3 000). A vonzáson belül egy **piros vonal** mutatja *a saját* nincs visszaút pontodat. Követi a sebességedet, ezért mozog, ahogy a hajód gyorsabb vagy lassabb lesz.
-- **A mérőműszer** a gyorssáv fölött jelenik meg, amint a sugárzás peremétől ezer egységen belülre érsz, és addig marad, amíg égsz. Megmutatja a sugárzást a hajód összes életerejének százalékában másodpercenként, azt, hogy a sugárzás egymagában mennyi idő alatt égetné át a megmaradt életerőt („Halálos 31 mp múlva”, tíz másodperc alatt piros), az életerő sávját, a vonzást ott, ahol vagy, a sebességeddel szemben, valamint a nincs visszaút pontodig még megteendő távolságot, vagy villogó figyelmeztetést, ha már túl vagy rajta. Vidd az egeret egy sor fölé, hogy lásd, mit jelent; az (i) egy kártyát nyit meg.
+- **A mérőműszer** a gyorssáv fölött jelenik meg, amint a sugárzás peremétől ezer egységen belülre érsz, és addig marad, amíg égsz. Megmutatja a sugárzást a hajód maximális hajótestének százalékában másodpercenként, azt, hogy a sugárzás egymagában mennyi idő alatt égetné át a megmaradt hajótestet („Halálos 31 mp múlva”, tíz másodperc alatt piros), a hajótest sávját, a vonzást ott, ahol vagy, a sebességeddel szemben, valamint a nincs visszaút pontodig még megteendő távolságot, vagy villogó figyelmeztetést, ha már túl vagy rajta. Vidd az egeret egy sor fölé, hogy lásd, mit jelent; az (i) egy kártyát nyit meg.
 - **A képernyő szélei** ibolyaszínűen izzanak, és pirosba váltanak, ahogy az adag nő, és másodpercenként egyszer pulzálnak.
 - **A minitérkép** a feketelyukat a gyűrűivel együtt ellipszisekkel rajzolja meg (a térkép az ablakával együtt nyúlik), a súgószövege pedig megnevezi a sugarakat. A csillagtérkép egy kis feketelyukkal jelöli a szektort.
 - **Egy sugárzásmérő** egyre gyorsabban kattog, ahogy az adag nő, a harc zaja fölött. Kétszólamú figyelmeztetés szól, amikor átlépsz a peremen, és újra a nincs visszaút pontjánál, és mély dübörgés hallatszik nagyjából 6 500 egységtől, annál mélyebb, minél közelebb vagy.
@@ -156,8 +157,8 @@ A drónok a hajójukkal együtt repülnek. Rakományt sosem raknak le a gyűrűn
 
 A lyuk **Dark Mattert** ad vissza minden **N.I.K.E.** rakétáért, amely eléri. A N.I.K.E. egy 67 500–75 000 sebzésű rakéta, amely az első hajót találja el, amelyet megsebezhet, és azon el is használódik; ha semmi sincs az útjában, a lyukig repül, és az eseményhorizont átlépésekor elhasználódik. A [Gyártás](/wiki/06-Items/Rockets.md) N.I.K.E.-ket készít, amint a technológiájuk ki van kutatva ([Kutatás](/wiki/03-Mechanics/Research.md)), gyártásonként ötöt (100 000 kredit, 1 500 Thulium, 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite).
 
-- **Kilövés.** A N.I.K.E. 4 050 egységet repül 4,5 másodperc alatt (másodpercenként 900-at), egyenesen oda, ahová célzod: ha nincs kijelölt célpont, vidd a kurzort a feketelyukra (vagy fordítsd rá a hajódat). A horizontot a sugárzás pereme (4 000 egység) és a középponttól 4 380 egység közötti bármely távolságból eléri. Messzebbről rövid marad, és kárba vész. Mint minden rakéta, a közös időzítőt használja, és utána 4,6 másodpercet kell várnod a következő rakétáig (nem kell hozzá felszerelt lézer); a kilövése megszünteti a biztonságos zóna védelmét és az álcázásodat. **Az útjába eső hajó kapja el helyette**: a peremnél várakozó rivális, vagy az úton ládákat gyűjtő másik vállalatbeli pilóta 67 500–75 000 sebzést kap, és a lyuk nem kap semmit. Az idegenek és a vállalati pilóták sosem jönnek a gyűrűn belülre, így a szabad vonal megtartása rajtad múlik; a rakéta átrepül a saját csoportodon és azokon a hajókon, amelyek biztonságban vannak tőled; a saját vállalatod egy pilótája, aki nincs a csoportodban, ott, ahol a PvP aktív, ugyanolyan hajó, mint bármelyik másik. Ha a lövés után elhagyod a térképet, a rakéta tovább repül anélkül, hogy bárkit megsebezne, és a Dark Mattered így is megtermeli. Egy drónformáció megváltoztathatja a találat sebzését, de a N.I.K.E. utáni várakozást nem (lásd: [Drónformációk és rakéták](/wiki/06-Items/Rockets.md#drone-formations-and-rockets)).
-- **Mi jön vissza.** Minden N.I.K.E., amely eléri a horizontot, **1, 2 vagy 3 Dark Mattert** ad (átlagosan 2-t, így nagyjából öt N.I.K.E.-ből tíz Dark Matter lesz), kis ládákban, egységenként eggyel (vagyis egy–három ládában), amelyek a lyuk zónájának peremén jelennek meg, **a középponttól 3 050–3 950 egységre**, a lövésed érkezési vonala közelében. A vonzás 3 000-nél véget ér, ezért a ládákat és az értük érkező hajókat nem húzza a lyuk, a sugárzás pedig ott a hajó életerejének 0,3–0,8%-a másodpercenként: egy perc a sáv közepén a hajód egyharmadába kerül. Egy teljes hajó három percig bírja ott.
+- **Kilövés.** A N.I.K.E. 4 455 egységet repül 4,5 másodperc alatt (másodpercenként 1000-at), egyenesen oda, ahová célzod: ha nincs kijelölt célpont, vidd a kurzort a feketelyukra (vagy fordítsd rá a hajódat). A horizontot a sugárzás pereme (4 000 egység) és a középponttól 4 785 egység közötti bármely távolságból eléri. Messzebbről rövid marad, és kárba vész. Mint minden rakéta, a közös időzítőt használja, és utána 4,6 másodpercet kell várnod a következő rakétáig (nem kell hozzá felszerelt lézer); a kilövése megszünteti a biztonságos zóna védelmét és az álcázásodat. **Az útjába eső hajó kapja el helyette**: a peremnél várakozó rivális, vagy az úton ládákat gyűjtő másik vállalatbeli pilóta 67 500–75 000 sebzést kap, és a lyuk nem kap semmit. Az idegenek és a vállalati pilóták sosem jönnek a gyűrűn belülre, így a szabad vonal megtartása rajtad múlik; a rakéta átrepül a saját csoportodon és azokon a hajókon, amelyek biztonságban vannak tőled; a saját vállalatod egy pilótája, aki nincs a csoportodban, ott, ahol a PvP aktív, ugyanolyan hajó, mint bármelyik másik. Ha a lövés után elhagyod a térképet, a rakéta tovább repül anélkül, hogy bárkit megsebezne, és a Dark Mattered így is megtermeli. Egy drónformáció megváltoztathatja a találat sebzését, de a N.I.K.E. utáni várakozást nem (lásd: [Drónformációk és rakéták](/wiki/06-Items/Rockets.md#drone-formations-and-rockets)).
+- **Mi jön vissza.** Minden N.I.K.E., amely eléri a horizontot, **1, 2 vagy 3 Dark Mattert** ad (átlagosan 2-t, így nagyjából öt N.I.K.E.-ből tíz Dark Matter lesz), kis ládákban, egységenként eggyel (vagyis egy–három ládában), amelyek a lyuk zónájának peremén jelennek meg, **a középponttól 3 050–3 950 egységre**, a lövésed érkezési vonala közelében. A vonzás 3 000-nél véget ér, ezért a ládákat és az értük érkező hajókat nem húzza a lyuk, a sugárzás pedig ott a hajó hajótestének 0,3–0,8%-a másodpercenként: egy perc a sáv közepén a hajód egyharmadába kerül. Egy teljes hajó három percig bírja ott.
 - **Kié.** A ládák a lövéstől számított **60 másodpercig** a tieid és a klántársaidéi. Utána bárki felveheti őket a térképen, és **4 perc** múlva elsodródnak. A Veszélyes szektor PvP-szektor, számíthatsz társaságra. Az a pilóta, aki a lövés után kijelentkezik, továbbra is megtartja a ládáit.
 - **Hány.** Egy térképen legfeljebb 52 Dark Matter-láda lehet; egy új kiszorítja közülük a legrégebbit, más fajta ládát sosem. A [Resource Magnet Booster](/wiki/03-Mechanics/Cargo.md) nem ad hozzá semmit a Dark Matterhez.
 - **Amit látsz.** Amikor egy N.I.K.E. átlépi a horizontot, a lyukba nyúlik, a tér hullámozva tágul onnan, ahol belépett, a korong és a fotongyűrű pedig körülbelül másfél másodpercre fellángol (**Kevesebb mozgás** mellett ennek harmadáig, fele fénnyel). Egy pillanattal később a ládák kijönnek a lyukból, és a peremen lévő helyükre sodródnak: mindegyik egy ibolyafekete gömb fényes peremmel és szikrákkal, messziről jól látható, és ha föléje viszed az egeret, a felirata **Dark Matter**. A tieid megmutatják a rajtuk hátralévő másodperceket, és kis ibolyaszínű jelként látszanak a minitérképen, a klánod számára is ugyanígy; más pilóták ládái csak a saját percük lejárta után látszanak a minitérképen.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: eef162a0237c03ac -->
+<!-- wiki-i18n source: b2be88dc510d05b9 -->
 <!-- wiki-i18n title: Lazerler -->
 # Lazerler ve cephane {#lasers-ammo}
 
@@ -106,10 +106,10 @@ Bunları doğrudan bir lazerin yuvasına takarak özelliklerini güçlendirirsin
 
 | Ad | Nadirlik | Temel hasar artışı | Kritik şansı artışı | Sabit kritik hasar | Maliyet |
 | :--- | :--- | :---: | :---: | :---: | :--- |
-| **Damage Amp I** | Kalitesiz | +10 | +%5 | +5 | 10.000 kredi |
-| **Damage Amp II** | Seyrek | +16 | +%5 | +8 | Yalnızca üretilebilir |
-| **Damage Amp III** | Nadir | +26 | +%6 | +13 | Yalnızca üretilebilir |
-| **Damage Amp IV** | Destansı | +38 | +%7 | +20 | Yalnızca üretilebilir |
+| **Damage Amp I** | Kalitesiz | +12 | +%5 | +5 | 10.000 kredi |
+| **Damage Amp II** | Seyrek | +20 | +%5 | +8 | Yalnızca üretilebilir |
+| **Damage Amp III** | Nadir | +30 | +%6 | +13 | Yalnızca üretilebilir |
+| **Damage Amp IV** | Destansı | +45 | +%7 | +20 | Yalnızca üretilebilir |
 | **Crit Amp I** | Kalitesiz | +5 | +%15 | +0 | 15.000 kredi |
 | **Crit Amp II** | Seyrek | +10 | +%20 | +14 | Yalnızca üretilebilir |
 | **Crit Amp III** | Nadir | +15 | +%25 | +24 | Yalnızca üretilebilir |
@@ -117,10 +117,10 @@ Bunları doğrudan bir lazerin yuvasına takarak özelliklerini güçlendirirsin
 
 | Ad | Nadirlik | Kalkan delme | Maliyet |
 | :--- | :--- | :---: | :--- |
-| **Penetration Amp I** | Kalitesiz | +%5 | 15.000 kredi |
-| **Penetration Amp II** | Seyrek | +%10 | Yalnızca üretilebilir |
-| **Penetration Amp III** | Nadir | +%15 | Yalnızca üretilebilir |
-| **Penetration Amp IV** | Destansı | +%20 | Yalnızca üretilebilir |
+| **Penetration Amp I** | Kalitesiz | +%7 | 15.000 kredi |
+| **Penetration Amp II** | Seyrek | +%15 | Yalnızca üretilebilir |
+| **Penetration Amp III** | Nadir | +%20 | Yalnızca üretilebilir |
+| **Penetration Amp IV** | Destansı | +%25 | Yalnızca üretilebilir |
 
 **Her ailenin yalnızca ilk kademesi satılır**, Mağaza’da. Diğer üçü, teknolojilerini Skylab’da ([Araştırma](/wiki/03-Mechanics/Research.md)) araştırdıktan sonra [Montaj](/wiki/06-Items/Overview.md#upgrading-modules)’da bir alt kademedeki amfiden yapılır. Her adım Thulium, uzaylıların düşürdükleri ve plakalar ister (II. ve III. kademe için Skylab’ındaki Velkonite Reinforced Plate, IV. kademe için 4 Dark Matter Plate ve bir Ancient Control Unit); yeni amfi, harcadığı amfinin büyüleme kademesini ve bonuslarını korur ([Modül yükseltmeleri](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Penetration adımları bir kristal mercek ekler. Her IV. kademe amfi 4 [Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md) ister (diğer yükseltme zincirlerinin son kademesi gibi); bu yüzden IV. kademe bir amfinin teknolojisi önce plakanın teknolojisini ister.
 
@@ -137,9 +137,9 @@ Bunları doğrudan bir lazerin yuvasına takarak özelliklerini güçlendirirsin
 
 ### Hangi amfi nereye {#which-amp-goes-where}
 
-Bir hasar amfisi her lazere aynı sabit hasarı ekler. Bir kritik amfisi biraz kendi sabit hasarını ekler (5 ile 20 arası) ve lazerin zaten yaptığını kritik şansıyla çarpar; bu yüzden her yuvada aynı kademeyle II. kademeden itibaren her lazerde hasar amfisini geçer: II. kademede yaklaşık %19, III. kademede %25, IV. kademede %30 ile %43 (en çok Quantum lazerleri kazanır). I. kademede ikisi birbirine yakındır: **Damage Amp I** **Quantum lazerlerinde** biraz daha iyidir, **Crit Amp I** ise **Starfire-III** ve **Helios Beam** üzerinde biraz daha iyidir. Bir lazerin kritik şansı %100’de durur: üç Crit Amp III, kendi %20’sine sahip bir Helios Beam lazerini %95’e, üç Crit Amp IV ise %110’a çıkarır; yani kullanabileceğinden on puan fazla. Penetration Amp ne hasar ne de kritik şans ekler: kalkanları aksi halde vuruşunun çoğunu alacak gemiler içindir ([aşağıda](#when-is-a-penetration-amp-worth-a-slot)).
+Bir hasar amfisi her lazere aynı sabit hasarı ekler. Bir kritik amfisi biraz kendi sabit hasarını ekler (5 ile 20 arası) ve lazerin zaten yaptığını kritik şansıyla çarpar; bu yüzden her yuvada aynı kademeyle II. kademeden itibaren **Quantum Laser I** dışındaki her lazerde hasar amfisini geçer: **Starfire-III** ve **Helios Beam** üzerinde II. kademede yaklaşık %12, III. kademede %19, IV. kademede %22 ile %25; Quantum Laser III üzerinde %9 ile %28; Quantum Laser II üzerinde %2 ile %11. **Quantum Laser I** üzerinde hasar amfisi %3 ile %5 önde kalır ve I. kademede her lazerde daha iyi olan odur: **Damage Amp I** her yerde **Crit Amp I**’i geçer. Bir lazerin kritik şansı %100’de durur: üç Crit Amp III, kendi %20’sine sahip bir Helios Beam lazerini %95’e, üç Crit Amp IV ise %110’a çıkarır; yani kullanabileceğinden on puan fazla. Penetration Amp ne hasar ne de kritik şans ekler: kalkanları aksi halde vuruşunun çoğunu alacak gemiler içindir ([aşağıda](#when-is-a-penetration-amp-worth-a-slot)).
 
-Aynı amfiyle doldurulduğunda bir lazer her zaman bir altındakinden güçlüdür, bu yüzden daha iyi bir amfi daha iyi bir lazerin yalnızca bir kısmını telafi eder: üç Damage Amp IV taşıyan bir Quantum Laser III, üç Damage Amp I taşıyan bir Helios Beam lazerinden daha fazla, ama üç Damage Amp III taşıyan bir Helios Beam lazerinden daha az hasar verir, ve dövme bu farkı kapatmaz (Yücelmiş kademeye dövülmüş, en iyi bonusları almış bir Quantum Laser III ile Damage Amp IV bile, Damage Amp III taşıyan Standart kademedeki bir Helios Beam lazerinin biraz altında kalır).
+Aynı amfiyle doldurulduğunda bir lazer her zaman bir altındakinden güçlüdür, bu yüzden daha iyi bir amfi daha iyi bir lazerin yalnızca bir kısmını telafi eder: üç Damage Amp IV taşıyan bir Quantum Laser III, üç Damage Amp I taşıyan bir Helios Beam lazerinden daha fazla, ama üç Damage Amp III taşıyan bir Helios Beam lazerinden daha az hasar verir, ve dövme bu farkı yalnızca en tepede kapatır: Yücelmiş kademeye dövülmüş, en iyi bonusları almış bir Quantum Laser III ile Damage Amp IV, Damage Amp III taşıyan sade bir Helios Beam lazerinden biraz daha fazla hasar verir (daha düşük her dövme kademesi hâlâ onun altında kalır).
 
 ---
 
@@ -193,41 +193,41 @@ Siphon Battery, gövde kırmak yerine kalkan çalmak için bir cephanedir. **Hed
 
 Her lazer vuruşu, hedefinin soğurmasından puan düşürür; toplanan en fazla üç kaynak vardır: **cephanen** (Ultra Core %5, Experimental Fusion Core %10, Antimatter Battery %20), **Penetration Amp** eşyaların ve bir **dron formasyonu** (Gemini +%15; [Dron formasyonları](/wiki/03-Mechanics/Formations.md)). **Toplamı hiçbir şey sınırlamaz** (doğrudan bir roket kendi delmesini ve formasyonunkini aynı şekilde ekler: [Roketler](/wiki/06-Items/Rockets.md)). Kalkanlar, hedefin soğurmasından vuruşun delmesi düşüldükten sonra kalanı alır, gerisini gövde alır ([Kalkan mekaniği](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
-- **Amfilerin, lazerlerinin ortalaması olarak sayılır.** Bir salvo tek bir vuruştur; bu yüzden oyun her lazerin amfilerinin delmesini toplar (dronlarındaki lazerler de sayılır) ve lazerlerin üzerinden, her biri hasarıyla ağırlıklandırılarak ortalamasını alır, kritik şansta olduğu gibi. Üç yuvalı her lazerde üç Penetration Amp IV %60 eder (her Helios Beam’de dört tane %80 eder); on üç lazerden birindeki bir Penetration Amp IV yaklaşık %1,5 eder. Bir Wraith gemisinin 13 lazer yuvası vardır; yani üçlü lazerlerle 39, Helios Beam’lerle 52 amfi yuvası eder ve %60’ya (Helios Beam’lerle %80’e) ulaşmak için hepsinin dolu olması gerekir.
+- **Amfilerin, lazerlerinin ortalaması olarak sayılır.** Bir salvo tek bir vuruştur; bu yüzden oyun her lazerin amfilerinin delmesini toplar (dronlarındaki lazerler de sayılır) ve lazerlerin üzerinden, her biri hasarıyla ağırlıklandırılarak ortalamasını alır, kritik şansta olduğu gibi. Üç yuvalı her lazerde üç Penetration Amp IV %75 eder (her Helios Beam’de dört tane %100 eder); on üç lazerden birindeki bir Penetration Amp IV yaklaşık %1,9 eder. Bir Wraith gemisinin 13 lazer yuvası vardır; yani üçlü lazerlerle 39, Helios Beam’lerle 52 amfi yuvası eder ve %75’ya (Helios Beam’lerle %100’e) ulaşmak için hepsinin dolu olması gerekir.
 - **Hangar bunu gösterir.** Hangardaki savaş özelliklerinde her gemide bir **Kalkan delme** kutucuğu vardır; kutucuk, açık olan konfigürasyonun lazer amfilerinin değerini taşır (Penetration Amp yoksa %0,0); cephane ve formasyon buna dahil değildir. Uçuştaki **Gemi penceresinde** alt satırın sonunda bir **Kalkan delme** göstergesi vardır (yer açmak için Konfig. ve Hız göstergeleri yalnızca bir simge ve bir sayı gösterir): bir lazer vuruşunun toplamını gösterir: amfilerin, kuşandığın formasyon ve ateşlediğin cephane, sen değiştirdikçe toplanır; ipucu üç parçayı listeler.
-- **En iyi lazer x4 ile %85, Antimatter ile %95 eder, her lazerde üç amfiyle.** Bir Experimental Fusion Core (%10), bir Gemini (%15) ve her lazerde üç Penetration Amp IV (%60) %85 eder; yerine bir Antimatter Battery (%20) koyarsan %95 eder, x4 yerine x3 hasarla. Bir Helios Beam’in dördüncü bir yuvası vardır: her Helios Beam’de dört Penetration Amp IV, Fusion Core ve Gemini ile birlikte %105 eder, hiçbir kalkanın verebileceğinden fazla.
-- **Bir Penetration Amp IV üzerindeki Demirhane bonusu sayılır.** Bir Penetration Amp, diğer amfiler gibi dövülebilir ve tek bonusu delmeyi çarpar: Yücelmiş bir bonus (+%9 ile +%15), bir Penetration Amp IV eşyasını yuva başına 20 yerine 21,8 ile 23 puan yapar. En iyi donanım düzeninde üç Yücelmiş bonus toplamda %94 eder ve her puanı sayılır.
+- **En iyi lazer x4 ile %100, Antimatter ile %110 eder, her lazerde üç amfiyle.** Bir Experimental Fusion Core (%10), bir Gemini (%15) ve her lazerde üç Penetration Amp IV (%75) %100 eder; yerine bir Antimatter Battery (%20) koyarsan %110 eder, x4 yerine x3 hasarla. Bir Helios Beam’in dördüncü bir yuvası vardır: her Helios Beam’de dört Penetration Amp IV, Fusion Core ve Gemini ile birlikte %125 eder, hiçbir kalkanın verebileceğinden fazla.
+- **Bir Penetration Amp IV üzerindeki Demirhane bonusu sayılır.** Bir Penetration Amp, diğer amfiler gibi dövülebilir ve tek bonusu delmeyi çarpar: Yücelmiş bir bonus (+%9 ile +%15), bir Penetration Amp IV eşyasını yuva başına 25 yerine 27,3 ile 28,8 puan yapar. En iyi donanım düzeninde üç Yücelmiş bonus toplamda %111 eder ve her puanı sayılır.
 
 | Lazer salvosu | Cephane | Amfiler (3 yuva) | Formasyon | Toplam |
 |---|---|---|---|---|
 | Yalnızca Experimental Fusion Core | %10 | – | – | **%10** |
 | Fusion Core + Gemini (Penetration Amp öncesinin en iyisi) | %10 | – | %15 | **%25** |
-| Fusion Core + 3 Penetration Amp I | %10 | %15 | – | **%25** |
-| Fusion Core + 3 Penetration Amp II | %10 | %30 | – | **%40** |
-| Fusion Core + 3 Penetration Amp III | %10 | %45 | – | **%55** |
-| Fusion Core + 3 Penetration Amp IV | %10 | %60 | – | **%70** |
-| Ultra Core + 3 Penetration Amp IV + Gemini (her gün için en iyisi) | %5 | %60 | %15 | **%80** |
-| Fusion Core + 3 Penetration Amp IV + Gemini (en iyi lazer) | %10 | %60 | %15 | **%85** |
+| Fusion Core + 3 Penetration Amp I | %10 | %21 | – | **%31** |
+| Fusion Core + 3 Penetration Amp II | %10 | %45 | – | **%55** |
+| Fusion Core + 3 Penetration Amp III | %10 | %60 | – | **%70** |
+| Fusion Core + 3 Penetration Amp IV | %10 | %75 | – | **%85** |
+| Ultra Core + 3 Penetration Amp IV + Gemini (her gün için en iyisi) | %5 | %75 | %15 | **%95** |
+| Fusion Core + 3 Penetration Amp IV + Gemini (en iyi lazer) | %10 | %75 | %15 | **%100** |
 
 Bunun hedefin kalkanlarına etkisi: her hücre, bir vuruşun **kalkanların aldığı / gövdenin aldığı** payıdır.
 
-| Savunan (soğurma) | Amfi yok | Yalnızca Fusion Core (%10) | Fusion Core + Gemini (%25) | Fusion Core + 3 Penetration Amp IV (%70) | En iyi lazer (%85) |
+| Savunan (soğurma) | Amfi yok | Yalnızca Fusion Core (%10) | Fusion Core + Gemini (%25) | Fusion Core + 3 Penetration Amp IV (%85) | En iyi lazer (%100) |
 |---|---|---|---|---|---|
 | Light Shield Core, hücresiz (%45) | 45 / 55 | 35 / 65 | 20 / 80 | 0 / 100 | 0 / 100 |
 | Heavy Shield Core, hücresiz (%55) | 55 / 45 | 45 / 55 | 30 / 70 | 0 / 100 | 0 / 100 |
 | Light Shield Core + Absorption Shield Cell IV (%57) | 57 / 43 | 47 / 53 | 32 / 68 | 0 / 100 | 0 / 100 |
-| Heavy Shield Core + 3 Capacity Shield Cell IV (%73) | 73 / 27 | 63 / 37 | 48 / 52 | 3 / 97 | 0 / 100 |
-| Hiçbir bonus olmadan en iyi kalkan (%91) | 91 / 9 | 81 / 19 | 66 / 34 | 21 / 79 | 6 / 94 |
-| En iyi kalkan, Yücelmiş Demirhane bonusları (en yüksek değer) ve 44 Sezon Mağazası seviyesi (%109) | 100 / 0 | 99 / 1 | 84 / 16 | 39 / 61 | 24 / 76 |
-| En iyi kalkan, Yücelmiş Demirhane bonusları (en yüksek değer) ve sınırındaki Sezon Mağazası (%114,7) | 100 / 0 | 100 / 0 | 90 / 10 | 45 / 55 | 30 / 70 |
-| Herhangi bir uzaylı (%80) | 80 / 20 | 70 / 30 | 55 / 45 | 10 / 90 | 0 / 100 |
+| Heavy Shield Core + 3 Capacity Shield Cell IV (%73) | 73 / 27 | 63 / 37 | 48 / 52 | 0 / 100 | 0 / 100 |
+| Hiçbir bonus olmadan en iyi kalkan (%91) | 91 / 9 | 81 / 19 | 66 / 34 | 6 / 94 | 0 / 100 |
+| En iyi kalkan, Yücelmiş Demirhane bonusları (en yüksek değer) ve 44 Sezon Mağazası seviyesi (%109) | 100 / 0 | 99 / 1 | 84 / 16 | 24 / 76 | 9 / 91 |
+| En iyi kalkan, Yücelmiş Demirhane bonusları (en yüksek değer) ve sınırındaki Sezon Mağazası (%114,7) | 100 / 0 | 100 / 0 | 90 / 10 | 30 / 70 | 15 / 85 |
+| Herhangi bir uzaylı (%80) | 80 / 20 | 70 / 30 | 55 / 45 | 0 / 100 | 0 / 100 |
 
-En iyi lazer her kalkan çekirdeğini, en iyi hücresiyle ya da hücresiz, boşaltır; üç Capacity hücreli bir Heavy Shield Core’u da (vuruşun tamamını gövde alır); en iyi kalkan her vuruşun %6’sını tutar (bonuslarla %24). Tek başına bir roket bir kalkanı asla boşaltmaz (en fazla %35), ama Stiletto ile (%70) bir Lancet III ya da Rivet III boşaltır.
+En iyi lazer her kalkan çekirdeğini, en iyi hücresiyle ya da hücresiz, boşaltır; üç Capacity hücreli bir Heavy Shield Core’u da (vuruşun tamamını gövde alır); en iyi kalkan her vuruşun %0’sını tutar (bonuslarla %9). Tek başına bir roket bir kalkanı asla boşaltmaz (en fazla %35), ama Stiletto ile (%70) bir Lancet III ya da Rivet III boşaltır.
 
 ### Bir Penetration Amp bir yuvaya değer mi? {#when-is-a-penetration-amp-worth-a-slot}
 
-**Penetration Amp soğurmaya karşı koyar ve soğurma ne kadar yüksekse o kadar işe yarar: yaklaşık %108 soğurmalı (Sezon Mağazası, Demirhane ve Rampart donanım düzenleri) küçük gövdeli bir gemiye karşı Penetration donanımı, en iyi sade donanımdan yaklaşık 10 kat hızlı öldürür; hiçbir bonus olmadan en iyi kalkana (%91) karşı ise üç Penetration Amp ile öldürme süresi, aynı kademeden üç Crit Amp ile olandan yaklaşık %37 kısadır. Uzaylılara karşı Gemini ile Phantasm ya da Goombah üzerinde yaklaşık %10 kazandırır, Seeker, Bulwark ya da Crystalys üzerinde hiçbir şey kazandırmaz.**
+**Penetration Amp soğurmaya karşı koyar ve soğurma ne kadar yüksekse o kadar işe yarar: yaklaşık %108 soğurmalı (Sezon Mağazası, Demirhane ve Rampart donanım düzenleri) küçük gövdeli bir gemiye karşı Penetration donanımı, en iyi sade donanımdan yaklaşık 12 kat hızlı öldürür; hiçbir bonus olmadan en iyi kalkana (%91) karşı ise üç Penetration Amp ile öldürme süresi, aynı kademeden üç Crit Amp ile olandan yaklaşık %47 kısadır. Uzaylılara karşı Gemini ile Phantasm ya da Goombah üzerinde yaklaşık %18 kazandırır, Seeker, Bulwark ya da Crystalys üzerinde hiçbir şey kazandırmaz.**
 
-- **Hasar eklemez.** Bir Helios Beam üzerinde üç Penetration Amp IV salvo başına 158 hasar eder (x1 cephane, hasar aralığının ve kritiklerin ortalaması), üç Damage Amp IV 319, üç Crit Amp IV 416 eder: birincinin yarısı, ikincinin üçte birinden pek fazla değil. Geri kazandırdığı şey kalkanın payıdır, bu yüzden en çok gövdenin kalkanına göre küçük ve soğurmanın yüksek olduğu yerde karşılığını verir; hiçbir bonus olmadan en iyi kalkana sahip, büyük gövdesi daha uzun dayanan bir Wraith ya da Ironclad gemisine karşı %20’ye kadar kazandırır, kalkanları bonuslarla %100’ü aşmış bir Ironclad ise yine en iyi sade bir Crit setiyle karşılanır.
-- **Uzaylılar.** Kalkanları bir vuruşun %80’ini alır, senin delmen düşülür; en iyi lazer (%85) onları bütünüyle deler, bu yüzden onlarda da işe yarar: Penetration Amp, Gemini taktığında Phantasm ya da Goombah karşısında en iyi donanımda yer alır (yaklaşık %10 kazandırır). Seeker, Bulwark ya da Crystalys karşısında aynı kademeden Crit Amp seti aynı hızda ya da daha hızlı öldürür.
+- **Hasar eklemez.** Bir Helios Beam üzerinde üç Penetration Amp IV salvo başına 158 hasar eder (x1 cephane, hasar aralığının ve kritiklerin ortalaması), üç Damage Amp IV 342, üç Crit Amp IV 416 eder: birincinin yarısı, ikincinin üçte birinden pek fazla değil. Geri kazandırdığı şey kalkanın payıdır, bu yüzden en çok gövdenin kalkanına göre küçük ve soğurmanın yüksek olduğu yerde karşılığını verir; hiçbir bonus olmadan en iyi kalkana sahip, büyük gövdesi daha uzun dayanan bir Wraith ya da Ironclad gemisine karşı %32’ye kadar kazandırır, kalkanları bonuslarla %100’ü aşmış bir Ironclad ise yine en iyi sade bir Crit setiyle karşılanır.
+- **Uzaylılar.** Kalkanları bir vuruşun %80’ini alır, senin delmen düşülür; en iyi lazer (%100) onları bütünüyle deler, bu yüzden onlarda da işe yarar: Penetration Amp, Gemini taktığında Phantasm ya da Goombah karşısında en iyi donanımda yer alır (yaklaşık %18 kazandırır). Seeker, Bulwark ya da Crystalys karşısında aynı kademeden Crit Amp seti aynı hızda ya da daha hızlı öldürür.
 - **Maliyeti.** Her Penetration Amp IV, her IV. kademe amfi gibi, 4 Dark Matter Plate (20 Dark Matter) ister; bu yüzden 52 amfinin hepsini takan bir Wraith gemisi 208 plaka, 1.040 Dark Matter gerektirir.

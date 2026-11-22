@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: d605328d6ea5df78 -->
+<!-- wiki-i18n source: 91ebd8675b1f7ea3 -->
 <!-- wiki-i18n title: Corazza dello scafo -->
 # Corazza dello scafo {#hull-plating}
 
 <!-- wiki-search: hull plate; hull plate slot; hull plate slots; plate slot; plate; armour; armor; hpl; corazza; slot corazza; piastra dello scafo -->
 
-Lo studio dello sciame Dormant ha mostrato progressi nella tecnologia delle corazze. Con questa tecnologia le navi possono migliorare il proprio scafo: la **corazza dello scafo** è una corazza che si monta in uno slot per piastre dello scafo di una nave costruita e le aggiunge punti scafo. Non è l’Hull Plating **Booster** della pagina [Booster](/wiki/06-Items/Boosters.md), che è un bonus a tempo.
+Lo studio dello sciame Dormant ha mostrato progressi nella tecnologia delle corazze. Con questa tecnologia le navi possono migliorare il proprio scafo: la **corazza dello scafo** è una corazza che si monta in uno slot per piastre dello scafo di una nave e le aggiunge punti scafo. Non è l’Hull Plating **Booster** della pagina [Booster](/wiki/06-Items/Boosters.md), che è un bonus a tempo.
 
 ![The Hull plates card of the Hangar: the slots researched hold Hull Plating, the others show a padlock](../../img/wiki-img/shots/hull-plates.jpg)
 
@@ -28,26 +28,27 @@ Hull Plating I => Hull Plating II => Hull Plating III
 
 | Oggetto | Scafo aggiunto | Da dove viene |
 | :--- | ---: | :--- |
-| **Hull Plating I** | 8.000 | Negozio, 5.000 Thulium |
-| **Hull Plating II** | 15.000 | Assemblaggio, da una Hull Plating I |
-| **Hull Plating III** | 25.000 | Assemblaggio, da una Hull Plating II |
+| **Hull Plating I** | 7.000 | Negozio, 5.000 Thulium |
+| **Hull Plating II** | 14.000 | Assemblaggio, da una Hull Plating I |
+| **Hull Plating III** | 20.000 | Assemblaggio, da una Hull Plating II |
 
 La Hull Plating I si compra. **La II e la III sono potenziamenti**: l’Assemblaggio consuma una corazza del grado inferiore (libera nel tuo inventario) e chiede Thulium, materiali e **Dark Matter Plate**, 5 per la II e 8 per la III, dove l’ultimo tier di qualsiasi altro pezzo di equipaggiamento ne chiede 4 e una Ancient Control Unit. Ciascuna ha prima bisogno della sua tecnologia, nell’albero Hull Plating della pagina [Ricerca](/wiki/03-Mechanics/Research.md#tree-hull-plating): 1 giorno e 25 Dark Matter per la II, 2 giorni e 40 per la III, oltre alla tecnologia della Dark Matter Plate stessa. L’albero qui sopra riporta i prezzi, i materiali e i tempi.
 
-La [Forgia](/wiki/06-Items/Forge.md) accetta ogni corazza, e un potenziamento mantiene il grado di forgia e il bonus della corazza consumata. Una corazza ha una sola statistica, lo scafo, quindi porta un solo bonus, da +2% a +15% in base al grado: una Hull Plating III di grado Ascendente aggiunge fino a 28.750. All’[Asta](/wiki/03-Mechanics/Auction.md) si mettono in vendita la Hull Plating II e la III, mai la Hull Plating I, che vende il Negozio.
+La [Forgia](/wiki/06-Items/Forge.md) accetta ogni corazza, e un potenziamento mantiene il grado di forgia e il bonus della corazza consumata. Una corazza ha una sola statistica, lo scafo, quindi porta un solo bonus, da +2% a +15% in base al grado: una Hull Plating III di grado Ascendente aggiunge fino a 23.000. All’[Asta](/wiki/03-Mechanics/Auction.md) si mettono in vendita la Hull Plating II e la III, mai la Hull Plating I, che vende il Negozio.
 
 ## Slot corazza {#hull-plate-slots}
 
-La corazza dello scafo entra solo negli **slot corazza**, un tipo di slot a sé che le quattro navi che costruisci nell’Assemblaggio hanno oltre ai loro slot per laser, generatori, extra, abilità e droni:
+La corazza dello scafo entra solo negli **slot corazza**, un tipo di slot a sé che ogni nave ha oltre ai suoi slot per laser, generatori, extra, abilità e droni. Le navi che costruisci nell’Assemblaggio sono quelle che ne hanno di più: le quattro della tabella e la [Miyuki](/wiki/02-Ships/Miyuki.md), che ne ha da 5 a 9, uno in più a ogni livello:
 
 | Nave | Slot corazza | Un set completo di Hull Plating III aggiunge |
 | :--- | ---: | ---: |
-| **Paragon** | 5 | 125.000 |
-| **Storm** | 8 | 200.000 |
-| **Ironclad** | 15 | 375.000 |
-| **Wraith** | 10 | 250.000 |
+| **Paragon** | 5 | 100.000 |
+| **Storm** | 8 | 160.000 |
+| **Ironclad** | 15 | 300.000 |
+| **Wraith** | 10 | 200.000 |
 
-- **Tutti bloccati all’inizio.** Uno slot si apre quando lo ricerchi nello Skylab: una tecnologia per ogni slot, 1 ora e 10 Dark Matter, in ordine a partire dal primo. La vista [Ricerca](/wiki/03-Mechanics/Research.md#ship-technologies) mostra gli slot di una nave come un’unica scheda con un punto per ognuno.
+- **Su una nave costruita, tutti bloccati all’inizio.** Uno slot si apre quando lo ricerchi nello Skylab: una tecnologia per ogni slot, 1 ora e 10 Dark Matter, in ordine a partire dal primo. La vista [Ricerca](/wiki/03-Mechanics/Research.md#ship-technologies) mostra gli slot di una nave come un’unica scheda con un punto per ognuno.
+- **Le quattro navi del Negozio ne hanno tre, aperti fin dall’inizio.** Protos, Kitefin, Ostirion e Nomad hanno ciascuna 3 slot corazza e nulla da ricercare: sono aperti dal primo volo. Un set completo di Hull Plating III aggiunge 60.000 a ciascuna.
 - **Un tipo di nave, non una sola nave.** Gli slot che hai aperto per la Paragon sono aperti anche su ogni design della Paragon ([Design delle navi](/wiki/03-Mechanics/Ship-Designs.md)). Una tecnologia è tua per sempre: il reset la mantiene.
 - **Le due configurazioni li condividono.** Le corazze appartengono alla nave: cambiare configurazione le lascia montate, e l’Hangar mostra le stesse in entrambe.
 - **Qualsiasi mescolanza.** Uno slot accetta qualsiasi corazza dello scafo, e due uguali vanno benissimo.
@@ -62,4 +63,4 @@ Una corazza aggiunge il suo scafo a quello della nave, e l’Hangar e la finestr
 
 ## Hull Plating o Hull Plating Booster? {#hull-plating-or-booster}
 
-Due cose condividono il nome. La **corazza dello scafo** (questa pagina) è un’armatura: una piastra che sta in uno slot corazza di una nave costruita e aggiunge il suo scafo finché è montata. L’**Hull Plating Booster** è un bonus a tempo della pagina [Booster](/wiki/06-Items/Boosters.md), +10% di punti scafo massimi per 10 ore sulla nave che pilotti, e non c’è nulla da montare. Si sommano: prima vengono le corazze e il 10% del Booster si calcola sul totale.
+Due cose condividono il nome. La **corazza dello scafo** (questa pagina) è un’armatura: una piastra che sta in uno slot corazza di una nave e aggiunge il suo scafo finché è montata. L’**Hull Plating Booster** è un bonus a tempo della pagina [Booster](/wiki/06-Items/Boosters.md), +10% di punti scafo massimi per 10 ore sulla nave che pilotti, e non c’è nulla da montare. Si sommano: prima vengono le corazze e il 10% del Booster si calcola sul totale.

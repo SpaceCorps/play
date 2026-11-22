@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bf737868ee14ecc2 -->
+<!-- wiki-i18n source: 115842cfacf12619 -->
 <!-- wiki-i18n title: Resumen -->
 # Resumen de objetos {#items-overview}
 
@@ -118,7 +118,7 @@ Todos los materiales y las dos monedas, con su origen y para qué sirve cada uno
 
 La tienda, el inventario del hangar y las demás listas de objetos siguen un mismo orden: la nave, su blindaje de casco, luego un láser con sus amplificadores y su munición, un escudo con sus células, un motor con sus propulsores, los núcleos adaptativos, los extras, los consumibles, los drones, las formaciones de drones, los potenciadores y los recursos. Dentro de cada tipo, lo más barato va primero.
 
-- **Blindaje de casco**: armadura para las ranuras de blindaje de las cuatro naves que fabricas, Hull Plating I a III, cada una con más casco. Mira [Blindaje de casco](/wiki/06-Items/Hull-Plating.md).
+- **Blindaje de casco**: armadura para las ranuras de blindaje de todas las naves (3 abiertas en cada una de las cuatro de la Tienda, más en las naves que fabricas), Hull Plating I a III, cada una con más casco. Mira [Blindaje de casco](/wiki/06-Items/Hull-Plating.md).
 - **Láseres**: tus sistemas de armas principales, y los [amplificadores](/wiki/06-Items/Lasers.md) que van en ellos.
 - **Escudos**: generadores y [células](/wiki/06-Items/Shields.md) para la defensa.
 - **Propulsión**: motores y [propulsores](/wiki/06-Items/Propulsion.md) para la velocidad.

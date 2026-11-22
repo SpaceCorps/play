@@ -73,7 +73,7 @@ Un **Mole** arrimé (un type de [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole)) t
 - Le gain est le même pour tout le monde : aucun bonus Premium, bonus de la boutique de saison, bonus de clan, Loot Luck ni booster ne change les crédits, le Thulium ni les trouvailles. Le [Resource Magnet Booster](/wiki/06-Items/Boosters.md) ajoute aux ressources d’un fragment de minerai quand vous le ramassez, comme à n’importe quelle caisse.
 - Le blindage retire ses points de chaque coup, mais au moins 20 % d’un coup passent toujours.
 - Une explosion de zone fait 1,6 fois plus de dégâts à un astéroïde fragile qu’à tout autre.
-- Un astéroïde n’est jamais à moins de 1 500 unités du bord d’un anneau de zone sûre, de 5 000 unités du centre du trou noir ni de 600 unités du bord de la carte, et il n’apparaît jamais à moins de 1 200 unités d’un pilote.
+- Un astéroïde n’est jamais à moins de 1 550 unités du bord d’un anneau de zone sûre, de 5 000 unités du centre du trou noir ni de 600 unités du bord de la carte, et il n’apparaît jamais à moins de 1 200 unités d’un pilote.
 - Après une destruction, un astéroïde du même type repousse ailleurs sur la carte après le délai de la ligne du secteur, à 25 % près.
 - Motherlode revient après 1 h, quel que soit le secteur.
 

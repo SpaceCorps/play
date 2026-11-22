@@ -1,12 +1,14 @@
-<!-- wiki-i18n source: 522d6b0bd8a4106c -->
+<!-- wiki-i18n source: b40e4bea60303f48 -->
 <!-- wiki-i18n title: Skeppsdesigner -->
 # Skeppsdesigner {#ship-designs}
 
-<!-- wiki-search: design; designs; refit; convert; conversion; thunder; bucky; lich; notsum; bratan; recon; duma; titanic; raptor; billy; menati; ataraxis; matt; designer; ombyggnad; bygga om; skeppsdesign -->
+<!-- wiki-search: design; designs; refit; convert; conversion; thunder; bucky; lich; notsum; bratan; recon; duma; titanic; raptor; billy; menati; ataraxis; matt; designer; ombyggnad; bygga om; skeppsdesign; protosaur; protos -->
 
-En **design** är ett av de fyra skeppen du tillverkar i Monteringen med några tal ändrade med flit: mindre skrov för mer fart, en laserplats mindre för hårdare sköldar. Nio av de tretton designerna har dessutom en av sju [förmågor](/wiki/03-Mechanics/Abilities.md#ship-abilities) som det vanliga skeppet inte har. Storm RECON har två knappar till bredvid sin Chameleon: Target och Slow. Du forskar fram en design i Skylab och bygger sedan om ett skepp du äger till den i Monteringen. **Ombyggnaden kan inte ångras.**
+En **design** är ett av de fyra skeppen du tillverkar i Monteringen med några tal ändrade med flit: mindre skrov för mer fart, en laserplats mindre för hårdare sköldar. Tio av de fjorton designerna har dessutom en av sju [förmågor](/wiki/03-Mechanics/Abilities.md#ship-abilities) som det vanliga skeppet inte har. Storm RECON har två knappar till bredvid sin Chameleon: Target och Slow. Du forskar fram en design i Skylab och bygger sedan om ett skepp du äger till den i Monteringen. **Ombyggnaden kan inte ångras.**
 
-## De tretton designerna {#the-thirteen-designs}
+**Protosaur** är designen för startskeppet, [Protos](/wiki/02-Ships/Protos.md), och den enda designen som har ett eget namn. Den kräver ingen skeppsteknologi, bara teknologin för Dark Matter Plate, och kostar 50 000 Thulium och 8 Dark Matter Plates. Den ger Protos +5 pansarplatser, alla öppna direkt, +1 laserplats, +1 extraplats, +30 bashastighet, +50 % raketernas skada samt knapparna Blink och Chameleon. Du kan bygga om din Protos så snart du flyger ett annat skepp.
+
+## De fjorton designerna {#the-thirteen-designs}
 
 De tre sista kolumnerna är vad det ombyggda skeppet har: dess eget skrov och sin grundfart, före pansar, boosters, formationer och motorer, och dess laserplatser. Allt som tabellen inte säger förblir som skeppet hade det, även [pansarplatserna](/wiki/06-Items/Hull-Plating.md#hull-plate-slots).
 
@@ -24,12 +26,13 @@ De tre sista kolumnerna är vad det ombyggda skeppet har: dess eget skrov och si
 | **Wraith BILLY** | +5 % basskrov, +10 % sköldkapacitet, Diminisher | 268 800 | 210 | 13 |
 | **Wraith MENATI** | +20 % basskrov, +20 bashastighet, +5 % sköldabsorption, Heal Pod | 307 200 | 230 | 13 |
 | **Wraith ATARAXIS** | -1 laserplats, +1 stödplats, +25 % sköldkapacitet, +10 % sköldabsorption, Shield Buff | 256 000 | 210 | 12 |
-| **Wraith MATT** | +2 laserplatser, -20 % sköldkapacitet, +10 % lasrarnas sköldgenomträngning | 256 000 | 210 | 15 |
+| **Wraith MATT** | +2 laserplatser, -20 % sköldkapacitet, +10 % lasrarnas sköldgenomträngning, +5 % lasrarnas skada | 256 000 | 210 | 15 |
+| **Protosaur** | +30 bashastighet, +1 laserplats, +5 pansarplatser, +1 extraplats, +50 % raketernas skada, Blink, Chameleon | 8 000 | 220 | 3 |
 
 ## Få en design {#getting-a-design}
 
 1. **Forska fram den.** Varje design är en teknologi i skeppsträdet i forskningsvyn i din Skylab ([Forskning](/wiki/03-Mechanics/Research.md#ship-technologies)). Den tar 10 timmar och kräver 10 Dark Matter, och den kräver teknologin för sitt skepp och den för Dark Matter Plate. Forskningen tillverkar ännu ingenting.
-2. **Bygg om skeppet.** Avsnittet Designer i Monteringen listar de tretton ombyggnaderna. Välj en och bekräfta: jobbet hamnar i produktionskön och tar 10 minuter. Det blir klart av sig självt, och du behöver inte hämta det.
+2. **Bygg om skeppet.** Avsnittet Designer i Monteringen listar de fjorton ombyggnaderna. Välj en och bekräfta: jobbet hamnar i produktionskön och tar 10 minuter. Det blir klart av sig självt, och du behöver inte hämta det.
 3. **Betala.** En ombyggnad kostar Thulium, material och Dark Matter Plates, som tabellen säger.
 
 | Design | Thulium | Dark Matter Plate | Ship Fragment | Reinforced Hull Plate | Power Core | Ancient Control Unit |
@@ -47,6 +50,7 @@ De tre sista kolumnerna är vad det ombyggda skeppet har: dess eget skrov och si
 | **Wraith MENATI** | 100 000 | 35 | 375 | 65 | 20 | 3 |
 | **Wraith ATARAXIS** | 100 000 | 35 | 375 | 65 | 20 | 3 |
 | **Wraith MATT** | 100 000 | 25 | 375 | 65 | 20 | 3 |
+| **Protosaur** | 50 000 | 8 | 30 | 5 | 2 | – |
 
 Skeppet som byggs om är det du äger av den sorten (en Paragon för THUNDER, BUCKY eller LICH), och det får inte vara skeppet du flyger: gör först ett annat skepp aktivt. Ett vrak kan inte byggas om.
 
@@ -61,21 +65,22 @@ Skeppet som byggs om är det du äger av den sorten (en Paragon för THUNDER, BU
 | **Storm** | 8 | 8 h | 80 | 3 | 30 h | 30 |
 | **Ironclad** | 15 | 15 h | 150 | 2 | 20 h | 20 |
 | **Wraith** | 10 | 10 h | 100 | 5 | 50 h | 50 |
-| **Alla fyra** | 38 | 38 h | 380 | 13 | 130 h | 130 |
+| **Protos** | 0 | 0 h | 0 | 1 | 10 h | 10 |
+| **Alla fem** | 38 | 38 h | 380 | 14 | 140 h | 140 |
 
-Tillsammans kräver de 510 Dark Matter, utöver de 979 som alla andra teknologier kräver, och modulnivåerna i Skylab kräver 115 till: 1 604 för alla teknologier i spelet.
+Tillsammans kräver de 520 Dark Matter, utöver de 979 som alla andra teknologier kräver, och modulnivåerna i Skylab kräver 115 till: 1 614 för alla teknologier i spelet.
 
 ## Vad som händer med ditt skepp {#what-happens-to-your-ship}
 
 - **Det är samma skepp.** Ombyggnaden ändrar det på plats: dess utrustning, dess pansar, dina drönare och formationen du bär blir kvar som de är.
 - **Lasrar kan förlora sin plats.** En design med färre laserplatser (RECON, DUMA, ATARAXIS) skickar tillbaka lasrarna från platserna som försvinner till ditt inventarie, med sina förstärkare och sina slumpslag från Smedjan. En ny plats kommer tom.
 - **Fullt skrov och fulla sköldar** när det är klart. Tills dess är skeppet låst: det går inte att göra aktivt, utrusta eller bygga om igen.
-- **Det finns ingen väg tillbaka.** För en annan design, eller för att få det vanliga skeppet igen, tillverkar du skeppet på nytt i Monteringen. Du äger ett skepp av varje sort, så en Paragon och en THUNDER kan vara dina samtidigt, men inte två THUNDER.
+- **Det finns ingen väg tillbaka.** För en annan design, eller för att få det vanliga skeppet igen, tillverkar du skeppet på nytt i Monteringen. Protos är det enda undantaget: det går varken att tillverka eller köpa igen (Butiken visar det men säljer det aldrig, och bara ett nytt konto börjar med ett), så bygger du om din Protos har du därefter en Protosaur och ingen Protos. Du äger ett skepp av varje sort, så en Paragon och en THUNDER kan vara dina samtidigt, men inte två THUNDER.
 - **Wipen** behåller en design som vilket annat skepp som helst du äger. En ombyggnad som fortfarande pågår avbryts och återbetalas, som varje tillverkning i din produktionskö: skeppet förblir som det var.
 
 ## Utseende och storlek {#looks-and-size}
 
-Varje design har en egen modell, skeppets med några ändringar som visar vad den kan. De är slätt grå som skeppen tills de bär en [skin](/wiki/06-Items/Cosmetics.md): en design bär skinsen för skeppet den är gjord av, och en ombyggnad behåller utseendet. BUCKY och TITANIC är 20 % större, och ett större skepp är lättare att träffa med en raket. Hangaren märker en design med ett DESIGN-märke, och andra piloter ser dess namn i målfönstret och i dödsloggen.
+Varje design har en egen modell, skeppets med några ändringar som visar vad den kan. De tretton designerna av de fyra skepp du tillverkar är slätt grå som de skeppen tills de bär en [skin](/wiki/06-Items/Cosmetics.md): en design bär skinsen för skeppet den är gjord av, och en ombyggnad behåller utseendet. Protosaur är orange och vit som Protos och har inga skins än. BUCKY och TITANIC är 20 % större, och ett större skepp är lättare att träffa med en raket. Hangaren märker en design med ett DESIGN-märke, och andra piloter ser dess namn i målfönstret och i dödsloggen.
 
 ## Butik, Auktion och poäng {#shop-auction-and-points}
 

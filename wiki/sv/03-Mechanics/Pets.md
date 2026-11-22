@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 31273b68fd73e552 -->
+<!-- wiki-i18n source: 4c0d294abe2063d8 -->
 <!-- wiki-i18n title: P.E.T.s -->
 # P.E.T.s {#pets}
 
@@ -110,7 +110,7 @@ Nivå 1 kräver 810 erfarenhet, nivå 20 kräver 40 000 totalt. Med en och en h
 - **Alla Moles arbetar, en Retriever.** Sedan 0.4.27 arbetar varje dockad Mole, var och en med egen drönare och egen stråle, och sedan 0.5.0 får dina Moles arbeta med samma asteroid: var och en tar den närmaste, så med bara en asteroid inom räckvidd arbetar alla med den, och när den brister går de vidare till nästa tillsammans. En Station med tre Moles spränger upp till ungefär tre gånger så många asteroider som en Mole så länge det finns tillräckligt många asteroider inom räckvidd; pulserna som kommer efter den som spränger en asteroid går förlorade, så Moles som alla träffar en liten asteroid på en gång är värda lite mindre. En Retriever arbetar, den med längst räckvidd; dina övriga Retrievers ger bara boosts.
 - **I flygning, utanför en säker zon.** De stannar så länge en [säker zon](/wiki/03-Mechanics/Combat.md#2-safe-zone-immunity) skyddar ditt skepp, och medan det är förstört, under [skydd efter återkomst](/wiki/01-General/Getting-Started.md#dying-and-coming-back), kamouflerat eller hoppande, och fortsätter när inget av detta gäller. En pilot som är utloggad har inget skepp i rymden, så ingenting arbetar åt honom.
 - **Overksam eller inte.** Det finns ingen regel om att sitta vid tangenterna: en Mole arbetar likadant medan du jagar, medan du tittar på ett fönster och medan du är borta från skärmen.
-- **Vad de aldrig gör.** En Retriever tar ingen låda som du inte själv kunde ta, alltså aldrig en annan pilots skyddade lådor. En Mole arbetar aldrig med en asteroid i en säker zon: asteroider står minst 1 500 enheter från en säker ring.
+- **Vad de aldrig gör.** En Retriever tar ingen låda som du inte själv kunde ta, alltså aldrig en annan pilots skyddade lådor. En Mole arbetar aldrig med en asteroid i en säker zon: asteroider står minst 1 550 enheter från en säker ring.
 
 ### Retriever {#the-retriever}
 

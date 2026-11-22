@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d9722fd08d8980ff -->
+<!-- wiki-i18n source: e819db509b714a18 -->
 <!-- wiki-i18n title: Clan -->
 # Clan {#clans}
 
@@ -193,7 +193,7 @@ La colonna **Skylab** accanto mostra dove si trova lo [Skylab](/wiki/03-Mechanic
 Il pulsante **Chi è online** nella barra degli strumenti di sistema (in alto a destra) o il tasto **H** (riassegnabile in Impostazioni › Comandi) apre la finestra **Piloti online**.
 
 - **Chi compare.** I piloti che stanno volando adesso nel **tuo mondo**, te escluso: Alpha, Beta e Gamma non si incontrano. Un pilota la cui nave occultata non puoi vedere non compare e non viene contato. La finestra mostra al massimo **100** righe, prima i tuoi compagni di clan, poi i livelli più alti, poi per nome, e in alto il numero reale di piloti online.
-- **Che cosa mostra una riga.** Nome, livello, corporazione, tag del clan e simbolo del grado del pilota: ciò che chat e classifiche già mostrano. Mai una posizione, una mappa o lo stato della nave.
+- **Che cosa mostra una riga.** Nome, livello, corporazione, tag del clan e simbolo del grado del pilota: ciò che chat e classifiche già mostrano. Mai una posizione, una mappa o lo stato della nave. Un **nome dorato** significa che il pilota ha sostenuto il gioco con Premium in passato, come in chat; una **corona dorata** dopo il nome significa che il suo Premium è attivo adesso.
 - **Ricerca.** Scrivi una parte di un nome o di un tag di clan; la finestra interroga di nuovo il server quando l’elenco era stato tagliato.
 - **Invita.** Il pulsante **Invita** di una riga è l’invito proprio della finestra Gruppo ([Gruppi](/wiki/03-Mechanics/Groups.md)), con le stesse risposte e gli stessi rifiuti (il pilota è in un gruppo, il gruppo è pieno, Non disturbare è attivo). Il pulsante è grigio, con il motivo al passaggio del mouse, quando il gioco sa già che l’invito verrebbe rifiutato.
 - L’elenco viene riletto ogni 10 secondi finché la finestra è aperta.

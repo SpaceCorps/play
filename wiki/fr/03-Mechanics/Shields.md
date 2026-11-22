@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5f4f8c45180bc787 -->
+<!-- wiki-i18n source: c205efd6ca83bd6f -->
 <!-- wiki-i18n title: Boucliers -->
 # Mécaniques des boucliers {#shield-mechanics}
 
@@ -46,16 +46,16 @@ Certaines attaques ont une **pénétration de bouclier** : des points retranch�
 - Les aliens n’ont pas de statistique d’absorption : ils répartissent chaque tir 80 % / 20 %, moins la pénétration du tir.
 - Les dégâts d’une Siphon Battery sont pris sur le seul bouclier : l’absorption et la pénétration n’entrent pas en jeu.
 
-**Là où les boucliers n’encaissent rien.** Une pénétration égale ou supérieure à l’absorption ne laisse rien du tir aux boucliers : la coque prend tout. Le tableau montre ce que les boucliers encaissent d’un tir du meilleur laser (85 % ; une Antimatter Battery à la place de l’Experimental Fusion Core la porte à 95 % à x3 de dégâts) et de la meilleure roquette directe (une Lancet III ou une Rivet III avec un Stiletto, 70 %) :
+**Là où les boucliers n’encaissent rien.** Une pénétration égale ou supérieure à l’absorption ne laisse rien du tir aux boucliers : la coque prend tout. Le tableau montre ce que les boucliers encaissent d’un tir du meilleur laser (100 % ; une Antimatter Battery à la place de l’Experimental Fusion Core la porte à 110 % à x3 de dégâts) et de la meilleure roquette directe (une Lancet III ou une Rivet III avec un Stiletto, 70 %) :
 
-| Bouclier | Absorption | Les boucliers encaissent, meilleur laser (85 %) | Les boucliers encaissent, meilleure roquette directe (70 %) |
+| Bouclier | Absorption | Les boucliers encaissent, meilleur laser (100 %) | Les boucliers encaissent, meilleure roquette directe (70 %) |
 | :--- | ---: | ---: | ---: |
 | Light Shield Core | 45 % | 0 % | 0 % |
 | Basic Shield Core | 50 % | 0 % | 0 % |
 | Heavy Shield Core | 55 % | 0 % | 0 % |
-| Le meilleur bouclier d’origine | 91 % | 6 % | 21 % |
-| Un bouclier à 100 % | 100 % | 15 % | 30 % |
-| Un bouclier à 120 % | 120 % | 35 % | 50 % |
+| Le meilleur bouclier d’origine | 91 % | 0 % | 21 % |
+| Un bouclier à 100 % | 100 % | 0 % | 30 % |
+| Un bouclier à 120 % | 120 % | 20 % | 50 % |
 
 #### Atteindre et dépasser 100 % {#reaching-and-passing-100-}
 

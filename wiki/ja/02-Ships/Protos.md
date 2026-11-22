@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d64f7bbe1a7fadf7 -->
+<!-- wiki-i18n source: cd97e3b7b68a76f0 -->
 <!-- wiki-i18n title: Protos -->
 # Protos
 
@@ -10,6 +10,7 @@ Protos は、SpaceCorps で新規パイロット全員に支給される基本�
 - **基本速度**：190
 - **レーザースロット**：2
 - **エクストラスロット**：2
+- **装甲スロット**: 3
 
 ### ジェネレーターとサポートのスロット {#generator-support-slots}
 
@@ -25,6 +26,12 @@ Protos は、SpaceCorps で新規パイロット全員に支給される基本�
 - **Thulium**：0
 
 ## 研究 {#research}
+
+- **デザイン。** この艦には[デザイン](/wiki/03-Mechanics/Ship-Designs.md)が1つあります。研究して（10時間と Dark Matter 10個）、アセンブリで Protos をそのデザインに改造します。改造は元に戻せません。Protos は、もう一度手に入れることができない唯一の艦です。製作はできず、ショップに並んでも売られることはなく、最初から持っているのは新規アカウントだけです。Protos を改造すると、手元には Protosaur だけが残り、Protos はなくなります。
+
+| デザイン | 変更点 |
+| :--- | :--- |
+| **Protosaur** | 基本速度 +30、レーザースロット +1、装甲スロット +5、エクストラスロット +1、ロケットのダメージ +50%、Blink、Chameleon |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

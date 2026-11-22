@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9530756071d3a3eb -->
+<!-- wiki-i18n source: ab422d8b5066fe56 -->
 <!-- wiki-i18n title: Grupper -->
 # Grupper {#groups}
 
@@ -72,6 +72,8 @@ Fliken **System** är guldfärgad och skrivskyddad, med en egen lista: där hamn
 ### Privata meddelanden {#private-messages}
 
 Skriv `/m`, en pilots namn och ditt meddelande för att skriva till just den piloten: `/m nova o7` (`/msg` och `/w` gör samma sak). Piloten måste vara online på din server, i vilken värld som helst, på stationen eller i flykten. Namnet är pilotens namn som chatten visar det, med vilka versaler som helst (`/m NOVA`, `/m @nova` och `/m nova:` hittar alla nova): det måste vara hela namnet, aldrig bara början på det, så att ett meddelande inte kan gå till fel pilot. `/r` och ditt svar (`/r o7`) svarar den pilot som skrev till dig senast, eller den pilot du själv skrev till senast om ingen har skrivit till dig.
+
+Högerklicka på en pilots namn för en liten meny (på en chattrad, i fönstret **Piloter online**, i klanens **Pilotlista** eller på en medlemsrad i **gruppfönstret**; på en telefon håller du namnet intryckt): **Skicka meddelande** startar ett privat meddelande till den piloten (inmatningsfältet får `/m name` och tangentbordet), **Visa pilotkort** öppnar pilotens profil och **Kopiera namn** lägger namnet i urklipp. **Skicka meddelande** finns inte på ditt eget namn, på en pilot på en annan server eller på en spelserver äldre än 0.4.22.
 
 Ett privat meddelande visas i den flik du tittar på, bland dess rader, i lila: **Till nova:** för det du skickade och **Från nova:** för det du fick, så att du har båda sidor av samtalet i chattfönstret i flykten och i fältet på stationen. Varje flik visar det, även fliken **System** och en dold flik **Global**. Ett meddelande du får räknas som oläst (på verktygsfältets knapp och i fältet på stationen) tills du öppnar en flik, och spelar ett mjukt ljud, högst en gång var 2:a sekund; att skicka ett spelar sitt eget mjuka ljud. Högerklicka på ett mottaget meddelande för att **Svara**, **Bjuda in till gruppen**, **Ignorera** eller **Rapportera…**.
 

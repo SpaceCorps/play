@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2803f28f4597c776 -->
+<!-- wiki-i18n source: a9b3f1a14b051e92 -->
 <!-- wiki-i18n title: Kitefin -->
 # Kitefin
 
@@ -10,6 +10,7 @@ La Kitefin es una cañonera ligera y la primera nave que compra la mayoría de l
 - **Velocidad base**: 220
 - **Ranuras de láser**: 4
 - **Ranuras de extra**: 2
+- **Ranuras de blindaje**: 3
 
 ### Ranuras de generador y de apoyo {#generator-support-slots}
 

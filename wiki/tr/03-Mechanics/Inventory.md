@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 110ad87b2e059bc1 -->
+<!-- wiki-i18n source: 4c08fb4a1e4f417d -->
 <!-- wiki-i18n title: Envanter -->
 # Envanter ve ekipman {#inventory-equipment}
 
@@ -20,7 +20,7 @@ Geleneksel uzay oyunlarının aksine SpaceCorps’ta, takılan modüllerin etkis
   - **Atanmamış/eski yuvalar**: Buraya konan eşyalar özelliklere katkı yapmaz.
   - **Yığılma da azalır**: kalkanlar ve motorlar en güçlüden başlayarak sıralanır (her birinin yuvasının payı uygulandıktan sonra saydığı değere göre), ardından bandın payı sıralarının payıyla çarpılır: 1–4. sıradakiler tam sayılır, 5–7. sıradakiler sırasıyla %85, %70 ve %55 sayılır; 8. ve sonrası kalkanlarda %50, motorlarda %25 sayılır. [Kalkanlar](/wiki/03-Mechanics/Shields.md) ve [Hız](/wiki/03-Mechanics/Speed.md) sayfalarına bak.
 - **Ekstra yuvalar**: Repair Drone gibi özel yardımcı eşyalar içindir. Protos, Kitefin, Ostirion ve Nomad gemilerinde iki, ürettiğin Paragon, Ironclad, Wraith ve Storm gemilerinde üç tane vardır. Extra Slots CPU eşyaları ([Ekstralar](/wiki/06-Items/Extras.md#extra-slots-cpus)) 3, 5 veya 7 yuva daha ekler.
-- **Gövde plakası yuvaları**: Gövde ekleyen [Gövde Kaplaması](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) içindir. Yalnızca ürettiğin dört gemide bulunur (Paragon gemisinde 5, Storm gemisinde 7, Ironclad gemisinde 15 ve Wraith gemisinde 10); her biri Skylab’da araştırana kadar kilitlidir ve iki konfigürasyonda da aynıdır.
+- **Gövde plakası yuvaları**: Gövde ekleyen [Gövde Kaplaması](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) içindir. Protos, Kitefin, Ostirion ve Nomad’da 3 tane vardır, baştan açık. Ürettiğin gemilerde daha çoktur (Paragon gemisinde 5, Storm gemisinde 8, Ironclad gemisinde 15, Wraith gemisinde 10 ve Miyuki gemisinde 5 ile 9 arası); her biri Skylab’da araştırana kadar kilitlidir ve iki konfigürasyonda da aynıdır.
 
 ## Envanter sırası {#inventory-order}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 064e305cf560906d -->
+<!-- wiki-i18n source: 9da2aba86c37f5e2 -->
 <!-- wiki-i18n title: Oggetti speciali -->
 # Oggetti speciali {#special-items}
 
@@ -44,7 +44,7 @@ Completa **un potenziamento dello Skylab subito**: scegli il modulo che si sta p
 
 ### Schematics
 
-Toglie **24 ore alla ricerca in corso adesso**. Se ne restano **24 ore o meno**, la ricerca viene **completata** subito; se ne restano di più, perde 24 ore e continua, e puoi usare su di essa un altro Schematics. 187 delle 209 tecnologie del [Centro ricerche](/wiki/03-Mechanics/Research.md) richiedono 24 ore o meno, quindi uno Schematics le completa fin dall’inizio. Le altre 22 richiedono di più, 48 o 72 ore per la maggior parte e 96, 168 e 240 ore per i Rocket Launcher III, IV e V, e servono da 2 a 10 Schematics.
+Toglie **24 ore alla ricerca in corso adesso**. Se ne restano **24 ore o meno**, la ricerca viene **completata** subito; se ne restano di più, perde 24 ore e continua, e puoi usare su di essa un altro Schematics. 188 delle 210 tecnologie del [Centro ricerche](/wiki/03-Mechanics/Research.md) richiedono 24 ore o meno, quindi uno Schematics le completa fin dall’inizio. Le altre 22 richiedono di più, 48 o 72 ore per la maggior parte e 96, 168 e 240 ore per i Rocket Launcher III, IV e V, e servono da 2 a 10 Schematics.
 
 - **Ore della tecnologia, non dell’orologio.** Le 24 ore sono il tempo di ricerca proprio della tecnologia, quello della sua scheda. Il boost di Thulium fa correre una ricerca più in fretta, ma non cambia ciò che toglie un uso; se un boost coprirebbe la fine della ricerca, un uso fa risparmiare meno ore di attesa (a velocità doppia, un giorno di ricerca sono 12 ore di attesa). La conferma dice cosa mostrerà il timer.
 - **La ricerca prosegue com’era.** Una ricerca che perde 24 ore tiene il suo posto: il boost continua, la coda non viene toccata e dietro non parte nulla. Una ricerca che aspetta la scienza continua ad aspettare: Schematics dà tempo, non carburante.

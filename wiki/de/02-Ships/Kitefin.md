@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2803f28f4597c776 -->
+<!-- wiki-i18n source: a9b3f1a14b051e92 -->
 <!-- wiki-i18n title: Kitefin -->
 # Kitefin
 
@@ -10,6 +10,7 @@ Die Kitefin ist ein leichtes Kanonenboot und das erste Schiff, das die meisten P
 - **Grundtempo**: 220
 - **Laser-Slots**: 4
 - **Extra-Slots**: 2
+- **Panzerungs-Slots**: 3
 
 ### Generator- und Support-Slots {#generator-support-slots}
 

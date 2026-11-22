@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9530756071d3a3eb -->
+<!-- wiki-i18n source: ab422d8b5066fe56 -->
 <!-- wiki-i18n title: Gruppen -->
 # Gruppen {#groups}
 
@@ -72,6 +72,8 @@ Ein Befehl wechselt auch den Tab, und allein getippt (`/g`) wechselt er nur. Der
 ### Private Nachrichten {#private-messages}
 
 Tippe `/m`, den Namen eines Piloten und deine Nachricht, um nur an diesen einen Piloten zu schreiben: `/m nova o7` (`/msg` und `/w` tun dasselbe). Der Pilot muss auf deinem Server online sein, in irgendeiner Welt, an der Station oder im Flug. Der Name ist der Name des Piloten, wie der Chat ihn zeigt, in beliebiger Groß- und Kleinschreibung (`/m NOVA`, `/m @nova` und `/m nova:` finden alle nova): Es muss der ganze Name sein, nie nur sein Anfang, damit eine Nachricht nicht beim falschen Piloten landet. `/r` und deine Antwort (`/r o7`) antwortet dem Piloten, der dir zuletzt geschrieben hat, oder dem Piloten, dem du zuletzt geschrieben hast, wenn dir noch niemand geschrieben hat.
+
+Klicke mit der rechten Maustaste auf den Namen eines Piloten, um ein kleines Menü zu öffnen (in einer Chatzeile, im Fenster **Piloten online**, in der **Pilotenliste** des Clans oder in der Zeile eines Mitglieds im **Gruppenfenster**; auf dem Handy: den Namen gedrückt halten): **Nachricht senden** beginnt eine Privatnachricht an diesen Piloten (die Eingabe enthält `/m name` und hat die Tastatur), **Pilotenkarte ansehen** öffnet das Profil des Piloten und **Namen kopieren** legt den Namen in die Zwischenablage. **Nachricht senden** fehlt bei deinem eigenen Namen, bei einem Piloten eines anderen Servers und auf einem Spielserver von vor 0.4.22.
 
 Eine private Nachricht erscheint in dem Tab, den du gerade ansiehst, zwischen dessen Zeilen, in Violett: **An nova:** für die, die du geschickt hast, **Von nova:** für die, die du erhalten hast, sodass du beide Seiten des Gesprächs im Chatfenster im Flug und in der Leiste an der Station hast. Jeder Tab zeigt sie, auch der Tab **System** und ein ausgeblendeter Tab **Global**. Eine erhaltene Nachricht zählt als ungelesen (an der Schaltfläche in der Symbolleiste und in der Leiste an der Station), bis du einen Tab öffnest, und spielt einen leisen Klang, höchstens alle 2 Sekunden; das Senden spielt einen eigenen leisen Klang. Klicke mit der rechten Maustaste auf eine erhaltene Nachricht, um zu **Antworten**, **In die Gruppe einzuladen**, zu **Ignorieren** oder zu **Melden…**.
 

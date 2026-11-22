@@ -73,7 +73,7 @@ Egy dokkolt **Mole** (a [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole)-ek egyik t
 - A fizetés mindenkinek ugyanannyi: sem Prémium-bónusz, sem Szezonbolt-boost, sem klánboost, sem Loot Luck, sem booster nem változtatja meg a kreditet, a Thuliumot vagy a leleteket. A [Resource Magnet Booster](/wiki/06-Items/Boosters.md) felvételkor növeli egy ércdarab nyersanyagait, mint bármelyik ládáét.
 - A páncél minden találatból levonja a pontjait, de egy találat legalább 20%-a mindig átmegy.
 - A területi robbanás 1,6-szor annyit sebez egy törékeny aszteroidán, mint bármely máson.
-- Az aszteroida sosem áll 1 500 egységnél közelebb egy biztonságos gyűrű széléhez, 5 000 egységnél közelebb a fekete lyuk közepéhez, sem 600 egységnél közelebb a térkép széléhez, és sosem jelenik meg 1 200 egységnél közelebb egy pilótához.
+- Az aszteroida sosem áll 1 550 egységnél közelebb egy biztonságos gyűrű széléhez, 5 000 egységnél közelebb a fekete lyuk közepéhez, sem 600 egységnél közelebb a térkép széléhez, és sosem jelenik meg 1 200 egységnél közelebb egy pilótához.
 - Egy szétlövés után ugyanolyan fajtájú aszteroida nő ki a térkép egy másik pontján a szektor sorában megadott idő múlva, 25% eltéréssel.
 - Motherlode: 1 óra múlva tér vissza, minden szektorban.
 

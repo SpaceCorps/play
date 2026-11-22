@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 77908d7c08d3074c -->
+<!-- wiki-i18n source: 0684c16b2f2d0dbe -->
 <!-- wiki-i18n title: Forja -->
 # A Forja {#the-forge}
 
@@ -57,7 +57,7 @@ O **bônus de absorção de um escudo** (e a absorção extra de uma célula de 
 
 Motores, propulsores, núcleos adaptativos e Repair Drones mudam muito pouco com um bônus percentual (um Engine II soma 10 de velocidade, então +12% são 1,2 pontos): forje-os se quiser o grau, não pelos atributos.
 
-**O bônus de um Penetration Amp** multiplica a penetração dele: um bônus Ascendente (+9% a +15%) leva um Penetration Amp IV a 21,8 a 23 pontos por slot em vez de 20. Nada limita a penetração de um acerto, então cada ponto conta: no melhor laser (um Fusion Core, um Gemini e três Penetration Amp IV em cada laser), 10 + 15 + 60 dão 85%, e três bônus Ascendentes elevam isso a até 94% ([Lasers e munição](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+**O bônus de um Penetration Amp** multiplica a penetração dele: um bônus Ascendente (+9% a +15%) leva um Penetration Amp IV a 27,3 a 28,8 pontos por slot em vez de 25. Nada limita a penetração de um acerto, então cada ponto conta: no melhor laser (um Fusion Core, um Gemini e três Penetration Amp IV em cada laser), 10 + 15 + 75 dão 100%, e três bônus Ascendentes elevam isso a até 111% ([Lasers e munição](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
 
 ### Onde os materiais caem {#where-the-materials-drop}
 

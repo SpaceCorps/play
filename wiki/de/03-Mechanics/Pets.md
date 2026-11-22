@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 31273b68fd73e552 -->
+<!-- wiki-i18n source: 4c0d294abe2063d8 -->
 <!-- wiki-i18n title: P.E.T.s -->
 # P.E.T.s {#pets}
 
@@ -110,7 +110,7 @@ Acht der zehn Typen geben nur Boosts. Der **Retriever** und der **Mole** geben a
 - **Jeder Mole arbeitet, ein Retriever.** Seit 0.4.27 arbeitet jeder angedockte Mole, jeder mit eigener Drohne und eigenem Strahl, und seit 0.5.0 dürfen deine Moles am selben Asteroiden arbeiten: Jeder nimmt den nächsten, also arbeiten bei nur einem Asteroiden in Reichweite alle daran, und wenn er zerbricht, ziehen sie gemeinsam zum nächsten weiter. Eine Station mit drei Moles baut bis zu etwa dreimal so viele Asteroiden ab wie ein Mole, solange genug Asteroiden in Reichweite sind; die Impulse, die nach dem ankommen, der einen Asteroiden zerbricht, gehen verloren, daher sind Moles, die alle zugleich einen kleinen Asteroiden treffen, etwas weniger wert. Ein Retriever arbeitet, der mit der größten Reichweite; deine übrigen Retriever geben nur Boosts.
 - **Im Flug, außerhalb einer Schutzzone.** Sie hören auf, solange eine [Schutzzone](/wiki/03-Mechanics/Combat.md#2-safe-zone-immunity) dein Schiff schützt und solange es zerstört, im [Respawn-Schutz](/wiki/01-General/Getting-Started.md#dying-and-coming-back), getarnt oder im Sprung ist, und machen weiter, sobald nichts davon gilt. Ein Pilot, der ausgeloggt ist, hat kein Schiff im All, also arbeitet für ihn nichts.
 - **Untätig oder nicht.** Es gibt keine Regel darüber, ob du an den Tasten sitzt: Ein Mole arbeitet genauso, ob du jagst, ein Fenster ansiehst oder vom Bildschirm weg bist.
-- **Was sie nie tun.** Ein Retriever nimmt keine Kiste, die du nicht selbst nehmen dürftest, also nie die geschützten Kisten eines anderen Piloten. Ein Mole arbeitet nie an einem Asteroiden in einer Schutzzone: Asteroiden stehen mindestens 1.500 Einheiten vom Schutzring entfernt.
+- **Was sie nie tun.** Ein Retriever nimmt keine Kiste, die du nicht selbst nehmen dürftest, also nie die geschützten Kisten eines anderen Piloten. Ein Mole arbeitet nie an einem Asteroiden in einer Schutzzone: Asteroiden stehen mindestens 1.550 Einheiten vom Schutzring entfernt.
 
 ### Der Retriever {#the-retriever}
 

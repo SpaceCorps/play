@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9a37517663b28a4d -->
+<!-- wiki-i18n source: 030846e1bbc2affc -->
 <!-- wiki-i18n title: Wraith -->
 # Wraith
 
@@ -27,7 +27,7 @@ Wraith は究極の戦艦級艦艇で、比類なき火力、巨大なシール�
 
 ## 研究 {#research}
 
-- **装甲スロット。** この艦には、[船体装甲](/wiki/06-Items/Hull-Plating.md)用の[装甲スロット](/wiki/06-Items/Hull-Plating.md#hull-plate-slots)が10個あり、建造した時点ではすべてロックされています。スロットは1つにつき、Skylab の専用の技術です。1時間と Dark Matter 10個で、最初のものから順に研究します。研究すると、この艦とそのすべてのデザインでそのスロットが開きます。10個すべてに Hull Plating III を装着すると、船体が 250,000 増えます。
+- **装甲スロット。** この艦には、[船体装甲](/wiki/06-Items/Hull-Plating.md)用の[装甲スロット](/wiki/06-Items/Hull-Plating.md#hull-plate-slots)が10個あり、建造した時点ではすべてロックされています。スロットは1つにつき、Skylab の専用の技術です。1時間と Dark Matter 10個で、最初のものから順に研究します。研究すると、この艦とそのすべてのデザインでそのスロットが開きます。10個すべてに Hull Plating III を装着すると、船体が 200,000 増えます。
 - **デザイン。** この艦には[デザイン](/wiki/03-Mechanics/Ship-Designs.md)が5つあります。1つ研究して（10時間と Dark Matter 10個）、アセンブリで Wraith をそのデザインに改造します。この変更は元に戻せません。
 
 | デザイン | 変更点 |
@@ -36,7 +36,7 @@ Wraith は究極の戦艦級艦艇で、比類なき火力、巨大なシール�
 | **Wraith BILLY** | 基本船体 +5%、シールド容量 +10%、Diminisher |
 | **Wraith MENATI** | 基本船体 +20%、基本速度 +20、シールド吸収率 +5%、Heal Pod |
 | **Wraith ATARAXIS** | レーザースロット -1、サポートスロット +1、シールド容量 +25%、シールド吸収率 +10%、Shield Buff |
-| **Wraith MATT** | レーザースロット +2、シールド容量 -20%、レーザーのシールド貫通 +10% |
+| **Wraith MATT** | レーザースロット +2、シールド容量 -20%、レーザーのシールド貫通 +10%、レーザーのダメージ +5% |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

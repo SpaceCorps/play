@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0c9164c462c27a1a -->
+<!-- wiki-i18n source: 74bb4919fe97756e -->
 <!-- wiki-i18n title: 연구 -->
 # 연구 {#research}
 
@@ -30,7 +30,7 @@
 
 <!-- research-centre:end -->
 
-**Schematics.** [Schematics](/wiki/06-Items/Special-Items.md#schematics)는 진행 중인 연구에서 24시간을 줄여 줍니다. 남은 시간이 24시간 이하면 즉시 완료되고, 더 긴 연구는 24시간이 줄어든 채 계속됩니다(기술 209개 중 187개는 24시간 이하이므로 하나로 처음부터 완료할 수 있고, 나머지 22개는 2~10개가 필요합니다). 연구에 든 비용은 시작할 때 이미 지불되어 돌려받지 못하고, 건너뛴 시간이 태웠을 과학 포인트는 탱크에 남으며, 연구가 끝나면 대기열의 다음 기술이 바로 시작됩니다.
+**Schematics.** [Schematics](/wiki/06-Items/Special-Items.md#schematics)는 진행 중인 연구에서 24시간을 줄여 줍니다. 남은 시간이 24시간 이하면 즉시 완료되고, 더 긴 연구는 24시간이 줄어든 채 계속됩니다(기술 210개 중 188개는 24시간 이하이므로 하나로 처음부터 완료할 수 있고, 나머지 22개는 2~10개가 필요합니다). 연구에 든 비용은 시작할 때 이미 지불되어 돌려받지 못하고, 건너뛴 시간이 태웠을 과학 포인트는 탱크에 남으며, 연구가 끝나면 대기열의 다음 기술이 바로 시작됩니다.
 
 **레이저 증폭기와 마지막 티어.** 티어 II~IV의 Damage Amp, Crit Amp, Penetration Amp는 다른 제작품과 똑같이 연구합니다. 증폭기 계열이 나왔을 때 증폭기를 가지고 있었거나 제작 대기 중이던 파일럿은 그 증폭기 각각의 기술과 그 아래 티어의 기술을 받았습니다. 다른 트리의 기술을 필요로 하는 기술은 13개입니다. 자원 트리에 있는 Dark Matter Plate의 기술입니다. 모든 강화 계열의 마지막 티어가 플레이트 4개와 Ancient Control Unit 1개를 요구하기 때문이며, 티어 IV의 Damage Amp, Crit Amp, Penetration Amp, 티어 IV의 Absorption Shield Cell, Capacity Shield Cell, 티어 IV의 Impulse Thruster, Momentum Thruster, 그리고 Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III, Base CPU II가 여기에 해당합니다. 이미 그중 하나를 연구했다면 그 기술은 그대로 남지만, 거기에 필요한 플레이트를 만들려면 Dark Matter Plate의 기술이 필요합니다. 아래 트리에는 그것을 위한 화살표가 그려지지 않지만, 표에는 나와 있고 게임 안의 카드에도 이름이 나옵니다([Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)).
 

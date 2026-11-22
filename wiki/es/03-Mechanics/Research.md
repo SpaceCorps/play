@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0c9164c462c27a1a -->
+<!-- wiki-i18n source: 74bb4919fe97756e -->
 <!-- wiki-i18n title: Investigación -->
 # Investigación {#research}
 
@@ -30,7 +30,7 @@ Esta página reúne el árbol de tecnologías completo con el tiempo de cada una
 
 <!-- research-centre:end -->
 
-**Schematics.** Un [Schematics](/wiki/06-Items/Special-Items.md#schematics) quita 24 horas a la investigación que está en marcha: si quedan 24 horas o menos, se termina al instante, y una más larga pierde 24 horas y sigue (187 de las 209 tecnologías tardan 24 horas o menos, así que uno las termina desde el principio; las otras 22 necesitan de 2 a 10). Lo que costó la investigación se pagó al empezar y no se devuelve, la ciencia que habría quemado el tiempo saltado se queda en tu depósito y, cuando la investigación termina, la siguiente tecnología de tu cola empieza al instante.
+**Schematics.** Un [Schematics](/wiki/06-Items/Special-Items.md#schematics) quita 24 horas a la investigación que está en marcha: si quedan 24 horas o menos, se termina al instante, y una más larga pierde 24 horas y sigue (188 de las 210 tecnologías tardan 24 horas o menos, así que uno las termina desde el principio; las otras 22 necesitan de 2 a 10). Lo que costó la investigación se pagó al empezar y no se devuelve, la ciencia que habría quemado el tiempo saltado se queda en tu depósito y, cuando la investigación termina, la siguiente tecnología de tu cola empieza al instante.
 
 **Los amplificadores láser y el último nivel.** Los Damage, Crit y Penetration Amps de los niveles II a IV se investigan como el resto de fabricaciones. Los pilotos que tenían o habían puesto en cola amps al llegar las líneas de amps recibieron la tecnología de cada uno de ellos y la de los niveles inferiores. Trece tecnologías necesitan una tecnología de otro árbol, la de la Dark Matter Plate, del árbol Recursos, porque el último nivel de cada cadena de mejora pide cuatro plates y una Ancient Control Unit: los Damage, Crit y Penetration Amps del nivel IV, las Absorption y Capacity Shield Cells del nivel IV, los Impulse y Momentum Thrusters del nivel IV, el Heavy Shield Core, el Engine III, el Adaptive Core III, el Helios Beam, el Extra Slots CPU III y el Base CPU II. Un piloto que investigó una de ellas antes la conserva, y necesita la tecnología de la plate para fabricar sus plates. El árbol de abajo no dibuja ninguna flecha para ella, pero la tabla la lista y la tarjeta del juego la nombra ([Dark Matter y Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)).
 

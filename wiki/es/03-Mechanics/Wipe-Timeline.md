@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9c01b98d8c696970 -->
+<!-- wiki-i18n source: a0ac7234aa147795 -->
 <!-- wiki-i18n title: Cronología del reinicio -->
 # Cronología del reinicio y temporadas {#wipe-timeline-seasons}
 
@@ -81,7 +81,7 @@ Las piezas se consiguen con la interfaz del Materializador de Energía, que hace
 * **Un giro sin pieza** paga igualmente un premio ([Puertas en solitario](/wiki/03-Mechanics/Solo-Gates.md#a-spin-without-a-part)).
 * **Los giros continúan cuando el Chrono-Gate está completo.** Cada giro se cobra, y las piezas que encuentra son entonces de las puertas en solitario: la entrada del Chrono-Gate queda cerrada y las otras dos categorías mantienen su probabilidad del 13 %.
 
-*Consejo: puedes usar multiplicadores (1x, 5x, 10x, 100x) para hacer giros en bloque y acelerar la construcción de la puerta.*
+*Consejo: puedes usar multiplicadores (1x, 5x, 10x, 100x, 1000x) para hacer giros en bloque y acelerar la construcción de la puerta.*
 
 ---
 

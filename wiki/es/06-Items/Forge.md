@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 77908d7c08d3074c -->
+<!-- wiki-i18n source: 0684c16b2f2d0dbe -->
 <!-- wiki-i18n title: Forja -->
 # La Forja {#the-forge}
 
@@ -57,7 +57,7 @@ La **bonificación de absorción de un escudo** (y el aumento de absorción de u
 
 Los motores, los propulsores, los núcleos adaptativos y los Repair Drones apenas cambian con una bonificación porcentual (un Engine II suma 10 de velocidad, así que +12 % son 1,2 puntos): fórjalos si quieres el grado, no por las estadísticas.
 
-**La bonificación de un Penetration Amp** multiplica su penetración: una bonificación Ascendida (+9 % a +15 %) deja un Penetration Amp IV en 21,8 a 23 puntos por ranura en lugar de 20. Nada limita la penetración de un impacto, así que cada punto cuenta: en el mejor láser (un Fusion Core, un Gemini y tres Penetration Amp IV en cada láser), 10 + 15 + 60 dan el 85 %, y tres bonificaciones Ascendidas lo suben hasta un 94 % ([Láseres y munición](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
+**La bonificación de un Penetration Amp** multiplica su penetración: una bonificación Ascendida (+9 % a +15 %) deja un Penetration Amp IV en 27,3 a 28,8 puntos por ranura en lugar de 25. Nada limita la penetración de un impacto, así que cada punto cuenta: en el mejor láser (un Fusion Core, un Gemini y tres Penetration Amp IV en cada láser), 10 + 15 + 75 dan el 100 %, y tres bonificaciones Ascendidas lo suben hasta un 111 % ([Láseres y munición](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
 
 ### De dónde caen los materiales {#where-the-materials-drop}
 

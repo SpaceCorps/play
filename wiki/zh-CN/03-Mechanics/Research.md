@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0c9164c462c27a1a -->
+<!-- wiki-i18n source: 74bb4919fe97756e -->
 <!-- wiki-i18n title: 研究 -->
 # 研究 {#research}
 
@@ -30,7 +30,7 @@
 
 <!-- research-centre:end -->
 
-**Schematics。** 一个 [Schematics](/wiki/06-Items/Special-Items.md#schematics) 会从正在进行的研究中扣除 24 小时：如果剩余不超过 24 小时，研究会立即完成，更长的则减少 24 小时并继续（209 项科技中有 187 项耗时不超过 24 小时，所以一个就能从头完成它们；其余 22 项需要 2 到 10 个）。研究的费用在开始时已支付，不会退还；被跳过的时间本来会烧掉的科研点留在你的储罐里；研究完成后，队列里的下一项科技立即开始。
+**Schematics。** 一个 [Schematics](/wiki/06-Items/Special-Items.md#schematics) 会从正在进行的研究中扣除 24 小时：如果剩余不超过 24 小时，研究会立即完成，更长的则减少 24 小时并继续（210 项科技中有 188 项耗时不超过 24 小时，所以一个就能从头完成它们；其余 22 项需要 2 到 10 个）。研究的费用在开始时已支付，不会退还；被跳过的时间本来会烧掉的科研点留在你的储罐里；研究完成后，队列里的下一项科技立即开始。
 
 **激光增幅器与最后一阶。** II 至 IV 阶的 Damage Amp、Crit Amp 和 Penetration Amp 与其他可制造的东西一样需要研究。增幅器系列推出时持有或排队制作了增幅器的飞行员，获得了这些增幅器各自的科技，以及更低阶的科技。有十三项科技需要另一棵树中的科技，即资源树中 Dark Matter Plate 的科技，因为每条升级链的最后一阶需要四块板和 1 个 Ancient Control Unit：IV 阶的 Damage Amp、Crit Amp 和 Penetration Amp，IV 阶的 Absorption Shield Cell 和 Capacity Shield Cell，IV 阶的 Impulse Thruster 和 Momentum Thruster，以及 Heavy Shield Core、Engine III、Adaptive Core III、Helios Beam、Extra Slots CPU III 和 Base CPU II。以前研究过其中某一项的飞行员会保留它，但要制作它所需的板，需要先研究这块板的科技。下面的树没有为它画箭头，但表格列出了它，游戏里的卡片也会写出它的名字（[Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）。
 

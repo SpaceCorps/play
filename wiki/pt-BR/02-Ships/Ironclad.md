@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 18ef5043e15eb94e -->
+<!-- wiki-i18n source: eccec7a8b357e276 -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -27,7 +27,7 @@ A Ironclad é um tanque pesado e blindado: o casco mais grosso de todas as naves
 
 ## Pesquisa {#research}
 
-- **Slots de blindagem.** Esta nave tem 15 [slots de blindagem](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) para [blindagem de casco](/wiki/06-Items/Hull-Plating.md), todos bloqueados quando você a fabrica. Cada um é uma tecnologia própria no Skylab, 1 h e 10 Dark Matter, pesquisada em ordem a partir do primeiro; ela abre aquele slot nesta nave e em cada um dos seus designs. Com os 15 cheios de Hull Plating III, somam-se 375.000 de casco.
+- **Slots de blindagem.** Esta nave tem 15 [slots de blindagem](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) para [blindagem de casco](/wiki/06-Items/Hull-Plating.md), todos bloqueados quando você a fabrica. Cada um é uma tecnologia própria no Skylab, 1 h e 10 Dark Matter, pesquisada em ordem a partir do primeiro; ela abre aquele slot nesta nave e em cada um dos seus designs. Com os 15 cheios de Hull Plating III, somam-se 300.000 de casco.
 - **Designs.** Esta nave tem 2 [designs](/wiki/03-Mechanics/Ship-Designs.md). Pesquise um (10 h e 10 Dark Matter) e depois converta a sua Ironclad nele na Montagem: a mudança não pode ser desfeita.
 
 | Design | O que muda |

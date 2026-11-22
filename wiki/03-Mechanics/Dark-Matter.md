@@ -10,7 +10,7 @@
 ## In one minute
 
 - **Dark Matter is a resource, and it is just called Dark Matter everywhere.** The black hole in the middle of Danger Sector 4 (`DS-4`) makes it: every N.I.K.E. rocket that reaches the hole gives back 1 to 3 Dark Matter (2 on average), in small crates on the rim of its zone.
-- **What it is for.** 132 technologies of the Research Centre ask for it, 5 to 60 each and 1,604 in all, and Assembly presses it into the Dark Matter Plate. From season day 11 a [giant excavator](/wiki/03-Mechanics/Giant-Excavator.md) burns it too, as fuel: a tank is a few Dark Matter, and it is lost if the excavator is destroyed. In Beta and Gamma the giant excavators stand from the first day of the season.
+- **What it is for.** 133 technologies of the Research Centre ask for it, 5 to 60 each and 1,614 in all, and Assembly presses it into the Dark Matter Plate. From season day 11 a [giant excavator](/wiki/03-Mechanics/Giant-Excavator.md) burns it too, as fuel: a tank is a few Dark Matter, and it is lost if the excavator is destroyed. In Beta and Gamma the giant excavators stand from the first day of the season.
 - **In the Research Centre** you add Dark Matter from your cargo (with your ship landed) before you press Start. The research takes it when it starts.
 - **A Dark Matter Plate is a different item.** Research its recipe first (the Resources group of the tree: 1 day and 10 Dark Matter), then craft it in Assembly from 5 Dark Matter, a Velkonite and an Orvium Reinforced Plate and 250 Thulium.
 - **What a plate is for.** The last tier of every upgrade chain asks for **4** and at least one Ancient Control Unit: the tier IV amps, shield cells and thrusters, the Heavy Shield Core, the Engine III, the Adaptive Core III, the Helios Beam, the Extra Slots CPU III and the Base CPU II (13 pieces). The Forge asks for 2 of them to raise an item from Resonant to Radiant, and 2 more from Radiant to Ascendant. The Skylab's Engine, Defense and Radar modules ask for plates too, to build and to upgrade ([Resources](/wiki/06-Items/Resources.md#dark-matter-plate)).
@@ -25,14 +25,14 @@
 | **What it is** | An Epic resource | A Mythical resource |
 | **Where it comes from** | The black hole in Danger Sector 4, for N.I.K.E. rockets fired into it; a little from the Dormant Swarm and from the Inert Masses of the Dormant Swamp, a lot more from the Tesseract of Danger Sector 4 | Assembly, pressed from 5 Dark Matter, a Velkonite and an Orvium Reinforced Plate, and 250 Thulium |
 | **What you do first** | Research the N.I.K.E. (3 h, no Dark Matter) and craft some | Research the Plate's recipe (1 d, 10 Dark Matter) |
-| **What it is for** | Research costs (132 technologies, 1,604 in all) and the plate | The last tier of every upgrade chain: 4 for each of 13 pieces; the Master Drone's upgrade: 10; the Forge: 2 for each of its top two steps |
+| **What it is for** | Research costs (133 technologies, 1,614 in all) and the plate | The last tier of every upgrade chain: 4 for each of 13 pieces; the Master Drone's upgrade: 10; the Forge: 2 for each of its top two steps |
 
 ## How to get Dark Matter
 
 1. **Build the Research Centre and research the N.I.K.E.** The Centre unlocks at Skylab Core level 10 ([Research](/wiki/03-Mechanics/Research.md)). The N.I.K.E.'s technology takes 3 hours and asks for no Dark Matter.
 2. **Craft N.I.K.E.s in Assembly.** One craft makes 5 rockets in 5 minutes for 100,000 Credits, 1,500 Thulium, 20 Ship Fragment, 4 Reinforced Hull Plate and 40 Cataclysite. You can carry 20. See [Rockets](/wiki/06-Items/Rockets.md#the-craft-only-rockets).
 3. **Fly to Danger Sector 4 (`DS-4`).** It is the PvP sector in the middle of the galaxy, and the black hole hangs at its exact centre in every world ([The Black Hole](/wiki/03-Mechanics/Black-Hole.md)). No alien or company pilot comes near it, but other pilots do. From season day 11 the aliens of the [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) live in the top-left corner of the sector, far from your line.
-4. **Fire at the black hole from its rim.** The radiation starts 4,000 units from the centre. A N.I.K.E. flies 4,050 units, so you can fire from anywhere between 4,000 and 4,380 units away. With no target selected, put the cursor on the hole. You can fire one rocket every 4.6 seconds. From farther away it falls short.
+4. **Fire at the black hole from its rim.** The radiation starts 4,000 units from the centre. A N.I.K.E. flies 4,455 units, so you can fire from anywhere between 4,000 and 4,785 units away. With no target selected, put the cursor on the hole. You can fire one rocket every 4.6 seconds. From farther away it falls short.
 5. **Pick up the crates.** Each N.I.K.E. that reaches the hole gives back **1, 2 or 3 Dark Matter** (1 a quarter of the time, 2 half of it, 3 a quarter), in one crate for each unit, so one, two or three crates. They land on the rim of the hole's zone, 3,050 to 3,950 units from the centre, near the line of your shot. Fly to each within 200 units: the pickup takes half a second.
 6. **Take it home.** Dark Matter goes into your inventory. At the station, with your ship landed, you can add it to the Research Centre or use it in Assembly.
 
@@ -41,13 +41,13 @@ About **5 rockets make 10 Dark Matter**. The Resource Magnet Booster adds nothin
 ### Keeping it safe
 
 - **The crates are yours for 60 seconds**, and your clan's. After that anyone on the map may take them, and they disappear after 240 seconds. A map holds at most 52 Dark Matter crates, and a new one pushes out the oldest of them.
-- **The rim is inside the radiation.** It costs 0.3 to 0.8 % of your ship's total HP every second there, more the closer to the hole. A full ship lasts about 2 to 5 minutes; a minute in the middle of the band costs a third. The pull ends at 3,000 units, so nothing carries you or the crates away.
+- **The rim is inside the radiation.** It costs 0.3 to 0.8 % of your ship's hull every second there, more the closer to the hole. A full ship lasts about 2 to 5 minutes; a minute in the middle of the band costs a third. The pull ends at 3,000 units, so nothing carries you or the crates away.
 - **Danger Sector 4 is PvP.** A rival can wait on your line: a N.I.K.E. hits the first ship it touches (67,500 to 75,000 damage) and the hole gets nothing. A rival can also wait for the crates once your 60 seconds are over. Fire from the rim, pick the crates up in the order of your shots and bring company.
 - **Other sources.** A Dormant Pulse of the [Dormant Swarm](/wiki/05-Swarms/Dormant-Swarm.md) drops 1 to 5 Dark Matter one time in five, for the pilot who did it the most damage. The swarm needs a big group. An Inert Mass of the [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) drops some now and then too, but it lives under the swamp's guns. The big one is the [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md) of Danger Sector 4: every pilot its kill pays gets a private box, and the kill's pot of 10 to 20 Dark Matter is split between them by damage, 5 at most for each pilot, so a group of four or more takes home about 15 a kill. It needs a very large group in a PvP sector and comes back 30 minutes after it is destroyed.
 
 ## Dark Matter in the Research Centre {#in-the-research-centre}
 
-Technologies at the top of the tree ask for Dark Matter on top of their science: **10** for each of the 22 top technologies, and **5, 13 or 20** for each of the 16 drone formations (the stronger the formation, the more). The two Hull Plating researches ask **25 and 40**, and the ship technologies, the 13 designs and the 55 slots, **10** each. The Skylab's Engine, Defense and Radar modules ask **5, 10, 15 or 20** for each level from their second on, 115 in all ([Research](/wiki/03-Mechanics/Research.md#module-technologies)). The tables in [Research](/wiki/03-Mechanics/Research.md#dark-matter) list all the others.
+Technologies at the top of the tree ask for Dark Matter on top of their science: **10** for each of the 22 top technologies, and **5, 13 or 20** for each of the 16 drone formations (the stronger the formation, the more). The two Hull Plating researches ask **25 and 40**, and the ship technologies, the 14 designs and the 55 slots, **10** each. The Skylab's Engine, Defense and Radar modules ask **5, 10, 15 or 20** for each level from their second on, 115 in all ([Research](/wiki/03-Mechanics/Research.md#module-technologies)). The tables in [Research](/wiki/03-Mechanics/Research.md#dark-matter) list all the others.
 
 1. **Open the Research view** of your Skylab at the station and pick the technology. Its card has a **Dark Matter** row: how much is in the Centre, of how much it takes (for example 3 / 10).
 2. **Press Add.** It moves Dark Matter from your cargo into the Research Centre, as much as is missing, as far as you carry it. Your ship must be landed. **Take back** gives it back to your cargo.
@@ -105,7 +105,7 @@ A Paragon's 58 pieces are its 10 lasers, their 40 amps and its 8 generator and s
 | One Dark Matter Plate | 5 | 2.5 |
 | The two plates of one Forge step | 10 | 5 |
 | The four plates of one last-tier piece | 20 | 10 |
-| Every technology that asks for Dark Matter | 1,604 | 802 |
+| Every technology that asks for Dark Matter | 1,614 | 807 |
 
 A first upgrade from nothing is the recipe (10) and two plates (10): 20 Dark Matter, about 10 N.I.K.E. rockets, which is two crafts. A first tier IV amp from nothing is the plate's recipe (10), the amp's own technology (10) and 4 plates (20): 40 Dark Matter, about 20 N.I.K.E. rockets.
 

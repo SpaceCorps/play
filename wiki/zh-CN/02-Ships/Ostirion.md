@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 38baebcbfc5e575a -->
+<!-- wiki-i18n source: 55107c4d57b624af -->
 <!-- wiki-i18n title: Ostirion -->
 # Ostirion
 
@@ -10,6 +10,7 @@ Ostirion 是一款扎实的中阶拦截机，在速度、防御和火力上都�
 - **基础速度**：260
 - **激光槽位**：5
 - **附加槽位**：2
+- **装甲槽位**: 3
 
 ### 发生器与支援槽位 {#generator-support-slots}
 

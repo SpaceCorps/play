@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8a72341fc0a0a8d1 -->
+<!-- wiki-i18n source: 27e04944329244c2 -->
 <!-- wiki-i18n title: Essaims -->
 # Essaims {#swarms}
 
@@ -64,6 +64,8 @@ Le monde met un essaim à l’échelle comme il le fait pour tout alien ([Mondes
 
 <!-- swarms-world:end -->
 
+Un essaim a aussi un **rang**, comme tout alien, et la lettre grecque de son rang se place devant son nom : `-=γ-Boss Seeker=-` est un Boss Seeker de rang Gamma. Le meneur d’un essaim tire son rang **à son apparition**, dans la table de son monde, et un essaim a le rang de son monde : un essaim Alpha dans Alpha, un essaim Beta dans Beta et un essaim Gamma dans Gamma, qui est l’essaim du tableau ci-dessus, comme il l’a toujours été. Dans les mondes plus élevés, un essaim est de temps en temps d’un rang inférieur, environ un sur vingt : les essaims Pirate et Seeker dans Beta, et les essaims Pirate, Seeker, Phantasm, Goombah et Tesseract dans Gamma ; l’essaim Crystalys, ainsi que les essaims Phantasm, Goombah et Tesseract dans Beta, sont toujours du rang de leur monde. Un essaim n’est jamais d’un rang supérieur à celui de son monde, et aucun n’est Delta, le quatrième rang, le double de Gamma, que seuls tirent les aliens ordinaires. Les vaisseaux qui viennent avec le meneur partagent son rang, et le meneur suivant du secteur tire de nouveau. Un essaim est aussi puissant et paie autant que la ligne du tableau ci-dessus qui porte le nom de son rang : un essaim plus faible est aussi solide qu’un essaim du monde inférieur et son élimination paie ce que paie là-bas une élimination. La vitesse, la portée et le butin ne changent pas avec le rang. L’essaim Dormant n’a pas de rang : il garde les valeurs de son monde.
+
 ## Ce que les pilotes apprennent {#what-the-pilots-are-told}
 
 Les essaims Seeker, Pirate, Phantasm, Goombah, Crystalys et Tesseract avertissent les pilotes de leur propre secteur quand un boss apparaît et quand il est détruit. L’essaim Dormant prévient son monde entier, et il est marqué sur les cartes des secteurs dangereux et sur la carte de la galaxie, pour que les pilotes puissent le trouver. Ce sont des lignes Système : elles apparaissent dans l’onglet **Système** du chat, avec un compteur de lignes non lues, et pas dans **Global** ni **Local**. L’élimination d’un boss a aussi une ligne dans le fil des éliminations, qui nomme le pilote à qui elle est créditée. La liste *D’un coup d’œil* de chaque article dit qui est prévenu.
@@ -86,7 +88,7 @@ Les essaims Seeker, Pirate, Phantasm, Goombah, Crystalys et Tesseract avertissen
 
 Un alien ordinaire paie le pilote qui l’a touché en premier ([Combat](/wiki/03-Mechanics/Combat.md#kill-rewards-first-hit-claims)). Le meneur d’un essaim, et chaque Dormant Pulse, paient plutôt **selon les dégâts infligés** :
 
-- **Le gain est réparti selon les dégâts.** Tout pilote qui a infligé au moins la part indiquée dans les règles ci-dessus est payé, en proportion des dégâts infligés : les crédits, le Thulium, l’XP et l’honneur de l’élimination sont répartis entre eux. Un pilote sous cette part ne reçoit rien.
+- **Le gain est réparti selon les dégâts.** Tout pilote qui a infligé au moins la part indiquée dans les règles ci-dessus est payé, en proportion des dégâts infligés : les crédits, le Thulium, l’XP et l’honneur de l’élimination, au gain du rang de l’essaim, sont répartis entre eux. Un pilote sous cette part ne reçoit rien.
 - **La caisse de cargaison va au pilote qui a infligé le plus de dégâts.** Elle est à lui (et à son clan) pendant 30 secondes, comme pour tout alien, puis n’importe qui peut la prendre ([Cargaison](/wiki/03-Mechanics/Cargo.md)). Chaque vaisseau Dormant a son propre décompte de dégâts et sa propre caisse. Le Tesseract fait exception : il ne laisse aucune caisse, et chaque pilote que son élimination paie reçoit une caisse privée à lui ([Essaim Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md#rewards-and-drops)). Quand son groupe compte au moins deux pilotes qui ont endommagé le meneur, la caisse est répartie selon les dégâts en une [caisse personnelle](/wiki/03-Mechanics/Cargo.md#personal-crates) pour chacun d’eux.
 - **Les suivants paient comme d’habitude** : les Pirate Scouts, les Seeker Slaves, les Guards des essaims Phantasm, Goombah et Crystalys et les Facets de l’essaim Tesseract paient le pilote qui les a touchés en premier, et leur gain est faible à côté de celui d’un boss.
 - **Le gain d’un boss est fait pour battre les aliens qui l’entourent.** Une minute de combat contre un Pirate Boss, un Boss Phantasm ou un Boss Goombah paie plus qu’une minute de combat contre un Goombah, et une minute contre l’essaim Dormant ou un Boss Crystalys paie plus qu’une minute contre un Crystalys ; le Boss Seeker paie exactement dix Seekers.

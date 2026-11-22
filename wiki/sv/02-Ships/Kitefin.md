@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2803f28f4597c776 -->
+<!-- wiki-i18n source: a9b3f1a14b051e92 -->
 <!-- wiki-i18n title: Kitefin -->
 # Kitefin
 
@@ -10,6 +10,7 @@ Kitefin är ett lätt kanonskepp och det första skepp de flesta piloter köper:
 - **Grundhastighet**: 220
 - **Laserplatser**: 4
 - **Extraplatser**: 2
+- **Pansarplatser**: 3
 
 ### Generator- och stödplatser {#generator-support-slots}
 

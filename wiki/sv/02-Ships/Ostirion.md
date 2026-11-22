@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 38baebcbfc5e575a -->
+<!-- wiki-i18n source: 55107c4d57b624af -->
 <!-- wiki-i18n title: Ostirion -->
 # Ostirion
 
@@ -10,6 +10,7 @@ Ostirion är en gedigen interceptor i mellanklassen som ger en rejäl uppgraderi
 - **Grundhastighet**: 260
 - **Laserplatser**: 5
 - **Extraplatser**: 2
+- **Pansarplatser**: 3
 
 ### Generator- och stödplatser {#generator-support-slots}
 

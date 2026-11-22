@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: d605328d6ea5df78 -->
+<!-- wiki-i18n source: 91ebd8675b1f7ea3 -->
 <!-- wiki-i18n title: Gövde Kaplaması -->
 # Gövde Kaplaması {#hull-plating}
 
 <!-- wiki-search: hull plate; hull plate slot; hull plate slots; plate slot; plate; armour; armor; hpl; gövde kaplaması; kaplama; gövde plakası; gövde plakası yuvası; plaka; zırh -->
 
-Dormant sürüsünün incelenmesi zırh teknolojisinde ilerlemeleri ortaya koydu. Bu teknolojiyle gemiler gövdelerini geliştirebilir: **gövde kaplaması** (Hull Plating), üretilmiş bir geminin gövde plakası yuvasına takılan ve ona gövde puanı ekleyen zırhtır. [Boosterlar](/wiki/06-Items/Boosters.md) sayfasındaki zamanlı bir bonus olan Hull Plating **Booster** ile aynı şey değildir.
+Dormant sürüsünün incelenmesi zırh teknolojisinde ilerlemeleri ortaya koydu. Bu teknolojiyle gemiler gövdelerini geliştirebilir: **gövde kaplaması** (Hull Plating), bir geminin gövde plakası yuvasına takılan ve ona gövde puanı ekleyen zırhtır. [Boosterlar](/wiki/06-Items/Boosters.md) sayfasındaki zamanlı bir bonus olan Hull Plating **Booster** ile aynı şey değildir.
 
 ![The Hull plates card of the Hangar: the slots researched hold Hull Plating, the others show a padlock](../../img/wiki-img/shots/hull-plates.jpg)
 
@@ -28,26 +28,27 @@ Hull Plating I => Hull Plating II => Hull Plating III
 
 | Eşya | Eklediği gövde | Nereden gelir |
 | :--- | ---: | :--- |
-| **Hull Plating I** | 8.000 | Mağaza, 5.000 Thulium |
-| **Hull Plating II** | 15.000 | Montaj, bir Hull Plating I kullanılarak |
-| **Hull Plating III** | 25.000 | Montaj, bir Hull Plating II kullanılarak |
+| **Hull Plating I** | 7.000 | Mağaza, 5.000 Thulium |
+| **Hull Plating II** | 14.000 | Montaj, bir Hull Plating I kullanılarak |
+| **Hull Plating III** | 20.000 | Montaj, bir Hull Plating II kullanılarak |
 
 Hull Plating I satın alınır. **II ve III yükseltmedir**: Montaj bir alt kademeden bir kaplamayı harcar (envanterinde boşta olan) ve Thulium, malzeme ve **Dark Matter Plate** ister: II için 5, III için 8; başka her ekipman parçasının son kademesi ise 4 tane ve bir Ancient Control Unit ister. Her birinin önce teknolojisi gerekir; bu teknoloji [Araştırma](/wiki/03-Mechanics/Research.md#tree-hull-plating) sayfasındaki Gövde Kaplaması ağacındadır: II için 1 gün ve 25 Dark Matter, III için 2 gün ve 40, Dark Matter Plate teknolojisine ek olarak. Yukarıdaki ağaç fiyatları, malzemeleri ve süreleri gösterir.
 
-[Demirhane](/wiki/06-Items/Forge.md) her kaplamayı kabul eder; bir yükseltme, harcadığı kaplamanın Demirhane kademesini ve bonusunu korur. Bir kaplamanın tek bir özelliği vardır, gövdesi; bu yüzden tek bir bonus taşır, kademeye göre +%2 ile +%15 arası: Yücelmiş kademedeki bir Hull Plating III en fazla 28.750 gövde puanı ekler. [Açık Artırma](/wiki/03-Mechanics/Auction.md) yalnızca Hull Plating II ve Hull Plating III eşyalarını listeler; Mağaza’nın sattığı Hull Plating I eşyasını asla.
+[Demirhane](/wiki/06-Items/Forge.md) her kaplamayı kabul eder; bir yükseltme, harcadığı kaplamanın Demirhane kademesini ve bonusunu korur. Bir kaplamanın tek bir özelliği vardır, gövdesi; bu yüzden tek bir bonus taşır, kademeye göre +%2 ile +%15 arası: Yücelmiş kademedeki bir Hull Plating III en fazla 23.000 gövde puanı ekler. [Açık Artırma](/wiki/03-Mechanics/Auction.md) yalnızca Hull Plating II ve Hull Plating III eşyalarını listeler; Mağaza’nın sattığı Hull Plating I eşyasını asla.
 
 ## Gövde plakası yuvaları {#hull-plate-slots}
 
-Gövde kaplaması yalnızca **gövde plakası yuvalarına** takılır; Montaj’da ürettiğin dört geminin lazer, jeneratör, ekstra, yetenek ve dron yuvalarının yanında bir de bu kendine özgü yuva türü vardır:
+Gövde kaplaması yalnızca **gövde plakası yuvalarına** takılır; her geminin lazer, jeneratör, ekstra, yetenek ve dron yuvalarının yanında bir de bu kendine özgü yuva türü vardır. En çoğuna Montaj’da ürettiğin gemiler sahiptir: tablodaki dört gemi ve her seviyede bir tane artarak 5 ile 9 arası yuvası olan [Miyuki](/wiki/02-Ships/Miyuki.md):
 
 | Gemi | Gövde plakası yuvaları | Tam bir Hull Plating III seti şunu ekler |
 | :--- | ---: | ---: |
-| **Paragon** | 5 | 125.000 |
-| **Storm** | 8 | 200.000 |
-| **Ironclad** | 15 | 375.000 |
-| **Wraith** | 10 | 250.000 |
+| **Paragon** | 5 | 100.000 |
+| **Storm** | 8 | 160.000 |
+| **Ironclad** | 15 | 300.000 |
+| **Wraith** | 10 | 200.000 |
 
-- **Başta hepsi kilitli.** Bir yuva, Skylab’da araştırdığında açılır: her yuva için bir teknoloji, 1 saat ve 10 Dark Matter, ilkinden başlayarak sırayla. [Araştırma](/wiki/03-Mechanics/Research.md#ship-technologies) görünümü bir geminin yuvalarını, her biri için bir nokta bulunan tek bir kart olarak gösterir.
+- **Üretilmiş gemide başta hepsi kilitli.** Bir yuva, Skylab’da araştırdığında açılır: her yuva için bir teknoloji, 1 saat ve 10 Dark Matter, ilkinden başlayarak sırayla. [Araştırma](/wiki/03-Mechanics/Research.md#ship-technologies) görünümü bir geminin yuvalarını, her biri için bir nokta bulunan tek bir kart olarak gösterir.
+- **Mağazanın dört gemisinde üç yuva vardır, baştan açık.** Protos, Kitefin, Ostirion ve Nomad’ın her birinde 3 gövde plakası yuvası vardır ve araştırılacak bir şey yoktur: ilk uçuştan itibaren açıktırlar. Tam bir Hull Plating III seti her birine 60.000 ekler.
 - **Tek bir gemi değil, bir gemi türü.** Paragon için açtığın yuvalar her Paragon tasarımında da açıktır ([Gemi tasarımları](/wiki/03-Mechanics/Ship-Designs.md)). Bir teknoloji kalıcı olarak senindir: sıfırlama onu korur.
 - **İki konfigürasyon da bunları paylaşır.** Plakalar gemiye aittir: konfigürasyon değiştirmek onları takılı bırakır ve ikisinde de hangarda aynı plakalar görünür.
 - **Karışık olabilir.** Bir yuva herhangi bir gövde kaplamasını alır, aynı türden iki tane de olabilir.
@@ -62,4 +63,4 @@ Bir plaka gövdesini geminin kendi gövdesine ekler; hangar ve Gemi penceresi b�
 
 ## Gövde kaplaması mı, Hull Plating Booster mı? {#hull-plating-or-booster}
 
-İki şey aynı adı paylaşır. **Hull Plating** (bu sayfa) zırhtır: üretilmiş bir geminin gövde plakası yuvasında duran ve takılı olduğu sürece gövdesini ekleyen bir plakadır. **Hull Plating Booster** ise [Boosterlar](/wiki/06-Items/Boosters.md) sayfasındaki zamanlı bir bonustur: uçtuğun her gemide 10 saat boyunca +%10 maksimum gövde puanı verir ve takılacak bir şeyi yoktur. İkisi toplanır: önce plakalar gelir, bonusun %10’u toplam üzerinden alınır.
+İki şey aynı adı paylaşır. **Hull Plating** (bu sayfa) zırhtır: bir geminin gövde plakası yuvasında duran ve takılı olduğu sürece gövdesini ekleyen bir plakadır. **Hull Plating Booster** ise [Boosterlar](/wiki/06-Items/Boosters.md) sayfasındaki zamanlı bir bonustur: uçtuğun her gemide 10 saat boyunca +%10 maksimum gövde puanı verir ve takılacak bir şeyi yoktur. İkisi toplanır: önce plakalar gelir, bonusun %10’u toplam üzerinden alınır.

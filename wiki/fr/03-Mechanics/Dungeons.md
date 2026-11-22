@@ -134,7 +134,7 @@ Chaque sorte à tour de rôle. La coque et le bouclier sont les valeurs habituel
 - **Ressemble à** : Pirate Boss
 - **Vole en meutes de** : 2
 - **Rapporte et lâche comme** : Pirate Boss
-- **Roquette** : Une roquette droite toutes les 5 s, portée de 1 000 unités
+- **Roquette** : Une roquette droite toutes les 5 s, portée de 1 100 unités
 
 |  | Étape 1 | Étape 2 | Étape 3 |
 | :--- | ---: | ---: | ---: |
@@ -207,7 +207,7 @@ Le Seigneur de guerre attend dans la salle au bout du labyrinthe, et c’est sa 
 | :--- | ---: | ---: | ---: |
 | Coque | 10 000 000 | 15 000 000 | 25 000 000 |
 | Bouclier | 8 000 000 | 12 000 000 | 20 000 000 |
-| Dégâts des lasers (une salve par seconde) | 12 500–15 000 | 15 000–17 500 sur chacun de 2 pilotes | 20 000–25 000 sur chacun de 2 pilotes |
+| Dégâts des lasers (une salve par seconde) | 17 500–22 500 | 26 250–33 750 sur chacun de 2 pilotes | 35 000–45 000 sur chacun de 2 pilotes |
 | Vitesse | 120 | 120 | 120 |
 | Portée des lasers | 1 100 | 1 100 | 1 100 |
 
@@ -260,8 +260,8 @@ La fenêtre Donjon de clan compte combien d’entre eux il reste à détruire po
 | :--- | :--- | :--- | :--- |
 | **Aura de vol de vie** | 8 000 par seconde | 10 000 par seconde | 12 000 par seconde |
 | **Chute de météores** | 6 météores par salve, 80 000 chacun | 8 météores par salve, 100 000 chacun | 10 météores par salve, 120 000 chacun |
-| **Focus sur le plus recherché** | 18 750–22 500 par tir supplémentaire sur le pilote ayant infligé le plus de dégâts, un toutes les 1 s | 22 500–26 250 par tir supplémentaire sur le pilote ayant infligé le plus de dégâts, un toutes les 1 s | 30 000–37 500 par tir supplémentaire sur le pilote ayant infligé le plus de dégâts, un toutes les 1 s |
-| **Salve de roquettes** | 50 000–75 000 par roquette sur chaque pilote, une toutes les 15 s | 62 500–93 750 par roquette sur chaque pilote, une toutes les 15 s | 75 000–112 500 par roquette sur chaque pilote, une toutes les 15 s |
+| **Focus sur le plus recherché** | 26 250–33 750 par tir supplémentaire sur le pilote ayant infligé le plus de dégâts, un toutes les 1 s | 39 375–50 625 par tir supplémentaire sur le pilote ayant infligé le plus de dégâts, un toutes les 1 s | 52 500–67 500 par tir supplémentaire sur le pilote ayant infligé le plus de dégâts, un toutes les 1 s |
+| **Salve de roquettes** | 100 000–150 000 par roquette sur chaque pilote, une toutes les 15 s | 125 000–187 500 par roquette sur chaque pilote, une toutes les 15 s | 150 000–225 000 par roquette sur chaque pilote, une toutes les 15 s |
 | **Absorption de bouclier** | 10 000 de bouclier par seconde | 12 500 de bouclier par seconde | 15 000 de bouclier par seconde |
 | **Renfort d’essaim** | 12 Goombahs | 18 Goombahs | 24 Goombahs |
 | **Zone du Chaos** | Les pilotes dans l’anneau ne peuvent pas attaquer | Les pilotes dans l’anneau ne peuvent pas attaquer | Les pilotes dans l’anneau ne peuvent pas attaquer |
@@ -311,14 +311,14 @@ Les cartes sont tirées une à une dans la réserve ci-dessous. La chance est ce
 
 | Carte | Étape 1 | Étape 2 | Étape 3 | Chance | Revient à |
 | :--- | ---: | ---: | ---: | ---: | :--- |
-| Thulium | 2 000 | 3 000 | 5 000 | 23,9 % | Chaque pilote payé |
+| Thulium | 4 000 | 6 000 | 10 000 | 23,9 % | Chaque pilote payé |
 | Velkonite Reinforced Plate | 10 | 15 | 25 | 13,65 % | Chaque pilote payé |
 | Velkonite | 200 | 300 | 500 | 13,65 % | Chaque pilote payé |
 | Orvium | 200 | 300 | 500 | 13,65 % | Chaque pilote payé |
 | Ultra Core | 5 000 | 7 500 | 12 500 | 11,4 % | Chaque pilote payé |
 | Experimental Fusion Core | 3 000 | 4 500 | 7 500 | 9,1 % | Chaque pilote payé |
 | Dark Matter | 10 | 16 | 24 | 9,1 % | Chaque pilote payé |
-| Dark Matter Plate | 1 | 1 | 2 | 4,55 % | Chaque pilote payé |
+| Dark Matter Plate | 4 | 6 | 8 | 4,55 % | Chaque pilote payé |
 | Starfire-III | – | – | 1 | 0,07 % | Chaque pilote payé |
 | Helios Beam | – | – | 1 | 0,07 % | Chaque pilote payé |
 | Engine III | – | – | 1 | 0,07 % | Chaque pilote payé |
@@ -351,9 +351,9 @@ Les **Orvium Reinforced Plates** et les **Echo Shards** et **Lattice Shards** de
 
 | Étape | Honneur | Expérience | Crédits | Thulium | Munitions x4 | Orvium Reinforced Plates | Echo Shards | Lattice Shards | Points de classement PvE |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Étape 1** | 25 000 | 600 000 | 5 000 000 | 4 000 | 4 000 | 5 | 12 | 5 | 850 |
-| **Étape 2** | 50 000 | 1 500 000 | 10 000 000 | 9 000 | 9 000 | 10 | 8 | 6 | 2 000 |
-| **Étape 3** | 100 000 | 2 400 000 | 17 500 000 | 15 000 | 15 000 | 15 | 8 | 7 | 3 400 |
+| **Étape 1** | 25 000 | 600 000 | 5 000 000 | 8 000 | 4 000 | 5 | 12 | 5 | 850 |
+| **Étape 2** | 50 000 | 1 500 000 | 10 000 000 | 18 000 | 9 000 | 10 | 8 | 6 | 2 000 |
+| **Étape 3** | 100 000 | 2 400 000 | 17 500 000 | 30 000 | 15 000 | 15 | 8 | 7 | 3 400 |
 
 - **Heartshards** : 1 à la première réussite payée de chaque étape d’une saison, et 5 % de chances d’en obtenir un de plus à chaque réussite payée.
 
@@ -382,8 +382,8 @@ Ce qu’un pilote peut toucher en un jour, et dans la meilleure semaine que perm
 
 | Paie de chaque pilote | Honneur | Expérience | Crédits | Thulium | Munitions x4 | Orvium Reinforced Plates | Echo Shards | Lattice Shards | Points de classement PvE |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Un jour, chaque étape une fois | 175 000 | 4 500 000 | 32 500 000 | 28 000 | 28 000 | 30 | 28 | 18 | 6 250 |
-| La meilleure semaine : 7 × Étape 3 et 3 × Étape 2 | 850 000 | 21 300 000 | 152 500 000 | 132 000 | 132 000 | 135 | 80 | 67 | 29 800 |
+| Un jour, chaque étape une fois | 175 000 | 4 500 000 | 32 500 000 | 56 000 | 28 000 | 30 | 28 | 18 | 6 250 |
+| La meilleure semaine : 7 × Étape 3 et 3 × Étape 2 | 850 000 | 21 300 000 | 152 500 000 | 264 000 | 132 000 | 135 | 80 | 67 | 29 800 |
 
 L’expérience et l’honneur d’une étape terminée et payée comptent pour vos points de classement PvE : un point pour chaque tranche de 1 000 d’expérience et un pour chaque tranche de 100 d’honneur.
 

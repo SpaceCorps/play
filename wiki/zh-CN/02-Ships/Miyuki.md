@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 471213bf365fc9b9 -->
+<!-- wiki-i18n source: f36888650a9078b3 -->
 <!-- wiki-i18n title: Miyuki -->
 # Miyuki
 
@@ -7,7 +7,7 @@ Miyuki 是一艘分为五个等级的支援舰船。你在装配站像制造其�
 ## 属性 {#stats}
 
 - **生命值（HP）**：128,000
-- **基础速度**：270
+- **基础速度**：250
 - **激光槽位**：5
 - **附加槽位**：3
 - **装甲槽位**: 5
@@ -31,11 +31,11 @@ Miyuki 是一艘分为五个等级的支援舰船。你在装配站像制造其�
 
 | 等级 | 船体 | 基础速度 | 激光 | 装甲 | 核心 / 支援 / 辅助 | 护盾容量 | 护盾吸收率 |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Miyuki** | 128,000 | 270 | 5 | 5 | 3 / 3 / 2 | – | – |
-| **Miyuki II** | 134,400 | 270 | 6 | 6 | 3 / 3 / 2 | +5% | +2% |
-| **Miyuki III** | 141,120 | 270 | 7 | 7 | 3 / 3 / 2 | +10.25% | +4.04% |
-| **Miyuki IV** | 148,176 | 320 | 8 | 8 | 3 / 3 / 2 | +15.76% | +6.12% |
-| **Miyuki V** | 155,585 | 320 | 9 | 9 | 4 / 4 / 4 | +21.55% | +8.24% |
+| **Miyuki** | 128,000 | 250 | 5 | 5 | 3 / 3 / 2 | – | – |
+| **Miyuki II** | 134,400 | 250 | 6 | 6 | 3 / 3 / 2 | +5% | +2% |
+| **Miyuki III** | 141,120 | 250 | 7 | 7 | 3 / 3 / 2 | +10.25% | +4.04% |
+| **Miyuki IV** | 148,176 | 300 | 8 | 8 | 3 / 3 / 2 | +15.76% | +6.12% |
+| **Miyuki V** | 155,585 | 300 | 9 | 9 | 4 / 4 / 4 | +21.55% | +8.24% |
 
 护盾容量和护盾吸收率是相对于 1 级的加成。
 
@@ -63,11 +63,13 @@ Miyuki 的能力属于舰船，而不是某件物品：不占用能力槽，也�
 
 连接持续 5 秒，可达你小队或企业中 1,200 单位内的舰船。Heal Pod 可达 600。Channel Shield 除了点数之外，每秒还会恢复双方各自最大护盾的一部分：Miyuki III 为 3%，IV 为 4%，V 为 5%（表中的百分比）。
 
+你的飞行员专长[治疗](/wiki/03-Mechanics/Pilot-Skills.md)对这三者都有效：100 级时，它让 Heal Pod、Channel Heal 和 Channel Shield（它们的点数和占最大护盾的比例）强 30%，并把它们的等待时间缩短 10%，因此休息 100 秒的 Channel Heal 只休息 90 秒。上面的表格给出的是没有它时的数字。
+
 ## 研究 {#research}
 
 - **等级。** Miyuki II 至 V 是 Skylab 里各自独立的科技，每一级都排在低一级之后：II 和 III 需要 1 天，IV 和 V 需要 2 天，每项都需要 10 个 Dark Matter。在研究视图中，五个等级上下排列，每一级都有一个箭头指向下一级：II 在 I 之后研究，III 在 II 之后，IV 在 III 之后，V 在 IV 之后。
 - **槽位。** 装甲槽位、第 6 个起的激光槽位和第 9 个起的发生器槽位，都是 Skylab 里独立的科技，每项需要 1 小时和 10 个 Dark Matter：装甲槽位 1 至 9 从第一个起依次研究，激光槽位 6 至 9（各排在对应等级之后），发生器槽位 9 至 12（各排在 5 级之后）。槽位一经研究就会在舰船上开启，无论它是几级；尚未研究的槽位在机库里显示为锁定。
-- **装甲槽位。** Miyuki 在 1 级有 5 个、在 5 级有 9 个用于[船体装甲](/wiki/06-Items/Hull-Plating.md)的[装甲槽位](/wiki/06-Items/Hull-Plating.md#hull-plate-slots)，制造出来时全部锁定。9 个槽位全部装上 Hull Plating III，可增加 225,000 点船体。
+- **装甲槽位。** Miyuki 在 1 级有 5 个、在 5 级有 9 个用于[船体装甲](/wiki/06-Items/Hull-Plating.md)的[装甲槽位](/wiki/06-Items/Hull-Plating.md#hull-plate-slots)，制造出来时全部锁定。9 个槽位全部装上 Hull Plating III，可增加 180,000 点船体。
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8a72341fc0a0a8d1 -->
+<!-- wiki-i18n source: 27e04944329244c2 -->
 <!-- wiki-i18n title: Enjambres -->
 # Enjambres {#swarms}
 
@@ -64,6 +64,8 @@ El mundo escala un enjambre como escala a todos los alienígenas ([Mundos](/wiki
 
 <!-- swarms-world:end -->
 
+Un enjambre también tiene un **grado**, como todo alienígena, y la letra griega de su grado va antes de su nombre: `-=γ-Boss Seeker=-` es un Boss Seeker de grado Gamma. El líder de un enjambre sortea su grado **al aparecer**, de la tabla de su mundo, y un enjambre tiene el grado de su mundo: un enjambre Alpha en Alpha, uno Beta en Beta y uno Gamma en Gamma, que es el enjambre de la tabla de arriba, como siempre fue. En los mundos más altos, de vez en cuando un enjambre es de un grado inferior, uno de cada veinte aproximadamente: los enjambres Pirate y Seeker en Beta, y los enjambres Pirate, Seeker, Phantasm, Goombah y Tesseract en Gamma; el enjambre Crystalys, y los enjambres Phantasm, Goombah y Tesseract en Beta, son siempre del grado de su mundo. Un enjambre nunca es de un grado superior al de su mundo, y ninguno es Delta, el cuarto grado, el doble que Gamma, que solo sacan los alienígenas normales. Las naves que vienen con el líder comparten su grado, y el siguiente líder del sector vuelve a sortearlo. Un enjambre es tan fuerte y paga lo mismo que la fila de la tabla de arriba que lleva el nombre de su grado: un enjambre más débil es tan duro como uno del mundo inferior y su derribo paga lo que allí paga un derribo. La velocidad, el alcance y el botín no cambian con el grado. El enjambre Dormant no tiene grado: conserva las cifras de su mundo.
+
 ## Qué se les avisa a los pilotos {#what-the-pilots-are-told}
 
 Los enjambres Seeker, Pirate, Phantasm, Goombah, Crystalys y Tesseract avisan a los pilotos de su propio sector cuando aparece un jefe y cuando es destruido. El enjambre Dormant avisa a todo su mundo, y está marcado en los mapas de los sectores de peligro y en el mapa galáctico, para que los pilotos puedan encontrarlo. Son líneas del Sistema: aparecen en la pestaña **Sistema** del chat, con un contador de no leídas, y no en **Global** ni en **Local**. El derribo de un jefe también tiene una línea en el registro de bajas que nombra al piloto al que se le acredita. La lista *De un vistazo* de cada artículo dice a quién se avisa.
@@ -86,7 +88,7 @@ Los enjambres Seeker, Pirate, Phantasm, Goombah, Crystalys y Tesseract avisan a 
 
 Un alienígena normal paga al piloto que lo impactó primero ([Combate](/wiki/03-Mechanics/Combat.md#kill-rewards-first-hit-claims)). El líder de un enjambre, y cada Dormant Pulse, pagan en cambio **según el daño causado**:
 
-- **La paga se reparte según el daño.** Cada piloto que causó al menos la parte indicada en las reglas de arriba cobra, en proporción al daño causado: los créditos, el Thulium, la XP y el honor del derribo se reparten entre ellos. Un piloto por debajo de esa parte no cobra nada.
+- **La paga se reparte según el daño.** Cada piloto que causó al menos la parte indicada en las reglas de arriba cobra, en proporción al daño causado: los créditos, el Thulium, la XP y el honor del derribo, con la paga del grado del enjambre, se reparten entre ellos. Un piloto por debajo de esa parte no cobra nada.
 - **La caja de carga es para el piloto que más daño causó.** Es suya (y de su clan) durante 30 segundos, como con cualquier alienígena, y después puede cogerla cualquiera ([Carga](/wiki/03-Mechanics/Cargo.md)). Cada nave Dormant tiene su propio recuento de daño y su propia caja. El Tesseract es la excepción: no suelta ninguna caja, y cada piloto al que paga su derribo recibe una caja privada propia ([Enjambre Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md#rewards-and-drops)). Cuando su grupo tiene dos o más pilotos que dañaron al líder, la caja se reparte según el daño en una [caja personal](/wiki/03-Mechanics/Cargo.md#personal-crates) para cada uno de ellos.
 - **Los seguidores pagan como siempre**: los Pirate Scouts, los Seeker Slaves, los Guards de los enjambres Phantasm, Goombah y Crystalys y los Facets del enjambre Tesseract pagan al piloto que los impactó primero, y su paga es pequeña comparada con la de un jefe.
 - **La paga de un jefe está hecha para superar a los alienígenas de su entorno.** Un minuto de combate contra un Pirate Boss, un Boss Phantasm o un Boss Goombah paga más que un minuto contra un Goombah, y un minuto contra el enjambre Dormant o un Boss Crystalys paga más que un minuto contra un Crystalys; el Boss Seeker paga exactamente diez Seekers.

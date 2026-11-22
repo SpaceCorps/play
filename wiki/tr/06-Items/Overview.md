@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bf737868ee14ecc2 -->
+<!-- wiki-i18n source: 115842cfacf12619 -->
 <!-- wiki-i18n title: Genel bakış -->
 # Eşyalara genel bakış {#items-overview}
 
@@ -118,7 +118,7 @@ Her malzeme ve iki para birimi, nereden geldikleri ve ne işe yaradıkları ile 
 
 Mağaza, hangarın envanteri ve diğer eşya listeleri tek bir sırayla okunur: gemi, onun Gövde Kaplaması, sonra amfileri ve cephanesiyle bir lazer, hücreleriyle bir kalkan, iticileriyle bir motor, Uyarlanabilir Çekirdekler, ekstralar, sarf malzemeleri, dronlar, dron formasyonları, boosterlar ve kaynaklar. Bir türün içinde en ucuz olan önce gelir.
 
-- **Gövde Kaplaması**: Ürettiğin dört geminin gövde plakası yuvaları için zırh; Hull Plating I ile III arası, her biri daha fazla gövde ekler. Bkz. [Gövde Kaplaması](/wiki/06-Items/Hull-Plating.md).
+- **Gövde Kaplaması**: Her geminin gövde plakası yuvaları için zırh (Mağazanın dört gemisinde 3 açık yuva, ürettiğin gemilerde daha fazlası); Hull Plating I ile III arası, her biri daha fazla gövde ekler. Bkz. [Gövde Kaplaması](/wiki/06-Items/Hull-Plating.md).
 - **Lazerler**: Başlıca silah sistemlerin ve içlerine giren [amfiler](/wiki/06-Items/Lasers.md).
 - **Kalkanlar**: Savunma için jeneratörler ve [hücreler](/wiki/06-Items/Shields.md).
 - **İtki sistemleri**: Hız için motorlar ve [iticiler](/wiki/06-Items/Propulsion.md).

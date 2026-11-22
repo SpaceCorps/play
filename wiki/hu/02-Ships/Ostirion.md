@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 38baebcbfc5e575a -->
+<!-- wiki-i18n source: 55107c4d57b624af -->
 <!-- wiki-i18n title: Ostirion -->
 # Ostirion
 
@@ -10,6 +10,7 @@ Az Ostirion szilárd középkategóriás elfogó, amely jelentős előrelépést
 - **Alapsebesség**: 260
 - **Lézerfoglalatok**: 5
 - **Extrafoglalatok**: 2
+- **Páncélzatfoglalatok**: 3
 
 ### Generátor- és támogató foglalatok {#generator-support-slots}
 

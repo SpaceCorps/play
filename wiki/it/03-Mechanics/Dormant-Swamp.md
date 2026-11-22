@@ -41,11 +41,11 @@ Danno di un colpo, in ogni mondo:
 | Torretta [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | 5.000 / 4.400 | 5 s | 1.080 | 50.000 | 75.000 | 100.000 |
 | Torretta laser × 2 | 3.600 / 5.200; 6.400 / 5.200 | 1 s | 2.500 | 45.000–55.000 | 67.500–82.500 | 90.000–110.000 |
 
-- Un razzo viene lanciato a 90% della portata che lo stesso razzo ha in mano a un pilota, perché arrivi; una torretta laser spara una volta al secondo, e il suo danno viene tirato nell’intervallo indicato.
+- Un razzo viene lanciato a 82% della portata che lo stesso razzo ha in mano a un pilota, perché arrivi; una torretta laser spara una volta al secondo, e il suo danno viene tirato nell’intervallo indicato.
 - Un N.I.K.E. ha una penetrazione dello scudo pari a 35%, che viene tolta dall’assorbimento di uno scudo.
-- Il razzo della torretta, N.I.K.E., vola più veloce (25%) e più lontano (2×) del tuo: 1.125 unità al secondo, 8.100 unità in tutto, perciò una nave che gli sfugge viene inseguita a lungo.
-- Un N.U.K.E. esplode su un raggio di 1.350 unità, con più forza al centro.
-- Il razzo della torretta, N.U.K.E., vola più veloce (25%) e più lontano (2×) del tuo: 375 unità al secondo, 2.400 unità in tutto, perciò una nave che gli sfugge viene inseguita a lungo.
+- Il razzo della torretta, N.I.K.E., vola più veloce (25%) e più lontano (2×) del tuo: 1.250 unità al secondo, 8.910 unità in tutto, perciò una nave che gli sfugge viene inseguita a lungo.
+- Un N.U.K.E. esplode su un raggio di 1.013 unità, con più forza al centro.
+- Il razzo della torretta, N.U.K.E., vola più veloce (25%) e più lontano (2×) del tuo: 375 unità al secondo, 2.640 unità in tutto, perciò una nave che gli sfugge viene inseguita a lungo.
 
 <!-- swamp-guns:end -->
 
@@ -108,7 +108,7 @@ Qui vivono tre alieni della civiltà perduta, ciascuno con i suoi numeri. Vengon
 | Crediti | 125.000 | 250.000 | 375.000 |
 | Thulium | 335 | 670 | 1.005 |
 | Esperienza (XP) | 20.200 | 40.400 | 60.600 |
-| Onore | 87 | 174 | 261 |
+| Onore | 88 | 176 | 264 |
 | Punti PvE per abbattimento | 15 | 15 | 15 |
 
 **Bottino**: una cassa, per il pilota che ha inflitto più danno.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8a72341fc0a0a8d1 -->
+<!-- wiki-i18n source: 27e04944329244c2 -->
 <!-- wiki-i18n title: Sciami -->
 # Sciami {#swarms}
 
@@ -64,6 +64,8 @@ Il mondo scala uno sciame come scala ogni alieno ([Mondi](/wiki/03-Mechanics/Wip
 
 <!-- swarms-world:end -->
 
+Anche uno sciame ha un **grado**, come ogni alieno, e la lettera greca del suo grado sta davanti al nome: `-=γ-Boss Seeker=-` è un Boss Seeker di grado Gamma. Il capo di uno sciame estrae il suo grado **quando compare**, dalla tabella del suo mondo, e uno sciame ha il grado del suo mondo: uno sciame Alpha in Alpha, uno Beta in Beta e uno Gamma in Gamma, che è lo sciame della tabella qui sopra, come è sempre stato. Nei mondi più alti ogni tanto uno sciame è di un grado inferiore, circa uno su venti: gli sciami Pirate e Seeker in Beta, e gli sciami Pirate, Seeker, Phantasm, Goombah e Tesseract in Gamma; lo sciame Crystalys, e gli sciami Phantasm, Goombah e Tesseract in Beta, sono sempre del grado del loro mondo. Uno sciame non è mai di un grado superiore a quello del suo mondo, e nessuno è Delta, il quarto grado, il doppio di Gamma, che estraggono solo gli alieni normali. Le navi che arrivano con il capo ne condividono il grado, e il capo successivo del settore estrae di nuovo. Uno sciame è forte e paga come la riga della tabella qui sopra che porta il nome del suo grado: uno sciame più debole è resistente quanto uno del mondo inferiore e il suo abbattimento paga quanto vi paga un abbattimento. Velocità, portata e bottino non cambiano con il grado. Lo sciame Dormant non ha grado: mantiene i valori del suo mondo.
+
 ## Cosa vengono a sapere i piloti {#what-the-pilots-are-told}
 
 Gli sciami Seeker, Pirate, Phantasm, Goombah, Crystalys e Tesseract avvisano i piloti del loro settore quando compare un boss e quando viene distrutto. Lo sciame Dormant avvisa tutto il suo mondo, ed è segnato sulle mappe dei settori pericolosi e sulla mappa galattica, così i piloti possono trovarlo. Sono righe di Sistema: compaiono nella scheda **Sistema** della chat, con un conteggio delle righe non lette, e non in **Globale** né in **Locale**. L’abbattimento di un boss ha anche una riga nel kill feed, che nomina il pilota a cui viene accreditato. L’elenco *In breve* di ogni articolo dice chi viene avvisato.
@@ -86,7 +88,7 @@ Gli sciami Seeker, Pirate, Phantasm, Goombah, Crystalys e Tesseract avvisano i p
 
 Un alieno normale paga il pilota che lo ha colpito per primo ([Combattimento](/wiki/03-Mechanics/Combat.md#kill-rewards-first-hit-claims)). Il capo di uno sciame, e ogni Dormant Pulse, pagano invece **in base al danno inflitto**:
 
-- **La ricompensa si divide in base al danno.** Ogni pilota che ha inflitto almeno la quota indicata nelle regole qui sopra viene pagato, in proporzione al danno inflitto: crediti, Thulium, XP e onore dell’abbattimento si dividono tra loro. Un pilota sotto la quota non riceve nulla.
+- **La ricompensa si divide in base al danno.** Ogni pilota che ha inflitto almeno la quota indicata nelle regole qui sopra viene pagato, in proporzione al danno inflitto: crediti, Thulium, XP e onore dell’abbattimento, con la ricompensa del grado dello sciame, si dividono tra loro. Un pilota sotto la quota non riceve nulla.
 - **La cassa di carico va al pilota che ha inflitto più danno.** È sua (e del suo clan) per 30 secondi, come per ogni alieno, poi chiunque può prenderla ([Carico](/wiki/03-Mechanics/Cargo.md)). Ogni nave Dormant ha il suo conteggio del danno e la sua cassa. Il Tesseract è l’eccezione: non lascia nessuna cassa, e ogni pilota pagato dal suo abbattimento riceve una cassa privata tutta sua ([Sciame Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md#rewards-and-drops)). Quando il suo gruppo ha due o più piloti che hanno danneggiato il capo, la cassa viene divisa in base ai danni in una [cassa personale](/wiki/03-Mechanics/Cargo.md#personal-crates) per ciascuno di loro.
 - **I seguaci pagano come al solito**: i Pirate Scout, i Seeker Slave, i Guard degli sciami Phantasm, Goombah e Crystalys e i Facet dello sciame Tesseract pagano il pilota che li ha colpiti per primo, e la loro ricompensa è piccola rispetto a quella di un boss.
 - **La ricompensa di un boss è fatta per battere gli alieni attorno a lui.** Un minuto di scontro con un Pirate Boss, un Boss Phantasm o un Boss Goombah paga più di un minuto di scontro con un Goombah, e un minuto con lo sciame Dormant o con un Boss Crystalys paga più di un minuto con un Crystalys; il Boss Seeker paga esattamente dieci Seeker.
