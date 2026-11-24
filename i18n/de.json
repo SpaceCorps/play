@@ -49,7 +49,6 @@
   "hero.sub.linux": "x86_64-AppImage",
   "hero.sub.linux-arm": "ARM64-AppImage",
   "hero.arch.label": "Windows-Prozessor",
-  "hero.arch.help": "x64 ist für Intel- und AMD-PCs, ARM64 für Snapdragon X, Surface Pro 11 und andere Copilot+-PCs. Unsicher? Öffne Einstellungen › System › Info und sieh bei Systemtyp nach.",
   "hero.all-platforms": "Alle Downloads",
   "hero.other-platforms": "Weitere Downloads",
   "hero.note": "Kostenloser Download. Du brauchst eine Internetverbindung: Gespielt wird auf dem SpaceCorps-Server.",
