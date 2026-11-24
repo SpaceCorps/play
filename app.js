@@ -18,6 +18,9 @@
     macos: { asset: 'SpaceCorps2027-macos-universal.dmg', name: 'macOS', sub: 'hero.sub.macos', help: 'help-macos' },
     windows: { asset: 'SpaceCorps2027-windows-x86_64.zip', name: 'Windows', sub: 'hero.sub.windows', help: 'help-windows' },
     linux: { asset: 'SpaceCorps2027-linux-x86_64.AppImage', name: 'Linux', sub: 'hero.sub.linux', help: 'help-linux' },
+    // The ARM64 builds of Windows and Linux: offered when the browser says the computer is ARM.
+    'windows-arm': { asset: 'SpaceCorps2027-windows-aarch64.zip', name: 'Windows', sub: 'hero.sub.windows-arm', help: 'help-windows' },
+    'linux-arm': { asset: 'SpaceCorps2027-linux-aarch64.AppImage', name: 'Linux', sub: 'hero.sub.linux-arm', help: 'help-linux' },
   };
 
   const $ = (sel, root = document) => root.querySelector(sel);
@@ -92,10 +95,28 @@
 
   $$('button[data-copy]').forEach((b) => wireCopy(b, () => $(b.dataset.copy).textContent, () => t('help.copy-command')));
 
+  // The processor, where the browser tells: 'arm', 'x86' or '' (unknown). Chromium browsers answer
+  // userAgentData.getHighEntropyValues; a Linux user agent names aarch64/arm. Where nothing says,
+  // the x86 package stays the big button and the ARM64 packages are in the list, always visible.
+  function archFromUserAgent() {
+    return /aarch64|arm64|armv8/i.test(navigator.userAgent || '') ? 'arm' : '';
+  }
+  async function detectArch() {
+    const uaData = navigator.userAgentData;
+    if (uaData && typeof uaData.getHighEntropyValues === 'function') {
+      try {
+        const v = await uaData.getHighEntropyValues(['architecture', 'bitness']);
+        if (/arm/i.test(v.architecture || '')) return 'arm';
+        if (/x86/i.test(v.architecture || '')) return 'x86';
+      } catch { /* denied or unsupported: fall through */ }
+    }
+    return archFromUserAgent();
+  }
+
   // ----- platform and release -----
   const downloads = Boolean($('#dl-main')); // the main page, not patchnotes.html
   const os = detectOS();
-  const mine = PLATFORMS[os];
+  let mine = PLATFORMS[os];
   let release = null; // release.json once it is in
   let assets = null; // name -> {size, sha256}
 
@@ -142,6 +163,14 @@
       setText($('#play-web .btn-sub'), t('hero.play-web-sub-mobile'));
     }
   }
+
+  // Windows or Linux on ARM64: the big button and the highlighted card switch to the ARM64 package.
+  function applyArch(arch) {
+    if (arch !== 'arm' || !PLATFORMS[os + '-arm']) return;
+    mine = PLATFORMS[os + '-arm'];
+    renderMain();
+  }
+  if (downloads && (os === 'windows' || os === 'linux')) detectArch().then(applyArch);
 
   function renderRelease(json) {
     release = json && typeof json === 'object' ? json : {};

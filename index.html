@@ -136,7 +136,7 @@
           "name": "How do I download and install SpaceCorps 2027?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "SpaceCorps 2027 is a game for computers. It is available for macOS (universal DMG), Windows 10 and 11 (ZIP) and Linux (AppImage and tar.gz). ARM64 packages for Windows and Linux are in the GitHub release. Direct download links and verified SHA-256 checksums for the macOS, Windows and Linux downloads are published on this page."
+            "text": "SpaceCorps 2027 is a game for computers. It is available for macOS (universal DMG), Windows 10 and 11 (ZIP, for x64 and for ARM64 PCs) and Linux (AppImage and tar.gz, for x86_64 and ARM64). Direct download links and verified SHA-256 checksums for every package are published on this page."
           }
         },
         {
@@ -190,11 +190,13 @@
         "https://play.spacecorps.tech/img/galaxy-1600.webp"
       ],
       "applicationCategory": "GameApplication",
-      "operatingSystem": "macOS 12+, Windows 10/11 x86_64, Linux x86_64",
+      "operatingSystem": "macOS 12+, Windows 10/11 (x86_64, ARM64), Linux (x86_64, ARM64)",
       "gamePlatform": [
         "macOS Universal (Apple Silicon & Intel)",
         "Windows 10/11 x86_64",
-        "Linux x86_64"
+        "Windows 10/11 ARM64",
+        "Linux x86_64",
+        "Linux ARM64"
       ],
       "genre": [
         "Space Simulator",
@@ -217,7 +219,14 @@
       "author": {
         "@id": "https://spacecorps.github.io/#organization"
       },
-      "downloadUrl": "https://play.spacecorps.tech/#download",
+      "downloadUrl": [
+        "https://play.spacecorps.tech/#download",
+        "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg",
+        "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip",
+        "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-aarch64.zip",
+        "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage",
+        "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-aarch64.AppImage"
+      ],
       "offers": {
         "@type": "Offer",
         "price": "0",
@@ -558,6 +567,16 @@ if (typeof document !== 'undefined') {
         </a>
         <dl class="facts"><dt data-i18n="download.file">File</dt><dd class="file"><code title="SpaceCorps2027-windows-x86_64.zip">SpaceCorps2027-windows-x86_64.zip</code></dd><dt data-i18n="download.size">Size</dt><dd class="size">–</dd><dt>SHA-256</dt><dd class="sha"><code>–</code></dd></dl>
       </li>
+      <li class="card platform" data-asset="SpaceCorps2027-windows-aarch64.zip" data-os="windows-arm">
+        <div class="platform-head">
+          <svg class="icon" aria-hidden="true"><use href="#i-archive"/></svg>
+          <div><h3>Windows ARM64</h3><p data-i18n="download.windows-arm">Windows 10 and 11, ARM64 · zip</p></div>
+        </div>
+        <a class="btn btn-secondary btn-wide dl" href="https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-aarch64.zip">
+          <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg><span data-i18n="download.get" data-i18n-args='{"format": ".zip"}'>Download .zip</span>
+        </a>
+        <dl class="facts"><dt data-i18n="download.file">File</dt><dd class="file"><code title="SpaceCorps2027-windows-aarch64.zip">SpaceCorps2027-windows-aarch64.zip</code></dd><dt data-i18n="download.size">Size</dt><dd class="size">–</dd><dt>SHA-256</dt><dd class="sha"><code>–</code></dd></dl>
+      </li>
       <li class="card platform" data-asset="SpaceCorps2027-linux-x86_64.AppImage" data-os="linux">
         <div class="platform-head">
           <svg class="icon" aria-hidden="true"><use href="#i-cube"/></svg>
@@ -578,6 +597,26 @@ if (typeof document !== 'undefined') {
         </a>
         <dl class="facts"><dt data-i18n="download.file">File</dt><dd class="file"><code title="SpaceCorps2027-linux-x86_64.tar.gz">SpaceCorps2027-linux-x86_64.tar.gz</code></dd><dt data-i18n="download.size">Size</dt><dd class="size">–</dd><dt>SHA-256</dt><dd class="sha"><code>–</code></dd></dl>
       </li>
+      <li class="card platform" data-asset="SpaceCorps2027-linux-aarch64.AppImage" data-os="linux-arm">
+        <div class="platform-head">
+          <svg class="icon" aria-hidden="true"><use href="#i-cube"/></svg>
+          <div><h3>Linux ARM64</h3><p data-i18n="download.appimage-arm">ARM64 · AppImage, runs on most distributions</p></div>
+        </div>
+        <a class="btn btn-secondary btn-wide dl" href="https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-aarch64.AppImage">
+          <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg><span data-i18n="download.get" data-i18n-args='{"format": "AppImage"}'>Download AppImage</span>
+        </a>
+        <dl class="facts"><dt data-i18n="download.file">File</dt><dd class="file"><code title="SpaceCorps2027-linux-aarch64.AppImage">SpaceCorps2027-linux-aarch64.AppImage</code></dd><dt data-i18n="download.size">Size</dt><dd class="size">–</dd><dt>SHA-256</dt><dd class="sha"><code>–</code></dd></dl>
+      </li>
+      <li class="card platform" data-asset="SpaceCorps2027-linux-aarch64.tar.gz" data-os="linux-arm-tar">
+        <div class="platform-head">
+          <svg class="icon" aria-hidden="true"><use href="#i-archive"/></svg>
+          <div><h3>Linux ARM64</h3><p data-i18n="download.tar-arm">ARM64 · tar.gz, unpack and run</p></div>
+        </div>
+        <a class="btn btn-secondary btn-wide dl" href="https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-aarch64.tar.gz">
+          <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg><span data-i18n="download.get" data-i18n-args='{"format": ".tar.gz"}'>Download .tar.gz</span>
+        </a>
+        <dl class="facts"><dt data-i18n="download.file">File</dt><dd class="file"><code title="SpaceCorps2027-linux-aarch64.tar.gz">SpaceCorps2027-linux-aarch64.tar.gz</code></dd><dt data-i18n="download.size">Size</dt><dd class="size">–</dd><dt>SHA-256</dt><dd class="sha"><code>–</code></dd></dl>
+      </li>
     </ul>
     <p class="subtle-links">
       <a href="https://github.com/SpaceCorps/play/releases/latest/download/SHA256SUMS">SHA256SUMS</a>
@@ -593,8 +632,8 @@ if (typeof document !== 'undefined') {
         <caption class="visually-hidden" data-i18n="reqs.caption">Minimum system requirements per platform</caption>
         <thead><tr><th scope="col"><span class="visually-hidden" data-i18n="reqs.requirement">Requirement</span></th><th scope="col">macOS</th><th scope="col">Windows</th><th scope="col">Linux</th></tr></thead>
         <tbody>
-          <tr><th scope="row" data-i18n="reqs.row.system">System</th><td data-i18n="reqs.system.macos">macOS 12 Monterey or later</td><td data-i18n="reqs.system.windows">Windows 10 or 11, 64-bit</td><td data-i18n="reqs.system.linux">x86_64 with glibc 2.35 or newer (Ubuntu 22.04, Debian 12, Fedora 36 and later)</td></tr>
-          <tr><th scope="row" data-i18n="reqs.row.cpu">Processor</th><td data-i18n="reqs.cpu.macos">Apple silicon or Intel</td><td>x86-64</td><td>x86-64</td></tr>
+          <tr><th scope="row" data-i18n="reqs.row.system">System</th><td data-i18n="reqs.system.macos">macOS 12 Monterey or later</td><td data-i18n="reqs.system.windows">Windows 10 or 11, 64-bit</td><td data-i18n="reqs.system.linux">x86_64 / ARM64 with glibc 2.35 or newer (Ubuntu 22.04, Debian 12, Fedora 36 and later)</td></tr>
+          <tr><th scope="row" data-i18n="reqs.row.cpu">Processor</th><td data-i18n="reqs.cpu.macos">Apple silicon or Intel</td><td>x86-64 / ARM64</td><td>x86-64 / ARM64</td></tr>
           <tr><th scope="row" data-i18n="reqs.row.gpu">Graphics</th><td data-i18n="reqs.gpu.macos">Metal (every Mac that runs macOS 12)</td><td data-i18n="reqs.gpu.windows">DirectX 12 or Vulkan</td><td data-i18n="reqs.gpu.linux">Vulkan (Mesa 22 or a vendor driver)</td></tr>
           <tr><th scope="row" data-i18n="reqs.row.memory">Memory</th><td colspan="3" data-i18n="reqs.memory">4 GB RAM, 8 GB recommended</td></tr>
           <tr><th scope="row" data-i18n="reqs.row.disk">Disk</th><td colspan="3" data-i18n="reqs.disk">400 MB free</td></tr>
