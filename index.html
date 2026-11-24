@@ -144,7 +144,7 @@
           "name": "Can I play SpaceCorps 2027 on a phone or tablet?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Not yet. SpaceCorps 2027 is a game for computers today. Android and iOS apps are in development and are not available on Google Play or the App Store. An early web version for desktop browsers runs at https://web.spacecorps.xyz; it was tested only in Chrome on a computer and is not the main way to play."
+            "text": "On Android, yes, as an early-access APK for 64-bit ARM phones and tablets (Android 9 or later) that you download from this page and install yourself; it is not on Google Play. An iOS app is in development and is not available yet. SpaceCorps 2027 is mainly a game for computers. An early web version for desktop browsers runs at https://web.spacecorps.xyz; it was tested only in Chrome on a computer and is not the main way to play."
           }
         },
         {
@@ -190,13 +190,14 @@
         "https://play.spacecorps.tech/img/galaxy-1600.webp"
       ],
       "applicationCategory": "GameApplication",
-      "operatingSystem": "macOS 12+, Windows 10/11 (x86_64, ARM64), Linux (x86_64, ARM64)",
+      "operatingSystem": "macOS 12+, Windows 10/11 (x86_64, ARM64), Linux (x86_64, ARM64), Android 9+ (ARM64, APK)",
       "gamePlatform": [
         "macOS Universal (Apple Silicon & Intel)",
         "Windows 10/11 x86_64",
         "Windows 10/11 ARM64",
         "Linux x86_64",
-        "Linux ARM64"
+        "Linux ARM64",
+        "Android ARM64 (APK, early access)"
       ],
       "genre": [
         "Space Simulator",
@@ -225,7 +226,8 @@
         "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip",
         "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-aarch64.zip",
         "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage",
-        "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-aarch64.AppImage"
+        "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-aarch64.AppImage",
+        "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-android-aarch64.apk"
       ],
       "offers": {
         "@type": "Offer",
@@ -337,6 +339,7 @@ if (typeof document !== 'undefined') {
   <symbol id="i-disk" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="3.5"/><circle cx="12" cy="12" r="3.5"/><path d="M12 12h.01"/></symbol>
   <symbol id="i-archive" viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="5" rx="1.5"/><path d="M5 9v9.5A1.5 1.5 0 0 0 6.5 20h11a1.5 1.5 0 0 0 1.5-1.5V9M10 13h4"/></symbol>
   <symbol id="i-cube" viewBox="0 0 24 24"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z"/><path d="M3.5 7 12 11.5 20.5 7M12 11.5v10"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><rect x="7" y="2.5" width="10" height="19" rx="2.5"/><path d="M11 18.5h2"/></symbol>
   <symbol id="i-palette" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 0 18c1.2 0 2-.8 2-1.8 0-.5-.2-.9-.5-1.2-.3-.3-.5-.7-.5-1.2 0-1 .8-1.8 1.8-1.8H17a4 4 0 0 0 4-4c0-4.4-4-8-9-8z"/><circle cx="7.5" cy="11.5" r="1"/><circle cx="10" cy="7.3" r="1"/><circle cx="15" cy="7.8" r="1"/></symbol>
   <symbol id="i-crosshair" viewBox="0 0 24 24"><circle cx="12" cy="12" r="7.5"/><path d="M12 2v4.5M12 17.5V22M2 12h4.5M17.5 12H22"/><circle cx="12" cy="12" r="1.2"/></symbol>
   <symbol id="i-planet" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5.5"/><path d="M5.2 15.2C2.9 17.2 1.9 19 2.6 19.8c1.3 1.4 6.9-1.4 12.2-6.2S23 3.9 21.7 2.5c-.7-.8-2.4-.3-4.5 1.2"/></symbol>
@@ -624,13 +627,23 @@ if (typeof document !== 'undefined') {
         </a>
         <dl class="facts"><dt data-i18n="download.file">File</dt><dd class="file"><code title="SpaceCorps2027-linux-aarch64.tar.gz">SpaceCorps2027-linux-aarch64.tar.gz</code></dd><dt data-i18n="download.size">Size</dt><dd class="size">–</dd><dt>SHA-256</dt><dd class="sha"><code>–</code></dd></dl>
       </li>
+      <li class="card platform" data-asset="SpaceCorps2027-android-aarch64.apk" data-os="android">
+        <div class="platform-head">
+          <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+          <div><h3>Android</h3><p data-i18n="download.android">Android 9 or later, 64-bit ARM · APK to install yourself</p></div>
+        </div>
+        <a class="btn btn-secondary btn-wide dl" href="https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-android-aarch64.apk">
+          <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg><span data-i18n="download.get" data-i18n-args='{"format": ".apk"}'>Download .apk</span>
+        </a>
+        <dl class="facts"><dt data-i18n="download.file">File</dt><dd class="file"><code title="SpaceCorps2027-android-aarch64.apk">SpaceCorps2027-android-aarch64.apk</code></dd><dt data-i18n="download.size">Size</dt><dd class="size">–</dd><dt>SHA-256</dt><dd class="sha"><code>–</code></dd></dl>
+      </li>
     </ul>
     <p class="subtle-links">
       <a href="https://github.com/SpaceCorps/play/releases/latest/download/SHA256SUMS">SHA256SUMS</a>
       <span aria-hidden="true">·</span>
       <a href="https://github.com/SpaceCorps/play/releases" data-i18n="download.all-releases">All releases</a>
     </p>
-    <p class="fineprint" data-i18n="download.phones">SpaceCorps 2027 is for computers today. Apps for Android and iOS are in development and are not available yet.</p>
+    <p class="fineprint" data-i18n="download.phones">The Android app is an early-access APK that you install yourself. It is not on Google Play. An iOS app is in development and is not available yet.</p>
     <p class="fineprint" data-i18n="download.web">An early web version runs in a desktop browser at web.spacecorps.xyz. It is not the main way to play: it was tested only in Chrome on a computer and has no gamepad.</p>
 
     <h3 class="subhead" id="requirements" data-i18n="reqs.title">System requirements</h3>
@@ -715,6 +728,14 @@ if (typeof document !== 'undefined') {
           <li data-i18n="help.linux.fuse">No FUSE on your system? Run it with <code data-slot="flag">--appimage-extract-and-run</code>, or take the <code data-slot="tar">.tar.gz</code>: unpack it and start <code data-slot="binary">SpaceCorps2027/spacecorps2027</code>.</li>
         </ol>
       </details>
+      <details class="card" id="help-android">
+        <summary><h3 data-i18n="help.android.title">Android: install the APK</h3></summary>
+        <ol>
+          <li data-i18n="help.android.open">Download the <code>.apk</code> on your phone, then open it from the browser’s download bar or the Downloads app. Or download it on a computer and copy it to the phone.</li>
+          <li data-i18n="help.android.allow">Android asks once to allow installs from that app (<em>Install unknown apps</em>). Turn it on for the app you opened the file with, tap <strong>Install</strong>, and turn it off again afterwards if you like.</li>
+          <li data-i18n="help.android.verify">Optional: check the file. On a computer, compare <code>sha256sum SpaceCorps2027-android-aarch64.apk</code> with the SHA-256 listed above.</li>
+        </ol>
+      </details>
       <details class="card" id="help-verify">
         <summary><h3 data-i18n="help.verify.title">Check a download</h3></summary>
         <p data-i18n="help.verify.text">Compare the file's SHA-256 with the one listed above:</p>
@@ -722,6 +743,7 @@ if (typeof document !== 'undefined') {
           <li>macOS: <code>shasum -a 256 SpaceCorps2027-macos-universal.dmg</code></li>
           <li>Windows (PowerShell): <code>Get-FileHash SpaceCorps2027-windows-x86_64.zip</code></li>
           <li>Linux: <code>sha256sum -c SHA256SUMS --ignore-missing</code></li>
+          <li>Android (on a computer): <code>sha256sum SpaceCorps2027-android-aarch64.apk</code></li>
         </ul>
       </details>
       <details class="card" id="server">

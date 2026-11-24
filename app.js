@@ -20,6 +20,7 @@
     linux: { asset: 'SpaceCorps2027-linux-x86_64.AppImage', name: 'Linux', sub: 'hero.sub.linux', help: 'help-linux' },
     // The ARM64 builds of Windows and Linux: offered when the browser says the computer is ARM.
     'windows-arm': { asset: 'SpaceCorps2027-windows-aarch64.zip', name: 'Windows', sub: 'hero.sub.windows-arm', help: 'help-windows' },
+    android: { asset: 'SpaceCorps2027-android-aarch64.apk', name: 'Android', sub: 'hero.sub.android', help: 'help-android' },
     'linux-arm': { asset: 'SpaceCorps2027-linux-aarch64.AppImage', name: 'Linux', sub: 'hero.sub.linux-arm', help: 'help-linux' },
   };
 
@@ -39,7 +40,9 @@
     const uaData = navigator.userAgentData;
     const platform = (uaData && uaData.platform) || navigator.platform || '';
     const ua = navigator.userAgent || '';
-    if ((uaData && uaData.mobile) || /android|iphone|ipad|ipod/i.test(ua)) return 'mobile';
+    // Android phones and tablets get the APK; iPhone and iPad (no app yet) stay 'mobile'.
+    if ((uaData && /android/i.test(uaData.platform || '')) || /android/i.test(ua)) return 'android';
+    if ((uaData && uaData.mobile) || /iphone|ipad|ipod/i.test(ua)) return 'mobile';
     // iPadOS asks for desktop pages as a Mac with a touch screen.
     if (/mac/i.test(platform) && navigator.maxTouchPoints > 1) return 'mobile';
     if (/win/i.test(platform) || /windows nt/i.test(ua)) return 'windows';
@@ -181,8 +184,8 @@
       setText($('#dl-main-sub'), 'macOS · Windows · Linux');
       setText($('#dl-other'), t('hero.all-platforms'));
     }
-    if (os === 'mobile') {
-      setText($('#dl-note'), t('hero.note-mobile'));
+    if (os === 'mobile' || os === 'android') {
+      setText($('#dl-note'), t(os === 'android' ? 'hero.note-android' : 'hero.note-mobile'));
       // The web version needs a desktop browser: on a phone the button stays, but quieter.
       setText($('#play-web .btn-sub'), t('hero.play-web-sub-mobile'));
     }

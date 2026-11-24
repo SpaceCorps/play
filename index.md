@@ -71,12 +71,12 @@ platforms:
 
 # SpaceCorps 2027 · Downloads & System Guide
 
-SpaceCorps 2027 is a multiplayer space action simulator built on the native Space3d engine for macOS, Windows, and Linux. It is a game for computers. An early web version runs in a desktop browser. Android and iOS apps are in development and are not available yet. Choose a corporation, customize your starship, coordinate tactical strikes with your clan, hunt alien incursions, and compete for seasonal leaderboards.
+SpaceCorps 2027 is a multiplayer space action simulator built on the native Space3d engine for macOS, Windows, and Linux. It is a game for computers. An early web version runs in a desktop browser. An Android app is available as an early-access APK that you install yourself (it is not on Google Play); an iOS app is in development and is not available yet. Choose a corporation, customize your starship, coordinate tactical strikes with your clan, hunt alien incursions, and compete for seasonal leaderboards.
 
 - Canonical URL: [https://play.spacecorps.tech/](https://play.spacecorps.tech/)
 - Machine Interface: [llms.txt](https://play.spacecorps.tech/llms.txt) | [llms-full.txt](https://play.spacecorps.tech/llms-full.txt)
 - Release Manifest: [release.json](https://play.spacecorps.tech/release.json)
-- Platforms: macOS (universal, Apple silicon and Intel), Windows (x86_64 and ARM64), Linux (x86_64 and ARM64). No Android or iOS app yet.
+- Platforms: macOS (universal, Apple silicon and Intel), Windows (x86_64 and ARM64), Linux (x86_64 and ARM64), Android (64-bit ARM, early-access APK installed by hand, not on Google Play). No iOS app yet.
 - Play in the Browser: [https://web.spacecorps.xyz/](https://web.spacecorps.xyz/) (early web version, not the main way to play; a desktop browser with WebGPU or WebGL2, tested only in Chrome on a computer, no gamepad, first load about 80 MB; the address is in [web.json](https://play.spacecorps.tech/web.json))
 - Patch Notes: [patchnotes.md](https://play.spacecorps.tech/patchnotes.md) | [patchnotes.json](https://play.spacecorps.tech/patchnotes.json)
 - GitHub Releases: [https://github.com/SpaceCorps/play/releases/latest](https://github.com/SpaceCorps/play/releases/latest)
