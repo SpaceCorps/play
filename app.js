@@ -95,28 +95,51 @@
 
   $$('button[data-copy]').forEach((b) => wireCopy(b, () => $(b.dataset.copy).textContent, () => t('help.copy-command')));
 
-  // The processor, where the browser tells: 'arm', 'x86' or '' (unknown). Chromium browsers answer
-  // userAgentData.getHighEntropyValues; a Linux user agent names aarch64/arm. Where nothing says,
-  // the x86 package stays the big button and the ARM64 packages are in the list, always visible.
+  // The processor. Chromium browsers say it (userAgentData.getHighEntropyValues), a Linux user agent
+  // names aarch64/arm; Firefox and Safari never do (they claim 'Win64; x64' even on Windows on ARM),
+  // so on Windows a WebGL renderer of a Qualcomm GPU is taken as a hint. The visitor's own pick
+  // (the x64 | ARM64 switch, remembered) beats all of it. Nothing known: the x64 package stays the
+  // big button and the ARM64 ones are in the list, always visible.
+  const ARCH_KEY = 'sc-arch';
+  function readArch() {
+    try { const v = localStorage.getItem(ARCH_KEY); return v === 'x64' || v === 'arm64' ? v : ''; } catch { return ''; }
+  }
+  function saveArch(v) {
+    try { localStorage.setItem(ARCH_KEY, v); } catch { /* private mode: the pick lasts for this visit */ }
+  }
+  let archPicked = readArch(); // the visitor's choice
+  let archSaid = ''; // 'arm64' | 'x64' | '': what the browser says
+  let archHint = ''; // 'arm64' | '': the WebGL hint
+  const ARM_GPU = /adreno|qualcomm|snapdragon/i;
   function archFromUserAgent() {
-    return /aarch64|arm64|armv8/i.test(navigator.userAgent || '') ? 'arm' : '';
+    return /aarch64|arm64|armv8/i.test(navigator.userAgent || '') ? 'arm64' : '';
   }
   async function detectArch() {
     const uaData = navigator.userAgentData;
     if (uaData && typeof uaData.getHighEntropyValues === 'function') {
       try {
         const v = await uaData.getHighEntropyValues(['architecture', 'bitness']);
-        if (/arm/i.test(v.architecture || '')) return 'arm';
-        if (/x86/i.test(v.architecture || '')) return 'x86';
+        if (/arm/i.test(v.architecture || '')) return 'arm64';
+        if (/x86/i.test(v.architecture || '')) return 'x64';
       } catch { /* denied or unsupported: fall through */ }
     }
     return archFromUserAgent();
   }
+  function webglRenderer() {
+    try {
+      const gl = document.createElement('canvas').getContext('webgl');
+      if (!gl) return '';
+      const info = gl.getExtension('WEBGL_debug_renderer_info');
+      return String((info && gl.getParameter(info.UNMASKED_RENDERER_WEBGL)) || '');
+    } catch { return ''; }
+  }
+  const currentArch = () => archPicked || archSaid || archHint || 'x64';
 
   // ----- platform and release -----
   const downloads = Boolean($('#dl-main')); // the main page, not patchnotes.html
   const os = detectOS();
-  let mine = PLATFORMS[os];
+  const platformFor = () => (currentArch() === 'arm64' && PLATFORMS[os + '-arm']) || PLATFORMS[os];
+  let mine = platformFor();
   let release = null; // release.json once it is in
   let assets = null; // name -> {size, sha256}
 
@@ -140,6 +163,7 @@
       main.href = '#download';
     }
     paintMain();
+    paintSwitch();
   }
 
   function paintMain() {
@@ -164,13 +188,51 @@
     }
   }
 
-  // Windows or Linux on ARM64: the big button and the highlighted card switch to the ARM64 package.
-  function applyArch(arch) {
-    if (arch !== 'arm' || !PLATFORMS[os + '-arm']) return;
-    mine = PLATFORMS[os + '-arm'];
-    renderMain();
+  // The x64 | ARM64 switch under the big button (Windows only): shows the current processor, and a
+  // click is the visitor's own pick, kept for the next visit.
+  const archSwitch = $('#arch-switch');
+  function paintSwitch() {
+    if (!archSwitch) return;
+    archSwitch.hidden = !(downloads && os === 'windows');
+    $$('[role=radio]', archSwitch).forEach((b) => {
+      const on = b.dataset.arch === currentArch();
+      b.setAttribute('aria-checked', on ? 'true' : 'false');
+      b.tabIndex = on ? 0 : -1;
+    });
   }
-  if (downloads && (os === 'windows' || os === 'linux')) detectArch().then(applyArch);
+  function archChanged() {
+    mine = platformFor();
+    renderMain();
+    paintSwitch();
+  }
+  if (archSwitch) {
+    archSwitch.addEventListener('click', (e) => {
+      const b = e.target.closest('[role=radio]');
+      if (!b) return;
+      archPicked = b.dataset.arch;
+      saveArch(archPicked);
+      archChanged();
+    });
+    archSwitch.addEventListener('keydown', (e) => {
+      if (!['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown'].includes(e.key)) return;
+      e.preventDefault();
+      const next = currentArch() === 'arm64' ? 'x64' : 'arm64';
+      archPicked = next;
+      saveArch(next);
+      archChanged();
+      const b = $(`[data-arch="${next}"]`, archSwitch);
+      if (b) b.focus();
+    });
+  }
+
+  // Windows or Linux on ARM64: the big button and the highlighted card switch to the ARM64 package.
+  if (downloads && (os === 'windows' || os === 'linux')) {
+    detectArch().then((arch) => {
+      archSaid = arch;
+      if (os === 'windows' && !arch) archHint = ARM_GPU.test(webglRenderer()) ? 'arm64' : '';
+      archChanged();
+    });
+  }
 
   function renderRelease(json) {
     release = json && typeof json === 'object' ? json : {};

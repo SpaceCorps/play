@@ -433,6 +433,14 @@ if (typeof document !== 'undefined') {
               <span class="btn-sub" id="dl-main-sub">macOS · Windows · Linux</span>
             </span>
           </a>
+          <div class="arch" id="arch-switch" hidden>
+            <span class="arch-label" id="arch-label" data-i18n="hero.arch.label">Windows processor</span>
+            <span class="arch-options" role="radiogroup" aria-labelledby="arch-label">
+              <button type="button" role="radio" aria-checked="false" data-arch="x64" tabindex="-1">x64</button>
+              <button type="button" role="radio" aria-checked="false" data-arch="arm64" tabindex="-1">ARM64</button>
+            </span>
+            <span class="arch-help" data-i18n="hero.arch.help">x64 is for Intel and AMD PCs, ARM64 for Snapdragon X, Surface Pro 11 and other Copilot+ PCs. Not sure? Open Settings › System › About and look at System type.</span>
+          </div>
           <a class="cta-hint cta-link" href="#download" id="dl-other" data-i18n="hero.all-platforms">All downloads</a>
         </div>
         <div class="cta-choice">
@@ -618,6 +626,7 @@ if (typeof document !== 'undefined') {
         <dl class="facts"><dt data-i18n="download.file">File</dt><dd class="file"><code title="SpaceCorps2027-linux-aarch64.tar.gz">SpaceCorps2027-linux-aarch64.tar.gz</code></dd><dt data-i18n="download.size">Size</dt><dd class="size">–</dd><dt>SHA-256</dt><dd class="sha"><code>–</code></dd></dl>
       </li>
     </ul>
+    <p class="fineprint" id="arch-help" data-i18n="hero.arch.help">x64 is for Intel and AMD PCs, ARM64 for Snapdragon X, Surface Pro 11 and other Copilot+ PCs. Not sure? Open Settings › System › About and look at System type.</p>
     <p class="subtle-links">
       <a href="https://github.com/SpaceCorps/play/releases/latest/download/SHA256SUMS">SHA256SUMS</a>
       <span aria-hidden="true">·</span>
