@@ -47,6 +47,8 @@
   "hero.sub.windows-arm": "Windows 10 和 11，ARM64",
   "hero.sub.linux": "x86_64 AppImage",
   "hero.sub.linux-arm": "ARM64 AppImage",
+  "hero.arch.label": "Windows 处理器",
+  "hero.arch.help": "x64 适用于 Intel 和 AMD 电脑，ARM64 适用于 Snapdragon X、Surface Pro 11 等 Copilot+ 电脑。不确定？打开“设置 › 系统 › 系统信息”，查看“系统类型”。",
   "hero.all-platforms": "所有下载",
   "hero.other-platforms": "其他下载",
   "hero.note": "免费下载。需要联网：游戏运行在 SpaceCorps 服务器上。",

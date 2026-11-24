@@ -50,6 +50,8 @@
   "hero.sub.windows-arm": "Windows 10 и 11, ARM64",
   "hero.sub.linux": "AppImage для x86_64",
   "hero.sub.linux-arm": "AppImage для ARM64",
+  "hero.arch.label": "Процессор Windows",
+  "hero.arch.help": "x64 — для ПК с Intel и AMD, ARM64 — для Snapdragon X, Surface Pro 11 и других ПК Copilot+. Не уверены? Откройте «Параметры» › «Система» › «О системе» и посмотрите «Тип системы».",
   "hero.all-platforms": "Все загрузки",
   "hero.other-platforms": "Другие загрузки",
   "hero.note": "Бесплатно. Нужно подключение к интернету: игра идёт на сервере SpaceCorps.",
