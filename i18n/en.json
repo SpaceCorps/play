@@ -74,8 +74,6 @@
   "hero.sub.linux-arm": "ARM64 AppImage",
   "@hero.arch.label": "Label of the x64 / ARM64 switch under the big Windows download button (Windows visitors only).",
   "hero.arch.label": "Windows processor",
-  "@hero.arch.help": "Under the switch and under the download list: which Windows package is which, and how to find out. Windows 11 menu names (Settings > System > About > System type): use the names of Windows in your language. Snapdragon X, Surface Pro 11, Copilot+ stay as they are.",
-  "hero.arch.help": "x64 is for Intel and AMD PCs, ARM64 for Snapdragon X, Surface Pro 11 and other Copilot+ PCs. Not sure? Open Settings › System › About and look at System type.",
   "@hero.sub.linux": "Second line of the big button, under hero.download.",
   "hero.all-platforms": "All downloads",
   "hero.other-platforms": "Other downloads",
