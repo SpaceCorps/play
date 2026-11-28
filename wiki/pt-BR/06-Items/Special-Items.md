@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9da2aba86c37f5e2 -->
+<!-- wiki-i18n source: 645f14f1a9375995 -->
 <!-- wiki-i18n title: Itens especiais -->
 # Itens especiais {#special-items}
 
@@ -44,7 +44,7 @@ Conclui **uma melhoria do Skylab na hora**: escolha o módulo que está sendo me
 
 ### Schematics
 
-Tira **24 horas da pesquisa em andamento agora**. Se restarem **24 horas ou menos**, a pesquisa é **concluída** na hora; se restar mais, ela perde 24 horas e continua, e você pode usar outro Schematics nela. 188 das 210 tecnologias do [Centro de Pesquisa](/wiki/03-Mechanics/Research.md) levam 24 horas ou menos, então um Schematics as conclui desde o começo. As outras 22 levam mais, 48 ou 72 horas na maioria e 96, 168 e 240 horas os Rocket Launcher III, IV e V, e precisam de 2 a 10 Schematics.
+Tira **24 horas da pesquisa em andamento agora**. Se restarem **24 horas ou menos**, a pesquisa é **concluída** na hora; se restar mais, ela perde 24 horas e continua, e você pode usar outro Schematics nela. 190 das 212 tecnologias do [Centro de Pesquisa](/wiki/03-Mechanics/Research.md) levam 24 horas ou menos, então um Schematics as conclui desde o começo. As outras 22 levam mais, 48 ou 72 horas na maioria e 96, 168 e 240 horas os Rocket Launcher III, IV e V, e precisam de 2 a 10 Schematics.
 
 - **Horas da tecnologia, não do relógio.** As 24 horas são o tempo de pesquisa próprio da tecnologia, o do seu cartão. O boost de Thulium faz uma pesquisa correr mais rápido, mas não muda o que um uso tira; se um boost cobrisse o fim da pesquisa, um uso poupa menos horas de espera (em velocidade dupla, um dia de pesquisa são 12 horas de espera). A confirmação diz o que o cronômetro vai mostrar.
 - **A pesquisa continua como estava.** Uma pesquisa que perde 24 horas mantém o seu lugar: o boost continua correndo, a fila não é tocada e nada começa atrás dela. Uma pesquisa que espera ciência continua esperando: Schematics dá tempo, não combustível.

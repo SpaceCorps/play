@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 399d33a09b4ac805 -->
+<!-- wiki-i18n source: 0f6a663715a3934a -->
 <!-- wiki-i18n title: 危険セクター -->
 # 危険セクター {#danger-sectors}
 
@@ -14,9 +14,10 @@
 
 - **巨大掘削機。** `DS-1`、`DS-2`、`DS-3` にはシーズン初日からそれぞれパルサーが1つあります。空に浮かぶ光で、それ以上のものではありません。11日目からは、その隣に**巨大掘削機**が立ちます。掘削機のタンクに Dark Matter を入れ、資源を選ぶと、パルサーを採掘します。Thulium と希少な鉱石が、誰でも拾えるコンテナとなって周りに落ちます。危険セクターで奪い合う価値のあるもののうち最も豊かで、最も危険です。[巨大掘削機](/wiki/03-Mechanics/Giant-Excavator.md)を参照してください。Beta と Gamma では、巨大掘削機はシーズン初日から立っています。
 - **Slumbering Void。** 掘削機が採掘しているあいだ、**Slumbering Void** がマップの端からウェーブで飛来し、近くのパイロットを狩ります。ほかのものは沼を巡回します。[Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void)を参照してください。
-- **Dormant Swamp。** `DS-4` の隅に、失われた文明の基地が立っています。見えた艦船をすべて撃つ砲台、それを守る Inert Mass、そして中心にいる Unwakened です。パイロットがまだ訪れることを想定されていない場所です。[Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)を参照してください。
+- **Dormant Swamp。** `DS-4` の隅に、失われた文明の基地が立っています。見えた艦船をすべて撃つ砲台、それを守る Inert Mass、そして中心にいる Unwakened です。[Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)を参照してください。
 - **速く、豊かになった Dormant の群れ。** 群れは沼に現れるようになり、撃破後に早く戻り、報酬は2倍になります。[Dormant の群れ](/wiki/05-Swarms/Dormant-Swarm.md)を参照してください。
 - **11日目より前**は、パルサーだけが輝きます。それ以外の危険セクターは[スペースマップ移動](/wiki/01-General/Spacemap%20Travel.md)が説明するとおりです。11日目以降のワールドには、すべてが一度に揃います。Beta と Gamma では、巨大掘削機はシーズン初日から立っています。
+- **Threshold。** Dormant Swamp の Unwakened は倒せるようになりました。各ワールドでシーズン最初の撃破が起きると、`DS-4` の右上の隅にそのワールドの Threshold が開き、パイロットたちはそこで [Deep Void](/wiki/03-Mechanics/Deep-Void.md) への Void Gate を建造します。
 
 ## Davidski
 

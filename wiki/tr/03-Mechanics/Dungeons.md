@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 91f3dc3b14f71464 -->
+<!-- wiki-i18n source: f9b2d026af543d87 -->
 <!-- wiki-i18n title: Zindanlar -->
 # Zindanlar {#dungeons}
 
-<!-- wiki-search: dungeon; dungeons; gate; gates; clan gate; clan gates; clan dungeon; summon; warlord; gate warlord; boss; maze; loot zone; chest; card; vote; stage; instance; gate delta; gate epsilon; gate zeta; gate eta; gate theta; gate iota; gate goombah; gate pirate; gate crystalys; portal; clan portal; join; clan gate alerts; clan dungeon window; clan dungeon alerts; dungeon goombah; dungeon pirate; dungeon crystalys; dungeon warlord; 75 percent; three quarters; start room; fog; guards; locked room; boss room; booster; boosters; swarm assist; focus most wanted; zone of chaos; rocket barrage; zindan; zindanlar; zindan; zindanlar; savaş lordu; labirent; aşama; ganimet bölgesi; kart; portal; klan portalı; booster; sis; muhafızlar; başlangıç odası; kilitli oda; sürü desteği; kaos bölgesi; klan zindanı uyarıları; klan zindanı; klan zindanı uyarıları; dörtte üç; yüzde 75 -->
+<!-- wiki-search: dungeon; dungeons; gate; gates; clan gate; clan gates; clan dungeon; summon; warlord; gate warlord; boss; maze; loot zone; chest; card; vote; stage; instance; gate delta; gate epsilon; gate zeta; gate eta; gate theta; gate iota; gate goombah; gate pirate; gate crystalys; portal; clan portal; join; clan gate alerts; clan dungeon window; clan dungeon alerts; dungeon goombah; dungeon pirate; dungeon crystalys; dungeon warlord; 75 percent; three quarters; start room; fog; guards; locked room; boss room; booster; boosters; swarm assist; focus most wanted; zone of chaos; rocket barrage; zindan; zindanlar; zindan; zindanlar; savaş lordu; labirent; aşama; ganimet bölgesi; kart; portal; klan portalı; booster; sis; muhafızlar; başlangıç odası; kilitli oda; sürü desteği; kaos bölgesi; klan zindanı uyarıları; klan zindanı; klan zindanı uyarıları; dörtte üç; yüzde 75; radiation donut; donut; radyasyon çöreği -->
 
-**Zindan**, sonunda bir **Savaş Lordu** bulunan kapalı bir labirenttir (0.5.2'den önce oyunda geçit olarak adlandırılırdı). Bir [klanın](/wiki/03-Mechanics/Clans.md) yardımcı lideri ya da lideri bir zindan açar ve bedelini klan bankasından öder, klan üyeleri de tek bir [grup](/wiki/03-Mechanics/Groups.md) olarak birlikte içeri uçar. Labirentin uzaylılarının arasından yollarını açar, her birinden bir kart seçmek için ganimet bölgeleri açar ve Savaş Lordu'nu devirirler. Savaşa katılan her pilota, Savaş Lordu düştüğünde, aşağıdaki sınırlar içinde ödeme yapılır. Zindanlar, klan sayfasındaki **Zindanlar** sekmesindedir.
+**Zindan**, sonunda bir **Savaş Lordu** bulunan kapalı bir labirenttir (0.5.2'den önce oyunda geçit olarak adlandırılırdı). Bir [klanın](/wiki/03-Mechanics/Clans.md) yardımcı lideri ya da lideri bir zindan açar ve bedelini klan bankasından öder, klan üyeleri de tek bir [grup](/wiki/03-Mechanics/Groups.md) olarak birlikte içeri uçar. Labirentin uzaylılarının arasından yollarını açar, her birinden bir kart seçmek için ganimet bölgeleri açar ve Savaş Lordu'nu devirirler. Herkes tek bir grup olarak uçar ve bir grup, roketin alan hasarından esirgenmez: bir Ember, bir Scatter ya da bir N.U.K.E. patlaması ile bir N.U.K.E.'nin bıraktığı radyasyon bölgesi seni ve grubunun üyelerini başka bir gemiye verdiklerinin yarısı kadar yaralar. Bu yüzden nereye ateş ettiğine dikkat et (bkz. [Gruplar](/wiki/03-Mechanics/Groups.md#rules-of-engagement)). Savaşa katılan her pilota, Savaş Lordu düştüğünde, aşağıdaki sınırlar içinde ödeme yapılır. Zindanlar, klan sayfasındaki **Zindanlar** sekmesindedir.
 
 Zindan yalnızca uzaylılara karşı bir savaştır: içeride kimse bir klan arkadaşına ya da başka birine saldıramaz. Uzaylılar, örnek alındıkları oyundaki uzaylılar gibi, düştüklerinde ödeme yapar ([uzaylıların ödemesi](#what-the-aliens-pay)). Tamamlamanın ödemesi Savaş Lordu'na aittir, bu yüzden onu almanın tek yolu, o düşerken savaşın içinde olmaktır.
 
@@ -117,17 +117,17 @@ Her tür sırayla. Gövde ve kalkan, olağan değerlerin sütundaki aşamanın �
 
 |  | Aşama 1 | Aşama 2 | Aşama 3 |
 | :--- | ---: | ---: | ---: |
-| Gövde | 32.000 | 48.000 | 64.000 |
-| Kalkan | 48.000 | 72.000 | 96.000 |
-| Lazer hasarı (saniyede bir salvo) | 3.000 | 4.500 | 6.000 |
-| Hız | 180 | 180 | 180 |
+| Gövde | {{guide:vitals.hull@Dungeon Goombah}} | {{guide:vitals.hull*1.5@Dungeon Goombah}} | {{guide:vitals.hull*2@Dungeon Goombah}} |
+| Kalkan | {{guide:vitals.shield@Dungeon Goombah}} | {{guide:vitals.shield*1.5@Dungeon Goombah}} | {{guide:vitals.shield*2@Dungeon Goombah}} |
+| Lazer hasarı (saniyede bir salvo) | {{guide:vitals.dps@Dungeon Goombah}} | {{guide:vitals.dps*1.5@Dungeon Goombah}} | {{guide:vitals.dps*2@Dungeon Goombah}} |
+| Hız | {{guide:vitals.speed@Dungeon Goombah}} | {{guide:vitals.speed@Dungeon Goombah}} | {{guide:vitals.speed@Dungeon Goombah}} |
 | Lazer menzili | 800 | 800 | 800 |
-| Aggro yarıçapı | 1.800 | 1.800 | 1.800 |
+| Aggro yarıçapı | {{guide:vitals.aggro@Dungeon Goombah}} | {{guide:vitals.aggro@Dungeon Goombah}} | {{guide:vitals.aggro@Dungeon Goombah}} |
 | Ödül ve ganimet, orijinalin katı | ×1 | ×1,5 | ×2 |
-| Yok etme başına Kredi | 15.000 | 22.500 | 30.000 |
-| Yok etme başına Thulium | 75 | 113 | 150 |
-| Yok etme başına Deneyim | 3.000 | 4.500 | 6.000 |
-| Yok etme başına Onur | 24 | 36 | 48 |
+| Yok etme başına Kredi | {{guide:spoils.pay.credits@Goombah#1}} | {{guide:spoils.pay.credits*1.5@Goombah#1}} | {{guide:spoils.pay.credits*2@Goombah#1}} |
+| Yok etme başına Thulium | {{guide:spoils.pay.thulium@Goombah#1}} | {{guide:spoils.pay.thulium*1.5@Goombah#1}} | {{guide:spoils.pay.thulium*2@Goombah#1}} |
+| Yok etme başına Deneyim | {{guide:spoils.pay.experience@Goombah#1}} | {{guide:spoils.pay.experience*1.5@Goombah#1}} | {{guide:spoils.pay.experience*2@Goombah#1}} |
+| Yok etme başına Onur | {{guide:spoils.pay.honor@Goombah#1}} | {{guide:spoils.pay.honor*1.5@Goombah#1}} | {{guide:spoils.pay.honor*2@Goombah#1}} |
 
 ### Dungeon Pirate
 
@@ -138,18 +138,18 @@ Her tür sırayla. Gövde ve kalkan, olağan değerlerin sütundaki aşamanın �
 
 |  | Aşama 1 | Aşama 2 | Aşama 3 |
 | :--- | ---: | ---: | ---: |
-| Gövde | 250.000 | 375.000 | 500.000 |
-| Kalkan | 50.100 | 75.150 | 100.200 |
-| Lazer hasarı (saniyede bir salvo) | 200 | 300 | 400 |
-| Roket hasarı | 5.000 | 7.500 | 10.000 |
-| Hız | 100 | 100 | 100 |
+| Gövde | {{guide:vitals.hull@Dungeon Pirate}} | {{guide:vitals.hull*1.5@Dungeon Pirate}} | {{guide:vitals.hull*2@Dungeon Pirate}} |
+| Kalkan | {{guide:vitals.shield@Dungeon Pirate}} | {{guide:vitals.shield*1.5@Dungeon Pirate}} | {{guide:vitals.shield*2@Dungeon Pirate}} |
+| Lazer hasarı (saniyede bir salvo) | {{guide:vitals.dps@Dungeon Pirate}} | {{guide:vitals.dps*1.5@Dungeon Pirate}} | {{guide:vitals.dps*2@Dungeon Pirate}} |
+| Roket hasarı | {{guide:behaviour.ability:rocket.damage@Dungeon Pirate}} | {{guide:behaviour.ability:rocket.damage*1.5@Dungeon Pirate}} | {{guide:behaviour.ability:rocket.damage*2@Dungeon Pirate}} |
+| Hız | {{guide:vitals.speed@Dungeon Pirate}} | {{guide:vitals.speed@Dungeon Pirate}} | {{guide:vitals.speed@Dungeon Pirate}} |
 | Lazer menzili | 700 | 700 | 700 |
-| Aggro yarıçapı | 1.800 | 1.800 | 1.800 |
+| Aggro yarıçapı | {{guide:vitals.aggro@Dungeon Pirate}} | {{guide:vitals.aggro@Dungeon Pirate}} | {{guide:vitals.aggro@Dungeon Pirate}} |
 | Ödül ve ganimet, orijinalin katı | ×1 | ×1,5 | ×2 |
-| Yok etme başına Kredi | 145.000 | 217.500 | 290.000 |
-| Yok etme başına Thulium | 725 | 1.088 | 1.450 |
-| Yok etme başına Deneyim | 29.000 | 43.500 | 58.000 |
-| Yok etme başına Onur | 232 | 348 | 464 |
+| Yok etme başına Kredi | {{guide:spoils.pay.credits@Pirate Boss#1}} | {{guide:spoils.pay.credits*1.5@Pirate Boss#1}} | {{guide:spoils.pay.credits*2@Pirate Boss#1}} |
+| Yok etme başına Thulium | {{guide:spoils.pay.thulium@Pirate Boss#1}} | {{guide:spoils.pay.thulium*1.5@Pirate Boss#1}} | {{guide:spoils.pay.thulium*2@Pirate Boss#1}} |
+| Yok etme başına Deneyim | {{guide:spoils.pay.experience@Pirate Boss#1}} | {{guide:spoils.pay.experience*1.5@Pirate Boss#1}} | {{guide:spoils.pay.experience*2@Pirate Boss#1}} |
+| Yok etme başına Onur | {{guide:spoils.pay.honor@Pirate Boss#1}} | {{guide:spoils.pay.honor*1.5@Pirate Boss#1}} | {{guide:spoils.pay.honor*2@Pirate Boss#1}} |
 
 ### Dungeon Crystalys
 
@@ -159,17 +159,17 @@ Her tür sırayla. Gövde ve kalkan, olağan değerlerin sütundaki aşamanın �
 
 |  | Aşama 1 | Aşama 2 | Aşama 3 |
 | :--- | ---: | ---: | ---: |
-| Gövde | 256.000 | 384.000 | 512.000 |
-| Kalkan | 160.000 | 240.000 | 320.000 |
-| Lazer hasarı (saniyede bir salvo) | 10.000 | 15.000 | 20.000 |
-| Hız | 230 | 230 | 230 |
+| Gövde | {{guide:vitals.hull@Dungeon Crystalys}} | {{guide:vitals.hull*1.5@Dungeon Crystalys}} | {{guide:vitals.hull*2@Dungeon Crystalys}} |
+| Kalkan | {{guide:vitals.shield@Dungeon Crystalys}} | {{guide:vitals.shield*1.5@Dungeon Crystalys}} | {{guide:vitals.shield*2@Dungeon Crystalys}} |
+| Lazer hasarı (saniyede bir salvo) | {{guide:vitals.dps@Dungeon Crystalys}} | {{guide:vitals.dps*1.5@Dungeon Crystalys}} | {{guide:vitals.dps*2@Dungeon Crystalys}} |
+| Hız | {{guide:vitals.speed@Dungeon Crystalys}} | {{guide:vitals.speed@Dungeon Crystalys}} | {{guide:vitals.speed@Dungeon Crystalys}} |
 | Lazer menzili | 900 | 900 | 900 |
-| Aggro yarıçapı | 2.400 | 2.400 | 2.400 |
+| Aggro yarıçapı | {{guide:vitals.aggro@Dungeon Crystalys}} | {{guide:vitals.aggro@Dungeon Crystalys}} | {{guide:vitals.aggro@Dungeon Crystalys}} |
 | Ödül ve ganimet, orijinalin katı | ×1 | ×1,5 | ×2 |
-| Yok etme başına Kredi | 75.000 | 112.500 | 150.000 |
-| Yok etme başına Thulium | 200 | 300 | 400 |
-| Yok etme başına Deneyim | 12.000 | 18.000 | 24.000 |
-| Yok etme başına Onur | 52 | 78 | 104 |
+| Yok etme başına Kredi | {{guide:spoils.pay.credits@Crystalys#1}} | {{guide:spoils.pay.credits*1.5@Crystalys#1}} | {{guide:spoils.pay.credits*2@Crystalys#1}} |
+| Yok etme başına Thulium | {{guide:spoils.pay.thulium@Crystalys#1}} | {{guide:spoils.pay.thulium*1.5@Crystalys#1}} | {{guide:spoils.pay.thulium*2@Crystalys#1}} |
+| Yok etme başına Deneyim | {{guide:spoils.pay.experience@Crystalys#1}} | {{guide:spoils.pay.experience*1.5@Crystalys#1}} | {{guide:spoils.pay.experience*2@Crystalys#1}} |
+| Yok etme başına Onur | {{guide:spoils.pay.honor@Crystalys#1}} | {{guide:spoils.pay.honor*1.5@Crystalys#1}} | {{guide:spoils.pay.honor*2@Crystalys#1}} |
 
 ### Dungeon Crystalys Twin
 
@@ -179,17 +179,17 @@ Her tür sırayla. Gövde ve kalkan, olağan değerlerin sütundaki aşamanın �
 
 |  | Aşama 1 | Aşama 2 | Aşama 3 |
 | :--- | ---: | ---: | ---: |
-| Gövde | 512.000 | 768.000 | 1.024.000 |
-| Kalkan | 320.000 | 480.000 | 640.000 |
-| Lazer hasarı (saniyede bir salvo) | 20.000 | 30.000 | 40.000 |
-| Hız | 230 | 230 | 230 |
+| Gövde | {{guide:vitals.hull@Dungeon Crystalys Twin}} | {{guide:vitals.hull*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.hull*2@Dungeon Crystalys Twin}} |
+| Kalkan | {{guide:vitals.shield@Dungeon Crystalys Twin}} | {{guide:vitals.shield*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.shield*2@Dungeon Crystalys Twin}} |
+| Lazer hasarı (saniyede bir salvo) | {{guide:vitals.dps@Dungeon Crystalys Twin}} | {{guide:vitals.dps*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.dps*2@Dungeon Crystalys Twin}} |
+| Hız | {{guide:vitals.speed@Dungeon Crystalys Twin}} | {{guide:vitals.speed@Dungeon Crystalys Twin}} | {{guide:vitals.speed@Dungeon Crystalys Twin}} |
 | Lazer menzili | 900 | 900 | 900 |
-| Aggro yarıçapı | 2.400 | 2.400 | 2.400 |
+| Aggro yarıçapı | {{guide:vitals.aggro@Dungeon Crystalys Twin}} | {{guide:vitals.aggro@Dungeon Crystalys Twin}} | {{guide:vitals.aggro@Dungeon Crystalys Twin}} |
 | Ödül ve ganimet, orijinalin katı | ×2 | ×3 | ×4 |
-| Yok etme başına Kredi | 150.000 | 225.000 | 300.000 |
-| Yok etme başına Thulium | 400 | 600 | 800 |
-| Yok etme başına Deneyim | 24.000 | 36.000 | 48.000 |
-| Yok etme başına Onur | 104 | 156 | 208 |
+| Yok etme başına Kredi | {{guide:spoils.pay.credits*2@Crystalys#1}} | {{guide:spoils.pay.credits*3@Crystalys#1}} | {{guide:spoils.pay.credits*4@Crystalys#1}} |
+| Yok etme başına Thulium | {{guide:spoils.pay.thulium*2@Crystalys#1}} | {{guide:spoils.pay.thulium*3@Crystalys#1}} | {{guide:spoils.pay.thulium*4@Crystalys#1}} |
+| Yok etme başına Deneyim | {{guide:spoils.pay.experience*2@Crystalys#1}} | {{guide:spoils.pay.experience*3@Crystalys#1}} | {{guide:spoils.pay.experience*4@Crystalys#1}} |
+| Yok etme başına Onur | {{guide:spoils.pay.honor*2@Crystalys#1}} | {{guide:spoils.pay.honor*3@Crystalys#1}} | {{guide:spoils.pay.honor*4@Crystalys#1}} |
 
 <!-- dungeons-enemies:end -->
 
@@ -205,24 +205,24 @@ Savaş Lordu, labirentin uzak ucundaki odada bekler ve düşüşü tamamlamanın
 
 |  | Aşama 1 | Aşama 2 | Aşama 3 |
 | :--- | ---: | ---: | ---: |
-| Gövde | 10.000.000 | 15.000.000 | 25.000.000 |
-| Kalkan | 8.000.000 | 12.000.000 | 20.000.000 |
-| Lazer hasarı (saniyede bir salvo) | 17.500–22.500 | 2 pilotun her birine 26.250–33.750 | 2 pilotun her birine 35.000–45.000 |
-| Hız | 120 | 120 | 120 |
+| Gövde | {{guide:vitals.hull@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} | {{guide:vitals.hull*2.5@Dungeon Warlord}} |
+| Kalkan | {{guide:vitals.shield@Dungeon Warlord}} | {{guide:vitals.shield*1.5@Dungeon Warlord}} | {{guide:vitals.shield*2.5@Dungeon Warlord}} |
+| Lazer hasarı (saniyede bir salvo) | {{guide:vitals.dps*0.875~1.125@Dungeon Warlord}} | 2 pilotun her birine {{guide:vitals.dps*1.3125~1.6875@Dungeon Warlord}} | 2 pilotun her birine {{guide:vitals.dps*1.75~2.25@Dungeon Warlord}} |
+| Hız | {{guide:vitals.speed@Dungeon Warlord}} | {{guide:vitals.speed@Dungeon Warlord}} | {{guide:vitals.speed@Dungeon Warlord}} |
 | Lazer menzili | 1.100 | 1.100 | 1.100 |
 
 Yukarıdaki gövde ve kalkan 5 kişilik bir grup içindir. Grupla birlikte büyürler: bunlar, zindan başladığında gruptaki pilot sayısına göre Savaş Lordu'nun gövdesi ve kalkanının toplamıdır.
 
 | Gruptaki pilotlar | Aşama 1 | Aşama 2 | Aşama 3 |
 | :--- | ---: | ---: | ---: |
-| 3 | 10.800.000 | 16.200.000 | 27.000.000 |
-| 4 | 14.400.000 | 21.600.000 | 36.000.000 |
-| 5 | 18.000.000 | 27.000.000 | 45.000.000 |
-| 6 | 21.600.000 | 32.400.000 | 54.000.000 |
-| 7 | 25.200.000 | 37.800.000 | 63.000.000 |
-| 8 | 28.800.000 | 43.200.000 | 72.000.000 |
-| 9 | 32.400.000 | 48.600.000 | 81.000.000 |
-| 10 | 36.000.000 | 54.000.000 | 90.000.000 |
+| 3 | {{guide:vitals.hull*0.6@Dungeon Warlord}} + {{guide:vitals.shield*0.6@Dungeon Warlord}} | {{guide:vitals.hull*0.9@Dungeon Warlord}} + {{guide:vitals.shield*0.9@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} + {{guide:vitals.shield*1.5@Dungeon Warlord}} |
+| 4 | {{guide:vitals.hull*0.8@Dungeon Warlord}} + {{guide:vitals.shield*0.8@Dungeon Warlord}} | {{guide:vitals.hull*1.2@Dungeon Warlord}} + {{guide:vitals.shield*1.2@Dungeon Warlord}} | {{guide:vitals.hull*2@Dungeon Warlord}} + {{guide:vitals.shield*2@Dungeon Warlord}} |
+| 5 | {{guide:vitals.hull@Dungeon Warlord}} + {{guide:vitals.shield@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} + {{guide:vitals.shield*1.5@Dungeon Warlord}} | {{guide:vitals.hull*2.5@Dungeon Warlord}} + {{guide:vitals.shield*2.5@Dungeon Warlord}} |
+| 6 | {{guide:vitals.hull*1.2@Dungeon Warlord}} + {{guide:vitals.shield*1.2@Dungeon Warlord}} | {{guide:vitals.hull*1.8@Dungeon Warlord}} + {{guide:vitals.shield*1.8@Dungeon Warlord}} | {{guide:vitals.hull*3@Dungeon Warlord}} + {{guide:vitals.shield*3@Dungeon Warlord}} |
+| 7 | {{guide:vitals.hull*1.4@Dungeon Warlord}} + {{guide:vitals.shield*1.4@Dungeon Warlord}} | {{guide:vitals.hull*2.1@Dungeon Warlord}} + {{guide:vitals.shield*2.1@Dungeon Warlord}} | {{guide:vitals.hull*3.5@Dungeon Warlord}} + {{guide:vitals.shield*3.5@Dungeon Warlord}} |
+| 8 | {{guide:vitals.hull*1.6@Dungeon Warlord}} + {{guide:vitals.shield*1.6@Dungeon Warlord}} | {{guide:vitals.hull*2.4@Dungeon Warlord}} + {{guide:vitals.shield*2.4@Dungeon Warlord}} | {{guide:vitals.hull*4@Dungeon Warlord}} + {{guide:vitals.shield*4@Dungeon Warlord}} |
+| 9 | {{guide:vitals.hull*1.8@Dungeon Warlord}} + {{guide:vitals.shield*1.8@Dungeon Warlord}} | {{guide:vitals.hull*2.7@Dungeon Warlord}} + {{guide:vitals.shield*2.7@Dungeon Warlord}} | {{guide:vitals.hull*4.5@Dungeon Warlord}} + {{guide:vitals.shield*4.5@Dungeon Warlord}} |
+| 10 | {{guide:vitals.hull*2@Dungeon Warlord}} + {{guide:vitals.shield*2@Dungeon Warlord}} | {{guide:vitals.hull*3@Dungeon Warlord}} + {{guide:vitals.shield*3@Dungeon Warlord}} | {{guide:vitals.hull*5@Dungeon Warlord}} + {{guide:vitals.shield*5@Dungeon Warlord}} |
 
 <!-- dungeons-boss:end -->
 
@@ -241,6 +241,7 @@ Klan zindanı penceresi odayı açmak için bunlardan kaçının daha yok edilme
 - **Sürü desteği**, Savaş Lordu'nun Goombah'larını çağırmasıdır. Onlar yaşadığı sürece ona zarar verilemez ve ateş etmez, başka bir yetenek de kullanmaz. Hepsini yok et: afiş kaç tanesinin kaldığını sayar. Bir dakika geçerse Savaş Lordu'na yine zarar verilebilir ve kalan Goombah'lar yerinde kalıp savaşmaya devam eder. Patron odası için sayılmazlar ve hiçbir şey ödemezler.
 - **Kaos Bölgesi**, Savaş Lordu'nun çevresinde, yerde duran mor bir halkadır ve sürdüğü müddetçe Savaş Lordu nereye giderse oraya gider. Halkanın içindeki hiç kimse lazerle ya da roketle saldıramaz; ama onarım, gizlenme ve uçuş çalışmaya devam eder, Savaş Lordu ve uzaylıları her zamanki gibi ateş eder. Halka etkisini göstermeden kısa bir an önce belirir: ondan çık ve dışarıda kal, çünkü Savaş Lordu'nu izler. Halkanın dışındaki bir pilot, silahları yettiği kadar ateş etmeye devam edebilir.
 - **Hayalet Mızrak**, Savaş Lordu'nu bir saniyeliğine yok eder. Savaş Lordu odasının başka bir yerinde, kendisinin üç yanılsamasıyla birlikte geri döner. Bir yanılsama yaşadığı sürece görebildiği en yakın pilota Savaş Lordu'nun salvosunun yarısıyla ateş eder ve her saniye Savaş Lordu'nun gövdesini ve kalkanını iyileştirir (sayılar yeteneklerin tablosunda). Yanılsamaların kendi gövdesi vardır: iyileşmeyi durdurmak için onları yok et. Hiçbir şey ödemezler ve Savaş Lordu düştüğünde onunla birlikte giderler. Savaş Lordu, onlar yaşarken de yok edilebilir.
+- **Radyasyon Çöreği**, Savaş Lordu'nun yeteneğe başladığı anda durduğu yerin çevresinde, Savaş Lordu'ndan dışarı doğru birbiri ardına üç radyasyon halkası yakar; iki halka arasında bir iki saniye vardır. Her halka yanmadan bir an önce iki kenarını gösterir, sonra içindeki her pilotu birkaç saniye boyunca doğrudan gövdeden yakar (süreler ve saniyede gövdenin payı yeteneklerin tablosunda). Bir halka, sonraki yandığında sönmez: iki halka, üst aşamalarda ise üçü birden aynı anda yanabilir. Savaş Lordu'nun çevresindeki boşluk, halkaların arasındaki zemin ve sonuncunun dışındaki zemin güvenlidir: orada kal ve bir halka yanmadan önce ondan çık. Duvar radyasyonu durdurmaz, gizlenme de pilotu ondan kurtarmaz; Radyasyon teknolojisi dozu azaltır.
 
 <!-- dungeons-abilities:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -255,19 +256,34 @@ Klan zindanı penceresi odayı açmak için bunlardan kaçının daha yok edilme
 | **Sürü desteği** | 2 sn | En fazla 1 dk | 3 dk | – | – |
 | **Kaos Bölgesi** | 2 sn | 15 sn | 2 dk | 900 | – |
 | **Hayalet Mızrak** | 1,5 sn | 1 sn | 2 dk | – | – |
+| **Radyasyon Çöreği** | 1 sn | En fazla 8,5 sn | 75 sn | 2.150 | – |
 
 | Yetenek | Aşama 1 | Aşama 2 | Aşama 3 |
 | :--- | :--- | :--- | :--- |
-| **Can çalma aurası** | Saniyede 8.000 | Saniyede 10.000 | Saniyede 12.000 |
-| **Meteor yağmuru** | Salvo başına 6 meteor, her biri 80.000 | Salvo başına 8 meteor, her biri 100.000 | Salvo başına 10 meteor, her biri 120.000 |
-| **En aranana odaklan** | En çok hasar veren pilota fazladan mermi başına 26.250–33.750, her 1 sn bir mermi | En çok hasar veren pilota fazladan mermi başına 39.375–50.625, her 1 sn bir mermi | En çok hasar veren pilota fazladan mermi başına 52.500–67.500, her 1 sn bir mermi |
-| **Roket yağmuru** | Her pilota roket başına 100.000–150.000, her 15 sn bir roket | Her pilota roket başına 125.000–187.500, her 15 sn bir roket | Her pilota roket başına 150.000–225.000, her 15 sn bir roket |
-| **Kalkan emilimi** | Saniyede 10.000 kalkan | Saniyede 12.500 kalkan | Saniyede 15.000 kalkan |
+| **Can çalma aurası** | Saniyede {{guide:behaviour.ability:lifesteal.drainPerSec@Dungeon Warlord}} | Saniyede {{guide:behaviour.ability:lifesteal.drainPerSec*1.25@Dungeon Warlord}} | Saniyede {{guide:behaviour.ability:lifesteal.drainPerSec*1.5@Dungeon Warlord}} |
+| **Meteor yağmuru** | Salvo başına 6 meteor, her biri {{guide:behaviour.ability:meteor.damage@Dungeon Warlord}} | Salvo başına 8 meteor, her biri {{guide:behaviour.ability:meteor.damage*1.25@Dungeon Warlord}} | Salvo başına 10 meteor, her biri {{guide:behaviour.ability:meteor.damage*1.5@Dungeon Warlord}} |
+| **En aranana odaklan** | En çok hasar veren pilota fazladan mermi başına {{guide:vitals.dps*1.3125~1.6875@Dungeon Warlord}}, her 1 sn bir mermi | En çok hasar veren pilota fazladan mermi başına {{guide:vitals.dps*1.96875~2.53125@Dungeon Warlord}}, her 1 sn bir mermi | En çok hasar veren pilota fazladan mermi başına {{guide:vitals.dps*2.625~3.375@Dungeon Warlord}}, her 1 sn bir mermi |
+| **Roket yağmuru** | Her pilota roket başına {{guide:behaviour.ability:barrage.damageMin@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage@Dungeon Warlord}}, her 15 sn bir roket | Her pilota roket başına {{guide:behaviour.ability:barrage.damageMin*1.25@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage*1.25@Dungeon Warlord}}, her 15 sn bir roket | Her pilota roket başına {{guide:behaviour.ability:barrage.damageMin*1.5@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage*1.5@Dungeon Warlord}}, her 15 sn bir roket |
+| **Kalkan emilimi** | Saniyede {{guide:behaviour.ability:absorb.drainPerSec@Dungeon Warlord}} kalkan | Saniyede {{guide:behaviour.ability:absorb.drainPerSec*1.25@Dungeon Warlord}} kalkan | Saniyede {{guide:behaviour.ability:absorb.drainPerSec*1.5@Dungeon Warlord}} kalkan |
 | **Sürü desteği** | 12 Goombah | 18 Goombah | 24 Goombah |
 | **Kaos Bölgesi** | Halkanın içindeki pilotlar saldıramaz | Halkanın içindeki pilotlar saldıramaz | Halkanın içindeki pilotlar saldıramaz |
-| **Hayalet Mızrak** | Her biri 500.000 gövdeli 3 yanılsama; her biri Savaş Lordu'nun salvosunun %50 kadarını ateşler ve yaşadığı sürece Savaş Lordu'nu saniyede 50.000 gövde ve 50.000 kalkan iyileştirir | Her biri 500.000 gövdeli 3 yanılsama; her biri Savaş Lordu'nun salvosunun %50 kadarını ateşler ve yaşadığı sürece Savaş Lordu'nu saniyede 50.000 gövde ve 50.000 kalkan iyileştirir | Her biri 500.000 gövdeli 3 yanılsama; her biri Savaş Lordu'nun salvosunun %50 kadarını ateşler ve yaşadığı sürece Savaş Lordu'nu saniyede 50.000 gövde ve 50.000 kalkan iyileştirir |
+| **Hayalet Mızrak** | 3 yanılsama; her biri Savaş Lordu'nun salvosunun %50 kadarını ateşler ve yaşadığı sürece Savaş Lordu'nu saniyede 50.000 gövde ve 50.000 kalkan iyileştirir | 3 yanılsama; her biri Savaş Lordu'nun salvosunun %50 kadarını ateşler ve yaşadığı sürece Savaş Lordu'nu saniyede 50.000 gövde ve 50.000 kalkan iyileştirir | 3 yanılsama; her biri Savaş Lordu'nun salvosunun %50 kadarını ateşler ve yaşadığı sürece Savaş Lordu'nu saniyede 50.000 gövde ve 50.000 kalkan iyileştirir |
+| **Radyasyon Çöreği** | 3 halka, birbiri ardına yanar; her biri 2 sn yanar ve bir pilotun gövdesinin saniyede %8 kadarını alır | 3 halka, birbiri ardına yanar; her biri 3 sn yanar ve bir pilotun gövdesinin saniyede %8 kadarını alır | 3 halka, birbiri ardına yanar; her biri 4,5 sn yanar ve bir pilotun gövdesinin saniyede %8 kadarını alır |
 
 <!-- dungeons-abilities:end -->
+
+### Üç aşaması {#its-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Warlord'un üç aşaması vardır ([nasıl işlediği](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); her biri bir kez gerçekleşir.
+
+- **Üçte ikinin altında**: Yetenekleri arasındaki boşluk 4 sn değerine, bekleme süreleri ×0,75 değerine düşer.
+- **Üçte birin altında**: Boşluk 2 sn değerine, bekleme süreleri ×0,5 değerine düşer ve hasarı ×1,25 değerine yükselir; bir bedava Meteor salvosu atar ve Swarm yeteneği her 120 sn aralıktan daha sık geri gelmez.
+- **Her aşamada bir duraklama.** Bir aşama başladığında Warlord 3 sn boyunca yaralanamaz.
+
+<!-- mob-ladder:end -->
 
 ## Ganimet bölgeleri {#loot-zones}
 
@@ -351,9 +367,9 @@ Savaş Lordu düştüğünde, hak eden her pilota tamamlanan tur için bir kez �
 
 | Aşama | Onur | Deneyim | Kredi | Thulium | x4 cephane | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE sıralama puanı |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Aşama 1** | 25.000 | 600.000 | 5.000.000 | 8.000 | 4.000 | 5 | 12 | 5 | 850 |
-| **Aşama 2** | 50.000 | 1.500.000 | 10.000.000 | 18.000 | 9.000 | 10 | 8 | 6 | 2.000 |
-| **Aşama 3** | 100.000 | 2.400.000 | 17.500.000 | 30.000 | 15.000 | 15 | 8 | 7 | 3.400 |
+| **Aşama 1** | 25.000 | 600.000 | 5.000.000 | 8.000 | 4.000 | 5 | 24 | 10 | 850 |
+| **Aşama 2** | 50.000 | 1.500.000 | 10.000.000 | 18.000 | 9.000 | 10 | 16 | 12 | 2.000 |
+| **Aşama 3** | 100.000 | 2.400.000 | 17.500.000 | 30.000 | 15.000 | 15 | 16 | 14 | 3.400 |
 
 - **Heartshards**: Bir sezonda her aşamanın ilk ücretli tamamlanmasında 1; ayrıca her ücretli tamamlamada %5 ihtimalle bir tane daha.
 
@@ -367,7 +383,7 @@ Bu kurallar **tamamlama için** kime ödeme yapılacağını belirler. Bir tur, 
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
 - **Bir gün**: Bir aşama, bir pilota UTC gününde bir kez öder: Savaş Lordu'nun düştüğü gün
-- **Bir hafta**: Bir pilot, UTC haftasında (Pazartesi–Pazar) en çok 10 aşama tamamlama için ödeme alır
+- **Bir hafta**: Bir pilot, UTC haftasında (Pazartesi–Pazar) en çok 14 aşama tamamlama için ödeme alır
 - **İçeride**: Toplamda en az 2 dk
 - **Savaşa katkı**: Şunlardan en az biri: Savaş Lordu'nun gövdesine ve kalkanına toplam %0,1 oranında hasar verdi; zindanın 10 uzaylısını yok etti; Savaş Lordu'yla savaş sırasında diğer pilotları 50.000 iyileştirdi
 
@@ -382,8 +398,8 @@ Bir pilotun bir günde ve sınırların izin verdiği en iyi haftada alabileceğ
 
 | Her pilota ödeme | Onur | Deneyim | Kredi | Thulium | x4 cephane | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE sıralama puanı |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Bir gün, her aşama bir kez | 175.000 | 4.500.000 | 32.500.000 | 56.000 | 28.000 | 30 | 28 | 18 | 6.250 |
-| En iyi hafta: 7 × Aşama 3 ve 3 × Aşama 2 | 850.000 | 21.300.000 | 152.500.000 | 264.000 | 132.000 | 135 | 80 | 67 | 29.800 |
+| Bir gün, her aşama bir kez | 175.000 | 4.500.000 | 32.500.000 | 56.000 | 28.000 | 30 | 56 | 36 | 6.250 |
+| En iyi hafta: 7 × Aşama 3 ve 7 × Aşama 2 | 1.050.000 | 27.300.000 | 192.500.000 | 336.000 | 168.000 | 175 | 224 | 182 | 37.800 |
 
 Ödemesi yapılan bir tamamlamanın deneyimi ve onuru PvE sıralama puanlarınıza sayılır: her 1.000 deneyim için bir puan, her 100 onur için de bir puan.
 
@@ -395,7 +411,7 @@ Bir zindanın her uzaylısı düştüğünde ödeme yapar ve ganimet bırakır; 
 
 - **Kime ödenir.** Uzaylıya zarar veren pilotlara, verdikleri hasara göre, sürülerin uzaylılarında olduğu gibi: uzaylıya yalnızca sıyırıp geçen bir pilot ya da grup hiçbir şey almaz, bir grup tek kişi gibi ödenir ve bir grubun içinde enkaza yakın olan ve yakın zamanda ateş etmiş üyeler ödenen miktarı seviyeye göre paylaşır. Uzaylıya hasar vermemiş bir pilot, ne kadar yakından uçmuş olursa olsun, onun için hiçbir şey almaz; hiçbir pilotun zarar vermediği bir uzaylı ise kimseye ödeme yapmaz. Yalnızca yukarıdaki kuralların ödeme yaptığı pilotlar dahildir: ayrılan, yeterince uzun süre içeride kalmayan, bugün aşama için zaten ödeme alan ya da haftanın tüm ödemeli tamamlamalarını kullanan pilot uzaylılar için hiçbir şey almaz, payını diğerleri alır. Bir yok ediş savaştaki payı istemez: uzaylıya zarar vermek zaten paydır. Bir grubun en çok hasar veren üyesi yok edilmişse ya da haritada değilse, enkaza yakın olan ve yakın zamanda ateş etmiş üyeler ödemeyi onsuz paylaşır.
 - **Ne ödenir.** Kredi, Thulium, deneyim ve onur, yok ediş başına bir kez. Ödeme, orijinalin Alpha'da ödediğidir ve her dünyada aynıdır: bir zindanın dünya çarpanı yoktur. Boosterların, formasyonun ve klanının bonusları herhangi bir yok edişte olduğu gibi geçerlidir; deneyim de tamamlamanın deneyimi gibi [PvE puanlarına](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points) sayılır.
-- **Ganimet.** Orijinalin şanslarıyla çekilir, yalnızca Echo Shard'ın şansı iki katıdır, sonra her miktar oranla çarpılır (bir birimin kesri, bir tane daha alma şansıdır). Enkazın yerinde bir kutu olarak düşer; önce en çok hasar veren pilot ve klanı için, sonra haritadaki herkes için, ardından kaybolur. En çok hasar veren pilotun [grubunda](/wiki/03-Mechanics/Groups.md) uzaylıya hasar veren ve hâlâ zindanda uçan iki veya daha fazla pilot varsa, ganimet bunun yerine [kişisel kutulara](/wiki/03-Mechanics/Cargo.md#personal-crates) bölünür, verdikleri hasara göre her biri için bir kutu, ve her kutu önce yalnızca kendi pilotunundur, sonra haritadaki herkesindir. Hasar vermeyen veya yukarıdaki kuralların dışarıda bıraktığı bir grup arkadaşı kutu almaz. Diğer gruplar ve tek başına uçan pilotlar payları için ödeme alır ancak bu ganimetten kutu almaz. Harita aynı anda yalnızca belirli sayıda kutu tutar, bu yüzden ilerlerken topla; zindan kapandığında haritada kalanlar zindanla birlikte gider. Tamamlamanın eşyalarından farklı olarak bunlar bir uzaylının olağan ganimetidir: eşya satılabilirse [Açık Artırma'da satılabilir](/wiki/03-Mechanics/Auction.md#marketable-items).
+- **Ganimet.** Orijinalin şanslarıyla çekilir, yalnızca Echo Shard'ın şansı iki katıdır ve ikişer ikişer düşer, sonra her miktar oranla çarpılır (bir birimin kesri, bir tane daha alma şansıdır). Enkazın yerinde bir kutu olarak düşer; önce en çok hasar veren pilot ve klanı için, sonra haritadaki herkes için, ardından kaybolur. En çok hasar veren pilotun [grubunda](/wiki/03-Mechanics/Groups.md) uzaylıya hasar veren ve hâlâ zindanda uçan iki veya daha fazla pilot varsa, ganimet bunun yerine [kişisel kutulara](/wiki/03-Mechanics/Cargo.md#personal-crates) bölünür, verdikleri hasara göre her biri için bir kutu, ve her kutu önce yalnızca kendi pilotunundur, sonra haritadaki herkesindir. Hasar vermeyen veya yukarıdaki kuralların dışarıda bıraktığı bir grup arkadaşı kutu almaz. Diğer gruplar ve tek başına uçan pilotlar payları için ödeme alır ancak bu ganimetten kutu almaz. Harita aynı anda yalnızca belirli sayıda kutu tutar, bu yüzden ilerlerken topla; zindan kapandığında haritada kalanlar zindanla birlikte gider. Tamamlamanın eşyalarından farklı olarak bunlar bir uzaylının olağan ganimetidir: eşya satılabilirse [Açık Artırma'da satılabilir](/wiki/03-Mechanics/Auction.md#marketable-items).
 - **Ödeme yapmayanlar.** Savaş Lordu yok ediş için ödeme yapmaz, yalnızca tamamlama için yapar. Çağırdığı Goombah'lar hiçbir şey ödemez, çünkü çağrı, savaş sürdüğü sürece geri gelir.
 - **Oyunun bir yok edişi değil.** Zindandaki bir yok ediş görevlere, başarımlara, yok etme sayaçlarına, sıfırlama puanlarına, bir yok edişin PvE puanlarına, dronlara ya da P.E.T.’lere sayılmaz: bir Dungeon Goombah, oyundaki bir Goombah değildir.
 - **Sınırlar.** Yukarıdaki günlük ve haftalık sınırlar uzaylıların ödemesini de tamamlamanınki gibi tutar: bugün aşama için zaten ödeme alan ya da haftanın tüm ödemeli tamamlamalarını kullanan pilot, uzaylıları için de bir şey almaz ve bir yok edişin havuzu diğerlerine gider. Tamamlanmayan bir zindan, yok edişlerini kuralların ödeme yaptığı pilotlara öder, tamamlama için ise hiçbir şey ödemez.

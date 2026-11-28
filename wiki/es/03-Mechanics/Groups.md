@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ab422d8b5066fe56 -->
+<!-- wiki-i18n source: 61fa5f21bae46a15 -->
 <!-- wiki-i18n title: Grupos -->
 # Grupos {#groups}
 
@@ -119,7 +119,7 @@ Tu lista de ignorados y el interruptor de ocultar el chat Global se guardan con 
 
 ## Reglas de enfrentamiento {#rules-of-engagement}
 
-**Los miembros de un mismo grupo no pueden hacerse daño**, sean cuales sean sus corporaciones: no puedes fijar a un compañero de grupo (láseres o cohetes), tus disparos y explosiones lo atraviesan, y nada de lo que le hagas cuenta como derribo, derribo PvP o derribo por agujero negro para nadie. Los compañeros de corporación que **no** están en el mismo grupo siguen como antes: golpear a uno con un láser o un cohete cuesta **100 de honor** cuando es destruido. Sal del grupo y un antiguo compañero, enemigo o no, vuelve a ser objetivo legítimo al instante (allí donde el sector y la temporada permitan combatir). Todos los que no están en tu grupo se tratan como siempre, y las zonas seguras, el Protocolo de paz y las reglas PvP de los sectores no cambian para nadie.
+**Los miembros de un mismo grupo no pueden atacarse entre sí**, sean cuales sean sus corporaciones: no puedes fijar a un compañero de grupo (láseres o cohetes), tus disparos y tus cohetes directos lo atraviesan, y nada de lo que le hagas cuenta como derribo, derribo PvP o derribo por agujero negro para nadie. El único daño de cohete que sí alcanza a tu grupo es el de área: la explosión de un Ember, un Scatter o una N.U.K.E. y la zona de radiación que deja una N.U.K.E. o una Gravitational N.U.K.E. te dañan a ti y a los miembros de tu grupo con la mitad de lo que hacen a otra nave (una zona segura y la protección de una reaparición te libran de ellas; el Protocolo de paz y los sectores sin PvP, no), y si una de ellas destruye a un miembro, nadie se lleva el derribo. Los compañeros de corporación que **no** están en el mismo grupo siguen como antes: golpear a uno con un láser o un cohete cuesta **100 de honor** cuando es destruido. Sal del grupo y un antiguo compañero, enemigo o no, vuelve a ser objetivo legítimo al instante (allí donde el sector y la temporada permitan combatir). Todos los que no están en tu grupo se tratan como siempre, y las zonas seguras, el Protocolo de paz y las reglas PvP de los sectores no cambian para nadie.
 
 ## Trae a un amigo {#bringing-a-friend}
 

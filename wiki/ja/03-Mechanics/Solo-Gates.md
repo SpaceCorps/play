@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6fe66f282236a0de -->
+<!-- wiki-i18n source: b4ceac9f501a1ec2 -->
 <!-- wiki-i18n title: ソロゲート -->
 # ソロゲート {#solo-gates}
 
@@ -136,33 +136,40 @@ Chrono-Gateのパーツはワイプでゼロに戻り、毎シーズン見つけ
 
 ボスはエイリアンの船を大きくしたもので、船体、シールド、一斉射が専用で、ゲートやワールドの設定では変わりません。ボスの船体が表の値まで減るとフェーズが始まります。シールドが設定し直され、一斉射や全ダメージが変わり、技を始めることがあります。技はすべて予告されます。円、リング、あなたの船の上のマークが、着弾の少し前に示します。ボスが呼ぶエイリアンは、報酬もドロップもありません。
 
-**Evil Davidski**はDavidski's Nightmareのボスで、Davidski本人のIroncladをより暗い金色にした船で飛びます。誘導ロケットであるDormant Lanceを撃ち、遠くまであなたを追ってきます。また、メテオ、リング、自分が呼ぶEvilの船で戦います。船体が半分になると**怒り狂う Davidski**になり、彼のテーマ曲が流れ、攻撃が強まり、周囲に**ゲーム内のすべての船種の金色の船**が現れます。金色の船が1隻でも生きている間、彼にはまったくダメージが入りません。あなたのレーザーとロケットは彼をロックオンできず、何をしても船体にもシールドにも届かないので、まず金色の船を突破します。最後の1隻が落ちると、その保護は永久に消えます。各ウェーブの開始時に、専用のウィンドウからあなたを嘲ります。彼を倒すと、Davidskiの撃破を求めるミッションでは、危険セクターと同じくゲートでも撃破1回として数えられます。最新でないゲームにはこのゲートは表示されません。
+**Evil Davidski**はDavidski's Nightmareのボスで、Davidski本人のIroncladをより暗い金色にした船で飛びます。誘導ロケットであるDormant Lanceを撃ち、遠くまであなたを追ってきます。また、メテオ、リング、自分が呼ぶEvilの船で戦います。船体が3分の1になると**怒り狂う Davidski**になり、彼のテーマ曲が流れ、攻撃が強まり、周囲に**ゲーム内のすべての船種の金色の船**が現れます。金色の船が1隻でも生きている間、彼にはまったくダメージが入りません。あなたのレーザーとロケットは彼をロックオンできず、何をしても船体にもシールドにも届かないので、まず金色の船を突破します。最後の1隻が落ちると、その保護は永久に消えます。各ウェーブの開始時に、専用のウィンドウからあなたを嘲ります。彼を倒すと、Davidskiの撃破を求めるミッションでは、危険セクターと同じくゲートでも撃破1回として数えられます。最新でないゲームにはこのゲートは表示されません。
 
 <!-- solo-bosses:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
 
 | ボス | ゲート | 船体 | シールド | レーザーの一斉射 |
 | :--- | :--- | ---: | ---: | ---: |
-| **Enhanced Phantasm** | Alpha Rift | 330,000 | 530,000 | 5,700–7,000 |
-| **Enhanced Bulwark** | Beta Breach | 690,000 | 170,000 | 4,500–5,500 |
-| **Elite Crystalys** | Gamma Foundry | 620,000 | 250,000 | 3,800–4,700 |
-| **Siege Construct** | Delta Siege | 1,150,000 | 1,730,000 | 3,400–4,200 |
-| **Omega Guardian** | Omega Vault | 1,340,000 | 840,000 | 2,600–3,200 |
-| **Evil Davidski** | Davidski's Nightmare | 5,500,000 | 6,600,000 | 7,800–9,600 |
+| **Enhanced Phantasm** | Alpha Rift | {{guide:vitals.hull@Enhanced Phantasm}} | {{guide:vitals.shield@Enhanced Phantasm}} | {{guide:vitals.dps*0.9007633587786259~1.099236641221374@Enhanced Phantasm}} |
+| **Enhanced Bulwark** | Beta Breach | {{guide:vitals.hull@Enhanced Bulwark}} | {{guide:vitals.shield@Enhanced Bulwark}} | {{guide:vitals.dps*0.9019607843137255~1.0980392156862746@Enhanced Bulwark}} |
+| **Elite Crystalys** | Gamma Foundry | {{guide:vitals.hull@Elite Crystalys}} | {{guide:vitals.shield@Elite Crystalys}} | {{guide:vitals.dps*0.896551724137931~1.103448275862069@Elite Crystalys}} |
+| **Siege Construct** | Delta Siege | {{guide:vitals.hull@Siege Construct}} | {{guide:vitals.shield@Siege Construct}} | {{guide:vitals.dps*0.8974358974358975~1.1025641025641026@Siege Construct}} |
+| **Omega Guardian** | Omega Vault | {{guide:vitals.hull@Omega Guardian}} | {{guide:vitals.shield@Omega Guardian}} | {{guide:vitals.dps*0.896551724137931~1.103448275862069@Omega Guardian}} |
+| **Evil Davidski** | Davidski's Nightmare | {{guide:vitals.hull@Evil Davidski}} | {{guide:vitals.shield@Evil Davidski}} | {{guide:vitals.dps*0.896551724137931~1.103448275862069@Evil Davidski}} |
 
 | ボス | フェーズ | 残りの船体 | 行動 |
 | :--- | :--- | :--- | :--- |
-| **Enhanced Phantasm** | Enhanced Phantasm | 100%～0% | 撃つだけです。 |
-| **Enhanced Bulwark** | Shielded | 100%～50% | シールドはボス本来の×4に設定されます。 |
-|  | Second attack | 50%～0% | 一斉射は×1.3です。Dormant Lanceロケットを4発、1発あたり61,000で、0.5秒おきにあなたへ撃ち、30秒ごとに一斉に発射します。 |
-| **Elite Crystalys** | Elite | 100%～50% | 撃つだけです。 |
-|  | Reinforced | 50%～0% | シールドはボス本来の×2に設定されます。10分ごとにGoombahを10体呼び、同時に生きているのは最大10体です。報酬もドロップもありません。 |
-| **Siege Construct** | Siege Construct | 100%～0% | 1分ごとに、8個のメテオの一斉落下を3回降らせます。1個あたり5,500で、着弾点から420ユニット以内のすべてに当たり、そのうち50%はあなたを狙います。各円は着弾の3秒前に表示されます。Dormant Lanceロケットを6発、1発あたり9,000で、0.5秒おきにあなたへ撃ち、1分ごとに一斉に発射します。 |
-| **Omega Guardian** | Shield Fortress | 100%～70% | シールドはボス本来の×1.5に設定されます。40秒ごとにBulwarkを6体呼び、同時に生きているのは最大12体です。報酬もドロップもありません。 |
-|  | Swarm Protocol | 70%～35% | 25秒ごとにPhantasmを12体呼び、同時に生きているのは最大24体です。報酬もドロップもありません。30秒ごとに、140,000の爆風がボスから700ユニット以内のすべてに当たります。リングは着弾の2秒前に表示されます。 |
-|  | Overload | 35%～0% | シールドはボス本来の×0.1に設定されます。すべてのダメージが×2.5になります。フェーズに入って2分が過ぎると、すべてのダメージがさらに×2になります。25秒ごとに、28,000の爆風がボスから700ユニット以内のすべてに当たります。リングは着弾の2秒前に表示されます。 |
-| **Evil Davidski** | Evil Davidski | 100%～50% | Dormant Lanceロケットを6発、1発あたり14,700で、0.5秒おきにあなたへ撃ち、30秒ごとに一斉に発射します。1分ごとに、8個のメテオの一斉落下を2回降らせます。1個あたり33,000で、着弾点から400ユニット以内のすべてに当たり、そのうち50%はあなたを狙います。各円は着弾の3秒前に表示されます。40秒ごとにEvil Protosを5体呼び、同時に生きているのは最大10体です。報酬もドロップもありません。 |
-|  | Angry | 50%～0% | シールドはボス本来の×0.5に設定されます。すべてのダメージが×1.5になります。フェーズに入って8分が過ぎると、すべてのダメージがさらに×2になります。Dormant Lanceロケットを6発、1発あたり7,800で、0.4秒おきにあなたへ撃ち、30秒ごとに一斉に発射します。1分ごとに、8個のメテオの一斉落下を3回降らせます。1個あたり10,200で、着弾点から420ユニット以内のすべてに当たり、そのうち50%はあなたを狙います。各円は着弾の3秒前に表示されます。45秒ごとに、105,000の爆風がボスから700ユニット以内のすべてに当たります。リングは着弾の2秒前に表示されます。40秒ごとにEvil Kitefinを3体呼び、同時に生きているのは最大6体です。報酬もドロップもありません。 |
+| **Enhanced Phantasm** | Enhanced Phantasm | 100%～66% | 撃つだけです。 |
+|  | Reinforced | 66%～33% | シールドはボス本来の×1に設定されます。10分ごとにPhantasmを4体呼び、同時に生きているのは最大4体です。報酬もドロップもありません。 |
+|  | Second attack | 33%～0% | 一斉射は×1.3です。30秒ごとに、{{guide:behaviour.ability:phases.ringBlast@Enhanced Phantasm}}の爆風がボスから500ユニット以内のすべてに当たります。リングは着弾の2秒前に表示されます。 |
+| **Enhanced Bulwark** | Shielded | 100%～66% | シールドはボス本来の×4に設定されます。 |
+|  | Rocket barrage | 66%～33% | Dormant Lanceロケットを4発、1発あたり{{guide:behaviour.ability:phases.rocketBarrage@Enhanced Bulwark}}で、0.5秒おきにあなたへ撃ち、30秒ごとに一斉に発射します。 |
+|  | Second attack | 33%～0% | 一斉射は×1.3です。10分ごとにPhantasmを4体呼び、同時に生きているのは最大4体です。報酬もドロップもありません。 |
+| **Elite Crystalys** | Elite | 100%～66% | 撃つだけです。 |
+|  | Renewed shield | 66%～33% | シールドはボス本来の×1に設定されます。 |
+|  | Reinforced | 33%～0% | シールドはボス本来の×2に設定されます。10分ごとにGoombahを10体呼び、同時に生きているのは最大10体です。報酬もドロップもありません。 |
+| **Siege Construct** | Siege Construct | 100%～66% | 1分ごとに、8個のメテオの一斉落下を3回降らせます。1個あたり{{guide:behaviour.ability:phases.meteors@Siege Construct}}で、着弾点から420ユニット以内のすべてに当たり、そのうち50%はあなたを狙います。各円は着弾の3秒前に表示されます。 |
+|  | Rocket barrage | 66%～33% | 1分ごとに、8個のメテオの一斉落下を3回降らせます。1個あたり{{guide:behaviour.ability:phases.meteors2@Siege Construct}}で、着弾点から420ユニット以内のすべてに当たり、そのうち50%はあなたを狙います。各円は着弾の3秒前に表示されます。Dormant Lanceロケットを6発、1発あたり{{guide:behaviour.ability:phases.rocketBarrage@Siege Construct}}で、0.5秒おきにあなたへ撃ち、1分ごとに一斉に発射します。 |
+|  | Frenzy | 33%～0% | 30秒ごとに、8個のメテオの一斉落下を3回降らせます。1個あたり{{guide:behaviour.ability:phases.meteors3@Siege Construct}}で、着弾点から420ユニット以内のすべてに当たり、そのうち50%はあなたを狙います。各円は着弾の3秒前に表示されます。Dormant Lanceロケットを6発、1発あたり{{guide:behaviour.ability:phases.rocketBarrage2@Siege Construct}}で、0.5秒おきにあなたへ撃ち、30秒ごとに一斉に発射します。 |
+| **Omega Guardian** | Shield Fortress | 100%～66% | シールドはボス本来の×1.5に設定されます。40秒ごとにBulwarkを6体呼び、同時に生きているのは最大12体です。報酬もドロップもありません。 |
+|  | Swarm Protocol | 66%～33% | 25秒ごとにPhantasmを12体呼び、同時に生きているのは最大24体です。報酬もドロップもありません。30秒ごとに、{{guide:behaviour.ability:phases.ringBlast@Omega Guardian}}の爆風がボスから700ユニット以内のすべてに当たります。リングは着弾の2秒前に表示されます。 |
+|  | Overload | 33%～0% | シールドはボス本来の×0.1に設定されます。すべてのダメージが×2.5になります。フェーズに入って2分が過ぎると、すべてのダメージがさらに×2になります。25秒ごとに、{{guide:behaviour.ability:phases.ringBlast2@Omega Guardian}}の爆風がボスから700ユニット以内のすべてに当たります。リングは着弾の2秒前に表示されます。 |
+| **Evil Davidski** | Evil Davidski | 100%～66% | 撃つだけです。 |
+|  | Davidski attacks | 66%～33% | Dormant Lanceロケットを6発、1発あたり{{guide:behaviour.ability:phases.rocketBarrage@Evil Davidski}}で、0.5秒おきにあなたへ撃ち、30秒ごとに一斉に発射します。1分ごとに、8個のメテオの一斉落下を2回降らせます。1個あたり{{guide:behaviour.ability:phases.meteors@Evil Davidski}}で、着弾点から400ユニット以内のすべてに当たり、そのうち50%はあなたを狙います。各円は着弾の3秒前に表示されます。40秒ごとにEvil Protosを5体呼び、同時に生きているのは最大10体です。報酬もドロップもありません。 |
+|  | Angry | 33%～0% | シールドはボス本来の×0.5に設定されます。すべてのダメージが×1.5になります。フェーズに入って8分が過ぎると、すべてのダメージがさらに×2になります。Dormant Lanceロケットを6発、1発あたり{{guide:behaviour.ability:phases.rocketBarrage2@Evil Davidski}}で、0.4秒おきにあなたへ撃ち、30秒ごとに一斉に発射します。1分ごとに、8個のメテオの一斉落下を3回降らせます。1個あたり{{guide:behaviour.ability:phases.meteors2@Evil Davidski}}で、着弾点から420ユニット以内のすべてに当たり、そのうち50%はあなたを狙います。各円は着弾の3秒前に表示されます。45秒ごとに、{{guide:behaviour.ability:phases.ringBlast@Evil Davidski}}の爆風がボスから700ユニット以内のすべてに当たります。リングは着弾の2秒前に表示されます。40秒ごとにEvil Kitefinを3体呼び、同時に生きているのは最大6体です。報酬もドロップもありません。 |
 
 <!-- solo-bosses:end -->
 
@@ -203,27 +210,27 @@ Chrono-Gateのパーツはワイプでゼロに戻り、毎シーズン見つけ
 
 | エイリアン | クレジット | Thulium | 経験値 | 名誉 |
 | :--- | ---: | ---: | ---: | ---: |
-| **Seeker** | 1,000 | 4 | 100 | 2 |
-| **Phantasm** | 3,000 | 12 | 300 | 6 |
-| **Bulwark** | 5,000 | 25 | 800 | 10 |
-| **Goombah** | 15,000 | 75 | 3,000 | 24 |
-| **Crystalys** | 75,000 | 200 | 12,000 | 52 |
-| **Boss Seeker** | 10,000 | 40 | 1,000 | 20 |
-| **Seeker Slave** | 125 | 1 | 12 | 1 |
-| **Boss Phantasm** | 39,000 | 195 | 7,800 | 62 |
-| **Phantasm Guard** | 125 | 1 | 12 | 1 |
-| **Boss Goombah** | 120,000 | 600 | 24,000 | 192 |
-| **Goombah Guard** | 125 | 1 | 12 | 1 |
-| **Boss Crystalys** | 393,750 | 1,050 | 63,000 | 273 |
-| **Crystalys Guard** | 125 | 1 | 12 | 1 |
-| **Evil Protos** | 4,250 | 17 | 725 | 6 |
-| **Evil Kitefin** | 12,850 | 53 | 2,175 | 18 |
-| **Evil Ostirion** | 34,350 | 141 | 5,800 | 48 |
-| **Evil Nomad** | 59,600 | 245 | 10,060 | 84 |
-| **Evil Paragon** | 68,700 | 283 | 11,600 | 97 |
-| **Evil Storm** | 96,600 | 398 | 16,315 | 136 |
-| **Evil Wraith** | 137,450 | 566 | 23,205 | 194 |
-| **Evil Ironclad** | 268,450 | 1,105 | 45,330 | 379 |
+| **Seeker** | {{guide:spoils.pay.credits@Seeker#1}} | {{guide:spoils.pay.thulium@Seeker#1}} | {{guide:spoils.pay.experience@Seeker#1}} | {{guide:spoils.pay.honor@Seeker#1}} |
+| **Phantasm** | {{guide:spoils.pay.credits@Phantasm#1}} | {{guide:spoils.pay.thulium@Phantasm#1}} | {{guide:spoils.pay.experience@Phantasm#1}} | {{guide:spoils.pay.honor@Phantasm#1}} |
+| **Bulwark** | {{guide:spoils.pay.credits@Bulwark#1}} | {{guide:spoils.pay.thulium@Bulwark#1}} | {{guide:spoils.pay.experience@Bulwark#1}} | {{guide:spoils.pay.honor@Bulwark#1}} |
+| **Goombah** | {{guide:spoils.pay.credits@Goombah#1}} | {{guide:spoils.pay.thulium@Goombah#1}} | {{guide:spoils.pay.experience@Goombah#1}} | {{guide:spoils.pay.honor@Goombah#1}} |
+| **Crystalys** | {{guide:spoils.pay.credits@Crystalys#1}} | {{guide:spoils.pay.thulium@Crystalys#1}} | {{guide:spoils.pay.experience@Crystalys#1}} | {{guide:spoils.pay.honor@Crystalys#1}} |
+| **Boss Seeker** | {{guide:spoils.pay.credits@Boss Seeker#1}} | {{guide:spoils.pay.thulium@Boss Seeker#1}} | {{guide:spoils.pay.experience@Boss Seeker#1}} | {{guide:spoils.pay.honor@Boss Seeker#1}} |
+| **Seeker Slave** | {{guide:spoils.pay.credits@Seeker Slave#1}} | {{guide:spoils.pay.thulium@Seeker Slave#1}} | {{guide:spoils.pay.experience@Seeker Slave#1}} | {{guide:spoils.pay.honor@Seeker Slave#1}} |
+| **Boss Phantasm** | {{guide:spoils.pay.credits@Boss Phantasm#1}} | {{guide:spoils.pay.thulium@Boss Phantasm#1}} | {{guide:spoils.pay.experience@Boss Phantasm#1}} | {{guide:spoils.pay.honor@Boss Phantasm#1}} |
+| **Phantasm Guard** | {{guide:spoils.pay.credits@Phantasm Guard#1}} | {{guide:spoils.pay.thulium@Phantasm Guard#1}} | {{guide:spoils.pay.experience@Phantasm Guard#1}} | {{guide:spoils.pay.honor@Phantasm Guard#1}} |
+| **Boss Goombah** | {{guide:spoils.pay.credits@Boss Goombah#1}} | {{guide:spoils.pay.thulium@Boss Goombah#1}} | {{guide:spoils.pay.experience@Boss Goombah#1}} | {{guide:spoils.pay.honor@Boss Goombah#1}} |
+| **Goombah Guard** | {{guide:spoils.pay.credits@Goombah Guard#1}} | {{guide:spoils.pay.thulium@Goombah Guard#1}} | {{guide:spoils.pay.experience@Goombah Guard#1}} | {{guide:spoils.pay.honor@Goombah Guard#1}} |
+| **Boss Crystalys** | {{guide:spoils.pay.credits@Boss Crystalys#1}} | {{guide:spoils.pay.thulium@Boss Crystalys#1}} | {{guide:spoils.pay.experience@Boss Crystalys#1}} | {{guide:spoils.pay.honor@Boss Crystalys#1}} |
+| **Crystalys Guard** | {{guide:spoils.pay.credits@Crystalys Guard#1}} | {{guide:spoils.pay.thulium@Crystalys Guard#1}} | {{guide:spoils.pay.experience@Crystalys Guard#1}} | {{guide:spoils.pay.honor@Crystalys Guard#1}} |
+| **Evil Protos** | {{guide:spoils.pay.credits@Evil Protos}} | {{guide:spoils.pay.thulium@Evil Protos}} | {{guide:spoils.pay.experience@Evil Protos}} | {{guide:spoils.pay.honor@Evil Protos}} |
+| **Evil Kitefin** | {{guide:spoils.pay.credits@Evil Kitefin}} | {{guide:spoils.pay.thulium@Evil Kitefin}} | {{guide:spoils.pay.experience@Evil Kitefin}} | {{guide:spoils.pay.honor@Evil Kitefin}} |
+| **Evil Ostirion** | {{guide:spoils.pay.credits@Evil Ostirion}} | {{guide:spoils.pay.thulium@Evil Ostirion}} | {{guide:spoils.pay.experience@Evil Ostirion}} | {{guide:spoils.pay.honor@Evil Ostirion}} |
+| **Evil Nomad** | {{guide:spoils.pay.credits@Evil Nomad}} | {{guide:spoils.pay.thulium@Evil Nomad}} | {{guide:spoils.pay.experience@Evil Nomad}} | {{guide:spoils.pay.honor@Evil Nomad}} |
+| **Evil Paragon** | {{guide:spoils.pay.credits@Evil Paragon}} | {{guide:spoils.pay.thulium@Evil Paragon}} | {{guide:spoils.pay.experience@Evil Paragon}} | {{guide:spoils.pay.honor@Evil Paragon}} |
+| **Evil Storm** | {{guide:spoils.pay.credits@Evil Storm}} | {{guide:spoils.pay.thulium@Evil Storm}} | {{guide:spoils.pay.experience@Evil Storm}} | {{guide:spoils.pay.honor@Evil Storm}} |
+| **Evil Wraith** | {{guide:spoils.pay.credits@Evil Wraith}} | {{guide:spoils.pay.thulium@Evil Wraith}} | {{guide:spoils.pay.experience@Evil Wraith}} | {{guide:spoils.pay.honor@Evil Wraith}} |
+| **Evil Ironclad** | {{guide:spoils.pay.credits@Evil Ironclad}} | {{guide:spoils.pay.thulium@Evil Ironclad}} | {{guide:spoils.pay.experience@Evil Ironclad}} | {{guide:spoils.pay.honor@Evil Ironclad}} |
 
 | ゲート | クレジット | Thulium | 経験値 | 名誉 |
 | :--- | ---: | ---: | ---: | ---: |

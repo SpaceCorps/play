@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b2be88dc510d05b9 -->
+<!-- wiki-i18n source: d63cabc4771409f4 -->
 <!-- wiki-i18n title: 레이저 -->
 # 레이저와 탄약 {#lasers-ammo}
 
@@ -163,7 +163,7 @@ Helios Beam과 티어 IV 증폭기 4개는 마지막 티어 부품 5개로, Dark
 
 **새 탄약은 어디서 오나요.** 0.5.0부터 Experimental Fusion Core는 더 이상 판매하지 않습니다. Skylab 연구 센터에서 **Military Grade Ammo II**를 연구한 뒤 [어셈블리](/wiki/06-Items/Overview.md#the-production-queue)에서 1,000개씩 직접 제작합니다. Ultra Core는 지금도 구매할 수 있고 제작도 할 수 있습니다(**Military Grade Ammo I**, 연구 30분). 새 탄약 5종은 제작 전용이며, 각각 **Laser Ammo** 계열의 기술 뒤에 있고 바로 아래 단계의 탄약으로 만듭니다. **Siphon Battery II**(Siphon Battery로), **Antimatter Battery I**(Siphon Battery II로)과 **II**(Antimatter Battery I과 약간의 [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)로), **Dark Matter Ammo I**(원자재와 Dark Matter 1개로)과 **II**(Dark Matter Ammo I과 Dark Matter로)입니다. 한 번 제작하면 1,000개이며 5~15분이 걸리고, 1개당 비용은 대략 그 가치만큼입니다. [탄약 프린터](/wiki/03-Mechanics/Skylab.md)도 연구를 마치면 Ultra Core와 Experimental Fusion Core를 만듭니다.
 
-**실드 관통**은 일제 사격의 매 공격마다 대상의 흡수율에서 차감됩니다. 즉 실드는 대상의 흡수율에서 관통을 뺀 몫을 받습니다([실드 시스템](/wiki/03-Mechanics/Shields.md#shield-penetration) 참고). Penetration Amp와 드론 편대는 탄약의 관통에 더해지며, 그 합계 전체는 [이 페이지 아래](#shield-penetration-of-a-laser-hit)에 있습니다. 91%(가장 좋은 실드에 가장 좋은 셀)인 함선을 상대로 x4 탄약의 10%는 실드가 공격의 81%를, 선체가 19%를 받게 합니다. Antimatter 탄약의 20%라면 실드가 71%, 선체가 29%를 받습니다. 실드에 비해 선체가 작은 함선에 가장 큰 의미가 있으며, 91%인 아주 큰 함선은 어느 쪽이든 똑같이 버팁니다. 외계인에게는 이렇다 할 흡수율 능력치가 없으며(외계인의 실드는 공격의 80%를 받습니다), 관통은 거기서도 차감됩니다.
+**실드 관통**은 일제 사격의 매 공격마다 대상의 흡수율에서 차감됩니다. 즉 실드는 대상의 흡수율에서 관통을 뺀 몫을 받습니다([실드 시스템](/wiki/03-Mechanics/Shields.md#shield-penetration) 참고). Penetration Amp와 드론 편대는 탄약의 관통에 더해지며, 그 합계 전체는 [이 페이지 아래](#shield-penetration-of-a-laser-hit)에 있습니다. 91%(가장 좋은 실드에 가장 좋은 셀)인 함선을 상대로 x4 탄약의 10%는 실드가 공격의 81%를, 선체가 19%를 받게 합니다. Antimatter 탄약의 20%라면 실드가 71%, 선체가 29%를 받습니다. 실드에 비해 선체가 작은 함선에 가장 큰 의미가 있으며, 91%인 아주 큰 함선은 어느 쪽이든 똑같이 버팁니다. 외계인에게는 이렇다 할 흡수율 능력치가 없으며(외계인의 실드는 공격의 80%를 받으며, Deep Void에서는 90%를 받습니다), 관통은 거기서도 차감됩니다.
 
 ### Siphon Battery
 
@@ -230,5 +230,5 @@ Siphon Battery는 선체를 부수는 대신 실드를 빼앗는 탄약입니다
 **Penetration Amp는 흡수율에 맞서며, 흡수율이 높을수록 더 효과적입니다. 선체가 작은 함선을 상대로 약 108%(시즌 상점, 대장간, Rampart 구성)에서는 Penetration 구성이 가장 좋은 일반 구성보다 약 12배 빨리 처치하고, 기본으로 가장 좋은 실드(91%)를 상대로는 Penetration Amp 3개가 같은 티어의 Crit Amp 3개보다 약 47% 적은 시간이 듭니다. 외계인을 상대로는 Gemini를 쓰면 Phantasm이나 Goombah에서 약 18%를 얻고, Seeker, Bulwark, Crystalys에서는 아무것도 얻지 못합니다.**
 
 - **피해는 주지 않습니다.** Helios Beam에서 Penetration Amp IV 3개는 일제 사격당 피해 158(탄약 x1, 무작위와 치명타의 평균)를 내고, Damage Amp IV 3개는 342, Crit Amp IV 3개는 416으로, 앞의 것은 절반, 뒤의 것은 3분의 1을 조금 넘는 정도입니다. 되찾는 것은 실드의 몫이므로 실드에 비해 선체가 작고 흡수율이 높을 때 가장 보람이 있습니다. 큰 선체가 더 오래 버티는 Wraith나 Ironclad를 기본으로 가장 좋은 실드에서 상대하면 최대 32%를 얻고, 실드가 버프로 100%를 넘은 Ironclad는 여전히 평범한 Crit 구성으로 맞서는 것이 최선입니다.
-- **외계인.** 그 실드는 공격의 80%에서 내 관통을 뺀 몫을 받는데, 최강의 레이저(100%)는 그것을 통째로 꿰뚫으므로 외계인에게도 통합니다. Gemini를 쓰면 Phantasm이나 Goombah에는 Penetration Amp가 최선의 구성에 들어갑니다(약 18%를 얻습니다). Seeker, Bulwark, Crystalys에는 같은 티어의 Crit Amp 구성이 같거나 더 빨리 처치합니다.
+- **외계인.** 그 실드는 공격의 80%(Deep Void의 생물은 90%)에서 내 관통을 뺀 몫을 받는데, 최강의 레이저(100%)는 그것을 통째로 꿰뚫으므로 외계인에게도 통합니다. Gemini를 쓰면 Phantasm이나 Goombah에는 Penetration Amp가 최선의 구성에 들어갑니다(약 18%를 얻습니다). Seeker, Bulwark, Crystalys에는 같은 티어의 Crit Amp 구성이 같거나 더 빨리 처치합니다.
 - **비용.** Penetration Amp IV마다 Dark Matter Plate 4개(Dark Matter 20개)가 필요합니다. 티어 IV 증폭기는 모두 같으므로, 52개 슬롯을 모두 채우는 Wraith에는 플레이트 208개, Dark Matter 1,040개가 필요합니다.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 397d7b3564593bb7 -->
+<!-- wiki-i18n source: f77c8c8ae352b4a0 -->
 <!-- wiki-i18n title: Server -->
 # Server {#servers}
 
@@ -37,7 +37,7 @@ Se il gioco si chiude o la connessione si perde, il server regionale ti aspetta 
 | [Porte solo](/wiki/03-Mechanics/Solo-Gates.md#going-in) | la porta in sé è descritta lì |
 | [Obiettivi](/wiki/03-Mechanics/Achievements.md) | descritti lì |
 | [Dungeon di clan](/wiki/03-Mechanics/Dungeons.md) e i Warden | solo a Helsinki |
-| [Davidski](/wiki/03-Mechanics/Davidski.md) | compare, ma su un server regionale non paga nulla: le sue uccisioni si pagano a Helsinki |
+| [Davidski](/wiki/03-Mechanics/Davidski.md) | compare, ma su un server regionale non paga nulla; le sue ricompense si pagano solo per un’uccisione sul server principale (EU), e un’uccisione su qualsiasi server vale per le missioni che lo nominano |
 | L’Hangar, [Skylab](/wiki/03-Mechanics/Skylab.md), l’Assemblaggio, l’Asta, il negozio, la ricerca, la pagina del clan e le Porte galattiche | alla stazione: in volo la finestra lo dice, e **Torna alla base** ti ci porta |
 
 ## Scegliere un server {#choosing-a-server}

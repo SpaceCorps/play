@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4e3f459fc0966372 -->
+<!-- wiki-i18n source: 98e91b2bd1dede81 -->
 <!-- wiki-i18n title: Tesseract の群れ -->
 # Tesseract の群れ {#tesseract-swarm}
 
@@ -13,13 +13,13 @@ Tesseract の群れは、巨大な母艦 **Tesseract** 1隻と、攻撃されて
 - **数**：各ワールドに1つ
 - **出現**：シーズン4日目からワイプまで（ベータとガンマ：シーズン1日目から）
 - **リーダー**：Tesseract
-- **拠点**：セクターのマップの点 25,900, 6,100 から 2,500 ユニット以内
+- **拠点**：セクターのマップの点 25,900, 11,900 から 2,500 ユニット以内
 - **自己修復**：Alpha では毎秒 125,000 HP、船体が先でシールドが後。ダメージを受けない状態が 5秒 続くと始まります
 - **配下**：最大 100 体の Facet、リーダーが攻撃されている間 5秒 ごとに 20 体追加
 - **配下が来る条件**：リーダーが直近 5秒 以内に攻撃されている間だけ、リーダーから 400 ユニット以内に現れます
 - **追跡**：各 Facet は、リーダーから 3,600 ユニット以内の範囲で自分だけの短い飛行を繰り返し、だれも追いません。リーダーを攻撃したパイロットが射程に入ると、そのうち最も近い者を撃ちます。撃つ相手がいないときはリーダーのまわりを飛び続け、最後の攻撃から 20秒 後に去ります
 - **リーダー撃破後**：リーダーが撃破されてから1分後に配下は去ります。攻撃している最中でも同じです
-- **復活**：リーダー撃破の 30分 後、 同じセクター
+- **復活**：リーダー撃破の {{guide:vitals.respawn@Tesseract#1;Tesseract#2;Tesseract#3}} 後、 同じセクター
 - **通知**：そのセクターのパイロットは、リーダーが現れたときと撃破されたときに知らされます。これらはシステムの行です。チャットの**システム**タブに未読数付きで表示され、**全体**タブや**ローカル**タブには出ません。キルフィードに、撃破の功績を得たパイロットの名前が出ます。
 
 <!-- tesseract-glance:end -->
@@ -40,6 +40,17 @@ Tesseract の群れは、巨大な母艦 **Tesseract** 1隻と、攻撃されて
 - **危険セクターは PvP です。** ライバルが戦いの最中にグループを攻撃することがあります。残骸のそばには、待ち構えられるコンテナは残りません。戦利品は、撃破で報酬を受け取るパイロットそれぞれの[プライベートコンテナ](/wiki/03-Mechanics/Cargo.md#private-boxes)で、そのパイロットだけが見て取ることができます。仲間と一緒に行きましょう。
 - **Tesseract は戻ってきます。** *ひと目で*の一覧の時間のあと、全快の状態で、元の場所に現れます。
 
+## リーダーの3つの段階 {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+その戦いには三つの段階があります([しくみ](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps))。それぞれ一度だけ起こり、完全に回復すると最初からやり直します。
+
+- **三分の二を切ると**: Facetsが通常の数を超えて20体、まとめて来ます。
+
+<!-- mob-ladder:end -->
+
 ## 報酬とドロップ {#rewards-and-drops}
 
 Tesseract の報酬は、その戦いの重さに見合っています。多数の Crystalys を合わせたほどの額で、受けるダメージに対しては最も報酬の高いエイリアンである Crystalys よりも多く支払われます。報酬は、戦ったパイロットの間でダメージに応じて分けられます（[ボス撃破の報酬](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)）。最もダメージを与えたパイロットだけのコンテナはありません。撃破で報酬を受け取るパイロットはそれぞれ、Reinforced Hull Plate、Velkonite Reinforced Plate、Orvium Reinforced Plate、Power Core、Ancient Control Unit、Dark Matter が入った自分専用の[プライベートコンテナ](/wiki/03-Mechanics/Cargo.md#private-boxes)を受け取り、本人だけが見て取ることができます（10分間）。中身は、[Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) の戦利品と同じく、本人のダメージの取り分で抽選されます。ダメージの5分の1を与えたパイロットは、表の数量の約5分の1を受け取り、グループでは各パイロットがグループの取り分の自分の分を、報酬の分け方と同じように受け取ります。Dark Matter にはパイロットごとの上限があります。1回の撃破で受け取れるのは、取り分がどれだけ大きくても最大5個で（グループでは、まず各パイロットの分が切り分けられ、上限は各パイロットごとに適用されます）、上限を超えた分は失われ、ほかの人には配られません。Facet は [Phantasm](/wiki/04-Aliens/Phantasm.md) と同じクレジット、Thulium、XP、名誉を支払い、撃破としても数えられます（統計、実績、ドローンと P.E.T. の経験値）が、ドロップはなく、PvE ポイントも加算されません。
@@ -57,30 +68,24 @@ Tesseract の報酬は、その戦いの重さに見合っています。多数�
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 船体 | 1,600,000 | 2,400,000 | 3,200,000 |
-| シールド | 1,200,000 | 1,800,000 | 2,400,000 |
+| 船体 | {{guide:vitals.hull@Tesseract#1}} | {{guide:vitals.hull@Tesseract#2}} | {{guide:vitals.hull@Tesseract#3}} |
+| シールド | {{guide:vitals.shield@Tesseract#1}} | {{guide:vitals.shield@Tesseract#2}} | {{guide:vitals.shield@Tesseract#3}} |
 | レーザーのダメージ （毎秒1斉射） | なし | なし | なし |
-| 速度 | 30 | 30 | 30 |
+| 速度 | {{guide:vitals.speed@Tesseract#1}} | {{guide:vitals.speed@Tesseract#2}} | {{guide:vitals.speed@Tesseract#3}} |
 | レーザーの射程 | – | – | – |
 | 索敵範囲 | 攻撃時のみ | 攻撃時のみ | 攻撃時のみ |
 | 毎秒の修復量（5秒 ダメージなしの後、船体が先でシールドが後） | 125,000 | 187,500 | 250,000 |
-| クレジット | 900,000 | 1,800,000 | 2,700,000 |
-| Thulium | 2,400 | 4,800 | 7,200 |
-| 経験値（XP） | 144,000 | 288,000 | 432,000 |
-| 名誉 | 624 | 1,248 | 1,872 |
+| クレジット | {{guide:spoils.pay.credits@Tesseract#1}} | {{guide:spoils.pay.credits@Tesseract#2}} | {{guide:spoils.pay.credits@Tesseract#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Tesseract#1}} | {{guide:spoils.pay.thulium@Tesseract#2}} | {{guide:spoils.pay.thulium@Tesseract#3}} |
+| 経験値（XP） | {{guide:spoils.pay.experience@Tesseract#1}} | {{guide:spoils.pay.experience@Tesseract#2}} | {{guide:spoils.pay.experience@Tesseract#3}} |
+| 名誉 | {{guide:spoils.pay.honor@Tesseract#1}} | {{guide:spoils.pay.honor@Tesseract#2}} | {{guide:spoils.pay.honor@Tesseract#3}} |
 | 撃破1回あたりの PvE ポイント | 42 | 42 | 42 |
 
 **撃破で報酬を受け取る全パイロットへのドロップ**：それぞれに1つ、本人だけのコンテナ。中身はこの数量の本人の取り分です。
 
-| アイテム | 確率 | 数量 |
-| :--- | ---: | ---: |
-| Reinforced Hull Plate | 100% | 3–10 |
-| Velkonite Reinforced Plate | 66% | 7–12 |
-| Orvium Reinforced Plate | 50% | 3–5 |
-| Power Core | 66% | 4–7 |
-| Ancient Control Unit | 100% | 1–4 |
-| Dark Matter | 100% | 10–20、1人あたり最大 5 |
-| Heartshard | 5% | 1 |
+| アイテム |
+| :--- |
+| {{guide:spoils.box@Tesseract#1;Tesseract#2;Tesseract#3}} |
 
 ### Facet
 
@@ -88,16 +93,16 @@ Tesseract の報酬は、その戦いの重さに見合っています。多数�
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 船体 | 20,000 | 30,000 | 40,000 |
-| シールド | 16,000 | 24,000 | 32,000 |
-| レーザーのダメージ （毎秒1斉射） | 834 | 1,251 | 1,668 |
-| 速度 | 750 | 750 | 750 |
+| 船体 | {{guide:vitals.hull@Facet#1}} | {{guide:vitals.hull@Facet#2}} | {{guide:vitals.hull@Facet#3}} |
+| シールド | {{guide:vitals.shield@Facet#1}} | {{guide:vitals.shield@Facet#2}} | {{guide:vitals.shield@Facet#3}} |
+| レーザーのダメージ （毎秒1斉射） | {{guide:vitals.dps@Facet#1}} | {{guide:vitals.dps@Facet#2}} | {{guide:vitals.dps@Facet#3}} |
+| 速度 | {{guide:vitals.speed@Facet#1}} | {{guide:vitals.speed@Facet#2}} | {{guide:vitals.speed@Facet#3}} |
 | レーザーの射程 | 600 | 600 | 600 |
 | 索敵範囲 | 攻撃時のみ | 攻撃時のみ | 攻撃時のみ |
-| クレジット | 3,000 | 6,000 | 9,000 |
-| Thulium | 12 | 24 | 36 |
-| 経験値（XP） | 300 | 600 | 900 |
-| 名誉 | 6 | 12 | 18 |
+| クレジット | {{guide:spoils.pay.credits@Facet#1}} | {{guide:spoils.pay.credits@Facet#2}} | {{guide:spoils.pay.credits@Facet#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Facet#1}} | {{guide:spoils.pay.thulium@Facet#2}} | {{guide:spoils.pay.thulium@Facet#3}} |
+| 経験値（XP） | {{guide:spoils.pay.experience@Facet#1}} | {{guide:spoils.pay.experience@Facet#2}} | {{guide:spoils.pay.experience@Facet#3}} |
+| 名誉 | {{guide:spoils.pay.honor@Facet#1}} | {{guide:spoils.pay.honor@Facet#2}} | {{guide:spoils.pay.honor@Facet#3}} |
 | 撃破1回あたりの PvE ポイント | 0 | 0 | 0 |
 
 **ドロップ**：なし。撃破で支払われるのはクレジット、Thulium、経験値、名誉だけです。

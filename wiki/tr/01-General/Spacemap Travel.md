@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 00f154de4f7e72f2 -->
+<!-- wiki-i18n source: 95e9602370e7a658 -->
 <!-- wiki-i18n title: Uzay haritasında seyahat -->
 # Uzay haritasında seyahat {#spacemap-travel}
 
@@ -45,6 +45,8 @@ Aşağıdaki Galaksi Haritası, bilinen evrenin gerçek zamanlı düzenini göst
 ```
 
 Bir [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) takılıysa şema hedefini de seçer: CPU yuvasına (**JMP**) bas, Yıldız Sistemi penceresi seçim kipinde açılır. Bu CPU ile gidebileceğin sektörler aydınlıktır; kendi sektörün ve Tehlike Sektörleri değildir. Fiyatı okumak için aydınlık bir sektörün üzerine gel, tıkla ve şema sorduğunda sıçramayı onayla (500 Thulium).
+
+**Deep Void.** Yıldız Sistemi penceresinin üstündeki bir anahtar **Normal** haritaları ya da **Deep Void** haritalarını gösterir. `DV-1`, orada bulunana kadar `???` olarak görünür ve içeri giden yol hakkında bir ipucu verir: Sinyaller, `DS-4`'teki kendi dünyanın Void Gate'i ve orada uçtuktan sonra ne kadarını keşfettiğin. Bu haritanın hiçbir portalı oraya çıkmaz: tek giriş bir Void Gate'tir ([Deep Void](/wiki/03-Mechanics/Deep-Void.md)).
 
 ## Nasıl seyahat edilir {#how-to-travel}
 

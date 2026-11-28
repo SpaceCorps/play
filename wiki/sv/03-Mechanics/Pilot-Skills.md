@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0b4fab38b0c9363e -->
+<!-- wiki-i18n source: a1d69f436602c5d1 -->
 <!-- wiki-i18n title: Pilotfärdigheter -->
 # Pilotfärdigheter {#pilot-skills}
 
@@ -53,6 +53,7 @@ Tabellerna anger varje buff på nivå 1 och på sista nivån; däremellan växer
 | :--- | :--- | ---: | ---: |
 | **Tyngd** | Skrov | +0 % | +20 % |
 | **Seghet** | Skada du tar | ×1 | ×0,92 |
+|  | Rädsla från mörkret (Deep Void) | ×1 | ×0,8 |
 | **Reflexer** | Uppladdningsfart för förmågor | ×1 | ×1,1 |
 | **Instinkt** | Chans för varje bytesrad | +0 punkter | +7,5 punkter |
 |  | Orvium och Velkonite från samlarna | ×1 | ×1,5 |
@@ -63,8 +64,10 @@ Tabellerna anger varje buff på nivå 1 och på sista nivån; däremellan växer
 | :--- | :--- | ---: | ---: |
 | **Laserteknik** (Reflexer) | Laserskada | ×1 | ×1,3 |
 |  | Chans att en lasersalva träffar | 80 % | 89 % |
+|  | Rädsla från laserskurar (Deep Void) | ×1 | ×0,8 |
 | **Raketteknik** (Reflexer) | Raketskada | ×1 | ×1,3 |
 |  | Chans att en raket blir en blindgångare | 10 % | 1 % |
+|  | Rädsla från raketer (Deep Void) | ×1 | ×0,8 |
 | **Antimateria** (Instinkt) | Dark Matter från plock | ×1 | ×2 |
 
 ### Strid {#combat}
@@ -88,6 +91,7 @@ Tabellerna anger varje buff på nivå 1 och på sista nivån; däremellan växer
 | :--- | :--- | ---: | ---: |
 | **Strålningsteknik** (Seghet) | Strålningsdos | ×1 | ×0,4 |
 | **Thrusterteori** (Tyngd) | Hastighet | +0 % | +10 % |
+|  | Rädsla från snabb flygning (Deep Void) | ×1 | ×0,8 |
 | **Vetenskap** (Instinkt) | Vetenskap från varje enhet bränsle | ×1 | ×1,25 |
 
 ### Skylab
@@ -116,7 +120,7 @@ Tabellerna anger varje buff på nivå 1 och på sista nivån; däremellan växer
 - **Raketer.** Raketteknik ändrar skadan i varje raket och chansen att en blir en blindgångare ([Raketteknik](/wiki/06-Items/Rockets.md#rocket-tech)).
 - **Att ta träffar.** Seghet tar en andel av varje träff du får, Undanmanöver ökar chansen att en direktträff inte gör något, och Sköldabsorption ökar den andel av en träff som dina sköldar tar ([Strid](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). Tyngd ökar ditt skrov.
 - **Läkning.** Läkning gör läkningen från din egen utrustning starkare: reparationen från din Repair Drone, en Emergency Repair samt den Heal Pod, Channel Heal och Channel Shield du använder ([Förmågor](/wiki/03-Mechanics/Abilities.md#pilot-skills)). På Miyuki väntar de tre förmågorna också kortare mellan två användningar. Den tränas av skrovet som dina läkningar återställer; att läka ett skepp i en säker zon räknas inte. Support Rocket läker alltid samma fasta mängd, på alla nivåer, och ger ändå XP för Läkning.
-- **Kamouflage.** Smygande förkortar väntan när ett kamouflage tar slut, både för en Cloaking CPU ([Extrautrustning](/wiki/06-Items/Extras.md#cloaking-cpu)) och för Chameleon ([Förmågor](/wiki/03-Mechanics/Abilities.md)). Den tränas av de sekunder du är kamouflerad; ingen räknas i en säker zon eller medan du inte ger några order.
+- **Kamouflage.** Smygande förkortar väntan när ett kamouflage tar slut, både för en Cloaking CPU ([Extrautrustning](/wiki/06-Items/Extras.md#cloaking-cpu)) och för Chameleon ([Förmågor](/wiki/03-Mechanics/Abilities.md)). Den tränas av de sekunder du är kamouflerad; ingen räknas i en säker zon eller medan du inte ger några order och ditt skepp inte flyger till platsen du skickade det till (en flygning räknas i upp till 5 minuter efter din senaste order).
 - **Förmågor.** Reflexer förkortar nedkylningen av dina förmågor och Taktik får dem att vara längre ([Förmågor](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Sabotage förstärker gifterna.
 - **Mine.** Sabotage ökar skadan av en Mine, och Skytte kastar den snabbare och längre ([Extrautrustning](/wiki/06-Items/Extras.md#mine)).
 - **Hastighet.** Thrusterteori lägger till din hastighet, utöver motorerna och en Afterburner ([Hastighet](/wiki/03-Mechanics/Speed.md)).
@@ -160,7 +164,7 @@ Tabellen listar vad som betalar XP, värde för värde. XP:n gäller för varje 
 | **Taktik** (Reflexer) | Varje förmåga du trycker på med en fiende inom laserräckvidd | 2 | 600 XP i timmen |
 | **Sköldabsorption** (Seghet) | Varje 1 % av din maximala sköld som fiendens träffar tar | 0,1 | 300 XP i timmen |
 | **Läkning** (Tyngd) | Varje 1 % av ett skepps maximala skrov som en läkning av dig återställer | 0,1 | 300 XP i timmen |
-| **Smygande** (Reflexer) | Varje sekund du är kamouflerad med en order given de senaste 1 min, utanför säkra zoner | 0,1 | Ingen |
+| **Smygande** (Reflexer) | Varje sekund du är kamouflerad med en order given de senaste 1 min eller medan ditt skepp flyger till platsen du skickade det till (upp till 5 min efter din senaste order), utanför säkra zoner | 0,1 | Ingen |
 | **Strålningsteknik** (Seghet) | Varje sekund inne i ett strålningsband | 0,2 | Ingen |
 |  | Varje 1 % av ditt maximala skrov som strålningen tar | 1 |  |
 | **Thrusterteori** (Tyngd) | Varje sekund flugen över 80 % av ditt skepps hastighet, dubbelt så mycket under en Afterburner | 0,1 | Ingen |

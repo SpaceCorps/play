@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f36888650a9078b3 -->
+<!-- wiki-i18n source: 3c16398b0ab82842 -->
 <!-- wiki-i18n title: Miyuki -->
 # Miyuki
 
@@ -62,6 +62,8 @@ As habilidades da Miyuki pertencem à nave, não a um item: não ocupam nenhum s
 | **Miyuki V** | 7,5 s, 30.000 + 3% | 75.000 de casco por segundo (você 10.000), 100 s | 150.000 + 5% de escudo por segundo (você 30.000 + 5%), 80 s |
 
 Um vínculo dura 5 segundos e alcança uma nave do seu grupo ou da sua corporação a até 1.200 unidades. O Heal Pod alcança 600. Um Channel Shield restaura, além dos seus pontos, a cada segundo uma parte do escudo máximo de cada nave: 3% na Miyuki III, 4% na IV e 5% na V (a porcentagem da tabela).
+
+Todos os níveis têm também o **Revive**, o seu último botão. Quando um piloto do seu grupo ou da sua corporação é destruído, a nave dele fica avariada por 30 segundos; se você ficar por 10 segundos a até 600 unidades, o piloto volta onde morreu e o Revive descansa 120 segundos. [Habilidades de nave](/wiki/03-Mechanics/Abilities.md#ship-abilities) conta o resto.
 
 A sua perícia do piloto [Cura](/wiki/03-Mechanics/Pilot-Skills.md) atua sobre as três: no nível 100 ela deixa o Heal Pod, o Channel Heal e o Channel Shield (os pontos e a parte do escudo máximo deles) 30% mais fortes e encurta as esperas deles em 10%, de modo que um Channel Heal que descansa 100 segundos descansa 90. As tabelas acima dão os números sem ela.
 

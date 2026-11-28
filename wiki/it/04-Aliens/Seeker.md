@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b9bfffab24f7eda8 -->
+<!-- wiki-i18n source: 6acaa0292fff4664 -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker
 
@@ -6,10 +6,10 @@ I Seeker sono unità base di esplorazione e ricognizione. Sono passivi, cioè no
 
 ## Statistiche {#stats}
 
-- **Punti scafo (HP)**: 800
-- **Scudo**: 800
-- **Danno**: 180
-- **Velocità**: 120
+- **Punti scafo (HP)**: {{guide:vitals.hull@Seeker#1}}
+- **Scudo**: {{guide:vitals.shield@Seeker#1}}
+- **Danno**: {{guide:vitals.dps@Seeker#1}}
+- **Velocità**: {{guide:vitals.speed@Seeker#1;Seeker#2;Seeker#3;Seeker#4}}
 - **Portata d’attacco**: 600
 - **Comportamento**: Passivo
 
@@ -24,10 +24,10 @@ I Seeker sono unità base di esplorazione e ricognizione. Sono passivi, cioè no
 
 ## Ricompense {#rewards}
 
-- **Crediti**: 1.000
-- **Thulium**: 4
-- **Esperienza (XP)**: 100
-- **Onore**: 2
+- **Crediti**: {{guide:spoils.pay.credits@Seeker#1}}
+- **Thulium**: {{guide:spoils.pay.thulium@Seeker#1}}
+- **Esperienza (XP)**: {{guide:spoils.pay.experience@Seeker#1}}
+- **Onore**: {{guide:spoils.pay.honor@Seeker#1}}
 - **Punti PvE per abbattimento**: 1
 - **Ricarica scudo**: 10 al secondo (dopo 15 s)
 
@@ -37,9 +37,11 @@ Il bottino cade come [cassa di carico](/wiki/03-Mechanics/Cargo.md) nel punto in
 
 A cosa serve ogni oggetto del bottino e dove altro trovarlo: [Risorse](/wiki/06-Items/Resources.md).
 
-- **Ship Fragment**: 20% di probabilità (min. 1, max. 1)
-- **Daraxium**: 50% di probabilità (min. 1, max. 2)
-- **Echo Shard**: 0,8% di probabilità (min. 1, max. 1)
+- {{guide:spoils.box@Seeker#1;Seeker#2;Seeker#3;Seeker#4}}
+
+## Abilità speciali {#special-abilities}
+
+Alcuni alieni di questa specie portano un’**abilità speciale**: una cosa che fanno una sola volta, quando il loro scafo è a metà. Prima che cominci non si vede nulla. [Abilità speciali](/wiki/03-Mechanics/Special-Abilities.md) dice che cosa fa ciascuna abilità e come rispondervi.
 
 ## Storia {#lore}
 

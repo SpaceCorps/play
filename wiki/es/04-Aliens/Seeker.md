@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b9bfffab24f7eda8 -->
+<!-- wiki-i18n source: 6acaa0292fff4664 -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker
 
@@ -6,10 +6,10 @@ Los Seekers son unidades básicas de exploración y reconocimiento. Son pasivos,
 
 ## Estadísticas {#stats}
 
-- **Puntos de vida (HP)**: 800
-- **Escudo**: 800
-- **Daño**: 180
-- **Velocidad**: 120
+- **Puntos de vida (HP)**: {{guide:vitals.hull@Seeker#1}}
+- **Escudo**: {{guide:vitals.shield@Seeker#1}}
+- **Daño**: {{guide:vitals.dps@Seeker#1}}
+- **Velocidad**: {{guide:vitals.speed@Seeker#1;Seeker#2;Seeker#3;Seeker#4}}
 - **Alcance de ataque**: 600
 - **Comportamiento**: Pasivo
 
@@ -24,10 +24,10 @@ Los Seekers son unidades básicas de exploración y reconocimiento. Son pasivos,
 
 ## Recompensas {#rewards}
 
-- **Créditos**: 1.000
-- **Thulium**: 4
-- **Experiencia (XP)**: 100
-- **Honor**: 2
+- **Créditos**: {{guide:spoils.pay.credits@Seeker#1}}
+- **Thulium**: {{guide:spoils.pay.thulium@Seeker#1}}
+- **Experiencia (XP)**: {{guide:spoils.pay.experience@Seeker#1}}
+- **Honor**: {{guide:spoils.pay.honor@Seeker#1}}
 - **Puntos PvE por derribo**: 1
 - **Recarga de escudo**: 10 por segundo (15 s de retraso)
 
@@ -37,9 +37,11 @@ Cae en una [caja de carga](/wiki/03-Mechanics/Cargo.md) en el lugar donde explot
 
 Para qué sirve cada botín y dónde más se encuentra: [Recursos](/wiki/06-Items/Resources.md).
 
-- **Ship Fragment**: 20 % de probabilidad (mín.: 1, máx.: 1)
-- **Daraxium**: 50 % de probabilidad (mín.: 1, máx.: 2)
-- **Echo Shard**: 0,8 % de probabilidad (mín.: 1, máx.: 1)
+- {{guide:spoils.box@Seeker#1;Seeker#2;Seeker#3;Seeker#4}}
+
+## Habilidades especiales {#special-abilities}
+
+Algunos alienígenas de esta clase llevan una **habilidad especial**: algo que hacen una sola vez, cuando han perdido la mitad del casco. Nada se nota antes de que empiece. [Habilidades especiales](/wiki/03-Mechanics/Special-Abilities.md) dice qué hace cada habilidad y cómo responder a ella.
 
 ## Historia {#lore}
 

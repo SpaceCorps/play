@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 399d33a09b4ac805 -->
+<!-- wiki-i18n source: 0f6a663715a3934a -->
 <!-- wiki-i18n title: Setores de perigo -->
 # Setores de perigo {#danger-sectors}
 
@@ -14,9 +14,10 @@ Uma civilização da velha galáxia viveu aqui, avançada e de um preto arroxead
 
 - **Escavadeiras gigantes.** `DS-1`, `DS-2` e `DS-3` têm cada um um pulsar desde o primeiro dia da temporada, uma luz no céu e nada mais; a partir do dia 11 cada um ganha uma **escavadeira gigante** ao lado. Coloque Dark Matter no tanque da escavadeira, escolha um recurso, e ela minera o pulsar: Thulium e minérios raros caem em volta dela em caixas que qualquer um pode pegar. É a coisa mais rica pela qual lutar nos setores de perigo, e a mais perigosa. Veja [Escavadeira gigante](/wiki/03-Mechanics/Giant-Excavator.md). No Beta e no Gamma, as escavadeiras gigantes ficam de pé desde o primeiro dia da temporada.
 - **Slumbering Voids.** Enquanto uma escavadeira minera, **Slumbering Voids** chegam em ondas da borda do mapa e caçam os pilotos perto dela. Outros patrulham o pântano. Veja [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void).
-- **O Dormant Swamp.** Num canto de `DS-4` fica a base da civilização perdida: canhões que atiram em toda nave que veem, Inert Masses que a guardam e, no meio, o Unwakened. É um lugar que os pilotos ainda não devem visitar. Veja [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
+- **O Dormant Swamp.** Num canto de `DS-4` fica a base da civilização perdida: canhões que atiram em toda nave que veem, Inert Masses que a guardam e, no meio, o Unwakened. Veja [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
 - **Um Enxame Dormant mais rápido e mais rico.** O enxame agora aparece no pântano, volta mais cedo depois de destruído e paga o dobro. Veja [Enxame Dormant](/wiki/05-Swarms/Dormant-Swarm.md).
 - **Antes do dia 11** só os pulsares brilham: de resto, os setores de perigo são como a [Viagem pelo mapa espacial](/wiki/01-General/Spacemap%20Travel.md) os descreve. Um mundo no dia 11 ou depois tem tudo de uma vez. No Beta e no Gamma, as escavadeiras gigantes ficam de pé desde o primeiro dia da temporada.
+- **O Threshold.** O Unwakened do Dormant Swamp agora pode ser destruído. A primeira morte da temporada em cada mundo abre o Threshold desse mundo no canto superior direito de `DS-4`, onde os pilotos dele constroem o Void Gate para o [Deep Void](/wiki/03-Mechanics/Deep-Void.md).
 
 ## Davidski
 

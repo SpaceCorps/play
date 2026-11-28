@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 91f3dc3b14f71464 -->
+<!-- wiki-i18n source: f9b2d026af543d87 -->
 <!-- wiki-i18n title: 던전 -->
 # 던전 {#dungeons}
 
-<!-- wiki-search: dungeon; dungeons; gate; gates; clan gate; clan gates; clan dungeon; summon; warlord; gate warlord; boss; maze; loot zone; chest; card; vote; stage; instance; gate delta; gate epsilon; gate zeta; gate eta; gate theta; gate iota; gate goombah; gate pirate; gate crystalys; portal; clan portal; join; clan gate alerts; clan dungeon window; clan dungeon alerts; dungeon goombah; dungeon pirate; dungeon crystalys; dungeon warlord; 75 percent; three quarters; start room; fog; guards; locked room; boss room; booster; boosters; swarm assist; focus most wanted; zone of chaos; rocket barrage; 던전; 던전; 워로드; 미로; 스테이지; 전리품 구역; 카드; 포털; 클랜 포털; 부스터; 안개; 수호자; 시작 방; 잠긴 방; 무리 지원; 혼돈의 구역; 클랜 던전 알림; 클랜 던전; 클랜 던전 알림; 4분의 3; 75퍼센트 -->
+<!-- wiki-search: dungeon; dungeons; gate; gates; clan gate; clan gates; clan dungeon; summon; warlord; gate warlord; boss; maze; loot zone; chest; card; vote; stage; instance; gate delta; gate epsilon; gate zeta; gate eta; gate theta; gate iota; gate goombah; gate pirate; gate crystalys; portal; clan portal; join; clan gate alerts; clan dungeon window; clan dungeon alerts; dungeon goombah; dungeon pirate; dungeon crystalys; dungeon warlord; 75 percent; three quarters; start room; fog; guards; locked room; boss room; booster; boosters; swarm assist; focus most wanted; zone of chaos; rocket barrage; 던전; 던전; 워로드; 미로; 스테이지; 전리품 구역; 카드; 포털; 클랜 포털; 부스터; 안개; 수호자; 시작 방; 잠긴 방; 무리 지원; 혼돈의 구역; 클랜 던전 알림; 클랜 던전; 클랜 던전 알림; 4분의 3; 75퍼센트; radiation donut; donut; 방사선 도넛 -->
 
-**던전**은 끝에 **워로드**가 기다리는 닫힌 미로입니다(0.5.2 이전에는 게임에서 게이트라고 불렀습니다). [클랜](/wiki/03-Mechanics/Clans.md)의 부리더나 리더가 던전을 열고 클랜 은행에서 비용을 내면, 클랜원들이 하나의 [그룹](/wiki/03-Mechanics/Groups.md)으로 함께 날아 들어갑니다. 미로의 외계인을 뚫고 나아가며, 전리품 구역을 열어 구역마다 카드를 하나씩 고르고, 워로드를 쓰러뜨립니다. 전투에 참여한 파일럿은 워로드가 쓰러질 때 아래 한도 안에서 보상을 받습니다. 던전은 클랜 페이지의 **던전** 탭에 있습니다.
+**던전**은 끝에 **워로드**가 기다리는 닫힌 미로입니다(0.5.2 이전에는 게임에서 게이트라고 불렀습니다). [클랜](/wiki/03-Mechanics/Clans.md)의 부리더나 리더가 던전을 열고 클랜 은행에서 비용을 내면, 클랜원들이 하나의 [그룹](/wiki/03-Mechanics/Groups.md)으로 함께 날아 들어갑니다. 미로의 외계인을 뚫고 나아가며, 전리품 구역을 열어 구역마다 카드를 하나씩 고르고, 워로드를 쓰러뜨립니다. 모두 하나의 그룹으로 날아가며, 로켓의 범위 피해는 그룹에도 닿습니다. Ember, Scatter, N.U.K.E.의 폭발과 N.U.K.E.가 남기는 방사선 구역은 당신과 그룹원에게 다른 함선이 받는 피해의 절반을 줍니다. 어디로 쏘는지 주의하세요([그룹](/wiki/03-Mechanics/Groups.md#rules-of-engagement) 참고). 전투에 참여한 파일럿은 워로드가 쓰러질 때 아래 한도 안에서 보상을 받습니다. 던전은 클랜 페이지의 **던전** 탭에 있습니다.
 
 던전은 외계인하고만 싸우는 곳입니다. 안에서는 클랜원을 포함해 누구도 공격할 수 없습니다. 외계인은 모델이 된 게임 속 외계인처럼, 쓰러질 때 보상을 지급합니다([외계인이 지급하는 보상](#what-the-aliens-pay)). 클리어 보상은 워로드의 것이므로, 클리어 보상을 받는 유일한 방법은 워로드가 쓰러질 때 전투에 참여하고 있는 것입니다.
 
@@ -117,17 +117,17 @@
 
 |  | 스테이지 1 | 스테이지 2 | 스테이지 3 |
 | :--- | ---: | ---: | ---: |
-| 선체 | 32,000 | 48,000 | 64,000 |
-| 실드 | 48,000 | 72,000 | 96,000 |
-| 레이저 피해량(초당 일제 사격 1회) | 3,000 | 4,500 | 6,000 |
-| 속도 | 180 | 180 | 180 |
+| 선체 | {{guide:vitals.hull@Dungeon Goombah}} | {{guide:vitals.hull*1.5@Dungeon Goombah}} | {{guide:vitals.hull*2@Dungeon Goombah}} |
+| 실드 | {{guide:vitals.shield@Dungeon Goombah}} | {{guide:vitals.shield*1.5@Dungeon Goombah}} | {{guide:vitals.shield*2@Dungeon Goombah}} |
+| 레이저 피해량(초당 일제 사격 1회) | {{guide:vitals.dps@Dungeon Goombah}} | {{guide:vitals.dps*1.5@Dungeon Goombah}} | {{guide:vitals.dps*2@Dungeon Goombah}} |
+| 속도 | {{guide:vitals.speed@Dungeon Goombah}} | {{guide:vitals.speed@Dungeon Goombah}} | {{guide:vitals.speed@Dungeon Goombah}} |
 | 레이저 사거리 | 800 | 800 | 800 |
-| 어그로 반경 | 1,800 | 1,800 | 1,800 |
+| 어그로 반경 | {{guide:vitals.aggro@Dungeon Goombah}} | {{guide:vitals.aggro@Dungeon Goombah}} | {{guide:vitals.aggro@Dungeon Goombah}} |
 | 보상과 전리품 (원본 대비 배수) | ×1 | ×1.5 | ×2 |
-| 격파당 크레딧 | 15,000 | 22,500 | 30,000 |
-| 격파당 Thulium | 75 | 113 | 150 |
-| 격파당 경험치 | 3,000 | 4,500 | 6,000 |
-| 격파당 명예 | 24 | 36 | 48 |
+| 격파당 크레딧 | {{guide:spoils.pay.credits@Goombah#1}} | {{guide:spoils.pay.credits*1.5@Goombah#1}} | {{guide:spoils.pay.credits*2@Goombah#1}} |
+| 격파당 Thulium | {{guide:spoils.pay.thulium@Goombah#1}} | {{guide:spoils.pay.thulium*1.5@Goombah#1}} | {{guide:spoils.pay.thulium*2@Goombah#1}} |
+| 격파당 경험치 | {{guide:spoils.pay.experience@Goombah#1}} | {{guide:spoils.pay.experience*1.5@Goombah#1}} | {{guide:spoils.pay.experience*2@Goombah#1}} |
+| 격파당 명예 | {{guide:spoils.pay.honor@Goombah#1}} | {{guide:spoils.pay.honor*1.5@Goombah#1}} | {{guide:spoils.pay.honor*2@Goombah#1}} |
 
 ### Dungeon Pirate
 
@@ -138,18 +138,18 @@
 
 |  | 스테이지 1 | 스테이지 2 | 스테이지 3 |
 | :--- | ---: | ---: | ---: |
-| 선체 | 250,000 | 375,000 | 500,000 |
-| 실드 | 50,100 | 75,150 | 100,200 |
-| 레이저 피해량(초당 일제 사격 1회) | 200 | 300 | 400 |
-| 로켓 피해 | 5,000 | 7,500 | 10,000 |
-| 속도 | 100 | 100 | 100 |
+| 선체 | {{guide:vitals.hull@Dungeon Pirate}} | {{guide:vitals.hull*1.5@Dungeon Pirate}} | {{guide:vitals.hull*2@Dungeon Pirate}} |
+| 실드 | {{guide:vitals.shield@Dungeon Pirate}} | {{guide:vitals.shield*1.5@Dungeon Pirate}} | {{guide:vitals.shield*2@Dungeon Pirate}} |
+| 레이저 피해량(초당 일제 사격 1회) | {{guide:vitals.dps@Dungeon Pirate}} | {{guide:vitals.dps*1.5@Dungeon Pirate}} | {{guide:vitals.dps*2@Dungeon Pirate}} |
+| 로켓 피해 | {{guide:behaviour.ability:rocket.damage@Dungeon Pirate}} | {{guide:behaviour.ability:rocket.damage*1.5@Dungeon Pirate}} | {{guide:behaviour.ability:rocket.damage*2@Dungeon Pirate}} |
+| 속도 | {{guide:vitals.speed@Dungeon Pirate}} | {{guide:vitals.speed@Dungeon Pirate}} | {{guide:vitals.speed@Dungeon Pirate}} |
 | 레이저 사거리 | 700 | 700 | 700 |
-| 어그로 반경 | 1,800 | 1,800 | 1,800 |
+| 어그로 반경 | {{guide:vitals.aggro@Dungeon Pirate}} | {{guide:vitals.aggro@Dungeon Pirate}} | {{guide:vitals.aggro@Dungeon Pirate}} |
 | 보상과 전리품 (원본 대비 배수) | ×1 | ×1.5 | ×2 |
-| 격파당 크레딧 | 145,000 | 217,500 | 290,000 |
-| 격파당 Thulium | 725 | 1,088 | 1,450 |
-| 격파당 경험치 | 29,000 | 43,500 | 58,000 |
-| 격파당 명예 | 232 | 348 | 464 |
+| 격파당 크레딧 | {{guide:spoils.pay.credits@Pirate Boss#1}} | {{guide:spoils.pay.credits*1.5@Pirate Boss#1}} | {{guide:spoils.pay.credits*2@Pirate Boss#1}} |
+| 격파당 Thulium | {{guide:spoils.pay.thulium@Pirate Boss#1}} | {{guide:spoils.pay.thulium*1.5@Pirate Boss#1}} | {{guide:spoils.pay.thulium*2@Pirate Boss#1}} |
+| 격파당 경험치 | {{guide:spoils.pay.experience@Pirate Boss#1}} | {{guide:spoils.pay.experience*1.5@Pirate Boss#1}} | {{guide:spoils.pay.experience*2@Pirate Boss#1}} |
+| 격파당 명예 | {{guide:spoils.pay.honor@Pirate Boss#1}} | {{guide:spoils.pay.honor*1.5@Pirate Boss#1}} | {{guide:spoils.pay.honor*2@Pirate Boss#1}} |
 
 ### Dungeon Crystalys
 
@@ -159,17 +159,17 @@
 
 |  | 스테이지 1 | 스테이지 2 | 스테이지 3 |
 | :--- | ---: | ---: | ---: |
-| 선체 | 256,000 | 384,000 | 512,000 |
-| 실드 | 160,000 | 240,000 | 320,000 |
-| 레이저 피해량(초당 일제 사격 1회) | 10,000 | 15,000 | 20,000 |
-| 속도 | 230 | 230 | 230 |
+| 선체 | {{guide:vitals.hull@Dungeon Crystalys}} | {{guide:vitals.hull*1.5@Dungeon Crystalys}} | {{guide:vitals.hull*2@Dungeon Crystalys}} |
+| 실드 | {{guide:vitals.shield@Dungeon Crystalys}} | {{guide:vitals.shield*1.5@Dungeon Crystalys}} | {{guide:vitals.shield*2@Dungeon Crystalys}} |
+| 레이저 피해량(초당 일제 사격 1회) | {{guide:vitals.dps@Dungeon Crystalys}} | {{guide:vitals.dps*1.5@Dungeon Crystalys}} | {{guide:vitals.dps*2@Dungeon Crystalys}} |
+| 속도 | {{guide:vitals.speed@Dungeon Crystalys}} | {{guide:vitals.speed@Dungeon Crystalys}} | {{guide:vitals.speed@Dungeon Crystalys}} |
 | 레이저 사거리 | 900 | 900 | 900 |
-| 어그로 반경 | 2,400 | 2,400 | 2,400 |
+| 어그로 반경 | {{guide:vitals.aggro@Dungeon Crystalys}} | {{guide:vitals.aggro@Dungeon Crystalys}} | {{guide:vitals.aggro@Dungeon Crystalys}} |
 | 보상과 전리품 (원본 대비 배수) | ×1 | ×1.5 | ×2 |
-| 격파당 크레딧 | 75,000 | 112,500 | 150,000 |
-| 격파당 Thulium | 200 | 300 | 400 |
-| 격파당 경험치 | 12,000 | 18,000 | 24,000 |
-| 격파당 명예 | 52 | 78 | 104 |
+| 격파당 크레딧 | {{guide:spoils.pay.credits@Crystalys#1}} | {{guide:spoils.pay.credits*1.5@Crystalys#1}} | {{guide:spoils.pay.credits*2@Crystalys#1}} |
+| 격파당 Thulium | {{guide:spoils.pay.thulium@Crystalys#1}} | {{guide:spoils.pay.thulium*1.5@Crystalys#1}} | {{guide:spoils.pay.thulium*2@Crystalys#1}} |
+| 격파당 경험치 | {{guide:spoils.pay.experience@Crystalys#1}} | {{guide:spoils.pay.experience*1.5@Crystalys#1}} | {{guide:spoils.pay.experience*2@Crystalys#1}} |
+| 격파당 명예 | {{guide:spoils.pay.honor@Crystalys#1}} | {{guide:spoils.pay.honor*1.5@Crystalys#1}} | {{guide:spoils.pay.honor*2@Crystalys#1}} |
 
 ### Dungeon Crystalys Twin
 
@@ -179,17 +179,17 @@
 
 |  | 스테이지 1 | 스테이지 2 | 스테이지 3 |
 | :--- | ---: | ---: | ---: |
-| 선체 | 512,000 | 768,000 | 1,024,000 |
-| 실드 | 320,000 | 480,000 | 640,000 |
-| 레이저 피해량(초당 일제 사격 1회) | 20,000 | 30,000 | 40,000 |
-| 속도 | 230 | 230 | 230 |
+| 선체 | {{guide:vitals.hull@Dungeon Crystalys Twin}} | {{guide:vitals.hull*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.hull*2@Dungeon Crystalys Twin}} |
+| 실드 | {{guide:vitals.shield@Dungeon Crystalys Twin}} | {{guide:vitals.shield*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.shield*2@Dungeon Crystalys Twin}} |
+| 레이저 피해량(초당 일제 사격 1회) | {{guide:vitals.dps@Dungeon Crystalys Twin}} | {{guide:vitals.dps*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.dps*2@Dungeon Crystalys Twin}} |
+| 속도 | {{guide:vitals.speed@Dungeon Crystalys Twin}} | {{guide:vitals.speed@Dungeon Crystalys Twin}} | {{guide:vitals.speed@Dungeon Crystalys Twin}} |
 | 레이저 사거리 | 900 | 900 | 900 |
-| 어그로 반경 | 2,400 | 2,400 | 2,400 |
+| 어그로 반경 | {{guide:vitals.aggro@Dungeon Crystalys Twin}} | {{guide:vitals.aggro@Dungeon Crystalys Twin}} | {{guide:vitals.aggro@Dungeon Crystalys Twin}} |
 | 보상과 전리품 (원본 대비 배수) | ×2 | ×3 | ×4 |
-| 격파당 크레딧 | 150,000 | 225,000 | 300,000 |
-| 격파당 Thulium | 400 | 600 | 800 |
-| 격파당 경험치 | 24,000 | 36,000 | 48,000 |
-| 격파당 명예 | 104 | 156 | 208 |
+| 격파당 크레딧 | {{guide:spoils.pay.credits*2@Crystalys#1}} | {{guide:spoils.pay.credits*3@Crystalys#1}} | {{guide:spoils.pay.credits*4@Crystalys#1}} |
+| 격파당 Thulium | {{guide:spoils.pay.thulium*2@Crystalys#1}} | {{guide:spoils.pay.thulium*3@Crystalys#1}} | {{guide:spoils.pay.thulium*4@Crystalys#1}} |
+| 격파당 경험치 | {{guide:spoils.pay.experience*2@Crystalys#1}} | {{guide:spoils.pay.experience*3@Crystalys#1}} | {{guide:spoils.pay.experience*4@Crystalys#1}} |
+| 격파당 명예 | {{guide:spoils.pay.honor*2@Crystalys#1}} | {{guide:spoils.pay.honor*3@Crystalys#1}} | {{guide:spoils.pay.honor*4@Crystalys#1}} |
 
 <!-- dungeons-enemies:end -->
 
@@ -205,24 +205,24 @@
 
 |  | 스테이지 1 | 스테이지 2 | 스테이지 3 |
 | :--- | ---: | ---: | ---: |
-| 선체 | 10,000,000 | 15,000,000 | 25,000,000 |
-| 실드 | 8,000,000 | 12,000,000 | 20,000,000 |
-| 레이저 피해량(초당 일제 사격 1회) | 17,500–22,500 | 파일럿 2명 각각에게 26,250–33,750 | 파일럿 2명 각각에게 35,000–45,000 |
-| 속도 | 120 | 120 | 120 |
+| 선체 | {{guide:vitals.hull@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} | {{guide:vitals.hull*2.5@Dungeon Warlord}} |
+| 실드 | {{guide:vitals.shield@Dungeon Warlord}} | {{guide:vitals.shield*1.5@Dungeon Warlord}} | {{guide:vitals.shield*2.5@Dungeon Warlord}} |
+| 레이저 피해량(초당 일제 사격 1회) | {{guide:vitals.dps*0.875~1.125@Dungeon Warlord}} | 파일럿 2명 각각에게 {{guide:vitals.dps*1.3125~1.6875@Dungeon Warlord}} | 파일럿 2명 각각에게 {{guide:vitals.dps*1.75~2.25@Dungeon Warlord}} |
+| 속도 | {{guide:vitals.speed@Dungeon Warlord}} | {{guide:vitals.speed@Dungeon Warlord}} | {{guide:vitals.speed@Dungeon Warlord}} |
 | 레이저 사거리 | 1,100 | 1,100 | 1,100 |
 
 위의 선체와 실드는 5명 그룹 기준입니다. 그룹과 함께 커집니다. 이는 던전이 시작될 때 그룹의 파일럿 수에 따른 워로드의 선체와 실드를 합친 값입니다.
 
 | 그룹의 파일럿 수 | 스테이지 1 | 스테이지 2 | 스테이지 3 |
 | :--- | ---: | ---: | ---: |
-| 3 | 10,800,000 | 16,200,000 | 27,000,000 |
-| 4 | 14,400,000 | 21,600,000 | 36,000,000 |
-| 5 | 18,000,000 | 27,000,000 | 45,000,000 |
-| 6 | 21,600,000 | 32,400,000 | 54,000,000 |
-| 7 | 25,200,000 | 37,800,000 | 63,000,000 |
-| 8 | 28,800,000 | 43,200,000 | 72,000,000 |
-| 9 | 32,400,000 | 48,600,000 | 81,000,000 |
-| 10 | 36,000,000 | 54,000,000 | 90,000,000 |
+| 3 | {{guide:vitals.hull*0.6@Dungeon Warlord}} + {{guide:vitals.shield*0.6@Dungeon Warlord}} | {{guide:vitals.hull*0.9@Dungeon Warlord}} + {{guide:vitals.shield*0.9@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} + {{guide:vitals.shield*1.5@Dungeon Warlord}} |
+| 4 | {{guide:vitals.hull*0.8@Dungeon Warlord}} + {{guide:vitals.shield*0.8@Dungeon Warlord}} | {{guide:vitals.hull*1.2@Dungeon Warlord}} + {{guide:vitals.shield*1.2@Dungeon Warlord}} | {{guide:vitals.hull*2@Dungeon Warlord}} + {{guide:vitals.shield*2@Dungeon Warlord}} |
+| 5 | {{guide:vitals.hull@Dungeon Warlord}} + {{guide:vitals.shield@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} + {{guide:vitals.shield*1.5@Dungeon Warlord}} | {{guide:vitals.hull*2.5@Dungeon Warlord}} + {{guide:vitals.shield*2.5@Dungeon Warlord}} |
+| 6 | {{guide:vitals.hull*1.2@Dungeon Warlord}} + {{guide:vitals.shield*1.2@Dungeon Warlord}} | {{guide:vitals.hull*1.8@Dungeon Warlord}} + {{guide:vitals.shield*1.8@Dungeon Warlord}} | {{guide:vitals.hull*3@Dungeon Warlord}} + {{guide:vitals.shield*3@Dungeon Warlord}} |
+| 7 | {{guide:vitals.hull*1.4@Dungeon Warlord}} + {{guide:vitals.shield*1.4@Dungeon Warlord}} | {{guide:vitals.hull*2.1@Dungeon Warlord}} + {{guide:vitals.shield*2.1@Dungeon Warlord}} | {{guide:vitals.hull*3.5@Dungeon Warlord}} + {{guide:vitals.shield*3.5@Dungeon Warlord}} |
+| 8 | {{guide:vitals.hull*1.6@Dungeon Warlord}} + {{guide:vitals.shield*1.6@Dungeon Warlord}} | {{guide:vitals.hull*2.4@Dungeon Warlord}} + {{guide:vitals.shield*2.4@Dungeon Warlord}} | {{guide:vitals.hull*4@Dungeon Warlord}} + {{guide:vitals.shield*4@Dungeon Warlord}} |
+| 9 | {{guide:vitals.hull*1.8@Dungeon Warlord}} + {{guide:vitals.shield*1.8@Dungeon Warlord}} | {{guide:vitals.hull*2.7@Dungeon Warlord}} + {{guide:vitals.shield*2.7@Dungeon Warlord}} | {{guide:vitals.hull*4.5@Dungeon Warlord}} + {{guide:vitals.shield*4.5@Dungeon Warlord}} |
+| 10 | {{guide:vitals.hull*2@Dungeon Warlord}} + {{guide:vitals.shield*2@Dungeon Warlord}} | {{guide:vitals.hull*3@Dungeon Warlord}} + {{guide:vitals.shield*3@Dungeon Warlord}} | {{guide:vitals.hull*5@Dungeon Warlord}} + {{guide:vitals.shield*5@Dungeon Warlord}} |
 
 <!-- dungeons-boss:end -->
 
@@ -241,6 +241,7 @@
 - **무리 지원**은 워로드가 Goombah를 부르는 능력입니다. Goombah가 살아 있는 동안 워로드는 피해를 입지 않고, 사격도 다른 능력도 쓰지 않습니다. 모두 파괴하세요. 배너가 남은 수를 셉니다. 1분이 지나면 워로드는 다시 피해를 입고, 남은 Goombah는 계속 남아 싸웁니다. 보스 방을 여는 데 세지 않으며 아무것도 지급하지 않습니다.
 - **혼돈의 구역**은 워로드 주위의 바닥에 생기는 보라색 고리이며, 지속되는 동안 워로드가 가는 곳이면 어디든 따라갑니다. 고리 안에서는 누구도 레이저로도 로켓으로도 공격할 수 없지만, 수리, 은폐, 비행은 계속 됩니다. 워로드와 그 외계인은 평소처럼 쏩니다. 고리는 효과가 나타나기 잠깐 전에 보입니다. 고리에서 벗어나 밖에 머무르세요. 고리는 워로드를 따라갑니다. 고리 밖의 파일럿은 무기가 닿는 곳까지는 계속 쏠 수 있습니다.
 - **팬텀 랜스**는 워로드를 1초 동안 사라지게 합니다. 워로드는 방의 다른 곳에 자신의 환영 3개와 함께 돌아옵니다. 환영이 살아 있는 동안 환영은 보이는 가장 가까운 파일럿을 워로드 일제 사격의 절반 위력으로 쏘고, 매초 워로드의 선체와 실드를 회복시킵니다(수치는 능력 표에 있습니다). 환영에게는 자체 선체가 있으니, 회복을 멈추려면 환영을 파괴하세요. 환영은 아무것도 지급하지 않으며, 워로드가 쓰러지면 함께 사라집니다. 환영이 살아 있어도 워로드는 파괴할 수 있습니다.
+- **방사선 도넛**은 워로드가 이 능력을 시작했을 때 서 있던 곳 둘레에 방사선 고리 3개를 워로드에서 바깥쪽으로 차례로 켭니다. 두 고리 사이에는 1~2초가 있습니다. 각 고리는 켜지기 직전에 양쪽 가장자리를 보여 주고, 켜지면 안에 있는 파일럿을 몇 초 동안 선체에서 곧바로 태웁니다(시간과 초당 선체 비율은 능력 표에 있습니다). 고리는 다음 고리가 켜져도 꺼지지 않습니다. 고리 두 개가, 높은 스테이지에서는 세 개 모두가 동시에 타오를 수 있습니다. 워로드 주위의 구멍, 고리 사이의 바닥, 마지막 고리 바깥의 바닥은 안전합니다. 그곳에 머물고, 고리가 켜지기 전에 고리에서 벗어나세요. 벽은 방사선을 막지 못하고 은폐도 막아 주지 못하며, 방사선 기술은 피폭량을 줄입니다.
 
 <!-- dungeons-abilities:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -255,19 +256,34 @@
 | **무리 지원** | 2초 | 최대 1분 | 3분 | – | – |
 | **혼돈의 구역** | 2초 | 15초 | 2분 | 900 | – |
 | **팬텀 랜스** | 1.5초 | 1초 | 2분 | – | – |
+| **방사선 도넛** | 1초 | 최대 8.5초 | 75초 | 2,150 | – |
 
 | 능력 | 스테이지 1 | 스테이지 2 | 스테이지 3 |
 | :--- | :--- | :--- | :--- |
-| **생명력 흡수 오라** | 초당 8,000 | 초당 10,000 | 초당 12,000 |
-| **운석 낙하** | 한 번에 운석 6개, 각 80,000 | 한 번에 운석 8개, 각 100,000 | 한 번에 운석 10개, 각 120,000 |
-| **현상범 집중 공격** | 피해를 가장 많이 준 파일럿에게 추가 탄환 1발당 26,250–33,750, 1초마다 1발 | 피해를 가장 많이 준 파일럿에게 추가 탄환 1발당 39,375–50,625, 1초마다 1발 | 피해를 가장 많이 준 파일럿에게 추가 탄환 1발당 52,500–67,500, 1초마다 1발 |
-| **로켓 연발** | 모든 파일럿에게 로켓 1발당 100,000–150,000, 15초마다 1발 | 모든 파일럿에게 로켓 1발당 125,000–187,500, 15초마다 1발 | 모든 파일럿에게 로켓 1발당 150,000–225,000, 15초마다 1발 |
-| **실드 흡수** | 초당 실드 10,000 | 초당 실드 12,500 | 초당 실드 15,000 |
+| **생명력 흡수 오라** | 초당 {{guide:behaviour.ability:lifesteal.drainPerSec@Dungeon Warlord}} | 초당 {{guide:behaviour.ability:lifesteal.drainPerSec*1.25@Dungeon Warlord}} | 초당 {{guide:behaviour.ability:lifesteal.drainPerSec*1.5@Dungeon Warlord}} |
+| **운석 낙하** | 한 번에 운석 6개, 각 {{guide:behaviour.ability:meteor.damage@Dungeon Warlord}} | 한 번에 운석 8개, 각 {{guide:behaviour.ability:meteor.damage*1.25@Dungeon Warlord}} | 한 번에 운석 10개, 각 {{guide:behaviour.ability:meteor.damage*1.5@Dungeon Warlord}} |
+| **현상범 집중 공격** | 피해를 가장 많이 준 파일럿에게 추가 탄환 1발당 {{guide:vitals.dps*1.3125~1.6875@Dungeon Warlord}}, 1초마다 1발 | 피해를 가장 많이 준 파일럿에게 추가 탄환 1발당 {{guide:vitals.dps*1.96875~2.53125@Dungeon Warlord}}, 1초마다 1발 | 피해를 가장 많이 준 파일럿에게 추가 탄환 1발당 {{guide:vitals.dps*2.625~3.375@Dungeon Warlord}}, 1초마다 1발 |
+| **로켓 연발** | 모든 파일럿에게 로켓 1발당 {{guide:behaviour.ability:barrage.damageMin@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage@Dungeon Warlord}}, 15초마다 1발 | 모든 파일럿에게 로켓 1발당 {{guide:behaviour.ability:barrage.damageMin*1.25@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage*1.25@Dungeon Warlord}}, 15초마다 1발 | 모든 파일럿에게 로켓 1발당 {{guide:behaviour.ability:barrage.damageMin*1.5@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage*1.5@Dungeon Warlord}}, 15초마다 1발 |
+| **실드 흡수** | 초당 실드 {{guide:behaviour.ability:absorb.drainPerSec@Dungeon Warlord}} | 초당 실드 {{guide:behaviour.ability:absorb.drainPerSec*1.25@Dungeon Warlord}} | 초당 실드 {{guide:behaviour.ability:absorb.drainPerSec*1.5@Dungeon Warlord}} |
 | **무리 지원** | Goombah 12마리 | Goombah 18마리 | Goombah 24마리 |
 | **혼돈의 구역** | 고리 안의 파일럿은 공격할 수 없습니다 | 고리 안의 파일럿은 공격할 수 없습니다 | 고리 안의 파일럿은 공격할 수 없습니다 |
-| **팬텀 랜스** | 선체 500,000의 환영 3개. 환영은 각각 워로드 일제 사격의 50%를 쏘며, 살아 있는 동안 워로드를 초당 선체 50,000, 실드 50,000만큼 회복시킵니다 | 선체 500,000의 환영 3개. 환영은 각각 워로드 일제 사격의 50%를 쏘며, 살아 있는 동안 워로드를 초당 선체 50,000, 실드 50,000만큼 회복시킵니다 | 선체 500,000의 환영 3개. 환영은 각각 워로드 일제 사격의 50%를 쏘며, 살아 있는 동안 워로드를 초당 선체 50,000, 실드 50,000만큼 회복시킵니다 |
+| **팬텀 랜스** | 환영 3개. 환영은 각각 워로드 일제 사격의 50%를 쏘며, 살아 있는 동안 워로드를 초당 선체 50,000, 실드 50,000만큼 회복시킵니다 | 환영 3개. 환영은 각각 워로드 일제 사격의 50%를 쏘며, 살아 있는 동안 워로드를 초당 선체 50,000, 실드 50,000만큼 회복시킵니다 | 환영 3개. 환영은 각각 워로드 일제 사격의 50%를 쏘며, 살아 있는 동안 워로드를 초당 선체 50,000, 실드 50,000만큼 회복시킵니다 |
+| **방사선 도넛** | 고리 3개를 차례로 점등. 각 고리는 2초 동안 타오르며 초당 파일럿 선체의 8%를 앗아갑니다 | 고리 3개를 차례로 점등. 각 고리는 3초 동안 타오르며 초당 파일럿 선체의 8%를 앗아갑니다 | 고리 3개를 차례로 점등. 각 고리는 4.5초 동안 타오르며 초당 파일럿 선체의 8%를 앗아갑니다 |
 
 <!-- dungeons-abilities:end -->
+
+### 세 단계 {#its-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Warlord에게는 세 단계가 있습니다([작동 방식](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)). 각각 한 번씩만 일어납니다.
+
+- **삼분의 이 아래**: 능력 사이의 간격이 4초로, 대기 시간이 ×0.75로 줄어듭니다.
+- **삼분의 일 아래**: 간격이 2초로, 대기 시간이 ×0.5로 줄고 피해가 ×1.25로 오릅니다. 공짜 메테오 일제 사격을 한 번 쓰며, 스웜은 120초보다 짧은 간격으로는 돌아오지 않습니다.
+- **단계마다 잠깐 멈춤.** 단계가 시작될 때 Warlord는 3초 동안 피해를 입지 않습니다.
+
+<!-- mob-ladder:end -->
 
 ## 전리품 구역 {#loot-zones}
 
@@ -351,9 +367,9 @@
 
 | 스테이지 | 명예 | 경험치 | 크레딧 | Thulium | x4 탄약 | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE 포인트 |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **스테이지 1** | 25,000 | 600,000 | 5,000,000 | 8,000 | 4,000 | 5 | 12 | 5 | 850 |
-| **스테이지 2** | 50,000 | 1,500,000 | 10,000,000 | 18,000 | 9,000 | 10 | 8 | 6 | 2,000 |
-| **스테이지 3** | 100,000 | 2,400,000 | 17,500,000 | 30,000 | 15,000 | 15 | 8 | 7 | 3,400 |
+| **스테이지 1** | 25,000 | 600,000 | 5,000,000 | 8,000 | 4,000 | 5 | 24 | 10 | 850 |
+| **스테이지 2** | 50,000 | 1,500,000 | 10,000,000 | 18,000 | 9,000 | 10 | 16 | 12 | 2,000 |
+| **스테이지 3** | 100,000 | 2,400,000 | 17,500,000 | 30,000 | 15,000 | 15 | 16 | 14 | 3,400 |
 
 - **Heartshard**: 시즌 중 각 단계를 처음 보상받고 클리어할 때 1개, 보상받고 클리어할 때마다 5% 확률로 1개 추가.
 
@@ -367,7 +383,7 @@
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
 - **하루**: 스테이지는 UTC 하루에 한 번 파일럿에게 보상을 지급합니다. 워로드가 쓰러진 날 기준입니다
-- **한 주**: 파일럿은 UTC 한 주(월요일~일요일)에 스테이지 클리어를 최대 10번까지 보상받습니다
+- **한 주**: 파일럿은 UTC 한 주(월요일~일요일)에 스테이지 클리어를 최대 14번까지 보상받습니다
 - **안에 머문 시간**: 합계 최소 2분
 - **전투 기여**: 다음 중 하나 이상: 워로드의 선체와 실드의 0.1%에 해당하는 피해를 입혔다; 던전의 외계인 10마리를 격파했다; 워로드와의 전투 중 다른 파일럿을 50,000만큼 치료했다
 
@@ -382,8 +398,8 @@
 
 | 파일럿별 보상 | 명예 | 경험치 | 크레딧 | Thulium | x4 탄약 | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE 포인트 |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| 하루, 각 스테이지 한 번씩 | 175,000 | 4,500,000 | 32,500,000 | 56,000 | 28,000 | 30 | 28 | 18 | 6,250 |
-| 가장 좋은 한 주: 7 × 스테이지 3와 3 × 스테이지 2 | 850,000 | 21,300,000 | 152,500,000 | 264,000 | 132,000 | 135 | 80 | 67 | 29,800 |
+| 하루, 각 스테이지 한 번씩 | 175,000 | 4,500,000 | 32,500,000 | 56,000 | 28,000 | 30 | 56 | 36 | 6,250 |
+| 가장 좋은 한 주: 7 × 스테이지 3와 7 × 스테이지 2 | 1,050,000 | 27,300,000 | 192,500,000 | 336,000 | 168,000 | 175 | 224 | 182 | 37,800 |
 
 보상을 받은 클리어의 경험치와 명예는 PvE 포인트에 반영됩니다. 경험치 1,000마다 1포인트, 명예 100마다 1포인트입니다.
 
@@ -395,7 +411,7 @@
 
 - **누가 받는가.** 외계인에게 피해를 입힌 파일럿이, 입힌 피해에 따라 받습니다. 무리의 외계인과 같은 방식입니다. 스치기만 한 파일럿이나 그룹은 아무것도 받지 못하고, 그룹은 하나로 취급되며, 그룹 안에서는 잔해 근처에 있고 최근에 사격한 멤버들이 지급액을 레벨에 따라 나눕니다. 그 외계인에게 피해를 입히지 않은 파일럿은 아무리 가까이 날았어도 아무것도 받지 못하고, 어떤 파일럿도 피해를 입히지 못한 외계인은 누구에게도 보상을 지급하지 않습니다. 위 규칙으로 보상을 받는 파일럿만 대상입니다. 떠난 파일럿, 충분히 오래 안에 있지 않은 파일럿, 오늘 이미 그 스테이지의 보상을 받은 파일럿, 이번 주의 보상 클리어를 모두 받은 파일럿은 외계인에 대한 보상을 받지 못하고, 그 몫은 다른 파일럿이 가져갑니다. 처치에는 전투 기여도를 요구하지 않습니다. 그 외계인에게 피해를 입힌 것이 곧 기여입니다. 그룹에서 가장 많은 피해를 입힌 멤버가 파괴되었거나 맵에 없다면, 잔해 근처에 있고 최근에 사격한 멤버들이 그를 빼고 나눕니다.
 - **무엇이 지급되는가.** 크레딧, Thulium, 경험치, 명예가 처치당 한 번 지급됩니다. 보상은 원본이 Alpha에서 지급하는 값이며, 어느 월드에서나 같습니다. 던전에는 월드 배율이 없습니다. 부스터, 편대, 클랜 보너스는 일반 처치와 똑같이 적용되고, 경험치는 클리어의 경험치처럼 [PvE 포인트](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points)에 포함됩니다.
-- **전리품.** 원본의 확률로 굴리되 Echo Shard만 확률이 두 배이고, 그 뒤 모든 수량에 비율을 곱합니다(1개 미만의 소수는 하나 더 받을 확률이 됩니다). 잔해 위치에 상자로 떨어지며, 처음에는 가장 많은 피해를 입힌 파일럿과 그의 클랜의 것이고, 이후에는 맵의 누구나 가져갈 수 있으며, 그다음에는 사라집니다. 가장 많은 피해를 입힌 파일럿의 [그룹](/wiki/03-Mechanics/Groups.md)에 외계인에게 피해를 주고 아직 던전 안을 비행 중인 파일럿이 두 명 이상 있으면, 전리품은 대신 [개별 상자](/wiki/03-Mechanics/Cargo.md#personal-crates)로 나뉩니다. 준 피해에 따라 한 명당 하나씩이며, 각 상자는 처음에는 해당 파일럿만의 것이고, 이후에는 맵의 누구나 가져갈 수 있습니다. 피해를 주지 않았거나 위의 규칙으로 제외되는 그룹원은 상자가 없습니다. 다른 그룹과 혼자 비행하는 파일럿은 자기 몫의 보상을 받지만 이 전리품의 상자는 받지 않습니다. 맵에는 동시에 일정 수의 상자만 둘 수 있으니 진행하면서 주워 두세요. 던전이 닫힐 때 맵에 남아 있는 것은 던전과 함께 사라집니다. 클리어가 지급하는 아이템과 달리 외계인의 일반 드롭이므로, 아이템이 거래 가능하면 [경매장에서 팔](/wiki/03-Mechanics/Auction.md#marketable-items) 수 있습니다.
+- **전리품.** 원본의 확률로 굴리되 Echo Shard만 확률이 두 배이고 한 번에 두 개씩 나오며, 그 뒤 모든 수량에 비율을 곱합니다(1개 미만의 소수는 하나 더 받을 확률이 됩니다). 잔해 위치에 상자로 떨어지며, 처음에는 가장 많은 피해를 입힌 파일럿과 그의 클랜의 것이고, 이후에는 맵의 누구나 가져갈 수 있으며, 그다음에는 사라집니다. 가장 많은 피해를 입힌 파일럿의 [그룹](/wiki/03-Mechanics/Groups.md)에 외계인에게 피해를 주고 아직 던전 안을 비행 중인 파일럿이 두 명 이상 있으면, 전리품은 대신 [개별 상자](/wiki/03-Mechanics/Cargo.md#personal-crates)로 나뉩니다. 준 피해에 따라 한 명당 하나씩이며, 각 상자는 처음에는 해당 파일럿만의 것이고, 이후에는 맵의 누구나 가져갈 수 있습니다. 피해를 주지 않았거나 위의 규칙으로 제외되는 그룹원은 상자가 없습니다. 다른 그룹과 혼자 비행하는 파일럿은 자기 몫의 보상을 받지만 이 전리품의 상자는 받지 않습니다. 맵에는 동시에 일정 수의 상자만 둘 수 있으니 진행하면서 주워 두세요. 던전이 닫힐 때 맵에 남아 있는 것은 던전과 함께 사라집니다. 클리어가 지급하는 아이템과 달리 외계인의 일반 드롭이므로, 아이템이 거래 가능하면 [경매장에서 팔](/wiki/03-Mechanics/Auction.md#marketable-items) 수 있습니다.
 - **보상을 주지 않는 것.** 워로드는 처치 보상을 지급하지 않고 클리어 보상만 지급합니다. 워로드가 부르는 Goombah는 아무것도 지급하지 않습니다. 전투가 이어지는 동안 호출이 계속 반복되기 때문입니다.
 - **게임의 처치가 아닙니다.** 던전에서의 처치는 퀘스트, 도전 과제, 처치 수, 초기화 포인트, 처치로 얻는 PvE 포인트, 드론, P.E.T.에 포함되지 않습니다. Dungeon Goombah는 게임 속 Goombah가 아닙니다.
 - **한도.** 위의 하루와 한 주 한도는 클리어의 보상과 마찬가지로 외계인의 보상도 막습니다. 오늘 이미 그 스테이지의 보상을 받았거나 이번 주의 보상 클리어를 모두 받은 파일럿은 그 외계인에 대한 보상도 받지 못하고, 처치의 몫은 다른 파일럿이 가져갑니다. 클리어되지 않은 던전은 규칙으로 보상을 받는 파일럿에게 처치 보상을 지급하고, 클리어 보상은 지급하지 않습니다.

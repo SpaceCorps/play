@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fff5cfd69e987468 -->
+<!-- wiki-i18n source: 7c6bc3eaf70223f5 -->
 <!-- wiki-i18n title: Seeker sürüsü -->
 # Seeker sürüsü {#seeker-swarm}
 
@@ -17,14 +17,14 @@ Seeker sürüsü, [sürülerin](/wiki/05-Swarms/Swarms.md) en küçüğüdür: b
 - **Takipçiler şu mesafede kalır**: liderden en fazla 500 birim
 - **Onarım**: Liderin 600 birim yakınındaki her Seeker Slave, liderin gövdesini Alpha dünyasında saniyede 50 HP onarır
 - **Lider yok edilince**: Takipçiler, saldırmıyorlarsa, lider yok edildikten 30 sn sonra ayrılır
-- **Geri gelir**: Lider yok edildikten 2 dk sonra, aynı sektörde
+- **Geri gelir**: Lider yok edildikten {{guide:vitals.respawn@Boss Seeker#1;Boss Seeker#2;Boss Seeker#3}} sonra, aynı sektörde
 - **Duyuru**: Sektördeki pilotlara liderin ne zaman belirdiği ve ne zaman yok edildiği bildirilir. Bunlar Sistem satırlarıdır: sohbetin **Sistem** sekmesinde, okunmamış sayısıyla birlikte görünür; **Genel** ya da **Yerel** sekmesinde görünmez. Öldürme akışı, öldürmeyi alan pilotu adıyla gösterir.
 
 <!-- seeker-glance:end -->
 
 ## Üyeler {#the-members}
 
-- **Boss Seeker**: çok daha büyük bir Seeker; sürünün tonunda ve üzerinde adıyla görünür; gövdesi, kalkanı ve hasarı bir Seeker gemisinin birçok katıdır (değerler aşağıda). Pasiftir: bir pilot ona vurana kadar dolaşır, sonra olduğu yerde durur ve o pilota ateş eder; sürüsünün yakındaki gemileri de savaşa katılır. Silahının menzili ve hızı bir Seeker gemisininki gibidir ve gövdesini kendi kendine asla onarmaz.
+- **Boss Seeker**: çok daha büyük bir Seeker; sürünün tonunda ve üzerinde adıyla görünür; gövdesi, kalkanı ve hasarı bir Seeker gemisinin birçok katıdır (değerler aşağıda). Pasiftir: bir pilot ona vurana kadar dolaşır, sonra olduğu yerde durur ve o pilota ateş eder; sürüsünün yakındaki gemileri de savaşa katılır. Silahının menzili ve hızı bir Seeker gemisininki gibidir ve gövdesini kendi kendine asla onarmaz. [Üç aşaması](#the-leaders-three-steps) ve bir [özel yetenek](/wiki/03-Mechanics/Special-Abilities.md) bunu değiştirebilir.
 - **Seeker Slave**: sürünün tonunda sade bir Seeker. Seeker Slave gemileri patronun yakınında kalır, yakınlarındaki bir sürü gemisi vurulduğunda savaşa katılır ve patronun yakınındaki her biri onun gövdesini onarır. Bir Seeker Slave, bir Seeker gibi, dinlendikten sonra kendi gövdesini onarır.
 
 ## Savaş nasıl geçer {#how-the-fight-goes}
@@ -33,6 +33,19 @@ Seeker sürüsü, [sürülerin](/wiki/05-Swarms/Swarms.md) en küçüğüdür: b
 - **Menzilinin dışında kal.** Patron ve Seeker Slave gemileri bir Protos gemisinden yavaştır ve silahlarının menzili bir Quantum Laser II lazerinin menzilinden kısadır (bkz. [Lazerler ve cephane](/wiki/06-Items/Lasers.md)): bu lazerlere sahip olup menzillerinin dışında kalan bir pilot, onlar ateş ederken hiç hasar almaz. Quantum Laser I taşıyan bir pilot menzil dışında kalamaz.
 - **Seeker Slave gemileri, yalnız bir yeni pilotun vurduğundan hızlı onarır.** Hep birlikte, tek bir pilotun lazerlerinin x1 cephaneyle verdiğinden fazlasını onarırlar; bu yüzden bir partner ve x2 cephane getir. Mesafesini koruyan, Quantum Laser II taşıyan iki pilot, Alpha dünyasında patronu yaklaşık bir dakikada indirir; x2 cephaneyle çok daha hızlı.
 - **Patron geri gelir**: *Bir bakışta* listesindeki süreden sonra, tam güçte ve aynı sektörde; Seeker Slave gemileri de birbiri ardına gelir.
+
+## Liderin üç aşaması {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Bu savaşın üç aşaması vardır ([nasıl işlediği](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); her biri bir kez gerçekleşir.
+
+- **Başlangıçta**: Seeker Slaves onu 8 sn boyunca ×2 hızla onarır.
+- **Üçte ikinin altında**: Kopyalarından 2 tanesi belirir ve gerçeği bir halka taşır.
+- **Üçte birin altında**: 4 sn boyunca pilotlardan kaçar, sonra döner.
+
+<!-- mob-ladder:end -->
 
 ## Ödüller ve ganimet {#rewards-and-drops}
 
@@ -51,28 +64,23 @@ Seeker temel alınarak, gövdesinin, kalkanının ve hasarının %400 kadarıyla
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Gövde | 3.200 | 4.800 | 6.400 |
-| Kalkan | 3.200 | 4.800 | 6.400 |
-| Lazer hasarı (saniyede bir salvo) | 720 | 1.080 | 1.440 |
-| Hız | 120 | 120 | 120 |
+| Gövde | {{guide:vitals.hull@Boss Seeker#1}} | {{guide:vitals.hull@Boss Seeker#2}} | {{guide:vitals.hull@Boss Seeker#3}} |
+| Kalkan | {{guide:vitals.shield@Boss Seeker#1}} | {{guide:vitals.shield@Boss Seeker#2}} | {{guide:vitals.shield@Boss Seeker#3}} |
+| Lazer hasarı (saniyede bir salvo) | {{guide:vitals.dps@Boss Seeker#1}} | {{guide:vitals.dps@Boss Seeker#2}} | {{guide:vitals.dps@Boss Seeker#3}} |
+| Hız | {{guide:vitals.speed@Boss Seeker#1}} | {{guide:vitals.speed@Boss Seeker#2}} | {{guide:vitals.speed@Boss Seeker#3}} |
 | Lazer menzili | 600 | 600 | 600 |
 | Aggro yarıçapı | yalnızca saldırıya uğrayınca | yalnızca saldırıya uğrayınca | yalnızca saldırıya uğrayınca |
-| Kredi | 10.000 | 20.000 | 30.000 |
-| Thulium | 40 | 80 | 120 |
-| Deneyim (XP) | 1.000 | 2.000 | 3.000 |
-| Onur | 20 | 40 | 60 |
+| Kredi | {{guide:spoils.pay.credits@Boss Seeker#1}} | {{guide:spoils.pay.credits@Boss Seeker#2}} | {{guide:spoils.pay.credits@Boss Seeker#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Boss Seeker#1}} | {{guide:spoils.pay.thulium@Boss Seeker#2}} | {{guide:spoils.pay.thulium@Boss Seeker#3}} |
+| Deneyim (XP) | {{guide:spoils.pay.experience@Boss Seeker#1}} | {{guide:spoils.pay.experience@Boss Seeker#2}} | {{guide:spoils.pay.experience@Boss Seeker#3}} |
+| Onur | {{guide:spoils.pay.honor@Boss Seeker#1}} | {{guide:spoils.pay.honor@Boss Seeker#2}} | {{guide:spoils.pay.honor@Boss Seeker#3}} |
 | Öldürme başına PvE puanı | 5 | 5 | 5 |
 
 **Ganimet**: tek bir kutu, en çok hasar veren pilota ait.
 
-| Eşya | Şans | Miktar |
-| :--- | ---: | ---: |
-| Ship Fragment | 10 çekilişin her birinde %20 | 1 |
-| Daraxium | 10 çekilişin her birinde %50 | 1–2 |
-| Standard Battery | %100 | 200–400 |
-| Advanced Plasma | %100 | 10–20 |
-| Ultra Core | %100 | 2–4 |
-| Kredi ile satın alınan 4 [roket](/wiki/06-Items/Rockets.md) arasından rastgele biri | %100 | 2–3 |
+| Eşya |
+| :--- |
+| {{guide:spoils.box@Boss Seeker#1;Boss Seeker#2;Boss Seeker#3}} |
 
 ### Seeker Slave
 
@@ -80,17 +88,17 @@ Seeker temel alınarak, gövdesinin, kalkanının ve hasarının %100 kadarıyla
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Gövde | 800 | 1.200 | 1.600 |
-| Kalkan | 800 | 1.200 | 1.600 |
-| Lazer hasarı (saniyede bir salvo) | 180 | 270 | 360 |
-| Hız | 120 | 120 | 120 |
+| Gövde | {{guide:vitals.hull@Seeker Slave#1}} | {{guide:vitals.hull@Seeker Slave#2}} | {{guide:vitals.hull@Seeker Slave#3}} |
+| Kalkan | {{guide:vitals.shield@Seeker Slave#1}} | {{guide:vitals.shield@Seeker Slave#2}} | {{guide:vitals.shield@Seeker Slave#3}} |
+| Lazer hasarı (saniyede bir salvo) | {{guide:vitals.dps@Seeker Slave#1}} | {{guide:vitals.dps@Seeker Slave#2}} | {{guide:vitals.dps@Seeker Slave#3}} |
+| Hız | {{guide:vitals.speed@Seeker Slave#1}} | {{guide:vitals.speed@Seeker Slave#2}} | {{guide:vitals.speed@Seeker Slave#3}} |
 | Lazer menzili | 600 | 600 | 600 |
 | Aggro yarıçapı | yalnızca saldırıya uğrayınca | yalnızca saldırıya uğrayınca | yalnızca saldırıya uğrayınca |
 | Lideri onarır (her biri, saniyede; yalnızca gövde) | 50 | 75 | 100 |
-| Kredi | 125 | 250 | 375 |
-| Thulium | 1 | 2 | 3 |
-| Deneyim (XP) | 12 | 24 | 36 |
-| Onur | 1 | 2 | 3 |
+| Kredi | {{guide:spoils.pay.credits@Seeker Slave#1}} | {{guide:spoils.pay.credits@Seeker Slave#2}} | {{guide:spoils.pay.credits@Seeker Slave#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Seeker Slave#1}} | {{guide:spoils.pay.thulium@Seeker Slave#2}} | {{guide:spoils.pay.thulium@Seeker Slave#3}} |
+| Deneyim (XP) | {{guide:spoils.pay.experience@Seeker Slave#1}} | {{guide:spoils.pay.experience@Seeker Slave#2}} | {{guide:spoils.pay.experience@Seeker Slave#3}} |
+| Onur | {{guide:spoils.pay.honor@Seeker Slave#1}} | {{guide:spoils.pay.honor@Seeker Slave#2}} | {{guide:spoils.pay.honor@Seeker Slave#3}} |
 | Öldürme başına PvE puanı | 1 | 1 | 1 |
 
 **Ganimet**: yok. Öldürme yalnızca kredi, Thulium, XP ve onur öder.

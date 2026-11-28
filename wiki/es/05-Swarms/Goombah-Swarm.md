@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7859e3f6a7efac1e -->
+<!-- wiki-i18n source: 38ffa8ba7cbf5000 -->
 <!-- wiki-i18n title: Enjambre Goombah -->
 # Enjambre Goombah {#goombah-swarm}
 
@@ -17,14 +17,14 @@ El enjambre Goombah es un **Boss Goombah** con sus **Goombah Guards**: un [Goomb
 - **Los seguidores se mantienen**: a no más de 500 unidades del líder
 - **Curación**: Cada Goombah Guard a menos de 600 unidades del líder cura su casco, 110 HP por segundo en Alpha
 - **Líder destruido**: Los seguidores se van 30 s después de que destruyan al líder, salvo que estén atacando
-- **Vuelve**: 5 min después de que destruyan al líder, en el mismo sector
+- **Vuelve**: {{guide:vitals.respawn@Boss Goombah#1;Boss Goombah#2;Boss Goombah#3}} después de que destruyan al líder, en el mismo sector
 - **Avisos**: Se avisa a los pilotos del sector cuándo aparece el líder y cuándo es destruido. Son líneas del Sistema: aparecen en la pestaña **Sistema** del chat, con un contador de no leídas, y no en **Global** ni en **Local**. El registro de bajas nombra al piloto al que se acredita el derribo.
 
 <!-- goombah-glance:end -->
 
 ## Los miembros {#the-members}
 
-- **Boss Goombah**: un Goombah más grande, con el tinte del enjambre y su nombre encima, con casco, escudo y una andanada láser propios (las cifras están más abajo). Es pasivo: merodea hasta que un piloto lo impacta, entonces va tras ese piloto y le dispara, y las naves de su enjambre cercanas se suman al combate. El alcance de su arma y su velocidad son los de un Goombah, y nunca repara su casco por sí solo.
+- **Boss Goombah**: un Goombah más grande, con el tinte del enjambre y su nombre encima, con casco, escudo y una andanada láser propios (las cifras están más abajo). Es pasivo: merodea hasta que un piloto lo impacta, entonces va tras ese piloto y le dispara, y las naves de su enjambre cercanas se suman al combate. El alcance de su arma y su velocidad son los de un Goombah, y nunca repara su casco por sí solo. Sus [tres pasos](#the-leaders-three-steps) y una [habilidad especial](/wiki/03-Mechanics/Special-Abilities.md) pueden cambiar eso.
 - **Goombah Guard**: un Goombah más pequeño con el tinte del enjambre. Los Guards se mantienen cerca del jefe, se suman al combate cuando una nave de enjambre cercana es impactada, y cada uno que está cerca del jefe cura su casco. Un Guard repara su propio casco tras un descanso, como hace un Goombah.
 
 ## Cómo transcurre el combate {#how-the-fight-goes}
@@ -34,6 +34,19 @@ El enjambre Goombah es un **Boss Goombah** con sus **Goombah Guards**: un [Goomb
 - **Beta y Gamma son más duros.** Los enjambres de esos mundos son más fuertes ([Mundos](/wiki/05-Swarms/Swarms.md#the-worlds)), así que piden más pilotos o mejor munición.
 - **Vigila el sector.** `x-4` es un sector PvP en Alpha, y `x-3` y `x-4` lo son en Beta y Gamma ([Mundos](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)): un rival puede unirse al combate o esperar la caja. Deja una nave del grupo de guardia.
 - **El jefe vuelve** pasado el tiempo de la lista *De un vistazo*, con toda su fuerza, en el mismo sector, y sus Guards llegan uno tras otro.
+
+## Los tres pasos del líder {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Su combate tiene tres pasos ([cómo funcionan](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); cada uno ocurre una vez.
+
+- **Al empezar**: Recibe 50 % de cada impacto durante 6 s.
+- **Por debajo de dos tercios**: Su daño se multiplica por ×1,5 y su velocidad por ×1,25 durante 10 s.
+- **Por debajo de un tercio**: Repara 25 % de su casco y su escudo (una ráfaga de daño la interrumpe), y sus Goombah Guards lo reparan ×2 más rápido entretanto.
+
+<!-- mob-ladder:end -->
 
 ## Recompensas y botín {#rewards-and-drops}
 
@@ -52,30 +65,23 @@ Base: Goombah, con 400 % del casco y 100 % del daño de los láseres; la veloc
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Casco | 128.000 | 192.000 | 256.000 |
-| Escudo | 192.000 | 288.000 | 384.000 |
-| Daño de los láseres (una salva por segundo) | 3.000 | 4.500 | 6.000 |
-| Velocidad | 180 | 180 | 180 |
+| Casco | {{guide:vitals.hull@Boss Goombah#1}} | {{guide:vitals.hull@Boss Goombah#2}} | {{guide:vitals.hull@Boss Goombah#3}} |
+| Escudo | {{guide:vitals.shield@Boss Goombah#1}} | {{guide:vitals.shield@Boss Goombah#2}} | {{guide:vitals.shield@Boss Goombah#3}} |
+| Daño de los láseres (una salva por segundo) | {{guide:vitals.dps@Boss Goombah#1}} | {{guide:vitals.dps@Boss Goombah#2}} | {{guide:vitals.dps@Boss Goombah#3}} |
+| Velocidad | {{guide:vitals.speed@Boss Goombah#1}} | {{guide:vitals.speed@Boss Goombah#2}} | {{guide:vitals.speed@Boss Goombah#3}} |
 | Alcance de los láseres | 800 | 800 | 800 |
 | Radio de agresión | solo si lo atacan | solo si lo atacan | solo si lo atacan |
-| Créditos | 120.000 | 240.000 | 360.000 |
-| Thulium | 600 | 1.200 | 1.800 |
-| Experiencia (XP) | 24.000 | 48.000 | 72.000 |
-| Honor | 192 | 384 | 576 |
+| Créditos | {{guide:spoils.pay.credits@Boss Goombah#1}} | {{guide:spoils.pay.credits@Boss Goombah#2}} | {{guide:spoils.pay.credits@Boss Goombah#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Boss Goombah#1}} | {{guide:spoils.pay.thulium@Boss Goombah#2}} | {{guide:spoils.pay.thulium@Boss Goombah#3}} |
+| Experiencia (XP) | {{guide:spoils.pay.experience@Boss Goombah#1}} | {{guide:spoils.pay.experience@Boss Goombah#2}} | {{guide:spoils.pay.experience@Boss Goombah#3}} |
+| Honor | {{guide:spoils.pay.honor@Boss Goombah#1}} | {{guide:spoils.pay.honor@Boss Goombah#2}} | {{guide:spoils.pay.honor@Boss Goombah#3}} |
 | Puntos PvE por derribo | 14 | 14 | 14 |
 
 **Botín**: una caja, para el piloto que más daño causó.
 
-| Objeto | Probabilidad | Cantidad |
-| :--- | ---: | ---: |
-| Ship Fragment | 100 % en cada una de 8 tiradas | 3 |
-| Reinforced Hull Plate | 60 % en cada una de 8 tiradas | 1 |
-| Power Core | 25 % en cada una de 8 tiradas | 1 |
-| Cataclysite | 100 % en cada una de 8 tiradas | 4 |
-| Quorvium | 100 % en cada una de 8 tiradas | 2–4 |
-| Advanced Plasma | 100 % | 100–200 |
-| Ultra Core | 100 % | 100–200 |
-| Uno de los 4 [cohetes](/wiki/06-Items/Rockets.md) que se compran con créditos, elegido al azar | 100 % | 6–10 |
+| Objeto |
+| :--- |
+| {{guide:spoils.box@Boss Goombah#1;Boss Goombah#2;Boss Goombah#3}} |
 
 ### Goombah Guard
 
@@ -83,17 +89,17 @@ Base: Goombah, con 20 % de casco, escudo y daño; la velocidad y el alcance son
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Casco | 6.400 | 9.600 | 12.800 |
-| Escudo | 9.600 | 14.400 | 19.200 |
-| Daño de los láseres (una salva por segundo) | 600 | 900 | 1.200 |
-| Velocidad | 180 | 180 | 180 |
+| Casco | {{guide:vitals.hull@Goombah Guard#1}} | {{guide:vitals.hull@Goombah Guard#2}} | {{guide:vitals.hull@Goombah Guard#3}} |
+| Escudo | {{guide:vitals.shield@Goombah Guard#1}} | {{guide:vitals.shield@Goombah Guard#2}} | {{guide:vitals.shield@Goombah Guard#3}} |
+| Daño de los láseres (una salva por segundo) | {{guide:vitals.dps@Goombah Guard#1}} | {{guide:vitals.dps@Goombah Guard#2}} | {{guide:vitals.dps@Goombah Guard#3}} |
+| Velocidad | {{guide:vitals.speed@Goombah Guard#1}} | {{guide:vitals.speed@Goombah Guard#2}} | {{guide:vitals.speed@Goombah Guard#3}} |
 | Alcance de los láseres | 800 | 800 | 800 |
 | Radio de agresión | solo si lo atacan | solo si lo atacan | solo si lo atacan |
 | Cura al líder, cada uno, por segundo (solo el casco) | 110 | 165 | 220 |
-| Créditos | 125 | 250 | 375 |
-| Thulium | 1 | 2 | 3 |
-| Experiencia (XP) | 12 | 24 | 36 |
-| Honor | 1 | 2 | 3 |
+| Créditos | {{guide:spoils.pay.credits@Goombah Guard#1}} | {{guide:spoils.pay.credits@Goombah Guard#2}} | {{guide:spoils.pay.credits@Goombah Guard#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Goombah Guard#1}} | {{guide:spoils.pay.thulium@Goombah Guard#2}} | {{guide:spoils.pay.thulium@Goombah Guard#3}} |
+| Experiencia (XP) | {{guide:spoils.pay.experience@Goombah Guard#1}} | {{guide:spoils.pay.experience@Goombah Guard#2}} | {{guide:spoils.pay.experience@Goombah Guard#3}} |
+| Honor | {{guide:spoils.pay.honor@Goombah Guard#1}} | {{guide:spoils.pay.honor@Goombah Guard#2}} | {{guide:spoils.pay.honor@Goombah Guard#3}} |
 | Puntos PvE por derribo | 3 | 3 | 3 |
 
 **Botín**: ninguno. El derribo solo paga sus créditos, su Thulium, su XP y su honor.

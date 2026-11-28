@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 397d7b3564593bb7 -->
+<!-- wiki-i18n source: f77c8c8ae352b4a0 -->
 <!-- wiki-i18n title: Server -->
 # Server {#servers}
 
@@ -37,7 +37,7 @@ Wenn das Spiel sich schließt oder die Verbindung abbricht, wartet der Regionals
 | [Solo-Tore](/wiki/03-Mechanics/Solo-Gates.md#going-in) | das Tor selbst ist dort beschrieben |
 | [Erfolge](/wiki/03-Mechanics/Achievements.md) | dort beschrieben |
 | [Clan-Dungeons](/wiki/03-Mechanics/Dungeons.md) und die Wächter | nur in Helsinki |
-| [Davidski](/wiki/03-Mechanics/Davidski.md) | er erscheint, zahlt auf einem Regionalserver aber nichts: Seine Abschüsse werden in Helsinki bezahlt |
+| [Davidski](/wiki/03-Mechanics/Davidski.md) | er erscheint, zahlt auf einem Regionalserver aber nichts; seine Belohnungen werden nur für einen Abschuss auf dem Heimatserver (EU) bezahlt, und ein Abschuss auf jedem Server zählt für die Missionen, die ihn nennen |
 | Hangar, [Skylab](/wiki/03-Mechanics/Skylab.md), Montage, Auktion, Shop, Forschung, die Clan-Seite und Galaxietore | in der Station: im Flug sagt das Fenster es, und **Zurück zur Basis** bringt dich dorthin |
 
 ## Einen Server wählen {#choosing-a-server}

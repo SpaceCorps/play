@@ -22,12 +22,14 @@ In the station your Credits, Thulium and Honor sit in the top right corner of ev
 
 ## Pilot Profiles
 
-Click a pilot's name in the Hall of Fame (**Community › Rankings**), on the **Stats** page or in a clan's list of members and the pilot's **profile** opens: company, world and clan, level, experience, honor and ranking points, the aliens and pilots the pilot has destroyed, and the ship they fly with its numbers. Two tiles say how long the pilot has been around:
+Click a pilot's name in the Hall of Fame (**Community › Rankings**), on the **Stats** page or in a clan's list of members and the pilot's **profile** opens: company, world and clan, level, experience, honor and ranking points, the aliens and pilots the pilot has destroyed, and the ship they fly, with its equipment and numbers (unless the pilot keeps them private). Two tiles say how long the pilot has been around:
 
 - **First login.** The day the pilot first signed in, as a date in your own time zone. A pilot who played before 0.4.12 shows the day they first signed in since that update, and a dash stands for a pilot who has not signed in since.
 - **Time played.** How long the pilot's game has been connected to the server, in hours and minutes ("128 h 15 min", "45 min"), in flight or at the station. Time spent standing still counts too. Counting began with 0.4.12, so for a pilot who played before it, it is the time since that update.
 
 Both are public, like level and rank: any signed-in pilot can read them on a profile. The season's wipe does not reset them.
+
+A pilot can keep their equipment private. **Settings › Account › Privacy** has a switch, **Hide my equipment**. While it is on, other pilots still see the pilot's ship turning and the rest of the profile, but not the items fitted to the ship and its drones, nor the combat numbers they give, and the profile says that the pilot keeps their equipment private. Administrators always see it, and your own profile always shows yours (with a note while the switch is on).
 
 Beyond your profile, **Community › Achievements** keeps your career goals, with their rewards and titles: see [Achievements](/wiki/03-Mechanics/Achievements.md).
 

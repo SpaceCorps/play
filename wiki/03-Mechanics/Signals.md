@@ -11,7 +11,7 @@ Mission Control picks up a strange noise, **the Static**, and it sends twenty mi
 - **Infinite uses.** Nothing uses it up: it is not spent, it does not wear out, and no recipe asks for it.
 - **Only one.** You can carry a single Dormant Keycard. If a claim would give you a second, the claim still works and pays everything else; you just do not get another card.
 - **Yours for good.** It cannot be sold on the Auction, it cannot be thrown away in the Hangar, and a [wipe](/wiki/03-Mechanics/Wipe-Timeline.md) does not take it.
-- **Not used yet.** It opens nothing today. A later update will use it to give access to a new map, which is not in the game yet. Keep your card until then.
+- **It opens the Void Gate.** A pilot who carries it can activate their world's open Void Gate in `DS-4` and take everyone near it into the [Deep Void](/wiki/03-Mechanics/Deep-Void.md). Activating it costs 5,000 Thulium; the card itself is never spent.
 - **Already claimed the last Signal?** A pilot who had claimed it before the card existed (the 0.5.10 update) got the card once, by itself, when the server updated.
 
 ## How the Signals Work

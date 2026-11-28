@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4e3f459fc0966372 -->
+<!-- wiki-i18n source: 98e91b2bd1dede81 -->
 <!-- wiki-i18n title: Tesseract 무리 -->
 # Tesseract 무리 {#tesseract-swarm}
 
@@ -13,13 +13,13 @@ Tesseract 무리는 거대한 모함 한 척인 **Tesseract**와, 공격받는 �
 - **개수**: 월드마다 하나
 - **출현**: 시즌 4일차부터 초기화까지(베타와 감마: 시즌 1일차부터)
 - **리더**: Tesseract
-- **거점**: 섹터 맵의 25,900, 6,100 지점에서 2,500유닛 이내
+- **거점**: 섹터 맵의 25,900, 11,900 지점에서 2,500유닛 이내
 - **재생**: Alpha에서 초당 125,000 HP, 선체가 먼저고 그다음 실드이며, 5초 동안 피해가 없으면 시작됩니다
 - **부하**: 최대 100 × Facet, 리더가 공격받는 동안 5초마다 20기 추가
 - **부하가 오는 조건**: 리더가 최근 5초 안에 공격받은 동안에만, 리더로부터 400유닛 이내에 나타납니다
 - **추격자**: Facet마다 리더로부터 3,600유닛 이내에서 자기만의 짧은 비행을 반복하며 아무도 쫓지 않습니다. 리더를 공격한 파일럿이 사정거리 안에 들어오면 그중 가장 가까운 파일럿을 쏩니다. 쏠 상대가 없으면 리더 주위를 계속 날다가 마지막 공격 20초 뒤에 떠납니다
 - **리더 격파 후**: 리더가 격파되고 1분 뒤에 부하는 사라집니다. 공격 중이어도 마찬가지입니다
-- **복귀**: 리더가 격파되고 30분 뒤, 같은 섹터에서
+- **복귀**: 리더가 격파되고 {{guide:vitals.respawn@Tesseract#1;Tesseract#2;Tesseract#3}} 뒤, 같은 섹터에서
 - **알림**: 해당 섹터의 파일럿에게 리더가 나타날 때와 격파될 때 알려 줍니다. 이 줄들은 시스템 줄입니다. 채팅의 **시스템** 탭에 읽지 않은 줄 수와 함께 표시되고, **전체** 탭이나 **지역** 탭에는 나오지 않습니다. 킬 피드에 처치 공로를 인정받은 파일럿의 이름이 나옵니다.
 
 <!-- tesseract-glance:end -->
@@ -40,6 +40,17 @@ Tesseract 무리는 거대한 모함 한 척인 **Tesseract**와, 공격받는 �
 - **위험 섹터는 PvP입니다.** 라이벌이 전투 한가운데에서 그룹을 공격할 수 있습니다. 잔해 옆에는 라이벌이 기다릴 만한 상자가 남지 않습니다. 전리품은 처치로 보상을 받는 파일럿마다 하나씩 주어지는 [개인 상자](/wiki/03-Mechanics/Cargo.md#private-boxes)이며, 그 파일럿만 보고 가져갈 수 있습니다. 동료와 함께 가세요.
 - **Tesseract는 다시 나타납니다.** *한눈에 보기* 목록의 시간이 지나면 완전한 상태로 제자리에 돌아옵니다.
 
+## 대장의 세 단계 {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+이 전투에는 세 단계가 있습니다([작동 방식](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)). 각각 한 번씩만 일어나며, 완전히 회복하면 처음부터 다시 시작합니다.
+
+- **삼분의 이 아래**: Facets이(가) 평소 수를 넘어 20마리 한꺼번에 도착합니다.
+
+<!-- mob-ladder:end -->
+
 ## 보상과 전리품 {#rewards-and-drops}
 
 Tesseract의 보상은 그 전투의 무게에 걸맞습니다. 수많은 Crystalys를 합친 만큼이며, 받는 피해에 비해서는 가장 보상이 큰 외계인인 Crystalys보다 더 많습니다. 보상은 싸운 파일럿들 사이에서 피해량에 따라 나뉩니다([보스 처치 보상](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). 가장 많은 피해를 입힌 파일럿을 위한 상자는 없습니다. 처치로 보상을 받는 파일럿마다 Reinforced Hull Plate, Velkonite Reinforced Plate, Orvium Reinforced Plate, Power Core, Ancient Control Unit, Dark Matter가 든 자신만의 [개인 상자](/wiki/03-Mechanics/Cargo.md#private-boxes)를 받으며, 본인만 보고 가져갈 수 있고 10분 동안 남아 있습니다. 내용물은 [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)의 전리품처럼 본인의 피해 몫으로 굴립니다. 피해의 5분의 1을 입힌 파일럿은 표에 있는 수량의 약 5분의 1을 받고, 그룹에서는 각 파일럿이 보상을 나누는 방식 그대로 그룹 몫 중 자기 부분을 받습니다. Dark Matter에는 파일럿별 상한이 있습니다. 한 번의 처치에서 받는 양은 몫이 아무리 커도 최대 5개이며(그룹에서는 먼저 각 파일럿의 몫을 떼어 내고, 상한은 각 파일럿에게 따로 적용됩니다), 상한을 넘는 양은 사라지고 다른 사람에게 나눠 주지 않습니다. Facet은 [Phantasm](/wiki/04-Aliens/Phantasm.md)과 같은 크레딧, Thulium, XP, 명예를 지급하고 처치로도 집계되지만(통계, 도전 과제, 드론과 P.E.T.의 경험치), 전리품은 없으며 PvE 포인트도 더하지 않습니다.
@@ -57,30 +68,24 @@ Tesseract의 보상은 그 전투의 무게에 걸맞습니다. 수많은 Crysta
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 선체 | 1,600,000 | 2,400,000 | 3,200,000 |
-| 실드 | 1,200,000 | 1,800,000 | 2,400,000 |
+| 선체 | {{guide:vitals.hull@Tesseract#1}} | {{guide:vitals.hull@Tesseract#2}} | {{guide:vitals.hull@Tesseract#3}} |
+| 실드 | {{guide:vitals.shield@Tesseract#1}} | {{guide:vitals.shield@Tesseract#2}} | {{guide:vitals.shield@Tesseract#3}} |
 | 레이저 피해량(초당 일제 사격 1회) | 없음 | 없음 | 없음 |
-| 속도 | 30 | 30 | 30 |
+| 속도 | {{guide:vitals.speed@Tesseract#1}} | {{guide:vitals.speed@Tesseract#2}} | {{guide:vitals.speed@Tesseract#3}} |
 | 레이저 사거리 | – | – | – |
 | 어그로 반경 | 공격받을 때만 | 공격받을 때만 | 공격받을 때만 |
 | 5초 동안 피해가 없으면 초당 수리(선체 먼저, 그다음 실드) | 125,000 | 187,500 | 250,000 |
-| 크레딧 | 900,000 | 1,800,000 | 2,700,000 |
-| Thulium | 2,400 | 4,800 | 7,200 |
-| 경험치(XP) | 144,000 | 288,000 | 432,000 |
-| 명예 | 624 | 1,248 | 1,872 |
+| 크레딧 | {{guide:spoils.pay.credits@Tesseract#1}} | {{guide:spoils.pay.credits@Tesseract#2}} | {{guide:spoils.pay.credits@Tesseract#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Tesseract#1}} | {{guide:spoils.pay.thulium@Tesseract#2}} | {{guide:spoils.pay.thulium@Tesseract#3}} |
+| 경험치(XP) | {{guide:spoils.pay.experience@Tesseract#1}} | {{guide:spoils.pay.experience@Tesseract#2}} | {{guide:spoils.pay.experience@Tesseract#3}} |
+| 명예 | {{guide:spoils.pay.honor@Tesseract#1}} | {{guide:spoils.pay.honor@Tesseract#2}} | {{guide:spoils.pay.honor@Tesseract#3}} |
 | 처치당 PvE 포인트 | 42 | 42 | 42 |
 
 **처치로 보상을 받는 모든 파일럿을 위한 전리품**: 각자 상자 하나씩, 본인만 볼 수 있고, 이 수량 중 본인 몫이 들어 있습니다.
 
-| 아이템 | 확률 | 수량 |
-| :--- | ---: | ---: |
-| Reinforced Hull Plate | 100% | 3–10 |
-| Velkonite Reinforced Plate | 66% | 7–12 |
-| Orvium Reinforced Plate | 50% | 3–5 |
-| Power Core | 66% | 4–7 |
-| Ancient Control Unit | 100% | 1–4 |
-| Dark Matter | 100% | 10–20, 파일럿당 최대 5 |
-| Heartshard | 5% | 1 |
+| 아이템 |
+| :--- |
+| {{guide:spoils.box@Tesseract#1;Tesseract#2;Tesseract#3}} |
 
 ### Facet
 
@@ -88,16 +93,16 @@ Tesseract의 보상은 그 전투의 무게에 걸맞습니다. 수많은 Crysta
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 선체 | 20,000 | 30,000 | 40,000 |
-| 실드 | 16,000 | 24,000 | 32,000 |
-| 레이저 피해량(초당 일제 사격 1회) | 834 | 1,251 | 1,668 |
-| 속도 | 750 | 750 | 750 |
+| 선체 | {{guide:vitals.hull@Facet#1}} | {{guide:vitals.hull@Facet#2}} | {{guide:vitals.hull@Facet#3}} |
+| 실드 | {{guide:vitals.shield@Facet#1}} | {{guide:vitals.shield@Facet#2}} | {{guide:vitals.shield@Facet#3}} |
+| 레이저 피해량(초당 일제 사격 1회) | {{guide:vitals.dps@Facet#1}} | {{guide:vitals.dps@Facet#2}} | {{guide:vitals.dps@Facet#3}} |
+| 속도 | {{guide:vitals.speed@Facet#1}} | {{guide:vitals.speed@Facet#2}} | {{guide:vitals.speed@Facet#3}} |
 | 레이저 사거리 | 600 | 600 | 600 |
 | 어그로 반경 | 공격받을 때만 | 공격받을 때만 | 공격받을 때만 |
-| 크레딧 | 3,000 | 6,000 | 9,000 |
-| Thulium | 12 | 24 | 36 |
-| 경험치(XP) | 300 | 600 | 900 |
-| 명예 | 6 | 12 | 18 |
+| 크레딧 | {{guide:spoils.pay.credits@Facet#1}} | {{guide:spoils.pay.credits@Facet#2}} | {{guide:spoils.pay.credits@Facet#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Facet#1}} | {{guide:spoils.pay.thulium@Facet#2}} | {{guide:spoils.pay.thulium@Facet#3}} |
+| 경험치(XP) | {{guide:spoils.pay.experience@Facet#1}} | {{guide:spoils.pay.experience@Facet#2}} | {{guide:spoils.pay.experience@Facet#3}} |
+| 명예 | {{guide:spoils.pay.honor@Facet#1}} | {{guide:spoils.pay.honor@Facet#2}} | {{guide:spoils.pay.honor@Facet#3}} |
 | 처치당 PvE 포인트 | 0 | 0 | 0 |
 
 **전리품**: 없음. 처치로 지급되는 것은 크레딧, Thulium, 경험치, 명예뿐입니다.

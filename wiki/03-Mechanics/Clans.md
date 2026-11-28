@@ -75,11 +75,11 @@ Clans start at Level 1 and can upgrade to Level 5. Upgrading the clan requires C
 
 | Clan Level | Member Limit | Daily Payout Limit (Per Member) | Upgrade Cost (Credits) |
 | :---: | :---: | :---: | :--- |
-| **Level 1** | 15 | 1,000,000 Cr | — |
-| **Level 2** | 25 | 2,000,000 Cr | 10,000,000 Cr |
-| **Level 3** | 50 | 3,000,000 Cr | 100,000,000 Cr |
-| **Level 4** | 75 | 4,000,000 Cr | 1,000,000,000 Cr |
-| **Level 5** | 100 | 5,000,000 Cr | 10,000,000,000 Cr |
+| **Level 1** | 15 | 2,000,000 Cr | — |
+| **Level 2** | 25 | 4,000,000 Cr | 10,000,000 Cr |
+| **Level 3** | 50 | 6,000,000 Cr | 100,000,000 Cr |
+| **Level 4** | 75 | 8,000,000 Cr | 1,000,000,000 Cr |
+| **Level 5** | 100 | 10,000,000 Cr | 10,000,000,000 Cr |
 
 ---
 
@@ -113,20 +113,20 @@ Clans operate on a tax-based financial system:
 ### 2. Donations
 
 - **Donating**: any member can send Credits into the Clan Bank from the Clan page. The sheet shows what you can still send.
-- **Donation Cap**: a pilot can send at most **1,000,000 Credits into clans in any 24 hours**, counted over every clan the pilot has been in. Leaving a clan and joining another does not give a new allowance.
+- **Donation Cap**: a pilot can send at most **2,000,000 Credits into clans in any 24 hours**, counted over every clan the pilot has been in. Leaving a clan and joining another does not give a new allowance.
 - **No daily reset**: the 24 hours slide. Each donation stops counting exactly 24 hours after it was made, and the sheet tells you when the oldest one does and how much comes back. A donation over what is left is refused whole.
 - The daily tax is not a donation and does not use up your allowance.
 
 ### 3. Bank Payouts
 
 - **Payout Limits**: Clan leaders and officers can distribute credits from the Clan Bank to individual members.
-- **Daily Cap**: A member cannot receive more than `1,000,000 * ClanLevel` Credits in payouts in a single calendar day (UTC).
+- **Daily Cap**: A member cannot receive more than `2,000,000 * ClanLevel` Credits in payouts in a single calendar day (UTC).
 
 ### 4. Daily Bonus
 
 The Leader can pay every member a fixed bonus out of the Fleet Treasury, once a day.
 
-- **Setting it.** In Management's **Daily bonus** card the Leader enters one amount for each rank: Pilot, Elder, Co-Leader and Leader. **0 turns a rank off**; any other amount is **1,000 to 1,000,000 Credits**. The Co-Leaders see the card and cannot change it. Saving takes nothing from the treasury. The card shows what a full day would cost if every pilot played and for how many days the treasury would last.
+- **Setting it.** In Management's **Daily bonus** card the Leader enters one amount for each rank: Pilot, Elder, Co-Leader and Leader. **0 turns a rank off**; any other amount is **1,000 to 2,000,000 Credits**. The Co-Leaders see the card and cannot change it. Saving takes nothing from the treasury. The card shows what a full day would cost if every pilot played and for how many days the treasury would last.
 - **Paying.** A member is paid **once per day**, at his first check that day: when he connects, when the day rolls over while he is online, and when the Leader saves new amounts. The day is the clan line's day, which turns over at **00:00:00 UTC** ([The day](#the-day)). The pilot gets a System line and a Game Log line, and the Overview shows "Daily bonus: X credits" and whether it was paid today.
 - **Who.** A pilot who has been in the clan for **at least 24 hours**, and **one bonus per pilot per day across all clans**: joining and leaving clans to collect more pays once.
 - **A short treasury.** The treasury pays only what it holds and never goes below zero. When it cannot pay a member's amount, he is skipped for that day, even if the treasury is filled later in the day, and the [Fleet Log](#fleet-log) notes it once. Pilots are paid in the order they connect until the treasury runs dry.
@@ -244,7 +244,7 @@ The tier decides how many aliens the missions ask for, which alien the "heavy" s
 ### Who counts
 
 - **The clan's total counts.** The bars on the Operations tab are the whole clan's.
-- **Your minimum.** To share the day's reward you must do **5% of the day's work**, about eight minutes of real hunting. The tab shows it as "Your work today: 312 of 469 units". A work unit is a second of play: a kill counts as the time it takes to find and destroy that alien, and a stretch of flying as the time it takes. For a Veteran clan a Seeker is worth about 12 units, a Phantasm 22, a Bulwark 123 and 1,000 units flown about 5; the minimum is 446 to 480 units, whatever the day and the tier.
+- **Your minimum.** To share the day's reward you must do **5% of the day's work**, about eight minutes of real hunting. The tab shows it as "Your work today: 312 of 469 units". A work unit is a second of play: a kill counts as the time it takes to find and destroy that alien, and a stretch of flying as the time it takes. For a Veteran clan a Seeker is worth about 12 units, a Phantasm 22, a Bulwark 123 and 1,000 units flown about 5; the minimum is 454 to 486 units, whatever the day and the tier.
 - **At least three members** must have reached their minimum before a step can be done. If a step is full and fewer have, it **waits** ("Step 3 is full but only 2 members have done their minimum"), and kills of that step's alien still add to the work of the members who made them until the third one gets there. A clan of fewer than three pilots cannot finish a step.
 - **Who gets a kill.** The pilot who is paid for the kill and his group mates within 8,000 units who fired in the last 15 seconds ([Groups](/wiki/03-Mechanics/Groups.md#sharing-kills)). A clan counts a kill **once**, however many of its pilots were in the group, and the work of the kill is shared evenly between them. Two clans in one group count it once each.
 - **Which kills.** Only the open step's alien: the ordinary Seeker, Phantasm, Bulwark or Goombah. Swarm ships, other pilots and the helpers of a Warden do not count as those aliens. A kill counts for the world it is made in, and more in a stronger world: **1 in Alpha, 1.5 in Beta, 2 in Gamma** ([Worlds](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)). A boss step counts the bosses of the [swarms](/wiki/05-Swarms/Swarms.md), one for each clan that has a pilot who dealt at least 5% of the damage.
@@ -288,7 +288,7 @@ Since 0.4.22 **every Warden goes after the pilot who hit it**, as the Wrath Ward
 | :--- | :--- | :--- | :--- |
 | **Brood Warden** | 1, 4, 7, 10 … | Hive keeper: split your fire | It flies at the first pilot who hit it. Four small **Brood Drones** heal its hull, and a new one comes every 8 seconds while fewer than four are alive (every 16 seconds for the Brood Warden III). Shoot the drones first, then the Warden. |
 | **Siege Warden** | 2, 5, 8, 11 … | Siegebreaker: keep moving | It flies at the first pilot who hit it and fires a straight [Rivet rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) at him, and it mends itself. Two **Siege Escorts** add laser fire. Keep moving and take turns being the target. |
-| **Wrath Warden** | 3, 6, 9, 12 … | Warlord: beat the rage | It flies at the first pilot who hit it, stops in its laser range and mends itself. Below half its hull its lasers hit **half again as hard**. Two **Wrath Guards** stay with it and add laser fire. Bring it down fast and keep your shields up. |
+| **Wrath Warden** | 3, 6, 9, 12 … | Warlord: beat the rage | It flies at the first pilot who hit it, stops in its laser range and mends itself. Under two thirds of its hull its lasers hit **a quarter harder**, and under a third **half again as hard**. Two **Wrath Guards** stay with it and add laser fire. Bring it down fast and keep your shields up. |
 
 ### Calling a Warden
 
@@ -296,19 +296,34 @@ Since 0.4.22 **every Warden goes after the pilot who hit it**, as the Wrath Ward
 - **Who.** The Leader or a Co-Leader.
 - **How.** From flight: the **Summon here** button appears on the flight screen once step 4 is done, and asks you to confirm. Be outside the safe zones, in a company sector **x-2, x-3 or x-4** (any company's) of your world. The Operations tab (on the Clan page at the station, or in the Clan window in flight) shows the day's Warden, the summons left and why the button is dimmed. At the station it is always dimmed, since a Warden is called from the ship; in the Clan window it is the button itself, dimmed inside a safe zone and outside a company's sectors x-2 to x-4, with the server's reason.
 - **Where it appears.** 3,000 to 4,500 units from your ship, in your world: only pilots of that world can reach it. The tab recommends **x-2 for a Recruit clan, x-3 for Veteran and x-4 for Elite**. The usual [PvP rules](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) of the sector you pick still hold.
-- **Warm-up.** It stands shielded and passive for **90 seconds** ("powering up") and every clan pilot who is online is told where. Fly in while it warms up: when the 90 seconds are over it is armed. A capsule under the safe-zone badge on the flight screen follows it: its name, "powering up" and the time left, then "armed" with its sector and the time until it withdraws, and "enraged" once a Wrath Warden is under half its hull.
+- **Warm-up.** It stands shielded and passive for **90 seconds** ("powering up") and every clan pilot who is online is told where. Fly in while it warms up: when the 90 seconds are over it is armed. A capsule under the safe-zone badge on the flight screen follows it: its name, "powering up" and the time left, then "armed" with its sector and the time until it withdraws, and "enraged" once a Wrath Warden is under a third of its hull.
 - **Only your clan.** The shots of any other clan's pilots are ignored and do not make it fight back.
 - **How it ends.** When it is destroyed. It **withdraws** 40 minutes after it armed, when the day ends, when none of your clan's pilots has been out in flight on its map for 2 minutes, or when the server restarts (that summon is given back). A Warden that withdraws costs one summon, and the next call brings it back for the crew that is there then ([how the crew changes the Warden](#strength-by-the-crew)).
 
 ### Fighting a Warden
 
 - **A Warden fights the first pilot who hit it**, like any boss: let the sturdiest ship of the crew start, and use [Shield Surge and Emergency Repair](/wiki/03-Mechanics/Abilities.md).
-- **Bring the biggest crew you can, with x2 ammo** ([Lasers & Ammo](/wiki/06-Items/Lasers.md#laser-ammunition)). The crews that won before 0.4.13, about seven pilots, lose now. The table below is a calculation and the best case: even in it ten pilots lose to every Warden, and the smallest crew that can win has 15 to 25 pilots with x2 ammo and 23 to 38 with x1 ammo. The waves below are not in that calculation. The table below is for a Warden at its full strength: a smaller crew meets the same hull and shield, but a Warden that hits less, mends less and calls fewer aliens ([how the crew changes the Warden](#strength-by-the-crew)).
+- **Bring the biggest crew you can, with x2 ammo** ([Lasers & Ammo](/wiki/06-Items/Lasers.md#laser-ammunition)). The crews that won before 0.4.13, about seven pilots, lose now. The table below is a calculation and the best case: even in it ten pilots lose to every Warden, and the smallest crew that can win has 15 to 25 pilots with x2 ammo and 24 to 37 with x1 ammo. The waves below are not in that calculation. The table below is for a Warden at its full strength: a smaller crew meets the same hull and shield, but a Warden that hits less, mends less and calls fewer aliens ([how the crew changes the Warden](#strength-by-the-crew)).
 - **Brood:** the drones heal its hull, and a crew that ignores them needs about a third more pilots. Kill them first and keep killing them: a new one comes after 8 seconds (16 for the Brood Warden III). Since 0.4.22 the Brood Warden flies at the pilot who hit it, and its drones go with it and keep healing it.
 - **Siege:** its rockets are straight and unguided, so a ship that keeps moving sidesteps most of them. Keep moving and take turns being the target. Since 0.4.22 it no longer roams: it flies at the first pilot who hit it and fires its Rivet at him from up to 1,000 units.
-- **Wrath:** once its hull is under half, every volley hurts half again as much, so the second half of the fight is the dangerous one. Bring the first half down fast, keep the shields up and save Emergency Repair for the rage. Since 0.4.20 it does not stand still: it flies at the first pilot who hit it, at 90 units a second, until it is inside its laser range (700, 800 or 900 units by strength) and fires from there, so a weapon that reaches farther no longer shoots it for free.
+- **Wrath:** once its hull is under two thirds, every volley hurts a quarter more, and under a third half again as much, so the last third of the fight is the dangerous one. Bring the first two thirds down fast, keep the shields up and save Emergency Repair for the rage. Since 0.4.20 it does not stand still: it flies at the first pilot who hit it, at 90 units a second, until it is inside its laser range (700, 800 or 900 units by strength) and fires from there, so a weapon that reaches farther no longer shoots it for free.
 - **All nine fly at the pilot who hit them (0.4.22).** The Brood and Siege Wardens do what the Wrath Warden has done since 0.4.20, each at its own speed (90 units a second for the Brood and Wrath Wardens, 110 for the Siege Warden), until they are inside their laser range (600, 700 or 800 units for the Brood and Siege Wardens by strength, 700, 800 or 900 for the Wrath Warden), so a weapon that reaches farther no longer shoots them for free. When nobody has hit one for 10 seconds it lets go and stands where it is: it does not fly back to where it was called. A pilot who is protected, in a safe zone or by the protection of a respawn, is let go at once.
 - **What a Warden brings comes for the pilot who hit it.** Since 0.4.20 every alien of a wave, and every drone, escort or guard that arrives while the Warden is fought, goes for the pilots who hit the Warden, the first of them first, in the moment it arrives, without being hit itself.
+
+### The three steps
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+A Warden has three steps too ([how they work](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)), the same at every strength.
+
+| Warden | At the start | Under two thirds | Under a third |
+| :--- | :--- | :--- | :--- |
+| **Brood Warden** (I, II, III) | All 4 drones come to its side at once. | Its drones mend it ×1.5 as fast for 15 s. | 2 more drones come, above their usual number, for 30 s. They pay nothing. |
+| **Siege Warden** (I, II, III) | – | Fires its rocket ×2 as often for 20 s. | Mends 15% of its hull and shield (a burst of damage breaks it). |
+| **Wrath Warden** (I, II, III) | – | Its lasers hit ×1.25 as hard. | Its lasers hit ×1.5 as hard in all, not on top of the step before. |
+
+<!-- mob-ladder:end -->
 
 ### Waves of aliens
 
@@ -320,34 +335,34 @@ Since 0.4.16 a Warden does not stand alone. From the moment it is **armed** (the
 | x-3 | 5 Phantasm, 3 Bulwarks and 2 Goombahs | 30, and up to 3 Crystalys |
 | x-4 | 5 Phantasm, 3 Bulwarks and 2 Goombahs | 30, and up to 3 Crystalys |
 
-- **A Warden I calls no Goombah.** The Warden of a Recruit clan (mean level under 4) sends Phantasm and Bulwarks only, three Phantasm to a Bulwark, in waves of the same size: **4 Phantasm and 1 Bulwark on x-2, 8 Phantasm and 2 Bulwarks on x-3 and x-4**. A whole wave pays 17,000 Credits in Alpha on x-2 and 34,000 on x-3 and x-4, and 92,000 and 109,000 with its Crystalys; the most alive at once is the table's.
+- **A Warden I calls no Goombah.** The Warden of a Recruit clan (mean level under 4) sends Phantasm and Bulwarks only, three Phantasm to a Bulwark, in waves of the same size: **4 Phantasm and 1 Bulwark on x-2, 8 Phantasm and 2 Bulwarks on x-3 and x-4**. The most alive at once is the table's.
 - **At most three waves are alive.** A wave is alive while one of its aliens is. A wave that is due when three are alive is skipped, not saved for later; the next one is due a minute after.
 - **They are ordinary aliens**, made as the map makes them: a stronger world gives them more hull, shield and damage ([Worlds](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)), whatever the Warden's own strength. The Bulwarks and Goombahs come to every map, also to an x-2 sector, where none lives otherwise. They arrive 500 to 1,200 units from the Warden, spread around it.
-- **They are not part of the fight for the Warden.** They heal nothing, and shooting them adds nothing to your share of the Warden's damage. Any pilot of the map can kill them. Each pays the ordinary pay of its alien in your world, and adds PvE points: a whole wave of the table pays 29,000 Credits in Alpha on x-2 (5 aliens) and 60,000 on x-3 and x-4 (10 aliens), a wave of a Warden I 17,000 and 34,000, under 2% of what its own Warden pays.
+- **They are not part of the fight for the Warden.** They heal nothing, and shooting them adds nothing to your share of the Warden's damage. Any pilot of the map can kill them. Each pays the ordinary pay of its alien in your world, and adds PvE points: a whole wave pays under 2% of what its own Warden pays.
 - **They stop with the Warden.** When it is destroyed or withdraws, no more come, and the aliens already out **leave the map 20 seconds later**, whatever their kind and whether or not they are fighting: finish them in that time or lead them away. (Until 0.5.6 they stayed five minutes or more, and a pilot who came later met them.) They leave quietly, with no kill and no pay. A server restart ends them with the Warden.
 - **The clan is told.** Each wave is announced in the chat's System tab and the Game Log, a line for each kind of alien in it: "Brood Warden II calls reinforcements on M-3: 5 Phantasm.", "Brood Warden II calls reinforcements on M-3: 3 Bulwark." and "Brood Warden II calls reinforcements on M-3: 2 Goombah." (a Warden I tells two lines, as it has no Goombah)
 - **They come aimed (0.4.20).** The aliens of a wave arrive knowing whom the Warden fights: they go for the pilots who hit it, the first of them first, from the moment they appear, and keep after them while the Warden is hit. A Warden nobody fights sends aliens that roam: the Phantasm and the Bulwarks draw whoever comes near, as before, and a Goombah, which never starts a fight, roams until somebody shoots it.
 
 #### The Crystalys of every Warden {#crystalys-waves}
 
-Since 0.4.22 **every Warden** does what the Wrath Warden III did from 0.4.20: under half its hull (the line where a Wrath Warden enrages) **every wave it sends also holds one Crystalys**, on top of the wave's size. It is the same for the Brood, Siege and Wrath Wardens, in all three strengths. Above half its hull the wave comes without it, and a Warden that is mended above half sends the next wave without it again.
+Since 0.4.22 **every Warden** does what the Wrath Warden III did from 0.4.20: under half its hull **every wave it sends also holds one Crystalys**, on top of the wave's size. It is the same for the Brood, Siege and Wrath Wardens, in all three strengths. Above half its hull the wave comes without it, and a Warden that is mended above half sends the next wave without it again.
 
-- **The Crystalys** is the heaviest ordinary alien of the game: 256,000 hull, 160,000 shield, 10,000 damage a volley from 900 units, speed 230 (in a stronger world more hull, shield and damage). It pays what any Crystalys pays: **75,000 Credits, 200 Thulium, 12,000 XP and 52 honor in Alpha** (twice that in Beta, three times in Gamma), and drops its ordinary loot. It is part of its wave: a wave is alive while its Crystalys is, so a Crystalys that is left standing keeps one of the waves alive (three at most, four for the Wrath Warden III), and a wave that is due while the most are alive is skipped.
+- **The Crystalys** is the heaviest ordinary alien of the game: {{guide:vitals.hull@Crystalys#1}} hull, {{guide:vitals.shield@Crystalys#1}} shield, {{guide:vitals.dps@Crystalys#1}} damage a volley from 900 units, speed {{guide:vitals.speed@Crystalys#1;Crystalys#2;Crystalys#3;Crystalys#4}} (in a stronger world more hull, shield and damage). It pays what any Crystalys pays: **{{guide:spoils.pay.credits@Crystalys#1}} Credits, {{guide:spoils.pay.thulium@Crystalys#1}} Thulium, {{guide:spoils.pay.experience@Crystalys#1}} XP and {{guide:spoils.pay.honor@Crystalys#1}} honor in Alpha** (twice that in Beta, three times in Gamma), and drops its ordinary loot. It is part of its wave: a wave is alive while its Crystalys is, so a Crystalys that is left standing keeps one of the waves alive (three at most, four for the Wrath Warden III), and a wave that is due while the most are alive is skipped.
 - **It is told as a line of its own**, after the lines of the mix: "Wrath Warden III calls reinforcements on M-3: 7 Phantasm.", "...: 4 Bulwark.", "...: 4 Goombah." and "Wrath Warden III calls reinforcements on M-3: 1 Crystalys."
-- **What they pay.** A whole wave of 10 aliens pays 34,000 Credits in Alpha for a Warden I and 60,000 for a Warden II, and with its Crystalys 109,000 and 135,000: about 4% of the 2,700,000 a Warden I pays and under 4% of the 3,600,000 a Warden II pays, less for a Warden III.
-- **What they ask of the crew.** The calculation of [how big a crew](#how-big-a-crew), with the waves and their Crystalys in it, gives these smallest crews with x2 ammo, in the gear of the Warden's own tier, in Alpha. A level 3 clan holds 50 members and a level 5 clan 100. Since 0.5.0 the Bulwarks and Goombahs of the mix make the waves harder, but a Warden I calls no Goombah, so a level 3 clan holds enough pilots for every Warden on every map. Like the table there, they are calculated and not measured, and the best case; in Gamma, where the aliens of the waves are twice as strong, they are bigger still, and on x-3 and x-4 a level 3 clan is short for some Wardens.
+- **What they pay.** A whole wave of 10 aliens with its Crystalys pays about 4% of what a Warden I pays and under 4% of what a Warden II pays, less for a Warden III.
+- **What they ask of the crew.** The calculation of [how big a crew](#how-big-a-crew), with the waves and their Crystalys in it, gives these smallest crews with x2 ammo, in the gear of the Warden's own tier, in Alpha. A level 3 clan holds 50 members, a level 4 clan 75 and a level 5 clan 100. Since 0.5.0 the Bulwarks and Goombahs of the mix make the waves harder, and although a Warden I calls no Goombah, the Brood Warden I (57 pilots) and the Siege Warden I (52) ask for more than a level 3 clan holds on x-3 and x-4: every other Warden fits a level 3 clan on every map, and a level 4 clan holds enough pilots for all of them. Like the table there, they are calculated and not measured, and the best case; in Gamma, where the aliens of the waves are twice as strong, they are bigger still, and a level 3 clan is short for some Wardens on every map.
 
 | Warden | x-2 | x-3 | x-4 |
 | :--- | ---: | ---: | ---: |
-| Brood Warden I | 41 | 44 | 44 |
-| Siege Warden I | 37 | 40 | 40 |
-| Wrath Warden I | 42 | 45 | 45 |
-| Brood Warden II | 39 | 44 | 44 |
-| Siege Warden II | 31 | 35 | 35 |
-| Wrath Warden II | 35 | 40 | 40 |
-| Brood Warden III | 21 | 22 | 22 |
-| Siege Warden III | 26 | 27 | 27 |
-| Wrath Warden III | 34 | 39 | 39 |
+| Brood Warden I | 41 | 57 | 57 |
+| Siege Warden I | 46 | 52 | 52 |
+| Wrath Warden I | 42 | 44 | 44 |
+| Brood Warden II | 38 | 43 | 43 |
+| Siege Warden II | 33 | 40 | 40 |
+| Wrath Warden II | 35 | 39 | 39 |
+| Brood Warden III | 21 | 23 | 23 |
+| Siege Warden III | 26 | 28 | 28 |
+| Wrath Warden III | 34 | 38 | 38 |
 
 #### The Wrath Warden III's waves {#wrath-iii-waves}
 
@@ -360,30 +375,30 @@ Since 0.4.20 the **Wrath Warden III** brings more, and more often: a wave every 
 | x-4 | 7 Phantasm, 4 Bulwarks and 4 Goombahs | 60, and up to 4 Crystalys |
 
 - **At most four waves are alive.** A wave due while four are alive is skipped, as for the other Wardens.
-- **What they pay.** A whole wave of 15 aliens pays 101,000 Credits in Alpha, and with its Crystalys 176,000: about 2% of the 7,200,000 the Warden itself pays.
-- **What they ask of the crew.** The calculation of [how big a crew](#how-big-a-crew), with these waves and the Crystalys in it, gives **34 pilots on x-2, 39 on x-3 and 39 on x-4** with x2 ammo (25 without waves), and 45, 51 and 51 in Gamma, where the aliens of the waves are twice as strong. A level 3 clan holds 50 members, so on x-3 and x-4 in Gamma it cannot send enough; a level 5 clan holds 100. Like the table there, it is calculated and not measured, and the best case.
+- **What they pay.** A whole wave of 15 aliens with its Crystalys pays about 2% of what the Warden itself pays.
+- **What they ask of the crew.** The calculation of [how big a crew](#how-big-a-crew), with these waves and the Crystalys in it, gives **34 pilots on x-2, 38 on x-3 and 38 on x-4** with x2 ammo (25 without waves), and 44, 50 and 50 in Gamma, where the aliens of the waves are twice as strong. A level 3 clan holds 50 members, which is enough on every map, in Gamma too, but only just on x-3 and x-4; a level 5 clan holds 100. Like the table there, it is calculated and not measured, and the best case.
 
 ### How the crew changes the Warden {#strength-by-the-crew}
 
 Since 0.5.7 a Warden **follows the crew that is there when it arms**. When its 90-second warm-up ends, the game counts the pilots of your clan who are **flying outside the safe zones on the Warden's map**: pilots of other clans, pilots in a safe zone and pilots on other maps do not count. The Warden then fights at the share of its strength that its table gives for that number, **for the whole fight**: pilots who arrive later change nothing, so gather during the warm-up. **Its hull and shield are never scaled** (since 0.5.10): whatever the crew, the Warden and its helpers have the full hull and shield that the tables below list, and three pilots meet the same ones as a full clan. The rest is scaled together: the laser damage of the Warden and its helpers, their shield recharge, what they mend, the Siege Warden's rocket, and how many aliens come in each [wave](#waves-of-aliens), the Crystalys included, which comes only from half the strength up. Pay, loot and every timing stay as they are.
 
-The factors of the tables were calculated in 0.5.7, with the same fights as [how big a crew](#how-big-a-crew), for a crew of the Warden's own tier and for a hull and shield that scaled too: a clan with 5 pilots present met the Warden that a fifth fewer pilots win in the calculation, because the calculation is the best case and a real fight is harder. With the hull and shield whole, a small crew has more to bring down than that calculation counted on, so bring as many pilots as you can. A clan with **5 pilots** meets a Warden whose damage, mending and waves are **12 to 23%** of the full ones, a clan with **8 pilots** one at **16 to 29%**, and the full numbers come with **28 to 72 pilots**, by Warden; in between they rise in a straight line from one step of its table to the next, and fewer than 3 pilots meet what 3 do. When the Warden arms, your clan reads a line in the chat: "Crew present: 5. Brood Warden II has its full hull and shield. Its damage, mending and reinforcements are at 16%."
+The factors of the tables were calculated in 0.5.7, with the same fights as [how big a crew](#how-big-a-crew), for a crew of the Warden's own tier and for a hull and shield that scaled too: a clan with 5 pilots present met the Warden that a fifth fewer pilots win in the calculation, because the calculation is the best case and a real fight is harder. With the hull and shield whole, a small crew has more to bring down than that calculation counted on, so bring as many pilots as you can. A clan with **5 pilots** meets a Warden whose damage, mending and waves are **12 to 23%** of the full ones, a clan with **8 pilots** one at **17 to 29%**, and the full numbers come with **29 to 72 pilots**, by Warden; in between they rise in a straight line from one step of its table to the next, and fewer than 3 pilots meet what 3 do. When the Warden arms, your clan reads a line in the chat: "Crew present: 5. Brood Warden II has its full hull and shield. Its damage, mending and reinforcements are at 16%." Since 0.5.12 the factors are calculated again, with the Wardens' new moves at two thirds and at one third of their hull in the fights, so they changed a little, most for the Siege Warden.
 
 ### How big a crew
 
 > [!NOTE]
 > Since 0.4.13 every Warden and every helper has **five times** the hull, shield, laser damage, mending and healing they had in 0.4.12 (speed, range and the number of helpers are the same); since 0.4.16 the Brood Warden III has half of that hull and shield, and its drones half of that mending. It takes five times as long to bring down and hits five times as hard all that time, so the crews that won before lose now. **We have not fought the new Wardens in the game yet: the times below are calculated, not measured.** They are the crew's **best case**: the crew is in the ships and gear the tier is made for, every pilot uses Shield Surge and Emergency Repair as soon as they are ready, the crew shoots the Warden's helpers first when that is better, the Warden and its helpers all fire at the pilot who hit first, and nobody dodges. In 0.4.12 the same calculation was more hopeful than the fights run in the game itself with scripted pilots, so a real fight may be harder than the table, and a good crew may do better: take it as a guide, not a promise. **The waves of aliens are not in the calculation**, so a real fight is harder than the table.
 
-The table is the best case; in play, bring everyone you can.
+The table is the best case; in play, bring everyone you can. Since 0.5.12 the calculation counts the Wardens' new moves at two thirds and at one third of their hull.
 
 | Crew | With x2 ammo | With x1 ammo |
 | :--- | :--- | :--- |
-| 5 pilots | lose to every Warden; the Warden keeps 84 to 96% of its hull and shield | lose |
-| 10 pilots | lose to every Warden; the Warden keeps 55 to 84% of its hull and shield | lose |
-| 20 pilots | win only against the Siege Warden I and II, in 6.2 to 6.4 minutes, losing 4 to 5 ships, and against the Brood Warden III, in 3.5 minutes, losing 8 ships | lose |
-| 30 pilots | win against every Warden in 1.9 to 4.9 minutes, losing 2 to 10 ships | win only against the Siege Warden I and II, in 8.8 to 9.2 minutes, losing 6 to 8 ships, and against the Brood Warden III, in 4.8 minutes, losing 11 ships |
+| 5 pilots | lose to every Warden | lose |
+| 10 pilots | lose to every Warden | lose |
+| 20 pilots | win only against the Siege Warden I and II, in 7.1 to 7.4 minutes, losing 4 to 6 ships, against the Brood Warden III, in 3.5 minutes, losing 8 ships, and against the Wrath Warden II, in 10.1 minutes, losing 14 ships | lose |
+| 30 pilots | win against every Warden in 2.0 to 4.7 minutes, losing 2 to 10 ships | win only against the Siege Warden I and II, in 10.1 to 10.6 minutes, losing 6 to 9 ships, and against the Brood Warden III, in 4.8 minutes, losing 11 ships |
 
-In the calculation the smallest crew that wins with x2 ammo has **15 to 25 pilots** (the fewest against the Siege Warden I and II) and loses **7 to 18** ships doing it; with x1 ammo it has **23 to 38** pilots and loses 11 to 25. A Warden's lasers hit for hundreds a volley at strength I (240 to 645) and thousands at strength III (9,225 to 15,450), and its helpers add to it: the ship it fights falls in 18 to 70 seconds, and then it turns on the next one, so even a crew that wins loses many ships.
+In the calculation the smallest crew that wins with x2 ammo has **15 to 25 pilots** (the fewest against the Siege Warden II) and loses **10 to 16** ships doing it; with x1 ammo it has **24 to 37** pilots and loses 12 to 24. A Warden's lasers hit for hundreds a volley at strength I and thousands at strength III, and its helpers add to it: the ship it fights falls in 18 to 70 seconds, and then it turns on the next one, so even a crew that wins loses many ships.
 
 The table is for a crew in the gear of the Warden's own tier. Weaker ships do worse. The Warden of **your** clan always matches **your** tier, which the five best pilots of the clan set, so bring them.
 
@@ -391,31 +406,31 @@ The table is for a crew in the gear of the Warden's own tier. Weaker ships do wo
 
 ### Warden numbers
 
-The Wardens have the same numbers in every world (the Alpha numbers), and so does their pay. Each drone, escort or guard has the numbers of the second table, and they stand with the Warden: a Brood Drone heals the Warden's hull, a Siege Escort or a Wrath Guard fires lasers. A volley is the shots of all of a ship's lasers in one second, rolled between 80 and 100% of the number shown; a Wrath Warden below half its hull hits half again as hard. The Warden and its helpers all fire at the pilot the Warden fights, so their volleys add up: a Brood Warden III with its four drones puts up to 21,750 a second on one ship. The Siege Warden's [Rivet rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) does not roll: it hits for at most **2,500** at strength I, **5,000** at II and **7,500** at III, where a pilot's Rivet rolls between a lowest and a highest number. It is straight, so a ship that keeps moving is missed.
+The Wardens have the same numbers in every world (the Alpha numbers), and so does their pay. Each drone, escort or guard has the numbers of the second table, and they stand with the Warden: a Brood Drone heals the Warden's hull, a Siege Escort or a Wrath Guard fires lasers. A volley is the shots of all of a ship's lasers in one second, rolled between 80 and 100% of the number shown; a Wrath Warden hits a quarter harder below two thirds of its hull and half again as hard below a third. The Warden and its helpers all fire at the pilot the Warden fights, so their volleys add up. The Siege Warden's [Rivet rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) does not roll: it hits for at most **{{guide:behaviour.ability:rocket.damage@Siege Warden I}}** at strength I, **{{guide:behaviour.ability:rocket.damage@Siege Warden II}}** at II and **{{guide:behaviour.ability:rocket.damage@Siege Warden III}}** at III, where a pilot's Rivet rolls between a lowest and a highest number. It is straight, so a ship that keeps moving is missed.
 
 | Warden | Hull | Shield | Laser damage (a volley a second) | Speed | Laser range | Mends itself (hull a second) | Rocket and seconds between shots |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | :--- |
-| Brood Warden I | 830,000 | 680,000 | 645 | 90 | 600 | – | – |
-| Brood Warden II | 1,440,000 | 1,180,000 | 3,885 | 90 | 700 | – | – |
-| Brood Warden III | 2,650,000 | 2,175,000 | 15,450 | 90 | 800 | – | – |
-| Siege Warden I | 715,000 | 585,000 | 240 | 110 | 600 | 1,075 | Warden Rivet I: 24 |
-| Siege Warden II | 1,240,000 | 1,015,000 | 1,455 | 110 | 700 | 1,875 | Warden Rivet II: 12 |
-| Siege Warden III | 4,575,000 | 3,725,000 | 9,225 | 110 | 800 | 6,925 | Warden Rivet III: 8 |
-| Wrath Warden I | 815,000 | 665,000 | 480 | 90 | 700 | 1,075 | – |
-| Wrath Warden II | 1,410,000 | 1,155,000 | 2,910 | 90 | 800 | 1,875 | – |
-| Wrath Warden III | 5,200,000 | 4,250,000 | 12,300 | 90 | 900 | 6,925 | – |
+| Brood Warden I | {{guide:vitals.hull@Brood Warden I}} | {{guide:vitals.shield@Brood Warden I}} | {{guide:vitals.dps@Brood Warden I}} | {{guide:vitals.speed@Brood Warden I}} | 600 | – | – |
+| Brood Warden II | {{guide:vitals.hull@Brood Warden II}} | {{guide:vitals.shield@Brood Warden II}} | {{guide:vitals.dps@Brood Warden II}} | {{guide:vitals.speed@Brood Warden II}} | 700 | – | – |
+| Brood Warden III | {{guide:vitals.hull@Brood Warden III}} | {{guide:vitals.shield@Brood Warden III}} | {{guide:vitals.dps@Brood Warden III}} | {{guide:vitals.speed@Brood Warden III}} | 800 | – | – |
+| Siege Warden I | {{guide:vitals.hull@Siege Warden I}} | {{guide:vitals.shield@Siege Warden I}} | {{guide:vitals.dps@Siege Warden I}} | {{guide:vitals.speed@Siege Warden I}} | 600 | 1,075 | Warden Rivet I: 24 |
+| Siege Warden II | {{guide:vitals.hull@Siege Warden II}} | {{guide:vitals.shield@Siege Warden II}} | {{guide:vitals.dps@Siege Warden II}} | {{guide:vitals.speed@Siege Warden II}} | 700 | 1,875 | Warden Rivet II: 12 |
+| Siege Warden III | {{guide:vitals.hull@Siege Warden III}} | {{guide:vitals.shield@Siege Warden III}} | {{guide:vitals.dps@Siege Warden III}} | {{guide:vitals.speed@Siege Warden III}} | 800 | 6,925 | Warden Rivet III: 8 |
+| Wrath Warden I | {{guide:vitals.hull@Wrath Warden I}} | {{guide:vitals.shield@Wrath Warden I}} | {{guide:vitals.dps@Wrath Warden I}} | {{guide:vitals.speed@Wrath Warden I}} | 700 | 1,075 | – |
+| Wrath Warden II | {{guide:vitals.hull@Wrath Warden II}} | {{guide:vitals.shield@Wrath Warden II}} | {{guide:vitals.dps@Wrath Warden II}} | {{guide:vitals.speed@Wrath Warden II}} | 800 | 1,875 | – |
+| Wrath Warden III | {{guide:vitals.hull@Wrath Warden III}} | {{guide:vitals.shield@Wrath Warden III}} | {{guide:vitals.dps@Wrath Warden III}} | {{guide:vitals.speed@Wrath Warden III}} | 900 | 6,925 | – |
 
 | Helper | How many | Hull | Shield | Laser damage (a volley a second) | Speed | Heals the Warden (hull a second) |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| Brood Drone I | 4 | 3,500 | 2,500 | 60 | 170 | 600 |
-| Brood Drone II | 4 | 6,000 | 4,500 | 390 | 170 | 1,050 |
-| Brood Drone III | 4 | 20,000 | 17,500 | 1,575 | 170 | 1,925 |
-| Siege Escort I | 2 | 21,500 | 17,500 | 30 | 175 | – |
-| Siege Escort II | 2 | 37,000 | 30,500 | 225 | 175 | – |
-| Siege Escort III | 2 | 137,500 | 112,500 | 1,425 | 175 | – |
-| Wrath Guard I | 2 | 24,500 | 20,000 | 90 | 180 | – |
-| Wrath Guard II | 2 | 42,500 | 34,500 | 585 | 180 | – |
-| Wrath Guard III | 2 | 155,000 | 127,500 | 2,475 | 180 | – |
+| Brood Drone I | 4 | {{guide:vitals.hull@Brood Drone I}} | {{guide:vitals.shield@Brood Drone I}} | {{guide:vitals.dps@Brood Drone I}} | {{guide:vitals.speed@Brood Drone I}} | 600 |
+| Brood Drone II | 4 | {{guide:vitals.hull@Brood Drone II}} | {{guide:vitals.shield@Brood Drone II}} | {{guide:vitals.dps@Brood Drone II}} | {{guide:vitals.speed@Brood Drone II}} | 1,050 |
+| Brood Drone III | 4 | {{guide:vitals.hull@Brood Drone III}} | {{guide:vitals.shield@Brood Drone III}} | {{guide:vitals.dps@Brood Drone III}} | {{guide:vitals.speed@Brood Drone III}} | 1,925 |
+| Siege Escort I | 2 | {{guide:vitals.hull@Siege Escort I}} | {{guide:vitals.shield@Siege Escort I}} | {{guide:vitals.dps@Siege Escort I}} | {{guide:vitals.speed@Siege Escort I}} | – |
+| Siege Escort II | 2 | {{guide:vitals.hull@Siege Escort II}} | {{guide:vitals.shield@Siege Escort II}} | {{guide:vitals.dps@Siege Escort II}} | {{guide:vitals.speed@Siege Escort II}} | – |
+| Siege Escort III | 2 | {{guide:vitals.hull@Siege Escort III}} | {{guide:vitals.shield@Siege Escort III}} | {{guide:vitals.dps@Siege Escort III}} | {{guide:vitals.speed@Siege Escort III}} | – |
+| Wrath Guard I | 2 | {{guide:vitals.hull@Wrath Guard I}} | {{guide:vitals.shield@Wrath Guard I}} | {{guide:vitals.dps@Wrath Guard I}} | {{guide:vitals.speed@Wrath Guard I}} | – |
+| Wrath Guard II | 2 | {{guide:vitals.hull@Wrath Guard II}} | {{guide:vitals.shield@Wrath Guard II}} | {{guide:vitals.dps@Wrath Guard II}} | {{guide:vitals.speed@Wrath Guard II}} | – |
+| Wrath Guard III | 2 | {{guide:vitals.hull@Wrath Guard III}} | {{guide:vitals.shield@Wrath Guard III}} | {{guide:vitals.dps@Wrath Guard III}} | {{guide:vitals.speed@Wrath Guard III}} | – |
 
 ### Pay and loot {#warden-pay-and-loot}
 
@@ -423,31 +438,17 @@ A Warden pays what a stack of the tier's heavy alien would: **900 Phantasms** fo
 
 | Strength of the Warden | Credits | Thulium | Experience (XP) | Honor |
 | :--- | ---: | ---: | ---: | ---: |
-| I | 2,700,000 | 10,800 | 270,000 | 5,400 |
-| II | 3,600,000 | 18,000 | 576,000 | 7,200 |
-| III | 7,200,000 | 36,000 | 1,440,000 | 11,520 |
+| I | {{guide:spoils.pay.credits@Brood Warden I;Siege Warden I;Wrath Warden I}} | {{guide:spoils.pay.thulium@Brood Warden I;Siege Warden I;Wrath Warden I}} | {{guide:spoils.pay.experience@Brood Warden I;Siege Warden I;Wrath Warden I}} | {{guide:spoils.pay.honor@Brood Warden I;Siege Warden I;Wrath Warden I}} |
+| II | {{guide:spoils.pay.credits@Brood Warden II;Siege Warden II;Wrath Warden II}} | {{guide:spoils.pay.thulium@Brood Warden II;Siege Warden II;Wrath Warden II}} | {{guide:spoils.pay.experience@Brood Warden II;Siege Warden II;Wrath Warden II}} | {{guide:spoils.pay.honor@Brood Warden II;Siege Warden II;Wrath Warden II}} |
+| III | {{guide:spoils.pay.credits@Brood Warden III;Siege Warden III;Wrath Warden III}} | {{guide:spoils.pay.thulium@Brood Warden III;Siege Warden III;Wrath Warden III}} | {{guide:spoils.pay.experience@Brood Warden III;Siege Warden III;Wrath Warden III}} | {{guide:spoils.pay.honor@Brood Warden III;Siege Warden III;Wrath Warden III}} |
 
 **Every pilot who is paid gets a box of his own**, at the wreck, with his share of the loot. The table lists what the whole kill rolls, and a pilot who dealt 20% of the damage rolls for about a fifth of every amount: a share is rounded at random, so the average is exact and a small share still sometimes gets a rare line. **Only you see your box and only you can take it**, not your clan and not your group, and it lies for **10 minutes**, with no 30-second wait ([private boxes](/wiki/03-Mechanics/Cargo.md#private-boxes)). In a [group](/wiki/03-Mechanics/Groups.md#sharing-kills) the members count as one pilot for the 5%, and its part is shared as any kill is shared in a group (the mates who are near and shooting, by level): each mate who is paid a part gets a private box of that part. The Game Log tells you your share. A pilot who dealt less than 5% is paid nothing and no box is laid for him; the Game Log says so. A chance in brackets is for each of that many rolls: (5 × 50%) is five rolls with a 50% chance each. The loot of the kill is rolled once and cut between the paid pilots, so no item is ever in two boxes: an item that cannot be shared evenly (one rare piece) goes to a single pilot, drawn by chance in proportion to the shares.
 
 | Warden | Item | I | II | III |
 | :--- | :--- | :---: | :---: | :---: |
-| Brood Warden | Ship Fragment | 30–50 | 80–120 | 150–250 |
-| Brood Warden | Advanced Plasma | 6,000–12,000 | 18,000–36,000 | – |
-| Brood Warden | Daraxium | 10–20 (5 × 50%) | – | – |
-| Brood Warden | Nyxite | – | 20–40 (5 × 50%) | – |
-| Brood Warden | Ultra Core | – | – | 18,000–30,000 |
-| Brood Warden | Quorvium | – | – | 50–100 (60%) |
-| Siege Warden | Ship Fragment | 20–40 | 60–100 | 120–200 |
-| Siege Warden | Siphon Battery | 6,000–12,000 | 18,000–30,000 | 48,000–72,000 |
-| Siege Warden | Rocket bought with Credits (one kind, picked at random) | 20–30 | 50–80 | 80–120 |
-| Siege Warden | Reinforced Hull Plate | – | 10 (30%) | – |
-| Siege Warden | Epic rocket (one kind, picked at random) | – | – | 10–20 (50%) |
-| Wrath Warden | Ship Fragment | 40–60 | 80–120 | – |
-| Wrath Warden | Cataclysite | 30–50 | 50–100 | – |
-| Wrath Warden | Reinforced Hull Plate | 10 (25%) | 10 (50%) | 10–20 (70%) |
-| Wrath Warden | Power Core | – | 10 (15%) | 10 (35%) |
-| Wrath Warden | Quorvium | – | – | 50–100 (70%) |
-| Wrath Warden | Ancient Control Unit | – | – | 10 (8%) |
+| Brood Warden | – | {{guide:spoils.box@Brood Warden I}} | {{guide:spoils.box@Brood Warden II}} | {{guide:spoils.box@Brood Warden III}} |
+| Siege Warden | – | {{guide:spoils.box@Siege Warden I}} | {{guide:spoils.box@Siege Warden II}} | {{guide:spoils.box@Siege Warden III}} |
+| Wrath Warden | – | {{guide:spoils.box@Wrath Warden I}} | {{guide:spoils.box@Wrath Warden II}} | {{guide:spoils.box@Wrath Warden III}} |
 
 Since 0.4.16 the laser ammo lines (Advanced Plasma, Ultra Core and Siphon Battery) are three times what they were; the other lines are as before.
 

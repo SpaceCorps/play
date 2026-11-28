@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3ee3985e3f9606e1 -->
+<!-- wiki-i18n source: 8dbe8dc047c34c1c -->
 <!-- wiki-i18n title: Signalerna -->
 # Signalerna {#the-signals}
 
@@ -13,7 +13,7 @@ Mission Control fångar upp ett märkligt ljud, **Bruset**, och det skickar tjug
 - **Oändligt antal användningar.** Ingenting förbrukar det: det går inte åt, det slits inte, och inget recept kräver det.
 - **Bara ett.** Du kan ha en enda Dormant Keycard. Skulle en hämtning ge dig ett andra fungerar hämtningen ändå och betalar ut allt annat; du får bara inget till kort.
 - **Ditt för alltid.** Det går inte att sälja på Auktionen, det går inte att slänga i Hangar, och en [wipe](/wiki/03-Mechanics/Wipe-Timeline.md) tar inte bort det.
-- **Ingen användning än.** Det öppnar ingenting i dag. En senare uppdatering ska använda det för att ge tillgång till en ny karta, som ännu inte finns i spelet. Behåll ditt kort till dess.
+- **Det öppnar Void Gate.** En pilot som bär det kan aktivera sin världs öppna Void Gate i `DS-4` och ta med alla nära den in i [Deep Void](/wiki/03-Mechanics/Deep-Void.md). Att aktivera kostar 5 000 Thulium; själva kortet förbrukas aldrig.
 - **Har du redan hämtat den sista signalen?** En pilot som hade hämtat den innan kortet fanns (uppdateringen 0.5.10) fick kortet en gång, av sig självt, när servern uppdaterades.
 
 ## Så fungerar signalerna {#how-the-signals-work}

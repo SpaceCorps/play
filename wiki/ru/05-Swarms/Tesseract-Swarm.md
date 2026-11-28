@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4e3f459fc0966372 -->
+<!-- wiki-i18n source: 98e91b2bd1dede81 -->
 <!-- wiki-i18n title: Рой Tesseract -->
 # Рой Tesseract {#tesseract-swarm}
 
@@ -13,13 +13,13 @@
 - **Сколько**: По одному в каждом мире
 - **Появляется**: С 4-го дня сезона и до вайпа (Бета и Гамма: с 1-го дня сезона)
 - **Лидер**: Tesseract
-- **Место**: В пределах 2 500 единиц от точки 25 900, 6 100 карты сектора
+- **Место**: В пределах 2 500 единиц от точки 25 900, 11 900 карты сектора
 - **Восстановление**: 125 000 HP в секунду в Alpha, сначала корпус, потом щит, когда прошло 5 с без урона
 - **Свита**: До 100 × Facet, ещё 20 каждые 5 с, пока по лидеру попадают
 - **Когда приходит свита**: Только пока по лидеру попадали за последние 5 с, в пределах 400 единиц от него
 - **Охотники**: Каждый Facet летает своими отрезками вокруг лидера, не дальше 3 600 единиц от него, и никого не преследует. Он стреляет по ближайшему пилоту, попавшему по лидеру, когда тот в зоне досягаемости. Если стрелять не по кому, он продолжает летать вокруг лидера и уходит через 20 с после последнего попадания
 - **Лидер уничтожен**: Свита исчезает через 1 мин после уничтожения лидера, даже если атакует
-- **Возвращается**: Через 30 мин после уничтожения лидера, в том же секторе
+- **Возвращается**: Через {{guide:vitals.respawn@Tesseract#1;Tesseract#2;Tesseract#3}} после уничтожения лидера, в том же секторе
 - **Оповещения**: Пилоты сектора узнают, когда лидер появляется и когда он уничтожен. Это системные строки: они видны на вкладке **Система** чата, со счётчиком непрочитанных, а не на вкладках **Общий** и **Локальный**. Лента убийств называет пилота, которому засчитано убийство.
 
 <!-- tesseract-glance:end -->
@@ -40,6 +40,17 @@
 - **Опасные секторы — это PvP.** Соперник может напасть на группу посреди боя. У обломков нет контейнера, которого он мог бы дождаться: добыча — это [личный контейнер](/wiki/03-Mechanics/Cargo.md#private-boxes) для каждого пилота, которому платит убийство, и видеть и брать его может только этот пилот. Не идите в одиночку.
 - **Tesseract возвращается** через время из списка *Коротко*, с полными силами, на своё место.
 
+## Три этапа лидера {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+У этого боя три этапа ([как они работают](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); каждый происходит один раз, а когда он полностью излечится, они начинаются заново.
+
+- **Ниже двух третей**: Сразу прибывают ещё 20 Facets сверх обычного числа.
+
+<!-- mob-ladder:end -->
+
 ## Награды и добыча {#rewards-and-drops}
 
 Tesseract платит соразмерно бою, которым он является: как много Crystalys вместе, а за принятый урон — больше, чем Crystalys, самый щедро оплачиваемый пришелец. Выплата делится по урону между сражавшимися с ним пилотами ([как оплачивается убийство босса](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Отдельного контейнера для пилота, нанёсшего больше всех урона, нет. Каждый пилот, которому платит убийство, получает собственный [личный контейнер](/wiki/03-Mechanics/Cargo.md#private-boxes), который видит и может взять только он, в течение 10 минут, с Reinforced Hull Plate, Velkonite и Orvium Reinforced Plate, Power Core, Ancient Control Unit и Dark Matter. Его содержимое разыгрывается на долю пилота в уроне, как добыча [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot): кто нанёс пятую часть урона, получает около пятой части количеств из таблицы, а в группе каждый пилот получает свою часть от доли группы, так же, как делится выплата. У Dark Matter есть предел на пилота: за одно убийство он получает её не больше 5, какой бы большой ни была его доля (в группе сначала отделяется часть каждого пилота, и предел действует для каждого отдельно), а всё, что сверх предела, пропадает и другим не отдаётся. Facet выплачивает те же Кредиты, Thulium, XP и Честь, что и [Phantasm](/wiki/04-Aliens/Phantasm.md); его убийство засчитывается (в статистике, для достижений и для опыта ваших дронов и P.E.T.), но он ничего не роняет и не даёт очков PvE.
@@ -57,30 +68,24 @@ Tesseract платит соразмерно бою, которым он явля
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Корпус | 1 600 000 | 2 400 000 | 3 200 000 |
-| Щит | 1 200 000 | 1 800 000 | 2 400 000 |
+| Корпус | {{guide:vitals.hull@Tesseract#1}} | {{guide:vitals.hull@Tesseract#2}} | {{guide:vitals.hull@Tesseract#3}} |
+| Щит | {{guide:vitals.shield@Tesseract#1}} | {{guide:vitals.shield@Tesseract#2}} | {{guide:vitals.shield@Tesseract#3}} |
 | Урон лазеров (залп в секунду) | нет | нет | нет |
-| Скорость | 30 | 30 | 30 |
+| Скорость | {{guide:vitals.speed@Tesseract#1}} | {{guide:vitals.speed@Tesseract#2}} | {{guide:vitals.speed@Tesseract#3}} |
 | Дальность лазеров | – | – | – |
 | Радиус агрессии | только если напали | только если напали | только если напали |
 | Чинится, в секунду, после 5 с без урона (сначала корпус, потом щит) | 125 000 | 187 500 | 250 000 |
-| Кредиты | 900 000 | 1 800 000 | 2 700 000 |
-| Thulium | 2 400 | 4 800 | 7 200 |
-| Опыт (XP) | 144 000 | 288 000 | 432 000 |
-| Честь | 624 | 1 248 | 1 872 |
+| Кредиты | {{guide:spoils.pay.credits@Tesseract#1}} | {{guide:spoils.pay.credits@Tesseract#2}} | {{guide:spoils.pay.credits@Tesseract#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Tesseract#1}} | {{guide:spoils.pay.thulium@Tesseract#2}} | {{guide:spoils.pay.thulium@Tesseract#3}} |
+| Опыт (XP) | {{guide:spoils.pay.experience@Tesseract#1}} | {{guide:spoils.pay.experience@Tesseract#2}} | {{guide:spoils.pay.experience@Tesseract#3}} |
+| Честь | {{guide:spoils.pay.honor@Tesseract#1}} | {{guide:spoils.pay.honor@Tesseract#2}} | {{guide:spoils.pay.honor@Tesseract#3}} |
 | Очки PvE за убийство | 42 | 42 | 42 |
 
 **Добыча для каждого пилота, которому платит убийство**: по контейнеру каждому, только для него, с его долей этих количеств.
 
-| Предмет | Шанс | Количество |
-| :--- | ---: | ---: |
-| Reinforced Hull Plate | 100% | 3–10 |
-| Velkonite Reinforced Plate | 66% | 7–12 |
-| Orvium Reinforced Plate | 50% | 3–5 |
-| Power Core | 66% | 4–7 |
-| Ancient Control Unit | 100% | 1–4 |
-| Dark Matter | 100% | 10–20, не больше 5 на пилота |
-| Heartshard | 5% | 1 |
+| Предмет |
+| :--- |
+| {{guide:spoils.box@Tesseract#1;Tesseract#2;Tesseract#3}} |
 
 ### Facet
 
@@ -88,16 +93,16 @@ Tesseract платит соразмерно бою, которым он явля
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Корпус | 20 000 | 30 000 | 40 000 |
-| Щит | 16 000 | 24 000 | 32 000 |
-| Урон лазеров (залп в секунду) | 834 | 1 251 | 1 668 |
-| Скорость | 750 | 750 | 750 |
+| Корпус | {{guide:vitals.hull@Facet#1}} | {{guide:vitals.hull@Facet#2}} | {{guide:vitals.hull@Facet#3}} |
+| Щит | {{guide:vitals.shield@Facet#1}} | {{guide:vitals.shield@Facet#2}} | {{guide:vitals.shield@Facet#3}} |
+| Урон лазеров (залп в секунду) | {{guide:vitals.dps@Facet#1}} | {{guide:vitals.dps@Facet#2}} | {{guide:vitals.dps@Facet#3}} |
+| Скорость | {{guide:vitals.speed@Facet#1}} | {{guide:vitals.speed@Facet#2}} | {{guide:vitals.speed@Facet#3}} |
 | Дальность лазеров | 600 | 600 | 600 |
 | Радиус агрессии | только если напали | только если напали | только если напали |
-| Кредиты | 3 000 | 6 000 | 9 000 |
-| Thulium | 12 | 24 | 36 |
-| Опыт (XP) | 300 | 600 | 900 |
-| Честь | 6 | 12 | 18 |
+| Кредиты | {{guide:spoils.pay.credits@Facet#1}} | {{guide:spoils.pay.credits@Facet#2}} | {{guide:spoils.pay.credits@Facet#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Facet#1}} | {{guide:spoils.pay.thulium@Facet#2}} | {{guide:spoils.pay.thulium@Facet#3}} |
+| Опыт (XP) | {{guide:spoils.pay.experience@Facet#1}} | {{guide:spoils.pay.experience@Facet#2}} | {{guide:spoils.pay.experience@Facet#3}} |
+| Честь | {{guide:spoils.pay.honor@Facet#1}} | {{guide:spoils.pay.honor@Facet#2}} | {{guide:spoils.pay.honor@Facet#3}} |
 | Очки PvE за убийство | 0 | 0 | 0 |
 
 **Добыча**: нет. За убийство выплачиваются только кредиты, Thulium, опыт и честь.

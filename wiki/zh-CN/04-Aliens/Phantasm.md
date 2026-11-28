@@ -1,24 +1,24 @@
-<!-- wiki-i18n source: 6d3783229000ac9d -->
+<!-- wiki-i18n source: 7f996719b5b4b108 -->
 <!-- wiki-i18n title: Phantasm -->
 # Phantasm
 
-Phantasm 是具有攻击性的幽灵级无人机。它们会攻击进入其仇恨范围（700 单位）的任何玩家，当飞行员与它们相距超过 1,200 单位，或它们从追击起点飞出 2,000 单位后就会放弃追击（对朝它们开过火的飞行员则是 2,500 和 3,000 单位，参见[战斗](/wiki/03-Mechanics/Combat.md)）；对最近 10 秒内击中过它们的飞行员，它们则绝不会放弃追击，只要对方超出其武器射程（700 单位），Phantasm 就会朝那名飞行员飞去。多名飞行员同时向某个 Phantasm 开火时，只要最先开火的那名飞行员还在持续击中它，它就会一直咬住这名飞行员（参见[外星人与谁交战](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)）。[虫群](/wiki/05-Swarms/Swarms.md)的舰船是另外的外星人种类，在“虫群”类别中有各自的文章。
+Phantasm 是具有攻击性的幽灵级无人机。它们会攻击进入其仇恨范围（{{guide:vitals.aggro@Phantasm#1;Phantasm#2;Phantasm#3;Phantasm#4}} 单位）的任何玩家，当飞行员与它们相距超过 1,200 单位，或它们从追击起点飞出 2,000 单位后就会放弃追击（对朝它们开过火的飞行员则是 2,500 和 3,000 单位，参见[战斗](/wiki/03-Mechanics/Combat.md)）；对最近 10 秒内击中过它们的飞行员，它们则绝不会放弃追击，只要对方超出其武器射程（700 单位），Phantasm 就会朝那名飞行员飞去。多名飞行员同时向某个 Phantasm 开火时，只要最先开火的那名飞行员还在持续击中它，它就会一直咬住这名飞行员（参见[外星人与谁交战](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)）。[虫群](/wiki/05-Swarms/Swarms.md)的舰船是另外的外星人种类，在“虫群”类别中有各自的文章。
 
 ## 属性 {#stats}
 
-- **生命值（HP）**：2,000
-- **护盾**：3,200
-- **伤害**：350
-- **速度**：160
+- **生命值（HP）**：{{guide:vitals.hull@Phantasm#1}}
+- **护盾**：{{guide:vitals.shield@Phantasm#1}}
+- **伤害**：{{guide:vitals.dps@Phantasm#1}}
+- **速度**：{{guide:vitals.speed@Phantasm#1;Phantasm#2;Phantasm#3;Phantasm#4}}
 - **攻击射程**：700
 - **行为模式**：主动攻击
 
 ## 奖励 {#rewards}
 
-- **信用点**：3,000
-- **Thulium**：12
-- **经验值（XP）**：300
-- **荣誉**：6
+- **信用点**：{{guide:spoils.pay.credits@Phantasm#1}}
+- **Thulium**：{{guide:spoils.pay.thulium@Phantasm#1}}
+- **经验值（XP）**：{{guide:spoils.pay.experience@Phantasm#1}}
+- **荣誉**：{{guide:spoils.pay.honor@Phantasm#1}}
 - **每次击杀的 PvE 积分**：2
 - **护盾充能**：每秒 20（延迟 15 秒）
 
@@ -28,10 +28,11 @@ Phantasm 是具有攻击性的幽灵级无人机。它们会攻击进入其仇�
 
 每种掉落物的用途以及其他获取途径：[资源](/wiki/06-Items/Resources.md)。
 
-- **Ship Fragment**：100% 几率（最少 1，最多 1）
-- **Daraxium**：60% 几率（最少 1，最多 2）
-- **Nyxite**：60% 几率（最少 1，最多 2）
-- **Echo Shard**：2% 几率（最少 1，最多 1）
+- {{guide:spoils.box@Phantasm#1;Phantasm#2;Phantasm#3;Phantasm#4}}
+
+## 特殊能力 {#special-abilities}
+
+这种外星人中有一部分带有一种**特殊能力**：当船体损失一半时，只会使用一次。能力启动之前毫无迹象。[特殊能力](/wiki/03-Mechanics/Special-Abilities.md)说明每种能力的作用以及如何应对。
 
 ## 背景故事 {#lore}
 

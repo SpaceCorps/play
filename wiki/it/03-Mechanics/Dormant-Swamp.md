@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 664f33363a18d973 -->
+<!-- wiki-i18n source: 3c07d568f3af3aab -->
 <!-- wiki-i18n title: Dormant Swamp -->
 # Dormant Swamp
 
 <!-- wiki-search: swamp; dormant swamp; base; turret; turrets; nike turret; laser turret; inert mass; unwakened; the unwakened; slumbering void; void; dormant lance; ds-4; palude; torretta; torrette; cannone; cannoni -->
 
-Molto tempo fa, al centro della galassia viveva una civiltà avanzata. Costruiva in cristallo nero-viola, con venature violette che brillano, e per un motivo che nessuno conosce è crollata. Il **Dormant Swamp** è il suo avamposto, nell’angolo in alto a sinistra di `DS-4`. Dal giorno 11 della stagione si agita: cannoni al centro sparano a ogni nave che vedono, le **Inert Mass** lo custodiscono, e proprio al centro dorme **l’Unwakened**. È un luogo che i piloti **non sono ancora tenuti a visitare**. Sotto occultamento puoi volare fino all’Unwakened, e per ora lì non si può fare altro: la base e i suoi cannoni non possono essere danneggiati, né si può entrarvi, abbordarli o commerciare con loro.
+Molto tempo fa, al centro della galassia viveva una civiltà avanzata. Costruiva in cristallo nero-viola, con venature violette che brillano, e per un motivo che nessuno conosce è crollata. Il **Dormant Swamp** è il suo avamposto, nell’angolo in alto a sinistra di `DS-4`. Dal giorno 11 della stagione si agita: cannoni al centro sparano a ogni nave che vedono, le **Inert Mass** lo custodiscono, e proprio al centro dorme **l’Unwakened**. Sotto occultamento puoi volare fino all’Unwakened. Da quando il [Deep Void](/wiki/03-Mechanics/Deep-Void.md) si è aperto, i cannoni e l’Unwakened possono essere distrutti, e la prima uccisione dell’Unwakened della stagione apre, in ogni mondo, il Threshold di quel mondo. Nella base stessa non si può entrare, non la si può abbordare e non si può commerciare con essa.
 
 La palude è anche il luogo in cui compare lo [Sciame Dormant](/wiki/05-Swarms/Dormant-Swarm.md) dal giorno 11, e gli **Slumbering Void** pattugliano intorno. Gli stessi Void arrivano a ondate agli [escavatori giganti](/wiki/03-Mechanics/Giant-Excavator.md#the-slumbering-voids). I settori sono in [Settori pericolosi](/wiki/01-General/Danger-Sectors.md).
 
@@ -17,7 +17,7 @@ La palude è anche il luogo in cui compare lo [Sciame Dormant](/wiki/05-Swarms/D
 
 - **Dove**: L’angolo in alto a sinistra di `DS-4`: il centro è in 5.000 / 5.000
 - **Compare**: Dal giorno 11 della stagione fino al reset
-- **La zona**: 4.300 unità intorno al centro: fin dove arrivano al massimo i cannoni, e il luogo che nessuno è ancora tenuto a visitare
+- **La zona**: 4.300 unità intorno al centro: fin dove arrivano al massimo i cannoni
 - **L’avviso**: Una nave che attraversa l’anello a 4.800 unità dal centro riceve una riga di Sistema
 - **Occultamento**: Nessun cannone vede mai una nave occultata, né una dentro la finestra di un EMP
 - **Gli alieni**: 5 Inert Mass restano entro 2.400 unità dal centro. L’Unwakened dorme al centro. 2 Slumbering Void pattugliano tra 4.600 e 6.500 unità dal centro.
@@ -28,7 +28,7 @@ La palude è anche il luogo in cui compare lo [Sciame Dormant](/wiki/05-Swarms/D
 
 ## I cannoni {#the-guns}
 
-Le torrette della palude sparano alla **nave più vicina che riescono a vedere** entro la loro portata, e a nessun’altra: la zona è il cerchio che raggiunge la più lontana di esse. Non sono entità di alcun genere: non hanno punti vita, non si possono bersagliare, e niente di ciò che spari loro ha effetto. I loro colpi sono reali, e il mondo ne scala il danno come scala l’arma di qualsiasi alieno.
+Le torrette della palude sparano alla **nave più vicina che riescono a vedere** entro la loro portata, e a nessun’altra: la zona è il cerchio che raggiunge la più lontana di esse. Non sono navi, ma da quando si è aperto il Deep Void ognuna ha punti vita: clicca una torretta per spararle con i tuoi laser, e anche un razzo che esplode vicino la danneggia. Una torretta distrutta resta giù finché l’Unwakened non torna. I loro colpi sono reali, e il mondo ne scala il danno come scala l’arma di qualsiasi alieno.
 
 <!-- swamp-guns:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
@@ -57,108 +57,104 @@ Danno di un colpo, in ogni mondo:
 
 ## Gli alieni {#the-aliens}
 
-Qui vivono tre alieni della civiltà perduta, ciascuno con i suoi numeri. Vengono pagati come il boss di uno sciame: **in base al danno inflitto**, a ogni pilota che ne ha fatto almeno la quota indicata in [Sciami](/wiki/05-Swarms/Swarms.md#the-rules-of-every-swarm), e la cassa va al pilota che ha inflitto più danno. I loro abbattimenti si sommano ai tuoi punti PvE di grado come quelli di una nave di sciame, in proporzione alla ricompensa ([Gradi](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points)). Lo scudo di ciascuno assorbe l’80% di ogni colpo finché regge ([Scudi](/wiki/03-Mechanics/Shields.md)).
+Qui vivono tre alieni della civiltà perduta, ciascuno con i suoi numeri. Vengono pagati come il boss di uno sciame: **in base al danno inflitto**, a ogni pilota che ne ha fatto almeno la quota indicata in [Sciami](/wiki/05-Swarms/Swarms.md#the-rules-of-every-swarm), e la cassa va al pilota che ha inflitto più danno. I loro abbattimenti si sommano ai tuoi punti PvE di grado come quelli di una nave di sciame, in proporzione alla ricompensa ([Gradi](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points)). Lo scudo di ciascuno assorbe l’{{guide:vitals.absorbance@Slumbering Void;Inert Mass;The Unwakened}} di ogni colpo finché regge ([Scudi](/wiki/03-Mechanics/Shields.md)).
 
 - **Slumbering Void.** Il cacciatore snello, l’alieno più veloce del gioco (più veloce di una Storm con Afterburner III). Alcuni pattugliano sempre i dintorni della palude, e altri arrivano a ondate agli escavatori. È aggressivo, dà la caccia al pilota più vicino che riesce a vedere e non vede mai una nave occultata.
 - **Inert Mass.** Un relitto morto con crepe viola, grande come una piccola stazione. Restano entro una distanza fissa dal centro della palude e per ora non lo lasciano. Lancia **Dormant Lance**: razzi guidati con una portata lunghissima che seguono una nave finché non si occulta, non apre una finestra EMP, non entra in un anello sicuro, non salta o non muore. È più veloce di qualsiasi nave, quindi servono solo queste interruzioni. Un asteroide sulla traiettoria di una Dormant Lance la ferma, e la Lance lo danneggia con il proprio danno (nessuno viene pagato per questo): una roccia ripara da una Inert Mass quindi solo per pochi colpi.
-- **L’Unwakened.** Un monolite che dorme al centro della palude, la cosa più grande di qualsiasi mappa, così lento da non raggiungere mai una nave. Non lancia nulla, ma ogni nave dentro la sua aura brucia, **occultata o no**. È **immune**: colpi e razzi lo raggiungono e non fanno nulla, la finestra del bersaglio mostra le barre piene e la parola Immune. Un evento successivo permetterà di combatterlo; le sue ricompense qui sotto sono scritte e non si possono ancora ottenere. La **Tecnica delle radiazioni** di un pilota ne riduce la bruciatura, fino a 0,40 al livello 100.
+- **L’Unwakened.** Un monolite che dorme al centro della palude, la cosa più grande di qualsiasi mappa, così lento da non raggiungere mai una nave. Non lancia nulla, ma ogni nave dentro la sua aura brucia, **occultata o no**. Da quando si è aperto il [Deep Void](/wiki/03-Mechanics/Deep-Void.md) può essere distrutto: paga in base ai danni inflitti, torna un giorno dopo la sua morte, e in ogni mondo la prima uccisione della stagione apre il Threshold di quel mondo. La **Tecnica delle radiazioni** di un pilota ne riduce la bruciatura, fino a 0,40 al livello 100.
 
 <!-- swamp-members:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
 
 ### Slumbering Void
 
-2 Slumbering Void pattugliano tra 4.600 e 6.500 unità dal centro della palude; uno distrutto ritorna dopo 1 h. Le ondate di un escavatore portano altri dello stesso alieno.
+2 Slumbering Void pattugliano tra 4.600 e 6.500 unità dal centro della palude; uno distrutto ritorna dopo {{guide:vitals.respawn@Slumbering Void}}. Le ondate di un escavatore portano altri dello stesso alieno.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Scafo | 25.000 | 37.500 | 50.000 |
-| Scudo | 150.000 | 225.000 | 300.000 |
-| Assorbimento dello scudo | 80% | 80% | 80% |
-| Danno dei laser (una raffica al secondo) | 3.000 | 4.500 | 6.000 |
-| Velocità | 400 | 400 | 400 |
+| Scafo | {{guide:vitals.hull@Slumbering Void}} | {{guide:vitals.hull*1.5@Slumbering Void}} | {{guide:vitals.hull*2@Slumbering Void}} |
+| Scudo | {{guide:vitals.shield@Slumbering Void}} | {{guide:vitals.shield*1.5@Slumbering Void}} | {{guide:vitals.shield*2@Slumbering Void}} |
+| Assorbimento dello scudo | {{guide:vitals.absorbance@Slumbering Void}} | {{guide:vitals.absorbance@Slumbering Void}} | {{guide:vitals.absorbance@Slumbering Void}} |
+| Danno dei laser (una raffica al secondo) | {{guide:vitals.dps@Slumbering Void}} | {{guide:vitals.dps*1.5@Slumbering Void}} | {{guide:vitals.dps*2@Slumbering Void}} |
+| Velocità | {{guide:vitals.speed@Slumbering Void}} | {{guide:vitals.speed@Slumbering Void}} | {{guide:vitals.speed@Slumbering Void}} |
 | Portata dei laser | 800 | 800 | 800 |
-| Raggio di aggressione | 2.500 | 2.500 | 2.500 |
-| Crediti | 23.000 | 46.000 | 69.000 |
-| Thulium | 60 | 120 | 180 |
-| Esperienza (XP) | 3.600 | 7.200 | 10.800 |
-| Onore | 16 | 32 | 48 |
+| Raggio di aggressione | {{guide:vitals.aggro@Slumbering Void}} | {{guide:vitals.aggro@Slumbering Void}} | {{guide:vitals.aggro@Slumbering Void}} |
+| Crediti | {{guide:spoils.pay.credits@Slumbering Void}} | {{guide:spoils.pay.credits*2@Slumbering Void}} | {{guide:spoils.pay.credits*3@Slumbering Void}} |
+| Thulium | {{guide:spoils.pay.thulium@Slumbering Void}} | {{guide:spoils.pay.thulium*2@Slumbering Void}} | {{guide:spoils.pay.thulium*3@Slumbering Void}} |
+| Esperienza (XP) | {{guide:spoils.pay.experience@Slumbering Void}} | {{guide:spoils.pay.experience*2@Slumbering Void}} | {{guide:spoils.pay.experience*3@Slumbering Void}} |
+| Onore | {{guide:spoils.pay.honor@Slumbering Void}} | {{guide:spoils.pay.honor*2@Slumbering Void}} | {{guide:spoils.pay.honor*3@Slumbering Void}} |
 | Punti PvE per abbattimento | 10 | 10 | 10 |
 
 **Bottino**: una cassa, per il pilota che ha inflitto più danno.
 
-| Oggetto | Probabilità | Quantità |
-| :--- | ---: | ---: |
-| Uno tra Ultra Core e Experimental Fusion Core, scelto a caso | 60% | 30–60 |
-| Uno dei 4 [razzi](/wiki/06-Items/Rockets.md) Epici, scelto a caso | 40% | 1–3 |
+| Oggetto |
+| :--- |
+| {{guide:spoils.box@Slumbering Void}} |
 
 ### Inert Mass
 
-5 Inert Mass stanno entro 2.400 unità dal centro; una distrutta ritorna dopo 1 h. Lancia ogni 6 s una [Dormant Lance](/wiki/06-Items/Rockets.md#the-craft-only-rockets) guidata contro la nave più vicina che vede: velocità 750, un volo di 5.250 unità, penetrazione 40%.
+5 Inert Mass stanno entro 2.400 unità dal centro; una distrutta ritorna dopo {{guide:vitals.respawn@Inert Mass}}. Lancia ogni 6 s una [Dormant Lance](/wiki/06-Items/Rockets.md#the-craft-only-rockets) guidata contro la nave più vicina che vede: velocità 750, un volo di 5.250 unità, penetrazione 40%.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Scafo | 250.000 | 375.000 | 500.000 |
-| Scudo | 100.000 | 150.000 | 200.000 |
-| Assorbimento dello scudo | 80% | 80% | 80% |
-| Danno di ogni Dormant Lance | 5.000–8.000 | 7.500–12.000 | 10.000–16.000 |
-| Velocità | 60 | 60 | 60 |
+| Scafo | {{guide:vitals.hull@Inert Mass}} | {{guide:vitals.hull*1.5@Inert Mass}} | {{guide:vitals.hull*2@Inert Mass}} |
+| Scudo | {{guide:vitals.shield@Inert Mass}} | {{guide:vitals.shield*1.5@Inert Mass}} | {{guide:vitals.shield*2@Inert Mass}} |
+| Assorbimento dello scudo | {{guide:vitals.absorbance@Inert Mass}} | {{guide:vitals.absorbance@Inert Mass}} | {{guide:vitals.absorbance@Inert Mass}} |
+| Danno di ogni Dormant Lance | {{guide:behaviour.ability:rocket.damageMin@Inert Mass}}–{{guide:behaviour.ability:rocket.damage@Inert Mass}} | {{guide:behaviour.ability:rocket.damageMin*1.5@Inert Mass}}–{{guide:behaviour.ability:rocket.damage*1.5@Inert Mass}} | {{guide:behaviour.ability:rocket.damageMin*2@Inert Mass}}–{{guide:behaviour.ability:rocket.damage*2@Inert Mass}} |
+| Velocità | {{guide:vitals.speed@Inert Mass}} | {{guide:vitals.speed@Inert Mass}} | {{guide:vitals.speed@Inert Mass}} |
 | Portata dei razzi | 5.000 | 5.000 | 5.000 |
-| Raggio di aggressione | 5.000 | 5.000 | 5.000 |
-| Crediti | 125.000 | 250.000 | 375.000 |
-| Thulium | 335 | 670 | 1.005 |
-| Esperienza (XP) | 20.200 | 40.400 | 60.600 |
-| Onore | 88 | 176 | 264 |
+| Raggio di aggressione | {{guide:vitals.aggro@Inert Mass}} | {{guide:vitals.aggro@Inert Mass}} | {{guide:vitals.aggro@Inert Mass}} |
+| Crediti | {{guide:spoils.pay.credits@Inert Mass}} | {{guide:spoils.pay.credits*2@Inert Mass}} | {{guide:spoils.pay.credits*3@Inert Mass}} |
+| Thulium | {{guide:spoils.pay.thulium@Inert Mass}} | {{guide:spoils.pay.thulium*2@Inert Mass}} | {{guide:spoils.pay.thulium*3@Inert Mass}} |
+| Esperienza (XP) | {{guide:spoils.pay.experience@Inert Mass}} | {{guide:spoils.pay.experience*2@Inert Mass}} | {{guide:spoils.pay.experience*3@Inert Mass}} |
+| Onore | {{guide:spoils.pay.honor@Inert Mass}} | {{guide:spoils.pay.honor*2@Inert Mass}} | {{guide:spoils.pay.honor*3@Inert Mass}} |
 | Punti PvE per abbattimento | 15 | 15 | 15 |
 
 **Bottino**: una cassa, per il pilota che ha inflitto più danno.
 
-| Oggetto | Probabilità | Quantità |
-| :--- | ---: | ---: |
-| Ultra Core e Experimental Fusion Core, divisi in parti uguali | 100% | 400–800 in tutto |
-| Uno dei 4 [razzi](/wiki/06-Items/Rockets.md) Epici, scelto a caso | 100% | 20–40 |
-| N.I.K.E. | 5% | 1–2 |
-| Dark Matter | 5% | 1–3 |
-| Ancient Control Unit | 10% | 1 |
-| Power Core | 25% | 1–2 |
+| Oggetto |
+| :--- |
+| {{guide:spoils.box@Inert Mass}} |
 
 ### The Unwakened
 
-Ce n’è uno, al centro della palude e in nessun altro luogo; ritorna dopo 24 h dalla sua distruzione. È **immune** finché una missione successiva non spegne il flag: colpi e razzi lo raggiungono e non fanno nulla. Le sue ricompense sono scritte e non si possono ancora ottenere.
+Ce n’è uno, al centro della palude e in nessun altro luogo; ritorna dopo {{guide:vitals.respawn@The Unwakened}} dalla sua distruzione. Da quando si è aperto il Deep Void può essere distrutto, e paga in base ai danni inflitti come gli altri alieni di qui.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Scafo | 10.000.000 | 15.000.000 | 20.000.000 |
-| Scudo | 10.000.000 | 15.000.000 | 20.000.000 |
-| Assorbimento dello scudo | 80% | 80% | 80% |
-| Danno dell’aura al secondo, a ogni nave all’interno | 75.000 | 112.500 | 150.000 |
+| Scafo | {{guide:vitals.hull@The Unwakened}} | {{guide:vitals.hull*1.5@The Unwakened}} | {{guide:vitals.hull*2@The Unwakened}} |
+| Scudo | {{guide:vitals.shield@The Unwakened}} | {{guide:vitals.shield*1.5@The Unwakened}} | {{guide:vitals.shield*2@The Unwakened}} |
+| Assorbimento dello scudo | {{guide:vitals.absorbance@The Unwakened}} | {{guide:vitals.absorbance@The Unwakened}} | {{guide:vitals.absorbance@The Unwakened}} |
+| Danno dell’aura al secondo, a ogni nave all’interno | {{guide:behaviour.ability:aura.damagePerSecond@The Unwakened}} | {{guide:behaviour.ability:aura.damagePerSecond*1.5@The Unwakened}} | {{guide:behaviour.ability:aura.damagePerSecond*2@The Unwakened}} |
 | Raggio dell’aura | 700 | 700 | 700 |
-| Velocità | 10 | 10 | 10 |
-| Raggio di aggressione | 3.000 | 3.000 | 3.000 |
-| Crediti | 7.500.000 | 15.000.000 | 22.500.000 |
-| Thulium | 20.000 | 40.000 | 60.000 |
-| Esperienza (XP) | 1.200.000 | 2.400.000 | 3.600.000 |
-| Onore | 5.200 | 10.400 | 15.600 |
+| Velocità | {{guide:vitals.speed@The Unwakened}} | {{guide:vitals.speed@The Unwakened}} | {{guide:vitals.speed@The Unwakened}} |
+| Raggio di aggressione | {{guide:vitals.aggro@The Unwakened}} | {{guide:vitals.aggro@The Unwakened}} | {{guide:vitals.aggro@The Unwakened}} |
+| Crediti | {{guide:spoils.pay.credits@The Unwakened}} | {{guide:spoils.pay.credits*2@The Unwakened}} | {{guide:spoils.pay.credits*3@The Unwakened}} |
+| Thulium | {{guide:spoils.pay.thulium@The Unwakened}} | {{guide:spoils.pay.thulium*2@The Unwakened}} | {{guide:spoils.pay.thulium*3@The Unwakened}} |
+| Esperienza (XP) | {{guide:spoils.pay.experience@The Unwakened}} | {{guide:spoils.pay.experience*2@The Unwakened}} | {{guide:spoils.pay.experience*3@The Unwakened}} |
+| Onore | {{guide:spoils.pay.honor@The Unwakened}} | {{guide:spoils.pay.honor*2@The Unwakened}} | {{guide:spoils.pay.honor*3@The Unwakened}} |
 | Punti PvE per abbattimento | 112 | 112 | 112 |
 
 **Bottino**: una cassa, per il pilota che ha inflitto più danno.
 
-| Oggetto | Probabilità | Quantità |
-| :--- | ---: | ---: |
-| Ultra Core e Experimental Fusion Core, divisi in parti uguali | 100% | 10.000–15.000 in tutto |
-| Uno dei 4 [razzi](/wiki/06-Items/Rockets.md) Epici, scelto a caso | 100% | 500–800 |
-| N.I.K.E. | 100% | 20–30 |
-| N.U.K.E. | 100% | 5–10 |
-| Dark Matter | 100% | 40–60 |
-| Ancient Control Unit | 100% | 10–20 |
-| Power Core | 100% | 100–200 |
+| Oggetto |
+| :--- |
+| {{guide:spoils.box@The Unwakened}} |
 
 <!-- swamp-members:end -->
 
+## Con il Deep Void {#with-the-deep-void}
+
+Cosa ha cambiato qui il Deep Void, in breve:
+
+- **L'Unwakened può essere distrutto.** Non è più immune: paga in base ai danni inflitti, come gli altri alieni di qui, e torna un giorno dopo la sua morte.
+- **I cannoni possono essere distrutti.** Ognuno dei tre cannoni (la torretta lanciarazzi, che spara sia il N.I.K.E. sia il N.U.K.E., e le due torrette laser) ora ha punti vita, e laser e razzi li danneggiano. Un cannone distrutto resta giù finché l'Unwakened non torna.
+- **La prima uccisione apre il Threshold.** In ogni mondo la prima uccisione dell'Unwakened della stagione apre il Threshold di quel mondo nell'angolo opposto di `DS-4`, dove inizia il [Deep Void](/wiki/03-Mechanics/Deep-Void.md).
+
 ## Cosa fare qui {#what-to-do-here}
 
-- **Guarda, non toccare.** La palude è per più tardi. L’unica cosa che raggiungi senza occultamento è fuori dalla zona: i Void di pattuglia, in un anello intorno alla zona, sono la prima linea della palude e il luogo in cui un gruppo può combattere senza i cannoni.
-- **Combatti i Void con la penetrazione.** Il grande scudo di un Void assorbe l’80% di un colpo e conta quasi nulla: lo scafo dietro è piccolo. Più penetrazione dello scudo hanno i tuoi laser, prima cade ([Laser e munizioni](/wiki/06-Items/Lasers.md)).
+- **La prima uccisione apre la strada.** La prima uccisione dell’Unwakened della stagione apre il Threshold del suo mondo e, con esso, la strada verso il [Deep Void](/wiki/03-Mechanics/Deep-Void.md); dentro la zona i cannoni distruggono una nave in pochi secondi. Fuori dalla zona, i Void di pattuglia, in un anello intorno alla zona, sono la prima linea della palude e il luogo in cui un gruppo può combattere senza i cannoni.
+- **Combatti i Void con la penetrazione.** Il grande scudo di un Void assorbe l’{{guide:vitals.absorbance@Slumbering Void;Inert Mass;The Unwakened}} di un colpo e conta quasi nulla: lo scafo dietro è piccolo. Più penetrazione dello scudo hanno i tuoi laser, prima cade ([Laser e munizioni](/wiki/06-Items/Lasers.md)).
 - **Stai lontano dalle Lance.** Un’Inert Mass vede lontano e a una Lance non si sfugge: spezza la sua presa con un occultamento, un EMP, un anello sicuro o un salto, oppure esci dalla sua portata. Una Mass è un combattimento lungo anche per un grande gruppo delle navi più forti.
 - **Lo Sciame Dormant** compare ora appena fuori dalla zona, così un gruppo può aspettarlo senza i cannoni. Vedi [Sciame Dormant](/wiki/05-Swarms/Dormant-Swarm.md).
 

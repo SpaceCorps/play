@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: bb8bc80ba6889fba -->
+<!-- wiki-i18n source: fcba1b51b68a9123 -->
 <!-- wiki-i18n title: Dormant sürüsü -->
 # Dormant sürüsü {#dormant-swarm}
 
-Dormant sürüsü, bir **Dormant Force** ve onun **Dormant Pulse** gemileridir: hiçbir zaman kavgayı başlatmayan ama uyandırıldıklarında çok sert vuran bir gemi grubu. Her dünyada yalnızca bir tane vardır. Bir Tehlike Sektörü’nden diğerine dolaşır; sürüler arasındaki en zor savaş ve en zengin ganimettir: en güçlü gemilerden oluşan büyük bir grup için bir savaş. Sezonun 11. gününden itibaren `DS-4` sektöründeki [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) bölgesinde başlar, daha çabuk geri gelir ve iki kat daha fazla öder (bkz. *Bir bakışta* listesi).
+Dormant sürüsü, bir **Dormant Force** ve onun **Dormant Pulse** gemileridir: hiçbir zaman kavgayı başlatmayan ama uyandırıldıklarında çok sert vuran bir gemi grubu. Her dünyanın Tehlike Sektörleri’nde yalnızca bir tane vardır ([Deep Void](/wiki/03-Mechanics/Deep-Void.md#the-dormant-swarms-visit) için günde bir kez gelen ayrı bir ziyaret vardır). Bir Tehlike Sektörü’nden diğerine dolaşır; sürüler arasındaki en zor savaş ve en zengin ganimettir: en güçlü gemilerden oluşan büyük bir grup için bir savaş. Sezonun 11. gününden itibaren `DS-4` sektöründeki [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) bölgesinde başlar, daha çabuk geri gelir ve iki kat daha fazla öder (bkz. *Bir bakışta* listesi).
 
 ## Bir bakışta {#at-a-glance}
 
@@ -18,7 +18,7 @@ Dormant sürüsü, bir **Dormant Force** ve onun **Dormant Pulse** gemileridir: 
 - **Lider yok edilince**: Bir Dormant Pulse liderliği devralır
 - **Lider yok edilince**: Takipçiler, saldırıyor olsalar bile, lider yok edildikten 30 sn sonra ayrılır
 - **Seyahat**: Bir haritada 8–15 dk kalır, sonra başka bir Tehlike Sektörü geçidine uçar. Tehlike Sektörleri dışındaki geçitleri asla kullanmaz ve kara deliğin halkasına asla girmez
-- **Geri gelir**: Tüm sürü yok edildikten 1 sa sonra, rastgele bir Tehlike Sektörü’nde
+- **Geri gelir**: Tüm sürü yok edildikten {{guide:vitals.respawn@Dormant Force#1;Dormant Force#2;Dormant Force#3}} sonra, rastgele bir Tehlike Sektörü’nde
 - **Sezonun 11. gününden itibaren**: Rastgele bir Tehlike Sektörü yerine [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) bölgesinde (`DS-4`) belirir, tüm sürü yok edildikten 30 dk sonra geri gelir ve her gemi ×2 öder (kredi, Thulium, XP ve onur; ganimet aynı kalır)
 - **Duyuru**: Tüm dünyadaki pilotlara sürünün ne zaman belirdiği ve ne zaman yok edildiği bildirilir. Bunlar Sistem satırlarıdır: sohbetin **Sistem** sekmesinde, okunmamış sayısıyla birlikte görünür; **Genel** ya da **Yerel** sekmesinde görünmez. Tehlike Sektörü haritalarında ve galaksi haritasında bir işaretle gösterilir. Öldürme akışı, öldürmeyi alan pilotu adıyla gösterir.
 
@@ -38,6 +38,19 @@ Hepsi pasiftir: hiçbir pilotun peşine düşmezler. Birine vurursan, ona yakın
 - **Savaşı lazerleri belirler.** Hep birlikte bir Paragon gemisini bir dakikadan kısa sürede, en iyi kalkanlara sahip olanı bile iki dakikadan kısa sürede yok edebilirler, roket olsun olmasın: hasarını hızlı getir ve elindeki en iyi kalkanları kullan.
 - **Gemi gemi.** Her geminin kendi gövdesi ve kendi ödemesi vardır; bu yüzden önce Force ya da bir Pulse yok edilebilir. Sürü, ancak tamamı yok edildiğinde ve *Bir bakışta* listesindeki süre geçtikten sonra yenilenir.
 
+## Liderin üç aşaması {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Bu savaşın üç aşaması vardır ([nasıl işlediği](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); her biri bir kez gerçekleşir.
+
+- **Başlangıçta**: Dormant Pulses içinden biri yaşadığı sürece her vuruşun yalnızca %70 kadarını alır.
+- **Üçte ikinin altında**: Dormant Pulses 15 sn boyunca her 2,5 sn bir roket ateşler.
+- **Üçte birin altında**: Dormant Pulses hepsi yaşadığı sürece 6 sn boyunca saniyede gövdesinin %5 kadarını onarır.
+
+<!-- mob-ladder:end -->
+
 ## Ödüller ve ganimet {#rewards-and-drops}
 
 Her gemi kendi başına, ona verilen hasara göre öder ([patron öldürmesi nasıl öder](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)) ve her biri, ona en çok hasar veren pilot için bir kutu düşürür. Asıl ödül **Force kutusudur**: bolca x3 ve x4 cephane, tek türden Destansı roketler ve ara sıra bir N.I.K.E. ya da N.U.K.E. **Pulse** gemileri bir Ancient Control Unit, bir Power Core ya da Dark Matter düşürebilir. Sürüyle bir dakikalık savaş, en çok ödeyen uzaylı olan Crystalys ile bir dakikalık savaştan daha çok öder. Sezonun 11. gününden itibaren her gemi iki kat öder (*Bir bakışta* listesi); kutular aynıdır.
@@ -55,27 +68,24 @@ Wraith temel alınarak, gövdesinin %100 kadarıyla ve lazer hasarının %300 ka
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Gövde | 256.000 | 384.000 | 512.000 |
-| Kalkan | 83.400 | 125.100 | 166.800 |
-| Lazer hasarı (saniyede bir salvo) | 3.315 | 4.973 | 6.630 |
-| Hız | 210 | 210 | 210 |
+| Gövde | {{guide:vitals.hull@Dormant Force#1}} | {{guide:vitals.hull@Dormant Force#2}} | {{guide:vitals.hull@Dormant Force#3}} |
+| Kalkan | {{guide:vitals.shield@Dormant Force#1}} | {{guide:vitals.shield@Dormant Force#2}} | {{guide:vitals.shield@Dormant Force#3}} |
+| Lazer hasarı (saniyede bir salvo) | {{guide:vitals.dps@Dormant Force#1}} | {{guide:vitals.dps@Dormant Force#2}} | {{guide:vitals.dps@Dormant Force#3}} |
+| Hız | {{guide:vitals.speed@Dormant Force#1}} | {{guide:vitals.speed@Dormant Force#2}} | {{guide:vitals.speed@Dormant Force#3}} |
 | Lazer menzili | 800 | 800 | 800 |
 | Aggro yarıçapı | yalnızca saldırıya uğrayınca | yalnızca saldırıya uğrayınca | yalnızca saldırıya uğrayınca |
-| Roket hasarı, en fazla | 7.500 | 11.250 | 15.000 |
-| Kredi | 185.000 | 370.000 | 555.000 |
-| Thulium | 485 | 970 | 1.455 |
-| Deneyim (XP) | 29.200 | 58.400 | 87.600 |
-| Onur | 127 | 254 | 381 |
+| Roket hasarı, en fazla | {{guide:behaviour.ability:rocket.damage@Dormant Force#1}} | {{guide:behaviour.ability:rocket.damage@Dormant Force#2}} | {{guide:behaviour.ability:rocket.damage@Dormant Force#3}} |
+| Kredi | {{guide:spoils.pay.credits@Dormant Force#1}} | {{guide:spoils.pay.credits@Dormant Force#2}} | {{guide:spoils.pay.credits@Dormant Force#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Dormant Force#1}} | {{guide:spoils.pay.thulium@Dormant Force#2}} | {{guide:spoils.pay.thulium@Dormant Force#3}} |
+| Deneyim (XP) | {{guide:spoils.pay.experience@Dormant Force#1}} | {{guide:spoils.pay.experience@Dormant Force#2}} | {{guide:spoils.pay.experience@Dormant Force#3}} |
+| Onur | {{guide:spoils.pay.honor@Dormant Force#1}} | {{guide:spoils.pay.honor@Dormant Force#2}} | {{guide:spoils.pay.honor@Dormant Force#3}} |
 | Öldürme başına PvE puanı | 25 | 25 | 25 |
 
 **Ganimet**: tek bir kutu, en çok hasar veren pilota ait.
 
-| Eşya | Şans | Miktar |
-| :--- | ---: | ---: |
-| Ultra Core ve Experimental Fusion Core, eşit paylaşılır | %100 | toplam 2.000–3.000 |
-| 4 Destansı [roket](/wiki/06-Items/Rockets.md) arasından rastgele biri | %100 | 30–50 |
-| [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) ve [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) arasından rastgele biri | %50 | 1 |
-| Heartshard | %5 | 1 |
+| Eşya |
+| :--- |
+| {{guide:spoils.box@Dormant Force#1;Dormant Force#2;Dormant Force#3}} |
 
 ### Dormant Pulse
 
@@ -83,25 +93,23 @@ Paragon temel alınarak, gövdesinin %100 kadarıyla ve lazer hasarının %600 k
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Gövde | 128.000 | 192.000 | 256.000 |
-| Kalkan | 64.570 | 96.855 | 129.140 |
-| Lazer hasarı (saniyede bir salvo) | 5.100 | 7.650 | 10.200 |
-| Hız | 270 | 270 | 270 |
+| Gövde | {{guide:vitals.hull@Dormant Pulse#1}} | {{guide:vitals.hull@Dormant Pulse#2}} | {{guide:vitals.hull@Dormant Pulse#3}} |
+| Kalkan | {{guide:vitals.shield@Dormant Pulse#1}} | {{guide:vitals.shield@Dormant Pulse#2}} | {{guide:vitals.shield@Dormant Pulse#3}} |
+| Lazer hasarı (saniyede bir salvo) | {{guide:vitals.dps@Dormant Pulse#1}} | {{guide:vitals.dps@Dormant Pulse#2}} | {{guide:vitals.dps@Dormant Pulse#3}} |
+| Hız | {{guide:vitals.speed@Dormant Pulse#1}} | {{guide:vitals.speed@Dormant Pulse#2}} | {{guide:vitals.speed@Dormant Pulse#3}} |
 | Lazer menzili | 800 | 800 | 800 |
 | Aggro yarıçapı | yalnızca saldırıya uğrayınca | yalnızca saldırıya uğrayınca | yalnızca saldırıya uğrayınca |
-| Roket hasarı, en fazla | 5.000 | 7.500 | 10.000 |
-| Kredi | 105.000 | 210.000 | 315.000 |
-| Thulium | 275 | 550 | 825 |
-| Deneyim (XP) | 16.600 | 33.200 | 49.800 |
-| Onur | 72 | 144 | 216 |
+| Roket hasarı, en fazla | {{guide:behaviour.ability:rocket.damage@Dormant Pulse#1}} | {{guide:behaviour.ability:rocket.damage@Dormant Pulse#2}} | {{guide:behaviour.ability:rocket.damage@Dormant Pulse#3}} |
+| Kredi | {{guide:spoils.pay.credits@Dormant Pulse#1}} | {{guide:spoils.pay.credits@Dormant Pulse#2}} | {{guide:spoils.pay.credits@Dormant Pulse#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Dormant Pulse#1}} | {{guide:spoils.pay.thulium@Dormant Pulse#2}} | {{guide:spoils.pay.thulium@Dormant Pulse#3}} |
+| Deneyim (XP) | {{guide:spoils.pay.experience@Dormant Pulse#1}} | {{guide:spoils.pay.experience@Dormant Pulse#2}} | {{guide:spoils.pay.experience@Dormant Pulse#3}} |
+| Onur | {{guide:spoils.pay.honor@Dormant Pulse#1}} | {{guide:spoils.pay.honor@Dormant Pulse#2}} | {{guide:spoils.pay.honor@Dormant Pulse#3}} |
 | Öldürme başına PvE puanı | 11 | 11 | 11 |
 
 **Ganimet**: tek bir kutu, en çok hasar veren pilota ait.
 
-| Eşya | Şans | Miktar |
-| :--- | ---: | ---: |
-| Ancient Control Unit | %20 | 1 |
-| Power Core | %20 | 1 |
-| Dark Matter | %20 | 1–5 |
+| Eşya |
+| :--- |
+| {{guide:spoils.box@Dormant Pulse#1;Dormant Pulse#2;Dormant Pulse#3}} |
 
 <!-- dormant-members:end -->

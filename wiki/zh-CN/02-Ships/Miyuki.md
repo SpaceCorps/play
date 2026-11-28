@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f36888650a9078b3 -->
+<!-- wiki-i18n source: 3c16398b0ab82842 -->
 <!-- wiki-i18n title: Miyuki -->
 # Miyuki
 
@@ -62,6 +62,8 @@ Miyuki 的能力属于舰船，而不是某件物品：不占用能力槽，也�
 | **Miyuki V** | 7.5 秒，30,000 + 3% | 每秒 75,000 船体（你 10,000），100 秒 | 每秒 150,000 + 5% 护盾（你 30,000 + 5%），80 秒 |
 
 连接持续 5 秒，可达你小队或企业中 1,200 单位内的舰船。Heal Pod 可达 600。Channel Shield 除了点数之外，每秒还会恢复双方各自最大护盾的一部分：Miyuki III 为 3%，IV 为 4%，V 为 5%（表中的百分比）。
+
+每个等级还有 **Revive**，它是最后一个按钮。你小队或企业中的飞行员被摧毁后，他的舰船会瘫痪 30 秒；在 600 单位内停留 10 秒，他就会在阵亡的地方回归，Revive 冷却 120 秒。其余内容见[舰船能力](/wiki/03-Mechanics/Abilities.md#ship-abilities)。
 
 你的飞行员专长[治疗](/wiki/03-Mechanics/Pilot-Skills.md)对这三者都有效：100 级时，它让 Heal Pod、Channel Heal 和 Channel Shield（它们的点数和占最大护盾的比例）强 30%，并把它们的等待时间缩短 10%，因此休息 100 秒的 Channel Heal 只休息 90 秒。上面的表格给出的是没有它时的数字。
 

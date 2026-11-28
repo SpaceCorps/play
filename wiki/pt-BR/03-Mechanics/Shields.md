@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c205efd6ca83bd6f -->
+<!-- wiki-i18n source: 26bbf6eb36f9c7f8 -->
 <!-- wiki-i18n title: Escudos -->
 # Mecânica dos escudos {#shield-mechanics}
 
@@ -43,7 +43,7 @@ Alguns ataques têm uma **penetração de escudo**: pontos que são descontados 
 - Os escudos recebem no máximo `round(damage x share)` do impacto; o casco recebe o resto. Um escudo baixo demais para a sua parte passa a diferença para os HP, e se os escudos estão em 0, todo o dano atinge os HP diretamente.
 - **De onde vem a penetração**: a *Penetração de escudo* de um foguete de alvo único (Lancet I 10%, Lancet II 25%, Lancet III 35%, Rivet I 5%, Rivet II 25%, Rivet III 35%, N.I.K.E. 35%; as explosões em área não têm, veja [Foguetes](/wiki/06-Items/Rockets.md)) e a da munição de laser (Ultra Core 5%, Experimental Fusion Core 10%; veja [Lasers e munição](/wiki/06-Items/Lasers.md)). Os alienígenas não têm, e a munição x1 e x2 também não. Um acerto de laser também tira os Penetration Amps dos lasers de quem atira (+5% a +20% por slot, a média dos lasers dele) e a penetração de uma formação de drones (Gemini +15%; o Stiletto dá +35% só a um foguete direto); um foguete direto soma a da formação à sua. **Nada limita o total**: os escudos recebem a absorção menos tudo isso, até não receberem nada do impacto ([como um acerto de laser se soma](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
 - **Exemplos**: 91% de absorção contra um Lancet III (35%): os escudos recebem 56% do impacto, o casco 44%. 100% contra ele: 65% e 35%. 112% contra 12% de penetração: o impacto inteiro. 45% (um Light Shield Core sozinho) contra 35%: 10% no escudo, o resto no casco. Um foguete sozinho não penetra completamente nenhum núcleo, mas um Lancet III com um Stiletto (35% + 35% = 70%) não deixa nada do impacto para um Light Shield Core sozinho (45%), e o melhor laser (85%) também não: contra esse laser, o melhor escudo (91%) recebe 6% do impacto e o casco 94%.
-- Os alienígenas não têm atributo de absorção: eles dividem cada impacto em 80% / 20%, menos a penetração do impacto.
+- Os alienígenas não têm atributo de absorção: eles dividem cada impacto em 80% / 20%, menos a penetração do impacto. As criaturas da Deep Void são a exceção: elas dividem cada impacto em 90% / 10%.
 - O dano de uma Siphon Battery sai só do escudo: a absorção e a penetração não entram na conta.
 
 **Onde os escudos não recebem nada.** Uma penetração igual ou maior que a absorção não deixa nada do impacto para os escudos: o casco leva tudo. A tabela mostra o que os escudos recebem de um impacto do melhor laser (100%; uma Antimatter Battery no lugar do Experimental Fusion Core leva a 110% com dano x3) e do melhor foguete de alvo único (um Lancet III ou um Rivet III com um Stiletto, 70%):

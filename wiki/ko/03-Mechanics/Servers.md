@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 397d7b3564593bb7 -->
+<!-- wiki-i18n source: f77c8c8ae352b4a0 -->
 <!-- wiki-i18n title: 서버 -->
 # 서버 {#servers}
 
@@ -37,7 +37,7 @@ SpaceCorps는 세 개의 게임 서버에서 운영됩니다. **Helsinki**(유�
 | [솔로 게이트](/wiki/03-Mechanics/Solo-Gates.md#going-in) | 게이트 자체는 그 문서에서 설명함 |
 | [도전 과제](/wiki/03-Mechanics/Achievements.md) | 그 문서에서 설명함 |
 | [클랜 던전](/wiki/03-Mechanics/Dungeons.md)과 워든 | Helsinki에서만 |
-| [Davidski](/wiki/03-Mechanics/Davidski.md) | 나타나지만 지역 서버에서는 아무것도 지급하지 않음: 그를 처치한 보상은 Helsinki에서 지급됨 |
+| [Davidski](/wiki/03-Mechanics/Davidski.md) | 나타나지만 지역 서버에서는 아무것도 지급하지 않음. 보상은 홈 서버(EU)에서 처치했을 때만 지급되며, 어느 서버에서든 처치는 그가 언급된 임무에 집계됨 |
 | 격납고, [Skylab](/wiki/03-Mechanics/Skylab.md), 어셈블리, 경매장, 상점, 연구, 클랜 페이지, 갤럭시 게이트 | 정거장에서: 비행 중에는 창이 그렇게 알려 주고, **기지로 귀환**하면 그곳으로 감 |
 
 ## 서버 고르기 {#choosing-a-server}

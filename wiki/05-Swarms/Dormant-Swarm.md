@@ -1,6 +1,6 @@
 # Dormant Swarm
 
-The Dormant Swarm is a **Dormant Force** with its **Dormant Pulses**: a group of ships that never start a fight and hit very hard once they are woken. There is only one in each world. It wanders from one Danger Sector to the next, and it is the hardest fight and the richest drop of the swarms: a fight for a large group of the strongest ships. From season day 11 it starts at the [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) on `DS-4`, comes back sooner and pays twice as much (see the *At a glance* list).
+The Dormant Swarm is a **Dormant Force** with its **Dormant Pulses**: a group of ships that never start a fight and hit very hard once they are woken. There is only one in each world's Danger Sectors (the [Deep Void](/wiki/03-Mechanics/Deep-Void.md#the-dormant-swarms-visit) has a visit of its own, once a day). It wanders from one Danger Sector to the next, and it is the hardest fight and the richest drop of the swarms: a fight for a large group of the strongest ships. From season day 11 it starts at the [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) on `DS-4`, comes back sooner and pays twice as much (see the *At a glance* list).
 
 ## At a glance
 
@@ -16,7 +16,7 @@ The Dormant Swarm is a **Dormant Force** with its **Dormant Pulses**: a group of
 - **Leader destroyed**: A Dormant Pulse takes over as leader
 - **Leader destroyed**: The followers leave 30 s after the leader is destroyed, attacking or not
 - **Travels**: Stays 8 to 15 min on a map, then flies to the gate of another Danger Sector. It never takes the gates out of the Danger Sectors and never enters the black hole's ring
-- **Comes back**: 1 h after the whole swarm is destroyed, in a random Danger Sector
+- **Comes back**: {{guide:vitals.respawn@Dormant Force#1;Dormant Force#2;Dormant Force#3}} after the whole swarm is destroyed, in a random Danger Sector
 - **From season day 11**: It appears at the [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) on `DS-4` instead of a random Danger Sector, comes back 30 min after the whole swarm is destroyed, and every ship pays ×2 (Credits, Thulium, XP and Honor; the drop stays the same)
 - **Announced**: The pilots of the whole world are told when the swarm appears and when it is destroyed. These are System lines: they show in the chat's **System** tab, with an unread count, and not in **Global** or **Local**. A marker shows it on the maps of the Danger Sectors and on the galaxy map. The kill feed names the pilot credited with the kill.
 
@@ -36,6 +36,19 @@ They are passive: they never go after a pilot. Hit one of them, and the others c
 - **Its lasers decide the fight.** Together they can destroy a Paragon in under a minute, and even one with the best shields in under two, rockets or not: bring your damage fast, with the best shields you have.
 - **Ship by ship.** Each ship has its own hull and its own pay, so the Force or a Pulse can be destroyed first. The swarm is replaced only when all of it is destroyed, after the time in the *At a glance* list.
 
+## The leader's three steps {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Its fight has three steps ([how they work](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); each one happens once.
+
+- **At the start**: Takes 70% of every hit while one of its Dormant Pulses lives.
+- **Under two thirds**: Its Dormant Pulses fire a rocket every 2.5 s for 15 s.
+- **Under a third**: While all its Dormant Pulses live they mend it by 5% of its hull a second for 6 s.
+
+<!-- mob-ladder:end -->
+
 ## Rewards and drops
 
 Each ship pays by itself, by the damage dealt to it ([how a boss kill pays](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)), and each drops a box for the pilot who dealt the most damage to it. The **Force's box** is the prize: a great deal of x3 and x4 ammo, Epic rockets of one kind, and, now and then, a N.I.K.E. or a N.U.K.E. The **Pulses** may drop an Ancient Control Unit, a Power Core or Dark Matter. A minute of fighting the swarm pays more than a minute of fighting the Crystalys, the best-paid alien. From season day 11 every ship pays twice as much (the *At a glance* list); the boxes are the same.
@@ -53,27 +66,24 @@ Built from the Wraith at 100% of its hull and 300% of its laser damage; its spee
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Hull | 256,000 | 384,000 | 512,000 |
-| Shield | 83,400 | 125,100 | 166,800 |
-| Laser damage (a volley a second) | 3,315 | 4,973 | 6,630 |
-| Speed | 210 | 210 | 210 |
+| Hull | {{guide:vitals.hull@Dormant Force#1}} | {{guide:vitals.hull@Dormant Force#2}} | {{guide:vitals.hull@Dormant Force#3}} |
+| Shield | {{guide:vitals.shield@Dormant Force#1}} | {{guide:vitals.shield@Dormant Force#2}} | {{guide:vitals.shield@Dormant Force#3}} |
+| Laser damage (a volley a second) | {{guide:vitals.dps@Dormant Force#1}} | {{guide:vitals.dps@Dormant Force#2}} | {{guide:vitals.dps@Dormant Force#3}} |
+| Speed | {{guide:vitals.speed@Dormant Force#1}} | {{guide:vitals.speed@Dormant Force#2}} | {{guide:vitals.speed@Dormant Force#3}} |
 | Laser range | 800 | 800 | 800 |
 | Aggro radius | only when attacked | only when attacked | only when attacked |
-| Rocket damage, at most | 7,500 | 11,250 | 15,000 |
-| Credits | 185,000 | 370,000 | 555,000 |
-| Thulium | 485 | 970 | 1,455 |
-| Experience (XP) | 29,200 | 58,400 | 87,600 |
-| Honor | 127 | 254 | 381 |
+| Rocket damage, at most | {{guide:behaviour.ability:rocket.damage@Dormant Force#1}} | {{guide:behaviour.ability:rocket.damage@Dormant Force#2}} | {{guide:behaviour.ability:rocket.damage@Dormant Force#3}} |
+| Credits | {{guide:spoils.pay.credits@Dormant Force#1}} | {{guide:spoils.pay.credits@Dormant Force#2}} | {{guide:spoils.pay.credits@Dormant Force#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Dormant Force#1}} | {{guide:spoils.pay.thulium@Dormant Force#2}} | {{guide:spoils.pay.thulium@Dormant Force#3}} |
+| Experience (XP) | {{guide:spoils.pay.experience@Dormant Force#1}} | {{guide:spoils.pay.experience@Dormant Force#2}} | {{guide:spoils.pay.experience@Dormant Force#3}} |
+| Honor | {{guide:spoils.pay.honor@Dormant Force#1}} | {{guide:spoils.pay.honor@Dormant Force#2}} | {{guide:spoils.pay.honor@Dormant Force#3}} |
 | PvE points per kill | 25 | 25 | 25 |
 
 **Drop**: one box, for the pilot who dealt the most damage.
 
-| Item | Chance | Amount |
-| :--- | ---: | ---: |
-| Ultra Core and Experimental Fusion Core, shared evenly | 100% | 2,000–3,000 in all |
-| One of the 4 Epic [rockets](/wiki/06-Items/Rockets.md), picked at random | 100% | 30–50 |
-| One of [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) and [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets), picked at random | 50% | 1 |
-| Heartshard | 5% | 1 |
+| Item |
+| :--- |
+| {{guide:spoils.box@Dormant Force#1;Dormant Force#2;Dormant Force#3}} |
 
 ### Dormant Pulse
 
@@ -81,25 +91,23 @@ Built from the Paragon at 100% of its hull and 600% of its laser damage; its spe
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Hull | 128,000 | 192,000 | 256,000 |
-| Shield | 64,570 | 96,855 | 129,140 |
-| Laser damage (a volley a second) | 5,100 | 7,650 | 10,200 |
-| Speed | 270 | 270 | 270 |
+| Hull | {{guide:vitals.hull@Dormant Pulse#1}} | {{guide:vitals.hull@Dormant Pulse#2}} | {{guide:vitals.hull@Dormant Pulse#3}} |
+| Shield | {{guide:vitals.shield@Dormant Pulse#1}} | {{guide:vitals.shield@Dormant Pulse#2}} | {{guide:vitals.shield@Dormant Pulse#3}} |
+| Laser damage (a volley a second) | {{guide:vitals.dps@Dormant Pulse#1}} | {{guide:vitals.dps@Dormant Pulse#2}} | {{guide:vitals.dps@Dormant Pulse#3}} |
+| Speed | {{guide:vitals.speed@Dormant Pulse#1}} | {{guide:vitals.speed@Dormant Pulse#2}} | {{guide:vitals.speed@Dormant Pulse#3}} |
 | Laser range | 800 | 800 | 800 |
 | Aggro radius | only when attacked | only when attacked | only when attacked |
-| Rocket damage, at most | 5,000 | 7,500 | 10,000 |
-| Credits | 105,000 | 210,000 | 315,000 |
-| Thulium | 275 | 550 | 825 |
-| Experience (XP) | 16,600 | 33,200 | 49,800 |
-| Honor | 72 | 144 | 216 |
+| Rocket damage, at most | {{guide:behaviour.ability:rocket.damage@Dormant Pulse#1}} | {{guide:behaviour.ability:rocket.damage@Dormant Pulse#2}} | {{guide:behaviour.ability:rocket.damage@Dormant Pulse#3}} |
+| Credits | {{guide:spoils.pay.credits@Dormant Pulse#1}} | {{guide:spoils.pay.credits@Dormant Pulse#2}} | {{guide:spoils.pay.credits@Dormant Pulse#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Dormant Pulse#1}} | {{guide:spoils.pay.thulium@Dormant Pulse#2}} | {{guide:spoils.pay.thulium@Dormant Pulse#3}} |
+| Experience (XP) | {{guide:spoils.pay.experience@Dormant Pulse#1}} | {{guide:spoils.pay.experience@Dormant Pulse#2}} | {{guide:spoils.pay.experience@Dormant Pulse#3}} |
+| Honor | {{guide:spoils.pay.honor@Dormant Pulse#1}} | {{guide:spoils.pay.honor@Dormant Pulse#2}} | {{guide:spoils.pay.honor@Dormant Pulse#3}} |
 | PvE points per kill | 11 | 11 | 11 |
 
 **Drop**: one box, for the pilot who dealt the most damage.
 
-| Item | Chance | Amount |
-| :--- | ---: | ---: |
-| Ancient Control Unit | 20% | 1 |
-| Power Core | 20% | 1 |
-| Dark Matter | 20% | 1–5 |
+| Item |
+| :--- |
+| {{guide:spoils.box@Dormant Pulse#1;Dormant Pulse#2;Dormant Pulse#3}} |
 
 <!-- dormant-members:end -->

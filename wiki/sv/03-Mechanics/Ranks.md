@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 38daca85a103c20f -->
+<!-- wiki-i18n source: d45e1534593782f8 -->
 <!-- wiki-i18n title: Grader -->
 # Grader {#ranks}
 
@@ -137,6 +137,7 @@ En segare utomjording är värd mer: en nedskjutning ger poäng efter hur mycket
 | Slumbering Void | 10 |
 | Inert Mass | 15 |
 | The Unwakened | 112 |
+| Deep Mass | 15 |
 | Brood Warden I, II, III | 14, 18, 35 |
 | Siege Warden I, II, III | 13, 17, 32 |
 | Wrath Warden I, II, III | 14, 18, 34 |
@@ -144,7 +145,7 @@ En segare utomjording är värd mer: en nedskjutning ger poäng efter hur mycket
 | Siege Escort I, II, III | 2, 3, 6 |
 | Wrath Guard I, II, III | 2, 3, 6 |
 
-De fem första raderna är de vanliga utomjordingarna, de tolv nästa de sex svärmarnas skepp och de tre nästa utomjordingarna i [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) (från säsongsdag 11). Sist kommer klanväktarna, ledarna i en klanväktarstrid, och deras besättningar, Brood Drone, Siege Escort och Wrath Guard: I, II och III är väktarens styrka, och poängen står i den ordningen.
+De fem första raderna är de vanliga utomjordingarna, de tolv nästa de sex svärmarnas skepp och de tre nästa utomjordingarna i [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) (från säsongsdag 11) och den nästa **Deep Mass** i [Deep Void](/wiki/03-Mechanics/Deep-Void.md), Inert Mass med tjockare sköld. Sist kommer klanväktarna, ledarna i en klanväktarstrid, och deras besättningar, Brood Drone, Siege Escort och Wrath Guard: I, II och III är väktarens styrka, och poängen står i den ordningen.
 
 Till exempel har en pilot på nivå 4 med 12 500 erfarenhet och 900 heder som har förstört 300 Seeker, 80 Phantasm och 10 Bulwark 400 + 12 + 9 + 300 + 160 + 40 = **921** poäng. Det gör honom eller henne till Sergeant: minimum är 800, och nästa grad, Senior sergeant, kräver 1 000. Upp till Senior överste räknas bara poängen.
 

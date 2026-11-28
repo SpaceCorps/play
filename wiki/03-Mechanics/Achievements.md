@@ -1,13 +1,13 @@
 # Achievements
 
-Achievements are the goals of a pilot's whole career: destroy your first alien, reach level 21, hold a billion credits, live through a wipe. The game counts them for you. There are **50** of them, in **8** groups and **5** tiers. Each one pays **once per account, for good**: credits for every one, and for most of them a **title** to wear beside your name. A wipe never takes an achievement, its reward or its title back.
+Achievements are the goals of a pilot's whole career: destroy your first alien, reach level 21, hold a billion credits, live through a wipe. The game counts them for you. There are **65** of them, in **8** groups and **5** tiers. Each one pays **once per account, for good**: credits for every one, and for most of them a **title** to wear beside your name. A wipe never takes an achievement, its reward or its title back.
 
 **In one minute**
 
 - Open **Community › Achievements** in the station to see every goal, how far you are and what it pays.
 - The tier (Common, Uncommon, Rare, Epic or Legendary) sets the credits: the harder the goal, the higher the tier.
 - You are paid the moment you reach a goal, in flight or at the station. A card shows the achievement and its reward, and the Game Log keeps a line.
-- **5** of the 50 are hidden: the page shows them as closed cards until you unlock them. They count in the 50 and are not named here.
+- **5** of the 65 are hidden: the page shows them as closed cards until you unlock them. They count in the 65 and are not named here.
 - In the Steam build your achievements also show on your Steam profile, once you have linked your account (see below).
 
 ## Tiers and rewards
@@ -17,16 +17,16 @@ The five tiers pay the same for every achievement in them, once. The table count
 | Tier | Achievements | Credits each |
 | :--- | ---: | ---: |
 | Common | 11 | 50,000 |
-| Uncommon | 9 | 150,000 |
-| Rare | 16 | 500,000 |
-| Epic | 8 | 2,000,000 |
-| Legendary | 6 | 5,000,000 |
+| Uncommon | 13 | 150,000 |
+| Rare | 20 | 500,000 |
+| Epic | 12 | 2,000,000 |
+| Legendary | 9 | 5,000,000 |
 
-All 50 together pay **55,900,000** credits, once in a pilot's life.
+All 65 together pay **81,500,000** credits, once in a pilot's life.
 
 ## The achievements
 
-The 45 achievements that are not hidden, by group. Where a goal counts something, it counts over your whole career.
+The 60 achievements that are not hidden, by group. Where a goal counts something, it counts over your whole career.
 
 ### Combat {#group-combat}
 
@@ -75,7 +75,7 @@ The 45 achievements that are not hidden, by group. Where a goal counts something
 | Station Builder | Build 5 different Skylab modules. | Common |
 | Fully Fitted | Build all 16 Skylab modules. | Epic |
 | Scholar | Research 50 technologies. | Uncommon |
-| Archivist | Research all 210 technologies. | Legendary |
+| Archivist | Research all 212 technologies. | Legendary |
 
 ### Fleet {#group-fleet}
 
@@ -95,6 +95,21 @@ The 45 achievements that are not hidden, by group. Where a goal counts something
 | Event Horizon | Enter Danger Sector DS-4. | Uncommon |
 | Prospector | Destroy 500 asteroids. | Uncommon |
 | Far Horizons | Finish 10 Skylab Expedition trips. | Rare |
+| Lamplighter I | Kindle 10 different Lanterns in the Deep Void. | Uncommon |
+| Lamplighter II | Kindle 39 different Lanterns in the Deep Void. | Rare |
+| Lamplighter III | Kindle all 78 Lanterns of the Deep Void. | Epic |
+| Cartographer I | Explore 25 % of DV-1 in the Deep Void. | Uncommon |
+| Cartographer II | Explore 50 % of DV-1 in the Deep Void. | Rare |
+| Cartographer III | Explore 75 % of DV-1 in the Deep Void. | Epic |
+| Cartographer IV | Explore every square of DV-1 in the Deep Void. | Legendary |
+| Xenologist I | Fully research 10 entries of the Traveler's Guide. | Uncommon |
+| Xenologist II | Fully research 50 entries of the Traveler's Guide. | Rare |
+| Xenologist III | Fully research 100 entries of the Traveler's Guide. | Epic |
+| Xenologist IV | Fully research every entry of the Traveler's Guide. | Legendary |
+| Gatewright I | Put 50,000 Thulium into Void Gates (a Dark Matter Plate counts as 10,000). | Uncommon |
+| Gatewright II | Put 250,000 Thulium into Void Gates (a Dark Matter Plate counts as 10,000). | Rare |
+| Gatewright III | Put 1,000,000 Thulium into Void Gates (a Dark Matter Plate counts as 10,000). | Epic |
+| Gatewright IV | Put 5,000,000 Thulium into Void Gates (a Dark Matter Plate counts as 10,000). | Legendary |
 
 ### Clan {#group-clan}
 
@@ -121,7 +136,7 @@ A hidden achievement that is still locked is a closed card with no goal and no b
 
 ## Titles
 
-A **title** is a short line of text beside a pilot's name. 32 of the 50 achievements give one, yours for good when you unlock the achievement. Titles also come from the end of a season (your rank, the best pilot of each company and the pilot with the most PvE points) and from the game's team, such as the **Pioneer** title for every account that existed on the day the game launched on Steam.
+A **title** is a short line of text beside a pilot's name. 32 of the 65 achievements give one, yours for good when you unlock the achievement. Titles also come from the end of a season (your rank, the best pilot of each company and the pilot with the most PvE points) and from the game's team, such as the **Pioneer** title for every account that existed on the day the game launched on Steam.
 
 - You own many titles and **wear one** at a time. You choose it on your **pilot profile**, and you can take it off again.
 - Your title shows on your **profile**, in the **Rankings**, in the **Group** window and when you point at your name in the **chat**. Since 0.4.27 it also shows on the map: a small, dim line in the title's rarity colour **above the name of every pilot's ship**, yours included. A long title is cut with an ellipsis. In a crowd (more than eight pilots on the screen) only your friends, your target and the ship you selected keep theirs, so the screen stays readable. It does not show in the Target window or on the minimap.

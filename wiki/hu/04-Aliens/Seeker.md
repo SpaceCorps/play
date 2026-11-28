@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b9bfffab24f7eda8 -->
+<!-- wiki-i18n source: 6acaa0292fff4664 -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker
 
@@ -6,10 +6,10 @@ A Seeker idegenek egyszerű felderítő- és megfigyelőegységek. Passzívak, v
 
 ## Értékek {#stats}
 
-- **Életerő (HP)**: 800
-- **Pajzs**: 800
-- **Sebzés**: 180
-- **Sebesség**: 120
+- **Életerő (HP)**: {{guide:vitals.hull@Seeker#1}}
+- **Pajzs**: {{guide:vitals.shield@Seeker#1}}
+- **Sebzés**: {{guide:vitals.dps@Seeker#1}}
+- **Sebesség**: {{guide:vitals.speed@Seeker#1;Seeker#2;Seeker#3;Seeker#4}}
 - **Támadási hatótáv**: 600
 - **Viselkedés**: Passzív
 
@@ -24,10 +24,10 @@ A Seeker idegenek egyszerű felderítő- és megfigyelőegységek. Passzívak, v
 
 ## Jutalmak {#rewards}
 
-- **Kredit**: 1 000
-- **Thulium**: 4
-- **Tapasztalat (XP)**: 100
-- **Becsület**: 2
+- **Kredit**: {{guide:spoils.pay.credits@Seeker#1}}
+- **Thulium**: {{guide:spoils.pay.thulium@Seeker#1}}
+- **Tapasztalat (XP)**: {{guide:spoils.pay.experience@Seeker#1}}
+- **Becsület**: {{guide:spoils.pay.honor@Seeker#1}}
 - **PvE-pont kilövésenként**: 1
 - **Pajzstöltődés**: másodpercenként 10 (15 mp késleltetés)
 
@@ -37,9 +37,11 @@ Egy [rakományláda](/wiki/03-Mechanics/Cargo.md) marad belőle ott, ahol felrob
 
 Hogy melyik zsákmány mire jó, és hol található még: [Nyersanyagok](/wiki/06-Items/Resources.md).
 
-- **Ship Fragment**: 20% esély (min. 1, max. 1)
-- **Daraxium**: 50% esély (min. 1, max. 2)
-- **Echo Shard**: 0,8% esély (min. 1, max. 1)
+- {{guide:spoils.box@Seeker#1;Seeker#2;Seeker#3;Seeker#4}}
+
+## Különleges képességek {#special-abilities}
+
+Az ilyen idegenek közül néhány **különleges képességet** hordoz: valamit, amit egyszer tesz meg, amikor a hajóteste félig elfogyott. Előtte semmi sem látszik. A [Különleges képességek](/wiki/03-Mechanics/Special-Abilities.md) oldal elmondja, mit tesz az egyes képesség, és hogyan felelhetsz rá.
 
 ## Háttértörténet {#lore}
 

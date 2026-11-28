@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f36888650a9078b3 -->
+<!-- wiki-i18n source: 3c16398b0ab82842 -->
 <!-- wiki-i18n title: Miyuki -->
 # Miyuki
 
@@ -62,6 +62,8 @@ A Miyuki képességei a hajóhoz tartoznak, nem egy tárgyhoz: nem foglalnak ké
 | **Miyuki V** | 7,5 mp, 30 000 + 3% | másodpercenként 75 000 hajótest (te 10 000), 100 mp | másodpercenként 150 000 + 5% pajzs (te 30 000 + 5%), 80 mp |
 
 Egy kapcsolat 5 másodpercig tart, és a csoportod vagy a vállalatod egy hajójáig ér 1 200 egységen belül. A Heal Pod 600-ig ér. A Channel Shield a pontjain felül minden másodpercben visszatölti mindkét hajó saját maximális pajzsának egy részét is: a Miyuki III-nál 3%-ot, a IV-nél 4%-ot, az V-nél 5%-ot (a táblázat százaléka).
+
+Minden szint megkapja a **Revive**-ot is, az utolsó gombként. Ha a csoportod vagy a vállalatod egy pilótája megsemmisül, a hajója 30 másodpercig lerobbant marad; ha 10 másodpercig 600 egységen belül maradsz, a pilóta ott tér vissza, ahol meghalt, a Revive pedig 120 másodpercet pihen. A többit a [Hajóképességek](/wiki/03-Mechanics/Abilities.md#ship-abilities) mondja el.
 
 A [Gyógyítás](/wiki/03-Mechanics/Pilot-Skills.md) pilótakészséged mindhármon működik: a 100. szinten a Heal Podot, a Channel Healt és a Channel Shieldet (a pontjaikat és a maximális pajzsból vett hányadukat) 30%-kal erősebbé teszi, a várakozásukat pedig 10%-kal rövidíti, így egy Channel Heal, amely 100 másodpercet pihen, 90-et pihen. A fenti táblázatok a számokat nélküle adják.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: abb582fd63389ab9 -->
+<!-- wiki-i18n source: 2eff9c368449da99 -->
 <!-- wiki-i18n title: Phantasm 虫群 -->
 # Phantasm 虫群 {#phantasm-swarm}
 
@@ -17,14 +17,14 @@ Phantasm 虫群由一个 **Boss Phantasm** 和它的 **Phantasm Guard** 组成�
 - **随从停留范围**：距头领不超过 500 单位
 - **治疗**：距头领 600 单位以内的每个 Phantasm Guard 都会治疗它的船体，在 Alpha 中每秒 30 HP
 - **头领被击毁后**：头领被击毁后 30 秒，随从会离开，除非它们正在攻击
-- **回归**：头领 被击毁 2 分钟 后， 在同一星区
+- **回归**：头领 被击毁 {{guide:vitals.respawn@Boss Phantasm#1;Boss Phantasm#2;Boss Phantasm#3}} 后， 在同一星区
 - **通知**：该星区的飞行员会被告知头领何时出现、何时被击毁。这些是系统行：它们显示在聊天的**系统**标签页中，带有未读计数，不会出现在**全球**或**本地**标签页里。击杀播报会写明获得这次击杀功劳的飞行员。
 
 <!-- phantasm-glance:end -->
 
 ## 成员 {#the-members}
 
-- **Boss Phantasm**: 一只更大的 Phantasm，带有虫群的色调，头顶显示名字，拥有自己的船体、护盾和激光齐射（数值见下）。它是被动的：一直游荡，直到有飞行员击中它，然后追上该飞行员并向其开火，附近的虫群舰船会加入战斗。它的武器射程和速度与 Phantasm 相同，也从不自己修复船体。
+- **Boss Phantasm**: 一只更大的 Phantasm，带有虫群的色调，头顶显示名字，拥有自己的船体、护盾和激光齐射（数值见下）。它是被动的：一直游荡，直到有飞行员击中它，然后追上该飞行员并向其开火，附近的虫群舰船会加入战斗。它的武器射程和速度与 Phantasm 相同，也从不自己修复船体。它的[三个阶段](#the-leaders-three-steps)和[特殊能力](/wiki/03-Mechanics/Special-Abilities.md)可能改变这一点。
 - **Phantasm Guard**: 一只带有虫群色调的较小 Phantasm。Guard 待在 Boss 附近，附近的虫群舰船被击中时就会加入战斗，每只靠近 Boss 的 Guard 都会为它的船体治疗。Guard 休息一段时间后会修复自己的船体，和 Phantasm 一样。
 
 ## 战斗过程 {#how-the-fight-goes}
@@ -34,6 +34,19 @@ Phantasm 虫群由一个 **Boss Phantasm** 和它的 **Phantasm Guard** 组成�
 - **Beta 和 Gamma 更难。** 这些世界的虫群更强（[世界](/wiki/05-Swarms/Swarms.md#the-worlds)），所以需要更多飞行员或更好的弹药。
 - **留意星区。** `x-4` 在 Alpha 中是 PvP 星区，在 Beta 和 Gamma 中 `x-3` 和 `x-4` 都是（[世界](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)）：对手可能加入战斗，或等着拿货箱。让队里的一艘舰船放哨。
 - **Boss 会回来**，在*一览*列表给出的时间之后，满状态，出现在同一个星区，它的 Guard 会一只接一只地到来。
+
+## 首领的三个阶段 {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+这场战斗有三个阶段（[运作方式](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)）；每个只发生一次。
+
+- **开始时**: 它的每个Phantasm Guards都会撑起一层相当于自身船体 10% 的护盾。
+- **低于三分之二时**: 出现 3 个它的分身，真身带一圈光环。
+- **低于三分之一时**: 闪现到离飞行员约 2,500 单位的地方，它的Phantasm Guards完好无损地回到它周围。
+
+<!-- mob-ladder:end -->
 
 ## 奖励与掉落 {#rewards-and-drops}
 
@@ -52,29 +65,23 @@ Boss Phantasm 的奖励与这场战斗的分量相称：与它战斗一分钟的
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 船体 | 40,000 | 60,000 | 80,000 |
-| 护盾 | 64,000 | 96,000 | 128,000 |
-| 激光伤害 （每秒一轮齐射） | 1,050 | 1,575 | 2,100 |
-| 速度 | 160 | 160 | 160 |
+| 船体 | {{guide:vitals.hull@Boss Phantasm#1}} | {{guide:vitals.hull@Boss Phantasm#2}} | {{guide:vitals.hull@Boss Phantasm#3}} |
+| 护盾 | {{guide:vitals.shield@Boss Phantasm#1}} | {{guide:vitals.shield@Boss Phantasm#2}} | {{guide:vitals.shield@Boss Phantasm#3}} |
+| 激光伤害 （每秒一轮齐射） | {{guide:vitals.dps@Boss Phantasm#1}} | {{guide:vitals.dps@Boss Phantasm#2}} | {{guide:vitals.dps@Boss Phantasm#3}} |
+| 速度 | {{guide:vitals.speed@Boss Phantasm#1}} | {{guide:vitals.speed@Boss Phantasm#2}} | {{guide:vitals.speed@Boss Phantasm#3}} |
 | 激光射程 | 700 | 700 | 700 |
 | 仇恨范围 | 被攻击时 | 被攻击时 | 被攻击时 |
-| 信用点 | 39,000 | 78,000 | 117,000 |
-| Thulium | 195 | 390 | 585 |
-| 经验值（XP） | 7,800 | 15,600 | 23,400 |
-| 荣誉 | 62 | 124 | 186 |
+| 信用点 | {{guide:spoils.pay.credits@Boss Phantasm#1}} | {{guide:spoils.pay.credits@Boss Phantasm#2}} | {{guide:spoils.pay.credits@Boss Phantasm#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Boss Phantasm#1}} | {{guide:spoils.pay.thulium@Boss Phantasm#2}} | {{guide:spoils.pay.thulium@Boss Phantasm#3}} |
+| 经验值（XP） | {{guide:spoils.pay.experience@Boss Phantasm#1}} | {{guide:spoils.pay.experience@Boss Phantasm#2}} | {{guide:spoils.pay.experience@Boss Phantasm#3}} |
+| 荣誉 | {{guide:spoils.pay.honor@Boss Phantasm#1}} | {{guide:spoils.pay.honor@Boss Phantasm#2}} | {{guide:spoils.pay.honor@Boss Phantasm#3}} |
 | 每次击杀的 PvE 积分 | 8 | 8 | 8 |
 
 **掉落**：一个货箱，归造成伤害最多的飞行员。
 
-| 物品 | 几率 | 数量 |
-| :--- | ---: | ---: |
-| Ship Fragment | 13 次判定中每次 100% | 1 |
-| Daraxium | 13 次判定中每次 60% | 1–2 |
-| Nyxite | 13 次判定中每次 60% | 1–2 |
-| Standard Battery | 100% | 600–1,200 |
-| Advanced Plasma | 100% | 60–100 |
-| Ultra Core | 100% | 10–20 |
-| 可用信用点购买的 4 种 [火箭](/wiki/06-Items/Rockets.md) 中随机一种 | 100% | 4–6 |
+| 物品 |
+| :--- |
+| {{guide:spoils.box@Boss Phantasm#1;Boss Phantasm#2;Boss Phantasm#3}} |
 
 ### Phantasm Guard
 
@@ -82,17 +89,17 @@ Boss Phantasm 的奖励与这场战斗的分量相称：与它战斗一分钟的
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 船体 | 1,000 | 1,500 | 2,000 |
-| 护盾 | 1,600 | 2,400 | 3,200 |
-| 激光伤害 （每秒一轮齐射） | 175 | 263 | 350 |
-| 速度 | 160 | 160 | 160 |
+| 船体 | {{guide:vitals.hull@Phantasm Guard#1}} | {{guide:vitals.hull@Phantasm Guard#2}} | {{guide:vitals.hull@Phantasm Guard#3}} |
+| 护盾 | {{guide:vitals.shield@Phantasm Guard#1}} | {{guide:vitals.shield@Phantasm Guard#2}} | {{guide:vitals.shield@Phantasm Guard#3}} |
+| 激光伤害 （每秒一轮齐射） | {{guide:vitals.dps@Phantasm Guard#1}} | {{guide:vitals.dps@Phantasm Guard#2}} | {{guide:vitals.dps@Phantasm Guard#3}} |
+| 速度 | {{guide:vitals.speed@Phantasm Guard#1}} | {{guide:vitals.speed@Phantasm Guard#2}} | {{guide:vitals.speed@Phantasm Guard#3}} |
 | 激光射程 | 700 | 700 | 700 |
 | 仇恨范围 | 被攻击时 | 被攻击时 | 被攻击时 |
 | 治疗头领 （每个，每秒，仅船体） | 30 | 45 | 60 |
-| 信用点 | 125 | 250 | 375 |
-| Thulium | 1 | 2 | 3 |
-| 经验值（XP） | 12 | 24 | 36 |
-| 荣誉 | 1 | 2 | 3 |
+| 信用点 | {{guide:spoils.pay.credits@Phantasm Guard#1}} | {{guide:spoils.pay.credits@Phantasm Guard#2}} | {{guide:spoils.pay.credits@Phantasm Guard#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Phantasm Guard#1}} | {{guide:spoils.pay.thulium@Phantasm Guard#2}} | {{guide:spoils.pay.thulium@Phantasm Guard#3}} |
+| 经验值（XP） | {{guide:spoils.pay.experience@Phantasm Guard#1}} | {{guide:spoils.pay.experience@Phantasm Guard#2}} | {{guide:spoils.pay.experience@Phantasm Guard#3}} |
+| 荣誉 | {{guide:spoils.pay.honor@Phantasm Guard#1}} | {{guide:spoils.pay.honor@Phantasm Guard#2}} | {{guide:spoils.pay.honor@Phantasm Guard#3}} |
 | 每次击杀的 PvE 积分 | 1 | 1 | 1 |
 
 **掉落**：无。击杀只支付信用点、Thulium、经验值和荣誉。

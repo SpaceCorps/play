@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f36888650a9078b3 -->
+<!-- wiki-i18n source: 3c16398b0ab82842 -->
 <!-- wiki-i18n title: Miyuki -->
 # Miyuki
 
@@ -62,6 +62,8 @@ Les compétences du Miyuki appartiennent au vaisseau, pas à un objet : elles n
 | **Miyuki V** | 7,5 s, 30 000 + 3 % | 75 000 de coque par seconde (vous 10 000), 100 s | 150 000 + 5 % de bouclier par seconde (vous 30 000 + 5 %), 80 s |
 
 Un lien dure 5 secondes et atteint un vaisseau de votre groupe ou de votre corporation à moins de 1 200 unités. Le Heal Pod porte à 600. Un Channel Shield rend en plus de ses points, chaque seconde, une part du bouclier maximum propre à chaque vaisseau : 3 % au niveau III, 4 % au niveau IV et 5 % au niveau V (le pourcentage du tableau).
+
+Chaque niveau a aussi le **Revive**, son dernier bouton. Quand un pilote de votre groupe ou de votre corporation est détruit, son vaisseau reste en panne 30 secondes ; si vous restez 10 secondes à moins de 600 unités de lui, le pilote revient là où il est mort, et le Revive se recharge 120 secondes. [Compétences de vaisseau](/wiki/03-Mechanics/Abilities.md#ship-abilities) donne le reste.
 
 Votre aptitude de pilote [Soins](/wiki/03-Mechanics/Pilot-Skills.md) agit sur les trois : au niveau 100, elle rend le Heal Pod, le Channel Heal et le Channel Shield (leurs points et leur part du bouclier maximum) 30 % plus forts et raccourcit leurs attentes de 10 %, si bien qu’un Channel Heal qui se repose 100 secondes n’en attend plus que 90. Les tableaux ci-dessus donnent les chiffres sans elle.
 

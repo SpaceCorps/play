@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b2be88dc510d05b9 -->
+<!-- wiki-i18n source: d63cabc4771409f4 -->
 <!-- wiki-i18n title: 激光 -->
 # 激光与弹药 {#lasers-ammo}
 
@@ -163,7 +163,7 @@ Ship Fragment、Cataclysite、Power Core 和 Reinforced Hull Plate 由外星人�
 
 **新弹药从哪里来。** 自 0.5.0 起，Experimental Fusion Core 不再出售：你需要在 Skylab 的研究中心研究 **Military Grade Ammo II** 之后，在[装配站](/wiki/06-Items/Overview.md#the-production-queue)自行制造，每次 1,000 个。Ultra Core 仍然可以购买，也可以制造（**Military Grade Ammo I**，研究 30 分钟）。五种新弹药只能制造，每一种都位于 **Laser Ammo** 系列的一项科技之后，并且都由下一级的弹药制成：**Siphon Battery II**（由 Siphon Battery 制成）、**Antimatter Battery I**（由 Siphon Battery II 制成）和 **II**（由 Antimatter Battery I 和少量 [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md) 制成）、**Dark Matter Ammo I**（由原材料和一个 Dark Matter 制成）和 **II**（由 Dark Matter Ammo I 和 Dark Matter 制成）。一次制造是 1,000 个，耗时 5 到 15 分钟，每个的成本大致等于它的价值。[弹药打印机](/wiki/03-Mechanics/Skylab.md)在你研究之后，也能制造 Ultra Core 和 Experimental Fusion Core。
 
-**护盾穿透**会在你齐射的每一次命中中，从目标的吸收率里扣除：护盾承受的是目标的吸收率减去穿透后的份额（见[护盾机制](/wiki/03-Mechanics/Shields.md#shield-penetration)）。你的 Penetration Amp 和无人机编队会加到弹药的穿透上，完整的总和在[本页下方](#shield-penetration-of-a-laser-hit)。对付吸收率为 91% 的舰船（最强的护盾配最强的电池），x4 弹药的 10% 会让护盾只承受 81% 的伤害，船体承受 19%，而 Antimatter 弹药的 20% 会让护盾承受 71%，船体承受 29%。它对付船体相对护盾较小的舰船时最有价值；而一艘吸收率 91% 的超大型舰船，无论有没有穿透，撑住的程度都没有区别。外星人没有值得一提的吸收率属性（它们的护盾承受一次命中的 80%），穿透同样会从中扣除。
+**护盾穿透**会在你齐射的每一次命中中，从目标的吸收率里扣除：护盾承受的是目标的吸收率减去穿透后的份额（见[护盾机制](/wiki/03-Mechanics/Shields.md#shield-penetration)）。你的 Penetration Amp 和无人机编队会加到弹药的穿透上，完整的总和在[本页下方](#shield-penetration-of-a-laser-hit)。对付吸收率为 91% 的舰船（最强的护盾配最强的电池），x4 弹药的 10% 会让护盾只承受 81% 的伤害，船体承受 19%，而 Antimatter 弹药的 20% 会让护盾承受 71%，船体承受 29%。它对付船体相对护盾较小的舰船时最有价值；而一艘吸收率 91% 的超大型舰船，无论有没有穿透，撑住的程度都没有区别。外星人没有值得一提的吸收率属性（它们的护盾承受一次命中的 80%，在 Deep Void 中是 90%），穿透同样会从中扣除。
 
 ### Siphon Battery
 
@@ -230,5 +230,5 @@ Siphon Battery 是用来偷取护盾而不是打穿船体的弹药。它对**目
 **Penetration Amp 能克制吸收率，吸收率越高越有用：面对船体较小的舰船，在约 108%（赛季商店、锻造炉和 Rampart 的配置）时，Penetration 配置击杀速度约为最好的普通配置的 12 倍；面对出厂最好的护盾（91%），三个 Penetration Amp 比三个同阶的 Crit Amp 约少用 47% 的时间。面对外星人，装备 Gemini 时对 Phantasm 或 Goombah 约多出 18%，对 Seeker、Bulwark 或 Crystalys 则毫无收益。**
 
 - **它不提供伤害。** 在 Helios Beam 上，三个 Penetration Amp IV 每次齐射只有 158 点伤害（弹药 x1，随机波动和暴击的平均值），而三个 Damage Amp IV 是 342，三个 Crit Amp IV 是 416：前者的一半，后者的三分之一多一点。它夺回的是护盾的份额，所以在船体相对护盾较小、吸收率较高的时候最划算；面对出厂最好护盾的 Wraith 或 Ironclad，它们庞大的船体撑得更久，最多多出 32%，而护盾被加成提到 100% 以上的 Ironclad，仍然最适合用普通的 Crit 组合来对付。
-- **外星人。** 它们的护盾承受命中的 80% 减去你的穿透，而最好的激光（100%）能把它们整个穿透，所以对它们也有效：面对 Phantasm 或 Goombah，装备 Gemini 时 Penetration Amp 在最佳配置里（收益约 18%）。面对 Seeker、Bulwark 或 Crystalys，同阶的 Crit Amp 组合杀起来一样快或更快。
+- **外星人。** 它们的护盾承受命中的 80%（Deep Void 的生物为 90%）减去你的穿透，而最好的激光（100%）能把它们整个穿透，所以对它们也有效：面对 Phantasm 或 Goombah，装备 Gemini 时 Penetration Amp 在最佳配置里（收益约 18%）。面对 Seeker、Bulwark 或 Crystalys，同阶的 Crit Amp 组合杀起来一样快或更快。
 - **代价。** 每个 Penetration Amp IV 需要 4 块 Dark Matter Plate（20 个 Dark Matter），每个 IV 阶增幅器都一样，所以装满 52 个槽位的 Wraith 需要 208 块板，共 1,040 个 Dark Matter。

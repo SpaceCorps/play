@@ -1,24 +1,24 @@
-<!-- wiki-i18n source: 6d3783229000ac9d -->
+<!-- wiki-i18n source: 7f996719b5b4b108 -->
 <!-- wiki-i18n title: Phantasm -->
 # Phantasm
 
-Phantasms sind aggressive Drohnen der Spektralklasse. Sie greifen jeden Spieler an, der in ihren Aggro-Radius (700 Einheiten) eindringt, und verlieren das Interesse, wenn der Pilot mehr als 1.200 Einheiten entfernt ist oder wenn sie selbst von dem Ort, an dem die Verfolgung begann, 2.000 Einheiten weit geflogen sind (2.500 und 3.000 bei einem Piloten, der auf sie geschossen hat, siehe [Kampf](/wiki/03-Mechanics/Combat.md)); einen Piloten, der einen Phantasm in den letzten 10 Sekunden getroffen hat, lässt dieser überhaupt nicht los, und er fliegt auf den Piloten zu, wann immer dieser jenseits der Waffenreichweite des Phantasm (700 Einheiten) steht. Schießen mehrere Piloten auf einen Phantasm, bleibt er bei dem Piloten, der zuerst auf ihn geschossen hat, solange dieser Pilot ihn weiter trifft (siehe [Gegen wen ein Alien kämpft](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)). Die Schiffe der [Schwärme](/wiki/05-Swarms/Swarms.md) sind eigene Arten von Aliens mit eigenen Artikeln in der Kategorie Schwärme.
+Phantasms sind aggressive Drohnen der Spektralklasse. Sie greifen jeden Spieler an, der in ihren Aggro-Radius ({{guide:vitals.aggro@Phantasm#1;Phantasm#2;Phantasm#3;Phantasm#4}} Einheiten) eindringt, und verlieren das Interesse, wenn der Pilot mehr als 1.200 Einheiten entfernt ist oder wenn sie selbst von dem Ort, an dem die Verfolgung begann, 2.000 Einheiten weit geflogen sind (2.500 und 3.000 bei einem Piloten, der auf sie geschossen hat, siehe [Kampf](/wiki/03-Mechanics/Combat.md)); einen Piloten, der einen Phantasm in den letzten 10 Sekunden getroffen hat, lässt dieser überhaupt nicht los, und er fliegt auf den Piloten zu, wann immer dieser jenseits der Waffenreichweite des Phantasm (700 Einheiten) steht. Schießen mehrere Piloten auf einen Phantasm, bleibt er bei dem Piloten, der zuerst auf ihn geschossen hat, solange dieser Pilot ihn weiter trifft (siehe [Gegen wen ein Alien kämpft](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)). Die Schiffe der [Schwärme](/wiki/05-Swarms/Swarms.md) sind eigene Arten von Aliens mit eigenen Artikeln in der Kategorie Schwärme.
 
 ## Werte {#stats}
 
-- **Trefferpunkte (HP)**: 2.000
-- **Schild**: 3.200
-- **Schaden**: 350
-- **Tempo**: 160
+- **Trefferpunkte (HP)**: {{guide:vitals.hull@Phantasm#1}}
+- **Schild**: {{guide:vitals.shield@Phantasm#1}}
+- **Schaden**: {{guide:vitals.dps@Phantasm#1}}
+- **Tempo**: {{guide:vitals.speed@Phantasm#1;Phantasm#2;Phantasm#3;Phantasm#4}}
 - **Angriffsreichweite**: 700
 - **Verhalten**: Aggressiv
 
 ## Belohnungen {#rewards}
 
-- **Credits**: 3.000
-- **Thulium**: 12
-- **Erfahrung (EP)**: 300
-- **Ehre**: 6
+- **Credits**: {{guide:spoils.pay.credits@Phantasm#1}}
+- **Thulium**: {{guide:spoils.pay.thulium@Phantasm#1}}
+- **Erfahrung (EP)**: {{guide:spoils.pay.experience@Phantasm#1}}
+- **Ehre**: {{guide:spoils.pay.honor@Phantasm#1}}
 - **PvE-Punkte pro Abschuss**: 2
 - **Schildaufladung**: 20 pro Sekunde (15 s Verzögerung)
 
@@ -28,10 +28,11 @@ Die Beute fällt als [Frachtkiste](/wiki/03-Mechanics/Cargo.md) dort, wo er expl
 
 Wofür jede Beute gebraucht wird und wo es sie sonst noch gibt: [Ressourcen](/wiki/06-Items/Resources.md).
 
-- **Ship Fragment**: 100 % Chance (Min.: 1, Max.: 1)
-- **Daraxium**: 60 % Chance (Min.: 1, Max.: 2)
-- **Nyxite**: 60 % Chance (Min.: 1, Max.: 2)
-- **Echo Shard**: 2 % Chance (Min.: 1, Max.: 1)
+- {{guide:spoils.box@Phantasm#1;Phantasm#2;Phantasm#3;Phantasm#4}}
+
+## Spezialfähigkeiten {#special-abilities}
+
+Manche Aliens dieser Art tragen eine **Spezialfähigkeit**: etwas, das sie einmal tun, wenn ihre Hülle zur Hälfte weg ist. Vorher zeigt sich nichts. [Spezialfähigkeiten](/wiki/03-Mechanics/Special-Abilities.md) sagt, was jede Fähigkeit tut und wie du ihr begegnest.
 
 ## Hintergrund {#lore}
 

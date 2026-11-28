@@ -1,34 +1,34 @@
-<!-- wiki-i18n source: 53a080132ff6f6d9 -->
+<!-- wiki-i18n source: aebf7c489ef3ed62 -->
 <!-- wiki-i18n title: Başarımlar -->
 # Başarımlar {#achievements}
 
-Başarımlar, bir pilotun tüm kariyerinin hedefleridir: ilk uzaylını yok et, 21. seviyeye ulaş, bir milyar krediye sahip ol, bir sıfırlamadan sağ çık. Oyun bunları senin için sayar. Bunlardan **50** tane var; **8** grupta ve **5** kademede. Her biri **hesap başına bir kez, ömür boyu** ödeme yapar: hepsi için kredi, çoğu için de adının yanında taşıyabileceğin bir **unvan**. Sıfırlama bir başarımı, ödülünü veya unvanını asla senden geri almaz.
+Başarımlar, bir pilotun tüm kariyerinin hedefleridir: ilk uzaylını yok et, 21. seviyeye ulaş, bir milyar krediye sahip ol, bir sıfırlamadan sağ çık. Oyun bunları senin için sayar. Bunlardan **65** tane var; **8** grupta ve **5** kademede. Her biri **hesap başına bir kez, ömür boyu** ödeme yapar: hepsi için kredi, çoğu için de adının yanında taşıyabileceğin bir **unvan**. Sıfırlama bir başarımı, ödülünü veya unvanını asla senden geri almaz.
 
 **Bir dakikada**
 
 - İstasyonda **Topluluk › Başarımlar** sayfasını aç: her hedefi, ne kadar ilerlediğini ve ne ödediğini görürsün.
 - Kademe (Sıradan, Seyrek, Nadir, Destansı ya da Efsanevi) kredi miktarını belirler: hedef ne kadar zorsa kademe o kadar yüksektir.
 - Bir hedefe ulaştığın anda, uçuşta da istasyonda da ödeme yapılır. Bir kart başarımı ve ödülünü gösterir, Oyun Günlüğü de bir satır tutar.
-- 50 başarımdan **5** tanesi gizlidir: sayfa onları, sen açana kadar kapalı kartlar olarak gösterir. Bu 50 başarımın içinde sayılırlar ve burada adlarıyla anılmazlar.
+- 65 başarımdan **5** tanesi gizlidir: sayfa onları, sen açana kadar kapalı kartlar olarak gösterir. Bu 65 başarımın içinde sayılırlar ve burada adlarıyla anılmazlar.
 - Steam sürümünde, hesabını bağladıktan sonra başarımların Steam profilinde de görünür (aşağıya bak).
 
 ## Kademeler ve ödüller {#tiers-and-rewards}
 
-Beş kademe, içindeki her başarım için aynı ödemeyi yapar, bir kez. Tablo, gizli olanlar dahil 50 başarımın hepsini sayar.
+Beş kademe, içindeki her başarım için aynı ödemeyi yapar, bir kez. Tablo, gizli olanlar dahil 65 başarımın hepsini sayar.
 
 | Kademe | Başarımlar | Başarım başına kredi |
 | :--- | ---: | ---: |
 | Sıradan | 11 | 50.000 |
-| Seyrek | 9 | 150.000 |
-| Nadir | 16 | 500.000 |
-| Destansı | 8 | 2.000.000 |
-| Efsanevi | 6 | 5.000.000 |
+| Seyrek | 13 | 150.000 |
+| Nadir | 20 | 500.000 |
+| Destansı | 12 | 2.000.000 |
+| Efsanevi | 9 | 5.000.000 |
 
-50 başarımın hepsi birlikte **55.900.000** kredi öder; bu, bir pilotun hayatında bir kez olur.
+65 başarımın hepsi birlikte **81.500.000** kredi öder; bu, bir pilotun hayatında bir kez olur.
 
 ## Başarım listesi {#the-achievements}
 
-Gizli olmayan 45 başarım, gruplara göre. Bir hedef bir şey sayıyorsa, tüm kariyerin boyunca sayar.
+Gizli olmayan 60 başarım, gruplara göre. Bir hedef bir şey sayıyorsa, tüm kariyerin boyunca sayar.
 
 ### Savaş {#group-combat}
 
@@ -77,7 +77,7 @@ Gizli olmayan 45 başarım, gruplara göre. Bir hedef bir şey sayıyorsa, tüm 
 | İstasyon Kurucu | 5 farklı Skylab modülü inşa et. | Sıradan |
 | Tam Donanımlı | 16 Skylab modülünün hepsini inşa et. | Destansı |
 | Bilgin | 50 teknoloji araştır. | Seyrek |
-| Arşivci | 210 teknolojinin hepsini araştır. | Efsanevi |
+| Arşivci | 212 teknolojinin hepsini araştır. | Efsanevi |
 
 ### Filo {#group-fleet}
 
@@ -97,6 +97,21 @@ Gizli olmayan 45 başarım, gruplara göre. Bir hedef bir şey sayıyorsa, tüm 
 | Olay Ufku | DS-4 tehlike sektörüne gir. | Seyrek |
 | Maden Arayıcı | 500 asteroit yok et. | Seyrek |
 | Uzak Ufuklar | 10 Skylab seferini tamamla. | Nadir |
+| Fenerci I | Deep Void'de 10 farklı Fener yak. | Seyrek |
+| Fenerci II | Deep Void'de 39 farklı Fener yak. | Nadir |
+| Fenerci III | Deep Void'in 78 Fenerinin hepsini yak. | Destansı |
+| Haritacı I | Deep Void'de DV-1'in %25'ini keşfet. | Seyrek |
+| Haritacı II | Deep Void'de DV-1'in %50'sini keşfet. | Nadir |
+| Haritacı III | Deep Void'de DV-1'in %75'ini keşfet. | Destansı |
+| Haritacı IV | Deep Void'de DV-1'in her karesini keşfet. | Efsanevi |
+| Ksenolog I | Gezgin Rehberi'nde 10 kaydı tamamen araştır. | Seyrek |
+| Ksenolog II | Gezgin Rehberi'nde 50 kaydı tamamen araştır. | Nadir |
+| Ksenolog III | Gezgin Rehberi'nde 100 kaydı tamamen araştır. | Destansı |
+| Ksenolog IV | Gezgin Rehberi'ndeki her kaydı tamamen araştır. | Efsanevi |
+| Geçit Ustası I | Void Gate'lere 50.000 Thulium koy (bir Dark Matter Plate 10.000 sayılır). | Seyrek |
+| Geçit Ustası II | Void Gate'lere 250.000 Thulium koy (bir Dark Matter Plate 10.000 sayılır). | Nadir |
+| Geçit Ustası III | Void Gate'lere 1.000.000 Thulium koy (bir Dark Matter Plate 10.000 sayılır). | Destansı |
+| Geçit Ustası IV | Void Gate'lere 5.000.000 Thulium koy (bir Dark Matter Plate 10.000 sayılır). | Efsanevi |
 
 ### Klan {#group-clan}
 
@@ -123,7 +138,7 @@ Hâlâ kilitli gizli bir başarım, hedefi ve çubuğu olmayan kapalı bir kartt
 
 ## Unvanlar {#titles}
 
-**Unvan**, bir pilotun adının yanındaki kısa bir yazı satırıdır. 50 başarımın 32 tanesi bir unvan verir; başarımı açtığın anda ömür boyu senindir. Unvanlar ayrıca bir sezonun sonundan (rütben, her şirketin en iyi pilotu ve en çok PvE puanı olan pilot) ve oyunun ekibinden gelir; örneğin oyunun Steam’de çıktığı gün var olan her hesaba verilen **Pioneer** unvanı.
+**Unvan**, bir pilotun adının yanındaki kısa bir yazı satırıdır. 65 başarımın 32 tanesi bir unvan verir; başarımı açtığın anda ömür boyu senindir. Unvanlar ayrıca bir sezonun sonundan (rütben, her şirketin en iyi pilotu ve en çok PvE puanı olan pilot) ve oyunun ekibinden gelir; örneğin oyunun Steam’de çıktığı gün var olan her hesaba verilen **Pioneer** unvanı.
 
 - Çok sayıda unvanın olabilir ama aynı anda **birini taşırsın**. Onu **pilot profilinde** seçersin ve yeniden çıkarabilirsin.
 - Unvanın **profilinde**, **Sıralamalar** sayfasında, **Grup** penceresinde ve **sohbette** adının üzerine geldiğinde görünür. 0.4.27’den beri haritada da görünür: unvanın nadirlik renginde küçük, soluk bir satır olarak **her pilotun gemisinin adının üstünde**, seninkinde de. Uzun bir unvan üç noktayla (…) kısaltılır. Kalabalıkta (ekranda sekizden fazla pilot varsa) ekran okunur kalsın diye yalnızca arkadaşlarının, hedefinin ve seçtiğin geminin unvanı kalır. Hedef penceresinde ve mini haritada görünmez.

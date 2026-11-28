@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f34faeb3f3d1ac87 -->
+<!-- wiki-i18n source: 2dc6584f5284ebcf -->
 <!-- wiki-i18n title: Első lépések -->
 # Első lépések a SpaceCorpsban {#getting-started-in-spacecorps}
 
@@ -24,12 +24,14 @@ Az állomáson a Krediteid, a Thuliumod és a Becsületed minden oldal jobb fels
 
 ## Pilótaprofilok {#pilot-profiles}
 
-Kattints egy pilóta nevére a Dicsőségcsarnokban (**Közösség › Rangsor**), a **Statisztika** oldalon vagy egy klán tagjainak listájában, és megnyílik a pilóta **profilja**: vállalat, világ és klán, szint, tapasztalat, becsület és rangpontok, a kilőtt idegenek és pilóták, valamint a hajó, amellyel repül, az értékeivel. Két csempe mutatja, mióta játszik a pilóta:
+Kattints egy pilóta nevére a Dicsőségcsarnokban (**Közösség › Rangsor**), a **Statisztika** oldalon vagy egy klán tagjainak listájában, és megnyílik a pilóta **profilja**: vállalat, világ és klán, szint, tapasztalat, becsület és rangpontok, a kilőtt idegenek és pilóták, valamint a hajó, amellyel repül, a felszerelésével és az értékeivel (hacsak a pilóta nem tartja őket privátban). Két csempe mutatja, mióta játszik a pilóta:
 
 - **Első belépés.** Az a nap, amikor a pilóta először belépett, dátumként a saját időzónádban. Aki a 0.4.12 előtt is játszott, annál az a nap látszik, amikor a frissítés óta először belépett; a kötőjel olyan pilótát jelöl, aki azóta nem lépett be.
 - **Játékidő.** Mennyi ideig volt a pilóta játéka a szerverhez kapcsolódva, órában és percben („128 ó 15 p”, „45 p”), repülés közben vagy az állomáson. A tétlenül töltött idő is számít. A számlálás a 0.4.12-vel kezdődött, így a korábban játszó pilótánál a frissítés óta eltelt idő látszik.
 
 Mindkettő nyilvános, mint a szint és a rang: bármelyik bejelentkezett pilóta elolvashatja egy profilon. A szezon wipe-ja egyiket sem nullázza.
+
+A pilóta privátban tarthatja a felszerelését. A **Beállítások › Fiók › Adatvédelem** alatt van egy kapcsoló, a **Felszerelésem elrejtése**. Amíg be van kapcsolva, a többi pilóta továbbra is látja a pilóta forgó hajóját és a profil többi részét, de a hajóra és a drónjaira szerelt tárgyakat és az ezek adta harci értékeket nem, és a profil jelzi, hogy a pilóta privátban tartja a felszerelését. Az adminisztrátorok mindig látják, a saját profilod pedig mindig megmutatja a tiédet (egy megjegyzéssel, amíg a kapcsoló be van kapcsolva).
 
 A profilodon túl a **Közösség › Eredmények** őrzi a pályafutásod céljait, jutalmaikkal és címeikkel együtt: lásd az [Eredmények](/wiki/03-Mechanics/Achievements.md) oldalt.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3394596d1bb1595f -->
+<!-- wiki-i18n source: d029290762cd46b4 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -23,7 +23,7 @@ Davidski 是一位会飞的商人。他是一艘和平的 NPC 飞船，每天出
 | 附件 | Repair Drone IV、Auto-Repair CPU 和 Base CPU II |
 | 船体 | 15 块 Hull Plating III |
 
-在 Alpha 强度下，他拥有 **931,250 船体**、**1,559,486 护盾**（15 秒未被命中后每秒恢复 67,614）、90.9% 吸收率、速度 97、射程 945，以及每秒 **5,014** 的齐射。Beta 是这些数值的 1.5 倍，Gamma 是 2 倍，和所有外星人一样。在 Alpha 中大约有 250 万点要打掉：一架装有同样激光的 Wraith 单独需要约十二分钟持续射击，十架则约 71 秒。
+在 Alpha 强度下，他拥有 **{{guide:vitals.hull@Davidski}} 船体**、**{{guide:vitals.shield@Davidski}} 护盾**（15 秒未被命中后每秒恢复 {{guide:vitals.shieldRecharge@Davidski}}）、{{guide:vitals.absorbance@Davidski}} 吸收率、速度 {{guide:vitals.speed@Davidski}}、射程 945，以及每秒 **{{guide:vitals.dps@Davidski}}** 的齐射。Beta 是这些数值的 1.5 倍，Gamma 是 2 倍，和所有外星人一样。
 
 ## 与他战斗 {#fighting-him}
 
@@ -38,12 +38,16 @@ Davidski 是一位会飞的商人。他是一艘和平的 NPC 飞船，每天出
 
 | | Alpha | Beta | Gamma |
 |---|---:|---:|---:|
-| 信用点 | 1,830,000 | 3,660,000 | 5,490,000 |
-| Thulium | 4,875 | 9,750 | 14,625 |
-| 经验 | 292,500 | 585,000 | 877,500 |
-| 荣誉 | 1,275 | 2,550 | 3,825 |
+| 信用点 | {{guide:spoils.pay.credits@Davidski}} | {{guide:spoils.pay.credits*2@Davidski}} | {{guide:spoils.pay.credits*3@Davidski}} |
+| Thulium | {{guide:spoils.pay.thulium@Davidski}} | {{guide:spoils.pay.thulium*2@Davidski}} | {{guide:spoils.pay.thulium*3@Davidski}} |
+| 经验 | {{guide:spoils.pay.experience@Davidski}} | {{guide:spoils.pay.experience*2@Davidski}} | {{guide:spoils.pay.experience*3@Davidski}} |
+| 荣誉 | {{guide:spoils.pay.honor@Davidski}} | {{guide:spoils.pay.honor*2@Davidski}} | {{guide:spoils.pay.honor*3@Davidski}} |
 
-货箱里有 40 到 60 个 Ship Fragment、10 到 20 个 Power Core 和 3,000 到 6,000 个 Advanced Plasma，有时还有 Ancient Control Unit 或 Dark Matter。一次击毁**不会给你的 PvE 排行增加积分**（他不在任何排行榜上，见下文）；它支付的经验和其他经验一样计算，并以 Davidski 的名字记入你的击毁统计。
+| 它的箱子 |
+|---|
+| {{guide:spoils.box@Davidski}} |
+
+一次击毁**不会给你的 PvE 排行增加积分**（他不在任何排行榜上，见下文）；它支付的经验和其他经验一样计算，并以 Davidski 的名字记入你的击毁统计。
 
 - **他每天最多被击毁一次。** 被击毁后，他要到下一个 UTC 日才会再出现，在那天的时刻以满船体回来。他被击毁的消息不会通知任何人；与他交战的飞行员只会看到自己的报酬。
 - **他最多为每名飞行员的每天两次击毁、为每个世界的每天八次击毁支付报酬**（UTC）。每个世界每天只有一个 Davidski，这些上限很少起作用；超出之后你会收到通知，击毁没有报酬。

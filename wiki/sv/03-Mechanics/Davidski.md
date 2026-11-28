@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3394596d1bb1595f -->
+<!-- wiki-i18n source: d029290762cd46b4 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -23,7 +23,7 @@ Ett guldmålat **Ironclad TITANIC** i TITANIC:s egen storlek, med det bästa av 
 | Extra | en Repair Drone IV, en Auto-Repair CPU och en Base CPU II |
 | Skrov | 15 Hull Plating III |
 
-På Alphas styrka har han **931 250 skrov**, **1 559 486 sköld** (laddar 67 614 per sekund efter 15 sekunder utan träff), 90,9 % absorbering, hastighet 97, räckvidd 945 och en salva på **5 014 per sekund**. Beta har 1,5 gånger de värdena och Gamma 2 gånger, som varje utomjording. Det är omkring 2,5 miljoner poäng att tugga igenom i Alpha: en Wraith med samma lasrar behöver ensam omkring tolv minuters ihållande eld, tio av dem omkring 71 sekunder.
+På Alphas styrka har han **{{guide:vitals.hull@Davidski}} skrov**, **{{guide:vitals.shield@Davidski}} sköld** (laddar {{guide:vitals.shieldRecharge@Davidski}} per sekund efter 15 sekunder utan träff), {{guide:vitals.absorbance@Davidski}} absorbering, hastighet {{guide:vitals.speed@Davidski}}, räckvidd 945 och en salva på **{{guide:vitals.dps@Davidski}} per sekund**. Beta har 1,5 gånger de värdena och Gamma 2 gånger, som varje utomjording.
 
 ## Att bekämpa honom {#fighting-him}
 
@@ -38,12 +38,16 @@ Han betalar som en boss, efter skadan varje pilot gjorde (en andel under 5 % av 
 
 | | Alpha | Beta | Gamma |
 |---|---:|---:|---:|
-| Krediter | 1 830 000 | 3 660 000 | 5 490 000 |
-| Thulium | 4 875 | 9 750 | 14 625 |
-| Erfarenhet | 292 500 | 585 000 | 877 500 |
-| Heder | 1 275 | 2 550 | 3 825 |
+| Krediter | {{guide:spoils.pay.credits@Davidski}} | {{guide:spoils.pay.credits*2@Davidski}} | {{guide:spoils.pay.credits*3@Davidski}} |
+| Thulium | {{guide:spoils.pay.thulium@Davidski}} | {{guide:spoils.pay.thulium*2@Davidski}} | {{guide:spoils.pay.thulium*3@Davidski}} |
+| Erfarenhet | {{guide:spoils.pay.experience@Davidski}} | {{guide:spoils.pay.experience*2@Davidski}} | {{guide:spoils.pay.experience*3@Davidski}} |
+| Heder | {{guide:spoils.pay.honor@Davidski}} | {{guide:spoils.pay.honor*2@Davidski}} | {{guide:spoils.pay.honor*3@Davidski}} |
 
-Lådan innehåller 40 till 60 Ship Fragments, 10 till 20 Power Cores och 3 000 till 6 000 Advanced Plasma, och ibland Ancient Control Units eller Dark Matter. En nedskjutning ger **inga PvE-poäng** i din ranking (han finns i ingen ranking, se nedan); erfarenheten den ger räknas som all annan erfarenhet, och nedskjutningen räknas under namnet Davidski i din nedskjutningsstatistik.
+| Dess låda |
+|---|
+| {{guide:spoils.box@Davidski}} |
+
+En nedskjutning ger **inga PvE-poäng** i din ranking (han finns i ingen ranking, se nedan); erfarenheten den ger räknas som all annan erfarenhet, och nedskjutningen räknas under namnet Davidski i din nedskjutningsstatistik.
 
 - **Han förstörs högst en gång om dagen.** Efter sin död är han borta till nästa UTC-dygn, då han kommer ut igen vid det dygnets tidpunkt, med full skrovstyrka. Ingen underrättas om att han har fallit; piloterna som slogs mot honom får se sin egen utbetalning.
 - **Han betalar en pilot för två nedskjutningar om dagen och en värld för åtta** (UTC). Med en Davidski om dagen i varje värld spelar de gränserna sällan någon roll; utöver dem blir du underrättad, och du får ingenting för nedskjutningen.

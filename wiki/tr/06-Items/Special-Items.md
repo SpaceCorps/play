@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9da2aba86c37f5e2 -->
+<!-- wiki-i18n source: 645f14f1a9375995 -->
 <!-- wiki-i18n title: Özel eşyalar -->
 # Özel eşyalar {#special-items}
 
@@ -44,7 +44,7 @@ Nadirlik oyunun olağan ölçeğidir. Hesabının bir türden kaç tane tutabile
 
 ### Schematics
 
-**Şu an süren araştırmadan 24 saat götürür.** Geriye **24 saat ya da daha azı** kalmışsa araştırma hemen **bitirilir**; daha fazlası kalmışsa 24 saat kaybeder ve sürer, onun üzerine bir Schematics daha kullanabilirsin. [Araştırma Merkezi](/wiki/03-Mechanics/Research.md)’nin 210 teknolojisinden 188’i 24 saat ya da daha kısa sürer, bu yüzden bir Schematics onları baştan bitirir. Diğer 22’i daha uzun sürer; çoğu 48 ya da 72 saat, Rocket Launcher III, IV ve V ise 96, 168 ve 240 saat sürer ve 2 ila 10 Schematics gerekir.
+**Şu an süren araştırmadan 24 saat götürür.** Geriye **24 saat ya da daha azı** kalmışsa araştırma hemen **bitirilir**; daha fazlası kalmışsa 24 saat kaybeder ve sürer, onun üzerine bir Schematics daha kullanabilirsin. [Araştırma Merkezi](/wiki/03-Mechanics/Research.md)’nin 212 teknolojisinden 190’ı 24 saat ya da daha kısa sürer, bu yüzden bir Schematics onları baştan bitirir. Diğer 22’i daha uzun sürer; çoğu 48 ya da 72 saat, Rocket Launcher III, IV ve V ise 96, 168 ve 240 saat sürer ve 2 ila 10 Schematics gerekir.
 
 - **Teknolojinin saatleri, saatin kendisi değil.** 24 saat, teknolojinin kartında yazan kendi araştırma süresidir. Thulium hızlandırması araştırmayı daha hızlı yürütür ama bir kullanımın götürdüğünü değiştirmez; bir hızlandırma araştırmanın sonunu kapsıyorsa bir kullanım daha az bekleme saati kazandırır (iki kat hızda bir günlük araştırma 12 saatlik beklemedir). Onay penceresi sayacın ne göstereceğini söyler.
 - **Araştırma olduğu gibi sürer.** 24 saat kaybeden araştırma yerini korur: hızlandırma işlemeye devam eder, kuyruğa dokunulmaz ve arkasında hiçbir şey başlamaz. Bilim bekleyen bir araştırma beklemeye devam eder: Schematics zaman verir, yakıt vermez.

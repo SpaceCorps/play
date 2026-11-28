@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b9bfffab24f7eda8 -->
+<!-- wiki-i18n source: 6acaa0292fff4664 -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker
 
@@ -6,10 +6,10 @@ Les Seekers sont des unités d’éclaireurs et de reconnaissance de base. Ils s
 
 ## Caractéristiques {#stats}
 
-- **Points de vie (PV)** : 800
-- **Bouclier** : 800
-- **Dégâts** : 180
-- **Vitesse** : 120
+- **Points de vie (PV)** : {{guide:vitals.hull@Seeker#1}}
+- **Bouclier** : {{guide:vitals.shield@Seeker#1}}
+- **Dégâts** : {{guide:vitals.dps@Seeker#1}}
+- **Vitesse** : {{guide:vitals.speed@Seeker#1;Seeker#2;Seeker#3;Seeker#4}}
 - **Portée d’attaque** : 600
 - **Comportement** : Passif
 
@@ -24,10 +24,10 @@ Les Seekers sont des unités d’éclaireurs et de reconnaissance de base. Ils s
 
 ## Récompenses {#rewards}
 
-- **Crédits** : 1 000
-- **Thulium** : 4
-- **Expérience (XP)** : 100
-- **Honneur** : 2
+- **Crédits** : {{guide:spoils.pay.credits@Seeker#1}}
+- **Thulium** : {{guide:spoils.pay.thulium@Seeker#1}}
+- **Expérience (XP)** : {{guide:spoils.pay.experience@Seeker#1}}
+- **Honneur** : {{guide:spoils.pay.honor@Seeker#1}}
 - **Points PvE par élimination** : 1
 - **Recharge du bouclier** : 10 par seconde (délai de 15 s)
 
@@ -37,9 +37,11 @@ Le butin tombe dans une [cargaison](/wiki/03-Mechanics/Cargo.md) à l’endroit 
 
 À quoi sert chaque objet, et où le trouver ailleurs : [Ressources](/wiki/06-Items/Resources.md).
 
-- **Ship Fragment** : 20 % de chances (min. : 1, max. : 1)
-- **Daraxium** : 50 % de chances (min. : 1, max. : 2)
-- **Echo Shard** : 0,8 % de chances (min. : 1, max. : 1)
+- {{guide:spoils.box@Seeker#1;Seeker#2;Seeker#3;Seeker#4}}
+
+## Capacités spéciales {#special-abilities}
+
+Certains aliens de cette espèce portent une **capacité spéciale** : une chose qu’ils font une seule fois, quand leur coque est à moitié détruite. Rien ne se voit avant qu’elle commence. [Capacités spéciales](/wiki/03-Mechanics/Special-Abilities.md) dit ce que fait chaque capacité et comment y répondre.
 
 ## Histoire {#lore}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3394596d1bb1595f -->
+<!-- wiki-i18n source: d029290762cd46b4 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -23,7 +23,7 @@ Eine goldene **Ironclad TITANIC** in der Größe der TITANIC, mit dem Besten jed
 | Extras | ein Repair Drone IV, ein Auto-Repair CPU und ein Base CPU II |
 | Hülle | 15 Hull Plating III |
 
-In Alpha-Stärke hat er **931.250 Hülle**, **1.559.486 Schild** (lädt 67.614 pro Sekunde nach 15 Sekunden ohne Treffer), 90,9 % Absorption, Tempo 97, 945 Reichweite und eine Salve von **5.014 pro Sekunde**. Beta hat das 1,5-Fache dieser Werte und Gamma das 2-Fache, wie jeder Alien. Das sind in Alpha etwa 2,5 Millionen Punkte, die es zu durchkauen gilt: Eine Wraith mit denselben Lasern braucht allein etwa zwölf Minuten Dauerfeuer, zehn von ihnen etwa 71 Sekunden.
+In Alpha-Stärke hat er **{{guide:vitals.hull@Davidski}} Hülle**, **{{guide:vitals.shield@Davidski}} Schild** (lädt {{guide:vitals.shieldRecharge@Davidski}} pro Sekunde nach 15 Sekunden ohne Treffer), {{guide:vitals.absorbance@Davidski}} Absorption, Tempo {{guide:vitals.speed@Davidski}}, 945 Reichweite und eine Salve von **{{guide:vitals.dps@Davidski}} pro Sekunde**. Beta hat das 1,5-Fache dieser Werte und Gamma das 2-Fache, wie jeder Alien.
 
 ## Der Kampf gegen ihn {#fighting-him}
 
@@ -38,12 +38,16 @@ Er zahlt wie ein Boss, nach dem Schaden, den jeder Pilot angerichtet hat (ein An
 
 | | Alpha | Beta | Gamma |
 |---|---:|---:|---:|
-| Credits | 1.830.000 | 3.660.000 | 5.490.000 |
-| Thulium | 4.875 | 9.750 | 14.625 |
-| Erfahrung | 292.500 | 585.000 | 877.500 |
-| Ehre | 1.275 | 2.550 | 3.825 |
+| Credits | {{guide:spoils.pay.credits@Davidski}} | {{guide:spoils.pay.credits*2@Davidski}} | {{guide:spoils.pay.credits*3@Davidski}} |
+| Thulium | {{guide:spoils.pay.thulium@Davidski}} | {{guide:spoils.pay.thulium*2@Davidski}} | {{guide:spoils.pay.thulium*3@Davidski}} |
+| Erfahrung | {{guide:spoils.pay.experience@Davidski}} | {{guide:spoils.pay.experience*2@Davidski}} | {{guide:spoils.pay.experience*3@Davidski}} |
+| Ehre | {{guide:spoils.pay.honor@Davidski}} | {{guide:spoils.pay.honor*2@Davidski}} | {{guide:spoils.pay.honor*3@Davidski}} |
 
-Die Kiste enthält 40 bis 60 Ship Fragments, 10 bis 20 Power Cores und 3.000 bis 6.000 Advanced Plasma, manchmal auch Ancient Control Units oder Dark Matter. Ein Abschuss bringt **keine PvE-Punkte** für dein Ranking (er steht in keiner Rangliste, siehe unten); die Erfahrung, die er einbringt, zählt wie jede andere Erfahrung, und der Abschuss wird unter dem Namen Davidski in deiner Abschussstatistik gezählt.
+| Seine Kiste |
+|---|
+| {{guide:spoils.box@Davidski}} |
+
+Ein Abschuss bringt **keine PvE-Punkte** für dein Ranking (er steht in keiner Rangliste, siehe unten); die Erfahrung, die er einbringt, zählt wie jede andere Erfahrung, und der Abschuss wird unter dem Namen Davidski in deiner Abschussstatistik gezählt.
 
 - **Er wird höchstens einmal am Tag zerstört.** Nach seinem Tod bleibt er bis zum nächsten UTC-Tag weg, dann fliegt er zum Zeitpunkt des nächsten Tages wieder aus, mit voller Hülle. Niemand wird informiert, dass er gefallen ist; die Piloten, die gegen ihn gekämpft haben, erfahren ihre eigene Bezahlung.
 - **Er zahlt einem Piloten für zwei Abschüsse am Tag und einer Welt für acht** (UTC). Bei einem Davidski pro Welt und Tag spielen diese Grenzen kaum eine Rolle; darüber hinaus wirst du informiert und bekommst nichts für den Abschuss.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 38daca85a103c20f -->
+<!-- wiki-i18n source: d45e1534593782f8 -->
 <!-- wiki-i18n title: Patentes -->
 # Patentes {#ranks}
 
@@ -137,6 +137,7 @@ Um alienígena mais duro vale mais: um abate dá pontos conforme o dano necessá
 | Slumbering Void | 10 |
 | Inert Mass | 15 |
 | The Unwakened | 112 |
+| Deep Mass | 15 |
 | Brood Warden I, II, III | 14, 18, 35 |
 | Siege Warden I, II, III | 13, 17, 32 |
 | Wrath Warden I, II, III | 14, 18, 34 |
@@ -144,7 +145,7 @@ Um alienígena mais duro vale mais: um abate dá pontos conforme o dano necessá
 | Siege Escort I, II, III | 2, 3, 6 |
 | Wrath Guard I, II, III | 2, 3, 6 |
 
-As cinco primeiras linhas são os alienígenas comuns, as doze seguintes as naves dos seis enxames e as três seguintes os alienígenas do [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) (a partir do dia 11 da temporada). No fim vêm os Guardiões do clã, os líderes de uma luta contra um Guardião, e as suas tripulações, os Brood Drones, Siege Escorts e Wrath Guards: I, II e III são a força do Guardião, e os pontos aparecem nessa ordem.
+As cinco primeiras linhas são os alienígenas comuns, as doze seguintes as naves dos seis enxames e as três seguintes os alienígenas do [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) (a partir do dia 11 da temporada) e a seguinte a **Deep Mass** do [Deep Void](/wiki/03-Mechanics/Deep-Void.md), a Inert Mass com um escudo mais grosso. No fim vêm os Guardiões do clã, os líderes de uma luta contra um Guardião, e as suas tripulações, os Brood Drones, Siege Escorts e Wrath Guards: I, II e III são a força do Guardião, e os pontos aparecem nessa ordem.
 
 Por exemplo, um piloto de nível 4 com 12.500 de experiência e 900 de honra que destruiu 300 Seekers, 80 Phantasm e 10 Bulwarks tem 400 + 12 + 9 + 300 + 160 + 40 = **921** pontos. Isso o torna Sargento: o mínimo é 800, e a patente seguinte, Sargento sênior, pede 1.000. Até Coronel sênior, só os pontos contam.
 

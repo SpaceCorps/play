@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ed1159b36e9dc853 -->
+<!-- wiki-i18n source: 33448f95d2520b3a -->
 <!-- wiki-i18n title: Рой Pirate -->
 # Рой Pirate {#pirate-swarm}
 
@@ -17,14 +17,14 @@
 - **Свита держится**: не дальше 900 единиц от лидера
 - **Лечение**: Каждый Pirate Scout в пределах 600 единиц от лидера лечит его корпус, в Alpha 40 HP в секунду
 - **Лидер уничтожен**: Свита исчезает через 1 мин после уничтожения лидера, если только не атакует
-- **Возвращается**: Через 2 мин после уничтожения лидера, в том же секторе
+- **Возвращается**: Через {{guide:vitals.respawn@Pirate Boss#1;Pirate Boss#2;Pirate Boss#3}} после уничтожения лидера, в том же секторе
 - **Оповещения**: Пилоты сектора узнают, когда лидер появляется и когда он уничтожен. Это системные строки: они видны на вкладке **Система** чата, со счётчиком непрочитанных, а не на вкладках **Общий** и **Локальный**. Лента убийств называет пилота, которому засчитано убийство.
 
 <!-- pirate-glance:end -->
 
 ## Участники {#the-members}
 
-- **Pirate Boss**: корабль на основе Ironclad с частью его силы (значения ниже). Он пассивен и **не стреляет из лазеров**: его единственное оружие — **прямая ракета** ([Ракеты](/wiki/06-Items/Rockets.md); какая именно, зависит от сектора, см. таблицу) по пилоту, который на него напал, и во время стрельбы он продолжает бродить. Корпус он никогда не восстанавливает сам.
+- **Pirate Boss**: корабль на основе Ironclad с частью его силы (значения ниже). Он пассивен и **не стреляет из лазеров**: его единственное оружие — **прямая ракета** ([Ракеты](/wiki/06-Items/Rockets.md); какая именно, зависит от сектора, см. таблицу) по пилоту, который на него напал, и во время стрельбы он продолжает бродить. Корпус он никогда не восстанавливает сам. Его [три этапа](#the-leaders-three-steps) и [особая способность](/wiki/03-Mechanics/Special-Abilities.md) могут это изменить.
 - **Pirate Scout**: корабль на основе Kitefin с частью его силы. Scout нападают на любого пилота, который подходит близко, держатся рядом с боссом, и каждый, кто находится рядом с боссом, лечит его корпус.
 
 ## Ход боя {#how-the-fight-goes}
@@ -34,6 +34,19 @@
 - **Не прекращайте двигаться.** Ракета босса прямая и неуправляемая: корабль, который продолжает двигаться, уворачивается от неё, а стоящий на месте получает попадание.
 - **Возьмите группу.** Трое пилотов на Ostirion с боеприпасами x2 побеждают его на `x-2`, не потеряв ни одного корабля, хотя и едва-едва, а на `x-3` будут уничтожены, даже пока удары распределяются; четверо убивают его примерно за три минуты в Alpha. С боеприпасами x4 на `x-3` трое убивают его примерно за две минуты. Пятеро убивают его примерно за две с половиной минуты, когда удары распределяются, и примерно за три, когда один пилот принимает на себя весь огонь, и тогда теряют два корабля: группе, в которой один пилот принимает на себя весь огонь, нужно пятеро. В Beta нужно пятеро пилотов, в Gamma — семеро, при распределённых ударах (босс там больше, а его Scout лечат сильнее). В Alpha на `x-3` с боеприпасами x2 один Ostirion не справится, один Paragon тоже не справится, а два Paragon справятся уверенно. В Beta и Gamma на `x-3` один Paragon будет уничтожен и с боеприпасами x2, и с боеприпасами x4. Босс отвечает первому пилоту, попавшему по нему, поэтому пусть начинает самый прочный корабль, и используйте способности (Emergency Repair, Shield Surge: [Способности](/wiki/03-Mechanics/Abilities.md)) в таком долгом бою. Пилоты, которые ещё только 2-го или 3-го уровня, слишком слабы для него даже там, где они летают: держитесь подальше, пока не станете сильнее.
 - **Босс возвращается** через время, указанное в списке *Коротко*, в том же секторе.
+
+## Три этапа лидера {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+У этого боя три этапа ([как они работают](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); каждый происходит один раз.
+
+- **В начале**: Выпускает веер из 3 ракет с углом 12 градусов между ними в первого пилота, который его ударил.
+- **Ниже двух третей**: Вызывает ещё 5 Pirate Scouts сразу, живых не больше 10. Они ничего не платят и уходят через 45 с.
+- **Ниже трети**: Летит со скоростью ×1,8 к ближайшим вратам на 10 с, затем поворачивается против пилотов.
+
+<!-- mob-ladder:end -->
 
 ## Награды и добыча {#rewards-and-drops}
 
@@ -52,26 +65,24 @@ Pirate Boss платит по заслугам этого боя: минута �
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Корпус | 250 000 | 375 000 | 500 000 |
-| Щит | 50 100 | 75 150 | 100 200 |
+| Корпус | {{guide:vitals.hull@Pirate Boss#1}} | {{guide:vitals.hull@Pirate Boss#2}} | {{guide:vitals.hull@Pirate Boss#3}} |
+| Щит | {{guide:vitals.shield@Pirate Boss#1}} | {{guide:vitals.shield@Pirate Boss#2}} | {{guide:vitals.shield@Pirate Boss#3}} |
 | Урон лазеров (залп в секунду) | нет | нет | нет |
-| Скорость | 100 | 100 | 100 |
+| Скорость | {{guide:vitals.speed@Pirate Boss#1}} | {{guide:vitals.speed@Pirate Boss#2}} | {{guide:vitals.speed@Pirate Boss#3}} |
 | Дальность лазеров | – | – | – |
 | Радиус агрессии | только если напали | только если напали | только если напали |
-| Урон ракет, максимум | 2 500 (Rivet I) / 5 000 (Rivet II) | 3 750 (Rivet I) / 7 500 (Rivet II) | 5 000 (Rivet I) / 10 000 (Rivet II) |
-| Кредиты | 145 000 | 290 000 | 435 000 |
-| Thulium | 725 | 1 450 | 2 175 |
-| Опыт (XP) | 29 000 | 58 000 | 87 000 |
-| Честь | 232 | 464 | 696 |
+| Урон ракет, максимум | {{guide:behaviour.ability:rocket.damage@Pirate Boss#1}} | {{guide:behaviour.ability:rocket.damage@Pirate Boss#2}} | {{guide:behaviour.ability:rocket.damage@Pirate Boss#3}} |
+| Кредиты | {{guide:spoils.pay.credits@Pirate Boss#1}} | {{guide:spoils.pay.credits@Pirate Boss#2}} | {{guide:spoils.pay.credits@Pirate Boss#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Pirate Boss#1}} | {{guide:spoils.pay.thulium@Pirate Boss#2}} | {{guide:spoils.pay.thulium@Pirate Boss#3}} |
+| Опыт (XP) | {{guide:spoils.pay.experience@Pirate Boss#1}} | {{guide:spoils.pay.experience@Pirate Boss#2}} | {{guide:spoils.pay.experience@Pirate Boss#3}} |
+| Честь | {{guide:spoils.pay.honor@Pirate Boss#1}} | {{guide:spoils.pay.honor@Pirate Boss#2}} | {{guide:spoils.pay.honor@Pirate Boss#3}} |
 | Очки PvE за убийство | 15 | 15 | 15 |
 
 **Добыча**: один контейнер, для пилота, нанёсшего больше всех урона.
 
-| Предмет | Шанс | Количество |
-| :--- | ---: | ---: |
-| Reinforced Hull Plate | 50% | 1 |
-| Одна из 4 [ракет](/wiki/06-Items/Rockets.md), покупаемых за кредиты, на выбор случая | 100% | 5–10 |
-| Одна из Advanced Plasma, Siphon Battery и Siphon Battery II, на выбор случая | 100% | 1 000–2 000 |
+| Предмет |
+| :--- |
+| {{guide:spoils.box@Pirate Boss#1;Pirate Boss#2;Pirate Boss#3}} |
 
 ### Pirate Scout
 
@@ -79,17 +90,17 @@ Pirate Boss платит по заслугам этого боя: минута �
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Корпус | 12 000 | 18 000 | 24 000 |
-| Щит | 9 818 | 14 727 | 19 636 |
-| Урон лазеров (залп в секунду) | 315 | 473 | 630 |
-| Скорость | 220 | 220 | 220 |
+| Корпус | {{guide:vitals.hull@Pirate Scout#1}} | {{guide:vitals.hull@Pirate Scout#2}} | {{guide:vitals.hull@Pirate Scout#3}} |
+| Щит | {{guide:vitals.shield@Pirate Scout#1}} | {{guide:vitals.shield@Pirate Scout#2}} | {{guide:vitals.shield@Pirate Scout#3}} |
+| Урон лазеров (залп в секунду) | {{guide:vitals.dps@Pirate Scout#1}} | {{guide:vitals.dps@Pirate Scout#2}} | {{guide:vitals.dps@Pirate Scout#3}} |
+| Скорость | {{guide:vitals.speed@Pirate Scout#1}} | {{guide:vitals.speed@Pirate Scout#2}} | {{guide:vitals.speed@Pirate Scout#3}} |
 | Дальность лазеров | 700 | 700 | 700 |
-| Радиус агрессии | 700 | 700 | 700 |
+| Радиус агрессии | {{guide:vitals.aggro@Pirate Scout#1}} | {{guide:vitals.aggro@Pirate Scout#2}} | {{guide:vitals.aggro@Pirate Scout#3}} |
 | Лечит лидера, каждый, в секунду (только корпус) | 40 | 60 | 80 |
-| Кредиты | 1 000 | 2 000 | 3 000 |
-| Thulium | 4 | 8 | 12 |
-| Опыт (XP) | 100 | 200 | 300 |
-| Честь | 2 | 4 | 6 |
+| Кредиты | {{guide:spoils.pay.credits@Pirate Scout#1}} | {{guide:spoils.pay.credits@Pirate Scout#2}} | {{guide:spoils.pay.credits@Pirate Scout#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Pirate Scout#1}} | {{guide:spoils.pay.thulium@Pirate Scout#2}} | {{guide:spoils.pay.thulium@Pirate Scout#3}} |
+| Опыт (XP) | {{guide:spoils.pay.experience@Pirate Scout#1}} | {{guide:spoils.pay.experience@Pirate Scout#2}} | {{guide:spoils.pay.experience@Pirate Scout#3}} |
+| Честь | {{guide:spoils.pay.honor@Pirate Scout#1}} | {{guide:spoils.pay.honor@Pirate Scout#2}} | {{guide:spoils.pay.honor@Pirate Scout#3}} |
 | Очки PvE за убийство | 4 | 4 | 4 |
 
 **Добыча**: нет. За убийство выплачиваются только кредиты, Thulium, опыт и честь.

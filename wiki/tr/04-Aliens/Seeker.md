@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b9bfffab24f7eda8 -->
+<!-- wiki-i18n source: 6acaa0292fff4664 -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker
 
@@ -6,10 +6,10 @@ Seeker, temel keşif ve gözlem birimidir. Pasiftir, yani hiçbir zaman kavgayı
 
 ## Özellikler {#stats}
 
-- **Gövde puanı (HP)**: 800
-- **Kalkan**: 800
-- **Hasar**: 180
-- **Hız**: 120
+- **Gövde puanı (HP)**: {{guide:vitals.hull@Seeker#1}}
+- **Kalkan**: {{guide:vitals.shield@Seeker#1}}
+- **Hasar**: {{guide:vitals.dps@Seeker#1}}
+- **Hız**: {{guide:vitals.speed@Seeker#1;Seeker#2;Seeker#3;Seeker#4}}
 - **Saldırı menzili**: 600
 - **Davranış**: Pasif
 
@@ -24,10 +24,10 @@ Seeker, temel keşif ve gözlem birimidir. Pasiftir, yani hiçbir zaman kavgayı
 
 ## Ödüller {#rewards}
 
-- **Kredi**: 1.000
-- **Thulium**: 4
-- **Deneyim (XP)**: 100
-- **Onur**: 2
+- **Kredi**: {{guide:spoils.pay.credits@Seeker#1}}
+- **Thulium**: {{guide:spoils.pay.thulium@Seeker#1}}
+- **Deneyim (XP)**: {{guide:spoils.pay.experience@Seeker#1}}
+- **Onur**: {{guide:spoils.pay.honor@Seeker#1}}
 - **Öldürme başına PvE puanı**: 1
 - **Kalkan dolumu**: saniyede 10 (15 sn gecikme)
 
@@ -37,9 +37,11 @@ Yok edildiği yerde bir [kargo kutusu](/wiki/03-Mechanics/Cargo.md) olarak düş
 
 Her ganimetin ne işe yaradığı ve başka nerede bulunabileceği: [Kaynaklar](/wiki/06-Items/Resources.md).
 
-- **Ship Fragment**: %20 şans (En az: 1, En çok: 1)
-- **Daraxium**: %50 şans (En az: 1, En çok: 2)
-- **Echo Shard**: %0,8 şans (En az: 1, En çok: 1)
+- {{guide:spoils.box@Seeker#1;Seeker#2;Seeker#3;Seeker#4}}
+
+## Özel yetenekler {#special-abilities}
+
+Bu türden bazı uzaylılar bir **özel yetenek** taşır: gövdelerinin yarısı gittiğinde yalnızca bir kez yaptıkları bir şey. Başlamadan önce hiçbir şey görünmez. [Özel yetenekler](/wiki/03-Mechanics/Special-Abilities.md) sayfası her yeteneğin ne yaptığını ve ona nasıl karşılık verileceğini anlatır.
 
 ## Hikâye {#lore}
 

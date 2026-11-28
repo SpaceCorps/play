@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 74bb4919fe97756e -->
+<!-- wiki-i18n source: 634c9ffbf340dec7 -->
 <!-- wiki-i18n title: Исследования -->
 # Исследования {#research}
 
@@ -30,7 +30,7 @@
 
 <!-- research-centre:end -->
 
-**Schematics.** [Schematics](/wiki/06-Items/Special-Items.md#schematics) убирают 24 часа из идущего исследования: если осталось не более 24 часов, оно завершается мгновенно, а более длинное теряет 24 часа и продолжается (188 из 210 технологий занимают не более 24 часов, так что один Schematics завершает их с самого начала; остальным 22 нужно от 2 до 10). То, что стоило исследование, было оплачено в начале и не возвращается, наука, которую сожгло бы пропущенное время, остаётся в вашем баке, а когда исследование завершено, следующая технология из вашей очереди начинается сразу.
+**Schematics.** [Schematics](/wiki/06-Items/Special-Items.md#schematics) убирают 24 часа из идущего исследования: если осталось не более 24 часов, оно завершается мгновенно, а более длинное теряет 24 часа и продолжается (190 из 212 технологий занимают не более 24 часов, так что один Schematics завершает их с самого начала; остальным 22 нужно от 2 до 10). То, что стоило исследование, было оплачено в начале и не возвращается, наука, которую сожгло бы пропущенное время, остаётся в вашем баке, а когда исследование завершено, следующая технология из вашей очереди начинается сразу.
 
 **Лазерные усилители и последняя ступень.** Damage, Crit и Penetration Amp ступеней II–IV исследуются, как и всё остальное, что создаётся. Пилоты, у которых к выходу линеек усилителей были усилители или они стояли в очереди, получили технологию каждого из них и технологии ступеней ниже. Тринадцати технологиям нужна технология из другого дерева — пластины Dark Matter Plate, из дерева «Ресурсы», потому что последняя ступень каждой цепочки улучшений требует четыре пластины и одну Ancient Control Unit: Damage, Crit и Penetration Amp ступени IV, Absorption и Capacity Shield Cell ступени IV, Impulse и Momentum Thruster ступени IV, Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III и Base CPU II. Пилот, который изучил одну из них раньше, сохраняет её, но чтобы делать нужные ей пластины, ему нужна технология пластины. Дерево ниже не рисует для неё стрелку, но таблица её перечисляет, а карточка в игре называет ([Dark Matter и Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -98,6 +98,7 @@
 | :--- | :--- | ---: | ---: |
 | 30 мин | 15 мин | 1 | 5 000 |
 | 1 ч | 30 мин | 1 | 5 000 |
+| 2 ч | 1 ч | 1 | 5 000 |
 | 3 ч | 1 ч 30 мин | 1 | 5 000 |
 | 4 ч | 2 ч | 1 | 5 000 |
 | 6 ч | 3 ч | 1 | 5 000 |
@@ -335,10 +336,13 @@ Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600
 Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 Mine II | consumable, rare | craft 200 Thulium, 120 s | research 10800 s, 10800 science | 2 Mine I, 3 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#mine
 Mine III | consumable, epic | craft 400 Thulium, 300 s | research 21600 s, 21600 science | 2 Mine II, 8 Ship Fragment, 1 Reinforced Hull Plate, 2 Power Core | /wiki/06-Items/Extras.md#mine
+Organic Scanner I | extra, rare | craft 20000 Credits, 10000 Thulium, 600 s | research 1800 s, 1800 science | 60 Ship Fragment, 2 Power Core, 1 Ancient Control Unit, 5 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+Organic Scanner II | extra, epic | craft 50000 Credits, 20000 Thulium, 900 s | research 7200 s, 7200 science | 1 Organic Scanner I, 2 Lurker Fang, 2 Angler Lure, 1 Leviathan Scale | /wiki/06-Items/Extras.md
 
 Extra Slots CPU I => Extra Slots CPU II => Extra Slots CPU III
 Base CPU I => Base CPU II => Jump CPU
 Mine II => Mine III
+Organic Scanner I => Organic Scanner II
 ```
 
 ### Защита {#tree-defence}
@@ -582,18 +586,20 @@ Dark Matter Ammo I => Dark Matter Ammo II
 | [Miyuki III](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki II](/wiki/02-Ships/Miyuki.md) | D | 1 д | 86 400 | 10 |
 | [Miyuki IV](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki III](/wiki/02-Ships/Miyuki.md) | D | 2 д | 172 800 | 10 |
 | [Miyuki V](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki IV](/wiki/02-Ships/Miyuki.md) | D | 2 д | 172 800 | 10 |
+| [Organic Scanner I](/wiki/06-Items/Extras.md) | – | A | 30 мин | 1 800 | – |
+| [Organic Scanner II](/wiki/06-Items/Extras.md) | [Organic Scanner I](/wiki/06-Items/Extras.md) | B | 2 ч | 7 200 | – |
 
 Классы по времени исследования:
 
 | Класс | Время исследования | Технологий | Одна за другой | Наука | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| A | от 30 мин до 1 ч | 17 | 9 ч 30 мин | 34 200 | 0 |
-| B | от 3 ч до 6 ч | 37 | 5 д 20 ч | 504 000 | 0 |
+| A | от 30 мин до 1 ч | 18 | 10 ч | 36 000 | 0 |
+| B | от 2 ч до 6 ч | 38 | 5 д 22 ч | 511 200 | 0 |
 | C | от 8 ч до 10 ч | 20 | 8 д 4 ч | 705 600 | 95 |
 | D | от 16 ч до 10 д | 35 | 60 д 16 ч | 5 241 600 | 379 |
-| Все |  | 109 | 75 д 1 ч 30 мин | 6 485 400 | 474 |
+| Все |  | 111 | 75 д 4 ч | 6 494 400 | 474 |
 
-Если исследовать одну за другой, всё дерево займёт 75 д 1 ч 30 мин. С бустом, включённым всё время, — 37 д 12 ч 45 мин; для этого нужно бустов: 38, Thulium: 190 000. Науки уходит столько же.
+Если исследовать одну за другой, всё дерево займёт 75 д 4 ч. С бустом, включённым всё время, — 37 д 14 ч; для этого нужно бустов: 38, Thulium: 190 000. Науки уходит столько же.
 
 <!-- research-technologies:end -->
 
@@ -617,6 +623,8 @@ Dark Matter Ammo I => Dark Matter Ammo II
 | [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 ч | – | 20 000 | 15 мин |
 | [Mine II](/wiki/06-Items/Extras.md#mine) | 3 ч | – | 200 | 2 мин |
 | [Mine III](/wiki/06-Items/Extras.md#mine) | 6 ч | [Mine II](/wiki/06-Items/Extras.md#mine) | 400 | 5 мин |
+| [Organic Scanner I](/wiki/06-Items/Extras.md) | 30 мин | – | 10 000 | 10 мин |
+| [Organic Scanner II](/wiki/06-Items/Extras.md) | 2 ч | [Organic Scanner I](/wiki/06-Items/Extras.md) | 20 000 | 15 мин |
 
 Ни один не продаётся в магазине: исследуйте технологию, затем создайте CPU в Сборочном цехе. Наведите курсор на CPU в его дереве, чтобы увидеть, что для него требует Сборочный цех.
 

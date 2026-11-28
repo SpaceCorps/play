@@ -15,14 +15,14 @@ The Pirate Swarm is a **Pirate Boss** with its **Pirate Scouts**: a huge, slow s
 - **Followers stay within**: 900 units of the leader
 - **Healing**: Each Pirate Scout within 600 units of the leader heals its hull, 40 HP a second in Alpha
 - **Leader destroyed**: The followers leave 1 min after the leader is destroyed, unless they are attacking
-- **Comes back**: 2 min after the leader is destroyed, in the same sector
+- **Comes back**: {{guide:vitals.respawn@Pirate Boss#1;Pirate Boss#2;Pirate Boss#3}} after the leader is destroyed, in the same sector
 - **Announced**: The pilots of the sector are told when the leader appears and when it is destroyed. These are System lines: they show in the chat's **System** tab, with an unread count, and not in **Global** or **Local**. The kill feed names the pilot credited with the kill.
 
 <!-- pirate-glance:end -->
 
 ## The members
 
-- **Pirate Boss**: a ship built on the Ironclad, at a share of its strength (the numbers are below). It is passive and fires **no lasers**: its one weapon is a **straight rocket** ([Rockets](/wiki/06-Items/Rockets.md); which one depends on the sector, see the table), at the pilot who attacked it, and it keeps roaming while it fires. It never mends its hull by itself.
+- **Pirate Boss**: a ship built on the Ironclad, at a share of its strength (the numbers are below). It is passive and fires **no lasers**: its one weapon is a **straight rocket** ([Rockets](/wiki/06-Items/Rockets.md); which one depends on the sector, see the table), at the pilot who attacked it, and it keeps roaming while it fires. It never mends its hull by itself. Its [three steps](#the-leaders-three-steps) and a [special ability](/wiki/03-Mechanics/Special-Abilities.md) can change that.
 - **Pirate Scout**: a ship built on the Kitefin, at a share of its strength. Scouts attack any pilot who comes near them, stay close to the boss, and each one near the boss heals its hull.
 
 ## How the fight goes
@@ -32,6 +32,19 @@ The Pirate Swarm is a **Pirate Boss** with its **Pirate Scouts**: a huge, slow s
 - **Keep moving.** The boss's rocket is straight and unguided: a ship that keeps moving sidesteps it, a ship that stands still is hit.
 - **Bring a group.** Three pilots in Ostirions with x2 ammo take `x-2` without losing a ship, though only just, and are destroyed on `x-3` even while the hits are shared; four take it in about three minutes in Alpha. With x4 ammo three take it on `x-3` in about two minutes. Five take it in about two and a half minutes when the hits are shared and in about three when one pilot takes all the fire, and then they lose two ships: a group that lets one pilot take all the fire needs five. In Beta it takes five pilots and in Gamma seven, with the hits shared (the boss is bigger there and its scouts heal more). In Alpha on `x-3` with x2 ammo, one Ostirion alone cannot win it, one Paragon alone cannot either, and two Paragons win it safely. In Beta and Gamma on `x-3`, one Paragon alone is destroyed with x2 and with x4 ammo. The boss answers the first pilot who hit it, so let the sturdiest ship start, and use your abilities (Emergency Repair, Shield Surge: [Abilities](/wiki/03-Mechanics/Abilities.md)) in a fight that long. Pilots who are still level 2 or 3 are too weak for it, even where they fly: keep away until you are stronger.
 - **The boss comes back** after the time in the *At a glance* list, in the same sector.
+
+## The leader's three steps {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Its fight has three steps ([how they work](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); each one happens once.
+
+- **At the start**: Fires a fan of 3 rockets, 12 degrees apart, at the first pilot who hit it.
+- **Under two thirds**: Calls 5 more Pirate Scouts at once, at most 10 alive. They pay nothing and leave after 45 s.
+- **Under a third**: Flies at ×1.8 speed to the nearest gate for 10 s, then turns back on the pilots.
+
+<!-- mob-ladder:end -->
 
 ## Rewards and drops
 
@@ -50,26 +63,24 @@ Built from the Ironclad at 50% of its hull, shield and damage; its speed and ran
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Hull | 250,000 | 375,000 | 500,000 |
-| Shield | 50,100 | 75,150 | 100,200 |
+| Hull | {{guide:vitals.hull@Pirate Boss#1}} | {{guide:vitals.hull@Pirate Boss#2}} | {{guide:vitals.hull@Pirate Boss#3}} |
+| Shield | {{guide:vitals.shield@Pirate Boss#1}} | {{guide:vitals.shield@Pirate Boss#2}} | {{guide:vitals.shield@Pirate Boss#3}} |
 | Laser damage (a volley a second) | none | none | none |
-| Speed | 100 | 100 | 100 |
+| Speed | {{guide:vitals.speed@Pirate Boss#1}} | {{guide:vitals.speed@Pirate Boss#2}} | {{guide:vitals.speed@Pirate Boss#3}} |
 | Laser range | – | – | – |
 | Aggro radius | only when attacked | only when attacked | only when attacked |
-| Rocket damage, at most | 2,500 (Rivet I) / 5,000 (Rivet II) | 3,750 (Rivet I) / 7,500 (Rivet II) | 5,000 (Rivet I) / 10,000 (Rivet II) |
-| Credits | 145,000 | 290,000 | 435,000 |
-| Thulium | 725 | 1,450 | 2,175 |
-| Experience (XP) | 29,000 | 58,000 | 87,000 |
-| Honor | 232 | 464 | 696 |
+| Rocket damage, at most | {{guide:behaviour.ability:rocket.damage@Pirate Boss#1}} | {{guide:behaviour.ability:rocket.damage@Pirate Boss#2}} | {{guide:behaviour.ability:rocket.damage@Pirate Boss#3}} |
+| Credits | {{guide:spoils.pay.credits@Pirate Boss#1}} | {{guide:spoils.pay.credits@Pirate Boss#2}} | {{guide:spoils.pay.credits@Pirate Boss#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Pirate Boss#1}} | {{guide:spoils.pay.thulium@Pirate Boss#2}} | {{guide:spoils.pay.thulium@Pirate Boss#3}} |
+| Experience (XP) | {{guide:spoils.pay.experience@Pirate Boss#1}} | {{guide:spoils.pay.experience@Pirate Boss#2}} | {{guide:spoils.pay.experience@Pirate Boss#3}} |
+| Honor | {{guide:spoils.pay.honor@Pirate Boss#1}} | {{guide:spoils.pay.honor@Pirate Boss#2}} | {{guide:spoils.pay.honor@Pirate Boss#3}} |
 | PvE points per kill | 15 | 15 | 15 |
 
 **Drop**: one box, for the pilot who dealt the most damage.
 
-| Item | Chance | Amount |
-| :--- | ---: | ---: |
-| Reinforced Hull Plate | 50% | 1 |
-| One of the 4 [rockets](/wiki/06-Items/Rockets.md) bought with Credits, picked at random | 100% | 5–10 |
-| One of Advanced Plasma, Siphon Battery and Siphon Battery II, picked at random | 100% | 1,000–2,000 |
+| Item |
+| :--- |
+| {{guide:spoils.box@Pirate Boss#1;Pirate Boss#2;Pirate Boss#3}} |
 
 ### Pirate Scout
 
@@ -77,17 +88,17 @@ Built from the Kitefin at 50% of its hull and 113% of its laser damage; its spee
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Hull | 12,000 | 18,000 | 24,000 |
-| Shield | 9,818 | 14,727 | 19,636 |
-| Laser damage (a volley a second) | 315 | 473 | 630 |
-| Speed | 220 | 220 | 220 |
+| Hull | {{guide:vitals.hull@Pirate Scout#1}} | {{guide:vitals.hull@Pirate Scout#2}} | {{guide:vitals.hull@Pirate Scout#3}} |
+| Shield | {{guide:vitals.shield@Pirate Scout#1}} | {{guide:vitals.shield@Pirate Scout#2}} | {{guide:vitals.shield@Pirate Scout#3}} |
+| Laser damage (a volley a second) | {{guide:vitals.dps@Pirate Scout#1}} | {{guide:vitals.dps@Pirate Scout#2}} | {{guide:vitals.dps@Pirate Scout#3}} |
+| Speed | {{guide:vitals.speed@Pirate Scout#1}} | {{guide:vitals.speed@Pirate Scout#2}} | {{guide:vitals.speed@Pirate Scout#3}} |
 | Laser range | 700 | 700 | 700 |
-| Aggro radius | 700 | 700 | 700 |
+| Aggro radius | {{guide:vitals.aggro@Pirate Scout#1}} | {{guide:vitals.aggro@Pirate Scout#2}} | {{guide:vitals.aggro@Pirate Scout#3}} |
 | Heals the leader, each, per second (hull only) | 40 | 60 | 80 |
-| Credits | 1,000 | 2,000 | 3,000 |
-| Thulium | 4 | 8 | 12 |
-| Experience (XP) | 100 | 200 | 300 |
-| Honor | 2 | 4 | 6 |
+| Credits | {{guide:spoils.pay.credits@Pirate Scout#1}} | {{guide:spoils.pay.credits@Pirate Scout#2}} | {{guide:spoils.pay.credits@Pirate Scout#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Pirate Scout#1}} | {{guide:spoils.pay.thulium@Pirate Scout#2}} | {{guide:spoils.pay.thulium@Pirate Scout#3}} |
+| Experience (XP) | {{guide:spoils.pay.experience@Pirate Scout#1}} | {{guide:spoils.pay.experience@Pirate Scout#2}} | {{guide:spoils.pay.experience@Pirate Scout#3}} |
+| Honor | {{guide:spoils.pay.honor@Pirate Scout#1}} | {{guide:spoils.pay.honor@Pirate Scout#2}} | {{guide:spoils.pay.honor@Pirate Scout#3}} |
 | PvE points per kill | 4 | 4 | 4 |
 
 **Drop**: none. The kill pays its Credits, Thulium, XP and Honor only.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 27ed2fafb9709c5b -->
+<!-- wiki-i18n source: b27666559551770c -->
 <!-- wiki-i18n title: Устройства -->
 # Устройства {#extras}
 
@@ -20,7 +20,7 @@ Cloaking CPU продаются только в магазине. Их нель�
 
 Ещё восемь CPU не продаются: Сборочный цех создаёт их, когда Исследовательский центр Skylab их исследует (см. [Исследования](/wiki/03-Mechanics/Research.md)). Это Extra Slots CPU I, II и III, Jump CPU, Base CPU I и II, Auto-Repair CPU и Auto-Rocket CPU; что делает каждый, сказано в [последнем разделе](#research-cpus). Как и Cloaking CPU, Jump CPU и Base CPU рассчитаны на спокойный момент: ни один из трёх не запускается в течение 10 секунд после вашего выстрела или полученного попадания. Два варп-CPU, Jump CPU и Base CPU, тоже нельзя использовать, пока вы везёте предмет миссии («Нельзя использовать варп-CPU, пока на борту предмет миссии.»): см. [Предметы миссий](/wiki/03-Mechanics/Quests.md#quest-items).
 
-У каждого устройства на слоте панели есть короткая метка: **REP** — Repair Drone, **CLK** — Cloaking CPU, а **ARP**, **ARL**, **BSE** и **JMP** — Auto-Repair CPU, Auto-Rocket CPU, Base CPU и Jump CPU. У расходников свои метки: **EMP** и **WAL** — Energetic Wall. У Extra Slots CPU слота нет: они устанавливаются в вашу Skylab. Три предмета **P.E.T. Station** — такие же устройства, как остальные, с меткой **PET**: установите один, и его слот включает или выключает Station (между двумя нажатиями секунда) и показывает, что именно. Пока она включена, пристыкованные [P.E.T.](/wiki/03-Mechanics/Pets.md) считаются, пока выключена — нет. **Auto-Rocket CPU** переключается так же: включена или выключена. Наведите курсор на слот, чтобы прочитать, что даст нажатие сейчас, или почему оно ничего не даст.
+У каждого устройства на слоте панели есть короткая метка: **REP** — Repair Drone, **CLK** — Cloaking CPU, **SCN** — Organic Scanner, а **ARP**, **ARL**, **BSE** и **JMP** — Auto-Repair CPU, Auto-Rocket CPU, Base CPU и Jump CPU. У расходников свои метки: **EMP** и **WAL** — Energetic Wall. У Extra Slots CPU слота нет: они устанавливаются в вашу Skylab. Три предмета **P.E.T. Station** — такие же устройства, как остальные, с меткой **PET**: установите один, и его слот включает или выключает Station (между двумя нажатиями секунда) и показывает, что именно. Пока она включена, пристыкованные [P.E.T.](/wiki/03-Mechanics/Pets.md) считаются, пока выключена — нет. **Auto-Rocket CPU** переключается так же: включена или выключена. Наведите курсор на слот, чтобы прочитать, что даст нажатие сейчас, или почему оно ничего не даст. **Organic Scanner** ([Путеводитель](/wiki/03-Mechanics/Travelers-Guide.md#scanning)) сначала не стоит ни в одном слоте: перетащите его из списка «Устройства» на слот, и клавиша этого слота включает его (своей клавиши у него нет).
 
 ![The Extras picker of the hotbar: the Repair Drone, the Auto-Repair, Cloaking, Base and Jump CPUs and the P.E.T. Station you have fitted (REP, ARP, CLK, BSE, JMP, PET): click one to use it, or drag it onto a slot](../../img/wiki-img/shots/cpu-hotbar.jpg)
 ![The Consumables picker of the hotbar: the EMP Charge and the Energetic Wall I and II (EMP, WAL), with how many of each you hold: click one to use it, or drag it onto a slot](../../img/wiki-img/shots/emp-hotbar.jpg)
@@ -59,10 +59,12 @@ Rocket Launcher V | extra, rare | craft 2000000 Thulium, 86400 s | research 8640
 Laser Optics III | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 1 Laser Optics II, 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
 Laser Optics IV | extra, rare | craft 50000 Thulium, 750 s | research 57600 s, 57600 science | 1 Laser Optics III, 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
 Laser Optics V | extra, rare | craft 75000 Thulium, 900 s | research 86400 s, 86400 science | 1 Laser Optics IV, 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Organic Scanner I | extra, rare | craft 20000 Credits, 10000 Thulium, 600 s | research 1800 s, 1800 science | 60 Ship Fragment, 2 Power Core, 1 Ancient Control Unit, 5 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
+Organic Scanner II | extra, epic | craft 50000 Credits, 20000 Thulium, 900 s | research 7200 s, 7200 science | 1 Organic Scanner I, 2 Lurker Fang, 2 Angler Lure, 1 Leviathan Scale | /wiki/06-Items/Extras.md
 
 P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 Cloaking CPU S -> Cloaking CPU M -> Cloaking CPU L
@@ -71,6 +73,7 @@ Extra Slots CPU I -> Extra Slots CPU II -> Extra Slots CPU III
 Base CPU I -> Base CPU II
 Laser Optics I => Laser Optics II => Laser Optics III => Laser Optics IV => Laser Optics V
 Rocket Launcher II => Rocket Launcher III => Rocket Launcher IV => Rocket Launcher V
+Organic Scanner I => Organic Scanner II
 ```
 <!-- item-tree:end -->
 
@@ -160,6 +163,8 @@ S, M и L работают одинаково: большие наборы ли�
 | [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 ч | – | 20 000 | 15 мин |
 | [Mine II](/wiki/06-Items/Extras.md#mine) | 3 ч | – | 200 | 2 мин |
 | [Mine III](/wiki/06-Items/Extras.md#mine) | 6 ч | [Mine II](/wiki/06-Items/Extras.md#mine) | 400 | 5 мин |
+| [Organic Scanner I](/wiki/06-Items/Extras.md) | 30 мин | – | 10 000 | 10 мин |
+| [Organic Scanner II](/wiki/06-Items/Extras.md) | 2 ч | [Organic Scanner I](/wiki/06-Items/Extras.md) | 20 000 | 15 мин |
 
 Ни один не продаётся в магазине: исследуйте технологию, затем создайте CPU в Сборочном цехе. Наведите курсор на CPU в его дереве, чтобы увидеть, что для него требует Сборочный цех.
 

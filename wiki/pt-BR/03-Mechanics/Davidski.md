@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3394596d1bb1595f -->
+<!-- wiki-i18n source: d029290762cd46b4 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -23,7 +23,7 @@ Uma **Ironclad TITANIC** pintada de dourado, no tamanho próprio da TITANIC, com
 | Extras | um Repair Drone IV, uma Auto-Repair CPU e uma Base CPU II |
 | Casco | 15 Hull Plating III |
 
-Na força de Alpha ele tem **931.250 de casco**, **1.559.486 de escudo** (recarrega 67.614 por segundo após 15 segundos sem levar um tiro), 90,9% de absorção, velocidade 97, alcance 945 e uma salva de **5.014 por segundo**. Beta tem 1,5 vez esses números e Gamma 2 vezes, como todo alienígena. São cerca de 2,5 milhões de pontos para derrubar em Alpha: um Wraith com os mesmos lasers precisa de cerca de doze minutos de tiro contínuo sozinho; dez deles, cerca de 71 segundos.
+Na força de Alpha ele tem **{{guide:vitals.hull@Davidski}} de casco**, **{{guide:vitals.shield@Davidski}} de escudo** (recarrega {{guide:vitals.shieldRecharge@Davidski}} por segundo após 15 segundos sem levar um tiro), {{guide:vitals.absorbance@Davidski}} de absorção, velocidade {{guide:vitals.speed@Davidski}}, alcance 945 e uma salva de **{{guide:vitals.dps@Davidski}} por segundo**. Beta tem 1,5 vez esses números e Gamma 2 vezes, como todo alienígena.
 
 ## Combatê-lo {#fighting-him}
 
@@ -38,12 +38,16 @@ Ele paga como um chefe, pelo dano que cada piloto causou (uma parcela abaixo de 
 
 | | Alpha | Beta | Gamma |
 |---|---:|---:|---:|
-| Créditos | 1.830.000 | 3.660.000 | 5.490.000 |
-| Thulium | 4.875 | 9.750 | 14.625 |
-| Experiência | 292.500 | 585.000 | 877.500 |
-| Honra | 1.275 | 2.550 | 3.825 |
+| Créditos | {{guide:spoils.pay.credits@Davidski}} | {{guide:spoils.pay.credits*2@Davidski}} | {{guide:spoils.pay.credits*3@Davidski}} |
+| Thulium | {{guide:spoils.pay.thulium@Davidski}} | {{guide:spoils.pay.thulium*2@Davidski}} | {{guide:spoils.pay.thulium*3@Davidski}} |
+| Experiência | {{guide:spoils.pay.experience@Davidski}} | {{guide:spoils.pay.experience*2@Davidski}} | {{guide:spoils.pay.experience*3@Davidski}} |
+| Honra | {{guide:spoils.pay.honor@Davidski}} | {{guide:spoils.pay.honor*2@Davidski}} | {{guide:spoils.pay.honor*3@Davidski}} |
 
-A caixa tem de 40 a 60 Ship Fragments, de 10 a 20 Power Cores e de 3.000 a 6.000 Advanced Plasma, e às vezes Ancient Control Units ou Dark Matter. Uma destruição **não soma nenhum ponto PvE** ao seu ranking (ele está fora dos rankings, veja abaixo); a experiência que ela paga conta como qualquer outra experiência, e a destruição é registrada com o nome Davidski nas suas estatísticas de abates.
+| Sua caixa |
+|---|
+| {{guide:spoils.box@Davidski}} |
+
+Uma destruição **não soma nenhum ponto PvE** ao seu ranking (ele está fora dos rankings, veja abaixo); a experiência que ela paga conta como qualquer outra experiência, e a destruição é registrada com o nome Davidski nas suas estatísticas de abates.
 
 - **Ele é destruído no máximo uma vez por dia.** Depois da morte ele fica fora até o próximo dia UTC, quando sai de novo no momento desse dia, com o casco cheio. Ninguém é avisado de que ele caiu; os pilotos que lutaram contra ele veem o próprio pagamento.
 - **Ele paga a um piloto por duas destruições por dia e a um mundo por oito** (UTC). Com um Davidski por dia em cada mundo, esses limites quase não importam; passando deles você é avisado e não recebe nada pela destruição.

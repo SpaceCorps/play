@@ -11,13 +11,13 @@ The Tesseract Swarm is one huge mothership, the **Tesseract**, and the **Facets*
 - **How many**: One in each world
 - **Appears**: From season day 4 until the wipe (Beta and Gamma: from season day 1)
 - **Leader**: Tesseract
-- **Home**: Within 2,500 units of the point 25,900, 6,100 of the sector's map
+- **Home**: Within 2,500 units of the point 25,900, 11,900 of the sector's map
 - **Regeneration**: 125,000 HP a second in Alpha, the hull first and then the shield, once 5 s have passed without damage
 - **Followers**: Up to 100 × Facet, 20 more every 5 s while the leader is being hit
 - **Followers come**: Only while the leader has been hit in the last 5 s, within 400 units of it
 - **Hunters**: Each Facet flies legs of its own round the leader, within 3,600 units of it, and goes after nobody. It fires at the nearest pilot who has hit the leader when that pilot is within its range. With nobody to fire at it flies on round the leader and leaves 20 s after the last hit
 - **Leader destroyed**: The followers leave 1 min after the leader is destroyed, attacking or not
-- **Comes back**: 30 min after the leader is destroyed, in the same sector
+- **Comes back**: {{guide:vitals.respawn@Tesseract#1;Tesseract#2;Tesseract#3}} after the leader is destroyed, in the same sector
 - **Announced**: The pilots of the sector are told when the leader appears and when it is destroyed. These are System lines: they show in the chat's **System** tab, with an unread count, and not in **Global** or **Local**. The kill feed names the pilot credited with the kill.
 
 <!-- tesseract-glance:end -->
@@ -38,6 +38,17 @@ The Tesseract Swarm is one huge mothership, the **Tesseract**, and the **Facets*
 - **The Danger Sectors are PvP.** A rival can attack the group in the middle of the fight. There is no box lying at the wreck for him to wait for: the loot is a [private box](/wiki/03-Mechanics/Cargo.md#private-boxes) for each pilot the kill pays, that only that pilot can see and take. Bring company.
 - **The Tesseract comes back** after the time in the *At a glance* list, at full strength, at its home.
 
+## The leader's three steps {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Its fight has three steps ([how they work](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); each one happens once, and they start over when it has mended itself whole.
+
+- **Under two thirds**: 20 more Facets arrive at once, above their usual number.
+
+<!-- mob-ladder:end -->
+
 ## Rewards and drops
 
 The Tesseract pays for the fight it is: as much as many Crystalys together, and more for the damage it takes than a Crystalys, the best-paid alien. The pay is split by damage among the pilots who fought it ([how a boss kill pays](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). There is no box for the top dealer. Every pilot the kill pays gets a [private box](/wiki/03-Mechanics/Cargo.md#private-boxes) of his own, that only he can see and take, for 10 minutes, with Reinforced Hull Plates, Velkonite and Orvium Reinforced Plates, Power Cores, Ancient Control Units and Dark Matter. It is rolled for his share of the damage, as a [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)'s loot is: a pilot who dealt a fifth of the damage gets about a fifth of the amounts in the table, and in a group each pilot gets his part of the group's share, as the pay is shared. The Dark Matter has a cap for each pilot: from one kill he gets 5 at the most, however big his share is (in a group each pilot's part is split off first, and the cap is each pilot's own), and what is over the cap is lost, it is not given to the others. A Facet pays what a [Phantasm](/wiki/04-Aliens/Phantasm.md) pays in Credits, Thulium, XP and Honor and counts as a kill (in your statistics, for achievements and for the experience of your drones and P.E.T.s), but it drops nothing and adds no PvE points.
@@ -55,30 +66,24 @@ Built from the Crystalys at 625% of its hull; it has no weapon, and its shield a
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Hull | 1,600,000 | 2,400,000 | 3,200,000 |
-| Shield | 1,200,000 | 1,800,000 | 2,400,000 |
+| Hull | {{guide:vitals.hull@Tesseract#1}} | {{guide:vitals.hull@Tesseract#2}} | {{guide:vitals.hull@Tesseract#3}} |
+| Shield | {{guide:vitals.shield@Tesseract#1}} | {{guide:vitals.shield@Tesseract#2}} | {{guide:vitals.shield@Tesseract#3}} |
 | Laser damage (a volley a second) | none | none | none |
-| Speed | 30 | 30 | 30 |
+| Speed | {{guide:vitals.speed@Tesseract#1}} | {{guide:vitals.speed@Tesseract#2}} | {{guide:vitals.speed@Tesseract#3}} |
 | Laser range | – | – | – |
 | Aggro radius | only when attacked | only when attacked | only when attacked |
 | Mends, per second, after 5 s without damage (hull, then shield) | 125,000 | 187,500 | 250,000 |
-| Credits | 900,000 | 1,800,000 | 2,700,000 |
-| Thulium | 2,400 | 4,800 | 7,200 |
-| Experience (XP) | 144,000 | 288,000 | 432,000 |
-| Honor | 624 | 1,248 | 1,872 |
+| Credits | {{guide:spoils.pay.credits@Tesseract#1}} | {{guide:spoils.pay.credits@Tesseract#2}} | {{guide:spoils.pay.credits@Tesseract#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Tesseract#1}} | {{guide:spoils.pay.thulium@Tesseract#2}} | {{guide:spoils.pay.thulium@Tesseract#3}} |
+| Experience (XP) | {{guide:spoils.pay.experience@Tesseract#1}} | {{guide:spoils.pay.experience@Tesseract#2}} | {{guide:spoils.pay.experience@Tesseract#3}} |
+| Honor | {{guide:spoils.pay.honor@Tesseract#1}} | {{guide:spoils.pay.honor@Tesseract#2}} | {{guide:spoils.pay.honor@Tesseract#3}} |
 | PvE points per kill | 42 | 42 | 42 |
 
 **Drop for every pilot the kill pays**: a box each, only for him, with his share of these amounts.
 
-| Item | Chance | Amount |
-| :--- | ---: | ---: |
-| Reinforced Hull Plate | 100% | 3–10 |
-| Velkonite Reinforced Plate | 66% | 7–12 |
-| Orvium Reinforced Plate | 50% | 3–5 |
-| Power Core | 66% | 4–7 |
-| Ancient Control Unit | 100% | 1–4 |
-| Dark Matter | 100% | 10–20, at most 5 for each pilot |
-| Heartshard | 5% | 1 |
+| Item |
+| :--- |
+| {{guide:spoils.box@Tesseract#1;Tesseract#2;Tesseract#3}} |
 
 ### Facet
 
@@ -86,16 +91,16 @@ Built from the Seeker at 2,500% of its hull and 463% of its laser damage; its sh
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Hull | 20,000 | 30,000 | 40,000 |
-| Shield | 16,000 | 24,000 | 32,000 |
-| Laser damage (a volley a second) | 834 | 1,251 | 1,668 |
-| Speed | 750 | 750 | 750 |
+| Hull | {{guide:vitals.hull@Facet#1}} | {{guide:vitals.hull@Facet#2}} | {{guide:vitals.hull@Facet#3}} |
+| Shield | {{guide:vitals.shield@Facet#1}} | {{guide:vitals.shield@Facet#2}} | {{guide:vitals.shield@Facet#3}} |
+| Laser damage (a volley a second) | {{guide:vitals.dps@Facet#1}} | {{guide:vitals.dps@Facet#2}} | {{guide:vitals.dps@Facet#3}} |
+| Speed | {{guide:vitals.speed@Facet#1}} | {{guide:vitals.speed@Facet#2}} | {{guide:vitals.speed@Facet#3}} |
 | Laser range | 600 | 600 | 600 |
 | Aggro radius | only when attacked | only when attacked | only when attacked |
-| Credits | 3,000 | 6,000 | 9,000 |
-| Thulium | 12 | 24 | 36 |
-| Experience (XP) | 300 | 600 | 900 |
-| Honor | 6 | 12 | 18 |
+| Credits | {{guide:spoils.pay.credits@Facet#1}} | {{guide:spoils.pay.credits@Facet#2}} | {{guide:spoils.pay.credits@Facet#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Facet#1}} | {{guide:spoils.pay.thulium@Facet#2}} | {{guide:spoils.pay.thulium@Facet#3}} |
+| Experience (XP) | {{guide:spoils.pay.experience@Facet#1}} | {{guide:spoils.pay.experience@Facet#2}} | {{guide:spoils.pay.experience@Facet#3}} |
+| Honor | {{guide:spoils.pay.honor@Facet#1}} | {{guide:spoils.pay.honor@Facet#2}} | {{guide:spoils.pay.honor@Facet#3}} |
 | PvE points per kill | 0 | 0 | 0 |
 
 **Drop**: none. The kill pays its Credits, Thulium, XP and Honor only.

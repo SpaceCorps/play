@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0684c16b2f2d0dbe -->
+<!-- wiki-i18n source: d6376f646044a759 -->
 <!-- wiki-i18n title: Forgia -->
 # La Forgia {#the-forge}
 
@@ -98,9 +98,9 @@ Sintonizzare tutti e quattro gli slot di un pezzo costa 150 Echo Shard (10 + 20 
 | Porta solo: Delta Siege | 29 | 44 |
 | Porta solo: Omega Vault | 34 | 54 |
 | Porta solo: Davidski's Nightmare | 34 | 54 |
-| Dungeon del clan: livello 1 | 12 | 5 |
-| Dungeon del clan: livello 2 | 8 | 6 |
-| Dungeon del clan: livello 3 | 8 | 7 |
+| Dungeon del clan: livello 1 | 24 | 10 |
+| Dungeon del clan: livello 2 | 16 | 12 |
+| Dungeon del clan: livello 3 | 16 | 14 |
 
 - Le **porte solo** pagano i loro shard a ogni completamento, i **dungeon del clan** a ogni completamento pagato di un livello.
 - Gli **Heartshard** arrivano con il primo completamento di ogni porta e di ogni livello di dungeon in una stagione (1) e con il 5% di probabilità di 1 in più a ogni completamento. Li lasciano cadere anche gli NPC rari: il 10% Davidski, il 5% Dormant Force e Tesseract. La pagina [Risorse](/wiki/06-Items/Resources.md#heartshard) ha il resto.

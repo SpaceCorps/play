@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3394596d1bb1595f -->
+<!-- wiki-i18n source: d029290762cd46b4 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -23,7 +23,7 @@ Davidski는 날아다니는 상인입니다. 하루에 한 번, 아무도 알려
 | 추가 장비 | Repair Drone IV, Auto-Repair CPU, Base CPU II |
 | 선체 | Hull Plating III 15개 |
 
-Alpha 강도에서 **선체 931,250**, **실드 1,559,486**(15초간 피격이 없으면 초당 67,614 회복), 흡수율 90.9%, 속도 97, 사거리 945, **초당 5,014**의 일제 사격을 가집니다. Beta는 이 수치의 1.5배, Gamma는 2배이며, 모든 에일리언이 그렇습니다. Alpha에서는 약 250만 포인트를 깎아야 합니다. 같은 레이저를 단 Wraith 한 대는 혼자서 약 12분 동안 계속 사격해야 하고, 열 대라면 약 71초입니다.
+Alpha 강도에서 **선체 {{guide:vitals.hull@Davidski}}**, **실드 {{guide:vitals.shield@Davidski}}**(15초간 피격이 없으면 초당 {{guide:vitals.shieldRecharge@Davidski}} 회복), 흡수율 {{guide:vitals.absorbance@Davidski}}, 속도 {{guide:vitals.speed@Davidski}}, 사거리 945, **초당 {{guide:vitals.dps@Davidski}}**의 일제 사격을 가집니다. Beta는 이 수치의 1.5배, Gamma는 2배이며, 모든 에일리언이 그렇습니다.
 
 ## 그와 싸우기 {#fighting-him}
 
@@ -38,12 +38,16 @@ Boss처럼 보상을 지급합니다. 각 파일럿이 입힌 피해에 따라 �
 
 | | Alpha | Beta | Gamma |
 |---|---:|---:|---:|
-| 크레딧 | 1,830,000 | 3,660,000 | 5,490,000 |
-| Thulium | 4,875 | 9,750 | 14,625 |
-| 경험치 | 292,500 | 585,000 | 877,500 |
-| 명예 | 1,275 | 2,550 | 3,825 |
+| 크레딧 | {{guide:spoils.pay.credits@Davidski}} | {{guide:spoils.pay.credits*2@Davidski}} | {{guide:spoils.pay.credits*3@Davidski}} |
+| Thulium | {{guide:spoils.pay.thulium@Davidski}} | {{guide:spoils.pay.thulium*2@Davidski}} | {{guide:spoils.pay.thulium*3@Davidski}} |
+| 경험치 | {{guide:spoils.pay.experience@Davidski}} | {{guide:spoils.pay.experience*2@Davidski}} | {{guide:spoils.pay.experience*3@Davidski}} |
+| 명예 | {{guide:spoils.pay.honor@Davidski}} | {{guide:spoils.pay.honor*2@Davidski}} | {{guide:spoils.pay.honor*3@Davidski}} |
 
-상자에는 Ship Fragment 40~60개, Power Core 10~20개, Advanced Plasma 3,000~6,000개가 들어 있고, 가끔 Ancient Control Unit이나 Dark Matter가 나옵니다. 격파는 PvE 랭킹에 **포인트를 더하지 않습니다**(그는 어떤 랭킹에도 오르지 않습니다. 아래 참고). 지급되는 경험치는 다른 경험치와 똑같이 계산되며, 격파 통계에는 Davidski라는 이름으로 기록됩니다.
+| 상자 |
+|---|
+| {{guide:spoils.box@Davidski}} |
+
+격파는 PvE 랭킹에 **포인트를 더하지 않습니다**(그는 어떤 랭킹에도 오르지 않습니다. 아래 참고). 지급되는 경험치는 다른 경험치와 똑같이 계산되며, 격파 통계에는 Davidski라는 이름으로 기록됩니다.
 
 - **격파되는 것은 하루에 최대 한 번입니다.** 격파된 뒤에는 다음 UTC 날짜까지 나오지 않다가, 그날의 시각에 선체가 가득 찬 채로 다시 나옵니다. 격파된 사실은 아무에게도 알리지 않습니다. 그와 싸운 파일럿은 자신의 보상을 받습니다.
 - **파일럿 한 명에게는 하루 두 번, 월드에는 하루 여덟 번 격파까지** 보상을 지급합니다(UTC). 월드마다 하루에 한 명이므로 이 한도는 거의 의미가 없습니다. 한도를 넘으면 알림을 받고, 격파해도 보상을 받지 못합니다.

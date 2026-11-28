@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5f873edc2b653495 -->
+<!-- wiki-i18n source: 2b3edf7bcb1d9673 -->
 <!-- wiki-i18n title: Sciame Crystalys -->
 # Sciame Crystalys {#crystalys-swarm}
 
@@ -17,14 +17,14 @@ Lo sciame Crystalys è un **Boss Crystalys** con i suoi **Crystalys Guard**: il 
 - **I seguaci restano vicini**: al massimo 500 unità dal capo
 - **Cura**: Ogni Crystalys Guard entro 600 unità dal capo ne cura lo scafo, 250 HP al secondo in Alpha
 - **Capo distrutto**: I seguaci se ne vanno 30 s dopo la distruzione del capo, a meno che stiano attaccando
-- **Ritorna**: 30 min dopo la distruzione del capo, nello stesso settore
+- **Ritorna**: {{guide:vitals.respawn@Boss Crystalys#1;Boss Crystalys#2;Boss Crystalys#3}} dopo la distruzione del capo, nello stesso settore
 - **Avvisi**: I piloti del settore vengono avvisati quando il capo compare e quando viene distrutto. Sono righe di Sistema: compaiono nella scheda **Sistema** della chat, con un conteggio delle righe non lette, e non in **Globale** né in **Locale**. Il kill feed nomina il pilota a cui viene accreditato l’abbattimento.
 
 <!-- crystalys-glance:end -->
 
 ## I membri {#the-members}
 
-- **Boss Crystalys**: un Crystalys più grande, con la tinta dello sciame e il suo nome sopra, con scafo, scudo e raffica laser propri (i valori sono qui sotto). È passivo: vaga finché un pilota non lo colpisce, poi va contro quel pilota e gli spara, e le navi del suo sciame vicine si uniscono allo scontro. La portata della sua arma e la sua velocità sono quelle di un Crystalys, e non ripara mai da solo il suo scafo.
+- **Boss Crystalys**: un Crystalys più grande, con la tinta dello sciame e il suo nome sopra, con scafo, scudo e raffica laser propri (i valori sono qui sotto). È passivo: vaga finché un pilota non lo colpisce, poi va contro quel pilota e gli spara, e le navi del suo sciame vicine si uniscono allo scontro. La portata della sua arma e la sua velocità sono quelle di un Crystalys, e non ripara mai da solo il suo scafo. Le sue [tre fasi](#the-leaders-three-steps) e un’[abilità speciale](/wiki/03-Mechanics/Special-Abilities.md) possono cambiare questo.
 - **Crystalys Guard**: un Crystalys più piccolo con la tinta dello sciame. I Guard restano vicini al boss, si uniscono allo scontro quando una nave di sciame vicina viene colpita, e ognuno che è vicino al boss ne cura lo scafo. Un Guard ripara il proprio scafo dopo una pausa, come fa un Crystalys.
 
 ## Come va lo scontro {#how-the-fight-goes}
@@ -34,6 +34,19 @@ Lo sciame Crystalys è un **Boss Crystalys** con i suoi **Crystalys Guard**: il 
 - **Beta e Gamma sono più duri.** Gli sciami di quei mondi sono più forti ([Mondi](/wiki/05-Swarms/Swarms.md#the-worlds)), quindi servono più piloti o munizioni migliori.
 - **I settori pericolosi sono PvP.** Un rivale può attaccare il gruppo in mezzo allo scontro e aspettare la cassa: è del pilota che ha inflitto più danno (e del suo clan) per 30 secondi, poi di chiunque ([Carico](/wiki/03-Mechanics/Cargo.md)). Non andare da solo.
 - **Il boss ritorna** dopo il tempo indicato nell’elenco *In breve*, a piena forza, nello stesso settore, e i suoi Guard arrivano uno dopo l’altro.
+
+## Le tre fasi del capo {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Il suo scontro ha tre fasi ([come funzionano](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); ognuna avviene una volta.
+
+- **All’inizio**: Subisce solo 50% di ogni colpo per 8 s.
+- **Sotto i due terzi**: Un anello di 700 unità colpisce ogni nave al suo interno con 4 delle sue raffiche, e spara 4 razzi.
+- **Sotto un terzo**: Ripristina 20% del suo scafo e del suo scudo (una raffica di danni la interrompe), e arrivano 3 Crystalys Guards in più, al massimo 6 vivi.
+
+<!-- mob-ladder:end -->
 
 ## Ricompense e bottino {#rewards-and-drops}
 
@@ -52,29 +65,23 @@ Base: Crystalys; rispetto all’originale, scafo 350% e danno dei laser 100%; ve
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Scafo | 896.000 | 1.344.000 | 1.792.000 |
-| Scudo | 560.000 | 840.000 | 1.120.000 |
-| Danno dei laser (una raffica al secondo) | 10.000 | 15.000 | 20.000 |
-| Velocità | 230 | 230 | 230 |
+| Scafo | {{guide:vitals.hull@Boss Crystalys#1}} | {{guide:vitals.hull@Boss Crystalys#2}} | {{guide:vitals.hull@Boss Crystalys#3}} |
+| Scudo | {{guide:vitals.shield@Boss Crystalys#1}} | {{guide:vitals.shield@Boss Crystalys#2}} | {{guide:vitals.shield@Boss Crystalys#3}} |
+| Danno dei laser (una raffica al secondo) | {{guide:vitals.dps@Boss Crystalys#1}} | {{guide:vitals.dps@Boss Crystalys#2}} | {{guide:vitals.dps@Boss Crystalys#3}} |
+| Velocità | {{guide:vitals.speed@Boss Crystalys#1}} | {{guide:vitals.speed@Boss Crystalys#2}} | {{guide:vitals.speed@Boss Crystalys#3}} |
 | Portata dei laser | 900 | 900 | 900 |
 | Raggio di aggressione | solo se attaccato | solo se attaccato | solo se attaccato |
-| Crediti | 393.750 | 787.500 | 1.181.250 |
-| Thulium | 1.050 | 2.100 | 3.150 |
-| Esperienza (XP) | 63.000 | 126.000 | 189.000 |
-| Onore | 273 | 546 | 819 |
+| Crediti | {{guide:spoils.pay.credits@Boss Crystalys#1}} | {{guide:spoils.pay.credits@Boss Crystalys#2}} | {{guide:spoils.pay.credits@Boss Crystalys#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Boss Crystalys#1}} | {{guide:spoils.pay.thulium@Boss Crystalys#2}} | {{guide:spoils.pay.thulium@Boss Crystalys#3}} |
+| Esperienza (XP) | {{guide:spoils.pay.experience@Boss Crystalys#1}} | {{guide:spoils.pay.experience@Boss Crystalys#2}} | {{guide:spoils.pay.experience@Boss Crystalys#3}} |
+| Onore | {{guide:spoils.pay.honor@Boss Crystalys#1}} | {{guide:spoils.pay.honor@Boss Crystalys#2}} | {{guide:spoils.pay.honor@Boss Crystalys#3}} |
 | Punti PvE per abbattimento | 30 | 30 | 30 |
 
 **Bottino**: una cassa, per il pilota che ha inflitto più danno.
 
-| Oggetto | Probabilità | Quantità |
-| :--- | ---: | ---: |
-| Cataclysite | 100% a ciascuno di 2 tiri | 8 |
-| Quorvium | 100% a ciascuno di 2 tiri | 6–10 |
-| Power Core | 30% | 1 |
-| Ancient Control Unit | 15% | 1 |
-| Dark Matter | 4% | 1 |
-| Ultra Core e Experimental Fusion Core, divisi in parti uguali | 100% | 600–1.000 in tutto |
-| Uno dei 4 [razzi](/wiki/06-Items/Rockets.md) Epici, scelto a caso | 100% | 8–15 |
+| Oggetto |
+| :--- |
+| {{guide:spoils.box@Boss Crystalys#1;Boss Crystalys#2;Boss Crystalys#3}} |
 
 ### Crystalys Guard
 
@@ -82,17 +89,17 @@ Base: Crystalys, con il 15% di scafo, scudo e danno; velocità e portata sono qu
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Scafo | 38.400 | 57.600 | 76.800 |
-| Scudo | 24.000 | 36.000 | 48.000 |
-| Danno dei laser (una raffica al secondo) | 1.500 | 2.250 | 3.000 |
-| Velocità | 230 | 230 | 230 |
+| Scafo | {{guide:vitals.hull@Crystalys Guard#1}} | {{guide:vitals.hull@Crystalys Guard#2}} | {{guide:vitals.hull@Crystalys Guard#3}} |
+| Scudo | {{guide:vitals.shield@Crystalys Guard#1}} | {{guide:vitals.shield@Crystalys Guard#2}} | {{guide:vitals.shield@Crystalys Guard#3}} |
+| Danno dei laser (una raffica al secondo) | {{guide:vitals.dps@Crystalys Guard#1}} | {{guide:vitals.dps@Crystalys Guard#2}} | {{guide:vitals.dps@Crystalys Guard#3}} |
+| Velocità | {{guide:vitals.speed@Crystalys Guard#1}} | {{guide:vitals.speed@Crystalys Guard#2}} | {{guide:vitals.speed@Crystalys Guard#3}} |
 | Portata dei laser | 900 | 900 | 900 |
 | Raggio di aggressione | solo se attaccato | solo se attaccato | solo se attaccato |
 | Cura il capo, ciascuno, al secondo (solo scafo) | 250 | 375 | 500 |
-| Crediti | 125 | 250 | 375 |
-| Thulium | 1 | 2 | 3 |
-| Esperienza (XP) | 12 | 24 | 36 |
-| Onore | 1 | 2 | 3 |
+| Crediti | {{guide:spoils.pay.credits@Crystalys Guard#1}} | {{guide:spoils.pay.credits@Crystalys Guard#2}} | {{guide:spoils.pay.credits@Crystalys Guard#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Crystalys Guard#1}} | {{guide:spoils.pay.thulium@Crystalys Guard#2}} | {{guide:spoils.pay.thulium@Crystalys Guard#3}} |
+| Esperienza (XP) | {{guide:spoils.pay.experience@Crystalys Guard#1}} | {{guide:spoils.pay.experience@Crystalys Guard#2}} | {{guide:spoils.pay.experience@Crystalys Guard#3}} |
+| Onore | {{guide:spoils.pay.honor@Crystalys Guard#1}} | {{guide:spoils.pay.honor@Crystalys Guard#2}} | {{guide:spoils.pay.honor@Crystalys Guard#3}} |
 | Punti PvE per abbattimento | 6 | 6 | 6 |
 
 **Bottino**: nessuno. L’abbattimento paga solo i suoi crediti, il Thulium, l’XP e l’onore.

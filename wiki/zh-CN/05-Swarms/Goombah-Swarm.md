@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7859e3f6a7efac1e -->
+<!-- wiki-i18n source: 38ffa8ba7cbf5000 -->
 <!-- wiki-i18n title: Goombah 虫群 -->
 # Goombah 虫群 {#goombah-swarm}
 
@@ -17,14 +17,14 @@ Goombah 虫群由一个 **Boss Goombah** 和它的 **Goombah Guard** 组成：�
 - **随从停留范围**：距头领不超过 500 单位
 - **治疗**：距头领 600 单位以内的每个 Goombah Guard 都会治疗它的船体，在 Alpha 中每秒 110 HP
 - **头领被击毁后**：头领被击毁后 30 秒，随从会离开，除非它们正在攻击
-- **回归**：头领 被击毁 5 分钟 后， 在同一星区
+- **回归**：头领 被击毁 {{guide:vitals.respawn@Boss Goombah#1;Boss Goombah#2;Boss Goombah#3}} 后， 在同一星区
 - **通知**：该星区的飞行员会被告知头领何时出现、何时被击毁。这些是系统行：它们显示在聊天的**系统**标签页中，带有未读计数，不会出现在**全球**或**本地**标签页里。击杀播报会写明获得这次击杀功劳的飞行员。
 
 <!-- goombah-glance:end -->
 
 ## 成员 {#the-members}
 
-- **Boss Goombah**: 一只更大的 Goombah，带有虫群的色调，头顶显示名字，拥有自己的船体、护盾和激光齐射（数值见下）。它是被动的：一直游荡，直到有飞行员击中它，然后追上该飞行员并向其开火，附近的虫群舰船会加入战斗。它的武器射程和速度与 Goombah 相同，也从不自己修复船体。
+- **Boss Goombah**: 一只更大的 Goombah，带有虫群的色调，头顶显示名字，拥有自己的船体、护盾和激光齐射（数值见下）。它是被动的：一直游荡，直到有飞行员击中它，然后追上该飞行员并向其开火，附近的虫群舰船会加入战斗。它的武器射程和速度与 Goombah 相同，也从不自己修复船体。它的[三个阶段](#the-leaders-three-steps)和[特殊能力](/wiki/03-Mechanics/Special-Abilities.md)可能改变这一点。
 - **Goombah Guard**: 一只带有虫群色调的较小 Goombah。Guard 待在 Boss 附近，附近的虫群舰船被击中时就会加入战斗，每只靠近 Boss 的 Guard 都会为它的船体治疗。Guard 休息一段时间后会修复自己的船体，和 Goombah 一样。
 
 ## 战斗过程 {#how-the-fight-goes}
@@ -34,6 +34,19 @@ Goombah 虫群由一个 **Boss Goombah** 和它的 **Goombah Guard** 组成：�
 - **Beta 和 Gamma 更难。** 这些世界的虫群更强（[世界](/wiki/05-Swarms/Swarms.md#the-worlds)），所以需要更多飞行员或更好的弹药。
 - **留意星区。** `x-4` 在 Alpha 中是 PvP 星区，在 Beta 和 Gamma 中 `x-3` 和 `x-4` 都是（[世界](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)）：对手可能加入战斗，或等着拿货箱。让队里的一艘舰船放哨。
 - **Boss 会回来**，在*一览*列表给出的时间之后，满状态，出现在同一个星区，它的 Guard 会一只接一只地到来。
+
+## 首领的三个阶段 {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+这场战斗有三个阶段（[运作方式](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)）；每个只发生一次。
+
+- **开始时**: 在 6 秒 内每次只承受 50% 的伤害。
+- **低于三分之二时**: 在 10 秒 内，它的伤害乘以 ×1.5，速度乘以 ×1.25。
+- **低于三分之一时**: 恢复船体和护盾的 25%（一次伤害爆发会打断它），期间它的Goombah Guards以 ×2 的速度为它修复。
+
+<!-- mob-ladder:end -->
 
 ## 奖励与掉落 {#rewards-and-drops}
 
@@ -52,30 +65,23 @@ Boss Goombah 的奖励与这场战斗的分量相称：与它战斗一分钟的�
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 船体 | 128,000 | 192,000 | 256,000 |
-| 护盾 | 192,000 | 288,000 | 384,000 |
-| 激光伤害 （每秒一轮齐射） | 3,000 | 4,500 | 6,000 |
-| 速度 | 180 | 180 | 180 |
+| 船体 | {{guide:vitals.hull@Boss Goombah#1}} | {{guide:vitals.hull@Boss Goombah#2}} | {{guide:vitals.hull@Boss Goombah#3}} |
+| 护盾 | {{guide:vitals.shield@Boss Goombah#1}} | {{guide:vitals.shield@Boss Goombah#2}} | {{guide:vitals.shield@Boss Goombah#3}} |
+| 激光伤害 （每秒一轮齐射） | {{guide:vitals.dps@Boss Goombah#1}} | {{guide:vitals.dps@Boss Goombah#2}} | {{guide:vitals.dps@Boss Goombah#3}} |
+| 速度 | {{guide:vitals.speed@Boss Goombah#1}} | {{guide:vitals.speed@Boss Goombah#2}} | {{guide:vitals.speed@Boss Goombah#3}} |
 | 激光射程 | 800 | 800 | 800 |
 | 仇恨范围 | 被攻击时 | 被攻击时 | 被攻击时 |
-| 信用点 | 120,000 | 240,000 | 360,000 |
-| Thulium | 600 | 1,200 | 1,800 |
-| 经验值（XP） | 24,000 | 48,000 | 72,000 |
-| 荣誉 | 192 | 384 | 576 |
+| 信用点 | {{guide:spoils.pay.credits@Boss Goombah#1}} | {{guide:spoils.pay.credits@Boss Goombah#2}} | {{guide:spoils.pay.credits@Boss Goombah#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Boss Goombah#1}} | {{guide:spoils.pay.thulium@Boss Goombah#2}} | {{guide:spoils.pay.thulium@Boss Goombah#3}} |
+| 经验值（XP） | {{guide:spoils.pay.experience@Boss Goombah#1}} | {{guide:spoils.pay.experience@Boss Goombah#2}} | {{guide:spoils.pay.experience@Boss Goombah#3}} |
+| 荣誉 | {{guide:spoils.pay.honor@Boss Goombah#1}} | {{guide:spoils.pay.honor@Boss Goombah#2}} | {{guide:spoils.pay.honor@Boss Goombah#3}} |
 | 每次击杀的 PvE 积分 | 14 | 14 | 14 |
 
 **掉落**：一个货箱，归造成伤害最多的飞行员。
 
-| 物品 | 几率 | 数量 |
-| :--- | ---: | ---: |
-| Ship Fragment | 8 次判定中每次 100% | 3 |
-| Reinforced Hull Plate | 8 次判定中每次 60% | 1 |
-| Power Core | 8 次判定中每次 25% | 1 |
-| Cataclysite | 8 次判定中每次 100% | 4 |
-| Quorvium | 8 次判定中每次 100% | 2–4 |
-| Advanced Plasma | 100% | 100–200 |
-| Ultra Core | 100% | 100–200 |
-| 可用信用点购买的 4 种 [火箭](/wiki/06-Items/Rockets.md) 中随机一种 | 100% | 6–10 |
+| 物品 |
+| :--- |
+| {{guide:spoils.box@Boss Goombah#1;Boss Goombah#2;Boss Goombah#3}} |
 
 ### Goombah Guard
 
@@ -83,17 +89,17 @@ Boss Goombah 的奖励与这场战斗的分量相称：与它战斗一分钟的�
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 船体 | 6,400 | 9,600 | 12,800 |
-| 护盾 | 9,600 | 14,400 | 19,200 |
-| 激光伤害 （每秒一轮齐射） | 600 | 900 | 1,200 |
-| 速度 | 180 | 180 | 180 |
+| 船体 | {{guide:vitals.hull@Goombah Guard#1}} | {{guide:vitals.hull@Goombah Guard#2}} | {{guide:vitals.hull@Goombah Guard#3}} |
+| 护盾 | {{guide:vitals.shield@Goombah Guard#1}} | {{guide:vitals.shield@Goombah Guard#2}} | {{guide:vitals.shield@Goombah Guard#3}} |
+| 激光伤害 （每秒一轮齐射） | {{guide:vitals.dps@Goombah Guard#1}} | {{guide:vitals.dps@Goombah Guard#2}} | {{guide:vitals.dps@Goombah Guard#3}} |
+| 速度 | {{guide:vitals.speed@Goombah Guard#1}} | {{guide:vitals.speed@Goombah Guard#2}} | {{guide:vitals.speed@Goombah Guard#3}} |
 | 激光射程 | 800 | 800 | 800 |
 | 仇恨范围 | 被攻击时 | 被攻击时 | 被攻击时 |
 | 治疗头领 （每个，每秒，仅船体） | 110 | 165 | 220 |
-| 信用点 | 125 | 250 | 375 |
-| Thulium | 1 | 2 | 3 |
-| 经验值（XP） | 12 | 24 | 36 |
-| 荣誉 | 1 | 2 | 3 |
+| 信用点 | {{guide:spoils.pay.credits@Goombah Guard#1}} | {{guide:spoils.pay.credits@Goombah Guard#2}} | {{guide:spoils.pay.credits@Goombah Guard#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Goombah Guard#1}} | {{guide:spoils.pay.thulium@Goombah Guard#2}} | {{guide:spoils.pay.thulium@Goombah Guard#3}} |
+| 经验值（XP） | {{guide:spoils.pay.experience@Goombah Guard#1}} | {{guide:spoils.pay.experience@Goombah Guard#2}} | {{guide:spoils.pay.experience@Goombah Guard#3}} |
+| 荣誉 | {{guide:spoils.pay.honor@Goombah Guard#1}} | {{guide:spoils.pay.honor@Goombah Guard#2}} | {{guide:spoils.pay.honor@Goombah Guard#3}} |
 | 每次击杀的 PvE 积分 | 3 | 3 | 3 |
 
 **掉落**：无。击杀只支付信用点、Thulium、经验值和荣誉。

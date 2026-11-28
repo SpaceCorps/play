@@ -96,9 +96,9 @@ Tuning all four sockets of a piece takes 150 Echo Shards (10 + 20 + 40 + 80), an
 | Solo gate: Delta Siege | 29 | 44 |
 | Solo gate: Omega Vault | 34 | 54 |
 | Solo gate: Davidski's Nightmare | 34 | 54 |
-| Clan dungeon: stage 1 | 12 | 5 |
-| Clan dungeon: stage 2 | 8 | 6 |
-| Clan dungeon: stage 3 | 8 | 7 |
+| Clan dungeon: stage 1 | 24 | 10 |
+| Clan dungeon: stage 2 | 16 | 12 |
+| Clan dungeon: stage 3 | 16 | 14 |
 
 - **Solo gates** pay their shards with every clear, **clan dungeons** with every paid clear of a stage.
 - **Heartshards** come with the first clear of each gate and of each dungeon stage in a season (1) and with a 5% chance of 1 more at every clear. The rare NPCs drop them too: 10% for Davidski, 5% for Dormant Force and for Tesseract. The [Resources](/wiki/06-Items/Resources.md#heartshard) page has the rest.

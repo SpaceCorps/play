@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3ee3985e3f9606e1 -->
+<!-- wiki-i18n source: 8dbe8dc047c34c1c -->
 <!-- wiki-i18n title: Die Signale -->
 # Die Signale {#the-signals}
 
@@ -13,7 +13,7 @@ Mission Control empfängt ein seltsames Geräusch, **das Rauschen**, und es schi
 - **Unendlich oft nutzbar.** Nichts verbraucht sie: Sie wird nicht aufgebraucht, nutzt sich nicht ab, und kein Rezept verlangt sie.
 - **Nur eine.** Du kannst nur eine einzige Dormant Keycard haben. Würde dir eine Abholung eine zweite geben, funktioniert die Abholung trotzdem und zahlt alles andere aus; du bekommst nur keine weitere Karte.
 - **Für immer deine.** Sie lässt sich nicht in der Auktion verkaufen, nicht im Hangar wegwerfen, und ein [Wipe](/wiki/03-Mechanics/Wipe-Timeline.md) nimmt sie dir nicht.
-- **Noch ohne Verwendung.** Sie öffnet heute nichts. Ein späteres Update nutzt sie, um Zugang zu einer neuen Karte zu geben, die es im Spiel noch nicht gibt. Behalte deine Karte bis dahin.
+- **Sie öffnet das Void Gate.** Wer sie trägt, kann das offene Void Gate seiner Welt in `DS-4` aktivieren und alle in seiner Nähe in die [Deep Void](/wiki/03-Mechanics/Deep-Void.md) mitnehmen. Das Aktivieren kostet 5.000 Thulium; die Karte selbst wird nie verbraucht.
 - **Letztes Signal schon abgeholt?** Ein Pilot, der es abgeholt hatte, bevor es die Karte gab (das Update 0.5.10), hat die Karte einmal und von selbst bekommen, als der Server aktualisiert wurde.
 
 ## So funktionieren die Signale {#how-the-signals-work}

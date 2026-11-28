@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0684c16b2f2d0dbe -->
+<!-- wiki-i18n source: d6376f646044a759 -->
 <!-- wiki-i18n title: Demirhane -->
 # Demirhane {#the-forge}
 
@@ -98,9 +98,9 @@ Bir parçanın dört yuvasını da ayarlamak 150 Echo Shard tutar (10 + 20 + 40 
 | Solo geçit: Delta Siege | 29 | 44 |
 | Solo geçit: Omega Vault | 34 | 54 |
 | Solo geçit: Davidski's Nightmare | 34 | 54 |
-| Klan zindanı: 1. aşama | 12 | 5 |
-| Klan zindanı: 2. aşama | 8 | 6 |
-| Klan zindanı: 3. aşama | 8 | 7 |
+| Klan zindanı: 1. aşama | 24 | 10 |
+| Klan zindanı: 2. aşama | 16 | 12 |
+| Klan zindanı: 3. aşama | 16 | 14 |
 
 - **Solo geçitler** Shard’larını her tamamlamada öder, **klan zindanları** bir aşamanın her ücretli tamamlanmasında.
 - **Heartshard’lar** her geçidin ve her zindan aşamasının bir sezondaki ilk tamamlanmasıyla gelir (1) ve her tamamlamada %5 ihtimalle 1 tane daha. Nadir NPC’ler de onları düşürür: Davidski %10, Dormant Force ve Tesseract %5. Gerisi [Kaynaklar](/wiki/06-Items/Resources.md#heartshard) sayfasında.

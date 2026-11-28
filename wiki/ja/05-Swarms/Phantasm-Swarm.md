@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: abb582fd63389ab9 -->
+<!-- wiki-i18n source: 2eff9c368449da99 -->
 <!-- wiki-i18n title: Phantasm の群れ -->
 # Phantasm の群れ {#phantasm-swarm}
 
@@ -17,14 +17,14 @@ Phantasm の群れは、**Boss Phantasm** とその **Phantasm Guard** からな
 - **配下がとどまる範囲**：リーダーから500ユニット以内
 - **回復**：リーダーから600ユニット以内にいる Phantasm Guard は1体ごとにリーダーの船体を回復します（Alpha では毎秒 30 HP）
 - **リーダー撃破後**：リーダーが撃破されてから30秒後に配下は去ります。ただし攻撃している間は残ります
-- **復活**：リーダー撃破の 2分 後、 同じセクター
+- **復活**：リーダー撃破の {{guide:vitals.respawn@Boss Phantasm#1;Boss Phantasm#2;Boss Phantasm#3}} 後、 同じセクター
 - **通知**：そのセクターのパイロットは、リーダーが現れたときと撃破されたときに知らされます。これらはシステムの行です。チャットの**システム**タブに未読数付きで表示され、**全体**タブや**ローカル**タブには出ません。キルフィードに、撃破の功績を得たパイロットの名前が出ます。
 
 <!-- phantasm-glance:end -->
 
 ## メンバー {#the-members}
 
-- **Boss Phantasm**: 群れの色合いを帯び、頭上に名前が表示される、より大きな Phantasm で、独自の船体、シールド、レーザーの一斉射撃を持ちます（数値は下にあります）。非攻撃的で、パイロットに攻撃されるまでうろつき、攻撃されるとそのパイロットを追って発砲し、近くにいる群れの艦が戦いに加わります。武器の射程と速度は Phantasm と同じで、自分で船体を修復することはありません。
+- **Boss Phantasm**: 群れの色合いを帯び、頭上に名前が表示される、より大きな Phantasm で、独自の船体、シールド、レーザーの一斉射撃を持ちます（数値は下にあります）。非攻撃的で、パイロットに攻撃されるまでうろつき、攻撃されるとそのパイロットを追って発砲し、近くにいる群れの艦が戦いに加わります。武器の射程と速度は Phantasm と同じで、自分で船体を修復することはありません。その[3つの段階](#the-leaders-three-steps)と[特殊能力](/wiki/03-Mechanics/Special-Abilities.md)は、これを変えることがあります。
 - **Phantasm Guard**: 群れの色合いを帯びた、より小さな Phantasm です。Guard はボスのそばにとどまり、近くの群れの艦が攻撃されると戦いに加わり、ボスの近くにいる Guard は1体ごとにボスの船体を回復します。Guard は Phantasm と同じように、しばらく休むと自分の船体を修復します。
 
 ## 戦いの流れ {#how-the-fight-goes}
@@ -34,6 +34,19 @@ Phantasm の群れは、**Boss Phantasm** とその **Phantasm Guard** からな
 - **Beta と Gamma はもっと手強いです。** これらのワールドの群れは強いので（[ワールド](/wiki/05-Swarms/Swarms.md#the-worlds)）、より多くのパイロットか、より良い弾薬が必要です。
 - **セクターに気をつけましょう。** `x-4` は Alpha では PvP セクターで、Beta と Gamma では `x-3` と `x-4` がそうです（[ワールド](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)）。ライバルが戦いに加わったり、コンテナを待ち構えたりすることがあります。グループの1隻を見張りに残しましょう。
 - **ボスは戻ってきます。** *ひと目で*の一覧の時間がたつと、同じセクターに全快の状態で現れ、Guard は1体ずつ順に現れます。
+
+## リーダーの3つの段階 {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+その戦いには三つの段階があります([しくみ](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps))。それぞれ一度だけ起こります。
+
+- **開始時**: Phantasm Guardsがそれぞれ、自分の船体の10%にあたるシールド層を張ります。
+- **三分の二を切ると**: 3の分身が現れ、本物にはリングが付きます。
+- **三分の一を切ると**: パイロットから約2,500ユニット離れた場所へ瞬間移動し、Phantasm Guardsが無傷でその周りに戻ります。
+
+<!-- mob-ladder:end -->
 
 ## 報酬とドロップ {#rewards-and-drops}
 
@@ -52,29 +65,23 @@ Boss Phantasm の報酬は、その戦いの重さに見合っています。1�
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 船体 | 40,000 | 60,000 | 80,000 |
-| シールド | 64,000 | 96,000 | 128,000 |
-| レーザーのダメージ （毎秒1斉射） | 1,050 | 1,575 | 2,100 |
-| 速度 | 160 | 160 | 160 |
+| 船体 | {{guide:vitals.hull@Boss Phantasm#1}} | {{guide:vitals.hull@Boss Phantasm#2}} | {{guide:vitals.hull@Boss Phantasm#3}} |
+| シールド | {{guide:vitals.shield@Boss Phantasm#1}} | {{guide:vitals.shield@Boss Phantasm#2}} | {{guide:vitals.shield@Boss Phantasm#3}} |
+| レーザーのダメージ （毎秒1斉射） | {{guide:vitals.dps@Boss Phantasm#1}} | {{guide:vitals.dps@Boss Phantasm#2}} | {{guide:vitals.dps@Boss Phantasm#3}} |
+| 速度 | {{guide:vitals.speed@Boss Phantasm#1}} | {{guide:vitals.speed@Boss Phantasm#2}} | {{guide:vitals.speed@Boss Phantasm#3}} |
 | レーザーの射程 | 700 | 700 | 700 |
 | 索敵範囲 | 攻撃時のみ | 攻撃時のみ | 攻撃時のみ |
-| クレジット | 39,000 | 78,000 | 117,000 |
-| Thulium | 195 | 390 | 585 |
-| 経験値（XP） | 7,800 | 15,600 | 23,400 |
-| 名誉 | 62 | 124 | 186 |
+| クレジット | {{guide:spoils.pay.credits@Boss Phantasm#1}} | {{guide:spoils.pay.credits@Boss Phantasm#2}} | {{guide:spoils.pay.credits@Boss Phantasm#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Boss Phantasm#1}} | {{guide:spoils.pay.thulium@Boss Phantasm#2}} | {{guide:spoils.pay.thulium@Boss Phantasm#3}} |
+| 経験値（XP） | {{guide:spoils.pay.experience@Boss Phantasm#1}} | {{guide:spoils.pay.experience@Boss Phantasm#2}} | {{guide:spoils.pay.experience@Boss Phantasm#3}} |
+| 名誉 | {{guide:spoils.pay.honor@Boss Phantasm#1}} | {{guide:spoils.pay.honor@Boss Phantasm#2}} | {{guide:spoils.pay.honor@Boss Phantasm#3}} |
 | 撃破1回あたりの PvE ポイント | 8 | 8 | 8 |
 
 **ドロップ**：最もダメージを与えたパイロットのためのコンテナ1つ。
 
-| アイテム | 確率 | 数量 |
-| :--- | ---: | ---: |
-| Ship Fragment | 13回の抽選それぞれで 100% | 1 |
-| Daraxium | 13回の抽選それぞれで 60% | 1–2 |
-| Nyxite | 13回の抽選それぞれで 60% | 1–2 |
-| Standard Battery | 100% | 600–1,200 |
-| Advanced Plasma | 100% | 60–100 |
-| Ultra Core | 100% | 10–20 |
-| クレジットで買える 4 種の [ロケット](/wiki/06-Items/Rockets.md) のうち 1種 （ランダム） | 100% | 4–6 |
+| アイテム |
+| :--- |
+| {{guide:spoils.box@Boss Phantasm#1;Boss Phantasm#2;Boss Phantasm#3}} |
 
 ### Phantasm Guard
 
@@ -82,17 +89,17 @@ Boss Phantasm の報酬は、その戦いの重さに見合っています。1�
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 船体 | 1,000 | 1,500 | 2,000 |
-| シールド | 1,600 | 2,400 | 3,200 |
-| レーザーのダメージ （毎秒1斉射） | 175 | 263 | 350 |
-| 速度 | 160 | 160 | 160 |
+| 船体 | {{guide:vitals.hull@Phantasm Guard#1}} | {{guide:vitals.hull@Phantasm Guard#2}} | {{guide:vitals.hull@Phantasm Guard#3}} |
+| シールド | {{guide:vitals.shield@Phantasm Guard#1}} | {{guide:vitals.shield@Phantasm Guard#2}} | {{guide:vitals.shield@Phantasm Guard#3}} |
+| レーザーのダメージ （毎秒1斉射） | {{guide:vitals.dps@Phantasm Guard#1}} | {{guide:vitals.dps@Phantasm Guard#2}} | {{guide:vitals.dps@Phantasm Guard#3}} |
+| 速度 | {{guide:vitals.speed@Phantasm Guard#1}} | {{guide:vitals.speed@Phantasm Guard#2}} | {{guide:vitals.speed@Phantasm Guard#3}} |
 | レーザーの射程 | 700 | 700 | 700 |
 | 索敵範囲 | 攻撃時のみ | 攻撃時のみ | 攻撃時のみ |
 | リーダーを回復 （1体ごとに毎秒、 船体のみ） | 30 | 45 | 60 |
-| クレジット | 125 | 250 | 375 |
-| Thulium | 1 | 2 | 3 |
-| 経験値（XP） | 12 | 24 | 36 |
-| 名誉 | 1 | 2 | 3 |
+| クレジット | {{guide:spoils.pay.credits@Phantasm Guard#1}} | {{guide:spoils.pay.credits@Phantasm Guard#2}} | {{guide:spoils.pay.credits@Phantasm Guard#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Phantasm Guard#1}} | {{guide:spoils.pay.thulium@Phantasm Guard#2}} | {{guide:spoils.pay.thulium@Phantasm Guard#3}} |
+| 経験値（XP） | {{guide:spoils.pay.experience@Phantasm Guard#1}} | {{guide:spoils.pay.experience@Phantasm Guard#2}} | {{guide:spoils.pay.experience@Phantasm Guard#3}} |
+| 名誉 | {{guide:spoils.pay.honor@Phantasm Guard#1}} | {{guide:spoils.pay.honor@Phantasm Guard#2}} | {{guide:spoils.pay.honor@Phantasm Guard#3}} |
 | 撃破1回あたりの PvE ポイント | 1 | 1 | 1 |
 
 **ドロップ**：なし。撃破で支払われるのはクレジット、Thulium、経験値、名誉だけです。

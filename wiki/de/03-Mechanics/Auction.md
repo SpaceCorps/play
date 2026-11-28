@@ -26,7 +26,7 @@ Die Auktion ist der Markt der Piloten und zugleich die stündlichen Lose des Spi
 - Ab Saisontag 28 bis zum Wipe gibt es weder Einstellgebühr noch Steuer.
 - Ab Saisontag 30 ist die Auktion bis zum Start der neuen Saison geschlossen: Nichts kann eingestellt, gekauft oder mit Geboten belegt werden. Deine Angebote kannst du weiterhin zurückziehen.
 - Jede Währung hat ein eigenes Limit dafür, wie viel du in 24 Stunden verkaufen und wie viel du kaufen kannst (Leveltabelle unten). Gewonnene Lose zählen nicht mit.
-- Zwischen zwei Piloten, von denen einer vom anderen kauft, gehen in 24 Stunden höchstens 16.000.000 Credits oder 80.000 Thulium über.
+- Zwischen zwei Piloten, von denen einer vom anderen kauft, gehen in 24 Stunden höchstens 32.000.000 Credits oder 160.000 Thulium über.
 
 <!-- market-glance:end -->
 
@@ -100,22 +100,22 @@ Deine **offenen Angebote** (und ein Angebot, das ein Admin angehalten hat) beleg
 
 | Level | Offene Angebote | Längste Laufzeit | Pro Tag, Credits | Pro Tag, Thulium | Einstellgebühr je 24 h |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 5 | 20 | 504 h | 9.000.000 | 45.000 | 0,25 % |
-| 6 | 40 | 504 h | 12.000.000 | 60.000 | 0,25 % |
-| 7 | 70 | 504 h | 15.000.000 | 75.000 | 0,25 % |
-| 8 | 100 | 504 h | 17.000.000 | 85.000 | 0,25 % |
-| 9 | 100 | 504 h | 20.000.000 | 100.000 | 0,25 % |
-| 10 | 100 | 504 h | 30.000.000 | 150.000 | 0,4 % |
-| 11 | 100 | 504 h | 30.000.000 | 150.000 | 0,4 % |
-| 12 | 100 | 504 h | 30.000.000 | 150.000 | 0,4 % |
-| 13 | 100 | 504 h | 40.000.000 | 200.000 | 0,4 % |
-| 14 | 100 | 504 h | 40.000.000 | 200.000 | 0,4 % |
-| 15 | 100 | 504 h | 40.000.000 | 200.000 | 0,4 % |
-| 16 | 100 | 504 h | 40.000.000 | 200.000 | 0,4 % |
-| 17 | 100 | 504 h | 40.000.000 | 200.000 | 0,4 % |
-| 18 | 100 | 504 h | 40.000.000 | 200.000 | 0,4 % |
-| 19 | 100 | 504 h | 40.000.000 | 200.000 | 0,4 % |
-| 20 und höher | 100 | 504 h | 40.000.000 | 200.000 | 0,4 % |
+| 5 | 20 | 504 h | 18.000.000 | 90.000 | 0,25 % |
+| 6 | 40 | 504 h | 24.000.000 | 120.000 | 0,25 % |
+| 7 | 70 | 504 h | 30.000.000 | 150.000 | 0,25 % |
+| 8 | 100 | 504 h | 34.000.000 | 170.000 | 0,25 % |
+| 9 | 100 | 504 h | 40.000.000 | 200.000 | 0,25 % |
+| 10 | 100 | 504 h | 60.000.000 | 300.000 | 0,4 % |
+| 11 | 100 | 504 h | 60.000.000 | 300.000 | 0,4 % |
+| 12 | 100 | 504 h | 60.000.000 | 300.000 | 0,4 % |
+| 13 | 100 | 504 h | 80.000.000 | 400.000 | 0,4 % |
+| 14 | 100 | 504 h | 80.000.000 | 400.000 | 0,4 % |
+| 15 | 100 | 504 h | 80.000.000 | 400.000 | 0,4 % |
+| 16 | 100 | 504 h | 80.000.000 | 400.000 | 0,4 % |
+| 17 | 100 | 504 h | 80.000.000 | 400.000 | 0,4 % |
+| 18 | 100 | 504 h | 80.000.000 | 400.000 | 0,4 % |
+| 19 | 100 | 504 h | 80.000.000 | 400.000 | 0,4 % |
+| 20 und höher | 100 | 504 h | 80.000.000 | 400.000 | 0,4 % |
 
 <!-- market-limits:end -->
 

@@ -1,22 +1,22 @@
 # Phantasm
 
-Phantasms are aggressive spectral-class drones. They will attack any player who enters their aggro radius (700 units), and lose interest when the pilot is more than 1,200 units away or after flying 2,000 units from where the chase began (2,500 and 3,000 for a pilot who shot them, see [Combat](/wiki/03-Mechanics/Combat.md)); a pilot that hit one in the last 10 seconds is not let go of at all, and the Phantasm flies at that pilot whenever it is beyond its weapon range (700 units). With several pilots shooting it, it stays on the first who shot it while that pilot keeps hitting it (see [Who an Alien Fights](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)). The ships of the [swarms](/wiki/05-Swarms/Swarms.md) are separate kinds of alien, with articles of their own in the Swarms category.
+Phantasms are aggressive spectral-class drones. They will attack any player who enters their aggro radius ({{guide:vitals.aggro@Phantasm#1;Phantasm#2;Phantasm#3;Phantasm#4}} units), and lose interest when the pilot is more than 1,200 units away or after flying 2,000 units from where the chase began (2,500 and 3,000 for a pilot who shot them, see [Combat](/wiki/03-Mechanics/Combat.md)); a pilot that hit one in the last 10 seconds is not let go of at all, and the Phantasm flies at that pilot whenever it is beyond its weapon range (700 units). With several pilots shooting it, it stays on the first who shot it while that pilot keeps hitting it (see [Who an Alien Fights](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)). The ships of the [swarms](/wiki/05-Swarms/Swarms.md) are separate kinds of alien, with articles of their own in the Swarms category.
 
 ## Stats
 
-- **Hitpoints (HP)**: 2,000
-- **Shield**: 3,200
-- **Damage**: 350
-- **Speed**: 160
+- **Hitpoints (HP)**: {{guide:vitals.hull@Phantasm#1}}
+- **Shield**: {{guide:vitals.shield@Phantasm#1}}
+- **Damage**: {{guide:vitals.dps@Phantasm#1}}
+- **Speed**: {{guide:vitals.speed@Phantasm#1;Phantasm#2;Phantasm#3;Phantasm#4}}
 - **Attack Range**: 700
 - **Behavior**: Aggressive
 
 ## Rewards
 
-- **Credits**: 3,000
-- **Thulium**: 12
-- **Experience (XP)**: 300
-- **Honor**: 6
+- **Credits**: {{guide:spoils.pay.credits@Phantasm#1}}
+- **Thulium**: {{guide:spoils.pay.thulium@Phantasm#1}}
+- **Experience (XP)**: {{guide:spoils.pay.experience@Phantasm#1}}
+- **Honor**: {{guide:spoils.pay.honor@Phantasm#1}}
 - **PvE points per kill**: 2
 - **Shield Recharge**: 20 per second (15s delay)
 
@@ -26,10 +26,11 @@ Dropped as a [cargo crate](/wiki/03-Mechanics/Cargo.md) where it blows up, the k
 
 What each drop is for, and where else to find it: [Resources](/wiki/06-Items/Resources.md).
 
-- **Ship Fragment**: 100% chance (Min: 1, Max: 1)
-- **Daraxium**: 60% chance (Min: 1, Max: 2)
-- **Nyxite**: 60% chance (Min: 1, Max: 2)
-- **Echo Shard**: 2% chance (Min: 1, Max: 1)
+- {{guide:spoils.box@Phantasm#1;Phantasm#2;Phantasm#3;Phantasm#4}}
+
+## Special Abilities
+
+Some aliens of this kind carry a **special ability**: one thing they do, once, when their hull is half gone. Nothing shows before it starts. [Special Abilities](/wiki/03-Mechanics/Special-Abilities.md) says what each ability does and how to answer it.
 
 ## Lore
 

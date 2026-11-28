@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0b4fab38b0c9363e -->
+<!-- wiki-i18n source: a1d69f436602c5d1 -->
 <!-- wiki-i18n title: Competenze del pilota -->
 # Competenze del pilota {#pilot-skills}
 
@@ -53,6 +53,7 @@ Le tabelle danno ogni bonus al livello 1 e all’ultimo livello; tra i due un bo
 | :--- | :--- | ---: | ---: |
 | **Massa** | Scafo | +0% | +20% |
 | **Tenacia** | Danni subiti | ×1 | ×0,92 |
+|  | Paura dal buio (Deep Void) | ×1 | ×0,8 |
 | **Riflessi** | Velocità di ricarica delle abilità | ×1 | ×1,1 |
 | **Istinto** | Probabilità di ogni riga di bottino | +0 punti | +7,5 punti |
 |  | Orvium e Velkonite dai collettori | ×1 | ×1,5 |
@@ -63,8 +64,10 @@ Le tabelle danno ogni bonus al livello 1 e all’ultimo livello; tra i due un bo
 | :--- | :--- | ---: | ---: |
 | **Tecnica laser** (Riflessi) | Danno laser | ×1 | ×1,3 |
 |  | Probabilità che una raffica laser colpisca | 80% | 89% |
+|  | Paura dalle raffiche laser (Deep Void) | ×1 | ×0,8 |
 | **Tecnica dei razzi** (Riflessi) | Danno dei razzi | ×1 | ×1,3 |
 |  | Probabilità che un razzo sia un fallimento | 10% | 1% |
+|  | Paura dai razzi (Deep Void) | ×1 | ×0,8 |
 | **Antimateria** (Istinto) | Dark Matter dalle raccolte | ×1 | ×2 |
 
 ### Combattimento {#combat}
@@ -88,6 +91,7 @@ Le tabelle danno ogni bonus al livello 1 e all’ultimo livello; tra i due un bo
 | :--- | :--- | ---: | ---: |
 | **Tecnica antiradiazioni** (Tenacia) | Dose di radiazioni | ×1 | ×0,4 |
 | **Teoria dei propulsori** (Massa) | Velocità | +0% | +10% |
+|  | Paura dal volo veloce (Deep Void) | ×1 | ×0,8 |
 | **Scienza** (Istinto) | Scienza per ogni unità di carburante | ×1 | ×1,25 |
 
 ### Skylab
@@ -116,7 +120,7 @@ Le tabelle danno ogni bonus al livello 1 e all’ultimo livello; tra i due un bo
 - **Razzi.** La Tecnica dei razzi cambia il danno di ogni razzo e la probabilità che uno sia un fallimento ([Tecnica dei razzi](/wiki/06-Items/Rockets.md#rocket-tech)).
 - **Subire colpi.** La Tenacia toglie una parte a ogni colpo che subisci, l’Evasione aumenta la probabilità che un colpo diretto non faccia nulla e l’Assorbimento scudo aumenta la quota di un colpo che prendono i tuoi scudi ([Combattimento](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). La Massa aumenta il tuo scafo.
 - **Guarigione.** La Guarigione rende più forti le cure del tuo equipaggiamento: la riparazione del tuo Repair Drone, una Emergency Repair, più il Heal Pod, il Channel Heal e il Channel Shield che usi ([Abilità](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Sul Miyuki queste tre abilità aspettano anche meno tra un uso e l’altro. Si allena con lo scafo che le tue cure ripristinano; curare una nave in una zona sicura non conta. Il Support Rocket cura sempre la stessa quantità fissa, a qualsiasi livello, e dà comunque XP di Guarigione.
-- **Occultamento.** Furtività accorcia l’attesa quando un occultamento finisce, per una Cloaking CPU ([Extra](/wiki/06-Items/Extras.md#cloaking-cpu)) e per il Chameleon ([Abilità](/wiki/03-Mechanics/Abilities.md)). Si allena con i secondi passati occultato; nessuno conta in una zona sicura o mentre non dai ordini.
+- **Occultamento.** Furtività accorcia l’attesa quando un occultamento finisce, per una Cloaking CPU ([Extra](/wiki/06-Items/Extras.md#cloaking-cpu)) e per il Chameleon ([Abilità](/wiki/03-Mechanics/Abilities.md)). Si allena con i secondi passati occultato; nessuno conta in una zona sicura o mentre non dai ordini e la tua nave non sta volando verso il punto in cui l’hai mandata (un volo conta fino a 5 minuti dopo il tuo ultimo ordine).
 - **Abilità.** I Riflessi accorciano il tempo di ricarica delle tue abilità e la Tattica le fa durare di più ([Abilità](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Il Sabotaggio rafforza i veleni.
 - **Mine.** Il Sabotaggio aumenta il danno di una Mine, e la Mira la lancia più veloce e più lontano ([Extra](/wiki/06-Items/Extras.md#mine)).
 - **Velocità.** La Teoria dei propulsori si aggiunge alla tua velocità, oltre ai motori e a un Afterburner ([Velocità](/wiki/03-Mechanics/Speed.md)).
@@ -160,7 +164,7 @@ La tabella elenca cosa paga XP, statistica per statistica. L’XP è per ogni un
 | **Tattica** (Riflessi) | Ogni abilità che premi con un ostile nella portata del laser | 2 | 600 XP all’ora |
 | **Assorbimento scudo** (Tenacia) | Ogni 1 % del tuo scudo massimo consumato dai colpi nemici | 0,1 | 300 XP all’ora |
 | **Guarigione** (Massa) | Ogni 1 % dello scafo massimo di una nave che una tua cura ripristina | 0,1 | 300 XP all’ora |
-| **Furtività** (Riflessi) | Ogni secondo passato occultato con un ordine dato negli ultimi 1 min, fuori dalle zone sicure | 0,1 | Nessuno |
+| **Furtività** (Riflessi) | Ogni secondo passato occultato con un ordine dato negli ultimi 1 min o mentre la tua nave vola verso il punto in cui l’hai mandata (fino a 5 min dopo il tuo ultimo ordine), fuori dalle zone sicure | 0,1 | Nessuno |
 | **Tecnica antiradiazioni** (Tenacia) | Ogni secondo dentro una banda di radiazioni | 0,2 | Nessuno |
 |  | Ogni 1 % del tuo scafo massimo che le radiazioni tolgono | 1 |  |
 | **Teoria dei propulsori** (Massa) | Ogni secondo volato oltre il 80% della velocità della tua nave, il doppio sotto un Afterburner | 0,1 | Nessuno |

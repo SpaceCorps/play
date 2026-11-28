@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5f873edc2b653495 -->
+<!-- wiki-i18n source: 2b3edf7bcb1d9673 -->
 <!-- wiki-i18n title: Crystalys の群れ -->
 # Crystalys の群れ {#crystalys-swarm}
 
@@ -17,14 +17,14 @@ Crystalys の群れは、**Boss Crystalys** とその **Crystalys Guard** から
 - **配下がとどまる範囲**：リーダーから500ユニット以内
 - **回復**：リーダーから600ユニット以内にいる Crystalys Guard は1体ごとにリーダーの船体を回復します（Alpha では毎秒 250 HP）
 - **リーダー撃破後**：リーダーが撃破されてから30秒後に配下は去ります。ただし攻撃している間は残ります
-- **復活**：リーダー撃破の 30分 後、 同じセクター
+- **復活**：リーダー撃破の {{guide:vitals.respawn@Boss Crystalys#1;Boss Crystalys#2;Boss Crystalys#3}} 後、 同じセクター
 - **通知**：そのセクターのパイロットは、リーダーが現れたときと撃破されたときに知らされます。これらはシステムの行です。チャットの**システム**タブに未読数付きで表示され、**全体**タブや**ローカル**タブには出ません。キルフィードに、撃破の功績を得たパイロットの名前が出ます。
 
 <!-- crystalys-glance:end -->
 
 ## メンバー {#the-members}
 
-- **Boss Crystalys**: 群れの色合いを帯び、頭上に名前が表示される、より大きな Crystalys で、独自の船体、シールド、レーザーの一斉射撃を持ちます（数値は下にあります）。非攻撃的で、パイロットに攻撃されるまでうろつき、攻撃されるとそのパイロットを追って発砲し、近くにいる群れの艦が戦いに加わります。武器の射程と速度は Crystalys と同じで、自分で船体を修復することはありません。
+- **Boss Crystalys**: 群れの色合いを帯び、頭上に名前が表示される、より大きな Crystalys で、独自の船体、シールド、レーザーの一斉射撃を持ちます（数値は下にあります）。非攻撃的で、パイロットに攻撃されるまでうろつき、攻撃されるとそのパイロットを追って発砲し、近くにいる群れの艦が戦いに加わります。武器の射程と速度は Crystalys と同じで、自分で船体を修復することはありません。その[3つの段階](#the-leaders-three-steps)と[特殊能力](/wiki/03-Mechanics/Special-Abilities.md)は、これを変えることがあります。
 - **Crystalys Guard**: 群れの色合いを帯びた、より小さな Crystalys です。Guard はボスのそばにとどまり、近くの群れの艦が攻撃されると戦いに加わり、ボスの近くにいる Guard は1体ごとにボスの船体を回復します。Guard は Crystalys と同じように、しばらく休むと自分の船体を修復します。
 
 ## 戦いの流れ {#how-the-fight-goes}
@@ -34,6 +34,19 @@ Crystalys の群れは、**Boss Crystalys** とその **Crystalys Guard** から
 - **Beta と Gamma はもっと手強いです。** これらのワールドの群れは強いので（[ワールド](/wiki/05-Swarms/Swarms.md#the-worlds)）、より多くのパイロットか、より良い弾薬が必要です。
 - **危険セクターは PvP です。** ライバルが戦いの最中にグループを攻撃し、コンテナを待ち構えることがあります。コンテナは30秒間は最もダメージを与えたパイロット（とそのクラン）のもので、その後は誰でも取れます（[積荷](/wiki/03-Mechanics/Cargo.md)）。仲間と一緒に行きましょう。
 - **ボスは戻ってきます。** *ひと目で*の一覧の時間がたつと、同じセクターに全快の状態で現れ、Guard は1体ずつ順に現れます。
+
+## リーダーの3つの段階 {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+その戦いには三つの段階があります([しくみ](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps))。それぞれ一度だけ起こります。
+
+- **開始時**: 8秒の間、あらゆる攻撃の50%しか受けません。
+- **三分の二を切ると**: 半径700ユニットのリングが、中にいるすべての艦をその一斉射撃の4で攻撃し、さらに4発のロケットを撃ちます。
+- **三分の一を切ると**: 船体とシールドの20%を回復し(ダメージのバーストで中断されます)、Crystalys Guardsがさらに3体来ます。生存は最大6体まで。
+
+<!-- mob-ladder:end -->
 
 ## 報酬とドロップ {#rewards-and-drops}
 
@@ -52,29 +65,23 @@ Boss Crystalys の報酬は、その戦いの重さに見合っています。1�
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 船体 | 896,000 | 1,344,000 | 1,792,000 |
-| シールド | 560,000 | 840,000 | 1,120,000 |
-| レーザーのダメージ （毎秒1斉射） | 10,000 | 15,000 | 20,000 |
-| 速度 | 230 | 230 | 230 |
+| 船体 | {{guide:vitals.hull@Boss Crystalys#1}} | {{guide:vitals.hull@Boss Crystalys#2}} | {{guide:vitals.hull@Boss Crystalys#3}} |
+| シールド | {{guide:vitals.shield@Boss Crystalys#1}} | {{guide:vitals.shield@Boss Crystalys#2}} | {{guide:vitals.shield@Boss Crystalys#3}} |
+| レーザーのダメージ （毎秒1斉射） | {{guide:vitals.dps@Boss Crystalys#1}} | {{guide:vitals.dps@Boss Crystalys#2}} | {{guide:vitals.dps@Boss Crystalys#3}} |
+| 速度 | {{guide:vitals.speed@Boss Crystalys#1}} | {{guide:vitals.speed@Boss Crystalys#2}} | {{guide:vitals.speed@Boss Crystalys#3}} |
 | レーザーの射程 | 900 | 900 | 900 |
 | 索敵範囲 | 攻撃時のみ | 攻撃時のみ | 攻撃時のみ |
-| クレジット | 393,750 | 787,500 | 1,181,250 |
-| Thulium | 1,050 | 2,100 | 3,150 |
-| 経験値（XP） | 63,000 | 126,000 | 189,000 |
-| 名誉 | 273 | 546 | 819 |
+| クレジット | {{guide:spoils.pay.credits@Boss Crystalys#1}} | {{guide:spoils.pay.credits@Boss Crystalys#2}} | {{guide:spoils.pay.credits@Boss Crystalys#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Boss Crystalys#1}} | {{guide:spoils.pay.thulium@Boss Crystalys#2}} | {{guide:spoils.pay.thulium@Boss Crystalys#3}} |
+| 経験値（XP） | {{guide:spoils.pay.experience@Boss Crystalys#1}} | {{guide:spoils.pay.experience@Boss Crystalys#2}} | {{guide:spoils.pay.experience@Boss Crystalys#3}} |
+| 名誉 | {{guide:spoils.pay.honor@Boss Crystalys#1}} | {{guide:spoils.pay.honor@Boss Crystalys#2}} | {{guide:spoils.pay.honor@Boss Crystalys#3}} |
 | 撃破1回あたりの PvE ポイント | 30 | 30 | 30 |
 
 **ドロップ**：最もダメージを与えたパイロットのためのコンテナ1つ。
 
-| アイテム | 確率 | 数量 |
-| :--- | ---: | ---: |
-| Cataclysite | 2回の抽選それぞれで 100% | 8 |
-| Quorvium | 2回の抽選それぞれで 100% | 6–10 |
-| Power Core | 30% | 1 |
-| Ancient Control Unit | 15% | 1 |
-| Dark Matter | 4% | 1 |
-| Ultra Core と Experimental Fusion Core （均等に分配） | 100% | 合計 600–1,000 |
-| 4 種のエピック [ロケット](/wiki/06-Items/Rockets.md) のうち 1種 （ランダム） | 100% | 8–15 |
+| アイテム |
+| :--- |
+| {{guide:spoils.box@Boss Crystalys#1;Boss Crystalys#2;Boss Crystalys#3}} |
 
 ### Crystalys Guard
 
@@ -82,17 +89,17 @@ Boss Crystalys の報酬は、その戦いの重さに見合っています。1�
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 船体 | 38,400 | 57,600 | 76,800 |
-| シールド | 24,000 | 36,000 | 48,000 |
-| レーザーのダメージ （毎秒1斉射） | 1,500 | 2,250 | 3,000 |
-| 速度 | 230 | 230 | 230 |
+| 船体 | {{guide:vitals.hull@Crystalys Guard#1}} | {{guide:vitals.hull@Crystalys Guard#2}} | {{guide:vitals.hull@Crystalys Guard#3}} |
+| シールド | {{guide:vitals.shield@Crystalys Guard#1}} | {{guide:vitals.shield@Crystalys Guard#2}} | {{guide:vitals.shield@Crystalys Guard#3}} |
+| レーザーのダメージ （毎秒1斉射） | {{guide:vitals.dps@Crystalys Guard#1}} | {{guide:vitals.dps@Crystalys Guard#2}} | {{guide:vitals.dps@Crystalys Guard#3}} |
+| 速度 | {{guide:vitals.speed@Crystalys Guard#1}} | {{guide:vitals.speed@Crystalys Guard#2}} | {{guide:vitals.speed@Crystalys Guard#3}} |
 | レーザーの射程 | 900 | 900 | 900 |
 | 索敵範囲 | 攻撃時のみ | 攻撃時のみ | 攻撃時のみ |
 | リーダーを回復 （1体ごとに毎秒、 船体のみ） | 250 | 375 | 500 |
-| クレジット | 125 | 250 | 375 |
-| Thulium | 1 | 2 | 3 |
-| 経験値（XP） | 12 | 24 | 36 |
-| 名誉 | 1 | 2 | 3 |
+| クレジット | {{guide:spoils.pay.credits@Crystalys Guard#1}} | {{guide:spoils.pay.credits@Crystalys Guard#2}} | {{guide:spoils.pay.credits@Crystalys Guard#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Crystalys Guard#1}} | {{guide:spoils.pay.thulium@Crystalys Guard#2}} | {{guide:spoils.pay.thulium@Crystalys Guard#3}} |
+| 経験値（XP） | {{guide:spoils.pay.experience@Crystalys Guard#1}} | {{guide:spoils.pay.experience@Crystalys Guard#2}} | {{guide:spoils.pay.experience@Crystalys Guard#3}} |
+| 名誉 | {{guide:spoils.pay.honor@Crystalys Guard#1}} | {{guide:spoils.pay.honor@Crystalys Guard#2}} | {{guide:spoils.pay.honor@Crystalys Guard#3}} |
 | 撃破1回あたりの PvE ポイント | 6 | 6 | 6 |
 
 **ドロップ**：なし。撃破で支払われるのはクレジット、Thulium、経験値、名誉だけです。

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5f873edc2b653495 -->
+<!-- wiki-i18n source: 2b3edf7bcb1d9673 -->
 <!-- wiki-i18n title: Crystalys sürüsü -->
 # Crystalys sürüsü {#crystalys-swarm}
 
@@ -17,14 +17,14 @@ Crystalys sürüsü, bir **Boss Crystalys** ve **Crystalys Guard** gemilerinden 
 - **Takipçiler şu mesafede kalır**: liderden en fazla 500 birim
 - **Onarım**: Liderin 600 birim yakınındaki her Crystalys Guard, liderin gövdesini Alpha dünyasında saniyede 250 HP onarır
 - **Lider yok edilince**: Takipçiler, saldırmıyorlarsa, lider yok edildikten 30 sn sonra ayrılır
-- **Geri gelir**: Lider yok edildikten 30 dk sonra, aynı sektörde
+- **Geri gelir**: Lider yok edildikten {{guide:vitals.respawn@Boss Crystalys#1;Boss Crystalys#2;Boss Crystalys#3}} sonra, aynı sektörde
 - **Duyuru**: Sektördeki pilotlara liderin ne zaman belirdiği ve ne zaman yok edildiği bildirilir. Bunlar Sistem satırlarıdır: sohbetin **Sistem** sekmesinde, okunmamış sayısıyla birlikte görünür; **Genel** ya da **Yerel** sekmesinde görünmez. Öldürme akışı, öldürmeyi alan pilotu adıyla gösterir.
 
 <!-- crystalys-glance:end -->
 
 ## Üyeler {#the-members}
 
-- **Boss Crystalys**: sürünün tonunda ve üzerinde adıyla görünen, daha büyük bir Crystalys; kendine ait gövdesi, kalkanı ve lazer yaylım ateşi vardır (değerler aşağıda). Pasiftir: bir pilot ona vurana kadar dolaşır, sonra o pilotun peşine düşüp ona ateş eder; sürüsünün yakındaki gemileri de savaşa katılır. Silahının menzili ve hızı bir Crystalys gemisininkiyle aynıdır ve gövdesini kendi kendine asla onarmaz.
+- **Boss Crystalys**: sürünün tonunda ve üzerinde adıyla görünen, daha büyük bir Crystalys; kendine ait gövdesi, kalkanı ve lazer yaylım ateşi vardır (değerler aşağıda). Pasiftir: bir pilot ona vurana kadar dolaşır, sonra o pilotun peşine düşüp ona ateş eder; sürüsünün yakındaki gemileri de savaşa katılır. Silahının menzili ve hızı bir Crystalys gemisininkiyle aynıdır ve gövdesini kendi kendine asla onarmaz. [Üç aşaması](#the-leaders-three-steps) ve bir [özel yetenek](/wiki/03-Mechanics/Special-Abilities.md) bunu değiştirebilir.
 - **Crystalys Guard**: sürünün tonunda daha küçük bir Crystalys. Guard gemileri patronun yakınında kalır, yakınlarındaki bir sürü gemisi vurulduğunda savaşa katılır ve patronun yakınındaki her biri onun gövdesini onarır. Bir Guard, bir Crystalys gibi, dinlendikten sonra kendi gövdesini onarır.
 
 ## Savaş nasıl geçer {#how-the-fight-goes}
@@ -34,6 +34,19 @@ Crystalys sürüsü, bir **Boss Crystalys** ve **Crystalys Guard** gemilerinden 
 - **Beta ve Gamma daha zordur.** O dünyaların sürüleri daha güçlüdür ([Dünyalar](/wiki/05-Swarms/Swarms.md#the-worlds)); bu yüzden daha çok pilot ya da daha iyi cephane gerekir.
 - **Tehlike Sektörleri PvP’dir.** Bir rakip savaşın ortasında gruba saldırıp kutuyu bekleyebilir: kutu 30 saniye boyunca en çok hasar veren pilotun (ve klanının) olur, sonra herkesin ([Kargo](/wiki/03-Mechanics/Cargo.md)). Yalnız gitme.
 - **Patron geri gelir**: *Bir bakışta* listesindeki süreden sonra, tam güçte ve aynı sektörde; Guard gemileri de birbiri ardına gelir.
+
+## Liderin üç aşaması {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Bu savaşın üç aşaması vardır ([nasıl işlediği](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); her biri bir kez gerçekleşir.
+
+- **Başlangıçta**: 8 sn boyunca her vuruşun yalnızca %50 kadarını alır.
+- **Üçte ikinin altında**: 700 birimlik bir halka içindeki her gemiye salvolarının 4 kadarıyla vurur ve 4 roket ateşler.
+- **Üçte birin altında**: Gövdesinin ve kalkanının %20 kadarını onarır (bir hasar patlaması onu böler) ve 3 Crystalys Guards daha gelir, en fazla 6 canlı.
+
+<!-- mob-ladder:end -->
 
 ## Ödüller ve ganimet {#rewards-and-drops}
 
@@ -52,29 +65,23 @@ Crystalys temel alınarak, gövdesinin %350 kadarıyla ve lazer hasarının %100
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Gövde | 896.000 | 1.344.000 | 1.792.000 |
-| Kalkan | 560.000 | 840.000 | 1.120.000 |
-| Lazer hasarı (saniyede bir salvo) | 10.000 | 15.000 | 20.000 |
-| Hız | 230 | 230 | 230 |
+| Gövde | {{guide:vitals.hull@Boss Crystalys#1}} | {{guide:vitals.hull@Boss Crystalys#2}} | {{guide:vitals.hull@Boss Crystalys#3}} |
+| Kalkan | {{guide:vitals.shield@Boss Crystalys#1}} | {{guide:vitals.shield@Boss Crystalys#2}} | {{guide:vitals.shield@Boss Crystalys#3}} |
+| Lazer hasarı (saniyede bir salvo) | {{guide:vitals.dps@Boss Crystalys#1}} | {{guide:vitals.dps@Boss Crystalys#2}} | {{guide:vitals.dps@Boss Crystalys#3}} |
+| Hız | {{guide:vitals.speed@Boss Crystalys#1}} | {{guide:vitals.speed@Boss Crystalys#2}} | {{guide:vitals.speed@Boss Crystalys#3}} |
 | Lazer menzili | 900 | 900 | 900 |
 | Aggro yarıçapı | yalnızca saldırıya uğrayınca | yalnızca saldırıya uğrayınca | yalnızca saldırıya uğrayınca |
-| Kredi | 393.750 | 787.500 | 1.181.250 |
-| Thulium | 1.050 | 2.100 | 3.150 |
-| Deneyim (XP) | 63.000 | 126.000 | 189.000 |
-| Onur | 273 | 546 | 819 |
+| Kredi | {{guide:spoils.pay.credits@Boss Crystalys#1}} | {{guide:spoils.pay.credits@Boss Crystalys#2}} | {{guide:spoils.pay.credits@Boss Crystalys#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Boss Crystalys#1}} | {{guide:spoils.pay.thulium@Boss Crystalys#2}} | {{guide:spoils.pay.thulium@Boss Crystalys#3}} |
+| Deneyim (XP) | {{guide:spoils.pay.experience@Boss Crystalys#1}} | {{guide:spoils.pay.experience@Boss Crystalys#2}} | {{guide:spoils.pay.experience@Boss Crystalys#3}} |
+| Onur | {{guide:spoils.pay.honor@Boss Crystalys#1}} | {{guide:spoils.pay.honor@Boss Crystalys#2}} | {{guide:spoils.pay.honor@Boss Crystalys#3}} |
 | Öldürme başına PvE puanı | 30 | 30 | 30 |
 
 **Ganimet**: tek bir kutu, en çok hasar veren pilota ait.
 
-| Eşya | Şans | Miktar |
-| :--- | ---: | ---: |
-| Cataclysite | 2 çekilişin her birinde %100 | 8 |
-| Quorvium | 2 çekilişin her birinde %100 | 6–10 |
-| Power Core | %30 | 1 |
-| Ancient Control Unit | %15 | 1 |
-| Dark Matter | %4 | 1 |
-| Ultra Core ve Experimental Fusion Core, eşit paylaşılır | %100 | toplam 600–1.000 |
-| 4 Destansı [roket](/wiki/06-Items/Rockets.md) arasından rastgele biri | %100 | 8–15 |
+| Eşya |
+| :--- |
+| {{guide:spoils.box@Boss Crystalys#1;Boss Crystalys#2;Boss Crystalys#3}} |
 
 ### Crystalys Guard
 
@@ -82,17 +89,17 @@ Crystalys temel alınarak, gövdesinin, kalkanının ve hasarının %15 kadarıy
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Gövde | 38.400 | 57.600 | 76.800 |
-| Kalkan | 24.000 | 36.000 | 48.000 |
-| Lazer hasarı (saniyede bir salvo) | 1.500 | 2.250 | 3.000 |
-| Hız | 230 | 230 | 230 |
+| Gövde | {{guide:vitals.hull@Crystalys Guard#1}} | {{guide:vitals.hull@Crystalys Guard#2}} | {{guide:vitals.hull@Crystalys Guard#3}} |
+| Kalkan | {{guide:vitals.shield@Crystalys Guard#1}} | {{guide:vitals.shield@Crystalys Guard#2}} | {{guide:vitals.shield@Crystalys Guard#3}} |
+| Lazer hasarı (saniyede bir salvo) | {{guide:vitals.dps@Crystalys Guard#1}} | {{guide:vitals.dps@Crystalys Guard#2}} | {{guide:vitals.dps@Crystalys Guard#3}} |
+| Hız | {{guide:vitals.speed@Crystalys Guard#1}} | {{guide:vitals.speed@Crystalys Guard#2}} | {{guide:vitals.speed@Crystalys Guard#3}} |
 | Lazer menzili | 900 | 900 | 900 |
 | Aggro yarıçapı | yalnızca saldırıya uğrayınca | yalnızca saldırıya uğrayınca | yalnızca saldırıya uğrayınca |
 | Lideri onarır (her biri, saniyede; yalnızca gövde) | 250 | 375 | 500 |
-| Kredi | 125 | 250 | 375 |
-| Thulium | 1 | 2 | 3 |
-| Deneyim (XP) | 12 | 24 | 36 |
-| Onur | 1 | 2 | 3 |
+| Kredi | {{guide:spoils.pay.credits@Crystalys Guard#1}} | {{guide:spoils.pay.credits@Crystalys Guard#2}} | {{guide:spoils.pay.credits@Crystalys Guard#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Crystalys Guard#1}} | {{guide:spoils.pay.thulium@Crystalys Guard#2}} | {{guide:spoils.pay.thulium@Crystalys Guard#3}} |
+| Deneyim (XP) | {{guide:spoils.pay.experience@Crystalys Guard#1}} | {{guide:spoils.pay.experience@Crystalys Guard#2}} | {{guide:spoils.pay.experience@Crystalys Guard#3}} |
+| Onur | {{guide:spoils.pay.honor@Crystalys Guard#1}} | {{guide:spoils.pay.honor@Crystalys Guard#2}} | {{guide:spoils.pay.honor@Crystalys Guard#3}} |
 | Öldürme başına PvE puanı | 6 | 6 | 6 |
 
 **Ganimet**: yok. Öldürme yalnızca kredi, Thulium, XP ve onur öder.

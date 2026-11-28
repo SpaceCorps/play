@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 27ed2fafb9709c5b -->
+<!-- wiki-i18n source: b27666559551770c -->
 <!-- wiki-i18n title: Extrák -->
 # Extrák {#extras}
 
@@ -20,7 +20,7 @@ Az új pilóták **kezdőcsomagja** már két extrát tesz a Protos két extrafo
 
 Nyolc további CPU nem kapható: a Gyártás akkor készíti el őket, ha a Skylab Kutatóközpontja már kikutatta őket (lásd: [Kutatás](/wiki/03-Mechanics/Research.md)). Ezek az Extra Slots CPU I, II és III, a Jump CPU, a Base CPU I és II, az Auto-Repair CPU, valamint az Auto-Rocket CPU, és [az utolsó szakasz](#research-cpus) elmondja, mit tud mindegyik. A Cloaking CPU-hoz hasonlóan a Jump CPU és a Base CPU-k is a csendes pillanatokra valók: egyik sem indul el egy lövésed vagy egy kapott találat után 10 másodpercen belül. A két warp CPU, a Jump CPU és a Base CPU-k szintén meg vannak tagadva, amíg küldetéstárgyat viszel („Küldetéstárggyal a fedélzeten nem használhatsz warp CPU-t.”): lásd: [Küldetéstárgyak](/wiki/03-Mechanics/Quests.md#quest-items).
 
-Minden extrának rövid címkéje van a gyorssáv-helyén: **REP** a Repair Drone-hoz, **CLK** a Cloaking CPU-hoz, **ARP**, **ARL**, **BSE** és **JMP** pedig az Auto-Repair, az Auto-Rocket, a Base és a Jump CPU-hoz. A fogyóeszközöknek megvan a sajátjuk: **EMP**, és **WAL** az Energetic Wallhoz. A három **P.E.T. Station** tárgy extra, mint a többi, **PET** címkével: szerelj fel egyet, és a foglalata BE vagy KI kapcsolja a Stationt (két lenyomás között egy másodperc), és mutatja, melyik állásban van. Amíg BE van kapcsolva, a dokkolt [P.E.T.-ek](/wiki/03-Mechanics/Pets.md) számítanak, amíg KI, nem. Az **Auto-Rocket CPU**-t ugyanígy kapcsolod BE vagy KI. Mutass egy helyre, hogy elolvasd, mit tesz most egy lenyomás, vagy miért nem tehet semmit.
+Minden extrának rövid címkéje van a gyorssáv-helyén: **REP** a Repair Drone-hoz, **CLK** a Cloaking CPU-hoz, **SCN** az Organic Scannerhez, **ARP**, **ARL**, **BSE** és **JMP** pedig az Auto-Repair, az Auto-Rocket, a Base és a Jump CPU-hoz. A fogyóeszközöknek megvan a sajátjuk: **EMP**, és **WAL** az Energetic Wallhoz. A három **P.E.T. Station** tárgy extra, mint a többi, **PET** címkével: szerelj fel egyet, és a foglalata BE vagy KI kapcsolja a Stationt (két lenyomás között egy másodperc), és mutatja, melyik állásban van. Amíg BE van kapcsolva, a dokkolt [P.E.T.-ek](/wiki/03-Mechanics/Pets.md) számítanak, amíg KI, nem. Az **Auto-Rocket CPU**-t ugyanígy kapcsolod BE vagy KI. Mutass egy helyre, hogy elolvasd, mit tesz most egy lenyomás, vagy miért nem tehet semmit. Az **Organic Scanner** ([Utazó kalauza](/wiki/03-Mechanics/Travelers-Guide.md#scanning)) eleinte egyetlen helyen sincs: húzd az Extrák menüjéből egy helyre, és annak a helynek a billentyűje működteti (neki nincs saját billentyűje).
 
 ![The Extras picker of the hotbar: the Repair Drone, the Auto-Repair, Cloaking, Base and Jump CPUs and the P.E.T. Station you have fitted (REP, ARP, CLK, BSE, JMP, PET): click one to use it, or drag it onto a slot](../../img/wiki-img/shots/cpu-hotbar.jpg)
 ![The Consumables picker of the hotbar: the EMP Charge and the Energetic Wall I and II (EMP, WAL), with how many of each you hold: click one to use it, or drag it onto a slot](../../img/wiki-img/shots/emp-hotbar.jpg)
@@ -59,10 +59,12 @@ Rocket Launcher V | extra, rare | craft 2000000 Thulium, 86400 s | research 8640
 Laser Optics III | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 1 Laser Optics II, 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
 Laser Optics IV | extra, rare | craft 50000 Thulium, 750 s | research 57600 s, 57600 science | 1 Laser Optics III, 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
 Laser Optics V | extra, rare | craft 75000 Thulium, 900 s | research 86400 s, 86400 science | 1 Laser Optics IV, 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Organic Scanner I | extra, rare | craft 20000 Credits, 10000 Thulium, 600 s | research 1800 s, 1800 science | 60 Ship Fragment, 2 Power Core, 1 Ancient Control Unit, 5 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
+Organic Scanner II | extra, epic | craft 50000 Credits, 20000 Thulium, 900 s | research 7200 s, 7200 science | 1 Organic Scanner I, 2 Lurker Fang, 2 Angler Lure, 1 Leviathan Scale | /wiki/06-Items/Extras.md
 
 P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 Cloaking CPU S -> Cloaking CPU M -> Cloaking CPU L
@@ -71,6 +73,7 @@ Extra Slots CPU I -> Extra Slots CPU II -> Extra Slots CPU III
 Base CPU I -> Base CPU II
 Laser Optics I => Laser Optics II => Laser Optics III => Laser Optics IV => Laser Optics V
 Rocket Launcher II => Rocket Launcher III => Rocket Launcher IV => Rocket Launcher V
+Organic Scanner I => Organic Scanner II
 ```
 <!-- item-tree:end -->
 
@@ -160,6 +163,8 @@ A CPU-k közül kettő Dark Matter Plate-et kér, mint minden fejlesztési lánc
 | [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 óra | – | 20 000 | 15 perc |
 | [Mine II](/wiki/06-Items/Extras.md#mine) | 3 óra | – | 200 | 2 perc |
 | [Mine III](/wiki/06-Items/Extras.md#mine) | 6 óra | [Mine II](/wiki/06-Items/Extras.md#mine) | 400 | 5 perc |
+| [Organic Scanner I](/wiki/06-Items/Extras.md) | 30 perc | – | 10 000 | 10 perc |
+| [Organic Scanner II](/wiki/06-Items/Extras.md) | 2 óra | [Organic Scanner I](/wiki/06-Items/Extras.md) | 20 000 | 15 perc |
 
 Egyik sem kapható a Boltban: kutasd ki a technológiát, majd készítsd el a CPU-t a Gyártásban. Vidd az egeret egy CPU fölé a fáján, hogy lásd, mit kér érte a Gyártás.
 

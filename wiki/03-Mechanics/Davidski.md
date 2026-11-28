@@ -21,7 +21,7 @@ An **Ironclad TITANIC** painted gold, at the TITANIC's own size, flying the best
 | Extras | a Repair Drone IV, an Auto-Repair CPU and a Base CPU II |
 | Hull | 15 Hull Plating III |
 
-At Alpha strength he has **931,250 hull**, **1,559,486 shield** (recharging 67,614 a second after 15 seconds without a hit), 90.9% absorbance, speed 97, 945 range and a volley of **5,014 a second**. Beta has 1.5 times those numbers and Gamma 2 times, as every alien does. That is about 2.5 million points to chew through in Alpha: one Wraith with the same lasers needs about twelve minutes of steady fire on its own, ten of them about 71 seconds.
+At Alpha strength he has **{{guide:vitals.hull@Davidski}} hull**, **{{guide:vitals.shield@Davidski}} shield** (recharging {{guide:vitals.shieldRecharge@Davidski}} a second after 15 seconds without a hit), {{guide:vitals.absorbance@Davidski}} absorbance, speed {{guide:vitals.speed@Davidski}}, 945 range and a volley of **{{guide:vitals.dps@Davidski}} a second**. Beta has 1.5 times those numbers and Gamma 2 times, as every alien does.
 
 ## Fighting Him
 
@@ -36,12 +36,16 @@ He pays like a boss, by the damage each pilot dealt (a share under 5% of the dam
 
 | | Alpha | Beta | Gamma |
 |---|---:|---:|---:|
-| Credits | 1,830,000 | 3,660,000 | 5,490,000 |
-| Thulium | 4,875 | 9,750 | 14,625 |
-| Experience | 292,500 | 585,000 | 877,500 |
-| Honor | 1,275 | 2,550 | 3,825 |
+| Credits | {{guide:spoils.pay.credits@Davidski}} | {{guide:spoils.pay.credits*2@Davidski}} | {{guide:spoils.pay.credits*3@Davidski}} |
+| Thulium | {{guide:spoils.pay.thulium@Davidski}} | {{guide:spoils.pay.thulium*2@Davidski}} | {{guide:spoils.pay.thulium*3@Davidski}} |
+| Experience | {{guide:spoils.pay.experience@Davidski}} | {{guide:spoils.pay.experience*2@Davidski}} | {{guide:spoils.pay.experience*3@Davidski}} |
+| Honor | {{guide:spoils.pay.honor@Davidski}} | {{guide:spoils.pay.honor*2@Davidski}} | {{guide:spoils.pay.honor*3@Davidski}} |
 
-The box holds 40 to 60 Ship Fragments, 10 to 20 Power Cores and 3,000 to 6,000 Advanced Plasma, and sometimes Ancient Control Units or Dark Matter. A kill adds **no PvE points** to your ranking (he is out of the rankings, see below); the experience it pays counts like any other experience, and the kill is counted under the name Davidski in your kill statistics.
+| Its box |
+|---|
+| {{guide:spoils.box@Davidski}} |
+
+A kill adds **no PvE points** to your ranking (he is out of the rankings, see below); the experience it pays counts like any other experience, and the kill is counted under the name Davidski in your kill statistics.
 
 - **He is destroyed once a day at the most.** After his death he stays gone until the next UTC day, when he comes out again at the next day's moment, at full hull. Nobody is told that he fell; the pilots who fought him hear their own pay.
 - **He pays a pilot for two kills a day and a world for eight** (UTC). With one Davidski a day in a world these limits rarely matter; past them you are told so, and you are paid nothing for the kill.

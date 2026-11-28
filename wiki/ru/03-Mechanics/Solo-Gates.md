@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6fe66f282236a0de -->
+<!-- wiki-i18n source: b4ceac9f501a1ec2 -->
 <!-- wiki-i18n title: Соло-врата -->
 # Соло-врата {#solo-gates}
 
@@ -136,33 +136,40 @@
 
 Босс — увеличенный корабль пришельца со своими корпусом, щитом и залпом, которые не меняют никакие настройки врат или мира. Фаза начинается, когда корпус босса падает до цифры в таблице: его щит может быть выставлен заново, залп или весь урон меняются, и он может начать приём. Каждый приём объявляется: круг, кольцо или метка на вашем корабле показывают его за мгновение до удара. Пришельцы, которых вызывает босс, ничего не платят и ничего не роняют.
 
-**Evil Davidski**, босс Davidski's Nightmare, летает на собственном Ironclad Davidski, окрашенном в более тёмное золото. Он выпускает Dormant Lance — управляемые ракеты, которые преследуют вас на большом расстоянии, — и сражается метеорами, кольцом и вызываемыми им кораблями Evil. На половине корпуса он становится **DAVIDSKI В ЯРОСТИ**: звучит его мелодия, он бьёт сильнее, и вокруг него появляется **золотой корабль каждого корабля игры**. Пока жив хотя бы один из золотых кораблей, ему вообще нельзя нанести урон: ваши лазеры и ракеты не могут его захватить, и ничто из того, что вы делаете, не затрагивает его корпус или щит, поэтому сначала вы прорубаетесь через них. Когда падает последний, защита исчезает навсегда. В начале каждой волны он насмехается над вами из собственного окна. Его убийство засчитывается как убийство Davidski для заданий, которые его требуют, во вратах так же, как в Опасных секторах. Игра, которая не обновлена, не показывает эти врата.
+**Evil Davidski**, босс Davidski's Nightmare, летает на собственном Ironclad Davidski, окрашенном в более тёмное золото. Он выпускает Dormant Lance — управляемые ракеты, которые преследуют вас на большом расстоянии, — и сражается метеорами, кольцом и вызываемыми им кораблями Evil. На трети корпуса он становится **DAVIDSKI В ЯРОСТИ**: звучит его мелодия, он бьёт сильнее, и вокруг него появляется **золотой корабль каждого корабля игры**. Пока жив хотя бы один из золотых кораблей, ему вообще нельзя нанести урон: ваши лазеры и ракеты не могут его захватить, и ничто из того, что вы делаете, не затрагивает его корпус или щит, поэтому сначала вы прорубаетесь через них. Когда падает последний, защита исчезает навсегда. В начале каждой волны он насмехается над вами из собственного окна. Его убийство засчитывается как убийство Davidski для заданий, которые его требуют, во вратах так же, как в Опасных секторах. Игра, которая не обновлена, не показывает эти врата.
 
 <!-- solo-bosses:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
 
 | Босс | Врата | Корпус | Щит | Лазерный залп |
 | :--- | :--- | ---: | ---: | ---: |
-| **Enhanced Phantasm** | Alpha Rift | 330 000 | 530 000 | 5 700–7 000 |
-| **Enhanced Bulwark** | Beta Breach | 690 000 | 170 000 | 4 500–5 500 |
-| **Elite Crystalys** | Gamma Foundry | 620 000 | 250 000 | 3 800–4 700 |
-| **Siege Construct** | Delta Siege | 1 150 000 | 1 730 000 | 3 400–4 200 |
-| **Omega Guardian** | Omega Vault | 1 340 000 | 840 000 | 2 600–3 200 |
-| **Evil Davidski** | Davidski's Nightmare | 5 500 000 | 6 600 000 | 7 800–9 600 |
+| **Enhanced Phantasm** | Alpha Rift | {{guide:vitals.hull@Enhanced Phantasm}} | {{guide:vitals.shield@Enhanced Phantasm}} | {{guide:vitals.dps*0.9007633587786259~1.099236641221374@Enhanced Phantasm}} |
+| **Enhanced Bulwark** | Beta Breach | {{guide:vitals.hull@Enhanced Bulwark}} | {{guide:vitals.shield@Enhanced Bulwark}} | {{guide:vitals.dps*0.9019607843137255~1.0980392156862746@Enhanced Bulwark}} |
+| **Elite Crystalys** | Gamma Foundry | {{guide:vitals.hull@Elite Crystalys}} | {{guide:vitals.shield@Elite Crystalys}} | {{guide:vitals.dps*0.896551724137931~1.103448275862069@Elite Crystalys}} |
+| **Siege Construct** | Delta Siege | {{guide:vitals.hull@Siege Construct}} | {{guide:vitals.shield@Siege Construct}} | {{guide:vitals.dps*0.8974358974358975~1.1025641025641026@Siege Construct}} |
+| **Omega Guardian** | Omega Vault | {{guide:vitals.hull@Omega Guardian}} | {{guide:vitals.shield@Omega Guardian}} | {{guide:vitals.dps*0.896551724137931~1.103448275862069@Omega Guardian}} |
+| **Evil Davidski** | Davidski's Nightmare | {{guide:vitals.hull@Evil Davidski}} | {{guide:vitals.shield@Evil Davidski}} | {{guide:vitals.dps*0.896551724137931~1.103448275862069@Evil Davidski}} |
 
 | Босс | Фаза | Оставшийся корпус | Что делает |
 | :--- | :--- | :--- | :--- |
-| **Enhanced Phantasm** | Enhanced Phantasm | с 100% по 0% | Он только стреляет. |
-| **Enhanced Bulwark** | Shielded | с 100% по 50% | Его щит устанавливается в ×4 от собственного щита босса. |
-|  | Second attack | с 50% по 0% | Его залп ×1,3. Он выпускает по вам ракеты Dormant Lance: 4 шт. по 61 000, по одной каждые 0,5 с, залпом каждые 30 с. |
-| **Elite Crystalys** | Elite | с 100% по 50% | Он только стреляет. |
-|  | Reinforced | с 50% по 0% | Его щит устанавливается в ×2 от собственного щита босса. Каждые 10 мин он вызывает 10 Goombah, одновременно живы не более 10; они ничего не платят и ничего не роняют. |
-| **Siege Construct** | Siege Construct | с 100% по 0% | Каждые 1 мин он обрушивает 3 залпа по 8 метеоров, по 5 500 каждый на всё в радиусе 420 единиц от места падения, 50% из них нацелены на вас; каждый круг показывается за 3 с до падения. Он выпускает по вам ракеты Dormant Lance: 6 шт. по 9 000, по одной каждые 0,5 с, залпом каждые 1 мин. |
-| **Omega Guardian** | Shield Fortress | с 100% по 70% | Его щит устанавливается в ×1,5 от собственного щита босса. Каждые 40 с он вызывает 6 Bulwark, одновременно живы не более 12; они ничего не платят и ничего не роняют. |
-|  | Swarm Protocol | с 70% по 35% | Каждые 25 с он вызывает 12 Phantasm, одновременно живы не более 24; они ничего не платят и ничего не роняют. Каждые 30 с взрыв в 140 000 поражает всё в радиусе 700 единиц от босса; кольцо показывается за 2 с до падения. |
-|  | Overload | с 35% по 0% | Его щит устанавливается в ×0,1 от собственного щита босса. Весь его урон ×2,5. Через 2 мин в фазе весь его урон становится ещё в ×2 больше. Каждые 25 с взрыв в 28 000 поражает всё в радиусе 700 единиц от босса; кольцо показывается за 2 с до падения. |
-| **Evil Davidski** | Evil Davidski | с 100% по 50% | Он выпускает по вам ракеты Dormant Lance: 6 шт. по 14 700, по одной каждые 0,5 с, залпом каждые 30 с. Каждые 1 мин он обрушивает 2 залпа по 8 метеоров, по 33 000 каждый на всё в радиусе 400 единиц от места падения, 50% из них нацелены на вас; каждый круг показывается за 3 с до падения. Каждые 40 с он вызывает 5 Evil Protos, одновременно живы не более 10; они ничего не платят и ничего не роняют. |
-|  | Angry | с 50% по 0% | Его щит устанавливается в ×0,5 от собственного щита босса. Весь его урон ×1,5. Через 8 мин в фазе весь его урон становится ещё в ×2 больше. Он выпускает по вам ракеты Dormant Lance: 6 шт. по 7 800, по одной каждые 0,4 с, залпом каждые 30 с. Каждые 1 мин он обрушивает 3 залпа по 8 метеоров, по 10 200 каждый на всё в радиусе 420 единиц от места падения, 50% из них нацелены на вас; каждый круг показывается за 3 с до падения. Каждые 45 с взрыв в 105 000 поражает всё в радиусе 700 единиц от босса; кольцо показывается за 2 с до падения. Каждые 40 с он вызывает 3 Evil Kitefin, одновременно живы не более 6; они ничего не платят и ничего не роняют. |
+| **Enhanced Phantasm** | Enhanced Phantasm | с 100% по 66% | Он только стреляет. |
+|  | Reinforced | с 66% по 33% | Его щит устанавливается в ×1 от собственного щита босса. Каждые 10 мин он вызывает 4 Phantasm, одновременно живы не более 4; они ничего не платят и ничего не роняют. |
+|  | Second attack | с 33% по 0% | Его залп ×1,3. Каждые 30 с взрыв в {{guide:behaviour.ability:phases.ringBlast@Enhanced Phantasm}} поражает всё в радиусе 500 единиц от босса; кольцо показывается за 2 с до падения. |
+| **Enhanced Bulwark** | Shielded | с 100% по 66% | Его щит устанавливается в ×4 от собственного щита босса. |
+|  | Rocket barrage | с 66% по 33% | Он выпускает по вам ракеты Dormant Lance: 4 шт. по {{guide:behaviour.ability:phases.rocketBarrage@Enhanced Bulwark}}, по одной каждые 0,5 с, залпом каждые 30 с. |
+|  | Second attack | с 33% по 0% | Его залп ×1,3. Каждые 10 мин он вызывает 4 Phantasm, одновременно живы не более 4; они ничего не платят и ничего не роняют. |
+| **Elite Crystalys** | Elite | с 100% по 66% | Он только стреляет. |
+|  | Renewed shield | с 66% по 33% | Его щит устанавливается в ×1 от собственного щита босса. |
+|  | Reinforced | с 33% по 0% | Его щит устанавливается в ×2 от собственного щита босса. Каждые 10 мин он вызывает 10 Goombah, одновременно живы не более 10; они ничего не платят и ничего не роняют. |
+| **Siege Construct** | Siege Construct | с 100% по 66% | Каждые 1 мин он обрушивает 3 залпа по 8 метеоров, по {{guide:behaviour.ability:phases.meteors@Siege Construct}} каждый на всё в радиусе 420 единиц от места падения, 50% из них нацелены на вас; каждый круг показывается за 3 с до падения. |
+|  | Rocket barrage | с 66% по 33% | Каждые 1 мин он обрушивает 3 залпа по 8 метеоров, по {{guide:behaviour.ability:phases.meteors2@Siege Construct}} каждый на всё в радиусе 420 единиц от места падения, 50% из них нацелены на вас; каждый круг показывается за 3 с до падения. Он выпускает по вам ракеты Dormant Lance: 6 шт. по {{guide:behaviour.ability:phases.rocketBarrage@Siege Construct}}, по одной каждые 0,5 с, залпом каждые 1 мин. |
+|  | Frenzy | с 33% по 0% | Каждые 30 с он обрушивает 3 залпа по 8 метеоров, по {{guide:behaviour.ability:phases.meteors3@Siege Construct}} каждый на всё в радиусе 420 единиц от места падения, 50% из них нацелены на вас; каждый круг показывается за 3 с до падения. Он выпускает по вам ракеты Dormant Lance: 6 шт. по {{guide:behaviour.ability:phases.rocketBarrage2@Siege Construct}}, по одной каждые 0,5 с, залпом каждые 30 с. |
+| **Omega Guardian** | Shield Fortress | с 100% по 66% | Его щит устанавливается в ×1,5 от собственного щита босса. Каждые 40 с он вызывает 6 Bulwark, одновременно живы не более 12; они ничего не платят и ничего не роняют. |
+|  | Swarm Protocol | с 66% по 33% | Каждые 25 с он вызывает 12 Phantasm, одновременно живы не более 24; они ничего не платят и ничего не роняют. Каждые 30 с взрыв в {{guide:behaviour.ability:phases.ringBlast@Omega Guardian}} поражает всё в радиусе 700 единиц от босса; кольцо показывается за 2 с до падения. |
+|  | Overload | с 33% по 0% | Его щит устанавливается в ×0,1 от собственного щита босса. Весь его урон ×2,5. Через 2 мин в фазе весь его урон становится ещё в ×2 больше. Каждые 25 с взрыв в {{guide:behaviour.ability:phases.ringBlast2@Omega Guardian}} поражает всё в радиусе 700 единиц от босса; кольцо показывается за 2 с до падения. |
+| **Evil Davidski** | Evil Davidski | с 100% по 66% | Он только стреляет. |
+|  | Davidski attacks | с 66% по 33% | Он выпускает по вам ракеты Dormant Lance: 6 шт. по {{guide:behaviour.ability:phases.rocketBarrage@Evil Davidski}}, по одной каждые 0,5 с, залпом каждые 30 с. Каждые 1 мин он обрушивает 2 залпа по 8 метеоров, по {{guide:behaviour.ability:phases.meteors@Evil Davidski}} каждый на всё в радиусе 400 единиц от места падения, 50% из них нацелены на вас; каждый круг показывается за 3 с до падения. Каждые 40 с он вызывает 5 Evil Protos, одновременно живы не более 10; они ничего не платят и ничего не роняют. |
+|  | Angry | с 33% по 0% | Его щит устанавливается в ×0,5 от собственного щита босса. Весь его урон ×1,5. Через 8 мин в фазе весь его урон становится ещё в ×2 больше. Он выпускает по вам ракеты Dormant Lance: 6 шт. по {{guide:behaviour.ability:phases.rocketBarrage2@Evil Davidski}}, по одной каждые 0,4 с, залпом каждые 30 с. Каждые 1 мин он обрушивает 3 залпа по 8 метеоров, по {{guide:behaviour.ability:phases.meteors2@Evil Davidski}} каждый на всё в радиусе 420 единиц от места падения, 50% из них нацелены на вас; каждый круг показывается за 3 с до падения. Каждые 45 с взрыв в {{guide:behaviour.ability:phases.ringBlast@Evil Davidski}} поражает всё в радиусе 700 единиц от босса; кольцо показывается за 2 с до падения. Каждые 40 с он вызывает 3 Evil Kitefin, одновременно живы не более 6; они ничего не платят и ничего не роняют. |
 
 <!-- solo-bosses:end -->
 
@@ -203,27 +210,27 @@
 
 | Пришелец | Кредиты | Thulium | Опыт | Честь |
 | :--- | ---: | ---: | ---: | ---: |
-| **Seeker** | 1 000 | 4 | 100 | 2 |
-| **Phantasm** | 3 000 | 12 | 300 | 6 |
-| **Bulwark** | 5 000 | 25 | 800 | 10 |
-| **Goombah** | 15 000 | 75 | 3 000 | 24 |
-| **Crystalys** | 75 000 | 200 | 12 000 | 52 |
-| **Boss Seeker** | 10 000 | 40 | 1 000 | 20 |
-| **Seeker Slave** | 125 | 1 | 12 | 1 |
-| **Boss Phantasm** | 39 000 | 195 | 7 800 | 62 |
-| **Phantasm Guard** | 125 | 1 | 12 | 1 |
-| **Boss Goombah** | 120 000 | 600 | 24 000 | 192 |
-| **Goombah Guard** | 125 | 1 | 12 | 1 |
-| **Boss Crystalys** | 393 750 | 1 050 | 63 000 | 273 |
-| **Crystalys Guard** | 125 | 1 | 12 | 1 |
-| **Evil Protos** | 4 250 | 17 | 725 | 6 |
-| **Evil Kitefin** | 12 850 | 53 | 2 175 | 18 |
-| **Evil Ostirion** | 34 350 | 141 | 5 800 | 48 |
-| **Evil Nomad** | 59 600 | 245 | 10 060 | 84 |
-| **Evil Paragon** | 68 700 | 283 | 11 600 | 97 |
-| **Evil Storm** | 96 600 | 398 | 16 315 | 136 |
-| **Evil Wraith** | 137 450 | 566 | 23 205 | 194 |
-| **Evil Ironclad** | 268 450 | 1 105 | 45 330 | 379 |
+| **Seeker** | {{guide:spoils.pay.credits@Seeker#1}} | {{guide:spoils.pay.thulium@Seeker#1}} | {{guide:spoils.pay.experience@Seeker#1}} | {{guide:spoils.pay.honor@Seeker#1}} |
+| **Phantasm** | {{guide:spoils.pay.credits@Phantasm#1}} | {{guide:spoils.pay.thulium@Phantasm#1}} | {{guide:spoils.pay.experience@Phantasm#1}} | {{guide:spoils.pay.honor@Phantasm#1}} |
+| **Bulwark** | {{guide:spoils.pay.credits@Bulwark#1}} | {{guide:spoils.pay.thulium@Bulwark#1}} | {{guide:spoils.pay.experience@Bulwark#1}} | {{guide:spoils.pay.honor@Bulwark#1}} |
+| **Goombah** | {{guide:spoils.pay.credits@Goombah#1}} | {{guide:spoils.pay.thulium@Goombah#1}} | {{guide:spoils.pay.experience@Goombah#1}} | {{guide:spoils.pay.honor@Goombah#1}} |
+| **Crystalys** | {{guide:spoils.pay.credits@Crystalys#1}} | {{guide:spoils.pay.thulium@Crystalys#1}} | {{guide:spoils.pay.experience@Crystalys#1}} | {{guide:spoils.pay.honor@Crystalys#1}} |
+| **Boss Seeker** | {{guide:spoils.pay.credits@Boss Seeker#1}} | {{guide:spoils.pay.thulium@Boss Seeker#1}} | {{guide:spoils.pay.experience@Boss Seeker#1}} | {{guide:spoils.pay.honor@Boss Seeker#1}} |
+| **Seeker Slave** | {{guide:spoils.pay.credits@Seeker Slave#1}} | {{guide:spoils.pay.thulium@Seeker Slave#1}} | {{guide:spoils.pay.experience@Seeker Slave#1}} | {{guide:spoils.pay.honor@Seeker Slave#1}} |
+| **Boss Phantasm** | {{guide:spoils.pay.credits@Boss Phantasm#1}} | {{guide:spoils.pay.thulium@Boss Phantasm#1}} | {{guide:spoils.pay.experience@Boss Phantasm#1}} | {{guide:spoils.pay.honor@Boss Phantasm#1}} |
+| **Phantasm Guard** | {{guide:spoils.pay.credits@Phantasm Guard#1}} | {{guide:spoils.pay.thulium@Phantasm Guard#1}} | {{guide:spoils.pay.experience@Phantasm Guard#1}} | {{guide:spoils.pay.honor@Phantasm Guard#1}} |
+| **Boss Goombah** | {{guide:spoils.pay.credits@Boss Goombah#1}} | {{guide:spoils.pay.thulium@Boss Goombah#1}} | {{guide:spoils.pay.experience@Boss Goombah#1}} | {{guide:spoils.pay.honor@Boss Goombah#1}} |
+| **Goombah Guard** | {{guide:spoils.pay.credits@Goombah Guard#1}} | {{guide:spoils.pay.thulium@Goombah Guard#1}} | {{guide:spoils.pay.experience@Goombah Guard#1}} | {{guide:spoils.pay.honor@Goombah Guard#1}} |
+| **Boss Crystalys** | {{guide:spoils.pay.credits@Boss Crystalys#1}} | {{guide:spoils.pay.thulium@Boss Crystalys#1}} | {{guide:spoils.pay.experience@Boss Crystalys#1}} | {{guide:spoils.pay.honor@Boss Crystalys#1}} |
+| **Crystalys Guard** | {{guide:spoils.pay.credits@Crystalys Guard#1}} | {{guide:spoils.pay.thulium@Crystalys Guard#1}} | {{guide:spoils.pay.experience@Crystalys Guard#1}} | {{guide:spoils.pay.honor@Crystalys Guard#1}} |
+| **Evil Protos** | {{guide:spoils.pay.credits@Evil Protos}} | {{guide:spoils.pay.thulium@Evil Protos}} | {{guide:spoils.pay.experience@Evil Protos}} | {{guide:spoils.pay.honor@Evil Protos}} |
+| **Evil Kitefin** | {{guide:spoils.pay.credits@Evil Kitefin}} | {{guide:spoils.pay.thulium@Evil Kitefin}} | {{guide:spoils.pay.experience@Evil Kitefin}} | {{guide:spoils.pay.honor@Evil Kitefin}} |
+| **Evil Ostirion** | {{guide:spoils.pay.credits@Evil Ostirion}} | {{guide:spoils.pay.thulium@Evil Ostirion}} | {{guide:spoils.pay.experience@Evil Ostirion}} | {{guide:spoils.pay.honor@Evil Ostirion}} |
+| **Evil Nomad** | {{guide:spoils.pay.credits@Evil Nomad}} | {{guide:spoils.pay.thulium@Evil Nomad}} | {{guide:spoils.pay.experience@Evil Nomad}} | {{guide:spoils.pay.honor@Evil Nomad}} |
+| **Evil Paragon** | {{guide:spoils.pay.credits@Evil Paragon}} | {{guide:spoils.pay.thulium@Evil Paragon}} | {{guide:spoils.pay.experience@Evil Paragon}} | {{guide:spoils.pay.honor@Evil Paragon}} |
+| **Evil Storm** | {{guide:spoils.pay.credits@Evil Storm}} | {{guide:spoils.pay.thulium@Evil Storm}} | {{guide:spoils.pay.experience@Evil Storm}} | {{guide:spoils.pay.honor@Evil Storm}} |
+| **Evil Wraith** | {{guide:spoils.pay.credits@Evil Wraith}} | {{guide:spoils.pay.thulium@Evil Wraith}} | {{guide:spoils.pay.experience@Evil Wraith}} | {{guide:spoils.pay.honor@Evil Wraith}} |
+| **Evil Ironclad** | {{guide:spoils.pay.credits@Evil Ironclad}} | {{guide:spoils.pay.thulium@Evil Ironclad}} | {{guide:spoils.pay.experience@Evil Ironclad}} | {{guide:spoils.pay.honor@Evil Ironclad}} |
 
 | Врата | Кредиты | Thulium | Опыт | Честь |
 | :--- | ---: | ---: | ---: | ---: |

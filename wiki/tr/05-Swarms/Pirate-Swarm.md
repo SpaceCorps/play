@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ed1159b36e9dc853 -->
+<!-- wiki-i18n source: 33448f95d2520b3a -->
 <!-- wiki-i18n title: Pirate sürüsü -->
 # Pirate sürüsü {#pirate-swarm}
 
@@ -17,14 +17,14 @@ Pirate sürüsü, bir **Pirate Boss** ve onun **Pirate Scout** gemileridir: kims
 - **Takipçiler şu mesafede kalır**: liderden en fazla 900 birim
 - **Onarım**: Liderin 600 birim yakınındaki her Pirate Scout, liderin gövdesini Alpha dünyasında saniyede 40 HP onarır
 - **Lider yok edilince**: Takipçiler, saldırmıyorlarsa, lider yok edildikten 1 dk sonra ayrılır
-- **Geri gelir**: Lider yok edildikten 2 dk sonra, aynı sektörde
+- **Geri gelir**: Lider yok edildikten {{guide:vitals.respawn@Pirate Boss#1;Pirate Boss#2;Pirate Boss#3}} sonra, aynı sektörde
 - **Duyuru**: Sektördeki pilotlara liderin ne zaman belirdiği ve ne zaman yok edildiği bildirilir. Bunlar Sistem satırlarıdır: sohbetin **Sistem** sekmesinde, okunmamış sayısıyla birlikte görünür; **Genel** ya da **Yerel** sekmesinde görünmez. Öldürme akışı, öldürmeyi alan pilotu adıyla gösterir.
 
 <!-- pirate-glance:end -->
 
 ## Üyeler {#the-members}
 
-- **Pirate Boss**: Ironclad gemisini temel alan, onun gücünün bir kısmına sahip bir gemi (değerler aşağıda). Pasiftir ve **hiç lazer ateşlemez**: tek silahı bir **düz roket** ([Roketler](/wiki/06-Items/Rockets.md); hangisi olduğu sektöre bağlıdır, tabloya bak): onu kendisine saldıran pilota fırlatır ve ateş ederken dolaşmaya devam eder. Gövdesini kendi kendine asla onarmaz.
+- **Pirate Boss**: Ironclad gemisini temel alan, onun gücünün bir kısmına sahip bir gemi (değerler aşağıda). Pasiftir ve **hiç lazer ateşlemez**: tek silahı bir **düz roket** ([Roketler](/wiki/06-Items/Rockets.md); hangisi olduğu sektöre bağlıdır, tabloya bak): onu kendisine saldıran pilota fırlatır ve ateş ederken dolaşmaya devam eder. Gövdesini kendi kendine asla onarmaz. [Üç aşaması](#the-leaders-three-steps) ve bir [özel yetenek](/wiki/03-Mechanics/Special-Abilities.md) bunu değiştirebilir.
 - **Pirate Scout**: Kitefin gemisini temel alan, onun gücünün bir kısmına sahip bir gemi. Pirate Scout gemileri yaklaşan her pilota saldırır, patronun yakınında kalır ve patronun yakınındaki her biri onun gövdesini onarır.
 
 ## Savaş nasıl geçer {#how-the-fight-goes}
@@ -34,6 +34,19 @@ Pirate sürüsü, bir **Pirate Boss** ve onun **Pirate Scout** gemileridir: kims
 - **Hareket etmeye devam et.** Patronun roketi düzdür ve güdümsüzdür: hareket etmeye devam eden gemi ondan kaçar, olduğu yerde duran vurulur.
 - **Bir grup getir.** x2 cephaneli Ostirion gemilerindeki üç pilot, `x-2` sektöründe tek gemi kaybetmeden onu indirir, ama ancak zar zor; `x-3` sektöründe ise darbeler paylaşıldığı sürece bile yok edilir; dört pilot Alpha dünyasında onu yaklaşık üç dakikada indirir. x4 cephaneyle `x-3` sektöründe üç pilot onu yaklaşık iki dakikada indirir. Beş pilot, darbeler paylaşıldığında yaklaşık iki buçuk dakikada, tüm ateşi tek pilot aldığında yaklaşık üç dakikada indirir; o durumda iki gemi kaybederler: tüm ateşi tek pilotun almasına izin veren bir grubun beş kişi olması gerekir. Beta dünyasında beş, Gamma dünyasında yedi pilot gerekir; darbeler paylaşılmış olmalıdır (patron orada daha büyüktür ve Scout gemileri daha çok onarır). Alpha dünyasında `x-3` sektöründe x2 cephaneyle tek bir Ostirion tek başına başaramaz, tek bir Paragon da başaramaz, iki Paragon güvenle başarır. Beta ve Gamma dünyalarında `x-3` sektöründe tek bir Paragon x2 cephaneyle de x4 cephaneyle de tek başına yok edilir. Patron ona ilk vuran pilota karşılık verir, bu yüzden işe en sağlam gemi başlasın ve bu kadar uzun bir savaşta yeteneklerini (Emergency Repair, Shield Surge: [Yetenekler](/wiki/03-Mechanics/Abilities.md)) kullan. Hâlâ 2. ya da 3. seviyede olan pilotlar, uçtukları yerde bile, bunun için fazla zayıftır: daha güçlenene kadar uzak dur.
 - **Patron geri gelir**: *Bir bakışta* listesindeki süreden sonra, aynı sektörde.
+
+## Liderin üç aşaması {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Bu savaşın üç aşaması vardır ([nasıl işlediği](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); her biri bir kez gerçekleşir.
+
+- **Başlangıçta**: Ona ilk vuran pilota, aralarında 12 derece olan 3 roketlik bir yelpaze ateşler.
+- **Üçte ikinin altında**: Bir kerede 5 Pirate Scouts daha çağırır, en fazla 10 canlı. Hiçbir şey ödemezler ve 45 sn sonra giderler.
+- **Üçte birin altında**: 10 sn boyunca ×1,8 hızla en yakın geçide uçar, sonra pilotlara döner.
+
+<!-- mob-ladder:end -->
 
 ## Ödüller ve ganimet {#rewards-and-drops}
 
@@ -52,26 +65,24 @@ Ironclad temel alınarak, gövdesinin, kalkanının ve hasarının %50 kadarıyl
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Gövde | 250.000 | 375.000 | 500.000 |
-| Kalkan | 50.100 | 75.150 | 100.200 |
+| Gövde | {{guide:vitals.hull@Pirate Boss#1}} | {{guide:vitals.hull@Pirate Boss#2}} | {{guide:vitals.hull@Pirate Boss#3}} |
+| Kalkan | {{guide:vitals.shield@Pirate Boss#1}} | {{guide:vitals.shield@Pirate Boss#2}} | {{guide:vitals.shield@Pirate Boss#3}} |
 | Lazer hasarı (saniyede bir salvo) | yok | yok | yok |
-| Hız | 100 | 100 | 100 |
+| Hız | {{guide:vitals.speed@Pirate Boss#1}} | {{guide:vitals.speed@Pirate Boss#2}} | {{guide:vitals.speed@Pirate Boss#3}} |
 | Lazer menzili | – | – | – |
 | Aggro yarıçapı | yalnızca saldırıya uğrayınca | yalnızca saldırıya uğrayınca | yalnızca saldırıya uğrayınca |
-| Roket hasarı, en fazla | 2.500 (Rivet I) / 5.000 (Rivet II) | 3.750 (Rivet I) / 7.500 (Rivet II) | 5.000 (Rivet I) / 10.000 (Rivet II) |
-| Kredi | 145.000 | 290.000 | 435.000 |
-| Thulium | 725 | 1.450 | 2.175 |
-| Deneyim (XP) | 29.000 | 58.000 | 87.000 |
-| Onur | 232 | 464 | 696 |
+| Roket hasarı, en fazla | {{guide:behaviour.ability:rocket.damage@Pirate Boss#1}} | {{guide:behaviour.ability:rocket.damage@Pirate Boss#2}} | {{guide:behaviour.ability:rocket.damage@Pirate Boss#3}} |
+| Kredi | {{guide:spoils.pay.credits@Pirate Boss#1}} | {{guide:spoils.pay.credits@Pirate Boss#2}} | {{guide:spoils.pay.credits@Pirate Boss#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Pirate Boss#1}} | {{guide:spoils.pay.thulium@Pirate Boss#2}} | {{guide:spoils.pay.thulium@Pirate Boss#3}} |
+| Deneyim (XP) | {{guide:spoils.pay.experience@Pirate Boss#1}} | {{guide:spoils.pay.experience@Pirate Boss#2}} | {{guide:spoils.pay.experience@Pirate Boss#3}} |
+| Onur | {{guide:spoils.pay.honor@Pirate Boss#1}} | {{guide:spoils.pay.honor@Pirate Boss#2}} | {{guide:spoils.pay.honor@Pirate Boss#3}} |
 | Öldürme başına PvE puanı | 15 | 15 | 15 |
 
 **Ganimet**: tek bir kutu, en çok hasar veren pilota ait.
 
-| Eşya | Şans | Miktar |
-| :--- | ---: | ---: |
-| Reinforced Hull Plate | %50 | 1 |
-| Kredi ile satın alınan 4 [roket](/wiki/06-Items/Rockets.md) arasından rastgele biri | %100 | 5–10 |
-| Advanced Plasma, Siphon Battery ve Siphon Battery II arasından rastgele biri | %100 | 1.000–2.000 |
+| Eşya |
+| :--- |
+| {{guide:spoils.box@Pirate Boss#1;Pirate Boss#2;Pirate Boss#3}} |
 
 ### Pirate Scout
 
@@ -79,17 +90,17 @@ Kitefin temel alınarak, gövdesinin %50 kadarıyla ve lazer hasarının %113 ka
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Gövde | 12.000 | 18.000 | 24.000 |
-| Kalkan | 9.818 | 14.727 | 19.636 |
-| Lazer hasarı (saniyede bir salvo) | 315 | 473 | 630 |
-| Hız | 220 | 220 | 220 |
+| Gövde | {{guide:vitals.hull@Pirate Scout#1}} | {{guide:vitals.hull@Pirate Scout#2}} | {{guide:vitals.hull@Pirate Scout#3}} |
+| Kalkan | {{guide:vitals.shield@Pirate Scout#1}} | {{guide:vitals.shield@Pirate Scout#2}} | {{guide:vitals.shield@Pirate Scout#3}} |
+| Lazer hasarı (saniyede bir salvo) | {{guide:vitals.dps@Pirate Scout#1}} | {{guide:vitals.dps@Pirate Scout#2}} | {{guide:vitals.dps@Pirate Scout#3}} |
+| Hız | {{guide:vitals.speed@Pirate Scout#1}} | {{guide:vitals.speed@Pirate Scout#2}} | {{guide:vitals.speed@Pirate Scout#3}} |
 | Lazer menzili | 700 | 700 | 700 |
-| Aggro yarıçapı | 700 | 700 | 700 |
+| Aggro yarıçapı | {{guide:vitals.aggro@Pirate Scout#1}} | {{guide:vitals.aggro@Pirate Scout#2}} | {{guide:vitals.aggro@Pirate Scout#3}} |
 | Lideri onarır (her biri, saniyede; yalnızca gövde) | 40 | 60 | 80 |
-| Kredi | 1.000 | 2.000 | 3.000 |
-| Thulium | 4 | 8 | 12 |
-| Deneyim (XP) | 100 | 200 | 300 |
-| Onur | 2 | 4 | 6 |
+| Kredi | {{guide:spoils.pay.credits@Pirate Scout#1}} | {{guide:spoils.pay.credits@Pirate Scout#2}} | {{guide:spoils.pay.credits@Pirate Scout#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Pirate Scout#1}} | {{guide:spoils.pay.thulium@Pirate Scout#2}} | {{guide:spoils.pay.thulium@Pirate Scout#3}} |
+| Deneyim (XP) | {{guide:spoils.pay.experience@Pirate Scout#1}} | {{guide:spoils.pay.experience@Pirate Scout#2}} | {{guide:spoils.pay.experience@Pirate Scout#3}} |
+| Onur | {{guide:spoils.pay.honor@Pirate Scout#1}} | {{guide:spoils.pay.honor@Pirate Scout#2}} | {{guide:spoils.pay.honor@Pirate Scout#3}} |
 | Öldürme başına PvE puanı | 4 | 4 | 4 |
 
 **Ganimet**: yok. Öldürme yalnızca kredi, Thulium, XP ve onur öder.

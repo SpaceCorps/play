@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f36888650a9078b3 -->
+<!-- wiki-i18n source: 3c16398b0ab82842 -->
 <!-- wiki-i18n title: Miyuki -->
 # Miyuki
 
@@ -62,6 +62,8 @@ Miyuki’nin yetenekleri bir eşyaya değil, gemiye aittir: yetenek yuvası kull
 | **Miyuki V** | 7,5 sn, 30.000 + %3 | saniyede 75.000 gövde (sen 10.000), 100 sn | saniyede 150.000 + %5 kalkan (sen 30.000 + %5), 80 sn |
 
 Bir bağlantı 5 saniye sürer ve grubundan veya şirketinden bir gemiye 1.200 birim içinde ulaşır. Heal Pod 600’e ulaşır. Channel Shield, puanlarına ek olarak her saniye iki geminin de kendi maksimum kalkanının bir kısmını geri doldurur: Miyuki III’te %3, IV’te %4, V’te %5 (tablodaki yüzde).
+
+Her seviyede ayrıca son düğme olarak **Revive** vardır. Grubundan veya şirketinden bir pilot yok edilirse gemisi 30 saniye arızalı kalır; 600 birim içinde 10 saniye kalırsan pilot öldüğü yere döner ve Revive 120 saniye dinlenir. Gerisini [Gemi yetenekleri](/wiki/03-Mechanics/Abilities.md#ship-abilities) anlatır.
 
 [İyileştirme](/wiki/03-Mechanics/Pilot-Skills.md) pilot becerin üçüne de etki eder: 100. seviyede Heal Pod, Channel Heal ve Channel Shield’i (puanlarını ve maksimum kalkandan aldıkları payı) %30 güçlendirir ve bekleme sürelerini %10 kısaltır; böylece 100 saniye dinlenen bir Channel Heal 90 saniye dinlenir. Yukarıdaki tablolar sayıları onsuz verir.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f34faeb3f3d1ac87 -->
+<!-- wiki-i18n source: 2dc6584f5284ebcf -->
 <!-- wiki-i18n title: Primeros pasos -->
 # Primeros pasos en SpaceCorps {#getting-started-in-spacecorps}
 
@@ -24,12 +24,14 @@ En la estación, tus Créditos, tu Thulium y tu Honor están arriba a la derecha
 
 ## Perfiles de piloto {#pilot-profiles}
 
-Haz clic en el nombre de un piloto en el Salón de la Fama (**Comunidad › Clasificaciones**), en la página **Estadísticas** o en la lista de miembros de un clan, y se abre el **perfil** del piloto: corporación, mundo y clan, nivel, experiencia, honor y puntuación de clasificación, los alienígenas y pilotos que ha destruido y la nave que pilota, con sus números. Dos casillas dicen cuánto tiempo lleva el piloto en el juego:
+Haz clic en el nombre de un piloto en el Salón de la Fama (**Comunidad › Clasificaciones**), en la página **Estadísticas** o en la lista de miembros de un clan, y se abre el **perfil** del piloto: corporación, mundo y clan, nivel, experiencia, honor y puntuación de clasificación, los alienígenas y pilotos que ha destruido y la nave que pilota, con su equipamiento y sus números (salvo que el piloto los mantenga privados). Dos casillas dicen cuánto tiempo lleva el piloto en el juego:
 
 - **Primera conexión.** El día en que el piloto se conectó por primera vez, como fecha en tu propia zona horaria. Un piloto que jugó antes de 0.4.12 muestra el día en que se conectó por primera vez desde esa actualización, y un guion indica un piloto que no se ha conectado desde entonces.
 - **Tiempo de juego.** Cuánto tiempo ha estado el juego del piloto conectado al servidor, en horas y minutos («128 h 15 min», «45 min»), en vuelo o en la estación. El tiempo que pasas quieto también cuenta. El recuento empezó con 0.4.12, así que para un piloto que jugó antes es el tiempo desde esa actualización.
 
 Ambos son públicos, como el nivel y el rango: cualquier piloto con sesión iniciada puede leerlos en un perfil. El reinicio de la temporada no los restablece.
+
+Un piloto puede mantener privado su equipamiento. **Configuración › Cuenta › Privacidad** tiene un interruptor, **Ocultar mi equipamiento**. Mientras está activado, los demás pilotos siguen viendo la nave del piloto girando y el resto del perfil, pero no los objetos montados en la nave y en sus drones ni las cifras de combate que aportan, y el perfil indica que el piloto mantiene privado su equipamiento. Los administradores siempre lo ven, y tu propio perfil siempre muestra el tuyo (con un aviso mientras el interruptor está activado).
 
 Además de tu perfil, **Comunidad › Logros** guarda las metas de tu carrera, con sus recompensas y títulos: mira [Logros](/wiki/03-Mechanics/Achievements.md).
 

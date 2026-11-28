@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 91f3dc3b14f71464 -->
+<!-- wiki-i18n source: f9b2d026af543d87 -->
 <!-- wiki-i18n title: Dungeon -->
 # Dungeon {#dungeons}
 
-<!-- wiki-search: dungeon; dungeons; gate; gates; clan gate; clan gates; clan dungeon; summon; warlord; gate warlord; boss; maze; loot zone; chest; card; vote; stage; instance; gate delta; gate epsilon; gate zeta; gate eta; gate theta; gate iota; gate goombah; gate pirate; gate crystalys; portal; clan portal; join; clan gate alerts; clan dungeon window; clan dungeon alerts; dungeon goombah; dungeon pirate; dungeon crystalys; dungeon warlord; 75 percent; three quarters; start room; fog; guards; locked room; boss room; booster; boosters; swarm assist; focus most wanted; zone of chaos; rocket barrage; porta; porte; signore della guerra; labirinto; fase; zona del bottino; carta; portale; portale del clan; booster; nebbia; guardiani; sala di partenza; sala chiusa; supporto dello sciame; zona del caos; avvisi porta del clan; dungeon del clan; avvisi dungeon del clan; tre quarti; 75 per cento -->
+<!-- wiki-search: dungeon; dungeons; gate; gates; clan gate; clan gates; clan dungeon; summon; warlord; gate warlord; boss; maze; loot zone; chest; card; vote; stage; instance; gate delta; gate epsilon; gate zeta; gate eta; gate theta; gate iota; gate goombah; gate pirate; gate crystalys; portal; clan portal; join; clan gate alerts; clan dungeon window; clan dungeon alerts; dungeon goombah; dungeon pirate; dungeon crystalys; dungeon warlord; 75 percent; three quarters; start room; fog; guards; locked room; boss room; booster; boosters; swarm assist; focus most wanted; zone of chaos; rocket barrage; porta; porte; signore della guerra; labirinto; fase; zona del bottino; carta; portale; portale del clan; booster; nebbia; guardiani; sala di partenza; sala chiusa; supporto dello sciame; zona del caos; avvisi porta del clan; dungeon del clan; avvisi dungeon del clan; tre quarti; 75 per cento; radiation donut; donut; ciambella di radiazione -->
 
-Un **dungeon** è un labirinto chiuso con un **Signore della guerra** in fondo (prima della 0.5.2 il gioco lo chiamava porta). Un Co-leader o il Leader di un [clan](/wiki/03-Mechanics/Clans.md) ne apre uno e lo paga con la banca del clan, e i membri del clan ci volano dentro insieme come un unico [gruppo](/wiki/03-Mechanics/Groups.md). Si fanno strada tra gli alieni del labirinto, aprono zone del bottino per scegliere una carta da ciascuna e abbattono il Signore della guerra. Ogni pilota che ha preso parte allo scontro viene pagato quando il Signore della guerra cade, entro i limiti più sotto. I dungeon si trovano nella scheda **Dungeon** della pagina del clan.
+Un **dungeon** è un labirinto chiuso con un **Signore della guerra** in fondo (prima della 0.5.2 il gioco lo chiamava porta). Un Co-leader o il Leader di un [clan](/wiki/03-Mechanics/Clans.md) ne apre uno e lo paga con la banca del clan, e i membri del clan ci volano dentro insieme come un unico [gruppo](/wiki/03-Mechanics/Groups.md). Si fanno strada tra gli alieni del labirinto, aprono zone del bottino per scegliere una carta da ciascuna e abbattono il Signore della guerra. Tutti volano come un unico gruppo, e un gruppo non è risparmiato dal danno ad area di un razzo: l’esplosione di un Ember, di uno Scatter o di una N.U.K.E. e la zona di radiazione che lascia una N.U.K.E. danneggiano te e i membri del tuo gruppo per metà di ciò che fanno a un’altra nave. Fai quindi attenzione a dove spari (vedi [Gruppi](/wiki/03-Mechanics/Groups.md#rules-of-engagement)). Ogni pilota che ha preso parte allo scontro viene pagato quando il Signore della guerra cade, entro i limiti più sotto. I dungeon si trovano nella scheda **Dungeon** della pagina del clan.
 
 Un dungeon è uno scontro solo contro gli alieni: dentro nessuno può attaccare un compagno di clan né nessun altro. Gli alieni pagano quando cadono, come gli alieni del gioco su cui sono modellati ([cosa pagano gli alieni](#what-the-aliens-pay)). Il completamento è del Signore della guerra, quindi l’unico modo per essere pagati per esso è essere nello scontro quando cade.
 
@@ -117,17 +117,17 @@ Un tipo alla volta. Scafo e scudo sono i valori usuali moltiplicati per il fatto
 
 |  | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
-| Scafo | 32.000 | 48.000 | 64.000 |
-| Scudo | 48.000 | 72.000 | 96.000 |
-| Danno dei laser (una raffica al secondo) | 3.000 | 4.500 | 6.000 |
-| Velocità | 180 | 180 | 180 |
+| Scafo | {{guide:vitals.hull@Dungeon Goombah}} | {{guide:vitals.hull*1.5@Dungeon Goombah}} | {{guide:vitals.hull*2@Dungeon Goombah}} |
+| Scudo | {{guide:vitals.shield@Dungeon Goombah}} | {{guide:vitals.shield*1.5@Dungeon Goombah}} | {{guide:vitals.shield*2@Dungeon Goombah}} |
+| Danno dei laser (una raffica al secondo) | {{guide:vitals.dps@Dungeon Goombah}} | {{guide:vitals.dps*1.5@Dungeon Goombah}} | {{guide:vitals.dps*2@Dungeon Goombah}} |
+| Velocità | {{guide:vitals.speed@Dungeon Goombah}} | {{guide:vitals.speed@Dungeon Goombah}} | {{guide:vitals.speed@Dungeon Goombah}} |
 | Portata dei laser | 800 | 800 | 800 |
-| Raggio di aggressione | 1.800 | 1.800 | 1.800 |
+| Raggio di aggressione | {{guide:vitals.aggro@Dungeon Goombah}} | {{guide:vitals.aggro@Dungeon Goombah}} | {{guide:vitals.aggro@Dungeon Goombah}} |
 | Ricompensa e bottino, multiplo dell’originale | ×1 | ×1,5 | ×2 |
-| Crediti per distruzione | 15.000 | 22.500 | 30.000 |
-| Thulium per distruzione | 75 | 113 | 150 |
-| Esperienza per distruzione | 3.000 | 4.500 | 6.000 |
-| Onore per distruzione | 24 | 36 | 48 |
+| Crediti per distruzione | {{guide:spoils.pay.credits@Goombah#1}} | {{guide:spoils.pay.credits*1.5@Goombah#1}} | {{guide:spoils.pay.credits*2@Goombah#1}} |
+| Thulium per distruzione | {{guide:spoils.pay.thulium@Goombah#1}} | {{guide:spoils.pay.thulium*1.5@Goombah#1}} | {{guide:spoils.pay.thulium*2@Goombah#1}} |
+| Esperienza per distruzione | {{guide:spoils.pay.experience@Goombah#1}} | {{guide:spoils.pay.experience*1.5@Goombah#1}} | {{guide:spoils.pay.experience*2@Goombah#1}} |
+| Onore per distruzione | {{guide:spoils.pay.honor@Goombah#1}} | {{guide:spoils.pay.honor*1.5@Goombah#1}} | {{guide:spoils.pay.honor*2@Goombah#1}} |
 
 ### Dungeon Pirate
 
@@ -138,18 +138,18 @@ Un tipo alla volta. Scafo e scudo sono i valori usuali moltiplicati per il fatto
 
 |  | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
-| Scafo | 250.000 | 375.000 | 500.000 |
-| Scudo | 50.100 | 75.150 | 100.200 |
-| Danno dei laser (una raffica al secondo) | 200 | 300 | 400 |
-| Danno dei razzi | 5.000 | 7.500 | 10.000 |
-| Velocità | 100 | 100 | 100 |
+| Scafo | {{guide:vitals.hull@Dungeon Pirate}} | {{guide:vitals.hull*1.5@Dungeon Pirate}} | {{guide:vitals.hull*2@Dungeon Pirate}} |
+| Scudo | {{guide:vitals.shield@Dungeon Pirate}} | {{guide:vitals.shield*1.5@Dungeon Pirate}} | {{guide:vitals.shield*2@Dungeon Pirate}} |
+| Danno dei laser (una raffica al secondo) | {{guide:vitals.dps@Dungeon Pirate}} | {{guide:vitals.dps*1.5@Dungeon Pirate}} | {{guide:vitals.dps*2@Dungeon Pirate}} |
+| Danno dei razzi | {{guide:behaviour.ability:rocket.damage@Dungeon Pirate}} | {{guide:behaviour.ability:rocket.damage*1.5@Dungeon Pirate}} | {{guide:behaviour.ability:rocket.damage*2@Dungeon Pirate}} |
+| Velocità | {{guide:vitals.speed@Dungeon Pirate}} | {{guide:vitals.speed@Dungeon Pirate}} | {{guide:vitals.speed@Dungeon Pirate}} |
 | Portata dei laser | 700 | 700 | 700 |
-| Raggio di aggressione | 1.800 | 1.800 | 1.800 |
+| Raggio di aggressione | {{guide:vitals.aggro@Dungeon Pirate}} | {{guide:vitals.aggro@Dungeon Pirate}} | {{guide:vitals.aggro@Dungeon Pirate}} |
 | Ricompensa e bottino, multiplo dell’originale | ×1 | ×1,5 | ×2 |
-| Crediti per distruzione | 145.000 | 217.500 | 290.000 |
-| Thulium per distruzione | 725 | 1.088 | 1.450 |
-| Esperienza per distruzione | 29.000 | 43.500 | 58.000 |
-| Onore per distruzione | 232 | 348 | 464 |
+| Crediti per distruzione | {{guide:spoils.pay.credits@Pirate Boss#1}} | {{guide:spoils.pay.credits*1.5@Pirate Boss#1}} | {{guide:spoils.pay.credits*2@Pirate Boss#1}} |
+| Thulium per distruzione | {{guide:spoils.pay.thulium@Pirate Boss#1}} | {{guide:spoils.pay.thulium*1.5@Pirate Boss#1}} | {{guide:spoils.pay.thulium*2@Pirate Boss#1}} |
+| Esperienza per distruzione | {{guide:spoils.pay.experience@Pirate Boss#1}} | {{guide:spoils.pay.experience*1.5@Pirate Boss#1}} | {{guide:spoils.pay.experience*2@Pirate Boss#1}} |
+| Onore per distruzione | {{guide:spoils.pay.honor@Pirate Boss#1}} | {{guide:spoils.pay.honor*1.5@Pirate Boss#1}} | {{guide:spoils.pay.honor*2@Pirate Boss#1}} |
 
 ### Dungeon Crystalys
 
@@ -159,17 +159,17 @@ Un tipo alla volta. Scafo e scudo sono i valori usuali moltiplicati per il fatto
 
 |  | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
-| Scafo | 256.000 | 384.000 | 512.000 |
-| Scudo | 160.000 | 240.000 | 320.000 |
-| Danno dei laser (una raffica al secondo) | 10.000 | 15.000 | 20.000 |
-| Velocità | 230 | 230 | 230 |
+| Scafo | {{guide:vitals.hull@Dungeon Crystalys}} | {{guide:vitals.hull*1.5@Dungeon Crystalys}} | {{guide:vitals.hull*2@Dungeon Crystalys}} |
+| Scudo | {{guide:vitals.shield@Dungeon Crystalys}} | {{guide:vitals.shield*1.5@Dungeon Crystalys}} | {{guide:vitals.shield*2@Dungeon Crystalys}} |
+| Danno dei laser (una raffica al secondo) | {{guide:vitals.dps@Dungeon Crystalys}} | {{guide:vitals.dps*1.5@Dungeon Crystalys}} | {{guide:vitals.dps*2@Dungeon Crystalys}} |
+| Velocità | {{guide:vitals.speed@Dungeon Crystalys}} | {{guide:vitals.speed@Dungeon Crystalys}} | {{guide:vitals.speed@Dungeon Crystalys}} |
 | Portata dei laser | 900 | 900 | 900 |
-| Raggio di aggressione | 2.400 | 2.400 | 2.400 |
+| Raggio di aggressione | {{guide:vitals.aggro@Dungeon Crystalys}} | {{guide:vitals.aggro@Dungeon Crystalys}} | {{guide:vitals.aggro@Dungeon Crystalys}} |
 | Ricompensa e bottino, multiplo dell’originale | ×1 | ×1,5 | ×2 |
-| Crediti per distruzione | 75.000 | 112.500 | 150.000 |
-| Thulium per distruzione | 200 | 300 | 400 |
-| Esperienza per distruzione | 12.000 | 18.000 | 24.000 |
-| Onore per distruzione | 52 | 78 | 104 |
+| Crediti per distruzione | {{guide:spoils.pay.credits@Crystalys#1}} | {{guide:spoils.pay.credits*1.5@Crystalys#1}} | {{guide:spoils.pay.credits*2@Crystalys#1}} |
+| Thulium per distruzione | {{guide:spoils.pay.thulium@Crystalys#1}} | {{guide:spoils.pay.thulium*1.5@Crystalys#1}} | {{guide:spoils.pay.thulium*2@Crystalys#1}} |
+| Esperienza per distruzione | {{guide:spoils.pay.experience@Crystalys#1}} | {{guide:spoils.pay.experience*1.5@Crystalys#1}} | {{guide:spoils.pay.experience*2@Crystalys#1}} |
+| Onore per distruzione | {{guide:spoils.pay.honor@Crystalys#1}} | {{guide:spoils.pay.honor*1.5@Crystalys#1}} | {{guide:spoils.pay.honor*2@Crystalys#1}} |
 
 ### Dungeon Crystalys Twin
 
@@ -179,17 +179,17 @@ Un tipo alla volta. Scafo e scudo sono i valori usuali moltiplicati per il fatto
 
 |  | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
-| Scafo | 512.000 | 768.000 | 1.024.000 |
-| Scudo | 320.000 | 480.000 | 640.000 |
-| Danno dei laser (una raffica al secondo) | 20.000 | 30.000 | 40.000 |
-| Velocità | 230 | 230 | 230 |
+| Scafo | {{guide:vitals.hull@Dungeon Crystalys Twin}} | {{guide:vitals.hull*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.hull*2@Dungeon Crystalys Twin}} |
+| Scudo | {{guide:vitals.shield@Dungeon Crystalys Twin}} | {{guide:vitals.shield*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.shield*2@Dungeon Crystalys Twin}} |
+| Danno dei laser (una raffica al secondo) | {{guide:vitals.dps@Dungeon Crystalys Twin}} | {{guide:vitals.dps*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.dps*2@Dungeon Crystalys Twin}} |
+| Velocità | {{guide:vitals.speed@Dungeon Crystalys Twin}} | {{guide:vitals.speed@Dungeon Crystalys Twin}} | {{guide:vitals.speed@Dungeon Crystalys Twin}} |
 | Portata dei laser | 900 | 900 | 900 |
-| Raggio di aggressione | 2.400 | 2.400 | 2.400 |
+| Raggio di aggressione | {{guide:vitals.aggro@Dungeon Crystalys Twin}} | {{guide:vitals.aggro@Dungeon Crystalys Twin}} | {{guide:vitals.aggro@Dungeon Crystalys Twin}} |
 | Ricompensa e bottino, multiplo dell’originale | ×2 | ×3 | ×4 |
-| Crediti per distruzione | 150.000 | 225.000 | 300.000 |
-| Thulium per distruzione | 400 | 600 | 800 |
-| Esperienza per distruzione | 24.000 | 36.000 | 48.000 |
-| Onore per distruzione | 104 | 156 | 208 |
+| Crediti per distruzione | {{guide:spoils.pay.credits*2@Crystalys#1}} | {{guide:spoils.pay.credits*3@Crystalys#1}} | {{guide:spoils.pay.credits*4@Crystalys#1}} |
+| Thulium per distruzione | {{guide:spoils.pay.thulium*2@Crystalys#1}} | {{guide:spoils.pay.thulium*3@Crystalys#1}} | {{guide:spoils.pay.thulium*4@Crystalys#1}} |
+| Esperienza per distruzione | {{guide:spoils.pay.experience*2@Crystalys#1}} | {{guide:spoils.pay.experience*3@Crystalys#1}} | {{guide:spoils.pay.experience*4@Crystalys#1}} |
+| Onore per distruzione | {{guide:spoils.pay.honor*2@Crystalys#1}} | {{guide:spoils.pay.honor*3@Crystalys#1}} | {{guide:spoils.pay.honor*4@Crystalys#1}} |
 
 <!-- dungeons-enemies:end -->
 
@@ -205,24 +205,24 @@ Il Signore della guerra aspetta nella sala all’estremità opposta del labirint
 
 |  | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
-| Scafo | 10.000.000 | 15.000.000 | 25.000.000 |
-| Scudo | 8.000.000 | 12.000.000 | 20.000.000 |
-| Danno dei laser (una raffica al secondo) | 17.500–22.500 | 26.250–33.750 su ciascuno di 2 piloti | 35.000–45.000 su ciascuno di 2 piloti |
-| Velocità | 120 | 120 | 120 |
+| Scafo | {{guide:vitals.hull@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} | {{guide:vitals.hull*2.5@Dungeon Warlord}} |
+| Scudo | {{guide:vitals.shield@Dungeon Warlord}} | {{guide:vitals.shield*1.5@Dungeon Warlord}} | {{guide:vitals.shield*2.5@Dungeon Warlord}} |
+| Danno dei laser (una raffica al secondo) | {{guide:vitals.dps*0.875~1.125@Dungeon Warlord}} | {{guide:vitals.dps*1.3125~1.6875@Dungeon Warlord}} su ciascuno di 2 piloti | {{guide:vitals.dps*1.75~2.25@Dungeon Warlord}} su ciascuno di 2 piloti |
+| Velocità | {{guide:vitals.speed@Dungeon Warlord}} | {{guide:vitals.speed@Dungeon Warlord}} | {{guide:vitals.speed@Dungeon Warlord}} |
 | Portata dei laser | 1.100 | 1.100 | 1.100 |
 
 Lo scafo e lo scudo qui sopra valgono per un gruppo di 5. Crescono con il gruppo: sono lo scafo e lo scudo del Signore della guerra insieme, in base al numero di piloti nel gruppo all’avvio del dungeon.
 
 | Piloti nel gruppo | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
-| 3 | 10.800.000 | 16.200.000 | 27.000.000 |
-| 4 | 14.400.000 | 21.600.000 | 36.000.000 |
-| 5 | 18.000.000 | 27.000.000 | 45.000.000 |
-| 6 | 21.600.000 | 32.400.000 | 54.000.000 |
-| 7 | 25.200.000 | 37.800.000 | 63.000.000 |
-| 8 | 28.800.000 | 43.200.000 | 72.000.000 |
-| 9 | 32.400.000 | 48.600.000 | 81.000.000 |
-| 10 | 36.000.000 | 54.000.000 | 90.000.000 |
+| 3 | {{guide:vitals.hull*0.6@Dungeon Warlord}} + {{guide:vitals.shield*0.6@Dungeon Warlord}} | {{guide:vitals.hull*0.9@Dungeon Warlord}} + {{guide:vitals.shield*0.9@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} + {{guide:vitals.shield*1.5@Dungeon Warlord}} |
+| 4 | {{guide:vitals.hull*0.8@Dungeon Warlord}} + {{guide:vitals.shield*0.8@Dungeon Warlord}} | {{guide:vitals.hull*1.2@Dungeon Warlord}} + {{guide:vitals.shield*1.2@Dungeon Warlord}} | {{guide:vitals.hull*2@Dungeon Warlord}} + {{guide:vitals.shield*2@Dungeon Warlord}} |
+| 5 | {{guide:vitals.hull@Dungeon Warlord}} + {{guide:vitals.shield@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} + {{guide:vitals.shield*1.5@Dungeon Warlord}} | {{guide:vitals.hull*2.5@Dungeon Warlord}} + {{guide:vitals.shield*2.5@Dungeon Warlord}} |
+| 6 | {{guide:vitals.hull*1.2@Dungeon Warlord}} + {{guide:vitals.shield*1.2@Dungeon Warlord}} | {{guide:vitals.hull*1.8@Dungeon Warlord}} + {{guide:vitals.shield*1.8@Dungeon Warlord}} | {{guide:vitals.hull*3@Dungeon Warlord}} + {{guide:vitals.shield*3@Dungeon Warlord}} |
+| 7 | {{guide:vitals.hull*1.4@Dungeon Warlord}} + {{guide:vitals.shield*1.4@Dungeon Warlord}} | {{guide:vitals.hull*2.1@Dungeon Warlord}} + {{guide:vitals.shield*2.1@Dungeon Warlord}} | {{guide:vitals.hull*3.5@Dungeon Warlord}} + {{guide:vitals.shield*3.5@Dungeon Warlord}} |
+| 8 | {{guide:vitals.hull*1.6@Dungeon Warlord}} + {{guide:vitals.shield*1.6@Dungeon Warlord}} | {{guide:vitals.hull*2.4@Dungeon Warlord}} + {{guide:vitals.shield*2.4@Dungeon Warlord}} | {{guide:vitals.hull*4@Dungeon Warlord}} + {{guide:vitals.shield*4@Dungeon Warlord}} |
+| 9 | {{guide:vitals.hull*1.8@Dungeon Warlord}} + {{guide:vitals.shield*1.8@Dungeon Warlord}} | {{guide:vitals.hull*2.7@Dungeon Warlord}} + {{guide:vitals.shield*2.7@Dungeon Warlord}} | {{guide:vitals.hull*4.5@Dungeon Warlord}} + {{guide:vitals.shield*4.5@Dungeon Warlord}} |
+| 10 | {{guide:vitals.hull*2@Dungeon Warlord}} + {{guide:vitals.shield*2@Dungeon Warlord}} | {{guide:vitals.hull*3@Dungeon Warlord}} + {{guide:vitals.shield*3@Dungeon Warlord}} | {{guide:vitals.hull*5@Dungeon Warlord}} + {{guide:vitals.shield*5@Dungeon Warlord}} |
 
 <!-- dungeons-boss:end -->
 
@@ -241,6 +241,7 @@ La finestra Dungeon del clan conta quanti di essi restano da distruggere per apr
 - **Il Supporto dello sciame** è il Signore della guerra che chiama i suoi Goombah. Finché vivono, non può essere ferito, e non spara né usa altre abilità. Distruggili tutti: lo striscione conta quanti ne restano. Se passa un minuto, il Signore della guerra può di nuovo essere ferito e i Goombah rimasti restano a combattere. Non contano per la sala del boss, e non pagano nulla.
 - **La Zona del Caos** è un anello viola sul terreno, attorno al Signore della guerra, e finché dura va dovunque vada il Signore della guerra. Nessuno dentro l’anello può attaccare, né con i laser né con i razzi, ma riparazioni, occultamento e volo funzionano ancora, e il Signore della guerra e i suoi alieni sparano come sempre. L’anello compare un attimo prima di fare effetto: esci da esso e resta fuori, perché segue il Signore della guerra. Un pilota fuori può ancora sparare, fin dove arrivano le sue armi.
 - **La Lancia fantasma** fa sparire il Signore della guerra per un secondo. Ricompare in un altro punto della sua stanza con tre illusioni di sé stesso. Finché un’illusione vive, spara al pilota più vicino che riesce a vedere con metà della raffica del Signore della guerra e cura ogni secondo lo scafo e lo scudo del Signore della guerra (i numeri sono nella tabella delle abilità). Le illusioni hanno uno scafo proprio: distruggile per fermare la cura. Non pagano nulla e se ne vanno con il Signore della guerra quando cade. Il Signore della guerra può essere distrutto finché esse vivono.
+- **La Ciambella di radiazione** accende tre anelli di radiazione intorno al punto in cui si trovava il Signore della guerra quando ha iniziato l’abilità, uno dopo l’altro dal Signore della guerra verso l’esterno, con uno o due secondi tra un anello e l’altro. Ogni anello mostra i suoi due bordi un attimo prima di accendersi e poi brucia ogni pilota al suo interno per qualche secondo, direttamente dallo scafo (la tabella delle abilità dà i tempi e la parte di scafo al secondo). Un anello non si spegne quando si accende il successivo: due anelli, e nelle fasi più alte tutti e tre, possono bruciare insieme. Il buco intorno al Signore della guerra, il terreno tra gli anelli e il terreno oltre l’ultimo sono sicuri: restaci sopra ed esci da un anello prima che si accenda. Una parete non ferma la radiazione e l’occultamento non salva un pilota da essa; la Tecnica antiradiazioni riduce la dose.
 
 <!-- dungeons-abilities:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -255,19 +256,34 @@ La finestra Dungeon del clan conta quanti di essi restano da distruggere per apr
 | **Supporto dello sciame** | 2 s | Fino a 1 min | 3 min | – | – |
 | **Zona del Caos** | 2 s | 15 s | 2 min | 900 | – |
 | **Lancia fantasma** | 1,5 s | 1 s | 2 min | – | – |
+| **Ciambella di radiazione** | 1 s | Fino a 8,5 s | 75 s | 2.150 | – |
 
 | Abilità | Fase 1 | Fase 2 | Fase 3 |
 | :--- | :--- | :--- | :--- |
-| **Aura di furto vitale** | 8.000 al secondo | 10.000 al secondo | 12.000 al secondo |
-| **Pioggia di meteore** | 6 meteoriti per raffica, 80.000 ciascuno | 8 meteoriti per raffica, 100.000 ciascuno | 10 meteoriti per raffica, 120.000 ciascuno |
-| **Focus sul più ricercato** | 26.250–33.750 per colpo extra al pilota che ha inflitto più danni, uno ogni 1 s | 39.375–50.625 per colpo extra al pilota che ha inflitto più danni, uno ogni 1 s | 52.500–67.500 per colpo extra al pilota che ha inflitto più danni, uno ogni 1 s |
-| **Raffica di razzi** | 100.000–150.000 a razzo su ogni pilota, uno ogni 15 s | 125.000–187.500 a razzo su ogni pilota, uno ogni 15 s | 150.000–225.000 a razzo su ogni pilota, uno ogni 15 s |
-| **Assorbimento dello scudo** | 10.000 di scudo al secondo | 12.500 di scudo al secondo | 15.000 di scudo al secondo |
+| **Aura di furto vitale** | {{guide:behaviour.ability:lifesteal.drainPerSec@Dungeon Warlord}} al secondo | {{guide:behaviour.ability:lifesteal.drainPerSec*1.25@Dungeon Warlord}} al secondo | {{guide:behaviour.ability:lifesteal.drainPerSec*1.5@Dungeon Warlord}} al secondo |
+| **Pioggia di meteore** | 6 meteoriti per raffica, {{guide:behaviour.ability:meteor.damage@Dungeon Warlord}} ciascuno | 8 meteoriti per raffica, {{guide:behaviour.ability:meteor.damage*1.25@Dungeon Warlord}} ciascuno | 10 meteoriti per raffica, {{guide:behaviour.ability:meteor.damage*1.5@Dungeon Warlord}} ciascuno |
+| **Focus sul più ricercato** | {{guide:vitals.dps*1.3125~1.6875@Dungeon Warlord}} per colpo extra al pilota che ha inflitto più danni, uno ogni 1 s | {{guide:vitals.dps*1.96875~2.53125@Dungeon Warlord}} per colpo extra al pilota che ha inflitto più danni, uno ogni 1 s | {{guide:vitals.dps*2.625~3.375@Dungeon Warlord}} per colpo extra al pilota che ha inflitto più danni, uno ogni 1 s |
+| **Raffica di razzi** | {{guide:behaviour.ability:barrage.damageMin@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage@Dungeon Warlord}} a razzo su ogni pilota, uno ogni 15 s | {{guide:behaviour.ability:barrage.damageMin*1.25@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage*1.25@Dungeon Warlord}} a razzo su ogni pilota, uno ogni 15 s | {{guide:behaviour.ability:barrage.damageMin*1.5@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage*1.5@Dungeon Warlord}} a razzo su ogni pilota, uno ogni 15 s |
+| **Assorbimento dello scudo** | {{guide:behaviour.ability:absorb.drainPerSec@Dungeon Warlord}} di scudo al secondo | {{guide:behaviour.ability:absorb.drainPerSec*1.25@Dungeon Warlord}} di scudo al secondo | {{guide:behaviour.ability:absorb.drainPerSec*1.5@Dungeon Warlord}} di scudo al secondo |
 | **Supporto dello sciame** | 12 Goombahs | 18 Goombahs | 24 Goombahs |
 | **Zona del Caos** | I piloti dentro l’anello non possono attaccare | I piloti dentro l’anello non possono attaccare | I piloti dentro l’anello non possono attaccare |
-| **Lancia fantasma** | 3 illusioni da 500.000 di scafo ciascuna; ognuna spara il 50% della raffica del Signore della guerra e, finché vive, cura il Signore della guerra di 50.000 di scafo e 50.000 di scudo al secondo | 3 illusioni da 500.000 di scafo ciascuna; ognuna spara il 50% della raffica del Signore della guerra e, finché vive, cura il Signore della guerra di 50.000 di scafo e 50.000 di scudo al secondo | 3 illusioni da 500.000 di scafo ciascuna; ognuna spara il 50% della raffica del Signore della guerra e, finché vive, cura il Signore della guerra di 50.000 di scafo e 50.000 di scudo al secondo |
+| **Lancia fantasma** | 3 illusioni; ognuna spara il 50% della raffica del Signore della guerra e, finché vive, cura il Signore della guerra di 50.000 di scafo e 50.000 di scudo al secondo | 3 illusioni; ognuna spara il 50% della raffica del Signore della guerra e, finché vive, cura il Signore della guerra di 50.000 di scafo e 50.000 di scudo al secondo | 3 illusioni; ognuna spara il 50% della raffica del Signore della guerra e, finché vive, cura il Signore della guerra di 50.000 di scafo e 50.000 di scudo al secondo |
+| **Ciambella di radiazione** | 3 anelli, accesi uno dopo l’altro; ognuno brucia per 2 s e toglie il 8% dello scafo di un pilota al secondo | 3 anelli, accesi uno dopo l’altro; ognuno brucia per 3 s e toglie il 8% dello scafo di un pilota al secondo | 3 anelli, accesi uno dopo l’altro; ognuno brucia per 4,5 s e toglie il 8% dello scafo di un pilota al secondo |
 
 <!-- dungeons-abilities:end -->
+
+### Le sue tre fasi {#its-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Il Signore della guerra ha tre fasi ([come funzionano](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); ognuna avviene una volta.
+
+- **Sotto i due terzi**: La pausa tra le sue abilità scende a 4 s e le loro attese a ×0,75.
+- **Sotto un terzo**: La pausa scende a 2 s, le attese a ×0,5 e il suo danno sale a ×1,25; lancia una raffica di Meteor gratuita, e il suo Swarm non torna mai più in fretta di ogni 120 s.
+- **Una pausa a ogni fase.** Quando comincia una fase, il Signore della guerra non può essere ferito per 3 s.
+
+<!-- mob-ladder:end -->
 
 ## Zone del bottino {#loot-zones}
 
@@ -351,9 +367,9 @@ Le **Orvium Reinforced Plates** e gli **Echo Shard** e **Lattice Shard** della F
 
 | Fase | Onore | Esperienza | Crediti | Thulium | Munizioni x4 | Orvium Reinforced Plates | Echo Shards | Lattice Shards | Punti classifica PvE |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Fase 1** | 25.000 | 600.000 | 5.000.000 | 8.000 | 4.000 | 5 | 12 | 5 | 850 |
-| **Fase 2** | 50.000 | 1.500.000 | 10.000.000 | 18.000 | 9.000 | 10 | 8 | 6 | 2.000 |
-| **Fase 3** | 100.000 | 2.400.000 | 17.500.000 | 30.000 | 15.000 | 15 | 8 | 7 | 3.400 |
+| **Fase 1** | 25.000 | 600.000 | 5.000.000 | 8.000 | 4.000 | 5 | 24 | 10 | 850 |
+| **Fase 2** | 50.000 | 1.500.000 | 10.000.000 | 18.000 | 9.000 | 10 | 16 | 12 | 2.000 |
+| **Fase 3** | 100.000 | 2.400.000 | 17.500.000 | 30.000 | 15.000 | 15 | 16 | 14 | 3.400 |
 
 - **Heartshards**: 1 con il primo completamento pagato di ogni livello in una stagione, e il 5% di probabilità di uno in più a ogni completamento pagato.
 
@@ -367,7 +383,7 @@ Queste regole decidono chi viene pagato **per il completamento**. Una partita si
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
 - **Un giorno**: Una fase paga un pilota una volta per giorno UTC: il giorno in cui cade il Signore della guerra
-- **Una settimana**: Un pilota è pagato per al massimo 10 fasi completate per settimana UTC, da lunedì a domenica
+- **Una settimana**: Un pilota è pagato per al massimo 14 fasi completate per settimana UTC, da lunedì a domenica
 - **Dentro**: Almeno 2 min in tutto
 - **Parte nello scontro**: Almeno una di queste: ha inflitto 0,1% dello scafo e dello scudo del Signore della guerra; ha distrutto 10 alieni del dungeon; ha curato altri piloti per 50.000 durante lo scontro con il Signore della guerra
 
@@ -382,8 +398,8 @@ Ciò che un pilota può ricevere in un giorno, e nella settimana migliore che i 
 
 | Paga per ogni pilota | Onore | Esperienza | Crediti | Thulium | Munizioni x4 | Orvium Reinforced Plates | Echo Shards | Lattice Shards | Punti classifica PvE |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Un giorno, ogni fase una volta | 175.000 | 4.500.000 | 32.500.000 | 56.000 | 28.000 | 30 | 28 | 18 | 6.250 |
-| La settimana migliore: 7 × Fase 3 e 3 × Fase 2 | 850.000 | 21.300.000 | 152.500.000 | 264.000 | 132.000 | 135 | 80 | 67 | 29.800 |
+| Un giorno, ogni fase una volta | 175.000 | 4.500.000 | 32.500.000 | 56.000 | 28.000 | 30 | 56 | 36 | 6.250 |
+| La settimana migliore: 7 × Fase 3 e 7 × Fase 2 | 1.050.000 | 27.300.000 | 192.500.000 | 336.000 | 168.000 | 175 | 224 | 182 | 37.800 |
 
 L’esperienza e l’onore di una fase completata e pagata contano per i tuoi punti classifica PvE: un punto ogni 1.000 di esperienza e uno ogni 100 di onore.
 
@@ -395,7 +411,7 @@ Ogni alieno di un dungeon paga quando cade e lascia cadere del bottino, come l�
 
 - **Chi viene pagato.** I piloti che hanno colpito l’alieno, in base al danno inflitto, come per gli alieni degli sciami: un pilota o un gruppo che l’ha solo sfiorato non riceve nulla, un gruppo viene pagato come uno solo, e dentro un gruppo i membri vicini al relitto che hanno sparato da poco si dividono per livello quanto viene pagato. Un pilota che non ha inflitto danni all’alieno non riceve nulla per esso, per quanto vicino abbia volato, e un alieno che nessun pilota ha colpito non paga nessuno. Contano solo i piloti che le regole qui sopra pagano: chi se n’è andato, chi non è stato dentro abbastanza a lungo, chi è già stato pagato oggi per la fase o chi ha avuto tutti i completamenti pagati della settimana non riceve nulla per gli alieni, e gli altri hanno la sua parte. Una distruzione non chiede la parte nello scontro: aver colpito l’alieno è la parte. Se il membro di un gruppo che ha inflitto più danni è stato distrutto o non è più sulla mappa, i membri vicini al relitto che hanno sparato da poco si dividono la paga senza di lui.
 - **Cosa viene pagato.** Crediti, Thulium, esperienza e onore, una volta per distruzione. La paga è quella dell’originale in Alpha, in ogni mondo: un dungeon non ha moltiplicatore di mondo. I tuoi booster, la formazione e i bonus del tuo clan contano come per qualsiasi distruzione, e l’esperienza conta per i tuoi [punti PvE](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points) come quella del completamento.
-- **Il bottino.** Viene tirato con le probabilità dell’originale, tranne l’Echo Shard, che è due volte più probabile, poi ogni quantità viene moltiplicata per il rapporto (una frazione di unità è una probabilità di averne una in più). Cade come una cassa sul relitto, prima per il pilota che ha inflitto più danni e il suo clan, poi per chiunque sulla mappa, e infine sparisce. Se il [gruppo](/wiki/03-Mechanics/Groups.md) del pilota che ha inflitto più danni ha due o più piloti che hanno danneggiato l’alieno e volano ancora nel dungeon, il bottino viene invece diviso in [casse personali](/wiki/03-Mechanics/Cargo.md#personal-crates), una per ciascuno in base ai danni inflitti, ognuna prima solo del suo pilota, poi di chiunque sulla mappa. Un compagno di gruppo che non ha inflitto danni o che le regole sopra escludono non ha una cassa. Gli altri gruppi e i piloti che volano da soli sono pagati per la loro parte e non hanno una cassa di questo bottino. La mappa regge solo un certo numero di casse alla volta, quindi raccoglile mentre combatti, e ciò che resta sulla mappa quando il dungeon si chiude se ne va con lui. A differenza degli oggetti del completamento, sono bottini ordinari di un alieno: si possono [vendere all’Asta](/wiki/03-Mechanics/Auction.md#marketable-items) se l’oggetto è vendibile.
+- **Il bottino.** Viene tirato con le probabilità dell’originale, tranne l’Echo Shard, che è due volte più probabile e cade a due a due, poi ogni quantità viene moltiplicata per il rapporto (una frazione di unità è una probabilità di averne una in più). Cade come una cassa sul relitto, prima per il pilota che ha inflitto più danni e il suo clan, poi per chiunque sulla mappa, e infine sparisce. Se il [gruppo](/wiki/03-Mechanics/Groups.md) del pilota che ha inflitto più danni ha due o più piloti che hanno danneggiato l’alieno e volano ancora nel dungeon, il bottino viene invece diviso in [casse personali](/wiki/03-Mechanics/Cargo.md#personal-crates), una per ciascuno in base ai danni inflitti, ognuna prima solo del suo pilota, poi di chiunque sulla mappa. Un compagno di gruppo che non ha inflitto danni o che le regole sopra escludono non ha una cassa. Gli altri gruppi e i piloti che volano da soli sono pagati per la loro parte e non hanno una cassa di questo bottino. La mappa regge solo un certo numero di casse alla volta, quindi raccoglile mentre combatti, e ciò che resta sulla mappa quando il dungeon si chiude se ne va con lui. A differenza degli oggetti del completamento, sono bottini ordinari di un alieno: si possono [vendere all’Asta](/wiki/03-Mechanics/Auction.md#marketable-items) se l’oggetto è vendibile.
 - **Cosa non paga.** Il Signore della guerra non paga una distruzione, solo il completamento. I Goombah che chiama non pagano nulla, perché la chiamata ritorna finché dura lo scontro.
 - **Non una distruzione del gioco.** Una distruzione in un dungeon non conta per le missioni, gli obiettivi, i contatori di distruzioni, i punti reset, i punti PvE di una distruzione, i droni o i P.E.T.: un Dungeon Goombah non è un Goombah del gioco.
 - **I limiti.** I limiti del giorno e della settimana qui sopra trattengono la paga degli alieni come quella del completamento: chi è già stato pagato oggi per la fase, o ha avuto tutti i completamenti pagati della settimana, non riceve nulla nemmeno per i suoi alieni, e il montepremi di una distruzione va agli altri. Un dungeon che non viene completato paga le sue distruzioni ai piloti che le regole pagano, e nulla per il completamento.

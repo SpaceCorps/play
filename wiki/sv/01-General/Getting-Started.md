@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f34faeb3f3d1ac87 -->
+<!-- wiki-i18n source: 2dc6584f5284ebcf -->
 <!-- wiki-i18n title: Kom igång -->
 # Kom igång i SpaceCorps {#getting-started-in-spacecorps}
 
@@ -24,12 +24,14 @@ På stationen står dina krediter, ditt Thulium och din heder uppe till höger p
 
 ## Pilotprofiler {#pilot-profiles}
 
-Klicka på en pilots namn i Hedersgalleriet (**Gemenskap › Ranking**), på sidan **Statistik** eller i en klans medlemslista, så öppnas pilotens **profil**: koncern, värld och klan, nivå, erfarenhet, heder och rankingpoäng, de aliens och piloter piloten har förstört och skeppet piloten flyger, med dess värden. Två rutor visar hur länge piloten har spelat:
+Klicka på en pilots namn i Hedersgalleriet (**Gemenskap › Ranking**), på sidan **Statistik** eller i en klans medlemslista, så öppnas pilotens **profil**: koncern, värld och klan, nivå, erfarenhet, heder och rankingpoäng, de aliens och piloter piloten har förstört och skeppet piloten flyger, med dess utrustning och värden (om inte piloten håller dem privata). Två rutor visar hur länge piloten har spelat:
 
 - **Första inloggning.** Den dag då piloten loggade in för första gången, som ett datum i din egen tidszon. En pilot som spelade före 0.4.12 visar dagen då piloten först loggade in efter den uppdateringen, och ett streck står för en pilot som inte har loggat in sedan dess.
 - **Speltid.** Hur länge pilotens spel har varit anslutet till servern, i timmar och minuter (”128 h 15 min”, ”45 min”), under flygning eller på stationen. Tid då du står still räknas också. Räkningen började med 0.4.12, så för en pilot som spelade före det är det tiden sedan uppdateringen.
 
 Båda är offentliga, som nivå och grad: varje inloggad pilot kan läsa dem på en profil. Säsongens wipe nollställer ingen av dem.
+
+En pilot kan hålla sin utrustning privat. Under **Inställningar › Konto › Integritet** finns en strömbrytare, **Dölj min utrustning**. Medan den är på ser andra piloter fortfarande pilotens skepp snurra och resten av profilen, men inte föremålen som är monterade på skeppet och dess drönare, eller stridssiffrorna de ger, och profilen säger att piloten håller sin utrustning privat. Administratörer ser den alltid, och din egen profil visar alltid din (med en notis medan strömbrytaren är på).
 
 Utöver din profil håller **Gemenskap › Prestationer** reda på dina karriärmål, med belöningar och titlar: se [Prestationer](/wiki/03-Mechanics/Achievements.md).
 

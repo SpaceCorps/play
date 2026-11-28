@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fff5cfd69e987468 -->
+<!-- wiki-i18n source: 7c6bc3eaf70223f5 -->
 <!-- wiki-i18n title: Sciame Seeker -->
 # Sciame Seeker {#seeker-swarm}
 
@@ -17,14 +17,14 @@ Lo sciame Seeker è il più piccolo degli [sciami](/wiki/05-Swarms/Swarms.md): u
 - **I seguaci restano vicini**: al massimo 500 unità dal capo
 - **Cura**: Ogni Seeker Slave entro 600 unità dal capo ne cura lo scafo, 50 HP al secondo in Alpha
 - **Capo distrutto**: I seguaci se ne vanno 30 s dopo la distruzione del capo, a meno che stiano attaccando
-- **Ritorna**: 2 min dopo la distruzione del capo, nello stesso settore
+- **Ritorna**: {{guide:vitals.respawn@Boss Seeker#1;Boss Seeker#2;Boss Seeker#3}} dopo la distruzione del capo, nello stesso settore
 - **Avvisi**: I piloti del settore vengono avvisati quando il capo compare e quando viene distrutto. Sono righe di Sistema: compaiono nella scheda **Sistema** della chat, con un conteggio delle righe non lette, e non in **Globale** né in **Locale**. Il kill feed nomina il pilota a cui viene accreditato l’abbattimento.
 
 <!-- seeker-glance:end -->
 
 ## I membri {#the-members}
 
-- **Boss Seeker**: un Seeker molto più grande, con la tinta dello sciame e il suo nome sopra, con molte volte lo scafo, lo scudo e il danno di un Seeker (i valori sono qui sotto). È passivo: vaga finché un pilota non lo colpisce, poi si ferma dov’è e spara a quel pilota, e le navi del suo sciame vicine si uniscono allo scontro. La portata della sua arma e la sua velocità sono quelle di un Seeker, e non ripara mai da solo il suo scafo.
+- **Boss Seeker**: un Seeker molto più grande, con la tinta dello sciame e il suo nome sopra, con molte volte lo scafo, lo scudo e il danno di un Seeker (i valori sono qui sotto). È passivo: vaga finché un pilota non lo colpisce, poi si ferma dov’è e spara a quel pilota, e le navi del suo sciame vicine si uniscono allo scontro. La portata della sua arma e la sua velocità sono quelle di un Seeker, e non ripara mai da solo il suo scafo. Le sue [tre fasi](#the-leaders-three-steps) e un’[abilità speciale](/wiki/03-Mechanics/Special-Abilities.md) possono cambiare questo.
 - **Seeker Slave**: un Seeker comune con la tinta dello sciame. Gli Slave restano vicini al boss, si uniscono allo scontro quando una nave di sciame vicina viene colpita, e ognuno che è vicino al boss ne cura lo scafo. Uno Slave ripara il proprio scafo dopo una pausa, come fa un Seeker.
 
 ## Come va lo scontro {#how-the-fight-goes}
@@ -33,6 +33,19 @@ Lo sciame Seeker è il più piccolo degli [sciami](/wiki/05-Swarms/Swarms.md): u
 - **Resta fuori portata.** Il boss e i suoi Slave sono più lenti di un Protos e le loro armi arrivano meno lontano di un Quantum Laser II (vedi [Laser e munizioni](/wiki/06-Items/Lasers.md)): un pilota che ha quei laser e resta oltre la loro portata non subisce danni mentre sparano. Un pilota con Quantum Laser I non può restare fuori portata.
 - **Gli Slave curano più in fretta di quanto colpisca un pilota nuovo da solo.** Insieme curano più di quanto infliggano i laser di un pilota con munizioni x1, quindi porta un compagno e munizioni x2. Due piloti con Quantum Laser II che mantengono la distanza abbattono il boss in circa un minuto in Alpha, e molto più in fretta con munizioni x2.
 - **Il boss ritorna** dopo il tempo indicato nell’elenco *In breve*, a piena forza, nello stesso settore, e i suoi Slave arrivano uno dopo l’altro.
+
+## Le tre fasi del capo {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Il suo scontro ha tre fasi ([come funzionano](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); ognuna avviene una volta.
+
+- **All’inizio**: I suoi Seeker Slaves lo riparano ×2 più in fretta per 8 s.
+- **Sotto i due terzi**: 2 copie di lui compaiono, e quello vero porta un anello.
+- **Sotto un terzo**: Vola via dai piloti per 4 s, poi si rivolta.
+
+<!-- mob-ladder:end -->
 
 ## Ricompense e bottino {#rewards-and-drops}
 
@@ -51,28 +64,23 @@ Base: Seeker, con il 400% di scafo, scudo e danno; velocità e portata sono quel
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Scafo | 3.200 | 4.800 | 6.400 |
-| Scudo | 3.200 | 4.800 | 6.400 |
-| Danno dei laser (una raffica al secondo) | 720 | 1.080 | 1.440 |
-| Velocità | 120 | 120 | 120 |
+| Scafo | {{guide:vitals.hull@Boss Seeker#1}} | {{guide:vitals.hull@Boss Seeker#2}} | {{guide:vitals.hull@Boss Seeker#3}} |
+| Scudo | {{guide:vitals.shield@Boss Seeker#1}} | {{guide:vitals.shield@Boss Seeker#2}} | {{guide:vitals.shield@Boss Seeker#3}} |
+| Danno dei laser (una raffica al secondo) | {{guide:vitals.dps@Boss Seeker#1}} | {{guide:vitals.dps@Boss Seeker#2}} | {{guide:vitals.dps@Boss Seeker#3}} |
+| Velocità | {{guide:vitals.speed@Boss Seeker#1}} | {{guide:vitals.speed@Boss Seeker#2}} | {{guide:vitals.speed@Boss Seeker#3}} |
 | Portata dei laser | 600 | 600 | 600 |
 | Raggio di aggressione | solo se attaccato | solo se attaccato | solo se attaccato |
-| Crediti | 10.000 | 20.000 | 30.000 |
-| Thulium | 40 | 80 | 120 |
-| Esperienza (XP) | 1.000 | 2.000 | 3.000 |
-| Onore | 20 | 40 | 60 |
+| Crediti | {{guide:spoils.pay.credits@Boss Seeker#1}} | {{guide:spoils.pay.credits@Boss Seeker#2}} | {{guide:spoils.pay.credits@Boss Seeker#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Boss Seeker#1}} | {{guide:spoils.pay.thulium@Boss Seeker#2}} | {{guide:spoils.pay.thulium@Boss Seeker#3}} |
+| Esperienza (XP) | {{guide:spoils.pay.experience@Boss Seeker#1}} | {{guide:spoils.pay.experience@Boss Seeker#2}} | {{guide:spoils.pay.experience@Boss Seeker#3}} |
+| Onore | {{guide:spoils.pay.honor@Boss Seeker#1}} | {{guide:spoils.pay.honor@Boss Seeker#2}} | {{guide:spoils.pay.honor@Boss Seeker#3}} |
 | Punti PvE per abbattimento | 5 | 5 | 5 |
 
 **Bottino**: una cassa, per il pilota che ha inflitto più danno.
 
-| Oggetto | Probabilità | Quantità |
-| :--- | ---: | ---: |
-| Ship Fragment | 20% a ciascuno di 10 tiri | 1 |
-| Daraxium | 50% a ciascuno di 10 tiri | 1–2 |
-| Standard Battery | 100% | 200–400 |
-| Advanced Plasma | 100% | 10–20 |
-| Ultra Core | 100% | 2–4 |
-| Uno dei 4 [razzi](/wiki/06-Items/Rockets.md) acquistabili con i crediti, scelto a caso | 100% | 2–3 |
+| Oggetto |
+| :--- |
+| {{guide:spoils.box@Boss Seeker#1;Boss Seeker#2;Boss Seeker#3}} |
 
 ### Seeker Slave
 
@@ -80,17 +88,17 @@ Base: Seeker, con il 100% di scafo, scudo e danno; velocità e portata sono quel
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Scafo | 800 | 1.200 | 1.600 |
-| Scudo | 800 | 1.200 | 1.600 |
-| Danno dei laser (una raffica al secondo) | 180 | 270 | 360 |
-| Velocità | 120 | 120 | 120 |
+| Scafo | {{guide:vitals.hull@Seeker Slave#1}} | {{guide:vitals.hull@Seeker Slave#2}} | {{guide:vitals.hull@Seeker Slave#3}} |
+| Scudo | {{guide:vitals.shield@Seeker Slave#1}} | {{guide:vitals.shield@Seeker Slave#2}} | {{guide:vitals.shield@Seeker Slave#3}} |
+| Danno dei laser (una raffica al secondo) | {{guide:vitals.dps@Seeker Slave#1}} | {{guide:vitals.dps@Seeker Slave#2}} | {{guide:vitals.dps@Seeker Slave#3}} |
+| Velocità | {{guide:vitals.speed@Seeker Slave#1}} | {{guide:vitals.speed@Seeker Slave#2}} | {{guide:vitals.speed@Seeker Slave#3}} |
 | Portata dei laser | 600 | 600 | 600 |
 | Raggio di aggressione | solo se attaccato | solo se attaccato | solo se attaccato |
 | Cura il capo, ciascuno, al secondo (solo scafo) | 50 | 75 | 100 |
-| Crediti | 125 | 250 | 375 |
-| Thulium | 1 | 2 | 3 |
-| Esperienza (XP) | 12 | 24 | 36 |
-| Onore | 1 | 2 | 3 |
+| Crediti | {{guide:spoils.pay.credits@Seeker Slave#1}} | {{guide:spoils.pay.credits@Seeker Slave#2}} | {{guide:spoils.pay.credits@Seeker Slave#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Seeker Slave#1}} | {{guide:spoils.pay.thulium@Seeker Slave#2}} | {{guide:spoils.pay.thulium@Seeker Slave#3}} |
+| Esperienza (XP) | {{guide:spoils.pay.experience@Seeker Slave#1}} | {{guide:spoils.pay.experience@Seeker Slave#2}} | {{guide:spoils.pay.experience@Seeker Slave#3}} |
+| Onore | {{guide:spoils.pay.honor@Seeker Slave#1}} | {{guide:spoils.pay.honor@Seeker Slave#2}} | {{guide:spoils.pay.honor@Seeker Slave#3}} |
 | Punti PvE per abbattimento | 1 | 1 | 1 |
 
 **Bottino**: nessuno. L’abbattimento paga solo i suoi crediti, il Thulium, l’XP e l’onore.

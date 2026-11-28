@@ -1,24 +1,24 @@
-<!-- wiki-i18n source: 75486fd4ebd908e7 -->
+<!-- wiki-i18n source: 4361d40cdb5cc587 -->
 <!-- wiki-i18n title: Crystalys -->
 # Crystalys
 
-Crystalys, savaş gemisi sınıfından devasa bir uzaylı varlıktır. Onunla karşılaşmak son derece tehlikelidir; hayatta kalmak için olağanüstü kalkan kapasitesi ve ateş gücü gerekir. Aggro yarıçapı (900 birim) içine giren korumasız her pilotun peşine düşer; pilot 1.200 birimden uzaklaştığında ya da takibin başladığı yerden 2.000 birim uçtuktan sonra peşini bırakır (kendisine ateş eden pilot için 2.500 ve 3.000; bkz. [Savaş](/wiki/03-Mechanics/Combat.md)); son 10 saniye içinde ona vuran bir pilotun peşini hiç bırakmaz ve pilot onun silah menzilinin (900 birim) dışında kaldığında ona doğru uçar. Birden fazla pilot ateş ediyorsa, ona ilk ateş eden pilot vurmaya devam ettiği sürece o pilotun peşinde kalır (bkz. [Bir uzaylı kimle savaşır](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)). [Sürülerin](/wiki/05-Swarms/Swarms.md) gemileri ayrı uzaylı türleridir ve Sürüler kategorisinde kendi makaleleri vardır.
+Crystalys, savaş gemisi sınıfından devasa bir uzaylı varlıktır. Onunla karşılaşmak son derece tehlikelidir; hayatta kalmak için olağanüstü kalkan kapasitesi ve ateş gücü gerekir. Aggro yarıçapı ({{guide:vitals.aggro@Crystalys#1;Crystalys#2;Crystalys#3;Crystalys#4}} birim) içine giren korumasız her pilotun peşine düşer; pilot 1.200 birimden uzaklaştığında ya da takibin başladığı yerden 2.000 birim uçtuktan sonra peşini bırakır (kendisine ateş eden pilot için 2.500 ve 3.000; bkz. [Savaş](/wiki/03-Mechanics/Combat.md)); son 10 saniye içinde ona vuran bir pilotun peşini hiç bırakmaz ve pilot onun silah menzilinin (900 birim) dışında kaldığında ona doğru uçar. Birden fazla pilot ateş ediyorsa, ona ilk ateş eden pilot vurmaya devam ettiği sürece o pilotun peşinde kalır (bkz. [Bir uzaylı kimle savaşır](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)). [Sürülerin](/wiki/05-Swarms/Swarms.md) gemileri ayrı uzaylı türleridir ve Sürüler kategorisinde kendi makaleleri vardır.
 
 ## Özellikler {#stats}
 
-- **Gövde puanı (HP)**: 256.000
-- **Kalkan**: 160.000
-- **Hasar**: 10.000
-- **Hız**: 230
+- **Gövde puanı (HP)**: {{guide:vitals.hull@Crystalys#1}}
+- **Kalkan**: {{guide:vitals.shield@Crystalys#1}}
+- **Hasar**: {{guide:vitals.dps@Crystalys#1}}
+- **Hız**: {{guide:vitals.speed@Crystalys#1;Crystalys#2;Crystalys#3;Crystalys#4}}
 - **Saldırı menzili**: 900
 - **Davranış**: Saldırgan
 
 ## Ödüller {#rewards}
 
-- **Kredi**: 75.000
-- **Thulium**: 200
-- **Deneyim (XP)**: 12.000
-- **Onur**: 52
+- **Kredi**: {{guide:spoils.pay.credits@Crystalys#1}}
+- **Thulium**: {{guide:spoils.pay.thulium@Crystalys#1}}
+- **Deneyim (XP)**: {{guide:spoils.pay.experience@Crystalys#1}}
+- **Onur**: {{guide:spoils.pay.honor@Crystalys#1}}
 - **Öldürme başına PvE puanı**: 16
 - **Kalkan dolumu**: saniyede 500 (15 sn gecikme)
 
@@ -28,15 +28,11 @@ Yok edildiği yerde bir [kargo kutusu](/wiki/03-Mechanics/Cargo.md) olarak düş
 
 Her ganimetin ne işe yaradığı ve başka nerede bulunabileceği: [Kaynaklar](/wiki/06-Items/Resources.md).
 
-- **Ship Fragment**:
-  - %100 şans (En az: 5, En çok: 5)
-  - %50 şans (En az: 1, En çok: 1)
-  - %25 şans (En az: 2, En çok: 2)
-- **Cataclysite**: %100 şans (En az: 8, En çok: 8)
-- **Quorvium**: %100 şans (En az: 6, En çok: 10)
-- **Power Core**: %50 şans (En az: 1, En çok: 1)
-- **Ancient Control Unit**: %20 şans (En az: 1, En çok: 1)
-- **Echo Shard**: %40 şans (En az: 1, En çok: 1)
+- {{guide:spoils.box@Crystalys#1;Crystalys#2;Crystalys#3;Crystalys#4}}
+
+## Özel yetenekler {#special-abilities}
+
+Bu türden bazı uzaylılar bir **özel yetenek** taşır: gövdelerinin yarısı gittiğinde yalnızca bir kez yaptıkları bir şey. Başlamadan önce hiçbir şey görünmez. [Özel yetenekler](/wiki/03-Mechanics/Special-Abilities.md) sayfası her yeteneğin ne yaptığını ve ona nasıl karşılık verileceğini anlatır.
 
 ## Hikâye {#lore}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4e3f459fc0966372 -->
+<!-- wiki-i18n source: 98e91b2bd1dede81 -->
 <!-- wiki-i18n title: Sciame Tesseract -->
 # Sciame Tesseract {#tesseract-swarm}
 
@@ -13,13 +13,13 @@ Lo sciame Tesseract è un’unica enorme nave madre, il **Tesseract**, e i **Fac
 - **Quanti**: Uno in ogni mondo
 - **Compare**: Dal giorno 4 della stagione fino al reset (Beta e Gamma: dal giorno 1 della stagione)
 - **Capo**: Tesseract
-- **Posizione**: Entro 2.500 unità dal punto 25.900, 6.100 della mappa del settore
+- **Posizione**: Entro 2.500 unità dal punto 25.900, 11.900 della mappa del settore
 - **Rigenerazione**: 125.000 HP al secondo in Alpha, prima lo scafo e poi lo scudo, dopo 5 s senza danni
 - **Seguaci**: Fino a 100 × Facet, altri 20 ogni 5 s finché il capo viene colpito
 - **Arrivo dei seguaci**: Solo finché il capo è stato colpito negli ultimi 5 s, entro 400 unità da lui
 - **Cacciatori**: Ogni Facet vola tratti propri intorno al capo, entro 3.600 unità da lui, e non dà la caccia a nessuno. Spara al pilota più vicino che ha colpito il capo quando quel pilota è nel suo raggio. Senza nessuno a cui sparare continua a volare intorno al capo e se ne va 20 s dopo l’ultimo colpo
 - **Capo distrutto**: I seguaci se ne vanno 1 min dopo la distruzione del capo, anche se stanno attaccando
-- **Ritorna**: 30 min dopo la distruzione del capo, nello stesso settore
+- **Ritorna**: {{guide:vitals.respawn@Tesseract#1;Tesseract#2;Tesseract#3}} dopo la distruzione del capo, nello stesso settore
 - **Avvisi**: I piloti del settore vengono avvisati quando il capo compare e quando viene distrutto. Sono righe di Sistema: compaiono nella scheda **Sistema** della chat, con un conteggio delle righe non lette, e non in **Globale** né in **Locale**. Il kill feed nomina il pilota a cui viene accreditato l’abbattimento.
 
 <!-- tesseract-glance:end -->
@@ -40,6 +40,17 @@ Lo sciame Tesseract è un’unica enorme nave madre, il **Tesseract**, e i **Fac
 - **I settori pericolosi sono PvP.** Un rivale può attaccare il gruppo in mezzo allo scontro. Non c’è nessuna cassa accanto al relitto da aspettare: il bottino è una [cassa privata](/wiki/03-Mechanics/Cargo.md#private-boxes) per ogni pilota pagato dall’abbattimento, che solo quel pilota può vedere e prendere. Non andare da solo.
 - **Il Tesseract ritorna** dopo il tempo indicato nell’elenco *In breve*, a piena forza, nella sua posizione.
 
+## Le tre fasi del capo {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Il suo scontro ha tre fasi ([come funzionano](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); ognuna avviene una volta, e ricominciano quando si è riparato del tutto.
+
+- **Sotto i due terzi**: Arrivano 20 Facets in più in una volta, oltre il loro numero abituale.
+
+<!-- mob-ladder:end -->
+
 ## Ricompense e bottino {#rewards-and-drops}
 
 Il Tesseract paga per lo scontro che è: quanto molti Crystalys insieme, e più di un Crystalys, l’alieno meglio pagato, per il danno che incassa. La ricompensa si divide in base al danno tra i piloti che lo hanno combattuto ([come paga l’abbattimento di un boss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Non c’è nessuna cassa per il pilota che infligge più danno. Ogni pilota pagato dall’abbattimento riceve una propria [cassa privata](/wiki/03-Mechanics/Cargo.md#private-boxes), che solo lui vede e può prendere, per 10 minuti, con Reinforced Hull Plate, Velkonite e Orvium Reinforced Plate, Power Core, Ancient Control Unit e Dark Matter. Viene tirata per la sua parte di danno, come il bottino di un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot): chi ha inflitto un quinto del danno riceve circa un quinto delle quantità della tabella, e in un gruppo ogni pilota riceve la sua parte di quella del gruppo, come viene divisa la ricompensa. La Dark Matter ha un tetto per pilota: da un abbattimento ne riceve al massimo 5, per quanto grande sia la sua parte (in un gruppo si separa prima la parte di ciascun pilota, e il tetto è quello di ognuno), e ciò che supera il tetto va perso, non viene dato agli altri. Un Facet paga quanto un [Phantasm](/wiki/04-Aliens/Phantasm.md) in Crediti, Thulium, XP e Onore, e il suo abbattimento conta come abbattimento (nelle tue statistiche, per gli obiettivi e per l’esperienza dei tuoi droni e P.E.T.), ma non lascia nulla e non dà punti PvE.
@@ -57,30 +68,24 @@ Base: Crystalys, con 625% dello scafo; non ha armi, e scudo e velocità sono pro
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Scafo | 1.600.000 | 2.400.000 | 3.200.000 |
-| Scudo | 1.200.000 | 1.800.000 | 2.400.000 |
+| Scafo | {{guide:vitals.hull@Tesseract#1}} | {{guide:vitals.hull@Tesseract#2}} | {{guide:vitals.hull@Tesseract#3}} |
+| Scudo | {{guide:vitals.shield@Tesseract#1}} | {{guide:vitals.shield@Tesseract#2}} | {{guide:vitals.shield@Tesseract#3}} |
 | Danno dei laser (una raffica al secondo) | nessuno | nessuno | nessuno |
-| Velocità | 30 | 30 | 30 |
+| Velocità | {{guide:vitals.speed@Tesseract#1}} | {{guide:vitals.speed@Tesseract#2}} | {{guide:vitals.speed@Tesseract#3}} |
 | Portata dei laser | – | – | – |
 | Raggio di aggressione | solo se attaccato | solo se attaccato | solo se attaccato |
 | Ripara, al secondo, dopo 5 s senza danni (prima lo scafo, poi lo scudo) | 125.000 | 187.500 | 250.000 |
-| Crediti | 900.000 | 1.800.000 | 2.700.000 |
-| Thulium | 2.400 | 4.800 | 7.200 |
-| Esperienza (XP) | 144.000 | 288.000 | 432.000 |
-| Onore | 624 | 1.248 | 1.872 |
+| Crediti | {{guide:spoils.pay.credits@Tesseract#1}} | {{guide:spoils.pay.credits@Tesseract#2}} | {{guide:spoils.pay.credits@Tesseract#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Tesseract#1}} | {{guide:spoils.pay.thulium@Tesseract#2}} | {{guide:spoils.pay.thulium@Tesseract#3}} |
+| Esperienza (XP) | {{guide:spoils.pay.experience@Tesseract#1}} | {{guide:spoils.pay.experience@Tesseract#2}} | {{guide:spoils.pay.experience@Tesseract#3}} |
+| Onore | {{guide:spoils.pay.honor@Tesseract#1}} | {{guide:spoils.pay.honor@Tesseract#2}} | {{guide:spoils.pay.honor@Tesseract#3}} |
 | Punti PvE per abbattimento | 42 | 42 | 42 |
 
 **Bottino per ogni pilota pagato dall’abbattimento**: una cassa ciascuno, solo per lui, con la sua parte di queste quantità.
 
-| Oggetto | Probabilità | Quantità |
-| :--- | ---: | ---: |
-| Reinforced Hull Plate | 100% | 3–10 |
-| Velkonite Reinforced Plate | 66% | 7–12 |
-| Orvium Reinforced Plate | 50% | 3–5 |
-| Power Core | 66% | 4–7 |
-| Ancient Control Unit | 100% | 1–4 |
-| Dark Matter | 100% | 10–20, al massimo 5 per pilota |
-| Heartshard | 5% | 1 |
+| Oggetto |
+| :--- |
+| {{guide:spoils.box@Tesseract#1;Tesseract#2;Tesseract#3}} |
 
 ### Facet
 
@@ -88,16 +93,16 @@ Base: Seeker, con 2.500% dello scafo e 463% del danno dei laser; scudo, velocit�
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Scafo | 20.000 | 30.000 | 40.000 |
-| Scudo | 16.000 | 24.000 | 32.000 |
-| Danno dei laser (una raffica al secondo) | 834 | 1.251 | 1.668 |
-| Velocità | 750 | 750 | 750 |
+| Scafo | {{guide:vitals.hull@Facet#1}} | {{guide:vitals.hull@Facet#2}} | {{guide:vitals.hull@Facet#3}} |
+| Scudo | {{guide:vitals.shield@Facet#1}} | {{guide:vitals.shield@Facet#2}} | {{guide:vitals.shield@Facet#3}} |
+| Danno dei laser (una raffica al secondo) | {{guide:vitals.dps@Facet#1}} | {{guide:vitals.dps@Facet#2}} | {{guide:vitals.dps@Facet#3}} |
+| Velocità | {{guide:vitals.speed@Facet#1}} | {{guide:vitals.speed@Facet#2}} | {{guide:vitals.speed@Facet#3}} |
 | Portata dei laser | 600 | 600 | 600 |
 | Raggio di aggressione | solo se attaccato | solo se attaccato | solo se attaccato |
-| Crediti | 3.000 | 6.000 | 9.000 |
-| Thulium | 12 | 24 | 36 |
-| Esperienza (XP) | 300 | 600 | 900 |
-| Onore | 6 | 12 | 18 |
+| Crediti | {{guide:spoils.pay.credits@Facet#1}} | {{guide:spoils.pay.credits@Facet#2}} | {{guide:spoils.pay.credits@Facet#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Facet#1}} | {{guide:spoils.pay.thulium@Facet#2}} | {{guide:spoils.pay.thulium@Facet#3}} |
+| Esperienza (XP) | {{guide:spoils.pay.experience@Facet#1}} | {{guide:spoils.pay.experience@Facet#2}} | {{guide:spoils.pay.experience@Facet#3}} |
+| Onore | {{guide:spoils.pay.honor@Facet#1}} | {{guide:spoils.pay.honor@Facet#2}} | {{guide:spoils.pay.honor@Facet#3}} |
 | Punti PvE per abbattimento | 0 | 0 | 0 |
 
 **Bottino**: nessuno. L’abbattimento paga solo i suoi crediti, il Thulium, l’XP e l’onore.

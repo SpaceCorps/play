@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fff5cfd69e987468 -->
+<!-- wiki-i18n source: 7c6bc3eaf70223f5 -->
 <!-- wiki-i18n title: Seeker の群れ -->
 # Seeker の群れ {#seeker-swarm}
 
@@ -17,14 +17,14 @@ Seeker の群れは[群れ](/wiki/05-Swarms/Swarms.md)の中で最も小さく�
 - **配下がとどまる範囲**：リーダーから500ユニット以内
 - **回復**：リーダーから600ユニット以内にいる Seeker Slave は1体ごとにリーダーの船体を回復します（Alpha では毎秒 50 HP）
 - **リーダー撃破後**：リーダーが撃破されてから30秒後に配下は去ります。ただし攻撃している間は残ります
-- **復活**：リーダー撃破の 2分 後、 同じセクター
+- **復活**：リーダー撃破の {{guide:vitals.respawn@Boss Seeker#1;Boss Seeker#2;Boss Seeker#3}} 後、 同じセクター
 - **通知**：そのセクターのパイロットは、リーダーが現れたときと撃破されたときに知らされます。これらはシステムの行です。チャットの**システム**タブに未読数付きで表示され、**全体**タブや**ローカル**タブには出ません。キルフィードに、撃破の功績を得たパイロットの名前が出ます。
 
 <!-- seeker-glance:end -->
 
 ## メンバー {#the-members}
 
-- **Boss Seeker**：群れの色合いを帯び、頭上に名前が表示される、ずっと大きな Seeker で、船体、シールド、ダメージが Seeker の何倍もあります（数値は下にあります）。非攻撃的で、パイロットに攻撃されるまでうろつき、攻撃されるとその場に止まってそのパイロットに発砲し、近くにいる群れの艦が戦いに加わります。武器の射程と速度は Seeker と同じで、自分で船体を修復することはありません。
+- **Boss Seeker**：群れの色合いを帯び、頭上に名前が表示される、ずっと大きな Seeker で、船体、シールド、ダメージが Seeker の何倍もあります（数値は下にあります）。非攻撃的で、パイロットに攻撃されるまでうろつき、攻撃されるとその場に止まってそのパイロットに発砲し、近くにいる群れの艦が戦いに加わります。武器の射程と速度は Seeker と同じで、自分で船体を修復することはありません。その[3つの段階](#the-leaders-three-steps)と[特殊能力](/wiki/03-Mechanics/Special-Abilities.md)は、これを変えることがあります。
 - **Seeker Slave**：群れの色合いを帯びた普通の Seeker です。Slave はボスのそばにとどまり、近くの群れの艦が攻撃されると戦いに加わり、ボスの近くにいる Slave は1体ごとにボスの船体を回復します。Slave は Seeker と同じように、しばらく休むと自分の船体を修復します。
 
 ## 戦いの流れ {#how-the-fight-goes}
@@ -33,6 +33,19 @@ Seeker の群れは[群れ](/wiki/05-Swarms/Swarms.md)の中で最も小さく�
 - **射程の外にいましょう。** ボスと Slave は Protos より遅く、武器の射程も Quantum Laser II より短いので（[レーザーと弾薬](/wiki/06-Items/Lasers.md)を参照）、そうしたレーザーを持ち、その射程の外にいるパイロットは、攻撃されてもダメージを受けません。Quantum Laser I のパイロットは射程の外にとどまれません。
 - **Slave の回復は、新人パイロット1人の攻撃より速いです。** 全員合わせると、x1 弾薬のパイロット1人のレーザーが与えるダメージ以上を回復するので、仲間と x2 弾薬を用意しましょう。Quantum Laser II を持つ2人のパイロットが距離を保てば、Alpha ではおよそ1分でボスを倒せ、x2 弾薬ならずっと速くなります。
 - **ボスは戻ってきます。** *ひと目で*の一覧の時間がたつと、同じセクターに全快の状態で現れ、Slave は1体ずつ順に現れます。
+
+## リーダーの3つの段階 {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+その戦いには三つの段階があります([しくみ](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps))。それぞれ一度だけ起こります。
+
+- **開始時**: Seeker Slavesが8秒の間、×2の速さで回復させます。
+- **三分の二を切ると**: 2の分身が現れ、本物にはリングが付きます。
+- **三分の一を切ると**: 4秒の間パイロットから逃げ、その後向き直ります。
+
+<!-- mob-ladder:end -->
 
 ## 報酬とドロップ {#rewards-and-drops}
 
@@ -51,28 +64,23 @@ Boss Seeker の報酬は**ちょうど Seeker 10体分**です。Seeker のク�
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 船体 | 3,200 | 4,800 | 6,400 |
-| シールド | 3,200 | 4,800 | 6,400 |
-| レーザーのダメージ （毎秒1斉射） | 720 | 1,080 | 1,440 |
-| 速度 | 120 | 120 | 120 |
+| 船体 | {{guide:vitals.hull@Boss Seeker#1}} | {{guide:vitals.hull@Boss Seeker#2}} | {{guide:vitals.hull@Boss Seeker#3}} |
+| シールド | {{guide:vitals.shield@Boss Seeker#1}} | {{guide:vitals.shield@Boss Seeker#2}} | {{guide:vitals.shield@Boss Seeker#3}} |
+| レーザーのダメージ （毎秒1斉射） | {{guide:vitals.dps@Boss Seeker#1}} | {{guide:vitals.dps@Boss Seeker#2}} | {{guide:vitals.dps@Boss Seeker#3}} |
+| 速度 | {{guide:vitals.speed@Boss Seeker#1}} | {{guide:vitals.speed@Boss Seeker#2}} | {{guide:vitals.speed@Boss Seeker#3}} |
 | レーザーの射程 | 600 | 600 | 600 |
 | 索敵範囲 | 攻撃時のみ | 攻撃時のみ | 攻撃時のみ |
-| クレジット | 10,000 | 20,000 | 30,000 |
-| Thulium | 40 | 80 | 120 |
-| 経験値（XP） | 1,000 | 2,000 | 3,000 |
-| 名誉 | 20 | 40 | 60 |
+| クレジット | {{guide:spoils.pay.credits@Boss Seeker#1}} | {{guide:spoils.pay.credits@Boss Seeker#2}} | {{guide:spoils.pay.credits@Boss Seeker#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Boss Seeker#1}} | {{guide:spoils.pay.thulium@Boss Seeker#2}} | {{guide:spoils.pay.thulium@Boss Seeker#3}} |
+| 経験値（XP） | {{guide:spoils.pay.experience@Boss Seeker#1}} | {{guide:spoils.pay.experience@Boss Seeker#2}} | {{guide:spoils.pay.experience@Boss Seeker#3}} |
+| 名誉 | {{guide:spoils.pay.honor@Boss Seeker#1}} | {{guide:spoils.pay.honor@Boss Seeker#2}} | {{guide:spoils.pay.honor@Boss Seeker#3}} |
 | 撃破1回あたりの PvE ポイント | 5 | 5 | 5 |
 
 **ドロップ**：最もダメージを与えたパイロットのためのコンテナ1つ。
 
-| アイテム | 確率 | 数量 |
-| :--- | ---: | ---: |
-| Ship Fragment | 10回の抽選それぞれで 20% | 1 |
-| Daraxium | 10回の抽選それぞれで 50% | 1–2 |
-| Standard Battery | 100% | 200–400 |
-| Advanced Plasma | 100% | 10–20 |
-| Ultra Core | 100% | 2–4 |
-| クレジットで買える 4 種の [ロケット](/wiki/06-Items/Rockets.md) のうち 1種 （ランダム） | 100% | 2–3 |
+| アイテム |
+| :--- |
+| {{guide:spoils.box@Boss Seeker#1;Boss Seeker#2;Boss Seeker#3}} |
 
 ### Seeker Slave
 
@@ -80,17 +88,17 @@ Boss Seeker の報酬は**ちょうど Seeker 10体分**です。Seeker のク�
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 船体 | 800 | 1,200 | 1,600 |
-| シールド | 800 | 1,200 | 1,600 |
-| レーザーのダメージ （毎秒1斉射） | 180 | 270 | 360 |
-| 速度 | 120 | 120 | 120 |
+| 船体 | {{guide:vitals.hull@Seeker Slave#1}} | {{guide:vitals.hull@Seeker Slave#2}} | {{guide:vitals.hull@Seeker Slave#3}} |
+| シールド | {{guide:vitals.shield@Seeker Slave#1}} | {{guide:vitals.shield@Seeker Slave#2}} | {{guide:vitals.shield@Seeker Slave#3}} |
+| レーザーのダメージ （毎秒1斉射） | {{guide:vitals.dps@Seeker Slave#1}} | {{guide:vitals.dps@Seeker Slave#2}} | {{guide:vitals.dps@Seeker Slave#3}} |
+| 速度 | {{guide:vitals.speed@Seeker Slave#1}} | {{guide:vitals.speed@Seeker Slave#2}} | {{guide:vitals.speed@Seeker Slave#3}} |
 | レーザーの射程 | 600 | 600 | 600 |
 | 索敵範囲 | 攻撃時のみ | 攻撃時のみ | 攻撃時のみ |
 | リーダーを回復 （1体ごとに毎秒、 船体のみ） | 50 | 75 | 100 |
-| クレジット | 125 | 250 | 375 |
-| Thulium | 1 | 2 | 3 |
-| 経験値（XP） | 12 | 24 | 36 |
-| 名誉 | 1 | 2 | 3 |
+| クレジット | {{guide:spoils.pay.credits@Seeker Slave#1}} | {{guide:spoils.pay.credits@Seeker Slave#2}} | {{guide:spoils.pay.credits@Seeker Slave#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Seeker Slave#1}} | {{guide:spoils.pay.thulium@Seeker Slave#2}} | {{guide:spoils.pay.thulium@Seeker Slave#3}} |
+| 経験値（XP） | {{guide:spoils.pay.experience@Seeker Slave#1}} | {{guide:spoils.pay.experience@Seeker Slave#2}} | {{guide:spoils.pay.experience@Seeker Slave#3}} |
+| 名誉 | {{guide:spoils.pay.honor@Seeker Slave#1}} | {{guide:spoils.pay.honor@Seeker Slave#2}} | {{guide:spoils.pay.honor@Seeker Slave#3}} |
 | 撃破1回あたりの PvE ポイント | 1 | 1 | 1 |
 
 **ドロップ**：なし。撃破で支払われるのはクレジット、Thulium、経験値、名誉だけです。

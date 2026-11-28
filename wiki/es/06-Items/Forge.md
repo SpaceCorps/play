@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0684c16b2f2d0dbe -->
+<!-- wiki-i18n source: d6376f646044a759 -->
 <!-- wiki-i18n title: Forja -->
 # La Forja {#the-forge}
 
@@ -98,9 +98,9 @@ Sintonizar las cuatro ranuras de una pieza cuesta 150 Echo Shards (10 + 20 + 40 
 | Puerta en solitario: Delta Siege | 29 | 44 |
 | Puerta en solitario: Omega Vault | 34 | 54 |
 | Puerta en solitario: Davidski's Nightmare | 34 | 54 |
-| Mazmorra de clan: etapa 1 | 12 | 5 |
-| Mazmorra de clan: etapa 2 | 8 | 6 |
-| Mazmorra de clan: etapa 3 | 8 | 7 |
+| Mazmorra de clan: etapa 1 | 24 | 10 |
+| Mazmorra de clan: etapa 2 | 16 | 12 |
+| Mazmorra de clan: etapa 3 | 16 | 14 |
 
 - Las **puertas en solitario** pagan sus shards cada vez que se completan, las **mazmorras de clan** con cada finalización pagada de una etapa.
 - Los **Heartshards** vienen con la primera vez que se completa cada puerta y cada etapa de mazmorra en una temporada (1) y con un 5 % de probabilidad de 1 más cada vez que se completa una. Los NPC raros también los sueltan: un 10 % Davidski, un 5 % Dormant Force y Tesseract. La página de [Recursos](/wiki/06-Items/Resources.md#heartshard) tiene el resto.

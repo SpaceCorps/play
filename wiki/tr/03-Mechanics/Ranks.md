@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 38daca85a103c20f -->
+<!-- wiki-i18n source: d45e1534593782f8 -->
 <!-- wiki-i18n title: Rütbeler -->
 # Rütbeler {#ranks}
 
@@ -137,6 +137,7 @@ Daha dayanıklı bir uzaylı daha değerlidir: bir öldürme, uzaylıyı yok etm
 | Slumbering Void | 10 |
 | Inert Mass | 15 |
 | The Unwakened | 112 |
+| Deep Mass | 15 |
 | Brood Warden I, II, III | 14, 18, 35 |
 | Siege Warden I, II, III | 13, 17, 32 |
 | Wrath Warden I, II, III | 14, 18, 34 |
@@ -144,7 +145,7 @@ Daha dayanıklı bir uzaylı daha değerlidir: bir öldürme, uzaylıyı yok etm
 | Siege Escort I, II, III | 2, 3, 6 |
 | Wrath Guard I, II, III | 2, 3, 6 |
 
-İlk beş satır normal uzaylılar, sonraki on iki satır altı sürünün gemileri, sonraki üç satır ise [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) uzaylılarıdır (sezonun 11. gününden itibaren). En sonda, bir Clan Warden savaşının liderleri olan Warden gemileri ve mürettebatları gelir: Brood Drone, Siege Escort ve Wrath Guard. I, II ve III Warden gücünü gösterir; her birinin puanı bu sırayla yazılmıştır.
+İlk beş satır normal uzaylılar, sonraki on iki satır altı sürünün gemileri, sonraki üç satır ise [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) uzaylılarıdır (sezonun 11. gününden itibaren), sonraki satır ise [Deep Void](/wiki/03-Mechanics/Deep-Void.md) içindeki **Deep Mass**: daha kalın kalkanlı Inert Mass. En sonda, bir Clan Warden savaşının liderleri olan Warden gemileri ve mürettebatları gelir: Brood Drone, Siege Escort ve Wrath Guard. I, II ve III Warden gücünü gösterir; her birinin puanı bu sırayla yazılmıştır.
 
 Örneğin 4. seviyede, 12.500 deneyimi ve 900 onuru olan ve 300 Seeker, 80 Phantasm ile 10 Bulwark yok etmiş bir pilotun toplam puanı 400 + 12 + 9 + 300 + 160 + 40 = **921** olur. Bu onu Çavuş yapar: en düşük puan 800 puandır; bir sonraki rütbe olan Kıdemli Çavuş ise 1.000 puan ister. Kıdemli Albay rütbesine kadar yalnızca puan sayılır.
 

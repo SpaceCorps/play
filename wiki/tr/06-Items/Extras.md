@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 27ed2fafb9709c5b -->
+<!-- wiki-i18n source: b27666559551770c -->
 <!-- wiki-i18n title: Ekstralar -->
 # Ekstralar {#extras}
 
@@ -20,7 +20,7 @@ Yeni bir pilotun **başlangıç paketi**, Protos gemisinin iki ekstra yuvasına 
 
 Sekiz CPU daha satılmaz: Skylab’ın Araştırma Merkezi bunları araştırdıktan sonra Montaj üretir (bkz. [Araştırma](/wiki/03-Mechanics/Research.md)). Bunlar: Extra Slots CPU I, II ve III, Jump CPU, Base CPU I ve II, Auto-Repair CPU ile Auto-Rocket CPU; [son bölüm](#research-cpus) her birinin ne yaptığını anlatır. Cloaking CPU gibi, Jump CPU ve Base CPU da sakin bir an içindir: üçü de attığın bir atıştan ya da aldığın bir vuruştan sonraki 10 saniye içinde başlamaz. İki warp CPU, yani Jump CPU ve Base CPU, bir görev eşyası taşırken de reddedilir (“Görev eşyası taşırken warp CPU kullanamazsın.”): bkz. [Görev eşyaları](/wiki/03-Mechanics/Quests.md#quest-items).
 
-Her ekstranın kısayol yuvasında kısa bir etiket vardır: Repair Drone için **REP**, Cloaking CPU için **CLK**, Auto-Repair, Auto-Rocket, Base ve Jump CPU için de sırasıyla **ARP**, **ARL**, **BSE** ve **JMP** (sarf malzemelerinin kendi etiketleri vardır: **EMP** ve Energetic Wall için **WAL**). Extra Slots CPU için yuva yoktur: Skylab’ına kurulur. Üç **P.E.T. Station** eşyası diğerleri gibi birer ekstradır ve etiketi **PET**’tir: birini tak, yuvası Station’ı **AÇIK** ya da **KAPALI** konuma getirir (iki basış arasında bir saniye) ve hangisi olduğunu gösterir. **AÇIK** iken yanaştırılmış [P.E.T. birimleri](/wiki/03-Mechanics/Pets.md) sayılır, **KAPALI** iken sayılmaz. **Auto-Rocket CPU** da aynı şekilde **AÇIK** ya da **KAPALI** konuma getirilir. Bir yuvanın üstüne gelirsen, basmanın şu an ne yapacağını ya da neden yapamayacağını okursun.
+Her ekstranın kısayol yuvasında kısa bir etiket vardır: Repair Drone için **REP**, Cloaking CPU için **CLK**, Organic Scanner için **SCN**, Auto-Repair, Auto-Rocket, Base ve Jump CPU için de sırasıyla **ARP**, **ARL**, **BSE** ve **JMP** (sarf malzemelerinin kendi etiketleri vardır: **EMP** ve Energetic Wall için **WAL**). Extra Slots CPU için yuva yoktur: Skylab’ına kurulur. Üç **P.E.T. Station** eşyası diğerleri gibi birer ekstradır ve etiketi **PET**’tir: birini tak, yuvası Station’ı **AÇIK** ya da **KAPALI** konuma getirir (iki basış arasında bir saniye) ve hangisi olduğunu gösterir. **AÇIK** iken yanaştırılmış [P.E.T. birimleri](/wiki/03-Mechanics/Pets.md) sayılır, **KAPALI** iken sayılmaz. **Auto-Rocket CPU** da aynı şekilde **AÇIK** ya da **KAPALI** konuma getirilir. Bir yuvanın üstüne gelirsen, basmanın şu an ne yapacağını ya da neden yapamayacağını okursun. **Organic Scanner** ([Gezgin Rehberi](/wiki/03-Mechanics/Travelers-Guide.md#scanning)) başlangıçta hiçbir yuvada değildir: onu Ekstralar bölümünden bir yuvaya sürükle, o yuvanın tuşu onu çalıştırır (kendine ait bir tuşu yoktur).
 
 ![The Extras picker of the hotbar: the Repair Drone, the Auto-Repair, Cloaking, Base and Jump CPUs and the P.E.T. Station you have fitted (REP, ARP, CLK, BSE, JMP, PET): click one to use it, or drag it onto a slot](../../img/wiki-img/shots/cpu-hotbar.jpg)
 ![The Consumables picker of the hotbar: the EMP Charge and the Energetic Wall I and II (EMP, WAL), with how many of each you hold: click one to use it, or drag it onto a slot](../../img/wiki-img/shots/emp-hotbar.jpg)
@@ -59,10 +59,12 @@ Rocket Launcher V | extra, rare | craft 2000000 Thulium, 86400 s | research 8640
 Laser Optics III | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 1 Laser Optics II, 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
 Laser Optics IV | extra, rare | craft 50000 Thulium, 750 s | research 57600 s, 57600 science | 1 Laser Optics III, 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
 Laser Optics V | extra, rare | craft 75000 Thulium, 900 s | research 86400 s, 86400 science | 1 Laser Optics IV, 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Organic Scanner I | extra, rare | craft 20000 Credits, 10000 Thulium, 600 s | research 1800 s, 1800 science | 60 Ship Fragment, 2 Power Core, 1 Ancient Control Unit, 5 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
+Organic Scanner II | extra, epic | craft 50000 Credits, 20000 Thulium, 900 s | research 7200 s, 7200 science | 1 Organic Scanner I, 2 Lurker Fang, 2 Angler Lure, 1 Leviathan Scale | /wiki/06-Items/Extras.md
 
 P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 Cloaking CPU S -> Cloaking CPU M -> Cloaking CPU L
@@ -71,6 +73,7 @@ Extra Slots CPU I -> Extra Slots CPU II -> Extra Slots CPU III
 Base CPU I -> Base CPU II
 Laser Optics I => Laser Optics II => Laser Optics III => Laser Optics IV => Laser Optics V
 Rocket Launcher II => Rocket Launcher III => Rocket Launcher IV => Rocket Launcher V
+Organic Scanner I => Organic Scanner II
 ```
 <!-- item-tree:end -->
 
@@ -160,6 +163,8 @@ CPU’lardan ikisi, her yükseltme zincirinin son kademesi gibi, Dark Matter Pla
 | [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 sa | – | 20.000 | 15 dk |
 | [Mine II](/wiki/06-Items/Extras.md#mine) | 3 sa | – | 200 | 2 dk |
 | [Mine III](/wiki/06-Items/Extras.md#mine) | 6 sa | [Mine II](/wiki/06-Items/Extras.md#mine) | 400 | 5 dk |
+| [Organic Scanner I](/wiki/06-Items/Extras.md) | 30 dk | – | 10.000 | 10 dk |
+| [Organic Scanner II](/wiki/06-Items/Extras.md) | 2 sa | [Organic Scanner I](/wiki/06-Items/Extras.md) | 20.000 | 15 dk |
 
 Hiçbiri Mağaza’da satılmaz: önce teknolojiyi araştır, sonra Montaj’da CPU üret. Montaj’ın istediği malzemeleri görmek üzere ağaçtaki CPU simgesinin üzerine gel.
 

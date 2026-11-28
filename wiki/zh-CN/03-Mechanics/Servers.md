@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 397d7b3564593bb7 -->
+<!-- wiki-i18n source: f77c8c8ae352b4a0 -->
 <!-- wiki-i18n title: 服务器 -->
 # 服务器 {#servers}
 
@@ -37,7 +37,7 @@ SpaceCorps 运行在三台游戏服务器上：**Helsinki**（欧洲）、**Sing
 | [单人星门](/wiki/03-Mechanics/Solo-Gates.md#going-in) | 星门本身在那里说明 |
 | [成就](/wiki/03-Mechanics/Achievements.md) | 在那里说明 |
 | [战队地下城](/wiki/03-Mechanics/Dungeons.md)和守卫 | 仅限 Helsinki |
-| [Davidski](/wiki/03-Mechanics/Davidski.md) | 他会出现，但在区域服务器上不支付任何东西：击杀他的奖励在 Helsinki 发放 |
+| [Davidski](/wiki/03-Mechanics/Davidski.md) | 他会出现，但在区域服务器上不支付任何东西；他的奖励只在主服务器（EU）上击杀他时发放，而在任何服务器上击杀他都会计入点名他的任务 |
 | 机库、[Skylab](/wiki/03-Mechanics/Skylab.md)、装配站、拍卖行、商店、研究、战队页面和星系之门 | 在空间站：飞行中窗口会这样告诉你，**返回基地**会带你过去 |
 
 ## 选择服务器 {#choosing-a-server}

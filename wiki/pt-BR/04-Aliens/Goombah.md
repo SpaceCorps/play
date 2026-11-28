@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c598c923528fc750 -->
+<!-- wiki-i18n source: 6daa8f85861674ea -->
 <!-- wiki-i18n title: Goombah -->
 # Goombah
 
@@ -6,10 +6,10 @@ Os Goombahs são formidáveis naves alienígenas da classe dos cruzadores. Têm 
 
 ## Atributos {#stats}
 
-- **Pontos de vida (HP)**: 32.000
-- **Escudo**: 48.000
-- **Dano**: 3.000
-- **Velocidade**: 180
+- **Pontos de vida (HP)**: {{guide:vitals.hull@Goombah#1}}
+- **Escudo**: {{guide:vitals.shield@Goombah#1}}
+- **Dano**: {{guide:vitals.dps@Goombah#1}}
+- **Velocidade**: {{guide:vitals.speed@Goombah#1;Goombah#2;Goombah#3;Goombah#4}}
 - **Alcance de ataque**: 800
 - **Comportamento**: Passivo
 
@@ -19,15 +19,15 @@ Os Goombahs são formidáveis naves alienígenas da classe dos cruzadores. Têm 
 - Ele desiste **10 segundos** depois do último acerto de quem quer que seja e volta a vaguear.
 - Enquanto um piloto continua a atingi-lo, ele voa até esse piloto sempre que o piloto está além do alcance das suas armas (800 unidades) e dispara assim que o piloto entra no alcance: não existe posição de onde um laser de 850 ou 900 unidades possa atingi-lo de graça. Um piloto que não o atinge há 10 segundos deixa de ser perseguido quando está a mais de **2.500 unidades** de distância (o piloto atirou nele no último minuto) ou quando o Goombah já voou **3.000 unidades** desde onde a perseguição começou, e ele não vai atrás desse piloto de novo por 8 segundos, a menos que o piloto atire nele mais uma vez (veja [Combate](/wiki/03-Mechanics/Combat.md)).
 - Deixado em paz por **30 segundos**, seu casco se repara, 2% do máximo por segundo (um casco cheio em cerca de 50 segundos). Seu escudo recarrega como o de qualquer alienígena, a partir de 15 segundos depois do último acerto. Um Goombah atingido de longe e abandonado, portanto, não fica lá para o próximo piloto terminar.
-- Ele não luta com ninguém que não o tenha atingido e nunca chama outro alienígena para o seu lado.
+- Ele não luta com ninguém que não o tenha atingido.
 - Os [pilotos de corporação](/wiki/03-Mechanics/Company-Pilots.md) ficam fora de uma luta contra um Goombah: não conseguem vencê-la.
 
 ## Recompensas {#rewards}
 
-- **Créditos**: 15.000
-- **Thulium**: 75
-- **Experiência (XP)**: 3.000
-- **Honra**: 24
+- **Créditos**: {{guide:spoils.pay.credits@Goombah#1}}
+- **Thulium**: {{guide:spoils.pay.thulium@Goombah#1}}
+- **Experiência (XP)**: {{guide:spoils.pay.experience@Goombah#1}}
+- **Honra**: {{guide:spoils.pay.honor@Goombah#1}}
 - **Pontos PvE por abate**: 7
 - **Recarga do escudo**: 100 por segundo (15 s de atraso)
 
@@ -37,14 +37,11 @@ Cai como uma [caixa de carga](/wiki/03-Mechanics/Cargo.md) no local onde ele exp
 
 Para que serve cada item e onde mais encontrá-lo: [Recursos](/wiki/06-Items/Resources.md).
 
-- **Ship Fragment**:
-  - 100% de chance (Mín.: 3, Máx.: 3)
-  - 25% de chance (Mín.: 1, Máx.: 1)
-- **Cataclysite**: 100% de chance (Mín.: 4, Máx.: 4)
-- **Quorvium**: 100% de chance (Mín.: 2, Máx.: 4)
-- **Reinforced Hull Plate**: 60% de chance (Mín.: 1, Máx.: 1)
-- **Power Core**: 25% de chance (Mín.: 1, Máx.: 1)
-- **Echo Shard**: 10% de chance (Mín.: 1, Máx.: 1)
+- {{guide:spoils.box@Goombah#1;Goombah#2;Goombah#3;Goombah#4}}
+
+## Habilidades especiais {#special-abilities}
+
+Alguns alienígenas desta espécie têm uma **habilidade especial**: algo que fazem uma única vez, quando metade do casco já se foi. Nada aparece antes de começar. [Habilidades especiais](/wiki/03-Mechanics/Special-Abilities.md) diz o que cada habilidade faz e como responder a ela.
 
 ## História {#lore}
 

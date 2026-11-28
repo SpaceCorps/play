@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f34faeb3f3d1ac87 -->
+<!-- wiki-i18n source: 2dc6584f5284ebcf -->
 <!-- wiki-i18n title: Premiers pas -->
 # Premiers pas dans SpaceCorps {#getting-started-in-spacecorps}
 
@@ -24,12 +24,14 @@ Pour survivre et prospérer, vous devez gérer deux monnaies et garder un œil s
 
 ## Profils de pilote {#pilot-profiles}
 
-Cliquez sur le nom d’un pilote dans le Panthéon (**Communauté › Classements**), sur la page **Statistiques** ou dans la liste des membres d’un clan, et le **profil** du pilote s’ouvre : corporation, monde et clan, niveau, expérience, honneur et points de classement, les aliens et les pilotes qu’il a détruits, et le vaisseau qu’il pilote avec ses valeurs. Deux cases indiquent depuis combien de temps le pilote est là :
+Cliquez sur le nom d’un pilote dans le Panthéon (**Communauté › Classements**), sur la page **Statistiques** ou dans la liste des membres d’un clan, et le **profil** du pilote s’ouvre : corporation, monde et clan, niveau, expérience, honneur et points de classement, les aliens et les pilotes qu’il a détruits, et le vaisseau qu’il pilote avec son équipement et ses valeurs (sauf si le pilote les garde privés). Deux cases indiquent depuis combien de temps le pilote est là :
 
 - **Première connexion.** Le jour où le pilote s’est connecté pour la première fois, sous forme de date dans votre propre fuseau horaire. Un pilote qui jouait avant la 0.4.12 affiche le jour de sa première connexion depuis cette mise à jour, et un tiret indique un pilote qui ne s’est pas connecté depuis.
 - **Temps de jeu.** Combien de temps le jeu du pilote a été connecté au serveur, en heures et minutes ( « 128 h 15 min » ,  « 45 min » ), en vol ou à la station. Le temps passé à ne rien faire compte aussi. Le décompte a commencé avec la 0.4.12 : pour un pilote qui jouait avant, c’est donc le temps écoulé depuis cette mise à jour.
 
 Les deux sont publics, comme le niveau et le grade : tout pilote connecté peut les lire dans un profil. La réinitialisation de la saison ne les remet pas à zéro.
+
+Un pilote peut garder son équipement privé. **Paramètres › Compte › Confidentialité** propose un interrupteur, **Masquer mon équipement**. Tant qu’il est activé, les autres pilotes voient toujours le vaisseau du pilote tourner et le reste du profil, mais pas les objets montés sur le vaisseau et sur ses drones ni les chiffres de combat qu’ils donnent, et le profil indique que le pilote garde son équipement privé. Les administrateurs le voient toujours, et votre propre profil montre toujours le vôtre (avec une note tant que l’interrupteur est activé).
 
 Au-delà de votre profil, **Communauté › Succès** garde les objectifs de votre carrière, avec leurs récompenses et leurs titres : voir [Succès](/wiki/03-Mechanics/Achievements.md).
 

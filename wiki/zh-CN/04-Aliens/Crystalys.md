@@ -1,24 +1,24 @@
-<!-- wiki-i18n source: 75486fd4ebd908e7 -->
+<!-- wiki-i18n source: 4361d40cdb5cc587 -->
 <!-- wiki-i18n title: Crystalys -->
 # Crystalys
 
-Crystalys 是一种庞大的战列舰级外星实体。遭遇它极度危险，想要活下来，需要出色的护盾容量和火力。它会追击仇恨范围（900 单位）内任何不受保护的飞行员，当飞行员与它相距超过 1,200 单位，或它从追击起点飞出 2,000 单位后就会放弃追击（对朝它开过火的飞行员则是 2,500 和 3,000 单位，参见[战斗](/wiki/03-Mechanics/Combat.md)）；对最近 10 秒内击中过它的飞行员，它则绝不会放弃追击，只要对方超出它的武器射程（900 单位），Crystalys 就会朝那名飞行员飞去。多名飞行员同时向它开火时，只要最先开火的那名飞行员还在持续击中它，它就会一直咬住这名飞行员（参见[外星人与谁交战](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)）。[虫群](/wiki/05-Swarms/Swarms.md)的舰船是另外的外星人种类，在“虫群”类别中有各自的文章。
+Crystalys 是一种庞大的战列舰级外星实体。遭遇它极度危险，想要活下来，需要出色的护盾容量和火力。它会追击仇恨范围（{{guide:vitals.aggro@Crystalys#1;Crystalys#2;Crystalys#3;Crystalys#4}} 单位）内任何不受保护的飞行员，当飞行员与它相距超过 1,200 单位，或它从追击起点飞出 2,000 单位后就会放弃追击（对朝它开过火的飞行员则是 2,500 和 3,000 单位，参见[战斗](/wiki/03-Mechanics/Combat.md)）；对最近 10 秒内击中过它的飞行员，它则绝不会放弃追击，只要对方超出它的武器射程（900 单位），Crystalys 就会朝那名飞行员飞去。多名飞行员同时向它开火时，只要最先开火的那名飞行员还在持续击中它，它就会一直咬住这名飞行员（参见[外星人与谁交战](/wiki/03-Mechanics/Combat.md#who-an-alien-fights)）。[虫群](/wiki/05-Swarms/Swarms.md)的舰船是另外的外星人种类，在“虫群”类别中有各自的文章。
 
 ## 属性 {#stats}
 
-- **生命值（HP）**：256,000
-- **护盾**：160,000
-- **伤害**：10,000
-- **速度**：230
+- **生命值（HP）**：{{guide:vitals.hull@Crystalys#1}}
+- **护盾**：{{guide:vitals.shield@Crystalys#1}}
+- **伤害**：{{guide:vitals.dps@Crystalys#1}}
+- **速度**：{{guide:vitals.speed@Crystalys#1;Crystalys#2;Crystalys#3;Crystalys#4}}
 - **攻击射程**：900
 - **行为模式**：主动攻击
 
 ## 奖励 {#rewards}
 
-- **信用点**：75,000
-- **Thulium**：200
-- **经验值（XP）**：12,000
-- **荣誉**：52
+- **信用点**：{{guide:spoils.pay.credits@Crystalys#1}}
+- **Thulium**：{{guide:spoils.pay.thulium@Crystalys#1}}
+- **经验值（XP）**：{{guide:spoils.pay.experience@Crystalys#1}}
+- **荣誉**：{{guide:spoils.pay.honor@Crystalys#1}}
 - **每次击杀的 PvE 积分**：16
 - **护盾充能**：每秒 500（延迟 15 秒）
 
@@ -28,15 +28,11 @@ Crystalys 是一种庞大的战列舰级外星实体。遭遇它极度危险，�
 
 每种掉落物的用途以及其他获取途径：[资源](/wiki/06-Items/Resources.md)。
 
-- **Ship Fragment**：
-  - 100% 几率（最少 5，最多 5）
-  - 50% 几率（最少 1，最多 1）
-  - 25% 几率（最少 2，最多 2）
-- **Cataclysite**：100% 几率（最少 8，最多 8）
-- **Quorvium**：100% 几率（最少 6，最多 10）
-- **Power Core**：50% 几率（最少 1，最多 1）
-- **Ancient Control Unit**：20% 几率（最少 1，最多 1）
-- **Echo Shard**：40% 几率（最少 1，最多 1）
+- {{guide:spoils.box@Crystalys#1;Crystalys#2;Crystalys#3;Crystalys#4}}
+
+## 特殊能力 {#special-abilities}
+
+这种外星人中有一部分带有一种**特殊能力**：当船体损失一半时，只会使用一次。能力启动之前毫无迹象。[特殊能力](/wiki/03-Mechanics/Special-Abilities.md)说明每种能力的作用以及如何应对。
 
 ## 背景故事 {#lore}
 

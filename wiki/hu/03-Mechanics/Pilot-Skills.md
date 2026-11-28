@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0b4fab38b0c9363e -->
+<!-- wiki-i18n source: a1d69f436602c5d1 -->
 <!-- wiki-i18n title: Pilótakészségek -->
 # Pilótakészségek {#pilot-skills}
 
@@ -53,6 +53,7 @@ A táblázatok minden buffot az 1. és az utolsó szinten adnak meg; közöttük
 | :--- | :--- | ---: | ---: |
 | **Tömeg** | Hajótest | +0% | +20% |
 | **Szívósság** | Elszenvedett sebzés | ×1 | ×0,92 |
+|  | Félelem a sötétből (Deep Void) | ×1 | ×0,8 |
 | **Reflexek** | A képességek töltődési sebessége | ×1 | ×1,1 |
 | **Ösztön** | Minden zsákmánysor esélye | +0 pont | +7,5 pont |
 |  | Orvium és Velkonite a gyűjtőkből | ×1 | ×1,5 |
@@ -63,8 +64,10 @@ A táblázatok minden buffot az 1. és az utolsó szinten adnak meg; közöttük
 | :--- | :--- | ---: | ---: |
 | **Lézertechnika** (Reflexek) | Lézersebzés | ×1 | ×1,3 |
 |  | Az esély, hogy egy lézersorozat talál | 80% | 89% |
+|  | Félelem a lézersortüzekből (Deep Void) | ×1 | ×0,8 |
 | **Rakétatechnika** (Reflexek) | Rakétasebzés | ×1 | ×1,3 |
 |  | Az esély, hogy egy rakéta hibás gyújtású | 10% | 1% |
+|  | Félelem a rakétákból (Deep Void) | ×1 | ×0,8 |
 | **Antianyag** (Ösztön) | Dark Matter a felvételekből | ×1 | ×2 |
 
 ### Harc {#combat}
@@ -88,6 +91,7 @@ A táblázatok minden buffot az 1. és az utolsó szinten adnak meg; közöttük
 | :--- | :--- | ---: | ---: |
 | **Sugárzásvédelem** (Szívósság) | Sugárzási dózis | ×1 | ×0,4 |
 | **Hajtóműelmélet** (Tömeg) | Sebesség | +0% | +10% |
+|  | Félelem a gyors repülésből (Deep Void) | ×1 | ×0,8 |
 | **Tudomány** (Ösztön) | Tudomány az üzemanyag minden egységéből | ×1 | ×1,25 |
 
 ### Skylab
@@ -116,7 +120,7 @@ A táblázatok minden buffot az 1. és az utolsó szinten adnak meg; közöttük
 - **Rakéták.** A Rakétatechnika megváltoztatja minden rakéta sebzését és az esélyt, hogy egy rakéta hibás gyújtású lesz ([Rakétatechnika](/wiki/06-Items/Rockets.md#rocket-tech)).
 - **Találatok elviselése.** A Szívósság levesz egy részt minden találatból, amelyet kapsz, a Kitérés növeli az esélyt, hogy egy egyenes találat semmit sem tesz, a Pajzselnyelés pedig növeli a találatnak azt a részét, amelyet a pajzsaid felfognak ([Harc](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). A Tömeg növeli a hajótestedet.
 - **Gyógyítás.** A Gyógyítás erősebbé teszi a saját felszerelésed gyógyításait: a Repair Drone javítását, egy Emergency Repairt, valamint az általad használt Heal Podot, Channel Healt és Channel Shieldet ([Képességek](/wiki/03-Mechanics/Abilities.md#pilot-skills)). A Miyukin ez a három képesség ezenkívül kevesebbet vár két használat között. Azzal a hajótesttel edződik, amit a gyógyításaid helyreállítanak; biztonságos zónában lévő hajó gyógyítása nem számít. A Support Rocket minden szinten ugyanazt a fix mennyiséget gyógyítja, és mégis ad Gyógyítás-XP-t.
-- **Álcázás.** A Lopakodás lerövidíti a várakozást, miután egy álcázás véget ért, a Cloaking CPU-nál ([Extrák](/wiki/06-Items/Extras.md#cloaking-cpu)) és a Chameleonnál ([Képességek](/wiki/03-Mechanics/Abilities.md)) is. Az álcázva töltött másodpercekből edződik; biztonságos zónában, illetve parancsok nélkül egy sem számít.
+- **Álcázás.** A Lopakodás lerövidíti a várakozást, miután egy álcázás véget ért, a Cloaking CPU-nál ([Extrák](/wiki/06-Items/Extras.md#cloaking-cpu)) és a Chameleonnál ([Képességek](/wiki/03-Mechanics/Abilities.md)) is. Az álcázva töltött másodpercekből edződik; biztonságos zónában egy sem számít, és akkor sem, ha nem adsz parancsot, és a hajód sem repül oda, ahová küldted (a repülés az utolsó parancsod után legfeljebb 5 percig számít).
 - **Képességek.** A Reflexek rövidítik a képességeid töltődési idejét, a Taktika pedig tovább tartja őket ([Képességek](/wiki/03-Mechanics/Abilities.md#pilot-skills)). A Szabotázs erősíti a mérgeket.
 - **Mine.** A Szabotázs növeli a Mine sebzését, a Lövészet pedig gyorsabban és messzebbre dobja ([Extrák](/wiki/06-Items/Extras.md#mine)).
 - **Sebesség.** A Hajtóműelmélet hozzátesz a sebességedhez, a hajtóművek és az Afterburner mellett ([Sebesség](/wiki/03-Mechanics/Speed.md)).
@@ -160,7 +164,7 @@ A táblázat felsorolja, mi fizet XP-t, értékenként. Az XP a második oszlopb
 | **Taktika** (Reflexek) | Minden képesség, amelyet lézerhatótávon belüli ellenséggel nyomsz meg | 2 | 600 XP óránként |
 | **Pajzselnyelés** (Szívósság) | A maximális pajzsodból minden 1%, amelyet az ellenséges találatok elvisznek | 0,1 | 300 XP óránként |
 | **Gyógyítás** (Tömeg) | Egy hajó maximális hajótestéből minden 1%, amelyet egy gyógyításod helyreállít | 0,1 | 300 XP óránként |
-| **Lopakodás** (Reflexek) | Minden álcázva töltött másodperc, ha az utolsó 1 perc alatt adtál parancsot, biztonságos zónán kívül | 0,1 | Nincs |
+| **Lopakodás** (Reflexek) | Minden álcázva töltött másodperc, ha az utolsó 1 perc alatt adtál parancsot, vagy amíg a hajód oda repül, ahová küldted (az utolsó parancs után legfeljebb 5 perc ideig), biztonságos zónán kívül | 0,1 | Nincs |
 | **Sugárzásvédelem** (Szívósság) | Minden másodperc egy sugárzási sávban | 0,2 | Nincs |
 |  | A maximális hajótestedből minden 1%, amelyet a sugárzás elvesz | 1 |  |
 | **Hajtóműelmélet** (Tömeg) | Minden másodperc a hajód sebességének 80%-a fölötti repülésből, Afterburner alatt kétszer annyi | 0,1 | Nincs |

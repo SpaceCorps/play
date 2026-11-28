@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 00f154de4f7e72f2 -->
+<!-- wiki-i18n source: 95e9602370e7a658 -->
 <!-- wiki-i18n title: Viajes por el mapa espacial -->
 # Viajes por el mapa espacial {#spacemap-travel}
 
@@ -45,6 +45,8 @@ El mapa galáctico de abajo muestra en tiempo real la disposición del universo 
 ```
 
 Con una [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) instalada, el mapa también sirve para elegir destino: pulsa la ranura de la CPU en la barra rápida (**JMP**) y la ventana Sistema estelar se abre en modo de selección. Los sectores a los que la CPU puede llevarte se iluminan; tu propio sector y los sectores de peligro, no. Apunta a un sector iluminado para leer el precio, haz clic en él y confirma el salto cuando el mapa te lo pida (500 Thulium).
+
+**Deep Void.** Un interruptor en la parte superior de la ventana del Sistema Estelar muestra los mapas **normales** o los del **Deep Void**. `DV-1` muestra `???` hasta que hayas estado allí, con una pista sobre cómo entrar: las Señales, el Void Gate de tu mundo en `DS-4` y, una vez que lo hayas volado, cuánto has explorado. Ningún portal de este mapa lleva allí: la única entrada es un Void Gate ([Deep Void](/wiki/03-Mechanics/Deep-Void.md)).
 
 ## Cómo viajar {#how-to-travel}
 

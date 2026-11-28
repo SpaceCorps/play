@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0684c16b2f2d0dbe -->
+<!-- wiki-i18n source: d6376f646044a759 -->
 <!-- wiki-i18n title: Forja -->
 # A Forja {#the-forge}
 
@@ -98,9 +98,9 @@ Sintonizar os quatro soquetes de uma peça custa 150 Echo Shards (10 + 20 + 40 +
 | Portão solo: Delta Siege | 29 | 44 |
 | Portão solo: Omega Vault | 34 | 54 |
 | Portão solo: Davidski's Nightmare | 34 | 54 |
-| Masmorra do clã: etapa 1 | 12 | 5 |
-| Masmorra do clã: etapa 2 | 8 | 6 |
-| Masmorra do clã: etapa 3 | 8 | 7 |
+| Masmorra do clã: etapa 1 | 24 | 10 |
+| Masmorra do clã: etapa 2 | 16 | 12 |
+| Masmorra do clã: etapa 3 | 16 | 14 |
 
 - Os **portões solo** pagam seus shards a cada conclusão, as **masmorras do clã** a cada conclusão paga de uma etapa.
 - Os **Heartshards** vêm com a primeira conclusão de cada portão e de cada etapa de masmorra na temporada (1) e com 5% de chance de mais 1 a cada conclusão. Os NPCs raros também os soltam: 10% o Davidski, 5% o Dormant Force e o Tesseract. A página [Recursos](/wiki/06-Items/Resources.md#heartshard) tem o resto.

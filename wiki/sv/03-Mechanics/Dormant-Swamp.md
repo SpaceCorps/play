@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 664f33363a18d973 -->
+<!-- wiki-i18n source: 3c07d568f3af3aab -->
 <!-- wiki-i18n title: Dormant Swamp -->
 # Dormant Swamp
 
 <!-- wiki-search: swamp; dormant swamp; base; turret; turrets; nike turret; laser turret; inert mass; unwakened; the unwakened; slumbering void; void; dormant lance; ds-4; träsk; torn; kanon; kanoner -->
 
-För länge sedan levde en avancerad civilisation mitt i galaxen. Den byggde i lila-svart kristall med lysande violetta ådror, och av ett skäl som ingen känner till föll den samman. **Dormant Swamp** är dess utpost, i det övre vänstra hörnet av `DS-4`. Från säsongsdag 11 rör det på sig: kanoner i mitten skjuter på varje skepp de ser, **Inert Masses** vaktar det, och allra längst in i mitten sover **Unwakened**. Det är en plats som piloter **ännu inte är avsedda att besöka**. Kamouflerad kan du flyga ända fram till Unwakened, och mer går inte att göra där just nu: basen och dess kanoner kan inte skadas, beträdas, borda eller handlas med.
+För länge sedan levde en avancerad civilisation mitt i galaxen. Den byggde i lila-svart kristall med lysande violetta ådror, och av ett skäl som ingen känner till föll den samman. **Dormant Swamp** är dess utpost, i det övre vänstra hörnet av `DS-4`. Från säsongsdag 11 rör det på sig: kanoner i mitten skjuter på varje skepp de ser, **Inert Masses** vaktar det, och allra längst in i mitten sover **Unwakened**. Kamouflerad kan du flyga ända fram till Unwakened. Sedan [Deep Void](/wiki/03-Mechanics/Deep-Void.md) öppnades kan kanonerna och Unwakened förstöras, och säsongens första död för Unwakened öppnar i varje värld den världens Threshold. Själva basen kan inte beträdas, bordas eller handlas med.
 
 Träsket är också dit [Dormant-svärmen](/wiki/05-Swarms/Dormant-Swarm.md) kommer från dag 11, och **Slumbering Voids** patrullerar runt det. Samma Voids kommer i vågor till [jättegrävmaskinerna](/wiki/03-Mechanics/Giant-Excavator.md#the-slumbering-voids). Sektorerna finns i [Farosektorer](/wiki/01-General/Danger-Sectors.md).
 
@@ -17,7 +17,7 @@ Träsket är också dit [Dormant-svärmen](/wiki/05-Swarms/Dormant-Swarm.md) kom
 
 - **Var**: Det övre vänstra hörnet av `DS-4`: mitten ligger vid 5 000 / 5 000
 - **Dyker upp**: Från säsongsdag 11 till wipen
-- **Zonen**: 4 300 enheter runt mitten: så långt kanonerna når, och platsen som ingen ännu är avsedd att besöka
+- **Zonen**: 4 300 enheter runt mitten: så långt kanonerna når
 - **Varningen**: Ett skepp som korsar ringen 4 800 enheter från mitten får en systemrad
 - **Kamouflage**: Ingen kanon ser någonsin ett kamouflerat skepp, eller ett inne i en EMP:s fönster
 - **Utomjordingarna**: 5 Inert Masses håller sig inom 2 400 enheter från mitten. Unwakened sover i mitten. 2 Slumbering Voids patrullerar mellan 4 600 och 6 500 enheter från mitten.
@@ -28,7 +28,7 @@ Träsket är också dit [Dormant-svärmen](/wiki/05-Swarms/Dormant-Swarm.md) kom
 
 ## Kanonerna {#the-guns}
 
-Träskets torn skjuter på det **närmaste skepp de kan se** inom sin räckvidd, och på inget annat: zonen är den cirkel som den av dem som når längst når. De är inga entiteter av något slag: de har inga träffpoäng, kan inte väljas som mål, och inget du skjuter på dem gör något. Deras skott är verkliga, och världen skalar deras skada som den skalar varje utomjordings vapen.
+Träskets torn skjuter på det **närmaste skepp de kan se** inom sin räckvidd, och på inget annat: zonen är den cirkel som den av dem som når längst når. De är inga skepp, men sedan Deep Void öppnades har vart och ett av dem träffpoäng: klicka på ett torn för att skjuta på det med dina lasrar, och en raket som spricker nära det skadar det också. Ett förstört torn förblir förstört tills Unwakened kommer tillbaka. Deras skott är verkliga, och världen skalar deras skada som den skalar varje utomjordings vapen.
 
 <!-- swamp-guns:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
@@ -57,108 +57,104 @@ Skada per skott, i varje värld:
 
 ## Utomjordingarna {#the-aliens}
 
-Tre utomjordingar från den försvunna civilisationen lever här, var och en med egna siffror. De betalas som en svärms boss: **efter den skada som gjorts**, till varje pilot som gjort minst den andel som anges i [Svärmar](/wiki/05-Swarms/Swarms.md#the-rules-of-every-swarm), och lådan går till piloten som gjorde mest skada. Deras nedskjutningar räknas till dina PvE-poäng för grad som en svärmskepps, i proportion till betalningen ([Grader](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points)). Var och ens sköld tar upp 80 % av varje träff så länge den håller ([Sköldar](/wiki/03-Mechanics/Shields.md)).
+Tre utomjordingar från den försvunna civilisationen lever här, var och en med egna siffror. De betalas som en svärms boss: **efter den skada som gjorts**, till varje pilot som gjort minst den andel som anges i [Svärmar](/wiki/05-Swarms/Swarms.md#the-rules-of-every-swarm), och lådan går till piloten som gjorde mest skada. Deras nedskjutningar räknas till dina PvE-poäng för grad som en svärmskepps, i proportion till betalningen ([Grader](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points)). Var och ens sköld tar upp {{guide:vitals.absorbance@Slumbering Void;Inert Mass;The Unwakened}} av varje träff så länge den håller ([Sköldar](/wiki/03-Mechanics/Shields.md)).
 
 - **Slumbering Void.** Den smäckra jägaren, den snabbaste utomjordingen i spelet (snabbare än en Storm med Afterburner III). Några patrullerar alltid träskets omgivning, och andra kommer i vågor till grävmaskinerna. Den är aggressiv, jagar den närmaste pilot den kan se och ser aldrig ett kamouflerat skepp.
 - **Inert Mass.** Ett dött vrak med violetta sprickor, stort som en liten station. De håller sig inom ett fast avstånd från träskets mitt och lämnar det inte just nu. Den skjuter **Dormant Lances**: styrda raketer med mycket lång räckvidd som följer ett skepp tills det kamouflerar sig, öppnar ett EMP-fönster, går in i en säker ring, hoppar eller dör. Den är snabbare än varje skepp, så bara de avbrotten hjälper. En asteroid i vägen för en Dormant Lance stoppar den, och Lance skadar asteroiden med sin egen skada (ingen får betalt för det); en sten ger alltså bara skydd mot en Inert Mass i några träffar.
-- **Unwakened.** En monolit som sover i träskets mitt, det största på någon karta, så långsam att den aldrig hinner ikapp ett skepp. Den skjuter ingenting, men varje skepp inom dess aura brinner, **kamouflerat eller inte**. Den är **immun**: skott och raketer träffar och gör ingenting, målfönstret visar fulla staplar och ordet Immun. Ett senare event kommer att göra det möjligt att strida mot den; dess belöningar nedan är nedskrivna och går ännu inte att få. En pilots **Strålningsteknik** sänker bränningen till 0,40 av den på nivå 100.
+- **Unwakened.** En monolit som sover i träskets mitt, det största på någon karta, så långsam att den aldrig hinner ikapp ett skepp. Den skjuter ingenting, men varje skepp inom dess aura brinner, **kamouflerat eller inte**. Sedan [Deep Void](/wiki/03-Mechanics/Deep-Void.md) öppnades kan den förstöras: den betalar efter skadan man gjort, kommer tillbaka en dag efter sin död, och säsongens första döda i varje värld öppnar den världens Threshold. En pilots **Strålningsteknik** sänker bränningen till 0,40 av den på nivå 100.
 
 <!-- swamp-members:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
 
 ### Slumbering Void
 
-2 Slumbering Voids patrullerar mellan 4 600 och 6 500 enheter från träskets mitt; en som förstörs kommer tillbaka 1 h senare. En grävmaskins vågor för med sig fler av samma utomjording.
+2 Slumbering Voids patrullerar mellan 4 600 och 6 500 enheter från träskets mitt; en som förstörs kommer tillbaka {{guide:vitals.respawn@Slumbering Void}} senare. En grävmaskins vågor för med sig fler av samma utomjording.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Skrov | 25 000 | 37 500 | 50 000 |
-| Sköld | 150 000 | 225 000 | 300 000 |
-| Sköldabsorption | 80 % | 80 % | 80 % |
-| Laserskada (en salva per sekund) | 3 000 | 4 500 | 6 000 |
-| Hastighet | 400 | 400 | 400 |
+| Skrov | {{guide:vitals.hull@Slumbering Void}} | {{guide:vitals.hull*1.5@Slumbering Void}} | {{guide:vitals.hull*2@Slumbering Void}} |
+| Sköld | {{guide:vitals.shield@Slumbering Void}} | {{guide:vitals.shield*1.5@Slumbering Void}} | {{guide:vitals.shield*2@Slumbering Void}} |
+| Sköldabsorption | {{guide:vitals.absorbance@Slumbering Void}} | {{guide:vitals.absorbance@Slumbering Void}} | {{guide:vitals.absorbance@Slumbering Void}} |
+| Laserskada (en salva per sekund) | {{guide:vitals.dps@Slumbering Void}} | {{guide:vitals.dps*1.5@Slumbering Void}} | {{guide:vitals.dps*2@Slumbering Void}} |
+| Hastighet | {{guide:vitals.speed@Slumbering Void}} | {{guide:vitals.speed@Slumbering Void}} | {{guide:vitals.speed@Slumbering Void}} |
 | Laserräckvidd | 800 | 800 | 800 |
-| Aggroradie | 2 500 | 2 500 | 2 500 |
-| Krediter | 23 000 | 46 000 | 69 000 |
-| Thulium | 60 | 120 | 180 |
-| Erfarenhet (XP) | 3 600 | 7 200 | 10 800 |
-| Heder | 16 | 32 | 48 |
+| Aggroradie | {{guide:vitals.aggro@Slumbering Void}} | {{guide:vitals.aggro@Slumbering Void}} | {{guide:vitals.aggro@Slumbering Void}} |
+| Krediter | {{guide:spoils.pay.credits@Slumbering Void}} | {{guide:spoils.pay.credits*2@Slumbering Void}} | {{guide:spoils.pay.credits*3@Slumbering Void}} |
+| Thulium | {{guide:spoils.pay.thulium@Slumbering Void}} | {{guide:spoils.pay.thulium*2@Slumbering Void}} | {{guide:spoils.pay.thulium*3@Slumbering Void}} |
+| Erfarenhet (XP) | {{guide:spoils.pay.experience@Slumbering Void}} | {{guide:spoils.pay.experience*2@Slumbering Void}} | {{guide:spoils.pay.experience*3@Slumbering Void}} |
+| Heder | {{guide:spoils.pay.honor@Slumbering Void}} | {{guide:spoils.pay.honor*2@Slumbering Void}} | {{guide:spoils.pay.honor*3@Slumbering Void}} |
 | PvE-poäng per nedskjutning | 10 | 10 | 10 |
 
 **Byte**: en låda, för piloten som gjorde mest skada.
 
-| Föremål | Chans | Mängd |
-| :--- | ---: | ---: |
-| En av Ultra Core och Experimental Fusion Core, slumpmässigt vald | 60 % | 30–60 |
-| En av de 4 Episka [raketerna](/wiki/06-Items/Rockets.md), slumpmässigt vald | 40 % | 1–3 |
+| Föremål |
+| :--- |
+| {{guide:spoils.box@Slumbering Void}} |
 
 ### Inert Mass
 
-5 Inert Masses står inom 2 400 enheter från mitten; en som förstörs kommer tillbaka 1 h senare. Skjuter var 6 s en styrd [Dormant Lance](/wiki/06-Items/Rockets.md#the-craft-only-rockets) mot det närmaste skepp den kan se: hastighet 750, flygsträcka 5 250 enheter, 40 % penetration.
+5 Inert Masses står inom 2 400 enheter från mitten; en som förstörs kommer tillbaka {{guide:vitals.respawn@Inert Mass}} senare. Skjuter var 6 s en styrd [Dormant Lance](/wiki/06-Items/Rockets.md#the-craft-only-rockets) mot det närmaste skepp den kan se: hastighet 750, flygsträcka 5 250 enheter, 40 % penetration.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Skrov | 250 000 | 375 000 | 500 000 |
-| Sköld | 100 000 | 150 000 | 200 000 |
-| Sköldabsorption | 80 % | 80 % | 80 % |
-| Skada per Dormant Lance | 5 000–8 000 | 7 500–12 000 | 10 000–16 000 |
-| Hastighet | 60 | 60 | 60 |
+| Skrov | {{guide:vitals.hull@Inert Mass}} | {{guide:vitals.hull*1.5@Inert Mass}} | {{guide:vitals.hull*2@Inert Mass}} |
+| Sköld | {{guide:vitals.shield@Inert Mass}} | {{guide:vitals.shield*1.5@Inert Mass}} | {{guide:vitals.shield*2@Inert Mass}} |
+| Sköldabsorption | {{guide:vitals.absorbance@Inert Mass}} | {{guide:vitals.absorbance@Inert Mass}} | {{guide:vitals.absorbance@Inert Mass}} |
+| Skada per Dormant Lance | {{guide:behaviour.ability:rocket.damageMin@Inert Mass}}–{{guide:behaviour.ability:rocket.damage@Inert Mass}} | {{guide:behaviour.ability:rocket.damageMin*1.5@Inert Mass}}–{{guide:behaviour.ability:rocket.damage*1.5@Inert Mass}} | {{guide:behaviour.ability:rocket.damageMin*2@Inert Mass}}–{{guide:behaviour.ability:rocket.damage*2@Inert Mass}} |
+| Hastighet | {{guide:vitals.speed@Inert Mass}} | {{guide:vitals.speed@Inert Mass}} | {{guide:vitals.speed@Inert Mass}} |
 | Raketräckvidd | 5 000 | 5 000 | 5 000 |
-| Aggroradie | 5 000 | 5 000 | 5 000 |
-| Krediter | 125 000 | 250 000 | 375 000 |
-| Thulium | 335 | 670 | 1 005 |
-| Erfarenhet (XP) | 20 200 | 40 400 | 60 600 |
-| Heder | 88 | 176 | 264 |
+| Aggroradie | {{guide:vitals.aggro@Inert Mass}} | {{guide:vitals.aggro@Inert Mass}} | {{guide:vitals.aggro@Inert Mass}} |
+| Krediter | {{guide:spoils.pay.credits@Inert Mass}} | {{guide:spoils.pay.credits*2@Inert Mass}} | {{guide:spoils.pay.credits*3@Inert Mass}} |
+| Thulium | {{guide:spoils.pay.thulium@Inert Mass}} | {{guide:spoils.pay.thulium*2@Inert Mass}} | {{guide:spoils.pay.thulium*3@Inert Mass}} |
+| Erfarenhet (XP) | {{guide:spoils.pay.experience@Inert Mass}} | {{guide:spoils.pay.experience*2@Inert Mass}} | {{guide:spoils.pay.experience*3@Inert Mass}} |
+| Heder | {{guide:spoils.pay.honor@Inert Mass}} | {{guide:spoils.pay.honor*2@Inert Mass}} | {{guide:spoils.pay.honor*3@Inert Mass}} |
 | PvE-poäng per nedskjutning | 15 | 15 | 15 |
 
 **Byte**: en låda, för piloten som gjorde mest skada.
 
-| Föremål | Chans | Mängd |
-| :--- | ---: | ---: |
-| Ultra Core och Experimental Fusion Core, delat lika | 100 % | 400–800 totalt |
-| En av de 4 Episka [raketerna](/wiki/06-Items/Rockets.md), slumpmässigt vald | 100 % | 20–40 |
-| N.I.K.E. | 5 % | 1–2 |
-| Dark Matter | 5 % | 1–3 |
-| Ancient Control Unit | 10 % | 1 |
-| Power Core | 25 % | 1–2 |
+| Föremål |
+| :--- |
+| {{guide:spoils.box@Inert Mass}} |
 
 ### The Unwakened
 
-Det finns en, i träskets mitt och ingen annanstans; den kommer tillbaka 24 h efter att den förstörts. Den är **immun** tills ett senare uppdrag stänger av flaggan: skott och raketer träffar den och gör ingenting. Dess belöningar är nedskrivna och går ännu inte att få.
+Det finns en, i träskets mitt och ingen annanstans; den kommer tillbaka {{guide:vitals.respawn@The Unwakened}} efter att den förstörts. Sedan Deep Void öppnades kan den förstöras, och den betalar efter skadan man gjort, som de andra utomjordingarna här.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Skrov | 10 000 000 | 15 000 000 | 20 000 000 |
-| Sköld | 10 000 000 | 15 000 000 | 20 000 000 |
-| Sköldabsorption | 80 % | 80 % | 80 % |
-| Auraskada per sekund, på varje skepp inuti | 75 000 | 112 500 | 150 000 |
+| Skrov | {{guide:vitals.hull@The Unwakened}} | {{guide:vitals.hull*1.5@The Unwakened}} | {{guide:vitals.hull*2@The Unwakened}} |
+| Sköld | {{guide:vitals.shield@The Unwakened}} | {{guide:vitals.shield*1.5@The Unwakened}} | {{guide:vitals.shield*2@The Unwakened}} |
+| Sköldabsorption | {{guide:vitals.absorbance@The Unwakened}} | {{guide:vitals.absorbance@The Unwakened}} | {{guide:vitals.absorbance@The Unwakened}} |
+| Auraskada per sekund, på varje skepp inuti | {{guide:behaviour.ability:aura.damagePerSecond@The Unwakened}} | {{guide:behaviour.ability:aura.damagePerSecond*1.5@The Unwakened}} | {{guide:behaviour.ability:aura.damagePerSecond*2@The Unwakened}} |
 | Auraradie | 700 | 700 | 700 |
-| Hastighet | 10 | 10 | 10 |
-| Aggroradie | 3 000 | 3 000 | 3 000 |
-| Krediter | 7 500 000 | 15 000 000 | 22 500 000 |
-| Thulium | 20 000 | 40 000 | 60 000 |
-| Erfarenhet (XP) | 1 200 000 | 2 400 000 | 3 600 000 |
-| Heder | 5 200 | 10 400 | 15 600 |
+| Hastighet | {{guide:vitals.speed@The Unwakened}} | {{guide:vitals.speed@The Unwakened}} | {{guide:vitals.speed@The Unwakened}} |
+| Aggroradie | {{guide:vitals.aggro@The Unwakened}} | {{guide:vitals.aggro@The Unwakened}} | {{guide:vitals.aggro@The Unwakened}} |
+| Krediter | {{guide:spoils.pay.credits@The Unwakened}} | {{guide:spoils.pay.credits*2@The Unwakened}} | {{guide:spoils.pay.credits*3@The Unwakened}} |
+| Thulium | {{guide:spoils.pay.thulium@The Unwakened}} | {{guide:spoils.pay.thulium*2@The Unwakened}} | {{guide:spoils.pay.thulium*3@The Unwakened}} |
+| Erfarenhet (XP) | {{guide:spoils.pay.experience@The Unwakened}} | {{guide:spoils.pay.experience*2@The Unwakened}} | {{guide:spoils.pay.experience*3@The Unwakened}} |
+| Heder | {{guide:spoils.pay.honor@The Unwakened}} | {{guide:spoils.pay.honor*2@The Unwakened}} | {{guide:spoils.pay.honor*3@The Unwakened}} |
 | PvE-poäng per nedskjutning | 112 | 112 | 112 |
 
 **Byte**: en låda, för piloten som gjorde mest skada.
 
-| Föremål | Chans | Mängd |
-| :--- | ---: | ---: |
-| Ultra Core och Experimental Fusion Core, delat lika | 100 % | 10 000–15 000 totalt |
-| En av de 4 Episka [raketerna](/wiki/06-Items/Rockets.md), slumpmässigt vald | 100 % | 500–800 |
-| N.I.K.E. | 100 % | 20–30 |
-| N.U.K.E. | 100 % | 5–10 |
-| Dark Matter | 100 % | 40–60 |
-| Ancient Control Unit | 100 % | 10–20 |
-| Power Core | 100 % | 100–200 |
+| Föremål |
+| :--- |
+| {{guide:spoils.box@The Unwakened}} |
 
 <!-- swamp-members:end -->
 
+## Med Deep Void {#with-the-deep-void}
+
+Vad Deep Void ändrade här, i korthet:
+
+- **Unwakened kan förstöras.** Den är inte längre osårbar: den betalar efter skadan man gjort, som de andra utomjordingarna här, och kommer tillbaka en dag efter sin död.
+- **Kanonerna kan förstöras.** Var och en av de tre kanonerna (raketkanonen, som skjuter både N.I.K.E. och N.U.K.E., och de två laserkanonerna) har träffpoäng nu, och lasrar och raketer skadar dem. En förstörd kanon förblir förstörd tills Unwakened kommer tillbaka.
+- **Första döda öppnar Threshold.** I varje värld öppnar säsongens första döda av Unwakened den världens Threshold i det motsatta hörnet av `DS-4`, där [Deep Void](/wiki/03-Mechanics/Deep-Void.md) börjar.
+
 ## Vad du kan göra här {#what-to-do-here}
 
-- **Titta, rör inte.** Träsket är till senare. Det enda du når utan kamouflage ligger utanför zonen: de patrullerande Voids, i en ring runt zonen, är träskets första linje och platsen där en grupp kan slåss utan kanonerna.
-- **Bekämpa Voids med penetration.** En Voids stora sköld tar upp 80 % av en träff och betyder nästan ingenting: skrovet bakom är litet. Ju mer sköldpenetration dina lasrar har, desto förr faller den ([Lasrar och ammunition](/wiki/06-Items/Lasers.md)).
+- **Första döda öppnar vägen.** Säsongens första död för Unwakened öppnar världens Threshold och med den vägen in i [Deep Void](/wiki/03-Mechanics/Deep-Void.md); inne i zonen förstör kanonerna ett skepp på några sekunder. Utanför zonen är de patrullerande Voids, i en ring runt zonen, träskets första linje och platsen där en grupp kan slåss utan kanonerna.
+- **Bekämpa Voids med penetration.** En Voids stora sköld tar upp {{guide:vitals.absorbance@Slumbering Void;Inert Mass;The Unwakened}} av en träff och betyder nästan ingenting: skrovet bakom är litet. Ju mer sköldpenetration dina lasrar har, desto förr faller den ([Lasrar och ammunition](/wiki/06-Items/Lasers.md)).
 - **Håll dig undan Lances.** En Inert Mass ser långt och en Lance går inte att köra ifrån: bryt dess grepp med kamouflage, en EMP, en säker ring eller ett hopp, eller lämna dess räckvidd. En Mass är en lång strid även för en stor grupp av de starkaste skeppen.
 - **Dormant-svärmen** dyker nu upp strax utanför zonen, så en grupp kan vänta på den utan kanonerna. Se [Dormant-svärm](/wiki/05-Swarms/Dormant-Swarm.md).
 

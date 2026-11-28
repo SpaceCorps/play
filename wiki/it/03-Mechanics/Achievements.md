@@ -1,15 +1,15 @@
-<!-- wiki-i18n source: 53a080132ff6f6d9 -->
+<!-- wiki-i18n source: aebf7c489ef3ed62 -->
 <!-- wiki-i18n title: Obiettivi -->
 # Obiettivi {#achievements}
 
-Gli obiettivi sono le mete di un’intera carriera da pilota: distruggere il tuo primo alieno, raggiungere il livello 21, possedere un miliardo di crediti, sopravvivere a un reset. Il gioco li conta per te. Ce ne sono **50**, in **8** gruppi e **5** fasce. Ognuno paga **una volta per account, per sempre**: crediti per tutti e, per la maggior parte, un **titolo** da portare accanto al tuo nome. Un reset non ti toglie mai un obiettivo, la sua ricompensa o il suo titolo.
+Gli obiettivi sono le mete di un’intera carriera da pilota: distruggere il tuo primo alieno, raggiungere il livello 21, possedere un miliardo di crediti, sopravvivere a un reset. Il gioco li conta per te. Ce ne sono **65**, in **8** gruppi e **5** fasce. Ognuno paga **una volta per account, per sempre**: crediti per tutti e, per la maggior parte, un **titolo** da portare accanto al tuo nome. Un reset non ti toglie mai un obiettivo, la sua ricompensa o il suo titolo.
 
 **In un minuto**
 
 - Apri **Comunità › Obiettivi** nella stazione per vedere ogni meta, a che punto sei e quanto paga.
 - La fascia (Comune, Non comune, Raro, Epico o Leggendario) stabilisce i crediti: più la meta è difficile, più la fascia è alta.
 - Il pagamento arriva nel momento in cui raggiungi una meta, in volo o nella stazione. Una scheda mostra l’obiettivo e la sua ricompensa, e il Registro di gioco ne conserva una riga.
-- **5** dei 50 sono nascosti: la pagina li mostra come schede chiuse finché non li sblocchi. Contano tra i 50 e qui non sono nominati.
+- **5** dei 65 sono nascosti: la pagina li mostra come schede chiuse finché non li sblocchi. Contano tra i 65 e qui non sono nominati.
 - Nella versione Steam i tuoi obiettivi compaiono anche sul tuo profilo Steam, una volta collegato il tuo account (vedi sotto).
 
 ## Fasce e ricompense {#tiers-and-rewards}
@@ -19,16 +19,16 @@ Le cinque fasce pagano lo stesso per ogni obiettivo che contengono, una sola vol
 | Fascia | Obiettivi | Crediti ciascuno |
 | :--- | ---: | ---: |
 | Comune | 11 | 50.000 |
-| Non comune | 9 | 150.000 |
-| Raro | 16 | 500.000 |
-| Epico | 8 | 2.000.000 |
-| Leggendario | 6 | 5.000.000 |
+| Non comune | 13 | 150.000 |
+| Raro | 20 | 500.000 |
+| Epico | 12 | 2.000.000 |
+| Leggendario | 9 | 5.000.000 |
 
-Tutti e 50 insieme pagano **55.900.000** crediti, una volta nella vita di un pilota.
+Tutti e 65 insieme pagano **81.500.000** crediti, una volta nella vita di un pilota.
 
 ## Gli obiettivi {#the-achievements}
 
-I 45 obiettivi che non sono nascosti, per gruppo. Dove una meta conta qualcosa, lo conta su tutta la tua carriera.
+I 60 obiettivi che non sono nascosti, per gruppo. Dove una meta conta qualcosa, lo conta su tutta la tua carriera.
 
 ### Combattimento {#group-combat}
 
@@ -77,7 +77,7 @@ I 45 obiettivi che non sono nascosti, per gruppo. Dove una meta conta qualcosa, 
 | Costruttore di stazioni | Costruisci 5 moduli diversi dello Skylab. | Comune |
 | Equipaggiamento completo | Costruisci tutti i 16 moduli dello Skylab. | Epico |
 | Studioso | Ricerca 50 tecnologie. | Non comune |
-| Archivista | Ricerca tutte le 210 tecnologie. | Leggendario |
+| Archivista | Ricerca tutte le 212 tecnologie. | Leggendario |
 
 ### Flotta {#group-fleet}
 
@@ -97,6 +97,21 @@ I 45 obiettivi che non sono nascosti, per gruppo. Dove una meta conta qualcosa, 
 | Orizzonte degli eventi | Entra nel settore pericoloso DS-4. | Non comune |
 | Prospettore | Distruggi 500 asteroidi. | Non comune |
 | Orizzonti lontani | Completa 10 viaggi di spedizione dello Skylab. | Raro |
+| Lampionaio I | Accendi 10 Lanterne diverse nel Deep Void. | Non comune |
+| Lampionaio II | Accendi 39 Lanterne diverse nel Deep Void. | Raro |
+| Lampionaio III | Accendi tutte le 78 Lanterne del Deep Void. | Epico |
+| Cartografo I | Esplora il 25 % di DV-1 nel Deep Void. | Non comune |
+| Cartografo II | Esplora il 50 % di DV-1 nel Deep Void. | Raro |
+| Cartografo III | Esplora il 75 % di DV-1 nel Deep Void. | Epico |
+| Cartografo IV | Esplora ogni casella di DV-1 nel Deep Void. | Leggendario |
+| Xenologo I | Completa la ricerca di 10 voci della Guida del Viaggiatore. | Non comune |
+| Xenologo II | Completa la ricerca di 50 voci della Guida del Viaggiatore. | Raro |
+| Xenologo III | Completa la ricerca di 100 voci della Guida del Viaggiatore. | Epico |
+| Xenologo IV | Completa la ricerca di tutte le voci della Guida del Viaggiatore. | Leggendario |
+| Costruttore di portali I | Versa 50.000 Thulium nei Void Gate (una Dark Matter Plate vale 10.000). | Non comune |
+| Costruttore di portali II | Versa 250.000 Thulium nei Void Gate (una Dark Matter Plate vale 10.000). | Raro |
+| Costruttore di portali III | Versa 1.000.000 Thulium nei Void Gate (una Dark Matter Plate vale 10.000). | Epico |
+| Costruttore di portali IV | Versa 5.000.000 Thulium nei Void Gate (una Dark Matter Plate vale 10.000). | Leggendario |
 
 ### Clan {#group-clan}
 
@@ -123,7 +138,7 @@ Un obiettivo nascosto ancora bloccato è una scheda chiusa, senza meta e senza b
 
 ## Titoli {#titles}
 
-Un **titolo** è una breve riga di testo accanto al nome di un pilota. 32 dei 50 obiettivi ne danno uno, tuo per sempre quando sblocchi l’obiettivo. I titoli arrivano anche dalla fine di una stagione (il tuo grado, il miglior pilota di ogni corporazione e il pilota con più punti PvE) e dal team del gioco, come il titolo **Pioneer** per ogni account che esisteva il giorno del lancio del gioco su Steam.
+Un **titolo** è una breve riga di testo accanto al nome di un pilota. 32 dei 65 obiettivi ne danno uno, tuo per sempre quando sblocchi l’obiettivo. I titoli arrivano anche dalla fine di una stagione (il tuo grado, il miglior pilota di ogni corporazione e il pilota con più punti PvE) e dal team del gioco, come il titolo **Pioneer** per ogni account che esisteva il giorno del lancio del gioco su Steam.
 
 - Hai molti titoli e ne **porti uno** alla volta. Lo scegli sul tuo **profilo da pilota** e puoi toglierlo di nuovo.
 - Il tuo titolo compare sul tuo **profilo**, nelle **Classifiche**, nella finestra del **Gruppo** e quando passi il puntatore sul tuo nome nella **chat**. Dalla 0.4.27 compare anche sulla mappa: una piccola riga attenuata, nel colore di rarità del titolo, **sopra il nome della nave di ogni pilota**, la tua compresa. Un titolo lungo viene tagliato con i puntini di sospensione. Nella folla (più di otto piloti sullo schermo) solo i tuoi amici, il tuo bersaglio e la nave che hai selezionato mantengono il proprio, così lo schermo resta leggibile. Non compare nella finestra bersaglio né sulla minimappa.

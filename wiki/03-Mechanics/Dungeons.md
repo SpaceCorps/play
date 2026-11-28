@@ -1,8 +1,8 @@
 # Dungeons
 
-<!-- wiki-search: dungeon; dungeons; gate; gates; clan gate; clan gates; clan dungeon; summon; warlord; gate warlord; boss; maze; loot zone; chest; card; vote; stage; instance; gate delta; gate epsilon; gate zeta; gate eta; gate theta; gate iota; gate goombah; gate pirate; gate crystalys; portal; clan portal; join; clan gate alerts; clan dungeon window; clan dungeon alerts; dungeon goombah; dungeon pirate; dungeon crystalys; dungeon warlord; 75 percent; three quarters; start room; fog; guards; locked room; boss room; booster; boosters; swarm assist; focus most wanted; zone of chaos; rocket barrage; phantom's lance; illusion; illusions -->
+<!-- wiki-search: dungeon; dungeons; gate; gates; clan gate; clan gates; clan dungeon; summon; warlord; gate warlord; boss; maze; loot zone; chest; card; vote; stage; instance; gate delta; gate epsilon; gate zeta; gate eta; gate theta; gate iota; gate goombah; gate pirate; gate crystalys; portal; clan portal; join; clan gate alerts; clan dungeon window; clan dungeon alerts; dungeon goombah; dungeon pirate; dungeon crystalys; dungeon warlord; 75 percent; three quarters; start room; fog; guards; locked room; boss room; booster; boosters; swarm assist; focus most wanted; zone of chaos; rocket barrage; phantom's lance; illusion; illusions; radiation donut; donut; radiation rings -->
 
-A **dungeon** is a closed maze with a **Warlord** at its end (before 0.5.2 the game called it a gate). A co-leader or the leader of a [clan](/wiki/03-Mechanics/Clans.md) opens one and pays for it from the clan bank, and members of the clan fly in together as one [group](/wiki/03-Mechanics/Groups.md). They fight through the aliens of the maze, open loot zones to choose a card from each, and bring the Warlord down. Every pilot who took part in the fight is paid when the Warlord falls, within the limits further down. The dungeons are on the **Dungeons** tab of the clan page.
+A **dungeon** is a closed maze with a **Warlord** at its end (before 0.5.2 the game called it a gate). A co-leader or the leader of a [clan](/wiki/03-Mechanics/Clans.md) opens one and pays for it from the clan bank, and members of the clan fly in together as one [group](/wiki/03-Mechanics/Groups.md). They fight through the aliens of the maze, open loot zones to choose a card from each, and bring the Warlord down. Everyone flies as one group, and a group is not spared the area damage of a rocket: the blast of an Ember, a Scatter or a N.U.K.E., and the radiation zone a N.U.K.E. leaves, hurt you and the members of your group for half of what they do to another ship. So mind where you fire (see [Groups](/wiki/03-Mechanics/Groups.md#rules-of-engagement)). Every pilot who took part in the fight is paid when the Warlord falls, within the limits further down. The dungeons are on the **Dungeons** tab of the clan page.
 
 A dungeon is a fight against the aliens only: nobody can attack a clan mate, or anyone else, inside one. The aliens pay as they fall, like the aliens of the game they are modelled on ([what the aliens pay](#what-the-aliens-pay)). The clear is the Warlord's, so the only way to be paid for it is to be in the fight when it falls.
 
@@ -115,17 +115,17 @@ Each kind in turn. The hull and shield are the usual ones times the multiplier o
 
 |  | Stage 1 | Stage 2 | Stage 3 |
 | :--- | ---: | ---: | ---: |
-| Hull | 32,000 | 48,000 | 64,000 |
-| Shield | 48,000 | 72,000 | 96,000 |
-| Laser damage (a volley a second) | 3,000 | 4,500 | 6,000 |
-| Speed | 180 | 180 | 180 |
+| Hull | {{guide:vitals.hull@Dungeon Goombah}} | {{guide:vitals.hull*1.5@Dungeon Goombah}} | {{guide:vitals.hull*2@Dungeon Goombah}} |
+| Shield | {{guide:vitals.shield@Dungeon Goombah}} | {{guide:vitals.shield*1.5@Dungeon Goombah}} | {{guide:vitals.shield*2@Dungeon Goombah}} |
+| Laser damage (a volley a second) | {{guide:vitals.dps@Dungeon Goombah}} | {{guide:vitals.dps*1.5@Dungeon Goombah}} | {{guide:vitals.dps*2@Dungeon Goombah}} |
+| Speed | {{guide:vitals.speed@Dungeon Goombah}} | {{guide:vitals.speed@Dungeon Goombah}} | {{guide:vitals.speed@Dungeon Goombah}} |
 | Laser range | 800 | 800 | 800 |
-| Aggro radius | 1,800 | 1,800 | 1,800 |
+| Aggro radius | {{guide:vitals.aggro@Dungeon Goombah}} | {{guide:vitals.aggro@Dungeon Goombah}} | {{guide:vitals.aggro@Dungeon Goombah}} |
 | Pay and loot, times the original's | ×1 | ×1.5 | ×2 |
-| Credits for a kill | 15,000 | 22,500 | 30,000 |
-| Thulium for a kill | 75 | 113 | 150 |
-| Experience for a kill | 3,000 | 4,500 | 6,000 |
-| Honor for a kill | 24 | 36 | 48 |
+| Credits for a kill | {{guide:spoils.pay.credits@Goombah#1}} | {{guide:spoils.pay.credits*1.5@Goombah#1}} | {{guide:spoils.pay.credits*2@Goombah#1}} |
+| Thulium for a kill | {{guide:spoils.pay.thulium@Goombah#1}} | {{guide:spoils.pay.thulium*1.5@Goombah#1}} | {{guide:spoils.pay.thulium*2@Goombah#1}} |
+| Experience for a kill | {{guide:spoils.pay.experience@Goombah#1}} | {{guide:spoils.pay.experience*1.5@Goombah#1}} | {{guide:spoils.pay.experience*2@Goombah#1}} |
+| Honor for a kill | {{guide:spoils.pay.honor@Goombah#1}} | {{guide:spoils.pay.honor*1.5@Goombah#1}} | {{guide:spoils.pay.honor*2@Goombah#1}} |
 
 ### Dungeon Pirate
 
@@ -136,18 +136,18 @@ Each kind in turn. The hull and shield are the usual ones times the multiplier o
 
 |  | Stage 1 | Stage 2 | Stage 3 |
 | :--- | ---: | ---: | ---: |
-| Hull | 250,000 | 375,000 | 500,000 |
-| Shield | 50,100 | 75,150 | 100,200 |
-| Laser damage (a volley a second) | 200 | 300 | 400 |
-| Rocket damage | 5,000 | 7,500 | 10,000 |
-| Speed | 100 | 100 | 100 |
+| Hull | {{guide:vitals.hull@Dungeon Pirate}} | {{guide:vitals.hull*1.5@Dungeon Pirate}} | {{guide:vitals.hull*2@Dungeon Pirate}} |
+| Shield | {{guide:vitals.shield@Dungeon Pirate}} | {{guide:vitals.shield*1.5@Dungeon Pirate}} | {{guide:vitals.shield*2@Dungeon Pirate}} |
+| Laser damage (a volley a second) | {{guide:vitals.dps@Dungeon Pirate}} | {{guide:vitals.dps*1.5@Dungeon Pirate}} | {{guide:vitals.dps*2@Dungeon Pirate}} |
+| Rocket damage | {{guide:behaviour.ability:rocket.damage@Dungeon Pirate}} | {{guide:behaviour.ability:rocket.damage*1.5@Dungeon Pirate}} | {{guide:behaviour.ability:rocket.damage*2@Dungeon Pirate}} |
+| Speed | {{guide:vitals.speed@Dungeon Pirate}} | {{guide:vitals.speed@Dungeon Pirate}} | {{guide:vitals.speed@Dungeon Pirate}} |
 | Laser range | 700 | 700 | 700 |
-| Aggro radius | 1,800 | 1,800 | 1,800 |
+| Aggro radius | {{guide:vitals.aggro@Dungeon Pirate}} | {{guide:vitals.aggro@Dungeon Pirate}} | {{guide:vitals.aggro@Dungeon Pirate}} |
 | Pay and loot, times the original's | ×1 | ×1.5 | ×2 |
-| Credits for a kill | 145,000 | 217,500 | 290,000 |
-| Thulium for a kill | 725 | 1,088 | 1,450 |
-| Experience for a kill | 29,000 | 43,500 | 58,000 |
-| Honor for a kill | 232 | 348 | 464 |
+| Credits for a kill | {{guide:spoils.pay.credits@Pirate Boss#1}} | {{guide:spoils.pay.credits*1.5@Pirate Boss#1}} | {{guide:spoils.pay.credits*2@Pirate Boss#1}} |
+| Thulium for a kill | {{guide:spoils.pay.thulium@Pirate Boss#1}} | {{guide:spoils.pay.thulium*1.5@Pirate Boss#1}} | {{guide:spoils.pay.thulium*2@Pirate Boss#1}} |
+| Experience for a kill | {{guide:spoils.pay.experience@Pirate Boss#1}} | {{guide:spoils.pay.experience*1.5@Pirate Boss#1}} | {{guide:spoils.pay.experience*2@Pirate Boss#1}} |
+| Honor for a kill | {{guide:spoils.pay.honor@Pirate Boss#1}} | {{guide:spoils.pay.honor*1.5@Pirate Boss#1}} | {{guide:spoils.pay.honor*2@Pirate Boss#1}} |
 
 ### Dungeon Crystalys
 
@@ -157,17 +157,17 @@ Each kind in turn. The hull and shield are the usual ones times the multiplier o
 
 |  | Stage 1 | Stage 2 | Stage 3 |
 | :--- | ---: | ---: | ---: |
-| Hull | 256,000 | 384,000 | 512,000 |
-| Shield | 160,000 | 240,000 | 320,000 |
-| Laser damage (a volley a second) | 10,000 | 15,000 | 20,000 |
-| Speed | 230 | 230 | 230 |
+| Hull | {{guide:vitals.hull@Dungeon Crystalys}} | {{guide:vitals.hull*1.5@Dungeon Crystalys}} | {{guide:vitals.hull*2@Dungeon Crystalys}} |
+| Shield | {{guide:vitals.shield@Dungeon Crystalys}} | {{guide:vitals.shield*1.5@Dungeon Crystalys}} | {{guide:vitals.shield*2@Dungeon Crystalys}} |
+| Laser damage (a volley a second) | {{guide:vitals.dps@Dungeon Crystalys}} | {{guide:vitals.dps*1.5@Dungeon Crystalys}} | {{guide:vitals.dps*2@Dungeon Crystalys}} |
+| Speed | {{guide:vitals.speed@Dungeon Crystalys}} | {{guide:vitals.speed@Dungeon Crystalys}} | {{guide:vitals.speed@Dungeon Crystalys}} |
 | Laser range | 900 | 900 | 900 |
-| Aggro radius | 2,400 | 2,400 | 2,400 |
+| Aggro radius | {{guide:vitals.aggro@Dungeon Crystalys}} | {{guide:vitals.aggro@Dungeon Crystalys}} | {{guide:vitals.aggro@Dungeon Crystalys}} |
 | Pay and loot, times the original's | ×1 | ×1.5 | ×2 |
-| Credits for a kill | 75,000 | 112,500 | 150,000 |
-| Thulium for a kill | 200 | 300 | 400 |
-| Experience for a kill | 12,000 | 18,000 | 24,000 |
-| Honor for a kill | 52 | 78 | 104 |
+| Credits for a kill | {{guide:spoils.pay.credits@Crystalys#1}} | {{guide:spoils.pay.credits*1.5@Crystalys#1}} | {{guide:spoils.pay.credits*2@Crystalys#1}} |
+| Thulium for a kill | {{guide:spoils.pay.thulium@Crystalys#1}} | {{guide:spoils.pay.thulium*1.5@Crystalys#1}} | {{guide:spoils.pay.thulium*2@Crystalys#1}} |
+| Experience for a kill | {{guide:spoils.pay.experience@Crystalys#1}} | {{guide:spoils.pay.experience*1.5@Crystalys#1}} | {{guide:spoils.pay.experience*2@Crystalys#1}} |
+| Honor for a kill | {{guide:spoils.pay.honor@Crystalys#1}} | {{guide:spoils.pay.honor*1.5@Crystalys#1}} | {{guide:spoils.pay.honor*2@Crystalys#1}} |
 
 ### Dungeon Crystalys Twin
 
@@ -177,17 +177,17 @@ Each kind in turn. The hull and shield are the usual ones times the multiplier o
 
 |  | Stage 1 | Stage 2 | Stage 3 |
 | :--- | ---: | ---: | ---: |
-| Hull | 512,000 | 768,000 | 1,024,000 |
-| Shield | 320,000 | 480,000 | 640,000 |
-| Laser damage (a volley a second) | 20,000 | 30,000 | 40,000 |
-| Speed | 230 | 230 | 230 |
+| Hull | {{guide:vitals.hull@Dungeon Crystalys Twin}} | {{guide:vitals.hull*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.hull*2@Dungeon Crystalys Twin}} |
+| Shield | {{guide:vitals.shield@Dungeon Crystalys Twin}} | {{guide:vitals.shield*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.shield*2@Dungeon Crystalys Twin}} |
+| Laser damage (a volley a second) | {{guide:vitals.dps@Dungeon Crystalys Twin}} | {{guide:vitals.dps*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.dps*2@Dungeon Crystalys Twin}} |
+| Speed | {{guide:vitals.speed@Dungeon Crystalys Twin}} | {{guide:vitals.speed@Dungeon Crystalys Twin}} | {{guide:vitals.speed@Dungeon Crystalys Twin}} |
 | Laser range | 900 | 900 | 900 |
-| Aggro radius | 2,400 | 2,400 | 2,400 |
+| Aggro radius | {{guide:vitals.aggro@Dungeon Crystalys Twin}} | {{guide:vitals.aggro@Dungeon Crystalys Twin}} | {{guide:vitals.aggro@Dungeon Crystalys Twin}} |
 | Pay and loot, times the original's | ×2 | ×3 | ×4 |
-| Credits for a kill | 150,000 | 225,000 | 300,000 |
-| Thulium for a kill | 400 | 600 | 800 |
-| Experience for a kill | 24,000 | 36,000 | 48,000 |
-| Honor for a kill | 104 | 156 | 208 |
+| Credits for a kill | {{guide:spoils.pay.credits*2@Crystalys#1}} | {{guide:spoils.pay.credits*3@Crystalys#1}} | {{guide:spoils.pay.credits*4@Crystalys#1}} |
+| Thulium for a kill | {{guide:spoils.pay.thulium*2@Crystalys#1}} | {{guide:spoils.pay.thulium*3@Crystalys#1}} | {{guide:spoils.pay.thulium*4@Crystalys#1}} |
+| Experience for a kill | {{guide:spoils.pay.experience*2@Crystalys#1}} | {{guide:spoils.pay.experience*3@Crystalys#1}} | {{guide:spoils.pay.experience*4@Crystalys#1}} |
+| Honor for a kill | {{guide:spoils.pay.honor*2@Crystalys#1}} | {{guide:spoils.pay.honor*3@Crystalys#1}} | {{guide:spoils.pay.honor*4@Crystalys#1}} |
 
 <!-- dungeons-enemies:end -->
 
@@ -203,24 +203,24 @@ The Warlord waits in the room at the far end of the maze, and its fall is what p
 
 |  | Stage 1 | Stage 2 | Stage 3 |
 | :--- | ---: | ---: | ---: |
-| Hull | 10,000,000 | 15,000,000 | 25,000,000 |
-| Shield | 8,000,000 | 12,000,000 | 20,000,000 |
-| Laser damage (a volley a second) | 17,500–22,500 | 26,250–33,750 at each of 2 pilots | 35,000–45,000 at each of 2 pilots |
-| Speed | 120 | 120 | 120 |
+| Hull | {{guide:vitals.hull@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} | {{guide:vitals.hull*2.5@Dungeon Warlord}} |
+| Shield | {{guide:vitals.shield@Dungeon Warlord}} | {{guide:vitals.shield*1.5@Dungeon Warlord}} | {{guide:vitals.shield*2.5@Dungeon Warlord}} |
+| Laser damage (a volley a second) | {{guide:vitals.dps*0.875~1.125@Dungeon Warlord}} | {{guide:vitals.dps*1.3125~1.6875@Dungeon Warlord}} at each of 2 pilots | {{guide:vitals.dps*1.75~2.25@Dungeon Warlord}} at each of 2 pilots |
+| Speed | {{guide:vitals.speed@Dungeon Warlord}} | {{guide:vitals.speed@Dungeon Warlord}} | {{guide:vitals.speed@Dungeon Warlord}} |
 | Laser range | 1,100 | 1,100 | 1,100 |
 
 The hull and shield above are for a party of 5. They grow with the party: these are the Warlord's hull and shield together, by the number of pilots in the party when the dungeon starts.
 
 | Pilots in the party | Stage 1 | Stage 2 | Stage 3 |
 | :--- | ---: | ---: | ---: |
-| 3 | 10,800,000 | 16,200,000 | 27,000,000 |
-| 4 | 14,400,000 | 21,600,000 | 36,000,000 |
-| 5 | 18,000,000 | 27,000,000 | 45,000,000 |
-| 6 | 21,600,000 | 32,400,000 | 54,000,000 |
-| 7 | 25,200,000 | 37,800,000 | 63,000,000 |
-| 8 | 28,800,000 | 43,200,000 | 72,000,000 |
-| 9 | 32,400,000 | 48,600,000 | 81,000,000 |
-| 10 | 36,000,000 | 54,000,000 | 90,000,000 |
+| 3 | {{guide:vitals.hull*0.6@Dungeon Warlord}} + {{guide:vitals.shield*0.6@Dungeon Warlord}} | {{guide:vitals.hull*0.9@Dungeon Warlord}} + {{guide:vitals.shield*0.9@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} + {{guide:vitals.shield*1.5@Dungeon Warlord}} |
+| 4 | {{guide:vitals.hull*0.8@Dungeon Warlord}} + {{guide:vitals.shield*0.8@Dungeon Warlord}} | {{guide:vitals.hull*1.2@Dungeon Warlord}} + {{guide:vitals.shield*1.2@Dungeon Warlord}} | {{guide:vitals.hull*2@Dungeon Warlord}} + {{guide:vitals.shield*2@Dungeon Warlord}} |
+| 5 | {{guide:vitals.hull@Dungeon Warlord}} + {{guide:vitals.shield@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} + {{guide:vitals.shield*1.5@Dungeon Warlord}} | {{guide:vitals.hull*2.5@Dungeon Warlord}} + {{guide:vitals.shield*2.5@Dungeon Warlord}} |
+| 6 | {{guide:vitals.hull*1.2@Dungeon Warlord}} + {{guide:vitals.shield*1.2@Dungeon Warlord}} | {{guide:vitals.hull*1.8@Dungeon Warlord}} + {{guide:vitals.shield*1.8@Dungeon Warlord}} | {{guide:vitals.hull*3@Dungeon Warlord}} + {{guide:vitals.shield*3@Dungeon Warlord}} |
+| 7 | {{guide:vitals.hull*1.4@Dungeon Warlord}} + {{guide:vitals.shield*1.4@Dungeon Warlord}} | {{guide:vitals.hull*2.1@Dungeon Warlord}} + {{guide:vitals.shield*2.1@Dungeon Warlord}} | {{guide:vitals.hull*3.5@Dungeon Warlord}} + {{guide:vitals.shield*3.5@Dungeon Warlord}} |
+| 8 | {{guide:vitals.hull*1.6@Dungeon Warlord}} + {{guide:vitals.shield*1.6@Dungeon Warlord}} | {{guide:vitals.hull*2.4@Dungeon Warlord}} + {{guide:vitals.shield*2.4@Dungeon Warlord}} | {{guide:vitals.hull*4@Dungeon Warlord}} + {{guide:vitals.shield*4@Dungeon Warlord}} |
+| 9 | {{guide:vitals.hull*1.8@Dungeon Warlord}} + {{guide:vitals.shield*1.8@Dungeon Warlord}} | {{guide:vitals.hull*2.7@Dungeon Warlord}} + {{guide:vitals.shield*2.7@Dungeon Warlord}} | {{guide:vitals.hull*4.5@Dungeon Warlord}} + {{guide:vitals.shield*4.5@Dungeon Warlord}} |
+| 10 | {{guide:vitals.hull*2@Dungeon Warlord}} + {{guide:vitals.shield*2@Dungeon Warlord}} | {{guide:vitals.hull*3@Dungeon Warlord}} + {{guide:vitals.shield*3@Dungeon Warlord}} | {{guide:vitals.hull*5@Dungeon Warlord}} + {{guide:vitals.shield*5@Dungeon Warlord}} |
 
 <!-- dungeons-boss:end -->
 
@@ -239,6 +239,7 @@ The Clan dungeon window counts how many more of them have to be destroyed to ope
 - **The Swarm assist** is the Warlord calling its Goombahs. While they live it cannot be hurt, and it does not fire or use any other ability. Destroy them all: the banner counts how many are left. If a minute goes by, the Warlord can be hurt again and the Goombahs that are left stay and fight on. They do not count for the boss room, and they pay nothing.
 - **The Zone of Chaos** is a violet ring on the ground, round the Warlord, and for as long as it lasts it goes wherever the Warlord goes. Nobody inside the ring can attack, with lasers or rockets, though repairs, cloaks and flying still work, and the Warlord and its aliens fire as ever. The ring shows a moment before it takes hold: step out of it and stay out, because it follows the Warlord. A pilot outside can still fire, as far as his weapons reach.
 - **Phantom's Lance** makes the Warlord vanish for a second. It comes back somewhere else in its room with three illusions of itself. While an illusion lives it fires at the nearest pilot it can see with half of the Warlord's volley and heals the Warlord's hull and shield every second (the table of the abilities has the numbers). The illusions have a hull of their own: destroy them to stop the healing. They pay nothing, and they leave with the Warlord when it falls. The Warlord can be destroyed while they live.
+- **The Radiation Donut** lights three rings of radiation round the place where the Warlord stood when it began the ability, one after another from the Warlord outward, with a second or two between two rings. Each ring shows its two edges a moment before it lights, and then burns every pilot inside it for a few seconds, straight from the hull (the table of the abilities has the times and the share of the hull a second). A ring does not go out when the next one lights: two rings, and at the higher stages all three, can burn at once. The hole round the Warlord, the ground between the rings and the ground outside the last one are safe: stay on them, and leave a ring before it lights. A wall does not stop the radiation and a cloak does not save a pilot from it; the Radiation tech lowers the dose.
 
 <!-- dungeons-abilities:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -253,19 +254,34 @@ The Clan dungeon window counts how many more of them have to be destroyed to ope
 | **Swarm assist** | 2 s | Up to 1 min | 3 min | – | – |
 | **Zone of Chaos** | 2 s | 15 s | 2 min | 900 | – |
 | **Phantom's Lance** | 1.5 s | 1 s | 2 min | – | – |
+| **Radiation Donut** | 1 s | Up to 8.5 s | 75 s | 2,150 | – |
 
 | Ability | Stage 1 | Stage 2 | Stage 3 |
 | :--- | :--- | :--- | :--- |
-| **Lifesteal aura** | 8,000 a second | 10,000 a second | 12,000 a second |
-| **Meteor drop** | 6 meteors a volley, 80,000 each | 8 meteors a volley, 100,000 each | 10 meteors a volley, 120,000 each |
-| **Focus Most Wanted** | 26,250–33,750 an extra bolt at the pilot with the most damage dealt, one every 1 s | 39,375–50,625 an extra bolt at the pilot with the most damage dealt, one every 1 s | 52,500–67,500 an extra bolt at the pilot with the most damage dealt, one every 1 s |
-| **Rocket barrage** | 100,000–150,000 a rocket at every pilot, one every 15 s | 125,000–187,500 a rocket at every pilot, one every 15 s | 150,000–225,000 a rocket at every pilot, one every 15 s |
-| **Shield absorption** | 10,000 shield a second | 12,500 shield a second | 15,000 shield a second |
+| **Lifesteal aura** | {{guide:behaviour.ability:lifesteal.drainPerSec@Dungeon Warlord}} a second | {{guide:behaviour.ability:lifesteal.drainPerSec*1.25@Dungeon Warlord}} a second | {{guide:behaviour.ability:lifesteal.drainPerSec*1.5@Dungeon Warlord}} a second |
+| **Meteor drop** | 6 meteors a volley, {{guide:behaviour.ability:meteor.damage@Dungeon Warlord}} each | 8 meteors a volley, {{guide:behaviour.ability:meteor.damage*1.25@Dungeon Warlord}} each | 10 meteors a volley, {{guide:behaviour.ability:meteor.damage*1.5@Dungeon Warlord}} each |
+| **Focus Most Wanted** | {{guide:vitals.dps*1.3125~1.6875@Dungeon Warlord}} an extra bolt at the pilot with the most damage dealt, one every 1 s | {{guide:vitals.dps*1.96875~2.53125@Dungeon Warlord}} an extra bolt at the pilot with the most damage dealt, one every 1 s | {{guide:vitals.dps*2.625~3.375@Dungeon Warlord}} an extra bolt at the pilot with the most damage dealt, one every 1 s |
+| **Rocket barrage** | {{guide:behaviour.ability:barrage.damageMin@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage@Dungeon Warlord}} a rocket at every pilot, one every 15 s | {{guide:behaviour.ability:barrage.damageMin*1.25@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage*1.25@Dungeon Warlord}} a rocket at every pilot, one every 15 s | {{guide:behaviour.ability:barrage.damageMin*1.5@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage*1.5@Dungeon Warlord}} a rocket at every pilot, one every 15 s |
+| **Shield absorption** | {{guide:behaviour.ability:absorb.drainPerSec@Dungeon Warlord}} shield a second | {{guide:behaviour.ability:absorb.drainPerSec*1.25@Dungeon Warlord}} shield a second | {{guide:behaviour.ability:absorb.drainPerSec*1.5@Dungeon Warlord}} shield a second |
 | **Swarm assist** | 12 Goombahs | 18 Goombahs | 24 Goombahs |
 | **Zone of Chaos** | Pilots inside the ring cannot attack | Pilots inside the ring cannot attack | Pilots inside the ring cannot attack |
-| **Phantom's Lance** | 3 illusions of 500,000 hull; each fires 50% of the Warlord's volley and, while it lives, heals the Warlord 50,000 hull and 50,000 shield a second | 3 illusions of 500,000 hull; each fires 50% of the Warlord's volley and, while it lives, heals the Warlord 50,000 hull and 50,000 shield a second | 3 illusions of 500,000 hull; each fires 50% of the Warlord's volley and, while it lives, heals the Warlord 50,000 hull and 50,000 shield a second |
+| **Phantom's Lance** | 3 illusions; each fires 50% of the Warlord's volley and, while it lives, heals the Warlord 50,000 hull and 50,000 shield a second | 3 illusions; each fires 50% of the Warlord's volley and, while it lives, heals the Warlord 50,000 hull and 50,000 shield a second | 3 illusions; each fires 50% of the Warlord's volley and, while it lives, heals the Warlord 50,000 hull and 50,000 shield a second |
+| **Radiation Donut** | 3 rings, lit one after another; each burns for 2 s and takes 8% of a pilot's hull a second | 3 rings, lit one after another; each burns for 3 s and takes 8% of a pilot's hull a second | 3 rings, lit one after another; each burns for 4.5 s and takes 8% of a pilot's hull a second |
 
 <!-- dungeons-abilities:end -->
+
+### Its three steps
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+The Warlord has three steps ([how they work](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); each one happens once.
+
+- **Under two thirds**: The gap between its abilities falls to 4 s and their waits to ×0.75.
+- **Under a third**: The gap falls to 2 s, their waits to ×0.5 and its damage rises to ×1.25; it casts one free Meteor volley, and its Swarm never comes back faster than every 120 s.
+- **A pause at each step.** When a step begins the Warlord cannot be hurt for 3 s.
+
+<!-- mob-ladder:end -->
 
 ## Loot zones
 
@@ -349,9 +365,9 @@ The **Orvium Reinforced Plates** and the Forge's **Echo Shards** and **Lattice S
 
 | Stage | Honor | Experience | Credits | Thulium | x4 ammo | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE ranking points |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Stage 1** | 25,000 | 600,000 | 5,000,000 | 8,000 | 4,000 | 5 | 12 | 5 | 850 |
-| **Stage 2** | 50,000 | 1,500,000 | 10,000,000 | 18,000 | 9,000 | 10 | 8 | 6 | 2,000 |
-| **Stage 3** | 100,000 | 2,400,000 | 17,500,000 | 30,000 | 15,000 | 15 | 8 | 7 | 3,400 |
+| **Stage 1** | 25,000 | 600,000 | 5,000,000 | 8,000 | 4,000 | 5 | 24 | 10 | 850 |
+| **Stage 2** | 50,000 | 1,500,000 | 10,000,000 | 18,000 | 9,000 | 10 | 16 | 12 | 2,000 |
+| **Stage 3** | 100,000 | 2,400,000 | 17,500,000 | 30,000 | 15,000 | 15 | 16 | 14 | 3,400 |
 
 - **Heartshards**: 1 with the first paid clear of each stage in a season, and a 5% chance of one more with every paid clear.
 
@@ -365,7 +381,7 @@ These rules decide who is paid **for the clear**. A clear is played in full even
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
 - **A day**: A stage pays a pilot once in a UTC day: the day the Warlord falls
-- **A week**: A pilot is paid for at most 10 stage clears in a UTC week, Monday to Sunday
+- **A week**: A pilot is paid for at most 14 stage clears in a UTC week, Monday to Sunday
 - **Inside**: At least 2 min in all
 - **A share in the fight**: At least one of these: dealt 0.1% of the Warlord's hull and shield; destroyed 10 of the dungeon's aliens; healed other pilots for 50,000 during the fight with the Warlord
 
@@ -380,8 +396,8 @@ What a pilot can be paid in one day, and in the best week that the limits allow.
 
 | Pay for each pilot | Honor | Experience | Credits | Thulium | x4 ammo | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE ranking points |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| One day, every stage once | 175,000 | 4,500,000 | 32,500,000 | 56,000 | 28,000 | 30 | 28 | 18 | 6,250 |
-| The best week: 7 × Stage 3 and 3 × Stage 2 | 850,000 | 21,300,000 | 152,500,000 | 264,000 | 132,000 | 135 | 80 | 67 | 29,800 |
+| One day, every stage once | 175,000 | 4,500,000 | 32,500,000 | 56,000 | 28,000 | 30 | 56 | 36 | 6,250 |
+| The best week: 7 × Stage 3 and 7 × Stage 2 | 1,050,000 | 27,300,000 | 192,500,000 | 336,000 | 168,000 | 175 | 224 | 182 | 37,800 |
 
 The experience and the honor of a paid clear count for your PvE ranking points: one point for every 1,000 experience and one for every 100 honor.
 
@@ -393,7 +409,7 @@ Every alien of a dungeon pays when it falls, and drops loot, like the alien of t
 
 - **Who is paid.** The pilots who hurt the alien, by the damage they dealt, as for the aliens of the Swarms: a pilot or a group that only grazed it gets nothing, a group is paid as one, and inside a group the members who are near the wreck and have fired lately share what is paid by level. A pilot who dealt no damage to the alien is paid nothing for it, however close he flew, and an alien that no pilot hurt pays nobody. Only the pilots the rules above pay are in it: a pilot who left, who has not been inside long enough, who was paid for the stage today or who has had all the paid clears of the week is paid nothing for the aliens, and the others have his part. A kill does not ask for the share in the fight: having hurt the alien is the share. If the member of a group who dealt the most has been destroyed or is no longer on the map, the members who are near the wreck and have fired lately share it without him.
 - **What is paid.** Credits, Thulium, experience and honor, once for the kill. The pay is what the original pays in Alpha, in every world: a dungeon has no world multiplier. Your boosters, formation and your clan's bonuses count as they do for any kill, and the experience counts for your [PvE ranking points](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points) like the experience of the clear.
-- **The loot.** Rolled with the original's chances, except that the Echo Shard is twice as likely, and then every quantity is multiplied by the ratio (a part of a unit is a chance of one more). It falls as a box at the wreck, first for the pilot who dealt the most and his clan, later for anyone on the map, and then it is gone. If the [group](/wiki/03-Mechanics/Groups.md) of the pilot who dealt the most has two or more pilots who hurt the alien and are still flying in the dungeon, the loot is instead cut into [personal crates](/wiki/03-Mechanics/Cargo.md#personal-crates), one for each of them by the damage they dealt, each first its pilot's alone, later anyone's on the map. A group mate who dealt no damage, or whom the rules above turn away, gets no crate. Other groups and pilots flying alone are paid for their share and get no crate from this loot. The map holds only so many boxes at once, so pick them up as you go, and what lies on the map when the dungeon closes goes with it. Unlike the items of the clear, these are ordinary drops of an alien: they can be [sold at the Auction](/wiki/03-Mechanics/Auction.md#marketable-items) when the item is Marketable.
+- **The loot.** Rolled with the original's chances, except that the Echo Shard is twice as likely and drops two at a time, and then every quantity is multiplied by the ratio (a part of a unit is a chance of one more). It falls as a box at the wreck, first for the pilot who dealt the most and his clan, later for anyone on the map, and then it is gone. If the [group](/wiki/03-Mechanics/Groups.md) of the pilot who dealt the most has two or more pilots who hurt the alien and are still flying in the dungeon, the loot is instead cut into [personal crates](/wiki/03-Mechanics/Cargo.md#personal-crates), one for each of them by the damage they dealt, each first its pilot's alone, later anyone's on the map. A group mate who dealt no damage, or whom the rules above turn away, gets no crate. Other groups and pilots flying alone are paid for their share and get no crate from this loot. The map holds only so many boxes at once, so pick them up as you go, and what lies on the map when the dungeon closes goes with it. Unlike the items of the clear, these are ordinary drops of an alien: they can be [sold at the Auction](/wiki/03-Mechanics/Auction.md#marketable-items) when the item is Marketable.
 - **What does not pay.** The Warlord pays no kill, only the clear. The Goombahs it calls pay nothing, because the call comes back for as long as the fight lasts.
 - **Not a kill of the game.** A kill in a dungeon does not count for quests, achievements, kill counts, the Wipe Points, the PvE points of a kill, drones or P.E.T.s: a Dungeon Goombah is not a Goombah of the game.
 - **The limits.** The day and week limits above hold the aliens' pay back as they hold the clear's: a pilot who was paid for the stage today, or has had all the paid clears of the week, is paid nothing for its aliens either, and the pot of a kill goes to the others. A dungeon that is not cleared pays its kills to the pilots the rules pay, and nothing for the clear.

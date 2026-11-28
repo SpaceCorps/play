@@ -1,15 +1,15 @@
-<!-- wiki-i18n source: 53a080132ff6f6d9 -->
+<!-- wiki-i18n source: aebf7c489ef3ed62 -->
 <!-- wiki-i18n title: Erfolge -->
 # Erfolge {#achievements}
 
-Erfolge sind die Ziele einer ganzen Pilotenlaufbahn: Zerstöre deinen ersten Alien, erreiche Level 21, besitze eine Milliarde Credits, überlebe einen Wipe. Das Spiel zählt sie für dich mit. Es gibt **50** davon, in **8** Gruppen und **5** Stufen. Jeder zahlt **einmal pro Konto, für immer**: Credits für jeden, und für die meisten einen **Titel**, den du neben deinem Namen trägst. Ein Wipe nimmt dir weder einen Erfolg noch seine Belohnung oder seinen Titel weg.
+Erfolge sind die Ziele einer ganzen Pilotenlaufbahn: Zerstöre deinen ersten Alien, erreiche Level 21, besitze eine Milliarde Credits, überlebe einen Wipe. Das Spiel zählt sie für dich mit. Es gibt **65** davon, in **8** Gruppen und **5** Stufen. Jeder zahlt **einmal pro Konto, für immer**: Credits für jeden, und für die meisten einen **Titel**, den du neben deinem Namen trägst. Ein Wipe nimmt dir weder einen Erfolg noch seine Belohnung oder seinen Titel weg.
 
 **In einer Minute**
 
 - Öffne in der Station **Community › Erfolge**: Dort siehst du jedes Ziel, wie weit du bist und was es einbringt.
 - Die Stufe (Gewöhnlich, Ungewöhnlich, Selten, Episch oder Legendär) bestimmt die Credits: Je schwerer das Ziel, desto höher die Stufe.
 - Du wirst bezahlt, sobald du ein Ziel erreichst, im Flug oder in der Station. Eine Karte zeigt den Erfolg und seine Belohnung, und das Spielprotokoll hält eine Zeile fest.
-- **5** der 50 sind versteckt: Die Seite zeigt sie als geschlossene Karten, bis du sie freischaltest. Sie zählen zu den 50 und werden hier nicht genannt.
+- **5** der 65 sind versteckt: Die Seite zeigt sie als geschlossene Karten, bis du sie freischaltest. Sie zählen zu den 65 und werden hier nicht genannt.
 - Im Steam-Build erscheinen deine Erfolge auch in deinem Steam-Profil, sobald du dein Konto verknüpft hast (siehe unten).
 
 ## Stufen und Belohnungen {#tiers-and-rewards}
@@ -19,16 +19,16 @@ Die fünf Stufen zahlen für jeden Erfolg darin gleich viel, einmalig. Die Tabel
 | Stufe | Erfolge | Credits je Erfolg |
 | :--- | ---: | ---: |
 | Gewöhnlich | 11 | 50.000 |
-| Ungewöhnlich | 9 | 150.000 |
-| Selten | 16 | 500.000 |
-| Episch | 8 | 2.000.000 |
-| Legendär | 6 | 5.000.000 |
+| Ungewöhnlich | 13 | 150.000 |
+| Selten | 20 | 500.000 |
+| Episch | 12 | 2.000.000 |
+| Legendär | 9 | 5.000.000 |
 
-Alle 50 zusammen zahlen **55.900.000** Credits, einmal im Pilotenleben.
+Alle 65 zusammen zahlen **81.500.000** Credits, einmal im Pilotenleben.
 
 ## Die Erfolge {#the-achievements}
 
-Die 45 Erfolge, die nicht versteckt sind, nach Gruppen. Wo ein Ziel etwas zählt, zählt es über deine gesamte Laufbahn.
+Die 60 Erfolge, die nicht versteckt sind, nach Gruppen. Wo ein Ziel etwas zählt, zählt es über deine gesamte Laufbahn.
 
 ### Kampf {#group-combat}
 
@@ -77,7 +77,7 @@ Die 45 Erfolge, die nicht versteckt sind, nach Gruppen. Wo ein Ziel etwas zählt
 | Stationsbauer | Baue 5 verschiedene Skylab-Module. | Gewöhnlich |
 | Voll ausgestattet | Baue alle 16 Skylab-Module. | Episch |
 | Gelehrter | Erforsche 50 Technologien. | Ungewöhnlich |
-| Archivar | Erforsche alle 210 Technologien. | Legendär |
+| Archivar | Erforsche alle 212 Technologien. | Legendär |
 
 ### Flotte {#group-fleet}
 
@@ -97,6 +97,21 @@ Die 45 Erfolge, die nicht versteckt sind, nach Gruppen. Wo ein Ziel etwas zählt
 | Ereignishorizont | Betritt den Gefahrensektor DS-4. | Ungewöhnlich |
 | Prospektor | Zerstöre 500 Asteroiden. | Ungewöhnlich |
 | Ferne Horizonte | Schließe 10 Skylab-Expeditionen ab. | Selten |
+| Laternenanzünder I | Entzünde 10 verschiedene Laternen in der Deep Void. | Ungewöhnlich |
+| Laternenanzünder II | Entzünde 39 verschiedene Laternen in der Deep Void. | Selten |
+| Laternenanzünder III | Entzünde alle 78 Laternen der Deep Void. | Episch |
+| Kartograf I | Erkunde 25 % von DV-1 in der Deep Void. | Ungewöhnlich |
+| Kartograf II | Erkunde 50 % von DV-1 in der Deep Void. | Selten |
+| Kartograf III | Erkunde 75 % von DV-1 in der Deep Void. | Episch |
+| Kartograf IV | Erkunde jedes Feld von DV-1 in der Deep Void. | Legendär |
+| Xenologe I | Erforsche 10 Einträge des Reiseführers vollständig. | Ungewöhnlich |
+| Xenologe II | Erforsche 50 Einträge des Reiseführers vollständig. | Selten |
+| Xenologe III | Erforsche 100 Einträge des Reiseführers vollständig. | Episch |
+| Xenologe IV | Erforsche jeden Eintrag des Reiseführers vollständig. | Legendär |
+| Torbauer I | Stecke 50.000 Thulium in Void Gates (eine Dark Matter Plate zählt als 10.000). | Ungewöhnlich |
+| Torbauer II | Stecke 250.000 Thulium in Void Gates (eine Dark Matter Plate zählt als 10.000). | Selten |
+| Torbauer III | Stecke 1.000.000 Thulium in Void Gates (eine Dark Matter Plate zählt als 10.000). | Episch |
+| Torbauer IV | Stecke 5.000.000 Thulium in Void Gates (eine Dark Matter Plate zählt als 10.000). | Legendär |
 
 ### Clan {#group-clan}
 
@@ -123,7 +138,7 @@ Ein versteckter Erfolg, der noch gesperrt ist, ist eine geschlossene Karte ohne 
 
 ## Titel {#titles}
 
-Ein **Titel** ist eine kurze Textzeile neben dem Namen eines Piloten. 32 der 50 Erfolge geben einen, für immer deiner, sobald du den Erfolg freischaltest. Titel kommen auch vom Ende einer Saison (dein Rang, der beste Pilot jedes Konzerns und der Pilot mit den meisten PvE-Punkten) und vom Team des Spiels, etwa der Titel **Pioneer** für jedes Konto, das am Tag des Steam-Starts des Spiels existierte.
+Ein **Titel** ist eine kurze Textzeile neben dem Namen eines Piloten. 32 der 65 Erfolge geben einen, für immer deiner, sobald du den Erfolg freischaltest. Titel kommen auch vom Ende einer Saison (dein Rang, der beste Pilot jedes Konzerns und der Pilot mit den meisten PvE-Punkten) und vom Team des Spiels, etwa der Titel **Pioneer** für jedes Konto, das am Tag des Steam-Starts des Spiels existierte.
 
 - Du besitzt viele Titel und **trägst einen** auf einmal. Du wählst ihn in deinem **Pilotenprofil** und kannst ihn wieder ablegen.
 - Dein Titel erscheint in deinem **Profil**, in den **Ranglisten**, im **Gruppen**-Fenster und wenn du im **Chat** auf deinen Namen zeigst. Seit 0.4.27 erscheint er auch auf der Karte: als kleine, gedämpfte Zeile in der Seltenheitsfarbe des Titels **über dem Namen des Schiffs jedes Piloten**, auch über deinem. Ein langer Titel wird mit Auslassungspunkten abgeschnitten. In einer Menge (mehr als acht Piloten auf dem Bildschirm) behalten nur deine Freunde, dein Ziel und das Schiff, das du gewählt hast, ihren Titel, damit der Bildschirm lesbar bleibt. Im Zielfenster und auf der Minikarte erscheint er nicht.

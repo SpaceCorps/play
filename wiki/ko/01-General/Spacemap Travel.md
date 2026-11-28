@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 00f154de4f7e72f2 -->
+<!-- wiki-i18n source: 95e9602370e7a658 -->
 <!-- wiki-i18n title: 스페이스맵 이동 -->
 # 스페이스맵 이동 {#spacemap-travel}
 
@@ -45,6 +45,8 @@ Alpha, Beta, Gamma의 각 [월드](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-al
 ```
 
 [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu)를 장착하면 이 지도에서 목적지도 고를 수 있습니다. 퀵슬롯의 CPU 슬롯(**JMP**)을 누르면 항성계 창이 선택 모드로 열립니다. CPU가 데려다줄 수 있는 섹터는 밝게 표시되고, 내가 있는 섹터와 위험 섹터는 어둡게 표시됩니다. 밝은 섹터에 포인터를 올리면 가격을 볼 수 있고, 클릭한 뒤 지도가 물으면 점프를 확정합니다(500 Thulium).
+
+**Deep Void.** 항성계 창 위쪽의 스위치로 **일반** 맵과 **Deep Void** 맵을 바꿔 볼 수 있습니다. `DV-1`은 한 번 가 보기 전까지 `???`로 표시되며, 들어가는 방법에 대한 힌트가 나옵니다. 신호, `DS-4`에 있는 자기 월드의 Void Gate, 그리고 한 번 비행한 뒤에는 탐사한 비율입니다. 이 맵의 어떤 포털도 그곳으로 이어지지 않습니다. 들어가는 길은 Void Gate뿐입니다([Deep Void](/wiki/03-Mechanics/Deep-Void.md)).
 
 ## 이동 방법 {#how-to-travel}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 00f154de4f7e72f2 -->
+<!-- wiki-i18n source: 95e9602370e7a658 -->
 <!-- wiki-i18n title: 太空地图航行 -->
 # 太空地图航行 {#spacemap-travel}
 
@@ -45,6 +45,8 @@
 ```
 
 装备了 [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) 后，地图还能用来选择目的地：按下快捷栏里该 CPU 的槽位（**JMP**），星系窗口就会以选择模式打开。CPU 能带你去的星区会亮起，你自己所在的星区和危险星区则不亮。把鼠标指向亮起的星区可以看到价格，点击它，并在地图询问时确认跳跃（500 Thulium）。
+
+**Deep Void。** 星系窗口顶部的开关可以显示**普通**地图或 **Deep Void** 地图。在你去过之前，`DV-1` 会显示为 `???`，并给出进入方法的提示：信号、你所在世界位于 `DS-4` 的 Void Gate，以及飞过之后你已探索的比例。这张地图上没有任何传送门通往那里：唯一的入口是 Void Gate（[Deep Void](/wiki/03-Mechanics/Deep-Void.md)）。
 
 ## 如何航行 {#how-to-travel}
 

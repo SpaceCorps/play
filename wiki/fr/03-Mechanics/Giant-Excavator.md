@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e3fa08f52459090c -->
+<!-- wiki-i18n source: d7154b35dd9c47fc -->
 <!-- wiki-i18n title: Excavatrice géante -->
 # Excavatrice géante {#giant-excavator}
 
@@ -91,13 +91,13 @@ Une série attire des **Slumbering Voids**, des chasseurs de la civilisation per
 
 - **Vagues.** 3 Slumbering Voids toutes les 2 min ; les premiers 1 min après le lancement, et aucun dans les 1 min finales d’une série. 12 au plus sont en vie en même temps sur une carte : une vague qui trouve la carte pleine est sautée.
 - **Arrivée.** Une vague apparaît au bord de la carte, à 900 unités vers l’intérieur et à au moins 2 500 unités de tout anneau de porte, et vole jusqu’à l’excavatrice en 20 s environ. Le message nomme le côté de la carte d’où elle vient.
-- **Chasse.** Un Void traque le pilote le plus proche qu’il peut voir à moins de 2 500 unités, et reste à moins de 7 000 unités de l’excavatrice.
+- **Chasse.** Un Void traque le pilote le plus proche qu’il peut voir à moins de {{guide:vitals.aggro@Slumbering Void}} unités, et reste à moins de 7 000 unités de l’excavatrice.
 - **Siège.** Quand aucun pilote visible ne se trouve à moins de 7 000 unités de l’excavatrice pendant 15 s, les Voids attaquent l’excavatrice, et chaque laser inflige 25 % de ses dégâts habituels. À zéro, l’excavatrice est détruite : son carburant est perdu, sa coque est de nouveau pleine aussitôt, et elle se repose 1 h.
 - **Départ.** Quand une série se termine, les Voids restants demeurent 90 s de plus et combattent encore si on les combat ; puis ils s’en vont.
 
 <!-- excavator-voids:end -->
 
-- **Un Void est un canon de verre.** Son bouclier est grand mais absorbe 80 % d’un coup, si bien que la coque derrière lui est partie après quelques fois sa taille en dégâts, et bien plus tôt avec de la pénétration de bouclier. Quatre pilotes sans pénétration de bouclier, ou deux avec un bon équipement, tiennent une série en Alpha ; Bêta et Gamma demandent de plus grands groupes, comme pour tout alien.
+- **Un Void est un canon de verre.** Son bouclier est grand mais absorbe {{guide:vitals.absorbance@Slumbering Void}} d’un coup, si bien que la coque derrière lui est partie après quelques fois sa taille en dégâts, et bien plus tôt avec de la pénétration de bouclier. Quatre pilotes sans pénétration de bouclier, ou deux avec un bon équipement, tiennent une série en Alpha ; Bêta et Gamma demandent de plus grands groupes, comme pour tout alien.
 - **Une occultation ne défend pas le site.** Les Voids ne voient pas les vaisseaux occultés, donc un pilote qui se cache ne les éloigne pas de l’excavatrice ; et un pilote qui s’abrite dans un anneau de porte ne peut pas être atteint et ne compte pas non plus.
 - **Chaque Void paie,** selon les dégâts que vous lui avez infligés, et lâche une caisse ([comment paie l’élimination d’un boss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Leurs éliminations s’ajoutent à vos points PvE de grade comme celles d’un vaisseau d’essaim.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 74bb4919fe97756e -->
+<!-- wiki-i18n source: 634c9ffbf340dec7 -->
 <!-- wiki-i18n title: Kutatás -->
 # Kutatás {#research}
 
@@ -30,7 +30,7 @@ Ez az oldal tartalmazza a teljes technológiafát az egyes technológiák idejé
 
 <!-- research-centre:end -->
 
-**Schematics.** Egy [Schematics](/wiki/06-Items/Special-Items.md#schematics) 24 órát levesz a most futó kutatásból: ha legfeljebb 24 óra van hátra, azonnal befejeződik, a hosszabb pedig 24 órát veszít, és fut tovább (a 210 technológiából 188 legfeljebb 24 órát vesz igénybe, így egyetlen Schematics az elejétől befejezi őket; a másik 22-nek 2–10 kell). Amibe a kutatás került, azt az elején kifizetted, és nem adják vissza, a tudomány, amelyet a kihagyott idő elégetett volna, a tartályodban marad, és amikor a kutatás befejeződött, a sorod következő technológiája azonnal elindul.
+**Schematics.** Egy [Schematics](/wiki/06-Items/Special-Items.md#schematics) 24 órát levesz a most futó kutatásból: ha legfeljebb 24 óra van hátra, azonnal befejeződik, a hosszabb pedig 24 órát veszít, és fut tovább (a 212 technológiából 190 legfeljebb 24 órát vesz igénybe, így egyetlen Schematics az elejétől befejezi őket; a másik 22-nek 2–10 kell). Amibe a kutatás került, azt az elején kifizetted, és nem adják vissza, a tudomány, amelyet a kihagyott idő elégetett volna, a tartályodban marad, és amikor a kutatás befejeződött, a sorod következő technológiája azonnal elindul.
 
 **A lézererősítők és az utolsó szint.** A II–IV. szintű Damage, Crit és Penetration Amp-eket úgy kell kikutatni, mint minden mást, ami gyártható. Azok a pilóták, akik az erősítővonalak érkezésekor erősítőt birtokoltak vagy sorba állítottak, megkapták mindegyik technológiáját és az alatta lévő szintekét. Tizenhárom technológiához másik fa technológiája kell, a Dark Matter Plate-é, az Erőforrások fáról, mert minden fejlesztési lánc utolsó szintje négy plate-et és egy Ancient Control Unitot kér. Ezek: a IV. szintű Damage, Crit és Penetration Amp, a IV. szintű Absorption és Capacity Shield Cell, a IV. szintű Impulse és Momentum Thruster, a Heavy Shield Core, az Engine III, az Adaptive Core III, a Helios Beam, az Extra Slots CPU III és a Base CPU II. Aki korábban kikutatta valamelyiket, az megtartja, de a plate-jeinek elkészítéséhez szüksége van a plate technológiájára. Az alábbi fa nem rajzol hozzá nyilat, de a táblázat felsorolja, a játékbeli kártya pedig megnevezi ([Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -98,6 +98,7 @@ Mit tesz a boost egy kutatás idejével, ha az elejétől fogva működik:
 | :--- | :--- | ---: | ---: |
 | 30 perc | 15 perc | 1 | 5 000 |
 | 1 óra | 30 perc | 1 | 5 000 |
+| 2 óra | 1 óra | 1 | 5 000 |
 | 3 óra | 1 óra 30 perc | 1 | 5 000 |
 | 4 óra | 2 óra | 1 | 5 000 |
 | 6 óra | 3 óra | 1 | 5 000 |
@@ -335,10 +336,13 @@ Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600
 Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 Mine II | consumable, rare | craft 200 Thulium, 120 s | research 10800 s, 10800 science | 2 Mine I, 3 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#mine
 Mine III | consumable, epic | craft 400 Thulium, 300 s | research 21600 s, 21600 science | 2 Mine II, 8 Ship Fragment, 1 Reinforced Hull Plate, 2 Power Core | /wiki/06-Items/Extras.md#mine
+Organic Scanner I | extra, rare | craft 20000 Credits, 10000 Thulium, 600 s | research 1800 s, 1800 science | 60 Ship Fragment, 2 Power Core, 1 Ancient Control Unit, 5 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+Organic Scanner II | extra, epic | craft 50000 Credits, 20000 Thulium, 900 s | research 7200 s, 7200 science | 1 Organic Scanner I, 2 Lurker Fang, 2 Angler Lure, 1 Leviathan Scale | /wiki/06-Items/Extras.md
 
 Extra Slots CPU I => Extra Slots CPU II => Extra Slots CPU III
 Base CPU I => Base CPU II => Jump CPU
 Mine II => Mine III
+Organic Scanner I => Organic Scanner II
 ```
 
 ### Védelem {#tree-defence}
@@ -582,18 +586,20 @@ A Kutatás nézet Pilóta családja olyan technológiákat tartalmaz, amelyek ne
 | [Miyuki III](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki II](/wiki/02-Ships/Miyuki.md) | D | 1 nap | 86 400 | 10 |
 | [Miyuki IV](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki III](/wiki/02-Ships/Miyuki.md) | D | 2 nap | 172 800 | 10 |
 | [Miyuki V](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki IV](/wiki/02-Ships/Miyuki.md) | D | 2 nap | 172 800 | 10 |
+| [Organic Scanner I](/wiki/06-Items/Extras.md) | – | A | 30 perc | 1 800 | – |
+| [Organic Scanner II](/wiki/06-Items/Extras.md) | [Organic Scanner I](/wiki/06-Items/Extras.md) | B | 2 óra | 7 200 | – |
 
 Az osztályok kutatási idő szerint:
 
 | Osztály | Kutatási idő | Technológiák | Egymás után | Tudomány | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| A | 30 perc–1 óra | 17 | 9 óra 30 perc | 34 200 | 0 |
-| B | 3 óra–6 óra | 37 | 5 nap 20 óra | 504 000 | 0 |
+| A | 30 perc–1 óra | 18 | 10 óra | 36 000 | 0 |
+| B | 2 óra–6 óra | 38 | 5 nap 22 óra | 511 200 | 0 |
 | C | 8 óra–10 óra | 20 | 8 nap 4 óra | 705 600 | 95 |
 | D | 16 óra–10 nap | 35 | 60 nap 16 óra | 5 241 600 | 379 |
-| Összesen |  | 109 | 75 nap 1 óra 30 perc | 6 485 400 | 474 |
+| Összesen |  | 111 | 75 nap 4 óra | 6 494 400 | 474 |
 
-Egymás után kutatva a teljes fa 75 nap 1 óra 30 perc alatt készül el. Ha a boost végig be van kapcsolva, 37 nap 12 óra 45 perc alatt, ami 38 boost és 190 000 Thulium; a tudomány ugyanannyi.
+Egymás után kutatva a teljes fa 75 nap 4 óra alatt készül el. Ha a boost végig be van kapcsolva, 37 nap 14 óra alatt, ami 38 boost és 190 000 Thulium; a tudomány ugyanannyi.
 
 <!-- research-technologies:end -->
 
@@ -617,6 +623,8 @@ Az új CPU-kat is itt kutatod ki, majd a Gyártásban készíted el. Ugyanez a t
 | [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 óra | – | 20 000 | 15 perc |
 | [Mine II](/wiki/06-Items/Extras.md#mine) | 3 óra | – | 200 | 2 perc |
 | [Mine III](/wiki/06-Items/Extras.md#mine) | 6 óra | [Mine II](/wiki/06-Items/Extras.md#mine) | 400 | 5 perc |
+| [Organic Scanner I](/wiki/06-Items/Extras.md) | 30 perc | – | 10 000 | 10 perc |
+| [Organic Scanner II](/wiki/06-Items/Extras.md) | 2 óra | [Organic Scanner I](/wiki/06-Items/Extras.md) | 20 000 | 15 perc |
 
 Egyik sem kapható a Boltban: kutasd ki a technológiát, majd készítsd el a CPU-t a Gyártásban. Vidd az egeret egy CPU fölé a fáján, hogy lásd, mit kér érte a Gyártás.
 

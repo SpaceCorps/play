@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b9bfffab24f7eda8 -->
+<!-- wiki-i18n source: 6acaa0292fff4664 -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker
 
@@ -6,10 +6,10 @@ Seeker sind einfache Späh- und Aufklärungseinheiten. Sie sind passiv, beginnen
 
 ## Werte {#stats}
 
-- **Trefferpunkte (HP)**: 800
-- **Schild**: 800
-- **Schaden**: 180
-- **Tempo**: 120
+- **Trefferpunkte (HP)**: {{guide:vitals.hull@Seeker#1}}
+- **Schild**: {{guide:vitals.shield@Seeker#1}}
+- **Schaden**: {{guide:vitals.dps@Seeker#1}}
+- **Tempo**: {{guide:vitals.speed@Seeker#1;Seeker#2;Seeker#3;Seeker#4}}
 - **Angriffsreichweite**: 600
 - **Verhalten**: Passiv
 
@@ -24,10 +24,10 @@ Seeker sind einfache Späh- und Aufklärungseinheiten. Sie sind passiv, beginnen
 
 ## Belohnungen {#rewards}
 
-- **Credits**: 1.000
-- **Thulium**: 4
-- **Erfahrung (EP)**: 100
-- **Ehre**: 2
+- **Credits**: {{guide:spoils.pay.credits@Seeker#1}}
+- **Thulium**: {{guide:spoils.pay.thulium@Seeker#1}}
+- **Erfahrung (EP)**: {{guide:spoils.pay.experience@Seeker#1}}
+- **Ehre**: {{guide:spoils.pay.honor@Seeker#1}}
 - **PvE-Punkte pro Abschuss**: 1
 - **Schildaufladung**: 10 pro Sekunde (15 s Verzögerung)
 
@@ -37,9 +37,11 @@ Die Beute fällt als [Frachtkiste](/wiki/03-Mechanics/Cargo.md) dort, wo er expl
 
 Wofür jede Beute gebraucht wird und wo es sie sonst noch gibt: [Ressourcen](/wiki/06-Items/Resources.md).
 
-- **Ship Fragment**: 20 % Chance (Min.: 1, Max.: 1)
-- **Daraxium**: 50 % Chance (Min.: 1, Max.: 2)
-- **Echo Shard**: 0,8 % Chance (Min.: 1, Max.: 1)
+- {{guide:spoils.box@Seeker#1;Seeker#2;Seeker#3;Seeker#4}}
+
+## Spezialfähigkeiten {#special-abilities}
+
+Manche Aliens dieser Art tragen eine **Spezialfähigkeit**: etwas, das sie einmal tun, wenn ihre Hülle zur Hälfte weg ist. Vorher zeigt sich nichts. [Spezialfähigkeiten](/wiki/03-Mechanics/Special-Abilities.md) sagt, was jede Fähigkeit tut und wie du ihr begegnest.
 
 ## Hintergrund {#lore}
 

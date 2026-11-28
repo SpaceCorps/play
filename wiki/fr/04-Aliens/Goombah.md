@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c598c923528fc750 -->
+<!-- wiki-i18n source: 6daa8f85861674ea -->
 <!-- wiki-i18n title: Goombah -->
 # Goombah
 
@@ -6,10 +6,10 @@ Les Goombahs sont de redoutables vaisseaux aliens de classe croiseur. Ils ont un
 
 ## Caractéristiques {#stats}
 
-- **Points de vie (PV)** : 32 000
-- **Bouclier** : 48 000
-- **Dégâts** : 3 000
-- **Vitesse** : 180
+- **Points de vie (PV)** : {{guide:vitals.hull@Goombah#1}}
+- **Bouclier** : {{guide:vitals.shield@Goombah#1}}
+- **Dégâts** : {{guide:vitals.dps@Goombah#1}}
+- **Vitesse** : {{guide:vitals.speed@Goombah#1;Goombah#2;Goombah#3;Goombah#4}}
 - **Portée d’attaque** : 800
 - **Comportement** : Passif
 
@@ -19,15 +19,15 @@ Les Goombahs sont de redoutables vaisseaux aliens de classe croiseur. Ils ont un
 - Il abandonne **10 secondes** après le dernier coup reçu, quel qu’en soit l’auteur, et se remet à errer.
 - Tant qu’un pilote continue de le toucher, il fonce sur ce pilote chaque fois que celui-ci est hors de sa portée d’arme (800 unités) et fait feu dès qu’il est à portée : aucune position ne permet à un laser de 850 ou 900 unités de portée de le toucher impunément. Un pilote qui ne l’a pas touché depuis 10 secondes est lâché quand il est à plus de **2 500 unités** (le pilote lui a tiré dessus au cours de la dernière minute), ou quand le Goombah a parcouru **3 000 unités** depuis le début de la poursuite, et il ne reprend pas ce pilote en chasse pendant 8 secondes, à moins que celui-ci ne lui tire de nouveau dessus (voir [Combat](/wiki/03-Mechanics/Combat.md)).
 - Laissé tranquille pendant **30 secondes**, il répare sa coque à raison de 2 % de son maximum par seconde (une coque pleine en 50 secondes environ). Son bouclier se recharge comme celui de tout alien, à partir de 15 secondes après le dernier coup. Un Goombah attaqué de loin puis abandonné ne reste donc pas affaibli pour que le pilote suivant l’achève.
-- Il ne combat personne qui ne l’a pas touché, et n’appelle jamais d’autre alien à la rescousse.
+- Il ne combat personne qui ne l’a pas touché.
 - Les [pilotes de corporation](/wiki/03-Mechanics/Company-Pilots.md) se tiennent à l’écart d’un combat contre un Goombah : ils ne peuvent pas le gagner.
 
 ## Récompenses {#rewards}
 
-- **Crédits** : 15 000
-- **Thulium** : 75
-- **Expérience (XP)** : 3 000
-- **Honneur** : 24
+- **Crédits** : {{guide:spoils.pay.credits@Goombah#1}}
+- **Thulium** : {{guide:spoils.pay.thulium@Goombah#1}}
+- **Expérience (XP)** : {{guide:spoils.pay.experience@Goombah#1}}
+- **Honneur** : {{guide:spoils.pay.honor@Goombah#1}}
 - **Points PvE par élimination** : 7
 - **Recharge du bouclier** : 100 par seconde (délai de 15 s)
 
@@ -37,14 +37,11 @@ Le butin tombe dans une [cargaison](/wiki/03-Mechanics/Cargo.md) à l’endroit 
 
 À quoi sert chaque objet, et où le trouver ailleurs : [Ressources](/wiki/06-Items/Resources.md).
 
-- **Ship Fragment** :
-  - 100 % de chances (min. : 3, max. : 3)
-  - 25 % de chances (min. : 1, max. : 1)
-- **Cataclysite** : 100 % de chances (min. : 4, max. : 4)
-- **Quorvium** : 100 % de chances (min. : 2, max. : 4)
-- **Reinforced Hull Plate** : 60 % de chances (min. : 1, max. : 1)
-- **Power Core** : 25 % de chances (min. : 1, max. : 1)
-- **Echo Shard** : 10 % de chances (min. : 1, max. : 1)
+- {{guide:spoils.box@Goombah#1;Goombah#2;Goombah#3;Goombah#4}}
+
+## Capacités spéciales {#special-abilities}
+
+Certains aliens de cette espèce portent une **capacité spéciale** : une chose qu’ils font une seule fois, quand leur coque est à moitié détruite. Rien ne se voit avant qu’elle commence. [Capacités spéciales](/wiki/03-Mechanics/Special-Abilities.md) dit ce que fait chaque capacité et comment y répondre.
 
 ## Histoire {#lore}
 

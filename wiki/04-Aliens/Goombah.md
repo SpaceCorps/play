@@ -4,10 +4,10 @@ Goombahs are formidable cruiser-class alien vessels. They possess high shield ca
 
 ## Stats
 
-- **Hitpoints (HP)**: 32,000
-- **Shield**: 48,000
-- **Damage**: 3,000
-- **Speed**: 180
+- **Hitpoints (HP)**: {{guide:vitals.hull@Goombah#1}}
+- **Shield**: {{guide:vitals.shield@Goombah#1}}
+- **Damage**: {{guide:vitals.dps@Goombah#1}}
+- **Speed**: {{guide:vitals.speed@Goombah#1;Goombah#2;Goombah#3;Goombah#4}}
 - **Attack Range**: 800
 - **Behavior**: Passive
 
@@ -17,15 +17,15 @@ Goombahs are formidable cruiser-class alien vessels. They possess high shield ca
 - It gives up **10 seconds** after anybody last hit it, and roams again.
 - While a pilot keeps hitting it, it flies at that pilot whenever the pilot is beyond its weapon range (800 units) and fires once it is in range: there is no spot from where a laser of 850 or 900 units can hit it for free. A pilot it has not been hit by for 10 seconds is let go of when more than **2,500 units** away (the pilot shot it in the last minute), or when it has flown **3,000 units** from where the chase began, and it does not go after that pilot again for 8 seconds unless the pilot shoots it once more (see [Combat](/wiki/03-Mechanics/Combat.md)).
 - Left alone for **30 seconds** its hull mends, 2% of its maximum a second (a full hull in about 50 seconds). Its shield recharges as any alien's does, from 15 seconds after the last hit. A Goombah shot at from afar and abandoned is therefore not there for the next pilot to finish.
-- It fights nobody it was not hit by, and never calls another alien to its side.
+- It fights nobody it was not hit by.
 - [Company pilots](/wiki/03-Mechanics/Company-Pilots.md) keep out of a fight with one: they cannot win it.
 
 ## Rewards
 
-- **Credits**: 15,000
-- **Thulium**: 75
-- **Experience (XP)**: 3,000
-- **Honor**: 24
+- **Credits**: {{guide:spoils.pay.credits@Goombah#1}}
+- **Thulium**: {{guide:spoils.pay.thulium@Goombah#1}}
+- **Experience (XP)**: {{guide:spoils.pay.experience@Goombah#1}}
+- **Honor**: {{guide:spoils.pay.honor@Goombah#1}}
 - **PvE points per kill**: 7
 - **Shield Recharge**: 100 per second (15s delay)
 
@@ -35,14 +35,11 @@ Dropped as a [cargo crate](/wiki/03-Mechanics/Cargo.md) where it blows up, the k
 
 What each drop is for, and where else to find it: [Resources](/wiki/06-Items/Resources.md).
 
-- **Ship Fragment**:
-  - 100% chance (Min: 3, Max: 3)
-  - 25% chance (Min: 1, Max: 1)
-- **Cataclysite**: 100% chance (Min: 4, Max: 4)
-- **Quorvium**: 100% chance (Min: 2, Max: 4)
-- **Reinforced Hull Plate**: 60% chance (Min: 1, Max: 1)
-- **Power Core**: 25% chance (Min: 1, Max: 1)
-- **Echo Shard**: 10% chance (Min: 1, Max: 1)
+- {{guide:spoils.box@Goombah#1;Goombah#2;Goombah#3;Goombah#4}}
+
+## Special Abilities
+
+Some aliens of this kind carry a **special ability**: one thing they do, once, when their hull is half gone. Nothing shows before it starts. [Special Abilities](/wiki/03-Mechanics/Special-Abilities.md) says what each ability does and how to answer it.
 
 ## Lore
 

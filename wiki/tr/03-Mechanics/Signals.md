@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3ee3985e3f9606e1 -->
+<!-- wiki-i18n source: 8dbe8dc047c34c1c -->
 <!-- wiki-i18n title: Sinyaller -->
 # Sinyaller {#the-signals}
 
@@ -13,7 +13,7 @@ Mission Control tuhaf bir ses yakalıyor: **Parazit**. Parazit yirmi görev gön
 - **Sonsuz kullanım.** Hiçbir şey onu tüketmez: harcanmaz, aşınmaz ve hiçbir tarif onu istemez.
 - **Yalnızca bir tane.** Tek bir Dormant Keycard taşıyabilirsin. Bir ödül alma işlemi sana ikincisini verecek olsa da işlem yine çalışır ve geri kalan her şeyi öder; yalnızca bir kart daha almazsın.
 - **Hep senin.** Açık Artırma'da satılamaz, Hangar'da atılamaz ve bir [sıfırlama](/wiki/03-Mechanics/Wipe-Timeline.md) onu senden almaz.
-- **Henüz kullanımı yok.** Bugün hiçbir şeyi açmaz. Sonraki bir güncelleme onu yeni bir haritaya erişim vermek için kullanacak; o harita henüz oyunda değil. O zamana kadar kartını sakla.
+- **Void Gate'i açar.** Onu taşıyan bir pilot, `DS-4`'teki kendi dünyasının açık Void Gate'ini etkinleştirip yakınındaki herkesi [Deep Void](/wiki/03-Mechanics/Deep-Void.md)'e götürebilir. Etkinleştirmek 5.000 Thulium tutar; kartın kendisi asla harcanmaz.
 - **Son sinyali zaten aldın mı?** Kart ortaya çıkmadan önce son sinyali almış olan bir pilot (0.5.10 güncellemesi), sunucu güncellendiğinde kartı bir kez, kendiliğinden aldı.
 
 ## Sinyaller nasıl çalışır {#how-the-signals-work}

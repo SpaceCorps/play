@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4e3f459fc0966372 -->
+<!-- wiki-i18n source: 98e91b2bd1dede81 -->
 <!-- wiki-i18n title: Tesseract 虫群 -->
 # Tesseract 虫群 {#tesseract-swarm}
 
@@ -13,13 +13,13 @@ Tesseract 虫群是一艘巨大的母舰 **Tesseract**，以及它在被击中�
 - **数量**：每个世界一个
 - **出现**：从赛季第 4 天起，直到重置（Beta 和 Gamma：从赛季第 1 天起）
 - **头领**：Tesseract
-- **驻地**：星区地图上点 25,900, 6,100 周围 2,500 单位以内
+- **驻地**：星区地图上点 25,900, 11,900 周围 2,500 单位以内
 - **再生**：Alpha 中每秒 125,000 HP，先船体后护盾，在 5 秒 没有受到伤害之后开始
 - **随从**：最多 100 × Facet，头领被击中期间每 5 秒 再来 20 个
 - **随从出现条件**：仅在头领最近 5 秒 内被击中时，出现在距它 400 单位以内
 - **追猎者**：每个 Facet 都在头领周围、距头领 3,600 单位以内自行飞行，不追击任何人。只要击中过头领的飞行员进入射程，它就向其中最近的一个开火。没有目标时，它会继续绕着头领飞行，并在最后一次命中后 20 秒 离去
 - **头领被击毁后**：头领被击毁后 1 分钟，随从会离开，即使它们正在攻击
-- **回归**：头领 被击毁 30 分钟 后， 在同一星区
+- **回归**：头领 被击毁 {{guide:vitals.respawn@Tesseract#1;Tesseract#2;Tesseract#3}} 后， 在同一星区
 - **通知**：该星区的飞行员会被告知头领何时出现、何时被击毁。这些是系统行：它们显示在聊天的**系统**标签页中，带有未读计数，不会出现在**全球**或**本地**标签页里。击杀播报会写明获得这次击杀功劳的飞行员。
 
 <!-- tesseract-glance:end -->
@@ -40,6 +40,17 @@ Tesseract 虫群是一艘巨大的母舰 **Tesseract**，以及它在被击中�
 - **危险星区是 PvP。** 对手可能在战斗中途攻击你们的队伍。残骸旁没有货箱可供他守候：战利品是击杀付给的每名飞行员各自的一个[私人货箱](/wiki/03-Mechanics/Cargo.md#private-boxes)，只有那名飞行员看得见、拿得到。别一个人去。
 - **Tesseract 会回来。** 过了*一览*列表给出的时间，它会满状态地回到原来的位置。
 
+## 首领的三个阶段 {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+这场战斗有三个阶段（[运作方式](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)）；每个只发生一次，完全修复后会从头开始。
+
+- **低于三分之二时**: 在通常数量之外，一次再来 20 个Facets。
+
+<!-- mob-ladder:end -->
+
 ## 奖励与掉落 {#rewards-and-drops}
 
 Tesseract 的奖励与这场战斗的分量相称：相当于许多 Crystalys 的总和，而就它承受的伤害而言，比报酬最高的外星人 Crystalys 更高。奖励按伤害在与它战斗的飞行员之间分配（[Boss 击杀如何支付奖励](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)）。没有给伤害最多者的货箱。击杀付给的每名飞行员都会得到自己的一个[私人货箱](/wiki/03-Mechanics/Cargo.md#private-boxes)，只有他自己看得见、拿得到，保留 10 分钟，里面有 Reinforced Hull Plate、Velkonite Reinforced Plate、Orvium Reinforced Plate、Power Core、Ancient Control Unit 和 Dark Matter。它按他的伤害份额掷出，和 [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) 的战利品一样：造成五分之一伤害的人，大约得到表中数量的五分之一；在队伍里，每名飞行员按奖励的分配方式，得到队伍份额中属于自己的部分。Dark Matter 对每名飞行员有上限：一次击杀他最多得到 5 个，无论他的份额多大（在队伍里先划出每名飞行员的部分，上限按每名飞行员各自计算），超出上限的部分会丢失，不会分给别人。Facet 支付的信用点、Thulium、XP 和荣誉与 [Phantasm](/wiki/04-Aliens/Phantasm.md) 相同，它的击杀也会被计入（统计、成就，以及无人机和 P.E.T. 的经验），但不掉落东西，也不增加 PvE 点数。
@@ -57,30 +68,24 @@ Tesseract 的奖励与这场战斗的分量相称：相当于许多 Crystalys �
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 船体 | 1,600,000 | 2,400,000 | 3,200,000 |
-| 护盾 | 1,200,000 | 1,800,000 | 2,400,000 |
+| 船体 | {{guide:vitals.hull@Tesseract#1}} | {{guide:vitals.hull@Tesseract#2}} | {{guide:vitals.hull@Tesseract#3}} |
+| 护盾 | {{guide:vitals.shield@Tesseract#1}} | {{guide:vitals.shield@Tesseract#2}} | {{guide:vitals.shield@Tesseract#3}} |
 | 激光伤害 （每秒一轮齐射） | 无 | 无 | 无 |
-| 速度 | 30 | 30 | 30 |
+| 速度 | {{guide:vitals.speed@Tesseract#1}} | {{guide:vitals.speed@Tesseract#2}} | {{guide:vitals.speed@Tesseract#3}} |
 | 激光射程 | – | – | – |
 | 仇恨范围 | 被攻击时 | 被攻击时 | 被攻击时 |
 | 每秒修复（5 秒 没有受到伤害之后；先船体后护盾） | 125,000 | 187,500 | 250,000 |
-| 信用点 | 900,000 | 1,800,000 | 2,700,000 |
-| Thulium | 2,400 | 4,800 | 7,200 |
-| 经验值（XP） | 144,000 | 288,000 | 432,000 |
-| 荣誉 | 624 | 1,248 | 1,872 |
+| 信用点 | {{guide:spoils.pay.credits@Tesseract#1}} | {{guide:spoils.pay.credits@Tesseract#2}} | {{guide:spoils.pay.credits@Tesseract#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Tesseract#1}} | {{guide:spoils.pay.thulium@Tesseract#2}} | {{guide:spoils.pay.thulium@Tesseract#3}} |
+| 经验值（XP） | {{guide:spoils.pay.experience@Tesseract#1}} | {{guide:spoils.pay.experience@Tesseract#2}} | {{guide:spoils.pay.experience@Tesseract#3}} |
+| 荣誉 | {{guide:spoils.pay.honor@Tesseract#1}} | {{guide:spoils.pay.honor@Tesseract#2}} | {{guide:spoils.pay.honor@Tesseract#3}} |
 | 每次击杀的 PvE 积分 | 42 | 42 | 42 |
 
 **击杀付给的每名飞行员的掉落**：每人一个货箱，只属于他，装有这些数量中他的份额。
 
-| 物品 | 几率 | 数量 |
-| :--- | ---: | ---: |
-| Reinforced Hull Plate | 100% | 3–10 |
-| Velkonite Reinforced Plate | 66% | 7–12 |
-| Orvium Reinforced Plate | 50% | 3–5 |
-| Power Core | 66% | 4–7 |
-| Ancient Control Unit | 100% | 1–4 |
-| Dark Matter | 100% | 10–20，每名飞行员最多 5 |
-| Heartshard | 5% | 1 |
+| 物品 |
+| :--- |
+| {{guide:spoils.box@Tesseract#1;Tesseract#2;Tesseract#3}} |
 
 ### Facet
 
@@ -88,16 +93,16 @@ Tesseract 的奖励与这场战斗的分量相称：相当于许多 Crystalys �
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 船体 | 20,000 | 30,000 | 40,000 |
-| 护盾 | 16,000 | 24,000 | 32,000 |
-| 激光伤害 （每秒一轮齐射） | 834 | 1,251 | 1,668 |
-| 速度 | 750 | 750 | 750 |
+| 船体 | {{guide:vitals.hull@Facet#1}} | {{guide:vitals.hull@Facet#2}} | {{guide:vitals.hull@Facet#3}} |
+| 护盾 | {{guide:vitals.shield@Facet#1}} | {{guide:vitals.shield@Facet#2}} | {{guide:vitals.shield@Facet#3}} |
+| 激光伤害 （每秒一轮齐射） | {{guide:vitals.dps@Facet#1}} | {{guide:vitals.dps@Facet#2}} | {{guide:vitals.dps@Facet#3}} |
+| 速度 | {{guide:vitals.speed@Facet#1}} | {{guide:vitals.speed@Facet#2}} | {{guide:vitals.speed@Facet#3}} |
 | 激光射程 | 600 | 600 | 600 |
 | 仇恨范围 | 被攻击时 | 被攻击时 | 被攻击时 |
-| 信用点 | 3,000 | 6,000 | 9,000 |
-| Thulium | 12 | 24 | 36 |
-| 经验值（XP） | 300 | 600 | 900 |
-| 荣誉 | 6 | 12 | 18 |
+| 信用点 | {{guide:spoils.pay.credits@Facet#1}} | {{guide:spoils.pay.credits@Facet#2}} | {{guide:spoils.pay.credits@Facet#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Facet#1}} | {{guide:spoils.pay.thulium@Facet#2}} | {{guide:spoils.pay.thulium@Facet#3}} |
+| 经验值（XP） | {{guide:spoils.pay.experience@Facet#1}} | {{guide:spoils.pay.experience@Facet#2}} | {{guide:spoils.pay.experience@Facet#3}} |
+| 荣誉 | {{guide:spoils.pay.honor@Facet#1}} | {{guide:spoils.pay.honor@Facet#2}} | {{guide:spoils.pay.honor@Facet#3}} |
 | 每次击杀的 PvE 积分 | 0 | 0 | 0 |
 
 **掉落**：无。击杀只支付信用点、Thulium、经验值和荣誉。

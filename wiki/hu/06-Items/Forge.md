@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0684c16b2f2d0dbe -->
+<!-- wiki-i18n source: d6376f646044a759 -->
 <!-- wiki-i18n title: Kovácsműhely -->
 # A Kovácsműhely {#the-forge}
 
@@ -98,9 +98,9 @@ Egy darab mind a négy foglalatának behangolása 150 Echo Shardba kerül (10 + 
 | Szólókapu: Delta Siege | 29 | 44 |
 | Szólókapu: Omega Vault | 34 | 54 |
 | Szólókapu: Davidski's Nightmare | 34 | 54 |
-| Klánkazamata: 1. szint | 12 | 5 |
-| Klánkazamata: 2. szint | 8 | 6 |
-| Klánkazamata: 3. szint | 8 | 7 |
+| Klánkazamata: 1. szint | 24 | 10 |
+| Klánkazamata: 2. szint | 16 | 12 |
+| Klánkazamata: 3. szint | 16 | 14 |
 
 - A **szólókapuk** minden teljesítéskor fizetik a shardjaikat, a **klánkazamaták** egy szint minden fizetett teljesítésekor.
 - A **Heartshardok** az egyes kapuk és kazamataszintek első teljesítésével járnak egy évadban (1), és 5% eséllyel még 1 jár minden teljesítéskor. A ritka NPC-k is ejtik őket: Davidski 10%, Dormant Force és Tesseract 5%. A többit az [Erőforrások](/wiki/06-Items/Resources.md#heartshard) oldal mutatja.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0684c16b2f2d0dbe -->
+<!-- wiki-i18n source: d6376f646044a759 -->
 <!-- wiki-i18n title: Schmiede -->
 # Die Schmiede {#the-forge}
 
@@ -98,9 +98,9 @@ Alle vier Sockel eines Stücks abzustimmen kostet 150 Echo Shards (10 + 20 + 40 
 | Solo-Tor: Delta Siege | 29 | 44 |
 | Solo-Tor: Omega Vault | 34 | 54 |
 | Solo-Tor: Davidski's Nightmare | 34 | 54 |
-| Clan-Dungeon: Stufe 1 | 12 | 5 |
-| Clan-Dungeon: Stufe 2 | 8 | 6 |
-| Clan-Dungeon: Stufe 3 | 8 | 7 |
+| Clan-Dungeon: Stufe 1 | 24 | 10 |
+| Clan-Dungeon: Stufe 2 | 16 | 12 |
+| Clan-Dungeon: Stufe 3 | 16 | 14 |
 
 - **Solo-Tore** zahlen ihre Shards bei jedem Abschluss, **Clan-Dungeons** bei jedem bezahlten Abschluss einer Stufe.
 - **Heartshards** gibt es beim ersten Abschluss jedes Tors und jeder Dungeon-Stufe in einer Saison (1) und mit 5 % Wahrscheinlichkeit 1 weiteren bei jedem Abschluss. Auch die seltenen NPCs droppen sie: 10 % bei Davidski, 5 % bei Dormant Force und bei Tesseract. Den Rest zeigt die Seite [Ressourcen](/wiki/06-Items/Resources.md#heartshard).

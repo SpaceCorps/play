@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 664f33363a18d973 -->
+<!-- wiki-i18n source: 3c07d568f3af3aab -->
 <!-- wiki-i18n title: Dormant Swamp -->
 # Dormant Swamp
 
 <!-- wiki-search: swamp; dormant swamp; base; turret; turrets; nike turret; laser turret; inert mass; unwakened; the unwakened; slumbering void; void; dormant lance; ds-4; 늪; 포탑; 포대 -->
 
-아주 오래전, 은하 한가운데에 고도로 발달한 문명이 살았습니다. 빛나는 보라색 결을 가진 보랏빛 도는 검은 결정으로 건물을 지었고, 아무도 모르는 이유로 무너졌습니다. **Dormant Swamp**는 그 전초기지로, `DS-4`의 왼쪽 위 모서리에 있습니다. 시즌 11일차부터 이곳이 깨어납니다. 중앙의 포대는 보이는 모든 함선을 쏘고, **Inert Mass**가 지키며, 가장 한가운데에서 **Unwakened**가 잠들어 있습니다. 파일럿이 **아직 찾아가서는 안 되는** 곳입니다. 은폐하면 Unwakened 앞까지 날아갈 수 있지만, 지금은 그곳에서 다른 것을 할 수 없습니다. 기지와 포대는 파괴할 수도, 들어갈 수도, 올라탈 수도, 거래할 수도 없습니다.
+아주 오래전, 은하 한가운데에 고도로 발달한 문명이 살았습니다. 빛나는 보라색 결을 가진 보랏빛 도는 검은 결정으로 건물을 지었고, 아무도 모르는 이유로 무너졌습니다. **Dormant Swamp**는 그 전초기지로, `DS-4`의 왼쪽 위 모서리에 있습니다. 시즌 11일차부터 이곳이 깨어납니다. 중앙의 포대는 보이는 모든 함선을 쏘고, **Inert Mass**가 지키며, 가장 한가운데에서 **Unwakened**가 잠들어 있습니다. 은폐하면 Unwakened 앞까지 날아갈 수 있습니다. [Deep Void](/wiki/03-Mechanics/Deep-Void.md)가 열린 뒤로 포대와 Unwakened는 파괴할 수 있으며, 시즌 첫 Unwakened 처치가 일어나면 그 월드의 Threshold가 열립니다. 기지 자체에는 들어갈 수도, 올라탈 수도, 거래할 수도 없습니다.
 
 늪은 11일차부터 [Dormant 무리](/wiki/05-Swarms/Dormant-Swarm.md)가 나타나는 곳이기도 하며, **Slumbering Void**가 그 주변을 순찰합니다. 같은 Void가 웨이브로 [거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md#the-slumbering-voids)에도 옵니다. 섹터는 [위험 섹터](/wiki/01-General/Danger-Sectors.md)에 있습니다.
 
@@ -17,7 +17,7 @@
 
 - **위치**: `DS-4`의 왼쪽 위 모서리: 중심은 5,000 / 5,000
 - **등장**: 시즌 11일차부터 초기화까지
-- **구역**: 중심에서 4,300 유닛: 포대가 닿는 가장 먼 거리이자, 아직 아무도 찾아가서는 안 되는 곳
+- **구역**: 중심에서 4,300 유닛: 포대가 닿는 가장 먼 거리
 - **통지**: 중심에서 4,800 유닛의 링을 넘은 함선에는 시스템 줄이 갑니다
 - **은폐**: 어떤 포대도 은폐 중인 함선이나 EMP 효과 안에 있는 함선을 보지 못합니다
 - **외계인**: Inert Mass 5기가 중심에서 2,400 유닛 이내에 머뭅니다. Unwakened는 중심에서 잠들어 있습니다. Slumbering Void 2기가 중심에서 4,600~6,500 유닛 사이를 순찰합니다.
@@ -28,7 +28,7 @@
 
 ## 포대 {#the-guns}
 
-늪의 포탑은 사거리 안에서 **볼 수 있는 가장 가까운 함선**을 쏘며, 다른 함선은 쏘지 않습니다. 구역은 그중 가장 멀리 닿는 포탑이 닿는 원입니다. 포탑은 어떤 의미로도 개체가 아닙니다. 체력이 없고, 표적으로 삼을 수 없으며, 쏘아도 아무 일도 일어나지 않습니다. 포탄은 진짜이며, 월드는 어느 외계인의 무기든 그렇게 하듯이 포탄의 피해량을 배율로 조정합니다.
+늪의 포탑은 사거리 안에서 **볼 수 있는 가장 가까운 함선**을 쏘며, 다른 함선은 쏘지 않습니다. 구역은 그중 가장 멀리 닿는 포탑이 닿는 원입니다. 포탑은 함선이 아니지만, Deep Void가 열린 뒤로 각 포탑에 체력이 있습니다. 포탑을 클릭하면 레이저로 쏠 수 있고, 근처에서 터진 로켓도 피해를 줍니다. 파괴된 포탑은 Unwakened가 돌아올 때까지 멈춰 있습니다. 포탄은 진짜이며, 월드는 어느 외계인의 무기든 그렇게 하듯이 포탄의 피해량을 배율로 조정합니다.
 
 <!-- swamp-guns:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
@@ -57,108 +57,104 @@
 
 ## 외계인 {#the-aliens}
 
-잃어버린 문명의 외계인 세 종이 이곳에 살며, 각자 고유한 수치를 가집니다. 무리의 보스처럼 **입힌 피해에 따라** 보상이 지급됩니다. [무리](/wiki/05-Swarms/Swarms.md#the-rules-of-every-swarm)에 나온 비율 이상을 입힌 모든 파일럿이 받으며, 상자는 가장 많은 피해를 입힌 파일럿에게 갑니다. 처치는 무리 함선의 처치처럼, 보상에 비례해 PvE 계급 포인트에 더해집니다([계급](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points)). 각자의 실드는 유지되는 동안 모든 공격의 80%를 흡수합니다([실드](/wiki/03-Mechanics/Shields.md)).
+잃어버린 문명의 외계인 세 종이 이곳에 살며, 각자 고유한 수치를 가집니다. 무리의 보스처럼 **입힌 피해에 따라** 보상이 지급됩니다. [무리](/wiki/05-Swarms/Swarms.md#the-rules-of-every-swarm)에 나온 비율 이상을 입힌 모든 파일럿이 받으며, 상자는 가장 많은 피해를 입힌 파일럿에게 갑니다. 처치는 무리 함선의 처치처럼, 보상에 비례해 PvE 계급 포인트에 더해집니다([계급](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points)). 각자의 실드는 유지되는 동안 모든 공격의 {{guide:vitals.absorbance@Slumbering Void;Inert Mass;The Unwakened}}를 흡수합니다([실드](/wiki/03-Mechanics/Shields.md)).
 
 - **Slumbering Void.** 날렵한 사냥꾼으로, 게임에서 가장 빠른 외계인입니다(Afterburner III를 쓴 Storm보다 빠릅니다). 일부는 늘 늪 주변을 순찰하고, 나머지는 웨이브로 굴착기에 옵니다. 공격적이며 보이는 가장 가까운 파일럿을 사냥하고, 은폐 중인 함선은 결코 보지 못합니다.
 - **Inert Mass.** 보랏빛 금이 간 죽은 거체로, 작은 정거장만 합니다. 늪 중심에서 정해진 거리 안에 머물며 지금은 그곳을 떠나지 않습니다. **Dormant Lance**를 쏩니다. 사거리가 매우 긴 유도 로켓으로, 함선이 은폐하거나, EMP 효과를 열거나, 안전 링에 들어가거나, 점프하거나, 죽을 때까지 따라갑니다. 어떤 함선보다 빠르므로 이런 끊기만이 통합니다. Dormant Lance의 진로에 있는 소행성은 그것을 막아 내며, Lance는 자신의 피해량으로 그 소행성을 손상시킵니다(그로 인해 보상을 받는 사람은 없습니다). 그래서 바위는 Inert Mass로부터 몇 발 동안만 몸을 지켜 줍니다.
-- **Unwakened.** 늪의 중심에서 잠든 모놀리스로, 어느 맵에서든 가장 큰 존재입니다. 너무 느려서 함선을 따라잡는 일이 없습니다. 아무것도 쏘지 않지만 오라 안의 함선은 **은폐 여부와 관계없이** 모두 탑니다. **면역**입니다. 사격과 로켓이 맞지만 아무 일도 일어나지 않으며, 대상 창에는 가득 찬 막대와 면역이라는 말이 표시됩니다. 이후의 이벤트에서 싸울 수 있게 됩니다. 아래의 보상은 기록되어 있을 뿐 아직 얻을 수 없습니다. 파일럿의 **방사선 기술**은 이 피해를 줄여 레벨 100에서는 0.40배가 됩니다.
+- **Unwakened.** 늪의 중심에서 잠든 모놀리스로, 어느 맵에서든 가장 큰 존재입니다. 너무 느려서 함선을 따라잡는 일이 없습니다. 아무것도 쏘지 않지만 오라 안의 함선은 **은폐 여부와 관계없이** 모두 탑니다. [Deep Void](/wiki/03-Mechanics/Deep-Void.md)가 열린 뒤로 파괴할 수 있습니다. 입힌 피해에 따라 보상이 지급되고, 죽은 지 하루 뒤에 돌아오며, 각 월드에서 시즌 첫 처치가 그 월드의 Threshold를 엽니다. 파일럿의 **방사선 기술**은 이 피해를 줄여 레벨 100에서는 0.40배가 됩니다.
 
 <!-- swamp-members:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
 
 ### Slumbering Void
 
-Slumbering Void 2기가 늪 중심에서 4,600~6,500 유닛 사이를 순찰합니다. 격파된 개체는 1시간 뒤에 돌아옵니다. 굴착기의 웨이브는 같은 외계인을 더 데려옵니다.
+Slumbering Void 2기가 늪 중심에서 4,600~6,500 유닛 사이를 순찰합니다. 격파된 개체는 {{guide:vitals.respawn@Slumbering Void}} 뒤에 돌아옵니다. 굴착기의 웨이브는 같은 외계인을 더 데려옵니다.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 선체 | 25,000 | 37,500 | 50,000 |
-| 실드 | 150,000 | 225,000 | 300,000 |
-| 실드 흡수율 | 80% | 80% | 80% |
-| 레이저 피해량(초당 일제 사격 1회) | 3,000 | 4,500 | 6,000 |
-| 속도 | 400 | 400 | 400 |
+| 선체 | {{guide:vitals.hull@Slumbering Void}} | {{guide:vitals.hull*1.5@Slumbering Void}} | {{guide:vitals.hull*2@Slumbering Void}} |
+| 실드 | {{guide:vitals.shield@Slumbering Void}} | {{guide:vitals.shield*1.5@Slumbering Void}} | {{guide:vitals.shield*2@Slumbering Void}} |
+| 실드 흡수율 | {{guide:vitals.absorbance@Slumbering Void}} | {{guide:vitals.absorbance@Slumbering Void}} | {{guide:vitals.absorbance@Slumbering Void}} |
+| 레이저 피해량(초당 일제 사격 1회) | {{guide:vitals.dps@Slumbering Void}} | {{guide:vitals.dps*1.5@Slumbering Void}} | {{guide:vitals.dps*2@Slumbering Void}} |
+| 속도 | {{guide:vitals.speed@Slumbering Void}} | {{guide:vitals.speed@Slumbering Void}} | {{guide:vitals.speed@Slumbering Void}} |
 | 레이저 사거리 | 800 | 800 | 800 |
-| 어그로 반경 | 2,500 | 2,500 | 2,500 |
-| 크레딧 | 23,000 | 46,000 | 69,000 |
-| Thulium | 60 | 120 | 180 |
-| 경험치(XP) | 3,600 | 7,200 | 10,800 |
-| 명예 | 16 | 32 | 48 |
+| 어그로 반경 | {{guide:vitals.aggro@Slumbering Void}} | {{guide:vitals.aggro@Slumbering Void}} | {{guide:vitals.aggro@Slumbering Void}} |
+| 크레딧 | {{guide:spoils.pay.credits@Slumbering Void}} | {{guide:spoils.pay.credits*2@Slumbering Void}} | {{guide:spoils.pay.credits*3@Slumbering Void}} |
+| Thulium | {{guide:spoils.pay.thulium@Slumbering Void}} | {{guide:spoils.pay.thulium*2@Slumbering Void}} | {{guide:spoils.pay.thulium*3@Slumbering Void}} |
+| 경험치(XP) | {{guide:spoils.pay.experience@Slumbering Void}} | {{guide:spoils.pay.experience*2@Slumbering Void}} | {{guide:spoils.pay.experience*3@Slumbering Void}} |
+| 명예 | {{guide:spoils.pay.honor@Slumbering Void}} | {{guide:spoils.pay.honor*2@Slumbering Void}} | {{guide:spoils.pay.honor*3@Slumbering Void}} |
 | 처치당 PvE 포인트 | 10 | 10 | 10 |
 
 **전리품**: 가장 많은 피해를 입힌 파일럿을 위한 상자 하나.
 
-| 아이템 | 확률 | 수량 |
-| :--- | ---: | ---: |
-| Ultra Core와 Experimental Fusion Core 중 무작위 하나 | 60% | 30–60 |
-| 4종의 영웅 등급 [로켓](/wiki/06-Items/Rockets.md) 중 무작위 하나 | 40% | 1–3 |
+| 아이템 |
+| :--- |
+| {{guide:spoils.box@Slumbering Void}} |
 
 ### Inert Mass
 
-Inert Mass 5기가 중심에서 2,400 유닛 이내에 서 있습니다. 격파된 개체는 1시간 뒤에 돌아옵니다. 6초마다 보이는 가장 가까운 함선에 유도 [Dormant Lance](/wiki/06-Items/Rockets.md#the-craft-only-rockets)를 쏩니다. 속도 750, 비행 거리 5,250 유닛, 관통 40%.
+Inert Mass 5기가 중심에서 2,400 유닛 이내에 서 있습니다. 격파된 개체는 {{guide:vitals.respawn@Inert Mass}} 뒤에 돌아옵니다. 6초마다 보이는 가장 가까운 함선에 유도 [Dormant Lance](/wiki/06-Items/Rockets.md#the-craft-only-rockets)를 쏩니다. 속도 750, 비행 거리 5,250 유닛, 관통 40%.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 선체 | 250,000 | 375,000 | 500,000 |
-| 실드 | 100,000 | 150,000 | 200,000 |
-| 실드 흡수율 | 80% | 80% | 80% |
-| Dormant Lance 한 발의 피해량 | 5,000–8,000 | 7,500–12,000 | 10,000–16,000 |
-| 속도 | 60 | 60 | 60 |
+| 선체 | {{guide:vitals.hull@Inert Mass}} | {{guide:vitals.hull*1.5@Inert Mass}} | {{guide:vitals.hull*2@Inert Mass}} |
+| 실드 | {{guide:vitals.shield@Inert Mass}} | {{guide:vitals.shield*1.5@Inert Mass}} | {{guide:vitals.shield*2@Inert Mass}} |
+| 실드 흡수율 | {{guide:vitals.absorbance@Inert Mass}} | {{guide:vitals.absorbance@Inert Mass}} | {{guide:vitals.absorbance@Inert Mass}} |
+| Dormant Lance 한 발의 피해량 | {{guide:behaviour.ability:rocket.damageMin@Inert Mass}}–{{guide:behaviour.ability:rocket.damage@Inert Mass}} | {{guide:behaviour.ability:rocket.damageMin*1.5@Inert Mass}}–{{guide:behaviour.ability:rocket.damage*1.5@Inert Mass}} | {{guide:behaviour.ability:rocket.damageMin*2@Inert Mass}}–{{guide:behaviour.ability:rocket.damage*2@Inert Mass}} |
+| 속도 | {{guide:vitals.speed@Inert Mass}} | {{guide:vitals.speed@Inert Mass}} | {{guide:vitals.speed@Inert Mass}} |
 | 로켓 사거리 | 5,000 | 5,000 | 5,000 |
-| 어그로 반경 | 5,000 | 5,000 | 5,000 |
-| 크레딧 | 125,000 | 250,000 | 375,000 |
-| Thulium | 335 | 670 | 1,005 |
-| 경험치(XP) | 20,200 | 40,400 | 60,600 |
-| 명예 | 88 | 176 | 264 |
+| 어그로 반경 | {{guide:vitals.aggro@Inert Mass}} | {{guide:vitals.aggro@Inert Mass}} | {{guide:vitals.aggro@Inert Mass}} |
+| 크레딧 | {{guide:spoils.pay.credits@Inert Mass}} | {{guide:spoils.pay.credits*2@Inert Mass}} | {{guide:spoils.pay.credits*3@Inert Mass}} |
+| Thulium | {{guide:spoils.pay.thulium@Inert Mass}} | {{guide:spoils.pay.thulium*2@Inert Mass}} | {{guide:spoils.pay.thulium*3@Inert Mass}} |
+| 경험치(XP) | {{guide:spoils.pay.experience@Inert Mass}} | {{guide:spoils.pay.experience*2@Inert Mass}} | {{guide:spoils.pay.experience*3@Inert Mass}} |
+| 명예 | {{guide:spoils.pay.honor@Inert Mass}} | {{guide:spoils.pay.honor*2@Inert Mass}} | {{guide:spoils.pay.honor*3@Inert Mass}} |
 | 처치당 PvE 포인트 | 15 | 15 | 15 |
 
 **전리품**: 가장 많은 피해를 입힌 파일럿을 위한 상자 하나.
 
-| 아이템 | 확률 | 수량 |
-| :--- | ---: | ---: |
-| Ultra Core와 Experimental Fusion Core(균등 분배) | 100% | 총 400–800 |
-| 4종의 영웅 등급 [로켓](/wiki/06-Items/Rockets.md) 중 무작위 하나 | 100% | 20–40 |
-| N.I.K.E. | 5% | 1–2 |
-| Dark Matter | 5% | 1–3 |
-| Ancient Control Unit | 10% | 1 |
-| Power Core | 25% | 1–2 |
+| 아이템 |
+| :--- |
+| {{guide:spoils.box@Inert Mass}} |
 
 ### The Unwakened
 
-늪의 중심에 하나뿐이며 다른 곳에는 없습니다. 격파되면 24시간 뒤에 돌아옵니다. 이후의 퀘스트가 표식을 끌 때까지 **면역**입니다. 사격과 로켓이 맞지만 아무 일도 일어나지 않습니다. 보상은 기록되어 있을 뿐 아직 얻을 수 없습니다.
+늪의 중심에 하나뿐이며 다른 곳에는 없습니다. 격파되면 {{guide:vitals.respawn@The Unwakened}} 뒤에 돌아옵니다. Deep Void가 열린 뒤로 파괴할 수 있으며, 이곳의 다른 외계인처럼 입힌 피해에 따라 보상이 지급됩니다.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 선체 | 10,000,000 | 15,000,000 | 20,000,000 |
-| 실드 | 10,000,000 | 15,000,000 | 20,000,000 |
-| 실드 흡수율 | 80% | 80% | 80% |
-| 오라 초당 피해(안의 모든 함선에게) | 75,000 | 112,500 | 150,000 |
+| 선체 | {{guide:vitals.hull@The Unwakened}} | {{guide:vitals.hull*1.5@The Unwakened}} | {{guide:vitals.hull*2@The Unwakened}} |
+| 실드 | {{guide:vitals.shield@The Unwakened}} | {{guide:vitals.shield*1.5@The Unwakened}} | {{guide:vitals.shield*2@The Unwakened}} |
+| 실드 흡수율 | {{guide:vitals.absorbance@The Unwakened}} | {{guide:vitals.absorbance@The Unwakened}} | {{guide:vitals.absorbance@The Unwakened}} |
+| 오라 초당 피해(안의 모든 함선에게) | {{guide:behaviour.ability:aura.damagePerSecond@The Unwakened}} | {{guide:behaviour.ability:aura.damagePerSecond*1.5@The Unwakened}} | {{guide:behaviour.ability:aura.damagePerSecond*2@The Unwakened}} |
 | 오라 반경 | 700 | 700 | 700 |
-| 속도 | 10 | 10 | 10 |
-| 어그로 반경 | 3,000 | 3,000 | 3,000 |
-| 크레딧 | 7,500,000 | 15,000,000 | 22,500,000 |
-| Thulium | 20,000 | 40,000 | 60,000 |
-| 경험치(XP) | 1,200,000 | 2,400,000 | 3,600,000 |
-| 명예 | 5,200 | 10,400 | 15,600 |
+| 속도 | {{guide:vitals.speed@The Unwakened}} | {{guide:vitals.speed@The Unwakened}} | {{guide:vitals.speed@The Unwakened}} |
+| 어그로 반경 | {{guide:vitals.aggro@The Unwakened}} | {{guide:vitals.aggro@The Unwakened}} | {{guide:vitals.aggro@The Unwakened}} |
+| 크레딧 | {{guide:spoils.pay.credits@The Unwakened}} | {{guide:spoils.pay.credits*2@The Unwakened}} | {{guide:spoils.pay.credits*3@The Unwakened}} |
+| Thulium | {{guide:spoils.pay.thulium@The Unwakened}} | {{guide:spoils.pay.thulium*2@The Unwakened}} | {{guide:spoils.pay.thulium*3@The Unwakened}} |
+| 경험치(XP) | {{guide:spoils.pay.experience@The Unwakened}} | {{guide:spoils.pay.experience*2@The Unwakened}} | {{guide:spoils.pay.experience*3@The Unwakened}} |
+| 명예 | {{guide:spoils.pay.honor@The Unwakened}} | {{guide:spoils.pay.honor*2@The Unwakened}} | {{guide:spoils.pay.honor*3@The Unwakened}} |
 | 처치당 PvE 포인트 | 112 | 112 | 112 |
 
 **전리품**: 가장 많은 피해를 입힌 파일럿을 위한 상자 하나.
 
-| 아이템 | 확률 | 수량 |
-| :--- | ---: | ---: |
-| Ultra Core와 Experimental Fusion Core(균등 분배) | 100% | 총 10,000–15,000 |
-| 4종의 영웅 등급 [로켓](/wiki/06-Items/Rockets.md) 중 무작위 하나 | 100% | 500–800 |
-| N.I.K.E. | 100% | 20–30 |
-| N.U.K.E. | 100% | 5–10 |
-| Dark Matter | 100% | 40–60 |
-| Ancient Control Unit | 100% | 10–20 |
-| Power Core | 100% | 100–200 |
+| 아이템 |
+| :--- |
+| {{guide:spoils.box@The Unwakened}} |
 
 <!-- swamp-members:end -->
 
+## Deep Void 이후 {#with-the-deep-void}
+
+Deep Void로 이곳에서 바뀐 점을 요약하면 다음과 같습니다.
+
+- **Unwakened를 파괴할 수 있습니다.** 더 이상 무적이 아닙니다. 이곳의 다른 외계인처럼 입힌 피해에 따라 보상이 지급되며, 죽은 지 하루 뒤에 돌아옵니다.
+- **포대를 파괴할 수 있습니다.** 포대 3기(N.I.K.E.와 N.U.K.E.를 모두 쏘는 로켓 포탑 1기와 레이저 포탑 2기) 모두 이제 내구도가 있으며, 레이저와 로켓으로 피해를 줄 수 있습니다. 파괴된 포대는 Unwakened가 돌아올 때까지 멈춰 있습니다.
+- **첫 처치가 Threshold를 엽니다.** 각 월드에서 시즌 첫 Unwakened 처치가 일어나면 `DS-4`의 반대쪽 구석에 그 월드의 Threshold가 열리고, 그곳에서 [Deep Void](/wiki/03-Mechanics/Deep-Void.md)가 시작됩니다.
+
 ## 여기서 할 수 있는 일 {#what-to-do-here}
 
-- **보기만 하고 건드리지 마세요.** 늪은 나중을 위한 곳입니다. 은폐 없이 닿을 수 있는 것은 구역 밖에 있습니다. 구역 둘레의 링을 도는 순찰 Void가 늪의 첫 방어선이며, 그룹이 포대 없이 싸울 수 있는 곳입니다.
-- **Void는 관통으로 상대하세요.** Void의 큰 실드는 공격의 80%를 흡수하지만 거의 의미가 없습니다. 그 뒤의 선체가 작기 때문입니다. 레이저의 실드 관통이 높을수록 빨리 쓰러집니다([레이저와 탄약](/wiki/06-Items/Lasers.md)).
+- **첫 처치가 길을 엽니다.** 시즌 첫 Unwakened 처치는 그 월드의 Threshold를 열고, 그와 함께 [Deep Void](/wiki/03-Mechanics/Deep-Void.md)로 가는 길을 엽니다. 구역 안에서는 포대가 함선을 몇 초 만에 파괴합니다. 구역 밖에서는 구역 둘레의 링을 도는 순찰 Void가 늪의 첫 방어선이며, 그룹이 포대 없이 싸울 수 있는 곳입니다.
+- **Void는 관통으로 상대하세요.** Void의 큰 실드는 공격의 {{guide:vitals.absorbance@Slumbering Void;Inert Mass;The Unwakened}}를 흡수하지만 거의 의미가 없습니다. 그 뒤의 선체가 작기 때문입니다. 레이저의 실드 관통이 높을수록 빨리 쓰러집니다([레이저와 탄약](/wiki/06-Items/Lasers.md)).
 - **Lance를 피하세요.** Inert Mass는 멀리까지 보고, Lance는 따돌릴 수 없습니다. 은폐, EMP, 안전 링, 점프로 추적을 끊거나 사거리 밖으로 나가세요. Mass는 가장 강한 함선의 큰 그룹에게도 긴 싸움입니다.
 - **Dormant 무리**는 이제 구역 바로 바깥에 나타나므로, 그룹은 포대 없이 기다릴 수 있습니다. [Dormant 무리](/wiki/05-Swarms/Dormant-Swarm.md)를 보세요.
 

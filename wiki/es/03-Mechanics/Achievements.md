@@ -1,15 +1,15 @@
-<!-- wiki-i18n source: 53a080132ff6f6d9 -->
+<!-- wiki-i18n source: aebf7c489ef3ed62 -->
 <!-- wiki-i18n title: Logros -->
 # Logros {#achievements}
 
-Los logros son las metas de toda la carrera de un piloto: destruir a tu primer alienígena, alcanzar el nivel 21, tener mil millones de créditos, sobrevivir a un reinicio. El juego los cuenta por ti. Hay **50**, repartidos en **8** grupos y **5** categorías. Cada uno paga **una vez por cuenta, para siempre**: créditos por todos y, por la mayoría, un **título** que llevar junto a tu nombre. Un reinicio nunca te quita un logro, su recompensa ni su título.
+Los logros son las metas de toda la carrera de un piloto: destruir a tu primer alienígena, alcanzar el nivel 21, tener mil millones de créditos, sobrevivir a un reinicio. El juego los cuenta por ti. Hay **65**, repartidos en **8** grupos y **5** categorías. Cada uno paga **una vez por cuenta, para siempre**: créditos por todos y, por la mayoría, un **título** que llevar junto a tu nombre. Un reinicio nunca te quita un logro, su recompensa ni su título.
 
 **En un minuto**
 
 - Abre **Comunidad › Logros** en la estación para ver cada meta, cuánto llevas y qué paga.
 - La categoría (Común, Poco común, Raro, Épico o Legendario) fija los créditos: cuanto más difícil es la meta, más alta es la categoría.
 - Cobras en el momento en que alcanzas una meta, en vuelo o en la estación. Una tarjeta muestra el logro y su recompensa, y el Registro de juego guarda una línea.
-- **5** de los 50 están ocultos: la página los muestra como tarjetas cerradas hasta que los desbloqueas. Cuentan entre los 50 y aquí no se nombran.
+- **5** de los 65 están ocultos: la página los muestra como tarjetas cerradas hasta que los desbloqueas. Cuentan entre los 65 y aquí no se nombran.
 - En la versión de Steam tus logros también aparecen en tu perfil de Steam, una vez que hayas vinculado tu cuenta (mira más abajo).
 
 ## Categorías y recompensas {#tiers-and-rewards}
@@ -19,16 +19,16 @@ Las cinco categorías pagan lo mismo por cada logro que contienen, una sola vez.
 | Categoría | Logros | Créditos por logro |
 | :--- | ---: | ---: |
 | Común | 11 | 50.000 |
-| Poco común | 9 | 150.000 |
-| Raro | 16 | 500.000 |
-| Épico | 8 | 2.000.000 |
-| Legendario | 6 | 5.000.000 |
+| Poco común | 13 | 150.000 |
+| Raro | 20 | 500.000 |
+| Épico | 12 | 2.000.000 |
+| Legendario | 9 | 5.000.000 |
 
-Los 50 juntos pagan **55.900.000** créditos, una vez en la vida de un piloto.
+Los 65 juntos pagan **81.500.000** créditos, una vez en la vida de un piloto.
 
 ## Los logros {#the-achievements}
 
-Los 45 logros que no están ocultos, por grupo. Donde una meta cuenta algo, lo cuenta a lo largo de toda tu carrera.
+Los 60 logros que no están ocultos, por grupo. Donde una meta cuenta algo, lo cuenta a lo largo de toda tu carrera.
 
 ### Combate {#group-combat}
 
@@ -77,7 +77,7 @@ Los 45 logros que no están ocultos, por grupo. Donde una meta cuenta algo, lo c
 | Constructor de estaciones | Construye 5 módulos distintos del Skylab. | Común |
 | Equipo completo | Construye los 16 módulos del Skylab. | Épico |
 | Erudito | Investiga 50 tecnologías. | Poco común |
-| Archivista | Investiga las 210 tecnologías. | Legendario |
+| Archivista | Investiga las 212 tecnologías. | Legendario |
 
 ### Flota {#group-fleet}
 
@@ -97,6 +97,21 @@ Los 45 logros que no están ocultos, por grupo. Donde una meta cuenta algo, lo c
 | Horizonte de sucesos | Entra en el sector de peligro DS-4. | Poco común |
 | Prospector | Destruye 500 asteroides. | Poco común |
 | Horizontes lejanos | Completa 10 viajes de expedición del Skylab. | Raro |
+| Farolero I | Enciende 10 Linternas distintas en la Deep Void. | Poco común |
+| Farolero II | Enciende 39 Linternas distintas en la Deep Void. | Raro |
+| Farolero III | Enciende las 78 Linternas de la Deep Void. | Épico |
+| Cartógrafo I | Explora el 25 % de DV-1 en la Deep Void. | Poco común |
+| Cartógrafo II | Explora el 50 % de DV-1 en la Deep Void. | Raro |
+| Cartógrafo III | Explora el 75 % de DV-1 en la Deep Void. | Épico |
+| Cartógrafo IV | Explora cada casilla de DV-1 en la Deep Void. | Legendario |
+| Xenólogo I | Investiga totalmente 10 entradas de la Guía del Viajero. | Poco común |
+| Xenólogo II | Investiga totalmente 50 entradas de la Guía del Viajero. | Raro |
+| Xenólogo III | Investiga totalmente 100 entradas de la Guía del Viajero. | Épico |
+| Xenólogo IV | Investiga totalmente todas las entradas de la Guía del Viajero. | Legendario |
+| Constructor de portales I | Aporta 50.000 de Thulium a los Void Gates (una Dark Matter Plate cuenta como 10.000). | Poco común |
+| Constructor de portales II | Aporta 250.000 de Thulium a los Void Gates (una Dark Matter Plate cuenta como 10.000). | Raro |
+| Constructor de portales III | Aporta 1.000.000 de Thulium a los Void Gates (una Dark Matter Plate cuenta como 10.000). | Épico |
+| Constructor de portales IV | Aporta 5.000.000 de Thulium a los Void Gates (una Dark Matter Plate cuenta como 10.000). | Legendario |
 
 ### Clan {#group-clan}
 
@@ -123,7 +138,7 @@ Un logro oculto que sigue bloqueado es una tarjeta cerrada, sin meta y sin barra
 
 ## Títulos {#titles}
 
-Un **título** es una línea corta de texto junto al nombre de un piloto. 32 de los 50 logros dan uno, tuyo para siempre cuando desbloqueas el logro. Los títulos también llegan al final de una temporada (tu rango, el mejor piloto de cada corporación y el piloto con más puntos PvE) y del equipo del juego, como el título **Pioneer** para todas las cuentas que existían el día del lanzamiento del juego en Steam.
+Un **título** es una línea corta de texto junto al nombre de un piloto. 32 de los 65 logros dan uno, tuyo para siempre cuando desbloqueas el logro. Los títulos también llegan al final de una temporada (tu rango, el mejor piloto de cada corporación y el piloto con más puntos PvE) y del equipo del juego, como el título **Pioneer** para todas las cuentas que existían el día del lanzamiento del juego en Steam.
 
 - Tienes muchos títulos y **llevas uno** a la vez. Lo eliges en tu **perfil de piloto** y puedes quitártelo de nuevo.
 - Tu título aparece en tu **perfil**, en las **Clasificaciones**, en la ventana de **Grupo** y cuando pasas el cursor por tu nombre en el **chat**. Desde la 0.4.27 también aparece en el mapa: una línea pequeña y tenue, del color de la rareza del título, **sobre el nombre de la nave de cada piloto**, la tuya incluida. Un título largo se corta con puntos suspensivos. En una multitud (más de ocho pilotos en la pantalla) solo tus amigos, tu objetivo y la nave que has seleccionado conservan el suyo, para que la pantalla siga siendo legible. No aparece en la ventana Objetivo ni en el minimapa.

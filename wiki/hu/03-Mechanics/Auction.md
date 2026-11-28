@@ -26,7 +26,7 @@ Az aukció a pilóták piaca és egyben a játék saját óránkénti tételei, 
 - A szezon 28. napjától a wipe-ig nincs letét és nincs adó.
 - A szezon 30. napjától az aukció zárva van az új szezon kezdetéig: semmit nem lehet meghirdetni, megvenni vagy licitálni. A hirdetéseidet továbbra is visszavonhatod.
 - Minden pénznemnek külön korlátja van arra, mennyit adhatsz el és mennyit vehetsz 24 óra alatt (lásd lent a szinttáblázatot). A megnyert tételek nem számítanak.
-- Két pilóta között, ha az egyik a másiktól vásárol, 24 óra alatt legfeljebb 16 000 000 kredit vagy 80 000 Thulium mehet át.
+- Két pilóta között, ha az egyik a másiktól vásárol, 24 óra alatt legfeljebb 32 000 000 kredit vagy 160 000 Thulium mehet át.
 
 <!-- market-glance:end -->
 
@@ -100,22 +100,22 @@ A **nyitott hirdetéseid** (és az a hirdetés, amelyet egy admin felfüggesztet
 
 | Szint | Nyitott hirdetések | Leghosszabb futamidő | Naponta, kredit | Naponta, Thulium | Letét 24 óránként |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 5 | 20 | 504 óra | 9 000 000 | 45 000 | 0,25% |
-| 6 | 40 | 504 óra | 12 000 000 | 60 000 | 0,25% |
-| 7 | 70 | 504 óra | 15 000 000 | 75 000 | 0,25% |
-| 8 | 100 | 504 óra | 17 000 000 | 85 000 | 0,25% |
-| 9 | 100 | 504 óra | 20 000 000 | 100 000 | 0,25% |
-| 10 | 100 | 504 óra | 30 000 000 | 150 000 | 0,4% |
-| 11 | 100 | 504 óra | 30 000 000 | 150 000 | 0,4% |
-| 12 | 100 | 504 óra | 30 000 000 | 150 000 | 0,4% |
-| 13 | 100 | 504 óra | 40 000 000 | 200 000 | 0,4% |
-| 14 | 100 | 504 óra | 40 000 000 | 200 000 | 0,4% |
-| 15 | 100 | 504 óra | 40 000 000 | 200 000 | 0,4% |
-| 16 | 100 | 504 óra | 40 000 000 | 200 000 | 0,4% |
-| 17 | 100 | 504 óra | 40 000 000 | 200 000 | 0,4% |
-| 18 | 100 | 504 óra | 40 000 000 | 200 000 | 0,4% |
-| 19 | 100 | 504 óra | 40 000 000 | 200 000 | 0,4% |
-| 20. szinttől | 100 | 504 óra | 40 000 000 | 200 000 | 0,4% |
+| 5 | 20 | 504 óra | 18 000 000 | 90 000 | 0,25% |
+| 6 | 40 | 504 óra | 24 000 000 | 120 000 | 0,25% |
+| 7 | 70 | 504 óra | 30 000 000 | 150 000 | 0,25% |
+| 8 | 100 | 504 óra | 34 000 000 | 170 000 | 0,25% |
+| 9 | 100 | 504 óra | 40 000 000 | 200 000 | 0,25% |
+| 10 | 100 | 504 óra | 60 000 000 | 300 000 | 0,4% |
+| 11 | 100 | 504 óra | 60 000 000 | 300 000 | 0,4% |
+| 12 | 100 | 504 óra | 60 000 000 | 300 000 | 0,4% |
+| 13 | 100 | 504 óra | 80 000 000 | 400 000 | 0,4% |
+| 14 | 100 | 504 óra | 80 000 000 | 400 000 | 0,4% |
+| 15 | 100 | 504 óra | 80 000 000 | 400 000 | 0,4% |
+| 16 | 100 | 504 óra | 80 000 000 | 400 000 | 0,4% |
+| 17 | 100 | 504 óra | 80 000 000 | 400 000 | 0,4% |
+| 18 | 100 | 504 óra | 80 000 000 | 400 000 | 0,4% |
+| 19 | 100 | 504 óra | 80 000 000 | 400 000 | 0,4% |
+| 20. szinttől | 100 | 504 óra | 80 000 000 | 400 000 | 0,4% |
 
 <!-- market-limits:end -->
 

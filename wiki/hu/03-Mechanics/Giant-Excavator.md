@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e3fa08f52459090c -->
+<!-- wiki-i18n source: d7154b35dd9c47fc -->
 <!-- wiki-i18n title: Óriás kotrógép -->
 # Óriás kotrógép {#giant-excavator}
 
@@ -91,13 +91,13 @@ Egy menet **Slumbering Voidokat** vonz, az elveszett civilizáció vadászait, a
 
 - **Hullámok.** 3 Slumbering Void 2 perc időnként; az első 1 perc múlva az indítás után, és egy sem a menet utolsó 1 perc idejében. Egy térképen egyszerre legfeljebb 12 él: az a hullám, amely tele találja a térképet, kimarad.
 - **Érkezés.** Egy hullám a térkép szélén jelenik meg, 900 egységre befelé és minden kapugyűrűtől legalább 2 500 egységre, és nagyjából 20 mp alatt repül a kotrógéphez. Az üzenet megnevezi a térkép azon oldalát, ahonnan jön.
-- **Vadászat.** A Void a legközelebbi pilótára vadászik, akit 2 500 egységen belül lát, és a kotrógéptől 7 000 egységen belül marad.
+- **Vadászat.** A Void a legközelebbi pilótára vadászik, akit {{guide:vitals.aggro@Slumbering Void}} egységen belül lát, és a kotrógéptől 7 000 egységen belül marad.
 - **Ostrom.** Ha 15 mp ideig nincs látható pilóta a kotrógéptől 7 000 egységen belül, a Voidok megtámadják a kotrógépet, és minden lézer a szokásos sebzésének 25% részét okozza. Nullánál a kotrógép megsemmisül: az üzemanyaga elvész, a hajóteste azonnal újra teli, és 1 óra ideig pihen.
 - **Távozás.** Amikor egy menet véget ér, a megmaradt Voidok még 90 mp ideig maradnak, és tovább harcolnak, ha harcolnak velük; aztán elmennek.
 
 <!-- excavator-voids:end -->
 
-- **A Void üvegágyú.** A pajzsa nagy, de egy találat 80 %-át elnyeli, így a mögötte lévő hajótest a saját méretének néhányszorosa sebzés után elfogy, pajzsáthatolással pedig sokkal előbb. Négy pilóta pajzsáthatolás nélkül, vagy kettő jó felszereléssel kitart egy menetet Alphában; a Beta és a Gamma nagyobb csoportot kíván, mint bármely idegen esetében.
+- **A Void üvegágyú.** A pajzsa nagy, de egy találat {{guide:vitals.absorbance@Slumbering Void}}-át elnyeli, így a mögötte lévő hajótest a saját méretének néhányszorosa sebzés után elfogy, pajzsáthatolással pedig sokkal előbb. Négy pilóta pajzsáthatolás nélkül, vagy kettő jó felszereléssel kitart egy menetet Alphában; a Beta és a Gamma nagyobb csoportot kíván, mint bármely idegen esetében.
 - **Az álca nem védi a helyet.** A Voidok nem látják az álcázott hajókat, így az elrejtőző pilóta nem tartja távol őket a kotrógéptől; a kapugyűrűben menedéket kereső pilóta pedig nem érhető el, és az sem számít.
 - **Minden Void fizet** az általad okozott sebzés szerint, és ládát ejt ([így fizet egy főellenség kilövése](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). A kilövéseik a PvE rangpontjaidat gyarapítják, mint egy rajhajóé.
 

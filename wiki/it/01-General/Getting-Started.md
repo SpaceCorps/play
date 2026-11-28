@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f34faeb3f3d1ac87 -->
+<!-- wiki-i18n source: 2dc6584f5284ebcf -->
 <!-- wiki-i18n title: Per iniziare -->
 # Per iniziare in SpaceCorps {#getting-started-in-spacecorps}
 
@@ -24,12 +24,14 @@ Alla stazione, i tuoi Crediti, il tuo Thulium e il tuo Onore si trovano in alto 
 
 ## Profili dei piloti {#pilot-profiles}
 
-Clicca sul nome di un pilota nell’Albo d’oro (**Comunità › Classifiche**), nella pagina **Statistiche** o nell’elenco dei membri di un clan, e si apre il **profilo** del pilota: corporazione, mondo e clan, livello, esperienza, onore e punti classifica, gli alieni e i piloti che ha distrutto e la nave che pilota, con i suoi numeri. Due riquadri dicono da quanto tempo il pilota gioca:
+Clicca sul nome di un pilota nell’Albo d’oro (**Comunità › Classifiche**), nella pagina **Statistiche** o nell’elenco dei membri di un clan, e si apre il **profilo** del pilota: corporazione, mondo e clan, livello, esperienza, onore e punti classifica, gli alieni e i piloti che ha distrutto e la nave che pilota, con il suo equipaggiamento e i suoi numeri (a meno che il pilota non li tenga privati). Due riquadri dicono da quanto tempo il pilota gioca:
 
 - **Primo accesso.** Il giorno in cui il pilota ha effettuato il primo accesso, come data nel tuo fuso orario. Un pilota che giocava prima della 0.4.12 mostra il giorno del suo primo accesso dopo quell’aggiornamento, e un trattino indica un pilota che da allora non ha più effettuato l’accesso.
 - **Tempo di gioco.** Per quanto tempo il gioco del pilota è stato collegato al server, in ore e minuti (“128 h 15 min”, “45 min”), in volo o alla stazione. Conta anche il tempo passato fermo. Il conteggio è iniziato con la 0.4.12, quindi per un pilota che giocava prima è il tempo trascorso da quell’aggiornamento.
 
 Entrambi sono pubblici, come livello e grado: qualsiasi pilota connesso può leggerli in un profilo. Il reset della stagione non li azzera.
+
+Un pilota può tenere privato il proprio equipaggiamento. **Impostazioni › Account › Privacy** ha un interruttore, **Nascondi il mio equipaggiamento**. Finché è attivo, gli altri piloti continuano a vedere la nave del pilota che ruota e il resto del profilo, ma non gli oggetti montati sulla nave e sui suoi droni né i valori di combattimento che ne derivano, e il profilo dice che il pilota tiene privato il proprio equipaggiamento. Gli amministratori lo vedono sempre, e il tuo profilo mostra sempre il tuo (con una nota finché l’interruttore è attivo).
 
 Oltre al tuo profilo, **Comunità › Obiettivi** tiene le mete della tua carriera, con ricompense e titoli: vedi [Obiettivi](/wiki/03-Mechanics/Achievements.md).
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0b4fab38b0c9363e -->
+<!-- wiki-i18n source: a1d69f436602c5d1 -->
 <!-- wiki-i18n title: Pilot Becerileri -->
 # Pilot Becerileri {#pilot-skills}
 
@@ -53,6 +53,7 @@ Tablolar her buff’ı 1. seviyede ve son seviyede verir; arada buff düz bir ç
 | :--- | :--- | ---: | ---: |
 | **Kütle** | Gövde | +%0 | +%20 |
 | **Dayanıklılık** | Alınan hasar | ×1 | ×0,92 |
+|  | Karanlıktan korku (Deep Void) | ×1 | ×0,8 |
 | **Refleks** | Yeteneklerin dolum hızı | ×1 | ×1,1 |
 | **İçgüdü** | Her ganimet satırının şansı | +0 puan | +7,5 puan |
 |  | Toplayıcılardan Orvium ve Velkonite | ×1 | ×1,5 |
@@ -63,8 +64,10 @@ Tablolar her buff’ı 1. seviyede ve son seviyede verir; arada buff düz bir ç
 | :--- | :--- | ---: | ---: |
 | **Lazer teknolojisi** (Refleks) | Lazer hasarı | ×1 | ×1,3 |
 |  | Bir lazer salvosunun isabet şansı | %80 | %89 |
+|  | Lazer salvolarından korku (Deep Void) | ×1 | ×0,8 |
 | **Roket teknolojisi** (Refleks) | Roket hasarı | ×1 | ×1,3 |
 |  | Bir roketin ateşlenmeme şansı | %10 | %1 |
+|  | Roketlerden korku (Deep Void) | ×1 | ×0,8 |
 | **Antimadde** (İçgüdü) | Toplamalardan Dark Matter | ×1 | ×2 |
 
 ### Savaş {#combat}
@@ -88,6 +91,7 @@ Tablolar her buff’ı 1. seviyede ve son seviyede verir; arada buff düz bir ç
 | :--- | :--- | ---: | ---: |
 | **Radyasyon teknolojisi** (Dayanıklılık) | Radyasyon dozu | ×1 | ×0,4 |
 | **İtici teorisi** (Kütle) | Hız | +%0 | +%10 |
+|  | Hızlı uçuştan korku (Deep Void) | ×1 | ×0,8 |
 | **Bilim** (İçgüdü) | Her yakıt birimi başına bilim | ×1 | ×1,25 |
 
 ### Skylab
@@ -116,7 +120,7 @@ Tablolar her buff’ı 1. seviyede ve son seviyede verir; arada buff düz bir ç
 - **Roketler.** Roket teknolojisi her roketin hasarını ve bir roketin ateşlenmeme şansını değiştirir ([Roket teknolojisi](/wiki/06-Items/Rockets.md#rocket-tech)).
 - **Darbe almak.** Dayanıklılık aldığın her darbeden bir pay çıkarır, Kaçınma doğrudan bir darbenin hiçbir şey yapmama şansını artırır, Kalkan soğurması da bir vuruşun kalkanlarının aldığı payı artırır ([Savaş](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). Kütle gövdeni artırır.
 - **İyileştirme.** İyileştirme, kendi ekipmanının iyileştirmelerini güçlendirir: Repair Drone’unun onarımı, bir Emergency Repair ile kullandığın Heal Pod, Channel Heal ve Channel Shield ([Yetenekler](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Miyuki’de bu üç yetenek ayrıca bir sonraki kullanıma kadar daha az bekler. İyileştirmelerinin geri getirdiği gövdeyle gelişir; güvenli bölgedeki bir gemiyi iyileştirmek sayılmaz. Support Rocket her seviyede hep aynı sabit miktarı iyileştirir ve yine de İyileştirme XP’si verir.
-- **Gizlenme.** Gizlilik, bir gizlenme bittikten sonraki bekleme süresini hem Cloaking CPU için ([Ekstralar](/wiki/06-Items/Extras.md#cloaking-cpu)) hem de Chameleon için ([Yetenekler](/wiki/03-Mechanics/Abilities.md)) kısaltır. Gizlenmiş geçirdiğin saniyelerle gelişir; güvenli bölgede ya da hiç komut vermediğin sürece hiçbiri sayılmaz.
+- **Gizlenme.** Gizlilik, bir gizlenme bittikten sonraki bekleme süresini hem Cloaking CPU için ([Ekstralar](/wiki/06-Items/Extras.md#cloaking-cpu)) hem de Chameleon için ([Yetenekler](/wiki/03-Mechanics/Abilities.md)) kısaltır. Gizlenmiş geçirdiğin saniyelerle gelişir; güvenli bölgede ya da hiç komut vermediğin ve geminin gönderdiğin yere uçmadığı sürece hiçbiri sayılmaz. Bir uçuş, son komutundan sonra en çok 5 dakika sayılır.
 - **Yetenekler.** Refleks yeteneklerinin bekleme süresini kısaltır, Taktik de onları daha uzun sürdürür ([Yetenekler](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Sabotaj zehirleri güçlendirir.
 - **Mine.** Sabotaj bir Mine’ın hasarını artırır, Nişancılık da onu daha hızlı ve daha uzağa fırlatır ([Ekstralar](/wiki/06-Items/Extras.md#mine)).
 - **Hız.** İtici teorisi hızına, motorların ve bir Afterburner’ın üstüne ekler ([Hız](/wiki/03-Mechanics/Speed.md)).
@@ -160,7 +164,7 @@ Tablo, XP’yi neyin ödediğini değer değer sıralar. XP, ikinci sütunda ad�
 | **Taktik** (Refleks) | Lazer menzilinde bir düşman varken bastığın her yetenek için | 2 | saatte 600 XP |
 | **Kalkan soğurması** (Dayanıklılık) | Düşman vuruşlarının aldığı azami kalkanın her %1’i için | 0,1 | saatte 300 XP |
 | **İyileştirme** (Kütle) | Senin bir iyileştirmenin geri getirdiği geminin azami gövdesinin her %1’i için | 0,1 | saatte 300 XP |
-| **Gizlilik** (Refleks) | Son 1 dk içinde emir verilmişken gizlenmiş geçirilen her saniye için, güvenli bölgeler dışında | 0,1 | Yok |
+| **Gizlilik** (Refleks) | Son 1 dk içinde emir verilmişken ya da geminin gönderdiğin yere uçtuğu sürece (son emirden sonra en çok 5 dk) gizlenmiş geçirilen her saniye için, güvenli bölgeler dışında | 0,1 | Yok |
 | **Radyasyon teknolojisi** (Dayanıklılık) | Bir radyasyon bandının içindeki her saniye için | 0,2 | Yok |
 |  | Radyasyonun aldığı azami gövdenin her %1’i için | 1 |  |
 | **İtici teorisi** (Kütle) | Geminin hızının %80 kadarını aşarak uçulan her saniye için, Afterburner altında iki katı | 0,1 | Yok |

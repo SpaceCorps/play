@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: abb582fd63389ab9 -->
+<!-- wiki-i18n source: 2eff9c368449da99 -->
 <!-- wiki-i18n title: Phantasm-svärm -->
 # Phantasm-svärm {#phantasm-swarm}
 
@@ -17,14 +17,14 @@ Phantasm-svärmen är en **Boss Phantasm** med sina **Phantasm Guards**: en enor
 - **Följeslagarna håller sig inom**: högst 500 enheter från ledaren
 - **Läkning**: Varje Phantasm Guard inom 600 enheter från ledaren läker dess skrov, 30 HP per sekund i Alpha
 - **När ledaren förstörs**: Följeslagarna försvinner 30 s efter att ledaren förstörts, om de inte just attackerar
-- **Kommer tillbaka**: 2 min efter att ledaren förstörts, i samma sektor
+- **Kommer tillbaka**: {{guide:vitals.respawn@Boss Phantasm#1;Boss Phantasm#2;Boss Phantasm#3}} efter att ledaren förstörts, i samma sektor
 - **Meddelanden**: Piloterna i sektorn får veta när ledaren dyker upp och när den förstörs. Det är systemrader: de syns på chattens flik **System**, med en räknare för olästa rader, och inte i **Global** eller **Lokal**. Dödsloggen nämner piloten som nedskjutningen tillskrivs.
 
 <!-- phantasm-glance:end -->
 
 ## Medlemmarna {#the-members}
 
-- **Boss Phantasm**: en större Phantasm, i svärmens nyans och med sitt namn ovanför, med eget skrov, egen sköld och egen lasersalva (värdena står nedan). Den är passiv: den drar omkring tills en pilot träffar den, går sedan efter den piloten och skjuter, och svärmens skepp i närheten ansluter sig till striden. Vapnets räckvidd och hastigheten är desamma som hos en Phantasm, och den reparerar aldrig sitt skrov själv.
+- **Boss Phantasm**: en större Phantasm, i svärmens nyans och med sitt namn ovanför, med eget skrov, egen sköld och egen lasersalva (värdena står nedan). Den är passiv: den drar omkring tills en pilot träffar den, går sedan efter den piloten och skjuter, och svärmens skepp i närheten ansluter sig till striden. Vapnets räckvidd och hastigheten är desamma som hos en Phantasm, och den reparerar aldrig sitt skrov själv. Dess [tre steg](#the-leaders-three-steps) och en [specialförmåga](/wiki/03-Mechanics/Special-Abilities.md) kan ändra på det.
 - **Phantasm Guard**: en mindre Phantasm i svärmens nyans. Guards håller sig nära bossen, ansluter sig till striden när ett svärmskepp i närheten träffas, och var och en som är nära bossen läker dess skrov. En Guard reparerar sitt eget skrov efter en vila, som en Phantasm gör.
 
 ## Hur striden går till {#how-the-fight-goes}
@@ -34,6 +34,19 @@ Phantasm-svärmen är en **Boss Phantasm** med sina **Phantasm Guards**: en enor
 - **Beta och Gamma är hårdare.** Svärmarna i de världarna är starkare ([Världar](/wiki/05-Swarms/Swarms.md#the-worlds)), så de kräver fler piloter eller bättre ammunition.
 - **Håll koll på sektorn.** `x-4` är en PvP-sektor i Alpha, och `x-3` och `x-4` är det i Beta och Gamma ([Världar](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)): en rival kan ansluta sig till striden eller vänta på lådan. Låt ett skepp i gruppen hålla utkik.
 - **Bossen kommer tillbaka** efter tiden i listan *I korthet*, vid full styrka, i samma sektor, och dess Guards kommer en efter en.
+
+## Ledarens tre steg {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Striden har tre steg ([hur de fungerar](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); vart och ett sker en gång.
+
+- **I början**: Var och en av dess Phantasm Guards sätter upp ett sköldlager på 10 % av sitt eget skrov.
+- **Under två tredjedelar**: 3 kopior av den dyker upp, och den riktiga bär en ring.
+- **Under en tredjedel**: Blinkar ungefär 2 500 enheter bort från piloterna, och dess Phantasm Guards kommer tillbaka hela runt den.
+
+<!-- mob-ladder:end -->
 
 ## Belöningar och byte {#rewards-and-drops}
 
@@ -52,29 +65,23 @@ Bygger på Phantasm med 2 000 % av skrovet och 300 % av laserskadan; hastighe
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Skrov | 40 000 | 60 000 | 80 000 |
-| Sköld | 64 000 | 96 000 | 128 000 |
-| Laserskada (en salva per sekund) | 1 050 | 1 575 | 2 100 |
-| Hastighet | 160 | 160 | 160 |
+| Skrov | {{guide:vitals.hull@Boss Phantasm#1}} | {{guide:vitals.hull@Boss Phantasm#2}} | {{guide:vitals.hull@Boss Phantasm#3}} |
+| Sköld | {{guide:vitals.shield@Boss Phantasm#1}} | {{guide:vitals.shield@Boss Phantasm#2}} | {{guide:vitals.shield@Boss Phantasm#3}} |
+| Laserskada (en salva per sekund) | {{guide:vitals.dps@Boss Phantasm#1}} | {{guide:vitals.dps@Boss Phantasm#2}} | {{guide:vitals.dps@Boss Phantasm#3}} |
+| Hastighet | {{guide:vitals.speed@Boss Phantasm#1}} | {{guide:vitals.speed@Boss Phantasm#2}} | {{guide:vitals.speed@Boss Phantasm#3}} |
 | Laserräckvidd | 700 | 700 | 700 |
 | Aggroradie | bara när den attackeras | bara när den attackeras | bara när den attackeras |
-| Krediter | 39 000 | 78 000 | 117 000 |
-| Thulium | 195 | 390 | 585 |
-| Erfarenhet (XP) | 7 800 | 15 600 | 23 400 |
-| Heder | 62 | 124 | 186 |
+| Krediter | {{guide:spoils.pay.credits@Boss Phantasm#1}} | {{guide:spoils.pay.credits@Boss Phantasm#2}} | {{guide:spoils.pay.credits@Boss Phantasm#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Boss Phantasm#1}} | {{guide:spoils.pay.thulium@Boss Phantasm#2}} | {{guide:spoils.pay.thulium@Boss Phantasm#3}} |
+| Erfarenhet (XP) | {{guide:spoils.pay.experience@Boss Phantasm#1}} | {{guide:spoils.pay.experience@Boss Phantasm#2}} | {{guide:spoils.pay.experience@Boss Phantasm#3}} |
+| Heder | {{guide:spoils.pay.honor@Boss Phantasm#1}} | {{guide:spoils.pay.honor@Boss Phantasm#2}} | {{guide:spoils.pay.honor@Boss Phantasm#3}} |
 | PvE-poäng per nedskjutning | 8 | 8 | 8 |
 
 **Byte**: en låda, för piloten som gjorde mest skada.
 
-| Föremål | Chans | Mängd |
-| :--- | ---: | ---: |
-| Ship Fragment | 100 % på vart och ett av 13 slag | 1 |
-| Daraxium | 60 % på vart och ett av 13 slag | 1–2 |
-| Nyxite | 60 % på vart och ett av 13 slag | 1–2 |
-| Standard Battery | 100 % | 600–1 200 |
-| Advanced Plasma | 100 % | 60–100 |
-| Ultra Core | 100 % | 10–20 |
-| En av de 4 [raketer](/wiki/06-Items/Rockets.md) som köps med krediter, slumpmässigt vald | 100 % | 4–6 |
+| Föremål |
+| :--- |
+| {{guide:spoils.box@Boss Phantasm#1;Boss Phantasm#2;Boss Phantasm#3}} |
 
 ### Phantasm Guard
 
@@ -82,17 +89,17 @@ Bygger på Phantasm med 50 % av skrov, sköld och skada; hastighet och räckvid
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Skrov | 1 000 | 1 500 | 2 000 |
-| Sköld | 1 600 | 2 400 | 3 200 |
-| Laserskada (en salva per sekund) | 175 | 263 | 350 |
-| Hastighet | 160 | 160 | 160 |
+| Skrov | {{guide:vitals.hull@Phantasm Guard#1}} | {{guide:vitals.hull@Phantasm Guard#2}} | {{guide:vitals.hull@Phantasm Guard#3}} |
+| Sköld | {{guide:vitals.shield@Phantasm Guard#1}} | {{guide:vitals.shield@Phantasm Guard#2}} | {{guide:vitals.shield@Phantasm Guard#3}} |
+| Laserskada (en salva per sekund) | {{guide:vitals.dps@Phantasm Guard#1}} | {{guide:vitals.dps@Phantasm Guard#2}} | {{guide:vitals.dps@Phantasm Guard#3}} |
+| Hastighet | {{guide:vitals.speed@Phantasm Guard#1}} | {{guide:vitals.speed@Phantasm Guard#2}} | {{guide:vitals.speed@Phantasm Guard#3}} |
 | Laserräckvidd | 700 | 700 | 700 |
 | Aggroradie | bara när den attackeras | bara när den attackeras | bara när den attackeras |
 | Läker ledaren, var och en, per sekund (bara skrovet) | 30 | 45 | 60 |
-| Krediter | 125 | 250 | 375 |
-| Thulium | 1 | 2 | 3 |
-| Erfarenhet (XP) | 12 | 24 | 36 |
-| Heder | 1 | 2 | 3 |
+| Krediter | {{guide:spoils.pay.credits@Phantasm Guard#1}} | {{guide:spoils.pay.credits@Phantasm Guard#2}} | {{guide:spoils.pay.credits@Phantasm Guard#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Phantasm Guard#1}} | {{guide:spoils.pay.thulium@Phantasm Guard#2}} | {{guide:spoils.pay.thulium@Phantasm Guard#3}} |
+| Erfarenhet (XP) | {{guide:spoils.pay.experience@Phantasm Guard#1}} | {{guide:spoils.pay.experience@Phantasm Guard#2}} | {{guide:spoils.pay.experience@Phantasm Guard#3}} |
+| Heder | {{guide:spoils.pay.honor@Phantasm Guard#1}} | {{guide:spoils.pay.honor@Phantasm Guard#2}} | {{guide:spoils.pay.honor@Phantasm Guard#3}} |
 | PvE-poäng per nedskjutning | 1 | 1 | 1 |
 
 **Byte**: inget. Nedskjutningen betalar bara sina krediter, sitt Thulium, sin XP och sin heder.

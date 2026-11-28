@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 399d33a09b4ac805 -->
+<!-- wiki-i18n source: 0f6a663715a3934a -->
 <!-- wiki-i18n title: Farosektorer -->
 # Farosektorer {#danger-sectors}
 
@@ -14,9 +14,10 @@ Här levde en gång en civilisation från den gamla galaxen, avancerad och lila-
 
 - **Jättegrävmaskiner.** `DS-1`, `DS-2` och `DS-3` har var sin pulsar från säsongens första dag, ett ljus på himlen och inget mer; från dag 11 får var och en en **jättegrävmaskin** bredvid. Lägg Dark Matter i grävmaskinens tank, välj en resurs, så bryter den pulsaren: Thulium och sällsynta malmer faller runt den i lådor som vem som helst får ta. Det är det rikaste att strida om i farosektorerna, och det farligaste. Se [Jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md). I Beta och Gamma står jättegrävmaskinerna från säsongens första dag.
 - **Slumbering Voids.** Medan en grävmaskin bryter kommer **Slumbering Voids** i vågor från kartans kant och jagar piloterna i dess närhet. Andra patrullerar träsket. Se [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void).
-- **Dormant Swamp.** I ett hörn av `DS-4` står den försvunna civilisationens bas: kanoner som skjuter på varje skepp de ser, Inert Masses som vaktar den och, i mitten, Unwakened. Det är en plats som piloter ännu inte är avsedda att besöka. Se [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
+- **Dormant Swamp.** I ett hörn av `DS-4` står den försvunna civilisationens bas: kanoner som skjuter på varje skepp de ser, Inert Masses som vaktar den och, i mitten, Unwakened. Se [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
 - **En snabbare, rikare Dormant-svärm.** Svärmen dyker nu upp vid träsket, kommer tillbaka tidigare efter att ha förstörts och betalar dubbelt. Se [Dormant-svärm](/wiki/05-Swarms/Dormant-Swarm.md).
 - **Före dag 11** lyser bara pulsarerna: i övrigt är farosektorerna som [Spacemap-resor](/wiki/01-General/Spacemap%20Travel.md) beskriver dem. En värld som är på dag 11 eller senare har allt på en gång. I Beta och Gamma står jättegrävmaskinerna från säsongens första dag.
+- **Threshold.** Unwakened i Dormant Swamp kan förstöras nu. Säsongens första döda i varje värld öppnar den världens Threshold i det övre högra hörnet av `DS-4`, där dess piloter bygger Void Gate till [Deep Void](/wiki/03-Mechanics/Deep-Void.md).
 
 ## Davidski
 

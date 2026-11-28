@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ab422d8b5066fe56 -->
+<!-- wiki-i18n source: 61fa5f21bae46a15 -->
 <!-- wiki-i18n title: Gruppen -->
 # Gruppen {#groups}
 
@@ -119,7 +119,7 @@ Deine Ignorierliste und der Schalter Global-Chat ausblenden werden bei deinem Ko
 
 ## Einsatzregeln {#rules-of-engagement}
 
-**Mitglieder einer Gruppe können einander nicht verletzen**, egal welcher Konzerne: Du kannst ein Gruppenmitglied nicht anvisieren (Laser oder Raketen), deine Schüsse und Explosionen gehen durch es hindurch, und nichts, was du einem antust, zählt für irgendjemanden als Abschuss, PvP-Abschuss oder Abschuss durch das Schwarze Loch. Konzernkameraden, die **nicht** in derselben Gruppe sind, sind wie zuvor: Einen mit einem Laser oder einer Rakete zu treffen kostet **100 Ehre**, wenn er zerstört wird. Verlässt du die Gruppe, ist ein früheres Mitglied, ob Feind oder nicht, sofort wieder Freiwild (wo der Sektor und die Saison Kämpfe überhaupt erlauben). Alle außerhalb deiner Gruppe werden behandelt wie immer, und Schutzzonen, das Friedensprotokoll und die PvP-Regeln der Sektoren ändern sich für niemanden.
+**Mitglieder einer Gruppe können einander nicht angreifen**, egal welcher Konzerne: Du kannst ein Gruppenmitglied nicht anvisieren (Laser oder Raketen), deine Schüsse und direkten Raketen gehen durch es hindurch, und nichts, was du einem antust, zählt für irgendjemanden als Abschuss, PvP-Abschuss oder Abschuss durch das Schwarze Loch. Der einzige Raketenschaden, der deine Gruppe trotzdem erreicht, ist der Flächenschaden: Die Explosion einer Ember, einer Scatter oder einer N.U.K.E. und die Strahlungszone, die eine N.U.K.E. oder eine Gravitational N.U.K.E. hinterlässt, verletzen dich und die Mitglieder deiner Gruppe jeweils zur Hälfte dessen, was sie einem anderen Schiff antun (eine Schutzzone und der Schutz eines Respawns bewahren dich davor, das Friedensprotokoll und die Sektoren ohne PvP nicht), und wenn eine davon ein Mitglied zerstört, bekommt niemand den Abschuss. Konzernkameraden, die **nicht** in derselben Gruppe sind, sind wie zuvor: Einen mit einem Laser oder einer Rakete zu treffen kostet **100 Ehre**, wenn er zerstört wird. Verlässt du die Gruppe, ist ein früheres Mitglied, ob Feind oder nicht, sofort wieder Freiwild (wo der Sektor und die Saison Kämpfe überhaupt erlauben). Alle außerhalb deiner Gruppe werden behandelt wie immer, und Schutzzonen, das Friedensprotokoll und die PvP-Regeln der Sektoren ändern sich für niemanden.
 
 ## Einen Freund mitbringen {#bringing-a-friend}
 

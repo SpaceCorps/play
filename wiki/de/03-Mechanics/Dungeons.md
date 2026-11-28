@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 91f3dc3b14f71464 -->
+<!-- wiki-i18n source: f9b2d026af543d87 -->
 <!-- wiki-i18n title: Dungeons -->
 # Dungeons
 
-<!-- wiki-search: dungeon; dungeons; gate; gates; clan gate; clan gates; clan dungeon; summon; warlord; gate warlord; boss; maze; loot zone; chest; card; vote; stage; instance; gate delta; gate epsilon; gate zeta; gate eta; gate theta; gate iota; gate goombah; gate pirate; gate crystalys; portal; clan portal; join; clan gate alerts; clan dungeon window; clan dungeon alerts; dungeon goombah; dungeon pirate; dungeon crystalys; dungeon warlord; 75 percent; three quarters; start room; fog; guards; locked room; boss room; booster; boosters; swarm assist; focus most wanted; zone of chaos; rocket barrage; tor; tore; kriegsherr; labyrinth; stufe; beutezone; karte; portal; clan-portal; booster; nebel; wächter; startraum; verschlossener raum; schwarm-unterstützung; zone des chaos; clan-tor-hinweise; dungeon; dungeons; clan-dungeon; clan-dungeon-hinweise; drei viertel; 75 prozent; kerker -->
+<!-- wiki-search: dungeon; dungeons; gate; gates; clan gate; clan gates; clan dungeon; summon; warlord; gate warlord; boss; maze; loot zone; chest; card; vote; stage; instance; gate delta; gate epsilon; gate zeta; gate eta; gate theta; gate iota; gate goombah; gate pirate; gate crystalys; portal; clan portal; join; clan gate alerts; clan dungeon window; clan dungeon alerts; dungeon goombah; dungeon pirate; dungeon crystalys; dungeon warlord; 75 percent; three quarters; start room; fog; guards; locked room; boss room; booster; boosters; swarm assist; focus most wanted; zone of chaos; rocket barrage; tor; tore; kriegsherr; labyrinth; stufe; beutezone; karte; portal; clan-portal; booster; nebel; wächter; startraum; verschlossener raum; schwarm-unterstützung; zone des chaos; clan-tor-hinweise; dungeon; dungeons; clan-dungeon; clan-dungeon-hinweise; drei viertel; 75 prozent; kerker; radiation donut; donut; strahlungs-donut -->
 
-Ein **Dungeon** ist ein geschlossenes Labyrinth mit einem **Kriegsherrn** an seinem Ende (vor 0.5.2 hieß er im Spiel Tor). Ein Stellvertreter oder der Anführer eines [Clans](/wiki/03-Mechanics/Clans.md) öffnet eines und bezahlt es aus der Clan-Bank, und Mitglieder des Clans fliegen gemeinsam als eine [Gruppe](/wiki/03-Mechanics/Groups.md) hinein. Sie kämpfen sich durch die Aliens des Labyrinths, öffnen Beutezonen, um aus jeder eine Karte zu wählen, und bringen den Kriegsherrn zu Fall. Jeder Pilot, der am Kampf teilgenommen hat, wird bezahlt, wenn der Kriegsherr fällt, im Rahmen der Grenzen weiter unten. Die Dungeons findest du im Reiter **Dungeons** der Clan-Seite.
+Ein **Dungeon** ist ein geschlossenes Labyrinth mit einem **Kriegsherrn** an seinem Ende (vor 0.5.2 hieß er im Spiel Tor). Ein Stellvertreter oder der Anführer eines [Clans](/wiki/03-Mechanics/Clans.md) öffnet eines und bezahlt es aus der Clan-Bank, und Mitglieder des Clans fliegen gemeinsam als eine [Gruppe](/wiki/03-Mechanics/Groups.md) hinein. Sie kämpfen sich durch die Aliens des Labyrinths, öffnen Beutezonen, um aus jeder eine Karte zu wählen, und bringen den Kriegsherrn zu Fall. Alle fliegen als eine Gruppe, und vor dem Flächenschaden einer Rakete ist eine Gruppe nicht sicher: Die Explosion einer Ember, einer Scatter oder einer N.U.K.E. und die Strahlungszone, die eine N.U.K.E. hinterlässt, verletzen dich und die Mitglieder deiner Gruppe jeweils zur Hälfte dessen, was sie einem anderen Schiff antun. Achte also darauf, wohin du feuerst (siehe [Gruppen](/wiki/03-Mechanics/Groups.md#rules-of-engagement)). Jeder Pilot, der am Kampf teilgenommen hat, wird bezahlt, wenn der Kriegsherr fällt, im Rahmen der Grenzen weiter unten. Die Dungeons findest du im Reiter **Dungeons** der Clan-Seite.
 
 Ein Dungeon ist ein Kampf allein gegen die Aliens: Niemand kann darin einen Clankameraden oder sonst jemanden angreifen. Die Aliens zahlen, wenn sie fallen, wie die Aliens des Spiels, nach denen sie gebaut sind ([was die Aliens zahlen](#what-the-aliens-pay)). Der Durchgang gehört dem Kriegsherrn, du wirst dafür also nur bezahlt, wenn du im Kampf dabei bist, während er fällt.
 
@@ -117,17 +117,17 @@ Die Arten der Reihe nach. Hülle und Schild sind die üblichen Werte mal dem Fak
 
 |  | Stufe 1 | Stufe 2 | Stufe 3 |
 | :--- | ---: | ---: | ---: |
-| Hülle | 32.000 | 48.000 | 64.000 |
-| Schild | 48.000 | 72.000 | 96.000 |
-| Laserschaden (eine Salve pro Sekunde) | 3.000 | 4.500 | 6.000 |
-| Tempo | 180 | 180 | 180 |
+| Hülle | {{guide:vitals.hull@Dungeon Goombah}} | {{guide:vitals.hull*1.5@Dungeon Goombah}} | {{guide:vitals.hull*2@Dungeon Goombah}} |
+| Schild | {{guide:vitals.shield@Dungeon Goombah}} | {{guide:vitals.shield*1.5@Dungeon Goombah}} | {{guide:vitals.shield*2@Dungeon Goombah}} |
+| Laserschaden (eine Salve pro Sekunde) | {{guide:vitals.dps@Dungeon Goombah}} | {{guide:vitals.dps*1.5@Dungeon Goombah}} | {{guide:vitals.dps*2@Dungeon Goombah}} |
+| Tempo | {{guide:vitals.speed@Dungeon Goombah}} | {{guide:vitals.speed@Dungeon Goombah}} | {{guide:vitals.speed@Dungeon Goombah}} |
 | Laserreichweite | 800 | 800 | 800 |
-| Aggro-Radius | 1.800 | 1.800 | 1.800 |
+| Aggro-Radius | {{guide:vitals.aggro@Dungeon Goombah}} | {{guide:vitals.aggro@Dungeon Goombah}} | {{guide:vitals.aggro@Dungeon Goombah}} |
 | Belohnung und Beute, Vielfaches des Originals | ×1 | ×1,5 | ×2 |
-| Credits pro Zerstörung | 15.000 | 22.500 | 30.000 |
-| Thulium pro Zerstörung | 75 | 113 | 150 |
-| Erfahrung pro Zerstörung | 3.000 | 4.500 | 6.000 |
-| Ehre pro Zerstörung | 24 | 36 | 48 |
+| Credits pro Zerstörung | {{guide:spoils.pay.credits@Goombah#1}} | {{guide:spoils.pay.credits*1.5@Goombah#1}} | {{guide:spoils.pay.credits*2@Goombah#1}} |
+| Thulium pro Zerstörung | {{guide:spoils.pay.thulium@Goombah#1}} | {{guide:spoils.pay.thulium*1.5@Goombah#1}} | {{guide:spoils.pay.thulium*2@Goombah#1}} |
+| Erfahrung pro Zerstörung | {{guide:spoils.pay.experience@Goombah#1}} | {{guide:spoils.pay.experience*1.5@Goombah#1}} | {{guide:spoils.pay.experience*2@Goombah#1}} |
+| Ehre pro Zerstörung | {{guide:spoils.pay.honor@Goombah#1}} | {{guide:spoils.pay.honor*1.5@Goombah#1}} | {{guide:spoils.pay.honor*2@Goombah#1}} |
 
 ### Dungeon Pirate
 
@@ -138,18 +138,18 @@ Die Arten der Reihe nach. Hülle und Schild sind die üblichen Werte mal dem Fak
 
 |  | Stufe 1 | Stufe 2 | Stufe 3 |
 | :--- | ---: | ---: | ---: |
-| Hülle | 250.000 | 375.000 | 500.000 |
-| Schild | 50.100 | 75.150 | 100.200 |
-| Laserschaden (eine Salve pro Sekunde) | 200 | 300 | 400 |
-| Raketenschaden | 5.000 | 7.500 | 10.000 |
-| Tempo | 100 | 100 | 100 |
+| Hülle | {{guide:vitals.hull@Dungeon Pirate}} | {{guide:vitals.hull*1.5@Dungeon Pirate}} | {{guide:vitals.hull*2@Dungeon Pirate}} |
+| Schild | {{guide:vitals.shield@Dungeon Pirate}} | {{guide:vitals.shield*1.5@Dungeon Pirate}} | {{guide:vitals.shield*2@Dungeon Pirate}} |
+| Laserschaden (eine Salve pro Sekunde) | {{guide:vitals.dps@Dungeon Pirate}} | {{guide:vitals.dps*1.5@Dungeon Pirate}} | {{guide:vitals.dps*2@Dungeon Pirate}} |
+| Raketenschaden | {{guide:behaviour.ability:rocket.damage@Dungeon Pirate}} | {{guide:behaviour.ability:rocket.damage*1.5@Dungeon Pirate}} | {{guide:behaviour.ability:rocket.damage*2@Dungeon Pirate}} |
+| Tempo | {{guide:vitals.speed@Dungeon Pirate}} | {{guide:vitals.speed@Dungeon Pirate}} | {{guide:vitals.speed@Dungeon Pirate}} |
 | Laserreichweite | 700 | 700 | 700 |
-| Aggro-Radius | 1.800 | 1.800 | 1.800 |
+| Aggro-Radius | {{guide:vitals.aggro@Dungeon Pirate}} | {{guide:vitals.aggro@Dungeon Pirate}} | {{guide:vitals.aggro@Dungeon Pirate}} |
 | Belohnung und Beute, Vielfaches des Originals | ×1 | ×1,5 | ×2 |
-| Credits pro Zerstörung | 145.000 | 217.500 | 290.000 |
-| Thulium pro Zerstörung | 725 | 1.088 | 1.450 |
-| Erfahrung pro Zerstörung | 29.000 | 43.500 | 58.000 |
-| Ehre pro Zerstörung | 232 | 348 | 464 |
+| Credits pro Zerstörung | {{guide:spoils.pay.credits@Pirate Boss#1}} | {{guide:spoils.pay.credits*1.5@Pirate Boss#1}} | {{guide:spoils.pay.credits*2@Pirate Boss#1}} |
+| Thulium pro Zerstörung | {{guide:spoils.pay.thulium@Pirate Boss#1}} | {{guide:spoils.pay.thulium*1.5@Pirate Boss#1}} | {{guide:spoils.pay.thulium*2@Pirate Boss#1}} |
+| Erfahrung pro Zerstörung | {{guide:spoils.pay.experience@Pirate Boss#1}} | {{guide:spoils.pay.experience*1.5@Pirate Boss#1}} | {{guide:spoils.pay.experience*2@Pirate Boss#1}} |
+| Ehre pro Zerstörung | {{guide:spoils.pay.honor@Pirate Boss#1}} | {{guide:spoils.pay.honor*1.5@Pirate Boss#1}} | {{guide:spoils.pay.honor*2@Pirate Boss#1}} |
 
 ### Dungeon Crystalys
 
@@ -159,17 +159,17 @@ Die Arten der Reihe nach. Hülle und Schild sind die üblichen Werte mal dem Fak
 
 |  | Stufe 1 | Stufe 2 | Stufe 3 |
 | :--- | ---: | ---: | ---: |
-| Hülle | 256.000 | 384.000 | 512.000 |
-| Schild | 160.000 | 240.000 | 320.000 |
-| Laserschaden (eine Salve pro Sekunde) | 10.000 | 15.000 | 20.000 |
-| Tempo | 230 | 230 | 230 |
+| Hülle | {{guide:vitals.hull@Dungeon Crystalys}} | {{guide:vitals.hull*1.5@Dungeon Crystalys}} | {{guide:vitals.hull*2@Dungeon Crystalys}} |
+| Schild | {{guide:vitals.shield@Dungeon Crystalys}} | {{guide:vitals.shield*1.5@Dungeon Crystalys}} | {{guide:vitals.shield*2@Dungeon Crystalys}} |
+| Laserschaden (eine Salve pro Sekunde) | {{guide:vitals.dps@Dungeon Crystalys}} | {{guide:vitals.dps*1.5@Dungeon Crystalys}} | {{guide:vitals.dps*2@Dungeon Crystalys}} |
+| Tempo | {{guide:vitals.speed@Dungeon Crystalys}} | {{guide:vitals.speed@Dungeon Crystalys}} | {{guide:vitals.speed@Dungeon Crystalys}} |
 | Laserreichweite | 900 | 900 | 900 |
-| Aggro-Radius | 2.400 | 2.400 | 2.400 |
+| Aggro-Radius | {{guide:vitals.aggro@Dungeon Crystalys}} | {{guide:vitals.aggro@Dungeon Crystalys}} | {{guide:vitals.aggro@Dungeon Crystalys}} |
 | Belohnung und Beute, Vielfaches des Originals | ×1 | ×1,5 | ×2 |
-| Credits pro Zerstörung | 75.000 | 112.500 | 150.000 |
-| Thulium pro Zerstörung | 200 | 300 | 400 |
-| Erfahrung pro Zerstörung | 12.000 | 18.000 | 24.000 |
-| Ehre pro Zerstörung | 52 | 78 | 104 |
+| Credits pro Zerstörung | {{guide:spoils.pay.credits@Crystalys#1}} | {{guide:spoils.pay.credits*1.5@Crystalys#1}} | {{guide:spoils.pay.credits*2@Crystalys#1}} |
+| Thulium pro Zerstörung | {{guide:spoils.pay.thulium@Crystalys#1}} | {{guide:spoils.pay.thulium*1.5@Crystalys#1}} | {{guide:spoils.pay.thulium*2@Crystalys#1}} |
+| Erfahrung pro Zerstörung | {{guide:spoils.pay.experience@Crystalys#1}} | {{guide:spoils.pay.experience*1.5@Crystalys#1}} | {{guide:spoils.pay.experience*2@Crystalys#1}} |
+| Ehre pro Zerstörung | {{guide:spoils.pay.honor@Crystalys#1}} | {{guide:spoils.pay.honor*1.5@Crystalys#1}} | {{guide:spoils.pay.honor*2@Crystalys#1}} |
 
 ### Dungeon Crystalys Twin
 
@@ -179,17 +179,17 @@ Die Arten der Reihe nach. Hülle und Schild sind die üblichen Werte mal dem Fak
 
 |  | Stufe 1 | Stufe 2 | Stufe 3 |
 | :--- | ---: | ---: | ---: |
-| Hülle | 512.000 | 768.000 | 1.024.000 |
-| Schild | 320.000 | 480.000 | 640.000 |
-| Laserschaden (eine Salve pro Sekunde) | 20.000 | 30.000 | 40.000 |
-| Tempo | 230 | 230 | 230 |
+| Hülle | {{guide:vitals.hull@Dungeon Crystalys Twin}} | {{guide:vitals.hull*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.hull*2@Dungeon Crystalys Twin}} |
+| Schild | {{guide:vitals.shield@Dungeon Crystalys Twin}} | {{guide:vitals.shield*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.shield*2@Dungeon Crystalys Twin}} |
+| Laserschaden (eine Salve pro Sekunde) | {{guide:vitals.dps@Dungeon Crystalys Twin}} | {{guide:vitals.dps*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.dps*2@Dungeon Crystalys Twin}} |
+| Tempo | {{guide:vitals.speed@Dungeon Crystalys Twin}} | {{guide:vitals.speed@Dungeon Crystalys Twin}} | {{guide:vitals.speed@Dungeon Crystalys Twin}} |
 | Laserreichweite | 900 | 900 | 900 |
-| Aggro-Radius | 2.400 | 2.400 | 2.400 |
+| Aggro-Radius | {{guide:vitals.aggro@Dungeon Crystalys Twin}} | {{guide:vitals.aggro@Dungeon Crystalys Twin}} | {{guide:vitals.aggro@Dungeon Crystalys Twin}} |
 | Belohnung und Beute, Vielfaches des Originals | ×2 | ×3 | ×4 |
-| Credits pro Zerstörung | 150.000 | 225.000 | 300.000 |
-| Thulium pro Zerstörung | 400 | 600 | 800 |
-| Erfahrung pro Zerstörung | 24.000 | 36.000 | 48.000 |
-| Ehre pro Zerstörung | 104 | 156 | 208 |
+| Credits pro Zerstörung | {{guide:spoils.pay.credits*2@Crystalys#1}} | {{guide:spoils.pay.credits*3@Crystalys#1}} | {{guide:spoils.pay.credits*4@Crystalys#1}} |
+| Thulium pro Zerstörung | {{guide:spoils.pay.thulium*2@Crystalys#1}} | {{guide:spoils.pay.thulium*3@Crystalys#1}} | {{guide:spoils.pay.thulium*4@Crystalys#1}} |
+| Erfahrung pro Zerstörung | {{guide:spoils.pay.experience*2@Crystalys#1}} | {{guide:spoils.pay.experience*3@Crystalys#1}} | {{guide:spoils.pay.experience*4@Crystalys#1}} |
+| Ehre pro Zerstörung | {{guide:spoils.pay.honor*2@Crystalys#1}} | {{guide:spoils.pay.honor*3@Crystalys#1}} | {{guide:spoils.pay.honor*4@Crystalys#1}} |
 
 <!-- dungeons-enemies:end -->
 
@@ -205,24 +205,24 @@ Der Kriegsherr wartet im Raum am fernen Ende des Labyrinths, und sein Fall zahlt
 
 |  | Stufe 1 | Stufe 2 | Stufe 3 |
 | :--- | ---: | ---: | ---: |
-| Hülle | 10.000.000 | 15.000.000 | 25.000.000 |
-| Schild | 8.000.000 | 12.000.000 | 20.000.000 |
-| Laserschaden (eine Salve pro Sekunde) | 17.500–22.500 | 26.250–33.750 auf jeden von 2 Piloten | 35.000–45.000 auf jeden von 2 Piloten |
-| Tempo | 120 | 120 | 120 |
+| Hülle | {{guide:vitals.hull@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} | {{guide:vitals.hull*2.5@Dungeon Warlord}} |
+| Schild | {{guide:vitals.shield@Dungeon Warlord}} | {{guide:vitals.shield*1.5@Dungeon Warlord}} | {{guide:vitals.shield*2.5@Dungeon Warlord}} |
+| Laserschaden (eine Salve pro Sekunde) | {{guide:vitals.dps*0.875~1.125@Dungeon Warlord}} | {{guide:vitals.dps*1.3125~1.6875@Dungeon Warlord}} auf jeden von 2 Piloten | {{guide:vitals.dps*1.75~2.25@Dungeon Warlord}} auf jeden von 2 Piloten |
+| Tempo | {{guide:vitals.speed@Dungeon Warlord}} | {{guide:vitals.speed@Dungeon Warlord}} | {{guide:vitals.speed@Dungeon Warlord}} |
 | Laserreichweite | 1.100 | 1.100 | 1.100 |
 
 Hülle und Schild oben gelten für eine Gruppe von 5. Sie wachsen mit der Gruppe: Das sind Hülle und Schild des Kriegsherrn zusammen, nach der Zahl der Piloten in der Gruppe beim Start des Dungeons.
 
 | Piloten in der Gruppe | Stufe 1 | Stufe 2 | Stufe 3 |
 | :--- | ---: | ---: | ---: |
-| 3 | 10.800.000 | 16.200.000 | 27.000.000 |
-| 4 | 14.400.000 | 21.600.000 | 36.000.000 |
-| 5 | 18.000.000 | 27.000.000 | 45.000.000 |
-| 6 | 21.600.000 | 32.400.000 | 54.000.000 |
-| 7 | 25.200.000 | 37.800.000 | 63.000.000 |
-| 8 | 28.800.000 | 43.200.000 | 72.000.000 |
-| 9 | 32.400.000 | 48.600.000 | 81.000.000 |
-| 10 | 36.000.000 | 54.000.000 | 90.000.000 |
+| 3 | {{guide:vitals.hull*0.6@Dungeon Warlord}} + {{guide:vitals.shield*0.6@Dungeon Warlord}} | {{guide:vitals.hull*0.9@Dungeon Warlord}} + {{guide:vitals.shield*0.9@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} + {{guide:vitals.shield*1.5@Dungeon Warlord}} |
+| 4 | {{guide:vitals.hull*0.8@Dungeon Warlord}} + {{guide:vitals.shield*0.8@Dungeon Warlord}} | {{guide:vitals.hull*1.2@Dungeon Warlord}} + {{guide:vitals.shield*1.2@Dungeon Warlord}} | {{guide:vitals.hull*2@Dungeon Warlord}} + {{guide:vitals.shield*2@Dungeon Warlord}} |
+| 5 | {{guide:vitals.hull@Dungeon Warlord}} + {{guide:vitals.shield@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} + {{guide:vitals.shield*1.5@Dungeon Warlord}} | {{guide:vitals.hull*2.5@Dungeon Warlord}} + {{guide:vitals.shield*2.5@Dungeon Warlord}} |
+| 6 | {{guide:vitals.hull*1.2@Dungeon Warlord}} + {{guide:vitals.shield*1.2@Dungeon Warlord}} | {{guide:vitals.hull*1.8@Dungeon Warlord}} + {{guide:vitals.shield*1.8@Dungeon Warlord}} | {{guide:vitals.hull*3@Dungeon Warlord}} + {{guide:vitals.shield*3@Dungeon Warlord}} |
+| 7 | {{guide:vitals.hull*1.4@Dungeon Warlord}} + {{guide:vitals.shield*1.4@Dungeon Warlord}} | {{guide:vitals.hull*2.1@Dungeon Warlord}} + {{guide:vitals.shield*2.1@Dungeon Warlord}} | {{guide:vitals.hull*3.5@Dungeon Warlord}} + {{guide:vitals.shield*3.5@Dungeon Warlord}} |
+| 8 | {{guide:vitals.hull*1.6@Dungeon Warlord}} + {{guide:vitals.shield*1.6@Dungeon Warlord}} | {{guide:vitals.hull*2.4@Dungeon Warlord}} + {{guide:vitals.shield*2.4@Dungeon Warlord}} | {{guide:vitals.hull*4@Dungeon Warlord}} + {{guide:vitals.shield*4@Dungeon Warlord}} |
+| 9 | {{guide:vitals.hull*1.8@Dungeon Warlord}} + {{guide:vitals.shield*1.8@Dungeon Warlord}} | {{guide:vitals.hull*2.7@Dungeon Warlord}} + {{guide:vitals.shield*2.7@Dungeon Warlord}} | {{guide:vitals.hull*4.5@Dungeon Warlord}} + {{guide:vitals.shield*4.5@Dungeon Warlord}} |
+| 10 | {{guide:vitals.hull*2@Dungeon Warlord}} + {{guide:vitals.shield*2@Dungeon Warlord}} | {{guide:vitals.hull*3@Dungeon Warlord}} + {{guide:vitals.shield*3@Dungeon Warlord}} | {{guide:vitals.hull*5@Dungeon Warlord}} + {{guide:vitals.shield*5@Dungeon Warlord}} |
 
 <!-- dungeons-boss:end -->
 
@@ -241,6 +241,7 @@ Das Fenster Clan-Dungeon zählt, wie viele davon noch zerstört werden müssen, 
 - **Die Schwarm-Unterstützung** ist der Kriegsherr, der seine Goombahs ruft. Solange sie leben, kann er nicht verletzt werden, und er feuert nicht und setzt keine andere Fähigkeit ein. Zerstöre sie alle: Das Banner zählt, wie viele übrig sind. Vergeht eine Minute, kann der Kriegsherr wieder verletzt werden, und die übrigen Goombahs bleiben und kämpfen weiter. Sie zählen nicht für den Raum des Kriegsherrn, und sie zahlen nichts.
 - **Die Zone des Chaos** ist ein violetter Ring auf dem Boden, um den Kriegsherrn herum, und solange sie andauert, geht er überallhin mit, wohin der Kriegsherr geht. Niemand im Ring kann angreifen, weder mit Lasern noch mit Raketen, doch Reparaturen, Tarnung und Fliegen funktionieren weiter, und der Kriegsherr und seine Aliens feuern wie immer. Der Ring zeigt sich einen Moment, bevor er wirkt: Tritt aus ihm heraus und bleib draußen, denn er folgt dem Kriegsherrn. Ein Pilot außerhalb kann weiter schießen, soweit seine Waffen reichen.
 - **Die Phantomlanze** lässt den Kriegsherrn für eine Sekunde verschwinden. Er kommt an anderer Stelle seines Raums zurück, zusammen mit drei Trugbildern seiner selbst. Solange ein Trugbild lebt, feuert es mit der halben Salve des Kriegsherrn auf den nächsten Piloten, den es sehen kann, und heilt jede Sekunde Hülle und Schild des Kriegsherrn (die Zahlen stehen in der Tabelle der Fähigkeiten). Die Trugbilder haben eine eigene Hülle: Zerstöre sie, damit die Heilung aufhört. Sie zahlen nichts, und sie verschwinden mit dem Kriegsherrn, wenn er fällt. Der Kriegsherr kann zerstört werden, solange sie leben.
+- **Der Strahlungs-Donut** lässt drei Strahlungsringe um die Stelle aufleuchten, an der der Kriegsherr stand, als er die Fähigkeit begann, nacheinander vom Kriegsherrn nach außen, mit ein bis zwei Sekunden zwischen zwei Ringen. Jeder Ring zeigt seine beiden Ränder einen Moment, bevor er aufleuchtet, und verbrennt dann jeden Piloten darin einige Sekunden lang, direkt von der Hülle (die Tabelle der Fähigkeiten nennt die Zeiten und den Anteil der Hülle pro Sekunde). Ein Ring erlischt nicht, wenn der nächste aufleuchtet: Zwei Ringe, auf den höheren Stufen auch alle drei, können gleichzeitig brennen. Das Loch um den Kriegsherrn, der Boden zwischen den Ringen und der Boden außerhalb des letzten sind sicher: Bleibe darauf und verlasse einen Ring, bevor er aufleuchtet. Eine Wand hält die Strahlung nicht auf, und eine Tarnung schützt einen Piloten nicht davor; die Strahlungstechnik senkt die Dosis.
 
 <!-- dungeons-abilities:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -255,19 +256,34 @@ Das Fenster Clan-Dungeon zählt, wie viele davon noch zerstört werden müssen, 
 | **Schwarm-Unterstützung** | 2 s | Bis zu 1 min | 3 min | – | – |
 | **Zone des Chaos** | 2 s | 15 s | 2 min | 900 | – |
 | **Phantomlanze** | 1,5 s | 1 s | 2 min | – | – |
+| **Strahlungs-Donut** | 1 s | Bis zu 8,5 s | 75 s | 2.150 | – |
 
 | Fähigkeit | Stufe 1 | Stufe 2 | Stufe 3 |
 | :--- | :--- | :--- | :--- |
-| **Lebensraub-Aura** | 8.000 pro Sekunde | 10.000 pro Sekunde | 12.000 pro Sekunde |
-| **Meteoritenhagel** | 6 Meteore pro Salve, je 80.000 | 8 Meteore pro Salve, je 100.000 | 10 Meteore pro Salve, je 120.000 |
-| **Fokus auf den Meistgesuchten** | 26.250–33.750 pro Extraschuss auf den Piloten mit dem meisten Schaden, einer alle 1 s | 39.375–50.625 pro Extraschuss auf den Piloten mit dem meisten Schaden, einer alle 1 s | 52.500–67.500 pro Extraschuss auf den Piloten mit dem meisten Schaden, einer alle 1 s |
-| **Raketensalve** | 100.000–150.000 pro Rakete auf jeden Piloten, eine alle 15 s | 125.000–187.500 pro Rakete auf jeden Piloten, eine alle 15 s | 150.000–225.000 pro Rakete auf jeden Piloten, eine alle 15 s |
-| **Schildabsorption** | 10.000 Schild pro Sekunde | 12.500 Schild pro Sekunde | 15.000 Schild pro Sekunde |
+| **Lebensraub-Aura** | {{guide:behaviour.ability:lifesteal.drainPerSec@Dungeon Warlord}} pro Sekunde | {{guide:behaviour.ability:lifesteal.drainPerSec*1.25@Dungeon Warlord}} pro Sekunde | {{guide:behaviour.ability:lifesteal.drainPerSec*1.5@Dungeon Warlord}} pro Sekunde |
+| **Meteoritenhagel** | 6 Meteore pro Salve, je {{guide:behaviour.ability:meteor.damage@Dungeon Warlord}} | 8 Meteore pro Salve, je {{guide:behaviour.ability:meteor.damage*1.25@Dungeon Warlord}} | 10 Meteore pro Salve, je {{guide:behaviour.ability:meteor.damage*1.5@Dungeon Warlord}} |
+| **Fokus auf den Meistgesuchten** | {{guide:vitals.dps*1.3125~1.6875@Dungeon Warlord}} pro Extraschuss auf den Piloten mit dem meisten Schaden, einer alle 1 s | {{guide:vitals.dps*1.96875~2.53125@Dungeon Warlord}} pro Extraschuss auf den Piloten mit dem meisten Schaden, einer alle 1 s | {{guide:vitals.dps*2.625~3.375@Dungeon Warlord}} pro Extraschuss auf den Piloten mit dem meisten Schaden, einer alle 1 s |
+| **Raketensalve** | {{guide:behaviour.ability:barrage.damageMin@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage@Dungeon Warlord}} pro Rakete auf jeden Piloten, eine alle 15 s | {{guide:behaviour.ability:barrage.damageMin*1.25@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage*1.25@Dungeon Warlord}} pro Rakete auf jeden Piloten, eine alle 15 s | {{guide:behaviour.ability:barrage.damageMin*1.5@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage*1.5@Dungeon Warlord}} pro Rakete auf jeden Piloten, eine alle 15 s |
+| **Schildabsorption** | {{guide:behaviour.ability:absorb.drainPerSec@Dungeon Warlord}} Schild pro Sekunde | {{guide:behaviour.ability:absorb.drainPerSec*1.25@Dungeon Warlord}} Schild pro Sekunde | {{guide:behaviour.ability:absorb.drainPerSec*1.5@Dungeon Warlord}} Schild pro Sekunde |
 | **Schwarm-Unterstützung** | 12 Goombahs | 18 Goombahs | 24 Goombahs |
 | **Zone des Chaos** | Piloten im Ring können nicht angreifen | Piloten im Ring können nicht angreifen | Piloten im Ring können nicht angreifen |
-| **Phantomlanze** | 3 Trugbilder mit je 500.000 Hülle; jedes feuert 50 % der Salve des Kriegsherrn und heilt, solange es lebt, den Kriegsherrn um 50.000 Hülle und 50.000 Schild pro Sekunde | 3 Trugbilder mit je 500.000 Hülle; jedes feuert 50 % der Salve des Kriegsherrn und heilt, solange es lebt, den Kriegsherrn um 50.000 Hülle und 50.000 Schild pro Sekunde | 3 Trugbilder mit je 500.000 Hülle; jedes feuert 50 % der Salve des Kriegsherrn und heilt, solange es lebt, den Kriegsherrn um 50.000 Hülle und 50.000 Schild pro Sekunde |
+| **Phantomlanze** | 3 Trugbilder; jedes feuert 50 % der Salve des Kriegsherrn und heilt, solange es lebt, den Kriegsherrn um 50.000 Hülle und 50.000 Schild pro Sekunde | 3 Trugbilder; jedes feuert 50 % der Salve des Kriegsherrn und heilt, solange es lebt, den Kriegsherrn um 50.000 Hülle und 50.000 Schild pro Sekunde | 3 Trugbilder; jedes feuert 50 % der Salve des Kriegsherrn und heilt, solange es lebt, den Kriegsherrn um 50.000 Hülle und 50.000 Schild pro Sekunde |
+| **Strahlungs-Donut** | 3 Ringe, nacheinander entzündet; jeder brennt 2 s lang und nimmt 8 % der Hülle eines Piloten pro Sekunde | 3 Ringe, nacheinander entzündet; jeder brennt 3 s lang und nimmt 8 % der Hülle eines Piloten pro Sekunde | 3 Ringe, nacheinander entzündet; jeder brennt 4,5 s lang und nimmt 8 % der Hülle eines Piloten pro Sekunde |
 
 <!-- dungeons-abilities:end -->
+
+### Seine drei Schritte {#its-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Der Warlord hat drei Schritte ([so funktionieren sie](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); jeder geschieht einmal.
+
+- **Unter zwei Dritteln**: Die Pause zwischen seinen Fähigkeiten sinkt auf 4 s und ihre Wartezeiten auf ×0,75.
+- **Unter einem Drittel**: Die Pause sinkt auf 2 s, die Wartezeiten auf ×0,5 und sein Schaden steigt auf ×1,25; es wirkt eine freie Meteor-Salve, und sein Swarm kommt nie schneller zurück als alle 120 s.
+- **Eine Pause bei jedem Schritt.** Beginnt ein Schritt, kann der Warlord 3 s lang nicht verletzt werden.
+
+<!-- mob-ladder:end -->
 
 ## Beutezonen {#loot-zones}
 
@@ -351,9 +367,9 @@ Die **Orvium Reinforced Plates** und die **Echo Shards** und **Lattice Shards** 
 
 | Stufe | Ehre | Erfahrung | Credits | Thulium | x4-Munition | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE-Rangpunkte |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Stufe 1** | 25.000 | 600.000 | 5.000.000 | 8.000 | 4.000 | 5 | 12 | 5 | 850 |
-| **Stufe 2** | 50.000 | 1.500.000 | 10.000.000 | 18.000 | 9.000 | 10 | 8 | 6 | 2.000 |
-| **Stufe 3** | 100.000 | 2.400.000 | 17.500.000 | 30.000 | 15.000 | 15 | 8 | 7 | 3.400 |
+| **Stufe 1** | 25.000 | 600.000 | 5.000.000 | 8.000 | 4.000 | 5 | 24 | 10 | 850 |
+| **Stufe 2** | 50.000 | 1.500.000 | 10.000.000 | 18.000 | 9.000 | 10 | 16 | 12 | 2.000 |
+| **Stufe 3** | 100.000 | 2.400.000 | 17.500.000 | 30.000 | 15.000 | 15 | 16 | 14 | 3.400 |
 
 - **Heartshards**: 1 beim ersten bezahlten Abschluss jeder Stufe in einer Saison und mit 5 % Wahrscheinlichkeit ein weiteres bei jedem bezahlten Abschluss.
 
@@ -367,7 +383,7 @@ Diese Regeln entscheiden, wer **für den Durchgang** bezahlt wird. Ein Durchgang
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
 - **Ein Tag**: Eine Stufe zahlt einem Piloten einmal pro UTC-Tag: an dem Tag, an dem der Kriegsherr fällt
-- **Eine Woche**: Ein Pilot wird für höchstens 10 Stufen-Abschlüsse pro UTC-Woche bezahlt, Montag bis Sonntag
+- **Eine Woche**: Ein Pilot wird für höchstens 14 Stufen-Abschlüsse pro UTC-Woche bezahlt, Montag bis Sonntag
 - **Im Dungeon**: Mindestens 2 min insgesamt
 - **Anteil am Kampf**: Mindestens eines davon: Schaden in Höhe von 0,1 % der Hülle und des Schilds des Kriegsherrn verursacht; 10 Aliens des Dungeons zerstört; andere Piloten im Kampf gegen den Kriegsherrn um 50.000 geheilt
 
@@ -382,8 +398,8 @@ Was ein Pilot an einem Tag und in der besten Woche bekommen kann, die die Grenze
 
 | Belohnung je Pilot | Ehre | Erfahrung | Credits | Thulium | x4-Munition | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE-Rangpunkte |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Ein Tag, jede Stufe einmal | 175.000 | 4.500.000 | 32.500.000 | 56.000 | 28.000 | 30 | 28 | 18 | 6.250 |
-| Die beste Woche: 7 × Stufe 3 und 3 × Stufe 2 | 850.000 | 21.300.000 | 152.500.000 | 264.000 | 132.000 | 135 | 80 | 67 | 29.800 |
+| Ein Tag, jede Stufe einmal | 175.000 | 4.500.000 | 32.500.000 | 56.000 | 28.000 | 30 | 56 | 36 | 6.250 |
+| Die beste Woche: 7 × Stufe 3 und 7 × Stufe 2 | 1.050.000 | 27.300.000 | 192.500.000 | 336.000 | 168.000 | 175 | 224 | 182 | 37.800 |
 
 Erfahrung und Ehre eines bezahlten Abschlusses zählen für deine PvE-Rangpunkte: ein Punkt je 1.000 Erfahrung und ein Punkt je 100 Ehre.
 
@@ -395,7 +411,7 @@ Jedes Alien eines Dungeons zahlt, wenn es fällt, und lässt Beute fallen, wie d
 
 - **Wer bezahlt wird.** Die Piloten, die das Alien verletzt haben, nach dem Schaden, den sie angerichtet haben, wie bei den Aliens der Schwärme: Ein Pilot oder eine Gruppe, die es nur gestreift hat, bekommt nichts, eine Gruppe wird als eine bezahlt, und innerhalb einer Gruppe teilen die Mitglieder, die in der Nähe des Wracks sind und kürzlich gefeuert haben, das Bezahlte nach Level. Ein Pilot, der dem Alien keinen Schaden zugefügt hat, bekommt nichts dafür, egal wie nah er flog, und ein Alien, das kein Pilot verletzt hat, zahlt niemandem. Nur Piloten, die die Regeln oben bezahlen, sind dabei: Wer den Dungeon verlassen hat, noch nicht lange genug drin war, für die Stufe heute schon bezahlt wurde oder alle bezahlten Durchgänge der Woche hatte, bekommt für die Aliens nichts, und die anderen haben seinen Teil. Eine Zerstörung verlangt keinen Anteil am Kampf: Das Alien verletzt zu haben ist der Anteil. Ist das Mitglied einer Gruppe, das am meisten Schaden angerichtet hat, zerstört oder nicht mehr auf der Karte, teilen die Mitglieder, die in der Nähe des Wracks sind und kürzlich gefeuert haben, ohne es.
 - **Was bezahlt wird.** Credits, Thulium, Erfahrung und Ehre, einmal pro zerstörtem Alien. Bezahlt wird, was das Original in Alpha zahlt, in jeder Welt: Ein Dungeon hat keinen Welt-Multiplikator. Deine Booster, Formation und die Boni deines Clans zählen wie bei jeder Zerstörung, und die Erfahrung zählt wie die des Durchgangs für deine [PvE-Punkte](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points).
-- **Die Beute.** Sie wird mit den Chancen des Originals gewürfelt, nur der Echo Shard ist doppelt so wahrscheinlich, danach wird jede Menge mit dem Verhältnis multipliziert (ein Bruchteil einer Einheit ist eine Chance auf eine weitere). Sie fällt als Kiste am Wrack, zuerst für den Piloten mit dem meisten Schaden und seinen Clan, später für jeden auf der Karte, und dann ist sie weg. Hat die [Gruppe](/wiki/03-Mechanics/Groups.md) des Piloten mit dem meisten Schaden zwei oder mehr Piloten, die das Alien beschädigt haben und noch im Dungeon fliegen, wird die Beute stattdessen in [persönliche Kisten](/wiki/03-Mechanics/Cargo.md#personal-crates) aufgeteilt, je eine für jeden von ihnen nach dem verursachten Schaden, jede zuerst nur für ihren Piloten, später für jeden auf der Karte. Ein Gruppenmitglied, das keinen Schaden verursacht hat oder das die Regeln oben ausschließen, bekommt keine Kiste. Andere Gruppen und allein fliegende Piloten werden für ihren Anteil bezahlt und bekommen aus dieser Beute keine Kiste. Die Karte fasst nur eine bestimmte Zahl von Kisten auf einmal, hol sie also ab, während du kämpfst; was auf der Karte liegt, wenn der Dungeon schließt, verschwindet mit ihm. Anders als die Gegenstände des Durchgangs ist das gewöhnliche Beute eines Aliens: Sie kann [in der Auktion verkauft](/wiki/03-Mechanics/Auction.md#marketable-items) werden, wenn der Gegenstand Handelbar ist.
+- **Die Beute.** Sie wird mit den Chancen des Originals gewürfelt, nur der Echo Shard ist doppelt so wahrscheinlich und fällt gleich zu zweit, danach wird jede Menge mit dem Verhältnis multipliziert (ein Bruchteil einer Einheit ist eine Chance auf eine weitere). Sie fällt als Kiste am Wrack, zuerst für den Piloten mit dem meisten Schaden und seinen Clan, später für jeden auf der Karte, und dann ist sie weg. Hat die [Gruppe](/wiki/03-Mechanics/Groups.md) des Piloten mit dem meisten Schaden zwei oder mehr Piloten, die das Alien beschädigt haben und noch im Dungeon fliegen, wird die Beute stattdessen in [persönliche Kisten](/wiki/03-Mechanics/Cargo.md#personal-crates) aufgeteilt, je eine für jeden von ihnen nach dem verursachten Schaden, jede zuerst nur für ihren Piloten, später für jeden auf der Karte. Ein Gruppenmitglied, das keinen Schaden verursacht hat oder das die Regeln oben ausschließen, bekommt keine Kiste. Andere Gruppen und allein fliegende Piloten werden für ihren Anteil bezahlt und bekommen aus dieser Beute keine Kiste. Die Karte fasst nur eine bestimmte Zahl von Kisten auf einmal, hol sie also ab, während du kämpfst; was auf der Karte liegt, wenn der Dungeon schließt, verschwindet mit ihm. Anders als die Gegenstände des Durchgangs ist das gewöhnliche Beute eines Aliens: Sie kann [in der Auktion verkauft](/wiki/03-Mechanics/Auction.md#marketable-items) werden, wenn der Gegenstand Handelbar ist.
 - **Was nicht zahlt.** Der Kriegsherr zahlt keine Zerstörung, nur den Durchgang. Die Goombahs, die er ruft, zahlen nichts, weil der Ruf wiederkehrt, solange der Kampf dauert.
 - **Keine Zerstörung des Spiels.** Eine Zerstörung in einem Dungeon zählt nicht für Quests, Erfolge, Zerstörungszähler, Wipe-Punkte, die PvE-Punkte einer Zerstörung, Drohnen oder P.E.T.s: Ein Dungeon Goombah ist kein Goombah des Spiels.
 - **Die Grenzen.** Die Tages- und Wochengrenzen oben halten die Belohnung der Aliens ebenso zurück wie die des Durchgangs: Wer für die Stufe heute schon bezahlt wurde oder alle bezahlten Durchgänge der Woche hatte, bekommt auch für die Aliens nichts, und der Topf einer Zerstörung geht an die anderen. Ein Dungeon, der nicht abgeschlossen wird, zahlt seine Zerstörungen an die Piloten, die die Regeln bezahlen, und für den Durchgang nichts.

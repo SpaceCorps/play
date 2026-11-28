@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: abb582fd63389ab9 -->
+<!-- wiki-i18n source: 2eff9c368449da99 -->
 <!-- wiki-i18n title: Phantasm-raj -->
 # Phantasm-raj {#phantasm-swarm}
 
@@ -17,14 +17,14 @@ A Phantasm-raj egy **Boss Phantasm** és a **Phantasm Guardjai**: egy hatalmas [
 - **A kísérők közel maradnak**: legfeljebb 500 egységre a vezértől
 - **Gyógyítás**: Minden Phantasm Guard, amely a vezértől 600 egységen belül van, gyógyítja a hajótestét, Alphában másodpercenként 30 HP-t
 - **A vezér megsemmisül**: A kísérők a vezér megsemmisülése után 30 mp múlva eltűnnek, kivéve ha éppen támadnak
-- **Visszatér**: 2 perc azután, hogy a vezér megsemmisült, ugyanabban a szektorban
+- **Visszatér**: {{guide:vitals.respawn@Boss Phantasm#1;Boss Phantasm#2;Boss Phantasm#3}} azután, hogy a vezér megsemmisült, ugyanabban a szektorban
 - **Értesítés**: A szektor pilótái értesülnek arról, mikor jelenik meg a vezér, és mikor semmisül meg. Ezek rendszersorok: a chat **Rendszer** lapján jelennek meg, olvasatlan sorok számlálójával, és nem a **Globális** vagy a **Helyi** lapon. A kill feed megnevezi a pilótát, akinek a kilövést jóváírják.
 
 <!-- phantasm-glance:end -->
 
 ## A tagok {#the-members}
 
-- **Boss Phantasm**: egy nagyobb Phantasm, a raj színezésében és a nevével fölötte, saját hajótesttel, pajzzsal és lézersortűzzel (az értékek lent vannak). Passzív: kóborol, amíg egy pilóta el nem találja, aztán arra a pilótára támad és tüzel, és a raj közeli hajói beszállnak a harcba. A fegyverének hatótávja és a sebessége egy Phantasmé, a hajótestét pedig soha nem javítja meg magától.
+- **Boss Phantasm**: egy nagyobb Phantasm, a raj színezésében és a nevével fölötte, saját hajótesttel, pajzzsal és lézersortűzzel (az értékek lent vannak). Passzív: kóborol, amíg egy pilóta el nem találja, aztán arra a pilótára támad és tüzel, és a raj közeli hajói beszállnak a harcba. A fegyverének hatótávja és a sebessége egy Phantasmé, a hajótestét pedig soha nem javítja meg magától. A [három lépése](#the-leaders-three-steps) és egy [különleges képesség](/wiki/03-Mechanics/Special-Abilities.md) változtathat ezen.
 - **Phantasm Guard**: egy kisebb Phantasm a raj színezésében. A Guardok a boss közelében maradnak, beszállnak a harcba, ha egy közeli rajhajót eltalálnak, és mindegyik, amelyik a boss közelében van, gyógyítja a hajótestét. A Guard egy kis pihenő után megjavítja a saját hajótestét, ahogy egy Phantasm is.
 
 ## A harc menete {#how-the-fight-goes}
@@ -34,6 +34,19 @@ A Phantasm-raj egy **Boss Phantasm** és a **Phantasm Guardjai**: egy hatalmas [
 - **A Beta és a Gamma keményebb.** Ezeknek a világoknak a rajai erősebbek ([Világok](/wiki/05-Swarms/Swarms.md#the-worlds)), ezért több pilóta vagy jobb lőszer kell.
 - **Figyeld a szektort.** Az `x-4` Alphában PvP-szektor, az `x-3` és az `x-4` pedig Betában és Gammában az ([Világok](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)): egy rivális beléphet a harcba, vagy megvárhatja a ládát. Hagyj egy hajót a csoportból őrségben.
 - **A boss visszatér** a *Röviden* lista szerinti idő múlva, teljes erővel, ugyanabban a szektorban, a Guardjai pedig egymás után érkeznek.
+
+## A vezér három lépése {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+A harcának három lépése van ([hogyan működnek](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); mindegyik egyszer történik meg.
+
+- **Az elején**: A Phantasm Guards mindegyike a saját hajótestének 10% részét kitevő pajzsréteget emel.
+- **Kétharmad alatt**: 3 másolata jelenik meg, és a valódin gyűrű van.
+- **Egyharmad alatt**: Körülbelül 2 500 egységre ugrik a pilótáktól, és a Phantasm Guards sértetlenül térnek vissza körülötte.
+
+<!-- mob-ladder:end -->
 
 ## Jutalmak és zsákmány {#rewards-and-drops}
 
@@ -52,29 +65,23 @@ Alapja: Phantasm, hajótestének 2 000%-a és lézersebzésének 300%-a; a sebe
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Hajótest | 40 000 | 60 000 | 80 000 |
-| Pajzs | 64 000 | 96 000 | 128 000 |
-| Lézersebzés (másodpercenként egy sorozat) | 1 050 | 1 575 | 2 100 |
-| Sebesség | 160 | 160 | 160 |
+| Hajótest | {{guide:vitals.hull@Boss Phantasm#1}} | {{guide:vitals.hull@Boss Phantasm#2}} | {{guide:vitals.hull@Boss Phantasm#3}} |
+| Pajzs | {{guide:vitals.shield@Boss Phantasm#1}} | {{guide:vitals.shield@Boss Phantasm#2}} | {{guide:vitals.shield@Boss Phantasm#3}} |
+| Lézersebzés (másodpercenként egy sorozat) | {{guide:vitals.dps@Boss Phantasm#1}} | {{guide:vitals.dps@Boss Phantasm#2}} | {{guide:vitals.dps@Boss Phantasm#3}} |
+| Sebesség | {{guide:vitals.speed@Boss Phantasm#1}} | {{guide:vitals.speed@Boss Phantasm#2}} | {{guide:vitals.speed@Boss Phantasm#3}} |
 | Lézer hatótávja | 700 | 700 | 700 |
 | Aggrósugár | csak ha megtámadják | csak ha megtámadják | csak ha megtámadják |
-| Kredit | 39 000 | 78 000 | 117 000 |
-| Thulium | 195 | 390 | 585 |
-| Tapasztalat (XP) | 7 800 | 15 600 | 23 400 |
-| Becsület | 62 | 124 | 186 |
+| Kredit | {{guide:spoils.pay.credits@Boss Phantasm#1}} | {{guide:spoils.pay.credits@Boss Phantasm#2}} | {{guide:spoils.pay.credits@Boss Phantasm#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Boss Phantasm#1}} | {{guide:spoils.pay.thulium@Boss Phantasm#2}} | {{guide:spoils.pay.thulium@Boss Phantasm#3}} |
+| Tapasztalat (XP) | {{guide:spoils.pay.experience@Boss Phantasm#1}} | {{guide:spoils.pay.experience@Boss Phantasm#2}} | {{guide:spoils.pay.experience@Boss Phantasm#3}} |
+| Becsület | {{guide:spoils.pay.honor@Boss Phantasm#1}} | {{guide:spoils.pay.honor@Boss Phantasm#2}} | {{guide:spoils.pay.honor@Boss Phantasm#3}} |
 | PvE-pont kilövésenként | 8 | 8 | 8 |
 
 **Zsákmány**: egy láda, annak a pilótának, aki a legtöbb sebzést okozta.
 
-| Tárgy | Esély | Mennyiség |
-| :--- | ---: | ---: |
-| Ship Fragment | 100% mind a 13 dobásnál | 1 |
-| Daraxium | 60% mind a 13 dobásnál | 1–2 |
-| Nyxite | 60% mind a 13 dobásnál | 1–2 |
-| Standard Battery | 100% | 600–1 200 |
-| Advanced Plasma | 100% | 60–100 |
-| Ultra Core | 100% | 10–20 |
-| Egy a kreditért vásárolható 4 [rakéta](/wiki/06-Items/Rockets.md) közül, véletlenszerűen | 100% | 4–6 |
+| Tárgy |
+| :--- |
+| {{guide:spoils.box@Boss Phantasm#1;Boss Phantasm#2;Boss Phantasm#3}} |
 
 ### Phantasm Guard
 
@@ -82,17 +89,17 @@ Alapja: Phantasm, hajótestének, pajzsának és sebzésének 50%-a; a sebesség
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Hajótest | 1 000 | 1 500 | 2 000 |
-| Pajzs | 1 600 | 2 400 | 3 200 |
-| Lézersebzés (másodpercenként egy sorozat) | 175 | 263 | 350 |
-| Sebesség | 160 | 160 | 160 |
+| Hajótest | {{guide:vitals.hull@Phantasm Guard#1}} | {{guide:vitals.hull@Phantasm Guard#2}} | {{guide:vitals.hull@Phantasm Guard#3}} |
+| Pajzs | {{guide:vitals.shield@Phantasm Guard#1}} | {{guide:vitals.shield@Phantasm Guard#2}} | {{guide:vitals.shield@Phantasm Guard#3}} |
+| Lézersebzés (másodpercenként egy sorozat) | {{guide:vitals.dps@Phantasm Guard#1}} | {{guide:vitals.dps@Phantasm Guard#2}} | {{guide:vitals.dps@Phantasm Guard#3}} |
+| Sebesség | {{guide:vitals.speed@Phantasm Guard#1}} | {{guide:vitals.speed@Phantasm Guard#2}} | {{guide:vitals.speed@Phantasm Guard#3}} |
 | Lézer hatótávja | 700 | 700 | 700 |
 | Aggrósugár | csak ha megtámadják | csak ha megtámadják | csak ha megtámadják |
 | Gyógyítja a vezért, egyenként, másodpercenként (csak hajótest) | 30 | 45 | 60 |
-| Kredit | 125 | 250 | 375 |
-| Thulium | 1 | 2 | 3 |
-| Tapasztalat (XP) | 12 | 24 | 36 |
-| Becsület | 1 | 2 | 3 |
+| Kredit | {{guide:spoils.pay.credits@Phantasm Guard#1}} | {{guide:spoils.pay.credits@Phantasm Guard#2}} | {{guide:spoils.pay.credits@Phantasm Guard#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Phantasm Guard#1}} | {{guide:spoils.pay.thulium@Phantasm Guard#2}} | {{guide:spoils.pay.thulium@Phantasm Guard#3}} |
+| Tapasztalat (XP) | {{guide:spoils.pay.experience@Phantasm Guard#1}} | {{guide:spoils.pay.experience@Phantasm Guard#2}} | {{guide:spoils.pay.experience@Phantasm Guard#3}} |
+| Becsület | {{guide:spoils.pay.honor@Phantasm Guard#1}} | {{guide:spoils.pay.honor@Phantasm Guard#2}} | {{guide:spoils.pay.honor@Phantasm Guard#3}} |
 | PvE-pont kilövésenként | 1 | 1 | 1 |
 
 **Zsákmány**: nincs. A kilövés csak a kreditjét, Thuliumát, XP-jét és becsületét fizeti.

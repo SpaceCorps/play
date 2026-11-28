@@ -26,7 +26,7 @@ Açık Artırma, istasyon menüsünün tek bir sayfasında hem pilotların pazar
 - Sezonun 28. gününden sıfırlamaya kadar ilan ücreti ve vergi yoktur.
 - Sezonun 30. gününden itibaren pazar, yeni sezon başlayana kadar kapalıdır: hiçbir şey ilana konamaz, satın alınamaz ya da teklif verilemez. İlanlarını yine de iptal edebilirsin.
 - Her para biriminin, 24 saat içinde satabileceğin ve satın alabileceğin tutar için kendi sınırı vardır (aşağıdaki seviye tablosu). Lot kazanımları sayılmaz.
-- İki pilot arasında, biri diğerinden alırken, 24 saatte en fazla 16.000.000 kredi ya da 80.000 Thulium geçebilir.
+- İki pilot arasında, biri diğerinden alırken, 24 saatte en fazla 32.000.000 kredi ya da 160.000 Thulium geçebilir.
 
 <!-- market-glance:end -->
 
@@ -100,22 +100,22 @@ Thulium cinsinden bir fiyat tek bir kurala uyar: kredi cinsinden en düşük fiy
 
 | Seviye | Açık ilanlar | En uzun ilan | Günlük, kredi | Günlük, Thulium | 24 saat başına ilan ücreti |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 5 | 20 | 504 sa | 9.000.000 | 45.000 | %0,25 |
-| 6 | 40 | 504 sa | 12.000.000 | 60.000 | %0,25 |
-| 7 | 70 | 504 sa | 15.000.000 | 75.000 | %0,25 |
-| 8 | 100 | 504 sa | 17.000.000 | 85.000 | %0,25 |
-| 9 | 100 | 504 sa | 20.000.000 | 100.000 | %0,25 |
-| 10 | 100 | 504 sa | 30.000.000 | 150.000 | %0,4 |
-| 11 | 100 | 504 sa | 30.000.000 | 150.000 | %0,4 |
-| 12 | 100 | 504 sa | 30.000.000 | 150.000 | %0,4 |
-| 13 | 100 | 504 sa | 40.000.000 | 200.000 | %0,4 |
-| 14 | 100 | 504 sa | 40.000.000 | 200.000 | %0,4 |
-| 15 | 100 | 504 sa | 40.000.000 | 200.000 | %0,4 |
-| 16 | 100 | 504 sa | 40.000.000 | 200.000 | %0,4 |
-| 17 | 100 | 504 sa | 40.000.000 | 200.000 | %0,4 |
-| 18 | 100 | 504 sa | 40.000.000 | 200.000 | %0,4 |
-| 19 | 100 | 504 sa | 40.000.000 | 200.000 | %0,4 |
-| 20 ve üzeri | 100 | 504 sa | 40.000.000 | 200.000 | %0,4 |
+| 5 | 20 | 504 sa | 18.000.000 | 90.000 | %0,25 |
+| 6 | 40 | 504 sa | 24.000.000 | 120.000 | %0,25 |
+| 7 | 70 | 504 sa | 30.000.000 | 150.000 | %0,25 |
+| 8 | 100 | 504 sa | 34.000.000 | 170.000 | %0,25 |
+| 9 | 100 | 504 sa | 40.000.000 | 200.000 | %0,25 |
+| 10 | 100 | 504 sa | 60.000.000 | 300.000 | %0,4 |
+| 11 | 100 | 504 sa | 60.000.000 | 300.000 | %0,4 |
+| 12 | 100 | 504 sa | 60.000.000 | 300.000 | %0,4 |
+| 13 | 100 | 504 sa | 80.000.000 | 400.000 | %0,4 |
+| 14 | 100 | 504 sa | 80.000.000 | 400.000 | %0,4 |
+| 15 | 100 | 504 sa | 80.000.000 | 400.000 | %0,4 |
+| 16 | 100 | 504 sa | 80.000.000 | 400.000 | %0,4 |
+| 17 | 100 | 504 sa | 80.000.000 | 400.000 | %0,4 |
+| 18 | 100 | 504 sa | 80.000.000 | 400.000 | %0,4 |
+| 19 | 100 | 504 sa | 80.000.000 | 400.000 | %0,4 |
+| 20 ve üzeri | 100 | 504 sa | 80.000.000 | 400.000 | %0,4 |
 
 <!-- market-limits:end -->
 

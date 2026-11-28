@@ -1,34 +1,34 @@
-<!-- wiki-i18n source: 53a080132ff6f6d9 -->
+<!-- wiki-i18n source: aebf7c489ef3ed62 -->
 <!-- wiki-i18n title: Eredmények -->
 # Eredmények {#achievements}
 
-Az eredmények egy pilóta egész pályafutásának céljai: pusztítsd el az első idegent, érd el a 21. szintet, birtokolj egymilliárd kreditet, élj túl egy wipe-ot. A játék számolja őket helyetted. **50** van belőlük, **8** csoportban és **5** fokozatban. Mindegyik **fiókonként egyszer, örökre** fizet: krediteket mindegyikért, a legtöbbért pedig egy **címet**, amelyet a neved mellett viselhetsz. A wipe soha nem vesz el tőled eredményt, jutalmat vagy címet.
+Az eredmények egy pilóta egész pályafutásának céljai: pusztítsd el az első idegent, érd el a 21. szintet, birtokolj egymilliárd kreditet, élj túl egy wipe-ot. A játék számolja őket helyetted. **65** van belőlük, **8** csoportban és **5** fokozatban. Mindegyik **fiókonként egyszer, örökre** fizet: krediteket mindegyikért, a legtöbbért pedig egy **címet**, amelyet a neved mellett viselhetsz. A wipe soha nem vesz el tőled eredményt, jutalmat vagy címet.
 
 **Egy perc alatt**
 
 - Nyisd meg az állomáson a **Közösség › Eredmények** oldalt, és láthatod az összes célt, hogy hol tartasz, és mit fizet.
 - A fokozat (Gyakori, Szokatlan, Ritka, Epikus vagy Legendás) szabja meg a krediteket: minél nehezebb a cél, annál magasabb a fokozat.
 - Abban a pillanatban fizetnek, amikor eléred a célt, repülés közben vagy az állomáson. Egy kártya mutatja az eredményt és a jutalmát, a Játéknapló pedig egy sort őriz belőle.
-- A 50-ből **5** rejtett: az oldal zárt kártyaként mutatja őket, amíg fel nem oldod. A 50-be beleszámítanak, de itt nincsenek megnevezve.
+- A 65-ből **5** rejtett: az oldal zárt kártyaként mutatja őket, amíg fel nem oldod. A 65-be beleszámítanak, de itt nincsenek megnevezve.
 - A Steames változatban az eredményeid a Steam-profilodon is megjelennek, miután összekötötted a fiókodat (lásd lent).
 
 ## Fokozatok és jutalmak {#tiers-and-rewards}
 
-Az öt fokozat minden benne lévő eredményért ugyanannyit fizet, egyszer. A táblázat mind a 50-et számolja, a rejtetteket is.
+Az öt fokozat minden benne lévő eredményért ugyanannyit fizet, egyszer. A táblázat mind a 65-öt számolja, a rejtetteket is.
 
 | Fokozat | Eredmények | Kredit darabonként |
 | :--- | ---: | ---: |
 | Gyakori | 11 | 50 000 |
-| Szokatlan | 9 | 150 000 |
-| Ritka | 16 | 500 000 |
-| Epikus | 8 | 2 000 000 |
-| Legendás | 6 | 5 000 000 |
+| Szokatlan | 13 | 150 000 |
+| Ritka | 20 | 500 000 |
+| Epikus | 12 | 2 000 000 |
+| Legendás | 9 | 5 000 000 |
 
-Mind a 50 együtt **55 900 000** kreditet fizet, egyszer egy pilóta életében.
+Mind a 65 együtt **81 500 000** kreditet fizet, egyszer egy pilóta életében.
 
 ## Az eredmények {#the-achievements}
 
-A 45 nem rejtett eredmény csoportonként. Ahol egy cél valamit számol, ott a teljes pályafutásodon át számolja.
+A 60 nem rejtett eredmény csoportonként. Ahol egy cél valamit számol, ott a teljes pályafutásodon át számolja.
 
 ### Harc {#group-combat}
 
@@ -77,7 +77,7 @@ A 45 nem rejtett eredmény csoportonként. Ahol egy cél valamit számol, ott a 
 | Állomásépítő | Építs 5 különböző Skylab-modult. | Gyakori |
 | Teljes felszereltség | Építsd meg mind a 16 Skylab-modult. | Epikus |
 | Tudós | Fejezd be 50 technológia kutatását. | Szokatlan |
-| Levéltáros | Fejezd be mind a 210 technológia kutatását. | Legendás |
+| Levéltáros | Fejezd be mind a 212 technológia kutatását. | Legendás |
 
 ### Flotta {#group-fleet}
 
@@ -97,6 +97,21 @@ A 45 nem rejtett eredmény csoportonként. Ahol egy cél valamit számol, ott a 
 | Eseményhorizont | Lépj be a DS-4 veszélyes szektorba. | Szokatlan |
 | Kincskereső | Pusztíts el 500 aszteroidát. | Szokatlan |
 | Távoli horizontok | Fejezz be 10 Skylab-expedíciós utat. | Ritka |
+| Lámpagyújtó I | Gyújts meg 10 különböző Lámpást a Deep Voidban. | Szokatlan |
+| Lámpagyújtó II | Gyújts meg 39 különböző Lámpást a Deep Voidban. | Ritka |
+| Lámpagyújtó III | Gyújtsd meg a Deep Void mind a 78 Lámpását. | Epikus |
+| Térképész I | Derítsd fel DV-1 25 %-át a Deep Voidban. | Szokatlan |
+| Térképész II | Derítsd fel DV-1 50 %-át a Deep Voidban. | Ritka |
+| Térképész III | Derítsd fel DV-1 75 %-át a Deep Voidban. | Epikus |
+| Térképész IV | Derítsd fel DV-1 minden négyzetét a Deep Voidban. | Legendás |
+| Xenológus I | Kutass ki teljesen 10 bejegyzést az Utazó kalauzában. | Szokatlan |
+| Xenológus II | Kutass ki teljesen 50 bejegyzést az Utazó kalauzában. | Ritka |
+| Xenológus III | Kutass ki teljesen 100 bejegyzést az Utazó kalauzában. | Epikus |
+| Xenológus IV | Kutasd ki teljesen az Utazó kalauzának minden bejegyzését. | Legendás |
+| Kapuépítő I | Tegyél 50 000 Thuliumot Void Gate-ekbe (egy Dark Matter Plate 10 000-nek számít). | Szokatlan |
+| Kapuépítő II | Tegyél 250 000 Thuliumot Void Gate-ekbe (egy Dark Matter Plate 10 000-nek számít). | Ritka |
+| Kapuépítő III | Tegyél 1 000 000 Thuliumot Void Gate-ekbe (egy Dark Matter Plate 10 000-nek számít). | Epikus |
+| Kapuépítő IV | Tegyél 5 000 000 Thuliumot Void Gate-ekbe (egy Dark Matter Plate 10 000-nek számít). | Legendás |
 
 ### Klán {#group-clan}
 
@@ -123,7 +138,7 @@ A rejtett, még zárt eredmény egy zárt kártya cél és sáv nélkül. Ha fel
 
 ## Címek {#titles}
 
-A **cím** egy rövid szövegsor a pilóta neve mellett. A 50 eredményből 32 ad egyet, amely örökre a tiéd, amint feloldod az eredményt. Címek jönnek egy szezon végéről is (a rangod, minden vállalat legjobb pilótája és a legtöbb PvE-pontos pilóta) és a játék csapatától, például a **Pioneer** cím minden olyan fióknak, amely a játék Steames indulásának napján már létezett.
+A **cím** egy rövid szövegsor a pilóta neve mellett. A 65 eredményből 32 ad egyet, amely örökre a tiéd, amint feloldod az eredményt. Címek jönnek egy szezon végéről is (a rangod, minden vállalat legjobb pilótája és a legtöbb PvE-pontos pilóta) és a játék csapatától, például a **Pioneer** cím minden olyan fióknak, amely a játék Steames indulásának napján már létezett.
 
 - Sok címed lehet, de egyszerre **egyet viselsz**. A **pilótaprofilodon** választod ki, és újra le is veheted.
 - A címed a **profilodon**, a **Rangsorban**, a **Csoport** ablakban és a **csevegésben** jelenik meg, ha a neved fölé viszed az egeret. A 0.4.27 óta a térképen is megjelenik: egy kicsi, halvány sor a cím ritkaságának színében **minden pilóta hajójának neve fölött**, a tiéd fölött is. A hosszú címet a játék három ponttal (…) rövidíti le. Tömegben (több mint nyolc pilóta a képernyőn) csak a barátaid, a célpontod és a kijelölt hajó tartja meg a sajátját, hogy a képernyő olvasható maradjon. A célpontablakban és a minitérképen nem jelenik meg.

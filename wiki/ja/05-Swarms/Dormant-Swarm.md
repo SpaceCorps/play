@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: bb8bc80ba6889fba -->
+<!-- wiki-i18n source: fcba1b51b68a9123 -->
 <!-- wiki-i18n title: Dormant の群れ -->
 # Dormant の群れ {#dormant-swarm}
 
-Dormant の群れは、**Dormant Force** とその **Dormant Pulse** からなります。自分から戦いを始めることはありませんが、目を覚ますと非常に強く攻撃してくる艦の集団です。各ワールドに1つだけいます。危険セクターを次々に渡り歩き、群れの中で最も厳しい戦いと最も豪華なドロップを持つ、最強の艦の大きなグループ向けの戦いです。シーズン11日目からは、`DS-4` の [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) から始まり、早く戻り、報酬は2倍になります（*概要*の一覧を参照）。
+Dormant の群れは、**Dormant Force** とその **Dormant Pulse** からなります。自分から戦いを始めることはありませんが、目を覚ますと非常に強く攻撃してくる艦の集団です。各ワールドの危険セクターには1つだけいます（[Deep Void](/wiki/03-Mechanics/Deep-Void.md#the-dormant-swarms-visit)には、1日に1回の独自の訪問があります）。危険セクターを次々に渡り歩き、群れの中で最も厳しい戦いと最も豪華なドロップを持つ、最強の艦の大きなグループ向けの戦いです。シーズン11日目からは、`DS-4` の [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) から始まり、早く戻り、報酬は2倍になります（*概要*の一覧を参照）。
 
 ## ひと目で {#at-a-glance}
 
@@ -18,7 +18,7 @@ Dormant の群れは、**Dormant Force** とその **Dormant Pulse** からな�
 - **リーダー撃破後**：Dormant Pulse がリーダーを引き継ぐ
 - **リーダー撃破後**：リーダーが撃破されてから30秒後に配下は去ります。攻撃している最中でも同じです
 - **移動**：1つのマップに8～15分とどまり、その後ほかの危険セクターのゲートへ飛びます。危険セクターの外へ出るゲートは使わず、ブラックホールのリングにも入りません
-- **復活**：群れ全体撃破の 1時間 後、 ランダムな 危険セクター
+- **復活**：群れ全体撃破の {{guide:vitals.respawn@Dormant Force#1;Dormant Force#2;Dormant Force#3}} 後、 ランダムな 危険セクター
 - **シーズン11日目から**：ランダムな危険セクターの代わりに、`DS-4` の [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) に現れ、群れ全体が撃破されてから30分後に戻り、どの艦も報酬が ×2になります（クレジット、Thulium、XP、名誉。ドロップは変わりません）
 - **通知**：ワールド全体のパイロットは、群れが現れたときと撃破されたときに知らされます。これらはシステムの行です。チャットの**システム**タブに未読数付きで表示され、**全体**タブや**ローカル**タブには出ません。危険セクターのマップと銀河マップに印が付きます。キルフィードに、撃破の功績を得たパイロットの名前が出ます。
 
@@ -38,6 +38,19 @@ Dormant の群れは、**Dormant Force** とその **Dormant Pulse** からな�
 - **勝負を決めるのはレーザーです。** 合わせれば、ロケットがなくても1分足らずで Paragon を撃破でき、最良のシールドを持つ Paragon でも2分足らずです。持っている最良のシールドで、ダメージを素早く与えましょう。
 - **1隻ずつ。** 各艦に独自の船体と独自の報酬があるので、Force と Pulse のどちらが先に撃破されることもあります。群れが入れ替わるのは、全体が撃破されたときだけで、*ひと目で*の一覧の時間がたってからです。
 
+## リーダーの3つの段階 {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+その戦いには三つの段階があります([しくみ](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps))。それぞれ一度だけ起こります。
+
+- **開始時**: Dormant Pulsesのうち一体でも生きている間、あらゆる攻撃の70%しか受けません。
+- **三分の二を切ると**: Dormant Pulsesが15秒の間、2.5秒ごとにロケットを撃ちます。
+- **三分の一を切ると**: Dormant Pulsesがすべて生きている間、6秒の間、毎秒、船体の5%ずつ回復させます。
+
+<!-- mob-ladder:end -->
+
 ## 報酬とドロップ {#rewards-and-drops}
 
 各艦は、受けたダメージに応じて個別に報酬を払い（[ボス撃破の報酬](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)）、それぞれがいちばんダメージを与えたパイロットのためにコンテナをドロップします。**Force のコンテナ**が賞品で、大量の x3 と x4 弾薬、1種類のエピックロケット、そして時々 N.I.K.E. か N.U.K.E. が入っています。**Pulse** は Ancient Control Unit、Power Core、Dark Matter をドロップすることがあります。この群れと戦う1分は、最も報酬の高いエイリアンである Crystalys と戦う1分より多く報酬を払います。シーズン11日目からは、どの艦も報酬が2倍になります（*概要*の一覧を参照）。コンテナは変わりません。
@@ -55,27 +68,24 @@ Dormant の群れは、**Dormant Force** とその **Dormant Pulse** からな�
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 船体 | 256,000 | 384,000 | 512,000 |
-| シールド | 83,400 | 125,100 | 166,800 |
-| レーザーのダメージ （毎秒1斉射） | 3,315 | 4,973 | 6,630 |
-| 速度 | 210 | 210 | 210 |
+| 船体 | {{guide:vitals.hull@Dormant Force#1}} | {{guide:vitals.hull@Dormant Force#2}} | {{guide:vitals.hull@Dormant Force#3}} |
+| シールド | {{guide:vitals.shield@Dormant Force#1}} | {{guide:vitals.shield@Dormant Force#2}} | {{guide:vitals.shield@Dormant Force#3}} |
+| レーザーのダメージ （毎秒1斉射） | {{guide:vitals.dps@Dormant Force#1}} | {{guide:vitals.dps@Dormant Force#2}} | {{guide:vitals.dps@Dormant Force#3}} |
+| 速度 | {{guide:vitals.speed@Dormant Force#1}} | {{guide:vitals.speed@Dormant Force#2}} | {{guide:vitals.speed@Dormant Force#3}} |
 | レーザーの射程 | 800 | 800 | 800 |
 | 索敵範囲 | 攻撃時のみ | 攻撃時のみ | 攻撃時のみ |
-| ロケットのダメージ （最大） | 7,500 | 11,250 | 15,000 |
-| クレジット | 185,000 | 370,000 | 555,000 |
-| Thulium | 485 | 970 | 1,455 |
-| 経験値（XP） | 29,200 | 58,400 | 87,600 |
-| 名誉 | 127 | 254 | 381 |
+| ロケットのダメージ （最大） | {{guide:behaviour.ability:rocket.damage@Dormant Force#1}} | {{guide:behaviour.ability:rocket.damage@Dormant Force#2}} | {{guide:behaviour.ability:rocket.damage@Dormant Force#3}} |
+| クレジット | {{guide:spoils.pay.credits@Dormant Force#1}} | {{guide:spoils.pay.credits@Dormant Force#2}} | {{guide:spoils.pay.credits@Dormant Force#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Dormant Force#1}} | {{guide:spoils.pay.thulium@Dormant Force#2}} | {{guide:spoils.pay.thulium@Dormant Force#3}} |
+| 経験値（XP） | {{guide:spoils.pay.experience@Dormant Force#1}} | {{guide:spoils.pay.experience@Dormant Force#2}} | {{guide:spoils.pay.experience@Dormant Force#3}} |
+| 名誉 | {{guide:spoils.pay.honor@Dormant Force#1}} | {{guide:spoils.pay.honor@Dormant Force#2}} | {{guide:spoils.pay.honor@Dormant Force#3}} |
 | 撃破1回あたりの PvE ポイント | 25 | 25 | 25 |
 
 **ドロップ**：最もダメージを与えたパイロットのためのコンテナ1つ。
 
-| アイテム | 確率 | 数量 |
-| :--- | ---: | ---: |
-| Ultra Core と Experimental Fusion Core （均等に分配） | 100% | 合計 2,000–3,000 |
-| 4 種のエピック [ロケット](/wiki/06-Items/Rockets.md) のうち 1種 （ランダム） | 100% | 30–50 |
-| [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) と [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) のうち 1つ （ランダム） | 50% | 1 |
-| Heartshard | 5% | 1 |
+| アイテム |
+| :--- |
+| {{guide:spoils.box@Dormant Force#1;Dormant Force#2;Dormant Force#3}} |
 
 ### Dormant Pulse
 
@@ -83,25 +93,23 @@ Dormant の群れは、**Dormant Force** とその **Dormant Pulse** からな�
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 船体 | 128,000 | 192,000 | 256,000 |
-| シールド | 64,570 | 96,855 | 129,140 |
-| レーザーのダメージ （毎秒1斉射） | 5,100 | 7,650 | 10,200 |
-| 速度 | 270 | 270 | 270 |
+| 船体 | {{guide:vitals.hull@Dormant Pulse#1}} | {{guide:vitals.hull@Dormant Pulse#2}} | {{guide:vitals.hull@Dormant Pulse#3}} |
+| シールド | {{guide:vitals.shield@Dormant Pulse#1}} | {{guide:vitals.shield@Dormant Pulse#2}} | {{guide:vitals.shield@Dormant Pulse#3}} |
+| レーザーのダメージ （毎秒1斉射） | {{guide:vitals.dps@Dormant Pulse#1}} | {{guide:vitals.dps@Dormant Pulse#2}} | {{guide:vitals.dps@Dormant Pulse#3}} |
+| 速度 | {{guide:vitals.speed@Dormant Pulse#1}} | {{guide:vitals.speed@Dormant Pulse#2}} | {{guide:vitals.speed@Dormant Pulse#3}} |
 | レーザーの射程 | 800 | 800 | 800 |
 | 索敵範囲 | 攻撃時のみ | 攻撃時のみ | 攻撃時のみ |
-| ロケットのダメージ （最大） | 5,000 | 7,500 | 10,000 |
-| クレジット | 105,000 | 210,000 | 315,000 |
-| Thulium | 275 | 550 | 825 |
-| 経験値（XP） | 16,600 | 33,200 | 49,800 |
-| 名誉 | 72 | 144 | 216 |
+| ロケットのダメージ （最大） | {{guide:behaviour.ability:rocket.damage@Dormant Pulse#1}} | {{guide:behaviour.ability:rocket.damage@Dormant Pulse#2}} | {{guide:behaviour.ability:rocket.damage@Dormant Pulse#3}} |
+| クレジット | {{guide:spoils.pay.credits@Dormant Pulse#1}} | {{guide:spoils.pay.credits@Dormant Pulse#2}} | {{guide:spoils.pay.credits@Dormant Pulse#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Dormant Pulse#1}} | {{guide:spoils.pay.thulium@Dormant Pulse#2}} | {{guide:spoils.pay.thulium@Dormant Pulse#3}} |
+| 経験値（XP） | {{guide:spoils.pay.experience@Dormant Pulse#1}} | {{guide:spoils.pay.experience@Dormant Pulse#2}} | {{guide:spoils.pay.experience@Dormant Pulse#3}} |
+| 名誉 | {{guide:spoils.pay.honor@Dormant Pulse#1}} | {{guide:spoils.pay.honor@Dormant Pulse#2}} | {{guide:spoils.pay.honor@Dormant Pulse#3}} |
 | 撃破1回あたりの PvE ポイント | 11 | 11 | 11 |
 
 **ドロップ**：最もダメージを与えたパイロットのためのコンテナ1つ。
 
-| アイテム | 確率 | 数量 |
-| :--- | ---: | ---: |
-| Ancient Control Unit | 20% | 1 |
-| Power Core | 20% | 1 |
-| Dark Matter | 20% | 1–5 |
+| アイテム |
+| :--- |
+| {{guide:spoils.box@Dormant Pulse#1;Dormant Pulse#2;Dormant Pulse#3}} |
 
 <!-- dormant-members:end -->

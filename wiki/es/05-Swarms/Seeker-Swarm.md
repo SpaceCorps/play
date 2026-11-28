@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fff5cfd69e987468 -->
+<!-- wiki-i18n source: 7c6bc3eaf70223f5 -->
 <!-- wiki-i18n title: Enjambre Seeker -->
 # Enjambre Seeker {#seeker-swarm}
 
@@ -17,14 +17,14 @@ El enjambre Seeker es el más pequeño de los [enjambres](/wiki/05-Swarms/Swarms
 - **Los seguidores se mantienen**: a no más de 500 unidades del líder
 - **Curación**: Cada Seeker Slave a menos de 600 unidades del líder cura su casco, 50 HP por segundo en Alpha
 - **Líder destruido**: Los seguidores se van 30 s después de que destruyan al líder, salvo que estén atacando
-- **Vuelve**: 2 min después de que destruyan al líder, en el mismo sector
+- **Vuelve**: {{guide:vitals.respawn@Boss Seeker#1;Boss Seeker#2;Boss Seeker#3}} después de que destruyan al líder, en el mismo sector
 - **Avisos**: Se avisa a los pilotos del sector cuándo aparece el líder y cuándo es destruido. Son líneas del Sistema: aparecen en la pestaña **Sistema** del chat, con un contador de no leídas, y no en **Global** ni en **Local**. El registro de bajas nombra al piloto al que se acredita el derribo.
 
 <!-- seeker-glance:end -->
 
 ## Los miembros {#the-members}
 
-- **Boss Seeker**: un Seeker mucho más grande, con el tinte del enjambre y su nombre encima, con muchas veces el casco, el escudo y el daño de un Seeker (las cifras están más abajo). Es pasivo: merodea hasta que un piloto lo impacta, entonces se detiene donde está y dispara a ese piloto, y las naves de su enjambre cercanas se suman al combate. El alcance de su arma y su velocidad son los de un Seeker, y nunca repara su casco por sí solo.
+- **Boss Seeker**: un Seeker mucho más grande, con el tinte del enjambre y su nombre encima, con muchas veces el casco, el escudo y el daño de un Seeker (las cifras están más abajo). Es pasivo: merodea hasta que un piloto lo impacta, entonces se detiene donde está y dispara a ese piloto, y las naves de su enjambre cercanas se suman al combate. El alcance de su arma y su velocidad son los de un Seeker, y nunca repara su casco por sí solo. Sus [tres pasos](#the-leaders-three-steps) y una [habilidad especial](/wiki/03-Mechanics/Special-Abilities.md) pueden cambiar eso.
 - **Seeker Slave**: un Seeker corriente con el tinte del enjambre. Los Slaves se mantienen cerca del jefe, se suman al combate cuando una nave de enjambre cercana es impactada, y cada uno que está cerca del jefe cura su casco. Un Slave repara su propio casco tras un descanso, como hace un Seeker.
 
 ## Cómo transcurre el combate {#how-the-fight-goes}
@@ -33,6 +33,19 @@ El enjambre Seeker es el más pequeño de los [enjambres](/wiki/05-Swarms/Swarms
 - **Mantente fuera de su alcance.** El jefe y sus Slaves son más lentos que una Protos, y sus armas llegan menos lejos que un Quantum Laser II (consulta [Láseres y munición](/wiki/06-Items/Lasers.md)): un piloto que tiene esos láseres y se mantiene más allá de su alcance no recibe daño mientras disparan. Un piloto con Quantum Laser I no puede mantenerse fuera de su alcance.
 - **Los Slaves curan más rápido de lo que golpea un piloto nuevo en solitario.** Juntos curan más de lo que causan los láseres de un piloto con munición x1, así que lleva un compañero y munición x2. Dos pilotos con Quantum Laser II que mantienen la distancia derriban al jefe en aproximadamente un minuto en Alpha, y mucho más rápido con munición x2.
 - **El jefe vuelve** pasado el tiempo de la lista *De un vistazo*, con toda su fuerza, en el mismo sector, y sus Slaves llegan uno tras otro.
+
+## Los tres pasos del líder {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Su combate tiene tres pasos ([cómo funcionan](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); cada uno ocurre una vez.
+
+- **Al empezar**: Sus Seeker Slaves lo reparan ×2 más rápido durante 8 s.
+- **Por debajo de dos tercios**: 2 copias suyas aparecen, y la auténtica lleva un anillo.
+- **Por debajo de un tercio**: Huye de los pilotos durante 4 s y luego se vuelve contra ellos.
+
+<!-- mob-ladder:end -->
 
 ## Recompensas y botín {#rewards-and-drops}
 
@@ -51,28 +64,23 @@ Base: Seeker, con 400 % de casco, escudo y daño; la velocidad y el alcance son
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Casco | 3.200 | 4.800 | 6.400 |
-| Escudo | 3.200 | 4.800 | 6.400 |
-| Daño de los láseres (una salva por segundo) | 720 | 1.080 | 1.440 |
-| Velocidad | 120 | 120 | 120 |
+| Casco | {{guide:vitals.hull@Boss Seeker#1}} | {{guide:vitals.hull@Boss Seeker#2}} | {{guide:vitals.hull@Boss Seeker#3}} |
+| Escudo | {{guide:vitals.shield@Boss Seeker#1}} | {{guide:vitals.shield@Boss Seeker#2}} | {{guide:vitals.shield@Boss Seeker#3}} |
+| Daño de los láseres (una salva por segundo) | {{guide:vitals.dps@Boss Seeker#1}} | {{guide:vitals.dps@Boss Seeker#2}} | {{guide:vitals.dps@Boss Seeker#3}} |
+| Velocidad | {{guide:vitals.speed@Boss Seeker#1}} | {{guide:vitals.speed@Boss Seeker#2}} | {{guide:vitals.speed@Boss Seeker#3}} |
 | Alcance de los láseres | 600 | 600 | 600 |
 | Radio de agresión | solo si lo atacan | solo si lo atacan | solo si lo atacan |
-| Créditos | 10.000 | 20.000 | 30.000 |
-| Thulium | 40 | 80 | 120 |
-| Experiencia (XP) | 1.000 | 2.000 | 3.000 |
-| Honor | 20 | 40 | 60 |
+| Créditos | {{guide:spoils.pay.credits@Boss Seeker#1}} | {{guide:spoils.pay.credits@Boss Seeker#2}} | {{guide:spoils.pay.credits@Boss Seeker#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Boss Seeker#1}} | {{guide:spoils.pay.thulium@Boss Seeker#2}} | {{guide:spoils.pay.thulium@Boss Seeker#3}} |
+| Experiencia (XP) | {{guide:spoils.pay.experience@Boss Seeker#1}} | {{guide:spoils.pay.experience@Boss Seeker#2}} | {{guide:spoils.pay.experience@Boss Seeker#3}} |
+| Honor | {{guide:spoils.pay.honor@Boss Seeker#1}} | {{guide:spoils.pay.honor@Boss Seeker#2}} | {{guide:spoils.pay.honor@Boss Seeker#3}} |
 | Puntos PvE por derribo | 5 | 5 | 5 |
 
 **Botín**: una caja, para el piloto que más daño causó.
 
-| Objeto | Probabilidad | Cantidad |
-| :--- | ---: | ---: |
-| Ship Fragment | 20 % en cada una de 10 tiradas | 1 |
-| Daraxium | 50 % en cada una de 10 tiradas | 1–2 |
-| Standard Battery | 100 % | 200–400 |
-| Advanced Plasma | 100 % | 10–20 |
-| Ultra Core | 100 % | 2–4 |
-| Uno de los 4 [cohetes](/wiki/06-Items/Rockets.md) que se compran con créditos, elegido al azar | 100 % | 2–3 |
+| Objeto |
+| :--- |
+| {{guide:spoils.box@Boss Seeker#1;Boss Seeker#2;Boss Seeker#3}} |
 
 ### Seeker Slave
 
@@ -80,17 +88,17 @@ Base: Seeker, con 100 % de casco, escudo y daño; la velocidad y el alcance son
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Casco | 800 | 1.200 | 1.600 |
-| Escudo | 800 | 1.200 | 1.600 |
-| Daño de los láseres (una salva por segundo) | 180 | 270 | 360 |
-| Velocidad | 120 | 120 | 120 |
+| Casco | {{guide:vitals.hull@Seeker Slave#1}} | {{guide:vitals.hull@Seeker Slave#2}} | {{guide:vitals.hull@Seeker Slave#3}} |
+| Escudo | {{guide:vitals.shield@Seeker Slave#1}} | {{guide:vitals.shield@Seeker Slave#2}} | {{guide:vitals.shield@Seeker Slave#3}} |
+| Daño de los láseres (una salva por segundo) | {{guide:vitals.dps@Seeker Slave#1}} | {{guide:vitals.dps@Seeker Slave#2}} | {{guide:vitals.dps@Seeker Slave#3}} |
+| Velocidad | {{guide:vitals.speed@Seeker Slave#1}} | {{guide:vitals.speed@Seeker Slave#2}} | {{guide:vitals.speed@Seeker Slave#3}} |
 | Alcance de los láseres | 600 | 600 | 600 |
 | Radio de agresión | solo si lo atacan | solo si lo atacan | solo si lo atacan |
 | Cura al líder, cada uno, por segundo (solo el casco) | 50 | 75 | 100 |
-| Créditos | 125 | 250 | 375 |
-| Thulium | 1 | 2 | 3 |
-| Experiencia (XP) | 12 | 24 | 36 |
-| Honor | 1 | 2 | 3 |
+| Créditos | {{guide:spoils.pay.credits@Seeker Slave#1}} | {{guide:spoils.pay.credits@Seeker Slave#2}} | {{guide:spoils.pay.credits@Seeker Slave#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Seeker Slave#1}} | {{guide:spoils.pay.thulium@Seeker Slave#2}} | {{guide:spoils.pay.thulium@Seeker Slave#3}} |
+| Experiencia (XP) | {{guide:spoils.pay.experience@Seeker Slave#1}} | {{guide:spoils.pay.experience@Seeker Slave#2}} | {{guide:spoils.pay.experience@Seeker Slave#3}} |
+| Honor | {{guide:spoils.pay.honor@Seeker Slave#1}} | {{guide:spoils.pay.honor@Seeker Slave#2}} | {{guide:spoils.pay.honor@Seeker Slave#3}} |
 | Puntos PvE por derribo | 1 | 1 | 1 |
 
 **Botín**: ninguno. El derribo solo paga sus créditos, su Thulium, su XP y su honor.

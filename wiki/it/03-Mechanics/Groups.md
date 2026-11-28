@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ab422d8b5066fe56 -->
+<!-- wiki-i18n source: 61fa5f21bae46a15 -->
 <!-- wiki-i18n title: Gruppi -->
 # Gruppi {#groups}
 
@@ -119,7 +119,7 @@ La tua lista degli ignorati e l’interruttore Nascondi Globale sono salvati con
 
 ## Regole d’ingaggio {#rules-of-engagement}
 
-**I membri di uno stesso gruppo non possono farsi del male a vicenda**, qualunque sia la loro corporazione: non puoi agganciare un compagno di gruppo (laser o razzi), i tuoi colpi e le tue esplosioni lo attraversano, e nulla di ciò che fai a uno di loro conta come un abbattimento, un abbattimento PvP o un abbattimento da buco nero per nessuno. I compagni di corporazione che **non** sono nello stesso gruppo valgono come prima: colpirne uno con un laser o un razzo costa **100 onore** quando viene distrutto. Lascia il gruppo e un ex compagno, nemico o no, torna subito un bersaglio lecito (dove il settore e la stagione permettono di combattere). Chiunque sia fuori dal tuo gruppo viene trattato come sempre, e le zone sicure, il Protocollo di pace e le regole PvP dei settori non cambiano per nessuno.
+**I membri di uno stesso gruppo non possono attaccarsi a vicenda**, qualunque sia la loro corporazione: non puoi agganciare un compagno di gruppo (laser o razzi), i tuoi colpi e i tuoi razzi diretti lo attraversano, e nulla di ciò che fai a uno di loro conta come un abbattimento, un abbattimento PvP o un abbattimento da buco nero per nessuno. L’unico danno di razzo che raggiunge comunque il tuo gruppo è quello ad area: l’esplosione di un Ember, di uno Scatter o di una N.U.K.E. e la zona di radiazione che lascia una N.U.K.E. o una Gravitational N.U.K.E. danneggiano te e i membri del tuo gruppo per metà di ciò che fanno a un’altra nave (una zona sicura e la protezione di una rinascita ti proteggono da esse, il Protocollo di pace e i settori senza PvP no), e se una di esse distrugge un membro nessuno ottiene l’abbattimento. I compagni di corporazione che **non** sono nello stesso gruppo valgono come prima: colpirne uno con un laser o un razzo costa **100 onore** quando viene distrutto. Lascia il gruppo e un ex compagno, nemico o no, torna subito un bersaglio lecito (dove il settore e la stagione permettono di combattere). Chiunque sia fuori dal tuo gruppo viene trattato come sempre, e le zone sicure, il Protocollo di pace e le regole PvP dei settori non cambiano per nessuno.
 
 ## Portare un amico {#bringing-a-friend}
 

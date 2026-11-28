@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 74bb4919fe97756e -->
+<!-- wiki-i18n source: 634c9ffbf340dec7 -->
 <!-- wiki-i18n title: 연구 -->
 # 연구 {#research}
 
@@ -30,7 +30,7 @@
 
 <!-- research-centre:end -->
 
-**Schematics.** [Schematics](/wiki/06-Items/Special-Items.md#schematics)는 진행 중인 연구에서 24시간을 줄여 줍니다. 남은 시간이 24시간 이하면 즉시 완료되고, 더 긴 연구는 24시간이 줄어든 채 계속됩니다(기술 210개 중 188개는 24시간 이하이므로 하나로 처음부터 완료할 수 있고, 나머지 22개는 2~10개가 필요합니다). 연구에 든 비용은 시작할 때 이미 지불되어 돌려받지 못하고, 건너뛴 시간이 태웠을 과학 포인트는 탱크에 남으며, 연구가 끝나면 대기열의 다음 기술이 바로 시작됩니다.
+**Schematics.** [Schematics](/wiki/06-Items/Special-Items.md#schematics)는 진행 중인 연구에서 24시간을 줄여 줍니다. 남은 시간이 24시간 이하면 즉시 완료되고, 더 긴 연구는 24시간이 줄어든 채 계속됩니다(기술 212개 중 190개는 24시간 이하이므로 하나로 처음부터 완료할 수 있고, 나머지 22개는 2~10개가 필요합니다). 연구에 든 비용은 시작할 때 이미 지불되어 돌려받지 못하고, 건너뛴 시간이 태웠을 과학 포인트는 탱크에 남으며, 연구가 끝나면 대기열의 다음 기술이 바로 시작됩니다.
 
 **레이저 증폭기와 마지막 티어.** 티어 II~IV의 Damage Amp, Crit Amp, Penetration Amp는 다른 제작품과 똑같이 연구합니다. 증폭기 계열이 나왔을 때 증폭기를 가지고 있었거나 제작 대기 중이던 파일럿은 그 증폭기 각각의 기술과 그 아래 티어의 기술을 받았습니다. 다른 트리의 기술을 필요로 하는 기술은 13개입니다. 자원 트리에 있는 Dark Matter Plate의 기술입니다. 모든 강화 계열의 마지막 티어가 플레이트 4개와 Ancient Control Unit 1개를 요구하기 때문이며, 티어 IV의 Damage Amp, Crit Amp, Penetration Amp, 티어 IV의 Absorption Shield Cell, Capacity Shield Cell, 티어 IV의 Impulse Thruster, Momentum Thruster, 그리고 Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III, Base CPU II가 여기에 해당합니다. 이미 그중 하나를 연구했다면 그 기술은 그대로 남지만, 거기에 필요한 플레이트를 만들려면 Dark Matter Plate의 기술이 필요합니다. 아래 트리에는 그것을 위한 화살표가 그려지지 않지만, 표에는 나와 있고 게임 안의 카드에도 이름이 나옵니다([Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -98,6 +98,7 @@ Skylab의 **연구** 보기에서는 기술이 아래 트리의 상자보다 더
 | :--- | :--- | ---: | ---: |
 | 30분 | 15분 | 1 | 5,000 |
 | 1시간 | 30분 | 1 | 5,000 |
+| 2시간 | 1시간 | 1 | 5,000 |
 | 3시간 | 1시간 30분 | 1 | 5,000 |
 | 4시간 | 2시간 | 1 | 5,000 |
 | 6시간 | 3시간 | 1 | 5,000 |
@@ -335,10 +336,13 @@ Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600
 Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 Mine II | consumable, rare | craft 200 Thulium, 120 s | research 10800 s, 10800 science | 2 Mine I, 3 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#mine
 Mine III | consumable, epic | craft 400 Thulium, 300 s | research 21600 s, 21600 science | 2 Mine II, 8 Ship Fragment, 1 Reinforced Hull Plate, 2 Power Core | /wiki/06-Items/Extras.md#mine
+Organic Scanner I | extra, rare | craft 20000 Credits, 10000 Thulium, 600 s | research 1800 s, 1800 science | 60 Ship Fragment, 2 Power Core, 1 Ancient Control Unit, 5 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+Organic Scanner II | extra, epic | craft 50000 Credits, 20000 Thulium, 900 s | research 7200 s, 7200 science | 1 Organic Scanner I, 2 Lurker Fang, 2 Angler Lure, 1 Leviathan Scale | /wiki/06-Items/Extras.md
 
 Extra Slots CPU I => Extra Slots CPU II => Extra Slots CPU III
 Base CPU I => Base CPU II => Jump CPU
 Mine II => Mine III
+Organic Scanner I => Organic Scanner II
 ```
 
 ### 방어 {#tree-defence}
@@ -582,18 +586,20 @@ Skylab 연구 화면의 함선 계열에는 제작이 아닌 두 종류의 기�
 | [Miyuki III](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki II](/wiki/02-Ships/Miyuki.md) | D | 1일 | 86,400 | 10 |
 | [Miyuki IV](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki III](/wiki/02-Ships/Miyuki.md) | D | 2일 | 172,800 | 10 |
 | [Miyuki V](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki IV](/wiki/02-Ships/Miyuki.md) | D | 2일 | 172,800 | 10 |
+| [Organic Scanner I](/wiki/06-Items/Extras.md) | – | A | 30분 | 1,800 | – |
+| [Organic Scanner II](/wiki/06-Items/Extras.md) | [Organic Scanner I](/wiki/06-Items/Extras.md) | B | 2시간 | 7,200 | – |
 
 연구 시간별 등급:
 
 | 등급 | 연구 시간 | 기술 수 | 차례로 연구한 합계 | 과학 | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| A | 30분~1시간 | 17 | 9시간 30분 | 34,200 | 0 |
-| B | 3시간~6시간 | 37 | 5일 20시간 | 504,000 | 0 |
+| A | 30분~1시간 | 18 | 10시간 | 36,000 | 0 |
+| B | 2시간~6시간 | 38 | 5일 22시간 | 511,200 | 0 |
 | C | 8시간~10시간 | 20 | 8일 4시간 | 705,600 | 95 |
 | D | 16시간~10일 | 35 | 60일 16시간 | 5,241,600 | 379 |
-| 전체 |  | 109 | 75일 1시간 30분 | 6,485,400 | 474 |
+| 전체 |  | 111 | 75일 4시간 | 6,494,400 | 474 |
 
-하나씩 차례로 연구하면 트리 전체에 75일 1시간 30분이 걸립니다. 부스트를 계속 켜 두면 37일 12시간 45분이 걸리며, 부스트 38개와 Thulium 190,000이 듭니다. 과학은 같습니다.
+하나씩 차례로 연구하면 트리 전체에 75일 4시간이 걸립니다. 부스트를 계속 켜 두면 37일 14시간이 걸리며, 부스트 38개와 Thulium 190,000이 듭니다. 과학은 같습니다.
 
 <!-- research-technologies:end -->
 
@@ -617,6 +623,8 @@ Skylab 연구 화면의 함선 계열에는 제작이 아닌 두 종류의 기�
 | [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10시간 | – | 20,000 | 15분 |
 | [Mine II](/wiki/06-Items/Extras.md#mine) | 3시간 | – | 200 | 2분 |
 | [Mine III](/wiki/06-Items/Extras.md#mine) | 6시간 | [Mine II](/wiki/06-Items/Extras.md#mine) | 400 | 5분 |
+| [Organic Scanner I](/wiki/06-Items/Extras.md) | 30분 | – | 10,000 | 10분 |
+| [Organic Scanner II](/wiki/06-Items/Extras.md) | 2시간 | [Organic Scanner I](/wiki/06-Items/Extras.md) | 20,000 | 15분 |
 
 어느 것도 상점에서 팔지 않습니다. 기술을 연구한 뒤 어셈블리에서 CPU를 제작합니다. 트리에서 CPU에 마우스를 올리면 어셈블리가 무엇을 요구하는지 볼 수 있습니다.
 

@@ -1,24 +1,24 @@
-<!-- wiki-i18n source: 6d3783229000ac9d -->
+<!-- wiki-i18n source: 7f996719b5b4b108 -->
 <!-- wiki-i18n title: Phantasm -->
 # Phantasm
 
-Phantasm은 공격적인 유령급 드론입니다. 어그로 반경(700유닛) 안에 들어오는 플레이어는 누구든 공격하며, 파일럿이 1,200유닛 넘게 멀어지거나 Phantasm이 추격을 시작한 지점에서 2,000유닛을 날아가면 관심을 잃습니다(Phantasm에게 사격한 파일럿에게는 2,500유닛과 3,000유닛이며, [전투](/wiki/03-Mechanics/Combat.md) 참고). 최근 10초 안에 자신을 명중시킨 파일럿은 절대 놓아주지 않으며, 그 파일럿이 무기 사거리(700유닛) 밖에 있을 때마다 Phantasm은 그 파일럿을 향해 날아갑니다. 여러 파일럿이 사격하면 Phantasm은 가장 먼저 사격한 파일럿이 계속 명중시키는 동안에는 그 파일럿만 줄곧 상대합니다([외계인이 싸우는 상대](/wiki/03-Mechanics/Combat.md#who-an-alien-fights) 참고). [무리](/wiki/05-Swarms/Swarms.md)의 함선은 별개 종류의 외계인으로, 무리 카테고리에 고유한 문서가 있습니다.
+Phantasm은 공격적인 유령급 드론입니다. 어그로 반경({{guide:vitals.aggro@Phantasm#1;Phantasm#2;Phantasm#3;Phantasm#4}}유닛) 안에 들어오는 플레이어는 누구든 공격하며, 파일럿이 1,200유닛 넘게 멀어지거나 Phantasm이 추격을 시작한 지점에서 2,000유닛을 날아가면 관심을 잃습니다(Phantasm에게 사격한 파일럿에게는 2,500유닛과 3,000유닛이며, [전투](/wiki/03-Mechanics/Combat.md) 참고). 최근 10초 안에 자신을 명중시킨 파일럿은 절대 놓아주지 않으며, 그 파일럿이 무기 사거리(700유닛) 밖에 있을 때마다 Phantasm은 그 파일럿을 향해 날아갑니다. 여러 파일럿이 사격하면 Phantasm은 가장 먼저 사격한 파일럿이 계속 명중시키는 동안에는 그 파일럿만 줄곧 상대합니다([외계인이 싸우는 상대](/wiki/03-Mechanics/Combat.md#who-an-alien-fights) 참고). [무리](/wiki/05-Swarms/Swarms.md)의 함선은 별개 종류의 외계인으로, 무리 카테고리에 고유한 문서가 있습니다.
 
 ## 능력치 {#stats}
 
-- **내구도(HP)**: 2,000
-- **실드**: 3,200
-- **피해량**: 350
-- **속도**: 160
+- **내구도(HP)**: {{guide:vitals.hull@Phantasm#1}}
+- **실드**: {{guide:vitals.shield@Phantasm#1}}
+- **피해량**: {{guide:vitals.dps@Phantasm#1}}
+- **속도**: {{guide:vitals.speed@Phantasm#1;Phantasm#2;Phantasm#3;Phantasm#4}}
 - **공격 사거리**: 700
 - **행동 성향**: 공격적
 
 ## 보상 {#rewards}
 
-- **크레딧**: 3,000
-- **Thulium**: 12
-- **경험치(XP)**: 300
-- **명예**: 6
+- **크레딧**: {{guide:spoils.pay.credits@Phantasm#1}}
+- **Thulium**: {{guide:spoils.pay.thulium@Phantasm#1}}
+- **경험치(XP)**: {{guide:spoils.pay.experience@Phantasm#1}}
+- **명예**: {{guide:spoils.pay.honor@Phantasm#1}}
 - **처치당 PvE 포인트**: 2
 - **실드 재충전**: 초당 20 (15초 후부터)
 
@@ -28,10 +28,11 @@ Phantasm은 공격적인 유령급 드론입니다. 어그로 반경(700유닛) 
 
 각 전리품의 용도와 다른 획득처: [자원](/wiki/06-Items/Resources.md).
 
-- **Ship Fragment**: 확률 100% (최소 1, 최대 1)
-- **Daraxium**: 확률 60% (최소 1, 최대 2)
-- **Nyxite**: 확률 60% (최소 1, 최대 2)
-- **Echo Shard**: 확률 2% (최소 1, 최대 1)
+- {{guide:spoils.box@Phantasm#1;Phantasm#2;Phantasm#3;Phantasm#4}}
+
+## 특수 능력 {#special-abilities}
+
+이 종류의 외계인 중 일부는 **특수 능력**을 지닙니다. 선체가 절반쯤 사라졌을 때 한 번만 쓰는 기술입니다. 시작되기 전에는 아무것도 보이지 않습니다. [특수 능력](/wiki/03-Mechanics/Special-Abilities.md) 문서에서 각 능력이 무엇을 하는지, 어떻게 대응하는지 알 수 있습니다.
 
 ## 배경 설정 {#lore}
 

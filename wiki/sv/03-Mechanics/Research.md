@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 74bb4919fe97756e -->
+<!-- wiki-i18n source: 634c9ffbf340dec7 -->
 <!-- wiki-i18n title: Forskning -->
 # Forskning {#research}
 
@@ -30,7 +30,7 @@ Den här sidan har hela teknologiträdet med tiden för varje teknologi, vetensk
 
 <!-- research-centre:end -->
 
-**Schematics.** Ett [Schematics](/wiki/06-Items/Special-Items.md#schematics) tar bort 24 timmar från den pågående forskningen: om 24 timmar eller mindre återstår slutförs den direkt, och en längre förlorar 24 timmar och fortsätter (188 av de 210 teknikerna tar 24 timmar eller mindre, så ett Schematics slutför dem från början; de andra 22 behöver 2 till 10). Vad forskningen kostade betalades vid starten och ges inte tillbaka, vetenskapen som den överhoppade tiden hade bränt stannar kvar i din tank, och när forskningen är slutförd startar nästa teknik i din kö direkt.
+**Schematics.** Ett [Schematics](/wiki/06-Items/Special-Items.md#schematics) tar bort 24 timmar från den pågående forskningen: om 24 timmar eller mindre återstår slutförs den direkt, och en längre förlorar 24 timmar och fortsätter (190 av de 212 teknikerna tar 24 timmar eller mindre, så ett Schematics slutför dem från början; de andra 22 behöver 2 till 10). Vad forskningen kostade betalades vid starten och ges inte tillbaka, vetenskapen som den överhoppade tiden hade bränt stannar kvar i din tank, och när forskningen är slutförd startar nästa teknik i din kö direkt.
 
 **Laserförstärkarna och sista nivån.** Damage Amp, Crit Amp och Penetration Amp på nivå II till IV forskas fram som allt annat som kan tillverkas. Piloter som hade eller hade köat förstärkare när förstärkarserierna kom fick teknologin för var och en av dem och för nivåerna under. Tretton teknologier kräver en teknologi i ett annat träd, Dark Matter Plates, i trädet Resurser, eftersom sista nivån i varje uppgraderingskedja kräver fyra plattor och en Ancient Control Unit: Damage Amp, Crit Amp och Penetration Amp av nivå IV, Absorption Shield Cell och Capacity Shield Cell av nivå IV, Impulse Thruster och Momentum Thruster av nivå IV, Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III och Base CPU II. En pilot som har forskat fram en av dem tidigare behåller den, men behöver plattans teknologi för att tillverka dess plattor. Trädet nedan ritar ingen pil för den, men tabellen listar den och kortet i spelet nämner den ([Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -98,6 +98,7 @@ Vad en boost gör med tiden för en forskning, med boosten på från start:
 | :--- | :--- | ---: | ---: |
 | 30 min | 15 min | 1 | 5 000 |
 | 1 h | 30 min | 1 | 5 000 |
+| 2 h | 1 h | 1 | 5 000 |
 | 3 h | 1 h 30 min | 1 | 5 000 |
 | 4 h | 2 h | 1 | 5 000 |
 | 6 h | 3 h | 1 | 5 000 |
@@ -335,10 +336,13 @@ Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600
 Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 Mine II | consumable, rare | craft 200 Thulium, 120 s | research 10800 s, 10800 science | 2 Mine I, 3 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#mine
 Mine III | consumable, epic | craft 400 Thulium, 300 s | research 21600 s, 21600 science | 2 Mine II, 8 Ship Fragment, 1 Reinforced Hull Plate, 2 Power Core | /wiki/06-Items/Extras.md#mine
+Organic Scanner I | extra, rare | craft 20000 Credits, 10000 Thulium, 600 s | research 1800 s, 1800 science | 60 Ship Fragment, 2 Power Core, 1 Ancient Control Unit, 5 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+Organic Scanner II | extra, epic | craft 50000 Credits, 20000 Thulium, 900 s | research 7200 s, 7200 science | 1 Organic Scanner I, 2 Lurker Fang, 2 Angler Lure, 1 Leviathan Scale | /wiki/06-Items/Extras.md
 
 Extra Slots CPU I => Extra Slots CPU II => Extra Slots CPU III
 Base CPU I => Base CPU II => Jump CPU
 Mine II => Mine III
+Organic Scanner I => Organic Scanner II
 ```
 
 ### Försvar {#tree-defence}
@@ -582,18 +586,20 @@ Familjen Pilot i forskningsvyn innehåller teknologier som inte är tillverkning
 | [Miyuki III](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki II](/wiki/02-Ships/Miyuki.md) | D | 1 d | 86 400 | 10 |
 | [Miyuki IV](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki III](/wiki/02-Ships/Miyuki.md) | D | 2 d | 172 800 | 10 |
 | [Miyuki V](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki IV](/wiki/02-Ships/Miyuki.md) | D | 2 d | 172 800 | 10 |
+| [Organic Scanner I](/wiki/06-Items/Extras.md) | – | A | 30 min | 1 800 | – |
+| [Organic Scanner II](/wiki/06-Items/Extras.md) | [Organic Scanner I](/wiki/06-Items/Extras.md) | B | 2 h | 7 200 | – |
 
 Klasserna efter forskningstid:
 
 | Klass | Forskningstid | Teknologier | En efter en | Vetenskap | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| A | 30 min till 1 h | 17 | 9 h 30 min | 34 200 | 0 |
-| B | 3 h till 6 h | 37 | 5 d 20 h | 504 000 | 0 |
+| A | 30 min till 1 h | 18 | 10 h | 36 000 | 0 |
+| B | 2 h till 6 h | 38 | 5 d 22 h | 511 200 | 0 |
 | C | 8 h till 10 h | 20 | 8 d 4 h | 705 600 | 95 |
 | D | 16 h till 10 d | 35 | 60 d 16 h | 5 241 600 | 379 |
-| Alla |  | 109 | 75 d 1 h 30 min | 6 485 400 | 474 |
+| Alla |  | 111 | 75 d 4 h | 6 494 400 | 474 |
 
-Framforskat en efter en tar hela trädet 75 d 1 h 30 min. Med boosten på hela tiden tar det 37 d 12 h 45 min, alltså 38 boostar och 190 000 Thulium; vetenskapen är densamma.
+Framforskat en efter en tar hela trädet 75 d 4 h. Med boosten på hela tiden tar det 37 d 14 h, alltså 38 boostar och 190 000 Thulium; vetenskapen är densamma.
 
 <!-- research-technologies:end -->
 
@@ -617,6 +623,8 @@ De nya CPU:erna forskas också fram här och tillverkas sedan i Monteringen. Sam
 | [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 h | – | 20 000 | 15 min |
 | [Mine II](/wiki/06-Items/Extras.md#mine) | 3 h | – | 200 | 2 min |
 | [Mine III](/wiki/06-Items/Extras.md#mine) | 6 h | [Mine II](/wiki/06-Items/Extras.md#mine) | 400 | 5 min |
+| [Organic Scanner I](/wiki/06-Items/Extras.md) | 30 min | – | 10 000 | 10 min |
+| [Organic Scanner II](/wiki/06-Items/Extras.md) | 2 h | [Organic Scanner I](/wiki/06-Items/Extras.md) | 20 000 | 15 min |
 
 Ingen av dem säljs i butiken: forska fram teknologin och tillverka sedan CPU:n i Monteringen. Håll pekaren över en CPU i trädet för att se vad Monteringen kräver för den.
 

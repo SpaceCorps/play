@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 397d7b3564593bb7 -->
+<!-- wiki-i18n source: f77c8c8ae352b4a0 -->
 <!-- wiki-i18n title: Serveurs -->
 # Serveurs {#servers}
 
@@ -37,7 +37,7 @@ Si le jeu se ferme ou si la connexion est perdue, le serveur régional vous atte
 | [Portes solo](/wiki/03-Mechanics/Solo-Gates.md#going-in) | la porte elle-même y est décrite |
 | [Succès](/wiki/03-Mechanics/Achievements.md) | décrits là-bas |
 | [Donjons de clan](/wiki/03-Mechanics/Dungeons.md) et les Gardiens | à Helsinki seulement |
-| [Davidski](/wiki/03-Mechanics/Davidski.md) | il apparaît, mais ne paie rien sur un serveur régional : ses éliminations sont payées à Helsinki |
+| [Davidski](/wiki/03-Mechanics/Davidski.md) | il apparaît, mais ne paie rien sur un serveur régional ; ses récompenses ne sont payées que pour une élimination sur le serveur d’origine (EU), et une élimination sur n’importe quel serveur compte pour les missions qui le nomment |
 | Le Hangar, [Skylab](/wiki/03-Mechanics/Skylab.md), l’Assemblage, les Enchères, la boutique, la recherche, la page du clan et les Portes galactiques | à la station : en vol, la fenêtre le dit, et **Retour à la base** vous y amène |
 
 ## Choisir un serveur {#choosing-a-server}

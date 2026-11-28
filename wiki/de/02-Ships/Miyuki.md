@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f36888650a9078b3 -->
+<!-- wiki-i18n source: 3c16398b0ab82842 -->
 <!-- wiki-i18n title: Miyuki -->
 # Miyuki
 
@@ -62,6 +62,8 @@ Die Fähigkeiten der Miyuki gehören zum Schiff, nicht zu einem Gegenstand: Sie 
 | **Miyuki V** | 7,5 s, 30.000 + 3 % | 75.000 Hülle pro Sekunde (du 10.000), 100 s | 150.000 + 5 % Schild pro Sekunde (du 30.000 + 5 %), 80 s |
 
 Eine Verbindung dauert 5 Sekunden und reicht zu einem Schiff deiner Gruppe oder deines Konzerns im Umkreis von 1.200 Einheiten. Der Heal Pod reicht 600. Ein Channel Shield stellt zusätzlich zu seinen Punkten jede Sekunde einen Teil des eigenen maximalen Schilds jedes der beiden Schiffe wieder her: 3 % bei der Miyuki III, 4 % bei IV und 5 % bei V (das Prozent in der Tabelle).
+
+Jede Stufe hat außerdem das **Revive** als letzte Schaltfläche. Wird ein Pilot deiner Gruppe oder deines Konzerns zerstört, bleibt sein Schiff 30 Sekunden lang liegen; bleibst du 10 Sekunden im Umkreis von 600 Einheiten, ist er wieder dort, wo er starb, und das Revive ruht 120 Sekunden. [Schiffsfähigkeiten](/wiki/03-Mechanics/Abilities.md#ship-abilities) sagt den Rest.
 
 Deine Pilotenfertigkeit [Heilung](/wiki/03-Mechanics/Pilot-Skills.md) wirkt auf alle drei: Auf Stufe 100 macht sie Heal Pod, Channel Heal und Channel Shield (ihre Punkte und ihren Anteil am maximalen Schild) um 30 % stärker und verkürzt ihre Wartezeiten um 10 %, sodass ein Channel Heal, der 100 Sekunden ruht, nur noch 90 ruht. Die Tabellen oben nennen die Zahlen ohne sie.
 

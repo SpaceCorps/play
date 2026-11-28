@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4e3f459fc0966372 -->
+<!-- wiki-i18n source: 98e91b2bd1dede81 -->
 <!-- wiki-i18n title: Tesseract-Schwarm -->
 # Tesseract-Schwarm {#tesseract-swarm}
 
@@ -13,13 +13,13 @@ Der Tesseract-Schwarm besteht aus einem einzigen riesigen Mutterschiff, dem **Te
 - **Wie viele**: Einer in jeder Welt
 - **Erscheint**: Ab Saisontag 4 bis zum Wipe (Beta und Gamma: ab Saisontag 1)
 - **Anführer**: Tesseract
-- **Heimat**: Im Umkreis von 2.500 Einheiten um den Punkt 25.900, 6.100 der Sektorkarte
+- **Heimat**: Im Umkreis von 2.500 Einheiten um den Punkt 25.900, 11.900 der Sektorkarte
 - **Regeneration**: In Alpha 125.000 HP pro Sekunde, erst die Hülle, dann der Schild, sobald 5 s lang kein Schaden entstanden ist
 - **Begleiter**: Bis zu 100 × Facet, alle 5 s 20 weitere, solange der Anführer getroffen wird
 - **Begleiter kommen**: Nur solange der Anführer in den letzten 5 s getroffen wurde, im Umkreis von 400 Einheiten um ihn
 - **Jäger**: Jeder Facet fliegt eigene Strecken um den Anführer, im Umkreis von 3.600 Einheiten um ihn, und verfolgt niemanden. Er feuert auf den nächsten Piloten, der den Anführer getroffen hat, wenn dieser in seiner Reichweite ist. Ohne Ziel fliegt er weiter um den Anführer und verschwindet 20 s nach dem letzten Treffer
 - **Anführer zerstört**: Die Begleiter verschwinden 1 min nach der Zerstörung des Anführers, auch wenn sie gerade angreifen
-- **Kehrt zurück**: 30 min nach der Zerstörung des Anführers, im selben Sektor
+- **Kehrt zurück**: {{guide:vitals.respawn@Tesseract#1;Tesseract#2;Tesseract#3}} nach der Zerstörung des Anführers, im selben Sektor
 - **Meldungen**: Die Piloten des Sektors erfahren, wann der Anführer auftaucht und wann er zerstört wird. Das sind Systemzeilen: Sie erscheinen im Tab **System** des Chats, mit Zähler für Ungelesenes, und nicht in **Global** oder **Lokal**. Der Kill-Feed nennt den Piloten, dem der Abschuss gutgeschrieben wird.
 
 <!-- tesseract-glance:end -->
@@ -40,6 +40,17 @@ Der Tesseract-Schwarm besteht aus einem einzigen riesigen Mutterschiff, dem **Te
 - **Die Gefahrensektoren sind PvP.** Ein Rivale kann die Gruppe mitten im Kampf angreifen. Am Wrack liegt keine Kiste, auf die er warten könnte: Die Beute ist für jeden Piloten, den der Abschuss bezahlt, eine [private Kiste](/wiki/03-Mechanics/Cargo.md#private-boxes), die nur dieser Pilot sehen und nehmen kann. Komm nicht allein.
 - **Der Tesseract kommt zurück**, nach der Zeit aus der Liste *Auf einen Blick*, mit voller Stärke und an seinem Heimatplatz.
 
+## Die drei Schritte des Anführers {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Sein Kampf hat drei Schritte ([so funktionieren sie](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); jeder geschieht einmal, und sie beginnen von vorn, wenn er sich ganz geheilt hat.
+
+- **Unter zwei Dritteln**: 20 weitere Facets kommen auf einmal, über ihrer üblichen Zahl.
+
+<!-- mob-ladder:end -->
+
 ## Belohnungen und Beute {#rewards-and-drops}
 
 Der Tesseract zahlt für den Kampf, der er ist: so viel wie viele Crystalys zusammen, und für den Schaden, den er einsteckt, mehr als ein Crystalys, das bestbezahlte Alien. Die Bezahlung wird nach Schaden unter den Piloten aufgeteilt, die ihn bekämpft haben ([so zahlt ein Boss-Abschuss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Für den Piloten mit dem meisten Schaden gibt es keine Kiste. Jeder Pilot, den der Abschuss bezahlt, bekommt eine eigene [private Kiste](/wiki/03-Mechanics/Cargo.md#private-boxes), die nur er sehen und nehmen kann, 10 Minuten lang, mit Reinforced Hull Plates, Velkonite und Orvium Reinforced Plates, Power Cores, Ancient Control Units und Dark Matter. Sie wird für seinen Schadensanteil ausgewürfelt, wie die Beute eines [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot): Wer ein Fünftel des Schadens gemacht hat, bekommt etwa ein Fünftel der Mengen aus der Tabelle, und in einer Gruppe bekommt jeder Pilot seinen Teil vom Anteil der Gruppe, so wie die Bezahlung geteilt wird. Das Dark Matter hat je Pilot eine Obergrenze: Aus einem Abschuss bekommt er höchstens 5, wie groß sein Anteil auch ist (in einer Gruppe wird zuerst der Teil jedes Mitglieds abgeteilt, und die Obergrenze gilt für jeden Piloten einzeln), und was darüber liegt, geht verloren und wird nicht an die anderen verteilt. Ein Facet zahlt so viel wie ein [Phantasm](/wiki/04-Aliens/Phantasm.md) in Credits, Thulium, EP und Ehre, und sein Abschuss zählt als Abschuss (in deiner Statistik, für Erfolge und für die Erfahrung deiner Drohnen und P.E.T.s), lässt aber nichts fallen und bringt keine PvE-Punkte.
@@ -57,30 +68,24 @@ Basis: Crystalys mit 625 % der Hülle; ohne Waffe, Schild und Tempo sind eigene
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Hülle | 1.600.000 | 2.400.000 | 3.200.000 |
-| Schild | 1.200.000 | 1.800.000 | 2.400.000 |
+| Hülle | {{guide:vitals.hull@Tesseract#1}} | {{guide:vitals.hull@Tesseract#2}} | {{guide:vitals.hull@Tesseract#3}} |
+| Schild | {{guide:vitals.shield@Tesseract#1}} | {{guide:vitals.shield@Tesseract#2}} | {{guide:vitals.shield@Tesseract#3}} |
 | Laserschaden (eine Salve pro Sekunde) | keiner | keiner | keiner |
-| Tempo | 30 | 30 | 30 |
+| Tempo | {{guide:vitals.speed@Tesseract#1}} | {{guide:vitals.speed@Tesseract#2}} | {{guide:vitals.speed@Tesseract#3}} |
 | Laserreichweite | – | – | – |
 | Aggro-Radius | nur wenn angegriffen | nur wenn angegriffen | nur wenn angegriffen |
 | Heilt pro Sekunde, nach 5 s ohne Schaden (erst Hülle, dann Schild) | 125.000 | 187.500 | 250.000 |
-| Credits | 900.000 | 1.800.000 | 2.700.000 |
-| Thulium | 2.400 | 4.800 | 7.200 |
-| Erfahrung (EP) | 144.000 | 288.000 | 432.000 |
-| Ehre | 624 | 1.248 | 1.872 |
+| Credits | {{guide:spoils.pay.credits@Tesseract#1}} | {{guide:spoils.pay.credits@Tesseract#2}} | {{guide:spoils.pay.credits@Tesseract#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Tesseract#1}} | {{guide:spoils.pay.thulium@Tesseract#2}} | {{guide:spoils.pay.thulium@Tesseract#3}} |
+| Erfahrung (EP) | {{guide:spoils.pay.experience@Tesseract#1}} | {{guide:spoils.pay.experience@Tesseract#2}} | {{guide:spoils.pay.experience@Tesseract#3}} |
+| Ehre | {{guide:spoils.pay.honor@Tesseract#1}} | {{guide:spoils.pay.honor@Tesseract#2}} | {{guide:spoils.pay.honor@Tesseract#3}} |
 | PvE-Punkte pro Abschuss | 42 | 42 | 42 |
 
 **Beute für jeden Piloten, den der Abschuss bezahlt**: je eine Kiste, nur für ihn, mit seinem Anteil an diesen Mengen.
 
-| Gegenstand | Chance | Menge |
-| :--- | ---: | ---: |
-| Reinforced Hull Plate | 100 % | 3–10 |
-| Velkonite Reinforced Plate | 66 % | 7–12 |
-| Orvium Reinforced Plate | 50 % | 3–5 |
-| Power Core | 66 % | 4–7 |
-| Ancient Control Unit | 100 % | 1–4 |
-| Dark Matter | 100 % | 10–20, höchstens 5 je Pilot |
-| Heartshard | 5 % | 1 |
+| Gegenstand |
+| :--- |
+| {{guide:spoils.box@Tesseract#1;Tesseract#2;Tesseract#3}} |
 
 ### Facet
 
@@ -88,16 +93,16 @@ Basis: Seeker mit 2.500 % der Hülle und 463 % des Laserschadens; Schild, Temp
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Hülle | 20.000 | 30.000 | 40.000 |
-| Schild | 16.000 | 24.000 | 32.000 |
-| Laserschaden (eine Salve pro Sekunde) | 834 | 1.251 | 1.668 |
-| Tempo | 750 | 750 | 750 |
+| Hülle | {{guide:vitals.hull@Facet#1}} | {{guide:vitals.hull@Facet#2}} | {{guide:vitals.hull@Facet#3}} |
+| Schild | {{guide:vitals.shield@Facet#1}} | {{guide:vitals.shield@Facet#2}} | {{guide:vitals.shield@Facet#3}} |
+| Laserschaden (eine Salve pro Sekunde) | {{guide:vitals.dps@Facet#1}} | {{guide:vitals.dps@Facet#2}} | {{guide:vitals.dps@Facet#3}} |
+| Tempo | {{guide:vitals.speed@Facet#1}} | {{guide:vitals.speed@Facet#2}} | {{guide:vitals.speed@Facet#3}} |
 | Laserreichweite | 600 | 600 | 600 |
 | Aggro-Radius | nur wenn angegriffen | nur wenn angegriffen | nur wenn angegriffen |
-| Credits | 3.000 | 6.000 | 9.000 |
-| Thulium | 12 | 24 | 36 |
-| Erfahrung (EP) | 300 | 600 | 900 |
-| Ehre | 6 | 12 | 18 |
+| Credits | {{guide:spoils.pay.credits@Facet#1}} | {{guide:spoils.pay.credits@Facet#2}} | {{guide:spoils.pay.credits@Facet#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Facet#1}} | {{guide:spoils.pay.thulium@Facet#2}} | {{guide:spoils.pay.thulium@Facet#3}} |
+| Erfahrung (EP) | {{guide:spoils.pay.experience@Facet#1}} | {{guide:spoils.pay.experience@Facet#2}} | {{guide:spoils.pay.experience@Facet#3}} |
+| Ehre | {{guide:spoils.pay.honor@Facet#1}} | {{guide:spoils.pay.honor@Facet#2}} | {{guide:spoils.pay.honor@Facet#3}} |
 | PvE-Punkte pro Abschuss | 0 | 0 | 0 |
 
 **Beute**: keine. Der Abschuss zahlt nur seine Credits, sein Thulium, seine EP und seine Ehre.

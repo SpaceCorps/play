@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b2be88dc510d05b9 -->
+<!-- wiki-i18n source: d63cabc4771409f4 -->
 <!-- wiki-i18n title: レーザー -->
 # レーザーと弾薬 {#lasers-ammo}
 
@@ -163,7 +163,7 @@ Helios Beam とティアIVのアンプ4つの組は、最終ティアの部品5�
 
 **新しい弾薬の入手元。** 0.5.0 から Experimental Fusion Core は販売されなくなりました。Skylab の研究センターで **Military Grade Ammo II** を研究したあと、[アセンブリ](/wiki/06-Items/Overview.md#the-production-queue)で 1,000 個ずつ製作します。Ultra Core は引き続き購入でき、製作もできます（**Military Grade Ammo I**、研究時間30分）。新しい弾薬5種は製作専用で、それぞれ **Laser Ammo** ファミリーの技術の先にあり、1つ下の弾薬から作ります。**Siphon Battery II**（Siphon Battery から）、**Antimatter Battery I**（Siphon Battery II から）と **II**（Antimatter Battery I と少量の [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md) から）、**Dark Matter Ammo I**（素材と Dark Matter 1個から）と **II**（Dark Matter Ammo I と Dark Matter から）です。1回の製作は1,000個、5～15分で、1個あたりのコストはおおよそその価値と同じです。[弾薬プリンター](/wiki/03-Mechanics/Skylab.md)も、研究を済ませれば Ultra Core と Experimental Fusion Core を作れます。
 
-**シールド貫通**は、斉射の各命中で、ターゲットの吸収率から差し引かれます。シールドが受けるのは、ターゲットの吸収率から貫通を引いた割合です（[シールドの仕組み](/wiki/03-Mechanics/Shields.md#shield-penetration)を参照）。Penetration Amp とドローン編成は弾薬の貫通に加わり、その合計の全体は[このページの下](#shield-penetration-of-a-laser-hit)にあります。吸収率91%（最高のシールドに最高のセル）の艦に対して、貫通10%の x4 弾薬を使うと、シールドが受ける割合は攻撃の81%、船体が受ける割合は19%になります。貫通20%の Antimatter 弾薬なら、シールドが71%、船体が29%になります。シールドに比べて船体が小さい艦に対して最も効果があり、吸収率91%の非常に大きな艦は、どちらの弾薬でも持ちこたえる程度は変わりません。エイリアンには語るほどの吸収率のステータスはなく（シールドが攻撃の80%を受けます）、貫通はそこからも差し引かれます。
+**シールド貫通**は、斉射の各命中で、ターゲットの吸収率から差し引かれます。シールドが受けるのは、ターゲットの吸収率から貫通を引いた割合です（[シールドの仕組み](/wiki/03-Mechanics/Shields.md#shield-penetration)を参照）。Penetration Amp とドローン編成は弾薬の貫通に加わり、その合計の全体は[このページの下](#shield-penetration-of-a-laser-hit)にあります。吸収率91%（最高のシールドに最高のセル）の艦に対して、貫通10%の x4 弾薬を使うと、シールドが受ける割合は攻撃の81%、船体が受ける割合は19%になります。貫通20%の Antimatter 弾薬なら、シールドが71%、船体が29%になります。シールドに比べて船体が小さい艦に対して最も効果があり、吸収率91%の非常に大きな艦は、どちらの弾薬でも持ちこたえる程度は変わりません。エイリアンには語るほどの吸収率のステータスはなく（シールドが攻撃の80%を受け、Deep Void では90%です）、貫通はそこからも差し引かれます。
 
 ### Siphon Battery
 
@@ -230,5 +230,5 @@ Siphon Battery は、船体を壊す代わりにシールドを奪うための�
 **Penetration Amp は吸収率に対抗し、吸収率が高いほど効きます。船体の小さい船に対して約108%（シーズンストア、鍛冶場、Rampart の構成）では、Penetration 構成が最良の通常構成より約12倍速く倒し、標準で最高のシールド（91%）に対しては、Penetration Amp 3つが同じティアの Crit Amp 3つより約47%短い時間で済みます。エイリアンに対しては、Gemini を使えば Phantasm や Goombah で約18%得られ、Seeker、Bulwark、Crystalys では何も得られません。**
 
 - **ダメージは与えません。** Helios Beam では、Penetration Amp IV を3つ載せると1回の斉射で158ダメージ（弾薬x1、ダメージの振れ幅とクリティカルの平均）です。Damage Amp IV を3つなら342、Crit Amp IV を3つなら416で、前者の半分、後者の3分の1を少し上回る程度です。取り戻すのはシールドの割合なので、シールドに比べて船体が小さく、吸収率が高い場合に最も見合います。標準で最高のシールドを積んだ、大きな船体が長く持ちこたえる Wraith や Ironclad に対しては、得られるのは最大32%です。シールドがバフで100%を超えた Ironclad には、素朴な Crit の組み合わせで当たるのが今でも最善です。
-- **エイリアン。** そのシールドは命中の80%からあなたの貫通を引いた分を受けますが、最強のレーザー（100%）はそれを丸ごと貫くので、エイリアンにも効きます。Gemini を装備していれば、Phantasm や Goombah には Penetration Amp が最良の構成に入ります（約18%得られます）。Seeker、Bulwark、Crystalys に対しては、同じティアの Crit Amp の組み合わせのほうが同じ速さかそれ以上に速く倒せます。
+- **エイリアン。** そのシールドは命中の80%（Deep Void の生物は90%）からあなたの貫通を引いた分を受けますが、最強のレーザー（100%）はそれを丸ごと貫くので、エイリアンにも効きます。Gemini を装備していれば、Phantasm や Goombah には Penetration Amp が最良の構成に入ります（約18%得られます）。Seeker、Bulwark、Crystalys に対しては、同じティアの Crit Amp の組み合わせのほうが同じ速さかそれ以上に速く倒せます。
 - **コスト。** Penetration Amp IV 1つにつき Dark Matter Plate が4枚（Dark Matter 20個）必要です。ティアIVのアンプはどれも同じなので、52スロットすべてを埋める Wraith には、プレート208枚、Dark Matter 1,040個が必要です。

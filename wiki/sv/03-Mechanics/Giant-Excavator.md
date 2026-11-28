@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e3fa08f52459090c -->
+<!-- wiki-i18n source: d7154b35dd9c47fc -->
 <!-- wiki-i18n title: Jättegrävmaskin -->
 # Jättegrävmaskin {#giant-excavator}
 
@@ -91,13 +91,13 @@ En körning lockar **Slumbering Voids**, jägare från den försvunna civilisati
 
 - **Vågor.** 3 Slumbering Voids var 2 min; den första 1 min efter starten, och ingen under körningens sista 1 min. Högst 12 lever på en karta samtidigt: en våg som finner kartan full hoppas över.
 - **Ankomst.** En våg dyker upp vid kartans kant, 900 enheter innanför den och minst 2 500 enheter från varje portring, och flyger till grävmaskinen på ungefär 20 s. Meddelandet nämner den sida av kartan den kommer från.
-- **Jakt.** En Void jagar den närmaste pilot den kan se inom 2 500 enheter, och håller sig inom 7 000 enheter från grävmaskinen.
+- **Jakt.** En Void jagar den närmaste pilot den kan se inom {{guide:vitals.aggro@Slumbering Void}} enheter, och håller sig inom 7 000 enheter från grävmaskinen.
 - **Belägring.** När ingen pilot de kan se är inom 7 000 enheter från grävmaskinen på 15 s, anfaller Voids grävmaskinen, och varje laser gör 25 % av sin vanliga skada. Vid noll förstörs grävmaskinen: dess bränsle är förlorat, dess skrov är fullt igen på en gång, och den vilar i 1 h.
 - **Avfärd.** När en körning tar slut stannar de Voids som är kvar ytterligare 90 s och slåss vidare om de bekämpas; sedan lämnar de.
 
 <!-- excavator-voids:end -->
 
-- **En Void är en glaskanon.** Dess sköld är stor men tar upp 80 % av en träff, så skrovet bakom är borta efter några gånger sin storlek i skada, och mycket tidigare med sköldpenetration. Fyra piloter utan sköldpenetration, eller två med en bra utrustning, klarar en körning i Alfa; Beta och Gamma kräver större grupper, som för varje utomjording.
+- **En Void är en glaskanon.** Dess sköld är stor men tar upp {{guide:vitals.absorbance@Slumbering Void}} av en träff, så skrovet bakom är borta efter några gånger sin storlek i skada, och mycket tidigare med sköldpenetration. Fyra piloter utan sköldpenetration, eller två med en bra utrustning, klarar en körning i Alfa; Beta och Gamma kräver större grupper, som för varje utomjording.
 - **Kamouflage försvarar inte platsen.** Voids ser inte kamouflerade skepp, så en pilot som gömmer sig håller dem inte borta från grävmaskinen; och en pilot som tar skydd i en portring kan inte nås och räknas inte heller.
 - **Varje Void betalar** efter skadan du gjorde på den och tappar en låda ([så betalar en bossnedskjutning](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Deras nedskjutningar räknas till dina PvE-poäng för grad som en svärmskepps.
 

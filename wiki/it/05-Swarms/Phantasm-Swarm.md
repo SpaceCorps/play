@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: abb582fd63389ab9 -->
+<!-- wiki-i18n source: 2eff9c368449da99 -->
 <!-- wiki-i18n title: Sciame Phantasm -->
 # Sciame Phantasm {#phantasm-swarm}
 
@@ -17,14 +17,14 @@ Lo sciame Phantasm è un **Boss Phantasm** con i suoi **Phantasm Guard**: un eno
 - **I seguaci restano vicini**: al massimo 500 unità dal capo
 - **Cura**: Ogni Phantasm Guard entro 600 unità dal capo ne cura lo scafo, 30 HP al secondo in Alpha
 - **Capo distrutto**: I seguaci se ne vanno 30 s dopo la distruzione del capo, a meno che stiano attaccando
-- **Ritorna**: 2 min dopo la distruzione del capo, nello stesso settore
+- **Ritorna**: {{guide:vitals.respawn@Boss Phantasm#1;Boss Phantasm#2;Boss Phantasm#3}} dopo la distruzione del capo, nello stesso settore
 - **Avvisi**: I piloti del settore vengono avvisati quando il capo compare e quando viene distrutto. Sono righe di Sistema: compaiono nella scheda **Sistema** della chat, con un conteggio delle righe non lette, e non in **Globale** né in **Locale**. Il kill feed nomina il pilota a cui viene accreditato l’abbattimento.
 
 <!-- phantasm-glance:end -->
 
 ## I membri {#the-members}
 
-- **Boss Phantasm**: un Phantasm più grande, con la tinta dello sciame e il suo nome sopra, con scafo, scudo e raffica laser propri (i valori sono qui sotto). È passivo: vaga finché un pilota non lo colpisce, poi va contro quel pilota e gli spara, e le navi del suo sciame vicine si uniscono allo scontro. La portata della sua arma e la sua velocità sono quelle di un Phantasm, e non ripara mai da solo il suo scafo.
+- **Boss Phantasm**: un Phantasm più grande, con la tinta dello sciame e il suo nome sopra, con scafo, scudo e raffica laser propri (i valori sono qui sotto). È passivo: vaga finché un pilota non lo colpisce, poi va contro quel pilota e gli spara, e le navi del suo sciame vicine si uniscono allo scontro. La portata della sua arma e la sua velocità sono quelle di un Phantasm, e non ripara mai da solo il suo scafo. Le sue [tre fasi](#the-leaders-three-steps) e un’[abilità speciale](/wiki/03-Mechanics/Special-Abilities.md) possono cambiare questo.
 - **Phantasm Guard**: un Phantasm più piccolo con la tinta dello sciame. I Guard restano vicini al boss, si uniscono allo scontro quando una nave di sciame vicina viene colpita, e ognuno che è vicino al boss ne cura lo scafo. Un Guard ripara il proprio scafo dopo una pausa, come fa un Phantasm.
 
 ## Come va lo scontro {#how-the-fight-goes}
@@ -34,6 +34,19 @@ Lo sciame Phantasm è un **Boss Phantasm** con i suoi **Phantasm Guard**: un eno
 - **Beta e Gamma sono più duri.** Gli sciami di quei mondi sono più forti ([Mondi](/wiki/05-Swarms/Swarms.md#the-worlds)), quindi servono più piloti o munizioni migliori.
 - **Tieni d’occhio il settore.** `x-4` è un settore PvP in Alpha, e `x-3` e `x-4` lo sono in Beta e Gamma ([Mondi](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)): un rivale può unirsi allo scontro o aspettare la cassa. Lascia una nave del gruppo di guardia.
 - **Il boss ritorna** dopo il tempo indicato nell’elenco *In breve*, a piena forza, nello stesso settore, e i suoi Guard arrivano uno dopo l’altro.
+
+## Le tre fasi del capo {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Il suo scontro ha tre fasi ([come funzionano](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); ognuna avviene una volta.
+
+- **All’inizio**: Ciascuno dei suoi Phantasm Guards alza uno strato di scudo pari a 10% del proprio scafo.
+- **Sotto i due terzi**: 3 copie di lui compaiono, e quello vero porta un anello.
+- **Sotto un terzo**: Salta a circa 2.500 unità dai piloti, e i suoi Phantasm Guards tornano integri attorno a lui.
+
+<!-- mob-ladder:end -->
 
 ## Ricompense e bottino {#rewards-and-drops}
 
@@ -52,29 +65,23 @@ Base: Phantasm; rispetto all’originale, scafo 2.000% e danno dei laser 300%; v
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Scafo | 40.000 | 60.000 | 80.000 |
-| Scudo | 64.000 | 96.000 | 128.000 |
-| Danno dei laser (una raffica al secondo) | 1.050 | 1.575 | 2.100 |
-| Velocità | 160 | 160 | 160 |
+| Scafo | {{guide:vitals.hull@Boss Phantasm#1}} | {{guide:vitals.hull@Boss Phantasm#2}} | {{guide:vitals.hull@Boss Phantasm#3}} |
+| Scudo | {{guide:vitals.shield@Boss Phantasm#1}} | {{guide:vitals.shield@Boss Phantasm#2}} | {{guide:vitals.shield@Boss Phantasm#3}} |
+| Danno dei laser (una raffica al secondo) | {{guide:vitals.dps@Boss Phantasm#1}} | {{guide:vitals.dps@Boss Phantasm#2}} | {{guide:vitals.dps@Boss Phantasm#3}} |
+| Velocità | {{guide:vitals.speed@Boss Phantasm#1}} | {{guide:vitals.speed@Boss Phantasm#2}} | {{guide:vitals.speed@Boss Phantasm#3}} |
 | Portata dei laser | 700 | 700 | 700 |
 | Raggio di aggressione | solo se attaccato | solo se attaccato | solo se attaccato |
-| Crediti | 39.000 | 78.000 | 117.000 |
-| Thulium | 195 | 390 | 585 |
-| Esperienza (XP) | 7.800 | 15.600 | 23.400 |
-| Onore | 62 | 124 | 186 |
+| Crediti | {{guide:spoils.pay.credits@Boss Phantasm#1}} | {{guide:spoils.pay.credits@Boss Phantasm#2}} | {{guide:spoils.pay.credits@Boss Phantasm#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Boss Phantasm#1}} | {{guide:spoils.pay.thulium@Boss Phantasm#2}} | {{guide:spoils.pay.thulium@Boss Phantasm#3}} |
+| Esperienza (XP) | {{guide:spoils.pay.experience@Boss Phantasm#1}} | {{guide:spoils.pay.experience@Boss Phantasm#2}} | {{guide:spoils.pay.experience@Boss Phantasm#3}} |
+| Onore | {{guide:spoils.pay.honor@Boss Phantasm#1}} | {{guide:spoils.pay.honor@Boss Phantasm#2}} | {{guide:spoils.pay.honor@Boss Phantasm#3}} |
 | Punti PvE per abbattimento | 8 | 8 | 8 |
 
 **Bottino**: una cassa, per il pilota che ha inflitto più danno.
 
-| Oggetto | Probabilità | Quantità |
-| :--- | ---: | ---: |
-| Ship Fragment | 100% a ciascuno di 13 tiri | 1 |
-| Daraxium | 60% a ciascuno di 13 tiri | 1–2 |
-| Nyxite | 60% a ciascuno di 13 tiri | 1–2 |
-| Standard Battery | 100% | 600–1.200 |
-| Advanced Plasma | 100% | 60–100 |
-| Ultra Core | 100% | 10–20 |
-| Uno dei 4 [razzi](/wiki/06-Items/Rockets.md) acquistabili con i crediti, scelto a caso | 100% | 4–6 |
+| Oggetto |
+| :--- |
+| {{guide:spoils.box@Boss Phantasm#1;Boss Phantasm#2;Boss Phantasm#3}} |
 
 ### Phantasm Guard
 
@@ -82,17 +89,17 @@ Base: Phantasm, con il 50% di scafo, scudo e danno; velocità e portata sono que
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Scafo | 1.000 | 1.500 | 2.000 |
-| Scudo | 1.600 | 2.400 | 3.200 |
-| Danno dei laser (una raffica al secondo) | 175 | 263 | 350 |
-| Velocità | 160 | 160 | 160 |
+| Scafo | {{guide:vitals.hull@Phantasm Guard#1}} | {{guide:vitals.hull@Phantasm Guard#2}} | {{guide:vitals.hull@Phantasm Guard#3}} |
+| Scudo | {{guide:vitals.shield@Phantasm Guard#1}} | {{guide:vitals.shield@Phantasm Guard#2}} | {{guide:vitals.shield@Phantasm Guard#3}} |
+| Danno dei laser (una raffica al secondo) | {{guide:vitals.dps@Phantasm Guard#1}} | {{guide:vitals.dps@Phantasm Guard#2}} | {{guide:vitals.dps@Phantasm Guard#3}} |
+| Velocità | {{guide:vitals.speed@Phantasm Guard#1}} | {{guide:vitals.speed@Phantasm Guard#2}} | {{guide:vitals.speed@Phantasm Guard#3}} |
 | Portata dei laser | 700 | 700 | 700 |
 | Raggio di aggressione | solo se attaccato | solo se attaccato | solo se attaccato |
 | Cura il capo, ciascuno, al secondo (solo scafo) | 30 | 45 | 60 |
-| Crediti | 125 | 250 | 375 |
-| Thulium | 1 | 2 | 3 |
-| Esperienza (XP) | 12 | 24 | 36 |
-| Onore | 1 | 2 | 3 |
+| Crediti | {{guide:spoils.pay.credits@Phantasm Guard#1}} | {{guide:spoils.pay.credits@Phantasm Guard#2}} | {{guide:spoils.pay.credits@Phantasm Guard#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Phantasm Guard#1}} | {{guide:spoils.pay.thulium@Phantasm Guard#2}} | {{guide:spoils.pay.thulium@Phantasm Guard#3}} |
+| Esperienza (XP) | {{guide:spoils.pay.experience@Phantasm Guard#1}} | {{guide:spoils.pay.experience@Phantasm Guard#2}} | {{guide:spoils.pay.experience@Phantasm Guard#3}} |
+| Onore | {{guide:spoils.pay.honor@Phantasm Guard#1}} | {{guide:spoils.pay.honor@Phantasm Guard#2}} | {{guide:spoils.pay.honor@Phantasm Guard#3}} |
 | Punti PvE per abbattimento | 1 | 1 | 1 |
 
 **Bottino**: nessuno. L’abbattimento paga solo i suoi crediti, il Thulium, l’XP e l’onore.

@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: bb8bc80ba6889fba -->
+<!-- wiki-i18n source: fcba1b51b68a9123 -->
 <!-- wiki-i18n title: Dormant-raj -->
 # Dormant-raj {#dormant-swarm}
 
-A Dormant-raj egy **Dormant Force** a **Dormant Pulse-aival**: hajók csoportja, amelyek soha nem kezdenek harcot, és nagyon keményen ütnek, ha felébresztik őket. Világonként csak egy van. Az egyik veszélyes szektorból a másikba vándorol, és a rajok közül ez a legkeményebb harc és a leggazdagabb zsákmány: harc a legerősebb hajók nagy csoportjának. A szezon 11. napjától a `DS-4` [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)-jánál indul, hamarabb tér vissza, és kétszer annyit fizet (lásd a *Dióhéjban* listát).
+A Dormant-raj egy **Dormant Force** a **Dormant Pulse-aival**: hajók csoportja, amelyek soha nem kezdenek harcot, és nagyon keményen ütnek, ha felébresztik őket. Világonként csak egy van a veszélyes szektorokban (a [Deep Void](/wiki/03-Mechanics/Deep-Void.md#the-dormant-swarms-visit) saját látogatást kap, naponta egyszer). Az egyik veszélyes szektorból a másikba vándorol, és a rajok közül ez a legkeményebb harc és a leggazdagabb zsákmány: harc a legerősebb hajók nagy csoportjának. A szezon 11. napjától a `DS-4` [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)-jánál indul, hamarabb tér vissza, és kétszer annyit fizet (lásd a *Dióhéjban* listát).
 
 ## Röviden {#at-a-glance}
 
@@ -18,7 +18,7 @@ A Dormant-raj egy **Dormant Force** a **Dormant Pulse-aival**: hajók csoportja,
 - **A vezér megsemmisül**: A vezetést Dormant Pulse veszi át
 - **A vezér megsemmisül**: A kísérők a vezér megsemmisülése után 30 mp múlva eltűnnek, akkor is, ha éppen támadnak
 - **Útvonal**: 8–15 perc ideig marad egy térképen, aztán egy másik veszélyes szektor kapujához repül. Soha nem vesz igénybe veszélyes szektorokból kivezető kaput, és soha nem lép be a fekete lyuk gyűrűjébe
-- **Visszatér**: 1 óra azután, hogy az egész raj megsemmisült, egy véletlenszerű veszélyes szektorban
+- **Visszatér**: {{guide:vitals.respawn@Dormant Force#1;Dormant Force#2;Dormant Force#3}} azután, hogy az egész raj megsemmisült, egy véletlenszerű veszélyes szektorban
 - **A szezon 11. napjától**: A `DS-4` [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)-jánál jelenik meg egy véletlenszerű veszélyes szektor helyett, 30 perc azután tér vissza, hogy az egész raj megsemmisült, és minden hajó ×2-szeresét fizeti (kredit, Thulium, XP és becsület; a zsákmány ugyanaz marad)
 - **Értesítés**: Az egész világ pilótái értesülnek arról, mikor jelenik meg a raj, és mikor semmisül meg. Ezek rendszersorok: a chat **Rendszer** lapján jelennek meg, olvasatlan sorok számlálójával, és nem a **Globális** vagy a **Helyi** lapon. Egy jelölő mutatja a veszélyes szektorok térképén és a galaxistérképen. A kill feed megnevezi a pilótát, akinek a kilövést jóváírják.
 
@@ -38,6 +38,19 @@ Passzívak: soha nem mennek rá egy pilótára. Ha az egyiküket eltalálják, a
 - **A lézerei döntik el a harcot.** Együtt egy percen belül megsemmisíthetnek egy Paragont, a legjobb pajzsokkal felszereltet is két percen belül, rakéták nélkül is: gyorsan vidd be a sebzésedet, a legjobb pajzsokkal, amid van.
 - **Hajóról hajóra.** Minden hajónak saját hajóteste és saját fizetése van, így a Force vagy egy Pulse előbb is megsemmisülhet. A rajt csak akkor pótolják, ha teljesen megsemmisült, a *Röviden* lista szerinti idő múlva.
 
+## A vezér három lépése {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+A harcának három lépése van ([hogyan működnek](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); mindegyik egyszer történik meg.
+
+- **Az elején**: Minden találatnak csak 70% részét veszi fel, amíg él egy a Dormant Pulses közül.
+- **Kétharmad alatt**: A Dormant Pulses 15 mp ideig 2,5 mp időközönként lőnek ki egy rakétát.
+- **Egyharmad alatt**: Amíg az összes Dormant Pulses él, 6 mp ideig másodpercenként a hajótestének 5% részét gyógyítják vissza.
+
+<!-- mob-ladder:end -->
+
 ## Jutalmak és zsákmány {#rewards-and-drops}
 
 Minden hajó külön fizet, a rá leadott sebzés szerint ([hogyan fizet egy boss megölése](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)), és mindegyik ládát ejt annak a pilótának, aki neki a legtöbb sebzést okozta. A **Force ládája** a fődíj: rengeteg x3 és x4 lőszer, egyféle Epikus rakéta, és időnként egy N.I.K.E. vagy egy N.U.K.E. A **Pulse-ok** ejthetnek Ancient Control Unitot, Power Core-t vagy Dark Mattert. Egy perc harc a rajjal többet fizet, mint egy perc harc a Crystalysszel, a legjobban fizető idegennel. A szezon 11. napjától minden hajó kétszer annyit fizet (lásd a *Dióhéjban* listát); a ládák ugyanazok.
@@ -55,27 +68,24 @@ Alapja: Wraith, hajótestének 100%-a és lézersebzésének 300%-a; a sebesség
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Hajótest | 256 000 | 384 000 | 512 000 |
-| Pajzs | 83 400 | 125 100 | 166 800 |
-| Lézersebzés (másodpercenként egy sorozat) | 3 315 | 4 973 | 6 630 |
-| Sebesség | 210 | 210 | 210 |
+| Hajótest | {{guide:vitals.hull@Dormant Force#1}} | {{guide:vitals.hull@Dormant Force#2}} | {{guide:vitals.hull@Dormant Force#3}} |
+| Pajzs | {{guide:vitals.shield@Dormant Force#1}} | {{guide:vitals.shield@Dormant Force#2}} | {{guide:vitals.shield@Dormant Force#3}} |
+| Lézersebzés (másodpercenként egy sorozat) | {{guide:vitals.dps@Dormant Force#1}} | {{guide:vitals.dps@Dormant Force#2}} | {{guide:vitals.dps@Dormant Force#3}} |
+| Sebesség | {{guide:vitals.speed@Dormant Force#1}} | {{guide:vitals.speed@Dormant Force#2}} | {{guide:vitals.speed@Dormant Force#3}} |
 | Lézer hatótávja | 800 | 800 | 800 |
 | Aggrósugár | csak ha megtámadják | csak ha megtámadják | csak ha megtámadják |
-| Rakétasebzés, legfeljebb | 7 500 | 11 250 | 15 000 |
-| Kredit | 185 000 | 370 000 | 555 000 |
-| Thulium | 485 | 970 | 1 455 |
-| Tapasztalat (XP) | 29 200 | 58 400 | 87 600 |
-| Becsület | 127 | 254 | 381 |
+| Rakétasebzés, legfeljebb | {{guide:behaviour.ability:rocket.damage@Dormant Force#1}} | {{guide:behaviour.ability:rocket.damage@Dormant Force#2}} | {{guide:behaviour.ability:rocket.damage@Dormant Force#3}} |
+| Kredit | {{guide:spoils.pay.credits@Dormant Force#1}} | {{guide:spoils.pay.credits@Dormant Force#2}} | {{guide:spoils.pay.credits@Dormant Force#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Dormant Force#1}} | {{guide:spoils.pay.thulium@Dormant Force#2}} | {{guide:spoils.pay.thulium@Dormant Force#3}} |
+| Tapasztalat (XP) | {{guide:spoils.pay.experience@Dormant Force#1}} | {{guide:spoils.pay.experience@Dormant Force#2}} | {{guide:spoils.pay.experience@Dormant Force#3}} |
+| Becsület | {{guide:spoils.pay.honor@Dormant Force#1}} | {{guide:spoils.pay.honor@Dormant Force#2}} | {{guide:spoils.pay.honor@Dormant Force#3}} |
 | PvE-pont kilövésenként | 25 | 25 | 25 |
 
 **Zsákmány**: egy láda, annak a pilótának, aki a legtöbb sebzést okozta.
 
-| Tárgy | Esély | Mennyiség |
-| :--- | ---: | ---: |
-| Ultra Core és Experimental Fusion Core, egyenlően elosztva | 100% | összesen 2 000–3 000 |
-| Egy a 4 Epikus [rakéta](/wiki/06-Items/Rockets.md) közül, véletlenszerűen | 100% | 30–50 |
-| Egy a következők közül: [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) és [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets), véletlenszerűen | 50% | 1 |
-| Heartshard | 5% | 1 |
+| Tárgy |
+| :--- |
+| {{guide:spoils.box@Dormant Force#1;Dormant Force#2;Dormant Force#3}} |
 
 ### Dormant Pulse
 
@@ -83,25 +93,23 @@ Alapja: Paragon, hajótestének 100%-a és lézersebzésének 600%-a; a sebessé
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Hajótest | 128 000 | 192 000 | 256 000 |
-| Pajzs | 64 570 | 96 855 | 129 140 |
-| Lézersebzés (másodpercenként egy sorozat) | 5 100 | 7 650 | 10 200 |
-| Sebesség | 270 | 270 | 270 |
+| Hajótest | {{guide:vitals.hull@Dormant Pulse#1}} | {{guide:vitals.hull@Dormant Pulse#2}} | {{guide:vitals.hull@Dormant Pulse#3}} |
+| Pajzs | {{guide:vitals.shield@Dormant Pulse#1}} | {{guide:vitals.shield@Dormant Pulse#2}} | {{guide:vitals.shield@Dormant Pulse#3}} |
+| Lézersebzés (másodpercenként egy sorozat) | {{guide:vitals.dps@Dormant Pulse#1}} | {{guide:vitals.dps@Dormant Pulse#2}} | {{guide:vitals.dps@Dormant Pulse#3}} |
+| Sebesség | {{guide:vitals.speed@Dormant Pulse#1}} | {{guide:vitals.speed@Dormant Pulse#2}} | {{guide:vitals.speed@Dormant Pulse#3}} |
 | Lézer hatótávja | 800 | 800 | 800 |
 | Aggrósugár | csak ha megtámadják | csak ha megtámadják | csak ha megtámadják |
-| Rakétasebzés, legfeljebb | 5 000 | 7 500 | 10 000 |
-| Kredit | 105 000 | 210 000 | 315 000 |
-| Thulium | 275 | 550 | 825 |
-| Tapasztalat (XP) | 16 600 | 33 200 | 49 800 |
-| Becsület | 72 | 144 | 216 |
+| Rakétasebzés, legfeljebb | {{guide:behaviour.ability:rocket.damage@Dormant Pulse#1}} | {{guide:behaviour.ability:rocket.damage@Dormant Pulse#2}} | {{guide:behaviour.ability:rocket.damage@Dormant Pulse#3}} |
+| Kredit | {{guide:spoils.pay.credits@Dormant Pulse#1}} | {{guide:spoils.pay.credits@Dormant Pulse#2}} | {{guide:spoils.pay.credits@Dormant Pulse#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Dormant Pulse#1}} | {{guide:spoils.pay.thulium@Dormant Pulse#2}} | {{guide:spoils.pay.thulium@Dormant Pulse#3}} |
+| Tapasztalat (XP) | {{guide:spoils.pay.experience@Dormant Pulse#1}} | {{guide:spoils.pay.experience@Dormant Pulse#2}} | {{guide:spoils.pay.experience@Dormant Pulse#3}} |
+| Becsület | {{guide:spoils.pay.honor@Dormant Pulse#1}} | {{guide:spoils.pay.honor@Dormant Pulse#2}} | {{guide:spoils.pay.honor@Dormant Pulse#3}} |
 | PvE-pont kilövésenként | 11 | 11 | 11 |
 
 **Zsákmány**: egy láda, annak a pilótának, aki a legtöbb sebzést okozta.
 
-| Tárgy | Esély | Mennyiség |
-| :--- | ---: | ---: |
-| Ancient Control Unit | 20% | 1 |
-| Power Core | 20% | 1 |
-| Dark Matter | 20% | 1–5 |
+| Tárgy |
+| :--- |
+| {{guide:spoils.box@Dormant Pulse#1;Dormant Pulse#2;Dormant Pulse#3}} |
 
 <!-- dormant-members:end -->

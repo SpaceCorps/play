@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b9bfffab24f7eda8 -->
+<!-- wiki-i18n source: 6acaa0292fff4664 -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker
 
@@ -6,10 +6,10 @@ Os Seekers são unidades básicas de exploração e reconhecimento. São passivo
 
 ## Atributos {#stats}
 
-- **Pontos de vida (HP)**: 800
-- **Escudo**: 800
-- **Dano**: 180
-- **Velocidade**: 120
+- **Pontos de vida (HP)**: {{guide:vitals.hull@Seeker#1}}
+- **Escudo**: {{guide:vitals.shield@Seeker#1}}
+- **Dano**: {{guide:vitals.dps@Seeker#1}}
+- **Velocidade**: {{guide:vitals.speed@Seeker#1;Seeker#2;Seeker#3;Seeker#4}}
 - **Alcance de ataque**: 600
 - **Comportamento**: Passivo
 
@@ -24,10 +24,10 @@ Os Seekers são unidades básicas de exploração e reconhecimento. São passivo
 
 ## Recompensas {#rewards}
 
-- **Créditos**: 1.000
-- **Thulium**: 4
-- **Experiência (XP)**: 100
-- **Honra**: 2
+- **Créditos**: {{guide:spoils.pay.credits@Seeker#1}}
+- **Thulium**: {{guide:spoils.pay.thulium@Seeker#1}}
+- **Experiência (XP)**: {{guide:spoils.pay.experience@Seeker#1}}
+- **Honra**: {{guide:spoils.pay.honor@Seeker#1}}
 - **Pontos PvE por abate**: 1
 - **Recarga do escudo**: 10 por segundo (15 s de atraso)
 
@@ -37,9 +37,11 @@ Cai como uma [caixa de carga](/wiki/03-Mechanics/Cargo.md) no local onde ele exp
 
 Para que serve cada item e onde mais encontrá-lo: [Recursos](/wiki/06-Items/Resources.md).
 
-- **Ship Fragment**: 20% de chance (Mín.: 1, Máx.: 1)
-- **Daraxium**: 50% de chance (Mín.: 1, Máx.: 2)
-- **Echo Shard**: 0,8% de chance (Mín.: 1, Máx.: 1)
+- {{guide:spoils.box@Seeker#1;Seeker#2;Seeker#3;Seeker#4}}
+
+## Habilidades especiais {#special-abilities}
+
+Alguns alienígenas desta espécie têm uma **habilidade especial**: algo que fazem uma única vez, quando metade do casco já se foi. Nada aparece antes de começar. [Habilidades especiais](/wiki/03-Mechanics/Special-Abilities.md) diz o que cada habilidade faz e como responder a ela.
 
 ## História {#lore}
 

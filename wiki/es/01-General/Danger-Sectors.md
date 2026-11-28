@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 399d33a09b4ac805 -->
+<!-- wiki-i18n source: 0f6a663715a3934a -->
 <!-- wiki-i18n title: Sectores de peligro -->
 # Sectores de peligro {#danger-sectors}
 
@@ -14,9 +14,10 @@ Aquí vivió una civilización de la vieja galaxia, avanzada y de color negro vi
 
 - **Excavadoras gigantes.** `DS-1`, `DS-2` y `DS-3` tienen cada uno un púlsar desde el primer día de la temporada, una luz en el cielo y nada más; desde el día 11 cada uno recibe una **excavadora gigante** a su lado. Pon Dark Matter en el depósito de la excavadora, elige un recurso, y ella mina el púlsar: Thulium y minerales raros caen a su alrededor en cajas que puede recoger cualquiera. Es lo más rico por lo que pelear en los sectores de peligro, y lo más peligroso. Consulta [Excavadora gigante](/wiki/03-Mechanics/Giant-Excavator.md). En Beta y Gamma, las excavadoras gigantes están desde el primer día de la temporada.
 - **Slumbering Voids.** Mientras una excavadora mina, los **Slumbering Voids** llegan en oleadas desde el borde del mapa y cazan a los pilotos que están cerca. Otros patrullan el pantano. Consulta [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void).
-- **El Dormant Swamp.** En una esquina de `DS-4` está la base de la civilización perdida: cañones que disparan a toda nave que ven, Inert Masses que la guardan y, en el centro, el Unwakened. Es un lugar que los pilotos todavía no deben visitar. Consulta [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
+- **El Dormant Swamp.** En una esquina de `DS-4` está la base de la civilización perdida: cañones que disparan a toda nave que ven, Inert Masses que la guardan y, en el centro, el Unwakened. Consulta [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
 - **Un Enjambre Dormant más rápido y más rico.** El enjambre aparece ahora en el pantano, vuelve antes después de ser destruido y paga el doble. Consulta [Enjambre Dormant](/wiki/05-Swarms/Dormant-Swarm.md).
 - **Antes del día 11** solo brillan los púlsares: por lo demás, los sectores de peligro son como los describe [Viajes por el mapa espacial](/wiki/01-General/Spacemap%20Travel.md). Un mundo que está en el día 11 o después lo tiene todo de golpe. En Beta y Gamma, las excavadoras gigantes están desde el primer día de la temporada.
+- **El Threshold.** El Unwakened del Dormant Swamp ya puede ser destruido. La primera muerte de la temporada en cada mundo abre el Threshold de ese mundo en la esquina superior derecha de `DS-4`, donde sus pilotos construyen el Void Gate hacia el [Deep Void](/wiki/03-Mechanics/Deep-Void.md).
 
 ## Davidski
 

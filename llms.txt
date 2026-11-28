@@ -45,20 +45,20 @@ Autonomous AI agents, tool callers, and automation frameworks should use SpaceCo
 ---
 
 <!-- release:telemetry -->
-## Current Release Telemetry (v0.5.11)
+## Current Release Telemetry (v0.5.12)
 
 | OS | Architecture | Package | Direct Download URL | File Size | SHA-256 Checksum |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| macOS | Universal (ARM64/x86_64) | DMG | https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg | 175,658,205 bytes | ee04200b47d0e63ea731372e2deb79bec78f02c2ecb416d0baeebc6ac6160ea8 |
-| Windows | x86_64 | ZIP | https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip | 166,931,304 bytes | 33d3496d099d2f2275824101b9412d59317d03a9d15c654666e33f636b00d4d3 |
-| Linux | x86_64 | AppImage | https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage | 161,257,976 bytes | 0b3404ee9c358039e7a019d2e56867b7cf424b8dcec6a65b93704e882c112072 |
-| Linux | x86_64 | tar.gz | https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz | 167,858,091 bytes | 3d5591cae402e0c626e1d5d3d6cee1c28c405e43dc41a88ec26729145e4b8c00 |
-| Windows | aarch64 | ZIP | https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-aarch64.zip | 165,061,956 bytes | 6e92f4270bc481e6f41702ab8dbbe7b01e6bef18c469c751df6823f4e4647d2e |
-| Linux | aarch64 | AppImage | https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-aarch64.AppImage | 159,595,016 bytes | 48fa7028cd242cbf8008c9994786995c3e5d85bf14f12637602aa429f2df9ace |
-| Linux | aarch64 | tar.gz | https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-aarch64.tar.gz | 165,984,128 bytes | 734b8ad7fe6930758db603e62c5682d1421e5e90af97ec5a0d36fce7cdf6212b |
-| Android | 64-bit ARM (arm64-v8a) | APK | https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-android-aarch64.apk | 192,422,788 bytes | 178ae4cb33d9fdeb7ac9a8bf8212fb2f03549182b9dd5285fb6e3c485990ef4b |
+| macOS | Universal (ARM64/x86_64) | DMG | https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg | 199,958,565 bytes | d92a0f3700f7bcc8d81293f7d8124b2d58fefb270e59b18a18f03e15f146ba98 |
+| Windows | x86_64 | ZIP | https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip | 191,293,749 bytes | 02aea3432b4c17bf8dc3b8ed65b97c9ca6addedc4bce473238f5601f29dc0bbf |
+| Linux | x86_64 | AppImage | https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage | 185,174,520 bytes | 9af6b24499987f57f9032c71c89f110a6051cef2d8cf4a10f47d0954659031de |
+| Linux | x86_64 | tar.gz | https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz | 192,187,843 bytes | ef39a40e3ab33edb955e4a2d30ad65518d6960770f612a0e232fcb1e487dff34 |
+| Windows | aarch64 | ZIP | https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-aarch64.zip | 189,306,867 bytes | 6fb054574a762732cbb65ae66cee474408193bc37e40245e534005d0e055636c |
+| Linux | aarch64 | AppImage | https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-aarch64.AppImage | 183,441,928 bytes | 50e602e69f2b714c0a20721252396378abed1789ae63826986a588cf07c6af1e |
+| Linux | aarch64 | tar.gz | https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-aarch64.tar.gz | 190,202,196 bytes | 2089885ec4f614b2595df46efa39481bffc8fd43d6c96b9f78f95d5c0c60aecd |
+| Android | 64-bit ARM (arm64-v8a) | APK | https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-android-aarch64.apk | 218,751,876 bytes | 55f2a2b3e4f63a566125f59c563d1778cca18f10c2e9773a85a9d7b9d4ac336c |
 
-Released 2026-11-22. These values are `release.json`'s, written from it at release time.
+Released 2026-11-28. These values are `release.json`'s, written from it at release time.
 
 The Android package is an early-access APK for 64-bit ARM phones and tablets (Android 9 or later). It is signed with SpaceCorps' own key and installed from the file itself, with no store involved: Android asks once to allow installs from the app that opens it, and a build of the game signed with another key has to be removed first.
 <!-- /release:telemetry -->
@@ -71,7 +71,7 @@ The Android package is an early-access APK for 64-bit ARM phones and tablets (An
 ### macOS
 ```bash
 curl -LO https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg
-echo "ee04200b47d0e63ea731372e2deb79bec78f02c2ecb416d0baeebc6ac6160ea8  SpaceCorps2027-macos-universal.dmg" | shasum -a 256 -c -
+echo "d92a0f3700f7bcc8d81293f7d8124b2d58fefb270e59b18a18f03e15f146ba98  SpaceCorps2027-macos-universal.dmg" | shasum -a 256 -c -
 hdiutil attach SpaceCorps2027-macos-universal.dmg
 cp -R "/Volumes/SpaceCorps 2027/SpaceCorps 2027.app" /Applications/
 hdiutil detach "/Volumes/SpaceCorps 2027"
@@ -82,7 +82,7 @@ xattr -dr com.apple.quarantine "/Applications/SpaceCorps 2027.app"
 ```powershell
 Invoke-WebRequest -Uri "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip" -OutFile "SpaceCorps2027.zip"
 $hash = (Get-FileHash -Path "SpaceCorps2027.zip" -Algorithm SHA256).Hash.ToLower()
-if ($hash -ne "33d3496d099d2f2275824101b9412d59317d03a9d15c654666e33f636b00d4d3") { throw "Checksum mismatch" }
+if ($hash -ne "02aea3432b4c17bf8dc3b8ed65b97c9ca6addedc4bce473238f5601f29dc0bbf") { throw "Checksum mismatch" }
 Expand-Archive -Path "SpaceCorps2027.zip" -DestinationPath "$HOME\SpaceCorps2027"
 # The game is "$HOME\SpaceCorps2027\SpaceCorps 2027\spacecorps2027.exe": one program, no assets folder.
 ```
@@ -90,7 +90,7 @@ Expand-Archive -Path "SpaceCorps2027.zip" -DestinationPath "$HOME\SpaceCorps2027
 ### Linux
 ```bash
 curl -LO https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage
-echo "0b3404ee9c358039e7a019d2e56867b7cf424b8dcec6a65b93704e882c112072  SpaceCorps2027-linux-x86_64.AppImage" | sha256sum -c -
+echo "9af6b24499987f57f9032c71c89f110a6051cef2d8cf4a10f47d0954659031de  SpaceCorps2027-linux-x86_64.AppImage" | sha256sum -c -
 chmod +x SpaceCorps2027-linux-x86_64.AppImage
 ./SpaceCorps2027-linux-x86_64.AppImage
 ```
@@ -98,7 +98,7 @@ chmod +x SpaceCorps2027-linux-x86_64.AppImage
 ### Android (64-bit ARM, early access)
 ```bash
 curl -LO https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-android-aarch64.apk
-echo "178ae4cb33d9fdeb7ac9a8bf8212fb2f03549182b9dd5285fb6e3c485990ef4b  SpaceCorps2027-android-aarch64.apk" | sha256sum -c -
+echo "55f2a2b3e4f63a566125f59c563d1778cca18f10c2e9773a85a9d7b9d4ac336c  SpaceCorps2027-android-aarch64.apk" | sha256sum -c -
 # On the phone: open the file, and allow installs from the app you opened it with when Android asks.
 # From a computer with adb, the phone connected with USB debugging on:
 adb install SpaceCorps2027-android-aarch64.apk

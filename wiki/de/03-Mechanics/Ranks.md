@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 38daca85a103c20f -->
+<!-- wiki-i18n source: d45e1534593782f8 -->
 <!-- wiki-i18n title: Ränge -->
 # Ränge {#ranks}
 
@@ -137,6 +137,7 @@ Ein zäheres Alien ist mehr wert: Ein Abschuss bringt Punkte danach, wie viel Sc
 | Slumbering Void | 10 |
 | Inert Mass | 15 |
 | The Unwakened | 112 |
+| Deep Mass | 15 |
 | Brood Warden I, II, III | 14, 18, 35 |
 | Siege Warden I, II, III | 13, 17, 32 |
 | Wrath Warden I, II, III | 14, 18, 34 |
@@ -144,7 +145,7 @@ Ein zäheres Alien ist mehr wert: Ein Abschuss bringt Punkte danach, wie viel Sc
 | Siege Escort I, II, III | 2, 3, 6 |
 | Wrath Guard I, II, III | 2, 3, 6 |
 
-Die ersten fünf Zeilen sind die gewöhnlichen Aliens, die nächsten zwölf die Schiffe der sechs Schwärme und die nächsten drei die Aliens des [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) (ab Saisontag 11). Zuletzt kommen die Clan-Wächter, die Anführer eines Clan-Wächter-Kampfs, und ihre Besatzungen, die Brood Drones, Siege Escorts und Wrath Guards: I, II und III sind die Stärke des Wächters, und die Punkte stehen in dieser Reihenfolge.
+Die ersten fünf Zeilen sind die gewöhnlichen Aliens, die nächsten zwölf die Schiffe der sechs Schwärme und die nächsten drei die Aliens des [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) (ab Saisontag 11) und die nächste die **Deep Mass** der [Deep Void](/wiki/03-Mechanics/Deep-Void.md), die Inert Mass mit dickerem Schild. Zuletzt kommen die Clan-Wächter, die Anführer eines Clan-Wächter-Kampfs, und ihre Besatzungen, die Brood Drones, Siege Escorts und Wrath Guards: I, II und III sind die Stärke des Wächters, und die Punkte stehen in dieser Reihenfolge.
 
 Ein Beispiel: Ein Pilot auf Level 4 mit 12.500 Erfahrung und 900 Ehre, der 300 Seeker, 80 Phantasms und 10 Bulwarks zerstört hat, hat 400 + 12 + 9 + 300 + 160 + 40 = **921** Punkte. Damit ist er Sergeant: Das Minimum liegt bei 800, und der nächste Rang, Senior-Sergeant, verlangt 1.000. Bis einschließlich Senior-Oberst zählen nur die Punkte.
 

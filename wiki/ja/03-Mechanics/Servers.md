@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 397d7b3564593bb7 -->
+<!-- wiki-i18n source: f77c8c8ae352b4a0 -->
 <!-- wiki-i18n title: サーバー -->
 # サーバー {#servers}
 
@@ -37,7 +37,7 @@ SpaceCorps は3つのゲームサーバーで動いています。**Helsinki**�
 | [ソロゲート](/wiki/03-Mechanics/Solo-Gates.md#going-in) | ゲート自体はそちらで説明しています |
 | [実績](/wiki/03-Mechanics/Achievements.md) | そちらで説明しています |
 | [クランダンジョン](/wiki/03-Mechanics/Dungeons.md)とウォーデン | Helsinki のみ |
-| [Davidski](/wiki/03-Mechanics/Davidski.md) | 現れますが、地域サーバーでは何も支払いません。彼の撃墜報酬は Helsinki で支払われます |
+| [Davidski](/wiki/03-Mechanics/Davidski.md) | 現れますが、地域サーバーでは何も支払いません。報酬が支払われるのは、ホームサーバー（EU）で撃墜した場合だけで、どのサーバーでの撃墜も、彼の名前が出るミッションにカウントされます |
 | ハンガー、[Skylab](/wiki/03-Mechanics/Skylab.md)、アセンブリ、オークション、ショップ、研究、クランページ、ギャラクシーゲート | ステーションで：飛行中はウィンドウがそう表示し、**基地に戻る**でそこへ行けます |
 
 ## サーバーを選ぶ {#choosing-a-server}

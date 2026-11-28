@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5f873edc2b653495 -->
+<!-- wiki-i18n source: 2b3edf7bcb1d9673 -->
 <!-- wiki-i18n title: Enjambre Crystalys -->
 # Enjambre Crystalys {#crystalys-swarm}
 
@@ -17,14 +17,14 @@ El enjambre Crystalys es un **Boss Crystalys** con sus **Crystalys Guards**: el 
 - **Los seguidores se mantienen**: a no más de 500 unidades del líder
 - **Curación**: Cada Crystalys Guard a menos de 600 unidades del líder cura su casco, 250 HP por segundo en Alpha
 - **Líder destruido**: Los seguidores se van 30 s después de que destruyan al líder, salvo que estén atacando
-- **Vuelve**: 30 min después de que destruyan al líder, en el mismo sector
+- **Vuelve**: {{guide:vitals.respawn@Boss Crystalys#1;Boss Crystalys#2;Boss Crystalys#3}} después de que destruyan al líder, en el mismo sector
 - **Avisos**: Se avisa a los pilotos del sector cuándo aparece el líder y cuándo es destruido. Son líneas del Sistema: aparecen en la pestaña **Sistema** del chat, con un contador de no leídas, y no en **Global** ni en **Local**. El registro de bajas nombra al piloto al que se acredita el derribo.
 
 <!-- crystalys-glance:end -->
 
 ## Los miembros {#the-members}
 
-- **Boss Crystalys**: un Crystalys más grande, con el tinte del enjambre y su nombre encima, con casco, escudo y una andanada láser propios (las cifras están más abajo). Es pasivo: merodea hasta que un piloto lo impacta, entonces va tras ese piloto y le dispara, y las naves de su enjambre cercanas se suman al combate. El alcance de su arma y su velocidad son los de un Crystalys, y nunca repara su casco por sí solo.
+- **Boss Crystalys**: un Crystalys más grande, con el tinte del enjambre y su nombre encima, con casco, escudo y una andanada láser propios (las cifras están más abajo). Es pasivo: merodea hasta que un piloto lo impacta, entonces va tras ese piloto y le dispara, y las naves de su enjambre cercanas se suman al combate. El alcance de su arma y su velocidad son los de un Crystalys, y nunca repara su casco por sí solo. Sus [tres pasos](#the-leaders-three-steps) y una [habilidad especial](/wiki/03-Mechanics/Special-Abilities.md) pueden cambiar eso.
 - **Crystalys Guard**: un Crystalys más pequeño con el tinte del enjambre. Los Guards se mantienen cerca del jefe, se suman al combate cuando una nave de enjambre cercana es impactada, y cada uno que está cerca del jefe cura su casco. Un Guard repara su propio casco tras un descanso, como hace un Crystalys.
 
 ## Cómo transcurre el combate {#how-the-fight-goes}
@@ -34,6 +34,19 @@ El enjambre Crystalys es un **Boss Crystalys** con sus **Crystalys Guards**: el 
 - **Beta y Gamma son más duros.** Los enjambres de esos mundos son más fuertes ([Mundos](/wiki/05-Swarms/Swarms.md#the-worlds)), así que piden más pilotos o mejor munición.
 - **Los sectores de peligro son PvP.** Un rival puede atacar al grupo en mitad del combate y esperar la caja: es del piloto que más daño causó (y de su clan) durante 30 segundos, y después de cualquiera ([Carga](/wiki/03-Mechanics/Cargo.md)). No vayas solo.
 - **El jefe vuelve** pasado el tiempo de la lista *De un vistazo*, con toda su fuerza, en el mismo sector, y sus Guards llegan uno tras otro.
+
+## Los tres pasos del líder {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Su combate tiene tres pasos ([cómo funcionan](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); cada uno ocurre una vez.
+
+- **Al empezar**: Recibe 50 % de cada impacto durante 8 s.
+- **Por debajo de dos tercios**: Un anillo de 700 unidades golpea a cada nave que hay dentro con 4 de sus andanadas, y dispara 4 cohetes.
+- **Por debajo de un tercio**: Repara 20 % de su casco y su escudo (una ráfaga de daño la interrumpe), y llegan 3 Crystalys Guards más, como máximo 6 vivos.
+
+<!-- mob-ladder:end -->
 
 ## Recompensas y botín {#rewards-and-drops}
 
@@ -52,29 +65,23 @@ Base: Crystalys, con 350 % del casco y 100 % del daño de los láseres; la vel
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Casco | 896.000 | 1.344.000 | 1.792.000 |
-| Escudo | 560.000 | 840.000 | 1.120.000 |
-| Daño de los láseres (una salva por segundo) | 10.000 | 15.000 | 20.000 |
-| Velocidad | 230 | 230 | 230 |
+| Casco | {{guide:vitals.hull@Boss Crystalys#1}} | {{guide:vitals.hull@Boss Crystalys#2}} | {{guide:vitals.hull@Boss Crystalys#3}} |
+| Escudo | {{guide:vitals.shield@Boss Crystalys#1}} | {{guide:vitals.shield@Boss Crystalys#2}} | {{guide:vitals.shield@Boss Crystalys#3}} |
+| Daño de los láseres (una salva por segundo) | {{guide:vitals.dps@Boss Crystalys#1}} | {{guide:vitals.dps@Boss Crystalys#2}} | {{guide:vitals.dps@Boss Crystalys#3}} |
+| Velocidad | {{guide:vitals.speed@Boss Crystalys#1}} | {{guide:vitals.speed@Boss Crystalys#2}} | {{guide:vitals.speed@Boss Crystalys#3}} |
 | Alcance de los láseres | 900 | 900 | 900 |
 | Radio de agresión | solo si lo atacan | solo si lo atacan | solo si lo atacan |
-| Créditos | 393.750 | 787.500 | 1.181.250 |
-| Thulium | 1.050 | 2.100 | 3.150 |
-| Experiencia (XP) | 63.000 | 126.000 | 189.000 |
-| Honor | 273 | 546 | 819 |
+| Créditos | {{guide:spoils.pay.credits@Boss Crystalys#1}} | {{guide:spoils.pay.credits@Boss Crystalys#2}} | {{guide:spoils.pay.credits@Boss Crystalys#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Boss Crystalys#1}} | {{guide:spoils.pay.thulium@Boss Crystalys#2}} | {{guide:spoils.pay.thulium@Boss Crystalys#3}} |
+| Experiencia (XP) | {{guide:spoils.pay.experience@Boss Crystalys#1}} | {{guide:spoils.pay.experience@Boss Crystalys#2}} | {{guide:spoils.pay.experience@Boss Crystalys#3}} |
+| Honor | {{guide:spoils.pay.honor@Boss Crystalys#1}} | {{guide:spoils.pay.honor@Boss Crystalys#2}} | {{guide:spoils.pay.honor@Boss Crystalys#3}} |
 | Puntos PvE por derribo | 30 | 30 | 30 |
 
 **Botín**: una caja, para el piloto que más daño causó.
 
-| Objeto | Probabilidad | Cantidad |
-| :--- | ---: | ---: |
-| Cataclysite | 100 % en cada una de 2 tiradas | 8 |
-| Quorvium | 100 % en cada una de 2 tiradas | 6–10 |
-| Power Core | 30 % | 1 |
-| Ancient Control Unit | 15 % | 1 |
-| Dark Matter | 4 % | 1 |
-| Ultra Core y Experimental Fusion Core, repartidos a partes iguales | 100 % | 600–1.000 en total |
-| Uno de los 4 [cohetes](/wiki/06-Items/Rockets.md) Épicos, elegido al azar | 100 % | 8–15 |
+| Objeto |
+| :--- |
+| {{guide:spoils.box@Boss Crystalys#1;Boss Crystalys#2;Boss Crystalys#3}} |
 
 ### Crystalys Guard
 
@@ -82,17 +89,17 @@ Base: Crystalys, con 15 % de casco, escudo y daño; la velocidad y el alcance s
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Casco | 38.400 | 57.600 | 76.800 |
-| Escudo | 24.000 | 36.000 | 48.000 |
-| Daño de los láseres (una salva por segundo) | 1.500 | 2.250 | 3.000 |
-| Velocidad | 230 | 230 | 230 |
+| Casco | {{guide:vitals.hull@Crystalys Guard#1}} | {{guide:vitals.hull@Crystalys Guard#2}} | {{guide:vitals.hull@Crystalys Guard#3}} |
+| Escudo | {{guide:vitals.shield@Crystalys Guard#1}} | {{guide:vitals.shield@Crystalys Guard#2}} | {{guide:vitals.shield@Crystalys Guard#3}} |
+| Daño de los láseres (una salva por segundo) | {{guide:vitals.dps@Crystalys Guard#1}} | {{guide:vitals.dps@Crystalys Guard#2}} | {{guide:vitals.dps@Crystalys Guard#3}} |
+| Velocidad | {{guide:vitals.speed@Crystalys Guard#1}} | {{guide:vitals.speed@Crystalys Guard#2}} | {{guide:vitals.speed@Crystalys Guard#3}} |
 | Alcance de los láseres | 900 | 900 | 900 |
 | Radio de agresión | solo si lo atacan | solo si lo atacan | solo si lo atacan |
 | Cura al líder, cada uno, por segundo (solo el casco) | 250 | 375 | 500 |
-| Créditos | 125 | 250 | 375 |
-| Thulium | 1 | 2 | 3 |
-| Experiencia (XP) | 12 | 24 | 36 |
-| Honor | 1 | 2 | 3 |
+| Créditos | {{guide:spoils.pay.credits@Crystalys Guard#1}} | {{guide:spoils.pay.credits@Crystalys Guard#2}} | {{guide:spoils.pay.credits@Crystalys Guard#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Crystalys Guard#1}} | {{guide:spoils.pay.thulium@Crystalys Guard#2}} | {{guide:spoils.pay.thulium@Crystalys Guard#3}} |
+| Experiencia (XP) | {{guide:spoils.pay.experience@Crystalys Guard#1}} | {{guide:spoils.pay.experience@Crystalys Guard#2}} | {{guide:spoils.pay.experience@Crystalys Guard#3}} |
+| Honor | {{guide:spoils.pay.honor@Crystalys Guard#1}} | {{guide:spoils.pay.honor@Crystalys Guard#2}} | {{guide:spoils.pay.honor@Crystalys Guard#3}} |
 | Puntos PvE por derribo | 6 | 6 | 6 |
 
 **Botín**: ninguno. El derribo solo paga sus créditos, su Thulium, su XP y su honor.

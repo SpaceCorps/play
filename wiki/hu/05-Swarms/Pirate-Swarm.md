@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ed1159b36e9dc853 -->
+<!-- wiki-i18n source: 33448f95d2520b3a -->
 <!-- wiki-i18n title: Pirate-raj -->
 # Pirate-raj {#pirate-swarm}
 
@@ -17,14 +17,14 @@ A Pirate-raj egy **Pirate Boss** a **Pirate Scoutjaival**: egy hatalmas, lassú 
 - **A kísérők közel maradnak**: legfeljebb 900 egységre a vezértől
 - **Gyógyítás**: Minden Pirate Scout, amely a vezértől 600 egységen belül van, gyógyítja a hajótestét, Alphában másodpercenként 40 HP-t
 - **A vezér megsemmisül**: A kísérők a vezér megsemmisülése után 1 perc múlva eltűnnek, kivéve ha éppen támadnak
-- **Visszatér**: 2 perc azután, hogy a vezér megsemmisült, ugyanabban a szektorban
+- **Visszatér**: {{guide:vitals.respawn@Pirate Boss#1;Pirate Boss#2;Pirate Boss#3}} azután, hogy a vezér megsemmisült, ugyanabban a szektorban
 - **Értesítés**: A szektor pilótái értesülnek arról, mikor jelenik meg a vezér, és mikor semmisül meg. Ezek rendszersorok: a chat **Rendszer** lapján jelennek meg, olvasatlan sorok számlálójával, és nem a **Globális** vagy a **Helyi** lapon. A kill feed megnevezi a pilótát, akinek a kilövést jóváírják.
 
 <!-- pirate-glance:end -->
 
 ## A tagok {#the-members}
 
-- **Pirate Boss**: az Ironcladre épülő hajó, annak erejének egy részével (az értékek lent vannak). Passzív, és **nem lő lézerekkel**: az egyetlen fegyvere egy **egyenes rakéta** ([Rakéták](/wiki/06-Items/Rockets.md); hogy melyik, az a szektortól függ, lásd a táblázatot) arra a pilótára, aki megtámadta, és lövés közben tovább kóborol. A hajótestét soha nem javítja meg magától.
+- **Pirate Boss**: az Ironcladre épülő hajó, annak erejének egy részével (az értékek lent vannak). Passzív, és **nem lő lézerekkel**: az egyetlen fegyvere egy **egyenes rakéta** ([Rakéták](/wiki/06-Items/Rockets.md); hogy melyik, az a szektortól függ, lásd a táblázatot) arra a pilótára, aki megtámadta, és lövés közben tovább kóborol. A hajótestét soha nem javítja meg magától. A [három lépése](#the-leaders-three-steps) és egy [különleges képesség](/wiki/03-Mechanics/Special-Abilities.md) változtathat ezen.
 - **Pirate Scout**: a Kitefinre épülő hajó, annak erejének egy részével. A Scoutok megtámadnak minden pilótát, aki a közelükbe ér, a boss közelében maradnak, és mindegyik, amelyik a boss közelében van, gyógyítja a hajótestét.
 
 ## A harc menete {#how-the-fight-goes}
@@ -34,6 +34,19 @@ A Pirate-raj egy **Pirate Boss** a **Pirate Scoutjaival**: egy hatalmas, lassú 
 - **Mozogj folyamatosan.** A boss rakétája egyenes és nem önirányító: a folyamatosan mozgó hajó kitér előle, az álló hajót eltalálja.
 - **Hozz csoportot.** Három Ostirion-pilóta x2 lőszerrel az `x-2` szektoron egyetlen hajó elvesztése nélkül leteríti, bár csak éppen hogy, az `x-3` szektoron viszont elpusztul, még amíg a találatok szétoszlanak; négyen nagyjából három perc alatt leterítik Alphában. x4 lőszerrel az `x-3` szektoron három pilóta nagyjából két perc alatt leteríti. Öten nagyjából két és fél perc alatt leterítik, ha a találatok szétoszlanak, és nagyjából három perc alatt, ha egy pilóta kapja az összes tüzet, de akkor két hajót elveszítenek: az a csoport, amelynél egy pilóta kapja az összes tüzet, öt főt kíván. Betában öt, Gammában hét pilóta kell, szétoszló találatokkal (ott nagyobb a boss, és a Scoutjai többet gyógyítanak). Alphában az `x-3` szektoron x2 lőszerrel egy Ostirion egyedül nem tudja leteríteni, egy Paragon egyedül sem teríti le, két Paragon pedig biztonságosan leteríti. Betában és Gammában az `x-3` szektoron egy Paragon egyedül x2 és x4 lőszerrel is elpusztul. A boss az első pilótának válaszol, aki eltalálta, ezért a legellenállóbb hajó kezdje, és használd a képességeidet (Emergency Repair, Shield Surge: [Képességek](/wiki/03-Mechanics/Abilities.md)) egy ilyen hosszú harcban. A még 2. vagy 3. szintű pilóták túl gyengék hozzá, még ott is, ahol repülnek: maradj távol, amíg erősebb nem leszel.
 - **A boss visszatér** a *Röviden* lista szerinti idő múlva, ugyanabban a szektorban.
+
+## A vezér három lépése {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+A harcának három lépése van ([hogyan működnek](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); mindegyik egyszer történik meg.
+
+- **Az elején**: 3 rakétából álló legyezőt lő, 12 fokos közökkel, az első pilótára, aki eltalálta.
+- **Kétharmad alatt**: Egyszerre 5 újabb hajót hív: Pirate Scouts; legfeljebb 10 él egyszerre. Nem fizetnek, és 45 mp múlva távoznak.
+- **Egyharmad alatt**: 10 mp ideig a legközelebbi kapu felé repül, a sebességének szorzója ×1,8, aztán a pilóták ellen fordul.
+
+<!-- mob-ladder:end -->
 
 ## Jutalmak és zsákmány {#rewards-and-drops}
 
@@ -52,26 +65,24 @@ Alapja: Ironclad, hajótestének, pajzsának és sebzésének 50%-a; a sebesség
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Hajótest | 250 000 | 375 000 | 500 000 |
-| Pajzs | 50 100 | 75 150 | 100 200 |
+| Hajótest | {{guide:vitals.hull@Pirate Boss#1}} | {{guide:vitals.hull@Pirate Boss#2}} | {{guide:vitals.hull@Pirate Boss#3}} |
+| Pajzs | {{guide:vitals.shield@Pirate Boss#1}} | {{guide:vitals.shield@Pirate Boss#2}} | {{guide:vitals.shield@Pirate Boss#3}} |
 | Lézersebzés (másodpercenként egy sorozat) | nincs | nincs | nincs |
-| Sebesség | 100 | 100 | 100 |
+| Sebesség | {{guide:vitals.speed@Pirate Boss#1}} | {{guide:vitals.speed@Pirate Boss#2}} | {{guide:vitals.speed@Pirate Boss#3}} |
 | Lézer hatótávja | – | – | – |
 | Aggrósugár | csak ha megtámadják | csak ha megtámadják | csak ha megtámadják |
-| Rakétasebzés, legfeljebb | 2 500 (Rivet I) / 5 000 (Rivet II) | 3 750 (Rivet I) / 7 500 (Rivet II) | 5 000 (Rivet I) / 10 000 (Rivet II) |
-| Kredit | 145 000 | 290 000 | 435 000 |
-| Thulium | 725 | 1 450 | 2 175 |
-| Tapasztalat (XP) | 29 000 | 58 000 | 87 000 |
-| Becsület | 232 | 464 | 696 |
+| Rakétasebzés, legfeljebb | {{guide:behaviour.ability:rocket.damage@Pirate Boss#1}} | {{guide:behaviour.ability:rocket.damage@Pirate Boss#2}} | {{guide:behaviour.ability:rocket.damage@Pirate Boss#3}} |
+| Kredit | {{guide:spoils.pay.credits@Pirate Boss#1}} | {{guide:spoils.pay.credits@Pirate Boss#2}} | {{guide:spoils.pay.credits@Pirate Boss#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Pirate Boss#1}} | {{guide:spoils.pay.thulium@Pirate Boss#2}} | {{guide:spoils.pay.thulium@Pirate Boss#3}} |
+| Tapasztalat (XP) | {{guide:spoils.pay.experience@Pirate Boss#1}} | {{guide:spoils.pay.experience@Pirate Boss#2}} | {{guide:spoils.pay.experience@Pirate Boss#3}} |
+| Becsület | {{guide:spoils.pay.honor@Pirate Boss#1}} | {{guide:spoils.pay.honor@Pirate Boss#2}} | {{guide:spoils.pay.honor@Pirate Boss#3}} |
 | PvE-pont kilövésenként | 15 | 15 | 15 |
 
 **Zsákmány**: egy láda, annak a pilótának, aki a legtöbb sebzést okozta.
 
-| Tárgy | Esély | Mennyiség |
-| :--- | ---: | ---: |
-| Reinforced Hull Plate | 50% | 1 |
-| Egy a kreditért vásárolható 4 [rakéta](/wiki/06-Items/Rockets.md) közül, véletlenszerűen | 100% | 5–10 |
-| Egy a következők közül: Advanced Plasma, Siphon Battery és Siphon Battery II, véletlenszerűen | 100% | 1 000–2 000 |
+| Tárgy |
+| :--- |
+| {{guide:spoils.box@Pirate Boss#1;Pirate Boss#2;Pirate Boss#3}} |
 
 ### Pirate Scout
 
@@ -79,17 +90,17 @@ Alapja: Kitefin, hajótestének 50%-a és lézersebzésének 113%-a; a sebesség
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Hajótest | 12 000 | 18 000 | 24 000 |
-| Pajzs | 9 818 | 14 727 | 19 636 |
-| Lézersebzés (másodpercenként egy sorozat) | 315 | 473 | 630 |
-| Sebesség | 220 | 220 | 220 |
+| Hajótest | {{guide:vitals.hull@Pirate Scout#1}} | {{guide:vitals.hull@Pirate Scout#2}} | {{guide:vitals.hull@Pirate Scout#3}} |
+| Pajzs | {{guide:vitals.shield@Pirate Scout#1}} | {{guide:vitals.shield@Pirate Scout#2}} | {{guide:vitals.shield@Pirate Scout#3}} |
+| Lézersebzés (másodpercenként egy sorozat) | {{guide:vitals.dps@Pirate Scout#1}} | {{guide:vitals.dps@Pirate Scout#2}} | {{guide:vitals.dps@Pirate Scout#3}} |
+| Sebesség | {{guide:vitals.speed@Pirate Scout#1}} | {{guide:vitals.speed@Pirate Scout#2}} | {{guide:vitals.speed@Pirate Scout#3}} |
 | Lézer hatótávja | 700 | 700 | 700 |
-| Aggrósugár | 700 | 700 | 700 |
+| Aggrósugár | {{guide:vitals.aggro@Pirate Scout#1}} | {{guide:vitals.aggro@Pirate Scout#2}} | {{guide:vitals.aggro@Pirate Scout#3}} |
 | Gyógyítja a vezért, egyenként, másodpercenként (csak hajótest) | 40 | 60 | 80 |
-| Kredit | 1 000 | 2 000 | 3 000 |
-| Thulium | 4 | 8 | 12 |
-| Tapasztalat (XP) | 100 | 200 | 300 |
-| Becsület | 2 | 4 | 6 |
+| Kredit | {{guide:spoils.pay.credits@Pirate Scout#1}} | {{guide:spoils.pay.credits@Pirate Scout#2}} | {{guide:spoils.pay.credits@Pirate Scout#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Pirate Scout#1}} | {{guide:spoils.pay.thulium@Pirate Scout#2}} | {{guide:spoils.pay.thulium@Pirate Scout#3}} |
+| Tapasztalat (XP) | {{guide:spoils.pay.experience@Pirate Scout#1}} | {{guide:spoils.pay.experience@Pirate Scout#2}} | {{guide:spoils.pay.experience@Pirate Scout#3}} |
+| Becsület | {{guide:spoils.pay.honor@Pirate Scout#1}} | {{guide:spoils.pay.honor@Pirate Scout#2}} | {{guide:spoils.pay.honor@Pirate Scout#3}} |
 | PvE-pont kilövésenként | 4 | 4 | 4 |
 
 **Zsákmány**: nincs. A kilövés csak a kreditjét, Thuliumát, XP-jét és becsületét fizeti.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 590bfe6edf55d4c3 -->
+<!-- wiki-i18n source: ac91029328d1c571 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -43,7 +43,7 @@ På kärnnivå 15 växer Skylab en gång till och lär sig flyga: en **andra bro
 
 ## Översikt {#overview}
 
-Skylab går på sin egen klocka, vid sidan av ditt skepp: modulerna producerar och smider medan du är borta. Du bygger, uppgraderar, håller energin i balans och hämtar. Sidan har fyra vyer av samma station: **Station** (3D-stationen, med en bricka över varje modul; klicka på en för att öppna dess fönster, eller tryck **1** till **9**), **Lista** (ett kort för varje modul), **Tabell** (alla modulers värden i en tabell) och **Forskning** (Forskningscentrumets egen skärm, se [Forskning](/wiki/03-Mechanics/Research.md)). Pekar du på **Bygg** eller **Uppgradera** ser du vad nästa nivå ändrar, vad den kostar och hur lång tid den tar. Knappen **Universum** i sidans huvud öppnar expeditionens karta (se [Expeditioner](#expeditions)).
+Skylab går på sin egen klocka, vid sidan av ditt skepp: modulerna producerar och smider medan du är borta. Du bygger, uppgraderar, håller energin i balans och hämtar. Sidan har fem vyer. Fyra är av samma station: **Station** (3D-stationen, med en bricka över varje modul; klicka på en för att öppna dess fönster, eller tryck **1** till **9**), **Lista** (ett kort för varje modul), **Tabell** (alla modulers värden i en tabell) och **Forskning** (Forskningscentrumets egen skärm, se [Forskning](/wiki/03-Mechanics/Research.md)). Den femte, **Museum**, handlar inte om moduler: den förvarar de delar du har hittat för posterna i [Resenärens guide](/wiki/03-Mechanics/Travelers-Guide.md#the-museum) (se [Museum](#museum)). Pekar du på **Bygg** eller **Uppgradera** ser du vad nästa nivå ändrar, vad den kostar och hur lång tid den tar. Knappen **Universum** i sidans huvud öppnar expeditionens karta (se [Expeditioner](#expeditions)).
 
 Sexton moduler utgör stationen:
 
@@ -183,6 +183,15 @@ De två samlarna kostar **10 Ship Fragments, 20 000 krediter och 500 Thulium** 
 ## Forskningscentrumet {#the-research-centre}
 
 Den nionde modulen gör om resurser till vetenskap och forskar fram de teknologier som Monteringen behöver innan den gör något nytt. Den byggs från kärnnivå 10, har nivå 1 till 10, drar energi och går inte att stänga av. Dess siffror, vad den bränner som bränsle, boosten och hela teknologiträdet finns på sidan [Forskning](/wiki/03-Mechanics/Research.md). De högsta teknologierna kräver också Dark Matter, som du lägger i centrumet: [Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md) berättar hur du får tag på det. Nivåerna för Motormodulen, Försvarsmodulen och Radarmodulen är också teknologier och forskas fram här (se [Forskning](/wiki/03-Mechanics/Research.md#module-technologies)).
+
+## Museum
+
+Museum är sidans femte vy, vid sidan av Forskning. Det är hit **delarna** du har forskat fram förs: varje post i [Resenärens guide](/wiki/03-Mechanics/Travelers-Guide.md#the-museum) som du har öppnat (fem skanningar) om en utomjording som går att förstöra har fem delar, som tappas i en lastlåda som bara du kan ta och forskas fram i Xenolab, och varje del du har forskat fram gör att du gör mer skada på den sorten. Museet är ingen modul: det behöver ingen nivå, ingen energi och ingen byggnad.
+
+- **Ett kort för varje sådan post** du har öppnat, har forskat fram en del av eller bär på en del av, i guidens ordning, i en sektion för varje plats där utomjordingarna lever (företagens sektorer, svärmarna, Dormant Swamp, klanväktarna, klanernas fängelsehålor, sologrindarna, Davidski och Deep Void). Ett kort visar utomjordingens bild och namn med bokstaven för dess nivå (β Goombah; en krona markerar en boss), en pillerform med bonusen du har nu, fem platser, ”Forskade delar 2 / 5”, bonusen nu (”+15 % skada mot den här sorten”) och vad nästa del ger (”Nästa del: +18,3 %”; ”Setet är komplett.” med alla fem).
+- **En plats** visas med sin bild, aldrig bara med färg: en del du har forskat fram är en guldbricka med ett ben, en del du bär på och inte har forskat fram än en guldkontur med ett ben och dess antal (forska fram den i Xenolab), en del du inte har hittat än en tom kontur, och en del din skanner inte kan hitta ett lås märkt **II**: den kräver en Organic Scanner II. Organic Scanner I hittar bara del 1 och 2; II hittar alla 5, och del 3 till 5 hittar bara den.
+- **Överst** står posterna du har öppnat, delarna du har forskat fram (”Forskade delar: 4 av 20”), delarna i din last (”I din last: 2”), dina kompletta set och Organic Scanner på skeppet du flyger (vid dockning den som din aktiva konfiguration skulle lyfta med; ingen monterad: ingen del tappas). Under dem finns en sökning på namn, en rullgardinslista för gruppen och filtren **Alla**, **Med delar** och **Ofullständiga**.
+- **På en Deep Void-karta** kräver varje del Organic Scanner II, också de två första, som ett kort visar som öppna för Scanner I: korten säger vad de andra kartorna kräver.
 
 ## Bron och Kärna 2 {#the-bridge-and-core-2}
 
@@ -690,7 +699,7 @@ Varje farm och samlare har ett lager för ungefär 72 timmars produktion. Du hä
 
 ### Wipen {#the-wipe}
 
-Skylab påverkas aldrig av wipen: modulerna behåller sina nivåer, Resurslagret behåller sin malm och Forskningscentrumet behåller sina teknologier, sin vetenskapstank, den Dark Matter som sitter i det och en pågående forskning. Plåtarna i ditt inventarie är föremål som alla andra, så de följer [wipereglerna](/wiki/03-Mechanics/Wipe-Timeline.md). Ammunitionsskrivaren och Raketfabriken behåller sina nivåer, det de är inställda på att tillverka och det de håller, och Malmviken behåller sin nivå och sin kvot. Expeditionens fyra moduler behåller också sina nivåer, med sina teknologier, och det gör magasinet och matningens strömbrytare också. Malmen i ditt inventarie nollställs som vilket föremål som helst: flytta den till Resurslagret först.
+Skylab påverkas aldrig av wipen: modulerna behåller sina nivåer, Resurslagret behåller sin malm och Forskningscentrumet behåller sina teknologier, sin vetenskapstank, den Dark Matter som sitter i det och en pågående forskning. Museet behåller varje del du har forskat fram. En del du bär på och inte har forskat fram än är ett föremål som vilket annat som helst, så wipen tar den. Plåtarna i ditt inventarie är föremål som alla andra, så de följer [wipereglerna](/wiki/03-Mechanics/Wipe-Timeline.md). Ammunitionsskrivaren och Raketfabriken behåller sina nivåer, det de är inställda på att tillverka och det de håller, och Malmviken behåller sin nivå och sin kvot. Expeditionens fyra moduler behåller också sina nivåer, med sina teknologier, och det gör magasinet och matningens strömbrytare också. Malmen i ditt inventarie nollställs som vilket föremål som helst: flytta den till Resurslagret först.
 
 En **expedition** avräknas fram till wipen: en resa som pågår är över, Trofélagret betalar ut sina krediter, sitt Thulium, sin erfarenhet och sin heder och töms (dess byte raderas som alla lösa föremål; krediterna och Thuliumet kommer till din plånbok innan [taken](/wiki/03-Mechanics/Wipe-Timeline.md#the-caps) tillämpas), och Skylab börjar den nya säsongen hemma, i din koncerns hamn, med en ny universumkarta, de 19 startcellerna kända och radarns kö tom. Motorerna och lasrarna som är monterade i Motor- och Försvarsmodulen **sitter kvar där de är**: samma delar, med de thrusters och förstärkare som sitter i dem och deras Smedje-buffar. De tar ingen plats i transportförrådet. Bara en del som du har tagit ut ur sin modul är ett löst föremål och försvinner med de andra, liksom bytet i Trofélagret, som inte sitter monterat någonstans.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fff5cfd69e987468 -->
+<!-- wiki-i18n source: 7c6bc3eaf70223f5 -->
 <!-- wiki-i18n title: Seeker 虫群 -->
 # Seeker 虫群 {#seeker-swarm}
 
@@ -17,14 +17,14 @@ Seeker 虫群是[虫群](/wiki/05-Swarms/Swarms.md)中最小的一个：一个 *
 - **随从停留范围**：距头领不超过 500 单位
 - **治疗**：距头领 600 单位以内的每个 Seeker Slave 都会治疗它的船体，在 Alpha 中每秒 50 HP
 - **头领被击毁后**：头领被击毁后 30 秒，随从会离开，除非它们正在攻击
-- **回归**：头领 被击毁 2 分钟 后， 在同一星区
+- **回归**：头领 被击毁 {{guide:vitals.respawn@Boss Seeker#1;Boss Seeker#2;Boss Seeker#3}} 后， 在同一星区
 - **通知**：该星区的飞行员会被告知头领何时出现、何时被击毁。这些是系统行：它们显示在聊天的**系统**标签页中，带有未读计数，不会出现在**全球**或**本地**标签页里。击杀播报会写明获得这次击杀功劳的飞行员。
 
 <!-- seeker-glance:end -->
 
 ## 成员 {#the-members}
 
-- **Boss Seeker**：一只大得多的 Seeker，带有虫群的色调，头顶显示名字，船体、护盾和伤害是 Seeker 的好几倍（数值见下）。它是被动的：一直游荡，直到有飞行员击中它，然后就地停下，向该飞行员开火，附近的虫群舰船会加入战斗。它的武器射程和速度与 Seeker 相同，也从不自己修复船体。
+- **Boss Seeker**：一只大得多的 Seeker，带有虫群的色调，头顶显示名字，船体、护盾和伤害是 Seeker 的好几倍（数值见下）。它是被动的：一直游荡，直到有飞行员击中它，然后就地停下，向该飞行员开火，附近的虫群舰船会加入战斗。它的武器射程和速度与 Seeker 相同，也从不自己修复船体。它的[三个阶段](#the-leaders-three-steps)和[特殊能力](/wiki/03-Mechanics/Special-Abilities.md)可能改变这一点。
 - **Seeker Slave**：带有虫群色调的普通 Seeker。Slave 待在 Boss 附近，附近的虫群舰船被击中时就会加入战斗，每只靠近 Boss 的 Slave 都会为它的船体治疗。Slave 休息一段时间后会修复自己的船体，和 Seeker 一样。
 
 ## 战斗过程 {#how-the-fight-goes}
@@ -33,6 +33,19 @@ Seeker 虫群是[虫群](/wiki/05-Swarms/Swarms.md)中最小的一个：一个 *
 - **待在射程之外。** Boss 和它的 Slave 比 Protos 慢，武器射程也比 Quantum Laser II 短（见[激光与弹药](/wiki/06-Items/Lasers.md)）：装备这种激光并待在其射程之外的飞行员，在它们开火时不会受到伤害。装备 Quantum Laser I 的飞行员无法待在射程之外。
 - **Slave 的治疗比孤身新手的输出更快。** 它们加在一起的治疗量超过一名用 x1 弹药的飞行员的激光所造成的伤害，所以带上搭档和 x2 弹药。两名装备 Quantum Laser II 并保持距离的飞行员，在 Alpha 中大约一分钟就能击败 Boss，用 x2 弹药则快得多。
 - **Boss 会回来**，在*一览*列表给出的时间之后，满状态，出现在同一个星区，它的 Slave 会一只接一只地到来。
+
+## 首领的三个阶段 {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+这场战斗有三个阶段（[运作方式](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)）；每个只发生一次。
+
+- **开始时**: 它的Seeker Slaves在 8 秒 内以 ×2 的速度为它修复。
+- **低于三分之二时**: 出现 2 个它的分身，真身带一圈光环。
+- **低于三分之一时**: 在 4 秒 内从飞行员身边飞开，然后转回来。
+
+<!-- mob-ladder:end -->
 
 ## 奖励与掉落 {#rewards-and-drops}
 
@@ -51,28 +64,23 @@ Boss Seeker 的奖励**恰好是十只 Seeker**：Seeker 的信用点、Thulium�
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 船体 | 3,200 | 4,800 | 6,400 |
-| 护盾 | 3,200 | 4,800 | 6,400 |
-| 激光伤害 （每秒一轮齐射） | 720 | 1,080 | 1,440 |
-| 速度 | 120 | 120 | 120 |
+| 船体 | {{guide:vitals.hull@Boss Seeker#1}} | {{guide:vitals.hull@Boss Seeker#2}} | {{guide:vitals.hull@Boss Seeker#3}} |
+| 护盾 | {{guide:vitals.shield@Boss Seeker#1}} | {{guide:vitals.shield@Boss Seeker#2}} | {{guide:vitals.shield@Boss Seeker#3}} |
+| 激光伤害 （每秒一轮齐射） | {{guide:vitals.dps@Boss Seeker#1}} | {{guide:vitals.dps@Boss Seeker#2}} | {{guide:vitals.dps@Boss Seeker#3}} |
+| 速度 | {{guide:vitals.speed@Boss Seeker#1}} | {{guide:vitals.speed@Boss Seeker#2}} | {{guide:vitals.speed@Boss Seeker#3}} |
 | 激光射程 | 600 | 600 | 600 |
 | 仇恨范围 | 被攻击时 | 被攻击时 | 被攻击时 |
-| 信用点 | 10,000 | 20,000 | 30,000 |
-| Thulium | 40 | 80 | 120 |
-| 经验值（XP） | 1,000 | 2,000 | 3,000 |
-| 荣誉 | 20 | 40 | 60 |
+| 信用点 | {{guide:spoils.pay.credits@Boss Seeker#1}} | {{guide:spoils.pay.credits@Boss Seeker#2}} | {{guide:spoils.pay.credits@Boss Seeker#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Boss Seeker#1}} | {{guide:spoils.pay.thulium@Boss Seeker#2}} | {{guide:spoils.pay.thulium@Boss Seeker#3}} |
+| 经验值（XP） | {{guide:spoils.pay.experience@Boss Seeker#1}} | {{guide:spoils.pay.experience@Boss Seeker#2}} | {{guide:spoils.pay.experience@Boss Seeker#3}} |
+| 荣誉 | {{guide:spoils.pay.honor@Boss Seeker#1}} | {{guide:spoils.pay.honor@Boss Seeker#2}} | {{guide:spoils.pay.honor@Boss Seeker#3}} |
 | 每次击杀的 PvE 积分 | 5 | 5 | 5 |
 
 **掉落**：一个货箱，归造成伤害最多的飞行员。
 
-| 物品 | 几率 | 数量 |
-| :--- | ---: | ---: |
-| Ship Fragment | 10 次判定中每次 20% | 1 |
-| Daraxium | 10 次判定中每次 50% | 1–2 |
-| Standard Battery | 100% | 200–400 |
-| Advanced Plasma | 100% | 10–20 |
-| Ultra Core | 100% | 2–4 |
-| 可用信用点购买的 4 种 [火箭](/wiki/06-Items/Rockets.md) 中随机一种 | 100% | 2–3 |
+| 物品 |
+| :--- |
+| {{guide:spoils.box@Boss Seeker#1;Boss Seeker#2;Boss Seeker#3}} |
 
 ### Seeker Slave
 
@@ -80,17 +88,17 @@ Boss Seeker 的奖励**恰好是十只 Seeker**：Seeker 的信用点、Thulium�
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 船体 | 800 | 1,200 | 1,600 |
-| 护盾 | 800 | 1,200 | 1,600 |
-| 激光伤害 （每秒一轮齐射） | 180 | 270 | 360 |
-| 速度 | 120 | 120 | 120 |
+| 船体 | {{guide:vitals.hull@Seeker Slave#1}} | {{guide:vitals.hull@Seeker Slave#2}} | {{guide:vitals.hull@Seeker Slave#3}} |
+| 护盾 | {{guide:vitals.shield@Seeker Slave#1}} | {{guide:vitals.shield@Seeker Slave#2}} | {{guide:vitals.shield@Seeker Slave#3}} |
+| 激光伤害 （每秒一轮齐射） | {{guide:vitals.dps@Seeker Slave#1}} | {{guide:vitals.dps@Seeker Slave#2}} | {{guide:vitals.dps@Seeker Slave#3}} |
+| 速度 | {{guide:vitals.speed@Seeker Slave#1}} | {{guide:vitals.speed@Seeker Slave#2}} | {{guide:vitals.speed@Seeker Slave#3}} |
 | 激光射程 | 600 | 600 | 600 |
 | 仇恨范围 | 被攻击时 | 被攻击时 | 被攻击时 |
 | 治疗头领 （每个，每秒，仅船体） | 50 | 75 | 100 |
-| 信用点 | 125 | 250 | 375 |
-| Thulium | 1 | 2 | 3 |
-| 经验值（XP） | 12 | 24 | 36 |
-| 荣誉 | 1 | 2 | 3 |
+| 信用点 | {{guide:spoils.pay.credits@Seeker Slave#1}} | {{guide:spoils.pay.credits@Seeker Slave#2}} | {{guide:spoils.pay.credits@Seeker Slave#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Seeker Slave#1}} | {{guide:spoils.pay.thulium@Seeker Slave#2}} | {{guide:spoils.pay.thulium@Seeker Slave#3}} |
+| 经验值（XP） | {{guide:spoils.pay.experience@Seeker Slave#1}} | {{guide:spoils.pay.experience@Seeker Slave#2}} | {{guide:spoils.pay.experience@Seeker Slave#3}} |
+| 荣誉 | {{guide:spoils.pay.honor@Seeker Slave#1}} | {{guide:spoils.pay.honor@Seeker Slave#2}} | {{guide:spoils.pay.honor@Seeker Slave#3}} |
 | 每次击杀的 PvE 积分 | 1 | 1 | 1 |
 
 **掉落**：无。击杀只支付信用点、Thulium、经验值和荣誉。

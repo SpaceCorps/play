@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 00f154de4f7e72f2 -->
+<!-- wiki-i18n source: 95e9602370e7a658 -->
 <!-- wiki-i18n title: Spacemap-resor -->
 # Spacemap-resor {#spacemap-travel}
 
@@ -45,6 +45,8 @@ Galaxkartan nedan visar det kända universums layout i realtid. I spelet är sam
 ```
 
 Med en [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) monterad väljer kartan också ditt mål: tryck på CPU:ns plats i snabbfältet (**JMP**) så öppnas fönstret Stjärnsystem i valläge. De sektorer som CPU:n kan ta dig till lyses upp; din egen sektor och farosektorerna gör det inte. Peka på en upplyst sektor för att läsa priset, klicka på den och bekräfta hoppet när kartan frågar (500 Thulium).
+
+**Deep Void.** Ett reglage högst upp i stjärnsystemets fönster visar de **vanliga** kartorna eller **Deep Voids** kartor. `DV-1` visar `???` tills du har varit där, med en ledtråd om vägen in: Signalerna, din världs Void Gate i `DS-4` och, när du väl har flugit där, hur mycket du har utforskat. Ingen portal på den här kartan leder dit: den enda vägen in är en Void Gate ([Deep Void](/wiki/03-Mechanics/Deep-Void.md)).
 
 ## Så reser du {#how-to-travel}
 

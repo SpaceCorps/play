@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6fe66f282236a0de -->
+<!-- wiki-i18n source: b4ceac9f501a1ec2 -->
 <!-- wiki-i18n title: Solo Geçitler -->
 # Solo Geçitler {#solo-gates}
 
@@ -136,33 +136,40 @@ Bazı dalgalar bir **sürü** getirir: oyunun bir patron NPC'si (Boss Seeker, Bo
 
 Bir patron, bir uzaylının büyütülmüş gemisidir; geçidin ya da dünyanın hiçbir ayarının değiştirmediği kendi gövdesi, kalkanı ve salvosu vardır. Patronun gövdesi tablodaki rakama düştüğünde bir faz başlar: kalkanı yeniden ayarlanabilir, salvosu ya da tüm hasarı değişir ve bir hamle başlatabilir. Her hamle duyurulur: bir daire, bir halka ya da geminin üstündeki bir işaret, düşmeden bir an önce gösterir. Bir patronun çağırdığı uzaylılar bir şey ödemez ve bir şey düşürmez.
 
-**Evil Davidski**, Davidski's Nightmare’in patronudur; Davidski’nin kendi Ironclad’ını daha koyu bir altın renkte uçurur. Uzun bir mesafe boyunca seni izleyen güdümlü roketler olan Dormant Lance atar ve meteorlar, bir halka ve çağırdığı Evil gemileriyle savaşır. Gövdesi yarıya indiğinde **Öfkeli Davidski** olur: teması çalar, daha sert vurur ve çevresinde **oyundaki her geminin altın bir gemisi** belirir. Altın gemilerden biri bile hayattayken ona hiçbir şekilde zarar verilemez: lazerlerin ve roketlerin ona kilitlenemez ve yaptığın hiçbir şey gövdesine ya da kalkanına dokunmaz, bu yüzden önce onları aşarsın. Sonuncusu düştüğünde koruma kalıcı olarak kalkar. Her dalganın başında kendi penceresinden seninle alay eder. Onu öldürmek, bir Davidski öldürmesi isteyen görevler için, Tehlike Sektörleri’nde olduğu gibi bir geçitte de sayılır. Güncel olmayan bir oyun geçidi göstermez.
+**Evil Davidski**, Davidski's Nightmare’in patronudur; Davidski’nin kendi Ironclad’ını daha koyu bir altın renkte uçurur. Uzun bir mesafe boyunca seni izleyen güdümlü roketler olan Dormant Lance atar ve meteorlar, bir halka ve çağırdığı Evil gemileriyle savaşır. Gövdesi üçte bire indiğinde **Öfkeli Davidski** olur: teması çalar, daha sert vurur ve çevresinde **oyundaki her geminin altın bir gemisi** belirir. Altın gemilerden biri bile hayattayken ona hiçbir şekilde zarar verilemez: lazerlerin ve roketlerin ona kilitlenemez ve yaptığın hiçbir şey gövdesine ya da kalkanına dokunmaz, bu yüzden önce onları aşarsın. Sonuncusu düştüğünde koruma kalıcı olarak kalkar. Her dalganın başında kendi penceresinden seninle alay eder. Onu öldürmek, bir Davidski öldürmesi isteyen görevler için, Tehlike Sektörleri’nde olduğu gibi bir geçitte de sayılır. Güncel olmayan bir oyun geçidi göstermez.
 
 <!-- solo-bosses:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
 
 | Patron | Geçit | Gövde | Kalkan | Lazer salvosu |
 | :--- | :--- | ---: | ---: | ---: |
-| **Enhanced Phantasm** | Alpha Rift | 330.000 | 530.000 | 5.700–7.000 |
-| **Enhanced Bulwark** | Beta Breach | 690.000 | 170.000 | 4.500–5.500 |
-| **Elite Crystalys** | Gamma Foundry | 620.000 | 250.000 | 3.800–4.700 |
-| **Siege Construct** | Delta Siege | 1.150.000 | 1.730.000 | 3.400–4.200 |
-| **Omega Guardian** | Omega Vault | 1.340.000 | 840.000 | 2.600–3.200 |
-| **Evil Davidski** | Davidski's Nightmare | 5.500.000 | 6.600.000 | 7.800–9.600 |
+| **Enhanced Phantasm** | Alpha Rift | {{guide:vitals.hull@Enhanced Phantasm}} | {{guide:vitals.shield@Enhanced Phantasm}} | {{guide:vitals.dps*0.9007633587786259~1.099236641221374@Enhanced Phantasm}} |
+| **Enhanced Bulwark** | Beta Breach | {{guide:vitals.hull@Enhanced Bulwark}} | {{guide:vitals.shield@Enhanced Bulwark}} | {{guide:vitals.dps*0.9019607843137255~1.0980392156862746@Enhanced Bulwark}} |
+| **Elite Crystalys** | Gamma Foundry | {{guide:vitals.hull@Elite Crystalys}} | {{guide:vitals.shield@Elite Crystalys}} | {{guide:vitals.dps*0.896551724137931~1.103448275862069@Elite Crystalys}} |
+| **Siege Construct** | Delta Siege | {{guide:vitals.hull@Siege Construct}} | {{guide:vitals.shield@Siege Construct}} | {{guide:vitals.dps*0.8974358974358975~1.1025641025641026@Siege Construct}} |
+| **Omega Guardian** | Omega Vault | {{guide:vitals.hull@Omega Guardian}} | {{guide:vitals.shield@Omega Guardian}} | {{guide:vitals.dps*0.896551724137931~1.103448275862069@Omega Guardian}} |
+| **Evil Davidski** | Davidski's Nightmare | {{guide:vitals.hull@Evil Davidski}} | {{guide:vitals.shield@Evil Davidski}} | {{guide:vitals.dps*0.896551724137931~1.103448275862069@Evil Davidski}} |
 
 | Patron | Faz | Kalan gövde | Ne yapar |
 | :--- | :--- | :--- | :--- |
-| **Enhanced Phantasm** | Enhanced Phantasm | %100 ile %0 | Yalnızca ateş eder. |
-| **Enhanced Bulwark** | Shielded | %100 ile %50 | Kalkanı, patronun kendi kalkanının ×4 katına ayarlanır. |
-|  | Second attack | %50 ile %0 | Salvosu ×1,3. Sana 4 adet Dormant Lance roketi atar, her biri 61.000, 0,5 sn arayla; yaylım ateşi 30 sn aralıkla tekrarlanır. |
-| **Elite Crystalys** | Elite | %100 ile %50 | Yalnızca ateş eder. |
-|  | Reinforced | %50 ile %0 | Kalkanı, patronun kendi kalkanının ×2 katına ayarlanır. 10 dk aralıkla 10 Goombah çağırır, en çok 10 tanesi canlı; bir şey ödemezler ve bir şey düşürmezler. |
-| **Siege Construct** | Siege Construct | %100 ile %0 | 1 dk aralıkla 3 kez, her seferinde 8 meteor bırakır; her biri düştüğü yerin 420 birim çevresindeki her şeye 5.500 vurur, bunların %50 kadarı sana nişanlıdır; her daire düşmeden 3 sn önce görünür. Sana 6 adet Dormant Lance roketi atar, her biri 9.000, 0,5 sn arayla; yaylım ateşi 1 dk aralıkla tekrarlanır. |
-| **Omega Guardian** | Shield Fortress | %100 ile %70 | Kalkanı, patronun kendi kalkanının ×1,5 katına ayarlanır. 40 sn aralıkla 6 Bulwark çağırır, en çok 12 tanesi canlı; bir şey ödemezler ve bir şey düşürmezler. |
-|  | Swarm Protocol | %70 ile %35 | 25 sn aralıkla 12 Phantasm çağırır, en çok 24 tanesi canlı; bir şey ödemezler ve bir şey düşürmezler. 30 sn aralıkla 140.000 vuran bir patlama patronun 700 birim çevresindeki her şeye isabet eder; halka düşmeden 2 sn önce görünür. |
-|  | Overload | %35 ile %0 | Kalkanı, patronun kendi kalkanının ×0,1 katına ayarlanır. Tüm hasarı ×2,5. Fazda 2 dk geçince tüm hasarı bir ×2 daha olur. 25 sn aralıkla 28.000 vuran bir patlama patronun 700 birim çevresindeki her şeye isabet eder; halka düşmeden 2 sn önce görünür. |
-| **Evil Davidski** | Evil Davidski | %100 ile %50 | Sana 6 adet Dormant Lance roketi atar, her biri 14.700, 0,5 sn arayla; yaylım ateşi 30 sn aralıkla tekrarlanır. 1 dk aralıkla 2 kez, her seferinde 8 meteor bırakır; her biri düştüğü yerin 400 birim çevresindeki her şeye 33.000 vurur, bunların %50 kadarı sana nişanlıdır; her daire düşmeden 3 sn önce görünür. 40 sn aralıkla 5 Evil Protos çağırır, en çok 10 tanesi canlı; bir şey ödemezler ve bir şey düşürmezler. |
-|  | Angry | %50 ile %0 | Kalkanı, patronun kendi kalkanının ×0,5 katına ayarlanır. Tüm hasarı ×1,5. Fazda 8 dk geçince tüm hasarı bir ×2 daha olur. Sana 6 adet Dormant Lance roketi atar, her biri 7.800, 0,4 sn arayla; yaylım ateşi 30 sn aralıkla tekrarlanır. 1 dk aralıkla 3 kez, her seferinde 8 meteor bırakır; her biri düştüğü yerin 420 birim çevresindeki her şeye 10.200 vurur, bunların %50 kadarı sana nişanlıdır; her daire düşmeden 3 sn önce görünür. 45 sn aralıkla 105.000 vuran bir patlama patronun 700 birim çevresindeki her şeye isabet eder; halka düşmeden 2 sn önce görünür. 40 sn aralıkla 3 Evil Kitefin çağırır, en çok 6 tanesi canlı; bir şey ödemezler ve bir şey düşürmezler. |
+| **Enhanced Phantasm** | Enhanced Phantasm | %100 ile %66 | Yalnızca ateş eder. |
+|  | Reinforced | %66 ile %33 | Kalkanı, patronun kendi kalkanının ×1 katına ayarlanır. 10 dk aralıkla 4 Phantasm çağırır, en çok 4 tanesi canlı; bir şey ödemezler ve bir şey düşürmezler. |
+|  | Second attack | %33 ile %0 | Salvosu ×1,3. 30 sn aralıkla {{guide:behaviour.ability:phases.ringBlast@Enhanced Phantasm}} vuran bir patlama patronun 500 birim çevresindeki her şeye isabet eder; halka düşmeden 2 sn önce görünür. |
+| **Enhanced Bulwark** | Shielded | %100 ile %66 | Kalkanı, patronun kendi kalkanının ×4 katına ayarlanır. |
+|  | Rocket barrage | %66 ile %33 | Sana 4 adet Dormant Lance roketi atar, her biri {{guide:behaviour.ability:phases.rocketBarrage@Enhanced Bulwark}}, 0,5 sn arayla; yaylım ateşi 30 sn aralıkla tekrarlanır. |
+|  | Second attack | %33 ile %0 | Salvosu ×1,3. 10 dk aralıkla 4 Phantasm çağırır, en çok 4 tanesi canlı; bir şey ödemezler ve bir şey düşürmezler. |
+| **Elite Crystalys** | Elite | %100 ile %66 | Yalnızca ateş eder. |
+|  | Renewed shield | %66 ile %33 | Kalkanı, patronun kendi kalkanının ×1 katına ayarlanır. |
+|  | Reinforced | %33 ile %0 | Kalkanı, patronun kendi kalkanının ×2 katına ayarlanır. 10 dk aralıkla 10 Goombah çağırır, en çok 10 tanesi canlı; bir şey ödemezler ve bir şey düşürmezler. |
+| **Siege Construct** | Siege Construct | %100 ile %66 | 1 dk aralıkla 3 kez, her seferinde 8 meteor bırakır; her biri düştüğü yerin 420 birim çevresindeki her şeye {{guide:behaviour.ability:phases.meteors@Siege Construct}} vurur, bunların %50 kadarı sana nişanlıdır; her daire düşmeden 3 sn önce görünür. |
+|  | Rocket barrage | %66 ile %33 | 1 dk aralıkla 3 kez, her seferinde 8 meteor bırakır; her biri düştüğü yerin 420 birim çevresindeki her şeye {{guide:behaviour.ability:phases.meteors2@Siege Construct}} vurur, bunların %50 kadarı sana nişanlıdır; her daire düşmeden 3 sn önce görünür. Sana 6 adet Dormant Lance roketi atar, her biri {{guide:behaviour.ability:phases.rocketBarrage@Siege Construct}}, 0,5 sn arayla; yaylım ateşi 1 dk aralıkla tekrarlanır. |
+|  | Frenzy | %33 ile %0 | 30 sn aralıkla 3 kez, her seferinde 8 meteor bırakır; her biri düştüğü yerin 420 birim çevresindeki her şeye {{guide:behaviour.ability:phases.meteors3@Siege Construct}} vurur, bunların %50 kadarı sana nişanlıdır; her daire düşmeden 3 sn önce görünür. Sana 6 adet Dormant Lance roketi atar, her biri {{guide:behaviour.ability:phases.rocketBarrage2@Siege Construct}}, 0,5 sn arayla; yaylım ateşi 30 sn aralıkla tekrarlanır. |
+| **Omega Guardian** | Shield Fortress | %100 ile %66 | Kalkanı, patronun kendi kalkanının ×1,5 katına ayarlanır. 40 sn aralıkla 6 Bulwark çağırır, en çok 12 tanesi canlı; bir şey ödemezler ve bir şey düşürmezler. |
+|  | Swarm Protocol | %66 ile %33 | 25 sn aralıkla 12 Phantasm çağırır, en çok 24 tanesi canlı; bir şey ödemezler ve bir şey düşürmezler. 30 sn aralıkla {{guide:behaviour.ability:phases.ringBlast@Omega Guardian}} vuran bir patlama patronun 700 birim çevresindeki her şeye isabet eder; halka düşmeden 2 sn önce görünür. |
+|  | Overload | %33 ile %0 | Kalkanı, patronun kendi kalkanının ×0,1 katına ayarlanır. Tüm hasarı ×2,5. Fazda 2 dk geçince tüm hasarı bir ×2 daha olur. 25 sn aralıkla {{guide:behaviour.ability:phases.ringBlast2@Omega Guardian}} vuran bir patlama patronun 700 birim çevresindeki her şeye isabet eder; halka düşmeden 2 sn önce görünür. |
+| **Evil Davidski** | Evil Davidski | %100 ile %66 | Yalnızca ateş eder. |
+|  | Davidski attacks | %66 ile %33 | Sana 6 adet Dormant Lance roketi atar, her biri {{guide:behaviour.ability:phases.rocketBarrage@Evil Davidski}}, 0,5 sn arayla; yaylım ateşi 30 sn aralıkla tekrarlanır. 1 dk aralıkla 2 kez, her seferinde 8 meteor bırakır; her biri düştüğü yerin 400 birim çevresindeki her şeye {{guide:behaviour.ability:phases.meteors@Evil Davidski}} vurur, bunların %50 kadarı sana nişanlıdır; her daire düşmeden 3 sn önce görünür. 40 sn aralıkla 5 Evil Protos çağırır, en çok 10 tanesi canlı; bir şey ödemezler ve bir şey düşürmezler. |
+|  | Angry | %33 ile %0 | Kalkanı, patronun kendi kalkanının ×0,5 katına ayarlanır. Tüm hasarı ×1,5. Fazda 8 dk geçince tüm hasarı bir ×2 daha olur. Sana 6 adet Dormant Lance roketi atar, her biri {{guide:behaviour.ability:phases.rocketBarrage2@Evil Davidski}}, 0,4 sn arayla; yaylım ateşi 30 sn aralıkla tekrarlanır. 1 dk aralıkla 3 kez, her seferinde 8 meteor bırakır; her biri düştüğü yerin 420 birim çevresindeki her şeye {{guide:behaviour.ability:phases.meteors2@Evil Davidski}} vurur, bunların %50 kadarı sana nişanlıdır; her daire düşmeden 3 sn önce görünür. 45 sn aralıkla {{guide:behaviour.ability:phases.ringBlast@Evil Davidski}} vuran bir patlama patronun 700 birim çevresindeki her şeye isabet eder; halka düşmeden 2 sn önce görünür. 40 sn aralıkla 3 Evil Kitefin çağırır, en çok 6 tanesi canlı; bir şey ödemezler ve bir şey düşürmezler. |
 
 <!-- solo-bosses:end -->
 
@@ -203,27 +210,27 @@ Bir geçitte öldürdüğün her uzaylı, hangi dünyada uçarsan uç, Alpha’d
 
 | Uzaylı | Kredi | Thulium | XP | Onur |
 | :--- | ---: | ---: | ---: | ---: |
-| **Seeker** | 1.000 | 4 | 100 | 2 |
-| **Phantasm** | 3.000 | 12 | 300 | 6 |
-| **Bulwark** | 5.000 | 25 | 800 | 10 |
-| **Goombah** | 15.000 | 75 | 3.000 | 24 |
-| **Crystalys** | 75.000 | 200 | 12.000 | 52 |
-| **Boss Seeker** | 10.000 | 40 | 1.000 | 20 |
-| **Seeker Slave** | 125 | 1 | 12 | 1 |
-| **Boss Phantasm** | 39.000 | 195 | 7.800 | 62 |
-| **Phantasm Guard** | 125 | 1 | 12 | 1 |
-| **Boss Goombah** | 120.000 | 600 | 24.000 | 192 |
-| **Goombah Guard** | 125 | 1 | 12 | 1 |
-| **Boss Crystalys** | 393.750 | 1.050 | 63.000 | 273 |
-| **Crystalys Guard** | 125 | 1 | 12 | 1 |
-| **Evil Protos** | 4.250 | 17 | 725 | 6 |
-| **Evil Kitefin** | 12.850 | 53 | 2.175 | 18 |
-| **Evil Ostirion** | 34.350 | 141 | 5.800 | 48 |
-| **Evil Nomad** | 59.600 | 245 | 10.060 | 84 |
-| **Evil Paragon** | 68.700 | 283 | 11.600 | 97 |
-| **Evil Storm** | 96.600 | 398 | 16.315 | 136 |
-| **Evil Wraith** | 137.450 | 566 | 23.205 | 194 |
-| **Evil Ironclad** | 268.450 | 1.105 | 45.330 | 379 |
+| **Seeker** | {{guide:spoils.pay.credits@Seeker#1}} | {{guide:spoils.pay.thulium@Seeker#1}} | {{guide:spoils.pay.experience@Seeker#1}} | {{guide:spoils.pay.honor@Seeker#1}} |
+| **Phantasm** | {{guide:spoils.pay.credits@Phantasm#1}} | {{guide:spoils.pay.thulium@Phantasm#1}} | {{guide:spoils.pay.experience@Phantasm#1}} | {{guide:spoils.pay.honor@Phantasm#1}} |
+| **Bulwark** | {{guide:spoils.pay.credits@Bulwark#1}} | {{guide:spoils.pay.thulium@Bulwark#1}} | {{guide:spoils.pay.experience@Bulwark#1}} | {{guide:spoils.pay.honor@Bulwark#1}} |
+| **Goombah** | {{guide:spoils.pay.credits@Goombah#1}} | {{guide:spoils.pay.thulium@Goombah#1}} | {{guide:spoils.pay.experience@Goombah#1}} | {{guide:spoils.pay.honor@Goombah#1}} |
+| **Crystalys** | {{guide:spoils.pay.credits@Crystalys#1}} | {{guide:spoils.pay.thulium@Crystalys#1}} | {{guide:spoils.pay.experience@Crystalys#1}} | {{guide:spoils.pay.honor@Crystalys#1}} |
+| **Boss Seeker** | {{guide:spoils.pay.credits@Boss Seeker#1}} | {{guide:spoils.pay.thulium@Boss Seeker#1}} | {{guide:spoils.pay.experience@Boss Seeker#1}} | {{guide:spoils.pay.honor@Boss Seeker#1}} |
+| **Seeker Slave** | {{guide:spoils.pay.credits@Seeker Slave#1}} | {{guide:spoils.pay.thulium@Seeker Slave#1}} | {{guide:spoils.pay.experience@Seeker Slave#1}} | {{guide:spoils.pay.honor@Seeker Slave#1}} |
+| **Boss Phantasm** | {{guide:spoils.pay.credits@Boss Phantasm#1}} | {{guide:spoils.pay.thulium@Boss Phantasm#1}} | {{guide:spoils.pay.experience@Boss Phantasm#1}} | {{guide:spoils.pay.honor@Boss Phantasm#1}} |
+| **Phantasm Guard** | {{guide:spoils.pay.credits@Phantasm Guard#1}} | {{guide:spoils.pay.thulium@Phantasm Guard#1}} | {{guide:spoils.pay.experience@Phantasm Guard#1}} | {{guide:spoils.pay.honor@Phantasm Guard#1}} |
+| **Boss Goombah** | {{guide:spoils.pay.credits@Boss Goombah#1}} | {{guide:spoils.pay.thulium@Boss Goombah#1}} | {{guide:spoils.pay.experience@Boss Goombah#1}} | {{guide:spoils.pay.honor@Boss Goombah#1}} |
+| **Goombah Guard** | {{guide:spoils.pay.credits@Goombah Guard#1}} | {{guide:spoils.pay.thulium@Goombah Guard#1}} | {{guide:spoils.pay.experience@Goombah Guard#1}} | {{guide:spoils.pay.honor@Goombah Guard#1}} |
+| **Boss Crystalys** | {{guide:spoils.pay.credits@Boss Crystalys#1}} | {{guide:spoils.pay.thulium@Boss Crystalys#1}} | {{guide:spoils.pay.experience@Boss Crystalys#1}} | {{guide:spoils.pay.honor@Boss Crystalys#1}} |
+| **Crystalys Guard** | {{guide:spoils.pay.credits@Crystalys Guard#1}} | {{guide:spoils.pay.thulium@Crystalys Guard#1}} | {{guide:spoils.pay.experience@Crystalys Guard#1}} | {{guide:spoils.pay.honor@Crystalys Guard#1}} |
+| **Evil Protos** | {{guide:spoils.pay.credits@Evil Protos}} | {{guide:spoils.pay.thulium@Evil Protos}} | {{guide:spoils.pay.experience@Evil Protos}} | {{guide:spoils.pay.honor@Evil Protos}} |
+| **Evil Kitefin** | {{guide:spoils.pay.credits@Evil Kitefin}} | {{guide:spoils.pay.thulium@Evil Kitefin}} | {{guide:spoils.pay.experience@Evil Kitefin}} | {{guide:spoils.pay.honor@Evil Kitefin}} |
+| **Evil Ostirion** | {{guide:spoils.pay.credits@Evil Ostirion}} | {{guide:spoils.pay.thulium@Evil Ostirion}} | {{guide:spoils.pay.experience@Evil Ostirion}} | {{guide:spoils.pay.honor@Evil Ostirion}} |
+| **Evil Nomad** | {{guide:spoils.pay.credits@Evil Nomad}} | {{guide:spoils.pay.thulium@Evil Nomad}} | {{guide:spoils.pay.experience@Evil Nomad}} | {{guide:spoils.pay.honor@Evil Nomad}} |
+| **Evil Paragon** | {{guide:spoils.pay.credits@Evil Paragon}} | {{guide:spoils.pay.thulium@Evil Paragon}} | {{guide:spoils.pay.experience@Evil Paragon}} | {{guide:spoils.pay.honor@Evil Paragon}} |
+| **Evil Storm** | {{guide:spoils.pay.credits@Evil Storm}} | {{guide:spoils.pay.thulium@Evil Storm}} | {{guide:spoils.pay.experience@Evil Storm}} | {{guide:spoils.pay.honor@Evil Storm}} |
+| **Evil Wraith** | {{guide:spoils.pay.credits@Evil Wraith}} | {{guide:spoils.pay.thulium@Evil Wraith}} | {{guide:spoils.pay.experience@Evil Wraith}} | {{guide:spoils.pay.honor@Evil Wraith}} |
+| **Evil Ironclad** | {{guide:spoils.pay.credits@Evil Ironclad}} | {{guide:spoils.pay.thulium@Evil Ironclad}} | {{guide:spoils.pay.experience@Evil Ironclad}} | {{guide:spoils.pay.honor@Evil Ironclad}} |
 
 | Geçit | Kredi | Thulium | XP | Onur |
 | :--- | ---: | ---: | ---: | ---: |

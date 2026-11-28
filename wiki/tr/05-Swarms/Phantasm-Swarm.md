@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: abb582fd63389ab9 -->
+<!-- wiki-i18n source: 2eff9c368449da99 -->
 <!-- wiki-i18n title: Phantasm sürüsü -->
 # Phantasm sürüsü {#phantasm-swarm}
 
@@ -17,14 +17,14 @@ Phantasm sürüsü, bir **Boss Phantasm** ve **Phantasm Guard** gemilerinden olu
 - **Takipçiler şu mesafede kalır**: liderden en fazla 500 birim
 - **Onarım**: Liderin 600 birim yakınındaki her Phantasm Guard, liderin gövdesini Alpha dünyasında saniyede 30 HP onarır
 - **Lider yok edilince**: Takipçiler, saldırmıyorlarsa, lider yok edildikten 30 sn sonra ayrılır
-- **Geri gelir**: Lider yok edildikten 2 dk sonra, aynı sektörde
+- **Geri gelir**: Lider yok edildikten {{guide:vitals.respawn@Boss Phantasm#1;Boss Phantasm#2;Boss Phantasm#3}} sonra, aynı sektörde
 - **Duyuru**: Sektördeki pilotlara liderin ne zaman belirdiği ve ne zaman yok edildiği bildirilir. Bunlar Sistem satırlarıdır: sohbetin **Sistem** sekmesinde, okunmamış sayısıyla birlikte görünür; **Genel** ya da **Yerel** sekmesinde görünmez. Öldürme akışı, öldürmeyi alan pilotu adıyla gösterir.
 
 <!-- phantasm-glance:end -->
 
 ## Üyeler {#the-members}
 
-- **Boss Phantasm**: sürünün tonunda ve üzerinde adıyla görünen, daha büyük bir Phantasm; kendine ait gövdesi, kalkanı ve lazer yaylım ateşi vardır (değerler aşağıda). Pasiftir: bir pilot ona vurana kadar dolaşır, sonra o pilotun peşine düşüp ona ateş eder; sürüsünün yakındaki gemileri de savaşa katılır. Silahının menzili ve hızı bir Phantasm gemisininkiyle aynıdır ve gövdesini kendi kendine asla onarmaz.
+- **Boss Phantasm**: sürünün tonunda ve üzerinde adıyla görünen, daha büyük bir Phantasm; kendine ait gövdesi, kalkanı ve lazer yaylım ateşi vardır (değerler aşağıda). Pasiftir: bir pilot ona vurana kadar dolaşır, sonra o pilotun peşine düşüp ona ateş eder; sürüsünün yakındaki gemileri de savaşa katılır. Silahının menzili ve hızı bir Phantasm gemisininkiyle aynıdır ve gövdesini kendi kendine asla onarmaz. [Üç aşaması](#the-leaders-three-steps) ve bir [özel yetenek](/wiki/03-Mechanics/Special-Abilities.md) bunu değiştirebilir.
 - **Phantasm Guard**: sürünün tonunda daha küçük bir Phantasm. Guard gemileri patronun yakınında kalır, yakınlarındaki bir sürü gemisi vurulduğunda savaşa katılır ve patronun yakınındaki her biri onun gövdesini onarır. Bir Guard, bir Phantasm gibi, dinlendikten sonra kendi gövdesini onarır.
 
 ## Savaş nasıl geçer {#how-the-fight-goes}
@@ -34,6 +34,19 @@ Phantasm sürüsü, bir **Boss Phantasm** ve **Phantasm Guard** gemilerinden olu
 - **Beta ve Gamma daha zordur.** O dünyaların sürüleri daha güçlüdür ([Dünyalar](/wiki/05-Swarms/Swarms.md#the-worlds)); bu yüzden daha çok pilot ya da daha iyi cephane gerekir.
 - **Sektörü gözle.** `x-4` Alpha’da bir PvP sektörüdür; Beta ve Gamma’da ise `x-3` ve `x-4` öyledir ([Dünyalar](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)): bir rakip savaşa katılabilir ya da kutuyu bekleyebilir. Grubun bir gemisini gözcü olarak bırak.
 - **Patron geri gelir**: *Bir bakışta* listesindeki süreden sonra, tam güçte ve aynı sektörde; Guard gemileri de birbiri ardına gelir.
+
+## Liderin üç aşaması {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Bu savaşın üç aşaması vardır ([nasıl işlediği](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); her biri bir kez gerçekleşir.
+
+- **Başlangıçta**: Phantasm Guards her biri kendi gövdesinin %10 kadar bir kalkan katmanı kurar.
+- **Üçte ikinin altında**: Kopyalarından 3 tanesi belirir ve gerçeği bir halka taşır.
+- **Üçte birin altında**: Pilotlardan yaklaşık 2.500 birim uzağa ışınlanır ve Phantasm Guards sapasağlam etrafına döner.
+
+<!-- mob-ladder:end -->
 
 ## Ödüller ve ganimet {#rewards-and-drops}
 
@@ -52,29 +65,23 @@ Phantasm temel alınarak, gövdesinin %2.000 kadarıyla ve lazer hasarının %30
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Gövde | 40.000 | 60.000 | 80.000 |
-| Kalkan | 64.000 | 96.000 | 128.000 |
-| Lazer hasarı (saniyede bir salvo) | 1.050 | 1.575 | 2.100 |
-| Hız | 160 | 160 | 160 |
+| Gövde | {{guide:vitals.hull@Boss Phantasm#1}} | {{guide:vitals.hull@Boss Phantasm#2}} | {{guide:vitals.hull@Boss Phantasm#3}} |
+| Kalkan | {{guide:vitals.shield@Boss Phantasm#1}} | {{guide:vitals.shield@Boss Phantasm#2}} | {{guide:vitals.shield@Boss Phantasm#3}} |
+| Lazer hasarı (saniyede bir salvo) | {{guide:vitals.dps@Boss Phantasm#1}} | {{guide:vitals.dps@Boss Phantasm#2}} | {{guide:vitals.dps@Boss Phantasm#3}} |
+| Hız | {{guide:vitals.speed@Boss Phantasm#1}} | {{guide:vitals.speed@Boss Phantasm#2}} | {{guide:vitals.speed@Boss Phantasm#3}} |
 | Lazer menzili | 700 | 700 | 700 |
 | Aggro yarıçapı | yalnızca saldırıya uğrayınca | yalnızca saldırıya uğrayınca | yalnızca saldırıya uğrayınca |
-| Kredi | 39.000 | 78.000 | 117.000 |
-| Thulium | 195 | 390 | 585 |
-| Deneyim (XP) | 7.800 | 15.600 | 23.400 |
-| Onur | 62 | 124 | 186 |
+| Kredi | {{guide:spoils.pay.credits@Boss Phantasm#1}} | {{guide:spoils.pay.credits@Boss Phantasm#2}} | {{guide:spoils.pay.credits@Boss Phantasm#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Boss Phantasm#1}} | {{guide:spoils.pay.thulium@Boss Phantasm#2}} | {{guide:spoils.pay.thulium@Boss Phantasm#3}} |
+| Deneyim (XP) | {{guide:spoils.pay.experience@Boss Phantasm#1}} | {{guide:spoils.pay.experience@Boss Phantasm#2}} | {{guide:spoils.pay.experience@Boss Phantasm#3}} |
+| Onur | {{guide:spoils.pay.honor@Boss Phantasm#1}} | {{guide:spoils.pay.honor@Boss Phantasm#2}} | {{guide:spoils.pay.honor@Boss Phantasm#3}} |
 | Öldürme başına PvE puanı | 8 | 8 | 8 |
 
 **Ganimet**: tek bir kutu, en çok hasar veren pilota ait.
 
-| Eşya | Şans | Miktar |
-| :--- | ---: | ---: |
-| Ship Fragment | 13 çekilişin her birinde %100 | 1 |
-| Daraxium | 13 çekilişin her birinde %60 | 1–2 |
-| Nyxite | 13 çekilişin her birinde %60 | 1–2 |
-| Standard Battery | %100 | 600–1.200 |
-| Advanced Plasma | %100 | 60–100 |
-| Ultra Core | %100 | 10–20 |
-| Kredi ile satın alınan 4 [roket](/wiki/06-Items/Rockets.md) arasından rastgele biri | %100 | 4–6 |
+| Eşya |
+| :--- |
+| {{guide:spoils.box@Boss Phantasm#1;Boss Phantasm#2;Boss Phantasm#3}} |
 
 ### Phantasm Guard
 
@@ -82,17 +89,17 @@ Phantasm temel alınarak, gövdesinin, kalkanının ve hasarının %50 kadarıyl
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Gövde | 1.000 | 1.500 | 2.000 |
-| Kalkan | 1.600 | 2.400 | 3.200 |
-| Lazer hasarı (saniyede bir salvo) | 175 | 263 | 350 |
-| Hız | 160 | 160 | 160 |
+| Gövde | {{guide:vitals.hull@Phantasm Guard#1}} | {{guide:vitals.hull@Phantasm Guard#2}} | {{guide:vitals.hull@Phantasm Guard#3}} |
+| Kalkan | {{guide:vitals.shield@Phantasm Guard#1}} | {{guide:vitals.shield@Phantasm Guard#2}} | {{guide:vitals.shield@Phantasm Guard#3}} |
+| Lazer hasarı (saniyede bir salvo) | {{guide:vitals.dps@Phantasm Guard#1}} | {{guide:vitals.dps@Phantasm Guard#2}} | {{guide:vitals.dps@Phantasm Guard#3}} |
+| Hız | {{guide:vitals.speed@Phantasm Guard#1}} | {{guide:vitals.speed@Phantasm Guard#2}} | {{guide:vitals.speed@Phantasm Guard#3}} |
 | Lazer menzili | 700 | 700 | 700 |
 | Aggro yarıçapı | yalnızca saldırıya uğrayınca | yalnızca saldırıya uğrayınca | yalnızca saldırıya uğrayınca |
 | Lideri onarır (her biri, saniyede; yalnızca gövde) | 30 | 45 | 60 |
-| Kredi | 125 | 250 | 375 |
-| Thulium | 1 | 2 | 3 |
-| Deneyim (XP) | 12 | 24 | 36 |
-| Onur | 1 | 2 | 3 |
+| Kredi | {{guide:spoils.pay.credits@Phantasm Guard#1}} | {{guide:spoils.pay.credits@Phantasm Guard#2}} | {{guide:spoils.pay.credits@Phantasm Guard#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Phantasm Guard#1}} | {{guide:spoils.pay.thulium@Phantasm Guard#2}} | {{guide:spoils.pay.thulium@Phantasm Guard#3}} |
+| Deneyim (XP) | {{guide:spoils.pay.experience@Phantasm Guard#1}} | {{guide:spoils.pay.experience@Phantasm Guard#2}} | {{guide:spoils.pay.experience@Phantasm Guard#3}} |
+| Onur | {{guide:spoils.pay.honor@Phantasm Guard#1}} | {{guide:spoils.pay.honor@Phantasm Guard#2}} | {{guide:spoils.pay.honor@Phantasm Guard#3}} |
 | Öldürme başına PvE puanı | 1 | 1 | 1 |
 
 **Ganimet**: yok. Öldürme yalnızca kredi, Thulium, XP ve onur öder.

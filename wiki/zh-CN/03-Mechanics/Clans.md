@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e819db509b714a18 -->
+<!-- wiki-i18n source: 871bca2da0d6e0d7 -->
 <!-- wiki-i18n title: 战队 -->
 # 战队 {#clans}
 
@@ -77,11 +77,11 @@
 
 | 战队等级 | 成员上限 | 每日发放上限（每名成员） | 升级费用（信用点） |
 | :---: | :---: | :---: | :--- |
-| **1 级** | 15 | 1,000,000 信用点 | — |
-| **2 级** | 25 | 2,000,000 信用点 | 10,000,000 信用点 |
-| **3 级** | 50 | 3,000,000 信用点 | 100,000,000 信用点 |
-| **4 级** | 75 | 4,000,000 信用点 | 1,000,000,000 信用点 |
-| **5 级** | 100 | 5,000,000 信用点 | 10,000,000,000 信用点 |
+| **1 级** | 15 | 2,000,000 信用点 | — |
+| **2 级** | 25 | 4,000,000 信用点 | 10,000,000 信用点 |
+| **3 级** | 50 | 6,000,000 信用点 | 100,000,000 信用点 |
+| **4 级** | 75 | 8,000,000 信用点 | 1,000,000,000 信用点 |
+| **5 级** | 100 | 10,000,000 信用点 | 10,000,000,000 信用点 |
 
 ---
 
@@ -115,20 +115,20 @@
 ### 2. 捐献 {#2-donations}
 
 - **捐献**：任何成员都可以在战队页面向战队银行转入信用点。捐献窗口会显示你还能转入多少。
-- **捐献上限**：每名飞行员在任意 24 小时内最多可向战队转入 **1,000,000 信用点**，按其待过的所有战队合计。退出战队再加入另一个战队，不会得到新的额度。
+- **捐献上限**：每名飞行员在任意 24 小时内最多可向战队转入 **2,000,000 信用点**，按其待过的所有战队合计。退出战队再加入另一个战队，不会得到新的额度。
 - **没有每日重置**：这 24 小时是滚动的。每笔捐献在发出整整 24 小时后不再计入，窗口会告诉你最早的一笔何时到期、会有多少额度恢复。超出剩余额度的捐献会被整笔拒绝。
 - 每日税收不属于捐献，也不会占用你的额度。
 
 ### 3. 银行发放 {#3-bank-payouts}
 
 - **发放限制**：战队队长和军官可以从战队银行向单个成员发放信用点。
-- **每日上限**：一名成员在一个自然日（UTC）内领取的发放，不能超过 `1,000,000 * ClanLevel` 信用点。
+- **每日上限**：一名成员在一个自然日（UTC）内领取的发放，不能超过 `2,000,000 * ClanLevel` 信用点。
 
 ### 4. 每日奖金 {#4-daily-bonus}
 
 队长可以每天一次从战队金库向每位成员发放一笔固定的奖金。
 
-- **设置。**在管理的**每日奖金**卡片上，队长为每个职位输入一个金额：飞行员、元老、副队长和队长。**填 0 会关闭该职位**；其他金额在 **1,000 到 1,000,000 信用点**之间。副队长能看到这张卡片，但不能更改。保存不会从金库里扣任何东西。卡片会显示如果所有飞行员都上线，一整天要花多少，以及金库够支撑几天。
+- **设置。**在管理的**每日奖金**卡片上，队长为每个职位输入一个金额：飞行员、元老、副队长和队长。**填 0 会关闭该职位**；其他金额在 **1,000 到 2,000,000 信用点**之间。副队长能看到这张卡片，但不能更改。保存不会从金库里扣任何东西。卡片会显示如果所有飞行员都上线，一整天要花多少，以及金库够支撑几天。
 - **发放。**成员**每天发放一次**，在他当天的第一次检查时：他连接时、他在线期间日期更替时，以及队长保存新金额时。这一天是战队战线的一天，在 **UTC 00:00:00** 切换（[一天](#the-day)）。飞行员会收到一行系统消息和一行游戏日志，概览会显示“每日奖金：X 信用点”以及今天是否已发放。
 - **谁能领。**在战队里待了**至少 24 小时**的飞行员，并且**所有战队合计，每名飞行员每天一份奖金**：在不同战队之间来回加入、想多领的人只会领到一次。
 - **金库不够时。**金库只发它有的钱，也绝不会降到零以下。当它付不出某位成员的金额时，他当天会被跳过，即使金库当天晚些时候补满也一样，[战队日志](#fleet-log)会记下一次。飞行员按连接的先后顺序领取，直到金库用尽。
@@ -246,7 +246,7 @@
 ### 谁会被计入 {#who-counts}
 
 - **计入的是战队的总数。**行动标签页上的进度条是整个战队的。
-- **你的最低要求。**想分享当天的奖励，你必须完成**当天工作量的 5%**，大约八分钟的实际狩猎。标签页会把它显示为“你今天的工作量：312 / 469 单位”。一个工作单位相当于一秒钟的游戏时间：一次击杀按找到并消灭那个外星人所需的时间计算，一段飞行按飞完它所需的时间计算。对老兵战队来说，一只 Seeker 约值 12 单位，Phantasm 22，Bulwark 123，飞行 1,000 单位约值 5；最低要求是 446 到 480 单位，不论哪一天、哪个档次。
+- **你的最低要求。**想分享当天的奖励，你必须完成**当天工作量的 5%**，大约八分钟的实际狩猎。标签页会把它显示为“你今天的工作量：312 / 469 单位”。一个工作单位相当于一秒钟的游戏时间：一次击杀按找到并消灭那个外星人所需的时间计算，一段飞行按飞完它所需的时间计算。对老兵战队来说，一只 Seeker 约值 12 单位，Phantasm 22，Bulwark 123，飞行 1,000 单位约值 5；最低要求是 454 到 486 单位，不论哪一天、哪个档次。
 - 在一个步骤能完成之前，**至少三名成员**必须达到各自的最低要求。如果一个步骤已满而达标的人不够，它就会**等待**（“第 3 步已满，但只有 2 名成员达到最低要求”），而该步骤外星人的击杀仍会继续计入击杀者的工作量，直到第三个人达标。不足三名飞行员的战队无法完成任何步骤。
 - **一次击杀算给谁。**算给获得该击杀报酬的飞行员，以及 8,000 单位以内、在最近 15 秒内开过火的小队队友（[小队](/wiki/03-Mechanics/Groups.md#sharing-kills)）。无论小队里有多少战队成员，战队只把一次击杀计**一次**，这次击杀的工作量在他们之间平分。一个小队里的两个战队各计一次。
 - **哪些击杀。**只有当前步骤的外星人：普通的 Seeker、Phantasm、Bulwark 或 Goombah。虫群的飞船、其他飞行员和守卫的帮手，都不算这些外星人。一次击杀算入它发生的那个世界，更强的世界里算得更多：**Alpha 为 1，Beta 为 1.5，Gamma 为 2**（[世界](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)）。Boss 步骤计算[虫群](/wiki/05-Swarms/Swarms.md)的 Boss，每个有飞行员造成了至少 5% 伤害的战队计一个。
@@ -290,7 +290,7 @@
 | :--- | :--- | :--- | :--- |
 | **Brood Warden** | 1, 4, 7, 10 … | 巢穴守卫：分散火力 | 它飞向第一个击中它的飞行员。四架小型 **Brood Drone** 为它的船体回血，只要存活的少于四架，每 8 秒就会补充一架（Brood Warden III 为每 16 秒）。先打无人机，再打守卫。 |
 | **Siege Warden** | 2, 5, 8, 11 … | 破城者：保持移动 | 它飞向第一个击中它的飞行员，向他发射直线飞行的[铆钉火箭](/wiki/06-Items/Rockets.md#the-twelve-rockets)，并会自我修复。两架 **Siege Escort** 增加激光火力。保持移动，轮流当目标。 |
-| **Wrath Warden** | 3, 6, 9, 12 … | 战争领主：压制暴怒 | 它飞向第一个击中它的飞行员，在激光射程内停下，并会自我修复。船体低于一半时，激光威力提高**一半**。两个 **Wrath Guard** 留在它身边，加上激光火力。尽快击倒它，并保持护盾不倒。 |
+| **Wrath Warden** | 3, 6, 9, 12 … | 战争领主：压制暴怒 | 它飞向第一个击中它的飞行员，在激光射程内停下，并会自我修复。船体低于三分之二时，激光威力提高**四分之一**；低于三分之一时，提高**一半**。两个 **Wrath Guard** 留在它身边，加上激光火力。尽快击倒它，并保持护盾不倒。 |
 
 ### 召唤守卫 {#calling-a-warden}
 
@@ -298,19 +298,34 @@
 - **谁。**队长或副队长。
 - **如何。**在飞行中进行：步骤 4 一完成，飞行画面上就会出现**在此召唤**按钮，并要求你确认。你要在安全区之外，处于你所在世界中某个企业的 **x-2、x-3 或 x-4** 星区（任何企业的都行）。行动标签页（在空间站是战队页面，在飞行中是战队窗口）会显示当天的守卫、剩余的召唤次数，以及按钮变灰的原因。在空间站里它始终是灰的，因为守卫要从飞船上召唤；在战队窗口里它就是真正的按钮，在安全区内和企业的 x-2 至 x-4 星区之外会变灰，并给出服务器的原因。
 - **它出现在哪里。**距你的飞船 3,000 到 4,500 单位，在你的世界里：只有该世界的飞行员能够到它。标签页推荐**新兵战队用 x-2，老兵用 x-3，精英用 x-4**。你所选星区通常的 [PvP 规则](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)依然有效。
-- **预热。**它会有 **90 秒**处于护盾保护的被动状态（“启动中”），每位在线的战队飞行员都会被告知地点。趁它启动时飞过去：90 秒一到，它就启动了。飞行画面上安全区标识下方的胶囊会跟踪它：显示它的名称、“启动中”及剩余时间，然后是“已启动”及其星区和撤退前的剩余时间，Wrath Warden 船体低于一半时则显示“暴怒”。
+- **预热。**它会有 **90 秒**处于护盾保护的被动状态（“启动中”），每位在线的战队飞行员都会被告知地点。趁它启动时飞过去：90 秒一到，它就启动了。飞行画面上安全区标识下方的胶囊会跟踪它：显示它的名称、“启动中”及剩余时间，然后是“已启动”及其星区和撤退前的剩余时间，Wrath Warden 船体低于三分之一时则显示“暴怒”。
 - **只有你的战队。**其他战队飞行员的射击会被忽略，也不会让它还击。
 - **如何结束。**被击毁时。它会在启动 40 分钟后、当天结束时、你战队没有任何飞行员在它所在地图上飞行达 2 分钟时，或服务器重启时（这次召唤会退还）**撤退**。撤退的守卫会消耗一次召唤，下一次召唤会按当时在场的机组让它回来（[机组如何改变守卫](#strength-by-the-crew)）。
 
 ### 对付守卫 {#fighting-a-warden}
 
 - **守卫会与第一个击中它的飞行员交战**，和任何 Boss 一样：让机组中最结实的飞船先动手，并使用 [Shield Surge 和 Emergency Repair](/wiki/03-Mechanics/Abilities.md)。
-- **带上你能凑出的最大机组，并带上 x2 弹药**（[激光](/wiki/06-Items/Lasers.md#laser-ammunition)）。0.4.13 之前能获胜的机组（大约七名飞行员）现在会输。下面的表格是计算结果，也是最好情况：即使在这种情况下，十名飞行员也会输给任何一个守卫，能获胜的最小机组用 x2 弹药有 15 到 25 名飞行员，用 x1 弹药则要 23 到 38 名。下面的波次不在这个计算之内。下面的表格针对的是完整强度的守卫：机组再小，面对的船体和护盾也一样，但守卫造成的伤害、回复量和召来的外星人会变少（[机组如何改变守卫](#strength-by-the-crew)）。
+- **带上你能凑出的最大机组，并带上 x2 弹药**（[激光](/wiki/06-Items/Lasers.md#laser-ammunition)）。0.4.13 之前能获胜的机组（大约七名飞行员）现在会输。下面的表格是计算结果，也是最好情况：即使在这种情况下，十名飞行员也会输给任何一个守卫，能获胜的最小机组用 x2 弹药有 15 到 25 名飞行员，用 x1 弹药则要 24 到 37 名。下面的波次不在这个计算之内。下面的表格针对的是完整强度的守卫：机组再小，面对的船体和护盾也一样，但守卫造成的伤害、回复量和召来的外星人会变少（[机组如何改变守卫](#strength-by-the-crew)）。
 - **Brood：**无人机会为它的船体回血，无视它们的机组大约需要多出三分之一的飞行员。先打它们，并且一直打：新的一架 8 秒后到（Brood Warden III 是 16 秒）。 从 0.4.22 起，Brood Warden 会飞向击中它的飞行员，它的无人机跟着它，并继续为它回血。
 - **Siege：**它的火箭是直线飞行、不制导的，所以保持移动的飞船能躲开大部分。保持移动，轮流当目标。 从 0.4.22 起，它不再四处游荡：它飞向第一个击中它的飞行员，并从最远 1,000 单位处向他发射铆钉火箭。
-- **Wrath：**一旦它的船体低于一半，每一轮齐射的威力都会提高一半，所以战斗的后半段才是危险的。快速打掉前半段，保持护盾不倒，并把 Emergency Repair 留给暴怒阶段。从 0.4.20 起它不再原地不动：它以每秒 90 单位的速度飞向第一个击中它的飞行员，直到进入自己的激光射程（按强度为 700、800 或 900 单位）并从那里开火，所以射程更远的武器不能再白白打它。
+- **Wrath：**一旦它的船体低于三分之二，每一轮齐射的威力就会提高四分之一；低于三分之一时提高一半，所以战斗的最后三分之一才是危险的。快速打掉前三分之二，保持护盾不倒，并把 Emergency Repair 留给暴怒阶段。从 0.4.20 起它不再原地不动：它以每秒 90 单位的速度飞向第一个击中它的飞行员，直到进入自己的激光射程（按强度为 700、800 或 900 单位）并从那里开火，所以射程更远的武器不能再白白打它。
 - **九个守卫都会飞向击中它们的飞行员（0.4.22）。**Brood 和 Siege Warden 做 Wrath Warden 从 0.4.20 起做的事，各用各自的速度（Brood 和 Wrath Warden 每秒 90 单位，Siege Warden 为 110），直到进入自己的激光射程（Brood 和 Siege Warden 按强度为 600、700 或 800 单位，Wrath Warden 为 700、800 或 900 单位），所以射程更远的武器不能再白白打它们。10 秒内没有人击中它，它就放开那名飞行员，停在原地：不会飞回被召唤的地方。受保护的飞行员（在安全区内，或在重生保护期内）会被它立刻放开。
 - **守卫带来的东西会冲向击中守卫的飞行员。**从 0.4.20 起，每一波的每个外星人，以及在守卫被攻击期间出现的每个无人机、护卫或守卫，在出现的那一刻就冲向击中守卫的飞行员，先冲向第一个，不需要自己先被击中。
+
+### 三个阶段 {#the-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Warden 同样有三个阶段（[运作方式](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)），任何强度下都一样。
+
+| Warden | 开始时 | 低于三分之二时 | 低于三分之一时 |
+| :--- | :--- | :--- | :--- |
+| **Brood Warden** (I, II, III) | 全部 4 架无人机同时来到它身边。 | 它的无人机在 15 秒 内以 ×1.5 的速度为它修复。 | 在通常数量之外，再来 2 架无人机，持续 30 秒。它们不支付奖励。 |
+| **Siege Warden** (I, II, III) | – | 在 20 秒 内以 ×2 的频率发射火箭。 | 恢复船体和护盾的 15%（一次伤害爆发会打断它）。 |
+| **Wrath Warden** (I, II, III) | – | 它的激光威力为 ×1.25。 | 它的激光威力合计为 ×1.5，不是叠加在前一阶段之上。 |
+
+<!-- mob-ladder:end -->
 
 ### 外星人波次 {#waves-of-aliens}
 
@@ -322,34 +337,34 @@
 | x-3 | 5 只 Phantasm、3 只 Bulwark 和 2 只 Goombah | 30，另外最多 3 个 Crystalys |
 | x-4 | 5 只 Phantasm、3 只 Bulwark 和 2 只 Goombah | 30，另外最多 3 个 Crystalys |
 
-- **Warden I 不呼叫 Goombah。**新兵档次战队（平均等级低于 4）的守卫只派 Phantasm 和 Bulwark，每 3 个 Phantasm 配 1 个 Bulwark，每一波的大小不变：**x-2 上 4 个 Phantasm 和 1 个 Bulwark，x-3 和 x-4 上 8 个 Phantasm 和 2 个 Bulwark**。整整一波在 Alpha 里 x-2 付 17,000 信用点，x-3 和 x-4 付 34,000，带上它的 Crystalys 则是 92,000 和 109,000；同时存活的最大数量与表中一致。
+- **Warden I 不呼叫 Goombah。**新兵档次战队（平均等级低于 4）的守卫只派 Phantasm 和 Bulwark，每 3 个 Phantasm 配 1 个 Bulwark，每一波的大小不变：**x-2 上 4 个 Phantasm 和 1 个 Bulwark，x-3 和 x-4 上 8 个 Phantasm 和 2 个 Bulwark**。同时存活的最大数量与表中一致。
 - **最多同时有三波存活。**只要一波里还有一只外星人活着，这一波就算存活。三波都活着时到点的一波会被跳过，不会留到以后；下一波在一分钟后。
 - **它们是普通外星人**，按地图生成外星人的方式生成：更强的世界会让它们有更多船体、护盾和伤害（[世界](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)），与守卫自身的强度无关。Bulwark 和 Goombah 会去每一张地图，包括原本没有它们的 x-2 区域。它们出现在距守卫 500 到 1,200 单位的地方，散布在它周围。
-- **它们不属于对守卫的战斗。**它们不回血，打它们也不会增加你在对守卫伤害中的份额。地图上的任何飞行员都可以击杀它们。每只按它那种外星人在你所在世界的通常报酬支付，并带来 PvE 积分：表中的一整波在 Alpha 里 x-2（5 只外星人）付 29,000 信用点，x-3 和 x-4（10 只外星人）付 60,000，Warden I 的一波付 17,000 和 34,000，都不到它自己守卫所付报酬的 2%。
+- **它们不属于对守卫的战斗。**它们不回血，打它们也不会增加你在对守卫伤害中的份额。地图上的任何飞行员都可以击杀它们。每只按它那种外星人在你所在世界的通常报酬支付，并带来 PvE 积分：一整波的报酬都不到它自己守卫所付报酬的 2%。
 - **它们随守卫一起停止。**守卫被击毁或撤退后，不再有新的波次；已经出来的外星人不论种类、不论是否正在交战，都会在**20 秒后离开地图**：请在这段时间内解决它们，或把它们引开。（0.5.6 之前它们会留五分钟甚至更久，后来的飞行员会撞上它们。）它们是悄悄离开的，不算击杀，也没有奖励。服务器重启也会让它们随守卫一起结束。
 - **战队会得到通知。**每一波都会在聊天的系统标签页和游戏日志里公布，波里每种外星人各一行：“Brood Warden II 在 M-3 呼叫了增援：5 个 Phantasm。”“Brood Warden II 在 M-3 呼叫了增援：3 个 Bulwark。”“Brood Warden II 在 M-3 呼叫了增援：2 个 Goombah。”（Warden I 没有 Goombah，所以只通报两行）
 - **它们是有目标地到来的（0.4.20）。**每一波的外星人出现时就知道守卫在和谁交战：从出现的那一刻起冲向击中守卫的飞行员，先冲向第一个，并在守卫被击中期间一直追着他们。没有人与之交战的守卫，派出的是四处游荡的外星人：Phantasm 和 Bulwark 会被靠近者吸引，和以前一样；而 Goombah 从不主动开战，会一直游荡，直到有人向它开火。
 
 #### 每个守卫的 Crystalys {#crystalys-waves}
 
-从 0.4.22 起，**每个守卫**都做 Wrath Warden III 从 0.4.20 起做的事：船体低于一半时（Wrath Warden 狂暴的那条线），**它派出的每一波还多带一个 Crystalys**，在这一波的规模之外。Brood、Siege 和 Wrath Warden 都一样，三种强度都一样。船体高于一半时，这一波不带它；被修复到一半以上的守卫，下一波又不带它。
+从 0.4.22 起，**每个守卫**都做 Wrath Warden III 从 0.4.20 起做的事：船体低于一半时，**它派出的每一波还多带一个 Crystalys**，在这一波的规模之外。Brood、Siege 和 Wrath Warden 都一样，三种强度都一样。船体高于一半时，这一波不带它；被修复到一半以上的守卫，下一波又不带它。
 
-- **Crystalys** 是游戏里最重的普通外星人：船体 256,000，护盾 160,000，从 900 单位射出每轮齐射 10,000 伤害，速度 230（在更强的世界里船体、护盾和伤害更高）。它支付任何 Crystalys 所支付的：**在 Alpha 为 75,000 信用点、200 Thulium、12,000 XP 和 52 荣誉**（Beta 为两倍，Gamma 为三倍），并掉落它的普通战利品。 它是自己那一波的一部分：只要它活着，那一波就算存活，所以一个留着没打的 Crystalys 会让其中一波一直存活（最多三波，Wrath Warden III 为四波）；在最多波次都存活时到期的一波会被跳过。
+- **Crystalys** 是游戏里最重的普通外星人：船体 {{guide:vitals.hull@Crystalys#1}}，护盾 {{guide:vitals.shield@Crystalys#1}}，从 900 单位射出每轮齐射 {{guide:vitals.dps@Crystalys#1}} 伤害，速度 {{guide:vitals.speed@Crystalys#1;Crystalys#2;Crystalys#3;Crystalys#4}}（在更强的世界里船体、护盾和伤害更高）。它支付任何 Crystalys 所支付的：**在 Alpha 为 {{guide:spoils.pay.credits@Crystalys#1}} 信用点、{{guide:spoils.pay.thulium@Crystalys#1}} Thulium、{{guide:spoils.pay.experience@Crystalys#1}} XP 和 {{guide:spoils.pay.honor@Crystalys#1}} 荣誉**（Beta 为两倍，Gamma 为三倍），并掉落它的普通战利品。 它是自己那一波的一部分：只要它活着，那一波就算存活，所以一个留着没打的 Crystalys 会让其中一波一直存活（最多三波，Wrath Warden III 为四波）；在最多波次都存活时到期的一波会被跳过。
 - **它单独占一行公布**，排在混编各行之后：“Wrath Warden III 在 M-3 呼叫了增援：7 个 Phantasm。”“…：4 个 Bulwark。”“…：4 个 Goombah。”和“Wrath Warden III 在 M-3 呼叫了增援：1 个 Crystalys。”
-- **报酬。**一整波 10 个外星人在 Alpha 里，Warden I 付 34,000 信用点，Warden II 付 60,000，带上它的 Crystalys 分别是 109,000 和 135,000：约为 Warden I 所付 2,700,000 的 4%，不到 Warden II 所付 3,600,000 的 4%，Warden III 则更少。
-- **它们对机组的要求。**[需要多大的机组](#how-big-a-crew)里的计算，把波次和它们的 Crystalys 算进去，下面是用 x2 弹药、装备为守卫自身档次的最小机组，按 Alpha 计。3 级战队可容纳 50 名成员，5 级战队可容纳 100 名。从 0.5.0 起，混编里的 Bulwark 和 Goombah 让波次重了一些，但 Warden I 不呼叫 Goombah，所以 3 级战队的容量足够应付每张地图上的每个守卫。和那里的表一样，这些是计算而不是实测，而且是最好的情况；在波次外星人强一倍的 Gamma 中，数字还要更大，而在 x-3 和 x-4 上，3 级战队对某些守卫人数不够。
+- **报酬。**一整波 10 个外星人连同它的 Crystalys，约为 Warden I 所付报酬的 4%，不到 Warden II 所付报酬的 4%，Warden III 则更少。
+- **它们对机组的要求。**[需要多大的机组](#how-big-a-crew)里的计算，把波次和它们的 Crystalys 算进去，下面是用 x2 弹药、装备为守卫自身档次的最小机组，按 Alpha 计。3 级战队可容纳 50 名成员，4 级战队可容纳 75 名，5 级战队可容纳 100 名。从 0.5.0 起，混编里的 Bulwark 和 Goombah 让波次重了一些，Warden I 虽然不呼叫 Goombah，但 Brood Warden I（57 名）和 Siege Warden I（52 名）在 x-3 和 x-4 上要求的人数超过 3 级战队的容量：其余每个守卫在每张地图上都装得进 3 级战队，而 4 级战队的容量足够应付所有守卫。和那里的表一样，这些是计算而不是实测，而且是最好的情况；在波次外星人强一倍的 Gamma 中，数字还要更大，而在每张地图上，3 级战队对某些守卫人数不够。
 
 | 守卫 | x-2 | x-3 | x-4 |
 | :--- | ---: | ---: | ---: |
-| Brood Warden I | 41 | 44 | 44 |
-| Siege Warden I | 37 | 40 | 40 |
-| Wrath Warden I | 42 | 45 | 45 |
-| Brood Warden II | 39 | 44 | 44 |
-| Siege Warden II | 31 | 35 | 35 |
-| Wrath Warden II | 35 | 40 | 40 |
-| Brood Warden III | 21 | 22 | 22 |
-| Siege Warden III | 26 | 27 | 27 |
-| Wrath Warden III | 34 | 39 | 39 |
+| Brood Warden I | 41 | 57 | 57 |
+| Siege Warden I | 46 | 52 | 52 |
+| Wrath Warden I | 42 | 44 | 44 |
+| Brood Warden II | 38 | 43 | 43 |
+| Siege Warden II | 33 | 40 | 40 |
+| Wrath Warden II | 35 | 39 | 39 |
+| Brood Warden III | 21 | 23 | 23 |
+| Siege Warden III | 26 | 28 | 28 |
+| Wrath Warden III | 34 | 38 | 38 |
 
 #### Wrath Warden III 的波次 {#wrath-iii-waves}
 
@@ -362,30 +377,30 @@
 | x-4 | 7 只 Phantasm、4 只 Bulwark 和 4 只 Goombah | 60，另外最多 4 个 Crystalys |
 
 - **最多存活四波。**在四波存活时到期的一波会被跳过，和其他守卫一样。
-- **报酬。**一整波 15 个外星人在 Alpha 支付 101,000 信用点，带上它的 Crystalys 是 176,000：约为守卫自身所付 7,200,000 的 2%。
-- **它们对机组的要求。**[需要多大的机组](#how-big-a-crew)里的计算，把这些波次和 Crystalys 算进去，用 x2 弹药需要 **x-2 为 34 名、x-3 为 39 名、x-4 为 39 名**飞行员（没有波次时为 25 名）；在波次外星人强一倍的 Gamma 中是 45、51 和 51 名。3 级战队可容纳 50 名成员，所以在 Gamma 的 x-3 和 x-4 上它派不出足够的人；5 级战队可容纳 100 名。和那里的表一样，这是计算而不是实测，而且是最好的情况。
+- **报酬。**一整波 15 个外星人连同它的 Crystalys，约为守卫自身所付报酬的 2%。
+- **它们对机组的要求。**[需要多大的机组](#how-big-a-crew)里的计算，把这些波次和 Crystalys 算进去，用 x2 弹药需要 **x-2 为 34 名、x-3 为 38 名、x-4 为 38 名**飞行员（没有波次时为 25 名）；在波次外星人强一倍的 Gamma 中是 44、50 和 50 名。3 级战队可容纳 50 名成员，在每张地图上都够用，在 Gamma 中也一样，只是在 x-3 和 x-4 上刚好够；5 级战队可容纳 100 名。和那里的表一样，这是计算而不是实测，而且是最好的情况。
 
 ### 机组如何改变守卫 {#strength-by-the-crew}
 
 从 0.5.7 起，守卫**会根据它进入战斗状态时在场的机组来调整**。它 90 秒的预热结束时，游戏会统计你的战队中**在守卫所在地图上、位于安全区之外飞行**的飞行员：其他战队的飞行员、在安全区内的飞行员和在其他地图上的飞行员都不计入。守卫随后**整场战斗**都以其表格为这个人数给出的强度比例作战：后来的人改变不了什么，所以请在预热期间集合。**它的船体和护盾从不缩放**（自 0.5.10 起）：不管机组多大，守卫及其帮手都拥有下面表格列出的完整船体和护盾，3 名飞行员面对的和满员战队面对的一样。其余部分会一起缩放：守卫及其帮手的激光伤害、护盾充能、回复量、Siege Warden 的火箭，以及每个[波次](#waves-of-aliens)来的外星人数量，其中包括 Crystalys，它只在强度达到一半以上时才出现。奖励、战利品和所有时间都保持不变。
 
-表格里的系数是在 0.5.7 中，用与[需要多大的机组](#how-big-a-crew)相同的战斗、针对守卫自身档次的机组，并且按船体和护盾也会缩放的前提计算的：在场 5 名飞行员的战队，面对的是在计算中少五分之一人数就能打赢的守卫，因为计算是最好情况，真实战斗更难。现在船体和护盾保持完整，小机组要打倒的东西比那次计算预计的更多，所以请尽量多带飞行员。**5 名飞行员**的战队面对的守卫，其伤害、回复量和波次是完整数值的 **12% 到 23%**，**8 名飞行员**的战队面对 **16% 到 29%**的守卫，而完整数值要到 **28 到 72 名飞行员**才出现，视守卫而定；在这之间，数值沿直线从表格的一级升到下一级，不足 3 名飞行员的战队面对的和 3 名相同。守卫进入战斗状态时，你的战队会在聊天中读到一行：“在场人数：5。Brood Warden II 的船体和护盾保持完整。它的伤害、回复量和增援为 16%。”
+表格里的系数是在 0.5.7 中，用与[需要多大的机组](#how-big-a-crew)相同的战斗、针对守卫自身档次的机组，并且按船体和护盾也会缩放的前提计算的：在场 5 名飞行员的战队，面对的是在计算中少五分之一人数就能打赢的守卫，因为计算是最好情况，真实战斗更难。现在船体和护盾保持完整，小机组要打倒的东西比那次计算预计的更多，所以请尽量多带飞行员。**5 名飞行员**的战队面对的守卫，其伤害、回复量和波次是完整数值的 **12% 到 23%**，**8 名飞行员**的战队面对 **17% 到 29%**的守卫，而完整数值要到 **29 到 72 名飞行员**才出现，视守卫而定；在这之间，数值沿直线从表格的一级升到下一级，不足 3 名飞行员的战队面对的和 3 名相同。守卫进入战斗状态时，你的战队会在聊天中读到一行：“在场人数：5。Brood Warden II 的船体和护盾保持完整。它的伤害、回复量和增援为 16%。” 从 0.5.12 起，系数重新计算，战斗里加入了守卫在船体三分之二和三分之一时的新动作，所以略有变化，变化最大的是 Siege Warden。
 
 ### 需要多大的机组 {#how-big-a-crew}
 
 > [!NOTE]
 > 从 0.4.13 起，每个守卫和每个帮手的船体、护盾、激光伤害、自我修复和治疗都是 0.4.12 的**五倍**（速度、射程和帮手的数量不变）；从 0.4.16 起，Brood Warden III 的船体和护盾只有其中的一半，它的无人机的治疗也只有一半。击败它要花五倍的时间，而它在这段时间里一直以五倍的力度攻击，所以以前能获胜的机组现在会输。**我们还没有在游戏中和新的守卫交过手，下面的时间是计算出来的，不是测得的。**它们是机组的**最好情况**：机组使用该档次所设计的飞船和装备，每名飞行员的 Shield Surge 和 Emergency Repair 一就绪就使用，机组在更有利时先打守卫的帮手，守卫和它的帮手全都攻击最先开火的那名飞行员，而且没有人闪避。在 0.4.12 里，同样的计算比我们在游戏中用脚本驾驶的飞行员打出的战斗更乐观，所以真实的战斗可能比表格更难，而一支优秀的机组也可能做得更好：把它当作参考，而不是保证。**外星人波次不在计算之内**，所以真实的战斗比表格更难。
 
-表格是最好情况；实战中，尽量把能带的人都带上。
+表格是最好情况；实战中，尽量把能带的人都带上。 从 0.5.12 起，计算也算入了守卫在船体三分之二和三分之一时的新动作。
 
 | 机组 | 使用 x2 弹药 | 使用 x1 弹药 |
 | :--- | :--- | :--- |
-| 5 名飞行员 | 输给所有守卫；守卫保留 84 到 96% 的船体和护盾 | 失败 |
-| 10 名飞行员 | 输给所有守卫；守卫保留 55 到 84% 的船体和护盾 | 失败 |
-| 20 名飞行员 | 只能击败 Siege Warden I 和 II，6.2 到 6.4 分钟，损失 4 到 5 艘船；以及击败 Brood Warden III，3.5 分钟，损失 8 艘船 | 失败 |
-| 30 名飞行员 | 击败所有守卫，1.9 到 4.9 分钟，损失 2 到 10 艘船 | 只能击败 Siege Warden I 和 II，8.8 到 9.2 分钟，损失 6 到 8 艘船；以及击败 Brood Warden III，4.8 分钟，损失 11 艘船 |
+| 5 名飞行员 | 输给所有守卫 | 失败 |
+| 10 名飞行员 | 输给所有守卫 | 失败 |
+| 20 名飞行员 | 只能击败 Siege Warden I 和 II，7.1 到 7.4 分钟，损失 4 到 6 艘船；击败 Brood Warden III，3.5 分钟，损失 8 艘船；以及击败 Wrath Warden II，10.1 分钟，损失 14 艘船 | 失败 |
+| 30 名飞行员 | 击败所有守卫，2.0 到 4.7 分钟，损失 2 到 10 艘船 | 只能击败 Siege Warden I 和 II，10.1 到 10.6 分钟，损失 6 到 9 艘船；以及击败 Brood Warden III，4.8 分钟，损失 11 艘船 |
 
-在计算中，用 x2 弹药获胜的最小机组有 **15 到 25 名飞行员**（对 Siege Warden I 和 II 最少），这样做要损失 **7 到 18** 艘船；用 x1 弹药则有 **23 到 38 名**飞行员，损失 11 到 25 艘。守卫的激光在强度 I 时每次齐射打出几百（240 到 645），在强度 III 时打出几千（9,225 到 15,450），它的帮手还会叠加：它所对战的那艘船会在 18 到 70 秒内被击毁，然后它转向下一艘，所以即使获胜的机组也会损失很多船。
+在计算中，用 x2 弹药获胜的最小机组有 **15 到 25 名飞行员**（对 Siege Warden II 最少），这样做要损失 **10 到 16** 艘船；用 x1 弹药则有 **24 到 37 名**飞行员，损失 12 到 24 艘。守卫的激光在强度 I 时每次齐射打出几百，在强度 III 时打出几千，它的帮手还会叠加：它所对战的那艘船会在 18 到 70 秒内被击毁，然后它转向下一艘，所以即使获胜的机组也会损失很多船。
 
 表格针对的是装备与守卫自身档次相符的机组。更弱的飞船表现更差。**你的**战队的守卫永远与**你的**档次相符，而这个档次由战队最强的五名飞行员决定，所以带上他们。
 
@@ -393,31 +408,31 @@
 
 ### 守卫的数值 {#warden-numbers}
 
-守卫在每个世界里的数值都相同（Alpha 的数值），它们的报酬也一样。每架无人机、护卫或卫兵都有第二张表里的数值，它们会待在守卫身边：Brood Drone 为守卫的船体回血，Siege Escort 和 Wrath Guard 用激光射击。一轮齐射是一艘船所有激光在一秒内的射击，在表中数值的 80% 到 100% 之间随机；船体低于一半的 Wrath Warden 攻击力是平时的一倍半。守卫和它的帮手全都攻击守卫正在对战的那名飞行员，所以它们的齐射会叠加：一个 Brood Warden III 加上它的四架无人机，每秒最多能向一艘船倾泻 21,750。Siege Warden 的[铆钉火箭](/wiki/06-Items/Rockets.md#the-twelve-rockets)不会随机浮动：在强度 I 时最高 **2,500**，强度 II 时 **5,000**，强度 III 时 **7,500**；飞行员的 Rivet 则在最小值和最大值之间随机。它沿直线飞行，所以不断移动的船不会被击中。
+守卫在每个世界里的数值都相同（Alpha 的数值），它们的报酬也一样。每架无人机、护卫或卫兵都有第二张表里的数值，它们会待在守卫身边：Brood Drone 为守卫的船体回血，Siege Escort 和 Wrath Guard 用激光射击。一轮齐射是一艘船所有激光在一秒内的射击，在表中数值的 80% 到 100% 之间随机；Wrath Warden 船体低于三分之二时攻击力是平时的一又四分之一倍，低于三分之一时是一倍半。守卫和它的帮手全都攻击守卫正在对战的那名飞行员，所以它们的齐射会叠加。Siege Warden 的[铆钉火箭](/wiki/06-Items/Rockets.md#the-twelve-rockets)不会随机浮动：在强度 I 时最高 **{{guide:behaviour.ability:rocket.damage@Siege Warden I}}**，强度 II 时 **{{guide:behaviour.ability:rocket.damage@Siege Warden II}}**，强度 III 时 **{{guide:behaviour.ability:rocket.damage@Siege Warden III}}**；飞行员的 Rivet 则在最小值和最大值之间随机。它沿直线飞行，所以不断移动的船不会被击中。
 
 | 守卫 | 船体 | 护盾 | 激光伤害 （每秒一轮齐射） | 速度 | 激光射程 | 自我修复（每秒船体） | 火箭与射击间隔秒数 |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | :--- |
-| Brood Warden I | 830,000 | 680,000 | 645 | 90 | 600 | – | – |
-| Brood Warden II | 1,440,000 | 1,180,000 | 3,885 | 90 | 700 | – | – |
-| Brood Warden III | 2,650,000 | 2,175,000 | 15,450 | 90 | 800 | – | – |
-| Siege Warden I | 715,000 | 585,000 | 240 | 110 | 600 | 1,075 | Warden Rivet I: 24 |
-| Siege Warden II | 1,240,000 | 1,015,000 | 1,455 | 110 | 700 | 1,875 | Warden Rivet II: 12 |
-| Siege Warden III | 4,575,000 | 3,725,000 | 9,225 | 110 | 800 | 6,925 | Warden Rivet III: 8 |
-| Wrath Warden I | 815,000 | 665,000 | 480 | 90 | 700 | 1,075 | – |
-| Wrath Warden II | 1,410,000 | 1,155,000 | 2,910 | 90 | 800 | 1,875 | – |
-| Wrath Warden III | 5,200,000 | 4,250,000 | 12,300 | 90 | 900 | 6,925 | – |
+| Brood Warden I | {{guide:vitals.hull@Brood Warden I}} | {{guide:vitals.shield@Brood Warden I}} | {{guide:vitals.dps@Brood Warden I}} | {{guide:vitals.speed@Brood Warden I}} | 600 | – | – |
+| Brood Warden II | {{guide:vitals.hull@Brood Warden II}} | {{guide:vitals.shield@Brood Warden II}} | {{guide:vitals.dps@Brood Warden II}} | {{guide:vitals.speed@Brood Warden II}} | 700 | – | – |
+| Brood Warden III | {{guide:vitals.hull@Brood Warden III}} | {{guide:vitals.shield@Brood Warden III}} | {{guide:vitals.dps@Brood Warden III}} | {{guide:vitals.speed@Brood Warden III}} | 800 | – | – |
+| Siege Warden I | {{guide:vitals.hull@Siege Warden I}} | {{guide:vitals.shield@Siege Warden I}} | {{guide:vitals.dps@Siege Warden I}} | {{guide:vitals.speed@Siege Warden I}} | 600 | 1,075 | Warden Rivet I: 24 |
+| Siege Warden II | {{guide:vitals.hull@Siege Warden II}} | {{guide:vitals.shield@Siege Warden II}} | {{guide:vitals.dps@Siege Warden II}} | {{guide:vitals.speed@Siege Warden II}} | 700 | 1,875 | Warden Rivet II: 12 |
+| Siege Warden III | {{guide:vitals.hull@Siege Warden III}} | {{guide:vitals.shield@Siege Warden III}} | {{guide:vitals.dps@Siege Warden III}} | {{guide:vitals.speed@Siege Warden III}} | 800 | 6,925 | Warden Rivet III: 8 |
+| Wrath Warden I | {{guide:vitals.hull@Wrath Warden I}} | {{guide:vitals.shield@Wrath Warden I}} | {{guide:vitals.dps@Wrath Warden I}} | {{guide:vitals.speed@Wrath Warden I}} | 700 | 1,075 | – |
+| Wrath Warden II | {{guide:vitals.hull@Wrath Warden II}} | {{guide:vitals.shield@Wrath Warden II}} | {{guide:vitals.dps@Wrath Warden II}} | {{guide:vitals.speed@Wrath Warden II}} | 800 | 1,875 | – |
+| Wrath Warden III | {{guide:vitals.hull@Wrath Warden III}} | {{guide:vitals.shield@Wrath Warden III}} | {{guide:vitals.dps@Wrath Warden III}} | {{guide:vitals.speed@Wrath Warden III}} | 900 | 6,925 | – |
 
 | 帮手 | 数量 | 船体 | 护盾 | 激光伤害 （每秒一轮齐射） | 速度 | 为守卫回血（每秒船体） |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| Brood Drone I | 4 | 3,500 | 2,500 | 60 | 170 | 600 |
-| Brood Drone II | 4 | 6,000 | 4,500 | 390 | 170 | 1,050 |
-| Brood Drone III | 4 | 20,000 | 17,500 | 1,575 | 170 | 1,925 |
-| Siege Escort I | 2 | 21,500 | 17,500 | 30 | 175 | – |
-| Siege Escort II | 2 | 37,000 | 30,500 | 225 | 175 | – |
-| Siege Escort III | 2 | 137,500 | 112,500 | 1,425 | 175 | – |
-| Wrath Guard I | 2 | 24,500 | 20,000 | 90 | 180 | – |
-| Wrath Guard II | 2 | 42,500 | 34,500 | 585 | 180 | – |
-| Wrath Guard III | 2 | 155,000 | 127,500 | 2,475 | 180 | – |
+| Brood Drone I | 4 | {{guide:vitals.hull@Brood Drone I}} | {{guide:vitals.shield@Brood Drone I}} | {{guide:vitals.dps@Brood Drone I}} | {{guide:vitals.speed@Brood Drone I}} | 600 |
+| Brood Drone II | 4 | {{guide:vitals.hull@Brood Drone II}} | {{guide:vitals.shield@Brood Drone II}} | {{guide:vitals.dps@Brood Drone II}} | {{guide:vitals.speed@Brood Drone II}} | 1,050 |
+| Brood Drone III | 4 | {{guide:vitals.hull@Brood Drone III}} | {{guide:vitals.shield@Brood Drone III}} | {{guide:vitals.dps@Brood Drone III}} | {{guide:vitals.speed@Brood Drone III}} | 1,925 |
+| Siege Escort I | 2 | {{guide:vitals.hull@Siege Escort I}} | {{guide:vitals.shield@Siege Escort I}} | {{guide:vitals.dps@Siege Escort I}} | {{guide:vitals.speed@Siege Escort I}} | – |
+| Siege Escort II | 2 | {{guide:vitals.hull@Siege Escort II}} | {{guide:vitals.shield@Siege Escort II}} | {{guide:vitals.dps@Siege Escort II}} | {{guide:vitals.speed@Siege Escort II}} | – |
+| Siege Escort III | 2 | {{guide:vitals.hull@Siege Escort III}} | {{guide:vitals.shield@Siege Escort III}} | {{guide:vitals.dps@Siege Escort III}} | {{guide:vitals.speed@Siege Escort III}} | – |
+| Wrath Guard I | 2 | {{guide:vitals.hull@Wrath Guard I}} | {{guide:vitals.shield@Wrath Guard I}} | {{guide:vitals.dps@Wrath Guard I}} | {{guide:vitals.speed@Wrath Guard I}} | – |
+| Wrath Guard II | 2 | {{guide:vitals.hull@Wrath Guard II}} | {{guide:vitals.shield@Wrath Guard II}} | {{guide:vitals.dps@Wrath Guard II}} | {{guide:vitals.speed@Wrath Guard II}} | – |
+| Wrath Guard III | 2 | {{guide:vitals.hull@Wrath Guard III}} | {{guide:vitals.shield@Wrath Guard III}} | {{guide:vitals.dps@Wrath Guard III}} | {{guide:vitals.speed@Wrath Guard III}} | – |
 
 ### 报酬与掉落 {#warden-pay-and-loot}
 
@@ -425,31 +440,17 @@
 
 | 守卫强度 | 信用点 | Thulium | 经验值（XP） | 荣誉 |
 | :--- | ---: | ---: | ---: | ---: |
-| I | 2,700,000 | 10,800 | 270,000 | 5,400 |
-| II | 3,600,000 | 18,000 | 576,000 | 7,200 |
-| III | 7,200,000 | 36,000 | 1,440,000 | 11,520 |
+| I | {{guide:spoils.pay.credits@Brood Warden I;Siege Warden I;Wrath Warden I}} | {{guide:spoils.pay.thulium@Brood Warden I;Siege Warden I;Wrath Warden I}} | {{guide:spoils.pay.experience@Brood Warden I;Siege Warden I;Wrath Warden I}} | {{guide:spoils.pay.honor@Brood Warden I;Siege Warden I;Wrath Warden I}} |
+| II | {{guide:spoils.pay.credits@Brood Warden II;Siege Warden II;Wrath Warden II}} | {{guide:spoils.pay.thulium@Brood Warden II;Siege Warden II;Wrath Warden II}} | {{guide:spoils.pay.experience@Brood Warden II;Siege Warden II;Wrath Warden II}} | {{guide:spoils.pay.honor@Brood Warden II;Siege Warden II;Wrath Warden II}} |
+| III | {{guide:spoils.pay.credits@Brood Warden III;Siege Warden III;Wrath Warden III}} | {{guide:spoils.pay.thulium@Brood Warden III;Siege Warden III;Wrath Warden III}} | {{guide:spoils.pay.experience@Brood Warden III;Siege Warden III;Wrath Warden III}} | {{guide:spoils.pay.honor@Brood Warden III;Siege Warden III;Wrath Warden III}} |
 
 **每名拿到报酬的飞行员都会在残骸处得到一个属于自己的箱子**，里面是他那一份战利品。表格列出的是整次击毁所抽取的数量，造成 20% 伤害的飞行员会按每个数量的约五分之一来抽取：份额会随机取整，所以平均值是准确的，很小的份额有时也能拿到稀有的一行。**只有你看得到你的箱子，也只有你能拾取**，你的战队和你的小队都不行，它会保留 **10 分钟**，没有 30 秒的等待（[私人箱子](/wiki/03-Mechanics/Cargo.md#private-boxes)）。在[小队](/wiki/03-Mechanics/Groups.md#sharing-kills)里，成员在 5% 的判定中算作一名飞行员，他的那份像小队里任何击毁一样分配（在附近且正在开火的队友，按等级分）：每个分到一份的队友都会得到按那一份计算的私人箱子。游戏日志会告诉你你的份额。造成不足 5% 伤害的飞行员没有报酬，也不会为他放置箱子；游戏日志会告诉他。括号里的几率适用于所示次数中的每一次：(5 × 50%) 是五次抽取，每次 50% 几率。击杀的战利品只抽取一次，再在拿到报酬的飞行员之间分配，所以任何物品都不会同时出现在两个箱子里：无法平均分的物品（一件稀有部件）只会给一名飞行员，按份额比例随机抽取。
 
 | 守卫 | 物品 | I | II | III |
 | :--- | :--- | :---: | :---: | :---: |
-| Brood Warden | Ship Fragment | 30–50 | 80–120 | 150–250 |
-| Brood Warden | Advanced Plasma | 6,000–12,000 | 18,000–36,000 | – |
-| Brood Warden | Daraxium | 10–20 (5 × 50%) | – | – |
-| Brood Warden | Nyxite | – | 20–40 (5 × 50%) | – |
-| Brood Warden | Ultra Core | – | – | 18,000–30,000 |
-| Brood Warden | Quorvium | – | – | 50–100 (60%) |
-| Siege Warden | Ship Fragment | 20–40 | 60–100 | 120–200 |
-| Siege Warden | Siphon Battery | 6,000–12,000 | 18,000–30,000 | 48,000–72,000 |
-| Siege Warden | 信用点商店的火箭（一种，随机） | 20–30 | 50–80 | 80–120 |
-| Siege Warden | Reinforced Hull Plate | – | 10 (30%) | – |
-| Siege Warden | 史诗火箭（一种，随机） | – | – | 10–20 (50%) |
-| Wrath Warden | Ship Fragment | 40–60 | 80–120 | – |
-| Wrath Warden | Cataclysite | 30–50 | 50–100 | – |
-| Wrath Warden | Reinforced Hull Plate | 10 (25%) | 10 (50%) | 10–20 (70%) |
-| Wrath Warden | Power Core | – | 10 (15%) | 10 (35%) |
-| Wrath Warden | Quorvium | – | – | 50–100 (70%) |
-| Wrath Warden | Ancient Control Unit | – | – | 10 (8%) |
+| Brood Warden | – | {{guide:spoils.box@Brood Warden I}} | {{guide:spoils.box@Brood Warden II}} | {{guide:spoils.box@Brood Warden III}} |
+| Siege Warden | – | {{guide:spoils.box@Siege Warden I}} | {{guide:spoils.box@Siege Warden II}} | {{guide:spoils.box@Siege Warden III}} |
+| Wrath Warden | – | {{guide:spoils.box@Wrath Warden I}} | {{guide:spoils.box@Wrath Warden II}} | {{guide:spoils.box@Wrath Warden III}} |
 
 从 0.4.16 起，激光弹药各行（Advanced Plasma、Ultra Core 和 Siphon Battery）是原来的三倍；其他各行不变。
 

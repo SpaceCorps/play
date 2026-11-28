@@ -6,65 +6,65 @@ publisher: "SpaceCorps"
 license: "Proprietary client, Free to play"
 engine: "Space3d Engine"
 # release:front
-version: "0.5.11"
-date: "2026-11-22"
+version: "0.5.12"
+date: "2026-11-28"
 server: "https://spacecorps-game.sliplane.app"
 platforms:
   - os: "macOS"
     arch: "universal (Apple Silicon & Intel)"
     format: "dmg"
     filename: "SpaceCorps2027-macos-universal.dmg"
-    size: 175658205
-    sha256: "ee04200b47d0e63ea731372e2deb79bec78f02c2ecb416d0baeebc6ac6160ea8"
+    size: 199958565
+    sha256: "d92a0f3700f7bcc8d81293f7d8124b2d58fefb270e59b18a18f03e15f146ba98"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg"
   - os: "Windows"
     arch: "x86_64"
     format: "zip"
     filename: "SpaceCorps2027-windows-x86_64.zip"
-    size: 166931304
-    sha256: "33d3496d099d2f2275824101b9412d59317d03a9d15c654666e33f636b00d4d3"
+    size: 191293749
+    sha256: "02aea3432b4c17bf8dc3b8ed65b97c9ca6addedc4bce473238f5601f29dc0bbf"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip"
   - os: "Linux"
     arch: "x86_64"
     format: "appimage"
     filename: "SpaceCorps2027-linux-x86_64.AppImage"
-    size: 161257976
-    sha256: "0b3404ee9c358039e7a019d2e56867b7cf424b8dcec6a65b93704e882c112072"
+    size: 185174520
+    sha256: "9af6b24499987f57f9032c71c89f110a6051cef2d8cf4a10f47d0954659031de"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage"
   - os: "Linux"
     arch: "x86_64"
     format: "tar.gz"
     filename: "SpaceCorps2027-linux-x86_64.tar.gz"
-    size: 167858091
-    sha256: "3d5591cae402e0c626e1d5d3d6cee1c28c405e43dc41a88ec26729145e4b8c00"
+    size: 192187843
+    sha256: "ef39a40e3ab33edb955e4a2d30ad65518d6960770f612a0e232fcb1e487dff34"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz"
   - os: "Windows"
     arch: "aarch64"
     format: "zip"
     filename: "SpaceCorps2027-windows-aarch64.zip"
-    size: 165061956
-    sha256: "6e92f4270bc481e6f41702ab8dbbe7b01e6bef18c469c751df6823f4e4647d2e"
+    size: 189306867
+    sha256: "6fb054574a762732cbb65ae66cee474408193bc37e40245e534005d0e055636c"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-aarch64.zip"
   - os: "Linux"
     arch: "aarch64"
     format: "appimage"
     filename: "SpaceCorps2027-linux-aarch64.AppImage"
-    size: 159595016
-    sha256: "48fa7028cd242cbf8008c9994786995c3e5d85bf14f12637602aa429f2df9ace"
+    size: 183441928
+    sha256: "50e602e69f2b714c0a20721252396378abed1789ae63826986a588cf07c6af1e"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-aarch64.AppImage"
   - os: "Linux"
     arch: "aarch64"
     format: "tar.gz"
     filename: "SpaceCorps2027-linux-aarch64.tar.gz"
-    size: 165984128
-    sha256: "734b8ad7fe6930758db603e62c5682d1421e5e90af97ec5a0d36fce7cdf6212b"
+    size: 190202196
+    sha256: "2089885ec4f614b2595df46efa39481bffc8fd43d6c96b9f78f95d5c0c60aecd"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-aarch64.tar.gz"
   - os: "Android"
     arch: "64-bit ARM (arm64-v8a)"
     format: "apk"
     filename: "SpaceCorps2027-android-aarch64.apk"
-    size: 192422788
-    sha256: "178ae4cb33d9fdeb7ac9a8bf8212fb2f03549182b9dd5285fb6e3c485990ef4b"
+    size: 218751876
+    sha256: "55f2a2b3e4f63a566125f59c563d1778cca18f10c2e9773a85a9d7b9d4ac336c"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-android-aarch64.apk"
 # /release:front
 ---
@@ -85,18 +85,18 @@ SpaceCorps 2027 is a multiplayer space action simulator built on the native Spac
 ---
 
 <!-- release:downloads -->
-## Downloads (Version 0.5.11)
+## Downloads (Version 0.5.12)
 
 | Operating System | Architecture | Package Format | Download Link | SHA-256 Checksum |
 | :--- | :--- | :--- | :--- | :--- |
-| **macOS** | Universal (Apple Silicon & Intel) | `.dmg` (175.7 MB) | [SpaceCorps2027-macos-universal.dmg](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg) | `ee04200b47d0e63ea731372e2deb79bec78f02c2ecb416d0baeebc6ac6160ea8` |
-| **Windows** | x86_64 | `.zip` (166.9 MB) | [SpaceCorps2027-windows-x86_64.zip](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip) | `33d3496d099d2f2275824101b9412d59317d03a9d15c654666e33f636b00d4d3` |
-| **Linux** | x86_64 | `.AppImage` (161.3 MB) | [SpaceCorps2027-linux-x86_64.AppImage](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage) | `0b3404ee9c358039e7a019d2e56867b7cf424b8dcec6a65b93704e882c112072` |
-| **Linux** | x86_64 | `.tar.gz` (167.9 MB) | [SpaceCorps2027-linux-x86_64.tar.gz](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz) | `3d5591cae402e0c626e1d5d3d6cee1c28c405e43dc41a88ec26729145e4b8c00` |
-| **Windows** | aarch64 | `.zip` (165.1 MB) | [SpaceCorps2027-windows-aarch64.zip](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-aarch64.zip) | `6e92f4270bc481e6f41702ab8dbbe7b01e6bef18c469c751df6823f4e4647d2e` |
-| **Linux** | aarch64 | `.AppImage` (159.6 MB) | [SpaceCorps2027-linux-aarch64.AppImage](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-aarch64.AppImage) | `48fa7028cd242cbf8008c9994786995c3e5d85bf14f12637602aa429f2df9ace` |
-| **Linux** | aarch64 | `.tar.gz` (166.0 MB) | [SpaceCorps2027-linux-aarch64.tar.gz](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-aarch64.tar.gz) | `734b8ad7fe6930758db603e62c5682d1421e5e90af97ec5a0d36fce7cdf6212b` |
-| **Android** | 64-bit ARM (arm64-v8a) | `.apk` (192.4 MB) | [SpaceCorps2027-android-aarch64.apk](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-android-aarch64.apk) | `178ae4cb33d9fdeb7ac9a8bf8212fb2f03549182b9dd5285fb6e3c485990ef4b` |
+| **macOS** | Universal (Apple Silicon & Intel) | `.dmg` (200.0 MB) | [SpaceCorps2027-macos-universal.dmg](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg) | `d92a0f3700f7bcc8d81293f7d8124b2d58fefb270e59b18a18f03e15f146ba98` |
+| **Windows** | x86_64 | `.zip` (191.3 MB) | [SpaceCorps2027-windows-x86_64.zip](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip) | `02aea3432b4c17bf8dc3b8ed65b97c9ca6addedc4bce473238f5601f29dc0bbf` |
+| **Linux** | x86_64 | `.AppImage` (185.2 MB) | [SpaceCorps2027-linux-x86_64.AppImage](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage) | `9af6b24499987f57f9032c71c89f110a6051cef2d8cf4a10f47d0954659031de` |
+| **Linux** | x86_64 | `.tar.gz` (192.2 MB) | [SpaceCorps2027-linux-x86_64.tar.gz](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz) | `ef39a40e3ab33edb955e4a2d30ad65518d6960770f612a0e232fcb1e487dff34` |
+| **Windows** | aarch64 | `.zip` (189.3 MB) | [SpaceCorps2027-windows-aarch64.zip](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-aarch64.zip) | `6fb054574a762732cbb65ae66cee474408193bc37e40245e534005d0e055636c` |
+| **Linux** | aarch64 | `.AppImage` (183.4 MB) | [SpaceCorps2027-linux-aarch64.AppImage](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-aarch64.AppImage) | `50e602e69f2b714c0a20721252396378abed1789ae63826986a588cf07c6af1e` |
+| **Linux** | aarch64 | `.tar.gz` (190.2 MB) | [SpaceCorps2027-linux-aarch64.tar.gz](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-aarch64.tar.gz) | `2089885ec4f614b2595df46efa39481bffc8fd43d6c96b9f78f95d5c0c60aecd` |
+| **Android** | 64-bit ARM (arm64-v8a) | `.apk` (218.8 MB) | [SpaceCorps2027-android-aarch64.apk](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-android-aarch64.apk) | `55f2a2b3e4f63a566125f59c563d1778cca18f10c2e9773a85a9d7b9d4ac336c` |
 <!-- /release:downloads -->
 
 ---
@@ -106,120 +106,209 @@ SpaceCorps 2027 is a multiplayer space action simulator built on the native Spac
 The latest release's patch notes (in English). Every release: [patchnotes.md](https://play.spacecorps.tech/patchnotes.md) · [patchnotes.html](https://play.spacecorps.tech/patchnotes.html)
 
 <!-- patchnotes:latest -->
-### 0.5.11 · 2026-11-22
+### 0.5.12 · 2026-11-28
 
-[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.5.11)
+[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.5.12)
 
-SpaceCorps 2027 0.5.11 adds custom pictures (a profile picture and a banner for a pilot, a logo for a clan) and gives every pilot and every clan a free icon designer. It adds the Protosaur, a fourteenth ship design, for the starter ship. The N.U.K.E. and the Gravitational N.U.K.E. leave a radiation zone behind, radiation is damage to the hull, and a quest's stay keeps the minutes you have counted. It carries the balance list of hull plates, laser amps, rockets and the Miyuki, puts the Greek-letter tiers on the swarms of the map, doubles the Thulium of the clan dungeons and makes their Warlord hit much harder, and adds a 1000x scan to the Galaxy Gates' Materializer. It changes Mission Control, Active Quests, the phone's main menu, the Online pilots window and the login card on a phone, moves Unequip all, fixes the emote wheel at Home and gives a pilot 50 emotes a day.
+SpaceCorps 2027 0.5.12 adds the Deep Void. DV-1, "The Hollow Reach", is a dark map of 128,000 by 72,000 units, 16 times the area of a Danger Sector, where you see only what a light shows. Each world builds its own Void Gate in Danger Sector 4 to reach it. Inside are a base (Last Light), Davidski's camp, Lanterns you light with Dark Matter, a Fear bar, nine regions of walls and radiation, new aliens and three bosses, the Traveler's Guide with its Museum and the Xenolab. Aliens and bosses across the game also get special abilities, the Miyuki can revive a destroyed friend, and on Windows and macOS the game's picture fills the window's title bar. The release also carries the owner's orders of the last week: 14 paid dungeon clears a week, every trade limit twice as high, hiding your equipment from other pilots, typing Chinese, Japanese and Korean on a computer.
 
 #### What's new
 
 **Highlights**
-- **Custom pictures.** A profile picture and a banner for a pilot, a logo for a clan. Everybody can switch other pilots' pictures off. Pictures can be reported, and a game administrator can take one down.
-- **A free icon designer** for every pilot and every clan: a background colour and up to six layers of 32 shapes in 16 colours, drawn where the letter avatar was.
-- **The Protosaur,** a fourteenth ship design, of the Protos: +5 hull plate slots, +1 laser slot, +30 base speed, +1 extra slot, +50% rocket damage, Blink and Chameleon. It costs 50,000 Thulium and 8 Dark Matter Plates to convert a Protos.
-- **Radiation is hull damage,** and the N.U.K.E. leaves a 15-second radiation zone (5% of the maximum hull a second), the Gravitational N.U.K.E. one that burns 10% a second in the middle. The Gravitational N.U.K.E. now pulls a Tesseract's Facets too.
-- **Timed quests keep your time.** A stay no longer starts over when you log out, are kicked or jump to another map, it does not hold up the step behind it, and "in one stretch" is gone.
-- **The balance list:** Hull Plating 7,000 / 14,000 / 20,000, 3 open hull plate slots on the Shop's four ships, Damage Amps +12 / +20 / +30 / +45, Penetration Amps 7 / 15 / 20 / 25%, rocket blasts a quarter smaller and rockets 10% longer in range with new speeds, the Miyuki 20 slower, the Wraith MATT +5% laser damage.
-- **Clan dungeons:** the Warlord's volleys are 17,500 to 22,500, 26,250 to 33,750 and 35,000 to 45,000, its rocket barrage doubled; the Thulium of a clear is doubled, and the Dark Matter Plate card pays 4, 6 and 8.
-- **Swarm tiers:** the swarms of the map wear the Greek letter of their tier before their name, and a swarm has the tier of its world, never above it.
-- **Healing for the Miyuki:** the Healing skill also strengthens the Channel Shield and shortens the wait of the Miyuki's three healing abilities by up to 10%. The cloak skill is called Stealth.
-- **Mission Control and Active Quests** are solid at any HUD opacity and show compact cards with their steps.
-- **The phone's main menu** is one list of 44 dp rows, and the login card on a phone scrolls so that the server list can be reached.
-- **A right-click menu on a pilot's name** (Send message, View pilot card, Copy name), and a gold name and a gold crown in the Online pilots window.
-- **A 1000x scan** in the Galaxy Gates' Materializer, 100,000 Thulium for one press.
-- **The emote wheel now works at Home,** and a pilot has 50 emotes a day on each server (10 in 0.5.10).
-- **Unequip all** is at the foot of the Hangar's left column, away from Launch.
-- **Players online by platform,** in the data of the server list (`GET /api/servers`) for the public status page; the game does not show it. Also a link to the players-online history on the landing card, and a statistics page for administrators.
+- **The Deep Void, DV-1 "The Hollow Reach".** A dark map, the biggest in the game, with nine regions: Last Light, the Breach, the Hollows, the Glow, the Graveyard, the Maw, the Throat, the Silent Expanse and the Lattice. You see a cone of light 1,400 units long and a halo of 350 units; everything else is what a Lantern, a flare, a Bloom's glow or another pilot's light shows. The server sends your game no alien and no other pilot's ship that no light shows you (your own group's ships excepted); the walls, the Blooms and the Lanterns are known to your game from the start, and the dark and the fog hide them from your eyes. PvP is on everywhere outside Last Light and the Breach camp. A death there sends you home.
+- **The Void Gate.** Each world builds its own gate in Danger Sector 4 with 20 Dark Matter Plates and 200,000 Thulium, any pilot adding any amount. It builds for 24 hours (20 minutes if 1,000,000 Thulium is put in), is opened for 5,000 Thulium by a pilot with the Dormant Keycard, and the crossing sends 78 dormant aliens in four waves. A crew of three cannot tank the waves: the way through is killing and running.
+- **What gets harder.** Fights against swarm bosses are longer and the Boss Crystalys Swarm needs more pilots; an alien with more than 1,000,000 hull takes no radiation; the blast of a rocket and a radiation zone hurt your own group for half; the Tesseract Swarm moved; the Archivist asks 212 technologies. The Deep Void is hard on purpose: a Bloom, the Monster or the aliens can kill a ship there, and a death sends you home.
+- **Last Light and Davidski's camp.** Last Light, in the middle of the map, is a safe zone with turrets that shoot aliens, a heal ring, Mission Control (the Lost Expedition and three daily contracts), the Xenolab and a Quartermaster who sells ammo, rockets, Flares and Repair Drones. Davidski waits at the Breach, where you land. He cannot be killed, explains the dark, gives the first quest and sells Flares and the Organic Scanner I.
+- **Lanterns, Fear and the Monster.** 78 Lanterns stand on the map. One Dark Matter lights one for 10 minutes (up to 60); its circle of 2,500 units is true light, where Fear falls by 10 a second. Fear grows in the dark, when you fire and when you fly fast, and at 100 % the Monster comes for you. Snuffers come to eat lit Lanterns.
+- **Radiation and weather.** 13 Void Blooms with a radius of 4,000 to 7,500 units, three gravity sinks in the Maw, a travelling Static Storm and Blackouts. A Bloom works like the black hole (one gauge, one warning, the dose taken from the hull alone) and a clicked course is planned round it.
+- **The creatures.** Slumbering Voids, Deep Masses, Lurkers, Anglers, Revenants, Void Mites, Shades, Snuffers and the Monster; three bosses: the Leviathan (a worm of 42 parts, each with its own hit points, that breaks into living pieces), the Drowned Flagship and the Listener; and the Dormant Swarm's visit once a day. The small ones are many (150 Slumbering Voids, 90 Lurkers) and hit hard, and every creature's shield takes 90 % of a hit.
+- **The Traveler's Guide, the Museum and the Xenolab.** Five scans of 5 seconds each open an entry for every alien (an Organic Scanner II counts each scan twice, and the Deep Void maps ask for the II). Killing 10 of a kind (3 of a boss) teaches you its hull, shield, damage, speed and its Spoils page. The Xenolab researches a Vitals line in 6 minutes and a Behaviour or Spoils line in 24. The five body parts of a kind in the Skylab's Museum give up to +25 % damage to it.
+- **Mob special abilities.** 13 abilities (Regenerate, Shield burst, Hardened plating, Enrage, Call reinforcements, Clones, Flee and return, Life drain, Nova pulse, Rocket barrage, Veil, Sow mines and Split) rolled by aliens on the maps of the worlds, and three-step ladders for 23 named bosses: the swarm leaders, the nine Clan Wardens, the Warlord of the clan dungeons and six gate bosses.
+- **Miyuki Revive.** A destroyed friend stays on the map for 30 seconds as a broken-down ship; a Miyuki revives him in a 10 second channel with 30 % of his hull. Not on the Deep Void maps, in clan dungeons or in solo gates.
+- **The title bar (Windows and macOS).** The game's picture fills the window's title bar. On Windows the game paints the three window buttons; on a Mac the system's own stay.
+- **Owner orders:** 14 paid clan dungeon clears a week (10 before), every trade limit twice as high (the clan bank's three limits too), "Hide my equipment" in Settings > Account, the Radiation Donut (a clan dungeon Warlord ability) and a Void tab in the Admin menu.
+- **Davidski:** a kill of him on a US or Singapore server counts for the missions that name him. The same holds at Home when his pay is capped.
+- **Typing Chinese, Japanese and Korean** on a computer goes through the system's input method. Not tried with a real input method yet.
+- **The route to Home is picked by measurement.** The game times the direct address and the second address (play.spacecorps.xyz, behind Cloudflare) at each start and uses the second only when it is clearly faster; the clock that decides a "taken over by another session" kick after a jump is 8 seconds, not 2.
 
 **New**
-- **Custom pictures.** Uploading pictures is a Premium feature: a pilot with an active Premium sets a **profile picture** and a **profile banner** (Settings, Account, Profile pictures), and the Leader or Co-Leader of a clan, while his own Premium is active, sets the **clan's logo** (Management, Clan Page). Every other part of this is open to everybody. Pictures change nothing in play: Premium does not make ships stronger.
-  - **Where they show.** On the pilot's page (profile sheet), the sidebar card, the Dashboard and the clan's pages (a clan's logo on its page and its dashboard, for the pilots who can see that clan). A pilot with no picture shows his icon (below) or his letter. A picture keeps showing when the Premium it was uploaded under has ended. Pictures do not show in the rankings or in the clan's roster yet: there the letters stay.
-  - **Switching them off.** **Settings, Interface, Show other pilots' pictures** hides the pictures other pilots and clans uploaded (your own pictures still show, and so does your own clan's logo on the clan's page, in the header of its dashboard and in its editor): you see their icons or letters instead.
-  - **What a picture must be.** A PNG, JPEG or WebP file that is not animated. A profile picture or a logo has no side over 512 or under 64 pixels, is at most twice as wide as high (or the other way round) and is at most 1 MB. A banner is from 600 x 200 to 1,500 x 500 pixels, two to four times as wide as high, at most 2 MB. **Nothing is resized for you**: a picture over a limit is refused with the numbers in the message, by the game before anything is sent and by the server again. The server decodes every picture and draws it again before it keeps it, which drops what the file carried besides its pixels (where and with what a photo was taken). A picture with no transparent pixel is stored as a JPEG (quality 85), also when you sent a PNG; a colour profile other than sRGB is dropped.
-  - **How often.** A pilot may make 10 upload attempts an hour, a clan 5 for its logo (an attempt that the server then refuses counts too). A pilot who is flying on a regional server can neither change nor remove a picture until that flight ends, because Home refuses the writes of a pilot whose ship a regional server holds.
-  - **Choosing a file.** Windows has a file dialog and a path field, the web version the browser's dialog, macOS and Linux the path field. Nothing is sent before you press "Use this picture", and the picture is shown as a preview first.
-  - **Reporting and taking down.** Another pilot's picture, on his profile sheet or a clan's page, can be reported with one of five reasons (sexual content or graphic violence, hate or harassment, impersonation, copyright, or something else). A game administrator can read the reports, can take a picture down and can stop a pilot from uploading pictures. A pilot can remove his own pictures without Premium, also when he is blocked from uploading, whenever he is at the station and no wipe is running. **The game does not look at what a picture shows:** it is shown at once, and any pilot can report it.
-  - **Where they are kept.** The pictures are kept in a storage service behind the main server. The game never contacts the storage: it asks its own server, which hands a picture out only to a pilot who is signed in. A regional server holds no picture. **The feature works only while the main server has its storage settings.** Without them the game says "Custom pictures are switched off on this server." and nobody can upload.
-  - **The phone apps** show pictures and let a pilot remove his own, and do not upload them.
-  - **Wipes and deleting an account.** A season wipe removes every clan's logo and icon with the clan; a pilot's pictures and icon stay. Deleting an account deletes his pictures and his icon.
-- **A free icon designer.** A pilot designs an icon in **Settings, Account** (its first card; the avatar on the sidebar's card opens it): a background colour and up to six layers, each one of 32 shapes in one of 16 colours, turned or mirrored, a little like a banner's pattern. The editor has Randomise, Undo and a preview at three sizes, and it works on the phone layout with 44 dp controls. A clan's Leader or Co-Leader designs the **clan's icon** in Management, Clan Page, and can start from his own icon. The icon is stored as a code of at most 21 characters and each game draws it itself, so the server keeps no picture of it. It shows where the letter avatar did on a pilot's profile sheet and on his own cards (the sidebar, the Dashboard), and on a clan's page and the header of its dashboard (for the pilots who can see that clan). Everywhere else the letters stay: the rankings, the clan's roster, posts, invitations and the search of clans. A picture uploaded for the same place shows instead of the icon while it exists, and when other pilots' pictures are switched off the icon shows. It is free, for everybody. A pilot saves 20 times an hour and a clan 10 times an hour. An administrator can reset an icon. The 30 test drawings of the designer come out bit for bit the same on Windows (x86-64), on macOS (aarch64) and as WebAssembly (run in node, not yet in a browser).
-- **The Protosaur.** A fourteenth ship design, of the starter ship, and the only design of a ship you do not craft. **Research** it in the Skylab (10 hours and 10 Dark Matter; it needs the technology of the Dark Matter Plate, since the Protos has no ship technology of its own), then **convert your Protos** in Assembly for **50,000 Thulium, 30 Ship Fragments, 5 Reinforced Hull Plates, 2 Power Cores and 8 Dark Matter Plates**. The conversion takes 10 minutes, cannot be undone and keeps what is fitted, as for the other designs. **A Protos you convert is not replaced:** it cannot be crafted or bought again (the Shop lists it but never sells it, and only a new account starts with one), so a pilot who converts his Protos has a Protosaur and no Protos. You cannot convert the ship you fly: make another ship active first.
-  - **What it gives the Protos:** **+5 hull plate slots** (8 in all, every one open as soon as the design is made), **+1 laser slot** (3), **+30 base speed** (220), **+1 extra slot** (3), **+50% rocket damage**, and the design's own buttons **Blink** (speed 2,500 for 1 second, 120 seconds between two uses) and **Chameleon** (invisible until it breaks, 60 seconds between two uses), as for the designs that have them. The hull (8,000) and the core, support and auxiliary slots are the Protos's. A full set of Hull Plating III in all 8 slots makes 168,000 hull.
-  - **The +50% on rockets** is a factor on every rocket you fire, next to a drone formation's rocket bonus. The cap that formations put on a rocket's damage (x1.59) cuts the product of both, and your Rocket technology multiplies after the cap. The lasers have no such bonus.
-  - **The item is named "Protosaur"** and nothing else (the others are "Paragon THUNDER" and so on). The Hangar, the Shop's rows of designs (information only), Assembly's Designs section, the Target window and the kill feed say so, and the Hangar card and the recipe tell the changes in your language.
-  - **What it looks like:** the Protos in armour: a pair of horns over the canopy, plates along the flanks and the back, a dorsal cannon, a second pair of thrusters and a rack of rocket tubes under each wing, in the Protos's own paint. It has no skins yet.
-  - **The wiki** has the Protosaur on the Ship Designs, Protos and Abilities pages in 13 languages.
-- **Radiation zones, and hull-only radiation.**
-  - **The black hole's radiation takes a share of your maximum hull a second, straight from the hull.** The shares are the ones it always had, so a full ship lasts 100 divided by the dose in seconds (50 seconds at 2,000 units, 20 seconds at 1,200). Your shield neither soaks it nor counts, and a Protos and a Wraith at the same distance last equally long. The Radiation tech skill lowers it as before (0.40 of the dose at level 100).
-  - **The N.U.K.E. leaves a radiation zone** where it goes off: a ring of the blast's own size (1,013 units) that stays for **15 seconds** and burns the hull of every ship in it, **5% of that ship's maximum hull a second**, the same at the edge as in the middle. A Protos loses 400 hull points a second in it, a Wraith 12,800. A ship that stays in one zone all 15 seconds loses three quarters of its hull and never all of it.
-  - **The Gravitational N.U.K.E. leaves one too:** the ring of its well (525 units) burns **10% of the maximum hull a second in the middle, falling in a straight line to nothing at the edge**, for the well's 15 seconds. The pull holds a slow ship near the middle, where 15 seconds of 10% is more than its whole hull. A ship faster than the pull where it stands leaves with what it lost on the way.
-  - **The well pulls the Facets of a Tesseract Swarm,** which it left alone before. A Facet that is flying is slowed, not held (it flies at 750 units a second and the pull is 600 at the middle and 300 half way out); one that has stopped to fire, or has arrived, is carried to the middle. The zone burns a Facet like any alien.
-  - **Who takes it.** Whoever the rocket's own blast hurts: not your group, not a ship in a safe zone or under a respawn's protection, nobody where PvP is off. You take half of your own zone when you stand in it, and the zone ends at once if you are destroyed or leave the map. An alien takes its share of at most 64,000 of its hull points, so a boss is not melted by it: the Tesseract (1,600,000 hull) loses 3,200 a second at the N.U.K.E.'s 5%. Radiation tech lowers a zone's dose too.
-  - **A kill in a zone is yours** in every book (the tally, PvP points, the kill-log line, the kill feed and the Logbook). A zone claims nothing: an alien that nobody holds stays nobody's.
-  - **Zones add up.** Where two overlap a ship takes both doses: two N.U.K.E. zones are 10% a second, four are 20%. A map keeps at most 16 zones. A zone ends with its time, a map reset or a restart and is not saved.
-  - **What you see.** A red ring with a faint red disc marks the zone in the sector (not on the minimap). The first time each zone burns your ship you get one line: "Warning: radiation. You are inside a radiation zone: leave it." The violet edge of the screen, the sparks and the Geiger counter work in a zone. The black hole's gauge shows the dose of the hole only, and a zone has no "Lethal in" clock yet.
-  - **The Radiation tech skill** now trains from the first second for a ship that has a shield too, at the same 1 XP for each 1% of the maximum hull.
-- **Timed quests keep your time.** The 64 stays of 45 quests (the level quests, the Challenge line and the Signals) work differently.
-  - **A stay adds up.** Logging out, a kick, a jump to another map, a move to another world, a server restart and a flight on a regional server keep the seconds you have counted. A stay still counts only while your ship is in its sector, outside the safe zones and active (it moved 300 units within 30 seconds, or fired); time you spend away is not counted. A mission's own time limit (nine of these quests have one) keeps running while you are away.
-  - **A death** no longer costs the stay its seconds on a quest that is neither "no death" nor under a hull limit. The 12 "no death" quests and the 3 stays under a hull limit still start over when you die or pass the limit.
-  - **A stay does not hold up the step behind it.** While the first step you have not done is a stay, the next step behind it is open too (unless that is a stay, or an item the stay itself gives), so the Seekers of a Signal can be shot while its watch counts. A stay never opens the stay behind it. The mission is done when all its steps are, in whatever order.
-  - **"In one stretch" is gone.** 53 stays had to be done without a break and add up like the other 11 now. 25 mission briefings are worded again, among them Gauntlet, Hold the Gate, Overwatch, Border Watch, Centre Watch, Rim Vigil, Last Watch, Swamp Vigil, Hold the Dark and A Watched Static, and the unlock texts of two cosmetics.
-  - **Every stay counts a ship that flies.** The Challenge stays (Iron Vigil, Iron Vigil II, Rival Ground and the Warden's hold) no longer ask for a shot in the last minute: a ship that moved 300 units or fired within 30 seconds counts. A parked ship earns nothing.
-  - **Clean Sweep** counts kills only on your own company's x-4 in its first two steps (it counted kills on any company's x-4 while the pill said your own). The sector shows as `own x-4`.
-  - **One kill, one quest.** A kill still advances one level quest, the tracked one or else the first that can take it. A level quest whose kills come behind a stay can now take a kill while the stay runs, so a quest you do not track may take a kill you meant for another: track the quest you want.
-  - **The Mission Control cards:** a running stay's label is read whole, with its sector and its clock on the line under it.
-- **Clan dungeons.** A clan's gates are harder and pay more.
-  - **The Warlord's laser volley** (a volley a second, at two pilots from stage 2) is 17,500 to 22,500 at stage 1, 26,250 to 33,750 at stage 2 and 35,000 to 45,000 at stage 3 (12,500 to 15,000, 15,000 to 17,500 and 20,000 to 25,000 in 0.5.10). Focus Most Wanted's extra bolt and the illusions of Phantom's Lance follow: 26,250 to 33,750, 39,375 to 50,625 and 52,500 to 67,500 for the bolt.
-  - **The rocket barrage** is 100,000 to 150,000 a rocket at every pilot every 15 seconds at stage 1 (50,000 to 75,000 in 0.5.10), 125,000 to 187,500 at stage 2 and 150,000 to 225,000 at stage 3.
-  - **Pay.** The Thulium of a clear is 8,000, 18,000 and 30,000 for the three stages (4,000, 9,000 and 15,000), the Thulium card of the chest pays 4,000, 6,000 and 10,000 (2,000, 3,000 and 5,000) and the Dark Matter Plate card pays 4, 6 and 8 (1, 1 and 2). The best week by the rules (7 clears at stage 3 and 3 at stage 2) pays 264,000 Thulium, twice the 132,000 of 0.5.10. The rest of the pay and all the rules are as they were.
-  - **The Dungeon Pirate's rocket** reaches 1,100 units (1,000).
-  - **The mission Dungeon Regular** pays 7,500 Thulium, a quarter of one stage 3 clear's Thulium (3,750 before).
-- **Swarm tiers.** The leader of a Pirate, Seeker, Phantasm, Goombah, Crystalys or Tesseract Swarm rolls a tier when it appears, and the Greek letter stands before its name on the name tag and in the Target window: `-=α-Pirate Boss=-`, `-=γ-Boss Seeker=-`. The ships that come with it share its tier, and the next leader of the sector rolls again.
-  - **A swarm wears the tier of its world,** never above it: an Alpha world's swarms are always alpha, a Beta world's beta at the most, a Gamma world's gamma at the most. In the higher worlds a weaker swarm turns up now and then, about one in twenty: the Pirate and Seeker Swarms in Beta, and the Pirate, Seeker, Phantasm, Goombah and Tesseract Swarms in Gamma. The Crystalys Swarm, and the Phantasm, Goombah and Tesseract Swarms in Beta, are always of their world's tier. A weaker roll stops at a floor that keeps the kind worth fighting.
-  - **A tier changes what the swarm is.** Its hull, shield, shield recharge, laser and rocket damage and healing, and its pay (Credits, Thulium, experience, honor), are those of the world of that name; speed, range and loot do not change. **Alpha's swarms are exactly as in 0.5.10**, with the letter; in Beta and Gamma the kinds that can roll lower (named above) are a little weaker on average and the other kinds are as in 0.5.10; a weaker swarm pays what a kill pays in the lower world.
-  - **No swarm is a Delta.** The Dormant Swarm, the Clan Wardens, Davidski, the Dormant Swamp's aliens, a clan dungeon's aliens and the ships of the solo gates have no tier.
-- **Pilot Skills.** **Healing** also strengthens the Channel Shield of the Miyuki (the points a second it gives both ships and its share of the maximum shield: 5% is 6.5% at level 100), as it already strengthened the Heal Pod and the Channel Heal. A second buff, **recharge time of the Miyuki's heal abilities**, runs from x1.00 at level 1 to x0.90 at level 100 and shortens the wait of the Heal Pod (120 seconds, 108 at level 100), the Channel Heal (100 seconds from Miyuki IV and 120 below it; 90 and 108 at level 100) and the Channel Shield (80 seconds at Miyuki V and 120 below it; 72 and 108 at level 100), **on the Miyuki only**: the Heal Pod of any other ship keeps its whole wait. The skill that shortens the wait after a cloak is shown as **Stealth** (it was Cloak Recharge); nothing else about it changed.
-- **Mission Control and Active Quests.** Both windows are drawn solid at any HUD opacity (the slider's help says so): the cards were read through the glass at 50%. A card of a mission under way or done is compact: a smaller portrait, the description in two rows with a caret that opens it, the "In order" tag, the steps with a bar in their row (at most four step rows, the open steps first, and a "N more steps" row), the reward chips and the button on one row. On a phone the Mission Control sheet takes the band from the top of the screen to the hotbar, has no "Missions" heading (the tab shows "7/8"), and stays above the hotbar and the thumb buttons.
-- **The phone's main menu.** On the phone app the sidebar is one list that scrolls: the brand, the pilot card (the whole card opens the profile), the four groups, then Settings, Admin and Sign out. Rows are 44 dp tall, the whole row is the target, the column is 184 dp wide, and there is no icon rail, no fold button and no drag handle. The pilot card reads name, company (two rows at most) and "Level 8 . Alpha World" on one line. The list shows by a small handle that it goes on. The Ship window's formation chip keeps its three letters (Auger's "AUG") when the icon does not fit.
-- **The login card on a phone.** The web version on a phone had the card's server list below the edge of the screen. The card now keeps to the screen's room and scrolls inside it, the server rows are compact (the ping goes under the status word), and the Discord button wraps. Every window a computer opens lays out as before.
-- **Flight HUD.** The hull and shield bars of every ship are drawn after every name tag and your own bar last of all, and a name tag over your own bars is drawn faint, so that your hull stays readable when an alien circles you. A **Select Nearest Alien** key (I by default; Settings, Controls changes it) picks the nearest alien and then the next nearest on each press, never a pilot and never Davidski; it is the phone's Nearest button and the gamepad's West button. The **Research** page has a search box above the tree (Ctrl+F, with a clear button) and a count. Every booster card (the Shop, the hover card, Research and the Recipe Book) has a **Duration** row.
-- **A menu on a pilot's name.** Right-click a name (press and hold on a phone) in a chat line, the Online pilots window, the clan's roster or a member's row of the Group window: **Send message** starts a private message, **View pilot card** opens the profile and **Copy name** copies the name. Send message is not offered on your own name, for a pilot of another server or on a game server from before 0.4.22.
-- **The Online pilots window** shows what the chat shows: a **gold name** for a pilot who has ever paid for Premium and a **gold crown** after the name for a pilot whose Premium is active now (a tap on the crown on a phone shows what it means). Nothing else of a pilot's payments is shown.
-- **The chat's emoji picker** keeps to the chat window and the screen: it has as many columns as fit (8 at most, 4 least), and its notes and the locked card wrap.
-- **A 1000x scan.** The Materializer of the Galaxy Gates has a fifth multiplier. One press of 1000x scans 1,000 times, costs **100,000 Thulium** at 100 a scan, charged in full or refused, and keeps the guarantee. The picker draws the multipliers the server lists, so a new game against an older server does not offer a button the server refuses; the scan log writes "1000× Scan".
-- **The emote wheel at Home.** At Home the wheel said "Emotes are not available on this server", because a flight at Home never heard the station's promise that the wheel is on. It works now. **A pilot has 50 emotes a day on each server** (10 in 0.5.10; a server counts them in its memory, so a restart gives the day again), with the pause of three seconds between two as before.
-- **The server list and the landing card.** Every row of the list of servers that the public players-online page reads (`GET /api/servers`) has a new key, `onlineByPlatform`, with `steam`, `desktop`, `ios`, `android`, `web` and `unknown`: they always add up to the row's `online`, which is unchanged (so is `flying`). The game announces which build it is (Steam as `steam`; a computer's download, Hangar or a development build as `desktop`; the iOS app as `ios`; the Android app as `android`; the browser as `web`) and the server counts the connections by it, in memory. The game does not show the numbers. The iOS app, the Android app and the browser's version of 0.5.10 or older said `direct`, so until they update they count as `desktop`, and a game that sent no build counts as `unknown`. A regional server reports its own split to Home; a node on an older build reports none and Home counts its players as `unknown`. A consumer that adds the rows up must read each row's `status` first: a node that is down or updating keeps its last numbers. The landing card has a **Players online history** link under the servers, to https://play.spacecorps.tech/status/ (in the downloads for computers and in the web version; the Steam build and the phone apps have none). The page is a page of the site, not of this release.
-- **Administrators** have a new statistics page in the Metrics section. Nothing changes for pilots.
+- **The Deep Void.** One map, DV-1 "The Hollow Reach", for each server (Home, US East and Singapore each run their own), shared by the three worlds: pilots of Alpha, Beta and Gamma fly there together. It is switched on at the release on all three servers. A death there sends you to the base, and to come back you cross again.
+  - **Size and fog.** 128,000 by 72,000 units, 16 times the area of a Danger Sector. The minimap is fog: the 2,304 squares of 2,000 units are discovered as your light touches them, for each pilot, for good. The galaxy map has a switch, Normal or Deep Void, and shows how much of DV-1 you have explored; DV-2 shows as "???".
+  - **Light and dark.** You see a cone of 1,400 units in front of the ship and a halo of 350 round it; a Lantern, a burning flare, a Bloom, a gravity sink and another pilot's cone and halo show what they shine on. **The server sends your game no alien and no other pilot's ship that no light shows you** (and none farther than 6,000 units; your own group's ships are sent wherever they are). **The map is not secret from your game:** the layout (every wall, the 13 Blooms, the storm's paths, the regions) comes once on arrival, and every Lantern's place and state, every burning flare and the lit lures of the Anglers (lights like a Lantern from afar) go to the whole map as they change; the dark, the fog and the minimap hide them from your eyes, and the server does not hide them from a changed game. Walls (crystal ridges, wreck fields, broken structure, built with the clan maze's wall machinery at a bigger scale) stop ships, aliens and shots, and a clicked course is planned round them. Settings > Graphics has a Wall shadows switch for how walls cut your light.
+  - **Dark Matter** drops from almost every alien of DV-1 (not from the Monster; a Snuffer gives one 4 times in 10 and a Void Mite 1 time in 10). It is the same item as everywhere else, and Lanterns burn it. That makes DV-1 the main place to get Dark Matter. **Dark Matter Plates**, of which the gate needs 20, are a different item: Plates drop from the Leviathan (2 to 4), the Drowned Flagship (1 to 2) and an Angler (1 time in 10), each step of the Lost Expedition and three of the daily contracts pay one, and Assembly presses them as it did before, from 5 Dark Matter, a Velkonite and an Orvium Reinforced Plate and 250 Thulium.
+  - **Sounds.** 82 sound files are new in this release (43 of them made in the two final passes, for the scan, the lights, the creatures, the bosses and the Void Gate's frame), and the scan has an animation. The big events also shake the view: the Leviathan's death most, then the Monster's touch and the Void Gate's opening, and smaller knocks for the worm's rising, the Flagship's broadside, a part of the worm breaking and a Lantern shot out. **Settings > Graphics > Reduce screen shaking** keeps the view still. Nobody has listened to the sounds (see Known limits).
+  - **15 new achievements:** Lamplighter I to III, Gatewright I to IV, Cartographer I to IV and Xenologist I to IV.
+
+  | Region | Lanterns | Void Blooms | What it is |
+  |---|---|---|---|
+  | Last Light | 8 | 2 | the middle band of the map and the base in its centre (below) |
+  | The Breach | 6 | 0 | the west edge, where every crossing lands, with Davidski's camp; few aliens |
+  | The Hollows | 14 | 2 | a braided maze of crystal ridges; Lurkers sit in the dead ends, and Shades |
+  | The Glow | 12 | 3 | radiation fields; Void Mite clouds |
+  | The Graveyard | 12 | 2 | wreck fields; Revenants and the Drowned Flagship |
+  | The Maw | 8 | 2 | three small gravity sinks inside broken rings; Deep Masses |
+  | The Throat | 2 | 0 | sealed by a wall of living crystal; the Listener |
+  | The Silent Expanse | 4 | 0 | open dark, no wall and no Bloom; the Leviathan |
+  | The Lattice | 12 | 2 | crystal walls that can be shot apart; Lurkers |
+
+- **The Void Gate in Danger Sector 4.** The Unwakened of the Dormant Swamp can be killed now (it comes back 24 hours after each death) and its three guns (the rocket turret, which fires both the N.I.K.E. and the N.U.K.E., and two laser turrets) have hit points (1,500,000 hull each in Alpha, scaled by the world like an alien; they come back with it). **A world's first Unwakened kill of the season opens that world's Threshold**, a place in the top-right corner of its Danger Sector 4, patrolled by Slumbering Voids and Dormant Sentinels, with the Seed, a small black hole, hanging in an empty frame. The pilots of that world build the gate.
+
+  | Part | Rule |
+  |---|---|
+  | To build it | 20 Dark Matter Plates and 200,000 Thulium for each world, from any pilot, in any amount and any order; nothing is refunded. The panel works within 800 units; Thulium goes in steps of 1,000 |
+  | The build | 24 hours on the server's clock once both are full, in five stages 4 h 48 min apart: Anchors, Lower arc, Struts, Crown, Ignition |
+  | Speed-up | Thulium put in speeds the build up, more and more steeply: the speed is 72 to the power of (Thulium put in / 1,000,000) to the power of 0.75. About 11 h 13 min with 100,000 Thulium, 2 h 48 min with 400,000, 20 minutes with 1,000,000 |
+  | Opening | when stage 5 is done, a pilot with the **Dormant Keycard** (a reward of the Signals, in the game since 0.5.10) starts the crossing and pays 5,000 Thulium. Anyone inside the 1,500 unit ring crosses with him and pays nothing |
+  | The crossing | a 120 second countdown with a line to the whole server, then **four waves** at 0, 30, 60 and 90 seconds of 12, 15, 24 and 27 dormant aliens (Slumbering Voids, Lurkers, Dormant Sentinels, Inert Masses), 78 in all, that hunt everyone near; at zero everyone in the ring lands at the Breach. A server restart during the countdown cancels it and gives the 5,000 back |
+  | The way back | free, in 3 seconds, from Last Light's portal and from the Breach's, to your own world's Void Gate in Danger Sector 4 (a death sends you to your base station instead) |
+  | The wipe | the frame collapses into the Seed and the world builds it again; your keycard, your explored squares, the Lost Expedition and your achievements stay |
+
+  - **The build is attacked.** Every 2 hours of work a wave of 9 Voids and 3 Sentinels comes and stands on a ring 1,100 units from the gate, and shoots the gate. While one of them is alive and in range the build's work pauses, and the gate loses work in proportion: at most 30 minutes of work for a wave, and never below the start of the stage it is in. A wave ends when it has taken its share, when it is dead or after 10 minutes. The lines say "The frame is under attack.", "The frame lost N min of work." and "The frame held."
+  - **The crossing is hard.** In the model a crew of three level 8 pilots takes 10.9 million damage in the four waves and holds 0.83 million, and the smallest crew that lives on its own hulls is 19: **the crossing is won by killing and running.** If all 78 were killed they would pay 3.63 million Credits and 9,630 Thulium, but a crew does not kill them all in the 120 seconds: in the model a crew of 20 kills about 43 of the 78 and takes about 1.1 million Credits and 2,900 Thulium, less than the 5,000 Thulium that the opening pilot pays, and no crew size gets the fee back from the crossing's own kills.
+  - **The Tesseract Swarm moved** to the mirror of its place on Danger Sector 4 (25,900 / 11,900; it stood at 25,900 / 6,100) so that the gate does not stand in its roaming disc. The rim points of quests 161, 180 and 184 and of Signal 17 moved with it.
+
+- **Last Light.** A safe zone of 3,000 units in the middle of DV-1, with no PvP. A floodlight of 5,000 units is true light, and a broken ring of crystal with four gaps, the Lantern Wall, stands round it at 3,600 units. Four laser turrets and a rocket battery shoot aliens; they never hurt a pilot and pay nobody. A heal ring of 1,200 units restores 2 % of your total HP a second while you are in the safe zone. A portal takes you back for nothing, to your own world's Void Gate in Danger Sector 4.
+  - **Mission Control** (1,600 units from the tower) holds the Lost Expedition and the daily contracts. **The Xenolab** (1,600 units) does the research. **The Quartermaster** (within 1,600 units of the tower) sells laser ammunition, rockets (the four Common rockets, Ricochet and Flares at 25,000 Credits, at most 20 carried) and Repair Drones, at the Shop's prices with your Commerce discount. They are Shop goods and cannot be traded.
+  - **The Lost Expedition** is a quest chain of ten steps, permanent like the Signals; it ends at the Listener. Each step pays 1,590,000 Credits and 11,900 Thulium at Alpha's rate (twice that in Beta, three times in Gamma) and one Dark Matter Plate in every world. Step 9 opens the Throat's door for you alone.
+  - **Ten daily contracts**, three of them on the board each day, the same three for every pilot (the day rolls at 00:00 UTC), once you have done First Light, the chain's first step. They are Revenant Hunt, Mite Sweep, Shade Hunt, Void Cull, Nest Clearing, Light the Way, Hold the Light, Angler Trap, Snuffer Sweep and Leviathan Hunt. Each pays 397,500 Credits and 2,975 Thulium at Alpha's rate and 5 to 12 Dark Matter, and three of them a Dark Matter Plate. **A day's three contracts pay 1,192,500 Credits and 8,925 Thulium in Alpha, 2,385,000 and 17,850 in Beta and 3,577,500 and 26,775 in Gamma**, and 25 Dark Matter and a plate in every world.
+- **Davidski's camp at the Breach.** He is where you land, and he cannot be killed: a shot at him is answered by 2 or 3 shots of 300,000, and a cloak does not help. A few dialogues explain the dark. His first quest is **a recording**: the camera leaves your ship and follows a scripted flight of the *Calloway*, which shows each rule of the dark and ends with her consumed by the Monster. The first viewing takes 15 seconds at least; a later one can be skipped at once. He sells **Flares for 30,000 Credits** and the **Organic Scanner I for 250,000 Credits**.
+- **Lanterns.** 78 on the map. Click a Lantern within 400 units to kindle it: a dark Lantern takes a 3 second channel that a hit on you breaks, and the 1 Dark Matter it takes is taken when the 3 seconds end; adding Dark Matter to a Lantern that already burns is instant. **1 Dark Matter burns for 10 minutes; anyone can add more, up to 60 minutes in the tank.** Its circle of 2,500 units is **true light**, which the aliens of the Void keep out of. In the last minute it flickers and pilots within 6,000 units get a line. A Lantern has 300,000 hull and no shield; **Snuffers and pilots can destroy it** (a pilot's shots pay nothing, and a line says who put it out), and a broken Lantern goes dark, loses its fuel and can be kindled again after 3 minutes. You lock a Lantern like a ship: a single press targets it, a double press or the attack key fires, and Esc, a right click or another target cancels. Last Light and the Breach are lights that never go out. The first kindle of each Lantern gives 1,000 experience, and a Lantern you have found shows its state on your minimap.
+  - **Snuffers** are pale, weak aliens that ignore pilots and come in waves to eat lit Lanterns: the first wave 2 minutes after a Lantern is lit, then every 3 minutes, 3 Snuffers plus one for every 10 minutes of fuel in the tank, at most 8 at one Lantern. Each one that reaches a Lantern hurts it for 2,500 a second and burns 3 seconds of its fuel a second.
+- **Fear and the Monster.** Fear is a bar of 0 to 100 % beside your hull and shield and under your ship on DV-1. It starts again at 0 when you die, cross or log in.
+
+  | Source | Fear |
+  |---|---|
+  | Being in the dark | +0.8 a second (1.5 times that with your light off) |
+  | Flying | 0 up to 350 units a second, +1 a second at 1,000, in a straight line and with no top |
+  | A laser volley | +0.15 |
+  | A rocket | +4 for a normal one, +8 for a special one, +15 for a N.U.K.E. or N.I.K.E. |
+  | A groupmate within 1,000 units | the dark's rate -20 % for each, at most -40 % |
+  | In true light | -10 a second, and nothing adds |
+
+  Four Pilot Skills each cut one source by up to 20 % at level 100: Grit, Thruster theory, Laser tech and Rocket tech. **At 50 %** aliens notice you from 1.5 times as far and whispers reach the edge of your screen (one every 45 to 90 seconds). **At 75 %** the strongest aliens within 8,000 units come hunting you and the Deep Masses leave their posts. **At 100 % the Monster comes**: a swarm of tentacles at speed 750 that appears about 3,000 units from you, outside your cone, goes through walls, can never be killed and consumes the ship at once, shield and cloak or not ("consumed by the dark" in the kill feed). It never enters light: when your Fear starts to fall it turns and is gone within 10 seconds.
+- **Radiation, weather and walls.**
+  - **Void Blooms** are radiation fields that glow, so you see more in them and pay in hull. There are **13, with a radius of 4,000 to 7,500 units (8,000 to 15,000 across)**. A Bloom works like the black hole: **1 % of your ship's maximum hull a second at its rim and 4 % at its heart**, taken straight out of the hull (your shield does not soak it and is not touched; 25 seconds from a full hull at the heart, 100 at the rim), through a cloak, lowered by the Radiation tech skill, with the black hole's one gauge, warning and Geiger counter. If you log in inside one you are put at its rim, and **a course you click is planned round the Blooms and the Storm** by the way that costs the least dose.
+  - **Three gravity sinks** stand in the Maw, each a black hole at half the size (horizon 150, pull 1,500, radiation 2,000 units).
+  - **A Static Storm** of 3,000 units drifts across the map at 60 units a second for 10 minutes, every 20 to 40 minutes, announced 30 seconds ahead. It burns 1 % of your ship's maximum hull a second, straight out of the hull (the shield does not help), and halves your cone.
+  - **Blackouts.** Every 20 to 30 minutes a heartbeat warns, and 5 seconds later every light on the map (your cone and halo, every Lantern and every flare) shrinks to 40 % for 20 seconds while Revenants come in numbers. Last Light's floodlight and the Breach's light are left alone.
+  - **Crystal.** The crystal of the Lattice can be shot apart with lasers (not rockets): each edge has 120,000 hull, grows back whole after 30 minutes and pays nothing. The Throat is sealed by a wall of living crystal that opens for you alone at step 9 of the Lost Expedition.
+- **The creatures of DV-1.** The Slumbering Void is the swamp's alien at Void strength, and the **Deep Mass**, a heavy, slow guard of the Maw, is a kind of its own (the Inert Mass of the swamp is unchanged). The kinds made for the Deep Void and its bosses have a shield of 5 times their hull, and **every creature of the Deep Void, the bosses too, absorbs 90 % of a hit with its shield** (the aliens of the swamp and of the worlds keep 80 %), so penetration pays. **The small ones hit hard:** the Slumbering Void, the Lurker, the Angler and the Shade fire 15,000, 15,000, 20,000 and 17,500 a shot, a Lurker's bite is 150,000, a Deep Mass's Lance 25,000 to 40,000, a Revenant drains 62.5 % of your shield and 12.5 % of your hull a second (a ship with no shield dies in 8 seconds) and each Void Mite drains 5 % of your shield and then 2.5 % of your hull a second (a full cloud takes a shield in 1.7 seconds). The bosses, the Monster, the Dormant Swarm's visit and the Snuffer's bite at a Lantern are not among the small ones. What each does:
+
+  | Creature | What it does |
+  |---|---|
+  | Lurker | an ambusher that sits in the dark and wakes when you come near, or touch it running dark; Anglers call them |
+  | Angler | a trap: a false Lantern, shown on your map as one, that calls Lurkers when you come near |
+  | Revenant | a wreck that moves only while no light is on it: your cone or a Lantern holds it still (a flare does not), the halo of the pilot it hunts does not; it drains shield and hull; a Blackout makes it faster |
+  | Void Mite | a cloud drawn to the brightest ship (a flare draws it nowhere); each mite drains your shield and, once it is gone, your hull, and its damage shows as numbers |
+  | Shade | looks like a pilot (its name is a few glyphs of noise) until a ship is close, and covers itself again after 20 seconds |
+  | Snuffer | eats lit Lanterns (above) |
+  | The Monster | comes at Fear 100 % (above); it cannot be killed |
+
+  **The Void's small aliens are many:** 150 Slumbering Voids, 90 Lurkers, 50 Revenants, 15 Shades and 5 Void Mite clouds (20 mites each) stand on the map, besides 14 Deep Masses and 8 Anglers. In the model an hour of hunting Slumbering Voids, Lurkers, Deep Masses and Anglers pays a crew of 3 level 8 pilots (x2 ammo, 25 % penetration) about 14,500 Thulium for about 37 kills, a crew of 5 about 22,000 for about 55 and a crew of 19 about 50,800 for about 128. The aim was an alien within 20 seconds of flight along the whole route, and **it was not reached** (see Known limits).
+  **A creature you shoot from the light fights you.** A Slumbering Void, Lurker, Angler, Revenant, Void Mite or Shade that you hit while you stand in true light (a lit Lantern's circle, say) takes you as its target for 10 seconds after your last hit: it comes into the light and attacks you, and a Revenant is not frozen by the light you stand in. A hit from the dark changes nothing, a pilot beside you who did not shoot it is left alone, and Last Light's floodlight and the Breach's light never give way. The Deep Mass, the Dormant Swarm and the bosses are not provoked. The 10 seconds are one number in `DeepVoidAliens.json` (`provokedSeconds`).
+- **The bosses of the Deep Void.** You find them in the dark.
+  - **The Leviathan** roams the Silent Expanse: a worm about 10,000 units long whose body hurts every ship it passes through and whose 40 segments fire lasers. **Each of its 42 parts (head, 40 segments, tail) has its own hull and shield**: the head a fifth of the worm's total, the 40 segments together two thirds and the tail two fifteenths. A dead part cuts the worm into living pieces that go on fighting. It is one boss with one kill, paid when the last part dies, and it comes back 8 hours after.
+  - **The Drowned Flagship** lies in the Graveyard, a boss in three phases that follow the lower of its hull share and its hull-and-shield share. Broadsides from the start; **Lights Out** from two thirds to one third of its health (every pilot in reach loses his light for a few seconds, and so do the Lanterns and flares there); below one third its breaches leak Void Mites. What it raises pays nothing.
+  - **The Listener** is a large crystal ear in the Throat. It hears: every volley and rocket fired near it adds Noise to you, and at enough Noise it may pick you for a heavy beam that a wall, true light, a cloak or leaving its reach breaks. Running dark for a while without a shot clears the Noise. Range is counted to its middle, so lasers reach it only from close in.
+  - **The Dormant Swarm** visits the Silent Expanse once a day and stays 90 minutes (until it is destroyed if anyone has fought it). Nobody announces it.
+  - Nine new drops belong to the new kinds, and none of them can be sold at the Auction. Three are materials of the Scanner II: Lurker Fang (a Lurker), Angler Lure (an Angler) and Leviathan Scale (the Leviathan). Six are collectibles for now and have no recipe: Revenant Ash, Mite Swarm Core, Shade Mask, Flagship Log, Listener Shard and Void Coordinates. The Listener's kill gives one Void Coordinates (the item itself changes nothing). DV-2 is a dimmed "???" on the Deep Void galaxy page for everybody; once your step 10 of the Lost Expedition (the Listener's kill) is done, its page also reads "The Void Coordinates point here."
+- **The Traveler's Guide.** A bestiary with an entry for every alien, each tier its own, that starts as "???". **The Organic Scanner** takes a 5 second beam and recharges in 10 seconds, and **an attack on your ship while the beam holds interrupts it** ("Scan interrupted: you were attacked."): the scan counts nothing and costs no recharge, and you can start again at once. A hit from a ship or an alien, or the drain of a Void Mite, a Revenant or a dungeon boss's Absorb, is an attack; flying, firing, radiation and the other hazards of a place are not. Taking the scanner off, or fitting a worse one, ends the scan. **Five scans of a kind open its entry** and teach you its hull, shield, damage and speed (marked with a scanner symbol). The Organic Scanner I reaches 1,500 units; the **II reaches 2,250 and counts each scan twice, and every alien of the Deep Void asks for it.** The scanner has a hotbar slot, SCN, that you drag from the Extras picker; it has no key of its own but its slot's.
+  - **Hunting teaches too.** Destroy 10 aliens of a kind (3 of a boss; a tiered kind counts each tier on its own) and the Guide fills in its Spoils page and its hull, shield, damage and speed, with no scan and no plate. The Guide window counts your kills and tells you when one teaches you something.
+  - **The Xenolab** at Last Light researches the rest on Dark Matter Plates: a Vitals line takes 6 minutes, a Behaviour or Spoils line 24, a boss's twice that, and a plate lasts 24 minutes. Absorbance, aggro radius, return time and the Behaviour page are the Xenolab's work whatever your kills have taught you. The wiki prints an alien's numbers only for what you have learned or researched.
+  - **Making the scanners.** The Scanner I is crafted after a research of 30 minutes: 60 Ship Fragments, 2 Power Cores, 5 Orvium Reinforced Plates, 1 Ancient Control Unit, 20,000 Credits and 10,000 Thulium. The Scanner II (research 2 hours) takes 1 Scanner I, 1 Leviathan Scale, 2 Lurker Fangs, 2 Angler Lures, 50,000 Credits and 20,000 Thulium. Davidski sells the Scanner I.
+  - **The Skylab's Museum** is the fifth page of the Skylab. Each entry has five body parts named after the alien (Claw, Eye, Hide, Core, Crest), and each part you have unlocked makes you deal more damage to that kind in that tier: **+7.5 %, +15 %, +18.3 %, +21.7 % and +25 %** with one to five parts. It works on every alien that has an entry in the Guide and can be destroyed: the ordinary aliens of the worlds' maps (each tier its own), swarm members and leaders, the swamp's aliens and the Unwakened, Clan Wardens with their drones, escorts and guards, the aliens and the Warlord of the clan dungeons, the aliens and bosses of the solo gates, Davidski, and every creature of the Deep Void except the Monster. The Scanner I allows parts 1 and 2; only the II finds parts 3 to 5, so the full +25 % needs the II. A kill rolls for a part on the entry that a scan of the victim opens, for each pilot it pays, on his own. The base chance of a part a kill is the group's:
+
+    | Group | An ordinary alien | A boss |
+    |---|---|---|
+    | The worlds' maps (tiers alpha, beta, gamma, delta) | 1.11 %, 0.83 %, 0.69 %, 1.04 % | none |
+    | Swarms | 1.39 % | 20 % (a swarm leader) |
+    | The Dormant Swamp | 2.08 % | 20 % (the Unwakened) |
+    | Clan Wardens | 1.39 % (drones, escorts, guards) | 20 % |
+    | Clan dungeons | 1.25 % | 41.67 % (the Warlord) |
+    | Solo gates | 1.67 % | 41.67 % |
+    | Davidski | none | 41.67 % |
+    | The Deep Void | 1.25 % | 20 % |
+
+    The Slumbering Void of the Deep Void has the swamp's entry (one entry for one name), so its parts come at the swamp's 2.08 %. In the model the full set of one Deep Void kind takes about 10 hours of hunting and about 25 kills of a boss.
+- **The wiki** has a Deep Void page, a Traveler's Guide page and a Special Abilities page, and the Dormant Swarm, Rockets (Flares), Ranks (Deep Mass), Dungeons, Clans (the Wardens' steps and crew tables), Solo Gates and Skylab pages say the new rules, in 13 languages.
+- **Mob special abilities.** Aliens and bosses of the worlds' maps can carry an ability, and 23 named bosses have a ladder.
+  - **A special** is rolled once when an alien appears: **5 %, 10 %, 25 % or 50 %** at tier alpha, beta, gamma or delta, and twice that for the leader of a swarm of the map. It carries one ability and fires it once, when its hull falls below half in a fight. **Nothing of it is shown before it fires**: the alien is a plain alien until then, and it pays what a plain alien of its tier pays. The kinds that can carry one are Seekers, Phantasms, Bulwarks, Goombahs and Crystalys, and the Pirate Boss, Boss Seeker, Boss Phantasm, Boss Goombah and Boss Crystalys. The Dormant Force and the Tesseract have ladders instead, and the Deep Void's aliens carry none. When an ability starts, a ring closes on the alien, a word and a line show in its plate and a sound plays; a Target window row says "Special: ..." for the rest of its life.
+  - **The 13 abilities** and the tiers that can draw them (a light kind, a Seeker or a Phantasm, gets weaker numbers):
+
+  | Ability | What it does | Alpha / Beta / Gamma / Delta |
+  |---|---|---|
+  | Regenerate | restores a share of its hull and shield over 6 seconds; a burst of damage breaks it | 15 / 20 / 25 / 30 %, all tiers |
+  | Shield burst | a fresh shield layer of that share of its hull that soaks every hit until it breaks or 10 seconds pass | 15 / 20 / 30 / 40 %, all tiers |
+  | Hardened plating | takes half damage for a time | 6 / 7 / 8 / 10 seconds, heavy kinds, Beta up |
+  | Enrage | its damage multiplied for 10 seconds, its speed by 1.25 | x1.3 / 1.4 / 1.5 / 1.75, all tiers |
+  | Call reinforcements | adds that hold a share of its hull and shield | 25 / 35 / 45 / 60 % (2, 3, 4 or 6 adds), heavy kinds, Gamma and Delta |
+  | Clones | clones of it for 15 seconds, the real one marked by a thin ring | 2, 2, 3 and 3 clones that hold 12 / 12 / 18 / 18 % of its hull and shield between them (6 % each), Gamma and Delta |
+  | Flee and return | flies away at twice its speed | 5 / 6 / 7 / 8 seconds, all tiers |
+  | Life drain | heals a share of the damage it deals, up to 20 % of its hull, for 10 seconds | 50 / 75 / 100 / 100 %, heavy kinds, Beta up |
+  | Nova pulse | its volley multiplied, to every ship inside a ring when it lands | x3 / 3 / 4 / 5, rings of 500 / 600 / 700 / 800 units, heavy kinds, Gamma and Delta |
+  | Rocket barrage | rockets of its own over 3 seconds | 3 / 4 / 6 / 8 rockets, heavy kinds, Beta up |
+  | Veil | a cloak that hides it beyond 700 units | 4 / 5 / 6 / 8 seconds, heavy kinds, Gamma and Delta |
+  | Sow mines | lays mines round its target | 3 / 4 / 6 / 8 mines, heavy kinds, Beta up |
+  | Split | an ordinary small alien of its kind's last tier that you destroy within 5 seconds of the first hit breaks, with a chance of 25 %, into 3 smaller aliens that carry nothing and cannot split | each fragment pays as a plain alien; at most 60 on a map |
+
+  - **Ladders.** Each of 23 named bosses has three steps, at 100, 66 and 33 % of its hull, each with its own move and its own line: the Pirate Boss, Boss Seeker, Boss Phantasm, Boss Goombah, Boss Crystalys, the Dormant Force, the Tesseract, the three Brood Wardens, three Siege Wardens and three Wrath Wardens, the Warlord of the clan dungeons, and the six gate bosses (Enhanced Phantasm, Enhanced Bulwark, Elite Crystalys, Siege Construct, Omega Guardian, Evil Davidski).
+  - **The Tesseract keeps its Facets.** Its ladder has one move: at two thirds of its hull it releases one extra batch of twenty Facets, once, and after that nothing takes a Facet away; they stand until you shoot them.
+  - **The six gate bosses are re-struck with their ladders.** With the ladders on, which is the default, the solo gates' bosses have these numbers (in brackets, what they were in 0.5.11). The Omega Guardian's hull, shield and laser did not change: only its steps moved, from 70 and 35 % of its hull to 66 and 33 %.
+
+    | Boss | Hull | Shield | Laser (a volley) | Shield recharge |
+    |---|---|---|---|---|
+    | Enhanced Phantasm | 270,000 (330,000) | 220,000 (530,000) | 5,900 to 7,200 (5,700 to 7,000) | 100 (200) |
+    | Enhanced Bulwark | 650,000 (690,000) | 160,000 (170,000) | 4,600 to 5,600 (4,500 to 5,500) | 100 |
+    | Elite Crystalys | 510,000 (620,000) | 200,000 (250,000) | 3,900 to 4,800 (3,800 to 4,700) | 100 |
+    | Siege Construct | 1,130,000 (1,150,000) | 1,700,000 (1,730,000) | 3,500 to 4,300 (3,400 to 4,200) | 700 |
+    | Evil Davidski | 6,100,000 (5,500,000) | 7,300,000 (6,600,000) | 7,800 to 9,600 | 2,900 (2,600) |
+
+    Their moves are re-struck with the steps too: the Siege Construct's meteors hit for 2,800 in its first step and 10,000 after (5,500 before), and Evil Davidski's rocket barrage hits for 58,500 a rocket in his second step (14,700 before). With `MOB_ABILITIES=off` the numbers of 0.5.11 come back. The Traveler's Guide tells the numbers of the boss you fight.
+  - **The fights are longer and pay the same.** With the ladders and the specials on, a minute of fighting a swarm boss pays less than before, and the model has re-fitted the bands: the Boss Crystalys Swarm in Gamma on x2 asks 16 level 8 pilots (12 without the ladder) and the Tesseract's raid 13, 19 and 25 level 8 pilots on x2 in Alpha, Beta and Gamma (12, 18 and 24 without it). Nobody has fought the ladders outside tests and the model. The Clan Wardens' crew table was re-struck for the ladders (the model flew them): a Siege Warden now asks 1 to 6 pilots more at full strength (Siege I 65 instead of 59, Siege II 50 instead of 44, Siege III 35 instead of 34) and the others move by one pilot or less. The Warlord's fight runs about 5 % longer (a party of five: 3.7 to 3.9 minutes in Alpha) and a whole clan dungeon 0.2 to 0.5 minutes longer, far inside its limits.
+- **Miyuki Revive.** Every Miyuki level has it as its last button (the minus key from level III). For 30 seconds after a pilot of your group or company is destroyed, his ship stays on the map as a broken-down ship that only his friends see. Click it (or press the button with it nearest) and stay within 600 units for 10 seconds: he is back where he died with 30 % of his hull and no shield, protected as after a respawn. A hit on the Miyuki, an EMP or flying out of reach breaks it. It rests 120 seconds after it completes. **It does not work on Deep Void maps, in clan dungeons or in solo gates** (a death in the Deep Void still sends you home), and the death screen counts the 30 seconds down for the pilot.
+- **The title bar (Windows and macOS).** The game's picture fills the window's title bar. On Windows the window keeps what a title bar does (dragging, double click, Snap Layouts, Aero Snap, resizing from every edge) and the game paints minimise, maximise and close at the top right. On a Mac the system's traffic lights stay at the top left, and dragging or double clicking the empty strip moves or maximises the window. In flight the game owns the whole strip: a double click on an alien in it fires, a right click turns the camera, and a windowed game cannot be dragged by the strip during a flight (the other screens can). **To switch it off** (Windows and macOS) set `SPACECORPS_NO_CUSTOM_TITLE_BAR=1` or `"custom_title_bar": false` in `client.json`. Linux, the web version and the phones are as before.
+- **Hide my equipment.** Settings > Account has a new Privacy card with one switch. While it is on, other pilots who open your profile see your ship turning, rank, level, kills, clan, title, pictures and icon, your boosters, season buffs, Pilot Skills and P.E.T.s, but not what is fitted to your ship or drones nor the combat numbers those give: they read "This pilot keeps their equipment private." Administrators always see it, and your own profile shows yours with one line that others cannot. The switch is off until you turn it on, it saves at once and the server enforces it (an older game, the web version or a phone cannot turn it off by saving its settings). **What a ship shows in flight to the pilots in its sector stays visible** (its model, look, speed, hull and shield, drones, and the damage its shots show), and so do the rows of the Group window. It stays through a wipe. It cannot be changed while your ship flies on a regional server.
+- **Typing Chinese, Japanese and Korean on a computer.** The window's input method is on while a text field has the keyboard (never for a password), the composition shows in the field underlined until you commit it, and the candidate list opens at the caret. **Written from the engine's source and tested headless; not yet tried with a real input method on a real desktop.**
+- **The route to Home is picked by measurement.** The desktop downloads and the Android and iOS apps (not the Steam build and not the web version) time three requests of `/health` to the direct address and to the second address `play.spacecorps.xyz`, behind Cloudflare, once at each start, and use the second only when it is at least 30 % and at least 40 ms faster. A typed address is never moved. The pick is kept in `client.json` and shown in About, Game Server ("Route: direct (picked automatically)"); a picked address that does not answer falls back to the other. The clock after which a jump's own despawn is read as "taken over by another session" is 8 seconds, not 2, and the map frame the server sends on arrival is about six times smaller (about 66 KB to 12 KB).
+- **Davidski and his missions.** A kill of Davidski on a US East or Singapore server now counts for the missions that name him; it counted for nothing before, because the pay gate threw the kill away. The pay stays on the home server only, and nothing ever carried over. A kill at Home that his pay limits cap counts for the missions too. The node's message and the wiki's Servers page now say plainly that his rewards are paid only on the home server.
+- **Owner orders of 24 to 28 November.**
+  - **Clan dungeons.** Paid clears a week are **14** (10 before), so a pilot at the cap can take **192.5 million Credits and 336,000 Thulium a week** for the clears (seven at stage 3, seven at stage 2; it was 152.5 million and 264,000 at 10 clears). One paid clear of a stage a day is unchanged. The normal shards double: a clear gives 24, 16 and 16 Echo Shards (12, 8, 8) and 10, 12 and 14 Lattice Shards (5, 6, 7) at stages 1, 2 and 3, and the Echo Shards in the dungeon aliens' boxes are doubled. **The Radiation Donut** is a new ability of the Warlord: three concentric ring zones round it, lit from the boss outward 1 to 2 seconds apart, each burning 8 % of your maximum hull a second for 2, 3 or 4.5 seconds by stage; the rings burn together, a cooldown of 75 seconds.
+  - **Trade limits twice as high.** The Market's daily caps, by level: level 5 18,000,000 Credits and 90,000 Thulium (9,000,000 and 45,000), level 8 34,000,000 and 170,000, level 10 60,000,000 and 300,000, level 13 and up **80,000,000 and 400,000** (40,000,000 and 200,000); the cap between two pilots is **32,000,000 Credits and 160,000 Thulium** (16,000,000 and 80,000). **The clan bank's three limits are doubled too:** the daily donation cap, the payout limit (2,000,000 Credits a day for each level of the clan) and the daily bonus a member can be paid are 2,000,000 Credits (1,000,000).
+  - **Flares are thrown.** A Flare is thrown toward the cursor up to 1,000 units, hangs there burning for 10 seconds and pulls every guided rocket locked on a ship within 800 units onto itself (a Support Rocket is not pulled); it lights 700 units to see by. **In the Deep Void a flare is a light and a rocket decoy and nothing more: it is not true light, so it holds no creature off.** The aliens and the bosses attack a pilot under a burning flare as if it were not there, Void Mites are not drawn to it, a Revenant is not frozen by it, Fear does not ease in it and the Monster does not turn away from it; a Lantern, Last Light and the Breach keep all they did. The throw still breaks the guided rockets locked on you. The Shop, Davidski and the Quartermaster sell them.
+  - **Percentages of hull.** The black hole's radiation, the radiation zones of the N.U.K.E. and the Toxic poison no longer touch an alien with more than 1,000,000 hull, and Toxic takes an alien's hull only. **The blast of an area rocket and a radiation zone hurt the members of the shooter's group for half and credit nobody**; a Peace Protocol or a no-PvP sector does not spare them (a direct hit or a lock still spares a group), and a clan dungeon or gate party is hurt too.
+  - **The Shop's percentages.** The Shop rounded every percentage to a whole number while the item card kept one decimal: the Adaptive Core I read "2 % speed" and gives 1.5 %, the Adaptive Core II "3 % / 6 %" and gives 2.5 % / 6.4 %. The Shop now prints what the item card prints.
+  - **Stealth.** A ship that flies under its own move order counts for Stealth for up to 5 minutes after the last order (a long flight on one click stopped earning after 60 seconds); a parked ship still stops at 60 seconds.
+  - **The market.** The fill sheet of a buy order opens at the most lots that can go, and a partly marketable stack says "N of M can be sold".
+  - **Quests.** The sector pill of a kill, a patrol or a rock break names the other companies' maps it also counts on, and the help says how one kill counts: for one level mission (the tracked one, or the first) and for every Signal and Challenge that asks for it.
+  - **Admin tools (administrators).** The Admin menu (F9) has a Void tab: the Breach, Last Light and the Void Gate, Admin sight (the whole dark map, for the admin only), a pilot's Fear, the Lanterns, a mob ability forced on a locked alien, the gate's tools and the swamp's. An administrator can no longer spawn the Leviathan, the Flagship, the Listener, a Snuffer or the Monster by hand.
+
+- **Body parts drop in the alien's cargo box, and you research them at the Xenolab.** When you destroy an alien of an entry you have opened (with a fitting Organic Scanner), it can drop one part you do not have yet in a box that only you can take; pick it up, fly to Last Light and press Research on it in the Xenolab's panel. The part is used up and takes one place in the queue and one Dark Matter Plate of the clock (24 minutes; two plates for a boss's part), and when the research is done you deal more damage to that kind: +7.5 % for the first part up to +25 % for all five. A part you only carry gives no damage, and it cannot be sold, traded or put on the Auction. The Skylab's Museum page shows each part as empty, in your cargo or researched.
 
 **Changed**
-- **The balance list.**
-  - **Hull Plating** gives **7,000, 14,000 and 20,000** hull (I, II, III; 8,000, 15,000 and 25,000 before). A Hull Plating III at the top of the Forge adds up to 23,000. A full set of III adds 100,000 on a Paragon (5 slots), 160,000 on a Storm (8), 300,000 on an Ironclad (15) and 200,000 on a Wraith (10); 125,000, 200,000, 375,000 and 250,000 in 0.5.10.
-  - **Hull plate slots.** Every ship has them now: the **Protos, Kitefin, Ostirion and Nomad have 3, open from the start** (a full set of III adds 60,000 to each); the ships you craft have more, locked until you research them in the Skylab.
-  - **Damage Amps** add **12, 20, 30 and 45** base damage (10, 16, 26 and 38; the critical chance and the fixed critical damage are as before). **Penetration Amps** add **7, 15, 20 and 25%** (5, 10, 15 and 20). Three Penetration Amp IV in every laser make 75% (100% with the Fusion Core and a Gemini added), and the Damage Amp I now beats the Crit Amp I on every laser.
-  - **The Wraith MATT** has +5% laser damage on top of its +2 laser slots, -20% shields and +10% laser penetration.
-  - **The Miyuki** is 20 base speed slower at every level: 250 at levels I to III and 300 at IV and V.
-  - **Rockets.** Every rocket's blast is a quarter smaller in radius and every rocket flies a tenth farther (Ember II keeps its range of 2,030). Lancet I, II and III fly at 800, 900 and 1,000 units a second, Rivet at 700, 750 and 800, Ember at 600, 700 and 800 and Scatter at 500, 550 and 600; every special rocket flies at 1,000 except the N.U.K.E. (300). Ember I, II and III blasts are 259, 338 and 371 units, Scatter I, II and III 326, 450 and 495, the N.U.K.E. 1,013 and the Gravitational N.U.K.E. 525. The N.U.K.E. flies 4.4 seconds and a launch waits 4.5 seconds after it (4.1), and the N.I.K.E. flies 4,455 units and can be fired from up to 4,785 units from the black hole's centre. The rockets of the Pirate Boss and of the Dormant Swamp's turrets use the new numbers too.
-  - **The clan lines' work targets** are 0.4 to 3.5 % lower (the model was run again with the new amps), so a step of a clan line asks for a little less work.
-  - **The rest follows:** the Builds page's recommended builds, the Skylab's expedition lasers (a trip's hull lasts a little longer in the preview), and the wiki pages for ships, lasers, rockets, shields, the Forge, combat, Dark Matter and the black hole are worked out again from the new numbers, in 13 languages. Asteroids no longer stand within 1,550 units of a safe ring (1,500).
-- **Unequip all** is the last thing of the Hangar's left column (in the Spaceship and in the Drones view), no longer on the toolbar right under Launch: a click aimed at Launch could take your whole configuration off. It works and is switched on and off by the same rules. At 1280 x 720 you scroll to it. The Hangar window in flight has it at the same place.
-- **The Recipe Book** opens a tree of at most 60 nodes whole. The last level of the Laser Optics V and of the Miyuki V was folded.
-- **The Archivist** (research all technologies) asks for **210** now (209): the Protosaur's technology is the 210th. A pilot who has earned it keeps it; one who had all 209 sees 209 of 210 until he researches it. **Schematics** finish 188 of the 210 technologies with one use. The technologies of the game ask **1,614** Dark Matter in all (1,604), 133 of them (132).
-- **Davidski's Nightmare:** the golden escort of Angry Davidski is one golden ship for each ship of the game, so it is **27** golden ships now (26), the Protosaur's among them. A kill of a Protosaur is worth the Protos's ranking weight (10).
+- **Fights against swarm bosses are longer** (the ladders and the specials above). A minute of one pays less than before; the pay was left as built.
+- **Five of the six solo gate bosses** (all but the Omega Guardian, whose steps only moved) have other hull, shield, laser and shield recharge numbers with the ladders on (the Enhanced Phantasm has 270,000 hull and 220,000 shield, it had 330,000 and 530,000; the table is under Mob special abilities).
+- **The Tesseract Swarm stands at 25,900 / 11,900** on Danger Sector 4 (it stood at 25,900 / 6,100), and releases one extra batch of 20 Facets at two thirds of its hull.
+- **The Dormant Swamp:** with the Deep Void on, the Unwakened can be killed and its three guns (the rocket turret and two laser turrets) can be targeted and destroyed (1,500,000 hull each in Alpha). They said "cannot be hurt" before.
+- **Radiation and percentages of hull:** the black hole, the N.U.K.E.'s zone and Toxic spare an alien with more than 1,000,000 hull; Toxic takes an alien's hull alone; a blast and a radiation zone hurt your own group for half.
+- **Flares** are thrown, burn 10 seconds and pull guided rockets (above).
+- **The Archivist** (research every technology) asks for **212** technologies (210): the two Organic Scanners' are the 211th and 212th. A pilot who has earned it keeps it; one who had all 210 sees 210 of 212 until he has researched them.
+- **Clan dungeons:** 14 paid clears a week (10), the normal shards twice as many, and the Warlord has the Radiation Donut.
+- **Trade:** every limit twice as high (the Market's daily caps and the cap between two pilots, the clan bank's donation cap, payout limit and daily bonus).
+- **The Shop's percentages** print what the item card prints (1.5 %, not 2 %).
+- **Stealth** counts a ship that flies under its own move order for up to 5 minutes after the last order.
+- **The map frame** a server sends on arrival is about six times smaller (about 66 KB to 12 KB) and holds no other pilot's connection or user number.
+- **The window:** on Windows and macOS the game's picture fills the title bar.
 
 **Fixed**
-- **The emote wheel at Home** (see New): it did not work there in 0.5.10.
-- **Login card on a phone** (see New): the server list was behind the screen.
-- **The Ship window's formation chip** lost its letters in a narrow title bar (Auger's "AUG" showed the icon alone).
-- **The search boxes** of Research and Assembly: the magnifier touched the text.
-- **Clean Sweep** counted kills on another company's x-4 (see New).
-- **The recipe book's folded last level** (see Changed).
+- **"Your ship was taken over by another session" after a jump**, on a slow or lossy line (16 false kicks in 1,528 jumps over 15 hours at Home). The server part was deployed on 2026-11-22: a jump no longer sends the jumper his own despawn. 0.5.12 adds the 8 second clock, the smaller frame, a frame that cannot hold a number the wire cannot carry sent as 0, and the route measurement above.
+- **The Dormant Swamp's guns** could not be targeted ("no hitbox"): a press on one targets it, its hull shows on arrival, a single press near a gun replaces your target, a targeted gun wears the same red lock ring as an alien, and a press on its drawn model picks it.
+- **The Shop's rounded percentages** (above), and the Hangar's help card for Hull Plating, which still said 8,000, 15,000 and 25,000 hull where the item and the Shop say 7,000, 14,000 and 20,000.
+- **Wiki and help texts** that said the wrong thing: the swamp's guns "cannot be hurt", and how one kill counts for missions.
 
 **If you already play**
-- Update the game; Home and the regional servers go live together. A game from before 0.5.11 keeps working and misses the new screens: it shows letters for pictures and icons, draws no radiation ring and no warning line (the damage is the server's and is the same), shows the old brief text and a padlock on a step that now counts, draws a Protosaur as a Protos, and shows "49/10" for the emotes in the wheel's hub.
-- **At the update:** your fitted Hull Plating gives less hull (see above); a Protos, Kitefin, Ostirion or Nomad has 3 open hull plate slots; a Miyuki is 20 slower; an Archivist who had all 209 technologies has 209 of 210. Nothing is taken from your bank, your inventory or your ships, and it moves no Credits and no Thulium.
-- **A stay you have started** keeps its seconds. A quest whose brief changed keeps its steps and its progress.
-- **A Skylab that is out on a trip** keeps its stored schedule.
+- Update the game; Home, US East and Singapore go live together. **A game from before 0.5.12 cannot use the Void Gate or fly the Deep Void** (it does not tell the server it knows the expansion). It keeps working otherwise, and shows none of the new windows: no equipment switch (a pilot who hides his equipment shows to it as "No active ship"), the old shop percentages, no ring or sound for an ability.
+- **At the update:** a Miyuki can revive; your trade limits are twice as high; the Archivist you earned stays (210 of 212 until the two scanners' research is done); the Tesseract Swarm stands somewhere else. Nothing is taken from your bank, your inventory or your ships, and it moves no Credits or Thulium.
+- **The Deep Void is open from the first day.** A pilot needs the Dormant Keycard and a gate that his world has built, which takes Dark Matter Plates, Thulium and 24 hours (20 minutes at the most speed-up) after the first kill of the Unwakened of the season: expect the first crossings some time after the release.
 <!-- /patchnotes:latest -->
 
 ---
@@ -232,23 +321,23 @@ Verify the integrity of downloaded binaries prior to execution:
 ### macOS
 ```bash
 shasum -a 256 SpaceCorps2027-macos-universal.dmg
-# Expected: ee04200b47d0e63ea731372e2deb79bec78f02c2ecb416d0baeebc6ac6160ea8
+# Expected: d92a0f3700f7bcc8d81293f7d8124b2d58fefb270e59b18a18f03e15f146ba98
 ```
 
 ### Windows (PowerShell)
 ```powershell
 Get-FileHash SpaceCorps2027-windows-x86_64.zip -Algorithm SHA256
-# Expected: 33d3496d099d2f2275824101b9412d59317d03a9d15c654666e33f636b00d4d3
+# Expected: 02aea3432b4c17bf8dc3b8ed65b97c9ca6addedc4bce473238f5601f29dc0bbf
 ```
 
 ### Linux
 ```bash
-echo "0b3404ee9c358039e7a019d2e56867b7cf424b8dcec6a65b93704e882c112072  SpaceCorps2027-linux-x86_64.AppImage" | sha256sum -c -
+echo "9af6b24499987f57f9032c71c89f110a6051cef2d8cf4a10f47d0954659031de  SpaceCorps2027-linux-x86_64.AppImage" | sha256sum -c -
 ```
 
 ### Android (64-bit ARM, early access)
 ```bash
-echo "178ae4cb33d9fdeb7ac9a8bf8212fb2f03549182b9dd5285fb6e3c485990ef4b  SpaceCorps2027-android-aarch64.apk" | sha256sum -c -
+echo "55f2a2b3e4f63a566125f59c563d1778cca18f10c2e9773a85a9d7b9d4ac336c  SpaceCorps2027-android-aarch64.apk" | sha256sum -c -
 ```
 <!-- /release:checksums -->
 

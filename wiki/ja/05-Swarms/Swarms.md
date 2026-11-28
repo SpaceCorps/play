@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 27e04944329244c2 -->
+<!-- wiki-i18n source: 06936f8338a8306d -->
 <!-- wiki-i18n title: 群れ -->
 # 群れ {#swarms}
 
@@ -23,13 +23,13 @@
 
 | 群れ | 場所 | 数 | リーダー | 配下 | 復活 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| [**Pirate の群れ**](/wiki/05-Swarms/Pirate-Swarm.md) | 各企業の `x-2` と `x-3` セクター | 各セクターに 1つ （各ワールドに 計6つ） | **Pirate Boss** | 最大 5 体の Pirate Scout、 10秒 ごとに 新しく1体 | リーダー撃破の 2分 後、 同じセクター |
-| [**Dormant の群れ**](/wiki/05-Swarms/Dormant-Swarm.md) | 危険セクター `DS-1`, `DS-2`, `DS-3`, `DS-4`。それらの間を 飛び回る | 各ワールドに1つ | **Dormant Force** | 2 体の Dormant Pulse、 リーダーと 一緒に飛行 | 群れ全体撃破の 1時間 後、 ランダムな 危険セクター。シーズン11日目から：30分、[Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) で、どの艦も報酬は ×2 |
-| [**Seeker の群れ**](/wiki/05-Swarms/Seeker-Swarm.md) | 各企業の `x-1` と `x-2` セクター | 各セクターに 1つ （各ワールドに 計6つ） | **Boss Seeker** | 最大 4 体の Seeker Slave、 10秒 ごとに 新しく1体 | リーダー撃破の 2分 後、 同じセクター |
-| [**Phantasm の群れ**](/wiki/05-Swarms/Phantasm-Swarm.md) | 各企業の `x-3` と `x-4` セクター | 各セクターに 1つ （各ワールドに 計6つ） | **Boss Phantasm** | 最大 4 体の Phantasm Guard、 10秒 ごとに 新しく1体 | リーダー撃破の 2分 後、 同じセクター |
-| [**Goombah の群れ**](/wiki/05-Swarms/Goombah-Swarm.md) | 各企業の `x-3` と `x-4` セクター | 各セクターに 1つ （各ワールドに 計6つ） | **Boss Goombah** | 最大 4 体の Goombah Guard、 10秒 ごとに 新しく1体 | リーダー撃破の 5分 後、 同じセクター |
-| [**Crystalys の群れ**](/wiki/05-Swarms/Crystalys-Swarm.md) | 危険セクター `DS-1`, `DS-2`, `DS-3` | 各セクターに 1つ （各ワールドに 計3つ） | **Boss Crystalys** | 最大 3 体の Crystalys Guard、 10秒 ごとに 新しく1体 | リーダー撃破の 30分 後、 同じセクター |
-| [**Tesseract の群れ**](/wiki/05-Swarms/Tesseract-Swarm.md) | 危険セクター `DS-4` | 各ワールドに1つ | **Tesseract** | 最大 100 体の Facet、リーダーが攻撃されている間 5秒 ごとに 20 体追加 | リーダー撃破の 30分 後、 同じセクター |
+| [**Pirate の群れ**](/wiki/05-Swarms/Pirate-Swarm.md) | 各企業の `x-2` と `x-3` セクター | 各セクターに 1つ （各ワールドに 計6つ） | **Pirate Boss** | 最大 5 体の Pirate Scout、 10秒 ごとに 新しく1体 | リーダー撃破の {{guide:vitals.respawn@Pirate Boss#1;Pirate Boss#2;Pirate Boss#3}} 後、 同じセクター |
+| [**Dormant の群れ**](/wiki/05-Swarms/Dormant-Swarm.md) | 危険セクター `DS-1`, `DS-2`, `DS-3`, `DS-4`。それらの間を 飛び回る | 各ワールドに1つ | **Dormant Force** | 2 体の Dormant Pulse、 リーダーと 一緒に飛行 | 群れ全体撃破の {{guide:vitals.respawn@Dormant Force#1;Dormant Force#2;Dormant Force#3}} 後、 ランダムな 危険セクター。シーズン11日目から：30分、[Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) で、どの艦も報酬は ×2 |
+| [**Seeker の群れ**](/wiki/05-Swarms/Seeker-Swarm.md) | 各企業の `x-1` と `x-2` セクター | 各セクターに 1つ （各ワールドに 計6つ） | **Boss Seeker** | 最大 4 体の Seeker Slave、 10秒 ごとに 新しく1体 | リーダー撃破の {{guide:vitals.respawn@Boss Seeker#1;Boss Seeker#2;Boss Seeker#3}} 後、 同じセクター |
+| [**Phantasm の群れ**](/wiki/05-Swarms/Phantasm-Swarm.md) | 各企業の `x-3` と `x-4` セクター | 各セクターに 1つ （各ワールドに 計6つ） | **Boss Phantasm** | 最大 4 体の Phantasm Guard、 10秒 ごとに 新しく1体 | リーダー撃破の {{guide:vitals.respawn@Boss Phantasm#1;Boss Phantasm#2;Boss Phantasm#3}} 後、 同じセクター |
+| [**Goombah の群れ**](/wiki/05-Swarms/Goombah-Swarm.md) | 各企業の `x-3` と `x-4` セクター | 各セクターに 1つ （各ワールドに 計6つ） | **Boss Goombah** | 最大 4 体の Goombah Guard、 10秒 ごとに 新しく1体 | リーダー撃破の {{guide:vitals.respawn@Boss Goombah#1;Boss Goombah#2;Boss Goombah#3}} 後、 同じセクター |
+| [**Crystalys の群れ**](/wiki/05-Swarms/Crystalys-Swarm.md) | 危険セクター `DS-1`, `DS-2`, `DS-3` | 各セクターに 1つ （各ワールドに 計3つ） | **Boss Crystalys** | 最大 3 体の Crystalys Guard、 10秒 ごとに 新しく1体 | リーダー撃破の {{guide:vitals.respawn@Boss Crystalys#1;Boss Crystalys#2;Boss Crystalys#3}} 後、 同じセクター |
+| [**Tesseract の群れ**](/wiki/05-Swarms/Tesseract-Swarm.md) | 危険セクター `DS-4` | 各ワールドに1つ | **Tesseract** | 最大 100 体の Facet、リーダーが攻撃されている間 5秒 ごとに 20 体追加 | リーダー撃破の {{guide:vitals.respawn@Tesseract#1;Tesseract#2;Tesseract#3}} 後、 同じセクター |
 
 <!-- swarms-list:end -->
 
@@ -72,7 +72,7 @@ Seeker、Pirate、Phantasm、Goombah、Crystalys、Tesseract の群れは、ボ�
 
 ## 群れとの戦い {#fighting-a-swarm}
 
-- **リーダーは決して自分から戦いを始めません。** リーダーはパイロットに攻撃されるまでうろつき、攻撃されると反撃します。その近くにいる群れの艦は、最初に攻撃したパイロットに対して戦いに加わります（距離は上のルールにあります）。例外は Pirate Scout で、近づいてきたパイロットを誰でも攻撃します。リーダーは自分で船体を修復することがないので、与えたダメージは、配下が回復しない限りそのまま残ります。シールドはほかのエイリアンと同じように再充電されます。Tesseract だけは例外で、武器を持たず、数秒間誰にも攻撃されないと船体とシールドを自分で回復し、配下の Facet は最初に攻撃したパイロットを追うのではなく、Tesseract のまわりを飛び回り、攻撃したパイロットのうち最も近い者を撃ちます。
+- **リーダーは決して自分から戦いを始めません。** リーダーはパイロットに攻撃されるまでうろつき、攻撃されると反撃します。その近くにいる群れの艦は、最初に攻撃したパイロットに対して戦いに加わります（距離は上のルールにあります）。例外は Pirate Scout で、近づいてきたパイロットを誰でも攻撃します。リーダーは自分で船体を修復することがないので、与えたダメージは、配下が回復しない限りそのまま残ります。シールドはほかのエイリアンと同じように再充電されます。Tesseract だけは例外で、武器を持たず、数秒間誰にも攻撃されないと船体とシールドを自分で回復し、配下の Facet は最初に攻撃したパイロットを追うのではなく、Tesseract のまわりを飛び回り、攻撃したパイロットのうち最も近い者を撃ちます。リーダーの3つの段階と[特殊能力](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)でも、船体は回復します。
 - **群れの艦が戦うのはパイロットだけです。** エイリアンを撃たず、エイリアンからも撃たれません。[企業パイロット](/wiki/03-Mechanics/Company-Pilots.md)は群れの艦を無視し、狩ることも、あなたを助けに来ることもありません。
 - **ロケット。** Pirate Boss と Dormant Force、Pulse は、自分を攻撃したパイロットに向けて**直進**ロケット、つまり[Rivet ロケット](/wiki/06-Items/Rockets.md)を撃ちます。動き続ける艦はかわせますが、止まっている艦には当たります。
 - **戦いの規模。** Seeker の群れは2人向け、Pirate の群れと Phantasm の群れは小さなグループ向け、Goombah の群れは最強の艦のグループ向け、Crystalys の群れと Dormant の群れはその大きなグループ向け、Tesseract の群れは非常に大きなグループ向けです。上位のワールドほど、ほかのエイリアンと同じく、より多くのパイロットが必要です。

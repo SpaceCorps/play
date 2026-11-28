@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6fe66f282236a0de -->
+<!-- wiki-i18n source: b4ceac9f501a1ec2 -->
 <!-- wiki-i18n title: 单人星门 -->
 # 单人星门 {#solo-gates}
 
@@ -136,33 +136,40 @@ Chrono-Gate 的部件会在重置时归零，你每个赛季都要重新找。**
 
 Boss 是放大了的外星人飞船，有自己的船体、护盾和齐射，星门或世界的任何设置都不会改变它们。当 Boss 的船体降到表格中的数值时，一个阶段开始：它的护盾可能被重新设定，它的齐射或全部伤害会改变，并且它可能发动一个招式。每个招式都会预告：一个圆圈、一个圆环或你飞船上的标记会在落下前片刻显示。Boss 召唤的外星人不发放也不掉落任何东西。
 
-**Evil Davidski** 是 Davidski's Nightmare 的 Boss，驾驶 Davidski 自己那艘颜色更深的金色 Ironclad。他发射 Dormant Lance，这是会在很远的距离上追着你的制导火箭，并用陨石、一个圆环和他召唤的 Evil 飞船作战。船体降到一半时他会变成**暴怒的 DAVIDSKI**：他的主题曲响起，伤害更高，**游戏中每种飞船的一艘金色飞船**会出现在他周围。只要有任何一艘金色飞船存活，他就完全无法受到伤害：你的激光和火箭无法锁定他，你做的任何事都碰不到他的船体或护盾，所以要先杀出一条路穿过它们。最后一艘倒下后，保护就永久消失。每一波开始时他都会在自己的窗口里嘲讽你。击杀他算作一次击杀 Davidski，适用于需要击杀他的任务，在星门里和在危险星区一样。未更新的游戏不会显示这座星门。
+**Evil Davidski** 是 Davidski's Nightmare 的 Boss，驾驶 Davidski 自己那艘颜色更深的金色 Ironclad。他发射 Dormant Lance，这是会在很远的距离上追着你的制导火箭，并用陨石、一个圆环和他召唤的 Evil 飞船作战。船体降到三分之一时他会变成**暴怒的 DAVIDSKI**：他的主题曲响起，伤害更高，**游戏中每种飞船的一艘金色飞船**会出现在他周围。只要有任何一艘金色飞船存活，他就完全无法受到伤害：你的激光和火箭无法锁定他，你做的任何事都碰不到他的船体或护盾，所以要先杀出一条路穿过它们。最后一艘倒下后，保护就永久消失。每一波开始时他都会在自己的窗口里嘲讽你。击杀他算作一次击杀 Davidski，适用于需要击杀他的任务，在星门里和在危险星区一样。未更新的游戏不会显示这座星门。
 
 <!-- solo-bosses:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
 
 | Boss | 星门 | 船体 | 护盾 | 激光齐射 |
 | :--- | :--- | ---: | ---: | ---: |
-| **Enhanced Phantasm** | Alpha Rift | 330,000 | 530,000 | 5,700–7,000 |
-| **Enhanced Bulwark** | Beta Breach | 690,000 | 170,000 | 4,500–5,500 |
-| **Elite Crystalys** | Gamma Foundry | 620,000 | 250,000 | 3,800–4,700 |
-| **Siege Construct** | Delta Siege | 1,150,000 | 1,730,000 | 3,400–4,200 |
-| **Omega Guardian** | Omega Vault | 1,340,000 | 840,000 | 2,600–3,200 |
-| **Evil Davidski** | Davidski's Nightmare | 5,500,000 | 6,600,000 | 7,800–9,600 |
+| **Enhanced Phantasm** | Alpha Rift | {{guide:vitals.hull@Enhanced Phantasm}} | {{guide:vitals.shield@Enhanced Phantasm}} | {{guide:vitals.dps*0.9007633587786259~1.099236641221374@Enhanced Phantasm}} |
+| **Enhanced Bulwark** | Beta Breach | {{guide:vitals.hull@Enhanced Bulwark}} | {{guide:vitals.shield@Enhanced Bulwark}} | {{guide:vitals.dps*0.9019607843137255~1.0980392156862746@Enhanced Bulwark}} |
+| **Elite Crystalys** | Gamma Foundry | {{guide:vitals.hull@Elite Crystalys}} | {{guide:vitals.shield@Elite Crystalys}} | {{guide:vitals.dps*0.896551724137931~1.103448275862069@Elite Crystalys}} |
+| **Siege Construct** | Delta Siege | {{guide:vitals.hull@Siege Construct}} | {{guide:vitals.shield@Siege Construct}} | {{guide:vitals.dps*0.8974358974358975~1.1025641025641026@Siege Construct}} |
+| **Omega Guardian** | Omega Vault | {{guide:vitals.hull@Omega Guardian}} | {{guide:vitals.shield@Omega Guardian}} | {{guide:vitals.dps*0.896551724137931~1.103448275862069@Omega Guardian}} |
+| **Evil Davidski** | Davidski's Nightmare | {{guide:vitals.hull@Evil Davidski}} | {{guide:vitals.shield@Evil Davidski}} | {{guide:vitals.dps*0.896551724137931~1.103448275862069@Evil Davidski}} |
 
 | Boss | 阶段 | 剩余船体 | 它会做什么 |
 | :--- | :--- | :--- | :--- |
-| **Enhanced Phantasm** | Enhanced Phantasm | 100% 到 0% | 它只开火。 |
-| **Enhanced Bulwark** | Shielded | 100% 到 50% | 它的护盾被设为 Boss 自身护盾的 ×4。 |
-|  | Second attack | 50% 到 0% | 它的齐射为 ×1.3。它向你发射 4 枚 Dormant Lance 火箭，每枚 61,000，每隔 0.5 秒 一枚，每 30 秒 一轮齐射。 |
-| **Elite Crystalys** | Elite | 100% 到 50% | 它只开火。 |
-|  | Reinforced | 50% 到 0% | 它的护盾被设为 Boss 自身护盾的 ×2。每 10 分钟 召唤 10 个 Goombah，最多同时存活 10 个；它们不发放也不掉落任何东西。 |
-| **Siege Construct** | Siege Construct | 100% 到 0% | 每 1 分钟 降下 3 轮、每轮 8 颗的陨石，每颗对落点 420 单位内的一切造成 5,500，其中 50% 瞄准你；每个圆圈在落下前 3 秒 显示。它向你发射 6 枚 Dormant Lance 火箭，每枚 9,000，每隔 0.5 秒 一枚，每 1 分钟 一轮齐射。 |
-| **Omega Guardian** | Shield Fortress | 100% 到 70% | 它的护盾被设为 Boss 自身护盾的 ×1.5。每 40 秒 召唤 6 个 Bulwark，最多同时存活 12 个；它们不发放也不掉落任何东西。 |
-|  | Swarm Protocol | 70% 到 35% | 每 25 秒 召唤 12 个 Phantasm，最多同时存活 24 个；它们不发放也不掉落任何东西。每 30 秒，一次 140,000 的爆炸会击中 Boss 周围 700 单位内的一切；圆环在落下前 2 秒 显示。 |
-|  | Overload | 35% 到 0% | 它的护盾被设为 Boss 自身护盾的 ×0.1。它的全部伤害为 ×2.5。在该阶段持续 2 分钟 之后，它的全部伤害再 ×2。每 25 秒，一次 28,000 的爆炸会击中 Boss 周围 700 单位内的一切；圆环在落下前 2 秒 显示。 |
-| **Evil Davidski** | Evil Davidski | 100% 到 50% | 它向你发射 6 枚 Dormant Lance 火箭，每枚 14,700，每隔 0.5 秒 一枚，每 30 秒 一轮齐射。每 1 分钟 降下 2 轮、每轮 8 颗的陨石，每颗对落点 400 单位内的一切造成 33,000，其中 50% 瞄准你；每个圆圈在落下前 3 秒 显示。每 40 秒 召唤 5 个 Evil Protos，最多同时存活 10 个；它们不发放也不掉落任何东西。 |
-|  | Angry | 50% 到 0% | 它的护盾被设为 Boss 自身护盾的 ×0.5。它的全部伤害为 ×1.5。在该阶段持续 8 分钟 之后，它的全部伤害再 ×2。它向你发射 6 枚 Dormant Lance 火箭，每枚 7,800，每隔 0.4 秒 一枚，每 30 秒 一轮齐射。每 1 分钟 降下 3 轮、每轮 8 颗的陨石，每颗对落点 420 单位内的一切造成 10,200，其中 50% 瞄准你；每个圆圈在落下前 3 秒 显示。每 45 秒，一次 105,000 的爆炸会击中 Boss 周围 700 单位内的一切；圆环在落下前 2 秒 显示。每 40 秒 召唤 3 个 Evil Kitefin，最多同时存活 6 个；它们不发放也不掉落任何东西。 |
+| **Enhanced Phantasm** | Enhanced Phantasm | 100% 到 66% | 它只开火。 |
+|  | Reinforced | 66% 到 33% | 它的护盾被设为 Boss 自身护盾的 ×1。每 10 分钟 召唤 4 个 Phantasm，最多同时存活 4 个；它们不发放也不掉落任何东西。 |
+|  | Second attack | 33% 到 0% | 它的齐射为 ×1.3。每 30 秒，一次 {{guide:behaviour.ability:phases.ringBlast@Enhanced Phantasm}} 的爆炸会击中 Boss 周围 500 单位内的一切；圆环在落下前 2 秒 显示。 |
+| **Enhanced Bulwark** | Shielded | 100% 到 66% | 它的护盾被设为 Boss 自身护盾的 ×4。 |
+|  | Rocket barrage | 66% 到 33% | 它向你发射 4 枚 Dormant Lance 火箭，每枚 {{guide:behaviour.ability:phases.rocketBarrage@Enhanced Bulwark}}，每隔 0.5 秒 一枚，每 30 秒 一轮齐射。 |
+|  | Second attack | 33% 到 0% | 它的齐射为 ×1.3。每 10 分钟 召唤 4 个 Phantasm，最多同时存活 4 个；它们不发放也不掉落任何东西。 |
+| **Elite Crystalys** | Elite | 100% 到 66% | 它只开火。 |
+|  | Renewed shield | 66% 到 33% | 它的护盾被设为 Boss 自身护盾的 ×1。 |
+|  | Reinforced | 33% 到 0% | 它的护盾被设为 Boss 自身护盾的 ×2。每 10 分钟 召唤 10 个 Goombah，最多同时存活 10 个；它们不发放也不掉落任何东西。 |
+| **Siege Construct** | Siege Construct | 100% 到 66% | 每 1 分钟 降下 3 轮、每轮 8 颗的陨石，每颗对落点 420 单位内的一切造成 {{guide:behaviour.ability:phases.meteors@Siege Construct}}，其中 50% 瞄准你；每个圆圈在落下前 3 秒 显示。 |
+|  | Rocket barrage | 66% 到 33% | 每 1 分钟 降下 3 轮、每轮 8 颗的陨石，每颗对落点 420 单位内的一切造成 {{guide:behaviour.ability:phases.meteors2@Siege Construct}}，其中 50% 瞄准你；每个圆圈在落下前 3 秒 显示。它向你发射 6 枚 Dormant Lance 火箭，每枚 {{guide:behaviour.ability:phases.rocketBarrage@Siege Construct}}，每隔 0.5 秒 一枚，每 1 分钟 一轮齐射。 |
+|  | Frenzy | 33% 到 0% | 每 30 秒 降下 3 轮、每轮 8 颗的陨石，每颗对落点 420 单位内的一切造成 {{guide:behaviour.ability:phases.meteors3@Siege Construct}}，其中 50% 瞄准你；每个圆圈在落下前 3 秒 显示。它向你发射 6 枚 Dormant Lance 火箭，每枚 {{guide:behaviour.ability:phases.rocketBarrage2@Siege Construct}}，每隔 0.5 秒 一枚，每 30 秒 一轮齐射。 |
+| **Omega Guardian** | Shield Fortress | 100% 到 66% | 它的护盾被设为 Boss 自身护盾的 ×1.5。每 40 秒 召唤 6 个 Bulwark，最多同时存活 12 个；它们不发放也不掉落任何东西。 |
+|  | Swarm Protocol | 66% 到 33% | 每 25 秒 召唤 12 个 Phantasm，最多同时存活 24 个；它们不发放也不掉落任何东西。每 30 秒，一次 {{guide:behaviour.ability:phases.ringBlast@Omega Guardian}} 的爆炸会击中 Boss 周围 700 单位内的一切；圆环在落下前 2 秒 显示。 |
+|  | Overload | 33% 到 0% | 它的护盾被设为 Boss 自身护盾的 ×0.1。它的全部伤害为 ×2.5。在该阶段持续 2 分钟 之后，它的全部伤害再 ×2。每 25 秒，一次 {{guide:behaviour.ability:phases.ringBlast2@Omega Guardian}} 的爆炸会击中 Boss 周围 700 单位内的一切；圆环在落下前 2 秒 显示。 |
+| **Evil Davidski** | Evil Davidski | 100% 到 66% | 它只开火。 |
+|  | Davidski attacks | 66% 到 33% | 它向你发射 6 枚 Dormant Lance 火箭，每枚 {{guide:behaviour.ability:phases.rocketBarrage@Evil Davidski}}，每隔 0.5 秒 一枚，每 30 秒 一轮齐射。每 1 分钟 降下 2 轮、每轮 8 颗的陨石，每颗对落点 400 单位内的一切造成 {{guide:behaviour.ability:phases.meteors@Evil Davidski}}，其中 50% 瞄准你；每个圆圈在落下前 3 秒 显示。每 40 秒 召唤 5 个 Evil Protos，最多同时存活 10 个；它们不发放也不掉落任何东西。 |
+|  | Angry | 33% 到 0% | 它的护盾被设为 Boss 自身护盾的 ×0.5。它的全部伤害为 ×1.5。在该阶段持续 8 分钟 之后，它的全部伤害再 ×2。它向你发射 6 枚 Dormant Lance 火箭，每枚 {{guide:behaviour.ability:phases.rocketBarrage2@Evil Davidski}}，每隔 0.4 秒 一枚，每 30 秒 一轮齐射。每 1 分钟 降下 3 轮、每轮 8 颗的陨石，每颗对落点 420 单位内的一切造成 {{guide:behaviour.ability:phases.meteors2@Evil Davidski}}，其中 50% 瞄准你；每个圆圈在落下前 3 秒 显示。每 45 秒，一次 {{guide:behaviour.ability:phases.ringBlast@Evil Davidski}} 的爆炸会击中 Boss 周围 700 单位内的一切；圆环在落下前 2 秒 显示。每 40 秒 召唤 3 个 Evil Kitefin，最多同时存活 6 个；它们不发放也不掉落任何东西。 |
 
 <!-- solo-bosses:end -->
 
@@ -203,27 +210,27 @@ Boss 是放大了的外星人飞船，有自己的船体、护盾和齐射，星
 
 | 外星人 | 信用点 | Thulium | 经验值 | 荣誉 |
 | :--- | ---: | ---: | ---: | ---: |
-| **Seeker** | 1,000 | 4 | 100 | 2 |
-| **Phantasm** | 3,000 | 12 | 300 | 6 |
-| **Bulwark** | 5,000 | 25 | 800 | 10 |
-| **Goombah** | 15,000 | 75 | 3,000 | 24 |
-| **Crystalys** | 75,000 | 200 | 12,000 | 52 |
-| **Boss Seeker** | 10,000 | 40 | 1,000 | 20 |
-| **Seeker Slave** | 125 | 1 | 12 | 1 |
-| **Boss Phantasm** | 39,000 | 195 | 7,800 | 62 |
-| **Phantasm Guard** | 125 | 1 | 12 | 1 |
-| **Boss Goombah** | 120,000 | 600 | 24,000 | 192 |
-| **Goombah Guard** | 125 | 1 | 12 | 1 |
-| **Boss Crystalys** | 393,750 | 1,050 | 63,000 | 273 |
-| **Crystalys Guard** | 125 | 1 | 12 | 1 |
-| **Evil Protos** | 4,250 | 17 | 725 | 6 |
-| **Evil Kitefin** | 12,850 | 53 | 2,175 | 18 |
-| **Evil Ostirion** | 34,350 | 141 | 5,800 | 48 |
-| **Evil Nomad** | 59,600 | 245 | 10,060 | 84 |
-| **Evil Paragon** | 68,700 | 283 | 11,600 | 97 |
-| **Evil Storm** | 96,600 | 398 | 16,315 | 136 |
-| **Evil Wraith** | 137,450 | 566 | 23,205 | 194 |
-| **Evil Ironclad** | 268,450 | 1,105 | 45,330 | 379 |
+| **Seeker** | {{guide:spoils.pay.credits@Seeker#1}} | {{guide:spoils.pay.thulium@Seeker#1}} | {{guide:spoils.pay.experience@Seeker#1}} | {{guide:spoils.pay.honor@Seeker#1}} |
+| **Phantasm** | {{guide:spoils.pay.credits@Phantasm#1}} | {{guide:spoils.pay.thulium@Phantasm#1}} | {{guide:spoils.pay.experience@Phantasm#1}} | {{guide:spoils.pay.honor@Phantasm#1}} |
+| **Bulwark** | {{guide:spoils.pay.credits@Bulwark#1}} | {{guide:spoils.pay.thulium@Bulwark#1}} | {{guide:spoils.pay.experience@Bulwark#1}} | {{guide:spoils.pay.honor@Bulwark#1}} |
+| **Goombah** | {{guide:spoils.pay.credits@Goombah#1}} | {{guide:spoils.pay.thulium@Goombah#1}} | {{guide:spoils.pay.experience@Goombah#1}} | {{guide:spoils.pay.honor@Goombah#1}} |
+| **Crystalys** | {{guide:spoils.pay.credits@Crystalys#1}} | {{guide:spoils.pay.thulium@Crystalys#1}} | {{guide:spoils.pay.experience@Crystalys#1}} | {{guide:spoils.pay.honor@Crystalys#1}} |
+| **Boss Seeker** | {{guide:spoils.pay.credits@Boss Seeker#1}} | {{guide:spoils.pay.thulium@Boss Seeker#1}} | {{guide:spoils.pay.experience@Boss Seeker#1}} | {{guide:spoils.pay.honor@Boss Seeker#1}} |
+| **Seeker Slave** | {{guide:spoils.pay.credits@Seeker Slave#1}} | {{guide:spoils.pay.thulium@Seeker Slave#1}} | {{guide:spoils.pay.experience@Seeker Slave#1}} | {{guide:spoils.pay.honor@Seeker Slave#1}} |
+| **Boss Phantasm** | {{guide:spoils.pay.credits@Boss Phantasm#1}} | {{guide:spoils.pay.thulium@Boss Phantasm#1}} | {{guide:spoils.pay.experience@Boss Phantasm#1}} | {{guide:spoils.pay.honor@Boss Phantasm#1}} |
+| **Phantasm Guard** | {{guide:spoils.pay.credits@Phantasm Guard#1}} | {{guide:spoils.pay.thulium@Phantasm Guard#1}} | {{guide:spoils.pay.experience@Phantasm Guard#1}} | {{guide:spoils.pay.honor@Phantasm Guard#1}} |
+| **Boss Goombah** | {{guide:spoils.pay.credits@Boss Goombah#1}} | {{guide:spoils.pay.thulium@Boss Goombah#1}} | {{guide:spoils.pay.experience@Boss Goombah#1}} | {{guide:spoils.pay.honor@Boss Goombah#1}} |
+| **Goombah Guard** | {{guide:spoils.pay.credits@Goombah Guard#1}} | {{guide:spoils.pay.thulium@Goombah Guard#1}} | {{guide:spoils.pay.experience@Goombah Guard#1}} | {{guide:spoils.pay.honor@Goombah Guard#1}} |
+| **Boss Crystalys** | {{guide:spoils.pay.credits@Boss Crystalys#1}} | {{guide:spoils.pay.thulium@Boss Crystalys#1}} | {{guide:spoils.pay.experience@Boss Crystalys#1}} | {{guide:spoils.pay.honor@Boss Crystalys#1}} |
+| **Crystalys Guard** | {{guide:spoils.pay.credits@Crystalys Guard#1}} | {{guide:spoils.pay.thulium@Crystalys Guard#1}} | {{guide:spoils.pay.experience@Crystalys Guard#1}} | {{guide:spoils.pay.honor@Crystalys Guard#1}} |
+| **Evil Protos** | {{guide:spoils.pay.credits@Evil Protos}} | {{guide:spoils.pay.thulium@Evil Protos}} | {{guide:spoils.pay.experience@Evil Protos}} | {{guide:spoils.pay.honor@Evil Protos}} |
+| **Evil Kitefin** | {{guide:spoils.pay.credits@Evil Kitefin}} | {{guide:spoils.pay.thulium@Evil Kitefin}} | {{guide:spoils.pay.experience@Evil Kitefin}} | {{guide:spoils.pay.honor@Evil Kitefin}} |
+| **Evil Ostirion** | {{guide:spoils.pay.credits@Evil Ostirion}} | {{guide:spoils.pay.thulium@Evil Ostirion}} | {{guide:spoils.pay.experience@Evil Ostirion}} | {{guide:spoils.pay.honor@Evil Ostirion}} |
+| **Evil Nomad** | {{guide:spoils.pay.credits@Evil Nomad}} | {{guide:spoils.pay.thulium@Evil Nomad}} | {{guide:spoils.pay.experience@Evil Nomad}} | {{guide:spoils.pay.honor@Evil Nomad}} |
+| **Evil Paragon** | {{guide:spoils.pay.credits@Evil Paragon}} | {{guide:spoils.pay.thulium@Evil Paragon}} | {{guide:spoils.pay.experience@Evil Paragon}} | {{guide:spoils.pay.honor@Evil Paragon}} |
+| **Evil Storm** | {{guide:spoils.pay.credits@Evil Storm}} | {{guide:spoils.pay.thulium@Evil Storm}} | {{guide:spoils.pay.experience@Evil Storm}} | {{guide:spoils.pay.honor@Evil Storm}} |
+| **Evil Wraith** | {{guide:spoils.pay.credits@Evil Wraith}} | {{guide:spoils.pay.thulium@Evil Wraith}} | {{guide:spoils.pay.experience@Evil Wraith}} | {{guide:spoils.pay.honor@Evil Wraith}} |
+| **Evil Ironclad** | {{guide:spoils.pay.credits@Evil Ironclad}} | {{guide:spoils.pay.thulium@Evil Ironclad}} | {{guide:spoils.pay.experience@Evil Ironclad}} | {{guide:spoils.pay.honor@Evil Ironclad}} |
 
 | 星门 | 信用点 | Thulium | 经验值 | 荣誉 |
 | :--- | ---: | ---: | ---: | ---: |

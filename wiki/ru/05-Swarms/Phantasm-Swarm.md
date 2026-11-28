@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: abb582fd63389ab9 -->
+<!-- wiki-i18n source: 2eff9c368449da99 -->
 <!-- wiki-i18n title: Рой Phantasm -->
 # Рой Phantasm {#phantasm-swarm}
 
@@ -17,14 +17,14 @@
 - **Свита держится**: не дальше 500 единиц от лидера
 - **Лечение**: Каждый Phantasm Guard в пределах 600 единиц от лидера лечит его корпус, в Alpha 30 HP в секунду
 - **Лидер уничтожен**: Свита исчезает через 30 с после уничтожения лидера, если только не атакует
-- **Возвращается**: Через 2 мин после уничтожения лидера, в том же секторе
+- **Возвращается**: Через {{guide:vitals.respawn@Boss Phantasm#1;Boss Phantasm#2;Boss Phantasm#3}} после уничтожения лидера, в том же секторе
 - **Оповещения**: Пилоты сектора узнают, когда лидер появляется и когда он уничтожен. Это системные строки: они видны на вкладке **Система** чата, со счётчиком непрочитанных, а не на вкладках **Общий** и **Локальный**. Лента убийств называет пилота, которому засчитано убийство.
 
 <!-- phantasm-glance:end -->
 
 ## Участники {#the-members}
 
-- **Boss Phantasm**: более крупный Phantasm в оттенке роя и с именем над ним, со своим корпусом, щитом и залпом лазеров (значения ниже). Он пассивен: бродит, пока пилот не попадёт по нему, затем преследует этого пилота и стреляет в него, а находящиеся рядом корабли его роя вступают в бой. Дальность оружия и скорость у него как у Phantasm, а корпус он никогда не восстанавливает сам.
+- **Boss Phantasm**: более крупный Phantasm в оттенке роя и с именем над ним, со своим корпусом, щитом и залпом лазеров (значения ниже). Он пассивен: бродит, пока пилот не попадёт по нему, затем преследует этого пилота и стреляет в него, а находящиеся рядом корабли его роя вступают в бой. Дальность оружия и скорость у него как у Phantasm, а корпус он никогда не восстанавливает сам. Его [три этапа](#the-leaders-three-steps) и [особая способность](/wiki/03-Mechanics/Special-Abilities.md) могут это изменить.
 - **Phantasm Guard**: более мелкий Phantasm в оттенке роя. Guard держатся рядом с боссом, вступают в бой, когда попадают по ближнему кораблю роя, и каждый, кто находится рядом с боссом, лечит его корпус. Guard восстанавливает собственный корпус после передышки, как и Phantasm.
 
 ## Ход боя {#how-the-fight-goes}
@@ -34,6 +34,19 @@
 - **Beta и Gamma тяжелее.** Рои этих миров сильнее ([Миры](/wiki/05-Swarms/Swarms.md#the-worlds)), поэтому нужно больше пилотов или лучшие боеприпасы.
 - **Следите за сектором.** `x-4` — PvP-сектор в Alpha, а `x-3` и `x-4` — в Beta и Gamma ([Миры](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)): соперник может вмешаться в бой или дождаться контейнера. Оставьте один корабль группы в дозоре.
 - **Босс возвращается** через время, указанное в списке *Коротко*, в полной силе, в том же секторе, а его Guard приходят один за другим.
+
+## Три этапа лидера {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+У этого боя три этапа ([как они работают](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); каждый происходит один раз.
+
+- **В начале**: Каждый из его Phantasm Guards ставит слой щита, равный 10% собственного корпуса.
+- **Ниже двух третей**: Появляются его копии (3), а настоящий носит кольцо.
+- **Ниже трети**: Прыгает примерно на 2 500 единиц от пилотов, а его Phantasm Guards возвращаются целыми вокруг него.
+
+<!-- mob-ladder:end -->
 
 ## Награды и добыча {#rewards-and-drops}
 
@@ -52,29 +65,23 @@ Boss Phantasm платит соразмерно бою, которым он яв
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Корпус | 40 000 | 60 000 | 80 000 |
-| Щит | 64 000 | 96 000 | 128 000 |
-| Урон лазеров (залп в секунду) | 1 050 | 1 575 | 2 100 |
-| Скорость | 160 | 160 | 160 |
+| Корпус | {{guide:vitals.hull@Boss Phantasm#1}} | {{guide:vitals.hull@Boss Phantasm#2}} | {{guide:vitals.hull@Boss Phantasm#3}} |
+| Щит | {{guide:vitals.shield@Boss Phantasm#1}} | {{guide:vitals.shield@Boss Phantasm#2}} | {{guide:vitals.shield@Boss Phantasm#3}} |
+| Урон лазеров (залп в секунду) | {{guide:vitals.dps@Boss Phantasm#1}} | {{guide:vitals.dps@Boss Phantasm#2}} | {{guide:vitals.dps@Boss Phantasm#3}} |
+| Скорость | {{guide:vitals.speed@Boss Phantasm#1}} | {{guide:vitals.speed@Boss Phantasm#2}} | {{guide:vitals.speed@Boss Phantasm#3}} |
 | Дальность лазеров | 700 | 700 | 700 |
 | Радиус агрессии | только если напали | только если напали | только если напали |
-| Кредиты | 39 000 | 78 000 | 117 000 |
-| Thulium | 195 | 390 | 585 |
-| Опыт (XP) | 7 800 | 15 600 | 23 400 |
-| Честь | 62 | 124 | 186 |
+| Кредиты | {{guide:spoils.pay.credits@Boss Phantasm#1}} | {{guide:spoils.pay.credits@Boss Phantasm#2}} | {{guide:spoils.pay.credits@Boss Phantasm#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Boss Phantasm#1}} | {{guide:spoils.pay.thulium@Boss Phantasm#2}} | {{guide:spoils.pay.thulium@Boss Phantasm#3}} |
+| Опыт (XP) | {{guide:spoils.pay.experience@Boss Phantasm#1}} | {{guide:spoils.pay.experience@Boss Phantasm#2}} | {{guide:spoils.pay.experience@Boss Phantasm#3}} |
+| Честь | {{guide:spoils.pay.honor@Boss Phantasm#1}} | {{guide:spoils.pay.honor@Boss Phantasm#2}} | {{guide:spoils.pay.honor@Boss Phantasm#3}} |
 | Очки PvE за убийство | 8 | 8 | 8 |
 
 **Добыча**: один контейнер, для пилота, нанёсшего больше всех урона.
 
-| Предмет | Шанс | Количество |
-| :--- | ---: | ---: |
-| Ship Fragment | 100% в каждом из 13 бросков | 1 |
-| Daraxium | 60% в каждом из 13 бросков | 1–2 |
-| Nyxite | 60% в каждом из 13 бросков | 1–2 |
-| Standard Battery | 100% | 600–1 200 |
-| Advanced Plasma | 100% | 60–100 |
-| Ultra Core | 100% | 10–20 |
-| Одна из 4 [ракет](/wiki/06-Items/Rockets.md), покупаемых за кредиты, на выбор случая | 100% | 4–6 |
+| Предмет |
+| :--- |
+| {{guide:spoils.box@Boss Phantasm#1;Boss Phantasm#2;Boss Phantasm#3}} |
 
 ### Phantasm Guard
 
@@ -82,17 +89,17 @@ Boss Phantasm платит соразмерно бою, которым он яв
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Корпус | 1 000 | 1 500 | 2 000 |
-| Щит | 1 600 | 2 400 | 3 200 |
-| Урон лазеров (залп в секунду) | 175 | 263 | 350 |
-| Скорость | 160 | 160 | 160 |
+| Корпус | {{guide:vitals.hull@Phantasm Guard#1}} | {{guide:vitals.hull@Phantasm Guard#2}} | {{guide:vitals.hull@Phantasm Guard#3}} |
+| Щит | {{guide:vitals.shield@Phantasm Guard#1}} | {{guide:vitals.shield@Phantasm Guard#2}} | {{guide:vitals.shield@Phantasm Guard#3}} |
+| Урон лазеров (залп в секунду) | {{guide:vitals.dps@Phantasm Guard#1}} | {{guide:vitals.dps@Phantasm Guard#2}} | {{guide:vitals.dps@Phantasm Guard#3}} |
+| Скорость | {{guide:vitals.speed@Phantasm Guard#1}} | {{guide:vitals.speed@Phantasm Guard#2}} | {{guide:vitals.speed@Phantasm Guard#3}} |
 | Дальность лазеров | 700 | 700 | 700 |
 | Радиус агрессии | только если напали | только если напали | только если напали |
 | Лечит лидера, каждый, в секунду (только корпус) | 30 | 45 | 60 |
-| Кредиты | 125 | 250 | 375 |
-| Thulium | 1 | 2 | 3 |
-| Опыт (XP) | 12 | 24 | 36 |
-| Честь | 1 | 2 | 3 |
+| Кредиты | {{guide:spoils.pay.credits@Phantasm Guard#1}} | {{guide:spoils.pay.credits@Phantasm Guard#2}} | {{guide:spoils.pay.credits@Phantasm Guard#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Phantasm Guard#1}} | {{guide:spoils.pay.thulium@Phantasm Guard#2}} | {{guide:spoils.pay.thulium@Phantasm Guard#3}} |
+| Опыт (XP) | {{guide:spoils.pay.experience@Phantasm Guard#1}} | {{guide:spoils.pay.experience@Phantasm Guard#2}} | {{guide:spoils.pay.experience@Phantasm Guard#3}} |
+| Честь | {{guide:spoils.pay.honor@Phantasm Guard#1}} | {{guide:spoils.pay.honor@Phantasm Guard#2}} | {{guide:spoils.pay.honor@Phantasm Guard#3}} |
 | Очки PvE за убийство | 1 | 1 | 1 |
 
 **Добыча**: нет. За убийство выплачиваются только кредиты, Thulium, опыт и честь.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3394596d1bb1595f -->
+<!-- wiki-i18n source: d029290762cd46b4 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -23,7 +23,7 @@ Davidski は飛び回る商人です。1日に1回、誰にも知らされない
 | エクストラ | Repair Drone IV、Auto-Repair CPU、Base CPU II |
 | 船体 | Hull Plating III 15枚 |
 
-Alpha の強さでは、**船体931,250**、**シールド1,559,486**（15秒間被弾しないと毎秒67,614回復）、吸収率90.9%、速度97、射程945、**毎秒5,014**の斉射を持ちます。Beta ではこれらの1.5倍、Gamma では2倍です（どのエイリアンも同じです）。Alpha では約250万ポイントを削る必要があります。同じレーザーを積んだWraith 1機だけなら連続射撃で約12分、10機なら約71秒です。
+Alpha の強さでは、**船体{{guide:vitals.hull@Davidski}}**、**シールド{{guide:vitals.shield@Davidski}}**（15秒間被弾しないと毎秒{{guide:vitals.shieldRecharge@Davidski}}回復）、吸収率{{guide:vitals.absorbance@Davidski}}、速度{{guide:vitals.speed@Davidski}}、射程945、**毎秒{{guide:vitals.dps@Davidski}}**の斉射を持ちます。Beta ではこれらの1.5倍、Gamma では2倍です（どのエイリアンも同じです）。
 
 ## 彼と戦う {#fighting-him}
 
@@ -38,12 +38,16 @@ Boss のように報酬を支払います。各パイロットが与えたダメ
 
 | | Alpha | Beta | Gamma |
 |---|---:|---:|---:|
-| クレジット | 1,830,000 | 3,660,000 | 5,490,000 |
-| Thulium | 4,875 | 9,750 | 14,625 |
-| 経験値 | 292,500 | 585,000 | 877,500 |
-| 名誉 | 1,275 | 2,550 | 3,825 |
+| クレジット | {{guide:spoils.pay.credits@Davidski}} | {{guide:spoils.pay.credits*2@Davidski}} | {{guide:spoils.pay.credits*3@Davidski}} |
+| Thulium | {{guide:spoils.pay.thulium@Davidski}} | {{guide:spoils.pay.thulium*2@Davidski}} | {{guide:spoils.pay.thulium*3@Davidski}} |
+| 経験値 | {{guide:spoils.pay.experience@Davidski}} | {{guide:spoils.pay.experience*2@Davidski}} | {{guide:spoils.pay.experience*3@Davidski}} |
+| 名誉 | {{guide:spoils.pay.honor@Davidski}} | {{guide:spoils.pay.honor*2@Davidski}} | {{guide:spoils.pay.honor*3@Davidski}} |
 
-コンテナには、Ship Fragment 40～60個、Power Core 10～20個、Advanced Plasma 3,000～6,000個が入り、ときどきAncient Control UnitやDark Matterも入ります。撃破は PvE ランキングの**ポイントになりません**（彼はどのランキングにも載りません。下を参照）。支払われる経験値はほかの経験値と同じように数えられ、撃破統計には Davidski の名前で記録されます。
+| ボックス |
+|---|
+| {{guide:spoils.box@Davidski}} |
+
+撃破は PvE ランキングの**ポイントになりません**（彼はどのランキングにも載りません。下を参照）。支払われる経験値はほかの経験値と同じように数えられ、撃破統計には Davidski の名前で記録されます。
 
 - **破壊されるのは1日に1回まで。** 倒された後は翌UTC日まで姿を消し、その日の時刻に船体満タンで再び現れます。倒されたことは誰にも知らされません。戦った本人には自分の報酬が届きます。
 - **パイロット1人には1日2回、ワールドには1日8回の撃破まで報酬を支払います**（UTC）。ワールドごとに1日1体なので、この上限が効くことはまれです。上限を超えると通知され、報酬は得られません。

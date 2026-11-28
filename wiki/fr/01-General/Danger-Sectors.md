@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 399d33a09b4ac805 -->
+<!-- wiki-i18n source: 0f6a663715a3934a -->
 <!-- wiki-i18n title: Secteurs dangereux -->
 # Secteurs dangereux {#danger-sectors}
 
@@ -14,9 +14,10 @@ Une civilisation de l’ancienne galaxie a vécu ici, avancée et d’un noir vi
 
 - **Des excavatrices géantes.** `DS-1`, `DS-2` et `DS-3` ont chacun un pulsar dès le premier jour de la saison, une lumière dans le ciel et rien de plus ; à partir du jour 11, chacun reçoit une **excavatrice géante** à côté. Mettez de la Dark Matter dans le réservoir de l’excavatrice, choisissez une ressource, et elle exploite le pulsar : du Thulium et des minerais rares tombent autour d’elle dans des caisses que n’importe qui peut prendre. C’est ce qu’il y a de plus riche à se disputer dans les secteurs dangereux, et de plus dangereux. Voir [Excavatrice géante](/wiki/03-Mechanics/Giant-Excavator.md). Dans Beta et Gamma, les excavatrices géantes se dressent dès le premier jour de la saison.
 - **Des Slumbering Voids.** Pendant qu’une excavatrice travaille, des **Slumbering Voids** arrivent par vagues du bord de la carte et traquent les pilotes qui s’en approchent. D’autres patrouillent autour du marais. Voir [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void).
-- **Le Dormant Swamp.** Dans un coin de `DS-4` se dresse la base de la civilisation perdue : des canons qui tirent sur tout vaisseau qu’ils voient, des Inert Masses qui la gardent et, au milieu, l’Unwakened. C’est un endroit que les pilotes ne sont pas encore censés visiter. Voir [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
+- **Le Dormant Swamp.** Dans un coin de `DS-4` se dresse la base de la civilisation perdue : des canons qui tirent sur tout vaisseau qu’ils voient, des Inert Masses qui la gardent et, au milieu, l’Unwakened. Voir [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
 - **Un Essaim Dormant plus rapide et plus riche.** L’essaim apparaît désormais au marais, revient plus tôt après sa destruction et paie le double. Voir [Essaim Dormant](/wiki/05-Swarms/Dormant-Swarm.md).
 - **Avant le jour 11**, seuls les pulsars brillent : les secteurs dangereux sont sinon tels que les décrit [Navigation spatiale](/wiki/01-General/Spacemap%20Travel.md). Un monde au jour 11 ou après a tout d’un coup. Dans Beta et Gamma, les excavatrices géantes se dressent dès le premier jour de la saison.
+- **Le Threshold.** L’Unwakened du Dormant Swamp peut désormais être détruit. Dans chaque monde, la première mise à mort de la saison ouvre le Threshold de ce monde dans le coin supérieur droit de `DS-4`, où ses pilotes construisent le Void Gate vers le [Deep Void](/wiki/03-Mechanics/Deep-Void.md).
 
 ## Davidski
 

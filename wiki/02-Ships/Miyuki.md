@@ -61,6 +61,8 @@ The Miyuki's abilities belong to the ship, not to an item: they take no ability 
 
 A link lasts 5 seconds and reaches a ship of your group or company within 1,200 units. The Heal Pod reaches 600. A Channel Shield also restores a share of each ship's own maximum shield every second on top of its points: 3% on Miyuki III, 4% on IV and 5% on V (the percent in the table).
 
+Every level also has the **Revive**, her last button. When a pilot of your group or company is destroyed, his ship stays broken down for 30 seconds; stay within 600 units of it for 10 seconds and he is back where he died, and the Revive rests 120 seconds. [Ship abilities](/wiki/03-Mechanics/Abilities.md#ship-abilities) says the rest.
+
 Your [Healing](/wiki/03-Mechanics/Pilot-Skills.md) pilot skill works on all three: at level 100 it makes the Heal Pod, the Channel Heal and the Channel Shield (its points and its share of the maximum shield) 30% stronger and shortens their waits by 10%, so a Channel Heal that rests 100 seconds rests 90. The tables above give the numbers without it.
 
 ## Research

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3394596d1bb1595f -->
+<!-- wiki-i18n source: d029290762cd46b4 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -23,7 +23,7 @@ Davidski — летающий торговец. Это мирный NPC-кора
 | Дополнения | Repair Drone IV, Auto-Repair CPU и Base CPU II |
 | Корпус | 15 Hull Plating III |
 
-На силе Alpha у него **931 250 корпуса**, **1 559 486 щита** (восстанавливается по 67 614 в секунду после 15 секунд без попаданий), поглощение 90,9%, скорость 97, дальность 945 и залп **5 014 в секунду**. У Beta эти значения в 1,5 раза выше, у Gamma — в 2 раза, как у любого пришельца. В Alpha это около 2,5 миллиона очков, которые нужно сбить: одному Wraith с такими же лазерами нужно около двенадцати минут непрерывного огня, десяти таким — около 71 секунд.
+На силе Alpha у него **{{guide:vitals.hull@Davidski}} корпуса**, **{{guide:vitals.shield@Davidski}} щита** (восстанавливается по {{guide:vitals.shieldRecharge@Davidski}} в секунду после 15 секунд без попаданий), поглощение {{guide:vitals.absorbance@Davidski}}, скорость {{guide:vitals.speed@Davidski}}, дальность 945 и залп **{{guide:vitals.dps@Davidski}} в секунду**. У Beta эти значения в 1,5 раза выше, у Gamma — в 2 раза, как у любого пришельца.
 
 ## Бой с ним {#fighting-him}
 
@@ -38,12 +38,16 @@ Davidski — летающий торговец. Это мирный NPC-кора
 
 | | Alpha | Beta | Gamma |
 |---|---:|---:|---:|
-| Кредиты | 1 830 000 | 3 660 000 | 5 490 000 |
-| Thulium | 4 875 | 9 750 | 14 625 |
-| Опыт | 292 500 | 585 000 | 877 500 |
-| Честь | 1 275 | 2 550 | 3 825 |
+| Кредиты | {{guide:spoils.pay.credits@Davidski}} | {{guide:spoils.pay.credits*2@Davidski}} | {{guide:spoils.pay.credits*3@Davidski}} |
+| Thulium | {{guide:spoils.pay.thulium@Davidski}} | {{guide:spoils.pay.thulium*2@Davidski}} | {{guide:spoils.pay.thulium*3@Davidski}} |
+| Опыт | {{guide:spoils.pay.experience@Davidski}} | {{guide:spoils.pay.experience*2@Davidski}} | {{guide:spoils.pay.experience*3@Davidski}} |
+| Честь | {{guide:spoils.pay.honor@Davidski}} | {{guide:spoils.pay.honor*2@Davidski}} | {{guide:spoils.pay.honor*3@Davidski}} |
 
-В контейнере от 40 до 60 Ship Fragment, от 10 до 20 Power Core и от 3 000 до 6 000 Advanced Plasma, а иногда Ancient Control Unit или Dark Matter. Уничтожение **не даёт очков PvE** в вашем рейтинге (он не входит ни в один рейтинг, см. ниже); опыт, который оно приносит, считается как любой другой опыт, а уничтожение учитывается под именем Davidski в вашей статистике уничтожений.
+| Его ящик |
+|---|
+| {{guide:spoils.box@Davidski}} |
+
+Уничтожение **не даёт очков PvE** в вашем рейтинге (он не входит ни в один рейтинг, см. ниже); опыт, который оно приносит, считается как любой другой опыт, а уничтожение учитывается под именем Davidski в вашей статистике уничтожений.
 
 - **Его уничтожают не чаще раза в сутки.** После гибели его нет до следующих суток UTC, когда он снова вылетает в момент этих суток, с полным корпусом. О его гибели никого не оповещают; пилоты, сражавшиеся с ним, видят свою выплату.
 - **Он платит пилоту за два уничтожения в день, а миру — за восемь** (UTC). Когда в мире один Davidski в сутки, эти пределы почти не играют роли; сверх них вас предупредят, и вы ничего не получите за уничтожение.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3394596d1bb1595f -->
+<!-- wiki-i18n source: d029290762cd46b4 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -23,7 +23,7 @@ Altın renge boyanmış bir **Ironclad TITANIC**; TITANIC boyutunda, her parça 
 | Ekstralar | bir Repair Drone IV, bir Auto-Repair CPU ve bir Base CPU II |
 | Gövde | 15 Hull Plating III |
 
-Alpha gücünde **931.250 gövde**, **1.559.486 kalkan** (15 saniye vuruş almazsa saniyede 67.614 yenilenir), %90,9 soğurma, 97 hız, 945 menzil ve saniyede **5.014** değerinde bir salvosu vardır. Beta bu sayıların 1,5 katını, Gamma 2 katını taşır; her uzaylı gibi. Alpha’da eritmen gereken yaklaşık 2,5 milyon puan var: aynı lazerlere sahip tek bir Wraith kendi başına yaklaşık on iki dakika kesintisiz ateş ister; on Wraith ise yaklaşık 71 saniye.
+Alpha gücünde **{{guide:vitals.hull@Davidski}} gövde**, **{{guide:vitals.shield@Davidski}} kalkan** (15 saniye vuruş almazsa saniyede {{guide:vitals.shieldRecharge@Davidski}} yenilenir), {{guide:vitals.absorbance@Davidski}} soğurma, {{guide:vitals.speed@Davidski}} hız, 945 menzil ve saniyede **{{guide:vitals.dps@Davidski}}** değerinde bir salvosu vardır. Beta bu sayıların 1,5 katını, Gamma 2 katını taşır; her uzaylı gibi.
 
 ## Ona karşı savaşmak {#fighting-him}
 
@@ -38,12 +38,16 @@ Bir patron gibi öder, her pilotun verdiği hasara göre (hasarın %5’inin alt
 
 | | Alpha | Beta | Gamma |
 |---|---:|---:|---:|
-| Kredi | 1.830.000 | 3.660.000 | 5.490.000 |
-| Thulium | 4.875 | 9.750 | 14.625 |
-| Deneyim | 292.500 | 585.000 | 877.500 |
-| Onur | 1.275 | 2.550 | 3.825 |
+| Kredi | {{guide:spoils.pay.credits@Davidski}} | {{guide:spoils.pay.credits*2@Davidski}} | {{guide:spoils.pay.credits*3@Davidski}} |
+| Thulium | {{guide:spoils.pay.thulium@Davidski}} | {{guide:spoils.pay.thulium*2@Davidski}} | {{guide:spoils.pay.thulium*3@Davidski}} |
+| Deneyim | {{guide:spoils.pay.experience@Davidski}} | {{guide:spoils.pay.experience*2@Davidski}} | {{guide:spoils.pay.experience*3@Davidski}} |
+| Onur | {{guide:spoils.pay.honor@Davidski}} | {{guide:spoils.pay.honor*2@Davidski}} | {{guide:spoils.pay.honor*3@Davidski}} |
 
-Kutuda 40 ile 60 Ship Fragment, 10 ile 20 Power Core ve 3.000 ile 6.000 Advanced Plasma bulunur; bazen de Ancient Control Unit ya da Dark Matter çıkar. Bir öldürme PvE sıralamana **hiç puan eklemez** (o hiçbir sıralamada yer almaz, aşağıya bak); ödediği deneyim her deneyim gibi sayılır ve öldürme, öldürme istatistiklerinde Davidski adıyla görünür.
+| Kutusu |
+|---|
+| {{guide:spoils.box@Davidski}} |
+
+Bir öldürme PvE sıralamana **hiç puan eklemez** (o hiçbir sıralamada yer almaz, aşağıya bak); ödediği deneyim her deneyim gibi sayılır ve öldürme, öldürme istatistiklerinde Davidski adıyla görünür.
 
 - **Günde en fazla bir kez yok edilir.** Öldükten sonra bir sonraki UTC gününe kadar gelmez; o gün, kendi anında, tam gövdeyle yeniden çıkar. Kimseye düştüğü söylenmez; onunla savaşan pilotlar yalnızca kendi ödemelerinden haberdar olur.
 - **Bir pilota günde iki öldürme için, bir dünyaya ise sekiz için öder** (UTC). Bir dünyada günde bir Davidski olduğu için bu sınırlar nadiren önem taşır; bunları aşarsan sana söylenir ve öldürme için ödeme almazsın.

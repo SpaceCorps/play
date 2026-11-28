@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 91f3dc3b14f71464 -->
+<!-- wiki-i18n source: f9b2d026af543d87 -->
 <!-- wiki-i18n title: Mazmorras -->
 # Mazmorras {#dungeons}
 
-<!-- wiki-search: dungeon; dungeons; gate; gates; clan gate; clan gates; clan dungeon; summon; warlord; gate warlord; boss; maze; loot zone; chest; card; vote; stage; instance; gate delta; gate epsilon; gate zeta; gate eta; gate theta; gate iota; gate goombah; gate pirate; gate crystalys; portal; clan portal; join; clan gate alerts; clan dungeon window; clan dungeon alerts; dungeon goombah; dungeon pirate; dungeon crystalys; dungeon warlord; 75 percent; three quarters; start room; fog; guards; locked room; boss room; booster; boosters; swarm assist; focus most wanted; zone of chaos; rocket barrage; mazmorra; mazmorras; mazmorra; mazmorras; señor de la guerra; laberinto; fase; zona de botín; carta; portal; portal del clan; potenciador; potenciadores; niebla; guardianes; sala de inicio; sala bloqueada; apoyo de enjambre; zona del caos; avisos de mazmorra del clan; mazmorra del clan; avisos de mazmorra del clan; tres cuartas partes; 75 por ciento -->
+<!-- wiki-search: dungeon; dungeons; gate; gates; clan gate; clan gates; clan dungeon; summon; warlord; gate warlord; boss; maze; loot zone; chest; card; vote; stage; instance; gate delta; gate epsilon; gate zeta; gate eta; gate theta; gate iota; gate goombah; gate pirate; gate crystalys; portal; clan portal; join; clan gate alerts; clan dungeon window; clan dungeon alerts; dungeon goombah; dungeon pirate; dungeon crystalys; dungeon warlord; 75 percent; three quarters; start room; fog; guards; locked room; boss room; booster; boosters; swarm assist; focus most wanted; zone of chaos; rocket barrage; mazmorra; mazmorras; mazmorra; mazmorras; señor de la guerra; laberinto; fase; zona de botín; carta; portal; portal del clan; potenciador; potenciadores; niebla; guardianes; sala de inicio; sala bloqueada; apoyo de enjambre; zona del caos; avisos de mazmorra del clan; mazmorra del clan; avisos de mazmorra del clan; tres cuartas partes; 75 por ciento; radiation donut; donut; rosquilla de radiación -->
 
-Una **mazmorra** es un laberinto cerrado con un **Señor de la guerra** al final (antes de la 0.5.2 el juego la llamaba mazmorra). Un colíder o el líder de un [clan](/wiki/03-Mechanics/Clans.md) abre una y la paga con el banco del clan, y los miembros del clan vuelan juntos hacia dentro como un solo [grupo](/wiki/03-Mechanics/Groups.md). Abren camino entre los alienígenas del laberinto, abren zonas de botín para elegir una carta en cada una y derrotan al Señor de la guerra. Todo piloto que participó en el combate cobra cuando cae el Señor de la guerra, dentro de los límites más abajo. Las mazmorras están en la pestaña **Mazmorras** de la página del clan.
+Una **mazmorra** es un laberinto cerrado con un **Señor de la guerra** al final (antes de la 0.5.2 el juego la llamaba mazmorra). Un colíder o el líder de un [clan](/wiki/03-Mechanics/Clans.md) abre una y la paga con el banco del clan, y los miembros del clan vuelan juntos hacia dentro como un solo [grupo](/wiki/03-Mechanics/Groups.md). Abren camino entre los alienígenas del laberinto, abren zonas de botín para elegir una carta en cada una y derrotan al Señor de la guerra. Todos vuelan como un solo grupo, y un grupo no se libra del daño de área de un cohete: la explosión de un Ember, un Scatter o una N.U.K.E. y la zona de radiación que deja una N.U.K.E. te dañan a ti y a los miembros de tu grupo con la mitad de lo que hacen a otra nave. Cuida, pues, adónde disparas (ver [Grupos](/wiki/03-Mechanics/Groups.md#rules-of-engagement)). Todo piloto que participó en el combate cobra cuando cae el Señor de la guerra, dentro de los límites más abajo. Las mazmorras están en la pestaña **Mazmorras** de la página del clan.
 
 Una mazmorra es un combate solo contra los alienígenas: nadie puede atacar dentro a un compañero de clan ni a nadie más. Los alienígenas pagan al caer, como los alienígenas del juego en los que se basan ([lo que pagan los alienígenas](#what-the-aliens-pay)). El pago de la partida es del Señor de la guerra, así que la única manera de cobrarlo es estar en el combate cuando cae.
 
@@ -117,17 +117,17 @@ Cada tipo por turno. El casco y el escudo son los habituales multiplicados por e
 
 |  | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
-| Casco | 32.000 | 48.000 | 64.000 |
-| Escudo | 48.000 | 72.000 | 96.000 |
-| Daño de los láseres (una salva por segundo) | 3.000 | 4.500 | 6.000 |
-| Velocidad | 180 | 180 | 180 |
+| Casco | {{guide:vitals.hull@Dungeon Goombah}} | {{guide:vitals.hull*1.5@Dungeon Goombah}} | {{guide:vitals.hull*2@Dungeon Goombah}} |
+| Escudo | {{guide:vitals.shield@Dungeon Goombah}} | {{guide:vitals.shield*1.5@Dungeon Goombah}} | {{guide:vitals.shield*2@Dungeon Goombah}} |
+| Daño de los láseres (una salva por segundo) | {{guide:vitals.dps@Dungeon Goombah}} | {{guide:vitals.dps*1.5@Dungeon Goombah}} | {{guide:vitals.dps*2@Dungeon Goombah}} |
+| Velocidad | {{guide:vitals.speed@Dungeon Goombah}} | {{guide:vitals.speed@Dungeon Goombah}} | {{guide:vitals.speed@Dungeon Goombah}} |
 | Alcance de los láseres | 800 | 800 | 800 |
-| Radio de agresión | 1.800 | 1.800 | 1.800 |
+| Radio de agresión | {{guide:vitals.aggro@Dungeon Goombah}} | {{guide:vitals.aggro@Dungeon Goombah}} | {{guide:vitals.aggro@Dungeon Goombah}} |
 | Pago y botín, veces el del original | ×1 | ×1,5 | ×2 |
-| Créditos por baja | 15.000 | 22.500 | 30.000 |
-| Thulium por baja | 75 | 113 | 150 |
-| Experiencia por baja | 3.000 | 4.500 | 6.000 |
-| Honor por baja | 24 | 36 | 48 |
+| Créditos por baja | {{guide:spoils.pay.credits@Goombah#1}} | {{guide:spoils.pay.credits*1.5@Goombah#1}} | {{guide:spoils.pay.credits*2@Goombah#1}} |
+| Thulium por baja | {{guide:spoils.pay.thulium@Goombah#1}} | {{guide:spoils.pay.thulium*1.5@Goombah#1}} | {{guide:spoils.pay.thulium*2@Goombah#1}} |
+| Experiencia por baja | {{guide:spoils.pay.experience@Goombah#1}} | {{guide:spoils.pay.experience*1.5@Goombah#1}} | {{guide:spoils.pay.experience*2@Goombah#1}} |
+| Honor por baja | {{guide:spoils.pay.honor@Goombah#1}} | {{guide:spoils.pay.honor*1.5@Goombah#1}} | {{guide:spoils.pay.honor*2@Goombah#1}} |
 
 ### Dungeon Pirate
 
@@ -138,18 +138,18 @@ Cada tipo por turno. El casco y el escudo son los habituales multiplicados por e
 
 |  | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
-| Casco | 250.000 | 375.000 | 500.000 |
-| Escudo | 50.100 | 75.150 | 100.200 |
-| Daño de los láseres (una salva por segundo) | 200 | 300 | 400 |
-| Daño de cohete | 5.000 | 7.500 | 10.000 |
-| Velocidad | 100 | 100 | 100 |
+| Casco | {{guide:vitals.hull@Dungeon Pirate}} | {{guide:vitals.hull*1.5@Dungeon Pirate}} | {{guide:vitals.hull*2@Dungeon Pirate}} |
+| Escudo | {{guide:vitals.shield@Dungeon Pirate}} | {{guide:vitals.shield*1.5@Dungeon Pirate}} | {{guide:vitals.shield*2@Dungeon Pirate}} |
+| Daño de los láseres (una salva por segundo) | {{guide:vitals.dps@Dungeon Pirate}} | {{guide:vitals.dps*1.5@Dungeon Pirate}} | {{guide:vitals.dps*2@Dungeon Pirate}} |
+| Daño de cohete | {{guide:behaviour.ability:rocket.damage@Dungeon Pirate}} | {{guide:behaviour.ability:rocket.damage*1.5@Dungeon Pirate}} | {{guide:behaviour.ability:rocket.damage*2@Dungeon Pirate}} |
+| Velocidad | {{guide:vitals.speed@Dungeon Pirate}} | {{guide:vitals.speed@Dungeon Pirate}} | {{guide:vitals.speed@Dungeon Pirate}} |
 | Alcance de los láseres | 700 | 700 | 700 |
-| Radio de agresión | 1.800 | 1.800 | 1.800 |
+| Radio de agresión | {{guide:vitals.aggro@Dungeon Pirate}} | {{guide:vitals.aggro@Dungeon Pirate}} | {{guide:vitals.aggro@Dungeon Pirate}} |
 | Pago y botín, veces el del original | ×1 | ×1,5 | ×2 |
-| Créditos por baja | 145.000 | 217.500 | 290.000 |
-| Thulium por baja | 725 | 1.088 | 1.450 |
-| Experiencia por baja | 29.000 | 43.500 | 58.000 |
-| Honor por baja | 232 | 348 | 464 |
+| Créditos por baja | {{guide:spoils.pay.credits@Pirate Boss#1}} | {{guide:spoils.pay.credits*1.5@Pirate Boss#1}} | {{guide:spoils.pay.credits*2@Pirate Boss#1}} |
+| Thulium por baja | {{guide:spoils.pay.thulium@Pirate Boss#1}} | {{guide:spoils.pay.thulium*1.5@Pirate Boss#1}} | {{guide:spoils.pay.thulium*2@Pirate Boss#1}} |
+| Experiencia por baja | {{guide:spoils.pay.experience@Pirate Boss#1}} | {{guide:spoils.pay.experience*1.5@Pirate Boss#1}} | {{guide:spoils.pay.experience*2@Pirate Boss#1}} |
+| Honor por baja | {{guide:spoils.pay.honor@Pirate Boss#1}} | {{guide:spoils.pay.honor*1.5@Pirate Boss#1}} | {{guide:spoils.pay.honor*2@Pirate Boss#1}} |
 
 ### Dungeon Crystalys
 
@@ -159,17 +159,17 @@ Cada tipo por turno. El casco y el escudo son los habituales multiplicados por e
 
 |  | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
-| Casco | 256.000 | 384.000 | 512.000 |
-| Escudo | 160.000 | 240.000 | 320.000 |
-| Daño de los láseres (una salva por segundo) | 10.000 | 15.000 | 20.000 |
-| Velocidad | 230 | 230 | 230 |
+| Casco | {{guide:vitals.hull@Dungeon Crystalys}} | {{guide:vitals.hull*1.5@Dungeon Crystalys}} | {{guide:vitals.hull*2@Dungeon Crystalys}} |
+| Escudo | {{guide:vitals.shield@Dungeon Crystalys}} | {{guide:vitals.shield*1.5@Dungeon Crystalys}} | {{guide:vitals.shield*2@Dungeon Crystalys}} |
+| Daño de los láseres (una salva por segundo) | {{guide:vitals.dps@Dungeon Crystalys}} | {{guide:vitals.dps*1.5@Dungeon Crystalys}} | {{guide:vitals.dps*2@Dungeon Crystalys}} |
+| Velocidad | {{guide:vitals.speed@Dungeon Crystalys}} | {{guide:vitals.speed@Dungeon Crystalys}} | {{guide:vitals.speed@Dungeon Crystalys}} |
 | Alcance de los láseres | 900 | 900 | 900 |
-| Radio de agresión | 2.400 | 2.400 | 2.400 |
+| Radio de agresión | {{guide:vitals.aggro@Dungeon Crystalys}} | {{guide:vitals.aggro@Dungeon Crystalys}} | {{guide:vitals.aggro@Dungeon Crystalys}} |
 | Pago y botín, veces el del original | ×1 | ×1,5 | ×2 |
-| Créditos por baja | 75.000 | 112.500 | 150.000 |
-| Thulium por baja | 200 | 300 | 400 |
-| Experiencia por baja | 12.000 | 18.000 | 24.000 |
-| Honor por baja | 52 | 78 | 104 |
+| Créditos por baja | {{guide:spoils.pay.credits@Crystalys#1}} | {{guide:spoils.pay.credits*1.5@Crystalys#1}} | {{guide:spoils.pay.credits*2@Crystalys#1}} |
+| Thulium por baja | {{guide:spoils.pay.thulium@Crystalys#1}} | {{guide:spoils.pay.thulium*1.5@Crystalys#1}} | {{guide:spoils.pay.thulium*2@Crystalys#1}} |
+| Experiencia por baja | {{guide:spoils.pay.experience@Crystalys#1}} | {{guide:spoils.pay.experience*1.5@Crystalys#1}} | {{guide:spoils.pay.experience*2@Crystalys#1}} |
+| Honor por baja | {{guide:spoils.pay.honor@Crystalys#1}} | {{guide:spoils.pay.honor*1.5@Crystalys#1}} | {{guide:spoils.pay.honor*2@Crystalys#1}} |
 
 ### Dungeon Crystalys Twin
 
@@ -179,17 +179,17 @@ Cada tipo por turno. El casco y el escudo son los habituales multiplicados por e
 
 |  | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
-| Casco | 512.000 | 768.000 | 1.024.000 |
-| Escudo | 320.000 | 480.000 | 640.000 |
-| Daño de los láseres (una salva por segundo) | 20.000 | 30.000 | 40.000 |
-| Velocidad | 230 | 230 | 230 |
+| Casco | {{guide:vitals.hull@Dungeon Crystalys Twin}} | {{guide:vitals.hull*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.hull*2@Dungeon Crystalys Twin}} |
+| Escudo | {{guide:vitals.shield@Dungeon Crystalys Twin}} | {{guide:vitals.shield*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.shield*2@Dungeon Crystalys Twin}} |
+| Daño de los láseres (una salva por segundo) | {{guide:vitals.dps@Dungeon Crystalys Twin}} | {{guide:vitals.dps*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.dps*2@Dungeon Crystalys Twin}} |
+| Velocidad | {{guide:vitals.speed@Dungeon Crystalys Twin}} | {{guide:vitals.speed@Dungeon Crystalys Twin}} | {{guide:vitals.speed@Dungeon Crystalys Twin}} |
 | Alcance de los láseres | 900 | 900 | 900 |
-| Radio de agresión | 2.400 | 2.400 | 2.400 |
+| Radio de agresión | {{guide:vitals.aggro@Dungeon Crystalys Twin}} | {{guide:vitals.aggro@Dungeon Crystalys Twin}} | {{guide:vitals.aggro@Dungeon Crystalys Twin}} |
 | Pago y botín, veces el del original | ×2 | ×3 | ×4 |
-| Créditos por baja | 150.000 | 225.000 | 300.000 |
-| Thulium por baja | 400 | 600 | 800 |
-| Experiencia por baja | 24.000 | 36.000 | 48.000 |
-| Honor por baja | 104 | 156 | 208 |
+| Créditos por baja | {{guide:spoils.pay.credits*2@Crystalys#1}} | {{guide:spoils.pay.credits*3@Crystalys#1}} | {{guide:spoils.pay.credits*4@Crystalys#1}} |
+| Thulium por baja | {{guide:spoils.pay.thulium*2@Crystalys#1}} | {{guide:spoils.pay.thulium*3@Crystalys#1}} | {{guide:spoils.pay.thulium*4@Crystalys#1}} |
+| Experiencia por baja | {{guide:spoils.pay.experience*2@Crystalys#1}} | {{guide:spoils.pay.experience*3@Crystalys#1}} | {{guide:spoils.pay.experience*4@Crystalys#1}} |
+| Honor por baja | {{guide:spoils.pay.honor*2@Crystalys#1}} | {{guide:spoils.pay.honor*3@Crystalys#1}} | {{guide:spoils.pay.honor*4@Crystalys#1}} |
 
 <!-- dungeons-enemies:end -->
 
@@ -205,24 +205,24 @@ El Señor de la guerra espera en la sala del extremo lejano del laberinto, y su 
 
 |  | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
-| Casco | 10.000.000 | 15.000.000 | 25.000.000 |
-| Escudo | 8.000.000 | 12.000.000 | 20.000.000 |
-| Daño de los láseres (una salva por segundo) | 17.500–22.500 | 26.250–33.750 a cada uno de 2 pilotos | 35.000–45.000 a cada uno de 2 pilotos |
-| Velocidad | 120 | 120 | 120 |
+| Casco | {{guide:vitals.hull@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} | {{guide:vitals.hull*2.5@Dungeon Warlord}} |
+| Escudo | {{guide:vitals.shield@Dungeon Warlord}} | {{guide:vitals.shield*1.5@Dungeon Warlord}} | {{guide:vitals.shield*2.5@Dungeon Warlord}} |
+| Daño de los láseres (una salva por segundo) | {{guide:vitals.dps*0.875~1.125@Dungeon Warlord}} | {{guide:vitals.dps*1.3125~1.6875@Dungeon Warlord}} a cada uno de 2 pilotos | {{guide:vitals.dps*1.75~2.25@Dungeon Warlord}} a cada uno de 2 pilotos |
+| Velocidad | {{guide:vitals.speed@Dungeon Warlord}} | {{guide:vitals.speed@Dungeon Warlord}} | {{guide:vitals.speed@Dungeon Warlord}} |
 | Alcance de los láseres | 1.100 | 1.100 | 1.100 |
 
 El casco y el escudo de arriba son para un grupo de 5. Crecen con el grupo: son el casco y el escudo del Señor de la guerra juntos, según el número de pilotos del grupo cuando empieza la mazmorra.
 
 | Pilotos en el grupo | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
-| 3 | 10.800.000 | 16.200.000 | 27.000.000 |
-| 4 | 14.400.000 | 21.600.000 | 36.000.000 |
-| 5 | 18.000.000 | 27.000.000 | 45.000.000 |
-| 6 | 21.600.000 | 32.400.000 | 54.000.000 |
-| 7 | 25.200.000 | 37.800.000 | 63.000.000 |
-| 8 | 28.800.000 | 43.200.000 | 72.000.000 |
-| 9 | 32.400.000 | 48.600.000 | 81.000.000 |
-| 10 | 36.000.000 | 54.000.000 | 90.000.000 |
+| 3 | {{guide:vitals.hull*0.6@Dungeon Warlord}} + {{guide:vitals.shield*0.6@Dungeon Warlord}} | {{guide:vitals.hull*0.9@Dungeon Warlord}} + {{guide:vitals.shield*0.9@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} + {{guide:vitals.shield*1.5@Dungeon Warlord}} |
+| 4 | {{guide:vitals.hull*0.8@Dungeon Warlord}} + {{guide:vitals.shield*0.8@Dungeon Warlord}} | {{guide:vitals.hull*1.2@Dungeon Warlord}} + {{guide:vitals.shield*1.2@Dungeon Warlord}} | {{guide:vitals.hull*2@Dungeon Warlord}} + {{guide:vitals.shield*2@Dungeon Warlord}} |
+| 5 | {{guide:vitals.hull@Dungeon Warlord}} + {{guide:vitals.shield@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} + {{guide:vitals.shield*1.5@Dungeon Warlord}} | {{guide:vitals.hull*2.5@Dungeon Warlord}} + {{guide:vitals.shield*2.5@Dungeon Warlord}} |
+| 6 | {{guide:vitals.hull*1.2@Dungeon Warlord}} + {{guide:vitals.shield*1.2@Dungeon Warlord}} | {{guide:vitals.hull*1.8@Dungeon Warlord}} + {{guide:vitals.shield*1.8@Dungeon Warlord}} | {{guide:vitals.hull*3@Dungeon Warlord}} + {{guide:vitals.shield*3@Dungeon Warlord}} |
+| 7 | {{guide:vitals.hull*1.4@Dungeon Warlord}} + {{guide:vitals.shield*1.4@Dungeon Warlord}} | {{guide:vitals.hull*2.1@Dungeon Warlord}} + {{guide:vitals.shield*2.1@Dungeon Warlord}} | {{guide:vitals.hull*3.5@Dungeon Warlord}} + {{guide:vitals.shield*3.5@Dungeon Warlord}} |
+| 8 | {{guide:vitals.hull*1.6@Dungeon Warlord}} + {{guide:vitals.shield*1.6@Dungeon Warlord}} | {{guide:vitals.hull*2.4@Dungeon Warlord}} + {{guide:vitals.shield*2.4@Dungeon Warlord}} | {{guide:vitals.hull*4@Dungeon Warlord}} + {{guide:vitals.shield*4@Dungeon Warlord}} |
+| 9 | {{guide:vitals.hull*1.8@Dungeon Warlord}} + {{guide:vitals.shield*1.8@Dungeon Warlord}} | {{guide:vitals.hull*2.7@Dungeon Warlord}} + {{guide:vitals.shield*2.7@Dungeon Warlord}} | {{guide:vitals.hull*4.5@Dungeon Warlord}} + {{guide:vitals.shield*4.5@Dungeon Warlord}} |
+| 10 | {{guide:vitals.hull*2@Dungeon Warlord}} + {{guide:vitals.shield*2@Dungeon Warlord}} | {{guide:vitals.hull*3@Dungeon Warlord}} + {{guide:vitals.shield*3@Dungeon Warlord}} | {{guide:vitals.hull*5@Dungeon Warlord}} + {{guide:vitals.shield*5@Dungeon Warlord}} |
 
 <!-- dungeons-boss:end -->
 
@@ -241,6 +241,7 @@ La ventana Mazmorra de clan cuenta cuántos de ellos faltan por destruir para ab
 - **El Apoyo de enjambre** es el Señor de la guerra llamando a sus Goombahs. Mientras viven, no puede ser dañado, y no dispara ni usa otra habilidad. Destrúyelos todos: el cartel de la habilidad cuenta cuántos quedan. Si pasa un minuto, el Señor de la guerra vuelve a poder ser dañado y los Goombahs que quedan siguen luchando. No cuentan para la sala del Señor de la guerra, y no pagan nada.
 - **La Zona del Caos** es un anillo violeta en el suelo, alrededor del Señor de la guerra, y mientras dura va adonde vaya el Señor de la guerra. Nadie dentro del anillo puede atacar, ni con láseres ni con cohetes, aunque las reparaciones, el camuflaje y el vuelo siguen funcionando, y el Señor de la guerra y sus alienígenas disparan como siempre. El anillo aparece un momento antes de hacer efecto: sal de él y quédate fuera, porque sigue al Señor de la guerra. Un piloto que está fuera puede seguir disparando, hasta donde alcancen sus armas.
 - **La Lanza fantasma** hace que el Señor de la guerra desaparezca durante un segundo. Vuelve a otro lugar de su sala junto con tres ilusiones de sí mismo. Mientras una ilusión vive, dispara al piloto más cercano que puede ver con la mitad de la salva del Señor de la guerra y cura cada segundo el casco y el escudo del Señor de la guerra (los números están en la tabla de las habilidades). Las ilusiones tienen un casco propio: destrúyelas para detener la curación. No pagan nada, y se van con el Señor de la guerra cuando cae. El Señor de la guerra puede ser destruido mientras ellas viven.
+- **La Rosquilla de radiación** enciende tres anillos de radiación alrededor del lugar donde estaba el Señor de la guerra cuando empezó la habilidad, uno tras otro desde el Señor de la guerra hacia fuera, con uno o dos segundos entre dos anillos. Cada anillo muestra sus dos bordes un momento antes de encenderse y después quema a todo piloto que esté dentro durante unos segundos, directamente del casco (la tabla de las habilidades da los tiempos y la parte del casco por segundo). Un anillo no se apaga cuando se enciende el siguiente: dos anillos, y en las fases más altas los tres, pueden arder a la vez. El hueco alrededor del Señor de la guerra, el suelo entre los anillos y el suelo fuera del último son seguros: quédate en ellos y sal de un anillo antes de que se encienda. Una pared no detiene la radiación y un camuflaje no salva a un piloto de ella; la Tecnología de radiación reduce la dosis.
 
 <!-- dungeons-abilities:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -255,19 +256,34 @@ La ventana Mazmorra de clan cuenta cuántos de ellos faltan por destruir para ab
 | **Apoyo de enjambre** | 2 s | Hasta 1 min | 3 min | – | – |
 | **Zona del Caos** | 2 s | 15 s | 2 min | 900 | – |
 | **Lanza fantasma** | 1,5 s | 1 s | 2 min | – | – |
+| **Rosquilla de radiación** | 1 s | Hasta 8,5 s | 75 s | 2.150 | – |
 
 | Habilidad | Fase 1 | Fase 2 | Fase 3 |
 | :--- | :--- | :--- | :--- |
-| **Aura de robo de vida** | 8.000 por segundo | 10.000 por segundo | 12.000 por segundo |
-| **Lluvia de meteoros** | 6 meteoros por salva, 80.000 cada uno | 8 meteoros por salva, 100.000 cada uno | 10 meteoros por salva, 120.000 cada uno |
-| **Foco en el más buscado** | 26.250–33.750 por disparo adicional al piloto que más daño ha causado, uno cada 1 s | 39.375–50.625 por disparo adicional al piloto que más daño ha causado, uno cada 1 s | 52.500–67.500 por disparo adicional al piloto que más daño ha causado, uno cada 1 s |
-| **Andanada de cohetes** | 100.000–150.000 por cohete a cada piloto, uno cada 15 s | 125.000–187.500 por cohete a cada piloto, uno cada 15 s | 150.000–225.000 por cohete a cada piloto, uno cada 15 s |
-| **Absorción de escudo** | 10.000 de escudo por segundo | 12.500 de escudo por segundo | 15.000 de escudo por segundo |
+| **Aura de robo de vida** | {{guide:behaviour.ability:lifesteal.drainPerSec@Dungeon Warlord}} por segundo | {{guide:behaviour.ability:lifesteal.drainPerSec*1.25@Dungeon Warlord}} por segundo | {{guide:behaviour.ability:lifesteal.drainPerSec*1.5@Dungeon Warlord}} por segundo |
+| **Lluvia de meteoros** | 6 meteoros por salva, {{guide:behaviour.ability:meteor.damage@Dungeon Warlord}} cada uno | 8 meteoros por salva, {{guide:behaviour.ability:meteor.damage*1.25@Dungeon Warlord}} cada uno | 10 meteoros por salva, {{guide:behaviour.ability:meteor.damage*1.5@Dungeon Warlord}} cada uno |
+| **Foco en el más buscado** | {{guide:vitals.dps*1.3125~1.6875@Dungeon Warlord}} por disparo adicional al piloto que más daño ha causado, uno cada 1 s | {{guide:vitals.dps*1.96875~2.53125@Dungeon Warlord}} por disparo adicional al piloto que más daño ha causado, uno cada 1 s | {{guide:vitals.dps*2.625~3.375@Dungeon Warlord}} por disparo adicional al piloto que más daño ha causado, uno cada 1 s |
+| **Andanada de cohetes** | {{guide:behaviour.ability:barrage.damageMin@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage@Dungeon Warlord}} por cohete a cada piloto, uno cada 15 s | {{guide:behaviour.ability:barrage.damageMin*1.25@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage*1.25@Dungeon Warlord}} por cohete a cada piloto, uno cada 15 s | {{guide:behaviour.ability:barrage.damageMin*1.5@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage*1.5@Dungeon Warlord}} por cohete a cada piloto, uno cada 15 s |
+| **Absorción de escudo** | {{guide:behaviour.ability:absorb.drainPerSec@Dungeon Warlord}} de escudo por segundo | {{guide:behaviour.ability:absorb.drainPerSec*1.25@Dungeon Warlord}} de escudo por segundo | {{guide:behaviour.ability:absorb.drainPerSec*1.5@Dungeon Warlord}} de escudo por segundo |
 | **Apoyo de enjambre** | 12 Goombahs | 18 Goombahs | 24 Goombahs |
 | **Zona del Caos** | Los pilotos dentro del anillo no pueden atacar | Los pilotos dentro del anillo no pueden atacar | Los pilotos dentro del anillo no pueden atacar |
-| **Lanza fantasma** | 3 ilusiones de 500.000 de casco cada una; cada una dispara el 50 % de la salva del Señor de la guerra y, mientras vive, cura al Señor de la guerra 50.000 de casco y 50.000 de escudo por segundo | 3 ilusiones de 500.000 de casco cada una; cada una dispara el 50 % de la salva del Señor de la guerra y, mientras vive, cura al Señor de la guerra 50.000 de casco y 50.000 de escudo por segundo | 3 ilusiones de 500.000 de casco cada una; cada una dispara el 50 % de la salva del Señor de la guerra y, mientras vive, cura al Señor de la guerra 50.000 de casco y 50.000 de escudo por segundo |
+| **Lanza fantasma** | 3 ilusiones; cada una dispara el 50 % de la salva del Señor de la guerra y, mientras vive, cura al Señor de la guerra 50.000 de casco y 50.000 de escudo por segundo | 3 ilusiones; cada una dispara el 50 % de la salva del Señor de la guerra y, mientras vive, cura al Señor de la guerra 50.000 de casco y 50.000 de escudo por segundo | 3 ilusiones; cada una dispara el 50 % de la salva del Señor de la guerra y, mientras vive, cura al Señor de la guerra 50.000 de casco y 50.000 de escudo por segundo |
+| **Rosquilla de radiación** | 3 anillos, encendidos uno tras otro; cada uno arde durante 2 s y quita el 8 % del casco de un piloto por segundo | 3 anillos, encendidos uno tras otro; cada uno arde durante 3 s y quita el 8 % del casco de un piloto por segundo | 3 anillos, encendidos uno tras otro; cada uno arde durante 4,5 s y quita el 8 % del casco de un piloto por segundo |
 
 <!-- dungeons-abilities:end -->
+
+### Sus tres pasos {#its-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+El Señor de la guerra tiene tres pasos ([cómo funcionan](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); cada uno ocurre una vez.
+
+- **Por debajo de dos tercios**: La pausa entre sus habilidades baja a 4 s y sus esperas a ×0,75.
+- **Por debajo de un tercio**: La pausa baja a 2 s, sus esperas a ×0,5 y su daño sube a ×1,25; lanza una andanada de Meteor gratis, y su Swarm nunca vuelve más rápido que cada 120 s.
+- **Una pausa en cada paso.** Cuando empieza un paso, el Señor de la guerra no puede ser dañado durante 3 s.
+
+<!-- mob-ladder:end -->
 
 ## Zonas de botín {#loot-zones}
 
@@ -351,9 +367,9 @@ Las **Orvium Reinforced Plates** y las **Echo Shards** y **Lattice Shards** de l
 
 | Fase | Honor | Experiencia | Créditos | Thulium | Munición x4 | Orvium Reinforced Plates | Echo Shards | Lattice Shards | Puntos de ranking PvE |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Fase 1** | 25.000 | 600.000 | 5.000.000 | 8.000 | 4.000 | 5 | 12 | 5 | 850 |
-| **Fase 2** | 50.000 | 1.500.000 | 10.000.000 | 18.000 | 9.000 | 10 | 8 | 6 | 2.000 |
-| **Fase 3** | 100.000 | 2.400.000 | 17.500.000 | 30.000 | 15.000 | 15 | 8 | 7 | 3.400 |
+| **Fase 1** | 25.000 | 600.000 | 5.000.000 | 8.000 | 4.000 | 5 | 24 | 10 | 850 |
+| **Fase 2** | 50.000 | 1.500.000 | 10.000.000 | 18.000 | 9.000 | 10 | 16 | 12 | 2.000 |
+| **Fase 3** | 100.000 | 2.400.000 | 17.500.000 | 30.000 | 15.000 | 15 | 16 | 14 | 3.400 |
 
 - **Heartshards**: 1 con la primera finalización pagada de cada etapa en una temporada, y un 5 % de probabilidad de uno más con cada finalización pagada.
 
@@ -367,7 +383,7 @@ Estas reglas deciden quién cobra **la partida**. Una partida se juega entera au
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
 - **Un día**: Una fase paga a un piloto una vez por día UTC: el día en que cae el Señor de la guerra
-- **Una semana**: Un piloto cobra como máximo 10 fases completadas por semana UTC, de lunes a domingo
+- **Una semana**: Un piloto cobra como máximo 14 fases completadas por semana UTC, de lunes a domingo
 - **Dentro**: Al menos 2 min en total
 - **Parte en el combate**: Al menos una de estas: infligió 0,1 % del casco y el escudo del Señor de la guerra; destruyó 10 de los alienígenas de la mazmorra; curó a otros pilotos por 50.000 durante el combate contra el Señor de la guerra
 
@@ -382,8 +398,8 @@ Lo que un piloto puede cobrar en un día y en la mejor semana que permiten los l
 
 | Pago por piloto | Honor | Experiencia | Créditos | Thulium | Munición x4 | Orvium Reinforced Plates | Echo Shards | Lattice Shards | Puntos de ranking PvE |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Un día, cada fase una vez | 175.000 | 4.500.000 | 32.500.000 | 56.000 | 28.000 | 30 | 28 | 18 | 6.250 |
-| La mejor semana: 7 × Fase 3 y 3 × Fase 2 | 850.000 | 21.300.000 | 152.500.000 | 264.000 | 132.000 | 135 | 80 | 67 | 29.800 |
+| Un día, cada fase una vez | 175.000 | 4.500.000 | 32.500.000 | 56.000 | 28.000 | 30 | 56 | 36 | 6.250 |
+| La mejor semana: 7 × Fase 3 y 7 × Fase 2 | 1.050.000 | 27.300.000 | 192.500.000 | 336.000 | 168.000 | 175 | 224 | 182 | 37.800 |
 
 La experiencia y el honor de una fase completada y pagada cuentan para tus puntos de ranking PvE: un punto por cada 1.000 de experiencia y uno por cada 100 de honor.
 
@@ -395,7 +411,7 @@ Cada alienígena de una mazmorra paga al caer, y suelta botín, como el alieníg
 
 - **Quién cobra.** Los pilotos que dañaron al alienígena, según el daño que hicieron, como con los alienígenas de los enjambres: un piloto o un grupo que apenas lo rozó no recibe nada, un grupo cobra como uno solo, y dentro de un grupo los miembros que están cerca de los restos y han disparado hace poco se reparten por nivel lo que se paga. Un piloto que no hizo daño al alienígena no cobra nada por él, por cerca que haya volado, y un alienígena al que ningún piloto dañó no paga a nadie. Solo entran los pilotos a los que pagan las reglas de arriba: quien se fue, no lleva dentro el tiempo suficiente, ya cobró hoy por la fase o ya tuvo todas las partidas pagadas de la semana no cobra nada por los alienígenas, y los demás se quedan con su parte. Una baja no pide la parte en el combate: haber dañado al alienígena es la parte. Si el miembro de un grupo que más daño hizo ha sido destruido o ya no está en el mapa, los miembros que están cerca de los restos y han disparado hace poco se reparten el pago sin él.
 - **Qué se paga.** Créditos, Thulium, experiencia y honor, una vez por baja. El pago es lo que paga el original en Alpha, en todos los mundos: una mazmorra no tiene multiplicador de mundo. Tus potenciadores, formación y las bonificaciones de tu clan cuentan como en cualquier baja, y la experiencia cuenta para tus [puntos PvE](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points) como la de la partida.
-- **El botín.** Se tira con las probabilidades del original, salvo que el Echo Shard es el doble de probable, y después cada cantidad se multiplica por la proporción (una fracción de unidad es una probabilidad de una más). Cae como una caja en los restos, primero para el piloto que más daño hizo y su clan, después para cualquiera en el mapa, y luego desaparece. Si el [grupo](/wiki/03-Mechanics/Groups.md) del piloto que más daño causó tiene dos o más pilotos que dañaron al alienígena y siguen volando en la mazmorra, el botín se reparte en cambio en [cajas personales](/wiki/03-Mechanics/Cargo.md#personal-crates), una para cada uno según el daño que causó, y cada una es primero solo de su piloto y después de cualquiera en el mapa. Un compañero de grupo que no causó daño o al que las reglas de arriba dejan fuera no recibe caja. Los demás grupos y los pilotos que vuelan solos cobran su parte y no reciben caja de este botín. El mapa admite solo cierto número de cajas a la vez, así que recógelas sobre la marcha, y lo que quede en el mapa cuando se cierra la mazmorra se va con ella. A diferencia de los objetos de la partida, son botín corriente de un alienígena: se pueden [vender en la Subasta](/wiki/03-Mechanics/Auction.md#marketable-items) si el objeto es Comercializable.
+- **El botín.** Se tira con las probabilidades del original, salvo que el Echo Shard es el doble de probable y cae de dos en dos, y después cada cantidad se multiplica por la proporción (una fracción de unidad es una probabilidad de una más). Cae como una caja en los restos, primero para el piloto que más daño hizo y su clan, después para cualquiera en el mapa, y luego desaparece. Si el [grupo](/wiki/03-Mechanics/Groups.md) del piloto que más daño causó tiene dos o más pilotos que dañaron al alienígena y siguen volando en la mazmorra, el botín se reparte en cambio en [cajas personales](/wiki/03-Mechanics/Cargo.md#personal-crates), una para cada uno según el daño que causó, y cada una es primero solo de su piloto y después de cualquiera en el mapa. Un compañero de grupo que no causó daño o al que las reglas de arriba dejan fuera no recibe caja. Los demás grupos y los pilotos que vuelan solos cobran su parte y no reciben caja de este botín. El mapa admite solo cierto número de cajas a la vez, así que recógelas sobre la marcha, y lo que quede en el mapa cuando se cierra la mazmorra se va con ella. A diferencia de los objetos de la partida, son botín corriente de un alienígena: se pueden [vender en la Subasta](/wiki/03-Mechanics/Auction.md#marketable-items) si el objeto es Comercializable.
 - **Lo que no paga.** El Señor de la guerra no paga baja, solo la partida. Los Goombahs que llama no pagan nada, porque la llamada se repite mientras dura el combate.
 - **No es una baja del juego.** Una baja en una mazmorra no cuenta para misiones, logros, contadores de bajas, puntos de reinicio, los puntos PvE de una baja, drones ni P.E.T.s: un Dungeon Goombah no es un Goombah del juego.
 - **Los límites.** Los límites diarios y semanales de arriba frenan el pago de los alienígenas igual que el de la partida: quien ya cobró hoy por la fase o ya tuvo todas las partidas pagadas de la semana tampoco cobra nada por sus alienígenas, y el bote de cada baja va a los demás. Una mazmorra que no se supera paga sus bajas a los pilotos a los que pagan las reglas, y nada por la partida.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 38daca85a103c20f -->
+<!-- wiki-i18n source: d45e1534593782f8 -->
 <!-- wiki-i18n title: 階級 -->
 # 階級 {#ranks}
 
@@ -137,6 +137,7 @@ PvE ポイントは、4つのものから計算されます。
 | Slumbering Void | 10 |
 | Inert Mass | 15 |
 | The Unwakened | 112 |
+| Deep Mass | 15 |
 | Brood Warden I, II, III | 14, 18, 35 |
 | Siege Warden I, II, III | 13, 17, 32 |
 | Wrath Warden I, II, III | 14, 18, 34 |
@@ -144,7 +145,7 @@ PvE ポイントは、4つのものから計算されます。
 | Siege Escort I, II, III | 2, 3, 6 |
 | Wrath Guard I, II, III | 2, 3, 6 |
 
-最初の5行は通常のエイリアン、次の12行は6つの群れの船、その次の3行は[Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)のエイリアン（シーズン11日目から）です。最後は、クランのウォーデン戦のリーダーであるウォーデンと、その乗員の Brood Drone、Siege Escort、Wrath Guard です。I、II、III はウォーデンの強さで、ポイントはその順に並んでいます。
+最初の5行は通常のエイリアン、次の12行は6つの群れの船、その次の3行は[Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)のエイリアン（シーズン11日目から）、その次の1行は[Deep Void](/wiki/03-Mechanics/Deep-Void.md)の**Deep Mass**（シールドが厚いInert Mass）です。最後は、クランのウォーデン戦のリーダーであるウォーデンと、その乗員の Brood Drone、Siege Escort、Wrath Guard です。I、II、III はウォーデンの強さで、ポイントはその順に並んでいます。
 
 たとえば、レベル4で経験値12,500、名誉900のパイロットが、Seeker 300体、Phantasm 80体、Bulwark 10体を倒していれば、400 + 12 + 9 + 300 + 160 + 40 = **921**ポイントです。これで軍曹になります。最低ポイントは800で、次の階級シニア軍曹は1,000を必要とします。シニア大佐まではポイントだけがものを言います。
 

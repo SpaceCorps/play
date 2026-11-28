@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 38daca85a103c20f -->
+<!-- wiki-i18n source: d45e1534593782f8 -->
 <!-- wiki-i18n title: Rangok -->
 # Rangok {#ranks}
 
@@ -137,6 +137,7 @@ A keményebb idegen többet ér: a lelövés annyi pontot ad, amennyi kárt kell
 | Slumbering Void | 10 |
 | Inert Mass | 15 |
 | The Unwakened | 112 |
+| Deep Mass | 15 |
 | Brood Warden I, II, III | 14, 18, 35 |
 | Siege Warden I, II, III | 13, 17, 32 |
 | Wrath Warden I, II, III | 14, 18, 34 |
@@ -144,7 +145,7 @@ A keményebb idegen többet ér: a lelövés annyi pontot ad, amennyi kárt kell
 | Siege Escort I, II, III | 2, 3, 6 |
 | Wrath Guard I, II, III | 2, 3, 6 |
 
-Az első öt sor a hétköznapi idegen, a következő tizenkettő a hat raj hajója, a következő három pedig a [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) idegenei (a szezon 11. napjától). A végén a klánőrzők, a klánőrző-harc vezetői, és a legénységük, a Brood Drone-ok, Siege Escortok és Wrath Guardok: az őrző erősségét az I, II és III jelöli, és a pontok ebben a sorrendben állnak.
+Az első öt sor a hétköznapi idegen, a következő tizenkettő a hat raj hajója, a következő három pedig a [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) idegenei (a szezon 11. napjától), a következő egy pedig a [Deep Void](/wiki/03-Mechanics/Deep-Void.md) **Deep Mass**-a, a vastagabb pajzsú Inert Mass. A végén a klánőrzők, a klánőrző-harc vezetői, és a legénységük, a Brood Drone-ok, Siege Escortok és Wrath Guardok: az őrző erősségét az I, II és III jelöli, és a pontok ebben a sorrendben állnak.
 
 Például egy 4. szintű pilóta, akinek 12 500 tapasztalata és 900 becsülete van, és 300 Seekert, 80 Phantasmot és 10 Bulwarkot semmisített meg, 400 + 12 + 9 + 300 + 160 + 40 = **921** pontot kap. Ezzel Őrmester: a minimum 800, a következő rang, a Senior őrmester pedig 1 000 pontot kér. A Senior ezredes rangig csak a pontok számítanak.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: dde8093210ad8db3 -->
+<!-- wiki-i18n source: 7eff93dbf21a42a1 -->
 <!-- wiki-i18n title: Kara delik -->
 # Kara delik {#the-black-hole}
 

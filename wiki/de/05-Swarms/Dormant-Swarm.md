@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: bb8bc80ba6889fba -->
+<!-- wiki-i18n source: fcba1b51b68a9123 -->
 <!-- wiki-i18n title: Dormant-Schwarm -->
 # Dormant-Schwarm {#dormant-swarm}
 
-Der Dormant-Schwarm besteht aus einer **Dormant Force** mit ihren **Dormant Pulses**: einer Gruppe von Schiffen, die nie einen Kampf beginnen und sehr hart zuschlagen, sobald sie geweckt sind. Es gibt nur einen in jeder Welt. Er wandert von einem Gefahrensektor zum nächsten, und er ist der härteste Kampf und die reichste Beute unter den Schwärmen: ein Kampf für eine große Gruppe der stärksten Schiffe. Ab Saisontag 11 startet er im [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) auf `DS-4`, kehrt früher zurück und zahlt doppelt so viel (siehe die Liste *Auf einen Blick*).
+Der Dormant-Schwarm besteht aus einer **Dormant Force** mit ihren **Dormant Pulses**: einer Gruppe von Schiffen, die nie einen Kampf beginnen und sehr hart zuschlagen, sobald sie geweckt sind. Es gibt nur einen in den Gefahrensektoren jeder Welt (die [Deep Void](/wiki/03-Mechanics/Deep-Void.md#the-dormant-swarms-visit) hat einen eigenen Besuch, einmal am Tag). Er wandert von einem Gefahrensektor zum nächsten, und er ist der härteste Kampf und die reichste Beute unter den Schwärmen: ein Kampf für eine große Gruppe der stärksten Schiffe. Ab Saisontag 11 startet er im [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) auf `DS-4`, kehrt früher zurück und zahlt doppelt so viel (siehe die Liste *Auf einen Blick*).
 
 ## Auf einen Blick {#at-a-glance}
 
@@ -18,7 +18,7 @@ Der Dormant-Schwarm besteht aus einer **Dormant Force** mit ihren **Dormant Puls
 - **Anführer zerstört**: Dormant Pulse übernimmt die Führung
 - **Anführer zerstört**: Die Begleiter verschwinden 30 s nach der Zerstörung des Anführers, auch wenn sie gerade angreifen
 - **Reise**: Bleibt 8 bis 15 min auf einer Karte und fliegt dann zum Tor eines anderen Gefahrensektors. Er nimmt nie ein Tor aus den Gefahrensektoren hinaus und fliegt nie in den Ring des Schwarzen Lochs
-- **Kehrt zurück**: 1 h nach der Zerstörung des ganzen Schwarms, in einem zufälligen Gefahrensektor
+- **Kehrt zurück**: {{guide:vitals.respawn@Dormant Force#1;Dormant Force#2;Dormant Force#3}} nach der Zerstörung des ganzen Schwarms, in einem zufälligen Gefahrensektor
 - **Ab Saisontag 11**: Er erscheint im [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) auf `DS-4` statt in einem zufälligen Gefahrensektor, kehrt 30 min nach der Zerstörung des ganzen Schwarms zurück, und jedes Schiff zahlt ×2 (Credits, Thulium, EP und Ehre; die Beute bleibt gleich)
 - **Meldungen**: Die Piloten der ganzen Welt erfahren, wann der Schwarm auftaucht und wann er zerstört wird. Das sind Systemzeilen: Sie erscheinen im Tab **System** des Chats, mit Zähler für Ungelesenes, und nicht in **Global** oder **Lokal**. Eine Markierung zeigt ihn auf den Karten der Gefahrensektoren und auf der Galaxiekarte. Der Kill-Feed nennt den Piloten, dem der Abschuss gutgeschrieben wird.
 
@@ -38,6 +38,19 @@ Sie sind passiv: Sie gehen nie auf einen Piloten los. Wird eines von ihnen getro
 - **Seine Laser entscheiden den Kampf.** Zusammen können sie eine Paragon in unter einer Minute zerstören, selbst eine mit den besten Schilden in unter zwei Minuten, mit oder ohne Raketen: Bring deinen Schaden schnell ins Ziel, mit den besten Schilden, die du hast.
 - **Schiff für Schiff.** Jedes Schiff hat seine eigene Hülle und seine eigene Bezahlung, die Force oder eine Pulse kann also zuerst zerstört werden. Der Schwarm wird erst ersetzt, wenn er ganz zerstört ist, und zwar nach der Zeit in der Liste *Auf einen Blick*.
 
+## Die drei Schritte des Anführers {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Sein Kampf hat drei Schritte ([so funktionieren sie](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); jeder geschieht einmal.
+
+- **Am Anfang**: Nimmt 70 % von jedem Treffer, solange einer seiner Dormant Pulses lebt.
+- **Unter zwei Dritteln**: Seine Dormant Pulses feuern für 15 s alle 2,5 s eine Rakete.
+- **Unter einem Drittel**: Solange alle seine Dormant Pulses leben, heilen sie es 6 s lang um 5 % seiner Hülle pro Sekunde.
+
+<!-- mob-ladder:end -->
+
 ## Belohnungen und Beute {#rewards-and-drops}
 
 Jedes Schiff zahlt für sich, nach dem Schaden, der ihm zugefügt wurde ([so zahlt ein Boss-Abschuss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)), und jedes lässt eine Kiste für den Piloten fallen, der ihm den meisten Schaden zugefügt hat. Die **Kiste der Force** ist der Preis: sehr viel x3- und x4-Munition, Epische Raketen einer Sorte und hin und wieder eine N.I.K.E. oder eine N.U.K.E. Die **Pulses** lassen vielleicht eine Ancient Control Unit, einen Power Core oder Dark Matter fallen. Eine Minute Kampf gegen den Schwarm zahlt mehr als eine Minute Kampf gegen den Crystalys, das bestbezahlte Alien. Ab Saisontag 11 zahlt jedes Schiff doppelt so viel (siehe die Liste *Auf einen Blick*); die Kisten bleiben gleich.
@@ -55,27 +68,24 @@ Basis: Wraith mit 100 % der Hülle und 300 % des Laserschadens; Tempo und Reic
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Hülle | 256.000 | 384.000 | 512.000 |
-| Schild | 83.400 | 125.100 | 166.800 |
-| Laserschaden (eine Salve pro Sekunde) | 3.315 | 4.973 | 6.630 |
-| Tempo | 210 | 210 | 210 |
+| Hülle | {{guide:vitals.hull@Dormant Force#1}} | {{guide:vitals.hull@Dormant Force#2}} | {{guide:vitals.hull@Dormant Force#3}} |
+| Schild | {{guide:vitals.shield@Dormant Force#1}} | {{guide:vitals.shield@Dormant Force#2}} | {{guide:vitals.shield@Dormant Force#3}} |
+| Laserschaden (eine Salve pro Sekunde) | {{guide:vitals.dps@Dormant Force#1}} | {{guide:vitals.dps@Dormant Force#2}} | {{guide:vitals.dps@Dormant Force#3}} |
+| Tempo | {{guide:vitals.speed@Dormant Force#1}} | {{guide:vitals.speed@Dormant Force#2}} | {{guide:vitals.speed@Dormant Force#3}} |
 | Laserreichweite | 800 | 800 | 800 |
 | Aggro-Radius | nur wenn angegriffen | nur wenn angegriffen | nur wenn angegriffen |
-| Raketenschaden, höchstens | 7.500 | 11.250 | 15.000 |
-| Credits | 185.000 | 370.000 | 555.000 |
-| Thulium | 485 | 970 | 1.455 |
-| Erfahrung (EP) | 29.200 | 58.400 | 87.600 |
-| Ehre | 127 | 254 | 381 |
+| Raketenschaden, höchstens | {{guide:behaviour.ability:rocket.damage@Dormant Force#1}} | {{guide:behaviour.ability:rocket.damage@Dormant Force#2}} | {{guide:behaviour.ability:rocket.damage@Dormant Force#3}} |
+| Credits | {{guide:spoils.pay.credits@Dormant Force#1}} | {{guide:spoils.pay.credits@Dormant Force#2}} | {{guide:spoils.pay.credits@Dormant Force#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Dormant Force#1}} | {{guide:spoils.pay.thulium@Dormant Force#2}} | {{guide:spoils.pay.thulium@Dormant Force#3}} |
+| Erfahrung (EP) | {{guide:spoils.pay.experience@Dormant Force#1}} | {{guide:spoils.pay.experience@Dormant Force#2}} | {{guide:spoils.pay.experience@Dormant Force#3}} |
+| Ehre | {{guide:spoils.pay.honor@Dormant Force#1}} | {{guide:spoils.pay.honor@Dormant Force#2}} | {{guide:spoils.pay.honor@Dormant Force#3}} |
 | PvE-Punkte pro Abschuss | 25 | 25 | 25 |
 
 **Beute**: eine Kiste, für den Piloten mit dem meisten Schaden.
 
-| Gegenstand | Chance | Menge |
-| :--- | ---: | ---: |
-| Ultra Core und Experimental Fusion Core, gleichmäßig aufgeteilt | 100 % | 2.000–3.000 insgesamt |
-| Eine der 4 epischen [Raketen](/wiki/06-Items/Rockets.md), zufällig gewählt | 100 % | 30–50 |
-| Eines von [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) und [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets), zufällig gewählt | 50 % | 1 |
-| Heartshard | 5 % | 1 |
+| Gegenstand |
+| :--- |
+| {{guide:spoils.box@Dormant Force#1;Dormant Force#2;Dormant Force#3}} |
 
 ### Dormant Pulse
 
@@ -83,25 +93,23 @@ Basis: Paragon mit 100 % der Hülle und 600 % des Laserschadens; Tempo und Rei
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Hülle | 128.000 | 192.000 | 256.000 |
-| Schild | 64.570 | 96.855 | 129.140 |
-| Laserschaden (eine Salve pro Sekunde) | 5.100 | 7.650 | 10.200 |
-| Tempo | 270 | 270 | 270 |
+| Hülle | {{guide:vitals.hull@Dormant Pulse#1}} | {{guide:vitals.hull@Dormant Pulse#2}} | {{guide:vitals.hull@Dormant Pulse#3}} |
+| Schild | {{guide:vitals.shield@Dormant Pulse#1}} | {{guide:vitals.shield@Dormant Pulse#2}} | {{guide:vitals.shield@Dormant Pulse#3}} |
+| Laserschaden (eine Salve pro Sekunde) | {{guide:vitals.dps@Dormant Pulse#1}} | {{guide:vitals.dps@Dormant Pulse#2}} | {{guide:vitals.dps@Dormant Pulse#3}} |
+| Tempo | {{guide:vitals.speed@Dormant Pulse#1}} | {{guide:vitals.speed@Dormant Pulse#2}} | {{guide:vitals.speed@Dormant Pulse#3}} |
 | Laserreichweite | 800 | 800 | 800 |
 | Aggro-Radius | nur wenn angegriffen | nur wenn angegriffen | nur wenn angegriffen |
-| Raketenschaden, höchstens | 5.000 | 7.500 | 10.000 |
-| Credits | 105.000 | 210.000 | 315.000 |
-| Thulium | 275 | 550 | 825 |
-| Erfahrung (EP) | 16.600 | 33.200 | 49.800 |
-| Ehre | 72 | 144 | 216 |
+| Raketenschaden, höchstens | {{guide:behaviour.ability:rocket.damage@Dormant Pulse#1}} | {{guide:behaviour.ability:rocket.damage@Dormant Pulse#2}} | {{guide:behaviour.ability:rocket.damage@Dormant Pulse#3}} |
+| Credits | {{guide:spoils.pay.credits@Dormant Pulse#1}} | {{guide:spoils.pay.credits@Dormant Pulse#2}} | {{guide:spoils.pay.credits@Dormant Pulse#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Dormant Pulse#1}} | {{guide:spoils.pay.thulium@Dormant Pulse#2}} | {{guide:spoils.pay.thulium@Dormant Pulse#3}} |
+| Erfahrung (EP) | {{guide:spoils.pay.experience@Dormant Pulse#1}} | {{guide:spoils.pay.experience@Dormant Pulse#2}} | {{guide:spoils.pay.experience@Dormant Pulse#3}} |
+| Ehre | {{guide:spoils.pay.honor@Dormant Pulse#1}} | {{guide:spoils.pay.honor@Dormant Pulse#2}} | {{guide:spoils.pay.honor@Dormant Pulse#3}} |
 | PvE-Punkte pro Abschuss | 11 | 11 | 11 |
 
 **Beute**: eine Kiste, für den Piloten mit dem meisten Schaden.
 
-| Gegenstand | Chance | Menge |
-| :--- | ---: | ---: |
-| Ancient Control Unit | 20 % | 1 |
-| Power Core | 20 % | 1 |
-| Dark Matter | 20 % | 1–5 |
+| Gegenstand |
+| :--- |
+| {{guide:spoils.box@Dormant Pulse#1;Dormant Pulse#2;Dormant Pulse#3}} |
 
 <!-- dormant-members:end -->

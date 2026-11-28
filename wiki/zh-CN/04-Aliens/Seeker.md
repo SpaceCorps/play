@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b9bfffab24f7eda8 -->
+<!-- wiki-i18n source: 6acaa0292fff4664 -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker
 
@@ -6,10 +6,10 @@ Seeker 是基础的侦察与勘察单位。它们是被动型，也就是说绝�
 
 ## 属性 {#stats}
 
-- **生命值（HP）**：800
-- **护盾**：800
-- **伤害**：180
-- **速度**：120
+- **生命值（HP）**：{{guide:vitals.hull@Seeker#1}}
+- **护盾**：{{guide:vitals.shield@Seeker#1}}
+- **伤害**：{{guide:vitals.dps@Seeker#1}}
+- **速度**：{{guide:vitals.speed@Seeker#1;Seeker#2;Seeker#3;Seeker#4}}
 - **攻击射程**：600
 - **行为模式**：被动
 
@@ -24,10 +24,10 @@ Seeker 是基础的侦察与勘察单位。它们是被动型，也就是说绝�
 
 ## 奖励 {#rewards}
 
-- **信用点**：1,000
-- **Thulium**：4
-- **经验值（XP）**：100
-- **荣誉**：2
+- **信用点**：{{guide:spoils.pay.credits@Seeker#1}}
+- **Thulium**：{{guide:spoils.pay.thulium@Seeker#1}}
+- **经验值（XP）**：{{guide:spoils.pay.experience@Seeker#1}}
+- **荣誉**：{{guide:spoils.pay.honor@Seeker#1}}
 - **每次击杀的 PvE 积分**：1
 - **护盾充能**：每秒 10（延迟 15 秒）
 
@@ -37,9 +37,11 @@ Seeker 是基础的侦察与勘察单位。它们是被动型，也就是说绝�
 
 每种掉落物的用途以及其他获取途径：[资源](/wiki/06-Items/Resources.md)。
 
-- **Ship Fragment**：20% 几率（最少 1，最多 1）
-- **Daraxium**：50% 几率（最少 1，最多 2）
-- **Echo Shard**：0.8% 几率（最少 1，最多 1）
+- {{guide:spoils.box@Seeker#1;Seeker#2;Seeker#3;Seeker#4}}
+
+## 特殊能力 {#special-abilities}
+
+这种外星人中有一部分带有一种**特殊能力**：当船体损失一半时，只会使用一次。能力启动之前毫无迹象。[特殊能力](/wiki/03-Mechanics/Special-Abilities.md)说明每种能力的作用以及如何应对。
 
 ## 背景故事 {#lore}
 

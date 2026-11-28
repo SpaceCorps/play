@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f34faeb3f3d1ac87 -->
+<!-- wiki-i18n source: 2dc6584f5284ebcf -->
 <!-- wiki-i18n title: Primeiros passos -->
 # Primeiros passos no SpaceCorps {#getting-started-in-spacecorps}
 
@@ -24,12 +24,14 @@ Na estação, seus Créditos, seu Thulium e sua Honra ficam no canto superior di
 
 ## Perfis de piloto {#pilot-profiles}
 
-Clique no nome de um piloto no Hall da Fama (**Comunidade › Rankings**), na página **Estatísticas** ou na lista de membros de um clã, e o **perfil** do piloto se abre: corporação, mundo e clã, nível, experiência, honra e pontos de ranking, os alienígenas e pilotos que ele destruiu e a nave que ele pilota, com os números dela. Dois blocos dizem há quanto tempo o piloto joga:
+Clique no nome de um piloto no Hall da Fama (**Comunidade › Rankings**), na página **Estatísticas** ou na lista de membros de um clã, e o **perfil** do piloto se abre: corporação, mundo e clã, nível, experiência, honra e pontos de ranking, os alienígenas e pilotos que ele destruiu e a nave que ele pilota, com o equipamento e os números dela (a menos que o piloto os mantenha privados). Dois blocos dizem há quanto tempo o piloto joga:
 
 - **Primeiro login.** O dia em que o piloto entrou pela primeira vez, como uma data no seu próprio fuso horário. Um piloto que jogava antes da 0.4.12 mostra o dia em que entrou pela primeira vez desde essa atualização, e um traço indica um piloto que não entrou desde então.
 - **Tempo de jogo.** Por quanto tempo o jogo do piloto ficou conectado ao servidor, em horas e minutos (“128 h 15 min”, “45 min”), em voo ou na estação. O tempo parado também conta. A contagem começou com a 0.4.12; para um piloto que jogava antes, é o tempo desde essa atualização.
 
 Os dois são públicos, como o nível e a patente: qualquer piloto conectado pode lê-los em um perfil. O reset da temporada não zera nenhum dos dois.
+
+Um piloto pode manter o equipamento privado. **Configurações › Conta › Privacidade** tem um interruptor, **Ocultar meu equipamento**. Enquanto ele está ativado, os outros pilotos continuam vendo a nave do piloto girando e o restante do perfil, mas não os itens instalados na nave e nos drones dela, nem os números de combate que eles dão, e o perfil informa que o piloto mantém o equipamento privado. Os administradores sempre veem, e o seu próprio perfil sempre mostra o seu (com um aviso enquanto o interruptor estiver ativado).
 
 Além do seu perfil, **Comunidade › Conquistas** guarda as metas da sua carreira, com recompensas e títulos: veja [Conquistas](/wiki/03-Mechanics/Achievements.md).
 

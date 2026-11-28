@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 74bb4919fe97756e -->
+<!-- wiki-i18n source: 634c9ffbf340dec7 -->
 <!-- wiki-i18n title: Investigación -->
 # Investigación {#research}
 
@@ -30,7 +30,7 @@ Esta página reúne el árbol de tecnologías completo con el tiempo de cada una
 
 <!-- research-centre:end -->
 
-**Schematics.** Un [Schematics](/wiki/06-Items/Special-Items.md#schematics) quita 24 horas a la investigación que está en marcha: si quedan 24 horas o menos, se termina al instante, y una más larga pierde 24 horas y sigue (188 de las 210 tecnologías tardan 24 horas o menos, así que uno las termina desde el principio; las otras 22 necesitan de 2 a 10). Lo que costó la investigación se pagó al empezar y no se devuelve, la ciencia que habría quemado el tiempo saltado se queda en tu depósito y, cuando la investigación termina, la siguiente tecnología de tu cola empieza al instante.
+**Schematics.** Un [Schematics](/wiki/06-Items/Special-Items.md#schematics) quita 24 horas a la investigación que está en marcha: si quedan 24 horas o menos, se termina al instante, y una más larga pierde 24 horas y sigue (190 de las 212 tecnologías tardan 24 horas o menos, así que uno las termina desde el principio; las otras 22 necesitan de 2 a 10). Lo que costó la investigación se pagó al empezar y no se devuelve, la ciencia que habría quemado el tiempo saltado se queda en tu depósito y, cuando la investigación termina, la siguiente tecnología de tu cola empieza al instante.
 
 **Los amplificadores láser y el último nivel.** Los Damage, Crit y Penetration Amps de los niveles II a IV se investigan como el resto de fabricaciones. Los pilotos que tenían o habían puesto en cola amps al llegar las líneas de amps recibieron la tecnología de cada uno de ellos y la de los niveles inferiores. Trece tecnologías necesitan una tecnología de otro árbol, la de la Dark Matter Plate, del árbol Recursos, porque el último nivel de cada cadena de mejora pide cuatro plates y una Ancient Control Unit: los Damage, Crit y Penetration Amps del nivel IV, las Absorption y Capacity Shield Cells del nivel IV, los Impulse y Momentum Thrusters del nivel IV, el Heavy Shield Core, el Engine III, el Adaptive Core III, el Helios Beam, el Extra Slots CPU III y el Base CPU II. Un piloto que investigó una de ellas antes la conserva, y necesita la tecnología de la plate para fabricar sus plates. El árbol de abajo no dibuja ninguna flecha para ella, pero la tabla la lista y la tarjeta del juego la nombra ([Dark Matter y Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -98,6 +98,7 @@ Lo que hace un impulso con el tiempo de una investigación, con impulso desde su
 | :--- | :--- | ---: | ---: |
 | 30 min | 15 min | 1 | 5.000 |
 | 1 h | 30 min | 1 | 5.000 |
+| 2 h | 1 h | 1 | 5.000 |
 | 3 h | 1 h 30 min | 1 | 5.000 |
 | 4 h | 2 h | 1 | 5.000 |
 | 6 h | 3 h | 1 | 5.000 |
@@ -335,10 +336,13 @@ Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600
 Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 Mine II | consumable, rare | craft 200 Thulium, 120 s | research 10800 s, 10800 science | 2 Mine I, 3 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#mine
 Mine III | consumable, epic | craft 400 Thulium, 300 s | research 21600 s, 21600 science | 2 Mine II, 8 Ship Fragment, 1 Reinforced Hull Plate, 2 Power Core | /wiki/06-Items/Extras.md#mine
+Organic Scanner I | extra, rare | craft 20000 Credits, 10000 Thulium, 600 s | research 1800 s, 1800 science | 60 Ship Fragment, 2 Power Core, 1 Ancient Control Unit, 5 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+Organic Scanner II | extra, epic | craft 50000 Credits, 20000 Thulium, 900 s | research 7200 s, 7200 science | 1 Organic Scanner I, 2 Lurker Fang, 2 Angler Lure, 1 Leviathan Scale | /wiki/06-Items/Extras.md
 
 Extra Slots CPU I => Extra Slots CPU II => Extra Slots CPU III
 Base CPU I => Base CPU II => Jump CPU
 Mine II => Mine III
+Organic Scanner I => Organic Scanner II
 ```
 
 ### Defensa {#tree-defence}
@@ -582,18 +586,20 @@ La familia Piloto de la vista de investigación tiene tecnologías que no son un
 | [Miyuki III](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki II](/wiki/02-Ships/Miyuki.md) | D | 1 d | 86.400 | 10 |
 | [Miyuki IV](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki III](/wiki/02-Ships/Miyuki.md) | D | 2 d | 172.800 | 10 |
 | [Miyuki V](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki IV](/wiki/02-Ships/Miyuki.md) | D | 2 d | 172.800 | 10 |
+| [Organic Scanner I](/wiki/06-Items/Extras.md) | – | A | 30 min | 1.800 | – |
+| [Organic Scanner II](/wiki/06-Items/Extras.md) | [Organic Scanner I](/wiki/06-Items/Extras.md) | B | 2 h | 7.200 | – |
 
 Las clases, por tiempo de investigación:
 
 | Clase | Tiempo de investigación | Tecnologías | Una tras otra | Ciencia | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| A | 30 min a 1 h | 17 | 9 h 30 min | 34.200 | 0 |
-| B | 3 h a 6 h | 37 | 5 d 20 h | 504.000 | 0 |
+| A | 30 min a 1 h | 18 | 10 h | 36.000 | 0 |
+| B | 2 h a 6 h | 38 | 5 d 22 h | 511.200 | 0 |
 | C | 8 h a 10 h | 20 | 8 d 4 h | 705.600 | 95 |
 | D | 16 h a 10 d | 35 | 60 d 16 h | 5.241.600 | 379 |
-| Todas |  | 109 | 75 d 1 h 30 min | 6.485.400 | 474 |
+| Todas |  | 111 | 75 d 4 h | 6.494.400 | 474 |
 
-Investigado una tecnología tras otra, el árbol entero tarda 75 d 1 h 30 min. Con el impulso activo todo el tiempo tarda 37 d 12 h 45 min, que son 38 impulsos y 190.000 Thulium; la ciencia es la misma.
+Investigado una tecnología tras otra, el árbol entero tarda 75 d 4 h. Con el impulso activo todo el tiempo tarda 37 d 14 h, que son 38 impulsos y 190.000 Thulium; la ciencia es la misma.
 
 <!-- research-technologies:end -->
 
@@ -617,6 +623,8 @@ Las CPU nuevas también se investigan aquí y luego se fabrican en Ensamblaje. L
 | [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 h | – | 20.000 | 15 min |
 | [Mine II](/wiki/06-Items/Extras.md#mine) | 3 h | – | 200 | 2 min |
 | [Mine III](/wiki/06-Items/Extras.md#mine) | 6 h | [Mine II](/wiki/06-Items/Extras.md#mine) | 400 | 5 min |
+| [Organic Scanner I](/wiki/06-Items/Extras.md) | 30 min | – | 10.000 | 10 min |
+| [Organic Scanner II](/wiki/06-Items/Extras.md) | 2 h | [Organic Scanner I](/wiki/06-Items/Extras.md) | 20.000 | 15 min |
 
 Ninguna se vende en la tienda: investiga la tecnología y luego fabrica la CPU en Ensamblaje. Pasa el cursor por una CPU en su árbol para ver qué pide Ensamblaje para fabricarla.
 

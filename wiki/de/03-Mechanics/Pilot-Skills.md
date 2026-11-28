@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0b4fab38b0c9363e -->
+<!-- wiki-i18n source: a1d69f436602c5d1 -->
 <!-- wiki-i18n title: Pilotenfertigkeiten -->
 # Pilotenfertigkeiten {#pilot-skills}
 
@@ -53,6 +53,7 @@ Die Tabellen nennen jeden Buff auf Level 1 und auf dem letzten Level; dazwischen
 | :--- | :--- | ---: | ---: |
 | **Masse** | Hülle | +0 % | +20 % |
 | **Zähigkeit** | Erlittener Schaden | ×1 | ×0,92 |
+|  | Angst durch Dunkelheit (Deep Void) | ×1 | ×0,8 |
 | **Reflexe** | Aufladetempo der Fähigkeiten | ×1 | ×1,1 |
 | **Instinkt** | Chance jeder Beutezeile | +0 Punkte | +7,5 Punkte |
 |  | Orvium und Velkonite aus den Kollektoren | ×1 | ×1,5 |
@@ -63,8 +64,10 @@ Die Tabellen nennen jeden Buff auf Level 1 und auf dem letzten Level; dazwischen
 | :--- | :--- | ---: | ---: |
 | **Lasertechnik** (Reflexe) | Laserschaden | ×1 | ×1,3 |
 |  | Chance, dass eine Lasersalve trifft | 80 % | 89 % |
+|  | Angst durch Laser-Salven (Deep Void) | ×1 | ×0,8 |
 | **Raketentechnik** (Reflexe) | Raketenschaden | ×1 | ×1,3 |
 |  | Chance, dass eine Rakete ein Blindgänger ist | 10 % | 1 % |
+|  | Angst durch Raketen (Deep Void) | ×1 | ×0,8 |
 | **Antimaterie** (Instinkt) | Dark Matter beim Aufsammeln | ×1 | ×2 |
 
 ### Kampf {#combat}
@@ -88,6 +91,7 @@ Die Tabellen nennen jeden Buff auf Level 1 und auf dem letzten Level; dazwischen
 | :--- | :--- | ---: | ---: |
 | **Strahlungstechnik** (Zähigkeit) | Strahlungsdosis | ×1 | ×0,4 |
 | **Triebwerkstheorie** (Masse) | Geschwindigkeit | +0 % | +10 % |
+|  | Angst durch schnelles Fliegen (Deep Void) | ×1 | ×0,8 |
 | **Forschung** (Instinkt) | Forschungspunkte je Einheit Treibstoff | ×1 | ×1,25 |
 
 ### Skylab
@@ -116,7 +120,7 @@ Die Tabellen nennen jeden Buff auf Level 1 und auf dem letzten Level; dazwischen
 - **Raketen.** Raketentechnik ändert den Schaden jeder Rakete und die Chance, dass eine ein Blindgänger ist ([Raketentechnik](/wiki/06-Items/Rockets.md#rocket-tech)).
 - **Treffer einstecken.** Zähigkeit nimmt von jedem Treffer, den du einsteckst, einen Anteil ab, Ausweichen erhöht die Chance, dass ein direkter Treffer nichts bewirkt, und Schildabsorption erhöht den Anteil eines Treffers, den deine Schilde nehmen ([Kampf](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). Masse erhöht deine Hülle.
 - **Heilung.** Heilung macht die Heilungen deiner eigenen Ausrüstung stärker: die Reparatur deiner Repair Drone, eine Emergency Repair sowie den Heal Pod, den Channel Heal und den Channel Shield, die du einsetzt ([Fähigkeiten](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Auf der Miyuki haben diese drei Fähigkeiten außerdem eine kürzere Wartezeit. Sie trainiert an der Hülle, die deine Heilungen wiederherstellen; die Heilung eines Schiffs in einer Schutzzone zählt nicht. Die Support Rocket heilt auf jedem Level immer dieselbe feste Menge und zahlt trotzdem EP für Heilung.
-- **Tarnung.** Tarnung verkürzt die Wartezeit, nachdem eine Tarnung endet, bei einer Cloaking CPU ([Extras](/wiki/06-Items/Extras.md#cloaking-cpu)) und beim Chameleon ([Fähigkeiten](/wiki/03-Mechanics/Abilities.md)). Sie trainiert an den Sekunden, die du getarnt verbringst; in einer Schutzzone oder ohne Befehle von dir zählt keine.
+- **Tarnung.** Tarnung verkürzt die Wartezeit, nachdem eine Tarnung endet, bei einer Cloaking CPU ([Extras](/wiki/06-Items/Extras.md#cloaking-cpu)) und beim Chameleon ([Fähigkeiten](/wiki/03-Mechanics/Abilities.md)). Sie trainiert an den Sekunden, die du getarnt verbringst; in einer Schutzzone zählt keine, ebenso wenig ohne Befehle von dir, solange dein Schiff nicht zu dem Ort fliegt, den du angegeben hast (ein Flug zählt bis zu 5 Minuten nach deinem letzten Befehl).
 - **Fähigkeiten.** Reflexe verkürzen die Abklingzeit deiner Fähigkeiten, und Taktik lässt sie länger wirken ([Fähigkeiten](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Sabotage verstärkt die Gifte.
 - **Minen.** Sabotage erhöht den Schaden einer Mine, und Treffsicherheit wirft sie schneller und weiter ([Extras](/wiki/06-Items/Extras.md#mine)).
 - **Tempo.** Triebwerkstheorie erhöht dein Tempo, zusätzlich zu den Triebwerken und einem Afterburner ([Tempo](/wiki/03-Mechanics/Speed.md)).
@@ -160,7 +164,7 @@ Die Tabelle nennt, was EP bringt, Wert für Wert. Die EP gelten für jede Einhei
 | **Taktik** (Reflexe) | Je Fähigkeit, die du mit einem Feind in Laserreichweite drückst | 2 | 600 EP pro Stunde |
 | **Schildabsorption** (Zähigkeit) | Je 1 % deiner maximalen Schildpunkte, die Treffer von Feinden aufnehmen | 0,1 | 300 EP pro Stunde |
 | **Heilung** (Masse) | Je 1 % der maximalen Hülle eines Schiffs, die eine Heilung von dir wiederherstellt | 0,1 | 300 EP pro Stunde |
-| **Tarnung** (Reflexe) | Je Sekunde, die du getarnt verbringst, mit einem Befehl in den letzten 1 min, außerhalb von Schutzzonen | 0,1 | Keine |
+| **Tarnung** (Reflexe) | Je Sekunde, die du getarnt verbringst, mit einem Befehl in den letzten 1 min oder solange dein Schiff zu dem Ort fliegt, den du angegeben hast (bis zu 5 min nach deinem letzten Befehl), außerhalb von Schutzzonen | 0,1 | Keine |
 | **Strahlungstechnik** (Zähigkeit) | Je Sekunde in einem Strahlungsband | 0,2 | Keine |
 |  | Je 1 % deiner maximalen Hülle, den die Strahlung nimmt | 1 |  |
 | **Triebwerkstheorie** (Masse) | Je Sekunde Flug über 80 % der Geschwindigkeit deines Schiffs, doppelt so viel unter einem Afterburner | 0,1 | Keine |

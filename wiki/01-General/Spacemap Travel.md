@@ -44,6 +44,8 @@ The Galaxy Map below shows the real-time layout of the known universe. In the ga
 
 With a [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) fitted, the chart also picks your destination: press the CPU's hotbar slot (**JMP**) and the Star System window opens in picking mode. The sectors the CPU can take you to are lit; your own sector and the Danger Sectors are not. Point at a lit sector to read the price, click it, and confirm the jump when the chart asks (500 Thulium).
 
+**Deep Void.** A switch at the top of the Star System window shows the **Normal** maps or the **Deep Void** maps. `DV-1` reads `???` until you have been there, with a hint about the way in: the Signals, your world's Void Gate in `DS-4`, and once you have flown it, how much of it you have explored. No portal of this map leads there: the only way in is a Void Gate ([Deep Void](/wiki/03-Mechanics/Deep-Void.md)).
+
 ## How to Travel
 
 Spacemap travel is conducted via **Jump Gates** (Portals). A [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) is the other way: it needs no gate (see the end of this page).

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ab422d8b5066fe56 -->
+<!-- wiki-i18n source: 61fa5f21bae46a15 -->
 <!-- wiki-i18n title: Gruplar -->
 # Gruplar {#groups}
 
@@ -119,7 +119,7 @@ Yoksayma listen ve Genel sohbeti gizleme anahtarı hesabınla birlikte saklanır
 
 ## Çatışma kuralları {#rules-of-engagement}
 
-**Aynı grubun üyeleri birbirine zarar veremez**, şirketleri ne olursa olsun: bir grup arkadaşına kilitlenemezsin (lazerler ya da roketler), atışların ve patlamaların onların içinden geçer ve ona yaptığın hiçbir şey kimse için bir öldürme, bir PvP öldürmesi ya da bir kara delik öldürmesi sayılmaz. Aynı grupta **olmayan** şirket arkadaşları eskisi gibidir: birine lazerle ya da roketle vurmak, yok edildiğinde **100 onur** kaybettirir. Gruptan ayrılırsan eski bir arkadaş, düşman olsun olmasın, hemen yeniden hedef olur (sektör ve sezon savaşa izin veriyorsa). Grubunun dışındaki herkese her zamanki gibi davranılır; güvenli bölgeler, Barış Protokolü ve sektörlerin PvP kuralları kimse için değişmez.
+**Aynı grubun üyeleri birbirine saldıramaz**, şirketleri ne olursa olsun: bir grup arkadaşına kilitlenemezsin (lazerler ya da roketler), atışların ve doğrudan roketlerin onların içinden geçer ve ona yaptığın hiçbir şey kimse için bir öldürme, bir PvP öldürmesi ya da bir kara delik öldürmesi sayılmaz. Roketlerin hasarından grubuna ulaşan tek şey alan hasarıdır: bir Ember’in, bir Scatter’ın ya da bir N.U.K.E.’nin patlaması ile bir N.U.K.E.’nin ya da Gravitational N.U.K.E.’nin bıraktığı radyasyon bölgesi seni ve grubunun üyelerini başka bir gemiye verdiklerinin yarısı kadar yaralar (güvenli bölge ve yeniden doğuş koruması seni onlardan korur, Barış Protokolü ve PvP’nin olmadığı sektörler korumaz) ve biri bir üyeyi yok ederse öldürmeyi kimse almaz. Aynı grupta **olmayan** şirket arkadaşları eskisi gibidir: birine lazerle ya da roketle vurmak, yok edildiğinde **100 onur** kaybettirir. Gruptan ayrılırsan eski bir arkadaş, düşman olsun olmasın, hemen yeniden hedef olur (sektör ve sezon savaşa izin veriyorsa). Grubunun dışındaki herkese her zamanki gibi davranılır; güvenli bölgeler, Barış Protokolü ve sektörlerin PvP kuralları kimse için değişmez.
 
 ## Arkadaş getirme {#bringing-a-friend}
 

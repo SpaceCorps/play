@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4e3f459fc0966372 -->
+<!-- wiki-i18n source: 98e91b2bd1dede81 -->
 <!-- wiki-i18n title: Enjambre Tesseract -->
 # Enjambre Tesseract {#tesseract-swarm}
 
@@ -13,13 +13,13 @@ El enjambre Tesseract es una única nave nodriza enorme, el **Tesseract**, y los
 - **Cuántos**: Uno en cada mundo
 - **Aparece**: Desde el día 4 de la temporada hasta el reinicio (Beta y Gamma: desde el día 1 de la temporada)
 - **Líder**: Tesseract
-- **Hogar**: A no más de 2.500 unidades del punto 25.900, 6.100 del mapa del sector
+- **Hogar**: A no más de 2.500 unidades del punto 25.900, 11.900 del mapa del sector
 - **Regeneración**: 125.000 HP por segundo en Alpha, primero el casco y luego el escudo, cuando han pasado 5 s sin recibir daño
 - **Seguidores**: Hasta 100 × Facet, 20 más cada 5 s mientras el líder recibe impactos
 - **Llegada de los seguidores**: Solo mientras el líder ha recibido impactos en los últimos 5 s, a menos de 400 unidades de él
 - **Cazadores**: Cada Facet vuela tramos propios alrededor del líder, a menos de 3.600 unidades de él, y no persigue a nadie. Dispara al piloto más cercano que haya impactado al líder cuando ese piloto está a su alcance. Si no tiene a quién disparar, sigue volando alrededor del líder y se va 20 s después del último impacto
 - **Líder destruido**: Los seguidores se van 1 min después de que destruyan al líder, estén atacando o no
-- **Vuelve**: 30 min después de que destruyan al líder, en el mismo sector
+- **Vuelve**: {{guide:vitals.respawn@Tesseract#1;Tesseract#2;Tesseract#3}} después de que destruyan al líder, en el mismo sector
 - **Avisos**: Se avisa a los pilotos del sector cuándo aparece el líder y cuándo es destruido. Son líneas del Sistema: aparecen en la pestaña **Sistema** del chat, con un contador de no leídas, y no en **Global** ni en **Local**. El registro de bajas nombra al piloto al que se acredita el derribo.
 
 <!-- tesseract-glance:end -->
@@ -40,6 +40,17 @@ El enjambre Tesseract es una única nave nodriza enorme, el **Tesseract**, y los
 - **Los sectores de peligro son PvP.** Un rival puede atacar al grupo en mitad del combate. No hay ninguna caja junto a los restos que pueda esperar: el botín es una [caja privada](/wiki/03-Mechanics/Cargo.md#private-boxes) para cada piloto al que paga el derribo, que solo ese piloto puede ver y recoger. No vayas solo.
 - **El Tesseract vuelve** pasado el tiempo de la lista *De un vistazo*, con toda su fuerza, en su lugar fijo.
 
+## Los tres pasos del líder {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Su combate tiene tres pasos ([cómo funcionan](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); cada uno ocurre una vez, y vuelven a empezar cuando se ha reparado por completo.
+
+- **Por debajo de dos tercios**: Llegan 20 Facets más de golpe, por encima de su número habitual.
+
+<!-- mob-ladder:end -->
+
 ## Recompensas y botín {#rewards-and-drops}
 
 El Tesseract paga por el combate que es: tanto como muchos Crystalys juntos, y más por el daño que aguanta que un Crystalys, el alienígena mejor pagado. La paga se reparte según el daño entre los pilotos que lo combatieron ([cómo paga el derribo de un jefe](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). No hay caja para el piloto que más daño causa. Cada piloto al que paga el derribo recibe su propia [caja privada](/wiki/03-Mechanics/Cargo.md#private-boxes), que solo él ve y puede recoger, durante 10 minutos, con Reinforced Hull Plates, Velkonite y Orvium Reinforced Plates, Power Cores, Ancient Control Units y Dark Matter. Se tira para su parte del daño, como el botín de un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot): quien causó un quinto del daño recibe cerca de un quinto de las cantidades de la tabla, y en un grupo cada piloto recibe su parte de la del grupo, como se reparte la paga. La Dark Matter tiene un tope por piloto: de un derribo recibe 5 como máximo, por grande que sea su parte (en un grupo primero se separa la parte de cada piloto, y el tope es el de cada uno), y lo que pasa del tope se pierde, no se reparte entre los demás. Un Facet paga lo que paga un [Phantasm](/wiki/04-Aliens/Phantasm.md) en Créditos, Thulium, XP y Honor, y su derribo cuenta como derribo (en tus estadísticas, para los logros y para la experiencia de tus drones y P.E.T.s), pero no suelta nada y no suma puntos PvE.
@@ -57,30 +68,24 @@ Base: Crystalys, con 625 % del casco; no tiene arma, y su escudo y su velocidad
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Casco | 1.600.000 | 2.400.000 | 3.200.000 |
-| Escudo | 1.200.000 | 1.800.000 | 2.400.000 |
+| Casco | {{guide:vitals.hull@Tesseract#1}} | {{guide:vitals.hull@Tesseract#2}} | {{guide:vitals.hull@Tesseract#3}} |
+| Escudo | {{guide:vitals.shield@Tesseract#1}} | {{guide:vitals.shield@Tesseract#2}} | {{guide:vitals.shield@Tesseract#3}} |
 | Daño de los láseres (una salva por segundo) | ninguno | ninguno | ninguno |
-| Velocidad | 30 | 30 | 30 |
+| Velocidad | {{guide:vitals.speed@Tesseract#1}} | {{guide:vitals.speed@Tesseract#2}} | {{guide:vitals.speed@Tesseract#3}} |
 | Alcance de los láseres | – | – | – |
 | Radio de agresión | solo si lo atacan | solo si lo atacan | solo si lo atacan |
 | Se repara, por segundo, tras 5 s sin daño (primero el casco, luego el escudo) | 125.000 | 187.500 | 250.000 |
-| Créditos | 900.000 | 1.800.000 | 2.700.000 |
-| Thulium | 2.400 | 4.800 | 7.200 |
-| Experiencia (XP) | 144.000 | 288.000 | 432.000 |
-| Honor | 624 | 1.248 | 1.872 |
+| Créditos | {{guide:spoils.pay.credits@Tesseract#1}} | {{guide:spoils.pay.credits@Tesseract#2}} | {{guide:spoils.pay.credits@Tesseract#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Tesseract#1}} | {{guide:spoils.pay.thulium@Tesseract#2}} | {{guide:spoils.pay.thulium@Tesseract#3}} |
+| Experiencia (XP) | {{guide:spoils.pay.experience@Tesseract#1}} | {{guide:spoils.pay.experience@Tesseract#2}} | {{guide:spoils.pay.experience@Tesseract#3}} |
+| Honor | {{guide:spoils.pay.honor@Tesseract#1}} | {{guide:spoils.pay.honor@Tesseract#2}} | {{guide:spoils.pay.honor@Tesseract#3}} |
 | Puntos PvE por derribo | 42 | 42 | 42 |
 
 **Botín para cada piloto al que paga el derribo**: una caja para cada uno, solo para él, con su parte de estas cantidades.
 
-| Objeto | Probabilidad | Cantidad |
-| :--- | ---: | ---: |
-| Reinforced Hull Plate | 100 % | 3–10 |
-| Velkonite Reinforced Plate | 66 % | 7–12 |
-| Orvium Reinforced Plate | 50 % | 3–5 |
-| Power Core | 66 % | 4–7 |
-| Ancient Control Unit | 100 % | 1–4 |
-| Dark Matter | 100 % | 10–20, como máximo 5 por piloto |
-| Heartshard | 5 % | 1 |
+| Objeto |
+| :--- |
+| {{guide:spoils.box@Tesseract#1;Tesseract#2;Tesseract#3}} |
 
 ### Facet
 
@@ -88,16 +93,16 @@ Base: Seeker, con 2.500 % del casco y 463 % del daño de los láseres; el escu
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Casco | 20.000 | 30.000 | 40.000 |
-| Escudo | 16.000 | 24.000 | 32.000 |
-| Daño de los láseres (una salva por segundo) | 834 | 1.251 | 1.668 |
-| Velocidad | 750 | 750 | 750 |
+| Casco | {{guide:vitals.hull@Facet#1}} | {{guide:vitals.hull@Facet#2}} | {{guide:vitals.hull@Facet#3}} |
+| Escudo | {{guide:vitals.shield@Facet#1}} | {{guide:vitals.shield@Facet#2}} | {{guide:vitals.shield@Facet#3}} |
+| Daño de los láseres (una salva por segundo) | {{guide:vitals.dps@Facet#1}} | {{guide:vitals.dps@Facet#2}} | {{guide:vitals.dps@Facet#3}} |
+| Velocidad | {{guide:vitals.speed@Facet#1}} | {{guide:vitals.speed@Facet#2}} | {{guide:vitals.speed@Facet#3}} |
 | Alcance de los láseres | 600 | 600 | 600 |
 | Radio de agresión | solo si lo atacan | solo si lo atacan | solo si lo atacan |
-| Créditos | 3.000 | 6.000 | 9.000 |
-| Thulium | 12 | 24 | 36 |
-| Experiencia (XP) | 300 | 600 | 900 |
-| Honor | 6 | 12 | 18 |
+| Créditos | {{guide:spoils.pay.credits@Facet#1}} | {{guide:spoils.pay.credits@Facet#2}} | {{guide:spoils.pay.credits@Facet#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Facet#1}} | {{guide:spoils.pay.thulium@Facet#2}} | {{guide:spoils.pay.thulium@Facet#3}} |
+| Experiencia (XP) | {{guide:spoils.pay.experience@Facet#1}} | {{guide:spoils.pay.experience@Facet#2}} | {{guide:spoils.pay.experience@Facet#3}} |
+| Honor | {{guide:spoils.pay.honor@Facet#1}} | {{guide:spoils.pay.honor@Facet#2}} | {{guide:spoils.pay.honor@Facet#3}} |
 | Puntos PvE por derribo | 0 | 0 | 0 |
 
 **Botín**: ninguno. El derribo solo paga sus créditos, su Thulium, su XP y su honor.

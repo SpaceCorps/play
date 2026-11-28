@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0b4fab38b0c9363e -->
+<!-- wiki-i18n source: a1d69f436602c5d1 -->
 <!-- wiki-i18n title: Aptitudes de pilote -->
 # Aptitudes de pilote {#pilot-skills}
 
@@ -53,6 +53,7 @@ Les tableaux donnent chaque bonus au niveau 1 et au dernier niveau ; entre les 
 | :--- | :--- | ---: | ---: |
 | **Masse** | Coque | +0 % | +20 % |
 | **Ténacité** | Dégâts subis | ×1 | ×0,92 |
+|  | Peur due au noir (Deep Void) | ×1 | ×0,8 |
 | **Réflexes** | Vitesse de recharge des compétences | ×1 | ×1,1 |
 | **Instinct** | Chance de chaque ligne de butin | +0 points | +7,5 points |
 |  | Orvium et Velkonite des collecteurs | ×1 | ×1,5 |
@@ -63,8 +64,10 @@ Les tableaux donnent chaque bonus au niveau 1 et au dernier niveau ; entre les 
 | :--- | :--- | ---: | ---: |
 | **Technique laser** (Réflexes) | Dégâts laser | ×1 | ×1,3 |
 |  | Chance qu’une salve laser touche | 80 % | 89 % |
+|  | Peur due aux salves laser (Deep Void) | ×1 | ×0,8 |
 | **Technique des roquettes** (Réflexes) | Dégâts de roquette | ×1 | ×1,3 |
 |  | Chance qu’une roquette soit un raté | 10 % | 1 % |
+|  | Peur due aux roquettes (Deep Void) | ×1 | ×0,8 |
 | **Antimatière** (Instinct) | Dark Matter des ramassages | ×1 | ×2 |
 
 ### Combat
@@ -88,6 +91,7 @@ Les tableaux donnent chaque bonus au niveau 1 et au dernier niveau ; entre les 
 | :--- | :--- | ---: | ---: |
 | **Technique anti-radiations** (Ténacité) | Dose de radiation | ×1 | ×0,4 |
 | **Théorie des propulseurs** (Masse) | Vitesse | +0 % | +10 % |
+|  | Peur due au vol rapide (Deep Void) | ×1 | ×0,8 |
 | **Science** (Instinct) | Science par unité de carburant | ×1 | ×1,25 |
 
 ### Skylab
@@ -116,7 +120,7 @@ Les tableaux donnent chaque bonus au niveau 1 et au dernier niveau ; entre les 
 - **Roquettes.** La Technique des roquettes change les dégâts de chaque roquette et la chance qu’une soit un raté ([Technique des roquettes](/wiki/06-Items/Rockets.md#rocket-tech)).
 - **Encaisser les coups.** La Ténacité retire une part de chaque coup que vous encaissez, l’Esquive augmente la chance qu’un coup direct ne fasse rien, et l’Absorption du bouclier augmente la part d’un coup que prennent vos boucliers ([Combat](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). La Masse augmente votre coque.
 - **Soins.** Les Soins renforcent les soins de votre propre équipement : la réparation de votre Repair Drone, une Emergency Repair, ainsi que le Heal Pod, le Channel Heal et le Channel Shield que vous utilisez ([Compétences](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Sur le Miyuki, ces trois compétences attendent aussi moins entre deux utilisations. Ils s’entraînent avec la coque que vos soins restaurent ; soigner un vaisseau dans une zone sûre ne compte pas. Le Support Rocket soigne toujours la même quantité fixe, quel que soit le niveau, et paie quand même de l’XP de Soins.
-- **Occultation.** Furtivité raccourcit l’attente quand une occultation prend fin, pour un Cloaking CPU ([Extras](/wiki/06-Items/Extras.md#cloaking-cpu)) comme pour le Chameleon ([Compétences](/wiki/03-Mechanics/Abilities.md)). Elle s’entraîne avec les secondes passées occulté ; aucune ne compte dans une zone sûre ni quand vous ne donnez aucun ordre.
+- **Occultation.** Furtivité raccourcit l’attente quand une occultation prend fin, pour un Cloaking CPU ([Extras](/wiki/06-Items/Extras.md#cloaking-cpu)) comme pour le Chameleon ([Compétences](/wiki/03-Mechanics/Abilities.md)). Elle s’entraîne avec les secondes passées occulté ; aucune ne compte dans une zone sûre ni quand vous ne donnez aucun ordre et que votre vaisseau ne vole pas vers l’endroit où vous l’avez envoyé (un vol compte jusqu’à 5 minutes après votre dernier ordre).
 - **Compétences.** Les Réflexes raccourcissent le temps de recharge de vos compétences et la Tactique les fait durer plus longtemps ([Compétences](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Le Sabotage renforce les poisons.
 - **Mines.** Le Sabotage augmente les dégâts d’une Mine, et la Précision de tir la lance plus vite et plus loin ([Extras](/wiki/06-Items/Extras.md#mine)).
 - **Vitesse.** La Théorie des propulseurs s’ajoute à votre vitesse, en plus des moteurs et d’un Afterburner ([Vitesse](/wiki/03-Mechanics/Speed.md)).
@@ -160,7 +164,7 @@ Le tableau liste ce qui paie de l’XP, statistique par statistique. L’XP vaut
 | **Tactique** (Réflexes) | Chaque compétence que vous activez avec un hostile à portée du laser | 2 | 600 XP par heure |
 | **Absorption du bouclier** (Ténacité) | Chaque 1 % de votre bouclier maximal pris par les tirs ennemis | 0,1 | 300 XP par heure |
 | **Soins** (Masse) | Chaque 1 % de la coque maximale d’un vaisseau que restaure un soin de votre part | 0,1 | 300 XP par heure |
-| **Furtivité** (Réflexes) | Chaque seconde passée occulté avec un ordre donné dans les 1 min précédentes, hors des zones sûres | 0,1 | Aucun |
+| **Furtivité** (Réflexes) | Chaque seconde passée occulté avec un ordre donné dans les 1 min précédentes ou pendant que votre vaisseau vole vers l’endroit où vous l’avez envoyé (jusqu’à 5 min après votre dernier ordre), hors des zones sûres | 0,1 | Aucun |
 | **Technique anti-radiations** (Ténacité) | Chaque seconde dans une bande de radiation | 0,2 | Aucun |
 |  | Chaque 1 % de votre coque maximale que prend la radiation | 1 |  |
 | **Théorie des propulseurs** (Masse) | Chaque seconde de vol au-dessus de 80 % de la vitesse de votre vaisseau, le double sous un Afterburner | 0,1 | Aucun |

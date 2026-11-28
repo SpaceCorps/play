@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f34faeb3f3d1ac87 -->
+<!-- wiki-i18n source: 2dc6584f5284ebcf -->
 <!-- wiki-i18n title: Başlarken -->
 # SpaceCorps’a başlarken {#getting-started-in-spacecorps}
 
@@ -24,12 +24,14 @@ Hayatta kalmak ve gelişmek için iki para birimini yönetmeli ve onuruna göz k
 
 ## Pilot profilleri {#pilot-profiles}
 
-Şeref Salonu’nda (**Topluluk › Sıralamalar**), **İstatistikler** sayfasında ya da bir klanın üye listesinde bir pilotun adına tıkla, pilotun **profili** açılır: şirket, dünya ve klan, seviye, deneyim, onur ve sıralama puanı, pilotun yok ettiği uzaylılar ve pilotlar ve uçtuğu gemi ile değerleri. İki karo pilotun ne zamandır ortalarda olduğunu söyler:
+Şeref Salonu’nda (**Topluluk › Sıralamalar**), **İstatistikler** sayfasında ya da bir klanın üye listesinde bir pilotun adına tıkla, pilotun **profili** açılır: şirket, dünya ve klan, seviye, deneyim, onur ve sıralama puanı, pilotun yok ettiği uzaylılar ve pilotlar ve uçtuğu gemi ile donanımı ve değerleri (pilot gizli tutmuyorsa). İki karo pilotun ne zamandır ortalarda olduğunu söyler:
 
 - **İlk giriş.** Pilotun ilk giriş yaptığı gün, senin saat diliminde bir tarih olarak. 0.4.12’den önce oynamış bir pilot, o güncellemeden sonra ilk giriş yaptığı günü gösterir; o güncellemeden beri giriş yapmamış bir pilot için bir tire görünür.
 - **Oynama süresi.** Pilotun oyununun sunucuya ne kadar süredir bağlı olduğu, saat ve dakika olarak (“128 sa 15 dk”, “45 dk”), uçuşta ya da istasyonda. Hareketsiz geçirilen süre de sayılır. Sayım 0.4.12 ile başladı; bu yüzden ondan önce oynamış bir pilot için süre, o güncellemeden bu yana geçen süredir.
 
 İkisi de seviye ve rütbe gibi herkese açıktır: giriş yapmış her pilot bunları bir profilde okuyabilir. Sezonun sıfırlaması bunlara dokunmaz.
+
+Bir pilot donanımını gizli tutabilir. **Ayarlar › Hesap › Gizlilik** altında **Donanımımı gizle** adlı bir anahtar vardır. Açık olduğu sürece diğer pilotlar pilotun dönen gemisini ve profilin geri kalanını görmeye devam eder, ancak gemiye ve dronlarına takılı öğeleri ve bunların verdiği savaş değerlerini göremez; profil, pilotun donanımını gizli tuttuğunu belirtir. Yöneticiler donanımı her zaman görür, kendi profilin de her zaman seninkini gösterir (anahtar açıkken bir notla).
 
 Profilinin ötesinde, **Topluluk › Başarımlar** kariyer hedeflerini ödülleri ve unvanlarıyla birlikte tutar: bkz. [Başarımlar](/wiki/03-Mechanics/Achievements.md).
 

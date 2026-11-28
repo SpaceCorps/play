@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c598c923528fc750 -->
+<!-- wiki-i18n source: 6daa8f85861674ea -->
 <!-- wiki-i18n title: Goombah -->
 # Goombah
 
@@ -6,10 +6,10 @@ Goombah, heybetli, kruvazör sınıfından bir uzaylı gemisidir. Kalkan kapasit
 
 ## Özellikler {#stats}
 
-- **Gövde puanı (HP)**: 32.000
-- **Kalkan**: 48.000
-- **Hasar**: 3.000
-- **Hız**: 180
+- **Gövde puanı (HP)**: {{guide:vitals.hull@Goombah#1}}
+- **Kalkan**: {{guide:vitals.shield@Goombah#1}}
+- **Hasar**: {{guide:vitals.dps@Goombah#1}}
+- **Hız**: {{guide:vitals.speed@Goombah#1;Goombah#2;Goombah#3;Goombah#4}}
 - **Saldırı menzili**: 800
 - **Davranış**: Pasif
 
@@ -19,15 +19,15 @@ Goombah, heybetli, kruvazör sınıfından bir uzaylı gemisidir. Kalkan kapasit
 - Birinin ona en son vurmasından **10 saniye** sonra vazgeçer ve yeniden dolaşmaya başlar.
 - Bir pilot ona vurmaya devam ettiği sürece, pilot onun silah menzilinin (800 birim) dışında kaldığında ona doğru uçar ve menzile girer girmez ateş eder: 850 ya da 900 birimlik bir lazerin ona bedavaya vurabileceği bir nokta yoktur. Son 10 saniyedir ona vurmamış bir pilot **2.500 birimden** daha uzaktaysa (pilot ona son bir dakika içinde ateş etmişse) ya da Goombah takibin başladığı yerden **3.000 birim** uçmuşsa, pilotun peşini bırakır; pilot ona bir kez daha ateş etmedikçe 8 saniye boyunca o pilotun peşine düşmez (bkz. [Savaş](/wiki/03-Mechanics/Combat.md)).
 - **30 saniye** rahat bırakılırsa gövdesi onarılır: saniyede azami değerinin %2’si (tam gövde yaklaşık 50 saniyede). Kalkanı, her uzaylının kalkanı gibi, son vuruştan 15 saniye sonra dolmaya başlar. Bu yüzden uzaktan vurulup terk edilen bir Goombah, sıradaki pilotun bitirmesi için orada kalmaz.
-- Kendisine vurmayan kimseyle savaşmaz ve başka bir uzaylıyı asla yardımına çağırmaz.
+- Kendisine vurmayan kimseyle savaşmaz.
 - [Şirket pilotları](/wiki/03-Mechanics/Company-Pilots.md) onunla girilen bir savaşın dışında kalır: kazanamazlar.
 
 ## Ödüller {#rewards}
 
-- **Kredi**: 15.000
-- **Thulium**: 75
-- **Deneyim (XP)**: 3.000
-- **Onur**: 24
+- **Kredi**: {{guide:spoils.pay.credits@Goombah#1}}
+- **Thulium**: {{guide:spoils.pay.thulium@Goombah#1}}
+- **Deneyim (XP)**: {{guide:spoils.pay.experience@Goombah#1}}
+- **Onur**: {{guide:spoils.pay.honor@Goombah#1}}
 - **Öldürme başına PvE puanı**: 7
 - **Kalkan dolumu**: saniyede 100 (15 sn gecikme)
 
@@ -37,14 +37,11 @@ Yok edildiği yerde bir [kargo kutusu](/wiki/03-Mechanics/Cargo.md) olarak düş
 
 Her ganimetin ne işe yaradığı ve başka nerede bulunabileceği: [Kaynaklar](/wiki/06-Items/Resources.md).
 
-- **Ship Fragment**:
-  - %100 şans (En az: 3, En çok: 3)
-  - %25 şans (En az: 1, En çok: 1)
-- **Cataclysite**: %100 şans (En az: 4, En çok: 4)
-- **Quorvium**: %100 şans (En az: 2, En çok: 4)
-- **Reinforced Hull Plate**: %60 şans (En az: 1, En çok: 1)
-- **Power Core**: %25 şans (En az: 1, En çok: 1)
-- **Echo Shard**: %10 şans (En az: 1, En çok: 1)
+- {{guide:spoils.box@Goombah#1;Goombah#2;Goombah#3;Goombah#4}}
+
+## Özel yetenekler {#special-abilities}
+
+Bu türden bazı uzaylılar bir **özel yetenek** taşır: gövdelerinin yarısı gittiğinde yalnızca bir kez yaptıkları bir şey. Başlamadan önce hiçbir şey görünmez. [Özel yetenekler](/wiki/03-Mechanics/Special-Abilities.md) sayfası her yeteneğin ne yaptığını ve ona nasıl karşılık verileceğini anlatır.
 
 ## Hikâye {#lore}
 

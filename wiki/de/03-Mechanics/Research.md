@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 74bb4919fe97756e -->
+<!-- wiki-i18n source: 634c9ffbf340dec7 -->
 <!-- wiki-i18n title: Forschung -->
 # Forschung {#research}
 
@@ -30,7 +30,7 @@ Diese Seite zeigt den ganzen Technologiebaum mit der Dauer jeder Technologie, di
 
 <!-- research-centre:end -->
 
-**Schematics.** Ein [Schematics](/wiki/06-Items/Special-Items.md#schematics) nimmt 24 Stunden von der Forschung ab, die gerade läuft: Fehlen höchstens 24 Stunden, wird sie sofort abgeschlossen, eine längere verliert 24 Stunden und läuft weiter (188 der 210 Technologien dauern höchstens 24 Stunden, ein Schematics schließt sie also von Anfang an ab; die übrigen 22 brauchen 2 bis 10). Was die Forschung gekostet hat, wurde beim Start bezahlt und wird nicht zurückgegeben, die Wissenschaft, die die übersprungene Zeit verbrannt hätte, bleibt in deinem Tank, und wenn die Forschung abgeschlossen ist, startet die nächste Technologie deiner Warteschlange sofort.
+**Schematics.** Ein [Schematics](/wiki/06-Items/Special-Items.md#schematics) nimmt 24 Stunden von der Forschung ab, die gerade läuft: Fehlen höchstens 24 Stunden, wird sie sofort abgeschlossen, eine längere verliert 24 Stunden und läuft weiter (190 der 212 Technologien dauern höchstens 24 Stunden, ein Schematics schließt sie also von Anfang an ab; die übrigen 22 brauchen 2 bis 10). Was die Forschung gekostet hat, wurde beim Start bezahlt und wird nicht zurückgegeben, die Wissenschaft, die die übersprungene Zeit verbrannt hätte, bleibt in deinem Tank, und wenn die Forschung abgeschlossen ist, startet die nächste Technologie deiner Warteschlange sofort.
 
 **Die Laserverstärker und die letzte Stufe.** Die Damage, Crit und Penetration Amps der Stufen II bis IV werden wie alles andere erforscht. Piloten, die beim Erscheinen der Amp-Linien Amps besaßen oder in Auftrag hatten, erhielten die Technologie jedes dieser Amps und der Stufen darunter. Dreizehn Technologien brauchen eine Technologie eines anderen Baums, die der Dark Matter Plate aus dem Baum Ressourcen, weil die letzte Stufe jeder Aufwertungskette vier Plates und eine Ancient Control Unit verlangt: die Damage, Crit und Penetration Amps der Stufe IV, die Absorption und Capacity Shield Cells der Stufe IV, die Impulse und Momentum Thrusters der Stufe IV sowie Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III und Base CPU II. Wer eine davon früher erforscht hat, behält sie und braucht die Technologie der Plate, um ihre Plates herzustellen. Der Baum unten zeichnet dafür keinen Pfeil, aber die Tabelle führt sie auf, und die Karte im Spiel nennt sie ([Dark Matter und Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -98,6 +98,7 @@ Was ein Boost mit der Dauer einer Forschung macht, wenn er von ihrem Beginn an l
 | :--- | :--- | ---: | ---: |
 | 30 min | 15 min | 1 | 5.000 |
 | 1 h | 30 min | 1 | 5.000 |
+| 2 h | 1 h | 1 | 5.000 |
 | 3 h | 1 h 30 min | 1 | 5.000 |
 | 4 h | 2 h | 1 | 5.000 |
 | 6 h | 3 h | 1 | 5.000 |
@@ -335,10 +336,13 @@ Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600
 Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 Mine II | consumable, rare | craft 200 Thulium, 120 s | research 10800 s, 10800 science | 2 Mine I, 3 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#mine
 Mine III | consumable, epic | craft 400 Thulium, 300 s | research 21600 s, 21600 science | 2 Mine II, 8 Ship Fragment, 1 Reinforced Hull Plate, 2 Power Core | /wiki/06-Items/Extras.md#mine
+Organic Scanner I | extra, rare | craft 20000 Credits, 10000 Thulium, 600 s | research 1800 s, 1800 science | 60 Ship Fragment, 2 Power Core, 1 Ancient Control Unit, 5 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+Organic Scanner II | extra, epic | craft 50000 Credits, 20000 Thulium, 900 s | research 7200 s, 7200 science | 1 Organic Scanner I, 2 Lurker Fang, 2 Angler Lure, 1 Leviathan Scale | /wiki/06-Items/Extras.md
 
 Extra Slots CPU I => Extra Slots CPU II => Extra Slots CPU III
 Base CPU I => Base CPU II => Jump CPU
 Mine II => Mine III
+Organic Scanner I => Organic Scanner II
 ```
 
 ### Verteidigung {#tree-defence}
@@ -582,18 +586,20 @@ Die Familie Pilot der Forschungsansicht enthält Technologien, die kein Rezept s
 | [Miyuki III](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki II](/wiki/02-Ships/Miyuki.md) | D | 1 d | 86.400 | 10 |
 | [Miyuki IV](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki III](/wiki/02-Ships/Miyuki.md) | D | 2 d | 172.800 | 10 |
 | [Miyuki V](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki IV](/wiki/02-Ships/Miyuki.md) | D | 2 d | 172.800 | 10 |
+| [Organic Scanner I](/wiki/06-Items/Extras.md) | – | A | 30 min | 1.800 | – |
+| [Organic Scanner II](/wiki/06-Items/Extras.md) | [Organic Scanner I](/wiki/06-Items/Extras.md) | B | 2 h | 7.200 | – |
 
 Die Klassen nach Forschungsdauer:
 
 | Klasse | Forschungsdauer | Technologien | Nacheinander | Wissenschaft | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| A | 30 min bis 1 h | 17 | 9 h 30 min | 34.200 | 0 |
-| B | 3 h bis 6 h | 37 | 5 d 20 h | 504.000 | 0 |
+| A | 30 min bis 1 h | 18 | 10 h | 36.000 | 0 |
+| B | 2 h bis 6 h | 38 | 5 d 22 h | 511.200 | 0 |
 | C | 8 h bis 10 h | 20 | 8 d 4 h | 705.600 | 95 |
 | D | 16 h bis 10 d | 35 | 60 d 16 h | 5.241.600 | 379 |
-| Alle |  | 109 | 75 d 1 h 30 min | 6.485.400 | 474 |
+| Alle |  | 111 | 75 d 4 h | 6.494.400 | 474 |
 
-Nacheinander erforscht, dauert der ganze Baum 75 d 1 h 30 min. Mit ständig laufendem Boost sind es 37 d 12 h 45 min, das sind 38 Boosts und 190.000 Thulium; die Wissenschaft bleibt dieselbe.
+Nacheinander erforscht, dauert der ganze Baum 75 d 4 h. Mit ständig laufendem Boost sind es 37 d 14 h, das sind 38 Boosts und 190.000 Thulium; die Wissenschaft bleibt dieselbe.
 
 <!-- research-technologies:end -->
 
@@ -617,6 +623,8 @@ Auch die neuen CPUs werden hier erforscht und dann in der Montage hergestellt. D
 | [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 h | – | 20.000 | 15 min |
 | [Mine II](/wiki/06-Items/Extras.md#mine) | 3 h | – | 200 | 2 min |
 | [Mine III](/wiki/06-Items/Extras.md#mine) | 6 h | [Mine II](/wiki/06-Items/Extras.md#mine) | 400 | 5 min |
+| [Organic Scanner I](/wiki/06-Items/Extras.md) | 30 min | – | 10.000 | 10 min |
+| [Organic Scanner II](/wiki/06-Items/Extras.md) | 2 h | [Organic Scanner I](/wiki/06-Items/Extras.md) | 20.000 | 15 min |
 
 Keine davon wird im Shop verkauft: Erforsche die Technologie und stelle die CPU dann in der Montage her. Zeige im Baum auf eine CPU, um zu sehen, was die Montage dafür verlangt.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3394596d1bb1595f -->
+<!-- wiki-i18n source: d029290762cd46b4 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -23,7 +23,7 @@ Egy aranyra festett **Ironclad TITANIC**, a TITANIC saját méretében, minden a
 | Extrák | egy Repair Drone IV, egy Auto-Repair CPU és egy Base CPU II |
 | Hajótest | 15 Hull Plating III |
 
-Alpha-erősségen **931 250 hajótestet**, **1 559 486 pajzsot** (másodpercenként 67 614-et tölt, 15 másodperc találat nélkül), 90,9%-os elnyelést, 97-es sebességet, 945-ös hatótávot és **másodpercenként 5 014** sortüzet kap. Béta ezeknek 1,5-szeresét, Gamma 2-szeresét, ahogy minden idegen. Ez Alphában nagyjából 2,5 millió pont lebontani való: egy ugyanilyen lézerekkel felszerelt Wraith egyedül körülbelül tizenkét perc folyamatos tüzet igényel, tíz ilyen nagyjából 71 másodpercet.
+Alpha-erősségen **{{guide:vitals.hull@Davidski}} hajótestet**, **{{guide:vitals.shield@Davidski}} pajzsot** (másodpercenként {{guide:vitals.shieldRecharge@Davidski}}-et tölt, 15 másodperc találat nélkül), {{guide:vitals.absorbance@Davidski}}-os elnyelést, {{guide:vitals.speed@Davidski}}-es sebességet, 945-ös hatótávot és **másodpercenként {{guide:vitals.dps@Davidski}}** sortüzet kap. Béta ezeknek 1,5-szeresét, Gamma 2-szeresét, ahogy minden idegen.
 
 ## Harc ellene {#fighting-him}
 
@@ -38,12 +38,16 @@ Alpha-erősségen **931 250 hajótestet**, **1 559 486 pajzsot** (másodperce
 
 | | Alpha | Beta | Gamma |
 |---|---:|---:|---:|
-| Kredit | 1 830 000 | 3 660 000 | 5 490 000 |
-| Thulium | 4 875 | 9 750 | 14 625 |
-| Tapasztalat | 292 500 | 585 000 | 877 500 |
-| Becsület | 1 275 | 2 550 | 3 825 |
+| Kredit | {{guide:spoils.pay.credits@Davidski}} | {{guide:spoils.pay.credits*2@Davidski}} | {{guide:spoils.pay.credits*3@Davidski}} |
+| Thulium | {{guide:spoils.pay.thulium@Davidski}} | {{guide:spoils.pay.thulium*2@Davidski}} | {{guide:spoils.pay.thulium*3@Davidski}} |
+| Tapasztalat | {{guide:spoils.pay.experience@Davidski}} | {{guide:spoils.pay.experience*2@Davidski}} | {{guide:spoils.pay.experience*3@Davidski}} |
+| Becsület | {{guide:spoils.pay.honor@Davidski}} | {{guide:spoils.pay.honor*2@Davidski}} | {{guide:spoils.pay.honor*3@Davidski}} |
 
-A ládában 40–60 Ship Fragment, 10–20 Power Core és 3 000–6 000 Advanced Plasma van, néha Ancient Control Unit vagy Dark Matter. Egy kivégzés **nem ad PvE-pontot** a rangsorodban (ő egyik rangsorban sem szerepel, lásd lejjebb); az általa fizetett tapasztalat úgy számít, mint bármely más tapasztalat, a kivégzést pedig Davidski néven számolja a kivégzési statisztikád.
+| A ládája |
+|---|
+| {{guide:spoils.box@Davidski}} |
+
+Egy kivégzés **nem ad PvE-pontot** a rangsorodban (ő egyik rangsorban sem szerepel, lásd lejjebb); az általa fizetett tapasztalat úgy számít, mint bármely más tapasztalat, a kivégzést pedig Davidski néven számolja a kivégzési statisztikád.
 
 - **Naponta legfeljebb egyszer pusztítható el.** A halála után a következő UTC-napig távol marad, amikor a nap időpontjában újra kijön, teljes hajótesttel. Senkit sem értesítenek arról, hogy elesett; a vele harcoló pilóták a saját fizetségüket látják.
 - **Egy pilótának két kivégzésért naponta, egy világnak nyolcért fizet** (UTC). Mivel világonként naponta egy Davidski van, ezek a határok ritkán számítanak; ezen túl értesítést kapsz, és a kivégzésért nem kapsz fizetséget.

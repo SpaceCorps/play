@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 399d33a09b4ac805 -->
+<!-- wiki-i18n source: 0f6a663715a3934a -->
 <!-- wiki-i18n title: 위험 섹터 -->
 # 위험 섹터 {#danger-sectors}
 
@@ -14,9 +14,10 @@
 
 - **거대 굴착기.** `DS-1`, `DS-2`, `DS-3`에는 시즌 첫날부터 각각 펄서가 하나씩 있습니다. 하늘의 빛일 뿐 그 이상은 아닙니다. 11일차부터는 그 옆에 **거대 굴착기**가 섭니다. 굴착기 탱크에 Dark Matter를 넣고 자원을 고르면 굴착기가 펄서를 채굴합니다. Thulium과 희귀 광석이 누구나 주울 수 있는 상자로 굴착기 주위에 떨어집니다. 위험 섹터에서 다툴 만한 것 중 가장 풍성하고 가장 위험합니다. [거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md)를 보세요. Beta와 Gamma에서는 거대 굴착기가 시즌 첫날부터 서 있습니다.
 - **Slumbering Void.** 굴착기가 채굴하는 동안 **Slumbering Void**가 맵 가장자리에서 웨이브로 날아와 근처의 파일럿을 사냥합니다. 다른 개체들은 늪을 순찰합니다. [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void)를 보세요.
-- **Dormant Swamp.** `DS-4`의 한쪽 모서리에 잃어버린 문명의 기지가 서 있습니다. 보이는 모든 함선을 쏘는 포대, 그것을 지키는 Inert Mass, 그리고 한가운데의 Unwakened입니다. 파일럿이 아직 찾아가서는 안 되는 곳입니다. [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)를 보세요.
+- **Dormant Swamp.** `DS-4`의 한쪽 모서리에 잃어버린 문명의 기지가 서 있습니다. 보이는 모든 함선을 쏘는 포대, 그것을 지키는 Inert Mass, 그리고 한가운데의 Unwakened입니다. [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)를 보세요.
 - **더 빠르고 더 풍성해진 Dormant 무리.** 이제 무리는 늪에 나타나고, 격파된 뒤 더 일찍 돌아오며, 보상은 두 배입니다. [Dormant 무리](/wiki/05-Swarms/Dormant-Swarm.md)를 보세요.
 - **11일차 이전**에는 펄서만 빛납니다. 그 밖의 위험 섹터는 [스페이스맵 이동](/wiki/01-General/Spacemap%20Travel.md)이 설명하는 그대로입니다. 11일차 이후인 월드에는 모두 한꺼번에 있습니다. Beta와 Gamma에서는 거대 굴착기가 시즌 첫날부터 서 있습니다.
+- **Threshold.** 이제 Dormant Swamp의 Unwakened를 파괴할 수 있습니다. 각 월드에서 시즌 첫 처치가 일어나면 `DS-4` 오른쪽 위 구석에 그 월드의 Threshold가 열리고, 그곳에서 파일럿들이 [Deep Void](/wiki/03-Mechanics/Deep-Void.md)로 가는 Void Gate를 짓습니다.
 
 ## Davidski
 

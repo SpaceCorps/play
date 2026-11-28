@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4e3f459fc0966372 -->
+<!-- wiki-i18n source: 98e91b2bd1dede81 -->
 <!-- wiki-i18n title: Enxame Tesseract -->
 # Enxame Tesseract {#tesseract-swarm}
 
@@ -13,13 +13,13 @@ O enxame Tesseract é uma única nave-mãe enorme, o **Tesseract**, e os **Facet
 - **Quantos**: Um em cada mundo
 - **Aparece**: Do dia 4 da temporada até o reset (Beta e Gamma: do dia 1 da temporada)
 - **Líder**: Tesseract
-- **Posição**: Até 2.500 unidades do ponto 25.900, 6.100 do mapa do setor
+- **Posição**: Até 2.500 unidades do ponto 25.900, 11.900 do mapa do setor
 - **Regeneração**: 125.000 HP por segundo em Alpha, primeiro o casco e depois o escudo, depois de 5 s sem dano
 - **Seguidores**: Até 100 × Facet, mais 20 a cada 5 s enquanto o líder é atingido
 - **Chegada dos seguidores**: Só enquanto o líder foi atingido nos últimos 5 s, a até 400 unidades dele
 - **Caçadores**: Cada Facet voa trechos próprios ao redor do líder, a até 3.600 unidades dele, e não persegue ninguém. Atira no piloto mais próximo que atingiu o líder quando esse piloto está ao seu alcance. Sem ninguém para atirar, continua voando ao redor do líder e vai embora 20 s depois do último acerto
 - **Líder destruído**: Os seguidores vão embora 1 min depois que o líder é destruído, estejam atacando ou não
-- **Volta**: 30 min depois que o líder é destruído, no mesmo setor
+- **Volta**: {{guide:vitals.respawn@Tesseract#1;Tesseract#2;Tesseract#3}} depois que o líder é destruído, no mesmo setor
 - **Avisos**: Os pilotos do setor são avisados quando o líder aparece e quando é destruído. São linhas do Sistema: aparecem na aba **Sistema** do chat, com uma contagem de linhas não lidas, e não em **Global** nem em **Local**. O registro de baixas nomeia o piloto a quem o abate é creditado.
 
 <!-- tesseract-glance:end -->
@@ -40,6 +40,17 @@ O enxame Tesseract é uma única nave-mãe enorme, o **Tesseract**, e os **Facet
 - **Os setores de perigo são PvP.** Um rival pode atacar o grupo no meio da luta. Não há nenhuma caixa nos destroços para ele esperar: o saque é uma [caixa privada](/wiki/03-Mechanics/Cargo.md#private-boxes) para cada piloto que o abate paga, que só esse piloto pode ver e pegar. Não vá sozinho.
 - **O Tesseract volta** depois do tempo da lista *Resumo rápido*, com força total, no seu lugar.
 
+## As três etapas do líder {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+A luta tem três etapas ([como funcionam](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); cada uma acontece uma vez, e recomeçam depois que ele se repara por completo.
+
+- **Abaixo de dois terços**: Chegam de uma vez mais 20 Facets, acima do número habitual.
+
+<!-- mob-ladder:end -->
+
 ## Recompensas e saque {#rewards-and-drops}
 
 O Tesseract paga pela luta que ele é: tanto quanto muitos Crystalys juntos, e mais, pelo dano que aguenta, do que um Crystalys, o alienígena mais bem pago. O pagamento é dividido pelo dano entre os pilotos que lutaram contra ele ([como o abate de um chefe paga](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Não há caixa para o piloto que mais causa dano. Cada piloto que o abate paga recebe a sua própria [caixa privada](/wiki/03-Mechanics/Cargo.md#private-boxes), que só ele vê e pode pegar, por 10 minutos, com Reinforced Hull Plates, Velkonite e Orvium Reinforced Plates, Power Cores, Ancient Control Units e Dark Matter. Ela é sorteada para a parte dele no dano, como o saque de um [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot): quem causou um quinto do dano recebe cerca de um quinto das quantidades da tabela, e num grupo cada piloto recebe a sua parte da parte do grupo, como o pagamento é dividido. A Dark Matter tem um limite por piloto: de um abate ele recebe 5 no máximo, por maior que seja a sua parte (num grupo a parte de cada piloto é separada primeiro, e o limite é o de cada um), e o que passa do limite se perde, não é dado aos outros. Um Facet paga o que paga um [Phantasm](/wiki/04-Aliens/Phantasm.md) em Créditos, Thulium, XP e Honra, e o abate dele conta como abate (nas suas estatísticas, para as conquistas e para a experiência dos seus drones e P.E.T.s), mas não larga nada e não soma pontos PvE.
@@ -57,30 +68,24 @@ Base: Crystalys, com 625% do casco; não tem arma, e o escudo e a velocidade sã
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Casco | 1.600.000 | 2.400.000 | 3.200.000 |
-| Escudo | 1.200.000 | 1.800.000 | 2.400.000 |
+| Casco | {{guide:vitals.hull@Tesseract#1}} | {{guide:vitals.hull@Tesseract#2}} | {{guide:vitals.hull@Tesseract#3}} |
+| Escudo | {{guide:vitals.shield@Tesseract#1}} | {{guide:vitals.shield@Tesseract#2}} | {{guide:vitals.shield@Tesseract#3}} |
 | Dano dos lasers (uma salva por segundo) | nenhum | nenhum | nenhum |
-| Velocidade | 30 | 30 | 30 |
+| Velocidade | {{guide:vitals.speed@Tesseract#1}} | {{guide:vitals.speed@Tesseract#2}} | {{guide:vitals.speed@Tesseract#3}} |
 | Alcance dos lasers | – | – | – |
 | Raio de agressão | só quando atacado | só quando atacado | só quando atacado |
 | Conserta, por segundo, depois de 5 s sem dano (primeiro o casco, depois o escudo) | 125.000 | 187.500 | 250.000 |
-| Créditos | 900.000 | 1.800.000 | 2.700.000 |
-| Thulium | 2.400 | 4.800 | 7.200 |
-| Experiência (XP) | 144.000 | 288.000 | 432.000 |
-| Honra | 624 | 1.248 | 1.872 |
+| Créditos | {{guide:spoils.pay.credits@Tesseract#1}} | {{guide:spoils.pay.credits@Tesseract#2}} | {{guide:spoils.pay.credits@Tesseract#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Tesseract#1}} | {{guide:spoils.pay.thulium@Tesseract#2}} | {{guide:spoils.pay.thulium@Tesseract#3}} |
+| Experiência (XP) | {{guide:spoils.pay.experience@Tesseract#1}} | {{guide:spoils.pay.experience@Tesseract#2}} | {{guide:spoils.pay.experience@Tesseract#3}} |
+| Honra | {{guide:spoils.pay.honor@Tesseract#1}} | {{guide:spoils.pay.honor@Tesseract#2}} | {{guide:spoils.pay.honor@Tesseract#3}} |
 | Pontos PvE por abate | 42 | 42 | 42 |
 
 **Saque para cada piloto que o abate paga**: uma caixa para cada um, só para ele, com a parte dele destas quantidades.
 
-| Item | Chance | Quantidade |
-| :--- | ---: | ---: |
-| Reinforced Hull Plate | 100% | 3–10 |
-| Velkonite Reinforced Plate | 66% | 7–12 |
-| Orvium Reinforced Plate | 50% | 3–5 |
-| Power Core | 66% | 4–7 |
-| Ancient Control Unit | 100% | 1–4 |
-| Dark Matter | 100% | 10–20, no máximo 5 por piloto |
-| Heartshard | 5% | 1 |
+| Item |
+| :--- |
+| {{guide:spoils.box@Tesseract#1;Tesseract#2;Tesseract#3}} |
 
 ### Facet
 
@@ -88,16 +93,16 @@ Base: Seeker, com 2.500% do casco e 463% do dano dos lasers; o escudo, a velocid
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Casco | 20.000 | 30.000 | 40.000 |
-| Escudo | 16.000 | 24.000 | 32.000 |
-| Dano dos lasers (uma salva por segundo) | 834 | 1.251 | 1.668 |
-| Velocidade | 750 | 750 | 750 |
+| Casco | {{guide:vitals.hull@Facet#1}} | {{guide:vitals.hull@Facet#2}} | {{guide:vitals.hull@Facet#3}} |
+| Escudo | {{guide:vitals.shield@Facet#1}} | {{guide:vitals.shield@Facet#2}} | {{guide:vitals.shield@Facet#3}} |
+| Dano dos lasers (uma salva por segundo) | {{guide:vitals.dps@Facet#1}} | {{guide:vitals.dps@Facet#2}} | {{guide:vitals.dps@Facet#3}} |
+| Velocidade | {{guide:vitals.speed@Facet#1}} | {{guide:vitals.speed@Facet#2}} | {{guide:vitals.speed@Facet#3}} |
 | Alcance dos lasers | 600 | 600 | 600 |
 | Raio de agressão | só quando atacado | só quando atacado | só quando atacado |
-| Créditos | 3.000 | 6.000 | 9.000 |
-| Thulium | 12 | 24 | 36 |
-| Experiência (XP) | 300 | 600 | 900 |
-| Honra | 6 | 12 | 18 |
+| Créditos | {{guide:spoils.pay.credits@Facet#1}} | {{guide:spoils.pay.credits@Facet#2}} | {{guide:spoils.pay.credits@Facet#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Facet#1}} | {{guide:spoils.pay.thulium@Facet#2}} | {{guide:spoils.pay.thulium@Facet#3}} |
+| Experiência (XP) | {{guide:spoils.pay.experience@Facet#1}} | {{guide:spoils.pay.experience@Facet#2}} | {{guide:spoils.pay.experience@Facet#3}} |
+| Honra | {{guide:spoils.pay.honor@Facet#1}} | {{guide:spoils.pay.honor@Facet#2}} | {{guide:spoils.pay.honor@Facet#3}} |
 | Pontos PvE por abate | 0 | 0 | 0 |
 
 **Saque**: nenhum. O abate paga só os seus créditos, Thulium, XP e honra.

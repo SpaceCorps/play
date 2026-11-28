@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fff5cfd69e987468 -->
+<!-- wiki-i18n source: 7c6bc3eaf70223f5 -->
 <!-- wiki-i18n title: Seeker-svärm -->
 # Seeker-svärm {#seeker-swarm}
 
@@ -17,14 +17,14 @@ Seeker-svärmen är den minsta av [svärmarna](/wiki/05-Swarms/Swarms.md): en **
 - **Följeslagarna håller sig inom**: högst 500 enheter från ledaren
 - **Läkning**: Varje Seeker Slave inom 600 enheter från ledaren läker dess skrov, 50 HP per sekund i Alpha
 - **När ledaren förstörs**: Följeslagarna försvinner 30 s efter att ledaren förstörts, om de inte just attackerar
-- **Kommer tillbaka**: 2 min efter att ledaren förstörts, i samma sektor
+- **Kommer tillbaka**: {{guide:vitals.respawn@Boss Seeker#1;Boss Seeker#2;Boss Seeker#3}} efter att ledaren förstörts, i samma sektor
 - **Meddelanden**: Piloterna i sektorn får veta när ledaren dyker upp och när den förstörs. Det är systemrader: de syns på chattens flik **System**, med en räknare för olästa rader, och inte i **Global** eller **Lokal**. Dödsloggen nämner piloten som nedskjutningen tillskrivs.
 
 <!-- seeker-glance:end -->
 
 ## Medlemmarna {#the-members}
 
-- **Boss Seeker**: en mycket större Seeker, i svärmens nyans och med sitt namn ovanför, med många gånger en Seekers skrov, sköld och skada (värdena står nedan). Den är passiv: den drar omkring tills en pilot träffar den, stannar sedan där den är och skjuter på piloten, och svärmens skepp i närheten ansluter sig till striden. Vapnets räckvidd och hastigheten är en Seekers, och den reparerar aldrig sitt skrov själv.
+- **Boss Seeker**: en mycket större Seeker, i svärmens nyans och med sitt namn ovanför, med många gånger en Seekers skrov, sköld och skada (värdena står nedan). Den är passiv: den drar omkring tills en pilot träffar den, stannar sedan där den är och skjuter på piloten, och svärmens skepp i närheten ansluter sig till striden. Vapnets räckvidd och hastigheten är en Seekers, och den reparerar aldrig sitt skrov själv. Dess [tre steg](#the-leaders-three-steps) och en [specialförmåga](/wiki/03-Mechanics/Special-Abilities.md) kan ändra på det.
 - **Seeker Slave**: en vanlig Seeker i svärmens nyans. Slaves håller sig nära bossen, ansluter sig till striden när ett svärmskepp i närheten träffas, och var och en som är nära bossen läker dess skrov. En Slave reparerar sitt eget skrov efter en vila, som en Seeker gör.
 
 ## Hur striden går till {#how-the-fight-goes}
@@ -33,6 +33,19 @@ Seeker-svärmen är den minsta av [svärmarna](/wiki/05-Swarms/Swarms.md): en **
 - **Håll dig utom räckhåll.** Bossen och dess Slaves är långsammare än en Protos, och deras vapen når kortare än en Quantum Laser II (se [Lasrar och ammunition](/wiki/06-Items/Lasers.md)): en pilot som har sådana lasrar och håller sig bortom deras räckvidd tar ingen skada medan de skjuter. En pilot med Quantum Laser I kan inte hålla sig utom räckhåll.
 - **Slaves läker snabbare än en ensam ny pilot träffar.** Tillsammans läker de mer än en pilots lasrar gör med ammunition x1, så ta med en kamrat och ammunition x2. Två piloter med Quantum Laser II som håller avstånd fäller bossen på ungefär en minut i Alpha, och mycket snabbare med ammunition x2.
 - **Bossen kommer tillbaka** efter tiden i listan *I korthet*, vid full styrka, i samma sektor, och dess Slaves kommer en efter en.
+
+## Ledarens tre steg {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Striden har tre steg ([hur de fungerar](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); vart och ett sker en gång.
+
+- **I början**: Dess Seeker Slaves läker den ×2 så fort i 8 s.
+- **Under två tredjedelar**: 2 kopior av den dyker upp, och den riktiga bär en ring.
+- **Under en tredjedel**: Flyr från piloterna i 4 s och vänder sedan om.
+
+<!-- mob-ladder:end -->
 
 ## Belöningar och byte {#rewards-and-drops}
 
@@ -51,28 +64,23 @@ Bygger på Seeker med 400 % av skrov, sköld och skada; hastighet och räckvidd
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Skrov | 3 200 | 4 800 | 6 400 |
-| Sköld | 3 200 | 4 800 | 6 400 |
-| Laserskada (en salva per sekund) | 720 | 1 080 | 1 440 |
-| Hastighet | 120 | 120 | 120 |
+| Skrov | {{guide:vitals.hull@Boss Seeker#1}} | {{guide:vitals.hull@Boss Seeker#2}} | {{guide:vitals.hull@Boss Seeker#3}} |
+| Sköld | {{guide:vitals.shield@Boss Seeker#1}} | {{guide:vitals.shield@Boss Seeker#2}} | {{guide:vitals.shield@Boss Seeker#3}} |
+| Laserskada (en salva per sekund) | {{guide:vitals.dps@Boss Seeker#1}} | {{guide:vitals.dps@Boss Seeker#2}} | {{guide:vitals.dps@Boss Seeker#3}} |
+| Hastighet | {{guide:vitals.speed@Boss Seeker#1}} | {{guide:vitals.speed@Boss Seeker#2}} | {{guide:vitals.speed@Boss Seeker#3}} |
 | Laserräckvidd | 600 | 600 | 600 |
 | Aggroradie | bara när den attackeras | bara när den attackeras | bara när den attackeras |
-| Krediter | 10 000 | 20 000 | 30 000 |
-| Thulium | 40 | 80 | 120 |
-| Erfarenhet (XP) | 1 000 | 2 000 | 3 000 |
-| Heder | 20 | 40 | 60 |
+| Krediter | {{guide:spoils.pay.credits@Boss Seeker#1}} | {{guide:spoils.pay.credits@Boss Seeker#2}} | {{guide:spoils.pay.credits@Boss Seeker#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Boss Seeker#1}} | {{guide:spoils.pay.thulium@Boss Seeker#2}} | {{guide:spoils.pay.thulium@Boss Seeker#3}} |
+| Erfarenhet (XP) | {{guide:spoils.pay.experience@Boss Seeker#1}} | {{guide:spoils.pay.experience@Boss Seeker#2}} | {{guide:spoils.pay.experience@Boss Seeker#3}} |
+| Heder | {{guide:spoils.pay.honor@Boss Seeker#1}} | {{guide:spoils.pay.honor@Boss Seeker#2}} | {{guide:spoils.pay.honor@Boss Seeker#3}} |
 | PvE-poäng per nedskjutning | 5 | 5 | 5 |
 
 **Byte**: en låda, för piloten som gjorde mest skada.
 
-| Föremål | Chans | Mängd |
-| :--- | ---: | ---: |
-| Ship Fragment | 20 % på vart och ett av 10 slag | 1 |
-| Daraxium | 50 % på vart och ett av 10 slag | 1–2 |
-| Standard Battery | 100 % | 200–400 |
-| Advanced Plasma | 100 % | 10–20 |
-| Ultra Core | 100 % | 2–4 |
-| En av de 4 [raketer](/wiki/06-Items/Rockets.md) som köps med krediter, slumpmässigt vald | 100 % | 2–3 |
+| Föremål |
+| :--- |
+| {{guide:spoils.box@Boss Seeker#1;Boss Seeker#2;Boss Seeker#3}} |
 
 ### Seeker Slave
 
@@ -80,17 +88,17 @@ Bygger på Seeker med 100 % av skrov, sköld och skada; hastighet och räckvidd
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Skrov | 800 | 1 200 | 1 600 |
-| Sköld | 800 | 1 200 | 1 600 |
-| Laserskada (en salva per sekund) | 180 | 270 | 360 |
-| Hastighet | 120 | 120 | 120 |
+| Skrov | {{guide:vitals.hull@Seeker Slave#1}} | {{guide:vitals.hull@Seeker Slave#2}} | {{guide:vitals.hull@Seeker Slave#3}} |
+| Sköld | {{guide:vitals.shield@Seeker Slave#1}} | {{guide:vitals.shield@Seeker Slave#2}} | {{guide:vitals.shield@Seeker Slave#3}} |
+| Laserskada (en salva per sekund) | {{guide:vitals.dps@Seeker Slave#1}} | {{guide:vitals.dps@Seeker Slave#2}} | {{guide:vitals.dps@Seeker Slave#3}} |
+| Hastighet | {{guide:vitals.speed@Seeker Slave#1}} | {{guide:vitals.speed@Seeker Slave#2}} | {{guide:vitals.speed@Seeker Slave#3}} |
 | Laserräckvidd | 600 | 600 | 600 |
 | Aggroradie | bara när den attackeras | bara när den attackeras | bara när den attackeras |
 | Läker ledaren, var och en, per sekund (bara skrovet) | 50 | 75 | 100 |
-| Krediter | 125 | 250 | 375 |
-| Thulium | 1 | 2 | 3 |
-| Erfarenhet (XP) | 12 | 24 | 36 |
-| Heder | 1 | 2 | 3 |
+| Krediter | {{guide:spoils.pay.credits@Seeker Slave#1}} | {{guide:spoils.pay.credits@Seeker Slave#2}} | {{guide:spoils.pay.credits@Seeker Slave#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Seeker Slave#1}} | {{guide:spoils.pay.thulium@Seeker Slave#2}} | {{guide:spoils.pay.thulium@Seeker Slave#3}} |
+| Erfarenhet (XP) | {{guide:spoils.pay.experience@Seeker Slave#1}} | {{guide:spoils.pay.experience@Seeker Slave#2}} | {{guide:spoils.pay.experience@Seeker Slave#3}} |
+| Heder | {{guide:spoils.pay.honor@Seeker Slave#1}} | {{guide:spoils.pay.honor@Seeker Slave#2}} | {{guide:spoils.pay.honor@Seeker Slave#3}} |
 | PvE-poäng per nedskjutning | 1 | 1 | 1 |
 
 **Byte**: inget. Nedskjutningen betalar bara sina krediter, sitt Thulium, sin XP och sin heder.

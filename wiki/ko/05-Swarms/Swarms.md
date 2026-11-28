@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 27e04944329244c2 -->
+<!-- wiki-i18n source: 06936f8338a8306d -->
 <!-- wiki-i18n title: 무리 -->
 # 무리 {#swarms}
 
@@ -23,13 +23,13 @@
 
 | 무리 | 위치 | 개수 | 리더 | 부하 | 복귀 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| [**Pirate 무리**](/wiki/05-Swarms/Pirate-Swarm.md) | 모든 기업의 `x-2`와 `x-3` 섹터 | 해당 섹터마다 하나씩, 월드마다 6개 | **Pirate Boss** | 최대 5 × Pirate Scout, 10초마다 새로 하나 | 리더가 격파되고 2분 뒤, 같은 섹터에서 |
-| [**Dormant 무리**](/wiki/05-Swarms/Dormant-Swarm.md) | 위험 섹터 `DS-1`, `DS-2`, `DS-3`, `DS-4`. 서로 사이를 비행합니다 | 월드마다 하나 | **Dormant Force** | 2 × Dormant Pulse, 리더와 함께 비행 | 무리 전체가 격파되고 1시간 뒤, 무작위 위험 섹터에서. 시즌 11일차부터: 30분, [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)에서, 모든 함선의 보상 ×2 |
-| [**Seeker 무리**](/wiki/05-Swarms/Seeker-Swarm.md) | 모든 기업의 `x-1`와 `x-2` 섹터 | 해당 섹터마다 하나씩, 월드마다 6개 | **Boss Seeker** | 최대 4 × Seeker Slave, 10초마다 새로 하나 | 리더가 격파되고 2분 뒤, 같은 섹터에서 |
-| [**Phantasm 무리**](/wiki/05-Swarms/Phantasm-Swarm.md) | 모든 기업의 `x-3`와 `x-4` 섹터 | 해당 섹터마다 하나씩, 월드마다 6개 | **Boss Phantasm** | 최대 4 × Phantasm Guard, 10초마다 새로 하나 | 리더가 격파되고 2분 뒤, 같은 섹터에서 |
-| [**Goombah 무리**](/wiki/05-Swarms/Goombah-Swarm.md) | 모든 기업의 `x-3`와 `x-4` 섹터 | 해당 섹터마다 하나씩, 월드마다 6개 | **Boss Goombah** | 최대 4 × Goombah Guard, 10초마다 새로 하나 | 리더가 격파되고 5분 뒤, 같은 섹터에서 |
-| [**Crystalys 무리**](/wiki/05-Swarms/Crystalys-Swarm.md) | 위험 섹터 `DS-1`, `DS-2`, `DS-3` | 해당 섹터마다 하나씩, 월드마다 3개 | **Boss Crystalys** | 최대 3 × Crystalys Guard, 10초마다 새로 하나 | 리더가 격파되고 30분 뒤, 같은 섹터에서 |
-| [**Tesseract 무리**](/wiki/05-Swarms/Tesseract-Swarm.md) | 위험 섹터 `DS-4` | 월드마다 하나 | **Tesseract** | 최대 100 × Facet, 리더가 공격받는 동안 5초마다 20기 추가 | 리더가 격파되고 30분 뒤, 같은 섹터에서 |
+| [**Pirate 무리**](/wiki/05-Swarms/Pirate-Swarm.md) | 모든 기업의 `x-2`와 `x-3` 섹터 | 해당 섹터마다 하나씩, 월드마다 6개 | **Pirate Boss** | 최대 5 × Pirate Scout, 10초마다 새로 하나 | 리더가 격파되고 {{guide:vitals.respawn@Pirate Boss#1;Pirate Boss#2;Pirate Boss#3}} 뒤, 같은 섹터에서 |
+| [**Dormant 무리**](/wiki/05-Swarms/Dormant-Swarm.md) | 위험 섹터 `DS-1`, `DS-2`, `DS-3`, `DS-4`. 서로 사이를 비행합니다 | 월드마다 하나 | **Dormant Force** | 2 × Dormant Pulse, 리더와 함께 비행 | 무리 전체가 격파되고 {{guide:vitals.respawn@Dormant Force#1;Dormant Force#2;Dormant Force#3}} 뒤, 무작위 위험 섹터에서. 시즌 11일차부터: 30분, [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)에서, 모든 함선의 보상 ×2 |
+| [**Seeker 무리**](/wiki/05-Swarms/Seeker-Swarm.md) | 모든 기업의 `x-1`와 `x-2` 섹터 | 해당 섹터마다 하나씩, 월드마다 6개 | **Boss Seeker** | 최대 4 × Seeker Slave, 10초마다 새로 하나 | 리더가 격파되고 {{guide:vitals.respawn@Boss Seeker#1;Boss Seeker#2;Boss Seeker#3}} 뒤, 같은 섹터에서 |
+| [**Phantasm 무리**](/wiki/05-Swarms/Phantasm-Swarm.md) | 모든 기업의 `x-3`와 `x-4` 섹터 | 해당 섹터마다 하나씩, 월드마다 6개 | **Boss Phantasm** | 최대 4 × Phantasm Guard, 10초마다 새로 하나 | 리더가 격파되고 {{guide:vitals.respawn@Boss Phantasm#1;Boss Phantasm#2;Boss Phantasm#3}} 뒤, 같은 섹터에서 |
+| [**Goombah 무리**](/wiki/05-Swarms/Goombah-Swarm.md) | 모든 기업의 `x-3`와 `x-4` 섹터 | 해당 섹터마다 하나씩, 월드마다 6개 | **Boss Goombah** | 최대 4 × Goombah Guard, 10초마다 새로 하나 | 리더가 격파되고 {{guide:vitals.respawn@Boss Goombah#1;Boss Goombah#2;Boss Goombah#3}} 뒤, 같은 섹터에서 |
+| [**Crystalys 무리**](/wiki/05-Swarms/Crystalys-Swarm.md) | 위험 섹터 `DS-1`, `DS-2`, `DS-3` | 해당 섹터마다 하나씩, 월드마다 3개 | **Boss Crystalys** | 최대 3 × Crystalys Guard, 10초마다 새로 하나 | 리더가 격파되고 {{guide:vitals.respawn@Boss Crystalys#1;Boss Crystalys#2;Boss Crystalys#3}} 뒤, 같은 섹터에서 |
+| [**Tesseract 무리**](/wiki/05-Swarms/Tesseract-Swarm.md) | 위험 섹터 `DS-4` | 월드마다 하나 | **Tesseract** | 최대 100 × Facet, 리더가 공격받는 동안 5초마다 20기 추가 | 리더가 격파되고 {{guide:vitals.respawn@Tesseract#1;Tesseract#2;Tesseract#3}} 뒤, 같은 섹터에서 |
 
 <!-- swarms-list:end -->
 
@@ -72,7 +72,7 @@ Seeker, Pirate, Phantasm, Goombah, Crystalys, Tesseract 무리는 보스가 나�
 
 ## 무리와 싸우기 {#fighting-a-swarm}
 
-- **리더는 절대 먼저 싸움을 걸지 않습니다.** 리더는 파일럿에게 공격받을 때까지 돌아다니다가 공격받으면 반격하며, 가까이 있는 무리의 함선들이 처음 공격한 파일럿을 상대로 전투에 합류합니다(거리는 위 규칙에 있습니다). 예외는 Pirate Scout로, 가까이 오는 모든 파일럿을 공격합니다. 리더는 스스로 선체를 수리하지 않으므로, 입힌 피해는 부하가 회복시키지 않는 한 그대로 남습니다. 실드는 다른 외계인과 똑같이 재충전됩니다. Tesseract만 예외로, 무기가 없고, 몇 초 동안 아무도 피해를 주지 않으면 선체와 실드를 스스로 회복하며, Facet은 처음 공격한 파일럿을 쫓는 대신 Tesseract 주위를 날아다니며 공격한 파일럿 중 가장 가까운 파일럿을 쏩니다.
+- **리더는 절대 먼저 싸움을 걸지 않습니다.** 리더는 파일럿에게 공격받을 때까지 돌아다니다가 공격받으면 반격하며, 가까이 있는 무리의 함선들이 처음 공격한 파일럿을 상대로 전투에 합류합니다(거리는 위 규칙에 있습니다). 예외는 Pirate Scout로, 가까이 오는 모든 파일럿을 공격합니다. 리더는 스스로 선체를 수리하지 않으므로, 입힌 피해는 부하가 회복시키지 않는 한 그대로 남습니다. 실드는 다른 외계인과 똑같이 재충전됩니다. Tesseract만 예외로, 무기가 없고, 몇 초 동안 아무도 피해를 주지 않으면 선체와 실드를 스스로 회복하며, Facet은 처음 공격한 파일럿을 쫓는 대신 Tesseract 주위를 날아다니며 공격한 파일럿 중 가장 가까운 파일럿을 쏩니다. 대장의 세 단계와 [특수 능력](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)으로도 선체를 회복할 수 있습니다.
 - **무리의 함선은 파일럿하고만 싸웁니다.** 외계인에게 사격하지 않고 외계인도 이들에게 사격하지 않으며, [기업 파일럿](/wiki/03-Mechanics/Company-Pilots.md)은 이들을 무시합니다. 무리의 함선을 사냥하지도, 맞서 싸우는 당신을 도우러 오지도 않습니다.
 - **로켓.** Pirate Boss와 Dormant Force, Pulse는 자신을 공격한 파일럿에게 **직선** 로켓, 즉 [Rivet 로켓](/wiki/06-Items/Rockets.md)을 발사합니다. 계속 움직이는 함선은 피하지만 멈춰 있는 함선은 맞습니다.
 - **전투의 규모.** Seeker 무리는 2명, Pirate 무리와 Phantasm 무리는 소규모 그룹, Goombah 무리는 최강 함선들의 그룹, Crystalys 무리와 Dormant 무리는 그들의 대규모 그룹을, Tesseract 무리는 그보다 훨씬 큰 그룹을 위한 상대입니다. 높은 월드일수록 다른 외계인과 마찬가지로 더 많은 파일럿이 필요합니다.

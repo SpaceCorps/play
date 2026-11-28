@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 664f33363a18d973 -->
+<!-- wiki-i18n source: 3c07d568f3af3aab -->
 <!-- wiki-i18n title: Dormant Swamp -->
 # Dormant Swamp
 
 <!-- wiki-search: swamp; dormant swamp; base; turret; turrets; nike turret; laser turret; inert mass; unwakened; the unwakened; slumbering void; void; dormant lance; ds-4; болото; турель; турели; орудие; орудия -->
 
-Давным-давно в середине галактики жила развитая цивилизация. Она строила из фиолетово-чёрного кристалла со светящимися лиловыми прожилками и по неизвестной причине рухнула. **Dormant Swamp** — её форпост, в левом верхнем углу `DS-4`. С 11-го дня сезона он оживает: орудия в центре стреляют по каждому кораблю, который они видят, его охраняют **Inert Mass**, а в самой середине спит **Unwakened**. Это место, которое пилотам **пока не следует посещать**. В маскировке можно долететь до Unwakened, и больше там пока ничего сделать нельзя: базу и её орудия нельзя повредить, в них нельзя войти, их нельзя взять на абордаж или торговать с ними.
+Давным-давно в середине галактики жила развитая цивилизация. Она строила из фиолетово-чёрного кристалла со светящимися лиловыми прожилками и по неизвестной причине рухнула. **Dormant Swamp** — её форпост, в левом верхнем углу `DS-4`. С 11-го дня сезона он оживает: орудия в центре стреляют по каждому кораблю, который они видят, его охраняют **Inert Mass**, а в самой середине спит **Unwakened**. В маскировке можно долететь до Unwakened. С тех пор как открылся [Deep Void](/wiki/03-Mechanics/Deep-Void.md), орудия и Unwakened можно уничтожить, а первое за сезон убийство Unwakened в каждом мире открывает Threshold этого мира. В саму базу войти нельзя, взять её на абордаж тоже, и торговать с ней нельзя.
 
 Болото — ещё и место, где с 11-го дня появляется [Рой Dormant](/wiki/05-Swarms/Dormant-Swarm.md), а вокруг него патрулируют **Slumbering Void**. Те же Void волнами приходят к [гигантским экскаваторам](/wiki/03-Mechanics/Giant-Excavator.md#the-slumbering-voids). Секторы описаны в [Опасные секторы](/wiki/01-General/Danger-Sectors.md).
 
@@ -17,7 +17,7 @@
 
 - **Где**: Левый верхний угол `DS-4`: середина в точке 5 000 / 5 000
 - **Появляется**: С 11-го дня сезона и до вайпа
-- **Зона**: 4 300 ед. вокруг середины: дальше всего достают орудия, и это место, которое пока никому не следует посещать
+- **Зона**: 4 300 ед. вокруг середины: дальше всего достают орудия
 - **Предупреждение**: Корабль, пересёкший кольцо в 4 800 ед. от середины, получает системную строку
 - **Маскировка**: Ни одно орудие никогда не видит корабль в маскировке или в окне EMP
 - **Пришельцы**: Inert Mass: 5, они держатся в пределах 2 400 ед. от середины. Unwakened спит в середине. Slumbering Void: 2, они патрулируют на расстоянии от 4 600 до 6 500 ед. от середины.
@@ -28,7 +28,7 @@
 
 ## Орудия {#the-guns}
 
-Турели болота стреляют по **ближайшему кораблю, который они видят**, в пределах своей дальности и ни по какому другому: зона — это круг, до которого достаёт самая дальнобойная из них. Они не сущности в каком-либо смысле: у них нет очков прочности, их нельзя взять в цель, и ничто из того, что вы в них выпустите, не действует. Их выстрелы настоящие, а мир масштабирует их урон так же, как оружие любого пришельца.
+Турели болота стреляют по **ближайшему кораблю, который они видят**, в пределах своей дальности и ни по какому другому: зона — это круг, до которого достаёт самая дальнобойная из них. Это не корабли, но с открытием Deep Void у каждой турели есть очки прочности: щёлкните по турели, чтобы стрелять в неё из лазеров, а ракета, разорвавшаяся рядом, тоже её повреждает. Уничтоженная турель не действует, пока Unwakened не вернётся. Их выстрелы настоящие, а мир масштабирует их урон так же, как оружие любого пришельца.
 
 <!-- swamp-guns:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
@@ -57,108 +57,104 @@
 
 ## Пришельцы {#the-aliens}
 
-Здесь живут три пришельца утраченной цивилизации, у каждого свои числа. Им платят, как боссу роя: **по нанесённому урону**, каждому пилоту, нанёсшему не меньше доли, указанной в [Рои](/wiki/05-Swarms/Swarms.md#the-rules-of-every-swarm), а контейнер достаётся пилоту, нанёсшему больше всех урона. Их убийства прибавляются к вашим очкам PvE-звания, как убийства кораблей роя, пропорционально награде ([Звания](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points)). Щит каждого поглощает 80% каждого попадания, пока держится ([Щиты](/wiki/03-Mechanics/Shields.md)).
+Здесь живут три пришельца утраченной цивилизации, у каждого свои числа. Им платят, как боссу роя: **по нанесённому урону**, каждому пилоту, нанёсшему не меньше доли, указанной в [Рои](/wiki/05-Swarms/Swarms.md#the-rules-of-every-swarm), а контейнер достаётся пилоту, нанёсшему больше всех урона. Их убийства прибавляются к вашим очкам PvE-звания, как убийства кораблей роя, пропорционально награде ([Звания](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points)). Щит каждого поглощает {{guide:vitals.absorbance@Slumbering Void;Inert Mass;The Unwakened}} каждого попадания, пока держится ([Щиты](/wiki/03-Mechanics/Shields.md)).
 
 - **Slumbering Void.** Стремительный охотник, самый быстрый пришелец в игре (быстрее, чем Storm с Afterburner III). Некоторые всегда патрулируют окрестности болота, а другие приходят волнами к экскаваторам. Он агрессивен, охотится на ближайшего пилота, которого видит, и никогда не видит корабль в маскировке.
 - **Inert Mass.** Мёртвая громада с лиловыми трещинами размером с небольшую станцию. Они держатся на определённом расстоянии от середины болота и пока его не покидают. Она стреляет **Dormant Lance**: управляемыми ракетами огромной дальности, которые преследуют корабль, пока он не уйдёт в маскировку, не откроет окно EMP, не войдёт в безопасное кольцо, не прыгнет или не погибнет. Она быстрее любого корабля, поэтому помогают только эти разрывы. Астероид на пути Dormant Lance останавливает её, а Lance повреждает этот астероид своим уроном (за это никому не платят); поэтому скала защищает от Inert Mass лишь на несколько попаданий.
-- **Unwakened.** Монолит, спящий в середине болота, самая большая вещь на любой карте, настолько медленный, что никогда не догонит корабль. Он ничего не стреляет, но каждый корабль в его ауре горит, **в маскировке или нет**. Он **неуязвим**: выстрелы и ракеты попадают и ничего не делают, окно цели показывает полные шкалы и слово «Неуязвим». Позже событие позволит с ним сразиться; его награды ниже записаны и пока недостижимы. **Радиационная техника** пилота снижает этот ожог до 0,40 от него на 100-м уровне.
+- **Unwakened.** Монолит, спящий в середине болота, самая большая вещь на любой карте, настолько медленный, что никогда не догонит корабль. Он ничего не стреляет, но каждый корабль в его ауре горит, **в маскировке или нет**. С открытием [Deep Void](/wiki/03-Mechanics/Deep-Void.md) его можно уничтожить: он платит по нанесённому урону, возвращается через день после гибели, а первое убийство в сезоне открывает Threshold своего мира. **Радиационная техника** пилота снижает этот ожог до 0,40 от него на 100-м уровне.
 
 <!-- swamp-members:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
 
 ### Slumbering Void
 
-Slumbering Void: 2, они патрулируют на расстоянии от 4 600 до 6 500 ед. от середины болота; уничтоженный возвращается через 1 ч. Волны экскаватора приводят ещё таких же пришельцев.
+Slumbering Void: 2, они патрулируют на расстоянии от 4 600 до 6 500 ед. от середины болота; уничтоженный возвращается через {{guide:vitals.respawn@Slumbering Void}}. Волны экскаватора приводят ещё таких же пришельцев.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Корпус | 25 000 | 37 500 | 50 000 |
-| Щит | 150 000 | 225 000 | 300 000 |
-| Поглощение щита | 80% | 80% | 80% |
-| Урон лазеров (залп в секунду) | 3 000 | 4 500 | 6 000 |
-| Скорость | 400 | 400 | 400 |
+| Корпус | {{guide:vitals.hull@Slumbering Void}} | {{guide:vitals.hull*1.5@Slumbering Void}} | {{guide:vitals.hull*2@Slumbering Void}} |
+| Щит | {{guide:vitals.shield@Slumbering Void}} | {{guide:vitals.shield*1.5@Slumbering Void}} | {{guide:vitals.shield*2@Slumbering Void}} |
+| Поглощение щита | {{guide:vitals.absorbance@Slumbering Void}} | {{guide:vitals.absorbance@Slumbering Void}} | {{guide:vitals.absorbance@Slumbering Void}} |
+| Урон лазеров (залп в секунду) | {{guide:vitals.dps@Slumbering Void}} | {{guide:vitals.dps*1.5@Slumbering Void}} | {{guide:vitals.dps*2@Slumbering Void}} |
+| Скорость | {{guide:vitals.speed@Slumbering Void}} | {{guide:vitals.speed@Slumbering Void}} | {{guide:vitals.speed@Slumbering Void}} |
 | Дальность лазеров | 800 | 800 | 800 |
-| Радиус агрессии | 2 500 | 2 500 | 2 500 |
-| Кредиты | 23 000 | 46 000 | 69 000 |
-| Thulium | 60 | 120 | 180 |
-| Опыт (XP) | 3 600 | 7 200 | 10 800 |
-| Честь | 16 | 32 | 48 |
+| Радиус агрессии | {{guide:vitals.aggro@Slumbering Void}} | {{guide:vitals.aggro@Slumbering Void}} | {{guide:vitals.aggro@Slumbering Void}} |
+| Кредиты | {{guide:spoils.pay.credits@Slumbering Void}} | {{guide:spoils.pay.credits*2@Slumbering Void}} | {{guide:spoils.pay.credits*3@Slumbering Void}} |
+| Thulium | {{guide:spoils.pay.thulium@Slumbering Void}} | {{guide:spoils.pay.thulium*2@Slumbering Void}} | {{guide:spoils.pay.thulium*3@Slumbering Void}} |
+| Опыт (XP) | {{guide:spoils.pay.experience@Slumbering Void}} | {{guide:spoils.pay.experience*2@Slumbering Void}} | {{guide:spoils.pay.experience*3@Slumbering Void}} |
+| Честь | {{guide:spoils.pay.honor@Slumbering Void}} | {{guide:spoils.pay.honor*2@Slumbering Void}} | {{guide:spoils.pay.honor*3@Slumbering Void}} |
 | Очки PvE за убийство | 10 | 10 | 10 |
 
 **Добыча**: один контейнер, для пилота, нанёсшего больше всех урона.
 
-| Предмет | Шанс | Количество |
-| :--- | ---: | ---: |
-| Одна из Ultra Core и Experimental Fusion Core, на выбор случая | 60% | 30–60 |
-| Одна из 4 эпических [ракет](/wiki/06-Items/Rockets.md), на выбор случая | 40% | 1–3 |
+| Предмет |
+| :--- |
+| {{guide:spoils.box@Slumbering Void}} |
 
 ### Inert Mass
 
-Inert Mass: 5, они стоят в пределах 2 400 ед. от середины; уничтоженная возвращается через 1 ч. Каждые 6 с выпускает управляемую [Dormant Lance](/wiki/06-Items/Rockets.md#the-craft-only-rockets) по ближайшему видимому кораблю: скорость 750, дальность полёта 5 250 ед., пробивание 40%.
+Inert Mass: 5, они стоят в пределах 2 400 ед. от середины; уничтоженная возвращается через {{guide:vitals.respawn@Inert Mass}}. Каждые 6 с выпускает управляемую [Dormant Lance](/wiki/06-Items/Rockets.md#the-craft-only-rockets) по ближайшему видимому кораблю: скорость 750, дальность полёта 5 250 ед., пробивание 40%.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Корпус | 250 000 | 375 000 | 500 000 |
-| Щит | 100 000 | 150 000 | 200 000 |
-| Поглощение щита | 80% | 80% | 80% |
-| Урон одной Dormant Lance | 5 000–8 000 | 7 500–12 000 | 10 000–16 000 |
-| Скорость | 60 | 60 | 60 |
+| Корпус | {{guide:vitals.hull@Inert Mass}} | {{guide:vitals.hull*1.5@Inert Mass}} | {{guide:vitals.hull*2@Inert Mass}} |
+| Щит | {{guide:vitals.shield@Inert Mass}} | {{guide:vitals.shield*1.5@Inert Mass}} | {{guide:vitals.shield*2@Inert Mass}} |
+| Поглощение щита | {{guide:vitals.absorbance@Inert Mass}} | {{guide:vitals.absorbance@Inert Mass}} | {{guide:vitals.absorbance@Inert Mass}} |
+| Урон одной Dormant Lance | {{guide:behaviour.ability:rocket.damageMin@Inert Mass}}–{{guide:behaviour.ability:rocket.damage@Inert Mass}} | {{guide:behaviour.ability:rocket.damageMin*1.5@Inert Mass}}–{{guide:behaviour.ability:rocket.damage*1.5@Inert Mass}} | {{guide:behaviour.ability:rocket.damageMin*2@Inert Mass}}–{{guide:behaviour.ability:rocket.damage*2@Inert Mass}} |
+| Скорость | {{guide:vitals.speed@Inert Mass}} | {{guide:vitals.speed@Inert Mass}} | {{guide:vitals.speed@Inert Mass}} |
 | Дальность ракет | 5 000 | 5 000 | 5 000 |
-| Радиус агрессии | 5 000 | 5 000 | 5 000 |
-| Кредиты | 125 000 | 250 000 | 375 000 |
-| Thulium | 335 | 670 | 1 005 |
-| Опыт (XP) | 20 200 | 40 400 | 60 600 |
-| Честь | 88 | 176 | 264 |
+| Радиус агрессии | {{guide:vitals.aggro@Inert Mass}} | {{guide:vitals.aggro@Inert Mass}} | {{guide:vitals.aggro@Inert Mass}} |
+| Кредиты | {{guide:spoils.pay.credits@Inert Mass}} | {{guide:spoils.pay.credits*2@Inert Mass}} | {{guide:spoils.pay.credits*3@Inert Mass}} |
+| Thulium | {{guide:spoils.pay.thulium@Inert Mass}} | {{guide:spoils.pay.thulium*2@Inert Mass}} | {{guide:spoils.pay.thulium*3@Inert Mass}} |
+| Опыт (XP) | {{guide:spoils.pay.experience@Inert Mass}} | {{guide:spoils.pay.experience*2@Inert Mass}} | {{guide:spoils.pay.experience*3@Inert Mass}} |
+| Честь | {{guide:spoils.pay.honor@Inert Mass}} | {{guide:spoils.pay.honor*2@Inert Mass}} | {{guide:spoils.pay.honor*3@Inert Mass}} |
 | Очки PvE за убийство | 15 | 15 | 15 |
 
 **Добыча**: один контейнер, для пилота, нанёсшего больше всех урона.
 
-| Предмет | Шанс | Количество |
-| :--- | ---: | ---: |
-| Ultra Core и Experimental Fusion Core, делятся поровну | 100% | 400–800 всего |
-| Одна из 4 эпических [ракет](/wiki/06-Items/Rockets.md), на выбор случая | 100% | 20–40 |
-| N.I.K.E. | 5% | 1–2 |
-| Dark Matter | 5% | 1–3 |
-| Ancient Control Unit | 10% | 1 |
-| Power Core | 25% | 1–2 |
+| Предмет |
+| :--- |
+| {{guide:spoils.box@Inert Mass}} |
 
 ### The Unwakened
 
-Он один, в середине болота и больше нигде; после уничтожения возвращается через 24 ч. Он **неуязвим**, пока одно из будущих заданий не снимет эту отметку: выстрелы и ракеты попадают по нему и ничего не делают. Его награды записаны, но пока недостижимы.
+Он один, в середине болота и больше нигде; после уничтожения возвращается через {{guide:vitals.respawn@The Unwakened}}. С открытием Deep Void его можно уничтожить, и, как и другие пришельцы здесь, он платит по нанесённому урону.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Корпус | 10 000 000 | 15 000 000 | 20 000 000 |
-| Щит | 10 000 000 | 15 000 000 | 20 000 000 |
-| Поглощение щита | 80% | 80% | 80% |
-| Урон ауры в секунду каждому кораблю внутри | 75 000 | 112 500 | 150 000 |
+| Корпус | {{guide:vitals.hull@The Unwakened}} | {{guide:vitals.hull*1.5@The Unwakened}} | {{guide:vitals.hull*2@The Unwakened}} |
+| Щит | {{guide:vitals.shield@The Unwakened}} | {{guide:vitals.shield*1.5@The Unwakened}} | {{guide:vitals.shield*2@The Unwakened}} |
+| Поглощение щита | {{guide:vitals.absorbance@The Unwakened}} | {{guide:vitals.absorbance@The Unwakened}} | {{guide:vitals.absorbance@The Unwakened}} |
+| Урон ауры в секунду каждому кораблю внутри | {{guide:behaviour.ability:aura.damagePerSecond@The Unwakened}} | {{guide:behaviour.ability:aura.damagePerSecond*1.5@The Unwakened}} | {{guide:behaviour.ability:aura.damagePerSecond*2@The Unwakened}} |
 | Радиус ауры | 700 | 700 | 700 |
-| Скорость | 10 | 10 | 10 |
-| Радиус агрессии | 3 000 | 3 000 | 3 000 |
-| Кредиты | 7 500 000 | 15 000 000 | 22 500 000 |
-| Thulium | 20 000 | 40 000 | 60 000 |
-| Опыт (XP) | 1 200 000 | 2 400 000 | 3 600 000 |
-| Честь | 5 200 | 10 400 | 15 600 |
+| Скорость | {{guide:vitals.speed@The Unwakened}} | {{guide:vitals.speed@The Unwakened}} | {{guide:vitals.speed@The Unwakened}} |
+| Радиус агрессии | {{guide:vitals.aggro@The Unwakened}} | {{guide:vitals.aggro@The Unwakened}} | {{guide:vitals.aggro@The Unwakened}} |
+| Кредиты | {{guide:spoils.pay.credits@The Unwakened}} | {{guide:spoils.pay.credits*2@The Unwakened}} | {{guide:spoils.pay.credits*3@The Unwakened}} |
+| Thulium | {{guide:spoils.pay.thulium@The Unwakened}} | {{guide:spoils.pay.thulium*2@The Unwakened}} | {{guide:spoils.pay.thulium*3@The Unwakened}} |
+| Опыт (XP) | {{guide:spoils.pay.experience@The Unwakened}} | {{guide:spoils.pay.experience*2@The Unwakened}} | {{guide:spoils.pay.experience*3@The Unwakened}} |
+| Честь | {{guide:spoils.pay.honor@The Unwakened}} | {{guide:spoils.pay.honor*2@The Unwakened}} | {{guide:spoils.pay.honor*3@The Unwakened}} |
 | Очки PvE за убийство | 112 | 112 | 112 |
 
 **Добыча**: один контейнер, для пилота, нанёсшего больше всех урона.
 
-| Предмет | Шанс | Количество |
-| :--- | ---: | ---: |
-| Ultra Core и Experimental Fusion Core, делятся поровну | 100% | 10 000–15 000 всего |
-| Одна из 4 эпических [ракет](/wiki/06-Items/Rockets.md), на выбор случая | 100% | 500–800 |
-| N.I.K.E. | 100% | 20–30 |
-| N.U.K.E. | 100% | 5–10 |
-| Dark Matter | 100% | 40–60 |
-| Ancient Control Unit | 100% | 10–20 |
-| Power Core | 100% | 100–200 |
+| Предмет |
+| :--- |
+| {{guide:spoils.box@The Unwakened}} |
 
 <!-- swamp-members:end -->
 
+## С открытием Deep Void {#with-the-deep-void}
+
+Что Deep Void изменил здесь, коротко:
+
+- **Unwakened можно уничтожить.** Он больше не неуязвим: как и другие пришельцы здесь, он платит по нанесённому урону и возвращается через день после гибели.
+- **Орудия можно уничтожить.** У каждого из трёх орудий (ракетной турели, которая стреляет и N.I.K.E., и N.U.K.E., и двух лазерных турелей) теперь есть очки прочности, и лазеры и ракеты их повреждают. Уничтоженное орудие не действует, пока Unwakened не вернётся.
+- **Первое убийство открывает Threshold.** В каждом мире первое за сезон убийство Unwakened открывает Threshold этого мира в противоположном углу `DS-4`, где начинается [Deep Void](/wiki/03-Mechanics/Deep-Void.md).
+
 ## Что здесь делать {#what-to-do-here}
 
-- **Смотрите, не трогайте.** Болото — на будущее. Единственное, до чего можно добраться без маскировки, находится вне зоны: патрульные Void в кольце вокруг зоны — первая линия болота и место, где группа может сражаться без орудий.
-- **Против Void используйте пробивание.** Большой щит Void поглощает 80% попадания и почти не важен: корпус за ним мал. Чем больше пробивание щита у ваших лазеров, тем скорее он падёт ([Лазеры и боеприпасы](/wiki/06-Items/Lasers.md)).
+- **Первое убийство открывает путь.** Первое за сезон убийство Unwakened открывает Threshold его мира, а с ним и путь в [Deep Void](/wiki/03-Mechanics/Deep-Void.md); внутри зоны орудия уничтожают корабль за секунды. Вне зоны патрульные Void в кольце вокруг зоны — первая линия болота и место, где группа может сражаться без орудий.
+- **Против Void используйте пробивание.** Большой щит Void поглощает {{guide:vitals.absorbance@Slumbering Void;Inert Mass;The Unwakened}} попадания и почти не важен: корпус за ним мал. Чем больше пробивание щита у ваших лазеров, тем скорее он падёт ([Лазеры и боеприпасы](/wiki/06-Items/Lasers.md)).
 - **Держитесь подальше от Lance.** Inert Mass видит далеко, а от Lance не убежать: разорвите захват маскировкой, EMP, безопасным кольцом или прыжком, либо уйдите из зоны досягаемости. Mass — долгий бой даже для большой группы сильнейших кораблей.
 - **Рой Dormant** теперь появляется сразу за зоной, так что группа может ждать его без орудий. См. [Рой Dormant](/wiki/05-Swarms/Dormant-Swarm.md).
 

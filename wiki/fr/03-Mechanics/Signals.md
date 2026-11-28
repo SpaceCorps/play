@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3ee3985e3f9606e1 -->
+<!-- wiki-i18n source: 8dbe8dc047c34c1c -->
 <!-- wiki-i18n title: Les signaux -->
 # Les signaux {#the-signals}
 
@@ -13,7 +13,7 @@ Mission Control capte un bruit étrange, **le Brouillage**, qui envoie vingt mis
 - **Utilisations infinies.** Rien ne l’use : elle n’est pas dépensée, ne s’abîme pas, et aucune recette ne la demande.
 - **Une seule.** Vous ne pouvez porter qu’une seule Dormant Keycard. Si une réclamation devait vous en donner une deuxième, elle fonctionne quand même et paie tout le reste ; vous ne recevez simplement pas de carte de plus.
 - **À vous pour de bon.** Elle ne se vend pas aux Enchères, ne se jette pas dans le Hangar, et une [réinitialisation](/wiki/03-Mechanics/Wipe-Timeline.md) ne vous la prend pas.
-- **Pas encore utilisée.** Elle n’ouvre rien aujourd’hui. Une mise à jour ultérieure s’en servira pour donner accès à une nouvelle carte, qui n’est pas encore dans le jeu. Gardez votre carte d’ici là.
+- **Elle ouvre le Void Gate.** Un pilote qui la porte peut activer le Void Gate ouvert de son monde dans `DS-4` et emmener tous ceux qui sont près de lui dans le [Deep Void](/wiki/03-Mechanics/Deep-Void.md). L’activation coûte 5 000 Thulium ; la carte elle-même n’est jamais consommée.
 - **Dernier signal déjà réclamé ?** Un pilote qui l’avait réclamé avant que la carte existe (la mise à jour 0.5.10) a reçu la carte une fois, tout seul, à la mise à jour du serveur.
 
 ## Comment fonctionnent les signaux {#how-the-signals-work}

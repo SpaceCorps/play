@@ -26,7 +26,7 @@ La subasta es el mercado de los pilotos y, a la vez, los lotes de cada hora del 
 - Desde el día 28 de la temporada hasta el reinicio no hay depósito ni impuesto.
 - Desde el día 30 de la temporada la subasta está cerrada hasta que empieza la nueva temporada: no se puede publicar, comprar ni pujar nada. Aun así puedes cancelar tus anuncios.
 - Cada moneda tiene su propio límite de lo que puedes vender y de lo que puedes comprar en 24 horas (tabla de niveles más abajo). Lo que ganas en los Lotes no cuenta.
-- Entre dos pilotos, uno que compra al otro, pasan como máximo 16.000.000 créditos o 80.000 Thulium en 24 horas.
+- Entre dos pilotos, uno que compra al otro, pasan como máximo 32.000.000 créditos o 160.000 Thulium en 24 horas.
 
 <!-- market-glance:end -->
 
@@ -100,22 +100,22 @@ Tus **anuncios abiertos** (y un anuncio que un admin haya puesto en espera) ocup
 
 | Nivel | Anuncios abiertos | Duración máxima | Al día, créditos | Al día, Thulium | Depósito por 24 h |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 5 | 20 | 504 h | 9.000.000 | 45.000 | 0,25 % |
-| 6 | 40 | 504 h | 12.000.000 | 60.000 | 0,25 % |
-| 7 | 70 | 504 h | 15.000.000 | 75.000 | 0,25 % |
-| 8 | 100 | 504 h | 17.000.000 | 85.000 | 0,25 % |
-| 9 | 100 | 504 h | 20.000.000 | 100.000 | 0,25 % |
-| 10 | 100 | 504 h | 30.000.000 | 150.000 | 0,4 % |
-| 11 | 100 | 504 h | 30.000.000 | 150.000 | 0,4 % |
-| 12 | 100 | 504 h | 30.000.000 | 150.000 | 0,4 % |
-| 13 | 100 | 504 h | 40.000.000 | 200.000 | 0,4 % |
-| 14 | 100 | 504 h | 40.000.000 | 200.000 | 0,4 % |
-| 15 | 100 | 504 h | 40.000.000 | 200.000 | 0,4 % |
-| 16 | 100 | 504 h | 40.000.000 | 200.000 | 0,4 % |
-| 17 | 100 | 504 h | 40.000.000 | 200.000 | 0,4 % |
-| 18 | 100 | 504 h | 40.000.000 | 200.000 | 0,4 % |
-| 19 | 100 | 504 h | 40.000.000 | 200.000 | 0,4 % |
-| 20 o más | 100 | 504 h | 40.000.000 | 200.000 | 0,4 % |
+| 5 | 20 | 504 h | 18.000.000 | 90.000 | 0,25 % |
+| 6 | 40 | 504 h | 24.000.000 | 120.000 | 0,25 % |
+| 7 | 70 | 504 h | 30.000.000 | 150.000 | 0,25 % |
+| 8 | 100 | 504 h | 34.000.000 | 170.000 | 0,25 % |
+| 9 | 100 | 504 h | 40.000.000 | 200.000 | 0,25 % |
+| 10 | 100 | 504 h | 60.000.000 | 300.000 | 0,4 % |
+| 11 | 100 | 504 h | 60.000.000 | 300.000 | 0,4 % |
+| 12 | 100 | 504 h | 60.000.000 | 300.000 | 0,4 % |
+| 13 | 100 | 504 h | 80.000.000 | 400.000 | 0,4 % |
+| 14 | 100 | 504 h | 80.000.000 | 400.000 | 0,4 % |
+| 15 | 100 | 504 h | 80.000.000 | 400.000 | 0,4 % |
+| 16 | 100 | 504 h | 80.000.000 | 400.000 | 0,4 % |
+| 17 | 100 | 504 h | 80.000.000 | 400.000 | 0,4 % |
+| 18 | 100 | 504 h | 80.000.000 | 400.000 | 0,4 % |
+| 19 | 100 | 504 h | 80.000.000 | 400.000 | 0,4 % |
+| 20 o más | 100 | 504 h | 80.000.000 | 400.000 | 0,4 % |
 
 <!-- market-limits:end -->
 

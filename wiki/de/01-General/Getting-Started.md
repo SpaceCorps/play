@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f34faeb3f3d1ac87 -->
+<!-- wiki-i18n source: 2dc6584f5284ebcf -->
 <!-- wiki-i18n title: Erste Schritte -->
 # Erste Schritte in SpaceCorps {#getting-started-in-spacecorps}
 
@@ -24,12 +24,14 @@ Auf der Station stehen deine Credits, dein Thulium und deine Ehre auf jeder Seit
 
 ## Pilotenprofile {#pilot-profiles}
 
-Klicke auf den Namen eines Piloten in der Ruhmeshalle (**Community › Ranglisten**), auf der Seite **Statistik** oder in der Mitgliederliste eines Clans, und das **Profil** des Piloten öffnet sich: Konzern, Welt und Clan, Level, Erfahrung, Ehre und Rangpunkte, die zerstörten Aliens und Piloten und das Schiff, das er fliegt, samt seinen Werten. Zwei Felder zeigen, wie lange der Pilot schon dabei ist:
+Klicke auf den Namen eines Piloten in der Ruhmeshalle (**Community › Ranglisten**), auf der Seite **Statistik** oder in der Mitgliederliste eines Clans, und das **Profil** des Piloten öffnet sich: Konzern, Welt und Clan, Level, Erfahrung, Ehre und Rangpunkte, die zerstörten Aliens und Piloten und das Schiff, das er fliegt, samt Ausrüstung und Werten (sofern der Pilot sie nicht privat hält). Zwei Felder zeigen, wie lange der Pilot schon dabei ist:
 
 - **Erster Login.** Der Tag, an dem sich der Pilot zum ersten Mal angemeldet hat, als Datum in deiner eigenen Zeitzone. Bei einem Piloten, der vor 0.4.12 gespielt hat, steht der Tag, an dem er sich seit diesem Update zum ersten Mal angemeldet hat; ein Strich steht für einen Piloten, der sich seitdem nicht angemeldet hat.
 - **Spielzeit.** Wie lange das Spiel des Piloten mit dem Server verbunden war, in Stunden und Minuten („128 Std. 15 Min.“, „45 Min.“), im Flug oder auf der Station. Auch Zeit, in der du nur dastehst, zählt mit. Gezählt wird seit 0.4.12; bei einem Piloten, der davor gespielt hat, ist es also die Zeit seit diesem Update.
 
 Beides ist öffentlich, wie Level und Rang: Jeder angemeldete Pilot kann es in einem Profil lesen. Der Wipe der Saison setzt beides nicht zurück.
+
+Ein Pilot kann seine Ausrüstung privat halten. Unter **Einstellungen › Konto › Datenschutz** gibt es dafür den Schalter **Meine Ausrüstung verbergen**. Solange er an ist, sehen andere Piloten weiterhin das sich drehende Schiff und den Rest des Profils, aber nicht die Gegenstände an Schiff und Drohnen und nicht die Kampfwerte, die sie ergeben; das Profil sagt, dass der Pilot die Ausrüstung privat hält. Administratoren sehen sie immer, und dein eigenes Profil zeigt deine immer (mit einem Hinweis, solange der Schalter an ist).
 
 Über dein Profil hinaus hält **Community › Erfolge** deine Karriereziele mit ihren Belohnungen und Titeln fest: siehe [Erfolge](/wiki/03-Mechanics/Achievements.md).
 

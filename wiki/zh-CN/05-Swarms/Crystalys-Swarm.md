@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5f873edc2b653495 -->
+<!-- wiki-i18n source: 2b3edf7bcb1d9673 -->
 <!-- wiki-i18n title: Crystalys 虫群 -->
 # Crystalys 虫群 {#crystalys-swarm}
 
@@ -17,14 +17,14 @@ Crystalys 虫群由一个 **Boss Crystalys** 和它的 **Crystalys Guard** 组�
 - **随从停留范围**：距头领不超过 500 单位
 - **治疗**：距头领 600 单位以内的每个 Crystalys Guard 都会治疗它的船体，在 Alpha 中每秒 250 HP
 - **头领被击毁后**：头领被击毁后 30 秒，随从会离开，除非它们正在攻击
-- **回归**：头领 被击毁 30 分钟 后， 在同一星区
+- **回归**：头领 被击毁 {{guide:vitals.respawn@Boss Crystalys#1;Boss Crystalys#2;Boss Crystalys#3}} 后， 在同一星区
 - **通知**：该星区的飞行员会被告知头领何时出现、何时被击毁。这些是系统行：它们显示在聊天的**系统**标签页中，带有未读计数，不会出现在**全球**或**本地**标签页里。击杀播报会写明获得这次击杀功劳的飞行员。
 
 <!-- crystalys-glance:end -->
 
 ## 成员 {#the-members}
 
-- **Boss Crystalys**: 一只更大的 Crystalys，带有虫群的色调，头顶显示名字，拥有自己的船体、护盾和激光齐射（数值见下）。它是被动的：一直游荡，直到有飞行员击中它，然后追上该飞行员并向其开火，附近的虫群舰船会加入战斗。它的武器射程和速度与 Crystalys 相同，也从不自己修复船体。
+- **Boss Crystalys**: 一只更大的 Crystalys，带有虫群的色调，头顶显示名字，拥有自己的船体、护盾和激光齐射（数值见下）。它是被动的：一直游荡，直到有飞行员击中它，然后追上该飞行员并向其开火，附近的虫群舰船会加入战斗。它的武器射程和速度与 Crystalys 相同，也从不自己修复船体。它的[三个阶段](#the-leaders-three-steps)和[特殊能力](/wiki/03-Mechanics/Special-Abilities.md)可能改变这一点。
 - **Crystalys Guard**: 一只带有虫群色调的较小 Crystalys。Guard 待在 Boss 附近，附近的虫群舰船被击中时就会加入战斗，每只靠近 Boss 的 Guard 都会为它的船体治疗。Guard 休息一段时间后会修复自己的船体，和 Crystalys 一样。
 
 ## 战斗过程 {#how-the-fight-goes}
@@ -34,6 +34,19 @@ Crystalys 虫群由一个 **Boss Crystalys** 和它的 **Crystalys Guard** 组�
 - **Beta 和 Gamma 更难。** 这些世界的虫群更强（[世界](/wiki/05-Swarms/Swarms.md#the-worlds)），所以需要更多飞行员或更好的弹药。
 - **危险星区是 PvP。** 对手可能在战斗中途攻击你们的队伍，并等着拿货箱：货箱在 30 秒内属于造成伤害最多的飞行员（及其战队），之后任何人都可以拾取（[货箱](/wiki/03-Mechanics/Cargo.md)）。别一个人去。
 - **Boss 会回来**，在*一览*列表给出的时间之后，满状态，出现在同一个星区，它的 Guard 会一只接一只地到来。
+
+## 首领的三个阶段 {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+这场战斗有三个阶段（[运作方式](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)）；每个只发生一次。
+
+- **开始时**: 在 8 秒 内每次只承受 50% 的伤害。
+- **低于三分之二时**: 一圈 700 单位的光环打击其中的每艘舰船，威力为它齐射的 4，同时它发射 4 枚火箭。
+- **低于三分之一时**: 恢复船体和护盾的 20%（一次伤害爆发会打断它），再来 3 个Crystalys Guards，同时最多 6 个存活。
+
+<!-- mob-ladder:end -->
 
 ## 奖励与掉落 {#rewards-and-drops}
 
@@ -52,29 +65,23 @@ Boss Crystalys 的奖励与这场战斗的分量相称：与它战斗一分钟�
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 船体 | 896,000 | 1,344,000 | 1,792,000 |
-| 护盾 | 560,000 | 840,000 | 1,120,000 |
-| 激光伤害 （每秒一轮齐射） | 10,000 | 15,000 | 20,000 |
-| 速度 | 230 | 230 | 230 |
+| 船体 | {{guide:vitals.hull@Boss Crystalys#1}} | {{guide:vitals.hull@Boss Crystalys#2}} | {{guide:vitals.hull@Boss Crystalys#3}} |
+| 护盾 | {{guide:vitals.shield@Boss Crystalys#1}} | {{guide:vitals.shield@Boss Crystalys#2}} | {{guide:vitals.shield@Boss Crystalys#3}} |
+| 激光伤害 （每秒一轮齐射） | {{guide:vitals.dps@Boss Crystalys#1}} | {{guide:vitals.dps@Boss Crystalys#2}} | {{guide:vitals.dps@Boss Crystalys#3}} |
+| 速度 | {{guide:vitals.speed@Boss Crystalys#1}} | {{guide:vitals.speed@Boss Crystalys#2}} | {{guide:vitals.speed@Boss Crystalys#3}} |
 | 激光射程 | 900 | 900 | 900 |
 | 仇恨范围 | 被攻击时 | 被攻击时 | 被攻击时 |
-| 信用点 | 393,750 | 787,500 | 1,181,250 |
-| Thulium | 1,050 | 2,100 | 3,150 |
-| 经验值（XP） | 63,000 | 126,000 | 189,000 |
-| 荣誉 | 273 | 546 | 819 |
+| 信用点 | {{guide:spoils.pay.credits@Boss Crystalys#1}} | {{guide:spoils.pay.credits@Boss Crystalys#2}} | {{guide:spoils.pay.credits@Boss Crystalys#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Boss Crystalys#1}} | {{guide:spoils.pay.thulium@Boss Crystalys#2}} | {{guide:spoils.pay.thulium@Boss Crystalys#3}} |
+| 经验值（XP） | {{guide:spoils.pay.experience@Boss Crystalys#1}} | {{guide:spoils.pay.experience@Boss Crystalys#2}} | {{guide:spoils.pay.experience@Boss Crystalys#3}} |
+| 荣誉 | {{guide:spoils.pay.honor@Boss Crystalys#1}} | {{guide:spoils.pay.honor@Boss Crystalys#2}} | {{guide:spoils.pay.honor@Boss Crystalys#3}} |
 | 每次击杀的 PvE 积分 | 30 | 30 | 30 |
 
 **掉落**：一个货箱，归造成伤害最多的飞行员。
 
-| 物品 | 几率 | 数量 |
-| :--- | ---: | ---: |
-| Cataclysite | 2 次判定中每次 100% | 8 |
-| Quorvium | 2 次判定中每次 100% | 6–10 |
-| Power Core | 30% | 1 |
-| Ancient Control Unit | 15% | 1 |
-| Dark Matter | 4% | 1 |
-| Ultra Core 和 Experimental Fusion Core， 平均分配 | 100% | 共 600–1,000 |
-| 4 种史诗级 [火箭](/wiki/06-Items/Rockets.md) 中随机一种 | 100% | 8–15 |
+| 物品 |
+| :--- |
+| {{guide:spoils.box@Boss Crystalys#1;Boss Crystalys#2;Boss Crystalys#3}} |
 
 ### Crystalys Guard
 
@@ -82,17 +89,17 @@ Boss Crystalys 的奖励与这场战斗的分量相称：与它战斗一分钟�
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 船体 | 38,400 | 57,600 | 76,800 |
-| 护盾 | 24,000 | 36,000 | 48,000 |
-| 激光伤害 （每秒一轮齐射） | 1,500 | 2,250 | 3,000 |
-| 速度 | 230 | 230 | 230 |
+| 船体 | {{guide:vitals.hull@Crystalys Guard#1}} | {{guide:vitals.hull@Crystalys Guard#2}} | {{guide:vitals.hull@Crystalys Guard#3}} |
+| 护盾 | {{guide:vitals.shield@Crystalys Guard#1}} | {{guide:vitals.shield@Crystalys Guard#2}} | {{guide:vitals.shield@Crystalys Guard#3}} |
+| 激光伤害 （每秒一轮齐射） | {{guide:vitals.dps@Crystalys Guard#1}} | {{guide:vitals.dps@Crystalys Guard#2}} | {{guide:vitals.dps@Crystalys Guard#3}} |
+| 速度 | {{guide:vitals.speed@Crystalys Guard#1}} | {{guide:vitals.speed@Crystalys Guard#2}} | {{guide:vitals.speed@Crystalys Guard#3}} |
 | 激光射程 | 900 | 900 | 900 |
 | 仇恨范围 | 被攻击时 | 被攻击时 | 被攻击时 |
 | 治疗头领 （每个，每秒，仅船体） | 250 | 375 | 500 |
-| 信用点 | 125 | 250 | 375 |
-| Thulium | 1 | 2 | 3 |
-| 经验值（XP） | 12 | 24 | 36 |
-| 荣誉 | 1 | 2 | 3 |
+| 信用点 | {{guide:spoils.pay.credits@Crystalys Guard#1}} | {{guide:spoils.pay.credits@Crystalys Guard#2}} | {{guide:spoils.pay.credits@Crystalys Guard#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Crystalys Guard#1}} | {{guide:spoils.pay.thulium@Crystalys Guard#2}} | {{guide:spoils.pay.thulium@Crystalys Guard#3}} |
+| 经验值（XP） | {{guide:spoils.pay.experience@Crystalys Guard#1}} | {{guide:spoils.pay.experience@Crystalys Guard#2}} | {{guide:spoils.pay.experience@Crystalys Guard#3}} |
+| 荣誉 | {{guide:spoils.pay.honor@Crystalys Guard#1}} | {{guide:spoils.pay.honor@Crystalys Guard#2}} | {{guide:spoils.pay.honor@Crystalys Guard#3}} |
 | 每次击杀的 PvE 积分 | 6 | 6 | 6 |
 
 **掉落**：无。击杀只支付信用点、Thulium、经验值和荣誉。

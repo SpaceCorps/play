@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5f873edc2b653495 -->
+<!-- wiki-i18n source: 2b3edf7bcb1d9673 -->
 <!-- wiki-i18n title: Рой Crystalys -->
 # Рой Crystalys {#crystalys-swarm}
 
@@ -17,14 +17,14 @@
 - **Свита держится**: не дальше 500 единиц от лидера
 - **Лечение**: Каждый Crystalys Guard в пределах 600 единиц от лидера лечит его корпус, в Alpha 250 HP в секунду
 - **Лидер уничтожен**: Свита исчезает через 30 с после уничтожения лидера, если только не атакует
-- **Возвращается**: Через 30 мин после уничтожения лидера, в том же секторе
+- **Возвращается**: Через {{guide:vitals.respawn@Boss Crystalys#1;Boss Crystalys#2;Boss Crystalys#3}} после уничтожения лидера, в том же секторе
 - **Оповещения**: Пилоты сектора узнают, когда лидер появляется и когда он уничтожен. Это системные строки: они видны на вкладке **Система** чата, со счётчиком непрочитанных, а не на вкладках **Общий** и **Локальный**. Лента убийств называет пилота, которому засчитано убийство.
 
 <!-- crystalys-glance:end -->
 
 ## Участники {#the-members}
 
-- **Boss Crystalys**: более крупный Crystalys в оттенке роя и с именем над ним, со своим корпусом, щитом и залпом лазеров (значения ниже). Он пассивен: бродит, пока пилот не попадёт по нему, затем преследует этого пилота и стреляет в него, а находящиеся рядом корабли его роя вступают в бой. Дальность оружия и скорость у него как у Crystalys, а корпус он никогда не восстанавливает сам.
+- **Boss Crystalys**: более крупный Crystalys в оттенке роя и с именем над ним, со своим корпусом, щитом и залпом лазеров (значения ниже). Он пассивен: бродит, пока пилот не попадёт по нему, затем преследует этого пилота и стреляет в него, а находящиеся рядом корабли его роя вступают в бой. Дальность оружия и скорость у него как у Crystalys, а корпус он никогда не восстанавливает сам. Его [три этапа](#the-leaders-three-steps) и [особая способность](/wiki/03-Mechanics/Special-Abilities.md) могут это изменить.
 - **Crystalys Guard**: более мелкий Crystalys в оттенке роя. Guard держатся рядом с боссом, вступают в бой, когда попадают по ближнему кораблю роя, и каждый, кто находится рядом с боссом, лечит его корпус. Guard восстанавливает собственный корпус после передышки, как и Crystalys.
 
 ## Ход боя {#how-the-fight-goes}
@@ -34,6 +34,19 @@
 - **Beta и Gamma тяжелее.** Рои этих миров сильнее ([Миры](/wiki/05-Swarms/Swarms.md#the-worlds)), поэтому нужно больше пилотов или лучшие боеприпасы.
 - **Опасные секторы — это PvP.** Соперник может напасть на группу посреди боя и дождаться контейнера: он принадлежит пилоту, нанёсшему больше всех урона (и его клану), 30 секунд, а потом любому ([Груз](/wiki/03-Mechanics/Cargo.md)). Не идите в одиночку.
 - **Босс возвращается** через время, указанное в списке *Коротко*, в полной силе, в том же секторе, а его Guard приходят один за другим.
+
+## Три этапа лидера {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+У этого боя три этапа ([как они работают](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); каждый происходит один раз.
+
+- **В начале**: Принимает 50% от каждого удара в течение 8 с.
+- **Ниже двух третей**: Кольцо в 700 единиц бьёт каждый корабль внутри на 4 его залпов, и он выпускает 4 ракет.
+- **Ниже трети**: Восстанавливает 20% корпуса и щита (серия урона это прерывает), и приходят ещё 3 Crystalys Guards, живых не больше 6.
+
+<!-- mob-ladder:end -->
 
 ## Награды и добыча {#rewards-and-drops}
 
@@ -52,29 +65,23 @@ Boss Crystalys платит соразмерно бою, которым он я�
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Корпус | 896 000 | 1 344 000 | 1 792 000 |
-| Щит | 560 000 | 840 000 | 1 120 000 |
-| Урон лазеров (залп в секунду) | 10 000 | 15 000 | 20 000 |
-| Скорость | 230 | 230 | 230 |
+| Корпус | {{guide:vitals.hull@Boss Crystalys#1}} | {{guide:vitals.hull@Boss Crystalys#2}} | {{guide:vitals.hull@Boss Crystalys#3}} |
+| Щит | {{guide:vitals.shield@Boss Crystalys#1}} | {{guide:vitals.shield@Boss Crystalys#2}} | {{guide:vitals.shield@Boss Crystalys#3}} |
+| Урон лазеров (залп в секунду) | {{guide:vitals.dps@Boss Crystalys#1}} | {{guide:vitals.dps@Boss Crystalys#2}} | {{guide:vitals.dps@Boss Crystalys#3}} |
+| Скорость | {{guide:vitals.speed@Boss Crystalys#1}} | {{guide:vitals.speed@Boss Crystalys#2}} | {{guide:vitals.speed@Boss Crystalys#3}} |
 | Дальность лазеров | 900 | 900 | 900 |
 | Радиус агрессии | только если напали | только если напали | только если напали |
-| Кредиты | 393 750 | 787 500 | 1 181 250 |
-| Thulium | 1 050 | 2 100 | 3 150 |
-| Опыт (XP) | 63 000 | 126 000 | 189 000 |
-| Честь | 273 | 546 | 819 |
+| Кредиты | {{guide:spoils.pay.credits@Boss Crystalys#1}} | {{guide:spoils.pay.credits@Boss Crystalys#2}} | {{guide:spoils.pay.credits@Boss Crystalys#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Boss Crystalys#1}} | {{guide:spoils.pay.thulium@Boss Crystalys#2}} | {{guide:spoils.pay.thulium@Boss Crystalys#3}} |
+| Опыт (XP) | {{guide:spoils.pay.experience@Boss Crystalys#1}} | {{guide:spoils.pay.experience@Boss Crystalys#2}} | {{guide:spoils.pay.experience@Boss Crystalys#3}} |
+| Честь | {{guide:spoils.pay.honor@Boss Crystalys#1}} | {{guide:spoils.pay.honor@Boss Crystalys#2}} | {{guide:spoils.pay.honor@Boss Crystalys#3}} |
 | Очки PvE за убийство | 30 | 30 | 30 |
 
 **Добыча**: один контейнер, для пилота, нанёсшего больше всех урона.
 
-| Предмет | Шанс | Количество |
-| :--- | ---: | ---: |
-| Cataclysite | 100% в каждом из 2 бросков | 8 |
-| Quorvium | 100% в каждом из 2 бросков | 6–10 |
-| Power Core | 30% | 1 |
-| Ancient Control Unit | 15% | 1 |
-| Dark Matter | 4% | 1 |
-| Ultra Core и Experimental Fusion Core, делятся поровну | 100% | 600–1 000 всего |
-| Одна из 4 эпических [ракет](/wiki/06-Items/Rockets.md), на выбор случая | 100% | 8–15 |
+| Предмет |
+| :--- |
+| {{guide:spoils.box@Boss Crystalys#1;Boss Crystalys#2;Boss Crystalys#3}} |
 
 ### Crystalys Guard
 
@@ -82,17 +89,17 @@ Boss Crystalys платит соразмерно бою, которым он я�
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Корпус | 38 400 | 57 600 | 76 800 |
-| Щит | 24 000 | 36 000 | 48 000 |
-| Урон лазеров (залп в секунду) | 1 500 | 2 250 | 3 000 |
-| Скорость | 230 | 230 | 230 |
+| Корпус | {{guide:vitals.hull@Crystalys Guard#1}} | {{guide:vitals.hull@Crystalys Guard#2}} | {{guide:vitals.hull@Crystalys Guard#3}} |
+| Щит | {{guide:vitals.shield@Crystalys Guard#1}} | {{guide:vitals.shield@Crystalys Guard#2}} | {{guide:vitals.shield@Crystalys Guard#3}} |
+| Урон лазеров (залп в секунду) | {{guide:vitals.dps@Crystalys Guard#1}} | {{guide:vitals.dps@Crystalys Guard#2}} | {{guide:vitals.dps@Crystalys Guard#3}} |
+| Скорость | {{guide:vitals.speed@Crystalys Guard#1}} | {{guide:vitals.speed@Crystalys Guard#2}} | {{guide:vitals.speed@Crystalys Guard#3}} |
 | Дальность лазеров | 900 | 900 | 900 |
 | Радиус агрессии | только если напали | только если напали | только если напали |
 | Лечит лидера, каждый, в секунду (только корпус) | 250 | 375 | 500 |
-| Кредиты | 125 | 250 | 375 |
-| Thulium | 1 | 2 | 3 |
-| Опыт (XP) | 12 | 24 | 36 |
-| Честь | 1 | 2 | 3 |
+| Кредиты | {{guide:spoils.pay.credits@Crystalys Guard#1}} | {{guide:spoils.pay.credits@Crystalys Guard#2}} | {{guide:spoils.pay.credits@Crystalys Guard#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Crystalys Guard#1}} | {{guide:spoils.pay.thulium@Crystalys Guard#2}} | {{guide:spoils.pay.thulium@Crystalys Guard#3}} |
+| Опыт (XP) | {{guide:spoils.pay.experience@Crystalys Guard#1}} | {{guide:spoils.pay.experience@Crystalys Guard#2}} | {{guide:spoils.pay.experience@Crystalys Guard#3}} |
+| Честь | {{guide:spoils.pay.honor@Crystalys Guard#1}} | {{guide:spoils.pay.honor@Crystalys Guard#2}} | {{guide:spoils.pay.honor@Crystalys Guard#3}} |
 | Очки PvE за убийство | 6 | 6 | 6 |
 
 **Добыча**: нет. За убийство выплачиваются только кредиты, Thulium, опыт и честь.

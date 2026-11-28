@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 397d7b3564593bb7 -->
+<!-- wiki-i18n source: f77c8c8ae352b4a0 -->
 <!-- wiki-i18n title: Servidores -->
 # Servidores {#servers}
 
@@ -37,7 +37,7 @@ Se o jogo fechar ou a conexão cair, o servidor regional espera por você um cur
 | [Portões solo](/wiki/03-Mechanics/Solo-Gates.md#going-in) | o portão em si é descrito lá |
 | [Conquistas](/wiki/03-Mechanics/Achievements.md) | descritas lá |
 | [Masmorras de clã](/wiki/03-Mechanics/Dungeons.md) e os Warden | só em Helsinki |
-| [Davidski](/wiki/03-Mechanics/Davidski.md) | ele aparece, mas em um servidor regional não paga nada: as baixas dele são pagas em Helsinki |
+| [Davidski](/wiki/03-Mechanics/Davidski.md) | ele aparece, mas em um servidor regional não paga nada; as recompensas dele só são pagas por uma baixa no servidor principal (EU), e uma baixa em qualquer servidor conta para as missões que o citam |
 | O Hangar, o [Skylab](/wiki/03-Mechanics/Skylab.md), a Montagem, o Leilão, a loja, a pesquisa, a página do clã e os Portões Galácticos | na estação: em voo a janela avisa, e **Voltar à base** leva você até lá |
 
 ## Escolher um servidor {#choosing-a-server}

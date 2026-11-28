@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 74bb4919fe97756e -->
+<!-- wiki-i18n source: 634c9ffbf340dec7 -->
 <!-- wiki-i18n title: 研究 -->
 # 研究 {#research}
 
@@ -30,7 +30,7 @@
 
 <!-- research-centre:end -->
 
-**Schematics。** [Schematics](/wiki/06-Items/Special-Items.md#schematics) は、進行中の研究から24時間を引きます。残りが24時間以内なら研究はすぐに完了し、それより長ければ24時間が減って続きます（210の技術のうち188は24時間以内なので、1つで最初から完了させられます。残りの22は2〜10個必要です）。研究にかかった費用は開始時に支払い済みで返ってきません。飛ばした時間が燃やすはずだった科学ポイントはタンクに残り、研究が完了するとキューの次の技術はすぐに始まります。
+**Schematics。** [Schematics](/wiki/06-Items/Special-Items.md#schematics) は、進行中の研究から24時間を引きます。残りが24時間以内なら研究はすぐに完了し、それより長ければ24時間が減って続きます（212の技術のうち190は24時間以内なので、1つで最初から完了させられます。残りの22は2〜10個必要です）。研究にかかった費用は開始時に支払い済みで返ってきません。飛ばした時間が燃やすはずだった科学ポイントはタンクに残り、研究が完了するとキューの次の技術はすぐに始まります。
 
 **レーザーアンプと最終ティア。** ティアII～IVの Damage Amp、Crit Amp、Penetration Amp は、ほかの製作物と同じく研究します。アンプの系統が登場した時点でアンプを所持していた、または製作待ちにしていたパイロットは、そのアンプそれぞれの技術と、その下のティアの技術を受け取りました。別のツリーの技術を必要とする技術は13あります。リソースのツリーにある Dark Matter Plate の技術です。各強化系統の最終ティアがプレートを4枚と Ancient Control Unit を1個要求するためで、ティアIVの Damage Amp・Crit Amp・Penetration Amp、ティアIVの Absorption Shield Cell・Capacity Shield Cell、ティアIVの Impulse Thruster・Momentum Thruster、Heavy Shield Core、Engine III、Adaptive Core III、Helios Beam、Extra Slots CPU III、Base CPU II が該当します。以前にそのどれかを研究済みなら、その技術はそのまま残りますが、必要なプレートを作るには Dark Matter Plate の技術が要ります。下のツリーにはそのための矢印は描かれませんが、表には載っており、ゲーム内のカードにも名前が出ます（[Dark Matter と Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）。
 
@@ -98,6 +98,7 @@ Skylab の**研究**表示では、技術が下のツリーのボックスより
 | :--- | :--- | ---: | ---: |
 | 30分 | 15分 | 1 | 5,000 |
 | 1時間 | 30分 | 1 | 5,000 |
+| 2時間 | 1時間 | 1 | 5,000 |
 | 3時間 | 1時間30分 | 1 | 5,000 |
 | 4時間 | 2時間 | 1 | 5,000 |
 | 6時間 | 3時間 | 1 | 5,000 |
@@ -335,10 +336,13 @@ Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600
 Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 Mine II | consumable, rare | craft 200 Thulium, 120 s | research 10800 s, 10800 science | 2 Mine I, 3 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#mine
 Mine III | consumable, epic | craft 400 Thulium, 300 s | research 21600 s, 21600 science | 2 Mine II, 8 Ship Fragment, 1 Reinforced Hull Plate, 2 Power Core | /wiki/06-Items/Extras.md#mine
+Organic Scanner I | extra, rare | craft 20000 Credits, 10000 Thulium, 600 s | research 1800 s, 1800 science | 60 Ship Fragment, 2 Power Core, 1 Ancient Control Unit, 5 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+Organic Scanner II | extra, epic | craft 50000 Credits, 20000 Thulium, 900 s | research 7200 s, 7200 science | 1 Organic Scanner I, 2 Lurker Fang, 2 Angler Lure, 1 Leviathan Scale | /wiki/06-Items/Extras.md
 
 Extra Slots CPU I => Extra Slots CPU II => Extra Slots CPU III
 Base CPU I => Base CPU II => Jump CPU
 Mine II => Mine III
+Organic Scanner I => Organic Scanner II
 ```
 
 ### 防衛 {#tree-defence}
@@ -582,18 +586,20 @@ Skylab の研究画面の「艦」ファミリーには、製作ではない技�
 | [Miyuki III](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki II](/wiki/02-Ships/Miyuki.md) | D | 1日 | 86,400 | 10 |
 | [Miyuki IV](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki III](/wiki/02-Ships/Miyuki.md) | D | 2日 | 172,800 | 10 |
 | [Miyuki V](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki IV](/wiki/02-Ships/Miyuki.md) | D | 2日 | 172,800 | 10 |
+| [Organic Scanner I](/wiki/06-Items/Extras.md) | – | A | 30分 | 1,800 | – |
+| [Organic Scanner II](/wiki/06-Items/Extras.md) | [Organic Scanner I](/wiki/06-Items/Extras.md) | B | 2時間 | 7,200 | – |
 
 研究時間によるクラス：
 
 | クラス | 研究時間 | 技術数 | 順に研究した合計 | 科学 | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| A | 30分～1時間 | 17 | 9時間30分 | 34,200 | 0 |
-| B | 3時間～6時間 | 37 | 5日20時間 | 504,000 | 0 |
+| A | 30分～1時間 | 18 | 10時間 | 36,000 | 0 |
+| B | 2時間～6時間 | 38 | 5日22時間 | 511,200 | 0 |
 | C | 8時間～10時間 | 20 | 8日4時間 | 705,600 | 95 |
 | D | 16時間～10日 | 35 | 60日16時間 | 5,241,600 | 379 |
-| 合計 |  | 109 | 75日1時間30分 | 6,485,400 | 474 |
+| 合計 |  | 111 | 75日4時間 | 6,494,400 | 474 |
 
-1つずつ順に研究すると、ツリー全体で 75日1時間30分 かかります。ブーストを常にかけると 37日12時間45分 で、ブースト 38 個と 190,000 Thulium になります。科学は同じです。
+1つずつ順に研究すると、ツリー全体で 75日4時間 かかります。ブーストを常にかけると 37日14時間 で、ブースト 38 個と 190,000 Thulium になります。科学は同じです。
 
 <!-- research-technologies:end -->
 
@@ -617,6 +623,8 @@ Skylab の研究画面の「艦」ファミリーには、製作ではない技�
 | [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10時間 | – | 20,000 | 15分 |
 | [Mine II](/wiki/06-Items/Extras.md#mine) | 3時間 | – | 200 | 2分 |
 | [Mine III](/wiki/06-Items/Extras.md#mine) | 6時間 | [Mine II](/wiki/06-Items/Extras.md#mine) | 400 | 5分 |
+| [Organic Scanner I](/wiki/06-Items/Extras.md) | 30分 | – | 10,000 | 10分 |
+| [Organic Scanner II](/wiki/06-Items/Extras.md) | 2時間 | [Organic Scanner I](/wiki/06-Items/Extras.md) | 20,000 | 15分 |
 
 どれもショップでは売っていません。技術を研究し、アセンブリで CPU を製作します。ツリーの CPU にカーソルを合わせると、アセンブリが何を必要とするか分かります。
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b9bfffab24f7eda8 -->
+<!-- wiki-i18n source: 6acaa0292fff4664 -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker
 
@@ -6,10 +6,10 @@ Seeker는 기본적인 정찰·수색 기체입니다. 비공격적이어서 먼
 
 ## 능력치 {#stats}
 
-- **내구도(HP)**: 800
-- **실드**: 800
-- **피해량**: 180
-- **속도**: 120
+- **내구도(HP)**: {{guide:vitals.hull@Seeker#1}}
+- **실드**: {{guide:vitals.shield@Seeker#1}}
+- **피해량**: {{guide:vitals.dps@Seeker#1}}
+- **속도**: {{guide:vitals.speed@Seeker#1;Seeker#2;Seeker#3;Seeker#4}}
 - **공격 사거리**: 600
 - **행동 성향**: 비공격적
 
@@ -24,10 +24,10 @@ Seeker는 기본적인 정찰·수색 기체입니다. 비공격적이어서 먼
 
 ## 보상 {#rewards}
 
-- **크레딧**: 1,000
-- **Thulium**: 4
-- **경험치(XP)**: 100
-- **명예**: 2
+- **크레딧**: {{guide:spoils.pay.credits@Seeker#1}}
+- **Thulium**: {{guide:spoils.pay.thulium@Seeker#1}}
+- **경험치(XP)**: {{guide:spoils.pay.experience@Seeker#1}}
+- **명예**: {{guide:spoils.pay.honor@Seeker#1}}
 - **처치당 PvE 포인트**: 1
 - **실드 재충전**: 초당 10 (15초 후부터)
 
@@ -37,9 +37,11 @@ Seeker는 기본적인 정찰·수색 기체입니다. 비공격적이어서 먼
 
 각 전리품의 용도와 다른 획득처: [자원](/wiki/06-Items/Resources.md).
 
-- **Ship Fragment**: 확률 20% (최소 1, 최대 1)
-- **Daraxium**: 확률 50% (최소 1, 최대 2)
-- **Echo Shard**: 확률 0.8% (최소 1, 최대 1)
+- {{guide:spoils.box@Seeker#1;Seeker#2;Seeker#3;Seeker#4}}
+
+## 특수 능력 {#special-abilities}
+
+이 종류의 외계인 중 일부는 **특수 능력**을 지닙니다. 선체가 절반쯤 사라졌을 때 한 번만 쓰는 기술입니다. 시작되기 전에는 아무것도 보이지 않습니다. [특수 능력](/wiki/03-Mechanics/Special-Abilities.md) 문서에서 각 능력이 무엇을 하는지, 어떻게 대응하는지 알 수 있습니다.
 
 ## 배경 설정 {#lore}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e3fa08f52459090c -->
+<!-- wiki-i18n source: d7154b35dd9c47fc -->
 <!-- wiki-i18n title: Riesenbagger -->
 # Riesenbagger {#giant-excavator}
 
@@ -91,13 +91,13 @@ Ein Durchlauf zieht **Slumbering Voids** an, Jäger der verlorenen Zivilisation,
 
 - **Wellen.** 3 Slumbering Voids alle 2 min; die ersten 1 min nach dem Start, und keine in den letzten 1 min eines Durchlaufs. Höchstens 12 leben gleichzeitig auf einer Karte: Eine Welle, die die Karte voll vorfindet, fällt aus.
 - **Anflug.** Eine Welle erscheint am Kartenrand, 900 Einheiten innerhalb und mindestens 2.500 Einheiten von jedem Torring entfernt, und fliegt in etwa 20 s zum Bagger. Die Meldung nennt die Seite der Karte, von der sie kommt.
-- **Jagd.** Ein Void jagt den nächsten Piloten, den er im Umkreis von 2.500 Einheiten sehen kann, und bleibt im Umkreis von 7.000 Einheiten um den Bagger.
+- **Jagd.** Ein Void jagt den nächsten Piloten, den er im Umkreis von {{guide:vitals.aggro@Slumbering Void}} Einheiten sehen kann, und bleibt im Umkreis von 7.000 Einheiten um den Bagger.
 - **Belagerung.** Ist 15 s lang kein Pilot, den sie sehen können, im Umkreis von 7.000 Einheiten um den Bagger, greifen die Voids den Bagger an, und jeder Laser richtet 25 % seines üblichen Schadens an. Bei null ist der Bagger zerstört: Sein Treibstoff ist verloren, seine Hülle sofort wieder voll, und er ruht 1 h.
 - **Abzug.** Endet ein Durchlauf, bleiben die übrigen Voids noch 90 s und kämpfen weiter, wenn man gegen sie kämpft; dann ziehen sie ab.
 
 <!-- excavator-voids:end -->
 
-- **Ein Void ist eine Glaskanone.** Sein Schild ist groß, nimmt aber 80 % eines Treffers auf, sodass die Hülle dahinter nach wenigen Malen ihrer Größe an Schaden weg ist, und mit Schildpenetration viel früher. Vier Piloten ohne Schildpenetration oder zwei mit einem guten Aufbau halten einen Durchlauf in Alpha; Beta und Gamma brauchen größere Gruppen, wie bei jedem Alien.
+- **Ein Void ist eine Glaskanone.** Sein Schild ist groß, nimmt aber {{guide:vitals.absorbance@Slumbering Void}} eines Treffers auf, sodass die Hülle dahinter nach wenigen Malen ihrer Größe an Schaden weg ist, und mit Schildpenetration viel früher. Vier Piloten ohne Schildpenetration oder zwei mit einem guten Aufbau halten einen Durchlauf in Alpha; Beta und Gamma brauchen größere Gruppen, wie bei jedem Alien.
 - **Eine Tarnung schützt den Ort nicht.** Die Voids sehen getarnte Schiffe nicht, ein Pilot, der sich versteckt, hält sie also nicht vom Bagger fern; und ein Pilot, der sich in einem Torring versteckt, ist nicht erreichbar und zählt ebenfalls nicht.
 - **Jeder Void zahlt** nach dem Schaden, den du ihm zugefügt hast, und lässt eine Kiste fallen ([so zahlt ein Boss-Abschuss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Ihre Abschüsse zählen für deine PvE-Rangpunkte wie die eines Schwarmschiffs.
 

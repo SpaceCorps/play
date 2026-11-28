@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ab422d8b5066fe56 -->
+<!-- wiki-i18n source: 61fa5f21bae46a15 -->
 <!-- wiki-i18n title: Csoportok -->
 # Csoportok {#groups}
 
@@ -119,7 +119,7 @@ A mellőzési listád és a Globális elrejtése kapcsoló a fiókoddal együtt 
 
 ## Harci szabályok {#rules-of-engagement}
 
-**Egy csoport tagjai nem sebezhetik egymást**, bármelyik vállalatból valók is: nem vehetsz célba csoporttársat (lézerrel vagy rakétával), a lövéseid és a robbanásaid átmennek rajtuk, és semmi, amit egyikükkel teszel, nem számít kilövésnek, PvP-kilövésnek vagy feketelyuk-kilövésnek senki számára. Azok a vállalattársak, akik **nincsenek** ugyanabban a csoportban, a régi szabály szerint vannak: egyikük eltalálása lézerrel vagy rakétával **100 becsületbe** kerül, amikor megsemmisül. Lépj ki a csoportból, és egy volt társ, ellenség vagy sem, azonnal újra támadható (ahol a szektor és a szezon egyáltalán engedi a harcot). Mindenki, aki kívül van a csoportodon, a megszokott módon kezelendő, és a biztonságos zónák, a Békeprotokoll és a szektorok PvP-szabályai senkinek sem változnak.
+**Egy csoport tagjai nem támadhatják egymást**, bármelyik vállalatból valók is: nem vehetsz célba csoporttársat (lézerrel vagy rakétával), a lövéseid és a közvetlen rakétáid átmennek rajtuk, és semmi, amit egyikükkel teszel, nem számít kilövésnek, PvP-kilövésnek vagy feketelyuk-kilövésnek senki számára. A rakéták sebzése közül egyedül a területi éri el mégis a csoportodat: egy Ember, egy Scatter vagy egy N.U.K.E. robbanása, valamint a sugárzási zóna, amelyet egy N.U.K.E. vagy egy Gravitational N.U.K.E. hagy maga után, téged és a csoportod tagjait annak felével sebzi, amit egy másik hajónak okoz (a biztonságos zóna és az újraéledési védelem megóv tőlük, a Békeprotokoll és a PvP nélküli szektorok nem), és ha egyikük megsemmisít egy tagot, senki sem kapja meg a kilövést. Azok a vállalattársak, akik **nincsenek** ugyanabban a csoportban, a régi szabály szerint vannak: egyikük eltalálása lézerrel vagy rakétával **100 becsületbe** kerül, amikor megsemmisül. Lépj ki a csoportból, és egy volt társ, ellenség vagy sem, azonnal újra támadható (ahol a szektor és a szezon egyáltalán engedi a harcot). Mindenki, aki kívül van a csoportodon, a megszokott módon kezelendő, és a biztonságos zónák, a Békeprotokoll és a szektorok PvP-szabályai senkinek sem változnak.
 
 ## Barát hozása {#bringing-a-friend}
 

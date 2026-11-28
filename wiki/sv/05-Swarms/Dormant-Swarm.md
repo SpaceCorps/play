@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: bb8bc80ba6889fba -->
+<!-- wiki-i18n source: fcba1b51b68a9123 -->
 <!-- wiki-i18n title: Dormant-svärm -->
 # Dormant-svärm {#dormant-swarm}
 
-Dormant-svärmen är en **Dormant Force** med sina **Dormant Pulses**: en grupp skepp som aldrig börjar en strid och slår mycket hårt när de väl väckts. Det finns bara en i varje värld. Den drar från en farosektor till nästa, och den är den hårdaste striden och det rikaste bytet bland svärmarna: en strid för en stor grupp av de starkaste skeppen. Från säsongsdag 11 börjar den vid [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) på `DS-4`, kommer tillbaka tidigare och betalar dubbelt (se listan *I korthet*).
+Dormant-svärmen är en **Dormant Force** med sina **Dormant Pulses**: en grupp skepp som aldrig börjar en strid och slår mycket hårt när de väl väckts. Det finns bara en i varje världs farosektorer ([Deep Void](/wiki/03-Mechanics/Deep-Void.md#the-dormant-swarms-visit) har ett eget besök, en gång om dagen). Den drar från en farosektor till nästa, och den är den hårdaste striden och det rikaste bytet bland svärmarna: en strid för en stor grupp av de starkaste skeppen. Från säsongsdag 11 börjar den vid [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) på `DS-4`, kommer tillbaka tidigare och betalar dubbelt (se listan *I korthet*).
 
 ## I korthet {#at-a-glance}
 
@@ -18,7 +18,7 @@ Dormant-svärmen är en **Dormant Force** med sina **Dormant Pulses**: en grupp 
 - **När ledaren förstörs**: Dormant Pulse tar över som ledare
 - **När ledaren förstörs**: Följeslagarna försvinner 30 s efter att ledaren förstörts, även om de just attackerar
 - **Förflyttning**: Stannar 8 till 15 min på en karta och flyger sedan till porten till en annan farosektor. Den tar aldrig portarna ut ur farosektorerna och flyger aldrig in i det svarta hålets ring
-- **Kommer tillbaka**: 1 h efter att hela svärmen förstörts, i en slumpmässig farosektor
+- **Kommer tillbaka**: {{guide:vitals.respawn@Dormant Force#1;Dormant Force#2;Dormant Force#3}} efter att hela svärmen förstörts, i en slumpmässig farosektor
 - **Från säsongsdag 11**: Den dyker upp vid [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) på `DS-4` i stället för i en slumpmässig farosektor, kommer tillbaka 30 min efter att hela svärmen förstörts, och varje skepp betalar ×2 (krediter, Thulium, XP och heder; bytet förblir detsamma)
 - **Meddelanden**: Piloterna i hela världen får veta när svärmen dyker upp och när den förstörs. Det är systemrader: de syns på chattens flik **System**, med en räknare för olästa rader, och inte i **Global** eller **Lokal**. En markering visar den på kartorna över farosektorerna och på galaxkartan. Dödsloggen nämner piloten som nedskjutningen tillskrivs.
 
@@ -38,6 +38,19 @@ De är passiva: de går aldrig på en pilot. Träffas en av dem ansluter sig de 
 - **Dess lasrar avgör striden.** Tillsammans kan de förstöra en Paragon på under en minut, och till och med en med de bästa sköldarna på under två, med eller utan raketer: få in din skada snabbt, med de bästa sköldarna du har.
 - **Skepp för skepp.** Varje skepp har sitt eget skrov och sin egen betalning, så Force eller en Pulse kan förstöras först. Svärmen ersätts först när den är helt förstörd, efter tiden i listan *I korthet*.
 
+## Ledarens tre steg {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Striden har tre steg ([hur de fungerar](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); vart och ett sker en gång.
+
+- **I början**: Tar 70 % av varje träff så länge en av dess Dormant Pulses lever.
+- **Under två tredjedelar**: Dess Dormant Pulses avfyrar en raket var 2,5 s i 15 s.
+- **Under en tredjedel**: Så länge alla dess Dormant Pulses lever läker de den med 5 % av skrovet per sekund i 6 s.
+
+<!-- mob-ladder:end -->
+
 ## Belöningar och byte {#rewards-and-drops}
 
 Varje skepp betalar för sig, efter den skada det fick ([hur nedskjutningen av en boss betalar](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)), och varje skepp tappar en låda till piloten som gjorde mest skada på det. **Forces låda** är priset: väldigt mycket x3- och x4-ammunition, Episka raketer av ett slag och då och då en N.I.K.E. eller en N.U.K.E. **Pulses** kan tappa en Ancient Control Unit, en Power Core eller Dark Matter. En minuts strid mot svärmen betalar mer än en minuts strid mot Crystalys, den bäst betalande utomjordingen. Från säsongsdag 11 betalar varje skepp dubbelt (se listan *I korthet*); lådorna är desamma.
@@ -55,27 +68,24 @@ Bygger på Wraith med 100 % av skrovet och 300 % av laserskadan; hastighet och
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Skrov | 256 000 | 384 000 | 512 000 |
-| Sköld | 83 400 | 125 100 | 166 800 |
-| Laserskada (en salva per sekund) | 3 315 | 4 973 | 6 630 |
-| Hastighet | 210 | 210 | 210 |
+| Skrov | {{guide:vitals.hull@Dormant Force#1}} | {{guide:vitals.hull@Dormant Force#2}} | {{guide:vitals.hull@Dormant Force#3}} |
+| Sköld | {{guide:vitals.shield@Dormant Force#1}} | {{guide:vitals.shield@Dormant Force#2}} | {{guide:vitals.shield@Dormant Force#3}} |
+| Laserskada (en salva per sekund) | {{guide:vitals.dps@Dormant Force#1}} | {{guide:vitals.dps@Dormant Force#2}} | {{guide:vitals.dps@Dormant Force#3}} |
+| Hastighet | {{guide:vitals.speed@Dormant Force#1}} | {{guide:vitals.speed@Dormant Force#2}} | {{guide:vitals.speed@Dormant Force#3}} |
 | Laserräckvidd | 800 | 800 | 800 |
 | Aggroradie | bara när den attackeras | bara när den attackeras | bara när den attackeras |
-| Raketskada, högst | 7 500 | 11 250 | 15 000 |
-| Krediter | 185 000 | 370 000 | 555 000 |
-| Thulium | 485 | 970 | 1 455 |
-| Erfarenhet (XP) | 29 200 | 58 400 | 87 600 |
-| Heder | 127 | 254 | 381 |
+| Raketskada, högst | {{guide:behaviour.ability:rocket.damage@Dormant Force#1}} | {{guide:behaviour.ability:rocket.damage@Dormant Force#2}} | {{guide:behaviour.ability:rocket.damage@Dormant Force#3}} |
+| Krediter | {{guide:spoils.pay.credits@Dormant Force#1}} | {{guide:spoils.pay.credits@Dormant Force#2}} | {{guide:spoils.pay.credits@Dormant Force#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Dormant Force#1}} | {{guide:spoils.pay.thulium@Dormant Force#2}} | {{guide:spoils.pay.thulium@Dormant Force#3}} |
+| Erfarenhet (XP) | {{guide:spoils.pay.experience@Dormant Force#1}} | {{guide:spoils.pay.experience@Dormant Force#2}} | {{guide:spoils.pay.experience@Dormant Force#3}} |
+| Heder | {{guide:spoils.pay.honor@Dormant Force#1}} | {{guide:spoils.pay.honor@Dormant Force#2}} | {{guide:spoils.pay.honor@Dormant Force#3}} |
 | PvE-poäng per nedskjutning | 25 | 25 | 25 |
 
 **Byte**: en låda, för piloten som gjorde mest skada.
 
-| Föremål | Chans | Mängd |
-| :--- | ---: | ---: |
-| Ultra Core och Experimental Fusion Core, delat lika | 100 % | 2 000–3 000 totalt |
-| En av de 4 Episka [raketerna](/wiki/06-Items/Rockets.md), slumpmässigt vald | 100 % | 30–50 |
-| En av [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) och [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets), slumpmässigt vald | 50 % | 1 |
-| Heartshard | 5 % | 1 |
+| Föremål |
+| :--- |
+| {{guide:spoils.box@Dormant Force#1;Dormant Force#2;Dormant Force#3}} |
 
 ### Dormant Pulse
 
@@ -83,25 +93,23 @@ Bygger på Paragon med 100 % av skrovet och 600 % av laserskadan; hastighet oc
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Skrov | 128 000 | 192 000 | 256 000 |
-| Sköld | 64 570 | 96 855 | 129 140 |
-| Laserskada (en salva per sekund) | 5 100 | 7 650 | 10 200 |
-| Hastighet | 270 | 270 | 270 |
+| Skrov | {{guide:vitals.hull@Dormant Pulse#1}} | {{guide:vitals.hull@Dormant Pulse#2}} | {{guide:vitals.hull@Dormant Pulse#3}} |
+| Sköld | {{guide:vitals.shield@Dormant Pulse#1}} | {{guide:vitals.shield@Dormant Pulse#2}} | {{guide:vitals.shield@Dormant Pulse#3}} |
+| Laserskada (en salva per sekund) | {{guide:vitals.dps@Dormant Pulse#1}} | {{guide:vitals.dps@Dormant Pulse#2}} | {{guide:vitals.dps@Dormant Pulse#3}} |
+| Hastighet | {{guide:vitals.speed@Dormant Pulse#1}} | {{guide:vitals.speed@Dormant Pulse#2}} | {{guide:vitals.speed@Dormant Pulse#3}} |
 | Laserräckvidd | 800 | 800 | 800 |
 | Aggroradie | bara när den attackeras | bara när den attackeras | bara när den attackeras |
-| Raketskada, högst | 5 000 | 7 500 | 10 000 |
-| Krediter | 105 000 | 210 000 | 315 000 |
-| Thulium | 275 | 550 | 825 |
-| Erfarenhet (XP) | 16 600 | 33 200 | 49 800 |
-| Heder | 72 | 144 | 216 |
+| Raketskada, högst | {{guide:behaviour.ability:rocket.damage@Dormant Pulse#1}} | {{guide:behaviour.ability:rocket.damage@Dormant Pulse#2}} | {{guide:behaviour.ability:rocket.damage@Dormant Pulse#3}} |
+| Krediter | {{guide:spoils.pay.credits@Dormant Pulse#1}} | {{guide:spoils.pay.credits@Dormant Pulse#2}} | {{guide:spoils.pay.credits@Dormant Pulse#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Dormant Pulse#1}} | {{guide:spoils.pay.thulium@Dormant Pulse#2}} | {{guide:spoils.pay.thulium@Dormant Pulse#3}} |
+| Erfarenhet (XP) | {{guide:spoils.pay.experience@Dormant Pulse#1}} | {{guide:spoils.pay.experience@Dormant Pulse#2}} | {{guide:spoils.pay.experience@Dormant Pulse#3}} |
+| Heder | {{guide:spoils.pay.honor@Dormant Pulse#1}} | {{guide:spoils.pay.honor@Dormant Pulse#2}} | {{guide:spoils.pay.honor@Dormant Pulse#3}} |
 | PvE-poäng per nedskjutning | 11 | 11 | 11 |
 
 **Byte**: en låda, för piloten som gjorde mest skada.
 
-| Föremål | Chans | Mängd |
-| :--- | ---: | ---: |
-| Ancient Control Unit | 20 % | 1 |
-| Power Core | 20 % | 1 |
-| Dark Matter | 20 % | 1–5 |
+| Föremål |
+| :--- |
+| {{guide:spoils.box@Dormant Pulse#1;Dormant Pulse#2;Dormant Pulse#3}} |
 
 <!-- dormant-members:end -->

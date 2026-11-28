@@ -89,13 +89,13 @@ A run draws **Slumbering Voids**, hunters of the lost civilisation that fly in f
 
 - **Waves.** 3 Slumbering Voids every 2 min; the first 1 min after the start, and none in the last 1 min of a run. At most 12 are alive on a map at once: a wave that finds the map full is skipped.
 - **Coming in.** A wave appears at the edge of the map, 900 units inside it and at least 2,500 units from every gate ring, and flies to the excavator in about 20 s. The message names the side of the map it comes from.
-- **Hunting.** A Void hunts the nearest pilot it can see within 2,500 units, and stays within 7,000 units of the excavator.
+- **Hunting.** A Void hunts the nearest pilot it can see within {{guide:vitals.aggro@Slumbering Void}} units, and stays within 7,000 units of the excavator.
 - **Siege.** When no pilot it can see is within 7,000 units of the excavator for 15 s, the Voids attack the excavator, and each laser does 25% of its usual damage. At zero the excavator is destroyed: its fuel is lost, its hull is full again at once, and it rests for 1 h.
 - **Leaving.** When a run ends, the Voids that are left stay 90 s more and fight on if they are fought; then they go.
 
 <!-- excavator-voids:end -->
 
-- **A Void is a glass cannon.** Its shield is large but takes 80% of a hit, so the hull behind it is gone after a few times its size in damage, and much sooner with shield penetration. Four pilots with no shield penetration, or two with a good build, hold a run in Alpha; Beta and Gamma need larger groups, as for every alien.
+- **A Void is a glass cannon.** Its shield is large but takes {{guide:vitals.absorbance@Slumbering Void}} of a hit, so the hull behind it is gone after a few times its size in damage, and much sooner with shield penetration. Four pilots with no shield penetration, or two with a good build, hold a run in Alpha; Beta and Gamma need larger groups, as for every alien.
 - **A cloak is no defence of the site.** The Voids do not see cloaked ships, so a pilot who hides does not keep them from the excavator; and a pilot who shelters in a gate ring cannot be reached and does not count either.
 - **Every Void pays,** by the damage you did to it, and drops a box ([how a boss kill pays](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Their kills add to your PvE ranking points like a swarm ship's.
 

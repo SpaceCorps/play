@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 91f3dc3b14f71464 -->
+<!-- wiki-i18n source: f9b2d026af543d87 -->
 <!-- wiki-i18n title: Подземелья -->
 # Подземелья {#dungeons}
 
-<!-- wiki-search: dungeon; dungeons; gate; gates; clan gate; clan gates; clan dungeon; summon; warlord; gate warlord; boss; maze; loot zone; chest; card; vote; stage; instance; gate delta; gate epsilon; gate zeta; gate eta; gate theta; gate iota; gate goombah; gate pirate; gate crystalys; portal; clan portal; join; clan gate alerts; clan dungeon window; clan dungeon alerts; dungeon goombah; dungeon pirate; dungeon crystalys; dungeon warlord; 75 percent; three quarters; start room; fog; guards; locked room; boss room; booster; boosters; swarm assist; focus most wanted; zone of chaos; rocket barrage; подземелье; подземелья; врата; полководец; лабиринт; этап; зона добычи; карта; портал; портал клана; бустер; туман; стражи; стартовый зал; запертый зал; подмога роя; зона хаоса; уведомления о вратах клана; подземелье клана; уведомления о подземельях клана; три четверти; 75 процентов -->
+<!-- wiki-search: dungeon; dungeons; gate; gates; clan gate; clan gates; clan dungeon; summon; warlord; gate warlord; boss; maze; loot zone; chest; card; vote; stage; instance; gate delta; gate epsilon; gate zeta; gate eta; gate theta; gate iota; gate goombah; gate pirate; gate crystalys; portal; clan portal; join; clan gate alerts; clan dungeon window; clan dungeon alerts; dungeon goombah; dungeon pirate; dungeon crystalys; dungeon warlord; 75 percent; three quarters; start room; fog; guards; locked room; boss room; booster; boosters; swarm assist; focus most wanted; zone of chaos; rocket barrage; подземелье; подземелья; врата; полководец; лабиринт; этап; зона добычи; карта; портал; портал клана; бустер; туман; стражи; стартовый зал; запертый зал; подмога роя; зона хаоса; уведомления о вратах клана; подземелье клана; уведомления о подземельях клана; три четверти; 75 процентов; radiation donut; donut; радиационный бублик -->
 
-**Подземелье** — это замкнутый лабиринт, в конце которого ждёт **Полководец** (до 0.5.2 игра называла его вратами). Заместитель или глава [клана](/wiki/03-Mechanics/Clans.md) открывает одно подземелье и оплачивает его из банка клана, после чего участники клана вместе влетают внутрь одной [группой](/wiki/03-Mechanics/Groups.md). Они пробиваются сквозь пришельцев лабиринта, открывают зоны добычи, чтобы выбрать по одной карте из каждой, и сокрушают Полководца. Каждому пилоту, принявшему участие в бою, платят, когда Полководец падёт, в пределах лимитов ниже. Подземелья находятся на вкладке **Подземелья** страницы клана.
+**Подземелье** — это замкнутый лабиринт, в конце которого ждёт **Полководец** (до 0.5.2 игра называла его вратами). Заместитель или глава [клана](/wiki/03-Mechanics/Clans.md) открывает одно подземелье и оплачивает его из банка клана, после чего участники клана вместе влетают внутрь одной [группой](/wiki/03-Mechanics/Groups.md). Они пробиваются сквозь пришельцев лабиринта, открывают зоны добычи, чтобы выбрать по одной карте из каждой, и сокрушают Полководца. Все летят одной группой, а урон ракет по площади группу не щадит: взрыв Ember, Scatter или N.U.K.E. и зона радиации, которую оставляет N.U.K.E., ранят вас и участников вашей группы вполовину того, что они наносят другому кораблю. Поэтому смотрите, куда стреляете (см. [Группы](/wiki/03-Mechanics/Groups.md#rules-of-engagement)). Каждому пилоту, принявшему участие в бою, платят, когда Полководец падёт, в пределах лимитов ниже. Подземелья находятся на вкладке **Подземелья** страницы клана.
 
 Подземелье — это бой только с пришельцами: внутри никто не может атаковать ни товарища по клану, ни кого-либо ещё. Пришельцы платят, когда падают, как пришельцы игры, по образцу которых они сделаны ([что платят пришельцы](#what-the-aliens-pay)). Прохождение принадлежит Полководцу, поэтому единственный способ получить за него плату — быть в бою, когда он падёт.
 
@@ -117,17 +117,17 @@
 
 |  | Этап 1 | Этап 2 | Этап 3 |
 | :--- | ---: | ---: | ---: |
-| Корпус | 32 000 | 48 000 | 64 000 |
-| Щит | 48 000 | 72 000 | 96 000 |
-| Урон лазеров (залп в секунду) | 3 000 | 4 500 | 6 000 |
-| Скорость | 180 | 180 | 180 |
+| Корпус | {{guide:vitals.hull@Dungeon Goombah}} | {{guide:vitals.hull*1.5@Dungeon Goombah}} | {{guide:vitals.hull*2@Dungeon Goombah}} |
+| Щит | {{guide:vitals.shield@Dungeon Goombah}} | {{guide:vitals.shield*1.5@Dungeon Goombah}} | {{guide:vitals.shield*2@Dungeon Goombah}} |
+| Урон лазеров (залп в секунду) | {{guide:vitals.dps@Dungeon Goombah}} | {{guide:vitals.dps*1.5@Dungeon Goombah}} | {{guide:vitals.dps*2@Dungeon Goombah}} |
+| Скорость | {{guide:vitals.speed@Dungeon Goombah}} | {{guide:vitals.speed@Dungeon Goombah}} | {{guide:vitals.speed@Dungeon Goombah}} |
 | Дальность лазеров | 800 | 800 | 800 |
-| Радиус агрессии | 1 800 | 1 800 | 1 800 |
+| Радиус агрессии | {{guide:vitals.aggro@Dungeon Goombah}} | {{guide:vitals.aggro@Dungeon Goombah}} | {{guide:vitals.aggro@Dungeon Goombah}} |
 | Награда и добыча, множитель к оригиналу | ×1 | ×1,5 | ×2 |
-| Кредиты за уничтожение | 15 000 | 22 500 | 30 000 |
-| Thulium за уничтожение | 75 | 113 | 150 |
-| Опыт за уничтожение | 3 000 | 4 500 | 6 000 |
-| Честь за уничтожение | 24 | 36 | 48 |
+| Кредиты за уничтожение | {{guide:spoils.pay.credits@Goombah#1}} | {{guide:spoils.pay.credits*1.5@Goombah#1}} | {{guide:spoils.pay.credits*2@Goombah#1}} |
+| Thulium за уничтожение | {{guide:spoils.pay.thulium@Goombah#1}} | {{guide:spoils.pay.thulium*1.5@Goombah#1}} | {{guide:spoils.pay.thulium*2@Goombah#1}} |
+| Опыт за уничтожение | {{guide:spoils.pay.experience@Goombah#1}} | {{guide:spoils.pay.experience*1.5@Goombah#1}} | {{guide:spoils.pay.experience*2@Goombah#1}} |
+| Честь за уничтожение | {{guide:spoils.pay.honor@Goombah#1}} | {{guide:spoils.pay.honor*1.5@Goombah#1}} | {{guide:spoils.pay.honor*2@Goombah#1}} |
 
 ### Dungeon Pirate
 
@@ -138,18 +138,18 @@
 
 |  | Этап 1 | Этап 2 | Этап 3 |
 | :--- | ---: | ---: | ---: |
-| Корпус | 250 000 | 375 000 | 500 000 |
-| Щит | 50 100 | 75 150 | 100 200 |
-| Урон лазеров (залп в секунду) | 200 | 300 | 400 |
-| Урон ракеты | 5 000 | 7 500 | 10 000 |
-| Скорость | 100 | 100 | 100 |
+| Корпус | {{guide:vitals.hull@Dungeon Pirate}} | {{guide:vitals.hull*1.5@Dungeon Pirate}} | {{guide:vitals.hull*2@Dungeon Pirate}} |
+| Щит | {{guide:vitals.shield@Dungeon Pirate}} | {{guide:vitals.shield*1.5@Dungeon Pirate}} | {{guide:vitals.shield*2@Dungeon Pirate}} |
+| Урон лазеров (залп в секунду) | {{guide:vitals.dps@Dungeon Pirate}} | {{guide:vitals.dps*1.5@Dungeon Pirate}} | {{guide:vitals.dps*2@Dungeon Pirate}} |
+| Урон ракеты | {{guide:behaviour.ability:rocket.damage@Dungeon Pirate}} | {{guide:behaviour.ability:rocket.damage*1.5@Dungeon Pirate}} | {{guide:behaviour.ability:rocket.damage*2@Dungeon Pirate}} |
+| Скорость | {{guide:vitals.speed@Dungeon Pirate}} | {{guide:vitals.speed@Dungeon Pirate}} | {{guide:vitals.speed@Dungeon Pirate}} |
 | Дальность лазеров | 700 | 700 | 700 |
-| Радиус агрессии | 1 800 | 1 800 | 1 800 |
+| Радиус агрессии | {{guide:vitals.aggro@Dungeon Pirate}} | {{guide:vitals.aggro@Dungeon Pirate}} | {{guide:vitals.aggro@Dungeon Pirate}} |
 | Награда и добыча, множитель к оригиналу | ×1 | ×1,5 | ×2 |
-| Кредиты за уничтожение | 145 000 | 217 500 | 290 000 |
-| Thulium за уничтожение | 725 | 1 088 | 1 450 |
-| Опыт за уничтожение | 29 000 | 43 500 | 58 000 |
-| Честь за уничтожение | 232 | 348 | 464 |
+| Кредиты за уничтожение | {{guide:spoils.pay.credits@Pirate Boss#1}} | {{guide:spoils.pay.credits*1.5@Pirate Boss#1}} | {{guide:spoils.pay.credits*2@Pirate Boss#1}} |
+| Thulium за уничтожение | {{guide:spoils.pay.thulium@Pirate Boss#1}} | {{guide:spoils.pay.thulium*1.5@Pirate Boss#1}} | {{guide:spoils.pay.thulium*2@Pirate Boss#1}} |
+| Опыт за уничтожение | {{guide:spoils.pay.experience@Pirate Boss#1}} | {{guide:spoils.pay.experience*1.5@Pirate Boss#1}} | {{guide:spoils.pay.experience*2@Pirate Boss#1}} |
+| Честь за уничтожение | {{guide:spoils.pay.honor@Pirate Boss#1}} | {{guide:spoils.pay.honor*1.5@Pirate Boss#1}} | {{guide:spoils.pay.honor*2@Pirate Boss#1}} |
 
 ### Dungeon Crystalys
 
@@ -159,17 +159,17 @@
 
 |  | Этап 1 | Этап 2 | Этап 3 |
 | :--- | ---: | ---: | ---: |
-| Корпус | 256 000 | 384 000 | 512 000 |
-| Щит | 160 000 | 240 000 | 320 000 |
-| Урон лазеров (залп в секунду) | 10 000 | 15 000 | 20 000 |
-| Скорость | 230 | 230 | 230 |
+| Корпус | {{guide:vitals.hull@Dungeon Crystalys}} | {{guide:vitals.hull*1.5@Dungeon Crystalys}} | {{guide:vitals.hull*2@Dungeon Crystalys}} |
+| Щит | {{guide:vitals.shield@Dungeon Crystalys}} | {{guide:vitals.shield*1.5@Dungeon Crystalys}} | {{guide:vitals.shield*2@Dungeon Crystalys}} |
+| Урон лазеров (залп в секунду) | {{guide:vitals.dps@Dungeon Crystalys}} | {{guide:vitals.dps*1.5@Dungeon Crystalys}} | {{guide:vitals.dps*2@Dungeon Crystalys}} |
+| Скорость | {{guide:vitals.speed@Dungeon Crystalys}} | {{guide:vitals.speed@Dungeon Crystalys}} | {{guide:vitals.speed@Dungeon Crystalys}} |
 | Дальность лазеров | 900 | 900 | 900 |
-| Радиус агрессии | 2 400 | 2 400 | 2 400 |
+| Радиус агрессии | {{guide:vitals.aggro@Dungeon Crystalys}} | {{guide:vitals.aggro@Dungeon Crystalys}} | {{guide:vitals.aggro@Dungeon Crystalys}} |
 | Награда и добыча, множитель к оригиналу | ×1 | ×1,5 | ×2 |
-| Кредиты за уничтожение | 75 000 | 112 500 | 150 000 |
-| Thulium за уничтожение | 200 | 300 | 400 |
-| Опыт за уничтожение | 12 000 | 18 000 | 24 000 |
-| Честь за уничтожение | 52 | 78 | 104 |
+| Кредиты за уничтожение | {{guide:spoils.pay.credits@Crystalys#1}} | {{guide:spoils.pay.credits*1.5@Crystalys#1}} | {{guide:spoils.pay.credits*2@Crystalys#1}} |
+| Thulium за уничтожение | {{guide:spoils.pay.thulium@Crystalys#1}} | {{guide:spoils.pay.thulium*1.5@Crystalys#1}} | {{guide:spoils.pay.thulium*2@Crystalys#1}} |
+| Опыт за уничтожение | {{guide:spoils.pay.experience@Crystalys#1}} | {{guide:spoils.pay.experience*1.5@Crystalys#1}} | {{guide:spoils.pay.experience*2@Crystalys#1}} |
+| Честь за уничтожение | {{guide:spoils.pay.honor@Crystalys#1}} | {{guide:spoils.pay.honor*1.5@Crystalys#1}} | {{guide:spoils.pay.honor*2@Crystalys#1}} |
 
 ### Dungeon Crystalys Twin
 
@@ -179,17 +179,17 @@
 
 |  | Этап 1 | Этап 2 | Этап 3 |
 | :--- | ---: | ---: | ---: |
-| Корпус | 512 000 | 768 000 | 1 024 000 |
-| Щит | 320 000 | 480 000 | 640 000 |
-| Урон лазеров (залп в секунду) | 20 000 | 30 000 | 40 000 |
-| Скорость | 230 | 230 | 230 |
+| Корпус | {{guide:vitals.hull@Dungeon Crystalys Twin}} | {{guide:vitals.hull*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.hull*2@Dungeon Crystalys Twin}} |
+| Щит | {{guide:vitals.shield@Dungeon Crystalys Twin}} | {{guide:vitals.shield*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.shield*2@Dungeon Crystalys Twin}} |
+| Урон лазеров (залп в секунду) | {{guide:vitals.dps@Dungeon Crystalys Twin}} | {{guide:vitals.dps*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.dps*2@Dungeon Crystalys Twin}} |
+| Скорость | {{guide:vitals.speed@Dungeon Crystalys Twin}} | {{guide:vitals.speed@Dungeon Crystalys Twin}} | {{guide:vitals.speed@Dungeon Crystalys Twin}} |
 | Дальность лазеров | 900 | 900 | 900 |
-| Радиус агрессии | 2 400 | 2 400 | 2 400 |
+| Радиус агрессии | {{guide:vitals.aggro@Dungeon Crystalys Twin}} | {{guide:vitals.aggro@Dungeon Crystalys Twin}} | {{guide:vitals.aggro@Dungeon Crystalys Twin}} |
 | Награда и добыча, множитель к оригиналу | ×2 | ×3 | ×4 |
-| Кредиты за уничтожение | 150 000 | 225 000 | 300 000 |
-| Thulium за уничтожение | 400 | 600 | 800 |
-| Опыт за уничтожение | 24 000 | 36 000 | 48 000 |
-| Честь за уничтожение | 104 | 156 | 208 |
+| Кредиты за уничтожение | {{guide:spoils.pay.credits*2@Crystalys#1}} | {{guide:spoils.pay.credits*3@Crystalys#1}} | {{guide:spoils.pay.credits*4@Crystalys#1}} |
+| Thulium за уничтожение | {{guide:spoils.pay.thulium*2@Crystalys#1}} | {{guide:spoils.pay.thulium*3@Crystalys#1}} | {{guide:spoils.pay.thulium*4@Crystalys#1}} |
+| Опыт за уничтожение | {{guide:spoils.pay.experience*2@Crystalys#1}} | {{guide:spoils.pay.experience*3@Crystalys#1}} | {{guide:spoils.pay.experience*4@Crystalys#1}} |
+| Честь за уничтожение | {{guide:spoils.pay.honor*2@Crystalys#1}} | {{guide:spoils.pay.honor*3@Crystalys#1}} | {{guide:spoils.pay.honor*4@Crystalys#1}} |
 
 <!-- dungeons-enemies:end -->
 
@@ -205,24 +205,24 @@
 
 |  | Этап 1 | Этап 2 | Этап 3 |
 | :--- | ---: | ---: | ---: |
-| Корпус | 10 000 000 | 15 000 000 | 25 000 000 |
-| Щит | 8 000 000 | 12 000 000 | 20 000 000 |
-| Урон лазеров (залп в секунду) | 17 500–22 500 | По 26 250–33 750 на каждого из 2 пилотов | По 35 000–45 000 на каждого из 2 пилотов |
-| Скорость | 120 | 120 | 120 |
+| Корпус | {{guide:vitals.hull@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} | {{guide:vitals.hull*2.5@Dungeon Warlord}} |
+| Щит | {{guide:vitals.shield@Dungeon Warlord}} | {{guide:vitals.shield*1.5@Dungeon Warlord}} | {{guide:vitals.shield*2.5@Dungeon Warlord}} |
+| Урон лазеров (залп в секунду) | {{guide:vitals.dps*0.875~1.125@Dungeon Warlord}} | По {{guide:vitals.dps*1.3125~1.6875@Dungeon Warlord}} на каждого из 2 пилотов | По {{guide:vitals.dps*1.75~2.25@Dungeon Warlord}} на каждого из 2 пилотов |
+| Скорость | {{guide:vitals.speed@Dungeon Warlord}} | {{guide:vitals.speed@Dungeon Warlord}} | {{guide:vitals.speed@Dungeon Warlord}} |
 | Дальность лазеров | 1 100 | 1 100 | 1 100 |
 
 Корпус и щит выше указаны для группы из 5. Они растут вместе с группой: это корпус и щит Полководца вместе, в зависимости от числа пилотов в группе на момент старта подземелья.
 
 | Пилотов в группе | Этап 1 | Этап 2 | Этап 3 |
 | :--- | ---: | ---: | ---: |
-| 3 | 10 800 000 | 16 200 000 | 27 000 000 |
-| 4 | 14 400 000 | 21 600 000 | 36 000 000 |
-| 5 | 18 000 000 | 27 000 000 | 45 000 000 |
-| 6 | 21 600 000 | 32 400 000 | 54 000 000 |
-| 7 | 25 200 000 | 37 800 000 | 63 000 000 |
-| 8 | 28 800 000 | 43 200 000 | 72 000 000 |
-| 9 | 32 400 000 | 48 600 000 | 81 000 000 |
-| 10 | 36 000 000 | 54 000 000 | 90 000 000 |
+| 3 | {{guide:vitals.hull*0.6@Dungeon Warlord}} + {{guide:vitals.shield*0.6@Dungeon Warlord}} | {{guide:vitals.hull*0.9@Dungeon Warlord}} + {{guide:vitals.shield*0.9@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} + {{guide:vitals.shield*1.5@Dungeon Warlord}} |
+| 4 | {{guide:vitals.hull*0.8@Dungeon Warlord}} + {{guide:vitals.shield*0.8@Dungeon Warlord}} | {{guide:vitals.hull*1.2@Dungeon Warlord}} + {{guide:vitals.shield*1.2@Dungeon Warlord}} | {{guide:vitals.hull*2@Dungeon Warlord}} + {{guide:vitals.shield*2@Dungeon Warlord}} |
+| 5 | {{guide:vitals.hull@Dungeon Warlord}} + {{guide:vitals.shield@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} + {{guide:vitals.shield*1.5@Dungeon Warlord}} | {{guide:vitals.hull*2.5@Dungeon Warlord}} + {{guide:vitals.shield*2.5@Dungeon Warlord}} |
+| 6 | {{guide:vitals.hull*1.2@Dungeon Warlord}} + {{guide:vitals.shield*1.2@Dungeon Warlord}} | {{guide:vitals.hull*1.8@Dungeon Warlord}} + {{guide:vitals.shield*1.8@Dungeon Warlord}} | {{guide:vitals.hull*3@Dungeon Warlord}} + {{guide:vitals.shield*3@Dungeon Warlord}} |
+| 7 | {{guide:vitals.hull*1.4@Dungeon Warlord}} + {{guide:vitals.shield*1.4@Dungeon Warlord}} | {{guide:vitals.hull*2.1@Dungeon Warlord}} + {{guide:vitals.shield*2.1@Dungeon Warlord}} | {{guide:vitals.hull*3.5@Dungeon Warlord}} + {{guide:vitals.shield*3.5@Dungeon Warlord}} |
+| 8 | {{guide:vitals.hull*1.6@Dungeon Warlord}} + {{guide:vitals.shield*1.6@Dungeon Warlord}} | {{guide:vitals.hull*2.4@Dungeon Warlord}} + {{guide:vitals.shield*2.4@Dungeon Warlord}} | {{guide:vitals.hull*4@Dungeon Warlord}} + {{guide:vitals.shield*4@Dungeon Warlord}} |
+| 9 | {{guide:vitals.hull*1.8@Dungeon Warlord}} + {{guide:vitals.shield*1.8@Dungeon Warlord}} | {{guide:vitals.hull*2.7@Dungeon Warlord}} + {{guide:vitals.shield*2.7@Dungeon Warlord}} | {{guide:vitals.hull*4.5@Dungeon Warlord}} + {{guide:vitals.shield*4.5@Dungeon Warlord}} |
+| 10 | {{guide:vitals.hull*2@Dungeon Warlord}} + {{guide:vitals.shield*2@Dungeon Warlord}} | {{guide:vitals.hull*3@Dungeon Warlord}} + {{guide:vitals.shield*3@Dungeon Warlord}} | {{guide:vitals.hull*5@Dungeon Warlord}} + {{guide:vitals.shield*5@Dungeon Warlord}} |
 
 <!-- dungeons-boss:end -->
 
@@ -241,6 +241,7 @@
 - **Подмога роя** — это Полководец, призывающий своих Goombah. Пока они живы, его нельзя ранить, и он не стреляет и не использует других способностей. Уничтожьте их всех: баннер считает, сколько осталось. Если проходит минута, Полководца снова можно ранить, а оставшиеся Goombah остаются и продолжают бой. Они не считаются для зала босса и ничего не платят.
 - **Зона хаоса** — фиолетовое кольцо на земле вокруг Полководца; пока она действует, кольцо движется туда же, куда идёт Полководец. Никто внутри кольца не может атаковать ни лазерами, ни ракетами, хотя ремонт, маскировка и полёт работают, а Полководец и его пришельцы стреляют как обычно. Кольцо появляется за мгновение до действия: выйдите из него и оставайтесь снаружи, потому что оно следует за Полководцем. Пилот снаружи по-прежнему может стрелять, пока до цели достаёт его оружие.
 - **Призрачное копьё** заставляет Полководца исчезнуть на секунду. Затем он возвращается в другом месте своего зала с тремя своими иллюзиями. Пока иллюзия жива, она стреляет по ближайшему пилоту, которого видит, половиной залпа Полководца и каждую секунду лечит корпус и щит Полководца (цифры есть в таблице способностей). У иллюзий свой корпус: уничтожьте их, чтобы остановить лечение. Они ничего не платят и исчезают вместе с Полководцем, когда он падает. Полководца можно уничтожить, пока они живы.
+- **Радиационный бублик** зажигает три радиационных кольца вокруг места, где стоял Полководец, когда начал способность, одно за другим от Полководца наружу, с одной-двумя секундами между кольцами. Каждое кольцо показывает оба своих края за мгновение до того, как вспыхнет, а затем несколько секунд жжёт каждого пилота внутри, прямо по корпусу (время и долю корпуса в секунду даёт таблица способностей). Кольцо не гаснет, когда вспыхивает следующее: два кольца, а на высоких этапах и все три, могут жечь одновременно. Дыра вокруг Полководца, земля между кольцами и земля за последним кольцом безопасны: оставайтесь на них и покидайте кольцо до того, как оно вспыхнет. Стена не останавливает радиацию, а маскировка не спасает от неё пилота; Защита от радиации снижает дозу.
 
 <!-- dungeons-abilities:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -255,19 +256,34 @@
 | **Подмога роя** | 2 с | До 1 мин | 3 мин | – | – |
 | **Зона хаоса** | 2 с | 15 с | 2 мин | 900 | – |
 | **Призрачное копьё** | 1,5 с | 1 с | 2 мин | – | – |
+| **Радиационный бублик** | 1 с | До 8,5 с | 75 с | 2 150 | – |
 
 | Способность | Этап 1 | Этап 2 | Этап 3 |
 | :--- | :--- | :--- | :--- |
-| **Аура кражи жизни** | 8 000 в секунду | 10 000 в секунду | 12 000 в секунду |
-| **Падение метеоров** | Метеоров за залп: 6, по 80 000 каждый | Метеоров за залп: 8, по 100 000 каждый | Метеоров за залп: 10, по 120 000 каждый |
-| **Фокус на самом разыскиваемом** | 26 250–33 750 за дополнительный заряд по пилоту, нанёсшему больше всего урона, один каждые 1 с | 39 375–50 625 за дополнительный заряд по пилоту, нанёсшему больше всего урона, один каждые 1 с | 52 500–67 500 за дополнительный заряд по пилоту, нанёсшему больше всего урона, один каждые 1 с |
-| **Ракетный залп** | 100 000–150 000 за ракету по каждому пилоту, одна каждые 15 с | 125 000–187 500 за ракету по каждому пилоту, одна каждые 15 с | 150 000–225 000 за ракету по каждому пилоту, одна каждые 15 с |
-| **Поглощение щита** | 10 000 щита в секунду | 12 500 щита в секунду | 15 000 щита в секунду |
+| **Аура кражи жизни** | {{guide:behaviour.ability:lifesteal.drainPerSec@Dungeon Warlord}} в секунду | {{guide:behaviour.ability:lifesteal.drainPerSec*1.25@Dungeon Warlord}} в секунду | {{guide:behaviour.ability:lifesteal.drainPerSec*1.5@Dungeon Warlord}} в секунду |
+| **Падение метеоров** | Метеоров за залп: 6, по {{guide:behaviour.ability:meteor.damage@Dungeon Warlord}} каждый | Метеоров за залп: 8, по {{guide:behaviour.ability:meteor.damage*1.25@Dungeon Warlord}} каждый | Метеоров за залп: 10, по {{guide:behaviour.ability:meteor.damage*1.5@Dungeon Warlord}} каждый |
+| **Фокус на самом разыскиваемом** | {{guide:vitals.dps*1.3125~1.6875@Dungeon Warlord}} за дополнительный заряд по пилоту, нанёсшему больше всего урона, один каждые 1 с | {{guide:vitals.dps*1.96875~2.53125@Dungeon Warlord}} за дополнительный заряд по пилоту, нанёсшему больше всего урона, один каждые 1 с | {{guide:vitals.dps*2.625~3.375@Dungeon Warlord}} за дополнительный заряд по пилоту, нанёсшему больше всего урона, один каждые 1 с |
+| **Ракетный залп** | {{guide:behaviour.ability:barrage.damageMin@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage@Dungeon Warlord}} за ракету по каждому пилоту, одна каждые 15 с | {{guide:behaviour.ability:barrage.damageMin*1.25@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage*1.25@Dungeon Warlord}} за ракету по каждому пилоту, одна каждые 15 с | {{guide:behaviour.ability:barrage.damageMin*1.5@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage*1.5@Dungeon Warlord}} за ракету по каждому пилоту, одна каждые 15 с |
+| **Поглощение щита** | {{guide:behaviour.ability:absorb.drainPerSec@Dungeon Warlord}} щита в секунду | {{guide:behaviour.ability:absorb.drainPerSec*1.25@Dungeon Warlord}} щита в секунду | {{guide:behaviour.ability:absorb.drainPerSec*1.5@Dungeon Warlord}} щита в секунду |
 | **Подмога роя** | Goombah: 12 | Goombah: 18 | Goombah: 24 |
 | **Зона хаоса** | Пилоты внутри кольца не могут атаковать | Пилоты внутри кольца не могут атаковать | Пилоты внутри кольца не могут атаковать |
-| **Призрачное копьё** | Иллюзий: 3, у каждой 500 000 корпуса; каждая стреляет 50% от залпа Полководца и, пока жива, лечит Полководца на 50 000 корпуса и 50 000 щита в секунду | Иллюзий: 3, у каждой 500 000 корпуса; каждая стреляет 50% от залпа Полководца и, пока жива, лечит Полководца на 50 000 корпуса и 50 000 щита в секунду | Иллюзий: 3, у каждой 500 000 корпуса; каждая стреляет 50% от залпа Полководца и, пока жива, лечит Полководца на 50 000 корпуса и 50 000 щита в секунду |
+| **Призрачное копьё** | Иллюзий: 3; каждая стреляет 50% от залпа Полководца и, пока жива, лечит Полководца на 50 000 корпуса и 50 000 щита в секунду | Иллюзий: 3; каждая стреляет 50% от залпа Полководца и, пока жива, лечит Полководца на 50 000 корпуса и 50 000 щита в секунду | Иллюзий: 3; каждая стреляет 50% от залпа Полководца и, пока жива, лечит Полководца на 50 000 корпуса и 50 000 щита в секунду |
+| **Радиационный бублик** | Колец: 3, зажигаются одно за другим; каждое горит 2 с и отнимает 8% корпуса пилота в секунду | Колец: 3, зажигаются одно за другим; каждое горит 3 с и отнимает 8% корпуса пилота в секунду | Колец: 3, зажигаются одно за другим; каждое горит 4,5 с и отнимает 8% корпуса пилота в секунду |
 
 <!-- dungeons-abilities:end -->
+
+### Его три этапа {#its-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+У Warlord три этапа ([как они работают](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); каждый происходит один раз.
+
+- **Ниже двух третей**: Пауза между его способностями сокращается до 4 с, а их ожидание до ×0,75.
+- **Ниже трети**: Пауза сокращается до 2 с, ожидание до ×0,5, а урон растёт до ×1,25; он применяет один бесплатный залп Meteor, а его Swarm никогда не возвращается чаще, чем раз в 120 с.
+- **Пауза на каждом этапе.** Когда начинается этап, Warlord нельзя ранить в течение 3 с.
+
+<!-- mob-ladder:end -->
 
 ## Зоны добычи {#loot-zones}
 
@@ -351,9 +367,9 @@
 
 | Этап | Честь | Опыт | Кредиты | Thulium | Боеприпасы x4 | Orvium Reinforced Plates | Echo Shards | Lattice Shards | Очки рейтинга PvE |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Этап 1** | 25 000 | 600 000 | 5 000 000 | 8 000 | 4 000 | 5 | 12 | 5 | 850 |
-| **Этап 2** | 50 000 | 1 500 000 | 10 000 000 | 18 000 | 9 000 | 10 | 8 | 6 | 2 000 |
-| **Этап 3** | 100 000 | 2 400 000 | 17 500 000 | 30 000 | 15 000 | 15 | 8 | 7 | 3 400 |
+| **Этап 1** | 25 000 | 600 000 | 5 000 000 | 8 000 | 4 000 | 5 | 24 | 10 | 850 |
+| **Этап 2** | 50 000 | 1 500 000 | 10 000 000 | 18 000 | 9 000 | 10 | 16 | 12 | 2 000 |
+| **Этап 3** | 100 000 | 2 400 000 | 17 500 000 | 30 000 | 15 000 | 15 | 16 | 14 | 3 400 |
 
 - **Heartshards**: 1 за первое оплачиваемое прохождение каждого этапа за сезон и с шансом 5% ещё один за каждое оплачиваемое прохождение.
 
@@ -367,7 +383,7 @@
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
 - **День**: Этап платит пилоту один раз в сутки UTC: в день, когда падает Полководец
-- **Неделя**: За неделю UTC (с понедельника по воскресенье) пилоту платят за прохождения этапов не более 10 раз
+- **Неделя**: За неделю UTC (с понедельника по воскресенье) пилоту платят за прохождения этапов не более 14 раз
 - **Внутри**: Не меньше 2 мин в сумме
 - **Вклад в бой**: Хотя бы одно из этого: нанёс 0,1% корпуса и щита Полководца; уничтожил пришельцев подземелья: 10; вылечил других пилотов на 50 000 во время боя с Полководцем
 
@@ -382,8 +398,8 @@
 
 | Награда каждому пилоту | Честь | Опыт | Кредиты | Thulium | Боеприпасы x4 | Orvium Reinforced Plates | Echo Shards | Lattice Shards | Очки рейтинга PvE |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Один день, каждый этап по разу | 175 000 | 4 500 000 | 32 500 000 | 56 000 | 28 000 | 30 | 28 | 18 | 6 250 |
-| Лучшая неделя: 7 × Этап 3 и 3 × Этап 2 | 850 000 | 21 300 000 | 152 500 000 | 264 000 | 132 000 | 135 | 80 | 67 | 29 800 |
+| Один день, каждый этап по разу | 175 000 | 4 500 000 | 32 500 000 | 56 000 | 28 000 | 30 | 56 | 36 | 6 250 |
+| Лучшая неделя: 7 × Этап 3 и 7 × Этап 2 | 1 050 000 | 27 300 000 | 192 500 000 | 336 000 | 168 000 | 175 | 224 | 182 | 37 800 |
 
 Опыт и честь за оплаченное прохождение учитываются в ваших очках рейтинга PvE: одно очко за каждые 1 000 опыта и одно за каждые 100 чести.
 
@@ -395,7 +411,7 @@
 
 - **Кому платят.** Пилотам, которые ранили пришельца, по нанесённому урону, как у пришельцев роёв: пилот или группа, лишь задевшие его, не получают ничего, группа получает плату как один, а внутри группы участники, которые находятся рядом с обломками и недавно стреляли, делят выплату по уровню. Пилот, не нанёсший пришельцу урона, ничего за него не получает, как бы близко ни пролетал, а пришелец, которого не ранил ни один пилот, не платит никому. В выплате участвуют только пилоты, которым платят правила выше: тот, кто вышел, пробыл внутри слишком мало, уже получил плату за этап сегодня или исчерпал все оплачиваемые прохождения недели, ничего не получает за пришельцев, а его долю получают остальные. За уничтожение долю в бою не требуют: ранить пришельца и есть доля. Если участник группы, нанёсший больше всех урона, уничтожен или не на карте, участники рядом с обломками, недавно стрелявшие, делят выплату без него.
 - **Что платят.** Кредиты, Thulium, опыт и честь, один раз за уничтожение. Плата — то, что платит оригинал в Alpha, во всех мирах: в подземелье нет множителя мира. Ваши бустеры, построение и бонусы клана действуют, как при любом уничтожении, а опыт идёт в ваши [очки PvE](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points) так же, как опыт прохождения.
-- **Добыча.** Она выпадает по шансам оригинала, кроме Echo Shard: его шанс вдвое выше, затем каждое количество умножается на отношение (доля единицы — это шанс получить ещё одну). Добыча падает ящиком у обломков: сначала для пилота, нанёсшего больше всего урона, и его клана, потом для любого на карте, а затем исчезает. Если в [группе](/wiki/03-Mechanics/Groups.md) пилота, нанёсшего больше всего урона, двое или больше пилотов повредили пришельца и всё ещё летят в подземелье, добыча вместо этого делится на [персональные контейнеры](/wiki/03-Mechanics/Cargo.md#personal-crates), по одному каждому по нанесённому урону, и каждый сначала принадлежит только своему пилоту, потом любому на карте. Участник группы, который не наносил урон или которого исключают правила выше, контейнера не получает. Другие группы и пилоты, летящие в одиночку, получают плату за свою долю, но контейнера из этой добычи не получают. Карта вмещает лишь определённое число ящиков сразу, поэтому подбирайте их по ходу боя; то, что лежит на карте при закрытии подземелья, уходит вместе с ним. В отличие от предметов прохождения, это обычная добыча пришельца: её можно [продать на аукционе](/wiki/03-Mechanics/Auction.md#marketable-items), если предмет продаваемый.
+- **Добыча.** Она выпадает по шансам оригинала, кроме Echo Shard: его шанс вдвое выше, и он выпадает сразу по два, затем каждое количество умножается на отношение (доля единицы — это шанс получить ещё одну). Добыча падает ящиком у обломков: сначала для пилота, нанёсшего больше всего урона, и его клана, потом для любого на карте, а затем исчезает. Если в [группе](/wiki/03-Mechanics/Groups.md) пилота, нанёсшего больше всего урона, двое или больше пилотов повредили пришельца и всё ещё летят в подземелье, добыча вместо этого делится на [персональные контейнеры](/wiki/03-Mechanics/Cargo.md#personal-crates), по одному каждому по нанесённому урону, и каждый сначала принадлежит только своему пилоту, потом любому на карте. Участник группы, который не наносил урон или которого исключают правила выше, контейнера не получает. Другие группы и пилоты, летящие в одиночку, получают плату за свою долю, но контейнера из этой добычи не получают. Карта вмещает лишь определённое число ящиков сразу, поэтому подбирайте их по ходу боя; то, что лежит на карте при закрытии подземелья, уходит вместе с ним. В отличие от предметов прохождения, это обычная добыча пришельца: её можно [продать на аукционе](/wiki/03-Mechanics/Auction.md#marketable-items), если предмет продаваемый.
 - **Что не платит.** Полководец не платит за уничтожение, только за прохождение. Goombah, которых он зовёт, не платят ничего, потому что призыв повторяется, пока длится бой.
 - **Не уничтожение игры.** Уничтожение в подземелье не засчитывается в задания, достижения, счётчики уничтожений, очки вайпа, очки PvE за уничтожение, дронов и P.E.T.: Dungeon Goombah — не Goombah игры.
 - **Лимиты.** Лимиты дня и недели выше задерживают плату пришельцев так же, как плату за прохождение: пилот, которому уже заплатили за этап сегодня или который исчерпал все оплачиваемые прохождения недели, ничего не получает и за его пришельцев, а выплата за уничтожение достаётся остальным. Подземелье, которое не пройдено, платит за уничтожения пилотам, которым платят правила, а за прохождение — ничего.

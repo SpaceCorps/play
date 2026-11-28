@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0684c16b2f2d0dbe -->
+<!-- wiki-i18n source: d6376f646044a759 -->
 <!-- wiki-i18n title: 锻造炉 -->
 # 锻造炉 {#the-forge}
 
@@ -98,9 +98,9 @@
 | 单人星门：Delta Siege | 29 | 44 |
 | 单人星门：Omega Vault | 34 | 54 |
 | 单人星门：Davidski's Nightmare | 34 | 54 |
-| 战队地下城：第 1 阶段 | 12 | 5 |
-| 战队地下城：第 2 阶段 | 8 | 6 |
-| 战队地下城：第 3 阶段 | 8 | 7 |
+| 战队地下城：第 1 阶段 | 24 | 10 |
+| 战队地下城：第 2 阶段 | 16 | 12 |
+| 战队地下城：第 3 阶段 | 16 | 14 |
 
 - **单人星门**每次通关都发放它们的 Shard，**战队地下城**则在每次获得奖励的阶段通关时发放。
 - **Heartshard** 在本赛季每个星门和每个地下城阶段首次通关时获得（1 个），之后每次通关有 5% 的几率再获得 1 个。稀有 NPC 也会掉落：每击杀一次，Davidski 10%，Dormant Force 和 Tesseract 5%。其余内容见[资源](/wiki/06-Items/Resources.md#heartshard)页面。

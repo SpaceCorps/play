@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3ee3985e3f9606e1 -->
+<!-- wiki-i18n source: 8dbe8dc047c34c1c -->
 <!-- wiki-i18n title: I segnali -->
 # I segnali {#the-signals}
 
@@ -13,7 +13,7 @@ Mission Control capta uno strano rumore, **la Statica**, che manda venti mission
 - **Usi infiniti.** Niente la consuma: non si spende, non si logora e nessuna ricetta la richiede.
 - **Una sola.** Puoi avere una sola Dormant Keycard. Se una riscossione dovesse darti la seconda, la riscossione funziona comunque e paga tutto il resto; semplicemente non ricevi un’altra tessera.
 - **Tua per sempre.** Non si può vendere all’Asta, non si può buttare nell’Hangar e un [reset](/wiki/03-Mechanics/Wipe-Timeline.md) non te la toglie.
-- **Ancora senza uso.** Oggi non apre nulla. Un aggiornamento successivo la userà per dare accesso a una nuova mappa, che non è ancora nel gioco. Tieni la tua tessera fino ad allora.
+- **Apre il Void Gate.** Un pilota che la porta può attivare il Void Gate aperto del suo mondo in `DS-4` e portare tutti quelli vicini nel [Deep Void](/wiki/03-Mechanics/Deep-Void.md). Attivarlo costa 5.000 Thulium; la tessera non si consuma mai.
 - **Hai già riscosso l’ultimo segnale?** Un pilota che lo aveva riscosso prima che la tessera esistesse (l’aggiornamento 0.5.10) ha ricevuto la tessera una volta, da sola, quando il server si è aggiornato.
 
 ## Come funzionano i segnali {#how-the-signals-work}

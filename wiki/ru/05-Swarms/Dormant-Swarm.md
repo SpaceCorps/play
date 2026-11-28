@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: bb8bc80ba6889fba -->
+<!-- wiki-i18n source: fcba1b51b68a9123 -->
 <!-- wiki-i18n title: Рой Dormant -->
 # Рой Dormant {#dormant-swarm}
 
-Рой Dormant — это **Dormant Force** и его **Dormant Pulse**: группа кораблей, которые никогда не начинают бой и бьют очень сильно, когда их разбудят. В каждом мире он только один. Он переходит из одного опасного сектора в другой, и это самый тяжёлый бой и самая богатая добыча среди роёв: бой для большой группы сильнейших кораблей. С 11-го дня сезона он начинает у [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) на `DS-4`, возвращается раньше и платит вдвое больше (см. список *Кратко*).
+Рой Dormant — это **Dormant Force** и его **Dormant Pulse**: группа кораблей, которые никогда не начинают бой и бьют очень сильно, когда их разбудят. В опасных секторах каждого мира он только один ([Deep Void](/wiki/03-Mechanics/Deep-Void.md#the-dormant-swarms-visit) принимает свой собственный визит раз в сутки). Он переходит из одного опасного сектора в другой, и это самый тяжёлый бой и самая богатая добыча среди роёв: бой для большой группы сильнейших кораблей. С 11-го дня сезона он начинает у [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) на `DS-4`, возвращается раньше и платит вдвое больше (см. список *Кратко*).
 
 ## Коротко {#at-a-glance}
 
@@ -18,7 +18,7 @@
 - **Лидер уничтожен**: Лидером становится Dormant Pulse
 - **Лидер уничтожен**: Свита исчезает через 30 с после уничтожения лидера, даже если атакует
 - **Перемещения**: Остаётся на карте 8–15 мин, затем летит к вратам другого опасного сектора. Никогда не пользуется вратами, ведущими из опасных секторов, и никогда не входит в кольцо чёрной дыры
-- **Возвращается**: Через 1 ч после уничтожения всего роя, в случайном опасном секторе
+- **Возвращается**: Через {{guide:vitals.respawn@Dormant Force#1;Dormant Force#2;Dormant Force#3}} после уничтожения всего роя, в случайном опасном секторе
 - **С 11-го дня сезона**: Он появляется у [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) на `DS-4` вместо случайного опасного сектора, возвращается через 30 мин после уничтожения всего роя, и каждый корабль платит ×2 (кредиты, Thulium, XP и честь; добыча остаётся прежней)
 - **Оповещения**: Пилоты всего мира узнают, когда рой появляется и когда он уничтожен. Это системные строки: они видны на вкладке **Система** чата, со счётчиком непрочитанных, а не на вкладках **Общий** и **Локальный**. Отметка показывает его на картах опасных секторов и на карте галактики. Лента убийств называет пилота, которому засчитано убийство.
 
@@ -38,6 +38,19 @@
 - **Исход боя решают его лазеры.** Вместе они могут уничтожить Paragon меньше чем за минуту, а Paragon с лучшими щитами — меньше чем за две, с ракетами или без: быстро набирайте урон, с лучшими щитами, какие у вас есть.
 - **Корабль за кораблём.** У каждого корабля свой корпус и своя награда, поэтому Force или Pulse может быть уничтожен первым. Рой заменяется, только когда уничтожен целиком, через время, указанное в списке *Коротко*.
 
+## Три этапа лидера {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+У этого боя три этапа ([как они работают](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); каждый происходит один раз.
+
+- **В начале**: Принимает 70% от каждого удара, пока жив хоть один из его Dormant Pulses.
+- **Ниже двух третей**: Его Dormant Pulses выпускают ракету каждые 2,5 с в течение 15 с.
+- **Ниже трети**: Пока живы все его Dormant Pulses, они лечат его на 5% корпуса в секунду в течение 6 с.
+
+<!-- mob-ladder:end -->
+
 ## Награды и добыча {#rewards-and-drops}
 
 Каждый корабль платит сам за себя, по нанесённому ему урону ([как оплачивается убийство босса](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)), и каждый роняет контейнер для пилота, нанёсшего ему больше всех урона. **Контейнер Force** — главный приз: очень много боеприпасов x3 и x4, эпические ракеты одного вида и время от времени N.I.K.E. или N.U.K.E. **Pulse** могут выронить Ancient Control Unit, Power Core или Dark Matter. Минута боя с роем приносит больше, чем минута боя с Crystalys, самым щедрым пришельцем. С 11-го дня сезона каждый корабль платит вдвое больше (см. список *Кратко*); контейнеры прежние.
@@ -55,27 +68,24 @@
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Корпус | 256 000 | 384 000 | 512 000 |
-| Щит | 83 400 | 125 100 | 166 800 |
-| Урон лазеров (залп в секунду) | 3 315 | 4 973 | 6 630 |
-| Скорость | 210 | 210 | 210 |
+| Корпус | {{guide:vitals.hull@Dormant Force#1}} | {{guide:vitals.hull@Dormant Force#2}} | {{guide:vitals.hull@Dormant Force#3}} |
+| Щит | {{guide:vitals.shield@Dormant Force#1}} | {{guide:vitals.shield@Dormant Force#2}} | {{guide:vitals.shield@Dormant Force#3}} |
+| Урон лазеров (залп в секунду) | {{guide:vitals.dps@Dormant Force#1}} | {{guide:vitals.dps@Dormant Force#2}} | {{guide:vitals.dps@Dormant Force#3}} |
+| Скорость | {{guide:vitals.speed@Dormant Force#1}} | {{guide:vitals.speed@Dormant Force#2}} | {{guide:vitals.speed@Dormant Force#3}} |
 | Дальность лазеров | 800 | 800 | 800 |
 | Радиус агрессии | только если напали | только если напали | только если напали |
-| Урон ракет, максимум | 7 500 | 11 250 | 15 000 |
-| Кредиты | 185 000 | 370 000 | 555 000 |
-| Thulium | 485 | 970 | 1 455 |
-| Опыт (XP) | 29 200 | 58 400 | 87 600 |
-| Честь | 127 | 254 | 381 |
+| Урон ракет, максимум | {{guide:behaviour.ability:rocket.damage@Dormant Force#1}} | {{guide:behaviour.ability:rocket.damage@Dormant Force#2}} | {{guide:behaviour.ability:rocket.damage@Dormant Force#3}} |
+| Кредиты | {{guide:spoils.pay.credits@Dormant Force#1}} | {{guide:spoils.pay.credits@Dormant Force#2}} | {{guide:spoils.pay.credits@Dormant Force#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Dormant Force#1}} | {{guide:spoils.pay.thulium@Dormant Force#2}} | {{guide:spoils.pay.thulium@Dormant Force#3}} |
+| Опыт (XP) | {{guide:spoils.pay.experience@Dormant Force#1}} | {{guide:spoils.pay.experience@Dormant Force#2}} | {{guide:spoils.pay.experience@Dormant Force#3}} |
+| Честь | {{guide:spoils.pay.honor@Dormant Force#1}} | {{guide:spoils.pay.honor@Dormant Force#2}} | {{guide:spoils.pay.honor@Dormant Force#3}} |
 | Очки PvE за убийство | 25 | 25 | 25 |
 
 **Добыча**: один контейнер, для пилота, нанёсшего больше всех урона.
 
-| Предмет | Шанс | Количество |
-| :--- | ---: | ---: |
-| Ultra Core и Experimental Fusion Core, делятся поровну | 100% | 2 000–3 000 всего |
-| Одна из 4 эпических [ракет](/wiki/06-Items/Rockets.md), на выбор случая | 100% | 30–50 |
-| Одна из [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) и [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets), на выбор случая | 50% | 1 |
-| Heartshard | 5% | 1 |
+| Предмет |
+| :--- |
+| {{guide:spoils.box@Dormant Force#1;Dormant Force#2;Dormant Force#3}} |
 
 ### Dormant Pulse
 
@@ -83,25 +93,23 @@
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Корпус | 128 000 | 192 000 | 256 000 |
-| Щит | 64 570 | 96 855 | 129 140 |
-| Урон лазеров (залп в секунду) | 5 100 | 7 650 | 10 200 |
-| Скорость | 270 | 270 | 270 |
+| Корпус | {{guide:vitals.hull@Dormant Pulse#1}} | {{guide:vitals.hull@Dormant Pulse#2}} | {{guide:vitals.hull@Dormant Pulse#3}} |
+| Щит | {{guide:vitals.shield@Dormant Pulse#1}} | {{guide:vitals.shield@Dormant Pulse#2}} | {{guide:vitals.shield@Dormant Pulse#3}} |
+| Урон лазеров (залп в секунду) | {{guide:vitals.dps@Dormant Pulse#1}} | {{guide:vitals.dps@Dormant Pulse#2}} | {{guide:vitals.dps@Dormant Pulse#3}} |
+| Скорость | {{guide:vitals.speed@Dormant Pulse#1}} | {{guide:vitals.speed@Dormant Pulse#2}} | {{guide:vitals.speed@Dormant Pulse#3}} |
 | Дальность лазеров | 800 | 800 | 800 |
 | Радиус агрессии | только если напали | только если напали | только если напали |
-| Урон ракет, максимум | 5 000 | 7 500 | 10 000 |
-| Кредиты | 105 000 | 210 000 | 315 000 |
-| Thulium | 275 | 550 | 825 |
-| Опыт (XP) | 16 600 | 33 200 | 49 800 |
-| Честь | 72 | 144 | 216 |
+| Урон ракет, максимум | {{guide:behaviour.ability:rocket.damage@Dormant Pulse#1}} | {{guide:behaviour.ability:rocket.damage@Dormant Pulse#2}} | {{guide:behaviour.ability:rocket.damage@Dormant Pulse#3}} |
+| Кредиты | {{guide:spoils.pay.credits@Dormant Pulse#1}} | {{guide:spoils.pay.credits@Dormant Pulse#2}} | {{guide:spoils.pay.credits@Dormant Pulse#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Dormant Pulse#1}} | {{guide:spoils.pay.thulium@Dormant Pulse#2}} | {{guide:spoils.pay.thulium@Dormant Pulse#3}} |
+| Опыт (XP) | {{guide:spoils.pay.experience@Dormant Pulse#1}} | {{guide:spoils.pay.experience@Dormant Pulse#2}} | {{guide:spoils.pay.experience@Dormant Pulse#3}} |
+| Честь | {{guide:spoils.pay.honor@Dormant Pulse#1}} | {{guide:spoils.pay.honor@Dormant Pulse#2}} | {{guide:spoils.pay.honor@Dormant Pulse#3}} |
 | Очки PvE за убийство | 11 | 11 | 11 |
 
 **Добыча**: один контейнер, для пилота, нанёсшего больше всех урона.
 
-| Предмет | Шанс | Количество |
-| :--- | ---: | ---: |
-| Ancient Control Unit | 20% | 1 |
-| Power Core | 20% | 1 |
-| Dark Matter | 20% | 1–5 |
+| Предмет |
+| :--- |
+| {{guide:spoils.box@Dormant Pulse#1;Dormant Pulse#2;Dormant Pulse#3}} |
 
 <!-- dormant-members:end -->

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 74bb4919fe97756e -->
+<!-- wiki-i18n source: 634c9ffbf340dec7 -->
 <!-- wiki-i18n title: Araştırma -->
 # Araştırma {#research}
 
@@ -30,7 +30,7 @@ Bu sayfada teknoloji ağacının tamamı, her teknolojinin süresi, her kaynağ�
 
 <!-- research-centre:end -->
 
-**Schematics.** Bir [Schematics](/wiki/06-Items/Special-Items.md#schematics), süren araştırmadan 24 saat götürür: geriye 24 saat ya da daha azı kalmışsa araştırma hemen biter, daha uzun olan 24 saat kaybeder ve sürer (210 teknolojiden 188’i 24 saat ya da daha kısa sürer, bu yüzden biri onları baştan bitirir; diğer 22’i 2 ila 10 tane ister). Araştırmanın maliyeti başlarken ödenmişti ve geri verilmez, atlanan sürenin yakacağı bilim puanı tankında kalır ve araştırma bitince kuyruğundaki sıradaki teknoloji hemen başlar.
+**Schematics.** Bir [Schematics](/wiki/06-Items/Special-Items.md#schematics), süren araştırmadan 24 saat götürür: geriye 24 saat ya da daha azı kalmışsa araştırma hemen biter, daha uzun olan 24 saat kaybeder ve sürer (212 teknolojiden 190’ı 24 saat ya da daha kısa sürer, bu yüzden biri onları baştan bitirir; diğer 22’i 2 ila 10 tane ister). Araştırmanın maliyeti başlarken ödenmişti ve geri verilmez, atlanan sürenin yakacağı bilim puanı tankında kalır ve araştırma bitince kuyruğundaki sıradaki teknoloji hemen başlar.
 
 **Lazer amfileri ve son kademe.** II ile IV arasındaki kademelerin Damage Amp, Crit Amp ve Penetration Amp eşyaları da diğerleri gibi araştırılan üretimlerdir. Amfi serileri oyuna geldiğinde amfilere sahip olan ya da onları kuyruğa almış olan pilotlar, bu amfilerin her birinin ve altındaki kademelerin teknolojisini aldı. On üç teknoloji başka bir ağacın teknolojisini, Kaynaklar ağacındaki Dark Matter Plate teknolojisini gerektirir, çünkü her yükseltme zincirinin son kademesi dört plaka ve bir Ancient Control Unit ister: IV. kademe Damage Amp, Crit Amp ve Penetration Amp, IV. kademe Absorption Shield Cell ve Capacity Shield Cell, IV. kademe Impulse Thruster ve Momentum Thruster, Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III ve Base CPU II. Bunlardan birini daha önce araştırmış bir pilot onu korur ve plakalarını üretmek için plakanın teknolojisine ihtiyaç duyar. Aşağıdaki ağaç bunun için ok çizmez, ama tablo onu listeler ve oyundaki kart onu adıyla anar ([Dark Matter ve Dark Matter plakaları](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -98,6 +98,7 @@ Bir hızlandırmanın, başından itibaren hızlandırılmış bir araştırman�
 | :--- | :--- | ---: | ---: |
 | 30 dk | 15 dk | 1 | 5.000 |
 | 1 sa | 30 dk | 1 | 5.000 |
+| 2 sa | 1 sa | 1 | 5.000 |
 | 3 sa | 1 sa 30 dk | 1 | 5.000 |
 | 4 sa | 2 sa | 1 | 5.000 |
 | 6 sa | 3 sa | 1 | 5.000 |
@@ -335,10 +336,13 @@ Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600
 Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 Mine II | consumable, rare | craft 200 Thulium, 120 s | research 10800 s, 10800 science | 2 Mine I, 3 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#mine
 Mine III | consumable, epic | craft 400 Thulium, 300 s | research 21600 s, 21600 science | 2 Mine II, 8 Ship Fragment, 1 Reinforced Hull Plate, 2 Power Core | /wiki/06-Items/Extras.md#mine
+Organic Scanner I | extra, rare | craft 20000 Credits, 10000 Thulium, 600 s | research 1800 s, 1800 science | 60 Ship Fragment, 2 Power Core, 1 Ancient Control Unit, 5 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+Organic Scanner II | extra, epic | craft 50000 Credits, 20000 Thulium, 900 s | research 7200 s, 7200 science | 1 Organic Scanner I, 2 Lurker Fang, 2 Angler Lure, 1 Leviathan Scale | /wiki/06-Items/Extras.md
 
 Extra Slots CPU I => Extra Slots CPU II => Extra Slots CPU III
 Base CPU I => Base CPU II => Jump CPU
 Mine II => Mine III
+Organic Scanner I => Organic Scanner II
 ```
 
 ### Savunma {#tree-defence}
@@ -582,18 +586,20 @@ Araştırma görünümünün Pilot grubunda, üretim olmayan teknolojiler vardı
 | [Miyuki III](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki II](/wiki/02-Ships/Miyuki.md) | D | 1 g | 86.400 | 10 |
 | [Miyuki IV](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki III](/wiki/02-Ships/Miyuki.md) | D | 2 g | 172.800 | 10 |
 | [Miyuki V](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki IV](/wiki/02-Ships/Miyuki.md) | D | 2 g | 172.800 | 10 |
+| [Organic Scanner I](/wiki/06-Items/Extras.md) | – | A | 30 dk | 1.800 | – |
+| [Organic Scanner II](/wiki/06-Items/Extras.md) | [Organic Scanner I](/wiki/06-Items/Extras.md) | B | 2 sa | 7.200 | – |
 
 Sınıflar, araştırma süresine göre:
 
 | Sınıf | Araştırma süresi | Teknolojiler | Art arda | Bilim puanı | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| A | 30 dk – 1 sa | 17 | 9 sa 30 dk | 34.200 | 0 |
-| B | 3 sa – 6 sa | 37 | 5 g 20 sa | 504.000 | 0 |
+| A | 30 dk – 1 sa | 18 | 10 sa | 36.000 | 0 |
+| B | 2 sa – 6 sa | 38 | 5 g 22 sa | 511.200 | 0 |
 | C | 8 sa – 10 sa | 20 | 8 g 4 sa | 705.600 | 95 |
 | D | 16 sa – 10 g | 35 | 60 g 16 sa | 5.241.600 | 379 |
-| Tümü |  | 109 | 75 g 1 sa 30 dk | 6.485.400 | 474 |
+| Tümü |  | 111 | 75 g 4 sa | 6.494.400 | 474 |
 
-Art arda araştırılırsa tüm ağaç 75 g 1 sa 30 dk sürer. Hızlandırma her zaman açıkken 37 g 12 sa 45 dk sürer, bu da 38 hızlandırma ve 190.000 Thulium eder; bilim puanı aynıdır.
+Art arda araştırılırsa tüm ağaç 75 g 4 sa sürer. Hızlandırma her zaman açıkken 37 g 14 sa sürer, bu da 38 hızlandırma ve 190.000 Thulium eder; bilim puanı aynıdır.
 
 <!-- research-technologies:end -->
 
@@ -617,6 +623,8 @@ Yeni CPU’lar da burada araştırılır, sonra Montaj’da üretilir. Aynı tab
 | [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 sa | – | 20.000 | 15 dk |
 | [Mine II](/wiki/06-Items/Extras.md#mine) | 3 sa | – | 200 | 2 dk |
 | [Mine III](/wiki/06-Items/Extras.md#mine) | 6 sa | [Mine II](/wiki/06-Items/Extras.md#mine) | 400 | 5 dk |
+| [Organic Scanner I](/wiki/06-Items/Extras.md) | 30 dk | – | 10.000 | 10 dk |
+| [Organic Scanner II](/wiki/06-Items/Extras.md) | 2 sa | [Organic Scanner I](/wiki/06-Items/Extras.md) | 20.000 | 15 dk |
 
 Hiçbiri Mağaza’da satılmaz: önce teknolojiyi araştır, sonra Montaj’da CPU üret. Montaj’ın istediği malzemeleri görmek üzere ağaçtaki CPU simgesinin üzerine gel.
 

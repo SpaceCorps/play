@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: bb8bc80ba6889fba -->
+<!-- wiki-i18n source: fcba1b51b68a9123 -->
 <!-- wiki-i18n title: Dormant 무리 -->
 # Dormant 무리 {#dormant-swarm}
 
-Dormant 무리는 **Dormant Force**와 그 **Dormant Pulse**로 이루어진 함선 집단으로, 먼저 싸움을 걸지는 않지만 깨어나면 매우 강하게 때립니다. 월드마다 하나뿐입니다. 위험 섹터를 하나씩 옮겨 다니며, 무리 중에서 가장 힘든 전투와 가장 풍부한 전리품을 가진, 최강 함선들의 대규모 그룹을 위한 싸움입니다. 시즌 11일차부터는 `DS-4`의 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)에서 시작하고, 더 일찍 돌아오며, 보상이 두 배입니다(*한눈에 보기* 목록 참고).
+Dormant 무리는 **Dormant Force**와 그 **Dormant Pulse**로 이루어진 함선 집단으로, 먼저 싸움을 걸지는 않지만 깨어나면 매우 강하게 때립니다. 월드마다 위험 섹터에 하나뿐입니다([Deep Void](/wiki/03-Mechanics/Deep-Void.md#the-dormant-swarms-visit)에는 하루에 한 번 오는 별도의 방문이 있습니다). 위험 섹터를 하나씩 옮겨 다니며, 무리 중에서 가장 힘든 전투와 가장 풍부한 전리품을 가진, 최강 함선들의 대규모 그룹을 위한 싸움입니다. 시즌 11일차부터는 `DS-4`의 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)에서 시작하고, 더 일찍 돌아오며, 보상이 두 배입니다(*한눈에 보기* 목록 참고).
 
 ## 한눈에 보기 {#at-a-glance}
 
@@ -18,7 +18,7 @@ Dormant 무리는 **Dormant Force**와 그 **Dormant Pulse**로 이루어진 함
 - **리더 격파 후**: Dormant Pulse가 리더를 이어받음
 - **리더 격파 후**: 리더가 격파되고 30초 뒤에 부하는 사라집니다. 공격 중이어도 마찬가지입니다
 - **이동**: 한 맵에 8~15분 동안 머문 뒤 다른 위험 섹터의 게이트로 날아갑니다. 위험 섹터 밖으로 나가는 게이트는 절대 쓰지 않고, 블랙홀의 고리 안으로도 들어가지 않습니다
-- **복귀**: 무리 전체가 격파되고 1시간 뒤, 무작위 위험 섹터에서
+- **복귀**: 무리 전체가 격파되고 {{guide:vitals.respawn@Dormant Force#1;Dormant Force#2;Dormant Force#3}} 뒤, 무작위 위험 섹터에서
 - **시즌 11일차부터**: 무작위 위험 섹터 대신 `DS-4`의 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)에 나타나고, 무리 전체가 격파되고 30분 뒤에 돌아오며, 모든 함선의 보상이 ×2가 됩니다(크레딧, Thulium, XP, 명예. 드랍은 그대로입니다)
 - **알림**: 월드 전체의 파일럿에게 무리가 나타날 때와 격파될 때 알려 줍니다. 이 줄들은 시스템 줄입니다. 채팅의 **시스템** 탭에 읽지 않은 줄 수와 함께 표시되고, **전체** 탭이나 **지역** 탭에는 나오지 않습니다. 위험 섹터 맵과 은하 지도에 표시가 뜹니다. 킬 피드에 처치 공로를 인정받은 파일럿의 이름이 나옵니다.
 
@@ -38,6 +38,19 @@ Dormant 무리는 **Dormant Force**와 그 **Dormant Pulse**로 이루어진 함
 - **승부는 레이저가 가릅니다.** 합치면 로켓 없이도 1분이 안 되어 Paragon을 격파할 수 있고, 최고의 실드를 갖춘 Paragon도 2분이 안 되어 격파합니다. 가진 최고의 실드로 피해를 빠르게 입히세요.
 - **한 척씩.** 각 함선은 자체 선체와 자체 보상이 있으므로 Force나 Pulse가 먼저 격파될 수 있습니다. 무리는 전체가 격파되었을 때만 교체되며, *한눈에 보기* 목록의 시간이 지난 뒤입니다.
 
+## 대장의 세 단계 {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+이 전투에는 세 단계가 있습니다([작동 방식](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)). 각각 한 번씩만 일어납니다.
+
+- **시작 시**: Dormant Pulses 중 하나라도 살아 있는 동안 모든 공격의 70%만 받습니다.
+- **삼분의 이 아래**: Dormant Pulses이(가) 15초 동안 2.5초마다 로켓을 쏩니다.
+- **삼분의 일 아래**: Dormant Pulses이(가) 모두 살아 있는 동안 6초 동안 매초 선체의 5%만큼 회복시켜 줍니다.
+
+<!-- mob-ladder:end -->
+
 ## 보상과 전리품 {#rewards-and-drops}
 
 각 함선은 입은 피해량에 따라 따로 보상을 지급하며([보스 처치 보상](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)), 각각 가장 많은 피해를 입힌 파일럿을 위한 상자를 떨어뜨립니다. **Force의 상자**가 상품으로, 대량의 x3과 x4 탄약, 한 종류의 영웅 등급 로켓, 그리고 가끔 N.I.K.E.나 N.U.K.E.가 들어 있습니다. **Pulse**는 Ancient Control Unit, Power Core, Dark Matter를 떨어뜨릴 수 있습니다. 이 무리와 1분 싸우면 가장 보상이 큰 외계인인 Crystalys와 1분 싸우는 것보다 보상이 많습니다. 시즌 11일차부터 모든 함선의 보상이 두 배입니다(*한눈에 보기* 목록 참고). 상자는 그대로입니다.
@@ -55,27 +68,24 @@ Dormant 무리는 **Dormant Force**와 그 **Dormant Pulse**로 이루어진 함
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 선체 | 256,000 | 384,000 | 512,000 |
-| 실드 | 83,400 | 125,100 | 166,800 |
-| 레이저 피해량(초당 일제 사격 1회) | 3,315 | 4,973 | 6,630 |
-| 속도 | 210 | 210 | 210 |
+| 선체 | {{guide:vitals.hull@Dormant Force#1}} | {{guide:vitals.hull@Dormant Force#2}} | {{guide:vitals.hull@Dormant Force#3}} |
+| 실드 | {{guide:vitals.shield@Dormant Force#1}} | {{guide:vitals.shield@Dormant Force#2}} | {{guide:vitals.shield@Dormant Force#3}} |
+| 레이저 피해량(초당 일제 사격 1회) | {{guide:vitals.dps@Dormant Force#1}} | {{guide:vitals.dps@Dormant Force#2}} | {{guide:vitals.dps@Dormant Force#3}} |
+| 속도 | {{guide:vitals.speed@Dormant Force#1}} | {{guide:vitals.speed@Dormant Force#2}} | {{guide:vitals.speed@Dormant Force#3}} |
 | 레이저 사거리 | 800 | 800 | 800 |
 | 어그로 반경 | 공격받을 때만 | 공격받을 때만 | 공격받을 때만 |
-| 로켓 피해량(최대) | 7,500 | 11,250 | 15,000 |
-| 크레딧 | 185,000 | 370,000 | 555,000 |
-| Thulium | 485 | 970 | 1,455 |
-| 경험치(XP) | 29,200 | 58,400 | 87,600 |
-| 명예 | 127 | 254 | 381 |
+| 로켓 피해량(최대) | {{guide:behaviour.ability:rocket.damage@Dormant Force#1}} | {{guide:behaviour.ability:rocket.damage@Dormant Force#2}} | {{guide:behaviour.ability:rocket.damage@Dormant Force#3}} |
+| 크레딧 | {{guide:spoils.pay.credits@Dormant Force#1}} | {{guide:spoils.pay.credits@Dormant Force#2}} | {{guide:spoils.pay.credits@Dormant Force#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Dormant Force#1}} | {{guide:spoils.pay.thulium@Dormant Force#2}} | {{guide:spoils.pay.thulium@Dormant Force#3}} |
+| 경험치(XP) | {{guide:spoils.pay.experience@Dormant Force#1}} | {{guide:spoils.pay.experience@Dormant Force#2}} | {{guide:spoils.pay.experience@Dormant Force#3}} |
+| 명예 | {{guide:spoils.pay.honor@Dormant Force#1}} | {{guide:spoils.pay.honor@Dormant Force#2}} | {{guide:spoils.pay.honor@Dormant Force#3}} |
 | 처치당 PvE 포인트 | 25 | 25 | 25 |
 
 **전리품**: 가장 많은 피해를 입힌 파일럿을 위한 상자 하나.
 
-| 아이템 | 확률 | 수량 |
-| :--- | ---: | ---: |
-| Ultra Core와 Experimental Fusion Core(균등 분배) | 100% | 총 2,000–3,000 |
-| 4종의 영웅 등급 [로켓](/wiki/06-Items/Rockets.md) 중 무작위 하나 | 100% | 30–50 |
-| [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets)와 [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) 중 무작위 하나 | 50% | 1 |
-| Heartshard | 5% | 1 |
+| 아이템 |
+| :--- |
+| {{guide:spoils.box@Dormant Force#1;Dormant Force#2;Dormant Force#3}} |
 
 ### Dormant Pulse
 
@@ -83,25 +93,23 @@ Dormant 무리는 **Dormant Force**와 그 **Dormant Pulse**로 이루어진 함
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 선체 | 128,000 | 192,000 | 256,000 |
-| 실드 | 64,570 | 96,855 | 129,140 |
-| 레이저 피해량(초당 일제 사격 1회) | 5,100 | 7,650 | 10,200 |
-| 속도 | 270 | 270 | 270 |
+| 선체 | {{guide:vitals.hull@Dormant Pulse#1}} | {{guide:vitals.hull@Dormant Pulse#2}} | {{guide:vitals.hull@Dormant Pulse#3}} |
+| 실드 | {{guide:vitals.shield@Dormant Pulse#1}} | {{guide:vitals.shield@Dormant Pulse#2}} | {{guide:vitals.shield@Dormant Pulse#3}} |
+| 레이저 피해량(초당 일제 사격 1회) | {{guide:vitals.dps@Dormant Pulse#1}} | {{guide:vitals.dps@Dormant Pulse#2}} | {{guide:vitals.dps@Dormant Pulse#3}} |
+| 속도 | {{guide:vitals.speed@Dormant Pulse#1}} | {{guide:vitals.speed@Dormant Pulse#2}} | {{guide:vitals.speed@Dormant Pulse#3}} |
 | 레이저 사거리 | 800 | 800 | 800 |
 | 어그로 반경 | 공격받을 때만 | 공격받을 때만 | 공격받을 때만 |
-| 로켓 피해량(최대) | 5,000 | 7,500 | 10,000 |
-| 크레딧 | 105,000 | 210,000 | 315,000 |
-| Thulium | 275 | 550 | 825 |
-| 경험치(XP) | 16,600 | 33,200 | 49,800 |
-| 명예 | 72 | 144 | 216 |
+| 로켓 피해량(최대) | {{guide:behaviour.ability:rocket.damage@Dormant Pulse#1}} | {{guide:behaviour.ability:rocket.damage@Dormant Pulse#2}} | {{guide:behaviour.ability:rocket.damage@Dormant Pulse#3}} |
+| 크레딧 | {{guide:spoils.pay.credits@Dormant Pulse#1}} | {{guide:spoils.pay.credits@Dormant Pulse#2}} | {{guide:spoils.pay.credits@Dormant Pulse#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Dormant Pulse#1}} | {{guide:spoils.pay.thulium@Dormant Pulse#2}} | {{guide:spoils.pay.thulium@Dormant Pulse#3}} |
+| 경험치(XP) | {{guide:spoils.pay.experience@Dormant Pulse#1}} | {{guide:spoils.pay.experience@Dormant Pulse#2}} | {{guide:spoils.pay.experience@Dormant Pulse#3}} |
+| 명예 | {{guide:spoils.pay.honor@Dormant Pulse#1}} | {{guide:spoils.pay.honor@Dormant Pulse#2}} | {{guide:spoils.pay.honor@Dormant Pulse#3}} |
 | 처치당 PvE 포인트 | 11 | 11 | 11 |
 
 **전리품**: 가장 많은 피해를 입힌 파일럿을 위한 상자 하나.
 
-| 아이템 | 확률 | 수량 |
-| :--- | ---: | ---: |
-| Ancient Control Unit | 20% | 1 |
-| Power Core | 20% | 1 |
-| Dark Matter | 20% | 1–5 |
+| 아이템 |
+| :--- |
+| {{guide:spoils.box@Dormant Pulse#1;Dormant Pulse#2;Dormant Pulse#3}} |
 
 <!-- dormant-members:end -->

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ed1159b36e9dc853 -->
+<!-- wiki-i18n source: 33448f95d2520b3a -->
 <!-- wiki-i18n title: Pirate の群れ -->
 # Pirate の群れ {#pirate-swarm}
 
@@ -17,14 +17,14 @@ Pirate の群れは、**Pirate Boss** とその **Pirate Scout** からなりま
 - **配下がとどまる範囲**：リーダーから900ユニット以内
 - **回復**：リーダーから600ユニット以内にいる Pirate Scout は1体ごとにリーダーの船体を回復します（Alpha では毎秒 40 HP）
 - **リーダー撃破後**：リーダーが撃破されてから1分後に配下は去ります。ただし攻撃している間は残ります
-- **復活**：リーダー撃破の 2分 後、 同じセクター
+- **復活**：リーダー撃破の {{guide:vitals.respawn@Pirate Boss#1;Pirate Boss#2;Pirate Boss#3}} 後、 同じセクター
 - **通知**：そのセクターのパイロットは、リーダーが現れたときと撃破されたときに知らされます。これらはシステムの行です。チャットの**システム**タブに未読数付きで表示され、**全体**タブや**ローカル**タブには出ません。キルフィードに、撃破の功績を得たパイロットの名前が出ます。
 
 <!-- pirate-glance:end -->
 
 ## メンバー {#the-members}
 
-- **Pirate Boss**：Ironclad を土台にした艦で、その強さの一部を持っています（数値は下にあります）。非攻撃的で、**レーザーは撃ちません**。唯一の武器は**直進ロケット**で（[ロケット](/wiki/06-Items/Rockets.md)。どれが使われるかはセクターで決まります。表を参照）、自分を攻撃したパイロットに撃ち、撃っている間もうろつき続けます。自分で船体を修復することはありません。
+- **Pirate Boss**：Ironclad を土台にした艦で、その強さの一部を持っています（数値は下にあります）。非攻撃的で、**レーザーは撃ちません**。唯一の武器は**直進ロケット**で（[ロケット](/wiki/06-Items/Rockets.md)。どれが使われるかはセクターで決まります。表を参照）、自分を攻撃したパイロットに撃ち、撃っている間もうろつき続けます。自分で船体を修復することはありません。その[3つの段階](#the-leaders-three-steps)と[特殊能力](/wiki/03-Mechanics/Special-Abilities.md)は、これを変えることがあります。
 - **Pirate Scout**：Kitefin を土台にした艦で、その強さの一部を持っています。Scout は近づいてきたパイロットを誰でも攻撃し、ボスのそばにとどまり、ボスの近くにいる Scout は1体ごとにボスの船体を回復します。
 
 ## 戦いの流れ {#how-the-fight-goes}
@@ -34,6 +34,19 @@ Pirate の群れは、**Pirate Boss** とその **Pirate Scout** からなりま
 - **動き続けましょう。** ボスのロケットは直進で誘導されません。動き続ける艦はかわせますが、止まっている艦には当たります。
 - **グループを組みましょう。** Ostirion に乗った3人のパイロットは、x2 弾薬で `x-2` なら1隻も失わずに勝てますが、ぎりぎりです。`x-3` では、被弾が分散していても撃破されます。4人なら Alpha でおよそ3分で倒せます。x4 弾薬なら `x-3` では3人でおよそ2分で倒せます。5人なら、被弾が分散していればおよそ2分半、1人のパイロットが攻撃を全部受ける場合はおよそ3分で倒せますが、その場合は2隻を失います。1人のパイロットが攻撃を全部受けてしまうグループには5人が必要です。Beta では5人、Gamma では7人必要です（被弾が分散している場合。ボスはそこでより大きく、Scout の回復も多くなります）。Alpha の `x-3` で x2 弾薬を使う場合、Ostirion 1隻では倒せず、Paragon 1隻でも倒せず、Paragon 2隻なら安全に倒せます。Beta と Gamma の `x-3` では、x2 弾薬でも x4 弾薬でも Paragon 1隻だけでは撃破されます。ボスは最初に攻撃したパイロットに応じるので、いちばん頑丈な艦に最初に攻撃させ、これだけ長い戦いではアビリティ（Emergency Repair、Shield Surge：[アビリティ](/wiki/03-Mechanics/Abilities.md)）を使いましょう。まだレベル 2 や 3 のパイロットは、自分が飛ぶセクターであっても弱すぎます。強くなるまで近づかないでください。
 - **ボスは戻ってきます。** *ひと目で*の一覧の時間がたつと、同じセクターに現れます。
+
+## リーダーの3つの段階 {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+その戦いには三つの段階があります([しくみ](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps))。それぞれ一度だけ起こります。
+
+- **開始時**: 最初に自分を攻撃したパイロットに向けて、12度間隔で3発のロケットを扇状に撃ちます。
+- **三分の二を切ると**: Pirate Scoutsを5体まとめて呼びます。生存は最大10体まで。報酬はなく、45秒後に去ります。
+- **三分の一を切ると**: 10秒の間、速度×1.8で最寄りのゲートへ飛び、その後パイロットに向き直ります。
+
+<!-- mob-ladder:end -->
 
 ## 報酬とドロップ {#rewards-and-drops}
 
@@ -52,26 +65,24 @@ Pirate Boss は、その戦いにふさわしい報酬を払います。Pirate B
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 船体 | 250,000 | 375,000 | 500,000 |
-| シールド | 50,100 | 75,150 | 100,200 |
+| 船体 | {{guide:vitals.hull@Pirate Boss#1}} | {{guide:vitals.hull@Pirate Boss#2}} | {{guide:vitals.hull@Pirate Boss#3}} |
+| シールド | {{guide:vitals.shield@Pirate Boss#1}} | {{guide:vitals.shield@Pirate Boss#2}} | {{guide:vitals.shield@Pirate Boss#3}} |
 | レーザーのダメージ （毎秒1斉射） | なし | なし | なし |
-| 速度 | 100 | 100 | 100 |
+| 速度 | {{guide:vitals.speed@Pirate Boss#1}} | {{guide:vitals.speed@Pirate Boss#2}} | {{guide:vitals.speed@Pirate Boss#3}} |
 | レーザーの射程 | – | – | – |
 | 索敵範囲 | 攻撃時のみ | 攻撃時のみ | 攻撃時のみ |
-| ロケットのダメージ （最大） | 2,500 (Rivet I) / 5,000 (Rivet II) | 3,750 (Rivet I) / 7,500 (Rivet II) | 5,000 (Rivet I) / 10,000 (Rivet II) |
-| クレジット | 145,000 | 290,000 | 435,000 |
-| Thulium | 725 | 1,450 | 2,175 |
-| 経験値（XP） | 29,000 | 58,000 | 87,000 |
-| 名誉 | 232 | 464 | 696 |
+| ロケットのダメージ （最大） | {{guide:behaviour.ability:rocket.damage@Pirate Boss#1}} | {{guide:behaviour.ability:rocket.damage@Pirate Boss#2}} | {{guide:behaviour.ability:rocket.damage@Pirate Boss#3}} |
+| クレジット | {{guide:spoils.pay.credits@Pirate Boss#1}} | {{guide:spoils.pay.credits@Pirate Boss#2}} | {{guide:spoils.pay.credits@Pirate Boss#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Pirate Boss#1}} | {{guide:spoils.pay.thulium@Pirate Boss#2}} | {{guide:spoils.pay.thulium@Pirate Boss#3}} |
+| 経験値（XP） | {{guide:spoils.pay.experience@Pirate Boss#1}} | {{guide:spoils.pay.experience@Pirate Boss#2}} | {{guide:spoils.pay.experience@Pirate Boss#3}} |
+| 名誉 | {{guide:spoils.pay.honor@Pirate Boss#1}} | {{guide:spoils.pay.honor@Pirate Boss#2}} | {{guide:spoils.pay.honor@Pirate Boss#3}} |
 | 撃破1回あたりの PvE ポイント | 15 | 15 | 15 |
 
 **ドロップ**：最もダメージを与えたパイロットのためのコンテナ1つ。
 
-| アイテム | 確率 | 数量 |
-| :--- | ---: | ---: |
-| Reinforced Hull Plate | 50% | 1 |
-| クレジットで買える 4 種の [ロケット](/wiki/06-Items/Rockets.md) のうち 1種 （ランダム） | 100% | 5–10 |
-| Advanced Plasma, Siphon Battery と Siphon Battery II のうち 1つ （ランダム） | 100% | 1,000–2,000 |
+| アイテム |
+| :--- |
+| {{guide:spoils.box@Pirate Boss#1;Pirate Boss#2;Pirate Boss#3}} |
 
 ### Pirate Scout
 
@@ -79,17 +90,17 @@ Pirate Boss は、その戦いにふさわしい報酬を払います。Pirate B
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 船体 | 12,000 | 18,000 | 24,000 |
-| シールド | 9,818 | 14,727 | 19,636 |
-| レーザーのダメージ （毎秒1斉射） | 315 | 473 | 630 |
-| 速度 | 220 | 220 | 220 |
+| 船体 | {{guide:vitals.hull@Pirate Scout#1}} | {{guide:vitals.hull@Pirate Scout#2}} | {{guide:vitals.hull@Pirate Scout#3}} |
+| シールド | {{guide:vitals.shield@Pirate Scout#1}} | {{guide:vitals.shield@Pirate Scout#2}} | {{guide:vitals.shield@Pirate Scout#3}} |
+| レーザーのダメージ （毎秒1斉射） | {{guide:vitals.dps@Pirate Scout#1}} | {{guide:vitals.dps@Pirate Scout#2}} | {{guide:vitals.dps@Pirate Scout#3}} |
+| 速度 | {{guide:vitals.speed@Pirate Scout#1}} | {{guide:vitals.speed@Pirate Scout#2}} | {{guide:vitals.speed@Pirate Scout#3}} |
 | レーザーの射程 | 700 | 700 | 700 |
-| 索敵範囲 | 700 | 700 | 700 |
+| 索敵範囲 | {{guide:vitals.aggro@Pirate Scout#1}} | {{guide:vitals.aggro@Pirate Scout#2}} | {{guide:vitals.aggro@Pirate Scout#3}} |
 | リーダーを回復 （1体ごとに毎秒、 船体のみ） | 40 | 60 | 80 |
-| クレジット | 1,000 | 2,000 | 3,000 |
-| Thulium | 4 | 8 | 12 |
-| 経験値（XP） | 100 | 200 | 300 |
-| 名誉 | 2 | 4 | 6 |
+| クレジット | {{guide:spoils.pay.credits@Pirate Scout#1}} | {{guide:spoils.pay.credits@Pirate Scout#2}} | {{guide:spoils.pay.credits@Pirate Scout#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Pirate Scout#1}} | {{guide:spoils.pay.thulium@Pirate Scout#2}} | {{guide:spoils.pay.thulium@Pirate Scout#3}} |
+| 経験値（XP） | {{guide:spoils.pay.experience@Pirate Scout#1}} | {{guide:spoils.pay.experience@Pirate Scout#2}} | {{guide:spoils.pay.experience@Pirate Scout#3}} |
+| 名誉 | {{guide:spoils.pay.honor@Pirate Scout#1}} | {{guide:spoils.pay.honor@Pirate Scout#2}} | {{guide:spoils.pay.honor@Pirate Scout#3}} |
 | 撃破1回あたりの PvE ポイント | 4 | 4 | 4 |
 
 **ドロップ**：なし。撃破で支払われるのはクレジット、Thulium、経験値、名誉だけです。

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7859e3f6a7efac1e -->
+<!-- wiki-i18n source: 38ffa8ba7cbf5000 -->
 <!-- wiki-i18n title: Goombah-svärm -->
 # Goombah-svärm {#goombah-swarm}
 
@@ -17,14 +17,14 @@ Goombah-svärmen är en **Boss Goombah** med sina **Goombah Guards**: en jättel
 - **Följeslagarna håller sig inom**: högst 500 enheter från ledaren
 - **Läkning**: Varje Goombah Guard inom 600 enheter från ledaren läker dess skrov, 110 HP per sekund i Alpha
 - **När ledaren förstörs**: Följeslagarna försvinner 30 s efter att ledaren förstörts, om de inte just attackerar
-- **Kommer tillbaka**: 5 min efter att ledaren förstörts, i samma sektor
+- **Kommer tillbaka**: {{guide:vitals.respawn@Boss Goombah#1;Boss Goombah#2;Boss Goombah#3}} efter att ledaren förstörts, i samma sektor
 - **Meddelanden**: Piloterna i sektorn får veta när ledaren dyker upp och när den förstörs. Det är systemrader: de syns på chattens flik **System**, med en räknare för olästa rader, och inte i **Global** eller **Lokal**. Dödsloggen nämner piloten som nedskjutningen tillskrivs.
 
 <!-- goombah-glance:end -->
 
 ## Medlemmarna {#the-members}
 
-- **Boss Goombah**: en större Goombah, i svärmens nyans och med sitt namn ovanför, med eget skrov, egen sköld och egen lasersalva (värdena står nedan). Den är passiv: den drar omkring tills en pilot träffar den, går sedan efter den piloten och skjuter, och svärmens skepp i närheten ansluter sig till striden. Vapnets räckvidd och hastigheten är desamma som hos en Goombah, och den reparerar aldrig sitt skrov själv.
+- **Boss Goombah**: en större Goombah, i svärmens nyans och med sitt namn ovanför, med eget skrov, egen sköld och egen lasersalva (värdena står nedan). Den är passiv: den drar omkring tills en pilot träffar den, går sedan efter den piloten och skjuter, och svärmens skepp i närheten ansluter sig till striden. Vapnets räckvidd och hastigheten är desamma som hos en Goombah, och den reparerar aldrig sitt skrov själv. Dess [tre steg](#the-leaders-three-steps) och en [specialförmåga](/wiki/03-Mechanics/Special-Abilities.md) kan ändra på det.
 - **Goombah Guard**: en mindre Goombah i svärmens nyans. Guards håller sig nära bossen, ansluter sig till striden när ett svärmskepp i närheten träffas, och var och en som är nära bossen läker dess skrov. En Guard reparerar sitt eget skrov efter en vila, som en Goombah gör.
 
 ## Hur striden går till {#how-the-fight-goes}
@@ -34,6 +34,19 @@ Goombah-svärmen är en **Boss Goombah** med sina **Goombah Guards**: en jättel
 - **Beta och Gamma är hårdare.** Svärmarna i de världarna är starkare ([Världar](/wiki/05-Swarms/Swarms.md#the-worlds)), så de kräver fler piloter eller bättre ammunition.
 - **Håll koll på sektorn.** `x-4` är en PvP-sektor i Alpha, och `x-3` och `x-4` är det i Beta och Gamma ([Världar](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)): en rival kan ansluta sig till striden eller vänta på lådan. Låt ett skepp i gruppen hålla utkik.
 - **Bossen kommer tillbaka** efter tiden i listan *I korthet*, vid full styrka, i samma sektor, och dess Guards kommer en efter en.
+
+## Ledarens tre steg {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Striden har tre steg ([hur de fungerar](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); vart och ett sker en gång.
+
+- **I början**: Tar 50 % av varje träff i 6 s.
+- **Under två tredjedelar**: Dess skada multipliceras med ×1,5 och dess fart med ×1,25 i 10 s.
+- **Under en tredjedel**: Läker 25 % av skrovet och skölden (en skadestöt bryter det), och dess Goombah Guards läker den ×2 så fort under tiden.
+
+<!-- mob-ladder:end -->
 
 ## Belöningar och byte {#rewards-and-drops}
 
@@ -52,30 +65,23 @@ Bygger på Goombah med 400 % av skrovet och 100 % av laserskadan; hastighet oc
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Skrov | 128 000 | 192 000 | 256 000 |
-| Sköld | 192 000 | 288 000 | 384 000 |
-| Laserskada (en salva per sekund) | 3 000 | 4 500 | 6 000 |
-| Hastighet | 180 | 180 | 180 |
+| Skrov | {{guide:vitals.hull@Boss Goombah#1}} | {{guide:vitals.hull@Boss Goombah#2}} | {{guide:vitals.hull@Boss Goombah#3}} |
+| Sköld | {{guide:vitals.shield@Boss Goombah#1}} | {{guide:vitals.shield@Boss Goombah#2}} | {{guide:vitals.shield@Boss Goombah#3}} |
+| Laserskada (en salva per sekund) | {{guide:vitals.dps@Boss Goombah#1}} | {{guide:vitals.dps@Boss Goombah#2}} | {{guide:vitals.dps@Boss Goombah#3}} |
+| Hastighet | {{guide:vitals.speed@Boss Goombah#1}} | {{guide:vitals.speed@Boss Goombah#2}} | {{guide:vitals.speed@Boss Goombah#3}} |
 | Laserräckvidd | 800 | 800 | 800 |
 | Aggroradie | bara när den attackeras | bara när den attackeras | bara när den attackeras |
-| Krediter | 120 000 | 240 000 | 360 000 |
-| Thulium | 600 | 1 200 | 1 800 |
-| Erfarenhet (XP) | 24 000 | 48 000 | 72 000 |
-| Heder | 192 | 384 | 576 |
+| Krediter | {{guide:spoils.pay.credits@Boss Goombah#1}} | {{guide:spoils.pay.credits@Boss Goombah#2}} | {{guide:spoils.pay.credits@Boss Goombah#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Boss Goombah#1}} | {{guide:spoils.pay.thulium@Boss Goombah#2}} | {{guide:spoils.pay.thulium@Boss Goombah#3}} |
+| Erfarenhet (XP) | {{guide:spoils.pay.experience@Boss Goombah#1}} | {{guide:spoils.pay.experience@Boss Goombah#2}} | {{guide:spoils.pay.experience@Boss Goombah#3}} |
+| Heder | {{guide:spoils.pay.honor@Boss Goombah#1}} | {{guide:spoils.pay.honor@Boss Goombah#2}} | {{guide:spoils.pay.honor@Boss Goombah#3}} |
 | PvE-poäng per nedskjutning | 14 | 14 | 14 |
 
 **Byte**: en låda, för piloten som gjorde mest skada.
 
-| Föremål | Chans | Mängd |
-| :--- | ---: | ---: |
-| Ship Fragment | 100 % på vart och ett av 8 slag | 3 |
-| Reinforced Hull Plate | 60 % på vart och ett av 8 slag | 1 |
-| Power Core | 25 % på vart och ett av 8 slag | 1 |
-| Cataclysite | 100 % på vart och ett av 8 slag | 4 |
-| Quorvium | 100 % på vart och ett av 8 slag | 2–4 |
-| Advanced Plasma | 100 % | 100–200 |
-| Ultra Core | 100 % | 100–200 |
-| En av de 4 [raketer](/wiki/06-Items/Rockets.md) som köps med krediter, slumpmässigt vald | 100 % | 6–10 |
+| Föremål |
+| :--- |
+| {{guide:spoils.box@Boss Goombah#1;Boss Goombah#2;Boss Goombah#3}} |
 
 ### Goombah Guard
 
@@ -83,17 +89,17 @@ Bygger på Goombah med 20 % av skrov, sköld och skada; hastighet och räckvidd
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Skrov | 6 400 | 9 600 | 12 800 |
-| Sköld | 9 600 | 14 400 | 19 200 |
-| Laserskada (en salva per sekund) | 600 | 900 | 1 200 |
-| Hastighet | 180 | 180 | 180 |
+| Skrov | {{guide:vitals.hull@Goombah Guard#1}} | {{guide:vitals.hull@Goombah Guard#2}} | {{guide:vitals.hull@Goombah Guard#3}} |
+| Sköld | {{guide:vitals.shield@Goombah Guard#1}} | {{guide:vitals.shield@Goombah Guard#2}} | {{guide:vitals.shield@Goombah Guard#3}} |
+| Laserskada (en salva per sekund) | {{guide:vitals.dps@Goombah Guard#1}} | {{guide:vitals.dps@Goombah Guard#2}} | {{guide:vitals.dps@Goombah Guard#3}} |
+| Hastighet | {{guide:vitals.speed@Goombah Guard#1}} | {{guide:vitals.speed@Goombah Guard#2}} | {{guide:vitals.speed@Goombah Guard#3}} |
 | Laserräckvidd | 800 | 800 | 800 |
 | Aggroradie | bara när den attackeras | bara när den attackeras | bara när den attackeras |
 | Läker ledaren, var och en, per sekund (bara skrovet) | 110 | 165 | 220 |
-| Krediter | 125 | 250 | 375 |
-| Thulium | 1 | 2 | 3 |
-| Erfarenhet (XP) | 12 | 24 | 36 |
-| Heder | 1 | 2 | 3 |
+| Krediter | {{guide:spoils.pay.credits@Goombah Guard#1}} | {{guide:spoils.pay.credits@Goombah Guard#2}} | {{guide:spoils.pay.credits@Goombah Guard#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Goombah Guard#1}} | {{guide:spoils.pay.thulium@Goombah Guard#2}} | {{guide:spoils.pay.thulium@Goombah Guard#3}} |
+| Erfarenhet (XP) | {{guide:spoils.pay.experience@Goombah Guard#1}} | {{guide:spoils.pay.experience@Goombah Guard#2}} | {{guide:spoils.pay.experience@Goombah Guard#3}} |
+| Heder | {{guide:spoils.pay.honor@Goombah Guard#1}} | {{guide:spoils.pay.honor@Goombah Guard#2}} | {{guide:spoils.pay.honor@Goombah Guard#3}} |
 | PvE-poäng per nedskjutning | 3 | 3 | 3 |
 
 **Byte**: inget. Nedskjutningen betalar bara sina krediter, sitt Thulium, sin XP och sin heder.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7859e3f6a7efac1e -->
+<!-- wiki-i18n source: 38ffa8ba7cbf5000 -->
 <!-- wiki-i18n title: Goombah の群れ -->
 # Goombah の群れ {#goombah-swarm}
 
@@ -17,14 +17,14 @@ Goombah の群れは、**Boss Goombah** とその **Goombah Guard** からなり
 - **配下がとどまる範囲**：リーダーから500ユニット以内
 - **回復**：リーダーから600ユニット以内にいる Goombah Guard は1体ごとにリーダーの船体を回復します（Alpha では毎秒 110 HP）
 - **リーダー撃破後**：リーダーが撃破されてから30秒後に配下は去ります。ただし攻撃している間は残ります
-- **復活**：リーダー撃破の 5分 後、 同じセクター
+- **復活**：リーダー撃破の {{guide:vitals.respawn@Boss Goombah#1;Boss Goombah#2;Boss Goombah#3}} 後、 同じセクター
 - **通知**：そのセクターのパイロットは、リーダーが現れたときと撃破されたときに知らされます。これらはシステムの行です。チャットの**システム**タブに未読数付きで表示され、**全体**タブや**ローカル**タブには出ません。キルフィードに、撃破の功績を得たパイロットの名前が出ます。
 
 <!-- goombah-glance:end -->
 
 ## メンバー {#the-members}
 
-- **Boss Goombah**: 群れの色合いを帯び、頭上に名前が表示される、より大きな Goombah で、独自の船体、シールド、レーザーの一斉射撃を持ちます（数値は下にあります）。非攻撃的で、パイロットに攻撃されるまでうろつき、攻撃されるとそのパイロットを追って発砲し、近くにいる群れの艦が戦いに加わります。武器の射程と速度は Goombah と同じで、自分で船体を修復することはありません。
+- **Boss Goombah**: 群れの色合いを帯び、頭上に名前が表示される、より大きな Goombah で、独自の船体、シールド、レーザーの一斉射撃を持ちます（数値は下にあります）。非攻撃的で、パイロットに攻撃されるまでうろつき、攻撃されるとそのパイロットを追って発砲し、近くにいる群れの艦が戦いに加わります。武器の射程と速度は Goombah と同じで、自分で船体を修復することはありません。その[3つの段階](#the-leaders-three-steps)と[特殊能力](/wiki/03-Mechanics/Special-Abilities.md)は、これを変えることがあります。
 - **Goombah Guard**: 群れの色合いを帯びた、より小さな Goombah です。Guard はボスのそばにとどまり、近くの群れの艦が攻撃されると戦いに加わり、ボスの近くにいる Guard は1体ごとにボスの船体を回復します。Guard は Goombah と同じように、しばらく休むと自分の船体を修復します。
 
 ## 戦いの流れ {#how-the-fight-goes}
@@ -34,6 +34,19 @@ Goombah の群れは、**Boss Goombah** とその **Goombah Guard** からなり
 - **Beta と Gamma はもっと手強いです。** これらのワールドの群れは強いので（[ワールド](/wiki/05-Swarms/Swarms.md#the-worlds)）、より多くのパイロットか、より良い弾薬が必要です。
 - **セクターに気をつけましょう。** `x-4` は Alpha では PvP セクターで、Beta と Gamma では `x-3` と `x-4` がそうです（[ワールド](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)）。ライバルが戦いに加わったり、コンテナを待ち構えたりすることがあります。グループの1隻を見張りに残しましょう。
 - **ボスは戻ってきます。** *ひと目で*の一覧の時間がたつと、同じセクターに全快の状態で現れ、Guard は1体ずつ順に現れます。
+
+## リーダーの3つの段階 {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+その戦いには三つの段階があります([しくみ](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps))。それぞれ一度だけ起こります。
+
+- **開始時**: 6秒の間、あらゆる攻撃の50%しか受けません。
+- **三分の二を切ると**: 10秒の間、ダメージは×1.5、速度は×1.25になります。
+- **三分の一を切ると**: 船体とシールドの25%を回復します(ダメージのバーストで中断されます)。その間、Goombah Guardsが×2の速さで回復させます。
+
+<!-- mob-ladder:end -->
 
 ## 報酬とドロップ {#rewards-and-drops}
 
@@ -52,30 +65,23 @@ Boss Goombah の報酬は、その戦いの重さに見合っています。1分
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 船体 | 128,000 | 192,000 | 256,000 |
-| シールド | 192,000 | 288,000 | 384,000 |
-| レーザーのダメージ （毎秒1斉射） | 3,000 | 4,500 | 6,000 |
-| 速度 | 180 | 180 | 180 |
+| 船体 | {{guide:vitals.hull@Boss Goombah#1}} | {{guide:vitals.hull@Boss Goombah#2}} | {{guide:vitals.hull@Boss Goombah#3}} |
+| シールド | {{guide:vitals.shield@Boss Goombah#1}} | {{guide:vitals.shield@Boss Goombah#2}} | {{guide:vitals.shield@Boss Goombah#3}} |
+| レーザーのダメージ （毎秒1斉射） | {{guide:vitals.dps@Boss Goombah#1}} | {{guide:vitals.dps@Boss Goombah#2}} | {{guide:vitals.dps@Boss Goombah#3}} |
+| 速度 | {{guide:vitals.speed@Boss Goombah#1}} | {{guide:vitals.speed@Boss Goombah#2}} | {{guide:vitals.speed@Boss Goombah#3}} |
 | レーザーの射程 | 800 | 800 | 800 |
 | 索敵範囲 | 攻撃時のみ | 攻撃時のみ | 攻撃時のみ |
-| クレジット | 120,000 | 240,000 | 360,000 |
-| Thulium | 600 | 1,200 | 1,800 |
-| 経験値（XP） | 24,000 | 48,000 | 72,000 |
-| 名誉 | 192 | 384 | 576 |
+| クレジット | {{guide:spoils.pay.credits@Boss Goombah#1}} | {{guide:spoils.pay.credits@Boss Goombah#2}} | {{guide:spoils.pay.credits@Boss Goombah#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Boss Goombah#1}} | {{guide:spoils.pay.thulium@Boss Goombah#2}} | {{guide:spoils.pay.thulium@Boss Goombah#3}} |
+| 経験値（XP） | {{guide:spoils.pay.experience@Boss Goombah#1}} | {{guide:spoils.pay.experience@Boss Goombah#2}} | {{guide:spoils.pay.experience@Boss Goombah#3}} |
+| 名誉 | {{guide:spoils.pay.honor@Boss Goombah#1}} | {{guide:spoils.pay.honor@Boss Goombah#2}} | {{guide:spoils.pay.honor@Boss Goombah#3}} |
 | 撃破1回あたりの PvE ポイント | 14 | 14 | 14 |
 
 **ドロップ**：最もダメージを与えたパイロットのためのコンテナ1つ。
 
-| アイテム | 確率 | 数量 |
-| :--- | ---: | ---: |
-| Ship Fragment | 8回の抽選それぞれで 100% | 3 |
-| Reinforced Hull Plate | 8回の抽選それぞれで 60% | 1 |
-| Power Core | 8回の抽選それぞれで 25% | 1 |
-| Cataclysite | 8回の抽選それぞれで 100% | 4 |
-| Quorvium | 8回の抽選それぞれで 100% | 2–4 |
-| Advanced Plasma | 100% | 100–200 |
-| Ultra Core | 100% | 100–200 |
-| クレジットで買える 4 種の [ロケット](/wiki/06-Items/Rockets.md) のうち 1種 （ランダム） | 100% | 6–10 |
+| アイテム |
+| :--- |
+| {{guide:spoils.box@Boss Goombah#1;Boss Goombah#2;Boss Goombah#3}} |
 
 ### Goombah Guard
 
@@ -83,17 +89,17 @@ Boss Goombah の報酬は、その戦いの重さに見合っています。1分
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 船体 | 6,400 | 9,600 | 12,800 |
-| シールド | 9,600 | 14,400 | 19,200 |
-| レーザーのダメージ （毎秒1斉射） | 600 | 900 | 1,200 |
-| 速度 | 180 | 180 | 180 |
+| 船体 | {{guide:vitals.hull@Goombah Guard#1}} | {{guide:vitals.hull@Goombah Guard#2}} | {{guide:vitals.hull@Goombah Guard#3}} |
+| シールド | {{guide:vitals.shield@Goombah Guard#1}} | {{guide:vitals.shield@Goombah Guard#2}} | {{guide:vitals.shield@Goombah Guard#3}} |
+| レーザーのダメージ （毎秒1斉射） | {{guide:vitals.dps@Goombah Guard#1}} | {{guide:vitals.dps@Goombah Guard#2}} | {{guide:vitals.dps@Goombah Guard#3}} |
+| 速度 | {{guide:vitals.speed@Goombah Guard#1}} | {{guide:vitals.speed@Goombah Guard#2}} | {{guide:vitals.speed@Goombah Guard#3}} |
 | レーザーの射程 | 800 | 800 | 800 |
 | 索敵範囲 | 攻撃時のみ | 攻撃時のみ | 攻撃時のみ |
 | リーダーを回復 （1体ごとに毎秒、 船体のみ） | 110 | 165 | 220 |
-| クレジット | 125 | 250 | 375 |
-| Thulium | 1 | 2 | 3 |
-| 経験値（XP） | 12 | 24 | 36 |
-| 名誉 | 1 | 2 | 3 |
+| クレジット | {{guide:spoils.pay.credits@Goombah Guard#1}} | {{guide:spoils.pay.credits@Goombah Guard#2}} | {{guide:spoils.pay.credits@Goombah Guard#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Goombah Guard#1}} | {{guide:spoils.pay.thulium@Goombah Guard#2}} | {{guide:spoils.pay.thulium@Goombah Guard#3}} |
+| 経験値（XP） | {{guide:spoils.pay.experience@Goombah Guard#1}} | {{guide:spoils.pay.experience@Goombah Guard#2}} | {{guide:spoils.pay.experience@Goombah Guard#3}} |
+| 名誉 | {{guide:spoils.pay.honor@Goombah Guard#1}} | {{guide:spoils.pay.honor@Goombah Guard#2}} | {{guide:spoils.pay.honor@Goombah Guard#3}} |
 | 撃破1回あたりの PvE ポイント | 3 | 3 | 3 |
 
 **ドロップ**：なし。撃破で支払われるのはクレジット、Thulium、経験値、名誉だけです。

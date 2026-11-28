@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e819db509b714a18 -->
+<!-- wiki-i18n source: 871bca2da0d6e0d7 -->
 <!-- wiki-i18n title: Klanlar -->
 # Klanlar {#clans}
 
@@ -77,11 +77,11 @@ Klanlar 1. seviyeden başlar ve 5. seviyeye kadar yükseltilebilir. Klanı yüks
 
 | Klan seviyesi | Üye sınırı | Günlük ödeme limiti (üye başına) | Yükseltme maliyeti (kredi) |
 | :---: | :---: | :---: | :--- |
-| **1. seviye** | 15 | 1.000.000 Cr | — |
-| **2. seviye** | 25 | 2.000.000 Cr | 10.000.000 Cr |
-| **3. seviye** | 50 | 3.000.000 Cr | 100.000.000 Cr |
-| **4. seviye** | 75 | 4.000.000 Cr | 1.000.000.000 Cr |
-| **5. seviye** | 100 | 5.000.000 Cr | 10.000.000.000 Cr |
+| **1. seviye** | 15 | 2.000.000 Cr | — |
+| **2. seviye** | 25 | 4.000.000 Cr | 10.000.000 Cr |
+| **3. seviye** | 50 | 6.000.000 Cr | 100.000.000 Cr |
+| **4. seviye** | 75 | 8.000.000 Cr | 1.000.000.000 Cr |
+| **5. seviye** | 100 | 10.000.000 Cr | 10.000.000.000 Cr |
 
 ---
 
@@ -115,20 +115,20 @@ Klanlar vergiye dayalı bir mali sistemle işler:
 ### 2. Bağışlar {#2-donations}
 
 - **Bağış yapmak**: her üye Klan sayfasından Klan bankasına kredi gönderebilir. Bağış penceresi daha ne kadar gönderebileceğini gösterir.
-- **Bağış sınırı**: bir pilot, üye olduğu tüm klanlar birlikte sayılarak, herhangi bir 24 saatte klanlara en çok **1.000.000 kredi** gönderebilir. Bir klandan ayrılıp başkasına katılmak yeni bir hak vermez.
+- **Bağış sınırı**: bir pilot, üye olduğu tüm klanlar birlikte sayılarak, herhangi bir 24 saatte klanlara en çok **2.000.000 kredi** gönderebilir. Bir klandan ayrılıp başkasına katılmak yeni bir hak vermez.
 - **Günlük sıfırlama yok**: 24 saat kayar. Her bağış, yapıldıktan tam 24 saat sonra sayılmaz olur; pencere en eski bağışın ne zaman düşeceğini ve ne kadarının geri geleceğini söyler. Kalan hakkı aşan bir bağış bütünüyle reddedilir.
 - Günlük vergi bir bağış değildir ve bağış hakkından düşmez.
 
 ### 3. Banka ödemeleri {#3-bank-payouts}
 
 - **Ödeme sınırları**: klan liderleri ve yetkilileri Klan bankasından tek tek üyelere kredi dağıtabilir.
-- **Günlük sınır**: bir üye, tek bir takvim gününde (UTC) ödemelerde `1,000,000 * ClanLevel` krediden fazla alamaz.
+- **Günlük sınır**: bir üye, tek bir takvim gününde (UTC) ödemelerde `2,000,000 * ClanLevel` krediden fazla alamaz.
 
 ### 4. Günlük bonus {#4-daily-bonus}
 
 Lider, Filo hazinesinden her üyeye günde bir kez sabit bir bonus ödeyebilir.
 
-- **Belirleme.** Yönetim sekmesinin **Günlük bonus** kartında Lider her rütbe için tek bir tutar girer: Pilot, Kıdemli, Yardımcı lider ve Lider. **0, bir rütbeyi kapatır**; diğer her tutar **1.000 ile 1.000.000 kredi** arasındadır. Yardımcı liderler kartı görür ama değiştiremez. Kaydetmek hazineden hiçbir şey almaz. Kart, her pilot oynarsa tam bir günün neye mal olacağını ve hazinenin kaç gün yeteceğini gösterir.
+- **Belirleme.** Yönetim sekmesinin **Günlük bonus** kartında Lider her rütbe için tek bir tutar girer: Pilot, Kıdemli, Yardımcı lider ve Lider. **0, bir rütbeyi kapatır**; diğer her tutar **1.000 ile 2.000.000 kredi** arasındadır. Yardımcı liderler kartı görür ama değiştiremez. Kaydetmek hazineden hiçbir şey almaz. Kart, her pilot oynarsa tam bir günün neye mal olacağını ve hazinenin kaç gün yeteceğini gösterir.
 - **Ödeme.** Bir üyeye **günde bir kez**, o günkü ilk kontrolünde ödeme yapılır: bağlandığında, çevrimiçiyken gün döndüğünde ve Lider yeni tutarları kaydettiğinde. Gün, klan hattının günüdür ve **00:00:00 UTC**’de değişir ([Gün](#the-day)). Pilot bir Sistem satırı ve bir Oyun Günlüğü satırı alır; Genel bakış sekmesi “Günlük bonus: X kredi” yazar ve bugün ödenip ödenmediğini gösterir.
 - **Kimler.** Klanda **en az 24 saat** bulunmuş bir pilot ve **tüm klanlar boyunca pilot başına günde bir bonus**: daha fazla toplamak için klanlara girip çıkmak yalnızca bir kez öder.
 - **Yetersiz hazine.** Hazine yalnızca elindekini öder ve asla sıfırın altına inmez. Hazine bir üyenin tutarını ödeyemediğinde o üye o gün için atlanır, hazine gün içinde sonradan dolsa bile; [Filo günlüğü](#fleet-log) bunu bir kez not eder. Pilotlara, hazine tükenene kadar bağlandıkları sırayla ödenir.
@@ -246,7 +246,7 @@ Kademe; görevlerin kaç uzaylı istediğini, “ağır” adımın hangi uzayl�
 ### Kimler sayılır {#who-counts}
 
 - **Klanın toplamı sayılır.** Operasyonlar sekmesindeki çubuklar tüm klanındır.
-- **Asgari katkın.** Günün ödülünü paylaşmak için **günün işinin %5’ini** yapmalısın, yaklaşık sekiz dakikalık gerçek av. Sekme bunu “Bugünkü katkın: 312 / 469 birim” olarak gösterir. Bir iş birimi bir saniyelik oyundur: bir öldürme, o uzaylıyı bulup yok etmenin süresi kadar, bir uçuş etabı da sürdüğü süre kadar sayılır. Tecrübeli bir klan için bir Seeker yaklaşık 12 birim, bir Phantasm 22, bir Bulwark 123 eder; uçulan 1.000 birim de yaklaşık 5 eder. Asgari katkı, gün ve kademe ne olursa olsun 446 ile 480 birim arasındadır.
+- **Asgari katkın.** Günün ödülünü paylaşmak için **günün işinin %5’ini** yapmalısın, yaklaşık sekiz dakikalık gerçek av. Sekme bunu “Bugünkü katkın: 312 / 469 birim” olarak gösterir. Bir iş birimi bir saniyelik oyundur: bir öldürme, o uzaylıyı bulup yok etmenin süresi kadar, bir uçuş etabı da sürdüğü süre kadar sayılır. Tecrübeli bir klan için bir Seeker yaklaşık 12 birim, bir Phantasm 22, bir Bulwark 123 eder; uçulan 1.000 birim de yaklaşık 5 eder. Asgari katkı, gün ve kademe ne olursa olsun 454 ile 486 birim arasındadır.
 - **En az üç üye** asgari katkısına ulaşmış olmalı ki bir adım bitebilsin. Bir adım doluysa ve ulaşan üye daha azsa **bekler** (“3. adım dolu ama yalnızca 2 üye asgari katkısını yaptı”); üçüncüsü gelene kadar o adımın uzaylısı için yapılan öldürmeler, onları yapan üyelerin işine yine eklenir. Üç pilottan az bir klan bir adımı bitiremez.
 - **Bir öldürmeyi kim alır.** Öldürme için ödeme alan pilot ve son 15 saniyede ateş etmiş, 8.000 birim içindeki grup arkadaşları ([Gruplar](/wiki/03-Mechanics/Groups.md#sharing-kills)). Bir klan, grupta kaç pilotu olursa olsun bir öldürmeyi **bir kez** sayar ve öldürmenin işi aralarında eşit bölüşülür. Bir grupta iki klan varsa ikisi de bir kez sayar.
 - **Hangi öldürmeler.** Yalnızca açık adımın uzaylısı: sıradan Seeker, Phantasm, Bulwark veya Goombah. Sürü gemileri, diğer pilotlar ve Warden yardımcıları bu uzaylılar olarak sayılmaz. Bir öldürme yapıldığı dünya için sayılır ve daha güçlü bir dünyada daha çok: **Alpha’da 1, Beta’da 1,5, Gamma’da 2** ([Dünyalar](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)). Bir patron adımı [sürülerin](/wiki/05-Swarms/Swarms.md) patronlarını sayar; hasarın en az %5’ini vermiş bir pilotu olan her klan için bir.
@@ -290,7 +290,7 @@ Bir Warden gövdesinin yarısının altına düşünce dalgalarında [bir Crysta
 | :--- | :--- | :--- | :--- |
 | **Brood Warden** | 1, 4, 7, 10… | Kovan bekçisi: ateşini böl | Kendisine ilk vuran pilota doğru uçar. Dört küçük **Brood Drone** gövdesini iyileştirir ve dörtten az dron ayaktayken her 8 saniyede bir yenisi gelir (Brood Warden III için her 16 saniyede). Önce dronları vur, sonra Warden ile uğraş. |
 | **Siege Warden** | 2, 5, 8, 11… | Kuşatma kıran: hareket etmeye devam et | Kendisine ilk vuran pilota doğru uçar, ona düz giden bir [Rivet roketi](/wiki/06-Items/Rockets.md#the-twelve-rockets) fırlatır ve kendini onarır. İki **Siege Escort** lazer ateşi ekler. Hareket etmeye devam et ve hedef olma sırasını arkadaşlarınla paylaş. |
-| **Wrath Warden** | 3, 6, 9, 12… | Savaş ağası: öfkesini alt et | Kendisine ilk vuran pilota doğru uçar, lazer menzilinde durur ve kendini onarır. Gövdesi yarının altına düşünce lazerleri **bir buçuk kat daha sert** vurur. İki **Wrath Guard** onunla kalır ve lazer ateşi ekler. Onu çabuk indir ve kalkanlarını dolu tut. |
+| **Wrath Warden** | 3, 6, 9, 12… | Savaş ağası: öfkesini alt et | Kendisine ilk vuran pilota doğru uçar, lazer menzilinde durur ve kendini onarır. Gövdesi üçte ikinin altına düşünce lazerleri **dörtte bir daha sert**, üçte birin altına düşünce **bir buçuk kat daha sert** vurur. İki **Wrath Guard** onunla kalır ve lazer ateşi ekler. Onu çabuk indir ve kalkanlarını dolu tut. |
 
 ### Warden çağırma {#calling-a-warden}
 
@@ -298,19 +298,34 @@ Bir Warden gövdesinin yarısının altına düşünce dalgalarında [bir Crysta
 - **Kim.** Lider veya bir Yardımcı lider.
 - **Nasıl.** Uçuştan: 4. adım bittiğinde uçuş ekranında **Buraya çağır** düğmesi belirir ve onay ister. Güvenli bölgelerin dışında, dünyandaki bir şirketin (herhangi birinin) **x-2, x-3 veya x-4** sektöründe ol. Operasyonlar sekmesi (istasyondaki Klan sayfasında ya da uçuştaki Klan penceresinde) günün Warden türünü, kalan çağrı hakkını ve düğmenin neden gri olduğunu gösterir. İstasyonda düğme her zaman gridir, çünkü bir Warden gemiden çağrılır; Klan penceresinde düğmenin kendisidir ve bir güvenli bölgenin içinde ya da bir şirketin x-2 ile x-4 sektörlerinin dışında, sunucunun verdiği nedenle birlikte gri olur.
 - **Nerede belirir.** Geminden 3.000 ile 4.500 birim uzakta, dünyanda: yalnızca o dünyanın pilotları ona ulaşabilir. Sekme **Acemi klan için x-2, Tecrübeli için x-3 ve Elit için x-4** önerir. Seçtiğin sektörün olağan [PvP kuralları](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) yine geçerlidir.
-- **Güç toplama.** **90 saniye** boyunca kalkanlı ve pasif durur (“güç topluyor”) ve çevrimiçi her klan pilotuna nerede olduğu bildirilir. O güç toplarken yanına uç: 90 saniye dolunca savaşa hazır olur. Uçuş ekranında güvenli bölge rozetinin altındaki bir kapsül onu izler: adı, “güç topluyor” ve kalan süre; sonra sektörüyle birlikte “savaşa hazır” ve çekilmesine kalan süre; bir Wrath Warden gövdesinin yarısının altına düşünce de “öfkeli”.
+- **Güç toplama.** **90 saniye** boyunca kalkanlı ve pasif durur (“güç topluyor”) ve çevrimiçi her klan pilotuna nerede olduğu bildirilir. O güç toplarken yanına uç: 90 saniye dolunca savaşa hazır olur. Uçuş ekranında güvenli bölge rozetinin altındaki bir kapsül onu izler: adı, “güç topluyor” ve kalan süre; sonra sektörüyle birlikte “savaşa hazır” ve çekilmesine kalan süre; bir Wrath Warden gövdesinin üçte birinin altına düşünce de “öfkeli”.
 - **Yalnızca klanın.** Başka herhangi bir klanın pilotlarının atışları yok sayılır ve onu karşılık vermeye itmez.
 - **Nasıl biter.** Yok edildiğinde. Savaşa hazır olduktan 40 dakika sonra, gün bittiğinde, klanının hiçbir pilotu 2 dakika boyunca haritasında uçuşta olmadığında ya da sunucu yeniden başladığında **çekilir** (o çağrı geri verilir). Çekilen bir Warden bir çağrı hakkına mal olur ve bir sonraki çağrı onu o sırada orada bulunan ekibe göre geri getirir ([ekip Warden’ı nasıl değiştirir](#strength-by-the-crew)).
 
 ### Warden ile savaşma {#fighting-a-warden}
 
 - **Bir Warden, kendisine ilk vuran pilotla savaşır**, her patron gibi: ekibin en sağlam gemisi başlasın ve [Shield Surge ile Emergency Repair](/wiki/03-Mechanics/Abilities.md) yeteneklerini kullan.
-- **Getirebildiğin en büyük ekibi, x2 cephaneyle getir** ([Lazerler ve cephane](/wiki/06-Items/Lasers.md#laser-ammunition)). 0.4.13’ten önce kazanan ekipler, yaklaşık yedi pilot, artık kaybediyor. Aşağıdaki tablo bir hesaptır ve en iyi durumdur: onda bile on pilot her Warden karşısında kaybeder ve kazanabilecek en küçük ekip x2 cephaneyle 15 ile 25, x1 cephaneyle 23 ile 38 pilottur. Aşağıdaki dalgalar bu hesapta yoktur. Aşağıdaki tablo tam güçteki bir Warden içindir: daha küçük bir ekip aynı gövde ve kalkanla karşılaşır, ama daha az hasar veren, daha az onaran ve daha az uzaylı çağıran bir Warden ile ([ekip Warden’ı nasıl değiştirir](#strength-by-the-crew)).
+- **Getirebildiğin en büyük ekibi, x2 cephaneyle getir** ([Lazerler ve cephane](/wiki/06-Items/Lasers.md#laser-ammunition)). 0.4.13’ten önce kazanan ekipler, yaklaşık yedi pilot, artık kaybediyor. Aşağıdaki tablo bir hesaptır ve en iyi durumdur: onda bile on pilot her Warden karşısında kaybeder ve kazanabilecek en küçük ekip x2 cephaneyle 15 ile 25, x1 cephaneyle 24 ile 37 pilottur. Aşağıdaki dalgalar bu hesapta yoktur. Aşağıdaki tablo tam güçteki bir Warden içindir: daha küçük bir ekip aynı gövde ve kalkanla karşılaşır, ama daha az hasar veren, daha az onaran ve daha az uzaylı çağıran bir Warden ile ([ekip Warden’ı nasıl değiştirir](#strength-by-the-crew)).
 - **Brood:** dronlar gövdesini iyileştirir ve onları görmezden gelen bir ekibin yaklaşık üçte bir oranında daha fazla pilota ihtiyacı vardır. Önce onları vur ve vurmaya devam et: 8 saniye sonra yenisi gelir (Brood Warden III için 16). 0.4.22’den beri Brood Warden kendisine vuran pilota doğru uçar; dronları onunla gider ve onu iyileştirmeye devam eder.
 - **Siege:** roketleri güdümsüzdür ve düz gider; bu yüzden hareket etmeye devam eden bir gemi çoğundan sıyrılır. Hareket etmeye devam et ve hedef olma sırasını arkadaşlarınla paylaş. 0.4.22’den beri artık dolaşmaz: kendisine ilk vuran pilota doğru uçar ve Rivet roketini ona en çok 1.000 birim uzaklıktan fırlatır.
-- **Wrath:** gövdesi yarının altına düştüğünde her salvo bir buçuk kat daha çok acıtır, bu yüzden savaşın ikinci yarısı tehlikeli olandır. İlk yarıyı çabuk indir, kalkanları dolu tut ve Emergency Repair yeteneğini öfke için sakla. 0.4.20’den beri olduğu yerde durmaz: kendisine ilk vuran pilota doğru saniyede 90 birim hızla, lazer menziline (güce göre 700, 800 veya 900 birim) girene kadar uçar ve oradan ateş eder; bu yüzden daha uzağa erişen bir silah artık ona bedavaya ateş edemez.
+- **Wrath:** gövdesi üçte ikinin altına düştüğünde her salvo dörtte bir daha çok, üçte birin altında ise bir buçuk kat daha çok acıtır, bu yüzden savaşın son üçte biri tehlikeli olandır. İlk üçte ikiyi çabuk indir, kalkanları dolu tut ve Emergency Repair yeteneğini öfke için sakla. 0.4.20’den beri olduğu yerde durmaz: kendisine ilk vuran pilota doğru saniyede 90 birim hızla, lazer menziline (güce göre 700, 800 veya 900 birim) girene kadar uçar ve oradan ateş eder; bu yüzden daha uzağa erişen bir silah artık ona bedavaya ateş edemez.
 - **Dokuzu da kendisine vuran pilota doğru uçar (0.4.22).** Brood ve Siege Warden, Wrath Warden 0.4.20’den beri nasıl davranıyorsa öyle davranır: her biri kendi hızıyla (Brood ve Wrath Warden için saniyede 90 birim, Siege Warden için 110), lazer menzilinin içine girene kadar (Brood ve Siege Warden için güce göre 600, 700 veya 800 birim, Wrath Warden için 700, 800 veya 900) uçar; bu yüzden daha uzağa erişen bir silah artık onlara bedavaya ateş edemez. Kimse 10 saniyedir ona vurmadıysa bırakır ve olduğu yerde durur: çağrıldığı yere geri uçmaz. Korunan bir pilot, güvenli bölgede ya da doğma korumasıyla, hemen bırakılır.
 - **Warden ile gelen her şey, ona vuran pilotun peşine düşer.** 0.4.20’den beri bir dalganın her uzaylısı ve Warden ile savaşılırken gelen her dron, refakatçi ya da muhafız, geldiği anda, kendisine vurulmadan, Warden ile savaşan pilotların, ilkinin başta olmak üzere, peşine düşer.
+
+### Üç aşama {#the-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Bir Warden'ın da üç aşaması vardır ([nasıl işlediği](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)), her güçte aynıdır.
+
+| Warden | Başlangıçta | Üçte ikinin altında | Üçte birin altında |
+| :--- | :--- | :--- | :--- |
+| **Brood Warden** (I, II, III) | 4 dronun hepsi bir kerede yanına gelir. | Dronları onu 15 sn boyunca ×1,5 hızla onarır. | Olağan sayının üzerinde 2 dron daha 30 sn boyunca gelir. Hiçbir şey ödemezler. |
+| **Siege Warden** (I, II, III) | – | 20 sn boyunca roketini ×2 sıklıkla ateşler. | Gövdesinin ve kalkanının %15 kadarını onarır (bir hasar patlaması onu böler). |
+| **Wrath Warden** (I, II, III) | – | Lazerleri ×1,25 güçle vurur. | Lazerleri toplamda ×1,5 güçle vurur, önceki aşamanın üzerine eklenmez. |
+
+<!-- mob-ladder:end -->
 
 ### Uzaylı dalgaları {#waves-of-aliens}
 
@@ -322,34 +337,34 @@ Bir Warden gövdesinin yarısının altına düşünce dalgalarında [bir Crysta
 | x-3 | 5 Phantasm, 3 Bulwark ve 2 Goombah | 30, ve en çok 3 Crystalys |
 | x-4 | 5 Phantasm, 3 Bulwark ve 2 Goombah | 30, ve en çok 3 Crystalys |
 
-- **Warden I Goombah çağırmaz.** Acemi kademedeki bir klanın (ortalama seviye 4’ten az) Warden’ı yalnızca Phantasm ve Bulwark gönderir, bir Bulwark’a üç Phantasm düşecek şekilde, aynı büyüklükteki dalgalarla: **x-2’de 4 Phantasm ve 1 Bulwark, x-3 ve x-4’te 8 Phantasm ve 2 Bulwark**. Bir dalganın tamamı Alpha’da x-2’de 17.000, x-3 ve x-4’te 34.000 kredi öder; Crystalys’iyle birlikte 92.000 ve 109.000. Aynı anda ayakta en çok kalan sayı tablodakidir.
+- **Warden I Goombah çağırmaz.** Acemi kademedeki bir klanın (ortalama seviye 4’ten az) Warden’ı yalnızca Phantasm ve Bulwark gönderir, bir Bulwark’a üç Phantasm düşecek şekilde, aynı büyüklükteki dalgalarla: **x-2’de 4 Phantasm ve 1 Bulwark, x-3 ve x-4’te 8 Phantasm ve 2 Bulwark**. Aynı anda ayakta en çok kalan sayı tablodakidir.
 - **En çok üç dalga etkindir.** Bir dalga, uzaylılarından biri ayaktayken etkindir. Üç dalga etkinken sırası gelen bir dalga atlanır, sonraya saklanmaz; bir sonrakinin sırası bir dakika sonra gelir.
 - **Sıradan uzaylılardır**: harita onları nasıl üretiyorsa öyle üretilmiş; daha güçlü bir dünya onlara daha çok gövde, kalkan ve hasar verir ([Dünyalar](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)), Warden’ın kendi gücü ne olursa olsun. Bulwark ve Goombah her haritaya gelir, başka türlü hiçbirinin yaşamadığı bir x-2 sektörüne de. Warden çevresine yayılmış hâlde, ondan 500 ile 1.200 birim uzakta gelirler.
-- **Warden ile olan savaşın parçası değildir.** Hiçbir şeyi iyileştirmezler ve onlara ateş etmek Warden hasarındaki payına bir şey eklemez. Haritadaki her pilot onları öldürebilir. Her biri, uzaylı türünün dünyandaki olağan ödemesini öder ve PvE puanı ekler: tablodaki bir dalganın tamamı Alpha’da x-2’de (5 uzaylı) 29.000, x-3 ve x-4’te (10 uzaylı) 60.000 kredi öder, Warden I dalgası ise 17.000 ve 34.000; bu, kendi Warden’ının ödemesinin %2’sinden azdır.
+- **Warden ile olan savaşın parçası değildir.** Hiçbir şeyi iyileştirmezler ve onlara ateş etmek Warden hasarındaki payına bir şey eklemez. Haritadaki her pilot onları öldürebilir. Her biri, uzaylı türünün dünyandaki olağan ödemesini öder ve PvE puanı ekler: bir dalganın tamamının ödediği, kendi Warden’ının ödemesinin %2’sinden azdır.
 - **Warden ile birlikte sona ererler.** Warden yok edildiğinde ya da çekildiğinde artık yenisi gelmez, ve zaten çıkmış olan uzaylılar, türleri ne olursa olsun ve savaşıyor olsunlar ya da olmasınlar, **20 saniye sonra haritadan ayrılır**: bu sürede onları bitirin ya da uzaklaştırın. (0.5.6’ya kadar beş dakika ya da daha uzun kalıyorlardı ve sonradan gelen pilot onlarla karşılaşıyordu.) Sessizce giderler, ne öldürme sayılır ne ödül verirler. Sunucunun yeniden başlaması onları Warden ile birlikte sona erdirir.
 - **Klana haber verilir.** Her dalga sohbetin Sistem sekmesinde ve Oyun Günlüğü’nde, içindeki her uzaylı türü için bir satırla duyurulur: “Brood Warden II, M-3 sektöründe takviye çağırıyor: 5 Phantasm.”, “Brood Warden II, M-3 sektöründe takviye çağırıyor: 3 Bulwark.” ve “Brood Warden II, M-3 sektöründe takviye çağırıyor: 2 Goombah.” (Warden I, Goombah çağırmadığı için iki satır bildirir)
 - **Hedefe yönelik gelirler (0.4.20).** Bir dalganın uzaylıları, Warden ile kimin savaştığını bilerek gelir: göründükleri andan itibaren ona vuran pilotların, ilkinin başta olmak üzere, peşine düşer ve savaş sürdükçe onları takip eder. Kimsenin savaşmadığı bir Warden, dolaşan uzaylılar gönderir: Phantasm ve Bulwark eskisi gibi yaklaşan herkesi çeker, hiçbir zaman savaş başlatmayan Goombah ise biri ona ateş edene kadar dolaşır.
 
 #### Her Warden için Crystalys {#crystalys-waves}
 
-0.4.22’den beri **her Warden**, Wrath Warden III 0.4.20’den beri ne yapıyorsa onu yapar: gövdesi yarının altına düşünce (Wrath Warden için öfkelenme eşiği) **gönderdiği her dalgada, dalganın boyuna ek olarak bir Crystalys de bulunur**. Bu, Brood, Siege ve Wrath Warden için, üç güçte de aynıdır. Gövdesi yarının üstündeyken dalga onsuz gelir; gövdesi yeniden yarının üstüne onarılan bir Warden bir sonraki dalgayı yine onsuz gönderir.
+0.4.22’den beri **her Warden**, Wrath Warden III 0.4.20’den beri ne yapıyorsa onu yapar: gövdesi yarının altına düşünce **gönderdiği her dalgada, dalganın boyuna ek olarak bir Crystalys de bulunur**. Bu, Brood, Siege ve Wrath Warden için, üç güçte de aynıdır. Gövdesi yarının üstündeyken dalga onsuz gelir; gövdesi yeniden yarının üstüne onarılan bir Warden bir sonraki dalgayı yine onsuz gönderir.
 
-- **Crystalys**, oyunun en ağır sıradan uzaylısıdır: 256.000 gövde, 160.000 kalkan, 900 birim mesafeden salvo başına 10.000 hasar, hız 230 (daha güçlü bir dünyada daha çok gövde, kalkan ve hasar). Bir Crystalys ne ödüyorsa onu öder: **Alpha’da 75.000 kredi, 200 Thulium, 12.000 XP ve 52 onur** (Beta’da iki katı, Gamma’da üç katı) ve olağan ganimetini düşürür. Dalgasının bir parçasıdır: bir dalga, içindeki Crystalys ayaktayken etkindir; yani ayakta bırakılan bir Crystalys dalgalardan birini (en çok üç, Wrath Warden III için dört) etkin tutar ve en çok sayıda dalga etkinken sırası gelen dalga atlanır.
+- **Crystalys**, oyunun en ağır sıradan uzaylısıdır: {{guide:vitals.hull@Crystalys#1}} gövde, {{guide:vitals.shield@Crystalys#1}} kalkan, 900 birim mesafeden salvo başına {{guide:vitals.dps@Crystalys#1}} hasar, hız {{guide:vitals.speed@Crystalys#1;Crystalys#2;Crystalys#3;Crystalys#4}} (daha güçlü bir dünyada daha çok gövde, kalkan ve hasar). Bir Crystalys ne ödüyorsa onu öder: **Alpha’da {{guide:spoils.pay.credits@Crystalys#1}} kredi, {{guide:spoils.pay.thulium@Crystalys#1}} Thulium, {{guide:spoils.pay.experience@Crystalys#1}} XP ve {{guide:spoils.pay.honor@Crystalys#1}} onur** (Beta’da iki katı, Gamma’da üç katı) ve olağan ganimetini düşürür. Dalgasının bir parçasıdır: bir dalga, içindeki Crystalys ayaktayken etkindir; yani ayakta bırakılan bir Crystalys dalgalardan birini (en çok üç, Wrath Warden III için dört) etkin tutar ve en çok sayıda dalga etkinken sırası gelen dalga atlanır.
 - **Haber ayrı bir satır olarak verilir**, karışımın satırlarından sonra: “Wrath Warden III, M-3 sektöründe takviye çağırıyor: 7 Phantasm.”, “…: 4 Bulwark.”, “…: 4 Goombah.” ve “Wrath Warden III, M-3 sektöründe takviye çağırıyor: 1 Crystalys.”
-- **Ne öderler.** 10 uzaylı içeren bir dalganın tamamı Alpha’da Warden I için 34.000, Warden II için 60.000 kredi öder, Crystalys ile birlikte 109.000 ve 135.000: Warden I ödemesi olan 2.700.000’in yaklaşık %4’ü, Warden II ödemesi olan 3.600.000’in %4’ünden azı; Warden III için daha da az.
-- **Ekipten ne isterler.** [Ekip ne kadar büyük olmalı](#how-big-a-crew) hesabı, dalgalar ve içlerindeki Crystalys hesaba katılınca, x2 cephaneyle, Warden kademesinin kendi donanımıyla, Alpha’da en küçük ekipleri şöyle verir. 3. seviye bir klan 50, 5. seviye bir klan 100 üye alır. 0.5.0’dan beri karışımdaki Bulwark ve Goombah dalgaları daha ağır yapar, ama Warden I Goombah çağırmaz; bu yüzden 3. seviye bir klan her haritada her Warden için yeterince pilot alır. Oradaki tablo gibi bunlar da ölçülmemiş, hesaplanmıştır ve en iyi durumdur; dalgaların uzaylılarının iki kat güçlü olduğu Gamma’da daha da büyüktürler; x-3 ve x-4’te 3. seviye bir klanın bazı Warden’lar için pilotu yetmez.
+- **Ne öderler.** 10 uzaylı içeren bir dalganın tamamı, Crystalys ile birlikte, Warden I ödemesinin yaklaşık %4’ünü, Warden II ödemesinin %4’ünden azını öder; Warden III için daha da az.
+- **Ekipten ne isterler.** [Ekip ne kadar büyük olmalı](#how-big-a-crew) hesabı, dalgalar ve içlerindeki Crystalys hesaba katılınca, x2 cephaneyle, Warden kademesinin kendi donanımıyla, Alpha’da en küçük ekipleri şöyle verir. 3. seviye bir klan 50, 4. seviye bir klan 75, 5. seviye bir klan 100 üye alır. 0.5.0’dan beri karışımdaki Bulwark ve Goombah dalgaları daha ağır yapar; Warden I Goombah çağırmasa da Brood Warden I (57 pilot) ile Siege Warden I (52 pilot), x-3 ve x-4’te 3. seviye bir klanın aldığından fazlasını isterler: diğer her Warden her haritada 3. seviye bir klana sığar, 4. seviye bir klan ise hepsi için yeterince pilot alır. Oradaki tablo gibi bunlar da ölçülmemiş, hesaplanmıştır ve en iyi durumdur; dalgaların uzaylılarının iki kat güçlü olduğu Gamma’da daha da büyüktürler; her haritada 3. seviye bir klanın bazı Warden’lar için pilotu yetmez.
 
 | Warden | x-2 | x-3 | x-4 |
 | :--- | ---: | ---: | ---: |
-| Brood Warden I | 41 | 44 | 44 |
-| Siege Warden I | 37 | 40 | 40 |
-| Wrath Warden I | 42 | 45 | 45 |
-| Brood Warden II | 39 | 44 | 44 |
-| Siege Warden II | 31 | 35 | 35 |
-| Wrath Warden II | 35 | 40 | 40 |
-| Brood Warden III | 21 | 22 | 22 |
-| Siege Warden III | 26 | 27 | 27 |
-| Wrath Warden III | 34 | 39 | 39 |
+| Brood Warden I | 41 | 57 | 57 |
+| Siege Warden I | 46 | 52 | 52 |
+| Wrath Warden I | 42 | 44 | 44 |
+| Brood Warden II | 38 | 43 | 43 |
+| Siege Warden II | 33 | 40 | 40 |
+| Wrath Warden II | 35 | 39 | 39 |
+| Brood Warden III | 21 | 23 | 23 |
+| Siege Warden III | 26 | 28 | 28 |
+| Wrath Warden III | 34 | 38 | 38 |
 
 #### Wrath Warden III dalgaları {#wrath-iii-waves}
 
@@ -362,30 +377,30 @@ Bir Warden gövdesinin yarısının altına düşünce dalgalarında [bir Crysta
 | x-4 | 7 Phantasm, 4 Bulwark ve 4 Goombah | 60, ve en çok 4 Crystalys |
 
 - **En çok dört dalga etkindir.** Dört dalga etkinken sırası gelen bir dalga, öteki sekiz Warden için olduğu gibi atlanır.
-- **Ne öderler.** 15 uzaylı içeren bir dalganın tamamı Alpha’da 101.000 kredi öder, Crystalys ile birlikte 176.000: Warden ödemesi olan 7.200.000’in yaklaşık %2’si.
-- **Ekipten ne isterler.** [Ekip ne kadar büyük olmalı](#how-big-a-crew) hesabı, bu dalgalar ve içlerindeki Crystalys dahil, x2 cephaneyle x-2’de **34, x-3’te 39 ve x-4’te 39 pilot** verir (dalgasız 25); dalgaların uzaylılarının iki kat güçlü olduğu Gamma’da 45, 51 ve 51. 3. seviye bir klan 50 üye alır, yani Gamma’da x-3 ve x-4 için yeterince gönderemez; 5. seviye bir klan 100 üye alır. Oradaki tablo gibi bu da ölçülmemiş, hesaplanmıştır ve en iyi durumdur.
+- **Ne öderler.** 15 uzaylı içeren bir dalganın tamamı, Crystalys ile birlikte, Warden ödemesinin yaklaşık %2’sini öder.
+- **Ekipten ne isterler.** [Ekip ne kadar büyük olmalı](#how-big-a-crew) hesabı, bu dalgalar ve içlerindeki Crystalys dahil, x2 cephaneyle x-2’de **34, x-3’te 38 ve x-4’te 38 pilot** verir (dalgasız 25); dalgaların uzaylılarının iki kat güçlü olduğu Gamma’da 44, 50 ve 50. 3. seviye bir klan 50 üye alır; bu her haritada, Gamma’da da yeter, yalnız x-3 ve x-4’te ucu ucuna yeter; 5. seviye bir klan 100 üye alır. Oradaki tablo gibi bu da ölçülmemiş, hesaplanmıştır ve en iyi durumdur.
 
 ### Ekip Warden’ı nasıl değiştirir {#strength-by-the-crew}
 
 0.5.7’den beri bir Warden **savaşa hazır olduğu anda orada bulunan ekibe göre ayarlanır**. 90 saniyelik ısınması bittiğinde oyun, klanının **Warden’ın haritasında güvenli bölgelerin dışında uçan** pilotlarını sayar: başka klanların pilotları, güvenli bölgedeki pilotlar ve başka haritalardaki pilotlar sayılmaz. Warden bundan sonra **savaşın tamamı boyunca**, tablosunun bu sayı için verdiği güç oranıyla savaşır: sonradan gelenler hiçbir şeyi değiştirmez, bu yüzden ısınma sırasında toplanın. **Gövdesi ve kalkanı hiçbir zaman ölçeklenmez** (0.5.10’dan beri): ekip ne olursa olsun Warden ve yardımcıları aşağıdaki tabloların verdiği tam gövdeye ve tam kalkana sahiptir, üç pilot da tam kadro bir klanla aynılarıyla karşılaşır. Gerisi birlikte ölçeklenir: Warden’ın ve yardımcılarının lazer hasarı, kalkan yenilenmeleri, onarımları, Siege Warden’ın füzesi ve her [dalgada](#waves-of-aliens) gelen uzaylı sayısı; Crystalys de dahildir ve yalnızca gücün yarısından yukarısında gelir. Ödül, ganimet ve tüm süreler olduğu gibi kalır.
 
-Tabloların katsayıları 0.5.7’de, Warden’ın kendi kademesindeki bir ekip için, [ekip ne kadar büyük olmalı](#how-big-a-crew) ile aynı savaşlarla, gövdesi ve kalkanı da ölçeklenen bir Warden için hesaplandı: 5 pilotu hazır bulunan bir klan, hesapta beşte bir daha az pilotun yendiği Warden ile karşılaşırdı; çünkü hesap en iyi durumdur ve gerçek savaş daha zordur. Gövde ve kalkan tam olduğu için küçük bir ekibin yıkacağı şey o hesabın saydığından fazladır, bu yüzden getirebildiğin kadar pilot getir. **5 pilotlu** bir klan hasarı, onarımı ve dalgaları tam değerlerin **%12 ile %23’ü** kadar olan bir Warden ile, **8 pilotlu** bir klan **%16 ile %29’u** kadar olan bir Warden ile karşılaşır; tam değerler, Warden’a göre **28 ile 72 pilot** ile gelir. Arada değerler, tablosunun bir basamağından ötekine düz bir çizgi boyunca artar ve 3’ten az pilot, 3 pilotun karşılaştığıyla karşılaşır. Warden savaşa hazır olduğunda klanın sohbette bir satır okur: “Mevcut mürettebat: 5. Brood Warden II, gövdesi ve kalkanıyla tam güçte. Hasarı, onarımı ve takviyesi %16 düzeyinde.”
+Tabloların katsayıları 0.5.7’de, Warden’ın kendi kademesindeki bir ekip için, [ekip ne kadar büyük olmalı](#how-big-a-crew) ile aynı savaşlarla, gövdesi ve kalkanı da ölçeklenen bir Warden için hesaplandı: 5 pilotu hazır bulunan bir klan, hesapta beşte bir daha az pilotun yendiği Warden ile karşılaşırdı; çünkü hesap en iyi durumdur ve gerçek savaş daha zordur. Gövde ve kalkan tam olduğu için küçük bir ekibin yıkacağı şey o hesabın saydığından fazladır, bu yüzden getirebildiğin kadar pilot getir. **5 pilotlu** bir klan hasarı, onarımı ve dalgaları tam değerlerin **%12 ile %23’ü** kadar olan bir Warden ile, **8 pilotlu** bir klan **%17 ile %29’u** kadar olan bir Warden ile karşılaşır; tam değerler, Warden’a göre **29 ile 72 pilot** ile gelir. Arada değerler, tablosunun bir basamağından ötekine düz bir çizgi boyunca artar ve 3’ten az pilot, 3 pilotun karşılaştığıyla karşılaşır. Warden savaşa hazır olduğunda klanın sohbette bir satır okur: “Mevcut mürettebat: 5. Brood Warden II, gövdesi ve kalkanıyla tam güçte. Hasarı, onarımı ve takviyesi %16 düzeyinde.” 0.5.12’den beri katsayılar yeniden hesaplanıyor; savaşlara Warden’ların gövdelerinin üçte ikisinde ve üçte birinde yaptığı yeni hamleler de katıldı, bu yüzden biraz değiştiler, en çok Siege Warden için.
 
 ### Ekip ne kadar büyük olmalı {#how-big-a-crew}
 
 > [!NOTE]
 > 0.4.13’ten beri her Warden ve her yardımcının gövdesi, kalkanı, lazer hasarı, onarımı ve iyileştirmesi 0.4.12’dekinin **beş katıdır** (hız, menzil ve yardımcı sayısı aynı); 0.4.16’dan beri Brood Warden III o gövdenin ve kalkanın yarısına, dronları da o onarımın yarısına sahiptir. İndirilmesi beş kat uzun sürer ve bu sürenin tamamında beş kat sert vurur, bu yüzden eskiden kazanan ekipler artık kaybeder. **Yeni Warden savaşlarını oyunda henüz denemedik: aşağıdaki süreler hesaplanmıştır, ölçülmemiştir.** Bunlar ekibin **en iyi durumudur**: ekip kademenin tasarlandığı gemilerde ve donanımdadır, her pilot Shield Surge ve Emergency Repair yeteneklerini hazır olur olmaz kullanır, ekip, daha iyi sonuç veriyorsa önce Warden yardımcılarını vurur, Warden ve yardımcılarının hepsi ilk vuran pilota ateş eder ve kimse atışlardan sıyrılmaz. 0.4.12’de aynı hesap, oyunun kendisinde betikle yönetilen pilotlarla yapılan savaşlardan daha umut vericiydi; bu yüzden gerçek bir savaş tablodan daha zor olabilir, iyi bir ekip de daha iyisini yapabilir: onu bir söz değil, bir rehber olarak al. **Uzaylı dalgaları hesapta yoktur**, bu yüzden gerçek bir savaş tablodan daha zordur.
 
-Tablo en iyi durumdur; oyunda getirebildiğin herkesi getir.
+Tablo en iyi durumdur; oyunda getirebildiğin herkesi getir. 0.5.12’den beri hesap, Warden’ların gövdelerinin üçte ikisinde ve üçte birinde yaptığı yeni hamleleri de sayar.
 
 | Ekip | x2 cephaneyle | x1 cephaneyle |
 | :--- | :--- | :--- |
-| 5 pilot | her Warden karşısında kaybeder; Warden gövdesinin ve kalkanının %84 ile %96’sı kalır | kaybeder |
-| 10 pilot | her Warden karşısında kaybeder; Warden gövdesinin ve kalkanının %55 ile %84’sı kalır | kaybeder |
-| 20 pilot | yalnızca Siege Warden I ve II karşısında 6,2 ile 6,4 dakikada 4 ile 5 gemi kaybederek, Brood Warden III karşısında ise 3,5 dakikada 8 gemi kaybederek kazanır | kaybeder |
-| 30 pilot | her Warden karşısında 1,9 ile 4,9 dakikada, 2 ile 10 gemi kaybederek kazanır | yalnızca Siege Warden I ve II karşısında 8,8 ile 9,2 dakikada 6 ile 8 gemi kaybederek, Brood Warden III karşısında ise 4,8 dakikada 11 gemi kaybederek kazanır |
+| 5 pilot | her Warden karşısında kaybeder | kaybeder |
+| 10 pilot | her Warden karşısında kaybeder | kaybeder |
+| 20 pilot | yalnızca Siege Warden I ve II karşısında 7,1 ile 7,4 dakikada 4 ile 6 gemi kaybederek, Brood Warden III karşısında 3,5 dakikada 8 gemi kaybederek, Wrath Warden II karşısında ise 10,1 dakikada 14 gemi kaybederek kazanır | kaybeder |
+| 30 pilot | her Warden karşısında 2,0 ile 4,7 dakikada, 2 ile 10 gemi kaybederek kazanır | yalnızca Siege Warden I ve II karşısında 10,1 ile 10,6 dakikada 6 ile 9 gemi kaybederek, Brood Warden III karşısında ise 4,8 dakikada 11 gemi kaybederek kazanır |
 
-Hesapta x2 cephaneyle kazanan en küçük ekip **15 ile 25 pilottur** (en azı Siege Warden I ve II karşısında) ve bunu yaparken **7 ile 18** gemi kaybeder; x1 cephaneyle **23 ile 38** pilottur ve 11 ile 25 gemi kaybeder. Warden lazerleri I. güçte salvo başına yüzlerce (240 ile 645), III. güçte binlerce (9.225 ile 15.450) vurur ve yardımcıları buna ekler: savaştığı gemi 18 ile 70 saniyede düşer, sonra bir sonrakine döner; bu yüzden kazanan bir ekip bile çok gemi kaybeder.
+Hesapta x2 cephaneyle kazanan en küçük ekip **15 ile 25 pilottur** (en azı Siege Warden II karşısında) ve bunu yaparken **10 ile 16** gemi kaybeder; x1 cephaneyle **24 ile 37** pilottur ve 12 ile 24 gemi kaybeder. Warden lazerleri I. güçte salvo başına yüzlerce, III. güçte binlerce vurur ve yardımcıları buna ekler: savaştığı gemi 18 ile 70 saniyede düşer, sonra bir sonrakine döner; bu yüzden kazanan bir ekip bile çok gemi kaybeder.
 
 Tablo, Warden kademesinin kendi donanımındaki bir ekip içindir. Daha zayıf gemiler daha kötü sonuç verir. **Senin** klanının çağırdığı Warden her zaman **senin** kademene uyar; kademeyi klanın en iyi beş pilotu belirler, o yüzden onları getir.
 
@@ -393,31 +408,31 @@ Tablo, Warden kademesinin kendi donanımındaki bir ekip içindir. Daha zayıf g
 
 ### Warden sayıları {#warden-numbers}
 
-Warden sayıları her dünyada aynıdır (Alpha sayıları); ödemeleri de öyle. Her dron, refakatçi ya da muhafızın sayıları ikinci tablodadır ve Warden ile birlikte dururlar: bir Brood Drone Warden gövdesini iyileştirir, bir Siege Escort ya da Wrath Guard lazer ateşi eder. Bir salvo, bir geminin tüm lazerlerinin bir saniyedeki atışlarıdır; gösterilen sayının %80 ile %100’ü arasında rastgele belirlenir; gövdesi yarının altındaki bir Wrath Warden bir buçuk kat daha sert vurur. Warden ve yardımcılarının hepsi, Warden ile savaşan pilota ateş eder, bu yüzden salvoları toplanır: dört dronuyla birlikte bir Brood Warden III tek bir gemiye saniyede en çok 21.750 hasar bindirir. Siege Warden [Rivet roketi](/wiki/06-Items/Rockets.md#the-twelve-rockets) rastgele belirlenmez: I. güçte en çok **2.500**, II. güçte **5.000**, III. güçte **7.500** vurur; bir pilotun Rivet roketi ise en düşük ile en yüksek bir sayı arasında rastgele belirlenir. Düz gider, bu yüzden hareket eden bir gemiyi ıskalar.
+Warden sayıları her dünyada aynıdır (Alpha sayıları); ödemeleri de öyle. Her dron, refakatçi ya da muhafızın sayıları ikinci tablodadır ve Warden ile birlikte dururlar: bir Brood Drone Warden gövdesini iyileştirir, bir Siege Escort ya da Wrath Guard lazer ateşi eder. Bir salvo, bir geminin tüm lazerlerinin bir saniyedeki atışlarıdır; gösterilen sayının %80 ile %100’ü arasında rastgele belirlenir; bir Wrath Warden gövdesi üçte ikinin altındayken dörtte bir daha sert, üçte birin altındayken bir buçuk kat daha sert vurur. Warden ve yardımcılarının hepsi, Warden ile savaşan pilota ateş eder, bu yüzden salvoları toplanır. Siege Warden [Rivet roketi](/wiki/06-Items/Rockets.md#the-twelve-rockets) rastgele belirlenmez: I. güçte en çok **{{guide:behaviour.ability:rocket.damage@Siege Warden I}}**, II. güçte **{{guide:behaviour.ability:rocket.damage@Siege Warden II}}**, III. güçte **{{guide:behaviour.ability:rocket.damage@Siege Warden III}}** vurur; bir pilotun Rivet roketi ise en düşük ile en yüksek bir sayı arasında rastgele belirlenir. Düz gider, bu yüzden hareket eden bir gemiyi ıskalar.
 
 | Warden | Gövde | Kalkan | Lazer hasarı (saniyede bir salvo) | Hız | Lazer menzili | Kendini onarır (saniyede gövde) | Roket ve atışlar arası saniye |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | :--- |
-| Brood Warden I | 830.000 | 680.000 | 645 | 90 | 600 | – | – |
-| Brood Warden II | 1.440.000 | 1.180.000 | 3.885 | 90 | 700 | – | – |
-| Brood Warden III | 2.650.000 | 2.175.000 | 15.450 | 90 | 800 | – | – |
-| Siege Warden I | 715.000 | 585.000 | 240 | 110 | 600 | 1.075 | Warden Rivet I: 24 |
-| Siege Warden II | 1.240.000 | 1.015.000 | 1.455 | 110 | 700 | 1.875 | Warden Rivet II: 12 |
-| Siege Warden III | 4.575.000 | 3.725.000 | 9.225 | 110 | 800 | 6.925 | Warden Rivet III: 8 |
-| Wrath Warden I | 815.000 | 665.000 | 480 | 90 | 700 | 1.075 | – |
-| Wrath Warden II | 1.410.000 | 1.155.000 | 2.910 | 90 | 800 | 1.875 | – |
-| Wrath Warden III | 5.200.000 | 4.250.000 | 12.300 | 90 | 900 | 6.925 | – |
+| Brood Warden I | {{guide:vitals.hull@Brood Warden I}} | {{guide:vitals.shield@Brood Warden I}} | {{guide:vitals.dps@Brood Warden I}} | {{guide:vitals.speed@Brood Warden I}} | 600 | – | – |
+| Brood Warden II | {{guide:vitals.hull@Brood Warden II}} | {{guide:vitals.shield@Brood Warden II}} | {{guide:vitals.dps@Brood Warden II}} | {{guide:vitals.speed@Brood Warden II}} | 700 | – | – |
+| Brood Warden III | {{guide:vitals.hull@Brood Warden III}} | {{guide:vitals.shield@Brood Warden III}} | {{guide:vitals.dps@Brood Warden III}} | {{guide:vitals.speed@Brood Warden III}} | 800 | – | – |
+| Siege Warden I | {{guide:vitals.hull@Siege Warden I}} | {{guide:vitals.shield@Siege Warden I}} | {{guide:vitals.dps@Siege Warden I}} | {{guide:vitals.speed@Siege Warden I}} | 600 | 1.075 | Warden Rivet I: 24 |
+| Siege Warden II | {{guide:vitals.hull@Siege Warden II}} | {{guide:vitals.shield@Siege Warden II}} | {{guide:vitals.dps@Siege Warden II}} | {{guide:vitals.speed@Siege Warden II}} | 700 | 1.875 | Warden Rivet II: 12 |
+| Siege Warden III | {{guide:vitals.hull@Siege Warden III}} | {{guide:vitals.shield@Siege Warden III}} | {{guide:vitals.dps@Siege Warden III}} | {{guide:vitals.speed@Siege Warden III}} | 800 | 6.925 | Warden Rivet III: 8 |
+| Wrath Warden I | {{guide:vitals.hull@Wrath Warden I}} | {{guide:vitals.shield@Wrath Warden I}} | {{guide:vitals.dps@Wrath Warden I}} | {{guide:vitals.speed@Wrath Warden I}} | 700 | 1.075 | – |
+| Wrath Warden II | {{guide:vitals.hull@Wrath Warden II}} | {{guide:vitals.shield@Wrath Warden II}} | {{guide:vitals.dps@Wrath Warden II}} | {{guide:vitals.speed@Wrath Warden II}} | 800 | 1.875 | – |
+| Wrath Warden III | {{guide:vitals.hull@Wrath Warden III}} | {{guide:vitals.shield@Wrath Warden III}} | {{guide:vitals.dps@Wrath Warden III}} | {{guide:vitals.speed@Wrath Warden III}} | 900 | 6.925 | – |
 
 | Yardımcı | Kaç tane | Gövde | Kalkan | Lazer hasarı (saniyede bir salvo) | Hız | Warden gövdesini iyileştirir (saniyede) |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| Brood Drone I | 4 | 3.500 | 2.500 | 60 | 170 | 600 |
-| Brood Drone II | 4 | 6.000 | 4.500 | 390 | 170 | 1.050 |
-| Brood Drone III | 4 | 20.000 | 17.500 | 1.575 | 170 | 1.925 |
-| Siege Escort I | 2 | 21.500 | 17.500 | 30 | 175 | – |
-| Siege Escort II | 2 | 37.000 | 30.500 | 225 | 175 | – |
-| Siege Escort III | 2 | 137.500 | 112.500 | 1.425 | 175 | – |
-| Wrath Guard I | 2 | 24.500 | 20.000 | 90 | 180 | – |
-| Wrath Guard II | 2 | 42.500 | 34.500 | 585 | 180 | – |
-| Wrath Guard III | 2 | 155.000 | 127.500 | 2.475 | 180 | – |
+| Brood Drone I | 4 | {{guide:vitals.hull@Brood Drone I}} | {{guide:vitals.shield@Brood Drone I}} | {{guide:vitals.dps@Brood Drone I}} | {{guide:vitals.speed@Brood Drone I}} | 600 |
+| Brood Drone II | 4 | {{guide:vitals.hull@Brood Drone II}} | {{guide:vitals.shield@Brood Drone II}} | {{guide:vitals.dps@Brood Drone II}} | {{guide:vitals.speed@Brood Drone II}} | 1.050 |
+| Brood Drone III | 4 | {{guide:vitals.hull@Brood Drone III}} | {{guide:vitals.shield@Brood Drone III}} | {{guide:vitals.dps@Brood Drone III}} | {{guide:vitals.speed@Brood Drone III}} | 1.925 |
+| Siege Escort I | 2 | {{guide:vitals.hull@Siege Escort I}} | {{guide:vitals.shield@Siege Escort I}} | {{guide:vitals.dps@Siege Escort I}} | {{guide:vitals.speed@Siege Escort I}} | – |
+| Siege Escort II | 2 | {{guide:vitals.hull@Siege Escort II}} | {{guide:vitals.shield@Siege Escort II}} | {{guide:vitals.dps@Siege Escort II}} | {{guide:vitals.speed@Siege Escort II}} | – |
+| Siege Escort III | 2 | {{guide:vitals.hull@Siege Escort III}} | {{guide:vitals.shield@Siege Escort III}} | {{guide:vitals.dps@Siege Escort III}} | {{guide:vitals.speed@Siege Escort III}} | – |
+| Wrath Guard I | 2 | {{guide:vitals.hull@Wrath Guard I}} | {{guide:vitals.shield@Wrath Guard I}} | {{guide:vitals.dps@Wrath Guard I}} | {{guide:vitals.speed@Wrath Guard I}} | – |
+| Wrath Guard II | 2 | {{guide:vitals.hull@Wrath Guard II}} | {{guide:vitals.shield@Wrath Guard II}} | {{guide:vitals.dps@Wrath Guard II}} | {{guide:vitals.speed@Wrath Guard II}} | – |
+| Wrath Guard III | 2 | {{guide:vitals.hull@Wrath Guard III}} | {{guide:vitals.shield@Wrath Guard III}} | {{guide:vitals.dps@Wrath Guard III}} | {{guide:vitals.speed@Wrath Guard III}} | – |
 
 ### Ödeme ve ganimet {#warden-pay-and-loot}
 
@@ -425,31 +440,17 @@ Bir Warden, kademenin ağır uzaylısından bir yığının ödeyeceğini öder:
 
 | Warden gücü | Kredi | Thulium | Deneyim (XP) | Onur |
 | :--- | ---: | ---: | ---: | ---: |
-| I | 2.700.000 | 10.800 | 270.000 | 5.400 |
-| II | 3.600.000 | 18.000 | 576.000 | 7.200 |
-| III | 7.200.000 | 36.000 | 1.440.000 | 11.520 |
+| I | {{guide:spoils.pay.credits@Brood Warden I;Siege Warden I;Wrath Warden I}} | {{guide:spoils.pay.thulium@Brood Warden I;Siege Warden I;Wrath Warden I}} | {{guide:spoils.pay.experience@Brood Warden I;Siege Warden I;Wrath Warden I}} | {{guide:spoils.pay.honor@Brood Warden I;Siege Warden I;Wrath Warden I}} |
+| II | {{guide:spoils.pay.credits@Brood Warden II;Siege Warden II;Wrath Warden II}} | {{guide:spoils.pay.thulium@Brood Warden II;Siege Warden II;Wrath Warden II}} | {{guide:spoils.pay.experience@Brood Warden II;Siege Warden II;Wrath Warden II}} | {{guide:spoils.pay.honor@Brood Warden II;Siege Warden II;Wrath Warden II}} |
+| III | {{guide:spoils.pay.credits@Brood Warden III;Siege Warden III;Wrath Warden III}} | {{guide:spoils.pay.thulium@Brood Warden III;Siege Warden III;Wrath Warden III}} | {{guide:spoils.pay.experience@Brood Warden III;Siege Warden III;Wrath Warden III}} | {{guide:spoils.pay.honor@Brood Warden III;Siege Warden III;Wrath Warden III}} |
 
 **Ödeme alan her pilot, enkazın başında kendine ait bir kutu alır**, ganimetten payıyla. Tablo, bütün öldürmenin düşürdüklerini listeler; hasarın %20’sini veren bir pilot her miktarın yaklaşık beşte birini alır: pay rastgele yuvarlanır, bu yüzden ortalama tamdır ve küçük bir pay bile arada bir nadir bir satır alır. **Kutunu yalnızca sen görürsün ve yalnızca sen alabilirsin**, klanın da grubun da değil; **10 dakika** boyunca durur ve 30 saniyelik bir bekleme yoktur ([özel kutular](/wiki/03-Mechanics/Cargo.md#private-boxes)). Bir [grupta](/wiki/03-Mechanics/Groups.md#sharing-kills) üyeler %5 için tek pilot sayılır ve payı, bir grupta her öldürmenin paylaşıldığı gibi paylaşılır (yakındaki ve ateş eden arkadaşlar, seviyeye göre): bir pay alan her arkadaş o payın özel kutusunu alır. Oyun Günlüğü sana payını söyler. %5’ten azını vermiş bir pilota ödeme yapılmaz ve ona kutu bırakılmaz; Oyun Günlüğü bunu söyler. Parantez içindeki bir şans, o kadar çekilişin her biri içindir: (5 × %50), her biri %50 şansla beş çekiliştir. Öldürmenin ganimeti bir kez belirlenir ve ödeme alan pilotlar arasında bölünür, bu yüzden hiçbir eşya asla iki kutuda bulunmaz: eşit bölünemeyen bir eşya (tek bir nadir parça), payların oranında şansla belirlenen tek bir pilota gider.
 
 | Warden | Eşya | I | II | III |
 | :--- | :--- | :---: | :---: | :---: |
-| Brood Warden | Ship Fragment | 30–50 | 80–120 | 150–250 |
-| Brood Warden | Advanced Plasma | 6.000–12.000 | 18.000–36.000 | – |
-| Brood Warden | Daraxium | 10–20 (5 × %50) | – | – |
-| Brood Warden | Nyxite | – | 20–40 (5 × %50) | – |
-| Brood Warden | Ultra Core | – | – | 18.000–30.000 |
-| Brood Warden | Quorvium | – | – | 50–100 (%60) |
-| Siege Warden | Ship Fragment | 20–40 | 60–100 | 120–200 |
-| Siege Warden | Siphon Battery | 6.000–12.000 | 18.000–30.000 | 48.000–72.000 |
-| Siege Warden | Kredi ile satın alınan roket (rastgele bir tür) | 20–30 | 50–80 | 80–120 |
-| Siege Warden | Reinforced Hull Plate | – | 10 (%30) | – |
-| Siege Warden | Destansı roket (rastgele bir tür) | – | – | 10–20 (%50) |
-| Wrath Warden | Ship Fragment | 40–60 | 80–120 | – |
-| Wrath Warden | Cataclysite | 30–50 | 50–100 | – |
-| Wrath Warden | Reinforced Hull Plate | 10 (%25) | 10 (%50) | 10–20 (%70) |
-| Wrath Warden | Power Core | – | 10 (%15) | 10 (%35) |
-| Wrath Warden | Quorvium | – | – | 50–100 (%70) |
-| Wrath Warden | Ancient Control Unit | – | – | 10 (%8) |
+| Brood Warden | – | {{guide:spoils.box@Brood Warden I}} | {{guide:spoils.box@Brood Warden II}} | {{guide:spoils.box@Brood Warden III}} |
+| Siege Warden | – | {{guide:spoils.box@Siege Warden I}} | {{guide:spoils.box@Siege Warden II}} | {{guide:spoils.box@Siege Warden III}} |
+| Wrath Warden | – | {{guide:spoils.box@Wrath Warden I}} | {{guide:spoils.box@Wrath Warden II}} | {{guide:spoils.box@Wrath Warden III}} |
 
 0.4.16’dan beri lazer cephanesi satırları (Advanced Plasma, Ultra Core ve Siphon Battery) eskisinin üç katıdır; diğer satırlar eskisi gibidir.
 

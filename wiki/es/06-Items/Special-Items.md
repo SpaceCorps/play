@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9da2aba86c37f5e2 -->
+<!-- wiki-i18n source: 645f14f1a9375995 -->
 <!-- wiki-i18n title: Objetos especiales -->
 # Objetos especiales {#special-items}
 
@@ -44,7 +44,7 @@ Termina **una mejora del Skylab al instante**: elige el módulo que se está mej
 
 ### Schematics
 
-Quita **24 horas a la investigación que está en marcha**. Si quedan **24 horas o menos**, la investigación se **termina** al instante; si queda más, pierde 24 horas y sigue, y puedes usar otro Schematics sobre ella. 188 de las 210 tecnologías del [Centro de investigación](/wiki/03-Mechanics/Research.md) tardan 24 horas o menos, así que un Schematics las termina desde el principio. Las otras 22 tardan más, 48 o 72 horas la mayoría y 96, 168 y 240 horas los Rocket Launcher III, IV y V, y necesitan de 2 a 10 Schematics.
+Quita **24 horas a la investigación que está en marcha**. Si quedan **24 horas o menos**, la investigación se **termina** al instante; si queda más, pierde 24 horas y sigue, y puedes usar otro Schematics sobre ella. 190 de las 212 tecnologías del [Centro de investigación](/wiki/03-Mechanics/Research.md) tardan 24 horas o menos, así que un Schematics las termina desde el principio. Las otras 22 tardan más, 48 o 72 horas la mayoría y 96, 168 y 240 horas los Rocket Launcher III, IV y V, y necesitan de 2 a 10 Schematics.
 
 - **Horas de la tecnología, no del reloj.** Las 24 horas son el tiempo de investigación propio de la tecnología, el de su tarjeta. El impulso de Thulium hace que una investigación corra más deprisa, pero no cambia lo que quita un uso; si un impulso cubriría el final de la investigación, un uso ahorra menos horas de espera (a doble velocidad, un día de investigación son 12 horas de espera). La confirmación indica lo que mostrará el temporizador.
 - **La investigación sigue como estaba.** Una investigación que pierde 24 horas conserva su sitio: el impulso sigue corriendo, la cola no se toca y no empieza nada detrás. Una investigación que espera ciencia sigue esperando: Schematics da tiempo, no combustible.

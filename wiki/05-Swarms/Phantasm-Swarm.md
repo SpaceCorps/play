@@ -15,14 +15,14 @@ The Phantasm Swarm is a **Boss Phantasm** with its **Phantasm Guards**: an enorm
 - **Followers stay within**: 500 units of the leader
 - **Healing**: Each Phantasm Guard within 600 units of the leader heals its hull, 30 HP a second in Alpha
 - **Leader destroyed**: The followers leave 30 s after the leader is destroyed, unless they are attacking
-- **Comes back**: 2 min after the leader is destroyed, in the same sector
+- **Comes back**: {{guide:vitals.respawn@Boss Phantasm#1;Boss Phantasm#2;Boss Phantasm#3}} after the leader is destroyed, in the same sector
 - **Announced**: The pilots of the sector are told when the leader appears and when it is destroyed. These are System lines: they show in the chat's **System** tab, with an unread count, and not in **Global** or **Local**. The kill feed names the pilot credited with the kill.
 
 <!-- phantasm-glance:end -->
 
 ## The members
 
-- **Boss Phantasm**: a larger Phantasm, in the swarm's tint and with its name over it, with a hull, a shield and a laser volley of its own (the numbers are below). It is passive: it roams until a pilot hits it, then goes after that pilot and fires at it, and the ships of its swarm that are close join in. Its weapon's range and its speed are those of a Phantasm, and it never mends its hull by itself.
+- **Boss Phantasm**: a larger Phantasm, in the swarm's tint and with its name over it, with a hull, a shield and a laser volley of its own (the numbers are below). It is passive: it roams until a pilot hits it, then goes after that pilot and fires at it, and the ships of its swarm that are close join in. Its weapon's range and its speed are those of a Phantasm, and it never mends its hull by itself. Its [three steps](#the-leaders-three-steps) and a [special ability](/wiki/03-Mechanics/Special-Abilities.md) can change that.
 - **Phantasm Guard**: a smaller Phantasm in the swarm's tint. Guards keep close to the boss, join the fight when a swarm ship near them is hit, and each one that is near the boss heals its hull. A guard mends its own hull after a rest, as a Phantasm does.
 
 ## How the fight goes
@@ -32,6 +32,19 @@ The Phantasm Swarm is a **Boss Phantasm** with its **Phantasm Guards**: an enorm
 - **Beta and Gamma are harder.** The swarms of those worlds are stronger ([Worlds](/wiki/05-Swarms/Swarms.md#the-worlds)), so they need more pilots or better ammo.
 - **Watch the sector.** `x-4` is a PvP sector in Alpha, and `x-3` and `x-4` are in Beta and Gamma ([Worlds](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)): a rival can join the fight or wait for the box. Keep a ship of the group on watch.
 - **The boss comes back** after the time in the *At a glance* list, at full strength, in the same sector, and its guards come one after the other.
+
+## The leader's three steps {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Its fight has three steps ([how they work](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); each one happens once.
+
+- **At the start**: Each of its Phantasm Guards puts up a shield layer of 10% of its own hull.
+- **Under two thirds**: 3 copies of it appear, and the real one wears a ring.
+- **Under a third**: Blinks about 2,500 units away from the pilots, and its Phantasm Guards come back whole round it.
+
+<!-- mob-ladder:end -->
 
 ## Rewards and drops
 
@@ -50,29 +63,23 @@ Built from the Phantasm at 2,000% of its hull and 300% of its laser damage; its 
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Hull | 40,000 | 60,000 | 80,000 |
-| Shield | 64,000 | 96,000 | 128,000 |
-| Laser damage (a volley a second) | 1,050 | 1,575 | 2,100 |
-| Speed | 160 | 160 | 160 |
+| Hull | {{guide:vitals.hull@Boss Phantasm#1}} | {{guide:vitals.hull@Boss Phantasm#2}} | {{guide:vitals.hull@Boss Phantasm#3}} |
+| Shield | {{guide:vitals.shield@Boss Phantasm#1}} | {{guide:vitals.shield@Boss Phantasm#2}} | {{guide:vitals.shield@Boss Phantasm#3}} |
+| Laser damage (a volley a second) | {{guide:vitals.dps@Boss Phantasm#1}} | {{guide:vitals.dps@Boss Phantasm#2}} | {{guide:vitals.dps@Boss Phantasm#3}} |
+| Speed | {{guide:vitals.speed@Boss Phantasm#1}} | {{guide:vitals.speed@Boss Phantasm#2}} | {{guide:vitals.speed@Boss Phantasm#3}} |
 | Laser range | 700 | 700 | 700 |
 | Aggro radius | only when attacked | only when attacked | only when attacked |
-| Credits | 39,000 | 78,000 | 117,000 |
-| Thulium | 195 | 390 | 585 |
-| Experience (XP) | 7,800 | 15,600 | 23,400 |
-| Honor | 62 | 124 | 186 |
+| Credits | {{guide:spoils.pay.credits@Boss Phantasm#1}} | {{guide:spoils.pay.credits@Boss Phantasm#2}} | {{guide:spoils.pay.credits@Boss Phantasm#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Boss Phantasm#1}} | {{guide:spoils.pay.thulium@Boss Phantasm#2}} | {{guide:spoils.pay.thulium@Boss Phantasm#3}} |
+| Experience (XP) | {{guide:spoils.pay.experience@Boss Phantasm#1}} | {{guide:spoils.pay.experience@Boss Phantasm#2}} | {{guide:spoils.pay.experience@Boss Phantasm#3}} |
+| Honor | {{guide:spoils.pay.honor@Boss Phantasm#1}} | {{guide:spoils.pay.honor@Boss Phantasm#2}} | {{guide:spoils.pay.honor@Boss Phantasm#3}} |
 | PvE points per kill | 8 | 8 | 8 |
 
 **Drop**: one box, for the pilot who dealt the most damage.
 
-| Item | Chance | Amount |
-| :--- | ---: | ---: |
-| Ship Fragment | 100% on each of 13 rolls | 1 |
-| Daraxium | 60% on each of 13 rolls | 1–2 |
-| Nyxite | 60% on each of 13 rolls | 1–2 |
-| Standard Battery | 100% | 600–1,200 |
-| Advanced Plasma | 100% | 60–100 |
-| Ultra Core | 100% | 10–20 |
-| One of the 4 [rockets](/wiki/06-Items/Rockets.md) bought with Credits, picked at random | 100% | 4–6 |
+| Item |
+| :--- |
+| {{guide:spoils.box@Boss Phantasm#1;Boss Phantasm#2;Boss Phantasm#3}} |
 
 ### Phantasm Guard
 
@@ -80,17 +87,17 @@ Built from the Phantasm at 50% of its hull, shield and damage; its speed and ran
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Hull | 1,000 | 1,500 | 2,000 |
-| Shield | 1,600 | 2,400 | 3,200 |
-| Laser damage (a volley a second) | 175 | 263 | 350 |
-| Speed | 160 | 160 | 160 |
+| Hull | {{guide:vitals.hull@Phantasm Guard#1}} | {{guide:vitals.hull@Phantasm Guard#2}} | {{guide:vitals.hull@Phantasm Guard#3}} |
+| Shield | {{guide:vitals.shield@Phantasm Guard#1}} | {{guide:vitals.shield@Phantasm Guard#2}} | {{guide:vitals.shield@Phantasm Guard#3}} |
+| Laser damage (a volley a second) | {{guide:vitals.dps@Phantasm Guard#1}} | {{guide:vitals.dps@Phantasm Guard#2}} | {{guide:vitals.dps@Phantasm Guard#3}} |
+| Speed | {{guide:vitals.speed@Phantasm Guard#1}} | {{guide:vitals.speed@Phantasm Guard#2}} | {{guide:vitals.speed@Phantasm Guard#3}} |
 | Laser range | 700 | 700 | 700 |
 | Aggro radius | only when attacked | only when attacked | only when attacked |
 | Heals the leader, each, per second (hull only) | 30 | 45 | 60 |
-| Credits | 125 | 250 | 375 |
-| Thulium | 1 | 2 | 3 |
-| Experience (XP) | 12 | 24 | 36 |
-| Honor | 1 | 2 | 3 |
+| Credits | {{guide:spoils.pay.credits@Phantasm Guard#1}} | {{guide:spoils.pay.credits@Phantasm Guard#2}} | {{guide:spoils.pay.credits@Phantasm Guard#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Phantasm Guard#1}} | {{guide:spoils.pay.thulium@Phantasm Guard#2}} | {{guide:spoils.pay.thulium@Phantasm Guard#3}} |
+| Experience (XP) | {{guide:spoils.pay.experience@Phantasm Guard#1}} | {{guide:spoils.pay.experience@Phantasm Guard#2}} | {{guide:spoils.pay.experience@Phantasm Guard#3}} |
+| Honor | {{guide:spoils.pay.honor@Phantasm Guard#1}} | {{guide:spoils.pay.honor@Phantasm Guard#2}} | {{guide:spoils.pay.honor@Phantasm Guard#3}} |
 | PvE points per kill | 1 | 1 | 1 |
 
 **Drop**: none. The kill pays its Credits, Thulium, XP and Honor only.

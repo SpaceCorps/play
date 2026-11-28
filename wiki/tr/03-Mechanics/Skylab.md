@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 590bfe6edf55d4c3 -->
+<!-- wiki-i18n source: ac91029328d1c571 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -43,7 +43,7 @@ Skylab, sana ait yörünge tesisidir. Kredi ve Thulium üreten, cevher çıkaran
 
 ## Genel bakış {#overview}
 
-Skylab geminden bağımsız, kendi saatiyle işler: modüller sen yokken de üretir ve döker. Senin işin inşa etmek, yükseltmek, gücü dengede tutmak ve toplamaktır. Sayfada aynı istasyonun dört görünümü var: **İstasyon** (3D istasyon, her modülün üstünde bir etiket; birine tıkla ya da **1** ile **9** arasındaki bir tuşa bas, modülün sayfası açılır), **Liste** (her modül için bir kart), **Tablo** (tüm modüllerin sayıları tek tabloda) ve **Araştırma** (Araştırma Merkezi’nin kendi ekranı, bkz. [Araştırma](/wiki/03-Mechanics/Research.md)). **İnşa et** veya **Yükselt** düğmesinin üzerine gelince sonraki seviyenin neyi değiştirdiği, neye mal olduğu ve ne kadar sürdüğü görünür. Sayfanın başlığındaki **Evren** düğmesi Sefer haritasını açar (bkz. [Seferler](#expeditions)).
+Skylab geminden bağımsız, kendi saatiyle işler: modüller sen yokken de üretir ve döker. Senin işin inşa etmek, yükseltmek, gücü dengede tutmak ve toplamaktır. Sayfada beş görünüm var. Dördü aynı istasyonun görünümüdür: **İstasyon** (3D istasyon, her modülün üstünde bir etiket; birine tıkla ya da **1** ile **9** arasındaki bir tuşa bas, modülün sayfası açılır), **Liste** (her modül için bir kart), **Tablo** (tüm modüllerin sayıları tek tabloda) ve **Araştırma** (Araştırma Merkezi’nin kendi ekranı, bkz. [Araştırma](/wiki/03-Mechanics/Research.md)). Beşincisi olan **Müze** modüllerle ilgili değildir: [Gezgin Rehberi](/wiki/03-Mechanics/Travelers-Guide.md#the-museum)’nin kayıtları için bulduğun parçaları saklar (bkz. [Müze](#museum)). **İnşa et** veya **Yükselt** düğmesinin üzerine gelince sonraki seviyenin neyi değiştirdiği, neye mal olduğu ve ne kadar sürdüğü görünür. Sayfanın başlığındaki **Evren** düğmesi Sefer haritasını açar (bkz. [Seferler](#expeditions)).
 
 İstasyon on altı modülden oluşur:
 
@@ -183,6 +183,15 @@ Dört modül, klavyeden uzakta geçirdiğin zamanı en iyi lazerlerinin plakalar
 ## Araştırma Merkezi {#the-research-centre}
 
 Dokuzuncu modül kaynakları bilim puanına çevirir ve Montaj’ın yeni bir şey üretmeden önce istediği teknolojileri araştırır. Çekirdek 10. seviyeden itibaren inşa edilir, 1’den 10’a kadar seviyeleri vardır, güç çeker ve kapatılamaz. Sayıları, yakıt olarak neyi yaktığı, hızlandırma ve teknoloji ağacının tamamı [Araştırma](/wiki/03-Mechanics/Research.md) sayfasındadır. En yüksek teknolojiler ayrıca Merkeze eklediğin Dark Matter ister: nasıl elde edileceğini [Dark Matter ve Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md) anlatır. Motor, Savunma ve Radar Modüllerinin seviyeleri de burada araştırılan teknolojilerdir (bkz. [Araştırma](/wiki/03-Mechanics/Research.md#module-technologies)).
+
+## Müze {#museum}
+
+Müze, sayfanın beşinci görünümüdür ve Araştırma’nın yanındadır. Araştırdığın **parçalar** burada saklanır: açtığın (beş tarama) her [Gezgin Rehberi](/wiki/03-Mechanics/Travelers-Guide.md#the-museum) kaydının, uzaylısı yok edilebiliyorsa, beş parçası vardır; bu parçalar yalnızca senin alabileceğin bir kargo kutusuna düşer, Xenolab'da araştırılır ve araştırdığın her parça o türe verdiğin hasarı artırır. Müze bir modül değildir: seviye, güç ya da inşa gerektirmez.
+
+- **Açtığın, parçasını araştırdığın ya da parçasını taşıdığın bu kayıtların her biri için bir kart**, rehberin sırasıyla, uzaylıların yaşadığı her yer için bir bölümde (şirketlerin sektörleri, sürüler, Dormant Swamp, klan Muhafızları, klan zindanları, solo kapılar, Davidski ve Deep Void). Bir kart, uzaylının resmini ve kademesinin harfiyle adını (β Goombah; taç bir bossu işaretler), şu an sahip olduğun bonusu gösteren bir hap, beş yuva, “Araştırılan parçalar 2 / 5”, şimdiki bonusu (“Bu türe +%15 hasar”) ve sonraki parçanın verdiğini (“Sonraki parça: +%18,3”; beşi de varsa “Set tamam.”) gösterir.
+- **Bir yuva** yalnızca renkle değil, resmiyle anlatılır: araştırdığın parça kemikli altın bir karo, taşıdığın ama henüz araştırmadığın parça kemikli ve adetli altın bir çerçeve (Xenolab'da araştır), henüz bulmadığın parça boş bir çerçeve, tarayıcının bulamayacağı parça ise **II** işaretli bir kilittir: bir Organic Scanner II gerekir. Organic Scanner I yalnızca 1. ve 2. parçaları bulur; II ise 5 parçanın hepsini bulur ve 3. ile 5. parçaları yalnızca o bulur.
+- **Üstte** açtığın kayıtlar, araştırdığın parçalar (“Araştırılan parçalar: 4 / 20”), kargondaki parçalar (“Kargonda: 2”), tamamladığın setler ve uçtuğun geminin Organic Scanner’ı yer alır (rıhtımdayken, etkin yapılandırmanın kalkacağı tarayıcı; hiçbiri takılı değilse parça düşmez). Altında ada göre arama, grup için açılır liste ve **Tümü**, **Parçalı** ve **Eksik** filtreleri vardır.
+- **Bir Deep Void haritasında** her parça için Organic Scanner II gerekir; bir kartın Scanner I’e açık gösterdiği ilk iki parça için de: kartlar diğer haritaların istediğini söyler.
 
 ## Köprü ve Çekirdek 2 {#the-bridge-and-core-2}
 
@@ -690,7 +699,7 @@ Her çiftlik ve toplayıcının ürettiğinin yaklaşık 72 saati için bir hazn
 
 ### Sıfırlama {#the-wipe}
 
-Skylab asla sıfırlanmaz: modüller seviyelerini korur, Kaynak Deposu cevherini korur ve Araştırma Merkezi teknolojilerini, bilim deposunu, tuttuğu Dark Matter miktarını ve süren bir araştırmayı korur. Envanterindeki plakalar diğer her eşya gibidir, bu yüzden [sıfırlama kurallarına](/wiki/03-Mechanics/Wipe-Timeline.md) tabidir. Cephane Yazıcısı ve Roket Fabrikası seviyelerini, neyi üretmeye ayarlı olduklarını ve tuttuklarını korur; Cevher Bölmesi seviyesini ve kotasını korur. Sefer’in dört modülü de teknolojileriyle birlikte seviyelerini korur; şarjör ve besleme anahtarı da öyle. Envanterindeki cevher her eşya gibi sıfırlanır: önce onu Kaynak Deposu’na taşı.
+Skylab asla sıfırlanmaz: modüller seviyelerini korur, Kaynak Deposu cevherini korur ve Araştırma Merkezi teknolojilerini, bilim deposunu, tuttuğu Dark Matter miktarını ve süren bir araştırmayı korur. Müze, araştırdığın her parçayı korur. Taşıdığın ama henüz araştırmadığın parça diğer eşyalar gibi bir eşyadır, bu yüzden sıfırlama onu alır. Envanterindeki plakalar diğer her eşya gibidir, bu yüzden [sıfırlama kurallarına](/wiki/03-Mechanics/Wipe-Timeline.md) tabidir. Cephane Yazıcısı ve Roket Fabrikası seviyelerini, neyi üretmeye ayarlı olduklarını ve tuttuklarını korur; Cevher Bölmesi seviyesini ve kotasını korur. Sefer’in dört modülü de teknolojileriyle birlikte seviyelerini korur; şarjör ve besleme anahtarı da öyle. Envanterindeki cevher her eşya gibi sıfırlanır: önce onu Kaynak Deposu’na taşı.
 
 Bir **sefer** sıfırlama anında kapatılır ve hesabı görülür: süren bir sefer biter, Trofe Bölmesi kredi, Thulium, deneyim ve onurunu öder ve boşaltılır (ganimeti, diğer her boşta eşya gibi silinir; kredi ve Thulium, [üst sınırlar](/wiki/03-Mechanics/Wipe-Timeline.md#the-caps) uygulanmadan önce cüzdanına girer) ve Skylab yeni sezona evde, şirketinin limanında, yeni bir evren haritasıyla, bilinen 19 başlangıç hücresiyle ve boş Radar kuyruğuyla başlar. Motor ve Savunma Modüllerine takılı motorlar ve lazerler **olduğu yerde kalır**: aynı parçalar, içlerine takılanlarla (iticiler, amfiler) ve Demirhane bonuslarıyla birlikte. Nakliye Deposu’nda yer kaplamazlar. Yalnızca modülünden çıkardığın bir parça boşta eşya olur ve diğerleriyle gider; hiçbir yere takılı olmayan Trofe Bölmesi ganimeti de öyle.
 

@@ -24,7 +24,7 @@ The Auction is the pilots' market and the game's own hourly lots, on one page of
 - From season day 28 until the wipe there is no deposit and no tax.
 - From season day 30 the Auction is closed until the new season starts: nothing can be listed, bought or bid on. You can still cancel your listings.
 - Each currency has its own limit on what you can sell and on what you can buy in 24 hours (the level table below). Lot wins do not count.
-- Between two pilots, one buying from the other, at most 16,000,000 Credits or 80,000 Thulium pass in 24 hours.
+- Between two pilots, one buying from the other, at most 32,000,000 Credits or 160,000 Thulium pass in 24 hours.
 
 <!-- market-glance:end -->
 
@@ -98,22 +98,22 @@ Your **open listings** (and a listing an admin has put on hold) use up slots. As
 
 | Level | Open listings | Longest listing | A day, Credits | A day, Thulium | Deposit per 24 h |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 5 | 20 | 504 h | 9,000,000 | 45,000 | 0.25% |
-| 6 | 40 | 504 h | 12,000,000 | 60,000 | 0.25% |
-| 7 | 70 | 504 h | 15,000,000 | 75,000 | 0.25% |
-| 8 | 100 | 504 h | 17,000,000 | 85,000 | 0.25% |
-| 9 | 100 | 504 h | 20,000,000 | 100,000 | 0.25% |
-| 10 | 100 | 504 h | 30,000,000 | 150,000 | 0.4% |
-| 11 | 100 | 504 h | 30,000,000 | 150,000 | 0.4% |
-| 12 | 100 | 504 h | 30,000,000 | 150,000 | 0.4% |
-| 13 | 100 | 504 h | 40,000,000 | 200,000 | 0.4% |
-| 14 | 100 | 504 h | 40,000,000 | 200,000 | 0.4% |
-| 15 | 100 | 504 h | 40,000,000 | 200,000 | 0.4% |
-| 16 | 100 | 504 h | 40,000,000 | 200,000 | 0.4% |
-| 17 | 100 | 504 h | 40,000,000 | 200,000 | 0.4% |
-| 18 | 100 | 504 h | 40,000,000 | 200,000 | 0.4% |
-| 19 | 100 | 504 h | 40,000,000 | 200,000 | 0.4% |
-| 20 and up | 100 | 504 h | 40,000,000 | 200,000 | 0.4% |
+| 5 | 20 | 504 h | 18,000,000 | 90,000 | 0.25% |
+| 6 | 40 | 504 h | 24,000,000 | 120,000 | 0.25% |
+| 7 | 70 | 504 h | 30,000,000 | 150,000 | 0.25% |
+| 8 | 100 | 504 h | 34,000,000 | 170,000 | 0.25% |
+| 9 | 100 | 504 h | 40,000,000 | 200,000 | 0.25% |
+| 10 | 100 | 504 h | 60,000,000 | 300,000 | 0.4% |
+| 11 | 100 | 504 h | 60,000,000 | 300,000 | 0.4% |
+| 12 | 100 | 504 h | 60,000,000 | 300,000 | 0.4% |
+| 13 | 100 | 504 h | 80,000,000 | 400,000 | 0.4% |
+| 14 | 100 | 504 h | 80,000,000 | 400,000 | 0.4% |
+| 15 | 100 | 504 h | 80,000,000 | 400,000 | 0.4% |
+| 16 | 100 | 504 h | 80,000,000 | 400,000 | 0.4% |
+| 17 | 100 | 504 h | 80,000,000 | 400,000 | 0.4% |
+| 18 | 100 | 504 h | 80,000,000 | 400,000 | 0.4% |
+| 19 | 100 | 504 h | 80,000,000 | 400,000 | 0.4% |
+| 20 and up | 100 | 504 h | 80,000,000 | 400,000 | 0.4% |
 
 <!-- market-limits:end -->
 

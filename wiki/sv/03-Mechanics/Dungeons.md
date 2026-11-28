@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 91f3dc3b14f71464 -->
+<!-- wiki-i18n source: f9b2d026af543d87 -->
 <!-- wiki-i18n title: Dungeons -->
 # Dungeons
 
-<!-- wiki-search: dungeon; dungeons; gate; gates; clan gate; clan gates; clan dungeon; summon; warlord; gate warlord; boss; maze; loot zone; chest; card; vote; stage; instance; gate delta; gate epsilon; gate zeta; gate eta; gate theta; gate iota; gate goombah; gate pirate; gate crystalys; portal; clan portal; join; clan gate alerts; clan dungeon window; clan dungeon alerts; dungeon goombah; dungeon pirate; dungeon crystalys; dungeon warlord; 75 percent; three quarters; start room; fog; guards; locked room; boss room; booster; boosters; swarm assist; focus most wanted; zone of chaos; rocket barrage; dungeon; dungeons; krigsherre; labyrint; steg; bytezon; kort; portal; klanportal; booster; dimma; väktare; startrum; låst rum; svärmhjälp; kaoszon; klanens dungeonaviseringar; klandungeon; klanens dungeonaviseringar; tre fjärdedelar; 75 procent -->
+<!-- wiki-search: dungeon; dungeons; gate; gates; clan gate; clan gates; clan dungeon; summon; warlord; gate warlord; boss; maze; loot zone; chest; card; vote; stage; instance; gate delta; gate epsilon; gate zeta; gate eta; gate theta; gate iota; gate goombah; gate pirate; gate crystalys; portal; clan portal; join; clan gate alerts; clan dungeon window; clan dungeon alerts; dungeon goombah; dungeon pirate; dungeon crystalys; dungeon warlord; 75 percent; three quarters; start room; fog; guards; locked room; boss room; booster; boosters; swarm assist; focus most wanted; zone of chaos; rocket barrage; dungeon; dungeons; krigsherre; labyrint; steg; bytezon; kort; portal; klanportal; booster; dimma; väktare; startrum; låst rum; svärmhjälp; kaoszon; klanens dungeonaviseringar; klandungeon; klanens dungeonaviseringar; tre fjärdedelar; 75 procent; radiation donut; donut; strålningsmunk -->
 
-En **dungeon** är en sluten labyrint med en **krigsherre** i änden (före 0.5.2 kallade spelet den port). En vice ledare eller ledaren i en [klan](/wiki/03-Mechanics/Clans.md) öppnar en och betalar för den ur klanbanken, och klanens medlemmar flyger in tillsammans som en [grupp](/wiki/03-Mechanics/Groups.md). De kämpar sig igenom labyrintens utomjordingar, öppnar bytezoner för att välja ett kort i var och en och fäller krigsherren. Varje pilot som deltog i striden får betalt när krigsherren faller, inom gränserna längre ner. Dungeonerna finns på fliken **Dungeons** på klansidan.
+En **dungeon** är en sluten labyrint med en **krigsherre** i änden (före 0.5.2 kallade spelet den port). En vice ledare eller ledaren i en [klan](/wiki/03-Mechanics/Clans.md) öppnar en och betalar för den ur klanbanken, och klanens medlemmar flyger in tillsammans som en [grupp](/wiki/03-Mechanics/Groups.md). De kämpar sig igenom labyrintens utomjordingar, öppnar bytezoner för att välja ett kort i var och en och fäller krigsherren. Alla flyger som en enda grupp, och en grupp skonas inte från en raketts områdesskada: explosionen från en Ember, en Scatter eller en N.U.K.E. och strålningszonen som en N.U.K.E. lämnar skadar dig och medlemmarna i din grupp för hälften av vad de gör mot ett annat skepp. Se därför upp var du skjuter (se [Grupper](/wiki/03-Mechanics/Groups.md#rules-of-engagement)). Varje pilot som deltog i striden får betalt när krigsherren faller, inom gränserna längre ner. Dungeonerna finns på fliken **Dungeons** på klansidan.
 
 En dungeon är en strid enbart mot utomjordingarna: ingen kan attackera en klankamrat eller någon annan därinne. Utomjordingarna betalar när de faller, som utomjordingarna i spelet som de är byggda efter ([vad utomjordingarna betalar](#what-the-aliens-pay)). Klarningen tillhör krigsherren, så det enda sättet att få betalt för den är att vara med i striden när den faller.
 
@@ -117,17 +117,17 @@ Varje sort i tur och ordning. Skrov och sköld är de vanliga värdena gånger m
 
 |  | Steg 1 | Steg 2 | Steg 3 |
 | :--- | ---: | ---: | ---: |
-| Skrov | 32 000 | 48 000 | 64 000 |
-| Sköld | 48 000 | 72 000 | 96 000 |
-| Laserskada (en salva per sekund) | 3 000 | 4 500 | 6 000 |
-| Hastighet | 180 | 180 | 180 |
+| Skrov | {{guide:vitals.hull@Dungeon Goombah}} | {{guide:vitals.hull*1.5@Dungeon Goombah}} | {{guide:vitals.hull*2@Dungeon Goombah}} |
+| Sköld | {{guide:vitals.shield@Dungeon Goombah}} | {{guide:vitals.shield*1.5@Dungeon Goombah}} | {{guide:vitals.shield*2@Dungeon Goombah}} |
+| Laserskada (en salva per sekund) | {{guide:vitals.dps@Dungeon Goombah}} | {{guide:vitals.dps*1.5@Dungeon Goombah}} | {{guide:vitals.dps*2@Dungeon Goombah}} |
+| Hastighet | {{guide:vitals.speed@Dungeon Goombah}} | {{guide:vitals.speed@Dungeon Goombah}} | {{guide:vitals.speed@Dungeon Goombah}} |
 | Laserräckvidd | 800 | 800 | 800 |
-| Aggroradie | 1 800 | 1 800 | 1 800 |
+| Aggroradie | {{guide:vitals.aggro@Dungeon Goombah}} | {{guide:vitals.aggro@Dungeon Goombah}} | {{guide:vitals.aggro@Dungeon Goombah}} |
 | Belöning och byte, gånger originalets | ×1 | ×1,5 | ×2 |
-| Krediter för varje förstörd | 15 000 | 22 500 | 30 000 |
-| Thulium för varje förstörd | 75 | 113 | 150 |
-| Erfarenhet för varje förstörd | 3 000 | 4 500 | 6 000 |
-| Heder för varje förstörd | 24 | 36 | 48 |
+| Krediter för varje förstörd | {{guide:spoils.pay.credits@Goombah#1}} | {{guide:spoils.pay.credits*1.5@Goombah#1}} | {{guide:spoils.pay.credits*2@Goombah#1}} |
+| Thulium för varje förstörd | {{guide:spoils.pay.thulium@Goombah#1}} | {{guide:spoils.pay.thulium*1.5@Goombah#1}} | {{guide:spoils.pay.thulium*2@Goombah#1}} |
+| Erfarenhet för varje förstörd | {{guide:spoils.pay.experience@Goombah#1}} | {{guide:spoils.pay.experience*1.5@Goombah#1}} | {{guide:spoils.pay.experience*2@Goombah#1}} |
+| Heder för varje förstörd | {{guide:spoils.pay.honor@Goombah#1}} | {{guide:spoils.pay.honor*1.5@Goombah#1}} | {{guide:spoils.pay.honor*2@Goombah#1}} |
 
 ### Dungeon Pirate
 
@@ -138,18 +138,18 @@ Varje sort i tur och ordning. Skrov och sköld är de vanliga värdena gånger m
 
 |  | Steg 1 | Steg 2 | Steg 3 |
 | :--- | ---: | ---: | ---: |
-| Skrov | 250 000 | 375 000 | 500 000 |
-| Sköld | 50 100 | 75 150 | 100 200 |
-| Laserskada (en salva per sekund) | 200 | 300 | 400 |
-| Raketskada | 5 000 | 7 500 | 10 000 |
-| Hastighet | 100 | 100 | 100 |
+| Skrov | {{guide:vitals.hull@Dungeon Pirate}} | {{guide:vitals.hull*1.5@Dungeon Pirate}} | {{guide:vitals.hull*2@Dungeon Pirate}} |
+| Sköld | {{guide:vitals.shield@Dungeon Pirate}} | {{guide:vitals.shield*1.5@Dungeon Pirate}} | {{guide:vitals.shield*2@Dungeon Pirate}} |
+| Laserskada (en salva per sekund) | {{guide:vitals.dps@Dungeon Pirate}} | {{guide:vitals.dps*1.5@Dungeon Pirate}} | {{guide:vitals.dps*2@Dungeon Pirate}} |
+| Raketskada | {{guide:behaviour.ability:rocket.damage@Dungeon Pirate}} | {{guide:behaviour.ability:rocket.damage*1.5@Dungeon Pirate}} | {{guide:behaviour.ability:rocket.damage*2@Dungeon Pirate}} |
+| Hastighet | {{guide:vitals.speed@Dungeon Pirate}} | {{guide:vitals.speed@Dungeon Pirate}} | {{guide:vitals.speed@Dungeon Pirate}} |
 | Laserräckvidd | 700 | 700 | 700 |
-| Aggroradie | 1 800 | 1 800 | 1 800 |
+| Aggroradie | {{guide:vitals.aggro@Dungeon Pirate}} | {{guide:vitals.aggro@Dungeon Pirate}} | {{guide:vitals.aggro@Dungeon Pirate}} |
 | Belöning och byte, gånger originalets | ×1 | ×1,5 | ×2 |
-| Krediter för varje förstörd | 145 000 | 217 500 | 290 000 |
-| Thulium för varje förstörd | 725 | 1 088 | 1 450 |
-| Erfarenhet för varje förstörd | 29 000 | 43 500 | 58 000 |
-| Heder för varje förstörd | 232 | 348 | 464 |
+| Krediter för varje förstörd | {{guide:spoils.pay.credits@Pirate Boss#1}} | {{guide:spoils.pay.credits*1.5@Pirate Boss#1}} | {{guide:spoils.pay.credits*2@Pirate Boss#1}} |
+| Thulium för varje förstörd | {{guide:spoils.pay.thulium@Pirate Boss#1}} | {{guide:spoils.pay.thulium*1.5@Pirate Boss#1}} | {{guide:spoils.pay.thulium*2@Pirate Boss#1}} |
+| Erfarenhet för varje förstörd | {{guide:spoils.pay.experience@Pirate Boss#1}} | {{guide:spoils.pay.experience*1.5@Pirate Boss#1}} | {{guide:spoils.pay.experience*2@Pirate Boss#1}} |
+| Heder för varje förstörd | {{guide:spoils.pay.honor@Pirate Boss#1}} | {{guide:spoils.pay.honor*1.5@Pirate Boss#1}} | {{guide:spoils.pay.honor*2@Pirate Boss#1}} |
 
 ### Dungeon Crystalys
 
@@ -159,17 +159,17 @@ Varje sort i tur och ordning. Skrov och sköld är de vanliga värdena gånger m
 
 |  | Steg 1 | Steg 2 | Steg 3 |
 | :--- | ---: | ---: | ---: |
-| Skrov | 256 000 | 384 000 | 512 000 |
-| Sköld | 160 000 | 240 000 | 320 000 |
-| Laserskada (en salva per sekund) | 10 000 | 15 000 | 20 000 |
-| Hastighet | 230 | 230 | 230 |
+| Skrov | {{guide:vitals.hull@Dungeon Crystalys}} | {{guide:vitals.hull*1.5@Dungeon Crystalys}} | {{guide:vitals.hull*2@Dungeon Crystalys}} |
+| Sköld | {{guide:vitals.shield@Dungeon Crystalys}} | {{guide:vitals.shield*1.5@Dungeon Crystalys}} | {{guide:vitals.shield*2@Dungeon Crystalys}} |
+| Laserskada (en salva per sekund) | {{guide:vitals.dps@Dungeon Crystalys}} | {{guide:vitals.dps*1.5@Dungeon Crystalys}} | {{guide:vitals.dps*2@Dungeon Crystalys}} |
+| Hastighet | {{guide:vitals.speed@Dungeon Crystalys}} | {{guide:vitals.speed@Dungeon Crystalys}} | {{guide:vitals.speed@Dungeon Crystalys}} |
 | Laserräckvidd | 900 | 900 | 900 |
-| Aggroradie | 2 400 | 2 400 | 2 400 |
+| Aggroradie | {{guide:vitals.aggro@Dungeon Crystalys}} | {{guide:vitals.aggro@Dungeon Crystalys}} | {{guide:vitals.aggro@Dungeon Crystalys}} |
 | Belöning och byte, gånger originalets | ×1 | ×1,5 | ×2 |
-| Krediter för varje förstörd | 75 000 | 112 500 | 150 000 |
-| Thulium för varje förstörd | 200 | 300 | 400 |
-| Erfarenhet för varje förstörd | 12 000 | 18 000 | 24 000 |
-| Heder för varje förstörd | 52 | 78 | 104 |
+| Krediter för varje förstörd | {{guide:spoils.pay.credits@Crystalys#1}} | {{guide:spoils.pay.credits*1.5@Crystalys#1}} | {{guide:spoils.pay.credits*2@Crystalys#1}} |
+| Thulium för varje förstörd | {{guide:spoils.pay.thulium@Crystalys#1}} | {{guide:spoils.pay.thulium*1.5@Crystalys#1}} | {{guide:spoils.pay.thulium*2@Crystalys#1}} |
+| Erfarenhet för varje förstörd | {{guide:spoils.pay.experience@Crystalys#1}} | {{guide:spoils.pay.experience*1.5@Crystalys#1}} | {{guide:spoils.pay.experience*2@Crystalys#1}} |
+| Heder för varje förstörd | {{guide:spoils.pay.honor@Crystalys#1}} | {{guide:spoils.pay.honor*1.5@Crystalys#1}} | {{guide:spoils.pay.honor*2@Crystalys#1}} |
 
 ### Dungeon Crystalys Twin
 
@@ -179,17 +179,17 @@ Varje sort i tur och ordning. Skrov och sköld är de vanliga värdena gånger m
 
 |  | Steg 1 | Steg 2 | Steg 3 |
 | :--- | ---: | ---: | ---: |
-| Skrov | 512 000 | 768 000 | 1 024 000 |
-| Sköld | 320 000 | 480 000 | 640 000 |
-| Laserskada (en salva per sekund) | 20 000 | 30 000 | 40 000 |
-| Hastighet | 230 | 230 | 230 |
+| Skrov | {{guide:vitals.hull@Dungeon Crystalys Twin}} | {{guide:vitals.hull*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.hull*2@Dungeon Crystalys Twin}} |
+| Sköld | {{guide:vitals.shield@Dungeon Crystalys Twin}} | {{guide:vitals.shield*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.shield*2@Dungeon Crystalys Twin}} |
+| Laserskada (en salva per sekund) | {{guide:vitals.dps@Dungeon Crystalys Twin}} | {{guide:vitals.dps*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.dps*2@Dungeon Crystalys Twin}} |
+| Hastighet | {{guide:vitals.speed@Dungeon Crystalys Twin}} | {{guide:vitals.speed@Dungeon Crystalys Twin}} | {{guide:vitals.speed@Dungeon Crystalys Twin}} |
 | Laserräckvidd | 900 | 900 | 900 |
-| Aggroradie | 2 400 | 2 400 | 2 400 |
+| Aggroradie | {{guide:vitals.aggro@Dungeon Crystalys Twin}} | {{guide:vitals.aggro@Dungeon Crystalys Twin}} | {{guide:vitals.aggro@Dungeon Crystalys Twin}} |
 | Belöning och byte, gånger originalets | ×2 | ×3 | ×4 |
-| Krediter för varje förstörd | 150 000 | 225 000 | 300 000 |
-| Thulium för varje förstörd | 400 | 600 | 800 |
-| Erfarenhet för varje förstörd | 24 000 | 36 000 | 48 000 |
-| Heder för varje förstörd | 104 | 156 | 208 |
+| Krediter för varje förstörd | {{guide:spoils.pay.credits*2@Crystalys#1}} | {{guide:spoils.pay.credits*3@Crystalys#1}} | {{guide:spoils.pay.credits*4@Crystalys#1}} |
+| Thulium för varje förstörd | {{guide:spoils.pay.thulium*2@Crystalys#1}} | {{guide:spoils.pay.thulium*3@Crystalys#1}} | {{guide:spoils.pay.thulium*4@Crystalys#1}} |
+| Erfarenhet för varje förstörd | {{guide:spoils.pay.experience*2@Crystalys#1}} | {{guide:spoils.pay.experience*3@Crystalys#1}} | {{guide:spoils.pay.experience*4@Crystalys#1}} |
+| Heder för varje förstörd | {{guide:spoils.pay.honor*2@Crystalys#1}} | {{guide:spoils.pay.honor*3@Crystalys#1}} | {{guide:spoils.pay.honor*4@Crystalys#1}} |
 
 <!-- dungeons-enemies:end -->
 
@@ -205,24 +205,24 @@ Krigsherren väntar i rummet i andra änden av labyrinten, och hans fall är det
 
 |  | Steg 1 | Steg 2 | Steg 3 |
 | :--- | ---: | ---: | ---: |
-| Skrov | 10 000 000 | 15 000 000 | 25 000 000 |
-| Sköld | 8 000 000 | 12 000 000 | 20 000 000 |
-| Laserskada (en salva per sekund) | 17 500–22 500 | 26 250–33 750 mot var och en av 2 piloter | 35 000–45 000 mot var och en av 2 piloter |
-| Hastighet | 120 | 120 | 120 |
+| Skrov | {{guide:vitals.hull@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} | {{guide:vitals.hull*2.5@Dungeon Warlord}} |
+| Sköld | {{guide:vitals.shield@Dungeon Warlord}} | {{guide:vitals.shield*1.5@Dungeon Warlord}} | {{guide:vitals.shield*2.5@Dungeon Warlord}} |
+| Laserskada (en salva per sekund) | {{guide:vitals.dps*0.875~1.125@Dungeon Warlord}} | {{guide:vitals.dps*1.3125~1.6875@Dungeon Warlord}} mot var och en av 2 piloter | {{guide:vitals.dps*1.75~2.25@Dungeon Warlord}} mot var och en av 2 piloter |
+| Hastighet | {{guide:vitals.speed@Dungeon Warlord}} | {{guide:vitals.speed@Dungeon Warlord}} | {{guide:vitals.speed@Dungeon Warlord}} |
 | Laserräckvidd | 1 100 | 1 100 | 1 100 |
 
 Skrovet och skölden ovan gäller för en grupp på 5. De växer med gruppen: det är krigsherrens skrov och sköld tillsammans, efter antalet piloter i gruppen när dungeonen startar.
 
 | Piloter i gruppen | Steg 1 | Steg 2 | Steg 3 |
 | :--- | ---: | ---: | ---: |
-| 3 | 10 800 000 | 16 200 000 | 27 000 000 |
-| 4 | 14 400 000 | 21 600 000 | 36 000 000 |
-| 5 | 18 000 000 | 27 000 000 | 45 000 000 |
-| 6 | 21 600 000 | 32 400 000 | 54 000 000 |
-| 7 | 25 200 000 | 37 800 000 | 63 000 000 |
-| 8 | 28 800 000 | 43 200 000 | 72 000 000 |
-| 9 | 32 400 000 | 48 600 000 | 81 000 000 |
-| 10 | 36 000 000 | 54 000 000 | 90 000 000 |
+| 3 | {{guide:vitals.hull*0.6@Dungeon Warlord}} + {{guide:vitals.shield*0.6@Dungeon Warlord}} | {{guide:vitals.hull*0.9@Dungeon Warlord}} + {{guide:vitals.shield*0.9@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} + {{guide:vitals.shield*1.5@Dungeon Warlord}} |
+| 4 | {{guide:vitals.hull*0.8@Dungeon Warlord}} + {{guide:vitals.shield*0.8@Dungeon Warlord}} | {{guide:vitals.hull*1.2@Dungeon Warlord}} + {{guide:vitals.shield*1.2@Dungeon Warlord}} | {{guide:vitals.hull*2@Dungeon Warlord}} + {{guide:vitals.shield*2@Dungeon Warlord}} |
+| 5 | {{guide:vitals.hull@Dungeon Warlord}} + {{guide:vitals.shield@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} + {{guide:vitals.shield*1.5@Dungeon Warlord}} | {{guide:vitals.hull*2.5@Dungeon Warlord}} + {{guide:vitals.shield*2.5@Dungeon Warlord}} |
+| 6 | {{guide:vitals.hull*1.2@Dungeon Warlord}} + {{guide:vitals.shield*1.2@Dungeon Warlord}} | {{guide:vitals.hull*1.8@Dungeon Warlord}} + {{guide:vitals.shield*1.8@Dungeon Warlord}} | {{guide:vitals.hull*3@Dungeon Warlord}} + {{guide:vitals.shield*3@Dungeon Warlord}} |
+| 7 | {{guide:vitals.hull*1.4@Dungeon Warlord}} + {{guide:vitals.shield*1.4@Dungeon Warlord}} | {{guide:vitals.hull*2.1@Dungeon Warlord}} + {{guide:vitals.shield*2.1@Dungeon Warlord}} | {{guide:vitals.hull*3.5@Dungeon Warlord}} + {{guide:vitals.shield*3.5@Dungeon Warlord}} |
+| 8 | {{guide:vitals.hull*1.6@Dungeon Warlord}} + {{guide:vitals.shield*1.6@Dungeon Warlord}} | {{guide:vitals.hull*2.4@Dungeon Warlord}} + {{guide:vitals.shield*2.4@Dungeon Warlord}} | {{guide:vitals.hull*4@Dungeon Warlord}} + {{guide:vitals.shield*4@Dungeon Warlord}} |
+| 9 | {{guide:vitals.hull*1.8@Dungeon Warlord}} + {{guide:vitals.shield*1.8@Dungeon Warlord}} | {{guide:vitals.hull*2.7@Dungeon Warlord}} + {{guide:vitals.shield*2.7@Dungeon Warlord}} | {{guide:vitals.hull*4.5@Dungeon Warlord}} + {{guide:vitals.shield*4.5@Dungeon Warlord}} |
+| 10 | {{guide:vitals.hull*2@Dungeon Warlord}} + {{guide:vitals.shield*2@Dungeon Warlord}} | {{guide:vitals.hull*3@Dungeon Warlord}} + {{guide:vitals.shield*3@Dungeon Warlord}} | {{guide:vitals.hull*5@Dungeon Warlord}} + {{guide:vitals.shield*5@Dungeon Warlord}} |
 
 <!-- dungeons-boss:end -->
 
@@ -241,6 +241,7 @@ Fönstret Klandungeon räknar hur många av dem som fortfarande måste förstör
 - **Svärmhjälpen** är krigsherren som kallar på sina Goombahs. Medan de lever kan han inte skadas, och han skjuter inte och använder ingen annan förmåga. Förstör dem alla: banderollen räknar hur många som är kvar. Om en minut går kan krigsherren skadas igen, och de Goombahs som är kvar stannar och kämpar vidare. De räknas inte för bossrummet, och de betalar ingenting.
 - **Kaoszonen** är en violett ring på marken, runt krigsherren, och så länge den varar följer den med krigsherren vart han än går. Ingen inne i ringen kan attackera, varken med lasrar eller raketer, men reparationer, kamouflage och flygning fungerar fortfarande, och krigsherren och hans utomjordingar skjuter som vanligt. Ringen syns ett ögonblick innan den tar verkan: kliv ut ur den och håll dig utanför, eftersom den följer krigsherren. En pilot utanför kan fortfarande skjuta, så långt hans vapen når.
 - **Fantomlansen** får krigsherren att försvinna i en sekund. Han kommer tillbaka på en annan plats i sitt rum med tre illusioner av sig själv. Så länge en illusion lever skjuter den mot närmaste pilot den kan se med halva krigsherrens salva och läker varje sekund krigsherrens skrov och sköld (siffrorna finns i tabellen över förmågorna). Illusionerna har ett eget skrov: förstör dem för att stoppa läkningen. De betalar ingenting och försvinner med krigsherren när han faller. Krigsherren kan förstöras medan de lever.
+- **Strålningsmunken** tänder tre strålningsringar runt platsen där krigsherren stod när förmågan började, en efter en från krigsherren och utåt, med en till två sekunder mellan två ringar. Varje ring visar sina två kanter en stund innan den tänds och bränner sedan varje pilot i den i några sekunder, direkt från skrovet (tabellen över förmågorna har tiderna och andelen skrov per sekund). En ring slocknar inte när nästa tänds: två ringar, och på de högre stegen alla tre, kan brinna samtidigt. Hålet runt krigsherren, marken mellan ringarna och marken utanför den sista är säkra: stanna på dem och lämna en ring innan den tänds. En vägg stoppar inte strålningen och kamouflage räddar inte en pilot från den; Strålningsteknik sänker dosen.
 
 <!-- dungeons-abilities:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -255,19 +256,34 @@ Fönstret Klandungeon räknar hur många av dem som fortfarande måste förstör
 | **Svärmhjälp** | 2 s | Upp till 1 min | 3 min | – | – |
 | **Kaoszonen** | 2 s | 15 s | 2 min | 900 | – |
 | **Fantomlansen** | 1,5 s | 1 s | 2 min | – | – |
+| **Strålningsmunk** | 1 s | Upp till 8,5 s | 75 s | 2 150 | – |
 
 | Förmåga | Steg 1 | Steg 2 | Steg 3 |
 | :--- | :--- | :--- | :--- |
-| **Livsstjälande aura** | 8 000 per sekund | 10 000 per sekund | 12 000 per sekund |
-| **Meteorregn** | 6 meteorer per salva, 80 000 vardera | 8 meteorer per salva, 100 000 vardera | 10 meteorer per salva, 120 000 vardera |
-| **Fokus på mest efterlysta** | 26 250–33 750 per extra skott mot piloten som gjort mest skada, ett var 1 s | 39 375–50 625 per extra skott mot piloten som gjort mest skada, ett var 1 s | 52 500–67 500 per extra skott mot piloten som gjort mest skada, ett var 1 s |
-| **Raketsalva** | 100 000–150 000 per raket mot varje pilot, en var 15 s | 125 000–187 500 per raket mot varje pilot, en var 15 s | 150 000–225 000 per raket mot varje pilot, en var 15 s |
-| **Sköldabsorption** | 10 000 sköld per sekund | 12 500 sköld per sekund | 15 000 sköld per sekund |
+| **Livsstjälande aura** | {{guide:behaviour.ability:lifesteal.drainPerSec@Dungeon Warlord}} per sekund | {{guide:behaviour.ability:lifesteal.drainPerSec*1.25@Dungeon Warlord}} per sekund | {{guide:behaviour.ability:lifesteal.drainPerSec*1.5@Dungeon Warlord}} per sekund |
+| **Meteorregn** | 6 meteorer per salva, {{guide:behaviour.ability:meteor.damage@Dungeon Warlord}} vardera | 8 meteorer per salva, {{guide:behaviour.ability:meteor.damage*1.25@Dungeon Warlord}} vardera | 10 meteorer per salva, {{guide:behaviour.ability:meteor.damage*1.5@Dungeon Warlord}} vardera |
+| **Fokus på mest efterlysta** | {{guide:vitals.dps*1.3125~1.6875@Dungeon Warlord}} per extra skott mot piloten som gjort mest skada, ett var 1 s | {{guide:vitals.dps*1.96875~2.53125@Dungeon Warlord}} per extra skott mot piloten som gjort mest skada, ett var 1 s | {{guide:vitals.dps*2.625~3.375@Dungeon Warlord}} per extra skott mot piloten som gjort mest skada, ett var 1 s |
+| **Raketsalva** | {{guide:behaviour.ability:barrage.damageMin@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage@Dungeon Warlord}} per raket mot varje pilot, en var 15 s | {{guide:behaviour.ability:barrage.damageMin*1.25@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage*1.25@Dungeon Warlord}} per raket mot varje pilot, en var 15 s | {{guide:behaviour.ability:barrage.damageMin*1.5@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage*1.5@Dungeon Warlord}} per raket mot varje pilot, en var 15 s |
+| **Sköldabsorption** | {{guide:behaviour.ability:absorb.drainPerSec@Dungeon Warlord}} sköld per sekund | {{guide:behaviour.ability:absorb.drainPerSec*1.25@Dungeon Warlord}} sköld per sekund | {{guide:behaviour.ability:absorb.drainPerSec*1.5@Dungeon Warlord}} sköld per sekund |
 | **Svärmhjälp** | 12 × Goombah | 18 × Goombah | 24 × Goombah |
 | **Kaoszonen** | Piloter i ringen kan inte attackera | Piloter i ringen kan inte attackera | Piloter i ringen kan inte attackera |
-| **Fantomlansen** | 3 illusioner med 500 000 skrov vardera; varje illusion skjuter 50 % av krigsherrens salva och läker, så länge den lever, krigsherren med 50 000 skrov och 50 000 sköld per sekund | 3 illusioner med 500 000 skrov vardera; varje illusion skjuter 50 % av krigsherrens salva och läker, så länge den lever, krigsherren med 50 000 skrov och 50 000 sköld per sekund | 3 illusioner med 500 000 skrov vardera; varje illusion skjuter 50 % av krigsherrens salva och läker, så länge den lever, krigsherren med 50 000 skrov och 50 000 sköld per sekund |
+| **Fantomlansen** | 3 illusioner; varje illusion skjuter 50 % av krigsherrens salva och läker, så länge den lever, krigsherren med 50 000 skrov och 50 000 sköld per sekund | 3 illusioner; varje illusion skjuter 50 % av krigsherrens salva och läker, så länge den lever, krigsherren med 50 000 skrov och 50 000 sköld per sekund | 3 illusioner; varje illusion skjuter 50 % av krigsherrens salva och läker, så länge den lever, krigsherren med 50 000 skrov och 50 000 sköld per sekund |
+| **Strålningsmunk** | 3 ringar, tända en efter en; varje ring brinner i 2 s och tar 8 % av en pilots skrov per sekund | 3 ringar, tända en efter en; varje ring brinner i 3 s och tar 8 % av en pilots skrov per sekund | 3 ringar, tända en efter en; varje ring brinner i 4,5 s och tar 8 % av en pilots skrov per sekund |
 
 <!-- dungeons-abilities:end -->
+
+### Dess tre steg {#its-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Warlord har tre steg ([hur de fungerar](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); vart och ett sker en gång.
+
+- **Under två tredjedelar**: Pausen mellan dess förmågor sjunker till 4 s och deras väntetider till ×0,75.
+- **Under en tredjedel**: Pausen sjunker till 2 s, väntetiderna till ×0,5 och skadan stiger till ×1,25; den kastar en gratis Meteor-salva, och dess Swarm kommer aldrig tillbaka oftare än var 120 s.
+- **En paus vid varje steg.** När ett steg börjar kan Warlord inte skadas under 3 s.
+
+<!-- mob-ladder:end -->
 
 ## Bytezoner {#loot-zones}
 
@@ -351,9 +367,9 @@ När krigsherren faller får varje pilot som förtjänat det betalt, en gång pe
 
 | Steg | Heder | Erfarenhet | Krediter | Thulium | x4-ammunition | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE-rankingpoäng |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Steg 1** | 25 000 | 600 000 | 5 000 000 | 8 000 | 4 000 | 5 | 12 | 5 | 850 |
-| **Steg 2** | 50 000 | 1 500 000 | 10 000 000 | 18 000 | 9 000 | 10 | 8 | 6 | 2 000 |
-| **Steg 3** | 100 000 | 2 400 000 | 17 500 000 | 30 000 | 15 000 | 15 | 8 | 7 | 3 400 |
+| **Steg 1** | 25 000 | 600 000 | 5 000 000 | 8 000 | 4 000 | 5 | 24 | 10 | 850 |
+| **Steg 2** | 50 000 | 1 500 000 | 10 000 000 | 18 000 | 9 000 | 10 | 16 | 12 | 2 000 |
+| **Steg 3** | 100 000 | 2 400 000 | 17 500 000 | 30 000 | 15 000 | 15 | 16 | 14 | 3 400 |
 
 - **Heartshards**: 1 vid första betalda avklarningen av varje etapp under en säsong, och 5 % chans till ytterligare ett vid varje betald avklarning.
 
@@ -367,7 +383,7 @@ Dessa regler avgör vem som får betalt **för klarningen**. En omgång spelas k
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
 - **En dag**: Ett steg betalar en pilot en gång per UTC-dag: den dag då krigsherren faller
-- **En vecka**: En pilot får betalt för högst 10 avklarade steg per UTC-vecka, måndag till söndag
+- **En vecka**: En pilot får betalt för högst 14 avklarade steg per UTC-vecka, måndag till söndag
 - **Inne**: Minst 2 min totalt
 - **Del i striden**: Minst ett av dessa: orsakat 0,1 % av krigsherrens skrov och sköld; förstört 10 av dungeonens utomjordingar; läkt andra piloter för 50 000 under striden mot krigsherren
 
@@ -382,8 +398,8 @@ Vad en pilot kan få betalt på en dag, och under den bästa vecka som gränsern
 
 | Betalning per pilot | Heder | Erfarenhet | Krediter | Thulium | x4-ammunition | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE-rankingpoäng |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| En dag, varje steg en gång | 175 000 | 4 500 000 | 32 500 000 | 56 000 | 28 000 | 30 | 28 | 18 | 6 250 |
-| Den bästa veckan: 7 × Steg 3 och 3 × Steg 2 | 850 000 | 21 300 000 | 152 500 000 | 264 000 | 132 000 | 135 | 80 | 67 | 29 800 |
+| En dag, varje steg en gång | 175 000 | 4 500 000 | 32 500 000 | 56 000 | 28 000 | 30 | 56 | 36 | 6 250 |
+| Den bästa veckan: 7 × Steg 3 och 7 × Steg 2 | 1 050 000 | 27 300 000 | 192 500 000 | 336 000 | 168 000 | 175 | 224 | 182 | 37 800 |
 
 Erfarenheten och hedern från ett betalt, avklarat steg räknas med i dina PvE-rankingpoäng: en poäng för varje 1 000 erfarenhet och en för varje 100 heder.
 
@@ -395,7 +411,7 @@ Varje utomjording i en dungeon betalar när den faller och släpper byte, som ut
 
 - **Vem som får betalt.** Piloterna som skadade utomjordingen, efter skadan de gjorde, som med svärmarnas utomjordingar: en pilot eller grupp som bara snuddade vid den får ingenting, en grupp får betalt som en, och inom en grupp delar de medlemmar som är nära vraket och har skjutit nyligen på betalningen efter nivå. En pilot som inte skadade utomjordingen får inget för den, hur nära han än flög, och en utomjording som ingen pilot skadade betalar ingen. Bara de piloter som reglerna ovan betalar är med: den som har lämnat, inte varit inne tillräckligt länge, redan fått betalt för steget idag eller haft alla betalda klarningar för veckan får ingenting för utomjordingarna, och de andra får hans del. En förstörd utomjording kräver inte andelen i striden: att ha skadat den är andelen. Om gruppmedlemmen som gjorde mest skada har blivit förstörd eller inte är kvar på kartan, delar de medlemmar som är nära vraket och har skjutit nyligen på betalningen utan honom.
 - **Vad som betalas.** Krediter, Thulium, erfarenhet och heder, en gång per förstörd utomjording. Betalningen är vad originalet betalar i Alpha, i alla världar: en dungeon har ingen världsmultiplikator. Dina boosters, formation och din klans bonusar räknas som vid vilken förstörd utomjording som helst, och erfarenheten räknas för dina [PvE-poäng](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points) som klarningens.
-- **Bytet.** Det slumpas med originalets chanser, utom att chansen på Echo Shard är dubbelt så stor, och sedan multipliceras varje mängd med förhållandet (en bråkdel av en enhet är en chans till en till). Det faller som en låda vid vraket, först för piloten som gjorde mest skada och hans klan, sedan för vem som helst på kartan, och sedan är det borta. Har [gruppen](/wiki/03-Mechanics/Groups.md) till piloten som gjorde mest skada två eller fler piloter som skadade utomjordingen och fortfarande flyger i dungeonen, delas bytet i stället upp i [personliga lådor](/wiki/03-Mechanics/Cargo.md#personal-crates), en till var och en efter skadan de gjorde, och var och en tillhör först bara sin pilot, sedan vem som helst på kartan. En gruppmedlem som inte gjorde någon skada, eller som reglerna ovan stänger ute, får ingen låda. Andra grupper och piloter som flyger ensamma får betalt för sin del men ingen låda från det här bytet. Kartan rymmer bara ett visst antal lådor åt gången, så plocka upp dem under tiden, och det som ligger kvar på kartan när dungeonen stänger försvinner med den. Till skillnad från klarningens föremål är det vanligt byte från en utomjording: det kan [säljas på Auktionen](/wiki/03-Mechanics/Auction.md#marketable-items) när föremålet är säljbart.
+- **Bytet.** Det slumpas med originalets chanser, utom att chansen på Echo Shard är dubbelt så stor och att den faller två åt gången, och sedan multipliceras varje mängd med förhållandet (en bråkdel av en enhet är en chans till en till). Det faller som en låda vid vraket, först för piloten som gjorde mest skada och hans klan, sedan för vem som helst på kartan, och sedan är det borta. Har [gruppen](/wiki/03-Mechanics/Groups.md) till piloten som gjorde mest skada två eller fler piloter som skadade utomjordingen och fortfarande flyger i dungeonen, delas bytet i stället upp i [personliga lådor](/wiki/03-Mechanics/Cargo.md#personal-crates), en till var och en efter skadan de gjorde, och var och en tillhör först bara sin pilot, sedan vem som helst på kartan. En gruppmedlem som inte gjorde någon skada, eller som reglerna ovan stänger ute, får ingen låda. Andra grupper och piloter som flyger ensamma får betalt för sin del men ingen låda från det här bytet. Kartan rymmer bara ett visst antal lådor åt gången, så plocka upp dem under tiden, och det som ligger kvar på kartan när dungeonen stänger försvinner med den. Till skillnad från klarningens föremål är det vanligt byte från en utomjording: det kan [säljas på Auktionen](/wiki/03-Mechanics/Auction.md#marketable-items) när föremålet är säljbart.
 - **Vad som inte betalar.** Krigsherren betalar ingen förstörd utomjording, bara klarningen. Goombahs som han kallar på betalar ingenting, eftersom kallelsen kommer tillbaka så länge striden pågår.
 - **Inte en förstörd utomjording i spelet.** En förstörd utomjording i en dungeon räknas inte för uppdrag, prestationer, räknare över förstörda, wipepoäng, PvE-poängen för en förstörd, drönare eller P.E.T.s: en Dungeon Goombah är ingen Goombah i spelet.
 - **Gränserna.** Dag- och veckogränserna ovan håller tillbaka utomjordingarnas betalning precis som klarningens: den som redan fått betalt för steget idag, eller haft alla betalda klarningar för veckan, får inget heller för dess utomjordingar, och potten för en förstörd går till de andra. En dungeon som inte klaras betalar sina förstörda utomjordingar till de piloter som reglerna betalar, och ingenting för klarningen.

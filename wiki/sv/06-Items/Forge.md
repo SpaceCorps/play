@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0684c16b2f2d0dbe -->
+<!-- wiki-i18n source: d6376f646044a759 -->
 <!-- wiki-i18n title: Smedjan -->
 # Smedjan {#the-forge}
 
@@ -98,9 +98,9 @@ Att stämma alla fyra socklarna på en del kostar 150 Echo Shards (10 + 20 + 40 
 | Soloport: Delta Siege | 29 | 44 |
 | Soloport: Omega Vault | 34 | 54 |
 | Soloport: Davidski's Nightmare | 34 | 54 |
-| Klandungeon: etapp 1 | 12 | 5 |
-| Klandungeon: etapp 2 | 8 | 6 |
-| Klandungeon: etapp 3 | 8 | 7 |
+| Klandungeon: etapp 1 | 24 | 10 |
+| Klandungeon: etapp 2 | 16 | 12 |
+| Klandungeon: etapp 3 | 16 | 14 |
 
 - **Soloportar** betalar sina shards vid varje avklarning, **klandungeons** vid varje betald avklarning av en etapp.
 - **Heartshards** kommer med första avklarningen av varje port och varje dungeonetapp under en säsong (1) och med 5 % chans till 1 till vid varje avklarning. De sällsynta NPC:erna droppar dem också: 10 % Davidski, 5 % Dormant Force och Tesseract. Sidan [Resurser](/wiki/06-Items/Resources.md#heartshard) har resten.

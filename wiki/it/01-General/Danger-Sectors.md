@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 399d33a09b4ac805 -->
+<!-- wiki-i18n source: 0f6a663715a3934a -->
 <!-- wiki-i18n title: Settori pericolosi -->
 # Settori pericolosi {#danger-sectors}
 
@@ -14,9 +14,10 @@ Qui visse una civiltà dell’antica galassia, avanzata e nera-viola, e per un m
 
 - **Escavatori giganti.** `DS-1`, `DS-2` e `DS-3` hanno ciascuno un pulsar dal primo giorno della stagione, una luce nel cielo e nient’altro; dal giorno 11 ciascuno riceve accanto un **escavatore gigante**. Metti Dark Matter nel serbatoio dell’escavatore, scegli una risorsa, e lui estrae il pulsar: Thulium e minerali rari cadono intorno a lui in casse che chiunque può prendere. È la cosa più ricca per cui combattere nei settori pericolosi, e la più pericolosa. Vedi [Escavatore gigante](/wiki/03-Mechanics/Giant-Excavator.md). In Beta e Gamma gli escavatori giganti sorgono dal primo giorno della stagione.
 - **Slumbering Void.** Mentre un escavatore estrae, gli **Slumbering Void** arrivano a ondate dal bordo della mappa e danno la caccia ai piloti vicini. Altri pattugliano la palude. Vedi [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void).
-- **Il Dormant Swamp.** In un angolo di `DS-4` sorge la base della civiltà perduta: cannoni che sparano a ogni nave che vedono, Inert Mass che la custodiscono e, al centro, l’Unwakened. È un luogo che i piloti non sono ancora tenuti a visitare. Vedi [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
+- **Il Dormant Swamp.** In un angolo di `DS-4` sorge la base della civiltà perduta: cannoni che sparano a ogni nave che vedono, Inert Mass che la custodiscono e, al centro, l’Unwakened. Vedi [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
 - **Uno Sciame Dormant più veloce e più ricco.** Lo sciame compare ora nella palude, ritorna prima dopo la distruzione e paga il doppio. Vedi [Sciame Dormant](/wiki/05-Swarms/Dormant-Swarm.md).
 - **Prima del giorno 11** brillano solo i pulsar: per il resto i settori pericolosi sono come li descrive [Viaggiare sulla mappa](/wiki/01-General/Spacemap%20Travel.md). Un mondo al giorno 11 o dopo ha tutto in un colpo. In Beta e Gamma gli escavatori giganti sorgono dal primo giorno della stagione.
+- **Il Threshold.** L'Unwakened del Dormant Swamp ora può essere distrutto. La prima uccisione della stagione in ogni mondo apre il Threshold di quel mondo nell'angolo in alto a destra di `DS-4`, dove i suoi piloti costruiscono il Void Gate verso il [Deep Void](/wiki/03-Mechanics/Deep-Void.md).
 
 ## Davidski
 

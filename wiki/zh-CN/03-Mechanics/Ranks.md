@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 38daca85a103c20f -->
+<!-- wiki-i18n source: d45e1534593782f8 -->
 <!-- wiki-i18n title: 军衔 -->
 # 军衔 {#ranks}
 
@@ -137,6 +137,7 @@
 | Slumbering Void | 10 |
 | Inert Mass | 15 |
 | The Unwakened | 112 |
+| Deep Mass | 15 |
 | Brood Warden I, II, III | 14, 18, 35 |
 | Siege Warden I, II, III | 13, 17, 32 |
 | Wrath Warden I, II, III | 14, 18, 34 |
@@ -144,7 +145,7 @@
 | Siege Escort I, II, III | 2, 3, 6 |
 | Wrath Guard I, II, III | 2, 3, 6 |
 
-前五行是普通外星人，接下来十二行是六个虫群的飞船，再接下来三行是 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) 的外星人（从赛季第 11 天起）。最后是战队守卫（战队守卫战的头领）和它们的随从 Brood Drone、Siege Escort 和 Wrath Guard：I、II、III 是守卫的强度，积分按这个顺序列出。
+前五行是普通外星人，接下来十二行是六个虫群的飞船，再接下来三行是 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) 的外星人（从赛季第 11 天起），再接下来一行是 [Deep Void](/wiki/03-Mechanics/Deep-Void.md) 的 **Deep Mass**（护盾更厚的 Inert Mass）。最后是战队守卫（战队守卫战的头领）和它们的随从 Brood Drone、Siege Escort 和 Wrath Guard：I、II、III 是守卫的强度，积分按这个顺序列出。
 
 例如，一名 4 级飞行员有 12,500 经验和 900 荣誉，击毁过 300 只 Seeker、80 架 Phantasm 和 10 艘 Bulwark，就有 400 + 12 + 9 + 300 + 160 + 40 = **921** 积分。这让他成为中士：最低要求是 800，下一个军衔高级中士要求 1,000。到高级上校为止，只有积分算数。
 

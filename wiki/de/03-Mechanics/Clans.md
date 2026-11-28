@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e819db509b714a18 -->
+<!-- wiki-i18n source: 871bca2da0d6e0d7 -->
 <!-- wiki-i18n title: Clans -->
 # Clans
 
@@ -77,11 +77,11 @@ Clans beginnen auf Level 1 und lassen sich bis auf Level 5 aufwerten. Für das A
 
 | Clan-Level | Mitgliederlimit | Tägliches Auszahlungslimit (pro Mitglied) | Upgrade-Kosten (Credits) |
 | :---: | :---: | :---: | :--- |
-| **Level 1** | 15 | 1.000.000 Cr | — |
-| **Level 2** | 25 | 2.000.000 Cr | 10.000.000 Cr |
-| **Level 3** | 50 | 3.000.000 Cr | 100.000.000 Cr |
-| **Level 4** | 75 | 4.000.000 Cr | 1.000.000.000 Cr |
-| **Level 5** | 100 | 5.000.000 Cr | 10.000.000.000 Cr |
+| **Level 1** | 15 | 2.000.000 Cr | — |
+| **Level 2** | 25 | 4.000.000 Cr | 10.000.000 Cr |
+| **Level 3** | 50 | 6.000.000 Cr | 100.000.000 Cr |
+| **Level 4** | 75 | 8.000.000 Cr | 1.000.000.000 Cr |
+| **Level 5** | 100 | 10.000.000 Cr | 10.000.000.000 Cr |
 
 ---
 
@@ -115,20 +115,20 @@ Clans arbeiten mit einem steuerbasierten Finanzsystem:
 ### 2. Spenden {#2-donations}
 
 - **Spenden**: Jedes Mitglied kann auf der Clan-Seite Credits in die Clanbank einzahlen. Das Fenster zeigt, was du noch senden kannst.
-- **Spendenlimit**: Ein Pilot kann in beliebigen 24 Stunden höchstens **1.000.000 Credits in Clans einzahlen**, gezählt über alle Clans, in denen der Pilot war. Der Austritt aus einem Clan und der Beitritt zu einem anderen gibt kein neues Kontingent.
+- **Spendenlimit**: Ein Pilot kann in beliebigen 24 Stunden höchstens **2.000.000 Credits in Clans einzahlen**, gezählt über alle Clans, in denen der Pilot war. Der Austritt aus einem Clan und der Beitritt zu einem anderen gibt kein neues Kontingent.
 - **Kein Tageswechsel**: Die 24 Stunden gleiten mit. Jede Spende zählt genau 24 Stunden nach ihrem Zeitpunkt nicht mehr mit, und das Fenster sagt dir, wann das bei der ältesten der Fall ist und wie viel zurückkommt. Eine Spende über dem, was übrig ist, wird als Ganzes abgelehnt.
 - Die tägliche Steuer ist keine Spende und verbraucht dein Kontingent nicht.
 
 ### 3. Auszahlungen aus der Bank {#3-bank-payouts}
 
 - **Auszahlungslimits**: Clan-Anführer und Offiziere können Credits aus der Clanbank an einzelne Mitglieder verteilen.
-- **Tageslimit**: Ein Mitglied kann an einem einzigen Kalendertag (UTC) nicht mehr als `1,000,000 * ClanLevel` Credits an Auszahlungen erhalten.
+- **Tageslimit**: Ein Mitglied kann an einem einzigen Kalendertag (UTC) nicht mehr als `2,000,000 * ClanLevel` Credits an Auszahlungen erhalten.
 
 ### 4. Tagesbonus {#4-daily-bonus}
 
 Der Anführer kann jedem Mitglied einmal am Tag einen festen Bonus aus der Flottenkasse zahlen.
 
-- **Festlegen.** Auf der Karte **Tagesbonus** des Managements gibt der Anführer für jeden Rang einen Betrag ein: Pilot, Ältester, Stellvertreter und Anführer. **0 schaltet einen Rang ab**; jeder andere Betrag liegt zwischen **1.000 und 1.000.000 Credits**. Die Stellvertreter sehen die Karte und können sie nicht ändern. Das Speichern nimmt nichts aus der Kasse. Die Karte zeigt, was ein ganzer Tag kosten würde, wenn jeder Pilot spielt, und für wie viele Tage die Kasse reichen würde.
+- **Festlegen.** Auf der Karte **Tagesbonus** des Managements gibt der Anführer für jeden Rang einen Betrag ein: Pilot, Ältester, Stellvertreter und Anführer. **0 schaltet einen Rang ab**; jeder andere Betrag liegt zwischen **1.000 und 2.000.000 Credits**. Die Stellvertreter sehen die Karte und können sie nicht ändern. Das Speichern nimmt nichts aus der Kasse. Die Karte zeigt, was ein ganzer Tag kosten würde, wenn jeder Pilot spielt, und für wie viele Tage die Kasse reichen würde.
 - **Zahlen.** Ein Mitglied wird **einmal pro Tag** bei seiner ersten Prüfung des Tages bezahlt: wenn es sich verbindet, wenn der Tag wechselt, während es online ist, und wenn der Anführer neue Beträge speichert. Der Tag ist der Tag der Clan-Linie, der um **00:00:00 UTC** wechselt ([Der Tag](#the-day)). Der Pilot bekommt eine Systemzeile und eine Zeile im Spielprotokoll, und die Übersicht zeigt „Tagesbonus: X Credits“ und ob er heute gezahlt wurde.
 - **Wer.** Ein Pilot, der **mindestens 24 Stunden** im Clan ist, und **ein Bonus pro Pilot und Tag über alle Clans hinweg**: Wer Clans wechselt, um mehr einzusammeln, wird einmal bezahlt.
 - **Eine knappe Kasse.** Die Kasse zahlt nur, was sie hat, und fällt nie unter null. Kann sie den Betrag eines Mitglieds nicht zahlen, wird es für diesen Tag übersprungen, auch wenn die Kasse später am Tag aufgefüllt wird, und das [Flottenprotokoll](#fleet-log) vermerkt es einmal. Die Piloten werden in der Reihenfolge bezahlt, in der sie sich verbinden, bis die Kasse leer ist.
@@ -246,7 +246,7 @@ Die Stufe bestimmt, wie viele Aliens die Missionen verlangen, welches Alien der 
 ### Wer zählt {#who-counts}
 
 - **Die Summe des Clans zählt.** Die Balken im Reiter Einsätze sind die des ganzen Clans.
-- **Dein Minimum.** Um an der Belohnung des Tages teilzuhaben, musst du **5 % der Tagesarbeit** leisten, etwa acht Minuten echte Jagd. Der Reiter zeigt es als „Deine Arbeit heute: 312 von 469 Einheiten“. Eine Arbeitseinheit ist eine Sekunde Spielzeit: Ein Abschuss zählt so viel, wie es dauert, dieses Alien zu finden und zu zerstören, und eine Flugstrecke so viel, wie der Flug dauert. Für einen Veteranen-Clan ist ein Seeker etwa 12 Einheiten wert, ein Phantasm 22, ein Bulwark 123 und 1.000 geflogene Einheiten etwa 5; das Minimum liegt bei 446 bis 480 Einheiten, an jedem Tag und in jeder Stufe.
+- **Dein Minimum.** Um an der Belohnung des Tages teilzuhaben, musst du **5 % der Tagesarbeit** leisten, etwa acht Minuten echte Jagd. Der Reiter zeigt es als „Deine Arbeit heute: 312 von 469 Einheiten“. Eine Arbeitseinheit ist eine Sekunde Spielzeit: Ein Abschuss zählt so viel, wie es dauert, dieses Alien zu finden und zu zerstören, und eine Flugstrecke so viel, wie der Flug dauert. Für einen Veteranen-Clan ist ein Seeker etwa 12 Einheiten wert, ein Phantasm 22, ein Bulwark 123 und 1.000 geflogene Einheiten etwa 5; das Minimum liegt bei 454 bis 486 Einheiten, an jedem Tag und in jeder Stufe.
 - **Mindestens drei Mitglieder** müssen ihr Minimum erreicht haben, bevor ein Schritt erledigt sein kann. Ist ein Schritt voll und haben es weniger geschafft, **wartet** er („Schritt 3 ist voll, aber erst 2 Mitglieder haben ihr Minimum erreicht“), und Abschüsse des Aliens dieses Schritts erhöhen weiter die Arbeit der Mitglieder, die sie gemacht haben, bis das dritte es geschafft hat. Ein Clan mit weniger als drei Piloten kann keinen Schritt abschließen.
 - **Wer einen Abschuss bekommt.** Der Pilot, der für den Abschuss bezahlt wird, und seine Gruppenmitglieder im Umkreis von 8.000 Einheiten, die in den letzten 15 Sekunden gefeuert haben ([Gruppen](/wiki/03-Mechanics/Groups.md#sharing-kills)). Ein Clan zählt einen Abschuss **einmal**, egal wie viele seiner Piloten in der Gruppe waren, und die Arbeit des Abschusses wird gleichmäßig auf sie verteilt. Zwei Clans in einer Gruppe zählen ihn je einmal.
 - **Welche Abschüsse.** Nur das Alien des offenen Schritts: der gewöhnliche Seeker, Phantasm, Bulwark oder Goombah. Schwarmschiffe, andere Piloten und die Helfer eines Wächters zählen nicht als diese Aliens. Ein Abschuss zählt für die Welt, in der er gelingt, und in einer stärkeren Welt mehr: **1 in Alpha, 1,5 in Beta, 2 in Gamma** ([Welten](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)). Ein Boss-Schritt zählt die Bosse der [Schwärme](/wiki/05-Swarms/Swarms.md), einen für jeden Clan, der einen Piloten hat, der mindestens 5 % des Schadens verursacht hat.
@@ -290,7 +290,7 @@ Seit 0.4.22 **geht jeder Wächter auf den Piloten los, der ihn getroffen hat**, 
 | :--- | :--- | :--- | :--- |
 | **Brood Warden** | 1, 4, 7, 10 … | Hüter des Stocks: teile dein Feuer auf | Er fliegt auf den ersten Piloten zu, der ihn getroffen hat. Vier kleine **Brood Drones** heilen seine Hülle, und alle 8 Sekunden kommt eine neue, solange weniger als vier leben (beim Brood Warden III alle 16 Sekunden). Erst die Drohnen abschießen, dann den Wächter. |
 | **Siege Warden** | 2, 5, 8, 11 … | Belagerungsbrecher: bleib in Bewegung | Er fliegt auf den ersten Piloten zu, der ihn getroffen hat, feuert eine gerade [Rivet-Rakete](/wiki/06-Items/Rockets.md#the-twelve-rockets) auf ihn und repariert sich selbst. Zwei **Siege Escorts** feuern zusätzlich Laser. Bleib in Bewegung und wechselt euch als Ziel ab. |
-| **Wrath Warden** | 3, 6, 9, 12 … | Kriegsherr: schlage die Raserei | Er fliegt auf den ersten Piloten zu, der ihn getroffen hat, bleibt in Reichweite seiner Laser stehen und repariert sich selbst. Unter halber Hülle treffen seine Laser **anderthalbmal so hart**. Zwei **Wrath Guards** bleiben bei ihm und verstärken das Laserfeuer. Bring ihn schnell herunter und halte die Schilde oben. |
+| **Wrath Warden** | 3, 6, 9, 12 … | Kriegsherr: schlage die Raserei | Er fliegt auf den ersten Piloten zu, der ihn getroffen hat, bleibt in Reichweite seiner Laser stehen und repariert sich selbst. Unter zwei Dritteln der Hülle treffen seine Laser **um ein Viertel härter**, unter einem Drittel **anderthalbmal so hart**. Zwei **Wrath Guards** bleiben bei ihm und verstärken das Laserfeuer. Bring ihn schnell herunter und halte die Schilde oben. |
 
 ### Einen Wächter rufen {#calling-a-warden}
 
@@ -298,19 +298,34 @@ Seit 0.4.22 **geht jeder Wächter auf den Piloten los, der ihn getroffen hat**, 
 - **Wer.** Der Anführer oder ein Stellvertreter.
 - **Wie.** Im Flug: Der Knopf **Hier rufen** erscheint auf dem Flugbildschirm, sobald Schritt 4 erledigt ist, und lässt dich bestätigen. Sei außerhalb der Schutzzonen, in einem Konzernsektor **x-2, x-3 oder x-4** (eines beliebigen Konzerns) deiner Welt. Der Reiter Einsätze (auf der Clan-Seite der Station oder im Clan-Fenster im Flug) zeigt den Wächter des Tages, die übrigen Rufe und warum der Knopf ausgegraut ist. An der Station ist er immer ausgegraut, denn ein Wächter wird vom Schiff aus gerufen; im Clan-Fenster ist er der Knopf selbst, ausgegraut innerhalb einer Schutzzone und außerhalb der Konzernsektoren x-2 bis x-4, mit dem Grund des Servers.
 - **Wo er erscheint.** 3.000 bis 4.500 Einheiten von deinem Schiff entfernt, in deiner Welt: Nur Piloten dieser Welt erreichen ihn. Der Reiter empfiehlt **x-2 für einen Rekruten-Clan, x-3 für Veteranen und x-4 für Elite**. Die üblichen [PvP-Regeln](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) des gewählten Sektors gelten weiter.
-- **Aufwärmen.** Er steht **90 Sekunden** lang abgeschirmt und passiv da („fährt hoch“), und jeder Clanpilot, der online ist, erfährt, wo. Flieg hin, während er hochfährt: Nach den 90 Sekunden ist er kampfbereit. Eine Kapsel unter der Schutzzonen-Anzeige auf dem Flugbildschirm begleitet ihn: sein Name, „fährt hoch“ mit der Restzeit, dann „kampfbereit“ mit seinem Sektor und der Zeit bis zum Rückzug, und „rasend“, sobald ein Wrath Warden unter der halben Hülle ist.
+- **Aufwärmen.** Er steht **90 Sekunden** lang abgeschirmt und passiv da („fährt hoch“), und jeder Clanpilot, der online ist, erfährt, wo. Flieg hin, während er hochfährt: Nach den 90 Sekunden ist er kampfbereit. Eine Kapsel unter der Schutzzonen-Anzeige auf dem Flugbildschirm begleitet ihn: sein Name, „fährt hoch“ mit der Restzeit, dann „kampfbereit“ mit seinem Sektor und der Zeit bis zum Rückzug, und „rasend“, sobald ein Wrath Warden unter einem Drittel der Hülle ist.
 - **Nur dein Clan.** Die Schüsse von Piloten anderer Clans werden ignoriert und bringen ihn nicht dazu, zurückzuschießen.
 - **Wie es endet.** Wenn er zerstört wird. Er **zieht sich zurück**, 40 Minuten nachdem er kampfbereit wurde, wenn der Tag endet, wenn kein Pilot deines Clans 2 Minuten lang in seinem Sektor im Flug war oder wenn der Server neu startet (dann wird der Ruf zurückgegeben). Ein Wächter, der sich zurückzieht, kostet einen Ruf, und der nächste Ruf bringt ihn zurück, für die Besatzung, die dann da ist ([wie die Besatzung den Wächter verändert](#strength-by-the-crew)).
 
 ### Einen Wächter bekämpfen {#fighting-a-warden}
 
 - **Ein Wächter kämpft gegen den Piloten, der ihn zuerst getroffen hat**, wie jeder Boss: Lass das robusteste Schiff der Besatzung beginnen und nutze [Shield Surge und Emergency Repair](/wiki/03-Mechanics/Abilities.md).
-- **Bring die größte Besatzung mit, die du aufbringen kannst, und x2-Munition** ([Laser](/wiki/06-Items/Lasers.md#laser-ammunition)). Die Besatzungen, die vor 0.4.13 gewannen (etwa sieben Piloten), verlieren jetzt. Die Tabelle unten ist eine Berechnung und der beste Fall: Selbst in ihm verlieren zehn Piloten gegen jeden Wächter, und die kleinste Besatzung, die gewinnen kann, hat 15 bis 25 Piloten mit x2-Munition und 23 bis 38 mit x1-Munition. Die Wellen unten sind in dieser Berechnung nicht enthalten. Die Tabelle unten gilt für einen Wächter mit voller Stärke: Eine kleinere Besatzung trifft auf dieselbe Hülle und denselben Schild, aber auf einen Wächter, der weniger Schaden macht, weniger heilt und weniger Aliens ruft ([wie die Besatzung den Wächter verändert](#strength-by-the-crew)).
+- **Bring die größte Besatzung mit, die du aufbringen kannst, und x2-Munition** ([Laser](/wiki/06-Items/Lasers.md#laser-ammunition)). Die Besatzungen, die vor 0.4.13 gewannen (etwa sieben Piloten), verlieren jetzt. Die Tabelle unten ist eine Berechnung und der beste Fall: Selbst in ihm verlieren zehn Piloten gegen jeden Wächter, und die kleinste Besatzung, die gewinnen kann, hat 15 bis 25 Piloten mit x2-Munition und 24 bis 37 mit x1-Munition. Die Wellen unten sind in dieser Berechnung nicht enthalten. Die Tabelle unten gilt für einen Wächter mit voller Stärke: Eine kleinere Besatzung trifft auf dieselbe Hülle und denselben Schild, aber auf einen Wächter, der weniger Schaden macht, weniger heilt und weniger Aliens ruft ([wie die Besatzung den Wächter verändert](#strength-by-the-crew)).
 - **Brood:** Die Drohnen heilen seine Hülle, und eine Besatzung, die sie ignoriert, braucht etwa ein Drittel mehr Piloten. Schieß sie zuerst ab und schieß weiter auf sie: Nach 8 Sekunden kommt eine neue (beim Brood Warden III nach 16). Seit 0.4.22 fliegt der Brood Warden auf den Piloten zu, der ihn getroffen hat, und seine Drohnen fliegen mit ihm und heilen ihn weiter.
 - **Siege:** Seine Raketen fliegen gerade und ungelenkt, ein Schiff, das in Bewegung bleibt, weicht den meisten aus. Bleib in Bewegung und wechselt euch als Ziel ab. Seit 0.4.22 streift er nicht mehr umher: Er fliegt auf den ersten Piloten zu, der ihn getroffen hat, und feuert seine Rivet aus bis zu 1.000 Einheiten auf ihn ab.
-- **Wrath:** Sobald seine Hülle unter der Hälfte liegt, trifft jede Salve anderthalbmal so hart, die zweite Hälfte des Kampfs ist also die gefährliche. Bring die erste Hälfte schnell herunter, halte die Schilde oben und spare Emergency Repair für die Raserei auf. Seit 0.4.20 steht er nicht mehr still: Er fliegt mit 90 Einheiten pro Sekunde auf den ersten Piloten zu, der ihn getroffen hat, bis er in Reichweite seiner Laser ist (700, 800 oder 900 Einheiten je nach Stärke), und feuert von dort, sodass eine Waffe mit größerer Reichweite ihn nicht mehr gefahrlos beschießt.
+- **Wrath:** Sobald seine Hülle unter zwei Dritteln liegt, trifft jede Salve um ein Viertel härter, unter einem Drittel anderthalbmal so hart, das letzte Drittel des Kampfs ist also das gefährliche. Bring die ersten zwei Drittel schnell herunter, halte die Schilde oben und spare Emergency Repair für die Raserei auf. Seit 0.4.20 steht er nicht mehr still: Er fliegt mit 90 Einheiten pro Sekunde auf den ersten Piloten zu, der ihn getroffen hat, bis er in Reichweite seiner Laser ist (700, 800 oder 900 Einheiten je nach Stärke), und feuert von dort, sodass eine Waffe mit größerer Reichweite ihn nicht mehr gefahrlos beschießt.
 - **Alle neun fliegen auf den Piloten zu, der sie getroffen hat (0.4.22).** Der Brood und der Siege Warden tun, was der Wrath Warden seit 0.4.20 tut, jeder mit seiner eigenen Geschwindigkeit (90 Einheiten pro Sekunde beim Brood und beim Wrath Warden, 110 beim Siege Warden), bis sie in Reichweite ihrer Laser sind (600, 700 oder 800 Einheiten beim Brood und beim Siege Warden je nach Stärke, 700, 800 oder 900 beim Wrath Warden), sodass eine Waffe mit größerer Reichweite sie nicht mehr gefahrlos beschießt. Hat sie 10 Sekunden lang niemand getroffen, lässt sie vom Piloten ab und bleibt dort stehen, wo sie ist: Sie fliegt nicht dorthin zurück, wo sie gerufen wurde. Ein Pilot, der geschützt ist, in einer Schutzzone oder durch den Schutz eines Respawns, wird sofort losgelassen.
 - **Was ein Wächter mitbringt, kommt auf den Piloten, der ihn getroffen hat.** Seit 0.4.20 geht jedes Alien einer Welle und jede Drohne, jeder Begleiter und jede Wache, die ankommt, während der Wächter bekämpft wird, im Moment des Eintreffens auf die Piloten los, die den Wächter getroffen haben, den ersten zuerst, ohne selbst getroffen worden zu sein.
+
+### Die drei Schritte {#the-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Ein Wächter hat ebenfalls drei Schritte ([so funktionieren sie](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)), bei jeder Stärke dieselben.
+
+| Wächter | Am Anfang | Unter zwei Dritteln | Unter einem Drittel |
+| :--- | :--- | :--- | :--- |
+| **Brood Warden** (I, II, III) | Alle 4 Drohnen kommen auf einmal an seine Seite. | Seine Drohnen heilen es für 15 s ×1,5 so schnell. | 2 weitere Drohnen kommen, über ihrer üblichen Zahl, für 30 s. Sie zahlen nichts. |
+| **Siege Warden** (I, II, III) | – | Feuert seine Rakete für 20 s ×2 so oft. | Heilt 15 % seiner Hülle und seines Schilds (ein Schadensstoß unterbricht es). |
+| **Wrath Warden** (I, II, III) | – | Seine Laser treffen ×1,25 so hart. | Seine Laser treffen insgesamt ×1,5 so hart, nicht zusätzlich zum Schritt davor. |
+
+<!-- mob-ladder:end -->
 
 ### Wellen von Aliens {#waves-of-aliens}
 
@@ -322,34 +337,34 @@ Seit 0.4.16 steht ein Wächter nicht allein. Ab dem Moment, in dem er **scharf**
 | x-3 | 5 Phantasm, 3 Bulwarks und 2 Goombahs | 30, und bis zu 3 Crystalys |
 | x-4 | 5 Phantasm, 3 Bulwarks und 2 Goombahs | 30, und bis zu 3 Crystalys |
 
-- **Ein Warden I ruft keinen Goombah.** Der Wächter eines Rekruten-Clans (Durchschnittslevel unter 4) schickt nur Phantasm und Bulwarks, drei Phantasm auf einen Bulwark, in Wellen derselben Größe: **4 Phantasm und 1 Bulwark auf x-2, 8 Phantasm und 2 Bulwarks auf x-3 und x-4**. Eine ganze Welle zahlt in Alpha auf x-2 17.000 Credits und auf x-3 und x-4 34.000, mit ihrem Crystalys 92.000 und 109.000; die höchste Zahl gleichzeitig lebender Aliens ist die der Tabelle.
+- **Ein Warden I ruft keinen Goombah.** Der Wächter eines Rekruten-Clans (Durchschnittslevel unter 4) schickt nur Phantasm und Bulwarks, drei Phantasm auf einen Bulwark, in Wellen derselben Größe: **4 Phantasm und 1 Bulwark auf x-2, 8 Phantasm und 2 Bulwarks auf x-3 und x-4**. Die höchste Zahl gleichzeitig lebender Aliens ist die der Tabelle.
 - **Höchstens drei Wellen sind am Leben.** Eine Welle lebt, solange eines ihrer Aliens lebt. Eine Welle, die fällig ist, wenn drei leben, wird übersprungen und nicht aufgehoben; die nächste ist eine Minute später fällig.
 - **Es sind gewöhnliche Aliens**, gemacht wie die der Karte: Eine stärkere Welt gibt ihnen mehr Hülle, Schild und Schaden ([Welten](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)), unabhängig von der eigenen Stärke des Wächters. Die Bulwarks und Goombahs kommen auf jede Karte, auch in einen x-2-Sektor, in dem sonst keiner lebt. Sie erscheinen 500 bis 1.200 Einheiten vom Wächter entfernt, rund um ihn verteilt.
-- **Sie gehören nicht zum Kampf um den Wächter.** Sie heilen nichts, und sie zu beschießen erhöht deinen Anteil am Schaden am Wächter nicht. Jeder Pilot der Karte kann sie töten. Jedes zahlt die gewöhnliche Bezahlung seines Aliens in deiner Welt und bringt PvE-Punkte: Eine ganze Welle der Tabelle zahlt in Alpha auf x-2 (5 Aliens) 29.000 Credits und auf x-3 und x-4 (10 Aliens) 60.000, eine Welle eines Warden I 17.000 und 34.000, unter 2 % dessen, was ihr eigener Wächter zahlt.
+- **Sie gehören nicht zum Kampf um den Wächter.** Sie heilen nichts, und sie zu beschießen erhöht deinen Anteil am Schaden am Wächter nicht. Jeder Pilot der Karte kann sie töten. Jedes zahlt die gewöhnliche Bezahlung seines Aliens in deiner Welt und bringt PvE-Punkte: Eine ganze Welle zahlt unter 2 % dessen, was ihr eigener Wächter zahlt.
 - **Sie hören mit dem Wächter auf.** Wird er zerstört oder zieht er sich zurück, kommen keine mehr, und die Aliens, die schon draußen sind, **verlassen die Karte 20 Sekunden später**, gleich welcher Art und ob sie kämpfen oder nicht: Erledige sie in dieser Zeit oder führe sie weg. (Bis 0.5.6 blieben sie fünf Minuten oder länger, und ein Pilot, der später kam, traf auf sie.) Sie gehen still, ohne Abschuss und ohne Belohnung. Ein Neustart des Servers beendet sie mit dem Wächter.
 - **Der Clan erfährt es.** Jede Welle wird im Reiter System des Chats und im Spielprotokoll angekündigt, mit einer Zeile für jede Art von Alien darin: „Brood Warden II ruft auf M-3 Verstärkung: 5 Phantasm.“, „Brood Warden II ruft auf M-3 Verstärkung: 3 Bulwark.“ und „Brood Warden II ruft auf M-3 Verstärkung: 2 Goombah.“ (ein Warden I meldet zwei Zeilen, da er keinen Goombah hat)
 - **Sie kommen gezielt (0.4.20).** Die Aliens einer Welle kommen mit dem Wissen an, gegen wen der Wächter kämpft: Sie gehen vom ersten Moment an auf die Piloten los, die ihn getroffen haben, den ersten zuerst, und bleiben an ihnen, solange der Wächter getroffen wird. Ein Wächter, gegen den niemand kämpft, schickt Aliens, die umherstreifen: Die Phantasm und die Bulwarks ziehen jeden an, der in die Nähe kommt, wie zuvor, und ein Goombah, der nie einen Kampf beginnt, streift umher, bis jemand auf ihn schießt.
 
 #### Der Crystalys jedes Wächters {#crystalys-waves}
 
-Seit 0.4.22 tut **jeder Wächter**, was der Wrath Warden III seit 0.4.20 tut: Unter halber Hülle (der Linie, an der ein Wrath Warden rast) **hat jede Welle, die er schickt, zusätzlich einen Crystalys**, zur Größe der Welle dazu. Das gilt für den Brood, den Siege und den Wrath Warden, in allen drei Stärken. Über halber Hülle kommt die Welle ohne ihn, und ein Wächter, der wieder über die Hälfte repariert ist, schickt die nächste Welle wieder ohne ihn.
+Seit 0.4.22 tut **jeder Wächter**, was der Wrath Warden III seit 0.4.20 tut: Unter halber Hülle **hat jede Welle, die er schickt, zusätzlich einen Crystalys**, zur Größe der Welle dazu. Das gilt für den Brood, den Siege und den Wrath Warden, in allen drei Stärken. Über halber Hülle kommt die Welle ohne ihn, und ein Wächter, der wieder über die Hälfte repariert ist, schickt die nächste Welle wieder ohne ihn.
 
-- **Der Crystalys** ist das schwerste gewöhnliche Alien des Spiels: 256.000 Hülle, 160.000 Schild, 10.000 Schaden pro Salve aus 900 Einheiten, Geschwindigkeit 230 (in einer stärkeren Welt mehr Hülle, Schild und Schaden). Er zahlt, was jeder Crystalys zahlt: **75.000 Credits, 200 Thulium, 12.000 XP und 52 Ehre in Alpha** (in Beta das Doppelte, in Gamma das Dreifache), und lässt seine gewöhnliche Beute fallen. Er gehört zu seiner Welle: Eine Welle lebt, solange ihr Crystalys lebt, ein stehen gebliebener Crystalys hält also eine der Wellen am Leben (höchstens drei, beim Wrath Warden III vier), und eine Welle, die fällig ist, wenn die meisten leben, wird übersprungen.
+- **Der Crystalys** ist das schwerste gewöhnliche Alien des Spiels: {{guide:vitals.hull@Crystalys#1}} Hülle, {{guide:vitals.shield@Crystalys#1}} Schild, {{guide:vitals.dps@Crystalys#1}} Schaden pro Salve aus 900 Einheiten, Geschwindigkeit {{guide:vitals.speed@Crystalys#1;Crystalys#2;Crystalys#3;Crystalys#4}} (in einer stärkeren Welt mehr Hülle, Schild und Schaden). Er zahlt, was jeder Crystalys zahlt: **{{guide:spoils.pay.credits@Crystalys#1}} Credits, {{guide:spoils.pay.thulium@Crystalys#1}} Thulium, {{guide:spoils.pay.experience@Crystalys#1}} XP und {{guide:spoils.pay.honor@Crystalys#1}} Ehre in Alpha** (in Beta das Doppelte, in Gamma das Dreifache), und lässt seine gewöhnliche Beute fallen. Er gehört zu seiner Welle: Eine Welle lebt, solange ihr Crystalys lebt, ein stehen gebliebener Crystalys hält also eine der Wellen am Leben (höchstens drei, beim Wrath Warden III vier), und eine Welle, die fällig ist, wenn die meisten leben, wird übersprungen.
 - **Er wird in einer eigenen Zeile angekündigt**, nach den Zeilen der Mischung: „Wrath Warden III ruft auf M-3 Verstärkung: 7 Phantasm.“, „…: 4 Bulwark.“, „…: 4 Goombah.“ und „Wrath Warden III ruft auf M-3 Verstärkung: 1 Crystalys.“
-- **Was sie zahlen.** Eine ganze Welle aus 10 Aliens zahlt in Alpha 34.000 Credits für einen Warden I und 60.000 für einen Warden II, mit ihrem Crystalys 109.000 und 135.000: etwa 4 % der 2.700.000, die ein Warden I zahlt, und unter 4 % der 3.600.000, die ein Warden II zahlt, weniger bei einem Warden III.
-- **Was sie von der Besatzung verlangen.** Die Berechnung unter [wie groß die Besatzung sein muss](#how-big-a-crew) ergibt mit den Wellen und ihrem Crystalys diese kleinsten Besatzungen mit x2-Munition, in der Ausrüstung der eigenen Stufe des Wächters, in Alpha. Ein Clan der Stufe 3 fasst 50 Mitglieder, ein Clan der Stufe 5 100. Seit 0.5.0 machen die Bulwarks und Goombahs der Mischung die Wellen schwerer, aber ein Warden I ruft keinen Goombah, sodass ein Clan der Stufe 3 für jeden Wächter auf jeder Karte genug Piloten fasst. Wie die Tabelle dort sind sie berechnet und nicht gemessen, und der beste Fall; in Gamma, wo die Aliens der Wellen doppelt so stark sind, sind sie noch größer, und auf x-3 und x-4 fehlen einem Clan der Stufe 3 für manche Wächter Piloten.
+- **Was sie zahlen.** Eine ganze Welle aus 10 Aliens zahlt mit ihrem Crystalys etwa 4 % dessen, was ein Warden I zahlt, und unter 4 % dessen, was ein Warden II zahlt, weniger bei einem Warden III.
+- **Was sie von der Besatzung verlangen.** Die Berechnung unter [wie groß die Besatzung sein muss](#how-big-a-crew) ergibt mit den Wellen und ihrem Crystalys diese kleinsten Besatzungen mit x2-Munition, in der Ausrüstung der eigenen Stufe des Wächters, in Alpha. Ein Clan der Stufe 3 fasst 50 Mitglieder, ein Clan der Stufe 4 fasst 75 und ein Clan der Stufe 5 fasst 100. Seit 0.5.0 machen die Bulwarks und Goombahs der Mischung die Wellen schwerer, und obwohl ein Warden I keinen Goombah ruft, verlangen der Brood Warden I (57 Piloten) und der Siege Warden I (52) auf x-3 und x-4 mehr, als ein Clan der Stufe 3 fasst: Jeder andere Wächter passt auf jeder Karte in einen Clan der Stufe 3, und ein Clan der Stufe 4 fasst genug Piloten für alle. Wie die Tabelle dort sind sie berechnet und nicht gemessen, und der beste Fall; in Gamma, wo die Aliens der Wellen doppelt so stark sind, sind sie noch größer, und auf jeder Karte fehlen einem Clan der Stufe 3 für manche Wächter Piloten.
 
 | Wächter | x-2 | x-3 | x-4 |
 | :--- | ---: | ---: | ---: |
-| Brood Warden I | 41 | 44 | 44 |
-| Siege Warden I | 37 | 40 | 40 |
-| Wrath Warden I | 42 | 45 | 45 |
-| Brood Warden II | 39 | 44 | 44 |
-| Siege Warden II | 31 | 35 | 35 |
-| Wrath Warden II | 35 | 40 | 40 |
-| Brood Warden III | 21 | 22 | 22 |
-| Siege Warden III | 26 | 27 | 27 |
-| Wrath Warden III | 34 | 39 | 39 |
+| Brood Warden I | 41 | 57 | 57 |
+| Siege Warden I | 46 | 52 | 52 |
+| Wrath Warden I | 42 | 44 | 44 |
+| Brood Warden II | 38 | 43 | 43 |
+| Siege Warden II | 33 | 40 | 40 |
+| Wrath Warden II | 35 | 39 | 39 |
+| Brood Warden III | 21 | 23 | 23 |
+| Siege Warden III | 26 | 28 | 28 |
+| Wrath Warden III | 34 | 38 | 38 |
 
 #### Die Wellen des Wrath Warden III {#wrath-iii-waves}
 
@@ -362,30 +377,30 @@ Seit 0.4.20 bringt der **Wrath Warden III** mehr und öfter: eine Welle alle **4
 | x-4 | 7 Phantasm, 4 Bulwarks und 4 Goombahs | 60, und bis zu 4 Crystalys |
 
 - **Höchstens vier Wellen sind am Leben.** Eine Welle, die fällig ist, wenn vier leben, wird übersprungen, wie bei den anderen Wächtern.
-- **Was sie zahlen.** Eine ganze Welle aus 15 Aliens zahlt in Alpha 101.000 Credits, mit ihrem Crystalys 176.000: etwa 2 % der 7.200.000, die der Wächter selbst zahlt.
-- **Was sie von der Besatzung verlangen.** Die Berechnung unter [wie groß die Besatzung sein muss](#how-big-a-crew) ergibt mit diesen Wellen und dem Crystalys **34 Piloten auf x-2, 39 auf x-3 und 39 auf x-4** mit x2-Munition (25 ohne Wellen) und 45, 51 und 51 in Gamma, wo die Aliens der Wellen doppelt so stark sind. Ein Clan der Stufe 3 fasst 50 Mitglieder, auf x-3 und x-4 in Gamma kann er also nicht genug schicken; ein Clan der Stufe 5 fasst 100. Wie die Tabelle dort ist es berechnet und nicht gemessen, und der beste Fall.
+- **Was sie zahlen.** Eine ganze Welle aus 15 Aliens zahlt mit ihrem Crystalys etwa 2 % dessen, was der Wächter selbst zahlt.
+- **Was sie von der Besatzung verlangen.** Die Berechnung unter [wie groß die Besatzung sein muss](#how-big-a-crew) ergibt mit diesen Wellen und dem Crystalys **34 Piloten auf x-2, 38 auf x-3 und 38 auf x-4** mit x2-Munition (25 ohne Wellen) und 44, 50 und 50 in Gamma, wo die Aliens der Wellen doppelt so stark sind. Ein Clan der Stufe 3 fasst 50 Mitglieder, das reicht auf jeder Karte, auch in Gamma, aber auf x-3 und x-4 nur knapp; ein Clan der Stufe 5 fasst 100. Wie die Tabelle dort ist es berechnet und nicht gemessen, und der beste Fall.
 
 ### Wie die Besatzung den Wächter verändert {#strength-by-the-crew}
 
 Seit 0.5.7 **richtet sich ein Wächter nach der Besatzung, die da ist, wenn er kampfbereit wird**. Endet sein Aufwärmen von 90 Sekunden, zählt das Spiel die Piloten deines Clans, die **außerhalb der Schutzzonen auf der Karte des Wächters fliegen**: Piloten anderer Clans, Piloten in einer Schutzzone und Piloten auf anderen Karten zählen nicht. Der Wächter kämpft dann **den ganzen Kampf lang** mit dem Anteil seiner Stärke, den seine Tabelle für diese Zahl vorsieht: Wer später kommt, ändert nichts, also versammelt euch während des Aufwärmens. **Seine Hülle und sein Schild werden nie skaliert** (seit 0.5.10): Welche Besatzung auch da ist, der Wächter und seine Helfer haben die volle Hülle und den vollen Schild, die die Tabellen unten nennen, und drei Piloten treffen auf dieselben wie ein voller Clan. Der Rest wird gemeinsam skaliert: der Laserschaden des Wächters und seiner Helfer, ihre Schildaufladung, ihre Heilung, die Rakete des Siege Warden und wie viele Aliens in jeder [Welle](#waves-of-aliens) kommen, der Crystalys eingeschlossen, der erst ab der halben Stärke dabei ist. Belohnung, Beute und alle Zeiten bleiben, wie sie sind.
 
-Die Faktoren der Tabellen wurden in 0.5.7 mit denselben Kämpfen berechnet wie [wie groß die Besatzung sein muss](#how-big-a-crew), für eine Besatzung der Stufe des Wächters und für Hülle und Schild, die ebenfalls skaliert wurden: Ein Clan mit 5 anwesenden Piloten traf auf den Wächter, den in der Berechnung ein Fünftel weniger Piloten besiegen, denn die Berechnung ist der beste Fall und ein echter Kampf ist härter. Bei voller Hülle und vollem Schild hat eine kleine Besatzung mehr zu bezwingen, als diese Berechnung annahm, also bring so viele Piloten mit, wie du kannst. Ein Clan mit **5 Piloten** trifft auf einen Wächter, dessen Schaden, Heilung und Wellen bei **12 bis 23 %** der vollen Werte liegen, ein Clan mit **8 Piloten** auf einen mit **16 bis 29 %**, und die vollen Werte kommen je nach Wächter bei **28 bis 72 Piloten**; dazwischen steigen sie von einer Stufe der Tabelle zur nächsten auf einer Geraden, und weniger als 3 Piloten treffen auf das, was 3 treffen. Wird der Wächter kampfbereit, liest dein Clan eine Zeile im Chat: „Besatzung vor Ort: 5. Brood Warden II hat volle Hülle und vollen Schild. Sein Schaden, seine Heilung und seine Verstärkung liegen bei 16 %.“
+Die Faktoren der Tabellen wurden in 0.5.7 mit denselben Kämpfen berechnet wie [wie groß die Besatzung sein muss](#how-big-a-crew), für eine Besatzung der Stufe des Wächters und für Hülle und Schild, die ebenfalls skaliert wurden: Ein Clan mit 5 anwesenden Piloten traf auf den Wächter, den in der Berechnung ein Fünftel weniger Piloten besiegen, denn die Berechnung ist der beste Fall und ein echter Kampf ist härter. Bei voller Hülle und vollem Schild hat eine kleine Besatzung mehr zu bezwingen, als diese Berechnung annahm, also bring so viele Piloten mit, wie du kannst. Ein Clan mit **5 Piloten** trifft auf einen Wächter, dessen Schaden, Heilung und Wellen bei **12 bis 23 %** der vollen Werte liegen, ein Clan mit **8 Piloten** auf einen mit **17 bis 29 %**, und die vollen Werte kommen je nach Wächter bei **29 bis 72 Piloten**; dazwischen steigen sie von einer Stufe der Tabelle zur nächsten auf einer Geraden, und weniger als 3 Piloten treffen auf das, was 3 treffen. Wird der Wächter kampfbereit, liest dein Clan eine Zeile im Chat: „Besatzung vor Ort: 5. Brood Warden II hat volle Hülle und vollen Schild. Sein Schaden, seine Heilung und seine Verstärkung liegen bei 16 %.“ Seit 0.5.12 werden die Faktoren neu berechnet, mit den neuen Zügen der Wächter bei zwei Dritteln und bei einem Drittel ihrer Hülle in den Kämpfen; sie haben sich ein wenig verändert, am meisten beim Siege Warden.
 
 ### Wie groß die Besatzung sein muss {#how-big-a-crew}
 
 > [!NOTE]
 > Seit 0.4.13 hat jeder Wächter und jeder Helfer **fünfmal** so viel Hülle, Schild, Laserschaden, Selbstreparatur und Heilung wie in 0.4.12 (Geschwindigkeit, Reichweite und die Zahl der Helfer sind gleich); seit 0.4.16 hat der Brood Warden III davon nur die halbe Hülle und den halben Schild und seine Drohnen die halbe Heilung. Er braucht fünfmal so lange, bis er fällt, und trifft die ganze Zeit fünfmal so hart, deshalb verlieren die Besatzungen, die früher gewannen, jetzt. **Wir haben gegen die neuen Wächter im Spiel noch nicht gekämpft: Die Zeiten unten sind berechnet, nicht gemessen.** Sie zeigen den **besten Fall** der Besatzung: Die Besatzung fliegt in den Schiffen und der Ausrüstung, für die die Stufe gemacht ist, jeder Pilot setzt Shield Surge und Emergency Repair ein, sobald sie bereit sind, die Besatzung schießt zuerst auf die Helfer des Wächters, wenn das besser ist, der Wächter und seine Helfer feuern alle auf den Piloten, der zuerst getroffen hat, und niemand weicht aus. In 0.4.12 war dieselbe Berechnung hoffnungsvoller als die Kämpfe, die wir im Spiel selbst mit skriptgesteuerten Piloten ausgetragen haben, ein echter Kampf kann also härter sein als die Tabelle, und eine gute Besatzung kann besser abschneiden: Nimm sie als Richtwert, nicht als Versprechen. **Die Wellen von Aliens sind in der Berechnung nicht enthalten**, ein echter Kampf ist also härter als die Tabelle.
 
-Die Tabelle zeigt den besten Fall; im Spiel bring so viele mit, wie du kannst.
+Die Tabelle zeigt den besten Fall; im Spiel bring so viele mit, wie du kannst. Seit 0.5.12 zählt die Berechnung die neuen Züge der Wächter bei zwei Dritteln und bei einem Drittel ihrer Hülle mit.
 
 | Besatzung | Mit x2-Munition | Mit x1-Munition |
 | :--- | :--- | :--- |
-| 5 Piloten | verlieren gegen jeden Wächter; der Wächter behält 84 bis 96 % seiner Hülle und seines Schilds | verlieren |
-| 10 Piloten | verlieren gegen jeden Wächter; der Wächter behält 55 bis 84 % seiner Hülle und seines Schilds | verlieren |
-| 20 Piloten | gewinnen nur gegen die Siege Warden I und II, in 6,2 bis 6,4 Minuten, und verlieren 4 bis 5 Schiffe, und gegen den Brood Warden III, in 3,5 Minuten, und verlieren 8 Schiffe | verlieren |
-| 30 Piloten | gewinnen gegen jeden Wächter in 1,9 bis 4,9 Minuten und verlieren 2 bis 10 Schiffe | gewinnen nur gegen die Siege Warden I und II, in 8,8 bis 9,2 Minuten, und verlieren 6 bis 8 Schiffe, und gegen den Brood Warden III, in 4,8 Minuten, und verlieren 11 Schiffe |
+| 5 Piloten | verlieren gegen jeden Wächter | verlieren |
+| 10 Piloten | verlieren gegen jeden Wächter | verlieren |
+| 20 Piloten | gewinnen nur gegen die Siege Warden I und II, in 7,1 bis 7,4 Minuten, und verlieren 4 bis 6 Schiffe, gegen den Brood Warden III, in 3,5 Minuten, und verlieren 8 Schiffe, und gegen den Wrath Warden II, in 10,1 Minuten, und verlieren 14 Schiffe | verlieren |
+| 30 Piloten | gewinnen gegen jeden Wächter in 2,0 bis 4,7 Minuten und verlieren 2 bis 10 Schiffe | gewinnen nur gegen die Siege Warden I und II, in 10,1 bis 10,6 Minuten, und verlieren 6 bis 9 Schiffe, und gegen den Brood Warden III, in 4,8 Minuten, und verlieren 11 Schiffe |
 
-In der Berechnung hat die kleinste Besatzung, die mit x2-Munition gewinnt, **15 bis 25 Piloten** (die wenigsten gegen die Siege Warden I und II) und verliert dabei **7 bis 18** Schiffe; mit x1-Munition hat sie **23 bis 38** Piloten und verliert 11 bis 25. Die Laser eines Wächters treffen in Stärke I mit Hunderten pro Salve (240 bis 645) und in Stärke III mit Tausenden (9.225 bis 15.450), und seine Helfer kommen dazu: Das Schiff, gegen das er kämpft, fällt in 18 bis 70 Sekunden, dann wendet er sich dem nächsten zu, und so verliert selbst eine Besatzung, die gewinnt, viele Schiffe.
+In der Berechnung hat die kleinste Besatzung, die mit x2-Munition gewinnt, **15 bis 25 Piloten** (die wenigsten gegen den Siege Warden II) und verliert dabei **10 bis 16** Schiffe; mit x1-Munition hat sie **24 bis 37** Piloten und verliert 12 bis 24. Die Laser eines Wächters treffen in Stärke I mit Hunderten pro Salve und in Stärke III mit Tausenden, und seine Helfer kommen dazu: Das Schiff, gegen das er kämpft, fällt in 18 bis 70 Sekunden, dann wendet er sich dem nächsten zu, und so verliert selbst eine Besatzung, die gewinnt, viele Schiffe.
 
 Die Tabelle gilt für eine Besatzung in der Ausrüstung der eigenen Stufe des Wächters. Schwächere Schiffe schneiden schlechter ab. Der Wächter **deines** Clans passt immer zu **deiner** Stufe, die die fünf besten Piloten des Clans bestimmen, bring sie also mit.
 
@@ -393,31 +408,31 @@ Die Tabelle gilt für eine Besatzung in der Ausrüstung der eigenen Stufe des W�
 
 ### Die Zahlen der Wächter {#warden-numbers}
 
-Die Wächter haben in jeder Welt dieselben Zahlen (die Alpha-Zahlen), ebenso ihre Bezahlung. Jede Drohne, jeder Begleiter und jede Wache hat die Zahlen der zweiten Tabelle, und sie stehen beim Wächter: Eine Brood Drone heilt die Hülle des Wächters, eine Siege Escort oder eine Wrath Guard feuert Laser. Eine Salve sind die Schüsse aller Laser eines Schiffs in einer Sekunde, ausgewürfelt zwischen 80 und 100 % der angezeigten Zahl; ein Wrath Warden mit weniger als der halben Hülle trifft anderthalbmal so hart. Der Wächter und seine Helfer feuern alle auf den Piloten, gegen den der Wächter kämpft, ihre Salven addieren sich also: Ein Brood Warden III mit seinen vier Drohnen legt bis zu 21.750 pro Sekunde auf ein Schiff. Die [Rivet-Rakete](/wiki/06-Items/Rockets.md#the-twelve-rockets) des Siege Warden wird nicht ausgewürfelt: Sie trifft mit höchstens **2.500** in Stärke I, **5.000** in Stärke II und **7.500** in Stärke III, während die Rivet eines Piloten zwischen einer kleinsten und einer größten Zahl gewürfelt wird. Sie fliegt geradeaus, ein Schiff, das in Bewegung bleibt, wird also verfehlt.
+Die Wächter haben in jeder Welt dieselben Zahlen (die Alpha-Zahlen), ebenso ihre Bezahlung. Jede Drohne, jeder Begleiter und jede Wache hat die Zahlen der zweiten Tabelle, und sie stehen beim Wächter: Eine Brood Drone heilt die Hülle des Wächters, eine Siege Escort oder eine Wrath Guard feuert Laser. Eine Salve sind die Schüsse aller Laser eines Schiffs in einer Sekunde, ausgewürfelt zwischen 80 und 100 % der angezeigten Zahl; ein Wrath Warden trifft unter zwei Dritteln der Hülle um ein Viertel härter und unter einem Drittel anderthalbmal so hart. Der Wächter und seine Helfer feuern alle auf den Piloten, gegen den der Wächter kämpft, ihre Salven addieren sich also. Die [Rivet-Rakete](/wiki/06-Items/Rockets.md#the-twelve-rockets) des Siege Warden wird nicht ausgewürfelt: Sie trifft mit höchstens **{{guide:behaviour.ability:rocket.damage@Siege Warden I}}** in Stärke I, **{{guide:behaviour.ability:rocket.damage@Siege Warden II}}** in Stärke II und **{{guide:behaviour.ability:rocket.damage@Siege Warden III}}** in Stärke III, während die Rivet eines Piloten zwischen einer kleinsten und einer größten Zahl gewürfelt wird. Sie fliegt geradeaus, ein Schiff, das in Bewegung bleibt, wird also verfehlt.
 
 | Wächter | Hülle | Schild | Laserschaden (eine Salve pro Sekunde) | Tempo | Laserreichweite | Repariert sich selbst (Hülle pro Sekunde) | Rakete und Sekunden zwischen den Schüssen |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | :--- |
-| Brood Warden I | 830.000 | 680.000 | 645 | 90 | 600 | – | – |
-| Brood Warden II | 1.440.000 | 1.180.000 | 3.885 | 90 | 700 | – | – |
-| Brood Warden III | 2.650.000 | 2.175.000 | 15.450 | 90 | 800 | – | – |
-| Siege Warden I | 715.000 | 585.000 | 240 | 110 | 600 | 1.075 | Warden Rivet I: 24 |
-| Siege Warden II | 1.240.000 | 1.015.000 | 1.455 | 110 | 700 | 1.875 | Warden Rivet II: 12 |
-| Siege Warden III | 4.575.000 | 3.725.000 | 9.225 | 110 | 800 | 6.925 | Warden Rivet III: 8 |
-| Wrath Warden I | 815.000 | 665.000 | 480 | 90 | 700 | 1.075 | – |
-| Wrath Warden II | 1.410.000 | 1.155.000 | 2.910 | 90 | 800 | 1.875 | – |
-| Wrath Warden III | 5.200.000 | 4.250.000 | 12.300 | 90 | 900 | 6.925 | – |
+| Brood Warden I | {{guide:vitals.hull@Brood Warden I}} | {{guide:vitals.shield@Brood Warden I}} | {{guide:vitals.dps@Brood Warden I}} | {{guide:vitals.speed@Brood Warden I}} | 600 | – | – |
+| Brood Warden II | {{guide:vitals.hull@Brood Warden II}} | {{guide:vitals.shield@Brood Warden II}} | {{guide:vitals.dps@Brood Warden II}} | {{guide:vitals.speed@Brood Warden II}} | 700 | – | – |
+| Brood Warden III | {{guide:vitals.hull@Brood Warden III}} | {{guide:vitals.shield@Brood Warden III}} | {{guide:vitals.dps@Brood Warden III}} | {{guide:vitals.speed@Brood Warden III}} | 800 | – | – |
+| Siege Warden I | {{guide:vitals.hull@Siege Warden I}} | {{guide:vitals.shield@Siege Warden I}} | {{guide:vitals.dps@Siege Warden I}} | {{guide:vitals.speed@Siege Warden I}} | 600 | 1.075 | Warden Rivet I: 24 |
+| Siege Warden II | {{guide:vitals.hull@Siege Warden II}} | {{guide:vitals.shield@Siege Warden II}} | {{guide:vitals.dps@Siege Warden II}} | {{guide:vitals.speed@Siege Warden II}} | 700 | 1.875 | Warden Rivet II: 12 |
+| Siege Warden III | {{guide:vitals.hull@Siege Warden III}} | {{guide:vitals.shield@Siege Warden III}} | {{guide:vitals.dps@Siege Warden III}} | {{guide:vitals.speed@Siege Warden III}} | 800 | 6.925 | Warden Rivet III: 8 |
+| Wrath Warden I | {{guide:vitals.hull@Wrath Warden I}} | {{guide:vitals.shield@Wrath Warden I}} | {{guide:vitals.dps@Wrath Warden I}} | {{guide:vitals.speed@Wrath Warden I}} | 700 | 1.075 | – |
+| Wrath Warden II | {{guide:vitals.hull@Wrath Warden II}} | {{guide:vitals.shield@Wrath Warden II}} | {{guide:vitals.dps@Wrath Warden II}} | {{guide:vitals.speed@Wrath Warden II}} | 800 | 1.875 | – |
+| Wrath Warden III | {{guide:vitals.hull@Wrath Warden III}} | {{guide:vitals.shield@Wrath Warden III}} | {{guide:vitals.dps@Wrath Warden III}} | {{guide:vitals.speed@Wrath Warden III}} | 900 | 6.925 | – |
 
 | Helfer | Anzahl | Hülle | Schild | Laserschaden (eine Salve pro Sekunde) | Tempo | Heilt den Wächter (Hülle pro Sekunde) |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| Brood Drone I | 4 | 3.500 | 2.500 | 60 | 170 | 600 |
-| Brood Drone II | 4 | 6.000 | 4.500 | 390 | 170 | 1.050 |
-| Brood Drone III | 4 | 20.000 | 17.500 | 1.575 | 170 | 1.925 |
-| Siege Escort I | 2 | 21.500 | 17.500 | 30 | 175 | – |
-| Siege Escort II | 2 | 37.000 | 30.500 | 225 | 175 | – |
-| Siege Escort III | 2 | 137.500 | 112.500 | 1.425 | 175 | – |
-| Wrath Guard I | 2 | 24.500 | 20.000 | 90 | 180 | – |
-| Wrath Guard II | 2 | 42.500 | 34.500 | 585 | 180 | – |
-| Wrath Guard III | 2 | 155.000 | 127.500 | 2.475 | 180 | – |
+| Brood Drone I | 4 | {{guide:vitals.hull@Brood Drone I}} | {{guide:vitals.shield@Brood Drone I}} | {{guide:vitals.dps@Brood Drone I}} | {{guide:vitals.speed@Brood Drone I}} | 600 |
+| Brood Drone II | 4 | {{guide:vitals.hull@Brood Drone II}} | {{guide:vitals.shield@Brood Drone II}} | {{guide:vitals.dps@Brood Drone II}} | {{guide:vitals.speed@Brood Drone II}} | 1.050 |
+| Brood Drone III | 4 | {{guide:vitals.hull@Brood Drone III}} | {{guide:vitals.shield@Brood Drone III}} | {{guide:vitals.dps@Brood Drone III}} | {{guide:vitals.speed@Brood Drone III}} | 1.925 |
+| Siege Escort I | 2 | {{guide:vitals.hull@Siege Escort I}} | {{guide:vitals.shield@Siege Escort I}} | {{guide:vitals.dps@Siege Escort I}} | {{guide:vitals.speed@Siege Escort I}} | – |
+| Siege Escort II | 2 | {{guide:vitals.hull@Siege Escort II}} | {{guide:vitals.shield@Siege Escort II}} | {{guide:vitals.dps@Siege Escort II}} | {{guide:vitals.speed@Siege Escort II}} | – |
+| Siege Escort III | 2 | {{guide:vitals.hull@Siege Escort III}} | {{guide:vitals.shield@Siege Escort III}} | {{guide:vitals.dps@Siege Escort III}} | {{guide:vitals.speed@Siege Escort III}} | – |
+| Wrath Guard I | 2 | {{guide:vitals.hull@Wrath Guard I}} | {{guide:vitals.shield@Wrath Guard I}} | {{guide:vitals.dps@Wrath Guard I}} | {{guide:vitals.speed@Wrath Guard I}} | – |
+| Wrath Guard II | 2 | {{guide:vitals.hull@Wrath Guard II}} | {{guide:vitals.shield@Wrath Guard II}} | {{guide:vitals.dps@Wrath Guard II}} | {{guide:vitals.speed@Wrath Guard II}} | – |
+| Wrath Guard III | 2 | {{guide:vitals.hull@Wrath Guard III}} | {{guide:vitals.shield@Wrath Guard III}} | {{guide:vitals.dps@Wrath Guard III}} | {{guide:vitals.speed@Wrath Guard III}} | – |
 
 ### Bezahlung und Beute {#warden-pay-and-loot}
 
@@ -425,31 +440,17 @@ Ein Wächter zahlt so viel, wie ein Stapel des schweren Aliens der Stufe zahlen 
 
 | Stärke des Wächters | Credits | Thulium | Erfahrung (EP) | Ehre |
 | :--- | ---: | ---: | ---: | ---: |
-| I | 2.700.000 | 10.800 | 270.000 | 5.400 |
-| II | 3.600.000 | 18.000 | 576.000 | 7.200 |
-| III | 7.200.000 | 36.000 | 1.440.000 | 11.520 |
+| I | {{guide:spoils.pay.credits@Brood Warden I;Siege Warden I;Wrath Warden I}} | {{guide:spoils.pay.thulium@Brood Warden I;Siege Warden I;Wrath Warden I}} | {{guide:spoils.pay.experience@Brood Warden I;Siege Warden I;Wrath Warden I}} | {{guide:spoils.pay.honor@Brood Warden I;Siege Warden I;Wrath Warden I}} |
+| II | {{guide:spoils.pay.credits@Brood Warden II;Siege Warden II;Wrath Warden II}} | {{guide:spoils.pay.thulium@Brood Warden II;Siege Warden II;Wrath Warden II}} | {{guide:spoils.pay.experience@Brood Warden II;Siege Warden II;Wrath Warden II}} | {{guide:spoils.pay.honor@Brood Warden II;Siege Warden II;Wrath Warden II}} |
+| III | {{guide:spoils.pay.credits@Brood Warden III;Siege Warden III;Wrath Warden III}} | {{guide:spoils.pay.thulium@Brood Warden III;Siege Warden III;Wrath Warden III}} | {{guide:spoils.pay.experience@Brood Warden III;Siege Warden III;Wrath Warden III}} | {{guide:spoils.pay.honor@Brood Warden III;Siege Warden III;Wrath Warden III}} |
 
 **Jeder Pilot, der bezahlt wird, bekommt eine eigene Kiste** am Wrack, mit seinem Anteil an der Beute. Die Tabelle zeigt, was der ganze Abschuss auswürfelt, und ein Pilot, der 20 % des Schadens verursacht hat, würfelt für etwa ein Fünftel jeder Menge: Ein Anteil wird zufällig gerundet, der Durchschnitt stimmt also genau, und ein kleiner Anteil bekommt trotzdem manchmal eine seltene Zeile. **Nur du siehst deine Kiste, und nur du kannst sie einsammeln**, nicht dein Clan und nicht deine Gruppe, und sie liegt **10 Minuten** lang, ohne die Wartezeit von 30 Sekunden ([private Kisten](/wiki/03-Mechanics/Cargo.md#private-boxes)). In einer [Gruppe](/wiki/03-Mechanics/Groups.md#sharing-kills) zählen die Mitglieder für die 5 % als ein Pilot, und sein Anteil wird geteilt, wie in einer Gruppe jeder Abschuss geteilt wird (die Mitglieder, die in der Nähe sind und schießen, nach Level): Jedes Mitglied, das einen Anteil bekommt, erhält eine private Kiste mit diesem Anteil. Das Spielprotokoll nennt dir deinen Anteil. Ein Pilot mit weniger als 5 % wird nicht bezahlt, und für ihn wird keine Kiste gelegt; das Spielprotokoll sagt es ihm. Eine Chance in Klammern gilt für jeden der genannten Würfe: (5 × 50 %) sind fünf Würfe mit je 50 % Chance. Die Beute des Abschusses wird einmal ausgewürfelt und zwischen den bezahlten Piloten aufgeteilt, sodass kein Gegenstand je in zwei Kisten liegt: Ein Gegenstand, der sich nicht gleichmäßig teilen lässt (ein seltenes Teil), geht an einen einzigen Piloten, per Zufall im Verhältnis der Anteile ausgelost.
 
 | Wächter | Gegenstand | I | II | III |
 | :--- | :--- | :---: | :---: | :---: |
-| Brood Warden | Ship Fragment | 30–50 | 80–120 | 150–250 |
-| Brood Warden | Advanced Plasma | 6.000–12.000 | 18.000–36.000 | – |
-| Brood Warden | Daraxium | 10–20 (5 × 50 %) | – | – |
-| Brood Warden | Nyxite | – | 20–40 (5 × 50 %) | – |
-| Brood Warden | Ultra Core | – | – | 18.000–30.000 |
-| Brood Warden | Quorvium | – | – | 50–100 (60 %) |
-| Siege Warden | Ship Fragment | 20–40 | 60–100 | 120–200 |
-| Siege Warden | Siphon Battery | 6.000–12.000 | 18.000–30.000 | 48.000–72.000 |
-| Siege Warden | Rakete aus dem Credits-Shop (eine Sorte, zufällig) | 20–30 | 50–80 | 80–120 |
-| Siege Warden | Reinforced Hull Plate | – | 10 (30 %) | – |
-| Siege Warden | Epische Rakete (eine Sorte, zufällig) | – | – | 10–20 (50 %) |
-| Wrath Warden | Ship Fragment | 40–60 | 80–120 | – |
-| Wrath Warden | Cataclysite | 30–50 | 50–100 | – |
-| Wrath Warden | Reinforced Hull Plate | 10 (25 %) | 10 (50 %) | 10–20 (70 %) |
-| Wrath Warden | Power Core | – | 10 (15 %) | 10 (35 %) |
-| Wrath Warden | Quorvium | – | – | 50–100 (70 %) |
-| Wrath Warden | Ancient Control Unit | – | – | 10 (8 %) |
+| Brood Warden | – | {{guide:spoils.box@Brood Warden I}} | {{guide:spoils.box@Brood Warden II}} | {{guide:spoils.box@Brood Warden III}} |
+| Siege Warden | – | {{guide:spoils.box@Siege Warden I}} | {{guide:spoils.box@Siege Warden II}} | {{guide:spoils.box@Siege Warden III}} |
+| Wrath Warden | – | {{guide:spoils.box@Wrath Warden I}} | {{guide:spoils.box@Wrath Warden II}} | {{guide:spoils.box@Wrath Warden III}} |
 
 Seit 0.4.16 sind die Laser-Munitionszeilen (Advanced Plasma, Ultra Core und Siphon Battery) dreimal so groß wie vorher; die übrigen Zeilen sind unverändert.
 

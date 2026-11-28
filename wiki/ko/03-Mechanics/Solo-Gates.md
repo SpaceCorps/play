@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6fe66f282236a0de -->
+<!-- wiki-i18n source: b4ceac9f501a1ec2 -->
 <!-- wiki-i18n title: 솔로 게이트 -->
 # 솔로 게이트 {#solo-gates}
 
@@ -136,33 +136,40 @@ Chrono-Gate의 부품은 초기화 때 0으로 돌아가며 시즌마다 다시 
 
 보스는 외계인의 함선을 키운 것으로, 선체, 실드, 일제 사격이 따로 있으며 게이트나 월드의 어떤 설정도 이를 바꾸지 않습니다. 보스의 선체가 표의 수치로 내려가면 페이즈가 시작됩니다. 실드가 다시 설정될 수 있고, 일제 사격이나 모든 피해가 바뀌며, 기술을 시작할 수 있습니다. 모든 기술은 예고됩니다. 원, 고리, 또는 당신의 함선 위의 표시가 떨어지기 직전에 알려 줍니다. 보스가 부르는 외계인은 보상도 드롭도 없습니다.
 
-**Evil Davidski**는 Davidski's Nightmare의 보스로, Davidski 본인의 Ironclad를 더 어두운 금색으로 칠해 몰고 나옵니다. 먼 거리까지 당신을 따라오는 유도 로켓인 Dormant Lance를 쏘고, 메테오와 고리, 그가 부르는 Evil 함선으로 싸웁니다. 선체가 절반이 되면 **분노한 DAVIDSKI**가 됩니다. 그의 테마곡이 흐르고, 더 세게 때리며, 그의 주위에 **게임 속 모든 함선의 금빛 함선**이 나타납니다. 금빛 함선이 하나라도 살아 있는 동안에는 그에게 전혀 피해를 줄 수 없습니다. 레이저와 로켓은 그를 조준 고정할 수 없고, 무엇을 해도 그의 선체나 실드에 닿지 않으므로 먼저 금빛 함선을 뚫고 나가야 합니다. 마지막 하나가 쓰러지면 보호는 영구히 사라집니다. 그는 매 웨이브가 시작될 때 자신의 창에서 당신을 조롱합니다. 그를 쓰러뜨리면 Davidski 처치를 요구하는 임무에서 위험 섹터에서와 마찬가지로 게이트에서도 처치로 인정됩니다. 최신 버전이 아닌 게임에는 이 게이트가 표시되지 않습니다.
+**Evil Davidski**는 Davidski's Nightmare의 보스로, Davidski 본인의 Ironclad를 더 어두운 금색으로 칠해 몰고 나옵니다. 먼 거리까지 당신을 따라오는 유도 로켓인 Dormant Lance를 쏘고, 메테오와 고리, 그가 부르는 Evil 함선으로 싸웁니다. 선체가 3분의 1이 되면 **분노한 DAVIDSKI**가 됩니다. 그의 테마곡이 흐르고, 더 세게 때리며, 그의 주위에 **게임 속 모든 함선의 금빛 함선**이 나타납니다. 금빛 함선이 하나라도 살아 있는 동안에는 그에게 전혀 피해를 줄 수 없습니다. 레이저와 로켓은 그를 조준 고정할 수 없고, 무엇을 해도 그의 선체나 실드에 닿지 않으므로 먼저 금빛 함선을 뚫고 나가야 합니다. 마지막 하나가 쓰러지면 보호는 영구히 사라집니다. 그는 매 웨이브가 시작될 때 자신의 창에서 당신을 조롱합니다. 그를 쓰러뜨리면 Davidski 처치를 요구하는 임무에서 위험 섹터에서와 마찬가지로 게이트에서도 처치로 인정됩니다. 최신 버전이 아닌 게임에는 이 게이트가 표시되지 않습니다.
 
 <!-- solo-bosses:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
 
 | 보스 | 게이트 | 선체 | 실드 | 레이저 일제 사격 |
 | :--- | :--- | ---: | ---: | ---: |
-| **Enhanced Phantasm** | Alpha Rift | 330,000 | 530,000 | 5,700–7,000 |
-| **Enhanced Bulwark** | Beta Breach | 690,000 | 170,000 | 4,500–5,500 |
-| **Elite Crystalys** | Gamma Foundry | 620,000 | 250,000 | 3,800–4,700 |
-| **Siege Construct** | Delta Siege | 1,150,000 | 1,730,000 | 3,400–4,200 |
-| **Omega Guardian** | Omega Vault | 1,340,000 | 840,000 | 2,600–3,200 |
-| **Evil Davidski** | Davidski's Nightmare | 5,500,000 | 6,600,000 | 7,800–9,600 |
+| **Enhanced Phantasm** | Alpha Rift | {{guide:vitals.hull@Enhanced Phantasm}} | {{guide:vitals.shield@Enhanced Phantasm}} | {{guide:vitals.dps*0.9007633587786259~1.099236641221374@Enhanced Phantasm}} |
+| **Enhanced Bulwark** | Beta Breach | {{guide:vitals.hull@Enhanced Bulwark}} | {{guide:vitals.shield@Enhanced Bulwark}} | {{guide:vitals.dps*0.9019607843137255~1.0980392156862746@Enhanced Bulwark}} |
+| **Elite Crystalys** | Gamma Foundry | {{guide:vitals.hull@Elite Crystalys}} | {{guide:vitals.shield@Elite Crystalys}} | {{guide:vitals.dps*0.896551724137931~1.103448275862069@Elite Crystalys}} |
+| **Siege Construct** | Delta Siege | {{guide:vitals.hull@Siege Construct}} | {{guide:vitals.shield@Siege Construct}} | {{guide:vitals.dps*0.8974358974358975~1.1025641025641026@Siege Construct}} |
+| **Omega Guardian** | Omega Vault | {{guide:vitals.hull@Omega Guardian}} | {{guide:vitals.shield@Omega Guardian}} | {{guide:vitals.dps*0.896551724137931~1.103448275862069@Omega Guardian}} |
+| **Evil Davidski** | Davidski's Nightmare | {{guide:vitals.hull@Evil Davidski}} | {{guide:vitals.shield@Evil Davidski}} | {{guide:vitals.dps*0.896551724137931~1.103448275862069@Evil Davidski}} |
 
 | 보스 | 페이즈 | 남은 선체 | 하는 일 |
 | :--- | :--- | :--- | :--- |
-| **Enhanced Phantasm** | Enhanced Phantasm | 100%~0% | 쏘기만 합니다. |
-| **Enhanced Bulwark** | Shielded | 100%~50% | 실드는 보스 본래 실드의 ×4로 설정됩니다. |
-|  | Second attack | 50%~0% | 일제 사격은 ×1.3입니다. Dormant Lance 로켓 4발을 61,000씩 0.5초 간격으로 당신에게 쏘며, 30초마다 한 차례 일제히 발사합니다. |
-| **Elite Crystalys** | Elite | 100%~50% | 쏘기만 합니다. |
-|  | Reinforced | 50%~0% | 실드는 보스 본래 실드의 ×2로 설정됩니다. 10분마다 Goombah 10기를 부르며 동시에 최대 10기까지 살아 있습니다. 보상도 드롭도 없습니다. |
-| **Siege Construct** | Siege Construct | 100%~0% | 1분마다 메테오 8개의 일제 낙하를 3번 떨어뜨립니다. 하나당 5,500이며 낙하 지점에서 420 유닛 이내의 모든 것에 적중하고, 그중 50%는 당신을 겨냥합니다. 각 원은 낙하 3초 전에 표시됩니다. Dormant Lance 로켓 6발을 9,000씩 0.5초 간격으로 당신에게 쏘며, 1분마다 한 차례 일제히 발사합니다. |
-| **Omega Guardian** | Shield Fortress | 100%~70% | 실드는 보스 본래 실드의 ×1.5로 설정됩니다. 40초마다 Bulwark 6기를 부르며 동시에 최대 12기까지 살아 있습니다. 보상도 드롭도 없습니다. |
-|  | Swarm Protocol | 70%~35% | 25초마다 Phantasm 12기를 부르며 동시에 최대 24기까지 살아 있습니다. 보상도 드롭도 없습니다. 30초마다 140,000의 폭발이 보스에서 700 유닛 이내의 모든 것에 적중합니다. 고리는 낙하 2초 전에 표시됩니다. |
-|  | Overload | 35%~0% | 실드는 보스 본래 실드의 ×0.1로 설정됩니다. 모든 피해가 ×2.5입니다. 페이즈에 들어간 지 2분이 지나면 모든 피해가 추가로 ×2가 됩니다. 25초마다 28,000의 폭발이 보스에서 700 유닛 이내의 모든 것에 적중합니다. 고리는 낙하 2초 전에 표시됩니다. |
-| **Evil Davidski** | Evil Davidski | 100%~50% | Dormant Lance 로켓 6발을 14,700씩 0.5초 간격으로 당신에게 쏘며, 30초마다 한 차례 일제히 발사합니다. 1분마다 메테오 8개의 일제 낙하를 2번 떨어뜨립니다. 하나당 33,000이며 낙하 지점에서 400 유닛 이내의 모든 것에 적중하고, 그중 50%는 당신을 겨냥합니다. 각 원은 낙하 3초 전에 표시됩니다. 40초마다 Evil Protos 5기를 부르며 동시에 최대 10기까지 살아 있습니다. 보상도 드롭도 없습니다. |
-|  | Angry | 50%~0% | 실드는 보스 본래 실드의 ×0.5로 설정됩니다. 모든 피해가 ×1.5입니다. 페이즈에 들어간 지 8분이 지나면 모든 피해가 추가로 ×2가 됩니다. Dormant Lance 로켓 6발을 7,800씩 0.4초 간격으로 당신에게 쏘며, 30초마다 한 차례 일제히 발사합니다. 1분마다 메테오 8개의 일제 낙하를 3번 떨어뜨립니다. 하나당 10,200이며 낙하 지점에서 420 유닛 이내의 모든 것에 적중하고, 그중 50%는 당신을 겨냥합니다. 각 원은 낙하 3초 전에 표시됩니다. 45초마다 105,000의 폭발이 보스에서 700 유닛 이내의 모든 것에 적중합니다. 고리는 낙하 2초 전에 표시됩니다. 40초마다 Evil Kitefin 3기를 부르며 동시에 최대 6기까지 살아 있습니다. 보상도 드롭도 없습니다. |
+| **Enhanced Phantasm** | Enhanced Phantasm | 100%~66% | 쏘기만 합니다. |
+|  | Reinforced | 66%~33% | 실드는 보스 본래 실드의 ×1로 설정됩니다. 10분마다 Phantasm 4기를 부르며 동시에 최대 4기까지 살아 있습니다. 보상도 드롭도 없습니다. |
+|  | Second attack | 33%~0% | 일제 사격은 ×1.3입니다. 30초마다 {{guide:behaviour.ability:phases.ringBlast@Enhanced Phantasm}}의 폭발이 보스에서 500 유닛 이내의 모든 것에 적중합니다. 고리는 낙하 2초 전에 표시됩니다. |
+| **Enhanced Bulwark** | Shielded | 100%~66% | 실드는 보스 본래 실드의 ×4로 설정됩니다. |
+|  | Rocket barrage | 66%~33% | Dormant Lance 로켓 4발을 {{guide:behaviour.ability:phases.rocketBarrage@Enhanced Bulwark}}씩 0.5초 간격으로 당신에게 쏘며, 30초마다 한 차례 일제히 발사합니다. |
+|  | Second attack | 33%~0% | 일제 사격은 ×1.3입니다. 10분마다 Phantasm 4기를 부르며 동시에 최대 4기까지 살아 있습니다. 보상도 드롭도 없습니다. |
+| **Elite Crystalys** | Elite | 100%~66% | 쏘기만 합니다. |
+|  | Renewed shield | 66%~33% | 실드는 보스 본래 실드의 ×1로 설정됩니다. |
+|  | Reinforced | 33%~0% | 실드는 보스 본래 실드의 ×2로 설정됩니다. 10분마다 Goombah 10기를 부르며 동시에 최대 10기까지 살아 있습니다. 보상도 드롭도 없습니다. |
+| **Siege Construct** | Siege Construct | 100%~66% | 1분마다 메테오 8개의 일제 낙하를 3번 떨어뜨립니다. 하나당 {{guide:behaviour.ability:phases.meteors@Siege Construct}}이며 낙하 지점에서 420 유닛 이내의 모든 것에 적중하고, 그중 50%는 당신을 겨냥합니다. 각 원은 낙하 3초 전에 표시됩니다. |
+|  | Rocket barrage | 66%~33% | 1분마다 메테오 8개의 일제 낙하를 3번 떨어뜨립니다. 하나당 {{guide:behaviour.ability:phases.meteors2@Siege Construct}}이며 낙하 지점에서 420 유닛 이내의 모든 것에 적중하고, 그중 50%는 당신을 겨냥합니다. 각 원은 낙하 3초 전에 표시됩니다. Dormant Lance 로켓 6발을 {{guide:behaviour.ability:phases.rocketBarrage@Siege Construct}}씩 0.5초 간격으로 당신에게 쏘며, 1분마다 한 차례 일제히 발사합니다. |
+|  | Frenzy | 33%~0% | 30초마다 메테오 8개의 일제 낙하를 3번 떨어뜨립니다. 하나당 {{guide:behaviour.ability:phases.meteors3@Siege Construct}}이며 낙하 지점에서 420 유닛 이내의 모든 것에 적중하고, 그중 50%는 당신을 겨냥합니다. 각 원은 낙하 3초 전에 표시됩니다. Dormant Lance 로켓 6발을 {{guide:behaviour.ability:phases.rocketBarrage2@Siege Construct}}씩 0.5초 간격으로 당신에게 쏘며, 30초마다 한 차례 일제히 발사합니다. |
+| **Omega Guardian** | Shield Fortress | 100%~66% | 실드는 보스 본래 실드의 ×1.5로 설정됩니다. 40초마다 Bulwark 6기를 부르며 동시에 최대 12기까지 살아 있습니다. 보상도 드롭도 없습니다. |
+|  | Swarm Protocol | 66%~33% | 25초마다 Phantasm 12기를 부르며 동시에 최대 24기까지 살아 있습니다. 보상도 드롭도 없습니다. 30초마다 {{guide:behaviour.ability:phases.ringBlast@Omega Guardian}}의 폭발이 보스에서 700 유닛 이내의 모든 것에 적중합니다. 고리는 낙하 2초 전에 표시됩니다. |
+|  | Overload | 33%~0% | 실드는 보스 본래 실드의 ×0.1로 설정됩니다. 모든 피해가 ×2.5입니다. 페이즈에 들어간 지 2분이 지나면 모든 피해가 추가로 ×2가 됩니다. 25초마다 {{guide:behaviour.ability:phases.ringBlast2@Omega Guardian}}의 폭발이 보스에서 700 유닛 이내의 모든 것에 적중합니다. 고리는 낙하 2초 전에 표시됩니다. |
+| **Evil Davidski** | Evil Davidski | 100%~66% | 쏘기만 합니다. |
+|  | Davidski attacks | 66%~33% | Dormant Lance 로켓 6발을 {{guide:behaviour.ability:phases.rocketBarrage@Evil Davidski}}씩 0.5초 간격으로 당신에게 쏘며, 30초마다 한 차례 일제히 발사합니다. 1분마다 메테오 8개의 일제 낙하를 2번 떨어뜨립니다. 하나당 {{guide:behaviour.ability:phases.meteors@Evil Davidski}}이며 낙하 지점에서 400 유닛 이내의 모든 것에 적중하고, 그중 50%는 당신을 겨냥합니다. 각 원은 낙하 3초 전에 표시됩니다. 40초마다 Evil Protos 5기를 부르며 동시에 최대 10기까지 살아 있습니다. 보상도 드롭도 없습니다. |
+|  | Angry | 33%~0% | 실드는 보스 본래 실드의 ×0.5로 설정됩니다. 모든 피해가 ×1.5입니다. 페이즈에 들어간 지 8분이 지나면 모든 피해가 추가로 ×2가 됩니다. Dormant Lance 로켓 6발을 {{guide:behaviour.ability:phases.rocketBarrage2@Evil Davidski}}씩 0.4초 간격으로 당신에게 쏘며, 30초마다 한 차례 일제히 발사합니다. 1분마다 메테오 8개의 일제 낙하를 3번 떨어뜨립니다. 하나당 {{guide:behaviour.ability:phases.meteors2@Evil Davidski}}이며 낙하 지점에서 420 유닛 이내의 모든 것에 적중하고, 그중 50%는 당신을 겨냥합니다. 각 원은 낙하 3초 전에 표시됩니다. 45초마다 {{guide:behaviour.ability:phases.ringBlast@Evil Davidski}}의 폭발이 보스에서 700 유닛 이내의 모든 것에 적중합니다. 고리는 낙하 2초 전에 표시됩니다. 40초마다 Evil Kitefin 3기를 부르며 동시에 최대 6기까지 살아 있습니다. 보상도 드롭도 없습니다. |
 
 <!-- solo-bosses:end -->
 
@@ -203,27 +210,27 @@ Chrono-Gate의 부품은 초기화 때 0으로 돌아가며 시즌마다 다시 
 
 | 외계인 | 크레딧 | Thulium | 경험치 | 명예 |
 | :--- | ---: | ---: | ---: | ---: |
-| **Seeker** | 1,000 | 4 | 100 | 2 |
-| **Phantasm** | 3,000 | 12 | 300 | 6 |
-| **Bulwark** | 5,000 | 25 | 800 | 10 |
-| **Goombah** | 15,000 | 75 | 3,000 | 24 |
-| **Crystalys** | 75,000 | 200 | 12,000 | 52 |
-| **Boss Seeker** | 10,000 | 40 | 1,000 | 20 |
-| **Seeker Slave** | 125 | 1 | 12 | 1 |
-| **Boss Phantasm** | 39,000 | 195 | 7,800 | 62 |
-| **Phantasm Guard** | 125 | 1 | 12 | 1 |
-| **Boss Goombah** | 120,000 | 600 | 24,000 | 192 |
-| **Goombah Guard** | 125 | 1 | 12 | 1 |
-| **Boss Crystalys** | 393,750 | 1,050 | 63,000 | 273 |
-| **Crystalys Guard** | 125 | 1 | 12 | 1 |
-| **Evil Protos** | 4,250 | 17 | 725 | 6 |
-| **Evil Kitefin** | 12,850 | 53 | 2,175 | 18 |
-| **Evil Ostirion** | 34,350 | 141 | 5,800 | 48 |
-| **Evil Nomad** | 59,600 | 245 | 10,060 | 84 |
-| **Evil Paragon** | 68,700 | 283 | 11,600 | 97 |
-| **Evil Storm** | 96,600 | 398 | 16,315 | 136 |
-| **Evil Wraith** | 137,450 | 566 | 23,205 | 194 |
-| **Evil Ironclad** | 268,450 | 1,105 | 45,330 | 379 |
+| **Seeker** | {{guide:spoils.pay.credits@Seeker#1}} | {{guide:spoils.pay.thulium@Seeker#1}} | {{guide:spoils.pay.experience@Seeker#1}} | {{guide:spoils.pay.honor@Seeker#1}} |
+| **Phantasm** | {{guide:spoils.pay.credits@Phantasm#1}} | {{guide:spoils.pay.thulium@Phantasm#1}} | {{guide:spoils.pay.experience@Phantasm#1}} | {{guide:spoils.pay.honor@Phantasm#1}} |
+| **Bulwark** | {{guide:spoils.pay.credits@Bulwark#1}} | {{guide:spoils.pay.thulium@Bulwark#1}} | {{guide:spoils.pay.experience@Bulwark#1}} | {{guide:spoils.pay.honor@Bulwark#1}} |
+| **Goombah** | {{guide:spoils.pay.credits@Goombah#1}} | {{guide:spoils.pay.thulium@Goombah#1}} | {{guide:spoils.pay.experience@Goombah#1}} | {{guide:spoils.pay.honor@Goombah#1}} |
+| **Crystalys** | {{guide:spoils.pay.credits@Crystalys#1}} | {{guide:spoils.pay.thulium@Crystalys#1}} | {{guide:spoils.pay.experience@Crystalys#1}} | {{guide:spoils.pay.honor@Crystalys#1}} |
+| **Boss Seeker** | {{guide:spoils.pay.credits@Boss Seeker#1}} | {{guide:spoils.pay.thulium@Boss Seeker#1}} | {{guide:spoils.pay.experience@Boss Seeker#1}} | {{guide:spoils.pay.honor@Boss Seeker#1}} |
+| **Seeker Slave** | {{guide:spoils.pay.credits@Seeker Slave#1}} | {{guide:spoils.pay.thulium@Seeker Slave#1}} | {{guide:spoils.pay.experience@Seeker Slave#1}} | {{guide:spoils.pay.honor@Seeker Slave#1}} |
+| **Boss Phantasm** | {{guide:spoils.pay.credits@Boss Phantasm#1}} | {{guide:spoils.pay.thulium@Boss Phantasm#1}} | {{guide:spoils.pay.experience@Boss Phantasm#1}} | {{guide:spoils.pay.honor@Boss Phantasm#1}} |
+| **Phantasm Guard** | {{guide:spoils.pay.credits@Phantasm Guard#1}} | {{guide:spoils.pay.thulium@Phantasm Guard#1}} | {{guide:spoils.pay.experience@Phantasm Guard#1}} | {{guide:spoils.pay.honor@Phantasm Guard#1}} |
+| **Boss Goombah** | {{guide:spoils.pay.credits@Boss Goombah#1}} | {{guide:spoils.pay.thulium@Boss Goombah#1}} | {{guide:spoils.pay.experience@Boss Goombah#1}} | {{guide:spoils.pay.honor@Boss Goombah#1}} |
+| **Goombah Guard** | {{guide:spoils.pay.credits@Goombah Guard#1}} | {{guide:spoils.pay.thulium@Goombah Guard#1}} | {{guide:spoils.pay.experience@Goombah Guard#1}} | {{guide:spoils.pay.honor@Goombah Guard#1}} |
+| **Boss Crystalys** | {{guide:spoils.pay.credits@Boss Crystalys#1}} | {{guide:spoils.pay.thulium@Boss Crystalys#1}} | {{guide:spoils.pay.experience@Boss Crystalys#1}} | {{guide:spoils.pay.honor@Boss Crystalys#1}} |
+| **Crystalys Guard** | {{guide:spoils.pay.credits@Crystalys Guard#1}} | {{guide:spoils.pay.thulium@Crystalys Guard#1}} | {{guide:spoils.pay.experience@Crystalys Guard#1}} | {{guide:spoils.pay.honor@Crystalys Guard#1}} |
+| **Evil Protos** | {{guide:spoils.pay.credits@Evil Protos}} | {{guide:spoils.pay.thulium@Evil Protos}} | {{guide:spoils.pay.experience@Evil Protos}} | {{guide:spoils.pay.honor@Evil Protos}} |
+| **Evil Kitefin** | {{guide:spoils.pay.credits@Evil Kitefin}} | {{guide:spoils.pay.thulium@Evil Kitefin}} | {{guide:spoils.pay.experience@Evil Kitefin}} | {{guide:spoils.pay.honor@Evil Kitefin}} |
+| **Evil Ostirion** | {{guide:spoils.pay.credits@Evil Ostirion}} | {{guide:spoils.pay.thulium@Evil Ostirion}} | {{guide:spoils.pay.experience@Evil Ostirion}} | {{guide:spoils.pay.honor@Evil Ostirion}} |
+| **Evil Nomad** | {{guide:spoils.pay.credits@Evil Nomad}} | {{guide:spoils.pay.thulium@Evil Nomad}} | {{guide:spoils.pay.experience@Evil Nomad}} | {{guide:spoils.pay.honor@Evil Nomad}} |
+| **Evil Paragon** | {{guide:spoils.pay.credits@Evil Paragon}} | {{guide:spoils.pay.thulium@Evil Paragon}} | {{guide:spoils.pay.experience@Evil Paragon}} | {{guide:spoils.pay.honor@Evil Paragon}} |
+| **Evil Storm** | {{guide:spoils.pay.credits@Evil Storm}} | {{guide:spoils.pay.thulium@Evil Storm}} | {{guide:spoils.pay.experience@Evil Storm}} | {{guide:spoils.pay.honor@Evil Storm}} |
+| **Evil Wraith** | {{guide:spoils.pay.credits@Evil Wraith}} | {{guide:spoils.pay.thulium@Evil Wraith}} | {{guide:spoils.pay.experience@Evil Wraith}} | {{guide:spoils.pay.honor@Evil Wraith}} |
+| **Evil Ironclad** | {{guide:spoils.pay.credits@Evil Ironclad}} | {{guide:spoils.pay.thulium@Evil Ironclad}} | {{guide:spoils.pay.experience@Evil Ironclad}} | {{guide:spoils.pay.honor@Evil Ironclad}} |
 
 | 게이트 | 크레딧 | Thulium | 경험치 | 명예 |
 | :--- | ---: | ---: | ---: | ---: |

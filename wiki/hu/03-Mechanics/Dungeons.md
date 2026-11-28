@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 91f3dc3b14f71464 -->
+<!-- wiki-i18n source: f9b2d026af543d87 -->
 <!-- wiki-i18n title: Kazamaták -->
 # Kazamaták {#dungeons}
 
-<!-- wiki-search: dungeon; dungeons; gate; gates; clan gate; clan gates; clan dungeon; summon; warlord; gate warlord; boss; maze; loot zone; chest; card; vote; stage; instance; gate delta; gate epsilon; gate zeta; gate eta; gate theta; gate iota; gate goombah; gate pirate; gate crystalys; portal; clan portal; join; clan gate alerts; clan dungeon window; clan dungeon alerts; dungeon goombah; dungeon pirate; dungeon crystalys; dungeon warlord; 75 percent; three quarters; start room; fog; guards; locked room; boss room; booster; boosters; swarm assist; focus most wanted; zone of chaos; rocket barrage; kazamata; kazamaták; kazamata; kazamaták; hadúr; labirintus; fokozat; zsákmányzóna; kártya; portál; klánportál; booster; köd; őrök; kezdőterem; lezárt terem; rajtámogatás; káoszzóna; klánkazamata-értesítések; klánkazamata; klánkazamata-értesítések; háromnegyed; 75 százalék -->
+<!-- wiki-search: dungeon; dungeons; gate; gates; clan gate; clan gates; clan dungeon; summon; warlord; gate warlord; boss; maze; loot zone; chest; card; vote; stage; instance; gate delta; gate epsilon; gate zeta; gate eta; gate theta; gate iota; gate goombah; gate pirate; gate crystalys; portal; clan portal; join; clan gate alerts; clan dungeon window; clan dungeon alerts; dungeon goombah; dungeon pirate; dungeon crystalys; dungeon warlord; 75 percent; three quarters; start room; fog; guards; locked room; boss room; booster; boosters; swarm assist; focus most wanted; zone of chaos; rocket barrage; kazamata; kazamaták; kazamata; kazamaták; hadúr; labirintus; fokozat; zsákmányzóna; kártya; portál; klánportál; booster; köd; őrök; kezdőterem; lezárt terem; rajtámogatás; káoszzóna; klánkazamata-értesítések; klánkazamata; klánkazamata-értesítések; háromnegyed; 75 százalék; radiation donut; donut; sugárzási fánk -->
 
-A **kazamata** zárt labirintus, amelynek végén egy **Hadúr** vár (a 0.5.2 előtt a játék KAPUNAK hívta). Egy [klán](/wiki/03-Mechanics/Clans.md) alvezére vagy vezére nyit egyet, és a klánbankból fizeti ki, a klán tagjai pedig egyetlen [csoportként](/wiki/03-Mechanics/Groups.md) együtt repülnek be. Végigverekszik magukat a labirintus idegenjein, zsákmányzónákat nyitnak, hogy mindegyikből választhassanak egy kártyát, és legyőzik a Hadúrt. Minden pilótát, aki részt vett a harcban, kifizetnek, amikor a Hadúr elesik, az alábbi korlátokon belül. A kazamaták a klán oldalának **Kazamaták** lapján vannak.
+A **kazamata** zárt labirintus, amelynek végén egy **Hadúr** vár (a 0.5.2 előtt a játék KAPUNAK hívta). Egy [klán](/wiki/03-Mechanics/Clans.md) alvezére vagy vezére nyit egyet, és a klánbankból fizeti ki, a klán tagjai pedig egyetlen [csoportként](/wiki/03-Mechanics/Groups.md) együtt repülnek be. Végigverekszik magukat a labirintus idegenjein, zsákmányzónákat nyitnak, hogy mindegyikből választhassanak egy kártyát, és legyőzik a Hadúrt. Mindenki egyetlen csoportként repül, és a csoportot nem kíméli egy rakéta területi sebzése: egy Ember, egy Scatter vagy egy N.U.K.E. robbanása, valamint a sugárzási zóna, amelyet egy N.U.K.E. hagy maga után, téged és a csoportod tagjait annak felével sebzi, amit egy másik hajónak okoz. Ügyelj hát arra, hová lősz (lásd: [Csoportok](/wiki/03-Mechanics/Groups.md#rules-of-engagement)). Minden pilótát, aki részt vett a harcban, kifizetnek, amikor a Hadúr elesik, az alábbi korlátokon belül. A kazamaták a klán oldalának **Kazamaták** lapján vannak.
 
 A kazamata csak az idegenek elleni harc: senki sem támadhat benne klántársat vagy bárki mást. Az idegenek elesésükkor fizetnek, mint a játék idegenei, amelyekről mintázták őket ([mit fizetnek az idegenek](#what-the-aliens-pay)). A teljesítés a Hadúré, ezért érte csak az kap fizetést, aki a harcban van, amikor az elesik.
 
@@ -117,17 +117,17 @@ Sorban az egyes fajták. A hajótest és a pajzs a szokásos érték szorozva az
 
 |  | 1. fokozat | 2. fokozat | 3. fokozat |
 | :--- | ---: | ---: | ---: |
-| Hajótest | 32 000 | 48 000 | 64 000 |
-| Pajzs | 48 000 | 72 000 | 96 000 |
-| Lézersebzés (másodpercenként egy sorozat) | 3 000 | 4 500 | 6 000 |
-| Sebesség | 180 | 180 | 180 |
+| Hajótest | {{guide:vitals.hull@Dungeon Goombah}} | {{guide:vitals.hull*1.5@Dungeon Goombah}} | {{guide:vitals.hull*2@Dungeon Goombah}} |
+| Pajzs | {{guide:vitals.shield@Dungeon Goombah}} | {{guide:vitals.shield*1.5@Dungeon Goombah}} | {{guide:vitals.shield*2@Dungeon Goombah}} |
+| Lézersebzés (másodpercenként egy sorozat) | {{guide:vitals.dps@Dungeon Goombah}} | {{guide:vitals.dps*1.5@Dungeon Goombah}} | {{guide:vitals.dps*2@Dungeon Goombah}} |
+| Sebesség | {{guide:vitals.speed@Dungeon Goombah}} | {{guide:vitals.speed@Dungeon Goombah}} | {{guide:vitals.speed@Dungeon Goombah}} |
 | Lézer hatótávja | 800 | 800 | 800 |
-| Aggrósugár | 1 800 | 1 800 | 1 800 |
+| Aggrósugár | {{guide:vitals.aggro@Dungeon Goombah}} | {{guide:vitals.aggro@Dungeon Goombah}} | {{guide:vitals.aggro@Dungeon Goombah}} |
 | Jutalom és zsákmány, az eredeti többszöröse | ×1 | ×1,5 | ×2 |
-| Kredit megsemmisítésenként | 15 000 | 22 500 | 30 000 |
-| Thulium megsemmisítésenként | 75 | 113 | 150 |
-| Tapasztalat megsemmisítésenként | 3 000 | 4 500 | 6 000 |
-| Becsület megsemmisítésenként | 24 | 36 | 48 |
+| Kredit megsemmisítésenként | {{guide:spoils.pay.credits@Goombah#1}} | {{guide:spoils.pay.credits*1.5@Goombah#1}} | {{guide:spoils.pay.credits*2@Goombah#1}} |
+| Thulium megsemmisítésenként | {{guide:spoils.pay.thulium@Goombah#1}} | {{guide:spoils.pay.thulium*1.5@Goombah#1}} | {{guide:spoils.pay.thulium*2@Goombah#1}} |
+| Tapasztalat megsemmisítésenként | {{guide:spoils.pay.experience@Goombah#1}} | {{guide:spoils.pay.experience*1.5@Goombah#1}} | {{guide:spoils.pay.experience*2@Goombah#1}} |
+| Becsület megsemmisítésenként | {{guide:spoils.pay.honor@Goombah#1}} | {{guide:spoils.pay.honor*1.5@Goombah#1}} | {{guide:spoils.pay.honor*2@Goombah#1}} |
 
 ### Dungeon Pirate
 
@@ -138,18 +138,18 @@ Sorban az egyes fajták. A hajótest és a pajzs a szokásos érték szorozva az
 
 |  | 1. fokozat | 2. fokozat | 3. fokozat |
 | :--- | ---: | ---: | ---: |
-| Hajótest | 250 000 | 375 000 | 500 000 |
-| Pajzs | 50 100 | 75 150 | 100 200 |
-| Lézersebzés (másodpercenként egy sorozat) | 200 | 300 | 400 |
-| Rakétasebzés | 5 000 | 7 500 | 10 000 |
-| Sebesség | 100 | 100 | 100 |
+| Hajótest | {{guide:vitals.hull@Dungeon Pirate}} | {{guide:vitals.hull*1.5@Dungeon Pirate}} | {{guide:vitals.hull*2@Dungeon Pirate}} |
+| Pajzs | {{guide:vitals.shield@Dungeon Pirate}} | {{guide:vitals.shield*1.5@Dungeon Pirate}} | {{guide:vitals.shield*2@Dungeon Pirate}} |
+| Lézersebzés (másodpercenként egy sorozat) | {{guide:vitals.dps@Dungeon Pirate}} | {{guide:vitals.dps*1.5@Dungeon Pirate}} | {{guide:vitals.dps*2@Dungeon Pirate}} |
+| Rakétasebzés | {{guide:behaviour.ability:rocket.damage@Dungeon Pirate}} | {{guide:behaviour.ability:rocket.damage*1.5@Dungeon Pirate}} | {{guide:behaviour.ability:rocket.damage*2@Dungeon Pirate}} |
+| Sebesség | {{guide:vitals.speed@Dungeon Pirate}} | {{guide:vitals.speed@Dungeon Pirate}} | {{guide:vitals.speed@Dungeon Pirate}} |
 | Lézer hatótávja | 700 | 700 | 700 |
-| Aggrósugár | 1 800 | 1 800 | 1 800 |
+| Aggrósugár | {{guide:vitals.aggro@Dungeon Pirate}} | {{guide:vitals.aggro@Dungeon Pirate}} | {{guide:vitals.aggro@Dungeon Pirate}} |
 | Jutalom és zsákmány, az eredeti többszöröse | ×1 | ×1,5 | ×2 |
-| Kredit megsemmisítésenként | 145 000 | 217 500 | 290 000 |
-| Thulium megsemmisítésenként | 725 | 1 088 | 1 450 |
-| Tapasztalat megsemmisítésenként | 29 000 | 43 500 | 58 000 |
-| Becsület megsemmisítésenként | 232 | 348 | 464 |
+| Kredit megsemmisítésenként | {{guide:spoils.pay.credits@Pirate Boss#1}} | {{guide:spoils.pay.credits*1.5@Pirate Boss#1}} | {{guide:spoils.pay.credits*2@Pirate Boss#1}} |
+| Thulium megsemmisítésenként | {{guide:spoils.pay.thulium@Pirate Boss#1}} | {{guide:spoils.pay.thulium*1.5@Pirate Boss#1}} | {{guide:spoils.pay.thulium*2@Pirate Boss#1}} |
+| Tapasztalat megsemmisítésenként | {{guide:spoils.pay.experience@Pirate Boss#1}} | {{guide:spoils.pay.experience*1.5@Pirate Boss#1}} | {{guide:spoils.pay.experience*2@Pirate Boss#1}} |
+| Becsület megsemmisítésenként | {{guide:spoils.pay.honor@Pirate Boss#1}} | {{guide:spoils.pay.honor*1.5@Pirate Boss#1}} | {{guide:spoils.pay.honor*2@Pirate Boss#1}} |
 
 ### Dungeon Crystalys
 
@@ -159,17 +159,17 @@ Sorban az egyes fajták. A hajótest és a pajzs a szokásos érték szorozva az
 
 |  | 1. fokozat | 2. fokozat | 3. fokozat |
 | :--- | ---: | ---: | ---: |
-| Hajótest | 256 000 | 384 000 | 512 000 |
-| Pajzs | 160 000 | 240 000 | 320 000 |
-| Lézersebzés (másodpercenként egy sorozat) | 10 000 | 15 000 | 20 000 |
-| Sebesség | 230 | 230 | 230 |
+| Hajótest | {{guide:vitals.hull@Dungeon Crystalys}} | {{guide:vitals.hull*1.5@Dungeon Crystalys}} | {{guide:vitals.hull*2@Dungeon Crystalys}} |
+| Pajzs | {{guide:vitals.shield@Dungeon Crystalys}} | {{guide:vitals.shield*1.5@Dungeon Crystalys}} | {{guide:vitals.shield*2@Dungeon Crystalys}} |
+| Lézersebzés (másodpercenként egy sorozat) | {{guide:vitals.dps@Dungeon Crystalys}} | {{guide:vitals.dps*1.5@Dungeon Crystalys}} | {{guide:vitals.dps*2@Dungeon Crystalys}} |
+| Sebesség | {{guide:vitals.speed@Dungeon Crystalys}} | {{guide:vitals.speed@Dungeon Crystalys}} | {{guide:vitals.speed@Dungeon Crystalys}} |
 | Lézer hatótávja | 900 | 900 | 900 |
-| Aggrósugár | 2 400 | 2 400 | 2 400 |
+| Aggrósugár | {{guide:vitals.aggro@Dungeon Crystalys}} | {{guide:vitals.aggro@Dungeon Crystalys}} | {{guide:vitals.aggro@Dungeon Crystalys}} |
 | Jutalom és zsákmány, az eredeti többszöröse | ×1 | ×1,5 | ×2 |
-| Kredit megsemmisítésenként | 75 000 | 112 500 | 150 000 |
-| Thulium megsemmisítésenként | 200 | 300 | 400 |
-| Tapasztalat megsemmisítésenként | 12 000 | 18 000 | 24 000 |
-| Becsület megsemmisítésenként | 52 | 78 | 104 |
+| Kredit megsemmisítésenként | {{guide:spoils.pay.credits@Crystalys#1}} | {{guide:spoils.pay.credits*1.5@Crystalys#1}} | {{guide:spoils.pay.credits*2@Crystalys#1}} |
+| Thulium megsemmisítésenként | {{guide:spoils.pay.thulium@Crystalys#1}} | {{guide:spoils.pay.thulium*1.5@Crystalys#1}} | {{guide:spoils.pay.thulium*2@Crystalys#1}} |
+| Tapasztalat megsemmisítésenként | {{guide:spoils.pay.experience@Crystalys#1}} | {{guide:spoils.pay.experience*1.5@Crystalys#1}} | {{guide:spoils.pay.experience*2@Crystalys#1}} |
+| Becsület megsemmisítésenként | {{guide:spoils.pay.honor@Crystalys#1}} | {{guide:spoils.pay.honor*1.5@Crystalys#1}} | {{guide:spoils.pay.honor*2@Crystalys#1}} |
 
 ### Dungeon Crystalys Twin
 
@@ -179,17 +179,17 @@ Sorban az egyes fajták. A hajótest és a pajzs a szokásos érték szorozva az
 
 |  | 1. fokozat | 2. fokozat | 3. fokozat |
 | :--- | ---: | ---: | ---: |
-| Hajótest | 512 000 | 768 000 | 1 024 000 |
-| Pajzs | 320 000 | 480 000 | 640 000 |
-| Lézersebzés (másodpercenként egy sorozat) | 20 000 | 30 000 | 40 000 |
-| Sebesség | 230 | 230 | 230 |
+| Hajótest | {{guide:vitals.hull@Dungeon Crystalys Twin}} | {{guide:vitals.hull*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.hull*2@Dungeon Crystalys Twin}} |
+| Pajzs | {{guide:vitals.shield@Dungeon Crystalys Twin}} | {{guide:vitals.shield*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.shield*2@Dungeon Crystalys Twin}} |
+| Lézersebzés (másodpercenként egy sorozat) | {{guide:vitals.dps@Dungeon Crystalys Twin}} | {{guide:vitals.dps*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.dps*2@Dungeon Crystalys Twin}} |
+| Sebesség | {{guide:vitals.speed@Dungeon Crystalys Twin}} | {{guide:vitals.speed@Dungeon Crystalys Twin}} | {{guide:vitals.speed@Dungeon Crystalys Twin}} |
 | Lézer hatótávja | 900 | 900 | 900 |
-| Aggrósugár | 2 400 | 2 400 | 2 400 |
+| Aggrósugár | {{guide:vitals.aggro@Dungeon Crystalys Twin}} | {{guide:vitals.aggro@Dungeon Crystalys Twin}} | {{guide:vitals.aggro@Dungeon Crystalys Twin}} |
 | Jutalom és zsákmány, az eredeti többszöröse | ×2 | ×3 | ×4 |
-| Kredit megsemmisítésenként | 150 000 | 225 000 | 300 000 |
-| Thulium megsemmisítésenként | 400 | 600 | 800 |
-| Tapasztalat megsemmisítésenként | 24 000 | 36 000 | 48 000 |
-| Becsület megsemmisítésenként | 104 | 156 | 208 |
+| Kredit megsemmisítésenként | {{guide:spoils.pay.credits*2@Crystalys#1}} | {{guide:spoils.pay.credits*3@Crystalys#1}} | {{guide:spoils.pay.credits*4@Crystalys#1}} |
+| Thulium megsemmisítésenként | {{guide:spoils.pay.thulium*2@Crystalys#1}} | {{guide:spoils.pay.thulium*3@Crystalys#1}} | {{guide:spoils.pay.thulium*4@Crystalys#1}} |
+| Tapasztalat megsemmisítésenként | {{guide:spoils.pay.experience*2@Crystalys#1}} | {{guide:spoils.pay.experience*3@Crystalys#1}} | {{guide:spoils.pay.experience*4@Crystalys#1}} |
+| Becsület megsemmisítésenként | {{guide:spoils.pay.honor*2@Crystalys#1}} | {{guide:spoils.pay.honor*3@Crystalys#1}} | {{guide:spoils.pay.honor*4@Crystalys#1}} |
 
 <!-- dungeons-enemies:end -->
 
@@ -205,24 +205,24 @@ A Hadúr a labirintus túlsó végén lévő teremben vár, és az ő bukása fi
 
 |  | 1. fokozat | 2. fokozat | 3. fokozat |
 | :--- | ---: | ---: | ---: |
-| Hajótest | 10 000 000 | 15 000 000 | 25 000 000 |
-| Pajzs | 8 000 000 | 12 000 000 | 20 000 000 |
-| Lézersebzés (másodpercenként egy sorozat) | 17 500–22 500 | 2 pilóta mindegyikére 26 250–33 750 | 2 pilóta mindegyikére 35 000–45 000 |
-| Sebesség | 120 | 120 | 120 |
+| Hajótest | {{guide:vitals.hull@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} | {{guide:vitals.hull*2.5@Dungeon Warlord}} |
+| Pajzs | {{guide:vitals.shield@Dungeon Warlord}} | {{guide:vitals.shield*1.5@Dungeon Warlord}} | {{guide:vitals.shield*2.5@Dungeon Warlord}} |
+| Lézersebzés (másodpercenként egy sorozat) | {{guide:vitals.dps*0.875~1.125@Dungeon Warlord}} | 2 pilóta mindegyikére {{guide:vitals.dps*1.3125~1.6875@Dungeon Warlord}} | 2 pilóta mindegyikére {{guide:vitals.dps*1.75~2.25@Dungeon Warlord}} |
+| Sebesség | {{guide:vitals.speed@Dungeon Warlord}} | {{guide:vitals.speed@Dungeon Warlord}} | {{guide:vitals.speed@Dungeon Warlord}} |
 | Lézer hatótávja | 1 100 | 1 100 | 1 100 |
 
 A fenti hajótest és pajzs 5 fős csoportra vonatkozik. A csoporttal együtt nőnek: ez a Hadúr hajótestének és pajzsának együttes értéke, a kazamata indulásakor a csoportban lévő pilóták száma szerint.
 
 | Pilóták a csoportban | 1. fokozat | 2. fokozat | 3. fokozat |
 | :--- | ---: | ---: | ---: |
-| 3 | 10 800 000 | 16 200 000 | 27 000 000 |
-| 4 | 14 400 000 | 21 600 000 | 36 000 000 |
-| 5 | 18 000 000 | 27 000 000 | 45 000 000 |
-| 6 | 21 600 000 | 32 400 000 | 54 000 000 |
-| 7 | 25 200 000 | 37 800 000 | 63 000 000 |
-| 8 | 28 800 000 | 43 200 000 | 72 000 000 |
-| 9 | 32 400 000 | 48 600 000 | 81 000 000 |
-| 10 | 36 000 000 | 54 000 000 | 90 000 000 |
+| 3 | {{guide:vitals.hull*0.6@Dungeon Warlord}} + {{guide:vitals.shield*0.6@Dungeon Warlord}} | {{guide:vitals.hull*0.9@Dungeon Warlord}} + {{guide:vitals.shield*0.9@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} + {{guide:vitals.shield*1.5@Dungeon Warlord}} |
+| 4 | {{guide:vitals.hull*0.8@Dungeon Warlord}} + {{guide:vitals.shield*0.8@Dungeon Warlord}} | {{guide:vitals.hull*1.2@Dungeon Warlord}} + {{guide:vitals.shield*1.2@Dungeon Warlord}} | {{guide:vitals.hull*2@Dungeon Warlord}} + {{guide:vitals.shield*2@Dungeon Warlord}} |
+| 5 | {{guide:vitals.hull@Dungeon Warlord}} + {{guide:vitals.shield@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} + {{guide:vitals.shield*1.5@Dungeon Warlord}} | {{guide:vitals.hull*2.5@Dungeon Warlord}} + {{guide:vitals.shield*2.5@Dungeon Warlord}} |
+| 6 | {{guide:vitals.hull*1.2@Dungeon Warlord}} + {{guide:vitals.shield*1.2@Dungeon Warlord}} | {{guide:vitals.hull*1.8@Dungeon Warlord}} + {{guide:vitals.shield*1.8@Dungeon Warlord}} | {{guide:vitals.hull*3@Dungeon Warlord}} + {{guide:vitals.shield*3@Dungeon Warlord}} |
+| 7 | {{guide:vitals.hull*1.4@Dungeon Warlord}} + {{guide:vitals.shield*1.4@Dungeon Warlord}} | {{guide:vitals.hull*2.1@Dungeon Warlord}} + {{guide:vitals.shield*2.1@Dungeon Warlord}} | {{guide:vitals.hull*3.5@Dungeon Warlord}} + {{guide:vitals.shield*3.5@Dungeon Warlord}} |
+| 8 | {{guide:vitals.hull*1.6@Dungeon Warlord}} + {{guide:vitals.shield*1.6@Dungeon Warlord}} | {{guide:vitals.hull*2.4@Dungeon Warlord}} + {{guide:vitals.shield*2.4@Dungeon Warlord}} | {{guide:vitals.hull*4@Dungeon Warlord}} + {{guide:vitals.shield*4@Dungeon Warlord}} |
+| 9 | {{guide:vitals.hull*1.8@Dungeon Warlord}} + {{guide:vitals.shield*1.8@Dungeon Warlord}} | {{guide:vitals.hull*2.7@Dungeon Warlord}} + {{guide:vitals.shield*2.7@Dungeon Warlord}} | {{guide:vitals.hull*4.5@Dungeon Warlord}} + {{guide:vitals.shield*4.5@Dungeon Warlord}} |
+| 10 | {{guide:vitals.hull*2@Dungeon Warlord}} + {{guide:vitals.shield*2@Dungeon Warlord}} | {{guide:vitals.hull*3@Dungeon Warlord}} + {{guide:vitals.shield*3@Dungeon Warlord}} | {{guide:vitals.hull*5@Dungeon Warlord}} + {{guide:vitals.shield*5@Dungeon Warlord}} |
 
 <!-- dungeons-boss:end -->
 
@@ -241,6 +241,7 @@ A Klánkazamata ablak számolja, hány ilyet kell még megsemmisíteni a terem m
 - A **Rajtámogatás** az, amikor a Hadúr hívja a Goombahjait. Amíg élnek, nem sebezhető, és nem lő, és más képességet sem használ. Pusztítsd el mindet: a szalag számolja, hány maradt. Ha eltelik egy perc, a Hadúr újra sebezhető, és a megmaradt Goombahok maradnak és tovább harcolnak. Nem számítanak a főnökterem megnyitásához, és semmit nem fizetnek.
 - A **Káoszzóna** egy lila gyűrű a földön, a Hadúr körül, és amíg tart, mindenhová megy, ahová a Hadúr. A gyűrűben senki nem támadhat, sem lézerrel, sem rakétával, a javítás, az álca és a repülés viszont működik, és a Hadúr és az idegenei úgy lőnek, mint mindig. A gyűrű egy pillanattal a hatása előtt megjelenik: lépj ki belőle, és maradj kint, mert követi a Hadúrt. A gyűrűn kívüli pilóta tovább lőhet, ameddig a fegyverei elérnek.
 - A **Fantomlándzsa** egy másodpercre eltünteti a Hadúrt. A Hadúr a termének egy másik pontján tér vissza, három illúzióval együtt. Amíg egy illúzió él, a legközelebbi pilótára lő, akit lát, a Hadúr sorozatának felével, és másodpercenként gyógyítja a Hadúr hajótestét és pajzsát (a számok a képességek táblázatában vannak). Az illúzióknak saját hajótestük van: semmisítsd meg őket, hogy a gyógyítás megszűnjön. Nem fizetnek semmit, és a Hadúrral együtt tűnnek el, amikor az elesik. A Hadúr elpusztítható, amíg ők élnek.
+- A **Sugárzási fánk** három sugárzásgyűrűt gyújt meg annak a helynek a körül, ahol a Hadúr a képesség kezdetekor állt, egymás után a Hadúrtól kifelé, két gyűrű között egy-két másodperccel. Minden gyűrű egy pillanattal a kigyulladása előtt megmutatja a két szélét, majd néhány másodpercig égeti a benne lévő pilótákat, közvetlenül a hajótestből (az idők és a hajótest másodpercenkénti hányada a képességek táblázatában vannak). Egy gyűrű nem alszik ki, amikor a következő kigyullad: két gyűrű, a magasabb fokozatokon pedig mind a három, egyszerre éghet. A Hadúr körüli lyuk, a gyűrűk közötti talaj és az utolsón kívüli talaj biztonságos: maradj rajtuk, és hagyj el egy gyűrűt, mielőtt kigyullad. A fal nem állítja meg a sugárzást, és az álca sem menti meg tőle a pilótát; a Sugárzásvédelem csökkenti az adagot.
 
 <!-- dungeons-abilities:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -255,19 +256,34 @@ A Klánkazamata ablak számolja, hány ilyet kell még megsemmisíteni a terem m
 | **Rajtámogatás** | 2 mp | Legfeljebb 1 perc | 3 perc | – | – |
 | **Káoszzóna** | 2 mp | 15 mp | 2 perc | 900 | – |
 | **Fantomlándzsa** | 1,5 mp | 1 mp | 2 perc | – | – |
+| **Sugárzási fánk** | 1 mp | Legfeljebb 8,5 mp | 75 mp | 2 150 | – |
 
 | Képesség | 1. fokozat | 2. fokozat | 3. fokozat |
 | :--- | :--- | :--- | :--- |
-| **Életszívó aura** | 8 000 másodpercenként | 10 000 másodpercenként | 12 000 másodpercenként |
-| **Meteorzápor** | 6 meteor sorozatonként, egyenként 80 000 | 8 meteor sorozatonként, egyenként 100 000 | 10 meteor sorozatonként, egyenként 120 000 |
-| **Fókusz a legkeresettebbre** | 26 250–33 750 extra lövésenként a legtöbb sebzést okozó pilótára, 1 mp időközönként egy | 39 375–50 625 extra lövésenként a legtöbb sebzést okozó pilótára, 1 mp időközönként egy | 52 500–67 500 extra lövésenként a legtöbb sebzést okozó pilótára, 1 mp időközönként egy |
-| **Rakétazápor** | 100 000–150 000 rakétánként minden pilótára, 15 mp időközönként egy | 125 000–187 500 rakétánként minden pilótára, 15 mp időközönként egy | 150 000–225 000 rakétánként minden pilótára, 15 mp időközönként egy |
-| **Pajzselnyelés** | 10 000 pajzs másodpercenként | 12 500 pajzs másodpercenként | 15 000 pajzs másodpercenként |
+| **Életszívó aura** | {{guide:behaviour.ability:lifesteal.drainPerSec@Dungeon Warlord}} másodpercenként | {{guide:behaviour.ability:lifesteal.drainPerSec*1.25@Dungeon Warlord}} másodpercenként | {{guide:behaviour.ability:lifesteal.drainPerSec*1.5@Dungeon Warlord}} másodpercenként |
+| **Meteorzápor** | 6 meteor sorozatonként, egyenként {{guide:behaviour.ability:meteor.damage@Dungeon Warlord}} | 8 meteor sorozatonként, egyenként {{guide:behaviour.ability:meteor.damage*1.25@Dungeon Warlord}} | 10 meteor sorozatonként, egyenként {{guide:behaviour.ability:meteor.damage*1.5@Dungeon Warlord}} |
+| **Fókusz a legkeresettebbre** | {{guide:vitals.dps*1.3125~1.6875@Dungeon Warlord}} extra lövésenként a legtöbb sebzést okozó pilótára, 1 mp időközönként egy | {{guide:vitals.dps*1.96875~2.53125@Dungeon Warlord}} extra lövésenként a legtöbb sebzést okozó pilótára, 1 mp időközönként egy | {{guide:vitals.dps*2.625~3.375@Dungeon Warlord}} extra lövésenként a legtöbb sebzést okozó pilótára, 1 mp időközönként egy |
+| **Rakétazápor** | {{guide:behaviour.ability:barrage.damageMin@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage@Dungeon Warlord}} rakétánként minden pilótára, 15 mp időközönként egy | {{guide:behaviour.ability:barrage.damageMin*1.25@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage*1.25@Dungeon Warlord}} rakétánként minden pilótára, 15 mp időközönként egy | {{guide:behaviour.ability:barrage.damageMin*1.5@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage*1.5@Dungeon Warlord}} rakétánként minden pilótára, 15 mp időközönként egy |
+| **Pajzselnyelés** | {{guide:behaviour.ability:absorb.drainPerSec@Dungeon Warlord}} pajzs másodpercenként | {{guide:behaviour.ability:absorb.drainPerSec*1.25@Dungeon Warlord}} pajzs másodpercenként | {{guide:behaviour.ability:absorb.drainPerSec*1.5@Dungeon Warlord}} pajzs másodpercenként |
 | **Rajtámogatás** | 12 Goombah | 18 Goombah | 24 Goombah |
 | **Káoszzóna** | A gyűrűben lévő pilóták nem támadhatnak | A gyűrűben lévő pilóták nem támadhatnak | A gyűrűben lévő pilóták nem támadhatnak |
-| **Fantomlándzsa** | 3 illúzió, egyenként 500 000 hajótesttel; mindegyik a Hadúr sorozatának 50%-át lövi, és amíg él, másodpercenként 50 000 hajótestet és 50 000 pajzsot gyógyít a Hadúrnak | 3 illúzió, egyenként 500 000 hajótesttel; mindegyik a Hadúr sorozatának 50%-át lövi, és amíg él, másodpercenként 50 000 hajótestet és 50 000 pajzsot gyógyít a Hadúrnak | 3 illúzió, egyenként 500 000 hajótesttel; mindegyik a Hadúr sorozatának 50%-át lövi, és amíg él, másodpercenként 50 000 hajótestet és 50 000 pajzsot gyógyít a Hadúrnak |
+| **Fantomlándzsa** | 3 illúzió; mindegyik a Hadúr sorozatának 50%-át lövi, és amíg él, másodpercenként 50 000 hajótestet és 50 000 pajzsot gyógyít a Hadúrnak | 3 illúzió; mindegyik a Hadúr sorozatának 50%-át lövi, és amíg él, másodpercenként 50 000 hajótestet és 50 000 pajzsot gyógyít a Hadúrnak | 3 illúzió; mindegyik a Hadúr sorozatának 50%-át lövi, és amíg él, másodpercenként 50 000 hajótestet és 50 000 pajzsot gyógyít a Hadúrnak |
+| **Sugárzási fánk** | 3 gyűrű, egymás után meggyújtva; mindegyik 2 mp ideig ég, és másodpercenként 8% a pilóta hajótestéből | 3 gyűrű, egymás után meggyújtva; mindegyik 3 mp ideig ég, és másodpercenként 8% a pilóta hajótestéből | 3 gyűrű, egymás után meggyújtva; mindegyik 4,5 mp ideig ég, és másodpercenként 8% a pilóta hajótestéből |
 
 <!-- dungeons-abilities:end -->
+
+### A három lépése {#its-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+A hadúrnak három lépése van ([hogyan működnek](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); mindegyik egyszer történik meg.
+
+- **Kétharmad alatt**: A képességei közti szünet lecsökken: 4 mp, a várakozásaik szorzója ×0,75.
+- **Egyharmad alatt**: A szünet 2 mp, a várakozások szorzója ×0,5, a sebzése szorzója ×1,25; egy ingyenes Meteor-sortüzet indít, és a Swarmja soha nem jön vissza gyorsabban, mint 120 mp időközönként.
+- **Szünet minden lépésnél.** Amikor egy lépés elkezdődik, a hadúr 3 mp ideig nem sebezhető.
+
+<!-- mob-ladder:end -->
 
 ## Zsákmányzónák {#loot-zones}
 
@@ -351,9 +367,9 @@ Az **Orvium Reinforced Plates**, valamint a Kovácsműhely **Echo Shard** és **
 
 | Fokozat | Becsület | Tapasztalat | Kredit | Thulium | x4 lőszer | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE-ranglistapont |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **1. fokozat** | 25 000 | 600 000 | 5 000 000 | 8 000 | 4 000 | 5 | 12 | 5 | 850 |
-| **2. fokozat** | 50 000 | 1 500 000 | 10 000 000 | 18 000 | 9 000 | 10 | 8 | 6 | 2 000 |
-| **3. fokozat** | 100 000 | 2 400 000 | 17 500 000 | 30 000 | 15 000 | 15 | 8 | 7 | 3 400 |
+| **1. fokozat** | 25 000 | 600 000 | 5 000 000 | 8 000 | 4 000 | 5 | 24 | 10 | 850 |
+| **2. fokozat** | 50 000 | 1 500 000 | 10 000 000 | 18 000 | 9 000 | 10 | 16 | 12 | 2 000 |
+| **3. fokozat** | 100 000 | 2 400 000 | 17 500 000 | 30 000 | 15 000 | 15 | 16 | 14 | 3 400 |
 
 - **Heartshards**: 1 az évad során az egyes szintek első fizetett teljesítésekor, és 5% eséllyel még egy minden fizetett teljesítéskor.
 
@@ -367,7 +383,7 @@ Ezek a szabályok azt döntik el, ki kap fizetést **a teljesítésért**. Egy m
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
 - **Egy nap**: Egy fokozat egy pilótának UTC-naponként egyszer fizet: azon a napon, amikor a Hadúr elesik
-- **Egy hét**: Egy pilóta UTC-hetenként legfeljebb 10 teljesített fokozatért kap fizetséget, hétfőtől vasárnapig
+- **Egy hét**: Egy pilóta UTC-hetenként legfeljebb 14 teljesített fokozatért kap fizetséget, hétfőtől vasárnapig
 - **Bent**: Összesen legalább 2 perc
 - **Részvétel a harcban**: Legalább egy ezek közül: a Hadúr hajótestéből és pajzsából ennyit sebzett le: 0,1%; megsemmisített 10 idegent a kazamatában; 50 000 értékben gyógyított más pilótákat a Hadúr elleni harc alatt
 
@@ -382,8 +398,8 @@ Amit egy pilóta egy nap alatt kaphat, és a korlátok által megengedett legjob
 
 | Fizetség pilótánként | Becsület | Tapasztalat | Kredit | Thulium | x4 lőszer | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE-ranglistapont |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Egy nap, minden fokozat egyszer | 175 000 | 4 500 000 | 32 500 000 | 56 000 | 28 000 | 30 | 28 | 18 | 6 250 |
-| A legjobb hét: 7 × 3. fokozat és 3 × 2. fokozat | 850 000 | 21 300 000 | 152 500 000 | 264 000 | 132 000 | 135 | 80 | 67 | 29 800 |
+| Egy nap, minden fokozat egyszer | 175 000 | 4 500 000 | 32 500 000 | 56 000 | 28 000 | 30 | 56 | 36 | 6 250 |
+| A legjobb hét: 7 × 3. fokozat és 7 × 2. fokozat | 1 050 000 | 27 300 000 | 192 500 000 | 336 000 | 168 000 | 175 | 224 | 182 | 37 800 |
 
 Egy kifizetett teljesítés tapasztalata és becsülete beleszámít a PvE-ranglistapontjaidba: minden 1 000 tapasztalat egy pont, és minden 100 becsület is egy pont.
 
@@ -395,7 +411,7 @@ A kazamata minden idegene fizet, amikor elesik, és zsákmányt hullat, mint a j
 
 - **Ki kap fizetést.** Azok a pilóták, akik megsebezték az idegent, az okozott sebzésük szerint, ahogy a rajok idegeneinél: az a pilóta vagy csoport, amely csak súrolta, semmit sem kap, a csoport egyként kap fizetést, a csoporton belül pedig a roncs közelében lévő, a közelmúltban lőtt tagok szint szerint osztoznak a kifizetésen. Az a pilóta, aki nem sebezte az idegent, semmit sem kap érte, bármilyen közel repült is, és az az idegen, akit egy pilóta sem sebzett meg, senkinek sem fizet. Csak azok a pilóták tartoznak bele, akiket a fenti szabályok fizetnek: aki kilépett, nem volt bent elég ideje, ma már kapott fizetést a fokozatért, vagy megkapta a hét összes fizetett teljesítését, az idegenekért semmit sem kap, és a többiek kapják az ő részét. A megsemmisítés nem kéri a harcban való részesedést: az idegen megsebzése a részesedés. Ha egy csoport legtöbb sebzést okozó tagja megsemmisült vagy már nincs a térképen, a roncs közelében lévő, a közelmúltban lőtt tagok nélküle osztoznak.
 - **Mit fizet.** Kreditet, Thuliumot, tapasztalatot és becsületet, megsemmisítésenként egyszer. A fizetség az, amit az eredeti Alphában fizet, minden világban: a kazamatának nincs világszorzója. A boostereid, a formáció és a klánod bónuszai úgy számítanak, mint bármely megsemmisítésnél, a tapasztalat pedig a [PvE-pontjaidhoz](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points) számít, mint a teljesítésé.
-- **A zsákmány.** Az eredeti esélyeivel kisorsolják, kivéve hogy az Echo Shard esélye kétszeres, majd minden mennyiséget megszoroznak az aránnyal (egy egység töredéke esély még egyre). Ládaként hullik a roncsnál, előbb a legtöbb sebzést okozó pilótának és a klánjának, később a térképen bárkinek, aztán eltűnik. Ha a legtöbb sebzést okozó pilóta [csoportjában](/wiki/03-Mechanics/Groups.md) legalább két pilóta sebezte meg az idegent, és még a kazamatában repül, a zsákmány helyette [személyes ládákra](/wiki/03-Mechanics/Cargo.md#personal-crates) oszlik, mindegyikük az okozott sebzése szerint kap egyet, és mindegyik előbb csak a saját pilótájáé, később a térképen bárkié. Az a csoporttárs, aki nem okozott sebzést, vagy akit a fenti szabályok kizárnak, nem kap ládát. A többi csoport és az egyedül repülő pilóták megkapják a részük fizetségét, de ebből a zsákmányból nem kapnak ládát. A térkép egyszerre csak bizonyos számú ládát bír el, ezért szedd fel őket menet közben, és ami a térképen marad, amikor a kazamata bezár, azzal együtt elvész. A teljesítés tárgyaival ellentétben ezek egy idegen közönséges zsákmányai: [eladhatod őket az Aukción](/wiki/03-Mechanics/Auction.md#marketable-items), ha a tárgy eladható.
+- **A zsákmány.** Az eredeti esélyeivel kisorsolják, kivéve hogy az Echo Shard esélye kétszeres, és kettesével hullik, majd minden mennyiséget megszoroznak az aránnyal (egy egység töredéke esély még egyre). Ládaként hullik a roncsnál, előbb a legtöbb sebzést okozó pilótának és a klánjának, később a térképen bárkinek, aztán eltűnik. Ha a legtöbb sebzést okozó pilóta [csoportjában](/wiki/03-Mechanics/Groups.md) legalább két pilóta sebezte meg az idegent, és még a kazamatában repül, a zsákmány helyette [személyes ládákra](/wiki/03-Mechanics/Cargo.md#personal-crates) oszlik, mindegyikük az okozott sebzése szerint kap egyet, és mindegyik előbb csak a saját pilótájáé, később a térképen bárkié. Az a csoporttárs, aki nem okozott sebzést, vagy akit a fenti szabályok kizárnak, nem kap ládát. A többi csoport és az egyedül repülő pilóták megkapják a részük fizetségét, de ebből a zsákmányból nem kapnak ládát. A térkép egyszerre csak bizonyos számú ládát bír el, ezért szedd fel őket menet közben, és ami a térképen marad, amikor a kazamata bezár, azzal együtt elvész. A teljesítés tárgyaival ellentétben ezek egy idegen közönséges zsákmányai: [eladhatod őket az Aukción](/wiki/03-Mechanics/Auction.md#marketable-items), ha a tárgy eladható.
 - **Ami nem fizet.** A Hadúr nem fizet megsemmisítésért, csak a teljesítésért. A Goombahok, amelyeket hív, semmit sem fizetnek, mert a hívás addig újra jön, amíg a harc tart.
 - **Nem a játék megsemmisítése.** A kazamatában elért megsemmisítés nem számít bele a küldetésekbe, az eredményekbe, a megsemmisítés-számlálókba, a wipe-pontokba, egy megsemmisítés PvE-pontjaiba, a drónokba és a P.E.T.-ekbe: egy Dungeon Goombah nem a játék Goombahja.
 - **A korlátok.** A fenti napi és heti korlátok az idegenek fizetségét is ugyanúgy visszatartják, mint a teljesítését: aki ma már kapott fizetést a fokozatért, vagy megkapta a hét összes fizetett teljesítését, az idegenekért sem kap semmit, és egy megsemmisítés összegét a többiek kapják. Az a kazamata, amelyet nem teljesítenek, a megsemmisítéseket azoknak a pilótáknak fizeti, akiket a szabályok fizetnek, a teljesítésért pedig semmit.

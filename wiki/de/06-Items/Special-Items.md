@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9da2aba86c37f5e2 -->
+<!-- wiki-i18n source: 645f14f1a9375995 -->
 <!-- wiki-i18n title: Spezialgegenstände -->
 # Spezialgegenstände {#special-items}
 
@@ -44,7 +44,7 @@ Schließt **einen Skylab-Ausbau sofort ab**: Wähle das Modul, das gerade ausgeb
 
 ### Schematics
 
-Nimmt **24 Stunden von der Forschung ab, die gerade läuft**. Fehlen **höchstens 24 Stunden**, wird die Forschung sofort **abgeschlossen**; fehlt mehr, verliert sie 24 Stunden und läuft weiter, und du kannst ein weiteres Schematics darauf anwenden. 188 der 210 Technologien des [Forschungszentrums](/wiki/03-Mechanics/Research.md) dauern höchstens 24 Stunden, ein Schematics schließt sie also von Anfang an ab. Die übrigen 22 dauern länger, bei den meisten 48 oder 72 Stunden und bei den Rocket Launchern III, IV und V 96, 168 und 240 Stunden, und brauchen 2 bis 10 Schematics.
+Nimmt **24 Stunden von der Forschung ab, die gerade läuft**. Fehlen **höchstens 24 Stunden**, wird die Forschung sofort **abgeschlossen**; fehlt mehr, verliert sie 24 Stunden und läuft weiter, und du kannst ein weiteres Schematics darauf anwenden. 190 der 212 Technologien des [Forschungszentrums](/wiki/03-Mechanics/Research.md) dauern höchstens 24 Stunden, ein Schematics schließt sie also von Anfang an ab. Die übrigen 22 dauern länger, bei den meisten 48 oder 72 Stunden und bei den Rocket Launchern III, IV und V 96, 168 und 240 Stunden, und brauchen 2 bis 10 Schematics.
 
 - **Stunden der Technologie, nicht der Uhr.** Die 24 Stunden sind die eigene Forschungszeit der Technologie, die auf ihrer Karte steht. Der Thulium-Boost lässt eine Forschung schneller laufen, ändert aber nicht, was ein Einsatz abzieht; deckt ein Boost das Ende der Forschung ab, spart ein Einsatz also weniger Wartezeit (bei doppelter Geschwindigkeit entspricht ein Tag Forschung 12 Stunden Wartezeit). Die Bestätigung nennt die Zeit, die der Timer danach zeigt.
 - **Die Forschung läuft weiter wie bisher.** Eine Forschung, die 24 Stunden verliert, behält ihren Platz: Der Boost läuft weiter, die Warteschlange bleibt unberührt, und dahinter startet nichts. Wartet eine Forschung auf Wissenschaft, wartet sie weiter: Schematics geben Zeit, keinen Treibstoff.

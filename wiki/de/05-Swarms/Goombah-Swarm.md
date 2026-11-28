@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7859e3f6a7efac1e -->
+<!-- wiki-i18n source: 38ffa8ba7cbf5000 -->
 <!-- wiki-i18n title: Goombah-Schwarm -->
 # Goombah-Schwarm {#goombah-swarm}
 
@@ -17,14 +17,14 @@ Der Goombah-Schwarm ist ein **Boss Goombah** mit seinen **Goombah Guards**: ein 
 - **Begleiter bleiben nahe**: höchstens 500 Einheiten vom Anführer entfernt
 - **Heilung**: Jeder Goombah Guard im Umkreis von 600 Einheiten um den Anführer heilt dessen Hülle, in Alpha 110 HP pro Sekunde
 - **Anführer zerstört**: Die Begleiter verschwinden 30 s nach der Zerstörung des Anführers, sofern sie nicht gerade angreifen
-- **Kehrt zurück**: 5 min nach der Zerstörung des Anführers, im selben Sektor
+- **Kehrt zurück**: {{guide:vitals.respawn@Boss Goombah#1;Boss Goombah#2;Boss Goombah#3}} nach der Zerstörung des Anführers, im selben Sektor
 - **Meldungen**: Die Piloten des Sektors erfahren, wann der Anführer auftaucht und wann er zerstört wird. Das sind Systemzeilen: Sie erscheinen im Tab **System** des Chats, mit Zähler für Ungelesenes, und nicht in **Global** oder **Lokal**. Der Kill-Feed nennt den Piloten, dem der Abschuss gutgeschrieben wird.
 
 <!-- goombah-glance:end -->
 
 ## Die Mitglieder {#the-members}
 
-- **Boss Goombah**: ein größerer Goombah, in der Färbung des Schwarms und mit seinem Namen darüber, mit eigener Hülle, eigenem Schild und eigener Laser-Salve (die Werte stehen unten). Er ist passiv: Er streift umher, bis ein Pilot ihn trifft, setzt dann diesem Piloten nach und feuert auf ihn, und die Schiffe seines Schwarms in der Nähe greifen mit ein. Reichweite seiner Waffe und seine Geschwindigkeit sind die eines Goombah, und er repariert seine Hülle nie von selbst.
+- **Boss Goombah**: ein größerer Goombah, in der Färbung des Schwarms und mit seinem Namen darüber, mit eigener Hülle, eigenem Schild und eigener Laser-Salve (die Werte stehen unten). Er ist passiv: Er streift umher, bis ein Pilot ihn trifft, setzt dann diesem Piloten nach und feuert auf ihn, und die Schiffe seines Schwarms in der Nähe greifen mit ein. Reichweite seiner Waffe und seine Geschwindigkeit sind die eines Goombah, und er repariert seine Hülle nie von selbst. Seine [drei Schritte](#the-leaders-three-steps) und eine [Spezialfähigkeit](/wiki/03-Mechanics/Special-Abilities.md) können das ändern.
 - **Goombah Guard**: ein kleinerer Goombah in der Färbung des Schwarms. Die Guards bleiben nah beim Boss, greifen ein, wenn ein Schwarmschiff in ihrer Nähe getroffen wird, und jeder, der sich in der Nähe des Bosses befindet, heilt dessen Hülle. Ein Guard repariert seine eigene Hülle nach einer Pause, wie es ein Goombah tut.
 
 ## Wie der Kampf verläuft {#how-the-fight-goes}
@@ -34,6 +34,19 @@ Der Goombah-Schwarm ist ein **Boss Goombah** mit seinen **Goombah Guards**: ein 
 - **Beta und Gamma sind härter.** Die Schwärme dieser Welten sind stärker ([Welten](/wiki/05-Swarms/Swarms.md#the-worlds)), sie brauchen also mehr Piloten oder bessere Munition.
 - **Behalte den Sektor im Auge.** `x-4` ist in Alpha ein PvP-Sektor, und in Beta und Gamma sind es `x-3` und `x-4` ([Welten](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)): Ein Rivale kann in den Kampf eingreifen oder auf die Kiste warten. Lass ein Schiff der Gruppe Wache halten.
 - **Der Boss kehrt zurück**, nach der Zeit in der Liste *Auf einen Blick*, mit voller Stärke, im selben Sektor, und seine Guards kommen nacheinander.
+
+## Die drei Schritte des Anführers {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Sein Kampf hat drei Schritte ([so funktionieren sie](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); jeder geschieht einmal.
+
+- **Am Anfang**: Nimmt für 6 s nur 50 % von jedem Treffer.
+- **Unter zwei Dritteln**: Sein Schaden ist für 10 s mit ×1,5 multipliziert und seine Geschwindigkeit mit ×1,25.
+- **Unter einem Drittel**: Heilt 25 % seiner Hülle und seines Schilds (ein Schadensstoß unterbricht es), und seine Goombah Guards heilen es währenddessen ×2 so schnell.
+
+<!-- mob-ladder:end -->
 
 ## Belohnungen und Beute {#rewards-and-drops}
 
@@ -52,30 +65,23 @@ Basis: Goombah mit 400 % der Hülle und 100 % des Laserschadens; Tempo und Rei
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Hülle | 128.000 | 192.000 | 256.000 |
-| Schild | 192.000 | 288.000 | 384.000 |
-| Laserschaden (eine Salve pro Sekunde) | 3.000 | 4.500 | 6.000 |
-| Tempo | 180 | 180 | 180 |
+| Hülle | {{guide:vitals.hull@Boss Goombah#1}} | {{guide:vitals.hull@Boss Goombah#2}} | {{guide:vitals.hull@Boss Goombah#3}} |
+| Schild | {{guide:vitals.shield@Boss Goombah#1}} | {{guide:vitals.shield@Boss Goombah#2}} | {{guide:vitals.shield@Boss Goombah#3}} |
+| Laserschaden (eine Salve pro Sekunde) | {{guide:vitals.dps@Boss Goombah#1}} | {{guide:vitals.dps@Boss Goombah#2}} | {{guide:vitals.dps@Boss Goombah#3}} |
+| Tempo | {{guide:vitals.speed@Boss Goombah#1}} | {{guide:vitals.speed@Boss Goombah#2}} | {{guide:vitals.speed@Boss Goombah#3}} |
 | Laserreichweite | 800 | 800 | 800 |
 | Aggro-Radius | nur wenn angegriffen | nur wenn angegriffen | nur wenn angegriffen |
-| Credits | 120.000 | 240.000 | 360.000 |
-| Thulium | 600 | 1.200 | 1.800 |
-| Erfahrung (EP) | 24.000 | 48.000 | 72.000 |
-| Ehre | 192 | 384 | 576 |
+| Credits | {{guide:spoils.pay.credits@Boss Goombah#1}} | {{guide:spoils.pay.credits@Boss Goombah#2}} | {{guide:spoils.pay.credits@Boss Goombah#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Boss Goombah#1}} | {{guide:spoils.pay.thulium@Boss Goombah#2}} | {{guide:spoils.pay.thulium@Boss Goombah#3}} |
+| Erfahrung (EP) | {{guide:spoils.pay.experience@Boss Goombah#1}} | {{guide:spoils.pay.experience@Boss Goombah#2}} | {{guide:spoils.pay.experience@Boss Goombah#3}} |
+| Ehre | {{guide:spoils.pay.honor@Boss Goombah#1}} | {{guide:spoils.pay.honor@Boss Goombah#2}} | {{guide:spoils.pay.honor@Boss Goombah#3}} |
 | PvE-Punkte pro Abschuss | 14 | 14 | 14 |
 
 **Beute**: eine Kiste, für den Piloten mit dem meisten Schaden.
 
-| Gegenstand | Chance | Menge |
-| :--- | ---: | ---: |
-| Ship Fragment | 100 % bei jedem von 8 Würfen | 3 |
-| Reinforced Hull Plate | 60 % bei jedem von 8 Würfen | 1 |
-| Power Core | 25 % bei jedem von 8 Würfen | 1 |
-| Cataclysite | 100 % bei jedem von 8 Würfen | 4 |
-| Quorvium | 100 % bei jedem von 8 Würfen | 2–4 |
-| Advanced Plasma | 100 % | 100–200 |
-| Ultra Core | 100 % | 100–200 |
-| Eine der 4 [Raketen](/wiki/06-Items/Rockets.md), die man mit Credits kauft, zufällig gewählt | 100 % | 6–10 |
+| Gegenstand |
+| :--- |
+| {{guide:spoils.box@Boss Goombah#1;Boss Goombah#2;Boss Goombah#3}} |
 
 ### Goombah Guard
 
@@ -83,17 +89,17 @@ Basis: Goombah mit 20 % von Hülle, Schild und Schaden; Tempo und Reichweite bl
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Hülle | 6.400 | 9.600 | 12.800 |
-| Schild | 9.600 | 14.400 | 19.200 |
-| Laserschaden (eine Salve pro Sekunde) | 600 | 900 | 1.200 |
-| Tempo | 180 | 180 | 180 |
+| Hülle | {{guide:vitals.hull@Goombah Guard#1}} | {{guide:vitals.hull@Goombah Guard#2}} | {{guide:vitals.hull@Goombah Guard#3}} |
+| Schild | {{guide:vitals.shield@Goombah Guard#1}} | {{guide:vitals.shield@Goombah Guard#2}} | {{guide:vitals.shield@Goombah Guard#3}} |
+| Laserschaden (eine Salve pro Sekunde) | {{guide:vitals.dps@Goombah Guard#1}} | {{guide:vitals.dps@Goombah Guard#2}} | {{guide:vitals.dps@Goombah Guard#3}} |
+| Tempo | {{guide:vitals.speed@Goombah Guard#1}} | {{guide:vitals.speed@Goombah Guard#2}} | {{guide:vitals.speed@Goombah Guard#3}} |
 | Laserreichweite | 800 | 800 | 800 |
 | Aggro-Radius | nur wenn angegriffen | nur wenn angegriffen | nur wenn angegriffen |
 | Heilt den Anführer, je Begleiter, pro Sekunde (nur Hülle) | 110 | 165 | 220 |
-| Credits | 125 | 250 | 375 |
-| Thulium | 1 | 2 | 3 |
-| Erfahrung (EP) | 12 | 24 | 36 |
-| Ehre | 1 | 2 | 3 |
+| Credits | {{guide:spoils.pay.credits@Goombah Guard#1}} | {{guide:spoils.pay.credits@Goombah Guard#2}} | {{guide:spoils.pay.credits@Goombah Guard#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Goombah Guard#1}} | {{guide:spoils.pay.thulium@Goombah Guard#2}} | {{guide:spoils.pay.thulium@Goombah Guard#3}} |
+| Erfahrung (EP) | {{guide:spoils.pay.experience@Goombah Guard#1}} | {{guide:spoils.pay.experience@Goombah Guard#2}} | {{guide:spoils.pay.experience@Goombah Guard#3}} |
+| Ehre | {{guide:spoils.pay.honor@Goombah Guard#1}} | {{guide:spoils.pay.honor@Goombah Guard#2}} | {{guide:spoils.pay.honor@Goombah Guard#3}} |
 | PvE-Punkte pro Abschuss | 3 | 3 | 3 |
 
 **Beute**: keine. Der Abschuss zahlt nur seine Credits, sein Thulium, seine EP und seine Ehre.

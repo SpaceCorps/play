@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 397d7b3564593bb7 -->
+<!-- wiki-i18n source: f77c8c8ae352b4a0 -->
 <!-- wiki-i18n title: Sunucular -->
 # Sunucular {#servers}
 
@@ -37,7 +37,7 @@ Oyun kapanırsa ya da bağlantı kesilirse bölgesel sunucu seni kısa bir süre
 | [Solo Geçitler](/wiki/03-Mechanics/Solo-Gates.md#going-in) | geçidin kendisi orada anlatılır |
 | [Başarımlar](/wiki/03-Mechanics/Achievements.md) | orada anlatılır |
 | [Klan zindanları](/wiki/03-Mechanics/Dungeons.md) ve Warden’lar | yalnızca Helsinki’de |
-| [Davidski](/wiki/03-Mechanics/Davidski.md) | ortaya çıkar ama bölgesel bir sunucuda hiçbir şey ödemez: öldürmeleri Helsinki’de ödenir |
+| [Davidski](/wiki/03-Mechanics/Davidski.md) | ortaya çıkar ama bölgesel bir sunucuda hiçbir şey ödemez; ödülleri yalnızca ana sunucuda (EU) öldürüldüğünde verilir, herhangi bir sunucuda öldürülmesi ise onu adıyla anan görevlere sayılır |
 | Hangar, [Skylab](/wiki/03-Mechanics/Skylab.md), Montaj, Açık Artırma, mağaza, araştırma, klan sayfası ve Galaksi Geçitleri | istasyonda: uçuşta pencere bunu söyler ve **Üsse dön** seni oraya götürür |
 
 ## Sunucu seçmek {#choosing-a-server}

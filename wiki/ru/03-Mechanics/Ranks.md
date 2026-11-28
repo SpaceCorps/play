@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 38daca85a103c20f -->
+<!-- wiki-i18n source: d45e1534593782f8 -->
 <!-- wiki-i18n title: Звания -->
 # Звания {#ranks}
 
@@ -137,6 +137,7 @@
 | Slumbering Void | 10 |
 | Inert Mass | 15 |
 | The Unwakened | 112 |
+| Deep Mass | 15 |
 | Brood Warden I, II, III | 14, 18, 35 |
 | Siege Warden I, II, III | 13, 17, 32 |
 | Wrath Warden I, II, III | 14, 18, 34 |
@@ -144,7 +145,7 @@
 | Siege Escort I, II, III | 2, 3, 6 |
 | Wrath Guard I, II, III | 2, 3, 6 |
 
-Первые пять строк — обычные пришельцы, следующие двенадцать — корабли шести роёв, следующие три — пришельцы [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) (с 11-го дня сезона). В конце идут Стражи кланов, предводители боя со Стражем, и их экипажи — Brood Drone, Siege Escort и Wrath Guard: I, II и III — это сила Стража, и очки перечислены в этом порядке.
+Первые пять строк — обычные пришельцы, следующие двенадцать — корабли шести роёв, следующие три — пришельцы [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) (с 11-го дня сезона), а следующая — **Deep Mass** из [Deep Void](/wiki/03-Mechanics/Deep-Void.md), Inert Mass с более толстым щитом. В конце идут Стражи кланов, предводители боя со Стражем, и их экипажи — Brood Drone, Siege Escort и Wrath Guard: I, II и III — это сила Стража, и очки перечислены в этом порядке.
 
 Например, у пилота 4-го уровня с 12 500 опыта и 900 чести, уничтожившего 300 Seeker, 80 Phantasm и 10 Bulwark, 400 + 12 + 9 + 300 + 160 + 40 = **921** очков. Это «Сержант»: минимум — 800, а следующее звание, «Старший сержант», требует 1 000. До звания «Старший полковник» важны только очки.
 

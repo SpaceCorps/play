@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: bb8bc80ba6889fba -->
+<!-- wiki-i18n source: fcba1b51b68a9123 -->
 <!-- wiki-i18n title: Sciame Dormant -->
 # Sciame Dormant {#dormant-swarm}
 
-Lo sciame Dormant è una **Dormant Force** con le sue **Dormant Pulse**: un gruppo di navi che non iniziano mai uno scontro e colpiscono molto forte una volta svegliate. Ce n’è uno solo in ogni mondo. Vaga da un settore pericoloso al successivo, ed è lo scontro più duro e il bottino più ricco degli sciami: uno scontro per un grande gruppo delle navi più forti. Dal giorno 11 della stagione parte dal [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) su `DS-4`, ritorna prima e paga il doppio (vedi l’elenco *In breve*).
+Lo sciame Dormant è una **Dormant Force** con le sue **Dormant Pulse**: un gruppo di navi che non iniziano mai uno scontro e colpiscono molto forte una volta svegliate. Ce n’è uno solo nei settori pericolosi di ogni mondo (il [Deep Void](/wiki/03-Mechanics/Deep-Void.md#the-dormant-swarms-visit) ha una visita tutta sua, una volta al giorno). Vaga da un settore pericoloso al successivo, ed è lo scontro più duro e il bottino più ricco degli sciami: uno scontro per un grande gruppo delle navi più forti. Dal giorno 11 della stagione parte dal [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) su `DS-4`, ritorna prima e paga il doppio (vedi l’elenco *In breve*).
 
 ## In breve {#at-a-glance}
 
@@ -18,7 +18,7 @@ Lo sciame Dormant è una **Dormant Force** con le sue **Dormant Pulse**: un grup
 - **Capo distrutto**: Dormant Pulse prende il comando
 - **Capo distrutto**: I seguaci se ne vanno 30 s dopo la distruzione del capo, anche se stanno attaccando
 - **Spostamenti**: Resta da 8 a 15 min su una mappa, poi vola alla porta di un altro settore pericoloso. Non prende mai le porte che escono dai settori pericolosi e non entra mai nell’anello del buco nero
-- **Ritorna**: 1 h dopo la distruzione dell’intero sciame, in un settore pericoloso casuale
+- **Ritorna**: {{guide:vitals.respawn@Dormant Force#1;Dormant Force#2;Dormant Force#3}} dopo la distruzione dell’intero sciame, in un settore pericoloso casuale
 - **Dal giorno 11 della stagione**: Compare nel [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) di `DS-4` invece che in un settore pericoloso casuale, ritorna dopo 30 min dalla distruzione dell’intero sciame, e ogni nave paga ×2 (crediti, Thulium, XP e onore; il bottino resta lo stesso)
 - **Avvisi**: I piloti di tutto il mondo vengono avvisati quando lo sciame compare e quando viene distrutto. Sono righe di Sistema: compaiono nella scheda **Sistema** della chat, con un conteggio delle righe non lette, e non in **Globale** né in **Locale**. Un segnalino lo mostra sulle mappe dei settori pericolosi e sulla mappa galattica. Il kill feed nomina il pilota a cui viene accreditato l’abbattimento.
 
@@ -38,6 +38,19 @@ Sono passive: non attaccano mai un pilota. Se ne colpisci una, le altre vicine s
 - **I suoi laser decidono lo scontro.** Insieme possono distruggere una Paragon in meno di un minuto, e perfino una con i migliori scudi in meno di due, razzi o non razzi: porta il tuo danno in fretta, con i migliori scudi che hai.
 - **Nave per nave.** Ogni nave ha il suo scafo e la sua ricompensa, quindi la Force o una Pulse può essere distrutta per prima. Lo sciame viene sostituito solo quando è distrutto per intero, dopo il tempo indicato nell’elenco *In breve*.
 
+## Le tre fasi del capo {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Il suo scontro ha tre fasi ([come funzionano](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); ognuna avviene una volta.
+
+- **All’inizio**: Subisce solo 70% di ogni colpo finché uno dei suoi Dormant Pulses è vivo.
+- **Sotto i due terzi**: I suoi Dormant Pulses sparano un razzo ogni 2,5 s per 15 s.
+- **Sotto un terzo**: Finché tutti i suoi Dormant Pulses sono vivi, lo riparano di 5% del suo scafo al secondo per 6 s.
+
+<!-- mob-ladder:end -->
+
 ## Ricompense e bottino {#rewards-and-drops}
 
 Ogni nave paga per sé, in base al danno che ha subito ([come paga l’abbattimento di un boss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)), e ognuna lascia una cassa per il pilota che le ha inflitto più danno. La **cassa della Force** è il premio: moltissime munizioni x3 e x4, razzi Epici di un solo tipo e, ogni tanto, un N.I.K.E. o un N.U.K.E. Le **Pulse** possono lasciare una Ancient Control Unit, un Power Core o Dark Matter. Un minuto di scontro con lo sciame paga più di un minuto di scontro con il Crystalys, l’alieno meglio pagato. Dal giorno 11 della stagione ogni nave paga il doppio (vedi l’elenco *In breve*); le casse sono le stesse.
@@ -55,27 +68,24 @@ Base: Wraith; rispetto all’originale, scafo 100% e danno dei laser 300%; veloc
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Scafo | 256.000 | 384.000 | 512.000 |
-| Scudo | 83.400 | 125.100 | 166.800 |
-| Danno dei laser (una raffica al secondo) | 3.315 | 4.973 | 6.630 |
-| Velocità | 210 | 210 | 210 |
+| Scafo | {{guide:vitals.hull@Dormant Force#1}} | {{guide:vitals.hull@Dormant Force#2}} | {{guide:vitals.hull@Dormant Force#3}} |
+| Scudo | {{guide:vitals.shield@Dormant Force#1}} | {{guide:vitals.shield@Dormant Force#2}} | {{guide:vitals.shield@Dormant Force#3}} |
+| Danno dei laser (una raffica al secondo) | {{guide:vitals.dps@Dormant Force#1}} | {{guide:vitals.dps@Dormant Force#2}} | {{guide:vitals.dps@Dormant Force#3}} |
+| Velocità | {{guide:vitals.speed@Dormant Force#1}} | {{guide:vitals.speed@Dormant Force#2}} | {{guide:vitals.speed@Dormant Force#3}} |
 | Portata dei laser | 800 | 800 | 800 |
 | Raggio di aggressione | solo se attaccato | solo se attaccato | solo se attaccato |
-| Danno dei razzi, al massimo | 7.500 | 11.250 | 15.000 |
-| Crediti | 185.000 | 370.000 | 555.000 |
-| Thulium | 485 | 970 | 1.455 |
-| Esperienza (XP) | 29.200 | 58.400 | 87.600 |
-| Onore | 127 | 254 | 381 |
+| Danno dei razzi, al massimo | {{guide:behaviour.ability:rocket.damage@Dormant Force#1}} | {{guide:behaviour.ability:rocket.damage@Dormant Force#2}} | {{guide:behaviour.ability:rocket.damage@Dormant Force#3}} |
+| Crediti | {{guide:spoils.pay.credits@Dormant Force#1}} | {{guide:spoils.pay.credits@Dormant Force#2}} | {{guide:spoils.pay.credits@Dormant Force#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Dormant Force#1}} | {{guide:spoils.pay.thulium@Dormant Force#2}} | {{guide:spoils.pay.thulium@Dormant Force#3}} |
+| Esperienza (XP) | {{guide:spoils.pay.experience@Dormant Force#1}} | {{guide:spoils.pay.experience@Dormant Force#2}} | {{guide:spoils.pay.experience@Dormant Force#3}} |
+| Onore | {{guide:spoils.pay.honor@Dormant Force#1}} | {{guide:spoils.pay.honor@Dormant Force#2}} | {{guide:spoils.pay.honor@Dormant Force#3}} |
 | Punti PvE per abbattimento | 25 | 25 | 25 |
 
 **Bottino**: una cassa, per il pilota che ha inflitto più danno.
 
-| Oggetto | Probabilità | Quantità |
-| :--- | ---: | ---: |
-| Ultra Core e Experimental Fusion Core, divisi in parti uguali | 100% | 2.000–3.000 in tutto |
-| Uno dei 4 [razzi](/wiki/06-Items/Rockets.md) Epici, scelto a caso | 100% | 30–50 |
-| Uno tra [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) e [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets), scelto a caso | 50% | 1 |
-| Heartshard | 5% | 1 |
+| Oggetto |
+| :--- |
+| {{guide:spoils.box@Dormant Force#1;Dormant Force#2;Dormant Force#3}} |
 
 ### Dormant Pulse
 
@@ -83,25 +93,23 @@ Base: Paragon; rispetto all’originale, scafo 100% e danno dei laser 600%; velo
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Scafo | 128.000 | 192.000 | 256.000 |
-| Scudo | 64.570 | 96.855 | 129.140 |
-| Danno dei laser (una raffica al secondo) | 5.100 | 7.650 | 10.200 |
-| Velocità | 270 | 270 | 270 |
+| Scafo | {{guide:vitals.hull@Dormant Pulse#1}} | {{guide:vitals.hull@Dormant Pulse#2}} | {{guide:vitals.hull@Dormant Pulse#3}} |
+| Scudo | {{guide:vitals.shield@Dormant Pulse#1}} | {{guide:vitals.shield@Dormant Pulse#2}} | {{guide:vitals.shield@Dormant Pulse#3}} |
+| Danno dei laser (una raffica al secondo) | {{guide:vitals.dps@Dormant Pulse#1}} | {{guide:vitals.dps@Dormant Pulse#2}} | {{guide:vitals.dps@Dormant Pulse#3}} |
+| Velocità | {{guide:vitals.speed@Dormant Pulse#1}} | {{guide:vitals.speed@Dormant Pulse#2}} | {{guide:vitals.speed@Dormant Pulse#3}} |
 | Portata dei laser | 800 | 800 | 800 |
 | Raggio di aggressione | solo se attaccato | solo se attaccato | solo se attaccato |
-| Danno dei razzi, al massimo | 5.000 | 7.500 | 10.000 |
-| Crediti | 105.000 | 210.000 | 315.000 |
-| Thulium | 275 | 550 | 825 |
-| Esperienza (XP) | 16.600 | 33.200 | 49.800 |
-| Onore | 72 | 144 | 216 |
+| Danno dei razzi, al massimo | {{guide:behaviour.ability:rocket.damage@Dormant Pulse#1}} | {{guide:behaviour.ability:rocket.damage@Dormant Pulse#2}} | {{guide:behaviour.ability:rocket.damage@Dormant Pulse#3}} |
+| Crediti | {{guide:spoils.pay.credits@Dormant Pulse#1}} | {{guide:spoils.pay.credits@Dormant Pulse#2}} | {{guide:spoils.pay.credits@Dormant Pulse#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Dormant Pulse#1}} | {{guide:spoils.pay.thulium@Dormant Pulse#2}} | {{guide:spoils.pay.thulium@Dormant Pulse#3}} |
+| Esperienza (XP) | {{guide:spoils.pay.experience@Dormant Pulse#1}} | {{guide:spoils.pay.experience@Dormant Pulse#2}} | {{guide:spoils.pay.experience@Dormant Pulse#3}} |
+| Onore | {{guide:spoils.pay.honor@Dormant Pulse#1}} | {{guide:spoils.pay.honor@Dormant Pulse#2}} | {{guide:spoils.pay.honor@Dormant Pulse#3}} |
 | Punti PvE per abbattimento | 11 | 11 | 11 |
 
 **Bottino**: una cassa, per il pilota che ha inflitto più danno.
 
-| Oggetto | Probabilità | Quantità |
-| :--- | ---: | ---: |
-| Ancient Control Unit | 20% | 1 |
-| Power Core | 20% | 1 |
-| Dark Matter | 20% | 1–5 |
+| Oggetto |
+| :--- |
+| {{guide:spoils.box@Dormant Pulse#1;Dormant Pulse#2;Dormant Pulse#3}} |
 
 <!-- dormant-members:end -->

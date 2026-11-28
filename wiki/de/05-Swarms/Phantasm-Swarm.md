@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: abb582fd63389ab9 -->
+<!-- wiki-i18n source: 2eff9c368449da99 -->
 <!-- wiki-i18n title: Phantasm-Schwarm -->
 # Phantasm-Schwarm {#phantasm-swarm}
 
@@ -17,14 +17,14 @@ Der Phantasm-Schwarm ist ein **Boss Phantasm** mit seinen **Phantasm Guards**: e
 - **Begleiter bleiben nahe**: höchstens 500 Einheiten vom Anführer entfernt
 - **Heilung**: Jeder Phantasm Guard im Umkreis von 600 Einheiten um den Anführer heilt dessen Hülle, in Alpha 30 HP pro Sekunde
 - **Anführer zerstört**: Die Begleiter verschwinden 30 s nach der Zerstörung des Anführers, sofern sie nicht gerade angreifen
-- **Kehrt zurück**: 2 min nach der Zerstörung des Anführers, im selben Sektor
+- **Kehrt zurück**: {{guide:vitals.respawn@Boss Phantasm#1;Boss Phantasm#2;Boss Phantasm#3}} nach der Zerstörung des Anführers, im selben Sektor
 - **Meldungen**: Die Piloten des Sektors erfahren, wann der Anführer auftaucht und wann er zerstört wird. Das sind Systemzeilen: Sie erscheinen im Tab **System** des Chats, mit Zähler für Ungelesenes, und nicht in **Global** oder **Lokal**. Der Kill-Feed nennt den Piloten, dem der Abschuss gutgeschrieben wird.
 
 <!-- phantasm-glance:end -->
 
 ## Die Mitglieder {#the-members}
 
-- **Boss Phantasm**: ein größerer Phantasm, in der Färbung des Schwarms und mit seinem Namen darüber, mit eigener Hülle, eigenem Schild und eigener Laser-Salve (die Werte stehen unten). Er ist passiv: Er streift umher, bis ein Pilot ihn trifft, setzt dann diesem Piloten nach und feuert auf ihn, und die Schiffe seines Schwarms in der Nähe greifen mit ein. Reichweite seiner Waffe und seine Geschwindigkeit sind die eines Phantasm, und er repariert seine Hülle nie von selbst.
+- **Boss Phantasm**: ein größerer Phantasm, in der Färbung des Schwarms und mit seinem Namen darüber, mit eigener Hülle, eigenem Schild und eigener Laser-Salve (die Werte stehen unten). Er ist passiv: Er streift umher, bis ein Pilot ihn trifft, setzt dann diesem Piloten nach und feuert auf ihn, und die Schiffe seines Schwarms in der Nähe greifen mit ein. Reichweite seiner Waffe und seine Geschwindigkeit sind die eines Phantasm, und er repariert seine Hülle nie von selbst. Seine [drei Schritte](#the-leaders-three-steps) und eine [Spezialfähigkeit](/wiki/03-Mechanics/Special-Abilities.md) können das ändern.
 - **Phantasm Guard**: ein kleinerer Phantasm in der Färbung des Schwarms. Die Guards bleiben nah beim Boss, greifen ein, wenn ein Schwarmschiff in ihrer Nähe getroffen wird, und jeder, der sich in der Nähe des Bosses befindet, heilt dessen Hülle. Ein Guard repariert seine eigene Hülle nach einer Pause, wie es ein Phantasm tut.
 
 ## Wie der Kampf verläuft {#how-the-fight-goes}
@@ -34,6 +34,19 @@ Der Phantasm-Schwarm ist ein **Boss Phantasm** mit seinen **Phantasm Guards**: e
 - **Beta und Gamma sind härter.** Die Schwärme dieser Welten sind stärker ([Welten](/wiki/05-Swarms/Swarms.md#the-worlds)), sie brauchen also mehr Piloten oder bessere Munition.
 - **Behalte den Sektor im Auge.** `x-4` ist in Alpha ein PvP-Sektor, und in Beta und Gamma sind es `x-3` und `x-4` ([Welten](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)): Ein Rivale kann in den Kampf eingreifen oder auf die Kiste warten. Lass ein Schiff der Gruppe Wache halten.
 - **Der Boss kehrt zurück**, nach der Zeit in der Liste *Auf einen Blick*, mit voller Stärke, im selben Sektor, und seine Guards kommen nacheinander.
+
+## Die drei Schritte des Anführers {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Sein Kampf hat drei Schritte ([so funktionieren sie](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); jeder geschieht einmal.
+
+- **Am Anfang**: Jeder seiner Phantasm Guards baut eine Schildschicht von 10 % der eigenen Hülle auf.
+- **Unter zwei Dritteln**: 3 Kopien von ihm erscheinen, und das echte trägt einen Ring.
+- **Unter einem Drittel**: Springt etwa 2.500 Einheiten von den Piloten weg, und seine Phantasm Guards kommen heil um es zurück.
+
+<!-- mob-ladder:end -->
 
 ## Belohnungen und Beute {#rewards-and-drops}
 
@@ -52,29 +65,23 @@ Basis: Phantasm mit 2.000 % der Hülle und 300 % des Laserschadens; Tempo und 
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Hülle | 40.000 | 60.000 | 80.000 |
-| Schild | 64.000 | 96.000 | 128.000 |
-| Laserschaden (eine Salve pro Sekunde) | 1.050 | 1.575 | 2.100 |
-| Tempo | 160 | 160 | 160 |
+| Hülle | {{guide:vitals.hull@Boss Phantasm#1}} | {{guide:vitals.hull@Boss Phantasm#2}} | {{guide:vitals.hull@Boss Phantasm#3}} |
+| Schild | {{guide:vitals.shield@Boss Phantasm#1}} | {{guide:vitals.shield@Boss Phantasm#2}} | {{guide:vitals.shield@Boss Phantasm#3}} |
+| Laserschaden (eine Salve pro Sekunde) | {{guide:vitals.dps@Boss Phantasm#1}} | {{guide:vitals.dps@Boss Phantasm#2}} | {{guide:vitals.dps@Boss Phantasm#3}} |
+| Tempo | {{guide:vitals.speed@Boss Phantasm#1}} | {{guide:vitals.speed@Boss Phantasm#2}} | {{guide:vitals.speed@Boss Phantasm#3}} |
 | Laserreichweite | 700 | 700 | 700 |
 | Aggro-Radius | nur wenn angegriffen | nur wenn angegriffen | nur wenn angegriffen |
-| Credits | 39.000 | 78.000 | 117.000 |
-| Thulium | 195 | 390 | 585 |
-| Erfahrung (EP) | 7.800 | 15.600 | 23.400 |
-| Ehre | 62 | 124 | 186 |
+| Credits | {{guide:spoils.pay.credits@Boss Phantasm#1}} | {{guide:spoils.pay.credits@Boss Phantasm#2}} | {{guide:spoils.pay.credits@Boss Phantasm#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Boss Phantasm#1}} | {{guide:spoils.pay.thulium@Boss Phantasm#2}} | {{guide:spoils.pay.thulium@Boss Phantasm#3}} |
+| Erfahrung (EP) | {{guide:spoils.pay.experience@Boss Phantasm#1}} | {{guide:spoils.pay.experience@Boss Phantasm#2}} | {{guide:spoils.pay.experience@Boss Phantasm#3}} |
+| Ehre | {{guide:spoils.pay.honor@Boss Phantasm#1}} | {{guide:spoils.pay.honor@Boss Phantasm#2}} | {{guide:spoils.pay.honor@Boss Phantasm#3}} |
 | PvE-Punkte pro Abschuss | 8 | 8 | 8 |
 
 **Beute**: eine Kiste, für den Piloten mit dem meisten Schaden.
 
-| Gegenstand | Chance | Menge |
-| :--- | ---: | ---: |
-| Ship Fragment | 100 % bei jedem von 13 Würfen | 1 |
-| Daraxium | 60 % bei jedem von 13 Würfen | 1–2 |
-| Nyxite | 60 % bei jedem von 13 Würfen | 1–2 |
-| Standard Battery | 100 % | 600–1.200 |
-| Advanced Plasma | 100 % | 60–100 |
-| Ultra Core | 100 % | 10–20 |
-| Eine der 4 [Raketen](/wiki/06-Items/Rockets.md), die man mit Credits kauft, zufällig gewählt | 100 % | 4–6 |
+| Gegenstand |
+| :--- |
+| {{guide:spoils.box@Boss Phantasm#1;Boss Phantasm#2;Boss Phantasm#3}} |
 
 ### Phantasm Guard
 
@@ -82,17 +89,17 @@ Basis: Phantasm mit 50 % von Hülle, Schild und Schaden; Tempo und Reichweite b
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Hülle | 1.000 | 1.500 | 2.000 |
-| Schild | 1.600 | 2.400 | 3.200 |
-| Laserschaden (eine Salve pro Sekunde) | 175 | 263 | 350 |
-| Tempo | 160 | 160 | 160 |
+| Hülle | {{guide:vitals.hull@Phantasm Guard#1}} | {{guide:vitals.hull@Phantasm Guard#2}} | {{guide:vitals.hull@Phantasm Guard#3}} |
+| Schild | {{guide:vitals.shield@Phantasm Guard#1}} | {{guide:vitals.shield@Phantasm Guard#2}} | {{guide:vitals.shield@Phantasm Guard#3}} |
+| Laserschaden (eine Salve pro Sekunde) | {{guide:vitals.dps@Phantasm Guard#1}} | {{guide:vitals.dps@Phantasm Guard#2}} | {{guide:vitals.dps@Phantasm Guard#3}} |
+| Tempo | {{guide:vitals.speed@Phantasm Guard#1}} | {{guide:vitals.speed@Phantasm Guard#2}} | {{guide:vitals.speed@Phantasm Guard#3}} |
 | Laserreichweite | 700 | 700 | 700 |
 | Aggro-Radius | nur wenn angegriffen | nur wenn angegriffen | nur wenn angegriffen |
 | Heilt den Anführer, je Begleiter, pro Sekunde (nur Hülle) | 30 | 45 | 60 |
-| Credits | 125 | 250 | 375 |
-| Thulium | 1 | 2 | 3 |
-| Erfahrung (EP) | 12 | 24 | 36 |
-| Ehre | 1 | 2 | 3 |
+| Credits | {{guide:spoils.pay.credits@Phantasm Guard#1}} | {{guide:spoils.pay.credits@Phantasm Guard#2}} | {{guide:spoils.pay.credits@Phantasm Guard#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Phantasm Guard#1}} | {{guide:spoils.pay.thulium@Phantasm Guard#2}} | {{guide:spoils.pay.thulium@Phantasm Guard#3}} |
+| Erfahrung (EP) | {{guide:spoils.pay.experience@Phantasm Guard#1}} | {{guide:spoils.pay.experience@Phantasm Guard#2}} | {{guide:spoils.pay.experience@Phantasm Guard#3}} |
+| Ehre | {{guide:spoils.pay.honor@Phantasm Guard#1}} | {{guide:spoils.pay.honor@Phantasm Guard#2}} | {{guide:spoils.pay.honor@Phantasm Guard#3}} |
 | PvE-Punkte pro Abschuss | 1 | 1 | 1 |
 
 **Beute**: keine. Der Abschuss zahlt nur seine Credits, sein Thulium, seine EP und seine Ehre.

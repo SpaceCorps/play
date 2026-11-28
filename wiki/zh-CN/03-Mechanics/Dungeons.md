@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 91f3dc3b14f71464 -->
+<!-- wiki-i18n source: f9b2d026af543d87 -->
 <!-- wiki-i18n title: 地下城 -->
 # 地下城 {#dungeons}
 
-<!-- wiki-search: dungeon; dungeons; gate; gates; clan gate; clan gates; clan dungeon; summon; warlord; gate warlord; boss; maze; loot zone; chest; card; vote; stage; instance; gate delta; gate epsilon; gate zeta; gate eta; gate theta; gate iota; gate goombah; gate pirate; gate crystalys; portal; clan portal; join; clan gate alerts; clan dungeon window; clan dungeon alerts; dungeon goombah; dungeon pirate; dungeon crystalys; dungeon warlord; 75 percent; three quarters; start room; fog; guards; locked room; boss room; booster; boosters; swarm assist; focus most wanted; zone of chaos; rocket barrage; 地下城; 地下城; 战争领主; 迷宫; 阶段; 战利品区域; 卡牌; 传送门; 战队传送门; 增益; 迷雾; 守卫; 起始房间; 上锁的房间; 虫群支援; 混沌区域; 战队地下城提醒; 战队地下城; 战队地下城提醒; 四分之三; 百分之七十五 -->
+<!-- wiki-search: dungeon; dungeons; gate; gates; clan gate; clan gates; clan dungeon; summon; warlord; gate warlord; boss; maze; loot zone; chest; card; vote; stage; instance; gate delta; gate epsilon; gate zeta; gate eta; gate theta; gate iota; gate goombah; gate pirate; gate crystalys; portal; clan portal; join; clan gate alerts; clan dungeon window; clan dungeon alerts; dungeon goombah; dungeon pirate; dungeon crystalys; dungeon warlord; 75 percent; three quarters; start room; fog; guards; locked room; boss room; booster; boosters; swarm assist; focus most wanted; zone of chaos; rocket barrage; 地下城; 地下城; 战争领主; 迷宫; 阶段; 战利品区域; 卡牌; 传送门; 战队传送门; 增益; 迷雾; 守卫; 起始房间; 上锁的房间; 虫群支援; 混沌区域; 战队地下城提醒; 战队地下城; 战队地下城提醒; 四分之三; 百分之七十五; radiation donut; donut; 辐射甜甜圈 -->
 
-**地下城**是一座封闭的迷宫，尽头有一名**战争领主**（0.5.2 之前游戏中称它为迷宫之门）。[战队](/wiki/03-Mechanics/Clans.md)的副队长或队长用战队银行的资金开启一座，战队成员随后组成一个[小队](/wiki/03-Mechanics/Groups.md)一同飞入。他们杀穿迷宫里的外星人，开启战利品区域并从每个区域中选一张卡牌，然后击败战争领主。参与战斗的飞行员会在战争领主倒下时，按下方限制获得报酬。地下城位于战队页面的**地下城**标签页。
+**地下城**是一座封闭的迷宫，尽头有一名**战争领主**（0.5.2 之前游戏中称它为迷宫之门）。[战队](/wiki/03-Mechanics/Clans.md)的副队长或队长用战队银行的资金开启一座，战队成员随后组成一个[小队](/wiki/03-Mechanics/Groups.md)一同飞入。他们杀穿迷宫里的外星人，开启战利品区域并从每个区域中选一张卡牌，然后击败战争领主。所有人作为同一个小队飞行，而火箭的范围伤害不会放过小队：Ember、Scatter 或 N.U.K.E. 的爆炸，以及 N.U.K.E. 留下的辐射区，都会以其对其他舰船所造成伤害的一半来伤害你和你的小队成员。所以开火前要留意方向（参见[小队](/wiki/03-Mechanics/Groups.md#rules-of-engagement)）。参与战斗的飞行员会在战争领主倒下时，按下方限制获得报酬。地下城位于战队页面的**地下城**标签页。
 
 地下城只与外星人作战：里面无法攻击任何人，包括战队成员。外星人倒下时会支付报酬，就像它们所仿照的游戏中的外星人一样（[外星人的报酬](#what-the-aliens-pay)）。通关报酬来自战争领主，所以想拿到通关报酬，唯一的办法是在它倒下时身处战斗之中。
 
@@ -117,17 +117,17 @@
 
 |  | 阶段 1 | 阶段 2 | 阶段 3 |
 | :--- | ---: | ---: | ---: |
-| 船体 | 32,000 | 48,000 | 64,000 |
-| 护盾 | 48,000 | 72,000 | 96,000 |
-| 激光伤害 （每秒一轮齐射） | 3,000 | 4,500 | 6,000 |
-| 速度 | 180 | 180 | 180 |
+| 船体 | {{guide:vitals.hull@Dungeon Goombah}} | {{guide:vitals.hull*1.5@Dungeon Goombah}} | {{guide:vitals.hull*2@Dungeon Goombah}} |
+| 护盾 | {{guide:vitals.shield@Dungeon Goombah}} | {{guide:vitals.shield*1.5@Dungeon Goombah}} | {{guide:vitals.shield*2@Dungeon Goombah}} |
+| 激光伤害 （每秒一轮齐射） | {{guide:vitals.dps@Dungeon Goombah}} | {{guide:vitals.dps*1.5@Dungeon Goombah}} | {{guide:vitals.dps*2@Dungeon Goombah}} |
+| 速度 | {{guide:vitals.speed@Dungeon Goombah}} | {{guide:vitals.speed@Dungeon Goombah}} | {{guide:vitals.speed@Dungeon Goombah}} |
 | 激光射程 | 800 | 800 | 800 |
-| 仇恨范围 | 1,800 | 1,800 | 1,800 |
+| 仇恨范围 | {{guide:vitals.aggro@Dungeon Goombah}} | {{guide:vitals.aggro@Dungeon Goombah}} | {{guide:vitals.aggro@Dungeon Goombah}} |
 | 报酬与掉落，原版的倍数 | ×1 | ×1.5 | ×2 |
-| 每次击毁的信用点 | 15,000 | 22,500 | 30,000 |
-| 每次击毁的Thulium | 75 | 113 | 150 |
-| 每次击毁的经验值 | 3,000 | 4,500 | 6,000 |
-| 每次击毁的荣誉 | 24 | 36 | 48 |
+| 每次击毁的信用点 | {{guide:spoils.pay.credits@Goombah#1}} | {{guide:spoils.pay.credits*1.5@Goombah#1}} | {{guide:spoils.pay.credits*2@Goombah#1}} |
+| 每次击毁的Thulium | {{guide:spoils.pay.thulium@Goombah#1}} | {{guide:spoils.pay.thulium*1.5@Goombah#1}} | {{guide:spoils.pay.thulium*2@Goombah#1}} |
+| 每次击毁的经验值 | {{guide:spoils.pay.experience@Goombah#1}} | {{guide:spoils.pay.experience*1.5@Goombah#1}} | {{guide:spoils.pay.experience*2@Goombah#1}} |
+| 每次击毁的荣誉 | {{guide:spoils.pay.honor@Goombah#1}} | {{guide:spoils.pay.honor*1.5@Goombah#1}} | {{guide:spoils.pay.honor*2@Goombah#1}} |
 
 ### Dungeon Pirate
 
@@ -138,18 +138,18 @@
 
 |  | 阶段 1 | 阶段 2 | 阶段 3 |
 | :--- | ---: | ---: | ---: |
-| 船体 | 250,000 | 375,000 | 500,000 |
-| 护盾 | 50,100 | 75,150 | 100,200 |
-| 激光伤害 （每秒一轮齐射） | 200 | 300 | 400 |
-| 火箭伤害 | 5,000 | 7,500 | 10,000 |
-| 速度 | 100 | 100 | 100 |
+| 船体 | {{guide:vitals.hull@Dungeon Pirate}} | {{guide:vitals.hull*1.5@Dungeon Pirate}} | {{guide:vitals.hull*2@Dungeon Pirate}} |
+| 护盾 | {{guide:vitals.shield@Dungeon Pirate}} | {{guide:vitals.shield*1.5@Dungeon Pirate}} | {{guide:vitals.shield*2@Dungeon Pirate}} |
+| 激光伤害 （每秒一轮齐射） | {{guide:vitals.dps@Dungeon Pirate}} | {{guide:vitals.dps*1.5@Dungeon Pirate}} | {{guide:vitals.dps*2@Dungeon Pirate}} |
+| 火箭伤害 | {{guide:behaviour.ability:rocket.damage@Dungeon Pirate}} | {{guide:behaviour.ability:rocket.damage*1.5@Dungeon Pirate}} | {{guide:behaviour.ability:rocket.damage*2@Dungeon Pirate}} |
+| 速度 | {{guide:vitals.speed@Dungeon Pirate}} | {{guide:vitals.speed@Dungeon Pirate}} | {{guide:vitals.speed@Dungeon Pirate}} |
 | 激光射程 | 700 | 700 | 700 |
-| 仇恨范围 | 1,800 | 1,800 | 1,800 |
+| 仇恨范围 | {{guide:vitals.aggro@Dungeon Pirate}} | {{guide:vitals.aggro@Dungeon Pirate}} | {{guide:vitals.aggro@Dungeon Pirate}} |
 | 报酬与掉落，原版的倍数 | ×1 | ×1.5 | ×2 |
-| 每次击毁的信用点 | 145,000 | 217,500 | 290,000 |
-| 每次击毁的Thulium | 725 | 1,088 | 1,450 |
-| 每次击毁的经验值 | 29,000 | 43,500 | 58,000 |
-| 每次击毁的荣誉 | 232 | 348 | 464 |
+| 每次击毁的信用点 | {{guide:spoils.pay.credits@Pirate Boss#1}} | {{guide:spoils.pay.credits*1.5@Pirate Boss#1}} | {{guide:spoils.pay.credits*2@Pirate Boss#1}} |
+| 每次击毁的Thulium | {{guide:spoils.pay.thulium@Pirate Boss#1}} | {{guide:spoils.pay.thulium*1.5@Pirate Boss#1}} | {{guide:spoils.pay.thulium*2@Pirate Boss#1}} |
+| 每次击毁的经验值 | {{guide:spoils.pay.experience@Pirate Boss#1}} | {{guide:spoils.pay.experience*1.5@Pirate Boss#1}} | {{guide:spoils.pay.experience*2@Pirate Boss#1}} |
+| 每次击毁的荣誉 | {{guide:spoils.pay.honor@Pirate Boss#1}} | {{guide:spoils.pay.honor*1.5@Pirate Boss#1}} | {{guide:spoils.pay.honor*2@Pirate Boss#1}} |
 
 ### Dungeon Crystalys
 
@@ -159,17 +159,17 @@
 
 |  | 阶段 1 | 阶段 2 | 阶段 3 |
 | :--- | ---: | ---: | ---: |
-| 船体 | 256,000 | 384,000 | 512,000 |
-| 护盾 | 160,000 | 240,000 | 320,000 |
-| 激光伤害 （每秒一轮齐射） | 10,000 | 15,000 | 20,000 |
-| 速度 | 230 | 230 | 230 |
+| 船体 | {{guide:vitals.hull@Dungeon Crystalys}} | {{guide:vitals.hull*1.5@Dungeon Crystalys}} | {{guide:vitals.hull*2@Dungeon Crystalys}} |
+| 护盾 | {{guide:vitals.shield@Dungeon Crystalys}} | {{guide:vitals.shield*1.5@Dungeon Crystalys}} | {{guide:vitals.shield*2@Dungeon Crystalys}} |
+| 激光伤害 （每秒一轮齐射） | {{guide:vitals.dps@Dungeon Crystalys}} | {{guide:vitals.dps*1.5@Dungeon Crystalys}} | {{guide:vitals.dps*2@Dungeon Crystalys}} |
+| 速度 | {{guide:vitals.speed@Dungeon Crystalys}} | {{guide:vitals.speed@Dungeon Crystalys}} | {{guide:vitals.speed@Dungeon Crystalys}} |
 | 激光射程 | 900 | 900 | 900 |
-| 仇恨范围 | 2,400 | 2,400 | 2,400 |
+| 仇恨范围 | {{guide:vitals.aggro@Dungeon Crystalys}} | {{guide:vitals.aggro@Dungeon Crystalys}} | {{guide:vitals.aggro@Dungeon Crystalys}} |
 | 报酬与掉落，原版的倍数 | ×1 | ×1.5 | ×2 |
-| 每次击毁的信用点 | 75,000 | 112,500 | 150,000 |
-| 每次击毁的Thulium | 200 | 300 | 400 |
-| 每次击毁的经验值 | 12,000 | 18,000 | 24,000 |
-| 每次击毁的荣誉 | 52 | 78 | 104 |
+| 每次击毁的信用点 | {{guide:spoils.pay.credits@Crystalys#1}} | {{guide:spoils.pay.credits*1.5@Crystalys#1}} | {{guide:spoils.pay.credits*2@Crystalys#1}} |
+| 每次击毁的Thulium | {{guide:spoils.pay.thulium@Crystalys#1}} | {{guide:spoils.pay.thulium*1.5@Crystalys#1}} | {{guide:spoils.pay.thulium*2@Crystalys#1}} |
+| 每次击毁的经验值 | {{guide:spoils.pay.experience@Crystalys#1}} | {{guide:spoils.pay.experience*1.5@Crystalys#1}} | {{guide:spoils.pay.experience*2@Crystalys#1}} |
+| 每次击毁的荣誉 | {{guide:spoils.pay.honor@Crystalys#1}} | {{guide:spoils.pay.honor*1.5@Crystalys#1}} | {{guide:spoils.pay.honor*2@Crystalys#1}} |
 
 ### Dungeon Crystalys Twin
 
@@ -179,17 +179,17 @@
 
 |  | 阶段 1 | 阶段 2 | 阶段 3 |
 | :--- | ---: | ---: | ---: |
-| 船体 | 512,000 | 768,000 | 1,024,000 |
-| 护盾 | 320,000 | 480,000 | 640,000 |
-| 激光伤害 （每秒一轮齐射） | 20,000 | 30,000 | 40,000 |
-| 速度 | 230 | 230 | 230 |
+| 船体 | {{guide:vitals.hull@Dungeon Crystalys Twin}} | {{guide:vitals.hull*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.hull*2@Dungeon Crystalys Twin}} |
+| 护盾 | {{guide:vitals.shield@Dungeon Crystalys Twin}} | {{guide:vitals.shield*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.shield*2@Dungeon Crystalys Twin}} |
+| 激光伤害 （每秒一轮齐射） | {{guide:vitals.dps@Dungeon Crystalys Twin}} | {{guide:vitals.dps*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.dps*2@Dungeon Crystalys Twin}} |
+| 速度 | {{guide:vitals.speed@Dungeon Crystalys Twin}} | {{guide:vitals.speed@Dungeon Crystalys Twin}} | {{guide:vitals.speed@Dungeon Crystalys Twin}} |
 | 激光射程 | 900 | 900 | 900 |
-| 仇恨范围 | 2,400 | 2,400 | 2,400 |
+| 仇恨范围 | {{guide:vitals.aggro@Dungeon Crystalys Twin}} | {{guide:vitals.aggro@Dungeon Crystalys Twin}} | {{guide:vitals.aggro@Dungeon Crystalys Twin}} |
 | 报酬与掉落，原版的倍数 | ×2 | ×3 | ×4 |
-| 每次击毁的信用点 | 150,000 | 225,000 | 300,000 |
-| 每次击毁的Thulium | 400 | 600 | 800 |
-| 每次击毁的经验值 | 24,000 | 36,000 | 48,000 |
-| 每次击毁的荣誉 | 104 | 156 | 208 |
+| 每次击毁的信用点 | {{guide:spoils.pay.credits*2@Crystalys#1}} | {{guide:spoils.pay.credits*3@Crystalys#1}} | {{guide:spoils.pay.credits*4@Crystalys#1}} |
+| 每次击毁的Thulium | {{guide:spoils.pay.thulium*2@Crystalys#1}} | {{guide:spoils.pay.thulium*3@Crystalys#1}} | {{guide:spoils.pay.thulium*4@Crystalys#1}} |
+| 每次击毁的经验值 | {{guide:spoils.pay.experience*2@Crystalys#1}} | {{guide:spoils.pay.experience*3@Crystalys#1}} | {{guide:spoils.pay.experience*4@Crystalys#1}} |
+| 每次击毁的荣誉 | {{guide:spoils.pay.honor*2@Crystalys#1}} | {{guide:spoils.pay.honor*3@Crystalys#1}} | {{guide:spoils.pay.honor*4@Crystalys#1}} |
 
 <!-- dungeons-enemies:end -->
 
@@ -205,24 +205,24 @@
 
 |  | 阶段 1 | 阶段 2 | 阶段 3 |
 | :--- | ---: | ---: | ---: |
-| 船体 | 10,000,000 | 15,000,000 | 25,000,000 |
-| 护盾 | 8,000,000 | 12,000,000 | 20,000,000 |
-| 激光伤害 （每秒一轮齐射） | 17,500–22,500 | 对 2 名飞行员各 26,250–33,750 | 对 2 名飞行员各 35,000–45,000 |
-| 速度 | 120 | 120 | 120 |
+| 船体 | {{guide:vitals.hull@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} | {{guide:vitals.hull*2.5@Dungeon Warlord}} |
+| 护盾 | {{guide:vitals.shield@Dungeon Warlord}} | {{guide:vitals.shield*1.5@Dungeon Warlord}} | {{guide:vitals.shield*2.5@Dungeon Warlord}} |
+| 激光伤害 （每秒一轮齐射） | {{guide:vitals.dps*0.875~1.125@Dungeon Warlord}} | 对 2 名飞行员各 {{guide:vitals.dps*1.3125~1.6875@Dungeon Warlord}} | 对 2 名飞行员各 {{guide:vitals.dps*1.75~2.25@Dungeon Warlord}} |
+| 速度 | {{guide:vitals.speed@Dungeon Warlord}} | {{guide:vitals.speed@Dungeon Warlord}} | {{guide:vitals.speed@Dungeon Warlord}} |
 | 激光射程 | 1,100 | 1,100 | 1,100 |
 
 上面的船体和护盾按 5 人小队计。它们随小队人数增长：这是战争领主的船体与护盾之和，取决于地下城开始时小队中的飞行员人数。
 
 | 小队中的飞行员 | 阶段 1 | 阶段 2 | 阶段 3 |
 | :--- | ---: | ---: | ---: |
-| 3 | 10,800,000 | 16,200,000 | 27,000,000 |
-| 4 | 14,400,000 | 21,600,000 | 36,000,000 |
-| 5 | 18,000,000 | 27,000,000 | 45,000,000 |
-| 6 | 21,600,000 | 32,400,000 | 54,000,000 |
-| 7 | 25,200,000 | 37,800,000 | 63,000,000 |
-| 8 | 28,800,000 | 43,200,000 | 72,000,000 |
-| 9 | 32,400,000 | 48,600,000 | 81,000,000 |
-| 10 | 36,000,000 | 54,000,000 | 90,000,000 |
+| 3 | {{guide:vitals.hull*0.6@Dungeon Warlord}} + {{guide:vitals.shield*0.6@Dungeon Warlord}} | {{guide:vitals.hull*0.9@Dungeon Warlord}} + {{guide:vitals.shield*0.9@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} + {{guide:vitals.shield*1.5@Dungeon Warlord}} |
+| 4 | {{guide:vitals.hull*0.8@Dungeon Warlord}} + {{guide:vitals.shield*0.8@Dungeon Warlord}} | {{guide:vitals.hull*1.2@Dungeon Warlord}} + {{guide:vitals.shield*1.2@Dungeon Warlord}} | {{guide:vitals.hull*2@Dungeon Warlord}} + {{guide:vitals.shield*2@Dungeon Warlord}} |
+| 5 | {{guide:vitals.hull@Dungeon Warlord}} + {{guide:vitals.shield@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} + {{guide:vitals.shield*1.5@Dungeon Warlord}} | {{guide:vitals.hull*2.5@Dungeon Warlord}} + {{guide:vitals.shield*2.5@Dungeon Warlord}} |
+| 6 | {{guide:vitals.hull*1.2@Dungeon Warlord}} + {{guide:vitals.shield*1.2@Dungeon Warlord}} | {{guide:vitals.hull*1.8@Dungeon Warlord}} + {{guide:vitals.shield*1.8@Dungeon Warlord}} | {{guide:vitals.hull*3@Dungeon Warlord}} + {{guide:vitals.shield*3@Dungeon Warlord}} |
+| 7 | {{guide:vitals.hull*1.4@Dungeon Warlord}} + {{guide:vitals.shield*1.4@Dungeon Warlord}} | {{guide:vitals.hull*2.1@Dungeon Warlord}} + {{guide:vitals.shield*2.1@Dungeon Warlord}} | {{guide:vitals.hull*3.5@Dungeon Warlord}} + {{guide:vitals.shield*3.5@Dungeon Warlord}} |
+| 8 | {{guide:vitals.hull*1.6@Dungeon Warlord}} + {{guide:vitals.shield*1.6@Dungeon Warlord}} | {{guide:vitals.hull*2.4@Dungeon Warlord}} + {{guide:vitals.shield*2.4@Dungeon Warlord}} | {{guide:vitals.hull*4@Dungeon Warlord}} + {{guide:vitals.shield*4@Dungeon Warlord}} |
+| 9 | {{guide:vitals.hull*1.8@Dungeon Warlord}} + {{guide:vitals.shield*1.8@Dungeon Warlord}} | {{guide:vitals.hull*2.7@Dungeon Warlord}} + {{guide:vitals.shield*2.7@Dungeon Warlord}} | {{guide:vitals.hull*4.5@Dungeon Warlord}} + {{guide:vitals.shield*4.5@Dungeon Warlord}} |
+| 10 | {{guide:vitals.hull*2@Dungeon Warlord}} + {{guide:vitals.shield*2@Dungeon Warlord}} | {{guide:vitals.hull*3@Dungeon Warlord}} + {{guide:vitals.shield*3@Dungeon Warlord}} | {{guide:vitals.hull*5@Dungeon Warlord}} + {{guide:vitals.shield*5@Dungeon Warlord}} |
 
 <!-- dungeons-boss:end -->
 
@@ -241,6 +241,7 @@
 - **虫群支援**是战争领主召唤它的 Goombah。只要它们还活着，战争领主就无法受到伤害，也不会开火或使用其他技能。把它们全部摧毁：横幅会数出还剩多少。如果过了一分钟，战争领主又能受到伤害，剩下的 Goombah 会留下来继续战斗。它们不计入首领房间的开启，也不会支付任何东西。
 - **混沌区域**是地面上围绕战争领主的一个紫色圆环，持续期间它会跟着战争领主走到哪里。圆环里的任何人都无法攻击，不管是激光还是火箭，不过维修、隐形和飞行仍然有效，战争领主和它的外星人照常开火。圆环在生效前片刻出现：离开圆环并待在外面，因为它会跟着战争领主。圆环外的飞行员仍可以开火，只要武器够得着。
 - **幻影之枪**会让战争领主消失一秒。它会在自己房间的另一处回来，并带着三个自己的幻象。幻象存活期间，会用战争领主一半的齐射威力射击它能看到的最近的飞行员，并且每秒治疗战争领主的船体和护盾（具体数字见能力表）。幻象有自己的船体：消灭它们才能停止治疗。它们不会支付任何东西，战争领主倒下时它们会一起消失。幻象存活时，战争领主也可以被消灭。
+- **辐射甜甜圈**会在战争领主开始这项能力时所站位置的周围点亮三个辐射圆环，从战争领主向外依次亮起，两个圆环之间相隔一到两秒。每个圆环在亮起前一刻会显示它的两条边缘，然后持续几秒直接灼烧圈内每一名飞行员的船体（时间和每秒的船体比例见能力表）。一个圆环不会在下一个圆环亮起时熄灭：两个圆环，在较高阶段甚至三个圆环，可以同时灼烧。战争领主周围的空洞、圆环之间的地面和最后一个圆环之外的地面都是安全的：请待在那里，并在圆环亮起前离开圆环。墙挡不住辐射，隐形也无法让飞行员免受辐射；辐射防护会降低剂量。
 
 <!-- dungeons-abilities:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -255,19 +256,34 @@
 | **虫群支援** | 2 秒 | 最多 1 分钟 | 3 分钟 | – | – |
 | **混沌区域** | 2 秒 | 15 秒 | 2 分钟 | 900 | – |
 | **幻影之枪** | 1.5 秒 | 1 秒 | 2 分钟 | – | – |
+| **辐射甜甜圈** | 1 秒 | 最多 8.5 秒 | 75 秒 | 2,150 | – |
 
 | 技能 | 阶段 1 | 阶段 2 | 阶段 3 |
 | :--- | :--- | :--- | :--- |
-| **生命窃取光环** | 每秒 8,000 | 每秒 10,000 | 每秒 12,000 |
-| **陨石坠落** | 每轮 6 颗陨石，每颗 80,000 | 每轮 8 颗陨石，每颗 100,000 | 每轮 10 颗陨石，每颗 120,000 |
-| **集火头号通缉犯** | 对造成伤害最多的飞行员每发额外炮弹 26,250–33,750，每 1 秒 一发 | 对造成伤害最多的飞行员每发额外炮弹 39,375–50,625，每 1 秒 一发 | 对造成伤害最多的飞行员每发额外炮弹 52,500–67,500，每 1 秒 一发 |
-| **火箭齐射** | 每枚火箭 100,000–150,000，射向每名飞行员，每 15 秒 一枚 | 每枚火箭 125,000–187,500，射向每名飞行员，每 15 秒 一枚 | 每枚火箭 150,000–225,000，射向每名飞行员，每 15 秒 一枚 |
-| **护盾吸收** | 每秒 10,000 护盾 | 每秒 12,500 护盾 | 每秒 15,000 护盾 |
+| **生命窃取光环** | 每秒 {{guide:behaviour.ability:lifesteal.drainPerSec@Dungeon Warlord}} | 每秒 {{guide:behaviour.ability:lifesteal.drainPerSec*1.25@Dungeon Warlord}} | 每秒 {{guide:behaviour.ability:lifesteal.drainPerSec*1.5@Dungeon Warlord}} |
+| **陨石坠落** | 每轮 6 颗陨石，每颗 {{guide:behaviour.ability:meteor.damage@Dungeon Warlord}} | 每轮 8 颗陨石，每颗 {{guide:behaviour.ability:meteor.damage*1.25@Dungeon Warlord}} | 每轮 10 颗陨石，每颗 {{guide:behaviour.ability:meteor.damage*1.5@Dungeon Warlord}} |
+| **集火头号通缉犯** | 对造成伤害最多的飞行员每发额外炮弹 {{guide:vitals.dps*1.3125~1.6875@Dungeon Warlord}}，每 1 秒 一发 | 对造成伤害最多的飞行员每发额外炮弹 {{guide:vitals.dps*1.96875~2.53125@Dungeon Warlord}}，每 1 秒 一发 | 对造成伤害最多的飞行员每发额外炮弹 {{guide:vitals.dps*2.625~3.375@Dungeon Warlord}}，每 1 秒 一发 |
+| **火箭齐射** | 每枚火箭 {{guide:behaviour.ability:barrage.damageMin@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage@Dungeon Warlord}}，射向每名飞行员，每 15 秒 一枚 | 每枚火箭 {{guide:behaviour.ability:barrage.damageMin*1.25@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage*1.25@Dungeon Warlord}}，射向每名飞行员，每 15 秒 一枚 | 每枚火箭 {{guide:behaviour.ability:barrage.damageMin*1.5@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage*1.5@Dungeon Warlord}}，射向每名飞行员，每 15 秒 一枚 |
+| **护盾吸收** | 每秒 {{guide:behaviour.ability:absorb.drainPerSec@Dungeon Warlord}} 护盾 | 每秒 {{guide:behaviour.ability:absorb.drainPerSec*1.25@Dungeon Warlord}} 护盾 | 每秒 {{guide:behaviour.ability:absorb.drainPerSec*1.5@Dungeon Warlord}} 护盾 |
 | **虫群支援** | 12 个 Goombah | 18 个 Goombah | 24 个 Goombah |
 | **混沌区域** | 圆环内的飞行员无法攻击 | 圆环内的飞行员无法攻击 | 圆环内的飞行员无法攻击 |
-| **幻影之枪** | 3 个幻象，每个 500,000 船体；每个幻象发射战争领主齐射的 50%，存活期间每秒为战争领主恢复 50,000 船体和 50,000 护盾 | 3 个幻象，每个 500,000 船体；每个幻象发射战争领主齐射的 50%，存活期间每秒为战争领主恢复 50,000 船体和 50,000 护盾 | 3 个幻象，每个 500,000 船体；每个幻象发射战争领主齐射的 50%，存活期间每秒为战争领主恢复 50,000 船体和 50,000 护盾 |
+| **幻影之枪** | 3 个幻象；每个幻象发射战争领主齐射的 50%，存活期间每秒为战争领主恢复 50,000 船体和 50,000 护盾 | 3 个幻象；每个幻象发射战争领主齐射的 50%，存活期间每秒为战争领主恢复 50,000 船体和 50,000 护盾 | 3 个幻象；每个幻象发射战争领主齐射的 50%，存活期间每秒为战争领主恢复 50,000 船体和 50,000 护盾 |
+| **辐射甜甜圈** | 3 个圆环，依次点亮；每个圆环灼烧 2 秒，每秒夺走飞行员船体的 8% | 3 个圆环，依次点亮；每个圆环灼烧 3 秒，每秒夺走飞行员船体的 8% | 3 个圆环，依次点亮；每个圆环灼烧 4.5 秒，每秒夺走飞行员船体的 8% |
 
 <!-- dungeons-abilities:end -->
+
+### 它的三个阶段 {#its-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Warlord 有三个阶段（[运作方式](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)）；每个只发生一次。
+
+- **低于三分之二时**: 它的能力之间的间隔降到 4 秒，等待时间降到 ×0.75。
+- **低于三分之一时**: 间隔降到 2 秒，等待时间降到 ×0.5，伤害升到 ×1.25；它会施放一次免费的 Meteor 齐射，它的 Swarm 回归的间隔绝不短于 120 秒。
+- **每个阶段有一次暂停。** 阶段开始时，Warlord 在 3 秒 内不会受伤。
+
+<!-- mob-ladder:end -->
 
 ## 战利品区域 {#loot-zones}
 
@@ -351,9 +367,9 @@
 
 | 阶段 | 荣誉 | 经验值 | 信用点 | Thulium | x4 弹药 | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE 积分 |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **阶段 1** | 25,000 | 600,000 | 5,000,000 | 8,000 | 4,000 | 5 | 12 | 5 | 850 |
-| **阶段 2** | 50,000 | 1,500,000 | 10,000,000 | 18,000 | 9,000 | 10 | 8 | 6 | 2,000 |
-| **阶段 3** | 100,000 | 2,400,000 | 17,500,000 | 30,000 | 15,000 | 15 | 8 | 7 | 3,400 |
+| **阶段 1** | 25,000 | 600,000 | 5,000,000 | 8,000 | 4,000 | 5 | 24 | 10 | 850 |
+| **阶段 2** | 50,000 | 1,500,000 | 10,000,000 | 18,000 | 9,000 | 10 | 16 | 12 | 2,000 |
+| **阶段 3** | 100,000 | 2,400,000 | 17,500,000 | 30,000 | 15,000 | 15 | 16 | 14 | 3,400 |
 
 - **Heartshard**：本赛季每个阶段首次获得奖励的通关获得1个，之后每次获得奖励的通关有5%的几率再获得1个。
 
@@ -367,7 +383,7 @@
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
 - **一天**：每个阶段每个 UTC 日向飞行员支付一次：以战争领主倒下的那一天为准
-- **一周**：每个 UTC 周（周一至周日），飞行员最多可就 10 次阶段通关获得报酬
+- **一周**：每个 UTC 周（周一至周日），飞行员最多可就 14 次阶段通关获得报酬
 - **地下城内时间**：累计至少 2 分钟
 - **战斗参与**：至少满足其一：对战争领主的船体和护盾造成了 0.1%; 击毁了地下城内的 10 个外星人; 在对战争领主的战斗中为其他飞行员治疗了 50,000
 
@@ -382,8 +398,8 @@
 
 | 每名飞行员的报酬 | 荣誉 | 经验值 | 信用点 | Thulium | x4 弹药 | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE 积分 |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| 一天，每个阶段各一次 | 175,000 | 4,500,000 | 32,500,000 | 56,000 | 28,000 | 30 | 28 | 18 | 6,250 |
-| 最佳的一周：7 × 阶段 3 和 3 × 阶段 2 | 850,000 | 21,300,000 | 152,500,000 | 264,000 | 132,000 | 135 | 80 | 67 | 29,800 |
+| 一天，每个阶段各一次 | 175,000 | 4,500,000 | 32,500,000 | 56,000 | 28,000 | 30 | 56 | 36 | 6,250 |
+| 最佳的一周：7 × 阶段 3 和 7 × 阶段 2 | 1,050,000 | 27,300,000 | 192,500,000 | 336,000 | 168,000 | 175 | 224 | 182 | 37,800 |
 
 获得报酬的通关所得的经验值和荣誉会计入你的 PvE 积分：每 1,000 点经验值得 1 分，每 100 点荣誉也得 1 分。
 
@@ -395,7 +411,7 @@
 
 - **谁获得报酬。** 伤害过该外星人的飞行员，按各自造成的伤害分配，与虫群中的外星人相同：只是擦伤它的飞行员或小队什么也得不到，小队按一个整体获得报酬，小队内部靠近残骸且最近开过火的成员按等级分摊所得。没有伤害过该外星人的飞行员，飞得再近也得不到它的报酬，没有任何飞行员伤害过的外星人不向任何人支付。只有上述规则会支付报酬的飞行员才算在内：已离开、在内时间不够、今天已领过该阶段的报酬，或已用完本周全部付费通关的飞行员，得不到外星人的报酬，他的那一份归其他人。击毁不要求战斗份额：伤害过该外星人就是份额。如果小队中造成伤害最多的成员已被摧毁或不在地图上，则由靠近残骸且最近开过火的成员在没有他的情况下分摊。
 - **支付什么。** 信用点、Thulium、经验和荣誉，每次击毁支付一次。报酬是原版在 Alpha 中支付的数额，在每个世界都一样：地下城没有世界倍率。你的增益、编队和战队加成与任何击毁一样生效，经验也和通关的经验一样计入你的 [PvE 积分](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points)。
-- **战利品。** 按原版的几率抽取，但 Echo Shard 的几率是原版的两倍，然后每个数量都乘以该比值（不足一个单位的小数部分是多掉一个的几率）。它以箱子形式掉在残骸处，先归造成最多伤害的飞行员及其战队，之后地图上的任何人都能拿，再之后就消失。如果造成最多伤害的飞行员所在的[小队](/wiki/03-Mechanics/Groups.md)里有两名或更多飞行员对外星人造成过伤害并且仍在地下城中飞行，战利品就会改为分成[个人货箱](/wiki/03-Mechanics/Cargo.md#personal-crates)，按各自造成的伤害每人一个，每个货箱先只属于它的飞行员，之后地图上的任何人都能拿。没有造成伤害或被上述规则排除在外的小队成员没有货箱。其他小队和单独飞行的飞行员按自己的份额获得报酬，但不会从这批战利品中得到货箱。地图一次只能容纳一定数量的箱子，所以边打边捡；地下城关闭时留在地图上的东西会随之消失。与通关的物品不同，这些是外星人的普通掉落：只要物品可交易，就可以[在拍卖行出售](/wiki/03-Mechanics/Auction.md#marketable-items)。
+- **战利品。** 按原版的几率抽取，但 Echo Shard 的几率是原版的两倍，并且一次掉落两个，然后每个数量都乘以该比值（不足一个单位的小数部分是多掉一个的几率）。它以箱子形式掉在残骸处，先归造成最多伤害的飞行员及其战队，之后地图上的任何人都能拿，再之后就消失。如果造成最多伤害的飞行员所在的[小队](/wiki/03-Mechanics/Groups.md)里有两名或更多飞行员对外星人造成过伤害并且仍在地下城中飞行，战利品就会改为分成[个人货箱](/wiki/03-Mechanics/Cargo.md#personal-crates)，按各自造成的伤害每人一个，每个货箱先只属于它的飞行员，之后地图上的任何人都能拿。没有造成伤害或被上述规则排除在外的小队成员没有货箱。其他小队和单独飞行的飞行员按自己的份额获得报酬，但不会从这批战利品中得到货箱。地图一次只能容纳一定数量的箱子，所以边打边捡；地下城关闭时留在地图上的东西会随之消失。与通关的物品不同，这些是外星人的普通掉落：只要物品可交易，就可以[在拍卖行出售](/wiki/03-Mechanics/Auction.md#marketable-items)。
 - **不支付报酬的。** 战争领主不支付击毁报酬，只支付通关报酬。它召唤的 Goombah 不支付任何报酬，因为只要战斗持续，召唤就会反复出现。
 - **不算游戏中的击毁。** 地下城中的击毁不计入任务、成就、击毁计数、重置点数、击毁的 PvE 积分、无人机或 P.E.T.：Dungeon Goombah 不是游戏中的 Goombah。
 - **限制。** 上面的每日和每周限制对外星人的报酬与对通关报酬一样有效：今天已领过该阶段报酬或已用完本周全部付费通关的飞行员，连它的外星人也得不到报酬，一次击毁的奖池归其他人。未通关的地下城，会向规则会支付报酬的飞行员支付击毁报酬，但不支付通关报酬。

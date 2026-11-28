@@ -1,24 +1,24 @@
-<!-- wiki-i18n source: 75486fd4ebd908e7 -->
+<!-- wiki-i18n source: 4361d40cdb5cc587 -->
 <!-- wiki-i18n title: Crystalys -->
 # Crystalys
 
-Crystalys는 거대한 전함급 외계 존재입니다. 마주치면 극도로 위험하며, 살아남으려면 뛰어난 실드 용량과 화력이 필요합니다. 어그로 반경(900유닛) 안에 들어온 보호받지 않는 파일럿은 모두 쫓아가며, 파일럿이 1,200유닛 넘게 멀어지거나 Crystalys가 추격을 시작한 지점에서 2,000유닛을 날아가면 추적을 멈춥니다(Crystalys에게 사격한 파일럿에게는 2,500유닛과 3,000유닛이며, [전투](/wiki/03-Mechanics/Combat.md) 참고). 최근 10초 안에 자신을 명중시킨 파일럿은 절대 놓아주지 않으며, 그 파일럿이 무기 사거리(900유닛) 밖에 있을 때마다 Crystalys는 그 파일럿을 향해 날아갑니다. 여러 파일럿이 사격하면 Crystalys는 가장 먼저 사격한 파일럿이 계속 명중시키는 동안에는 그 파일럿만 줄곧 상대합니다([외계인이 싸우는 상대](/wiki/03-Mechanics/Combat.md#who-an-alien-fights) 참고). [무리](/wiki/05-Swarms/Swarms.md)의 함선은 별개 종류의 외계인으로, 무리 카테고리에 고유한 문서가 있습니다.
+Crystalys는 거대한 전함급 외계 존재입니다. 마주치면 극도로 위험하며, 살아남으려면 뛰어난 실드 용량과 화력이 필요합니다. 어그로 반경({{guide:vitals.aggro@Crystalys#1;Crystalys#2;Crystalys#3;Crystalys#4}}유닛) 안에 들어온 보호받지 않는 파일럿은 모두 쫓아가며, 파일럿이 1,200유닛 넘게 멀어지거나 Crystalys가 추격을 시작한 지점에서 2,000유닛을 날아가면 추적을 멈춥니다(Crystalys에게 사격한 파일럿에게는 2,500유닛과 3,000유닛이며, [전투](/wiki/03-Mechanics/Combat.md) 참고). 최근 10초 안에 자신을 명중시킨 파일럿은 절대 놓아주지 않으며, 그 파일럿이 무기 사거리(900유닛) 밖에 있을 때마다 Crystalys는 그 파일럿을 향해 날아갑니다. 여러 파일럿이 사격하면 Crystalys는 가장 먼저 사격한 파일럿이 계속 명중시키는 동안에는 그 파일럿만 줄곧 상대합니다([외계인이 싸우는 상대](/wiki/03-Mechanics/Combat.md#who-an-alien-fights) 참고). [무리](/wiki/05-Swarms/Swarms.md)의 함선은 별개 종류의 외계인으로, 무리 카테고리에 고유한 문서가 있습니다.
 
 ## 능력치 {#stats}
 
-- **내구도(HP)**: 256,000
-- **실드**: 160,000
-- **피해량**: 10,000
-- **속도**: 230
+- **내구도(HP)**: {{guide:vitals.hull@Crystalys#1}}
+- **실드**: {{guide:vitals.shield@Crystalys#1}}
+- **피해량**: {{guide:vitals.dps@Crystalys#1}}
+- **속도**: {{guide:vitals.speed@Crystalys#1;Crystalys#2;Crystalys#3;Crystalys#4}}
 - **공격 사거리**: 900
 - **행동 성향**: 공격적
 
 ## 보상 {#rewards}
 
-- **크레딧**: 75,000
-- **Thulium**: 200
-- **경험치(XP)**: 12,000
-- **명예**: 52
+- **크레딧**: {{guide:spoils.pay.credits@Crystalys#1}}
+- **Thulium**: {{guide:spoils.pay.thulium@Crystalys#1}}
+- **경험치(XP)**: {{guide:spoils.pay.experience@Crystalys#1}}
+- **명예**: {{guide:spoils.pay.honor@Crystalys#1}}
 - **처치당 PvE 포인트**: 16
 - **실드 재충전**: 초당 500 (15초 후부터)
 
@@ -28,15 +28,11 @@ Crystalys는 거대한 전함급 외계 존재입니다. 마주치면 극도로 
 
 각 전리품의 용도와 다른 획득처: [자원](/wiki/06-Items/Resources.md).
 
-- **Ship Fragment**:
-  - 확률 100% (최소 5, 최대 5)
-  - 확률 50% (최소 1, 최대 1)
-  - 확률 25% (최소 2, 최대 2)
-- **Cataclysite**: 확률 100% (최소 8, 최대 8)
-- **Quorvium**: 확률 100% (최소 6, 최대 10)
-- **Power Core**: 확률 50% (최소 1, 최대 1)
-- **Ancient Control Unit**: 확률 20% (최소 1, 최대 1)
-- **Echo Shard**: 확률 40% (최소 1, 최대 1)
+- {{guide:spoils.box@Crystalys#1;Crystalys#2;Crystalys#3;Crystalys#4}}
+
+## 특수 능력 {#special-abilities}
+
+이 종류의 외계인 중 일부는 **특수 능력**을 지닙니다. 선체가 절반쯤 사라졌을 때 한 번만 쓰는 기술입니다. 시작되기 전에는 아무것도 보이지 않습니다. [특수 능력](/wiki/03-Mechanics/Special-Abilities.md) 문서에서 각 능력이 무엇을 하는지, 어떻게 대응하는지 알 수 있습니다.
 
 ## 배경 설정 {#lore}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c598c923528fc750 -->
+<!-- wiki-i18n source: 6daa8f85861674ea -->
 <!-- wiki-i18n title: Goombah -->
 # Goombah
 
@@ -6,10 +6,10 @@ A Goombah idegenek félelmetes, cirkáló-osztályú idegen hajók. Nagy a pajzs
 
 ## Értékek {#stats}
 
-- **Életerő (HP)**: 32 000
-- **Pajzs**: 48 000
-- **Sebzés**: 3 000
-- **Sebesség**: 180
+- **Életerő (HP)**: {{guide:vitals.hull@Goombah#1}}
+- **Pajzs**: {{guide:vitals.shield@Goombah#1}}
+- **Sebzés**: {{guide:vitals.dps@Goombah#1}}
+- **Sebesség**: {{guide:vitals.speed@Goombah#1;Goombah#2;Goombah#3;Goombah#4}}
 - **Támadási hatótáv**: 800
 - **Viselkedés**: Passzív
 
@@ -19,15 +19,15 @@ A Goombah idegenek félelmetes, cirkáló-osztályú idegen hajók. Nagy a pajzs
 - **10 másodperccel** azután feladja, hogy valaki utoljára eltalálta, és újra barangol.
 - Amíg egy pilóta folyamatosan találja, arra a pilótára repül, valahányszor az a fegyvere hatótávján (800 egység) kívül van, és tüzel, amint a pilóta hatótávon belülre ér: nincs olyan hely, ahonnan egy 850 vagy 900 egység hatótávú lézer büntetlenül eltalálhatná. Azt a pilótát, aki 10 másodperce nem találta el, elengedi, ha több mint **2 500 egységre** van tőle (a pilóta az elmúlt percben rálőtt), vagy ha **3 000 egységet** repült az üldözés kezdőpontjától, és 8 másodpercig nem megy újra utána, kivéve ha a pilóta még egyszer rálő (lásd [Harc](/wiki/03-Mechanics/Combat.md)).
 - Ha **30 másodpercig** békén hagyják, a hajóteste javulni kezd: másodpercenként a maximumának 2%-ával (a teljes hajótest nagyjából 50 másodperc alatt telik meg). A pajzsa úgy töltődik, mint minden idegené: az utolsó találat után 15 másodperccel kezdődik. A messziről megtámadott, majd magára hagyott Goombah ezért nem marad ott, hogy a következő pilóta végezzen vele.
-- Senkivel nem harcol, aki nem találta el, és sosem hív maga mellé másik idegent.
+- Senkivel nem harcol, aki nem találta el.
 - A [vállalati pilóták](/wiki/03-Mechanics/Company-Pilots.md) kimaradnak a Goombah elleni harcból: nem tudnák megnyerni.
 
 ## Jutalmak {#rewards}
 
-- **Kredit**: 15 000
-- **Thulium**: 75
-- **Tapasztalat (XP)**: 3 000
-- **Becsület**: 24
+- **Kredit**: {{guide:spoils.pay.credits@Goombah#1}}
+- **Thulium**: {{guide:spoils.pay.thulium@Goombah#1}}
+- **Tapasztalat (XP)**: {{guide:spoils.pay.experience@Goombah#1}}
+- **Becsület**: {{guide:spoils.pay.honor@Goombah#1}}
 - **PvE-pont kilövésenként**: 7
 - **Pajzstöltődés**: másodpercenként 100 (15 mp késleltetés)
 
@@ -37,14 +37,11 @@ Egy [rakományláda](/wiki/03-Mechanics/Cargo.md) marad belőle ott, ahol felrob
 
 Hogy melyik zsákmány mire jó, és hol található még: [Nyersanyagok](/wiki/06-Items/Resources.md).
 
-- **Ship Fragment**:
-  - 100% esély (min. 3, max. 3)
-  - 25% esély (min. 1, max. 1)
-- **Cataclysite**: 100% esély (min. 4, max. 4)
-- **Quorvium**: 100% esély (min. 2, max. 4)
-- **Reinforced Hull Plate**: 60% esély (min. 1, max. 1)
-- **Power Core**: 25% esély (min. 1, max. 1)
-- **Echo Shard**: 10% esély (min. 1, max. 1)
+- {{guide:spoils.box@Goombah#1;Goombah#2;Goombah#3;Goombah#4}}
+
+## Különleges képességek {#special-abilities}
+
+Az ilyen idegenek közül néhány **különleges képességet** hordoz: valamit, amit egyszer tesz meg, amikor a hajóteste félig elfogyott. Előtte semmi sem látszik. A [Különleges képességek](/wiki/03-Mechanics/Special-Abilities.md) oldal elmondja, mit tesz az egyes képesség, és hogyan felelhetsz rá.
 
 ## Háttértörténet {#lore}
 

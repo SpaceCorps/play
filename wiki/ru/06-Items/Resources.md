@@ -20,10 +20,10 @@
 
 | Материал | Редкость | Откуда | Куда идёт |
 | :--- | :--- | :--- | :--- |
-| [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) | Обычный | Crystalys, Goombah, Bulwark, Phantasm, Seeker, астероиды, особые миссии | Master Drone, Quantum Laser III, Starfire-III, Paragon, Wraith, Laser Damage Booster II, Shield Wall Booster II, Hull Plating Booster II, Impulse Thruster IV, Ironclad, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, Energetic Wall II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Mine II, Mine III, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Miyuki, Miyuki II, Miyuki III, Miyuki IV, Miyuki V, Lancet II, Lancet III, Rivet II, Rivet III, Ember II, Ember III, Scatter II, Scatter III, N.U.K.E., N.I.K.E., Freeze Rocket, EMP Rocket, Shield Breaker, Toxic Rocket, Marking Rocket, Cooldown Rocket, Support Rocket, Кузница, Постройки Skylab, Исследовательский центр |
+| [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) | Обычный | Crystalys, Goombah, Bulwark, Phantasm, Seeker, астероиды, особые миссии | Master Drone, Quantum Laser III, Starfire-III, Paragon, Wraith, Laser Damage Booster II, Shield Wall Booster II, Hull Plating Booster II, Impulse Thruster IV, Ironclad, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, Energetic Wall II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Mine II, Mine III, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Miyuki, Miyuki II, Miyuki III, Miyuki IV, Miyuki V, Organic Scanner I, Lancet II, Lancet III, Rivet II, Rivet III, Ember II, Ember III, Scatter II, Scatter III, N.U.K.E., N.I.K.E., Freeze Rocket, EMP Rocket, Shield Breaker, Toxic Rocket, Marking Rocket, Cooldown Rocket, Support Rocket, Кузница, Постройки Skylab, Исследовательский центр |
 | [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) | Обычный | Goombah, Bulwark, астероиды, миссии | Starfire-III, Helios Beam, Paragon, Wraith, Absorption Shield Cell IV, Ironclad, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Storm, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Hull Plating II, Hull Plating III, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Mine III, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Miyuki, Miyuki II, Miyuki III, Miyuki IV, Miyuki V, Lancet III, Rivet III, Ember III, Scatter III, N.U.K.E., N.I.K.E., Shield Breaker, Кузница, Исследовательский центр |
-| [Power Core](/wiki/06-Items/Resources.md#power-core) | Необычный | Crystalys, Goombah, астероиды, миссии | Helios Beam, Paragon, Wraith, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Ironclad, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell III, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp III, Crit Amp III, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, Energetic Wall II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Mine II, Mine III, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Miyuki, Miyuki II, Miyuki III, Miyuki IV, Miyuki V, N.U.K.E., Freeze Rocket, EMP Rocket, Cooldown Rocket, Gravitational N.U.K.E., Support Rocket, Кузница, Исследовательский центр |
-| [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | Редкий | Crystalys, миссии | Master Drone, Helios Beam, Wraith, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Ironclad, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Storm, Extra Slots CPU III, Jump CPU, Base CPU II, Gemini Formation, Stiletto Formation, Rampart Formation, Penetration Amp IV, Hull Plating III, Adaptive Core III, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Laser Optics IV, Laser Optics V, Miyuki, Miyuki III, Miyuki IV, Miyuki V, Cooldown Rocket, Gravitational N.U.K.E., Исследовательский центр |
+| [Power Core](/wiki/06-Items/Resources.md#power-core) | Необычный | Crystalys, Goombah, астероиды, миссии | Helios Beam, Paragon, Wraith, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Ironclad, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell III, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp III, Crit Amp III, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, Energetic Wall II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Mine II, Mine III, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Miyuki, Miyuki II, Miyuki III, Miyuki IV, Miyuki V, Organic Scanner I, N.U.K.E., Freeze Rocket, EMP Rocket, Cooldown Rocket, Gravitational N.U.K.E., Support Rocket, Кузница, Исследовательский центр |
+| [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | Редкий | Crystalys, миссии | Master Drone, Helios Beam, Wraith, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Ironclad, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Storm, Extra Slots CPU III, Jump CPU, Base CPU II, Gemini Formation, Stiletto Formation, Rampart Formation, Penetration Amp IV, Hull Plating III, Adaptive Core III, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Laser Optics IV, Laser Optics V, Miyuki, Miyuki III, Miyuki IV, Miyuki V, Organic Scanner I, Cooldown Rocket, Gravitational N.U.K.E., Исследовательский центр |
 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) | Обычный | Phantasm, Seeker, астероиды | Penetration Amp II, Rivet II, Rivet III, Marking Rocket, Кузница, Исследовательский центр |
 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) | Обычный | Phantasm, Bulwark, астероиды | Penetration Amp III, Lancet II, Lancet III, Toxic Rocket, Marking Rocket, Support Rocket, Кузница, Исследовательский центр |
 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | Обычный | Crystalys, Goombah, Bulwark, астероиды, гигантский экскаватор, миссии | Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, Ultra Core, Experimental Fusion Core, Dark Matter Ammo I, Ember II, Ember III, N.U.K.E., N.I.K.E., Freeze Rocket, Shield Breaker, Кузница, Исследовательский центр |
@@ -31,15 +31,24 @@
 | [Velkonite](/wiki/06-Items/Resources.md#velkonite) | Необычный | гигантский экскаватор, Сборщик Skylab | Кузница Skylab, Исследовательский центр |
 | [Orvium](/wiki/06-Items/Resources.md#orvium) | Редкий | гигантский экскаватор, Сборщик Skylab | Кузница Skylab, Исследовательский центр |
 | [Velkonite Reinforced Plate](/wiki/06-Items/Resources.md#velkonite-reinforced-plate) | Редкий | миссии, Кузница Skylab | Master Drone, Quantum Laser III, Starfire-III, Dark Matter Plate, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Extra Slots CPU I, Extra Slots CPU II, Jump CPU, Base CPU I, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Engine II, Adaptive Core II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Ultra Core, Experimental Fusion Core, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V |
-| [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | Эпический | миссии, Кузница Skylab | Master Drone, Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation, P.E.T. Station II, P.E.T. Station III, Experimental Fusion Core, Laser Optics III, Laser Optics IV, Laser Optics V, Колыбель P.E.T. |
-| [Dark Matter](/wiki/06-Items/Resources.md#dark-matter) | Эпический | чёрная дыра (проглоченная N.I.K.E.) | Dark Matter Plate, Antimatter Battery II, Dark Matter Ammo I, Dark Matter Ammo II, Исследовательский центр |
-| [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | Мифический | Сборочный цех | Master Drone, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Extra Slots CPU III, Base CPU II, Penetration Amp IV, Hull Plating II, Hull Plating III, Adaptive Core III, Miyuki II, Miyuki III, Miyuki IV, Miyuki V, Кузница |
+| [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | Эпический | миссии, Кузница Skylab | Master Drone, Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation, P.E.T. Station II, P.E.T. Station III, Experimental Fusion Core, Laser Optics III, Laser Optics IV, Laser Optics V, Organic Scanner I, Колыбель P.E.T. |
+| [Dark Matter](/wiki/06-Items/Resources.md#dark-matter) | Эпический | миссии, чёрная дыра (проглоченная N.I.K.E.) | Dark Matter Plate, Antimatter Battery II, Dark Matter Ammo I, Dark Matter Ammo II, Исследовательский центр |
+| [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | Мифический | миссии, Сборочный цех | Master Drone, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Extra Slots CPU III, Base CPU II, Penetration Amp IV, Hull Plating II, Hull Plating III, Adaptive Core III, Miyuki II, Miyuki III, Miyuki IV, Miyuki V, Кузница |
 | [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | Эпический | астероиды, особые миссии | Колыбель P.E.T. |
 | [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | Мифический | астероиды, особые миссии | Колыбель P.E.T. |
 | [Legendary Cluster Chunk](/wiki/06-Items/Resources.md#legendary-cluster-chunk) | Легендарный | астероиды | Колыбель P.E.T. |
 | [Echo Shard](/wiki/06-Items/Resources.md#echo-shard) | Необычный | Crystalys, Goombah, Bulwark, Phantasm, Seeker, одиночные врата, подземелья кланов | гнёзда Кузницы |
 | [Lattice Shard](/wiki/06-Items/Resources.md#lattice-shard) | Редкий | одиночные врата, подземелья кланов | гнёзда Кузницы |
 | [Heartshard](/wiki/06-Items/Resources.md#heartshard) | Эпический | одиночные врата, подземелья кланов, редкие NPC | гнёзда Кузницы |
+| [Lurker Fang](/wiki/06-Items/Resources.md#lurker-fang) | Редкий | Lurker | Organic Scanner II |
+| [Angler Lure](/wiki/06-Items/Resources.md#angler-lure) | Редкий | Angler | Organic Scanner II |
+| [Leviathan Scale](/wiki/06-Items/Resources.md#leviathan-scale) | Эпический | The Leviathan | Organic Scanner II |
+| [Revenant Ash](/wiki/06-Items/Resources.md#revenant-ash) | Редкий | Revenant | – |
+| [Mite Swarm Core](/wiki/06-Items/Resources.md#mite-swarm-core) | Эпический | Void Mite | – |
+| [Shade Mask](/wiki/06-Items/Resources.md#shade-mask) | Редкий | Shade | – |
+| [Flagship Log](/wiki/06-Items/Resources.md#flagship-log) | Эпический | The Drowned Flagship | – |
+| [Listener Shard](/wiki/06-Items/Resources.md#listener-shard) | Эпический | The Listener | – |
+| [Void Coordinates](/wiki/06-Items/Resources.md#void-coordinates) | Эпический | The Listener | – |
 
 ## Материалы {#materials}
 
@@ -51,11 +60,11 @@
 
 | Пришелец | Секторы | Добыча | За убийство, в среднем |
 | :--- | :---: | :--- | --: |
-| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 100%: 5; 50%: 1; 25%: 2 | 6 |
-| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 100%: 3; 25%: 1 | 3,25 |
-| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 100%: 2 | 2 |
-| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 100%: 1 | 1 |
-| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 20%: 1 | 0,2 |
+| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | {{guide:spoils.box.drops=Ship Fragment@Crystalys#1;Crystalys#2;Crystalys#3;Crystalys#4}} | {{guide:spoils.box.average=Ship Fragment@Crystalys#1;Crystalys#2;Crystalys#3;Crystalys#4}} |
+| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | {{guide:spoils.box.drops=Ship Fragment@Goombah#1;Goombah#2;Goombah#3;Goombah#4}} | {{guide:spoils.box.average=Ship Fragment@Goombah#1;Goombah#2;Goombah#3;Goombah#4}} |
+| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | {{guide:spoils.box.drops=Ship Fragment@Bulwark#1;Bulwark#2;Bulwark#3;Bulwark#4}} | {{guide:spoils.box.average=Ship Fragment@Bulwark#1;Bulwark#2;Bulwark#3;Bulwark#4}} |
+| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | {{guide:spoils.box.drops=Ship Fragment@Phantasm#1;Phantasm#2;Phantasm#3;Phantasm#4}} | {{guide:spoils.box.average=Ship Fragment@Phantasm#1;Phantasm#2;Phantasm#3;Phantasm#4}} |
+| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | {{guide:spoils.box.drops=Ship Fragment@Seeker#1;Seeker#2;Seeker#3;Seeker#4}} | {{guide:spoils.box.average=Ship Fragment@Seeker#1;Seeker#2;Seeker#3;Seeker#4}} |
 
 - **Астероиды**: лежит в обломках: Cache Pod, Scrap Hulk, Plateback, Derelict Hulk, Anvil, Derelict Cruiser (количество — в разделе «Виды» на странице [Добыча на астероидах](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds)).
 - **Миссии**: Истребление Phantasm (особая миссия уровня 2) 5; Разрушитель роя (особая миссия уровня 3) 10; Очистка роя (особая миссия уровня 4) 10; Железный прилив (особая миссия уровня 5) 15; Колосс (особая миссия уровня 6) 15; Осада Goombah (особая миссия уровня 7) 20; Командование фронта (особая миссия уровня 8) 25.
@@ -139,6 +148,7 @@
 - [Miyuki III](/wiki/02-Ships/Miyuki.md): **120** (с 1 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki II, 6 Power Core, 10 Reinforced Hull Plate, 35 000 Thulium)
 - [Miyuki IV](/wiki/02-Ships/Miyuki.md): **180** (с 2 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki III, 9 Power Core, 18 Reinforced Hull Plate, 50 000 Thulium)
 - [Miyuki V](/wiki/02-Ships/Miyuki.md): **240** (с 3 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki IV, 12 Power Core, 25 Reinforced Hull Plate, 75 000 Thulium)
+- Organic Scanner I: **60** (с 1 Ancient Control Unit, 5 Orvium Reinforced Plate, 2 Power Core, 20 000 кредитов, 10 000 Thulium)
 - [Lancet II](/wiki/06-Items/Rockets.md) (создаёт 100): **5** (с 100 Lancet I, 10 Nyxite, 50 000 кредитов, 200 Thulium)
 - [Lancet III](/wiki/06-Items/Rockets.md) (создаёт 100): **15** (с 100 Lancet II, 20 Nyxite, 2 Reinforced Hull Plate, 150 000 кредитов, 800 Thulium)
 - [Rivet II](/wiki/06-Items/Rockets.md) (создаёт 100): **5** (с 10 Daraxium, 100 Rivet I, 50 000 кредитов, 200 Thulium)
@@ -164,7 +174,7 @@
 - [Skylab](/wiki/03-Mechanics/Skylab.md), постройка модуля: **25** на каждый из них — Модуль обороны, Исследовательский центр (из вашего инвентаря, не из транспортного тайника)
 - [Исследовательский центр](/wiki/03-Mechanics/Research.md#fuel), топливо: **5** науки за единицу
 
-**Как добыть**: убивайте [Crystalys](/wiki/04-Aliens/Crystalys.md) (сектор 4): в среднем 6 за убийство; ближайший источник — [Seeker](/wiki/04-Aliens/Seeker.md) (сектор 1), 0,2 за убийство.
+**Как добыть**: убивайте [Crystalys](/wiki/04-Aliens/Crystalys.md) (сектор 4): в среднем {{guide:spoils.box.average=Ship Fragment@Crystalys#1;Crystalys#2;Crystalys#3;Crystalys#4}} за убийство; ближайший источник — [Seeker](/wiki/04-Aliens/Seeker.md) (сектор 1), {{guide:spoils.box.average=Ship Fragment@Seeker#1;Seeker#2;Seeker#3;Seeker#4}} за убийство.
 
 ### Reinforced Hull Plate
 
@@ -174,8 +184,8 @@
 
 | Пришелец | Секторы | Добыча | За убийство, в среднем |
 | :--- | :---: | :--- | --: |
-| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 60%: 1 | 0,6 |
-| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 30%: 1 | 0,3 |
+| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | {{guide:spoils.box.drops=Reinforced Hull Plate@Goombah#1;Goombah#2;Goombah#3;Goombah#4}} | {{guide:spoils.box.average=Reinforced Hull Plate@Goombah#1;Goombah#2;Goombah#3;Goombah#4}} |
+| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | {{guide:spoils.box.drops=Reinforced Hull Plate@Bulwark#1;Bulwark#2;Bulwark#3;Bulwark#4}} | {{guide:spoils.box.average=Reinforced Hull Plate@Bulwark#1;Bulwark#2;Bulwark#3;Bulwark#4}} |
 
 - **Астероиды**: лежит в обломках: Dark Chondrite, Ironhide, Vein Rock, Nyx Geode, Scrap Hulk, Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode, Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode (количество — в разделе «Виды» на странице [Добыча на астероидах](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds)).
 - **Миссии**: Очистка роя (особая миссия уровня 4) 2; Железный прилив (особая миссия уровня 5) 3; Колосс (особая миссия уровня 6) 3; Осада Goombah (особая миссия уровня 7) 5; Море Bulwark (Испытание) 226; Потоп Phantasm (Испытание) 129; Океан Phantasm (Испытание) 162; Прилив Phantasm (Испытание) 20; Десять тысяч Phantasm (Испытание) 280.
@@ -245,7 +255,7 @@
 - [Кузница](/wiki/06-Items/Forge.md), Резонирующий → Сияющий: **23** (с 140 Cataclysite, 2 Dark Matter Plate, 267 000 кредитов)
 - [Исследовательский центр](/wiki/03-Mechanics/Research.md#fuel), топливо: **33** науки за единицу
 
-**Как добыть**: убивайте [Goombah](/wiki/04-Aliens/Goombah.md) (секторы 3, 4): в среднем 0,6 за убийство.
+**Как добыть**: убивайте [Goombah](/wiki/04-Aliens/Goombah.md) (секторы 3, 4): в среднем {{guide:spoils.box.average=Reinforced Hull Plate@Goombah#1;Goombah#2;Goombah#3;Goombah#4}} за убийство.
 
 ### Power Core
 
@@ -255,8 +265,8 @@
 
 | Пришелец | Секторы | Добыча | За убийство, в среднем |
 | :--- | :---: | :--- | --: |
-| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 50%: 1 | 0,5 |
-| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 25%: 1 | 0,25 |
+| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | {{guide:spoils.box.drops=Power Core@Crystalys#1;Crystalys#2;Crystalys#3;Crystalys#4}} | {{guide:spoils.box.average=Power Core@Crystalys#1;Crystalys#2;Crystalys#3;Crystalys#4}} |
+| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | {{guide:spoils.box.drops=Power Core@Goombah#1;Goombah#2;Goombah#3;Goombah#4}} | {{guide:spoils.box.average=Power Core@Goombah#1;Goombah#2;Goombah#3;Goombah#4}} |
 
 - **Астероиды**: лежит в обломках: Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode, Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode (количество — в разделе «Виды» на странице [Добыча на астероидах](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds)).
 - **Миссии**: Железный прилив (особая миссия уровня 5) 1; Колосс (особая миссия уровня 6) 1; Осада Goombah (особая миссия уровня 7) 2; Командование фронта (особая миссия уровня 8) 1; Язва Bulwark (Испытание) 81; Легион Goombah (Испытание) 106; Разгром Goombah (Испытание) 96; Охота на рой (Испытание) 4; Охота на рой II (Испытание) 30; Охота на разведчиков (Испытание) 4; Мор Seeker (Испытание) 47; Чума Seeker (Испытание) 6; Десять тысяч Seeker (Испытание) 43; Без единой царапины III (Испытание) 12.
@@ -336,6 +346,7 @@
 - [Miyuki III](/wiki/02-Ships/Miyuki.md): **6** (с 1 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki II, 10 Reinforced Hull Plate, 120 Ship Fragment, 35 000 Thulium)
 - [Miyuki IV](/wiki/02-Ships/Miyuki.md): **9** (с 2 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki III, 18 Reinforced Hull Plate, 180 Ship Fragment, 50 000 Thulium)
 - [Miyuki V](/wiki/02-Ships/Miyuki.md): **12** (с 3 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki IV, 25 Reinforced Hull Plate, 240 Ship Fragment, 75 000 Thulium)
+- Organic Scanner I: **2** (с 1 Ancient Control Unit, 5 Orvium Reinforced Plate, 60 Ship Fragment, 20 000 кредитов, 10 000 Thulium)
 - [N.U.K.E.](/wiki/06-Items/Rockets.md): **4** (с 80 Cataclysite, 10 Reinforced Hull Plate, 6 Scatter III, 40 Ship Fragment, 150 000 кредитов, 3 000 Thulium)
 - [Freeze Rocket](/wiki/06-Items/Rockets.md) (создаёт 5): **1** (с 30 Cataclysite, 10 Ship Fragment, 50 000 кредитов, 1 000 Thulium)
 - [EMP Rocket](/wiki/06-Items/Rockets.md) (создаёт 5): **2** (с 20 Quorvium, 10 Ship Fragment, 60 000 кредитов, 1 200 Thulium)
@@ -345,7 +356,7 @@
 - [Кузница](/wiki/06-Items/Forge.md), Сияющий → Вознесённый: **11** (с 320 Quorvium, 2 Dark Matter Plate, 833 000 кредитов, 2 667 Thulium)
 - [Исследовательский центр](/wiki/03-Mechanics/Research.md#fuel), топливо: **100** науки за единицу
 
-**Как добыть**: убивайте [Crystalys](/wiki/04-Aliens/Crystalys.md) (сектор 4): в среднем 0,5 за убийство; ближайший источник — [Goombah](/wiki/04-Aliens/Goombah.md) (сектор 3), 0,25 за убийство.
+**Как добыть**: убивайте [Crystalys](/wiki/04-Aliens/Crystalys.md) (сектор 4): в среднем {{guide:spoils.box.average=Power Core@Crystalys#1;Crystalys#2;Crystalys#3;Crystalys#4}} за убийство; ближайший источник — [Goombah](/wiki/04-Aliens/Goombah.md) (сектор 3), {{guide:spoils.box.average=Power Core@Goombah#1;Goombah#2;Goombah#3;Goombah#4}} за убийство.
 
 ### Ancient Control Unit
 
@@ -355,7 +366,7 @@
 
 | Пришелец | Секторы | Добыча | За убийство, в среднем |
 | :--- | :---: | :--- | --: |
-| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 20%: 1 | 0,2 |
+| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | {{guide:spoils.box.drops=Ancient Control Unit@Crystalys#1;Crystalys#2;Crystalys#3;Crystalys#4}} | {{guide:spoils.box.average=Ancient Control Unit@Crystalys#1;Crystalys#2;Crystalys#3;Crystalys#4}} |
 
 - **Миссии**: Командование фронта (особая миссия уровня 8) 1; Конвой бездны (Испытание) 2; Стена Bulwark (Испытание) 2; Конвой III (Испытание) 1; Нулевой конвой (Испытание) 3; Власть Dormant (Испытание) 3; Закат Dormant (Испытание) 2; Погибель пиратов (Испытание) 1; Расплата с пиратами (Испытание) 1; Трон пиратов (Испытание) 1; Без единой царапины (Испытание) 1; Без единой царапины II (Испытание) 1.
 - **Помимо этого**: в магазине не продаётся.
@@ -396,11 +407,12 @@
 - [Miyuki III](/wiki/02-Ships/Miyuki.md): **1** (с 8 Dark Matter Plate, 1 Miyuki II, 6 Power Core, 10 Reinforced Hull Plate, 120 Ship Fragment, 35 000 Thulium)
 - [Miyuki IV](/wiki/02-Ships/Miyuki.md): **2** (с 8 Dark Matter Plate, 1 Miyuki III, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 50 000 Thulium)
 - [Miyuki V](/wiki/02-Ships/Miyuki.md): **3** (с 8 Dark Matter Plate, 1 Miyuki IV, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 75 000 Thulium)
+- Organic Scanner I: **1** (с 5 Orvium Reinforced Plate, 2 Power Core, 60 Ship Fragment, 20 000 кредитов, 10 000 Thulium)
 - [Cooldown Rocket](/wiki/06-Items/Rockets.md) (создаёт 3): **1** (с 3 Power Core, 40 Quorvium, 20 Ship Fragment, 100 000 кредитов, 2 500 Thulium)
 - [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md): **2** (с 1 N.U.K.E., 4 Power Core, 40 Quorvium, 150 000 кредитов, 3 000 Thulium)
 - [Исследовательский центр](/wiki/03-Mechanics/Research.md#fuel), топливо: **650** науки за единицу
 
-**Как добыть**: убивайте [Crystalys](/wiki/04-Aliens/Crystalys.md) (сектор 4): в среднем 0,2 за убийство.
+**Как добыть**: убивайте [Crystalys](/wiki/04-Aliens/Crystalys.md) (сектор 4): в среднем {{guide:spoils.box.average=Ancient Control Unit@Crystalys#1;Crystalys#2;Crystalys#3;Crystalys#4}} за убийство.
 
 ### Daraxium
 
@@ -410,8 +422,8 @@
 
 | Пришелец | Секторы | Добыча | За убийство, в среднем |
 | :--- | :---: | :--- | --: |
-| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 60%: от 1 до 2 | 0,9 |
-| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 50%: от 1 до 2 | 0,75 |
+| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | {{guide:spoils.box.drops=Daraxium@Phantasm#1;Phantasm#2;Phantasm#3;Phantasm#4}} | {{guide:spoils.box.average=Daraxium@Phantasm#1;Phantasm#2;Phantasm#3;Phantasm#4}} |
+| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | {{guide:spoils.box.drops=Daraxium@Seeker#1;Seeker#2;Seeker#3;Seeker#4}} | {{guide:spoils.box.average=Daraxium@Seeker#1;Seeker#2;Seeker#3;Seeker#4}} |
 
 - **Астероиды**: лежит в обломках: Pebble, Cobble, Glimmer, Rime, Cache Pod, Dark Chondrite, Ironhide, Vein Rock, Nyx Geode, Scrap Hulk (количество — в разделе «Виды» на странице [Добыча на астероидах](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds)).
 - **Помимо этого**: в магазине не продаётся.
@@ -425,7 +437,7 @@
 - [Кузница](/wiki/06-Items/Forge.md), Стандартный → Пробуждённый: **15** (с 5 Ship Fragment, 10 000 кредитов)
 - [Исследовательский центр](/wiki/03-Mechanics/Research.md#fuel), топливо: **7** науки за единицу
 
-**Как добыть**: убивайте [Phantasm](/wiki/04-Aliens/Phantasm.md) (секторы 2, 3): в среднем 0,9 за убийство; ближайший источник — [Seeker](/wiki/04-Aliens/Seeker.md) (сектор 1), 0,75 за убийство.
+**Как добыть**: убивайте [Phantasm](/wiki/04-Aliens/Phantasm.md) (секторы 2, 3): в среднем {{guide:spoils.box.average=Daraxium@Phantasm#1;Phantasm#2;Phantasm#3;Phantasm#4}} за убийство; ближайший источник — [Seeker](/wiki/04-Aliens/Seeker.md) (сектор 1), {{guide:spoils.box.average=Daraxium@Seeker#1;Seeker#2;Seeker#3;Seeker#4}} за убийство.
 
 ### Nyxite
 
@@ -435,8 +447,8 @@
 
 | Пришелец | Секторы | Добыча | За убийство, в среднем |
 | :--- | :---: | :--- | --: |
-| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 60%: от 1 до 2 | 0,9 |
-| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 40%: от 1 до 2 | 0,6 |
+| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | {{guide:spoils.box.drops=Nyxite@Phantasm#1;Phantasm#2;Phantasm#3;Phantasm#4}} | {{guide:spoils.box.average=Nyxite@Phantasm#1;Phantasm#2;Phantasm#3;Phantasm#4}} |
+| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | {{guide:spoils.box.drops=Nyxite@Bulwark#1;Bulwark#2;Bulwark#3;Bulwark#4}} | {{guide:spoils.box.average=Nyxite@Bulwark#1;Bulwark#2;Bulwark#3;Bulwark#4}} |
 
 - **Астероиды**: лежит в обломках: Dark Chondrite, Ironhide, Vein Rock, Nyx Geode, Scrap Hulk, Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode (количество — в разделе «Виды» на странице [Добыча на астероидах](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds)).
 - **Помимо этого**: в магазине не продаётся.
@@ -452,7 +464,7 @@
 - [Кузница](/wiki/06-Items/Forge.md), Пробуждённый → Резонирующий: **48** (с 32 Ship Fragment, 56 000 кредитов)
 - [Исследовательский центр](/wiki/03-Mechanics/Research.md#fuel), топливо: **7** науки за единицу
 
-**Как добыть**: убивайте [Phantasm](/wiki/04-Aliens/Phantasm.md) (секторы 2, 3): в среднем 0,9 за убийство.
+**Как добыть**: убивайте [Phantasm](/wiki/04-Aliens/Phantasm.md) (секторы 2, 3): в среднем {{guide:spoils.box.average=Nyxite@Phantasm#1;Phantasm#2;Phantasm#3;Phantasm#4}} за убийство.
 
 ### Cataclysite
 
@@ -462,9 +474,9 @@
 
 | Пришелец | Секторы | Добыча | За убийство, в среднем |
 | :--- | :---: | :--- | --: |
-| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 100%: 8 | 8 |
-| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 100%: 4 | 4 |
-| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 100%: 2 | 2 |
+| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | {{guide:spoils.box.drops=Cataclysite@Crystalys#1;Crystalys#2;Crystalys#3;Crystalys#4}} | {{guide:spoils.box.average=Cataclysite@Crystalys#1;Crystalys#2;Crystalys#3;Crystalys#4}} |
+| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | {{guide:spoils.box.drops=Cataclysite@Goombah#1;Goombah#2;Goombah#3;Goombah#4}} | {{guide:spoils.box.average=Cataclysite@Goombah#1;Goombah#2;Goombah#3;Goombah#4}} |
+| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | {{guide:spoils.box.drops=Cataclysite@Bulwark#1;Bulwark#2;Bulwark#3;Bulwark#4}} | {{guide:spoils.box.average=Cataclysite@Bulwark#1;Bulwark#2;Bulwark#3;Bulwark#4}} |
 
 - **Астероиды**: лежит в обломках: Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode, Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode (количество — в разделе «Виды» на странице [Добыча на астероидах](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds)).
 - **[Гигантский экскаватор](/wiki/03-Mechanics/Giant-Excavator.md)**: с 11-го дня сезона (в Бете и Гамме — с 1-го дня) полный запуск выдаёт в Альфе 2 314 ед. (в Бете и Гамме больше) в контейнерах, которые может взять любой; что он добывает, выбирают на пульте управления.
@@ -502,7 +514,7 @@
 - [Кузница](/wiki/06-Items/Forge.md), Резонирующий → Сияющий: **140** (с 23 Reinforced Hull Plate, 2 Dark Matter Plate, 267 000 кредитов)
 - [Исследовательский центр](/wiki/03-Mechanics/Research.md#fuel), топливо: **5** науки за единицу
 
-**Как добыть**: убивайте [Crystalys](/wiki/04-Aliens/Crystalys.md) (сектор 4): в среднем 8 за убийство; ближайший источник — [Goombah](/wiki/04-Aliens/Goombah.md) (сектор 3), 4 за убийство.
+**Как добыть**: убивайте [Crystalys](/wiki/04-Aliens/Crystalys.md) (сектор 4): в среднем {{guide:spoils.box.average=Cataclysite@Crystalys#1;Crystalys#2;Crystalys#3;Crystalys#4}} за убийство; ближайший источник — [Goombah](/wiki/04-Aliens/Goombah.md) (сектор 3), {{guide:spoils.box.average=Cataclysite@Goombah#1;Goombah#2;Goombah#3;Goombah#4}} за убийство.
 
 ### Quorvium
 
@@ -512,8 +524,8 @@
 
 | Пришелец | Секторы | Добыча | За убийство, в среднем |
 | :--- | :---: | :--- | --: |
-| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 100%: от 6 до 10 | 8 |
-| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 100%: от 2 до 4 | 3 |
+| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | {{guide:spoils.box.drops=Quorvium@Crystalys#1;Crystalys#2;Crystalys#3;Crystalys#4}} | {{guide:spoils.box.average=Quorvium@Crystalys#1;Crystalys#2;Crystalys#3;Crystalys#4}} |
+| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | {{guide:spoils.box.drops=Quorvium@Goombah#1;Goombah#2;Goombah#3;Goombah#4}} | {{guide:spoils.box.average=Quorvium@Goombah#1;Goombah#2;Goombah#3;Goombah#4}} |
 
 - **Астероиды**: лежит в обломках: Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock, Rich Lode, Prism Cluster, Ancient Husk, Star Crystal, Motherlode (количество — в разделе «Виды» на странице [Добыча на астероидах](/wiki/03-Mechanics/Asteroid-Mining.md#the-kinds)).
 - **[Гигантский экскаватор](/wiki/03-Mechanics/Giant-Excavator.md)**: с 11-го дня сезона (в Бете и Гамме — с 1-го дня) полный запуск выдаёт в Альфе 1 029 ед. (в Бете и Гамме больше) в контейнерах, которые может взять любой; что он добывает, выбирают на пульте управления.
@@ -535,7 +547,7 @@
 - [Кузница](/wiki/06-Items/Forge.md), Сияющий → Вознесённый: **320** (с 11 Power Core, 2 Dark Matter Plate, 833 000 кредитов, 2 667 Thulium)
 - [Исследовательский центр](/wiki/03-Mechanics/Research.md#fuel), топливо: **8** науки за единицу
 
-**Как добыть**: убивайте [Crystalys](/wiki/04-Aliens/Crystalys.md) (сектор 4): в среднем 8 за убийство; ближайший источник — [Goombah](/wiki/04-Aliens/Goombah.md) (сектор 3), 3 за убийство.
+**Как добыть**: убивайте [Crystalys](/wiki/04-Aliens/Crystalys.md) (сектор 4): в среднем {{guide:spoils.box.average=Quorvium@Crystalys#1;Crystalys#2;Crystalys#3;Crystalys#4}} за убийство; ближайший источник — [Goombah](/wiki/04-Aliens/Goombah.md) (сектор 3), {{guide:spoils.box.average=Quorvium@Goombah#1;Goombah#2;Goombah#3;Goombah#4}} за убийство.
 
 ### Velkonite
 
@@ -712,6 +724,7 @@
 - Laser Optics III: **2** (с 1 Laser Optics II, 6 Power Core, 10 Reinforced Hull Plate, 120 Ship Fragment, 12 Velkonite Reinforced Plate, 30 000 Thulium)
 - Laser Optics IV: **6** (с 2 Ancient Control Unit, 1 Laser Optics III, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 14 Velkonite Reinforced Plate, 50 000 Thulium)
 - Laser Optics V: **10** (с 3 Ancient Control Unit, 1 Laser Optics IV, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 15 Velkonite Reinforced Plate, 75 000 Thulium)
+- Organic Scanner I: **5** (с 1 Ancient Control Unit, 2 Power Core, 60 Ship Fragment, 20 000 кредитов, 10 000 Thulium)
 - **Колыбель P.E.T.** (Ангар): 1 на каждый собранный P.E.T., плюс 1 Cluster Chunk ранга этого P.E.T.
 
 **Улучшения модулей**: Сборочный цех улучшает Starfire-III до Helios Beam. Каждое улучшение расходует деталь, с которой начинается, и требует эти пластины сверх остальных материалов. Новая деталь сохраняет уровень Кузницы и бонусы вложенной детали. См. [Улучшения модулей в Сборочном цехе](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
@@ -724,8 +737,9 @@
 
 **Как получить**
 
+- **Миссии**: Ловушка Angler (ежедневный контракт) 12; Храни свет (ежедневный контракт) 8; Охота на Leviathan (ежедневный контракт) 12; Освети путь (ежедневный контракт) 8; Зачистка от Void Mite (ежедневный контракт) 8; Расчистка гнёзд (ежедневный контракт) 5; Охота на Revenant (ежедневный контракт) 8; Охота на Shade (ежедневный контракт) 12; Зачистка от Snuffer (ежедневный контракт) 5; Прореживание Void (ежедневный контракт) 5.
 - **Чёрная дыра**: ракета [N.I.K.E.](/wiki/06-Items/Rockets.md), пересёкшая горизонт событий чёрной дыры в центре Опасного сектора 4, поглощается, и дыра возвращает **1, 2 или 3** Dark Matter (2 в среднем) в контейнерах не более 1 на краю своей зоны, на расстоянии от 3 050 до 3 950 единиц от центра. Контейнеры принадлежат вам и вашему клану 60 с и существуют 240 с. N.I.K.E., встретившая на пути корабль, попадает в него и расходуется. См. [Dark Matter и Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md) и [Чёрная дыра](/wiki/03-Mechanics/Black-Hole.md#dark-matter).
-- **[Inert Mass](/wiki/03-Mechanics/Dormant-Swamp.md#inert-mass)** у Dormant Swamp: с 11-го дня сезона в 5% её контейнеров лежит 1–3 ед. Она живёт под орудиями болота.
+- **[Inert Mass](/wiki/03-Mechanics/Dormant-Swamp.md#inert-mass)** у Dormant Swamp: с 11-го дня сезона в {{guide:spoils.box.chance=Dark Matter@Inert Mass}} её контейнеров лежит {{guide:spoils.box.amount=Dark Matter@Inert Mass}} ед. Она живёт под орудиями болота.
 - **Помимо этого**: в магазине не продаётся.
 
 **Для чего нужен**
@@ -745,6 +759,7 @@
 
 **Как получить**
 
+- **Миссии**: Чёрные ящики (уровень 5) 1; Первый свет (уровень 5) 1; В стенах (уровень 5) 1; Пусть горят (уровень 5) 1; Фонарщик (уровень 5) 1; Журнал фонарей (уровень 5) 1; Утонувшие (уровень 5) 1; Последний журнал (уровень 5) 1; Долгое плавание (уровень 5) 1; Горло (уровень 5) 1; Ловушка Angler (ежедневный контракт) 1; Охота на Leviathan (ежедневный контракт) 1; Охота на Shade (ежедневный контракт) 1.
 - **Сборочный цех**: прессуется из 5 Dark Matter, 1 Orvium Reinforced Plate и 1 Velkonite Reinforced Plate, за 250 Thulium и 120 с. С пришельцев она не выпадает.
 - **Помимо этого**: в магазине не продаётся.
 
@@ -833,15 +848,16 @@
 
 | Пришелец | Секторы | Добыча | За убийство, в среднем |
 | :--- | :---: | :--- | --: |
-| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 40%: 1 | 0,4 |
-| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 10%: 1 | 0,1 |
-| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 4%: 1 | 0,04 |
-| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 2%: 1 | 0,02 |
-| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0,8%: 1 | 0,01 |
+| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | {{guide:spoils.box.drops=Echo Shard@Crystalys#1;Crystalys#2;Crystalys#3;Crystalys#4}} | {{guide:spoils.box.average=Echo Shard@Crystalys#1;Crystalys#2;Crystalys#3;Crystalys#4}} |
+| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | {{guide:spoils.box.drops=Echo Shard@Goombah#1;Goombah#2;Goombah#3;Goombah#4}} | {{guide:spoils.box.average=Echo Shard@Goombah#1;Goombah#2;Goombah#3;Goombah#4}} |
+| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | {{guide:spoils.box.drops=Echo Shard@Bulwark#1;Bulwark#2;Bulwark#3;Bulwark#4}} | {{guide:spoils.box.average=Echo Shard@Bulwark#1;Bulwark#2;Bulwark#3;Bulwark#4}} |
+| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | {{guide:spoils.box.drops=Echo Shard@Phantasm#1;Phantasm#2;Phantasm#3;Phantasm#4}} | {{guide:spoils.box.average=Echo Shard@Phantasm#1;Phantasm#2;Phantasm#3;Phantasm#4}} |
+| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | {{guide:spoils.box.drops=Echo Shard@Seeker#1;Seeker#2;Seeker#3;Seeker#4}} | {{guide:spoils.box.average=Echo Shard@Seeker#1;Seeker#2;Seeker#3;Seeker#4}} |
 
 - **Одиночные врата**: Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34, Davidski's Nightmare 34 за каждое прохождение.
-- **Подземелья кланов**: 12, 8 и 8 за оплачиваемое прохождение этапа 1, 2 и 3.
+- **Подземелья кланов**: 24, 16 и 16 за оплачиваемое прохождение этапа 1, 2 и 3.
 - **Пришельцы подземелий кланов**: шансы из таблицы выше умножаются на 2.
+- **Пришельцы подземелий кланов**: за один раз они сбрасывают 2 вместо 1.
 - **Удача и Resource Magnet Booster**: Ни то, ни другое его не увеличивает. Его нельзя выставить на аукцион.
 - **Помимо этого**: в магазине не продаётся.
 
@@ -849,7 +865,7 @@
 
 - Гнёзда Кузницы: настройка пустого гнезда стоит Echo Shard.
 
-**Как добыть**: убивайте [Crystalys](/wiki/04-Aliens/Crystalys.md) (сектор 4): в среднем 0,4 за убийство; ближайший источник — [Seeker](/wiki/04-Aliens/Seeker.md) (сектор 1), 0,01 за убийство.
+**Как добыть**: убивайте [Crystalys](/wiki/04-Aliens/Crystalys.md) (сектор 4): в среднем {{guide:spoils.box.average=Echo Shard@Crystalys#1;Crystalys#2;Crystalys#3;Crystalys#4}} за убийство; ближайший источник — [Seeker](/wiki/04-Aliens/Seeker.md) (сектор 1), {{guide:spoils.box.average=Echo Shard@Seeker#1;Seeker#2;Seeker#3;Seeker#4}} за убийство.
 
 ### Lattice Shard
 
@@ -858,7 +874,7 @@
 **Как получить**
 
 - **Одиночные врата**: Alpha Rift 6, Beta Breach 13, Gamma Foundry 27, Delta Siege 44, Omega Vault 54, Davidski's Nightmare 54 за каждое прохождение.
-- **Подземелья кланов**: 5, 6 и 7 за оплачиваемое прохождение этапа 1, 2 и 3.
+- **Подземелья кланов**: 10, 12 и 14 за оплачиваемое прохождение этапа 1, 2 и 3.
 - **Удача и Resource Magnet Booster**: Ни то, ни другое его не увеличивает. Его нельзя выставить на аукцион.
 - **Помимо этого**: в магазине не продаётся.
 
@@ -876,7 +892,7 @@
 
 - **Одиночные врата**: 1 за первое прохождение каждых врат за сезон и с шансом 5% ещё 1 за каждое прохождение.
 - **Подземелья кланов**: 1 за первое оплачиваемое прохождение каждого этапа за сезон и с шансом 5% ещё один за каждое оплачиваемое прохождение.
-- **Редкие NPC**: Davidski 10%, Dormant Force 5%, Tesseract 5% за убийство.
+- **Редкие NPC**: Davidski {{guide:spoils.box.chance=Heartshard@Davidski}}, Dormant Force {{guide:spoils.box.chance=Heartshard@Dormant Force#1;Dormant Force#2;Dormant Force#3}}, Tesseract {{guide:spoils.box.chance=Heartshard@Tesseract#1;Tesseract#2;Tesseract#3}} за убийство.
 - **Удача и Resource Magnet Booster**: Ни то, ни другое его не увеличивает. Его нельзя выставить на аукцион.
 - **Помимо этого**: в магазине не продаётся.
 
@@ -886,6 +902,141 @@
 
 **Как добыть**: он редкий: проходите каждые одиночные врата и каждый этап подземелья клана по разу за сезон и убивайте медленных редких NPC.
 
+### Lurker Fang
+
+*Редкий ресурс.* Клык Lurker из Deep Void. Больше ни один пришелец его не роняет.
+
+**Как получить**
+
+- **Lurker** из Deep Void, на DV-1: в {{guide:spoils.box.chance=Lurker Fang@Lurker}} его контейнеров лежит {{guide:spoils.box.amount=Lurker Fang@Lurker}} ед. Больше ни один пришелец его не роняет.
+- **Помимо этого**: в магазине не продаётся.
+
+**Для чего нужен**
+
+- Organic Scanner II: **2** (с 2 Angler Lure, 1 Leviathan Scale, 1 Organic Scanner I, 50 000 кредитов, 20 000 Thulium)
+
+**Как добыть**: охотьтесь на Lurker на DV-1, во тьме Deep Void: больше никто его не роняет.
+
+### Angler Lure
+
+*Редкий ресурс.* Погасший ложный свет Angler из Deep Void. Больше ни один пришелец его не роняет.
+
+**Как получить**
+
+- **Angler** из Deep Void, на DV-1: в {{guide:spoils.box.chance=Angler Lure@Angler}} его контейнеров лежит {{guide:spoils.box.amount=Angler Lure@Angler}} ед. Больше ни один пришелец его не роняет.
+- **Помимо этого**: в магазине не продаётся.
+
+**Для чего нужен**
+
+- Organic Scanner II: **2** (с 1 Leviathan Scale, 2 Lurker Fang, 1 Organic Scanner I, 50 000 кредитов, 20 000 Thulium)
+
+**Как добыть**: охотьтесь на Angler на DV-1, во тьме Deep Void: больше никто его не роняет.
+
+### Leviathan Scale
+
+*Эпический ресурс.* Чешуйка Leviathan, червя Deep Void. Больше ни один пришелец её не роняет.
+
+**Как получить**
+
+- **The Leviathan** из Deep Void, на DV-1: в {{guide:spoils.box.chance=Leviathan Scale@The Leviathan}} его контейнеров лежит {{guide:spoils.box.amount=Leviathan Scale@The Leviathan}} ед. Больше ни один пришелец его не роняет.
+- **Помимо этого**: в магазине не продаётся.
+
+**Для чего нужен**
+
+- Organic Scanner II: **1** (с 2 Angler Lure, 2 Lurker Fang, 1 Organic Scanner I, 50 000 кредитов, 20 000 Thulium)
+
+**Как добыть**: охотьтесь на Leviathan на DV-1, во тьме Deep Void: больше никто его не роняет.
+
+### Revenant Ash
+
+*Редкий ресурс.* Серый пепел Revenant, мёртвого корпуса из Deep Void. Больше ни один пришелец его не роняет.
+
+**Как получить**
+
+- **Revenant** из Deep Void, на DV-1: в {{guide:spoils.box.chance=Revenant Ash@Revenant}} его контейнеров лежит {{guide:spoils.box.amount=Revenant Ash@Revenant}} ед. Больше ни один пришелец его не роняет.
+- **Помимо этого**: в магазине не продаётся.
+
+**Для чего нужен**
+
+- Пока нигде не используется.
+
+**Как добыть**: охотьтесь на Revenant на DV-1, во тьме Deep Void: больше никто его не роняет.
+
+### Mite Swarm Core
+
+*Эпический ресурс.* Тёмное ядро роя Void Mite из Deep Void. Больше ни один пришелец его не роняет.
+
+**Как получить**
+
+- **Void Mite** из Deep Void, на DV-1: в {{guide:spoils.box.chance=Mite Swarm Core@Void Mite}} его контейнеров лежит {{guide:spoils.box.amount=Mite Swarm Core@Void Mite}} ед. Больше ни один пришелец его не роняет.
+- **Помимо этого**: в магазине не продаётся.
+
+**Для чего нужен**
+
+- Пока нигде не используется.
+
+**Как добыть**: охотьтесь на Void Mite на DV-1, во тьме Deep Void: больше никто его не роняет.
+
+### Shade Mask
+
+*Редкий ресурс.* Бледная маска Shade из Deep Void. Больше ни один пришелец её не роняет.
+
+**Как получить**
+
+- **Shade** из Deep Void, на DV-1: в {{guide:spoils.box.chance=Shade Mask@Shade}} его контейнеров лежит {{guide:spoils.box.amount=Shade Mask@Shade}} ед. Больше ни один пришелец его не роняет.
+- **Помимо этого**: в магазине не продаётся.
+
+**Для чего нужен**
+
+- Пока нигде не используется.
+
+**Как добыть**: охотьтесь на Shade на DV-1, во тьме Deep Void: больше никто его не роняет.
+
+### Flagship Log
+
+*Эпический ресурс.* Бортовой журнал Drowned Flagship из Deep Void. Больше ни один пришелец его не роняет.
+
+**Как получить**
+
+- **The Drowned Flagship** из Deep Void, на DV-1: в {{guide:spoils.box.chance=Flagship Log@The Drowned Flagship}} его контейнеров лежит {{guide:spoils.box.amount=Flagship Log@The Drowned Flagship}} ед. Больше ни один пришелец его не роняет.
+- **Помимо этого**: в магазине не продаётся.
+
+**Для чего нужен**
+
+- Пока нигде не используется.
+
+**Как добыть**: охотьтесь на Drowned Flagship на DV-1, во тьме Deep Void: больше никто его не роняет.
+
+### Listener Shard
+
+*Эпический ресурс.* Кристаллический осколок Listener из Deep Void. Больше ни один пришелец его не роняет.
+
+**Как получить**
+
+- **The Listener** из Deep Void, на DV-1: в {{guide:spoils.box.chance=Listener Shard@The Listener}} его контейнеров лежит {{guide:spoils.box.amount=Listener Shard@The Listener}} ед. Больше ни один пришелец его не роняет.
+- **Помимо этого**: в магазине не продаётся.
+
+**Для чего нужен**
+
+- Пока нигде не используется.
+
+**Как добыть**: охотьтесь на Listener на DV-1, во тьме Deep Void: больше никто его не роняет.
+
+### Void Coordinates
+
+*Эпический ресурс.* Звёздная карта Listener из Deep Void с одной горящей точкой. Больше ни один пришелец её не роняет.
+
+**Как получить**
+
+- **The Listener** из Deep Void, на DV-1: в {{guide:spoils.box.chance=Void Coordinates@The Listener}} его контейнеров лежит {{guide:spoils.box.amount=Void Coordinates@The Listener}} ед. Больше ни один пришелец его не роняет.
+- **Помимо этого**: в магазине не продаётся.
+
+**Для чего нужен**
+
+- Пока нигде не используется.
+
+**Как добыть**: охотьтесь на Listener на DV-1, во тьме Deep Void: больше никто его не роняет.
+
 ## Валюты {#currencies}
 
 Кредиты и Thulium собираются как материалы и тратятся в тех же местах. Они хранятся на вашем счёте, а не в инвентаре.
@@ -894,11 +1045,11 @@
 
 | Пришелец | Секторы | Кредиты | Thulium | Опыт | Честь |
 | :--- | :---: | --: | --: | --: | --: |
-| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 1 000 | 4 | 100 | 2 |
-| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 3 000 | 12 | 300 | 6 |
-| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 5 000 | 25 | 800 | 10 |
-| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 15 000 | 75 | 3 000 | 24 |
-| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 75 000 | 200 | 12 000 | 52 |
+| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | {{guide:spoils.pay.credits@Seeker#1}} | {{guide:spoils.pay.thulium@Seeker#1}} | {{guide:spoils.pay.experience@Seeker#1}} | {{guide:spoils.pay.honor@Seeker#1}} |
+| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | {{guide:spoils.pay.credits@Phantasm#1}} | {{guide:spoils.pay.thulium@Phantasm#1}} | {{guide:spoils.pay.experience@Phantasm#1}} | {{guide:spoils.pay.honor@Phantasm#1}} |
+| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | {{guide:spoils.pay.credits@Bulwark#1}} | {{guide:spoils.pay.thulium@Bulwark#1}} | {{guide:spoils.pay.experience@Bulwark#1}} | {{guide:spoils.pay.honor@Bulwark#1}} |
+| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | {{guide:spoils.pay.credits@Goombah#1}} | {{guide:spoils.pay.thulium@Goombah#1}} | {{guide:spoils.pay.experience@Goombah#1}} | {{guide:spoils.pay.honor@Goombah#1}} |
+| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | {{guide:spoils.pay.credits@Crystalys#1}} | {{guide:spoils.pay.thulium@Crystalys#1}} | {{guide:spoils.pay.experience@Crystalys#1}} | {{guide:spoils.pay.honor@Crystalys#1}} |
 
 Это цифры мира **Alpha** (1x). Убийство платит **2x** от них в Beta и **3x** в Gamma, а выполненная миссия платит по более высокому из двух миров: того, где вы её выполнили, и того, где вы летаете ([миры](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)); добыча одинакова во всех мирах. Кроме того, постоянные Credit Boost (до +50%) и Thulium Boost (до +30%) из магазина сезона повышают то, что убийства и миссии платят в этих двух валютах.
 
@@ -928,13 +1079,13 @@
 **Для чего нужен**
 
 - **Магазин**: предметов с ценой в кредитах — 27 (цены указаны на их страницах: [Предметы](/wiki/06-Items/Overview.md) и [Ракеты](/wiki/06-Items/Rockets.md)).
-- **Сборочный цех**, за создание: [Master Drone](/wiki/06-Items/Drones.md) 1 000 000, [Starfire-III](/wiki/06-Items/Lasers.md) 100 000, P.E.T. Station I 100 000, P.E.T. Station II 300 000, P.E.T. Station III 1 100 000, [Ultra Core](/wiki/06-Items/Lasers.md) (создаёт 1 000) 320, [Experimental Fusion Core](/wiki/06-Items/Lasers.md) (создаёт 1 000) 9 058, [Antimatter Battery II](/wiki/06-Items/Lasers.md) (создаёт 1 000) 4 740, [Dark Matter Ammo I](/wiki/06-Items/Lasers.md) (создаёт 1 000) 4 873, [Lancet II](/wiki/06-Items/Rockets.md) (создаёт 100) 50 000, [Lancet III](/wiki/06-Items/Rockets.md) (создаёт 100) 150 000, [Rivet II](/wiki/06-Items/Rockets.md) (создаёт 100) 50 000, [Rivet III](/wiki/06-Items/Rockets.md) (создаёт 100) 150 000, [Ember II](/wiki/06-Items/Rockets.md) (создаёт 100) 50 000, [Ember III](/wiki/06-Items/Rockets.md) (создаёт 100) 150 000, [Scatter II](/wiki/06-Items/Rockets.md) (создаёт 100) 50 000, [Scatter III](/wiki/06-Items/Rockets.md) (создаёт 100) 150 000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 150 000, [N.I.K.E.](/wiki/06-Items/Rockets.md) (создаёт 5) 100 000, [Freeze Rocket](/wiki/06-Items/Rockets.md) (создаёт 5) 50 000, [EMP Rocket](/wiki/06-Items/Rockets.md) (создаёт 5) 60 000, [Shield Breaker](/wiki/06-Items/Rockets.md) (создаёт 5) 80 000, [Toxic Rocket](/wiki/06-Items/Rockets.md) (создаёт 5) 60 000, [Marking Rocket](/wiki/06-Items/Rockets.md) (создаёт 5) 50 000, [Cooldown Rocket](/wiki/06-Items/Rockets.md) (создаёт 3) 100 000, [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md) 150 000, [Support Rocket](/wiki/06-Items/Rockets.md) (создаёт 3) 90 000.
+- **Сборочный цех**, за создание: [Master Drone](/wiki/06-Items/Drones.md) 1 000 000, [Starfire-III](/wiki/06-Items/Lasers.md) 100 000, P.E.T. Station I 100 000, P.E.T. Station II 300 000, P.E.T. Station III 1 100 000, [Ultra Core](/wiki/06-Items/Lasers.md) (создаёт 1 000) 320, [Experimental Fusion Core](/wiki/06-Items/Lasers.md) (создаёт 1 000) 9 058, [Antimatter Battery II](/wiki/06-Items/Lasers.md) (создаёт 1 000) 4 740, [Dark Matter Ammo I](/wiki/06-Items/Lasers.md) (создаёт 1 000) 4 873, Organic Scanner I 20 000, Organic Scanner II 50 000, [Lancet II](/wiki/06-Items/Rockets.md) (создаёт 100) 50 000, [Lancet III](/wiki/06-Items/Rockets.md) (создаёт 100) 150 000, [Rivet II](/wiki/06-Items/Rockets.md) (создаёт 100) 50 000, [Rivet III](/wiki/06-Items/Rockets.md) (создаёт 100) 150 000, [Ember II](/wiki/06-Items/Rockets.md) (создаёт 100) 50 000, [Ember III](/wiki/06-Items/Rockets.md) (создаёт 100) 150 000, [Scatter II](/wiki/06-Items/Rockets.md) (создаёт 100) 50 000, [Scatter III](/wiki/06-Items/Rockets.md) (создаёт 100) 150 000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 150 000, [N.I.K.E.](/wiki/06-Items/Rockets.md) (создаёт 5) 100 000, [Freeze Rocket](/wiki/06-Items/Rockets.md) (создаёт 5) 50 000, [EMP Rocket](/wiki/06-Items/Rockets.md) (создаёт 5) 60 000, [Shield Breaker](/wiki/06-Items/Rockets.md) (создаёт 5) 80 000, [Toxic Rocket](/wiki/06-Items/Rockets.md) (создаёт 5) 60 000, [Marking Rocket](/wiki/06-Items/Rockets.md) (создаёт 5) 50 000, [Cooldown Rocket](/wiki/06-Items/Rockets.md) (создаёт 3) 100 000, [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md) 150 000, [Support Rocket](/wiki/06-Items/Rockets.md) (создаёт 3) 90 000.
 - **[Кузница](/wiki/06-Items/Forge.md)**, за шаг уровня: Стандартный → Пробуждённый 10 000, Пробуждённый → Резонирующий 56 000, Резонирующий → Сияющий 267 000, Сияющий → Вознесённый 833 000.
 - **Слияния в Кузнице**, по полученному уровню: Пробуждённый 5 000, Резонирующий 25 000, Сияющий 100 000, Вознесённый 250 000.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**, постройка и улучшения, цена каждого модуля (1-й уровень — это постройка, у каждого следующего уровня своя цена): Принтер боеприпасов 20 000 на 1-м уровне, 5 600 000 на 20-м, Кредитная ферма 0 на 1-м уровне, 7 000 000 на 20-м, Модуль обороны 500 000 на 1-м уровне, 14 000 000 на 5-м, Модуль двигателей 375 000 на 1-м уровне, 8 750 000 на 5-м, Кузница 5 000 на 1-м уровне, 9 000 000 на 20-м, Рудный отсек 5 000 на 1-м уровне, 4 500 000 на 20-м, Сборщик Orvium 20 000 на 1-м уровне, 5 500 000 на 20-м, Радарный модуль 250 000 на 1-м уровне, 2 250 000 на 3-м, Исследовательский центр 25 000 (x1,5 за уровень), Ракетный завод 20 000 на 1-м уровне, 1 400 000 на 20-м, Солнечный модуль 500 на 1-м уровне, 9 000 000 на 20-м, Хранилище ресурсов 5 000 на 1-м уровне, 4 500 000 на 20-м, Ферма Thulium 5 000 на 1-м уровне, 8 500 000 на 20-м, Трофейный отсек 100 000 на 1-м уровне, 2 325 000 на 20-м, Сборщик Velkonite 20 000 на 1-м уровне, 5 500 000 на 20-м. Ядро есть всегда, поэтому первая цена, которую вы платите за него, — цена уровня 2: 1 500 (далее x1,5 за уровень).
-- **[Клан](/wiki/03-Mechanics/Clans.md)**: пожертвования в банк клана (не более 1 000 000 кредитов на пилота за любые 24 ч) и ежедневный налог клана, доля ваших кредитов, которую задают его руководители.
+- **[Клан](/wiki/03-Mechanics/Clans.md)**: пожертвования в банк клана (не более 2 000 000 кредитов на пилота за любые 24 ч) и ежедневный налог клана, доля ваших кредитов, которую задают его руководители.
 
-**Как добыть**: больше всего за убийство платит [Crystalys](/wiki/04-Aliens/Crystalys.md) (75 000 в Alpha, 225 000 в Gamma; сектор 4); ближайший источник — [Seeker](/wiki/04-Aliens/Seeker.md) (1 000 в Alpha; сектор 1). Работающая Кредитная ферма даёт 2 250 в час на 1-м уровне и 225 000 на 20-м (при Ядре 20-го уровня) в бункер, который при заполнении перестаёт наполняться: собирайте вовремя.
+**Как добыть**: больше всего за убийство платит [Crystalys](/wiki/04-Aliens/Crystalys.md) ({{guide:spoils.pay.credits@Crystalys#1}} в Alpha, {{guide:spoils.pay.credits*3@Crystalys#1}} в Gamma; сектор 4); ближайший источник — [Seeker](/wiki/04-Aliens/Seeker.md) ({{guide:spoils.pay.credits@Seeker#1}} в Alpha; сектор 1). Работающая Кредитная ферма даёт 2 250 в час на 1-м уровне и 225 000 на 20-м (при Ядре 20-го уровня) в бункер, который при заполнении перестаёт наполняться: собирайте вовремя.
 
 ### Thulium
 
@@ -960,7 +1111,7 @@
 **Для чего нужен**
 
 - **Магазин**: предметов с ценой в Thulium — 20 (цены указаны на их страницах: [Предметы](/wiki/06-Items/Overview.md)).
-- **Сборочный цех**, за создание: [Master Drone](/wiki/06-Items/Drones.md) 50 000, [Quantum Laser III](/wiki/06-Items/Lasers.md) 1 500, [Starfire-III](/wiki/06-Items/Lasers.md) 1 500, [Helios Beam](/wiki/06-Items/Lasers.md) 2 000, [Paragon](/wiki/02-Ships/Paragon.md) 1 500, [Wraith](/wiki/02-Ships/Wraith.md) 20 000, [Laser Damage Booster II](/wiki/06-Items/Boosters.md) 20 000, [Shield Wall Booster II](/wiki/06-Items/Boosters.md) 15 000, [Hull Plating Booster II](/wiki/06-Items/Boosters.md) 15 000, [Damage Amp IV](/wiki/06-Items/Lasers.md) 2 400, [Crit Amp IV](/wiki/06-Items/Lasers.md) 2 400, [Absorption Shield Cell IV](/wiki/06-Items/Shields.md) 5 000, [Impulse Thruster IV](/wiki/06-Items/Propulsion.md) 4 000, Dark Matter Plate 250, [Ironclad](/wiki/02-Ships/Ironclad.md) 10 500, [Heavy Shield Core](/wiki/06-Items/Shields.md) 4 000, [Engine III](/wiki/06-Items/Propulsion.md) 4 000, [Impulse Thruster III](/wiki/06-Items/Propulsion.md) 3 000, [Absorption Shield Cell II](/wiki/06-Items/Shields.md) 2 000, [Absorption Shield Cell III](/wiki/06-Items/Shields.md) 3 000, [Capacity Shield Cell II](/wiki/06-Items/Shields.md) 2 000, [Capacity Shield Cell III](/wiki/06-Items/Shields.md) 3 000, [Capacity Shield Cell IV](/wiki/06-Items/Shields.md) 5 000, [Impulse Thruster II](/wiki/06-Items/Propulsion.md) 2 000, [Momentum Thruster II](/wiki/06-Items/Propulsion.md) 2 000, [Momentum Thruster III](/wiki/06-Items/Propulsion.md) 3 000, [Momentum Thruster IV](/wiki/06-Items/Propulsion.md) 4 000, [Storm](/wiki/02-Ships/Storm.md) 15 000, Extra Slots CPU I 12 000, Extra Slots CPU II 30 000, Extra Slots CPU III 75 000, Jump CPU 40 000, Base CPU I 8 000, Base CPU II 20 000, Auto-Repair CPU 15 000, Testudo Formation 15 000, Bodkin Formation 42 000, Asterism Formation 14 000, Gemini Formation 76 000, Adamant Formation 18 000, Ballista Formation 48 000, Stiletto Formation 92 000, Rampart Formation 77 000, Sanctum Formation 40 000, Shrike Formation 17 000, Culler Formation 40 000, Redoubt Formation 42 000, Auger Formation 41 000, Cordon Formation 43 000, Centurion Formation 16 000, Gyre Formation 40 000, [Damage Amp II](/wiki/06-Items/Lasers.md) 500, [Damage Amp III](/wiki/06-Items/Lasers.md) 2 000, [Crit Amp II](/wiki/06-Items/Lasers.md) 500, [Crit Amp III](/wiki/06-Items/Lasers.md) 2 000, [Penetration Amp II](/wiki/06-Items/Lasers.md) 500, [Penetration Amp III](/wiki/06-Items/Lasers.md) 2 000, [Penetration Amp IV](/wiki/06-Items/Lasers.md) 2 400, Hull Plating II 2 500, Hull Plating III 4 000, [Engine II](/wiki/06-Items/Propulsion.md) 2 000, Adaptive Core II 2 000, Adaptive Core III 4 000, Energetic Wall II 600, P.E.T. Station I 2 000, P.E.T. Station II 4 000, P.E.T. Station III 12 000, Auto-Rocket CPU 20 000, [Ultra Core](/wiki/06-Items/Lasers.md) (создаёт 1 000) 687, [Experimental Fusion Core](/wiki/06-Items/Lasers.md) (создаёт 1 000) 1 315, [Siphon Battery II](/wiki/06-Items/Lasers.md) (создаёт 1 000) 250, [Antimatter Battery I](/wiki/06-Items/Lasers.md) (создаёт 1 000) 100, [Antimatter Battery II](/wiki/06-Items/Lasers.md) (создаёт 1 000) 75, [Dark Matter Ammo I](/wiki/06-Items/Lasers.md) (создаёт 1 000) 987, [Dark Matter Ammo II](/wiki/06-Items/Lasers.md) (создаёт 1 000) 200, Rocket Launcher II 150 000, Rocket Launcher III 400 000, Rocket Launcher IV 900 000, Rocket Launcher V 2 000 000, Mine II 200, Mine III 400, Laser Optics I 8 000, Laser Optics II 15 000, Laser Optics III 30 000, Laser Optics IV 50 000, Laser Optics V 75 000, [Miyuki](/wiki/02-Ships/Miyuki.md) 6 000, [Miyuki II](/wiki/02-Ships/Miyuki.md) 20 000, [Miyuki III](/wiki/02-Ships/Miyuki.md) 35 000, [Miyuki IV](/wiki/02-Ships/Miyuki.md) 50 000, [Miyuki V](/wiki/02-Ships/Miyuki.md) 75 000, [Lancet II](/wiki/06-Items/Rockets.md) (создаёт 100) 200, [Lancet III](/wiki/06-Items/Rockets.md) (создаёт 100) 800, [Rivet II](/wiki/06-Items/Rockets.md) (создаёт 100) 200, [Rivet III](/wiki/06-Items/Rockets.md) (создаёт 100) 800, [Ember II](/wiki/06-Items/Rockets.md) (создаёт 100) 200, [Ember III](/wiki/06-Items/Rockets.md) (создаёт 100) 800, [Scatter II](/wiki/06-Items/Rockets.md) (создаёт 100) 200, [Scatter III](/wiki/06-Items/Rockets.md) (создаёт 100) 800, [N.U.K.E.](/wiki/06-Items/Rockets.md) 3 000, [N.I.K.E.](/wiki/06-Items/Rockets.md) (создаёт 5) 1 500, [Freeze Rocket](/wiki/06-Items/Rockets.md) (создаёт 5) 1 000, [EMP Rocket](/wiki/06-Items/Rockets.md) (создаёт 5) 1 200, [Shield Breaker](/wiki/06-Items/Rockets.md) (создаёт 5) 1 500, [Toxic Rocket](/wiki/06-Items/Rockets.md) (создаёт 5) 1 000, [Marking Rocket](/wiki/06-Items/Rockets.md) (создаёт 5) 800, [Cooldown Rocket](/wiki/06-Items/Rockets.md) (создаёт 3) 2 500, [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md) 3 000, [Support Rocket](/wiki/06-Items/Rockets.md) (создаёт 3) 2 000.
+- **Сборочный цех**, за создание: [Master Drone](/wiki/06-Items/Drones.md) 50 000, [Quantum Laser III](/wiki/06-Items/Lasers.md) 1 500, [Starfire-III](/wiki/06-Items/Lasers.md) 1 500, [Helios Beam](/wiki/06-Items/Lasers.md) 2 000, [Paragon](/wiki/02-Ships/Paragon.md) 1 500, [Wraith](/wiki/02-Ships/Wraith.md) 20 000, [Laser Damage Booster II](/wiki/06-Items/Boosters.md) 20 000, [Shield Wall Booster II](/wiki/06-Items/Boosters.md) 15 000, [Hull Plating Booster II](/wiki/06-Items/Boosters.md) 15 000, [Damage Amp IV](/wiki/06-Items/Lasers.md) 2 400, [Crit Amp IV](/wiki/06-Items/Lasers.md) 2 400, [Absorption Shield Cell IV](/wiki/06-Items/Shields.md) 5 000, [Impulse Thruster IV](/wiki/06-Items/Propulsion.md) 4 000, Dark Matter Plate 250, [Ironclad](/wiki/02-Ships/Ironclad.md) 10 500, [Heavy Shield Core](/wiki/06-Items/Shields.md) 4 000, [Engine III](/wiki/06-Items/Propulsion.md) 4 000, [Impulse Thruster III](/wiki/06-Items/Propulsion.md) 3 000, [Absorption Shield Cell II](/wiki/06-Items/Shields.md) 2 000, [Absorption Shield Cell III](/wiki/06-Items/Shields.md) 3 000, [Capacity Shield Cell II](/wiki/06-Items/Shields.md) 2 000, [Capacity Shield Cell III](/wiki/06-Items/Shields.md) 3 000, [Capacity Shield Cell IV](/wiki/06-Items/Shields.md) 5 000, [Impulse Thruster II](/wiki/06-Items/Propulsion.md) 2 000, [Momentum Thruster II](/wiki/06-Items/Propulsion.md) 2 000, [Momentum Thruster III](/wiki/06-Items/Propulsion.md) 3 000, [Momentum Thruster IV](/wiki/06-Items/Propulsion.md) 4 000, [Storm](/wiki/02-Ships/Storm.md) 15 000, Extra Slots CPU I 12 000, Extra Slots CPU II 30 000, Extra Slots CPU III 75 000, Jump CPU 40 000, Base CPU I 8 000, Base CPU II 20 000, Auto-Repair CPU 15 000, Testudo Formation 15 000, Bodkin Formation 42 000, Asterism Formation 14 000, Gemini Formation 76 000, Adamant Formation 18 000, Ballista Formation 48 000, Stiletto Formation 92 000, Rampart Formation 77 000, Sanctum Formation 40 000, Shrike Formation 17 000, Culler Formation 40 000, Redoubt Formation 42 000, Auger Formation 41 000, Cordon Formation 43 000, Centurion Formation 16 000, Gyre Formation 40 000, [Damage Amp II](/wiki/06-Items/Lasers.md) 500, [Damage Amp III](/wiki/06-Items/Lasers.md) 2 000, [Crit Amp II](/wiki/06-Items/Lasers.md) 500, [Crit Amp III](/wiki/06-Items/Lasers.md) 2 000, [Penetration Amp II](/wiki/06-Items/Lasers.md) 500, [Penetration Amp III](/wiki/06-Items/Lasers.md) 2 000, [Penetration Amp IV](/wiki/06-Items/Lasers.md) 2 400, Hull Plating II 2 500, Hull Plating III 4 000, [Engine II](/wiki/06-Items/Propulsion.md) 2 000, Adaptive Core II 2 000, Adaptive Core III 4 000, Energetic Wall II 600, P.E.T. Station I 2 000, P.E.T. Station II 4 000, P.E.T. Station III 12 000, Auto-Rocket CPU 20 000, [Ultra Core](/wiki/06-Items/Lasers.md) (создаёт 1 000) 687, [Experimental Fusion Core](/wiki/06-Items/Lasers.md) (создаёт 1 000) 1 315, [Siphon Battery II](/wiki/06-Items/Lasers.md) (создаёт 1 000) 250, [Antimatter Battery I](/wiki/06-Items/Lasers.md) (создаёт 1 000) 100, [Antimatter Battery II](/wiki/06-Items/Lasers.md) (создаёт 1 000) 75, [Dark Matter Ammo I](/wiki/06-Items/Lasers.md) (создаёт 1 000) 987, [Dark Matter Ammo II](/wiki/06-Items/Lasers.md) (создаёт 1 000) 200, Rocket Launcher II 150 000, Rocket Launcher III 400 000, Rocket Launcher IV 900 000, Rocket Launcher V 2 000 000, Mine II 200, Mine III 400, Laser Optics I 8 000, Laser Optics II 15 000, Laser Optics III 30 000, Laser Optics IV 50 000, Laser Optics V 75 000, [Miyuki](/wiki/02-Ships/Miyuki.md) 6 000, [Miyuki II](/wiki/02-Ships/Miyuki.md) 20 000, [Miyuki III](/wiki/02-Ships/Miyuki.md) 35 000, [Miyuki IV](/wiki/02-Ships/Miyuki.md) 50 000, [Miyuki V](/wiki/02-Ships/Miyuki.md) 75 000, Organic Scanner I 10 000, Organic Scanner II 20 000, [Lancet II](/wiki/06-Items/Rockets.md) (создаёт 100) 200, [Lancet III](/wiki/06-Items/Rockets.md) (создаёт 100) 800, [Rivet II](/wiki/06-Items/Rockets.md) (создаёт 100) 200, [Rivet III](/wiki/06-Items/Rockets.md) (создаёт 100) 800, [Ember II](/wiki/06-Items/Rockets.md) (создаёт 100) 200, [Ember III](/wiki/06-Items/Rockets.md) (создаёт 100) 800, [Scatter II](/wiki/06-Items/Rockets.md) (создаёт 100) 200, [Scatter III](/wiki/06-Items/Rockets.md) (создаёт 100) 800, [N.U.K.E.](/wiki/06-Items/Rockets.md) 3 000, [N.I.K.E.](/wiki/06-Items/Rockets.md) (создаёт 5) 1 500, [Freeze Rocket](/wiki/06-Items/Rockets.md) (создаёт 5) 1 000, [EMP Rocket](/wiki/06-Items/Rockets.md) (создаёт 5) 1 200, [Shield Breaker](/wiki/06-Items/Rockets.md) (создаёт 5) 1 500, [Toxic Rocket](/wiki/06-Items/Rockets.md) (создаёт 5) 1 000, [Marking Rocket](/wiki/06-Items/Rockets.md) (создаёт 5) 800, [Cooldown Rocket](/wiki/06-Items/Rockets.md) (создаёт 3) 2 500, [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md) 3 000, [Support Rocket](/wiki/06-Items/Rockets.md) (создаёт 3) 2 000.
 - **[Кузница](/wiki/06-Items/Forge.md)**, за шаг уровня: Сияющий → Вознесённый 2 667.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**, постройка и улучшения, цена каждого модуля (1-й уровень — это постройка, у каждого следующего уровня своя цена): Принтер боеприпасов 500 на 1-м уровне, 11 000 на 20-м, Кредитная ферма 0 на 1-м уровне, 550 на 20-м, Модуль обороны 2 000 на 1-м уровне, 56 000 на 5-м, Модуль двигателей 1 500 на 1-м уровне, 35 000 на 5-м, Кузница 500 на 1-м уровне, 10 000 на 20-м, Рудный отсек 250 на 1-м уровне, 550 на 20-м, Сборщик Orvium 500 на 1-м уровне, 12 500 на 20-м, Радарный модуль 1 000 на 1-м уровне, 9 000 на 3-м, Исследовательский центр 500 (x1,5 за уровень), Ракетный завод 500 на 1-м уровне, 2 800 на 20-м, Солнечный модуль 50 на 1-м уровне, 10 000 на 20-м, Хранилище ресурсов 250 на 1-м уровне, 550 на 20-м, Ферма Thulium 500 на 1-м уровне, 16 000 на 20-м, Трофейный отсек 400 на 1-м уровне, 9 300 на 20-м, Сборщик Velkonite 500 на 1-м уровне, 12 500 на 20-м.
 - **[Исследования](/wiki/03-Mechanics/Research.md#the-thulium-boost)**: буст Исследовательского центра стоит 5 000 Thulium.
@@ -968,13 +1119,13 @@
 - **Энергетический материализатор**: 100 Thulium за скан в поисках частей Chrono-Gate и соло-врат ([подробнее](/wiki/03-Mechanics/Wipe-Timeline.md#the-energy-materializer)).
 - **Смена корпорации**: 5 000 Thulium и половина ваших очков чести (первая вербовка бесплатна; нельзя, пока ваш корабль в полёте).
 
-**Как добыть**: больше всего за убийство платит [Crystalys](/wiki/04-Aliens/Crystalys.md) (200 в Alpha, 600 в Gamma; сектор 4); ближайший источник — [Seeker](/wiki/04-Aliens/Seeker.md) (4 в Alpha; сектор 1). Работающая Ферма Thulium даёт 40 в час на 1-м уровне и 1 280 на 20-м (при Ядре 20-го уровня) в бункер, который при заполнении перестаёт наполняться: собирайте вовремя.
+**Как добыть**: больше всего за убийство платит [Crystalys](/wiki/04-Aliens/Crystalys.md) ({{guide:spoils.pay.thulium@Crystalys#1}} в Alpha, {{guide:spoils.pay.thulium*3@Crystalys#1}} в Gamma; сектор 4); ближайший источник — [Seeker](/wiki/04-Aliens/Seeker.md) ({{guide:spoils.pay.thulium@Seeker#1}} в Alpha; сектор 1). Работающая Ферма Thulium даёт 40 в час на 1-м уровне и 1 280 на 20-м (при Ядре 20-го уровня) в бункер, который при заполнении перестаёт наполняться: собирайте вовремя.
 
 ## Полезно знать {#good-to-know}
 
 - **Контейнеры**: добыча пришельца падает одним контейнером там, где он взорвался, и 30 с закреплена за убившим его пилотом и его кланом. [Resource Magnet Booster](/wiki/06-Items/Boosters.md) добавляет 25% к содержимому контейнера. См. [Груз](/wiki/03-Mechanics/Cargo.md).
 - **Обломки**: уничтоженный [пилот корпорации](/wiki/03-Mechanics/Company-Pilots.md) не оставляет ни контейнера, ни деталей, кто бы и что бы его ни уничтожило, так что корабли пилотов не источник материалов. Пилотов другой корпорации можно сбивать после окончания Мирного протокола там, где ваш [мир](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) допускает PvP; уничтожение пилота вашей собственной корпорации стоит 100 чести.
-- **Улучшения модулей**: Сборочный цех создаёт Quantum Laser III, Starfire-III, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II и Adaptive Core III, улучшая деталь на ступень ниже, которая при этом расходуется. Для улучшения нужны Velkonite Reinforced Plate, Dark Matter Plate и Orvium Reinforced Plate, как и для Master Drone, Dark Matter Plate, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Ultra Core, Experimental Fusion Core, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Miyuki II, Miyuki III, Miyuki IV и Miyuki V. Новая деталь сохраняет уровень Кузницы и бонусы вложенной детали. См. [Улучшения модулей в Сборочном цехе](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
+- **Улучшения модулей**: Сборочный цех создаёт Quantum Laser III, Starfire-III, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II и Adaptive Core III, улучшая деталь на ступень ниже, которая при этом расходуется. Для улучшения нужны Velkonite Reinforced Plate, Dark Matter Plate и Orvium Reinforced Plate, как и для Master Drone, Dark Matter Plate, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Ultra Core, Experimental Fusion Core, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Miyuki II, Miyuki III, Miyuki IV, Miyuki V и Organic Scanner I. Новая деталь сохраняет уровень Кузницы и бонусы вложенной детали. См. [Улучшения модулей в Сборочном цехе](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
 - **Где они хранятся**: Сборочный цех, Кузница и постройки Skylab используют отдельные стопки в инвентаре. Стопки на корабле или в транспортном тайнике не считаются.
 - **Вайп**: материалы в вашем инвентаре подчиняются [правилам вайпа](/wiki/03-Mechanics/Wipe-Timeline.md); руда, лежащая в хранилище ресурсов Skylab, остаётся.
 

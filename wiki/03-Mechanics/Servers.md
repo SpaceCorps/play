@@ -35,7 +35,7 @@ If the game closes or the connection is lost, the regional server waits for you 
 | [Solo Gates](/wiki/03-Mechanics/Solo-Gates.md#going-in) | the gate itself is described there |
 | [Achievements](/wiki/03-Mechanics/Achievements.md) | described there |
 | [Clan dungeons](/wiki/03-Mechanics/Dungeons.md) and the Wardens | at Helsinki only |
-| [Davidski](/wiki/03-Mechanics/Davidski.md) | he appears, but pays nothing on a regional server: his kills pay at Helsinki |
+| [Davidski](/wiki/03-Mechanics/Davidski.md) | he appears, but pays nothing on a regional server; his rewards are paid only for a kill on the home server (EU), and a kill anywhere counts for the missions that name him |
 | The Hangar, [Skylab](/wiki/03-Mechanics/Skylab.md), Assembly, Auction, shop, research, the Clan page and Galaxy Gates | at the station: in flight the window says so, and **Return to Base** takes you there |
 
 ## Choosing a server

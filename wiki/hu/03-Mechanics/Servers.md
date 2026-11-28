@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 397d7b3564593bb7 -->
+<!-- wiki-i18n source: f77c8c8ae352b4a0 -->
 <!-- wiki-i18n title: Szerverek -->
 # Szerverek {#servers}
 
@@ -37,7 +37,7 @@ Ha a játék bezárul vagy megszakad a kapcsolat, a regionális szerver egy röv
 | [Szólókapuk](/wiki/03-Mechanics/Solo-Gates.md#going-in) | magát a kaput ott írjuk le |
 | [Eredmények](/wiki/03-Mechanics/Achievements.md) | ott leírva |
 | [Klánkazamaták](/wiki/03-Mechanics/Dungeons.md) és az Őrök | csak Helsinkiben |
-| [Davidski](/wiki/03-Mechanics/Davidski.md) | megjelenik, de regionális szerveren nem fizet semmit: a killjei Helsinkiben fizetnek |
+| [Davidski](/wiki/03-Mechanics/Davidski.md) | megjelenik, de regionális szerveren nem fizet semmit; a jutalmait csak a fő szerveren (EU) fizeti ki a legyőzéséért, a legyőzése viszont bármelyik szerveren beleszámít azokba a küldetésekbe, amelyek megnevezik őt |
 | A Hangár, a [Skylab](/wiki/03-Mechanics/Skylab.md), a Gyártás, az Aukció, a bolt, a kutatás, a klánoldal és a Galaxiskapuk | az állomáson: repülés közben az ablak ezt mondja, a **Vissza a bázisra** pedig odavisz |
 
 ## Szerver választása {#choosing-a-server}

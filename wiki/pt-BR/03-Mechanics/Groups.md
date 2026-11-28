@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ab422d8b5066fe56 -->
+<!-- wiki-i18n source: 61fa5f21bae46a15 -->
 <!-- wiki-i18n title: Grupos -->
 # Grupos {#groups}
 
@@ -119,7 +119,7 @@ A sua lista de ignorados e a opção de ocultar o Global ficam guardadas na sua 
 
 ## Regras de engajamento {#rules-of-engagement}
 
-**Os membros de um mesmo grupo não podem se ferir**, sejam quais forem as corporações: você não pode travar um colega de grupo como alvo (lasers ou foguetes), seus disparos e explosões passam por ele, e nada do que você faz a um deles conta como abate, abate PvP ou abate do buraco negro para ninguém. Os colegas de corporação que **não** estão no mesmo grupo continuam como antes: atingir um com um laser ou um foguete custa **100 de honra** quando ele é destruído. Saia do grupo e um ex-colega, inimigo ou não, volta a ser alvo legítimo na hora (onde o setor e a temporada permitem lutar). Todos fora do seu grupo são tratados como sempre, e as zonas seguras, o Protocolo de Paz e as regras PvP dos setores não mudam para ninguém.
+**Os membros de um mesmo grupo não podem se atacar**, sejam quais forem as corporações: você não pode travar um colega de grupo como alvo (lasers ou foguetes), seus disparos e foguetes diretos passam por ele, e nada do que você faz a um deles conta como abate, abate PvP ou abate do buraco negro para ninguém. O único dano de foguete que ainda alcança o seu grupo é o de área: a explosão de um Ember, de um Scatter ou de uma N.U.K.E. e a zona de radiação que uma N.U.K.E. ou uma Gravitational N.U.K.E. deixa ferem você e os membros do seu grupo pela metade do que fazem a outra nave (uma zona segura e a proteção de um respawn poupam você delas; o Protocolo de Paz e os setores sem PvP não), e se uma delas destruir um membro, ninguém ganha o abate. Os colegas de corporação que **não** estão no mesmo grupo continuam como antes: atingir um com um laser ou um foguete custa **100 de honra** quando ele é destruído. Saia do grupo e um ex-colega, inimigo ou não, volta a ser alvo legítimo na hora (onde o setor e a temporada permitem lutar). Todos fora do seu grupo são tratados como sempre, e as zonas seguras, o Protocolo de Paz e as regras PvP dos setores não mudam para ninguém.
 
 ## Convidando um amigo {#bringing-a-friend}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 27ed2fafb9709c5b -->
+<!-- wiki-i18n source: b27666559551770c -->
 <!-- wiki-i18n title: 부가 장비 -->
 # 부가 장비 {#extras}
 
@@ -20,7 +20,7 @@ Cloaking CPU는 상점에서만 판매합니다. 병합할 수 없고, 무상으
 
 CPU 여덟 가지는 판매하지 않습니다. Skylab의 연구 센터가 연구를 마치면 어셈블리에서 제작할 수 있습니다([연구](/wiki/03-Mechanics/Research.md) 참고). Extra Slots CPU I·II·III, Jump CPU, Base CPU I·II, Auto-Repair CPU, Auto-Rocket CPU이며, 각각의 기능은 [마지막 절](#research-cpus)에 있습니다. Cloaking CPU처럼 Jump CPU와 Base CPU도 조용한 때를 위한 장비입니다. 내가 사격하거나 공격을 받고 나서 10초 안에는 이 셋 중 어느 것도 시작되지 않습니다. 두 가지 워프 CPU, 즉 Jump CPU와 Base CPU도 미션 아이템을 운반하는 동안에는 사용할 수 없습니다("미션 아이템을 운반하는 중에는 워프 CPU를 사용할 수 없습니다."). [미션 아이템](/wiki/03-Mechanics/Quests.md#quest-items)을 참고하세요.
 
-부가 장비마다 퀵슬롯에 짧은 표기가 붙습니다. Repair Drone은 **REP**, Cloaking CPU는 **CLK**이고, Auto-Repair CPU, Auto-Rocket CPU, Base CPU, Jump CPU는 각각 **ARP**, **ARL**, **BSE**, **JMP**입니다. 소모품에는 각자의 표기가 있습니다. **EMP**와 Energetic Wall의 **WAL**입니다. Extra Slots CPU에는 슬롯이 없으며 Skylab에 설치됩니다. 세 가지 **P.E.T. Station** 아이템은 다른 부가 장비와 같으며 표기는 **PET**입니다. 장착하면 그 슬롯이 Station을 **ON**과 **OFF**로 전환하고(두 번 누르는 사이에는 1초), 어느 쪽인지 보여 줍니다. ON인 동안은 도킹한 [P.E.T.](/wiki/03-Mechanics/Pets.md)가 적용되고, OFF인 동안은 적용되지 않습니다. **Auto-Rocket CPU**도 같은 방식으로 ON과 OFF를 전환합니다. 슬롯에 포인터를 올리면 지금 누르면 무엇이 일어나는지, 또는 왜 아무 일도 일어나지 않는지 볼 수 있습니다.
+부가 장비마다 퀵슬롯에 짧은 표기가 붙습니다. Repair Drone은 **REP**, Cloaking CPU는 **CLK**, Organic Scanner는 **SCN**이고, Auto-Repair CPU, Auto-Rocket CPU, Base CPU, Jump CPU는 각각 **ARP**, **ARL**, **BSE**, **JMP**입니다. 소모품에는 각자의 표기가 있습니다. **EMP**와 Energetic Wall의 **WAL**입니다. Extra Slots CPU에는 슬롯이 없으며 Skylab에 설치됩니다. 세 가지 **P.E.T. Station** 아이템은 다른 부가 장비와 같으며 표기는 **PET**입니다. 장착하면 그 슬롯이 Station을 **ON**과 **OFF**로 전환하고(두 번 누르는 사이에는 1초), 어느 쪽인지 보여 줍니다. ON인 동안은 도킹한 [P.E.T.](/wiki/03-Mechanics/Pets.md)가 적용되고, OFF인 동안은 적용되지 않습니다. **Auto-Rocket CPU**도 같은 방식으로 ON과 OFF를 전환합니다. 슬롯에 포인터를 올리면 지금 누르면 무엇이 일어나는지, 또는 왜 아무 일도 일어나지 않는지 볼 수 있습니다. **Organic Scanner**([여행자 안내서](/wiki/03-Mechanics/Travelers-Guide.md#scanning))는 처음에는 어떤 슬롯에도 들어 있지 않습니다. 부가 장비 선택창에서 슬롯으로 끌어다 놓으면 그 슬롯의 키로 사용합니다(전용 키는 없습니다).
 
 ![The Extras picker of the hotbar: the Repair Drone, the Auto-Repair, Cloaking, Base and Jump CPUs and the P.E.T. Station you have fitted (REP, ARP, CLK, BSE, JMP, PET): click one to use it, or drag it onto a slot](../../img/wiki-img/shots/cpu-hotbar.jpg)
 ![The Consumables picker of the hotbar: the EMP Charge and the Energetic Wall I and II (EMP, WAL), with how many of each you hold: click one to use it, or drag it onto a slot](../../img/wiki-img/shots/emp-hotbar.jpg)
@@ -59,10 +59,12 @@ Rocket Launcher V | extra, rare | craft 2000000 Thulium, 86400 s | research 8640
 Laser Optics III | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 1 Laser Optics II, 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
 Laser Optics IV | extra, rare | craft 50000 Thulium, 750 s | research 57600 s, 57600 science | 1 Laser Optics III, 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
 Laser Optics V | extra, rare | craft 75000 Thulium, 900 s | research 86400 s, 86400 science | 1 Laser Optics IV, 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Organic Scanner I | extra, rare | craft 20000 Credits, 10000 Thulium, 600 s | research 1800 s, 1800 science | 60 Ship Fragment, 2 Power Core, 1 Ancient Control Unit, 5 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
+Organic Scanner II | extra, epic | craft 50000 Credits, 20000 Thulium, 900 s | research 7200 s, 7200 science | 1 Organic Scanner I, 2 Lurker Fang, 2 Angler Lure, 1 Leviathan Scale | /wiki/06-Items/Extras.md
 
 P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 Cloaking CPU S -> Cloaking CPU M -> Cloaking CPU L
@@ -71,6 +73,7 @@ Extra Slots CPU I -> Extra Slots CPU II -> Extra Slots CPU III
 Base CPU I -> Base CPU II
 Laser Optics I => Laser Optics II => Laser Optics III => Laser Optics IV => Laser Optics V
 Rocket Launcher II => Rocket Launcher III => Rocket Launcher IV => Rocket Launcher V
+Organic Scanner I => Organic Scanner II
 ```
 <!-- item-tree:end -->
 
@@ -160,6 +163,8 @@ CPU 중 둘은 모든 강화 계열의 마지막 티어와 마찬가지로 Dark 
 | [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10시간 | – | 20,000 | 15분 |
 | [Mine II](/wiki/06-Items/Extras.md#mine) | 3시간 | – | 200 | 2분 |
 | [Mine III](/wiki/06-Items/Extras.md#mine) | 6시간 | [Mine II](/wiki/06-Items/Extras.md#mine) | 400 | 5분 |
+| [Organic Scanner I](/wiki/06-Items/Extras.md) | 30분 | – | 10,000 | 10분 |
+| [Organic Scanner II](/wiki/06-Items/Extras.md) | 2시간 | [Organic Scanner I](/wiki/06-Items/Extras.md) | 20,000 | 15분 |
 
 어느 것도 상점에서 팔지 않습니다. 기술을 연구한 뒤 어셈블리에서 CPU를 제작합니다. 트리에서 CPU에 마우스를 올리면 어셈블리가 무엇을 요구하는지 볼 수 있습니다.
 

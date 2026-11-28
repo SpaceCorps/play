@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 664f33363a18d973 -->
+<!-- wiki-i18n source: 3c07d568f3af3aab -->
 <!-- wiki-i18n title: Dormant Swamp -->
 # Dormant Swamp
 
 <!-- wiki-search: swamp; dormant swamp; base; turret; turrets; nike turret; laser turret; inert mass; unwakened; the unwakened; slumbering void; void; dormant lance; ds-4; 沼泽; 炮塔; 炮台 -->
 
-很久以前，银河中央住着一个先进的文明。它用泛着紫光脉络的紫黑色晶体建造，因为一个无人知晓的原因崩溃了。**Dormant Swamp** 是它的前哨，位于 `DS-4` 的左上角。从赛季第 11 天起它开始躁动：中央的炮台向看到的每艘飞船开火，**Inert Mass** 守卫着它，正中心沉睡着 **Unwakened**。这是飞行员**暂时还不该去**的地方。隐形时你可以飞到 Unwakened 跟前，而目前在那里别的什么都做不了：基地和它的炮台无法被破坏、进入、登上或与之交易。
+很久以前，银河中央住着一个先进的文明。它用泛着紫光脉络的紫黑色晶体建造，因为一个无人知晓的原因崩溃了。**Dormant Swamp** 是它的前哨，位于 `DS-4` 的左上角。从赛季第 11 天起它开始躁动：中央的炮台向看到的每艘飞船开火，**Inert Mass** 守卫着它，正中心沉睡着 **Unwakened**。隐形时你可以飞到 Unwakened 跟前。自 [Deep Void](/wiki/03-Mechanics/Deep-Void.md) 开启以来，炮台和 Unwakened 都可以被摧毁，每个世界本赛季第一次击杀 Unwakened 会打开该世界的 Threshold。基地本身无法进入、登上，也无法与之交易。
 
 沼泽也是 [Dormant 虫群](/wiki/05-Swarms/Dormant-Swarm.md)从第 11 天起出现的地方，**Slumbering Void** 在它周围巡逻。同样的 Void 也会成波来到[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md#the-slumbering-voids)。星区见[危险星区](/wiki/01-General/Danger-Sectors.md)。
 
@@ -17,7 +17,7 @@
 
 - **位置**：`DS-4` 的左上角：中心在 5,000 / 5,000
 - **出现**：从赛季第 11 天起，直到重置
-- **区域**：围绕中心 4,300 单位：炮台所能到达的最远处，也是暂时还没人该去的地方
+- **区域**：围绕中心 4,300 单位：炮台所能到达的最远处
 - **提示**：越过距中心 4,800 单位的那个环的飞船会收到一条系统行
 - **隐形**：任何炮台都不会看到隐形的飞船，也不会看到处于 EMP 生效期内的飞船
 - **外星人**：5 个 Inert Mass 留在距中心 2,400 单位以内。Unwakened 沉睡在中心。2 个 Slumbering Void 在距中心 4,600 到 6,500 单位之间巡逻。
@@ -28,7 +28,7 @@
 
 ## 炮台 {#the-guns}
 
-沼泽的炮塔会向射程内**它们能看到的最近的飞船**开火，不会向其他飞船开火：区域就是其中射程最远的那座所能到达的圆。它们不是任何意义上的实体：没有生命值，无法被锁定，你对它们开的火不会产生任何效果。它们的射击是真实的，世界会像缩放任何外星人的武器那样缩放它们的伤害。
+沼泽的炮塔会向射程内**它们能看到的最近的飞船**开火，不会向其他飞船开火：区域就是其中射程最远的那座所能到达的圆。它们不是飞船，但自 Deep Void 开启以来，每座炮塔都有了生命值：点击炮塔即可用激光向它开火，在它附近爆炸的火箭也会伤害它。被摧毁的炮塔在 Unwakened 复活前一直失效。它们的射击是真实的，世界会像缩放任何外星人的武器那样缩放它们的伤害。
 
 <!-- swamp-guns:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
@@ -57,108 +57,104 @@
 
 ## 外星人 {#the-aliens}
 
-失落文明的三种外星人住在这里，各有各的数字。它们像虫群首领一样**按造成的伤害**支付奖励：给予者是造成伤害至少达到[虫群](/wiki/05-Swarms/Swarms.md#the-rules-of-every-swarm)中所列比例的每名飞行员，货箱则归造成伤害最多的飞行员。击杀它们会像击杀虫群飞船一样，按奖励的比例增加你的 PvE 军衔积分（[军衔](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points)）。每个外星人的护盾在持续期间会吸收每次命中的 80%（[护盾](/wiki/03-Mechanics/Shields.md)）。
+失落文明的三种外星人住在这里，各有各的数字。它们像虫群首领一样**按造成的伤害**支付奖励：给予者是造成伤害至少达到[虫群](/wiki/05-Swarms/Swarms.md#the-rules-of-every-swarm)中所列比例的每名飞行员，货箱则归造成伤害最多的飞行员。击杀它们会像击杀虫群飞船一样，按奖励的比例增加你的 PvE 军衔积分（[军衔](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points)）。每个外星人的护盾在持续期间会吸收每次命中的 {{guide:vitals.absorbance@Slumbering Void;Inert Mass;The Unwakened}}（[护盾](/wiki/03-Mechanics/Shields.md)）。
 
 - **Slumbering Void。** 修长的猎手，游戏中最快的外星人（比装了 Afterburner III 的 Storm 更快）。一些总在沼泽周围巡逻，另一些成波来到挖掘机。它具有攻击性，追猎它能看到的最近的飞行员，并且永远看不到隐形的飞船。
 - **Inert Mass。** 带紫色裂纹的死寂巨体，有一座小空间站那么大。它们待在距沼泽中心固定的距离内，目前不会离开。它发射 **Dormant Lance**：射程极远的制导火箭，会一直追着飞船，直到它隐形、打开 EMP 窗口、进入安全环、跳跃或死亡。它比任何飞船都快，所以只有这些中断才管用。 挡在 Dormant Lance 路径上的小行星会拦下它，而 Lance 会用自身的伤害损伤该小行星（没有人为此获得报酬），因此岩石只能让你在几次命中之内免受 Inert Mass 的伤害。
-- **Unwakened。** 沉睡在沼泽中央的巨碑，是任何地图上最大的东西，慢到永远追不上飞船。它什么也不发射，但它光环内的每艘飞船都会被烧伤，**无论是否隐形**。它**免疫**：射击和火箭会命中却毫无作用，目标窗口显示满格条和“免疫”一词。之后的活动会让它可以被战斗；下面它的奖励只是写下来了，现在还无法获得。飞行员的**辐射技术**会降低它的灼烧，100 级时降到 0.40 倍。
+- **Unwakened。** 沉睡在沼泽中央的巨碑，是任何地图上最大的东西，慢到永远追不上飞船。它什么也不发射，但它光环内的每艘飞船都会被烧伤，**无论是否隐形**。自 [Deep Void](/wiki/03-Mechanics/Deep-Void.md) 开启以来，它可以被摧毁了：按造成的伤害支付报酬，死亡一天后复活，每个世界本赛季的第一次击杀会打开该世界的 Threshold。飞行员的**辐射技术**会降低它的灼烧，100 级时降到 0.40 倍。
 
 <!-- swamp-members:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
 
 ### Slumbering Void
 
-2 个 Slumbering Void 在距沼泽中心 4,600 到 6,500 单位之间巡逻；被击毁的会在 1 小时 后回来。挖掘机的波次会带来更多同样的外星人。
+2 个 Slumbering Void 在距沼泽中心 4,600 到 6,500 单位之间巡逻；被击毁的会在 {{guide:vitals.respawn@Slumbering Void}} 后回来。挖掘机的波次会带来更多同样的外星人。
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 船体 | 25,000 | 37,500 | 50,000 |
-| 护盾 | 150,000 | 225,000 | 300,000 |
-| 护盾吸收率 | 80% | 80% | 80% |
-| 激光伤害 （每秒一轮齐射） | 3,000 | 4,500 | 6,000 |
-| 速度 | 400 | 400 | 400 |
+| 船体 | {{guide:vitals.hull@Slumbering Void}} | {{guide:vitals.hull*1.5@Slumbering Void}} | {{guide:vitals.hull*2@Slumbering Void}} |
+| 护盾 | {{guide:vitals.shield@Slumbering Void}} | {{guide:vitals.shield*1.5@Slumbering Void}} | {{guide:vitals.shield*2@Slumbering Void}} |
+| 护盾吸收率 | {{guide:vitals.absorbance@Slumbering Void}} | {{guide:vitals.absorbance@Slumbering Void}} | {{guide:vitals.absorbance@Slumbering Void}} |
+| 激光伤害 （每秒一轮齐射） | {{guide:vitals.dps@Slumbering Void}} | {{guide:vitals.dps*1.5@Slumbering Void}} | {{guide:vitals.dps*2@Slumbering Void}} |
+| 速度 | {{guide:vitals.speed@Slumbering Void}} | {{guide:vitals.speed@Slumbering Void}} | {{guide:vitals.speed@Slumbering Void}} |
 | 激光射程 | 800 | 800 | 800 |
-| 仇恨范围 | 2,500 | 2,500 | 2,500 |
-| 信用点 | 23,000 | 46,000 | 69,000 |
-| Thulium | 60 | 120 | 180 |
-| 经验值（XP） | 3,600 | 7,200 | 10,800 |
-| 荣誉 | 16 | 32 | 48 |
+| 仇恨范围 | {{guide:vitals.aggro@Slumbering Void}} | {{guide:vitals.aggro@Slumbering Void}} | {{guide:vitals.aggro@Slumbering Void}} |
+| 信用点 | {{guide:spoils.pay.credits@Slumbering Void}} | {{guide:spoils.pay.credits*2@Slumbering Void}} | {{guide:spoils.pay.credits*3@Slumbering Void}} |
+| Thulium | {{guide:spoils.pay.thulium@Slumbering Void}} | {{guide:spoils.pay.thulium*2@Slumbering Void}} | {{guide:spoils.pay.thulium*3@Slumbering Void}} |
+| 经验值（XP） | {{guide:spoils.pay.experience@Slumbering Void}} | {{guide:spoils.pay.experience*2@Slumbering Void}} | {{guide:spoils.pay.experience*3@Slumbering Void}} |
+| 荣誉 | {{guide:spoils.pay.honor@Slumbering Void}} | {{guide:spoils.pay.honor*2@Slumbering Void}} | {{guide:spoils.pay.honor*3@Slumbering Void}} |
 | 每次击杀的 PvE 积分 | 10 | 10 | 10 |
 
 **掉落**：一个货箱，归造成伤害最多的飞行员。
 
-| 物品 | 几率 | 数量 |
-| :--- | ---: | ---: |
-| Ultra Core 和 Experimental Fusion Core 中随机一种 | 60% | 30–60 |
-| 4 种史诗级 [火箭](/wiki/06-Items/Rockets.md) 中随机一种 | 40% | 1–3 |
+| 物品 |
+| :--- |
+| {{guide:spoils.box@Slumbering Void}} |
 
 ### Inert Mass
 
-5 个 Inert Mass 站在距中心 2,400 单位以内；被击毁的会在 1 小时 后回来。每 6 秒 向它能看到的最近飞船发射一枚制导的 [Dormant Lance](/wiki/06-Items/Rockets.md#the-craft-only-rockets)：速度 750，飞行距离 5,250 单位，穿透 40%。
+5 个 Inert Mass 站在距中心 2,400 单位以内；被击毁的会在 {{guide:vitals.respawn@Inert Mass}} 后回来。每 6 秒 向它能看到的最近飞船发射一枚制导的 [Dormant Lance](/wiki/06-Items/Rockets.md#the-craft-only-rockets)：速度 750，飞行距离 5,250 单位，穿透 40%。
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 船体 | 250,000 | 375,000 | 500,000 |
-| 护盾 | 100,000 | 150,000 | 200,000 |
-| 护盾吸收率 | 80% | 80% | 80% |
-| 每枚 Dormant Lance 的伤害 | 5,000–8,000 | 7,500–12,000 | 10,000–16,000 |
-| 速度 | 60 | 60 | 60 |
+| 船体 | {{guide:vitals.hull@Inert Mass}} | {{guide:vitals.hull*1.5@Inert Mass}} | {{guide:vitals.hull*2@Inert Mass}} |
+| 护盾 | {{guide:vitals.shield@Inert Mass}} | {{guide:vitals.shield*1.5@Inert Mass}} | {{guide:vitals.shield*2@Inert Mass}} |
+| 护盾吸收率 | {{guide:vitals.absorbance@Inert Mass}} | {{guide:vitals.absorbance@Inert Mass}} | {{guide:vitals.absorbance@Inert Mass}} |
+| 每枚 Dormant Lance 的伤害 | {{guide:behaviour.ability:rocket.damageMin@Inert Mass}}–{{guide:behaviour.ability:rocket.damage@Inert Mass}} | {{guide:behaviour.ability:rocket.damageMin*1.5@Inert Mass}}–{{guide:behaviour.ability:rocket.damage*1.5@Inert Mass}} | {{guide:behaviour.ability:rocket.damageMin*2@Inert Mass}}–{{guide:behaviour.ability:rocket.damage*2@Inert Mass}} |
+| 速度 | {{guide:vitals.speed@Inert Mass}} | {{guide:vitals.speed@Inert Mass}} | {{guide:vitals.speed@Inert Mass}} |
 | 火箭射程 | 5,000 | 5,000 | 5,000 |
-| 仇恨范围 | 5,000 | 5,000 | 5,000 |
-| 信用点 | 125,000 | 250,000 | 375,000 |
-| Thulium | 335 | 670 | 1,005 |
-| 经验值（XP） | 20,200 | 40,400 | 60,600 |
-| 荣誉 | 88 | 176 | 264 |
+| 仇恨范围 | {{guide:vitals.aggro@Inert Mass}} | {{guide:vitals.aggro@Inert Mass}} | {{guide:vitals.aggro@Inert Mass}} |
+| 信用点 | {{guide:spoils.pay.credits@Inert Mass}} | {{guide:spoils.pay.credits*2@Inert Mass}} | {{guide:spoils.pay.credits*3@Inert Mass}} |
+| Thulium | {{guide:spoils.pay.thulium@Inert Mass}} | {{guide:spoils.pay.thulium*2@Inert Mass}} | {{guide:spoils.pay.thulium*3@Inert Mass}} |
+| 经验值（XP） | {{guide:spoils.pay.experience@Inert Mass}} | {{guide:spoils.pay.experience*2@Inert Mass}} | {{guide:spoils.pay.experience*3@Inert Mass}} |
+| 荣誉 | {{guide:spoils.pay.honor@Inert Mass}} | {{guide:spoils.pay.honor*2@Inert Mass}} | {{guide:spoils.pay.honor*3@Inert Mass}} |
 | 每次击杀的 PvE 积分 | 15 | 15 | 15 |
 
 **掉落**：一个货箱，归造成伤害最多的飞行员。
 
-| 物品 | 几率 | 数量 |
-| :--- | ---: | ---: |
-| Ultra Core 和 Experimental Fusion Core， 平均分配 | 100% | 共 400–800 |
-| 4 种史诗级 [火箭](/wiki/06-Items/Rockets.md) 中随机一种 | 100% | 20–40 |
-| N.I.K.E. | 5% | 1–2 |
-| Dark Matter | 5% | 1–3 |
-| Ancient Control Unit | 10% | 1 |
-| Power Core | 25% | 1–2 |
+| 物品 |
+| :--- |
+| {{guide:spoils.box@Inert Mass}} |
 
 ### The Unwakened
 
-只有一个，在沼泽中央，别处没有；被击毁后 24 小时 回来。在之后的任务关掉标记之前，它**免疫**：射击和火箭会命中却毫无作用。它的奖励只是写了下来，现在还无法获得。
+只有一个，在沼泽中央，别处没有；被击毁后 {{guide:vitals.respawn@The Unwakened}} 回来。自 Deep Void 开启以来，它可以被摧毁了，并和这里的其他外星人一样按造成的伤害支付报酬。
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 船体 | 10,000,000 | 15,000,000 | 20,000,000 |
-| 护盾 | 10,000,000 | 15,000,000 | 20,000,000 |
-| 护盾吸收率 | 80% | 80% | 80% |
-| 光环每秒对内部每艘飞船的伤害 | 75,000 | 112,500 | 150,000 |
+| 船体 | {{guide:vitals.hull@The Unwakened}} | {{guide:vitals.hull*1.5@The Unwakened}} | {{guide:vitals.hull*2@The Unwakened}} |
+| 护盾 | {{guide:vitals.shield@The Unwakened}} | {{guide:vitals.shield*1.5@The Unwakened}} | {{guide:vitals.shield*2@The Unwakened}} |
+| 护盾吸收率 | {{guide:vitals.absorbance@The Unwakened}} | {{guide:vitals.absorbance@The Unwakened}} | {{guide:vitals.absorbance@The Unwakened}} |
+| 光环每秒对内部每艘飞船的伤害 | {{guide:behaviour.ability:aura.damagePerSecond@The Unwakened}} | {{guide:behaviour.ability:aura.damagePerSecond*1.5@The Unwakened}} | {{guide:behaviour.ability:aura.damagePerSecond*2@The Unwakened}} |
 | 光环半径 | 700 | 700 | 700 |
-| 速度 | 10 | 10 | 10 |
-| 仇恨范围 | 3,000 | 3,000 | 3,000 |
-| 信用点 | 7,500,000 | 15,000,000 | 22,500,000 |
-| Thulium | 20,000 | 40,000 | 60,000 |
-| 经验值（XP） | 1,200,000 | 2,400,000 | 3,600,000 |
-| 荣誉 | 5,200 | 10,400 | 15,600 |
+| 速度 | {{guide:vitals.speed@The Unwakened}} | {{guide:vitals.speed@The Unwakened}} | {{guide:vitals.speed@The Unwakened}} |
+| 仇恨范围 | {{guide:vitals.aggro@The Unwakened}} | {{guide:vitals.aggro@The Unwakened}} | {{guide:vitals.aggro@The Unwakened}} |
+| 信用点 | {{guide:spoils.pay.credits@The Unwakened}} | {{guide:spoils.pay.credits*2@The Unwakened}} | {{guide:spoils.pay.credits*3@The Unwakened}} |
+| Thulium | {{guide:spoils.pay.thulium@The Unwakened}} | {{guide:spoils.pay.thulium*2@The Unwakened}} | {{guide:spoils.pay.thulium*3@The Unwakened}} |
+| 经验值（XP） | {{guide:spoils.pay.experience@The Unwakened}} | {{guide:spoils.pay.experience*2@The Unwakened}} | {{guide:spoils.pay.experience*3@The Unwakened}} |
+| 荣誉 | {{guide:spoils.pay.honor@The Unwakened}} | {{guide:spoils.pay.honor*2@The Unwakened}} | {{guide:spoils.pay.honor*3@The Unwakened}} |
 | 每次击杀的 PvE 积分 | 112 | 112 | 112 |
 
 **掉落**：一个货箱，归造成伤害最多的飞行员。
 
-| 物品 | 几率 | 数量 |
-| :--- | ---: | ---: |
-| Ultra Core 和 Experimental Fusion Core， 平均分配 | 100% | 共 10,000–15,000 |
-| 4 种史诗级 [火箭](/wiki/06-Items/Rockets.md) 中随机一种 | 100% | 500–800 |
-| N.I.K.E. | 100% | 20–30 |
-| N.U.K.E. | 100% | 5–10 |
-| Dark Matter | 100% | 40–60 |
-| Ancient Control Unit | 100% | 10–20 |
-| Power Core | 100% | 100–200 |
+| 物品 |
+| :--- |
+| {{guide:spoils.box@The Unwakened}} |
 
 <!-- swamp-members:end -->
 
+## Deep Void 开启之后 {#with-the-deep-void}
+
+Deep Void 在这里带来的变化，简要如下：
+
+- **Unwakened 可以被摧毁了。** 它不再无敌：和这里的其他外星人一样按造成的伤害支付报酬，并在死亡一天后复活。
+- **炮台可以被摧毁了。** 三座炮台（同时发射 N.I.K.E. 和 N.U.K.E. 的火箭炮塔，以及两座激光炮塔）现在都有耐久，激光和火箭都能伤害它们。被摧毁的炮台在 Unwakened 复活前一直失效。
+- **第一次击杀会打开 Threshold。** 每个世界本赛季第一次击杀 Unwakened 时，会在 `DS-4` 的另一角打开该世界的 Threshold，[Deep Void](/wiki/03-Mechanics/Deep-Void.md) 就从那里开始。
+
 ## 在这里该做什么 {#what-to-do-here}
 
-- **只看，别碰。** 沼泽是留给以后的。不隐形时你能触及的唯一内容在区域之外：区域外围一圈巡逻的 Void 是沼泽的第一道防线，也是小队可以不受炮台影响战斗的地方。
-- **用穿透对付 Void。** Void 的大护盾会吸收一次命中的 80%，却几乎无关紧要：后面的船体很小。你的激光护盾穿透越高，它倒得越快（[激光与弹药](/wiki/06-Items/Lasers.md)）。
+- **第一次击杀会打开通路。** 本赛季第一次击杀 Unwakened 会打开该世界的 Threshold，也就打开了通往 [Deep Void](/wiki/03-Mechanics/Deep-Void.md) 的路；区域内炮台几秒钟就能摧毁一艘飞船。区域之外，围绕区域一圈巡逻的 Void 是沼泽的第一道防线，也是小队可以不受炮台影响战斗的地方。
+- **用穿透对付 Void。** Void 的大护盾会吸收一次命中的 {{guide:vitals.absorbance@Slumbering Void;Inert Mass;The Unwakened}}，却几乎无关紧要：后面的船体很小。你的激光护盾穿透越高，它倒得越快（[激光与弹药](/wiki/06-Items/Lasers.md)）。
 - **远离 Lance。** Inert Mass 看得很远，而 Lance 是甩不掉的：用隐形、EMP、安全环或跳跃打断它的锁定，或者离开它的射程。即使对一支由最强飞船组成的大型小队来说，一只 Mass 也是一场漫长的战斗。
 - **Dormant 虫群**现在出现在区域刚好之外，所以小队可以在炮台之外等它。见 [Dormant 虫群](/wiki/05-Swarms/Dormant-Swarm.md)。
 

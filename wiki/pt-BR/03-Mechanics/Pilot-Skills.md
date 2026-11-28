@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0b4fab38b0c9363e -->
+<!-- wiki-i18n source: a1d69f436602c5d1 -->
 <!-- wiki-i18n title: Perícias do piloto -->
 # Perícias do piloto {#pilot-skills}
 
@@ -53,6 +53,7 @@ As tabelas dão cada bônus no nível 1 e no último nível; entre os dois, o b�
 | :--- | :--- | ---: | ---: |
 | **Massa** | Casco | +0% | +20% |
 | **Tenacidade** | Dano sofrido | ×1 | ×0,92 |
+|  | Medo do escuro (Deep Void) | ×1 | ×0,8 |
 | **Reflexos** | Velocidade de recarga das habilidades | ×1 | ×1,1 |
 | **Instinto** | Chance de cada linha de saque | +0 pontos | +7,5 pontos |
 |  | Orvium e Velkonite dos coletores | ×1 | ×1,5 |
@@ -63,8 +64,10 @@ As tabelas dão cada bônus no nível 1 e no último nível; entre os dois, o b�
 | :--- | :--- | ---: | ---: |
 | **Tecnologia laser** (Reflexos) | Dano do laser | ×1 | ×1,3 |
 |  | Chance de uma rajada de laser acertar | 80% | 89% |
+|  | Medo das rajadas de laser (Deep Void) | ×1 | ×0,8 |
 | **Tecnologia de foguetes** (Reflexos) | Dano do foguete | ×1 | ×1,3 |
 |  | Chance de um foguete falhar ao acender | 10% | 1% |
+|  | Medo dos foguetes (Deep Void) | ×1 | ×0,8 |
 | **Antimatéria** (Instinto) | Dark Matter das coletas | ×1 | ×2 |
 
 ### Combate {#combat}
@@ -88,6 +91,7 @@ As tabelas dão cada bônus no nível 1 e no último nível; entre os dois, o b�
 | :--- | :--- | ---: | ---: |
 | **Tecnologia de radiação** (Tenacidade) | Dose de radiação | ×1 | ×0,4 |
 | **Teoria de propulsores** (Massa) | Velocidade | +0% | +10% |
+|  | Medo de voar rápido (Deep Void) | ×1 | ×0,8 |
 | **Ciência** (Instinto) | Ciência por unidade de combustível | ×1 | ×1,25 |
 
 ### Skylab
@@ -116,7 +120,7 @@ As tabelas dão cada bônus no nível 1 e no último nível; entre os dois, o b�
 - **Foguetes.** A Tecnologia de foguetes muda o dano de cada foguete e a chance de um falhar ao acender ([Tecnologia de foguetes](/wiki/06-Items/Rockets.md#rocket-tech)).
 - **Levar golpes.** A Tenacidade tira uma parte de cada golpe que você leva, a Evasão aumenta a chance de um acerto direto não fazer nada e a Absorção de escudo aumenta a parte de um acerto que os seus escudos recebem ([Combate](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). A Massa aumenta o seu casco.
 - **Cura.** A Cura fortalece as curas do seu próprio equipamento: o reparo do seu Repair Drone, um Emergency Repair, além do Heal Pod, do Channel Heal e do Channel Shield que você usa ([Habilidades](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Na Miyuki, essas três habilidades também esperam menos entre um uso e outro. Ela treina com o casco que as suas curas restauram; curar uma nave dentro de uma zona segura não conta. O Support Rocket sempre cura a mesma quantidade fixa, em qualquer nível, e ainda assim paga XP de Cura.
-- **Camuflagem.** Furtividade encurta a espera depois que uma camuflagem termina, tanto para uma Cloaking CPU ([Extras](/wiki/06-Items/Extras.md#cloaking-cpu)) quanto para o Chameleon ([Habilidades](/wiki/03-Mechanics/Abilities.md)). Treina com os segundos que você passa camuflado; nenhum conta dentro de uma zona segura ou enquanto você não der ordens.
+- **Camuflagem.** Furtividade encurta a espera depois que uma camuflagem termina, tanto para uma Cloaking CPU ([Extras](/wiki/06-Items/Extras.md#cloaking-cpu)) quanto para o Chameleon ([Habilidades](/wiki/03-Mechanics/Abilities.md)). Treina com os segundos que você passa camuflado; nenhum conta dentro de uma zona segura ou enquanto você não der ordens e a sua nave não estiver voando para o lugar para onde você a enviou (um voo conta até 5 minutos depois da sua última ordem).
 - **Habilidades.** Os Reflexos encurtam o tempo de recarga das suas habilidades e a Tática as faz durar mais ([Habilidades](/wiki/03-Mechanics/Abilities.md#pilot-skills)). A Sabotagem fortalece os venenos.
 - **Mines.** A Sabotagem aumenta o dano de uma Mine, e a Pontaria a lança mais rápido e mais longe ([Extras](/wiki/06-Items/Extras.md#mine)).
 - **Velocidade.** A Teoria de propulsores soma à sua velocidade, além dos motores e de um Afterburner ([Velocidade](/wiki/03-Mechanics/Speed.md)).
@@ -160,7 +164,7 @@ A tabela lista o que paga XP, estatística por estatística. O XP é por cada un
 | **Tática** (Reflexos) | A cada habilidade que você aciona com um hostil ao alcance do laser | 2 | 600 XP por hora |
 | **Absorção de escudo** (Tenacidade) | A cada 1% do seu escudo máximo consumido por acertos de inimigos | 0,1 | 300 XP por hora |
 | **Cura** (Massa) | A cada 1% do casco máximo de uma nave que uma cura sua restaura | 0,1 | 300 XP por hora |
-| **Furtividade** (Reflexos) | A cada segundo que você passa camuflado com uma ordem dada nos últimos 1 min, fora das zonas seguras | 0,1 | Nenhum |
+| **Furtividade** (Reflexos) | A cada segundo que você passa camuflado com uma ordem dada nos últimos 1 min ou enquanto a sua nave voa para o lugar para onde você a enviou (até 5 min depois da sua última ordem), fora das zonas seguras | 0,1 | Nenhum |
 | **Tecnologia de radiação** (Tenacidade) | A cada segundo dentro de uma faixa de radiação | 0,2 | Nenhum |
 |  | A cada 1% do seu casco máximo que a radiação tira | 1 |  |
 | **Teoria de propulsores** (Massa) | A cada segundo voado acima de 80% da velocidade da sua nave, o dobro sob um Afterburner | 0,1 | Nenhum |

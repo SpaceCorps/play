@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b9bfffab24f7eda8 -->
+<!-- wiki-i18n source: 6acaa0292fff4664 -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker
 
@@ -6,10 +6,10 @@ Seeker は基本的な斥候・偵察ユニットです。非攻撃的で、自�
 
 ## ステータス {#stats}
 
-- **ヒットポイント（HP）**：800
-- **シールド**：800
-- **ダメージ**：180
-- **速度**：120
+- **ヒットポイント（HP）**：{{guide:vitals.hull@Seeker#1}}
+- **シールド**：{{guide:vitals.shield@Seeker#1}}
+- **ダメージ**：{{guide:vitals.dps@Seeker#1}}
+- **速度**：{{guide:vitals.speed@Seeker#1;Seeker#2;Seeker#3;Seeker#4}}
 - **攻撃射程**：600
 - **行動傾向**：非攻撃的
 
@@ -24,10 +24,10 @@ Seeker は基本的な斥候・偵察ユニットです。非攻撃的で、自�
 
 ## 報酬 {#rewards}
 
-- **クレジット**：1,000
-- **Thulium**：4
-- **経験値（XP）**：100
-- **名誉**：2
+- **クレジット**：{{guide:spoils.pay.credits@Seeker#1}}
+- **Thulium**：{{guide:spoils.pay.thulium@Seeker#1}}
+- **経験値（XP）**：{{guide:spoils.pay.experience@Seeker#1}}
+- **名誉**：{{guide:spoils.pay.honor@Seeker#1}}
 - **撃破1回あたりの PvE ポイント**：1
 - **シールドリチャージ**：毎秒 10（15秒後から）
 
@@ -37,9 +37,11 @@ Seeker は基本的な斥候・偵察ユニットです。非攻撃的で、自�
 
 各ドロップの用途とほかの入手先は[資源](/wiki/06-Items/Resources.md)を参照してください。
 
-- **Ship Fragment**：20%の確率（最小：1、最大：1）
-- **Daraxium**：50%の確率（最小：1、最大：2）
-- **Echo Shard**：0.8%の確率（最小：1、最大：1）
+- {{guide:spoils.box@Seeker#1;Seeker#2;Seeker#3;Seeker#4}}
+
+## 特殊能力 {#special-abilities}
+
+この種類のエイリアンの一部は**特殊能力**を持っています。船体が半分になったとき、一度だけ使う技です。始まるまでは何も見えません。[特殊能力](/wiki/03-Mechanics/Special-Abilities.md)では、各能力が何をするか、どう対処するかを説明します。
 
 ## 伝承 {#lore}
 

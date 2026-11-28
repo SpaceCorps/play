@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fff5cfd69e987468 -->
+<!-- wiki-i18n source: 7c6bc3eaf70223f5 -->
 <!-- wiki-i18n title: Enxame Seeker -->
 # Enxame Seeker {#seeker-swarm}
 
@@ -17,14 +17,14 @@ O enxame Seeker é o menor dos [enxames](/wiki/05-Swarms/Swarms.md): um **Boss S
 - **Os seguidores ficam a**: até 500 unidades do líder
 - **Cura**: Cada Seeker Slave a até 600 unidades do líder cura o casco dele, 50 HP por segundo em Alpha
 - **Líder destruído**: Os seguidores vão embora 30 s depois que o líder é destruído, a menos que estejam atacando
-- **Volta**: 2 min depois que o líder é destruído, no mesmo setor
+- **Volta**: {{guide:vitals.respawn@Boss Seeker#1;Boss Seeker#2;Boss Seeker#3}} depois que o líder é destruído, no mesmo setor
 - **Avisos**: Os pilotos do setor são avisados quando o líder aparece e quando é destruído. São linhas do Sistema: aparecem na aba **Sistema** do chat, com uma contagem de linhas não lidas, e não em **Global** nem em **Local**. O registro de baixas nomeia o piloto a quem o abate é creditado.
 
 <!-- seeker-glance:end -->
 
 ## Os membros {#the-members}
 
-- **Boss Seeker**: um Seeker bem maior, com a tonalidade do enxame e o nome por cima, com várias vezes o casco, o escudo e o dano de um Seeker (os números estão abaixo). É passivo: vagueia até um piloto acertá-lo, então para onde está e atira nesse piloto, e as naves do seu enxame que estão perto entram na luta. O alcance da arma e a velocidade são os de um Seeker, e ele nunca conserta o próprio casco.
+- **Boss Seeker**: um Seeker bem maior, com a tonalidade do enxame e o nome por cima, com várias vezes o casco, o escudo e o dano de um Seeker (os números estão abaixo). É passivo: vagueia até um piloto acertá-lo, então para onde está e atira nesse piloto, e as naves do seu enxame que estão perto entram na luta. O alcance da arma e a velocidade são os de um Seeker, e ele nunca conserta o próprio casco. As suas [três etapas](#the-leaders-three-steps) e uma [habilidade especial](/wiki/03-Mechanics/Special-Abilities.md) podem mudar isso.
 - **Seeker Slave**: um Seeker comum com a tonalidade do enxame. Os Slaves ficam perto do chefe, entram na luta quando uma nave de enxame perto deles é acertada, e cada um que está perto do chefe cura o casco dele. Um Slave conserta o próprio casco depois de um descanso, como um Seeker faz.
 
 ## Como a luta transcorre {#how-the-fight-goes}
@@ -33,6 +33,19 @@ O enxame Seeker é o menor dos [enxames](/wiki/05-Swarms/Swarms.md): um **Boss S
 - **Fique fora do alcance.** O chefe e seus Slaves são mais lentos que uma Protos, e as armas deles alcançam menos que um Quantum Laser II (veja [Lasers e munição](/wiki/06-Items/Lasers.md)): um piloto que tem esses lasers e fica além do alcance deles não sofre dano enquanto eles atiram. Um piloto com Quantum Laser I não consegue ficar fora do alcance.
 - **Os Slaves curam mais rápido do que um piloto novo sozinho acerta.** Juntos, eles curam mais do que os lasers de um piloto causam com munição x1, então leve um parceiro e munição x2. Dois pilotos com Quantum Laser II que mantêm a distância derrubam o chefe em cerca de um minuto em Alpha, e bem mais rápido com munição x2.
 - **O chefe volta** depois do tempo da lista *Resumo rápido*, com a força toda, no mesmo setor, e seus Slaves chegam um depois do outro.
+
+## As três etapas do líder {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+A luta tem três etapas ([como funcionam](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); cada uma acontece uma vez.
+
+- **No início**: Seus Seeker Slaves o reparam ×2 mais rápido por 8 s.
+- **Abaixo de dois terços**: 2 cópias dele aparecem, e o verdadeiro usa um anel.
+- **Abaixo de um terço**: Foge dos pilotos por 4 s e depois se volta contra eles.
+
+<!-- mob-ladder:end -->
 
 ## Recompensas e saque {#rewards-and-drops}
 
@@ -51,28 +64,23 @@ Base: Seeker, com 400% de casco, escudo e dano; a velocidade e o alcance são os
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Casco | 3.200 | 4.800 | 6.400 |
-| Escudo | 3.200 | 4.800 | 6.400 |
-| Dano dos lasers (uma salva por segundo) | 720 | 1.080 | 1.440 |
-| Velocidade | 120 | 120 | 120 |
+| Casco | {{guide:vitals.hull@Boss Seeker#1}} | {{guide:vitals.hull@Boss Seeker#2}} | {{guide:vitals.hull@Boss Seeker#3}} |
+| Escudo | {{guide:vitals.shield@Boss Seeker#1}} | {{guide:vitals.shield@Boss Seeker#2}} | {{guide:vitals.shield@Boss Seeker#3}} |
+| Dano dos lasers (uma salva por segundo) | {{guide:vitals.dps@Boss Seeker#1}} | {{guide:vitals.dps@Boss Seeker#2}} | {{guide:vitals.dps@Boss Seeker#3}} |
+| Velocidade | {{guide:vitals.speed@Boss Seeker#1}} | {{guide:vitals.speed@Boss Seeker#2}} | {{guide:vitals.speed@Boss Seeker#3}} |
 | Alcance dos lasers | 600 | 600 | 600 |
 | Raio de agressão | só quando atacado | só quando atacado | só quando atacado |
-| Créditos | 10.000 | 20.000 | 30.000 |
-| Thulium | 40 | 80 | 120 |
-| Experiência (XP) | 1.000 | 2.000 | 3.000 |
-| Honra | 20 | 40 | 60 |
+| Créditos | {{guide:spoils.pay.credits@Boss Seeker#1}} | {{guide:spoils.pay.credits@Boss Seeker#2}} | {{guide:spoils.pay.credits@Boss Seeker#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Boss Seeker#1}} | {{guide:spoils.pay.thulium@Boss Seeker#2}} | {{guide:spoils.pay.thulium@Boss Seeker#3}} |
+| Experiência (XP) | {{guide:spoils.pay.experience@Boss Seeker#1}} | {{guide:spoils.pay.experience@Boss Seeker#2}} | {{guide:spoils.pay.experience@Boss Seeker#3}} |
+| Honra | {{guide:spoils.pay.honor@Boss Seeker#1}} | {{guide:spoils.pay.honor@Boss Seeker#2}} | {{guide:spoils.pay.honor@Boss Seeker#3}} |
 | Pontos PvE por abate | 5 | 5 | 5 |
 
 **Saque**: uma caixa, para o piloto que mais causou dano.
 
-| Item | Chance | Quantidade |
-| :--- | ---: | ---: |
-| Ship Fragment | 20% em cada uma de 10 rolagens | 1 |
-| Daraxium | 50% em cada uma de 10 rolagens | 1–2 |
-| Standard Battery | 100% | 200–400 |
-| Advanced Plasma | 100% | 10–20 |
-| Ultra Core | 100% | 2–4 |
-| Um dos 4 [foguetes](/wiki/06-Items/Rockets.md) comprados com créditos, escolhido ao acaso | 100% | 2–3 |
+| Item |
+| :--- |
+| {{guide:spoils.box@Boss Seeker#1;Boss Seeker#2;Boss Seeker#3}} |
 
 ### Seeker Slave
 
@@ -80,17 +88,17 @@ Base: Seeker, com 100% de casco, escudo e dano; a velocidade e o alcance são os
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Casco | 800 | 1.200 | 1.600 |
-| Escudo | 800 | 1.200 | 1.600 |
-| Dano dos lasers (uma salva por segundo) | 180 | 270 | 360 |
-| Velocidade | 120 | 120 | 120 |
+| Casco | {{guide:vitals.hull@Seeker Slave#1}} | {{guide:vitals.hull@Seeker Slave#2}} | {{guide:vitals.hull@Seeker Slave#3}} |
+| Escudo | {{guide:vitals.shield@Seeker Slave#1}} | {{guide:vitals.shield@Seeker Slave#2}} | {{guide:vitals.shield@Seeker Slave#3}} |
+| Dano dos lasers (uma salva por segundo) | {{guide:vitals.dps@Seeker Slave#1}} | {{guide:vitals.dps@Seeker Slave#2}} | {{guide:vitals.dps@Seeker Slave#3}} |
+| Velocidade | {{guide:vitals.speed@Seeker Slave#1}} | {{guide:vitals.speed@Seeker Slave#2}} | {{guide:vitals.speed@Seeker Slave#3}} |
 | Alcance dos lasers | 600 | 600 | 600 |
 | Raio de agressão | só quando atacado | só quando atacado | só quando atacado |
 | Cura o líder, cada um, por segundo (só o casco) | 50 | 75 | 100 |
-| Créditos | 125 | 250 | 375 |
-| Thulium | 1 | 2 | 3 |
-| Experiência (XP) | 12 | 24 | 36 |
-| Honra | 1 | 2 | 3 |
+| Créditos | {{guide:spoils.pay.credits@Seeker Slave#1}} | {{guide:spoils.pay.credits@Seeker Slave#2}} | {{guide:spoils.pay.credits@Seeker Slave#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Seeker Slave#1}} | {{guide:spoils.pay.thulium@Seeker Slave#2}} | {{guide:spoils.pay.thulium@Seeker Slave#3}} |
+| Experiência (XP) | {{guide:spoils.pay.experience@Seeker Slave#1}} | {{guide:spoils.pay.experience@Seeker Slave#2}} | {{guide:spoils.pay.experience@Seeker Slave#3}} |
+| Honra | {{guide:spoils.pay.honor@Seeker Slave#1}} | {{guide:spoils.pay.honor@Seeker Slave#2}} | {{guide:spoils.pay.honor@Seeker Slave#3}} |
 | Pontos PvE por abate | 1 | 1 | 1 |
 
 **Saque**: nenhum. O abate paga só os seus créditos, Thulium, XP e honra.

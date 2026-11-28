@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c205efd6ca83bd6f -->
+<!-- wiki-i18n source: 26bbf6eb36f9c7f8 -->
 <!-- wiki-i18n title: 护盾 -->
 # 护盾机制 {#shield-mechanics}
 
@@ -43,7 +43,7 @@
 - 护盾最多承受这次攻击的 `round(damage x share)`；其余由船体承受。护盾值不足以承担其份额时，差额会转给 HP；如果护盾值为 0，所有伤害都直接打在 HP 上。
 - **穿透的来源**：单体火箭的*护盾穿透*（Lancet I 10%、Lancet II 25%、Lancet III 35%、Rivet I 5%、Rivet II 25%、Rivet III 35%、N.I.K.E. 35%；范围爆炸没有穿透，见[火箭](/wiki/06-Items/Rockets.md)）以及激光弹药的穿透（Ultra Core 5%、Experimental Fusion Core 10%；见[激光与弹药](/wiki/06-Items/Lasers.md)）。外星人没有穿透，x1 和 x2 弹药也没有。激光命中还会扣除射手激光上的 Penetration Amp（每个槽位 +5% 至 +20%，是它所有激光的平均值）和无人机编队的穿透（Gemini +15%；Stiletto 只给直接命中火箭 +35%）；直接命中火箭会把编队的穿透加到自己的穿透上。**总和没有上限**：护盾承受的是吸收率减去全部穿透后的部分，最低可以是命中的零（[激光命中是如何累加的](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)）。
 - **示例**：91% 的吸收率对上 Lancet III（35%）：护盾承受这次攻击的 56%，船体承受 44%。100% 对上它：65% 和 35%。112% 对上 12% 的穿透：整次攻击都由护盾承受。45%（单独一个 Light Shield Core）对上 35%：10% 由护盾承受，其余由船体承受。单独的火箭不能完全穿透任何核心，但 Lancet III 配上 Stiletto（35% + 35% = 70%），会让单独一个 Light Shield Core（45%）完全承受不了这次命中，最强的激光（85%）同样如此：面对这把激光，最好的护盾（91%）承受命中的 6%，船体承受 94%。
-- 外星人没有吸收率属性：它们按 80% / 20% 分配每次攻击，再减去该次攻击的穿透。
+- 外星人没有吸收率属性：它们按 80% / 20% 分配每次攻击，再减去该次攻击的穿透。Deep Void 的生物是例外：它们按 90% / 10% 分配每次攻击。
 - Siphon Battery 的伤害只从护盾中扣除：吸收率和穿透都不起作用。
 
 **护盾什么都承受不了的情形。** 穿透等于或高于吸收率时，护盾承受不到这次命中的任何部分，全部由船体承受。下表是护盾对最强激光（100%；用 Antimatter Battery 代替 Experimental Fusion Core 则为 110%，伤害 x3）和最强单体火箭（配 Stiletto 的 Lancet III 或 Rivet III，70%）单次命中所承受的比例：

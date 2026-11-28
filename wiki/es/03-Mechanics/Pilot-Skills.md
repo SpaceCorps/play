@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0b4fab38b0c9363e -->
+<!-- wiki-i18n source: a1d69f436602c5d1 -->
 <!-- wiki-i18n title: Destrezas de piloto -->
 # Destrezas de piloto {#pilot-skills}
 
@@ -53,6 +53,7 @@ Las tablas dan cada bonificador en el nivel 1 y en el último nivel; entre ambos
 | :--- | :--- | ---: | ---: |
 | **Masa** | Casco | +0 % | +20 % |
 | **Temple** | Daño recibido | ×1 | ×0,92 |
+|  | Miedo por la oscuridad (Deep Void) | ×1 | ×0,8 |
 | **Reflejos** | Velocidad de recarga de habilidades | ×1 | ×1,1 |
 | **Instinto** | Probabilidad de cada línea de botín | +0 puntos | +7,5 puntos |
 |  | Orvium y Velkonite de los colectores | ×1 | ×1,5 |
@@ -63,8 +64,10 @@ Las tablas dan cada bonificador en el nivel 1 y en el último nivel; entre ambos
 | :--- | :--- | ---: | ---: |
 | **Tecnología láser** (Reflejos) | Daño láser | ×1 | ×1,3 |
 |  | Probabilidad de que una ráfaga láser acierte | 80 % | 89 % |
+|  | Miedo por las ráfagas láser (Deep Void) | ×1 | ×0,8 |
 | **Tecnología de cohetes** (Reflejos) | Daño de cohete | ×1 | ×1,3 |
 |  | Probabilidad de que un cohete falle al encenderse | 10 % | 1 % |
+|  | Miedo por los cohetes (Deep Void) | ×1 | ×0,8 |
 | **Antimateria** (Instinto) | Dark Matter de las recogidas | ×1 | ×2 |
 
 ### Combate {#combat}
@@ -88,6 +91,7 @@ Las tablas dan cada bonificador en el nivel 1 y en el último nivel; entre ambos
 | :--- | :--- | ---: | ---: |
 | **Tecnología de radiación** (Temple) | Dosis de radiación | ×1 | ×0,4 |
 | **Teoría de propulsores** (Masa) | Velocidad | +0 % | +10 % |
+|  | Miedo por volar rápido (Deep Void) | ×1 | ×0,8 |
 | **Ciencia** (Instinto) | Ciencia por cada unidad de combustible | ×1 | ×1,25 |
 
 ### Skylab
@@ -116,7 +120,7 @@ Las tablas dan cada bonificador en el nivel 1 y en el último nivel; entre ambos
 - **Cohetes.** La Tecnología de cohetes cambia el daño de cada cohete y la probabilidad de que uno falle al encenderse ([Tecnología de cohetes](/wiki/06-Items/Rockets.md#rocket-tech)).
 - **Recibir golpes.** El Temple quita una parte de cada golpe que recibes, la Evasión aumenta la probabilidad de que un impacto directo no haga nada y la Absorción de escudo aumenta la parte de un impacto que se llevan tus escudos ([Combate](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). La Masa aumenta tu casco.
 - **Curación.** La Curación hace más fuertes las curaciones de tu propio equipo: la reparación de tu Repair Drone, una Emergency Repair y el Heal Pod, el Channel Heal y el Channel Shield que usas ([Habilidades](/wiki/03-Mechanics/Abilities.md#pilot-skills)). En el Miyuki, esas tres habilidades también esperan menos entre usos. Se entrena con el casco que restauran tus curaciones; curar una nave dentro de una zona segura no cuenta. El Support Rocket siempre cura la misma cantidad fija, a cualquier nivel, y aun así da XP de Curación.
-- **Camuflaje.** Sigilo acorta la espera cuando termina un camuflaje, tanto con una Cloaking CPU ([Extras](/wiki/06-Items/Extras.md#cloaking-cpu)) como con el Chameleon ([Habilidades](/wiki/03-Mechanics/Abilities.md)). Se entrena con los segundos que pasas camuflado; no cuenta ninguno dentro de una zona segura ni mientras no des órdenes.
+- **Camuflaje.** Sigilo acorta la espera cuando termina un camuflaje, tanto con una Cloaking CPU ([Extras](/wiki/06-Items/Extras.md#cloaking-cpu)) como con el Chameleon ([Habilidades](/wiki/03-Mechanics/Abilities.md)). Se entrena con los segundos que pasas camuflado; no cuenta ninguno dentro de una zona segura ni mientras no des órdenes y tu nave no esté volando al lugar al que la enviaste (un vuelo cuenta hasta 5 minutos después de tu última orden).
 - **Habilidades.** Los Reflejos acortan el enfriamiento de tus habilidades y la Táctica hace que duren más ([Habilidades](/wiki/03-Mechanics/Abilities.md#pilot-skills)). El Sabotaje refuerza los venenos.
 - **Mines.** El Sabotaje aumenta el daño de una Mine, y la Puntería la lanza más rápido y más lejos ([Extras](/wiki/06-Items/Extras.md#mine)).
 - **Velocidad.** La Teoría de propulsores suma a tu velocidad, además de los motores y un Afterburner ([Velocidad](/wiki/03-Mechanics/Speed.md)).
@@ -160,7 +164,7 @@ La tabla indica qué paga XP, estadística por estadística. La XP es por cada u
 | **Táctica** (Reflejos) | Cada habilidad que pulsas con un hostil al alcance del láser | 2 | 600 XP por hora |
 | **Absorción de escudo** (Temple) | Cada 1 % de tu escudo máximo que absorben los impactos enemigos | 0,1 | 300 XP por hora |
 | **Curación** (Masa) | Cada 1 % del casco máximo de una nave que restaura una curación tuya | 0,1 | 300 XP por hora |
-| **Sigilo** (Reflejos) | Cada segundo que pasas camuflado con una orden dada en los últimos 1 min, fuera de las zonas seguras | 0,1 | Ninguno |
+| **Sigilo** (Reflejos) | Cada segundo que pasas camuflado con una orden dada en los últimos 1 min o mientras tu nave vuela al lugar al que la enviaste (hasta 5 min después de tu última orden), fuera de las zonas seguras | 0,1 | Ninguno |
 | **Tecnología de radiación** (Temple) | Cada segundo dentro de una banda de radiación | 0,2 | Ninguno |
 |  | Cada 1 % de tu casco máximo que quita la radiación | 1 |  |
 | **Teoría de propulsores** (Masa) | Cada segundo volado por encima del 80 % de la velocidad de tu nave, el doble con un Afterburner | 0,1 | Ninguno |

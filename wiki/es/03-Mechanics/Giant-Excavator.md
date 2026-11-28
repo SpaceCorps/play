@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e3fa08f52459090c -->
+<!-- wiki-i18n source: d7154b35dd9c47fc -->
 <!-- wiki-i18n title: Excavadora gigante -->
 # Excavadora gigante {#giant-excavator}
 
@@ -91,13 +91,13 @@ Una tanda atrae a los **Slumbering Voids**, cazadores de la civilización perdid
 
 - **Oleadas.** 3 Slumbering Voids cada 2 min; los primeros 1 min después del inicio, y ninguno en los últimos 1 min de una tanda. Como máximo 12 están vivos a la vez en un mapa: una oleada que encuentra el mapa lleno se omite.
 - **Llegada.** Una oleada aparece en el borde del mapa, 900 unidades hacia dentro y como mínimo a 2.500 unidades de todo anillo de puerta, y vuela hasta la excavadora en unos 20 s. El mensaje nombra el lado del mapa por el que llega.
-- **Caza.** Un Void caza al piloto más cercano que pueda ver a menos de 2.500 unidades, y se mantiene a menos de 7.000 unidades de la excavadora.
+- **Caza.** Un Void caza al piloto más cercano que pueda ver a menos de {{guide:vitals.aggro@Slumbering Void}} unidades, y se mantiene a menos de 7.000 unidades de la excavadora.
 - **Asedio.** Cuando durante 15 s no hay ningún piloto que puedan ver a menos de 7.000 unidades de la excavadora, los Voids atacan la excavadora, y cada láser hace 25 % de su daño habitual. A cero la excavadora es destruida: su combustible se pierde, su casco vuelve a estar lleno de inmediato y descansa 1 h.
 - **Retirada.** Cuando termina una tanda, los Voids que quedan se quedan 90 s más y siguen combatiendo si se les combate; luego se van.
 
 <!-- excavator-voids:end -->
 
-- **Un Void es un cañón de cristal.** Su escudo es grande, pero absorbe el 80 % de un impacto, así que el casco que hay detrás cae tras unas pocas veces su tamaño en daño, y mucho antes con penetración de escudo. Cuatro pilotos sin penetración de escudo, o dos con una buena configuración, aguantan una tanda en Alpha; Beta y Gamma necesitan grupos mayores, como con cualquier alienígena.
+- **Un Void es un cañón de cristal.** Su escudo es grande, pero absorbe el {{guide:vitals.absorbance@Slumbering Void}} de un impacto, así que el casco que hay detrás cae tras unas pocas veces su tamaño en daño, y mucho antes con penetración de escudo. Cuatro pilotos sin penetración de escudo, o dos con una buena configuración, aguantan una tanda en Alpha; Beta y Gamma necesitan grupos mayores, como con cualquier alienígena.
 - **Un camuflaje no defiende el lugar.** Los Voids no ven las naves camufladas, así que un piloto que se esconde no los aparta de la excavadora; y un piloto que se refugia en un anillo de puerta no puede ser alcanzado y tampoco cuenta.
 - **Cada Void paga,** según el daño que le causaste, y suelta una caja ([cómo paga el derribo de un jefe](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Sus derribos suman a tus puntos PvE de rango como los de una nave de enjambre.
 

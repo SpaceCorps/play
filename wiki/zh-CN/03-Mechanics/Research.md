@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 74bb4919fe97756e -->
+<!-- wiki-i18n source: 634c9ffbf340dec7 -->
 <!-- wiki-i18n title: 研究 -->
 # 研究 {#research}
 
@@ -30,7 +30,7 @@
 
 <!-- research-centre:end -->
 
-**Schematics。** 一个 [Schematics](/wiki/06-Items/Special-Items.md#schematics) 会从正在进行的研究中扣除 24 小时：如果剩余不超过 24 小时，研究会立即完成，更长的则减少 24 小时并继续（210 项科技中有 188 项耗时不超过 24 小时，所以一个就能从头完成它们；其余 22 项需要 2 到 10 个）。研究的费用在开始时已支付，不会退还；被跳过的时间本来会烧掉的科研点留在你的储罐里；研究完成后，队列里的下一项科技立即开始。
+**Schematics。** 一个 [Schematics](/wiki/06-Items/Special-Items.md#schematics) 会从正在进行的研究中扣除 24 小时：如果剩余不超过 24 小时，研究会立即完成，更长的则减少 24 小时并继续（212 项科技中有 190 项耗时不超过 24 小时，所以一个就能从头完成它们；其余 22 项需要 2 到 10 个）。研究的费用在开始时已支付，不会退还；被跳过的时间本来会烧掉的科研点留在你的储罐里；研究完成后，队列里的下一项科技立即开始。
 
 **激光增幅器与最后一阶。** II 至 IV 阶的 Damage Amp、Crit Amp 和 Penetration Amp 与其他可制造的东西一样需要研究。增幅器系列推出时持有或排队制作了增幅器的飞行员，获得了这些增幅器各自的科技，以及更低阶的科技。有十三项科技需要另一棵树中的科技，即资源树中 Dark Matter Plate 的科技，因为每条升级链的最后一阶需要四块板和 1 个 Ancient Control Unit：IV 阶的 Damage Amp、Crit Amp 和 Penetration Amp，IV 阶的 Absorption Shield Cell 和 Capacity Shield Cell，IV 阶的 Impulse Thruster 和 Momentum Thruster，以及 Heavy Shield Core、Engine III、Adaptive Core III、Helios Beam、Extra Slots CPU III 和 Base CPU II。以前研究过其中某一项的飞行员会保留它，但要制作它所需的板，需要先研究这块板的科技。下面的树没有为它画箭头，但表格列出了它，游戏里的卡片也会写出它的名字（[Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）。
 
@@ -98,6 +98,7 @@
 | :--- | :--- | ---: | ---: |
 | 30 分钟 | 15 分钟 | 1 | 5,000 |
 | 1 小时 | 30 分钟 | 1 | 5,000 |
+| 2 小时 | 1 小时 | 1 | 5,000 |
 | 3 小时 | 1 小时 30 分钟 | 1 | 5,000 |
 | 4 小时 | 2 小时 | 1 | 5,000 |
 | 6 小时 | 3 小时 | 1 | 5,000 |
@@ -335,10 +336,13 @@ Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600
 Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 Mine II | consumable, rare | craft 200 Thulium, 120 s | research 10800 s, 10800 science | 2 Mine I, 3 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#mine
 Mine III | consumable, epic | craft 400 Thulium, 300 s | research 21600 s, 21600 science | 2 Mine II, 8 Ship Fragment, 1 Reinforced Hull Plate, 2 Power Core | /wiki/06-Items/Extras.md#mine
+Organic Scanner I | extra, rare | craft 20000 Credits, 10000 Thulium, 600 s | research 1800 s, 1800 science | 60 Ship Fragment, 2 Power Core, 1 Ancient Control Unit, 5 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+Organic Scanner II | extra, epic | craft 50000 Credits, 20000 Thulium, 900 s | research 7200 s, 7200 science | 1 Organic Scanner I, 2 Lurker Fang, 2 Angler Lure, 1 Leviathan Scale | /wiki/06-Items/Extras.md
 
 Extra Slots CPU I => Extra Slots CPU II => Extra Slots CPU III
 Base CPU I => Base CPU II => Jump CPU
 Mine II => Mine III
+Organic Scanner I => Organic Scanner II
 ```
 
 ### 防御 {#tree-defence}
@@ -582,18 +586,20 @@ Skylab 研究视图的“舰船”分类里有两种不是制造的科技。上�
 | [Miyuki III](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki II](/wiki/02-Ships/Miyuki.md) | D | 1 天 | 86,400 | 10 |
 | [Miyuki IV](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki III](/wiki/02-Ships/Miyuki.md) | D | 2 天 | 172,800 | 10 |
 | [Miyuki V](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki IV](/wiki/02-Ships/Miyuki.md) | D | 2 天 | 172,800 | 10 |
+| [Organic Scanner I](/wiki/06-Items/Extras.md) | – | A | 30 分钟 | 1,800 | – |
+| [Organic Scanner II](/wiki/06-Items/Extras.md) | [Organic Scanner I](/wiki/06-Items/Extras.md) | B | 2 小时 | 7,200 | – |
 
 按研究时间划分的类别：
 
 | 类别 | 研究时间 | 科技数 | 逐项研究合计 | 科研点 | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| A | 30 分钟 至 1 小时 | 17 | 9 小时 30 分钟 | 34,200 | 0 |
-| B | 3 小时 至 6 小时 | 37 | 5 天 20 小时 | 504,000 | 0 |
+| A | 30 分钟 至 1 小时 | 18 | 10 小时 | 36,000 | 0 |
+| B | 2 小时 至 6 小时 | 38 | 5 天 22 小时 | 511,200 | 0 |
 | C | 8 小时 至 10 小时 | 20 | 8 天 4 小时 | 705,600 | 95 |
 | D | 16 小时 至 10 天 | 35 | 60 天 16 小时 | 5,241,600 | 379 |
-| 全部 |  | 109 | 75 天 1 小时 30 分钟 | 6,485,400 | 474 |
+| 全部 |  | 111 | 75 天 4 小时 | 6,494,400 | 474 |
 
-逐项依次研究，整棵科技树共需 75 天 1 小时 30 分钟。若全程开着加速，需要 37 天 12 小时 45 分钟，即 38 次加速和 190,000 Thulium；消耗的科研点相同。
+逐项依次研究，整棵科技树共需 75 天 4 小时。若全程开着加速，需要 37 天 14 小时，即 38 次加速和 190,000 Thulium；消耗的科研点相同。
 
 <!-- research-technologies:end -->
 
@@ -617,6 +623,8 @@ Skylab 研究视图的“舰船”分类里有两种不是制造的科技。上�
 | [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 小时 | – | 20,000 | 15 分钟 |
 | [Mine II](/wiki/06-Items/Extras.md#mine) | 3 小时 | – | 200 | 2 分钟 |
 | [Mine III](/wiki/06-Items/Extras.md#mine) | 6 小时 | [Mine II](/wiki/06-Items/Extras.md#mine) | 400 | 5 分钟 |
+| [Organic Scanner I](/wiki/06-Items/Extras.md) | 30 分钟 | – | 10,000 | 10 分钟 |
+| [Organic Scanner II](/wiki/06-Items/Extras.md) | 2 小时 | [Organic Scanner I](/wiki/06-Items/Extras.md) | 20,000 | 15 分钟 |
 
 它们都不在商店出售：先研究科技，再在装配站制造 CPU。将指针悬停在物品树中的 CPU 上，可查看装配站制造它需要什么。
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ed1159b36e9dc853 -->
+<!-- wiki-i18n source: 33448f95d2520b3a -->
 <!-- wiki-i18n title: Enxame Pirate -->
 # Enxame Pirate {#pirate-swarm}
 
@@ -17,14 +17,14 @@ O enxame Pirate é um **Pirate Boss** com seus **Pirate Scouts**: uma nave enorm
 - **Os seguidores ficam a**: até 900 unidades do líder
 - **Cura**: Cada Pirate Scout a até 600 unidades do líder cura o casco dele, 40 HP por segundo em Alpha
 - **Líder destruído**: Os seguidores vão embora 1 min depois que o líder é destruído, a menos que estejam atacando
-- **Volta**: 2 min depois que o líder é destruído, no mesmo setor
+- **Volta**: {{guide:vitals.respawn@Pirate Boss#1;Pirate Boss#2;Pirate Boss#3}} depois que o líder é destruído, no mesmo setor
 - **Avisos**: Os pilotos do setor são avisados quando o líder aparece e quando é destruído. São linhas do Sistema: aparecem na aba **Sistema** do chat, com uma contagem de linhas não lidas, e não em **Global** nem em **Local**. O registro de baixas nomeia o piloto a quem o abate é creditado.
 
 <!-- pirate-glance:end -->
 
 ## Os membros {#the-members}
 
-- **Pirate Boss**: uma nave baseada na Ironclad, com uma parte da força dela (os números estão abaixo). É passivo e **não dispara lasers**: sua única arma é um **foguete reto** ([Foguetes](/wiki/06-Items/Rockets.md); qual deles depende do setor, veja a tabela), no piloto que o atacou, e ele continua vagueando enquanto dispara. Nunca conserta o próprio casco.
+- **Pirate Boss**: uma nave baseada na Ironclad, com uma parte da força dela (os números estão abaixo). É passivo e **não dispara lasers**: sua única arma é um **foguete reto** ([Foguetes](/wiki/06-Items/Rockets.md); qual deles depende do setor, veja a tabela), no piloto que o atacou, e ele continua vagueando enquanto dispara. Nunca conserta o próprio casco. As suas [três etapas](#the-leaders-three-steps) e uma [habilidade especial](/wiki/03-Mechanics/Special-Abilities.md) podem mudar isso.
 - **Pirate Scout**: uma nave baseada na Kitefin, com uma parte da força dela. Os Scouts atacam qualquer piloto que se aproxime, ficam perto do chefe, e cada um que está perto do chefe cura o casco dele.
 
 ## Como a luta transcorre {#how-the-fight-goes}
@@ -34,6 +34,19 @@ O enxame Pirate é um **Pirate Boss** com seus **Pirate Scouts**: uma nave enorm
 - **Não pare de se mover.** O foguete do chefe é reto e não guiado: uma nave que não para de se mover o esquiva, uma parada é atingida.
 - **Leve um grupo.** Três pilotos em Ostirions com munição x2 o derrubam em `x-2` sem perder nenhuma nave, embora por pouco, e são destruídos em `x-3`, mesmo enquanto os acertos são divididos; quatro o derrubam em cerca de três minutos em Alpha. Com munição x4, três o derrubam em `x-3` em cerca de dois minutos. Cinco o derrubam em cerca de dois minutos e meio quando os acertos são divididos e em cerca de três quando um piloto leva todo o fogo, e então perdem duas naves: um grupo que deixa um piloto levar todo o fogo precisa de cinco. Em Beta são necessários cinco pilotos e em Gamma sete, com os acertos divididos (o chefe é maior lá e seus Scouts curam mais). Em Alpha, em `x-3` e com munição x2, uma Ostirion sozinha não consegue, uma Paragon sozinha também não consegue, e duas Paragons conseguem com segurança. Em Beta e Gamma, em `x-3`, uma Paragon sozinha é destruída com munição x2 e com munição x4. O chefe responde ao primeiro piloto que o acertou, então deixe a nave mais resistente começar, e use suas habilidades (Emergency Repair, Shield Surge: [Habilidades](/wiki/03-Mechanics/Abilities.md)) numa luta tão longa. Pilotos que ainda são de nível 2 ou 3 são fracos demais para ele, mesmo onde voam: fique longe até estar mais forte.
 - **O chefe volta** depois do tempo da lista *Resumo rápido*, no mesmo setor.
+
+## As três etapas do líder {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+A luta tem três etapas ([como funcionam](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); cada uma acontece uma vez.
+
+- **No início**: Dispara um leque de 3 foguetes, 12 graus entre si, no primeiro piloto que o atingiu.
+- **Abaixo de dois terços**: Chama mais 5 Pirate Scouts de uma vez, no máximo 10 vivos. Não pagam nada e vão embora após 45 s.
+- **Abaixo de um terço**: Voa com velocidade ×1,8 até o portão mais próximo por 10 s e depois se volta contra os pilotos.
+
+<!-- mob-ladder:end -->
 
 ## Recompensas e saque {#rewards-and-drops}
 
@@ -52,26 +65,24 @@ Base: Ironclad, com 50% de casco, escudo e dano; a velocidade e o alcance são o
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Casco | 250.000 | 375.000 | 500.000 |
-| Escudo | 50.100 | 75.150 | 100.200 |
+| Casco | {{guide:vitals.hull@Pirate Boss#1}} | {{guide:vitals.hull@Pirate Boss#2}} | {{guide:vitals.hull@Pirate Boss#3}} |
+| Escudo | {{guide:vitals.shield@Pirate Boss#1}} | {{guide:vitals.shield@Pirate Boss#2}} | {{guide:vitals.shield@Pirate Boss#3}} |
 | Dano dos lasers (uma salva por segundo) | nenhum | nenhum | nenhum |
-| Velocidade | 100 | 100 | 100 |
+| Velocidade | {{guide:vitals.speed@Pirate Boss#1}} | {{guide:vitals.speed@Pirate Boss#2}} | {{guide:vitals.speed@Pirate Boss#3}} |
 | Alcance dos lasers | – | – | – |
 | Raio de agressão | só quando atacado | só quando atacado | só quando atacado |
-| Dano dos foguetes, no máximo | 2.500 (Rivet I) / 5.000 (Rivet II) | 3.750 (Rivet I) / 7.500 (Rivet II) | 5.000 (Rivet I) / 10.000 (Rivet II) |
-| Créditos | 145.000 | 290.000 | 435.000 |
-| Thulium | 725 | 1.450 | 2.175 |
-| Experiência (XP) | 29.000 | 58.000 | 87.000 |
-| Honra | 232 | 464 | 696 |
+| Dano dos foguetes, no máximo | {{guide:behaviour.ability:rocket.damage@Pirate Boss#1}} | {{guide:behaviour.ability:rocket.damage@Pirate Boss#2}} | {{guide:behaviour.ability:rocket.damage@Pirate Boss#3}} |
+| Créditos | {{guide:spoils.pay.credits@Pirate Boss#1}} | {{guide:spoils.pay.credits@Pirate Boss#2}} | {{guide:spoils.pay.credits@Pirate Boss#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Pirate Boss#1}} | {{guide:spoils.pay.thulium@Pirate Boss#2}} | {{guide:spoils.pay.thulium@Pirate Boss#3}} |
+| Experiência (XP) | {{guide:spoils.pay.experience@Pirate Boss#1}} | {{guide:spoils.pay.experience@Pirate Boss#2}} | {{guide:spoils.pay.experience@Pirate Boss#3}} |
+| Honra | {{guide:spoils.pay.honor@Pirate Boss#1}} | {{guide:spoils.pay.honor@Pirate Boss#2}} | {{guide:spoils.pay.honor@Pirate Boss#3}} |
 | Pontos PvE por abate | 15 | 15 | 15 |
 
 **Saque**: uma caixa, para o piloto que mais causou dano.
 
-| Item | Chance | Quantidade |
-| :--- | ---: | ---: |
-| Reinforced Hull Plate | 50% | 1 |
-| Um dos 4 [foguetes](/wiki/06-Items/Rockets.md) comprados com créditos, escolhido ao acaso | 100% | 5–10 |
-| Um entre Advanced Plasma, Siphon Battery e Siphon Battery II, escolhido ao acaso | 100% | 1.000–2.000 |
+| Item |
+| :--- |
+| {{guide:spoils.box@Pirate Boss#1;Pirate Boss#2;Pirate Boss#3}} |
 
 ### Pirate Scout
 
@@ -79,17 +90,17 @@ Base: Kitefin, com 50% do casco e 113% do dano dos lasers; a velocidade e o alca
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Casco | 12.000 | 18.000 | 24.000 |
-| Escudo | 9.818 | 14.727 | 19.636 |
-| Dano dos lasers (uma salva por segundo) | 315 | 473 | 630 |
-| Velocidade | 220 | 220 | 220 |
+| Casco | {{guide:vitals.hull@Pirate Scout#1}} | {{guide:vitals.hull@Pirate Scout#2}} | {{guide:vitals.hull@Pirate Scout#3}} |
+| Escudo | {{guide:vitals.shield@Pirate Scout#1}} | {{guide:vitals.shield@Pirate Scout#2}} | {{guide:vitals.shield@Pirate Scout#3}} |
+| Dano dos lasers (uma salva por segundo) | {{guide:vitals.dps@Pirate Scout#1}} | {{guide:vitals.dps@Pirate Scout#2}} | {{guide:vitals.dps@Pirate Scout#3}} |
+| Velocidade | {{guide:vitals.speed@Pirate Scout#1}} | {{guide:vitals.speed@Pirate Scout#2}} | {{guide:vitals.speed@Pirate Scout#3}} |
 | Alcance dos lasers | 700 | 700 | 700 |
-| Raio de agressão | 700 | 700 | 700 |
+| Raio de agressão | {{guide:vitals.aggro@Pirate Scout#1}} | {{guide:vitals.aggro@Pirate Scout#2}} | {{guide:vitals.aggro@Pirate Scout#3}} |
 | Cura o líder, cada um, por segundo (só o casco) | 40 | 60 | 80 |
-| Créditos | 1.000 | 2.000 | 3.000 |
-| Thulium | 4 | 8 | 12 |
-| Experiência (XP) | 100 | 200 | 300 |
-| Honra | 2 | 4 | 6 |
+| Créditos | {{guide:spoils.pay.credits@Pirate Scout#1}} | {{guide:spoils.pay.credits@Pirate Scout#2}} | {{guide:spoils.pay.credits@Pirate Scout#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Pirate Scout#1}} | {{guide:spoils.pay.thulium@Pirate Scout#2}} | {{guide:spoils.pay.thulium@Pirate Scout#3}} |
+| Experiência (XP) | {{guide:spoils.pay.experience@Pirate Scout#1}} | {{guide:spoils.pay.experience@Pirate Scout#2}} | {{guide:spoils.pay.experience@Pirate Scout#3}} |
+| Honra | {{guide:spoils.pay.honor@Pirate Scout#1}} | {{guide:spoils.pay.honor@Pirate Scout#2}} | {{guide:spoils.pay.honor@Pirate Scout#3}} |
 | Pontos PvE por abate | 4 | 4 | 4 |
 
 **Saque**: nenhum. O abate paga só os seus créditos, Thulium, XP e honra.

@@ -15,14 +15,14 @@ The Goombah Swarm is a **Boss Goombah** with its **Goombah Guards**: a huge [Goo
 - **Followers stay within**: 500 units of the leader
 - **Healing**: Each Goombah Guard within 600 units of the leader heals its hull, 110 HP a second in Alpha
 - **Leader destroyed**: The followers leave 30 s after the leader is destroyed, unless they are attacking
-- **Comes back**: 5 min after the leader is destroyed, in the same sector
+- **Comes back**: {{guide:vitals.respawn@Boss Goombah#1;Boss Goombah#2;Boss Goombah#3}} after the leader is destroyed, in the same sector
 - **Announced**: The pilots of the sector are told when the leader appears and when it is destroyed. These are System lines: they show in the chat's **System** tab, with an unread count, and not in **Global** or **Local**. The kill feed names the pilot credited with the kill.
 
 <!-- goombah-glance:end -->
 
 ## The members
 
-- **Boss Goombah**: a larger Goombah, in the swarm's tint and with its name over it, with a hull, a shield and a laser volley of its own (the numbers are below). It is passive: it roams until a pilot hits it, then goes after that pilot and fires at it, and the ships of its swarm that are close join in. Its weapon's range and its speed are those of a Goombah, and it never mends its hull by itself.
+- **Boss Goombah**: a larger Goombah, in the swarm's tint and with its name over it, with a hull, a shield and a laser volley of its own (the numbers are below). It is passive: it roams until a pilot hits it, then goes after that pilot and fires at it, and the ships of its swarm that are close join in. Its weapon's range and its speed are those of a Goombah, and it never mends its hull by itself. Its [three steps](#the-leaders-three-steps) and a [special ability](/wiki/03-Mechanics/Special-Abilities.md) can change that.
 - **Goombah Guard**: a smaller Goombah in the swarm's tint. Guards keep close to the boss, join the fight when a swarm ship near them is hit, and each one that is near the boss heals its hull. A guard mends its own hull after a rest, as a Goombah does.
 
 ## How the fight goes
@@ -32,6 +32,19 @@ The Goombah Swarm is a **Boss Goombah** with its **Goombah Guards**: a huge [Goo
 - **Beta and Gamma are harder.** The swarms of those worlds are stronger ([Worlds](/wiki/05-Swarms/Swarms.md#the-worlds)), so they need more pilots or better ammo.
 - **Watch the sector.** `x-4` is a PvP sector in Alpha, and `x-3` and `x-4` are in Beta and Gamma ([Worlds](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)): a rival can join the fight or wait for the box. Keep a ship of the group on watch.
 - **The boss comes back** after the time in the *At a glance* list, at full strength, in the same sector, and its guards come one after the other.
+
+## The leader's three steps {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Its fight has three steps ([how they work](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); each one happens once.
+
+- **At the start**: Takes 50% of every hit for 6 s.
+- **Under two thirds**: Its damage is multiplied by ×1.5 and its speed by ×1.25 for 10 s.
+- **Under a third**: Mends 25% of its hull and shield (a burst of damage breaks it), and its Goombah Guards mend it ×2 as fast meanwhile.
+
+<!-- mob-ladder:end -->
 
 ## Rewards and drops
 
@@ -50,30 +63,23 @@ Built from the Goombah at 400% of its hull and 100% of its laser damage; its spe
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Hull | 128,000 | 192,000 | 256,000 |
-| Shield | 192,000 | 288,000 | 384,000 |
-| Laser damage (a volley a second) | 3,000 | 4,500 | 6,000 |
-| Speed | 180 | 180 | 180 |
+| Hull | {{guide:vitals.hull@Boss Goombah#1}} | {{guide:vitals.hull@Boss Goombah#2}} | {{guide:vitals.hull@Boss Goombah#3}} |
+| Shield | {{guide:vitals.shield@Boss Goombah#1}} | {{guide:vitals.shield@Boss Goombah#2}} | {{guide:vitals.shield@Boss Goombah#3}} |
+| Laser damage (a volley a second) | {{guide:vitals.dps@Boss Goombah#1}} | {{guide:vitals.dps@Boss Goombah#2}} | {{guide:vitals.dps@Boss Goombah#3}} |
+| Speed | {{guide:vitals.speed@Boss Goombah#1}} | {{guide:vitals.speed@Boss Goombah#2}} | {{guide:vitals.speed@Boss Goombah#3}} |
 | Laser range | 800 | 800 | 800 |
 | Aggro radius | only when attacked | only when attacked | only when attacked |
-| Credits | 120,000 | 240,000 | 360,000 |
-| Thulium | 600 | 1,200 | 1,800 |
-| Experience (XP) | 24,000 | 48,000 | 72,000 |
-| Honor | 192 | 384 | 576 |
+| Credits | {{guide:spoils.pay.credits@Boss Goombah#1}} | {{guide:spoils.pay.credits@Boss Goombah#2}} | {{guide:spoils.pay.credits@Boss Goombah#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Boss Goombah#1}} | {{guide:spoils.pay.thulium@Boss Goombah#2}} | {{guide:spoils.pay.thulium@Boss Goombah#3}} |
+| Experience (XP) | {{guide:spoils.pay.experience@Boss Goombah#1}} | {{guide:spoils.pay.experience@Boss Goombah#2}} | {{guide:spoils.pay.experience@Boss Goombah#3}} |
+| Honor | {{guide:spoils.pay.honor@Boss Goombah#1}} | {{guide:spoils.pay.honor@Boss Goombah#2}} | {{guide:spoils.pay.honor@Boss Goombah#3}} |
 | PvE points per kill | 14 | 14 | 14 |
 
 **Drop**: one box, for the pilot who dealt the most damage.
 
-| Item | Chance | Amount |
-| :--- | ---: | ---: |
-| Ship Fragment | 100% on each of 8 rolls | 3 |
-| Reinforced Hull Plate | 60% on each of 8 rolls | 1 |
-| Power Core | 25% on each of 8 rolls | 1 |
-| Cataclysite | 100% on each of 8 rolls | 4 |
-| Quorvium | 100% on each of 8 rolls | 2–4 |
-| Advanced Plasma | 100% | 100–200 |
-| Ultra Core | 100% | 100–200 |
-| One of the 4 [rockets](/wiki/06-Items/Rockets.md) bought with Credits, picked at random | 100% | 6–10 |
+| Item |
+| :--- |
+| {{guide:spoils.box@Boss Goombah#1;Boss Goombah#2;Boss Goombah#3}} |
 
 ### Goombah Guard
 
@@ -81,17 +87,17 @@ Built from the Goombah at 20% of its hull, shield and damage; its speed and rang
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Hull | 6,400 | 9,600 | 12,800 |
-| Shield | 9,600 | 14,400 | 19,200 |
-| Laser damage (a volley a second) | 600 | 900 | 1,200 |
-| Speed | 180 | 180 | 180 |
+| Hull | {{guide:vitals.hull@Goombah Guard#1}} | {{guide:vitals.hull@Goombah Guard#2}} | {{guide:vitals.hull@Goombah Guard#3}} |
+| Shield | {{guide:vitals.shield@Goombah Guard#1}} | {{guide:vitals.shield@Goombah Guard#2}} | {{guide:vitals.shield@Goombah Guard#3}} |
+| Laser damage (a volley a second) | {{guide:vitals.dps@Goombah Guard#1}} | {{guide:vitals.dps@Goombah Guard#2}} | {{guide:vitals.dps@Goombah Guard#3}} |
+| Speed | {{guide:vitals.speed@Goombah Guard#1}} | {{guide:vitals.speed@Goombah Guard#2}} | {{guide:vitals.speed@Goombah Guard#3}} |
 | Laser range | 800 | 800 | 800 |
 | Aggro radius | only when attacked | only when attacked | only when attacked |
 | Heals the leader, each, per second (hull only) | 110 | 165 | 220 |
-| Credits | 125 | 250 | 375 |
-| Thulium | 1 | 2 | 3 |
-| Experience (XP) | 12 | 24 | 36 |
-| Honor | 1 | 2 | 3 |
+| Credits | {{guide:spoils.pay.credits@Goombah Guard#1}} | {{guide:spoils.pay.credits@Goombah Guard#2}} | {{guide:spoils.pay.credits@Goombah Guard#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Goombah Guard#1}} | {{guide:spoils.pay.thulium@Goombah Guard#2}} | {{guide:spoils.pay.thulium@Goombah Guard#3}} |
+| Experience (XP) | {{guide:spoils.pay.experience@Goombah Guard#1}} | {{guide:spoils.pay.experience@Goombah Guard#2}} | {{guide:spoils.pay.experience@Goombah Guard#3}} |
+| Honor | {{guide:spoils.pay.honor@Goombah Guard#1}} | {{guide:spoils.pay.honor@Goombah Guard#2}} | {{guide:spoils.pay.honor@Goombah Guard#3}} |
 | PvE points per kill | 3 | 3 | 3 |
 
 **Drop**: none. The kill pays its Credits, Thulium, XP and Honor only.

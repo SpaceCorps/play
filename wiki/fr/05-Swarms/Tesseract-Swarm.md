@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4e3f459fc0966372 -->
+<!-- wiki-i18n source: 98e91b2bd1dede81 -->
 <!-- wiki-i18n title: Essaim Tesseract -->
 # Essaim Tesseract {#tesseract-swarm}
 
@@ -13,13 +13,13 @@ L’essaim Tesseract est un unique et immense vaisseau-mère, le **Tesseract**, 
 - **Combien** : Un dans chaque monde
 - **Apparaît** : Du jour 4 de la saison jusqu’à la réinitialisation (Bêta et Gamma : dès le jour 1 de la saison)
 - **Meneur** : Tesseract
-- **Position** : À moins de 2 500 unités du point 25 900, 6 100 de la carte du secteur
+- **Position** : À moins de 2 500 unités du point 25 900, 11 900 de la carte du secteur
 - **Régénération** : 125 000 PV par seconde dans Alpha, d’abord la coque puis le bouclier, une fois 5 s écoulées sans dégâts
 - **Suivants** : Jusqu’à 100 × Facet, 20 de plus toutes les 5 s tant que le meneur est touché
 - **Arrivée des suivants** : Seulement si le meneur a été touché depuis moins de 5 s, à moins de 400 unités de lui
 - **Chasseurs** : Chaque Facet vole par trajets à lui autour du meneur, à moins de 3 600 unités de celui-ci, et ne poursuit personne. Il tire sur le pilote le plus proche qui a touché le meneur quand ce pilote est à sa portée. Sans cible, il continue de voler autour du meneur et part 20 s après le dernier coup
 - **Meneur détruit** : Les suivants partent 1 min après la destruction du meneur, qu’ils attaquent ou non
-- **Revient** : 30 min après la destruction du meneur, dans le même secteur
+- **Revient** : {{guide:vitals.respawn@Tesseract#1;Tesseract#2;Tesseract#3}} après la destruction du meneur, dans le même secteur
 - **Annonces** : Les pilotes du secteur sont prévenus quand le meneur apparaît et quand il est détruit. Ce sont des lignes Système : elles apparaissent dans l’onglet **Système** du chat, avec un compteur de lignes non lues, et pas dans **Global** ni **Local**. Le fil des éliminations nomme le pilote à qui l’élimination est créditée.
 
 <!-- tesseract-glance:end -->
@@ -40,6 +40,17 @@ L’essaim Tesseract est un unique et immense vaisseau-mère, le **Tesseract**, 
 - **Les secteurs dangereux sont PvP.** Un rival peut attaquer le groupe en plein combat. Aucune caisse ne reste près de l’épave pour qu’il l’attende : le butin est une [caisse privée](/wiki/03-Mechanics/Cargo.md#private-boxes) pour chaque pilote que l’élimination paie, que seul ce pilote peut voir et prendre. Ne venez pas seul.
 - **Le Tesseract revient** après le temps de la liste *D’un coup d’œil*, à pleine force, à son emplacement.
 
+## Les trois étapes du chef {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Son combat a trois étapes ([comment elles marchent](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)) ; chacune a lieu une fois, et elles recommencent quand il s’est entièrement soigné.
+
+- **Sous les deux tiers**: 20 Facets de plus arrivent d’un coup, au-dessus de leur nombre habituel.
+
+<!-- mob-ladder:end -->
+
 ## Récompenses et butin {#rewards-and-drops}
 
 Le Tesseract paie pour le combat qu’il est : autant que de nombreux Crystalys réunis, et davantage, pour les dégâts qu’il encaisse, qu’un Crystalys, l’alien le mieux payé. Le paiement est réparti selon les dégâts entre les pilotes qui l’ont combattu ([comment paie l’élimination d’un boss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Il n’y a pas de caisse pour le pilote qui inflige le plus de dégâts. Chaque pilote que l’élimination paie reçoit sa propre [caisse privée](/wiki/03-Mechanics/Cargo.md#private-boxes), que lui seul voit et peut prendre, pendant 10 minutes, avec des Reinforced Hull Plates, des Velkonite et Orvium Reinforced Plates, des Power Cores, des Ancient Control Units et de la Dark Matter. Elle est tirée pour sa part des dégâts, comme le butin d’un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) : celui qui a infligé un cinquième des dégâts reçoit environ un cinquième des quantités du tableau, et dans un groupe chaque pilote reçoit sa part de celle du groupe, comme le paiement est partagé. La Dark Matter a un plafond par pilote : d’une élimination, il en reçoit 5 au plus, quelle que soit l’ampleur de sa part (dans un groupe, la part de chaque pilote est d’abord séparée, et le plafond est celui de chacun), et ce qui dépasse le plafond est perdu, il n’est pas donné aux autres. Un Facet paie ce que paie un [Phantasm](/wiki/04-Aliens/Phantasm.md) en Crédits, Thulium, XP et Honneur, et son élimination compte comme une élimination (dans vos statistiques, pour les succès et pour l’expérience de vos drones et de vos P.E.T.), mais il ne laisse rien et ne rapporte aucun point PvE.
@@ -57,30 +68,24 @@ Base : Crystalys, avec 625 % de sa coque ; sans arme, avec un bouclier et une
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Coque | 1 600 000 | 2 400 000 | 3 200 000 |
-| Bouclier | 1 200 000 | 1 800 000 | 2 400 000 |
+| Coque | {{guide:vitals.hull@Tesseract#1}} | {{guide:vitals.hull@Tesseract#2}} | {{guide:vitals.hull@Tesseract#3}} |
+| Bouclier | {{guide:vitals.shield@Tesseract#1}} | {{guide:vitals.shield@Tesseract#2}} | {{guide:vitals.shield@Tesseract#3}} |
 | Dégâts des lasers (une salve par seconde) | aucun | aucun | aucun |
-| Vitesse | 30 | 30 | 30 |
+| Vitesse | {{guide:vitals.speed@Tesseract#1}} | {{guide:vitals.speed@Tesseract#2}} | {{guide:vitals.speed@Tesseract#3}} |
 | Portée des lasers | – | – | – |
 | Rayon d’aggro | seulement si attaqué | seulement si attaqué | seulement si attaqué |
 | Répare, par seconde, après 5 s sans dégâts (coque, puis bouclier) | 125 000 | 187 500 | 250 000 |
-| Crédits | 900 000 | 1 800 000 | 2 700 000 |
-| Thulium | 2 400 | 4 800 | 7 200 |
-| Expérience (XP) | 144 000 | 288 000 | 432 000 |
-| Honneur | 624 | 1 248 | 1 872 |
+| Crédits | {{guide:spoils.pay.credits@Tesseract#1}} | {{guide:spoils.pay.credits@Tesseract#2}} | {{guide:spoils.pay.credits@Tesseract#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Tesseract#1}} | {{guide:spoils.pay.thulium@Tesseract#2}} | {{guide:spoils.pay.thulium@Tesseract#3}} |
+| Expérience (XP) | {{guide:spoils.pay.experience@Tesseract#1}} | {{guide:spoils.pay.experience@Tesseract#2}} | {{guide:spoils.pay.experience@Tesseract#3}} |
+| Honneur | {{guide:spoils.pay.honor@Tesseract#1}} | {{guide:spoils.pay.honor@Tesseract#2}} | {{guide:spoils.pay.honor@Tesseract#3}} |
 | Points PvE par élimination | 42 | 42 | 42 |
 
 **Butin pour chaque pilote que l’élimination paie** : une caisse pour chacun, rien que pour lui, avec sa part de ces quantités.
 
-| Objet | Chance | Quantité |
-| :--- | ---: | ---: |
-| Reinforced Hull Plate | 100 % | 3–10 |
-| Velkonite Reinforced Plate | 66 % | 7–12 |
-| Orvium Reinforced Plate | 50 % | 3–5 |
-| Power Core | 66 % | 4–7 |
-| Ancient Control Unit | 100 % | 1–4 |
-| Dark Matter | 100 % | 10–20, au plus 5 par pilote |
-| Heartshard | 5 % | 1 |
+| Objet |
+| :--- |
+| {{guide:spoils.box@Tesseract#1;Tesseract#2;Tesseract#3}} |
 
 ### Facet
 
@@ -88,16 +93,16 @@ Base : Seeker, avec 2 500 % de sa coque et 463 % de ses dégâts laser ; le
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Coque | 20 000 | 30 000 | 40 000 |
-| Bouclier | 16 000 | 24 000 | 32 000 |
-| Dégâts des lasers (une salve par seconde) | 834 | 1 251 | 1 668 |
-| Vitesse | 750 | 750 | 750 |
+| Coque | {{guide:vitals.hull@Facet#1}} | {{guide:vitals.hull@Facet#2}} | {{guide:vitals.hull@Facet#3}} |
+| Bouclier | {{guide:vitals.shield@Facet#1}} | {{guide:vitals.shield@Facet#2}} | {{guide:vitals.shield@Facet#3}} |
+| Dégâts des lasers (une salve par seconde) | {{guide:vitals.dps@Facet#1}} | {{guide:vitals.dps@Facet#2}} | {{guide:vitals.dps@Facet#3}} |
+| Vitesse | {{guide:vitals.speed@Facet#1}} | {{guide:vitals.speed@Facet#2}} | {{guide:vitals.speed@Facet#3}} |
 | Portée des lasers | 600 | 600 | 600 |
 | Rayon d’aggro | seulement si attaqué | seulement si attaqué | seulement si attaqué |
-| Crédits | 3 000 | 6 000 | 9 000 |
-| Thulium | 12 | 24 | 36 |
-| Expérience (XP) | 300 | 600 | 900 |
-| Honneur | 6 | 12 | 18 |
+| Crédits | {{guide:spoils.pay.credits@Facet#1}} | {{guide:spoils.pay.credits@Facet#2}} | {{guide:spoils.pay.credits@Facet#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Facet#1}} | {{guide:spoils.pay.thulium@Facet#2}} | {{guide:spoils.pay.thulium@Facet#3}} |
+| Expérience (XP) | {{guide:spoils.pay.experience@Facet#1}} | {{guide:spoils.pay.experience@Facet#2}} | {{guide:spoils.pay.experience@Facet#3}} |
+| Honneur | {{guide:spoils.pay.honor@Facet#1}} | {{guide:spoils.pay.honor@Facet#2}} | {{guide:spoils.pay.honor@Facet#3}} |
 | Points PvE par élimination | 0 | 0 | 0 |
 
 **Butin** : aucun. L’élimination ne paie que ses crédits, son Thulium, son XP et son honneur.

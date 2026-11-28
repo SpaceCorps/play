@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5f873edc2b653495 -->
+<!-- wiki-i18n source: 2b3edf7bcb1d9673 -->
 <!-- wiki-i18n title: Crystalys-raj -->
 # Crystalys-raj {#crystalys-swarm}
 
@@ -17,14 +17,14 @@ A Crystalys-raj egy **Boss Crystalys** és a **Crystalys Guardjai**: a legszív�
 - **A kísérők közel maradnak**: legfeljebb 500 egységre a vezértől
 - **Gyógyítás**: Minden Crystalys Guard, amely a vezértől 600 egységen belül van, gyógyítja a hajótestét, Alphában másodpercenként 250 HP-t
 - **A vezér megsemmisül**: A kísérők a vezér megsemmisülése után 30 mp múlva eltűnnek, kivéve ha éppen támadnak
-- **Visszatér**: 30 perc azután, hogy a vezér megsemmisült, ugyanabban a szektorban
+- **Visszatér**: {{guide:vitals.respawn@Boss Crystalys#1;Boss Crystalys#2;Boss Crystalys#3}} azután, hogy a vezér megsemmisült, ugyanabban a szektorban
 - **Értesítés**: A szektor pilótái értesülnek arról, mikor jelenik meg a vezér, és mikor semmisül meg. Ezek rendszersorok: a chat **Rendszer** lapján jelennek meg, olvasatlan sorok számlálójával, és nem a **Globális** vagy a **Helyi** lapon. A kill feed megnevezi a pilótát, akinek a kilövést jóváírják.
 
 <!-- crystalys-glance:end -->
 
 ## A tagok {#the-members}
 
-- **Boss Crystalys**: egy nagyobb Crystalys, a raj színezésében és a nevével fölötte, saját hajótesttel, pajzzsal és lézersortűzzel (az értékek lent vannak). Passzív: kóborol, amíg egy pilóta el nem találja, aztán arra a pilótára támad és tüzel, és a raj közeli hajói beszállnak a harcba. A fegyverének hatótávja és a sebessége egy Crystalysé, a hajótestét pedig soha nem javítja meg magától.
+- **Boss Crystalys**: egy nagyobb Crystalys, a raj színezésében és a nevével fölötte, saját hajótesttel, pajzzsal és lézersortűzzel (az értékek lent vannak). Passzív: kóborol, amíg egy pilóta el nem találja, aztán arra a pilótára támad és tüzel, és a raj közeli hajói beszállnak a harcba. A fegyverének hatótávja és a sebessége egy Crystalysé, a hajótestét pedig soha nem javítja meg magától. A [három lépése](#the-leaders-three-steps) és egy [különleges képesség](/wiki/03-Mechanics/Special-Abilities.md) változtathat ezen.
 - **Crystalys Guard**: egy kisebb Crystalys a raj színezésében. A Guardok a boss közelében maradnak, beszállnak a harcba, ha egy közeli rajhajót eltalálnak, és mindegyik, amelyik a boss közelében van, gyógyítja a hajótestét. A Guard egy kis pihenő után megjavítja a saját hajótestét, ahogy egy Crystalys is.
 
 ## A harc menete {#how-the-fight-goes}
@@ -34,6 +34,19 @@ A Crystalys-raj egy **Boss Crystalys** és a **Crystalys Guardjai**: a legszív�
 - **A Beta és a Gamma keményebb.** Ezeknek a világoknak a rajai erősebbek ([Világok](/wiki/05-Swarms/Swarms.md#the-worlds)), ezért több pilóta vagy jobb lőszer kell.
 - **A veszélyes szektorok PvP-szektorok.** Egy rivális a harc közepén megtámadhatja a csoportot, és megvárhatja a ládát: az 30 másodpercig a legtöbb sebzést okozó pilótáé (és a klánjáé), utána bárkié ([Rakomány](/wiki/03-Mechanics/Cargo.md)). Ne egyedül menj.
 - **A boss visszatér** a *Röviden* lista szerinti idő múlva, teljes erővel, ugyanabban a szektorban, a Guardjai pedig egymás után érkeznek.
+
+## A vezér három lépése {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+A harcának három lépése van ([hogyan működnek](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); mindegyik egyszer történik meg.
+
+- **Az elején**: 8 mp ideig minden találatnak csak 50% részét veszi fel.
+- **Kétharmad alatt**: Egy 700 egység sugarú gyűrű minden benne lévő hajót eltalál a sortüzének 4 adagjával, és 4 rakétát lő.
+- **Egyharmad alatt**: Meggyógyítja a hajótestének és pajzsának 20% részét (egy sebzéslöket megszakítja), és 3 újabb hajó jön: Crystalys Guards; legfeljebb 6 él egyszerre.
+
+<!-- mob-ladder:end -->
 
 ## Jutalmak és zsákmány {#rewards-and-drops}
 
@@ -52,29 +65,23 @@ Alapja: Crystalys, hajótestének 350%-a és lézersebzésének 100%-a; a sebess
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Hajótest | 896 000 | 1 344 000 | 1 792 000 |
-| Pajzs | 560 000 | 840 000 | 1 120 000 |
-| Lézersebzés (másodpercenként egy sorozat) | 10 000 | 15 000 | 20 000 |
-| Sebesség | 230 | 230 | 230 |
+| Hajótest | {{guide:vitals.hull@Boss Crystalys#1}} | {{guide:vitals.hull@Boss Crystalys#2}} | {{guide:vitals.hull@Boss Crystalys#3}} |
+| Pajzs | {{guide:vitals.shield@Boss Crystalys#1}} | {{guide:vitals.shield@Boss Crystalys#2}} | {{guide:vitals.shield@Boss Crystalys#3}} |
+| Lézersebzés (másodpercenként egy sorozat) | {{guide:vitals.dps@Boss Crystalys#1}} | {{guide:vitals.dps@Boss Crystalys#2}} | {{guide:vitals.dps@Boss Crystalys#3}} |
+| Sebesség | {{guide:vitals.speed@Boss Crystalys#1}} | {{guide:vitals.speed@Boss Crystalys#2}} | {{guide:vitals.speed@Boss Crystalys#3}} |
 | Lézer hatótávja | 900 | 900 | 900 |
 | Aggrósugár | csak ha megtámadják | csak ha megtámadják | csak ha megtámadják |
-| Kredit | 393 750 | 787 500 | 1 181 250 |
-| Thulium | 1 050 | 2 100 | 3 150 |
-| Tapasztalat (XP) | 63 000 | 126 000 | 189 000 |
-| Becsület | 273 | 546 | 819 |
+| Kredit | {{guide:spoils.pay.credits@Boss Crystalys#1}} | {{guide:spoils.pay.credits@Boss Crystalys#2}} | {{guide:spoils.pay.credits@Boss Crystalys#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Boss Crystalys#1}} | {{guide:spoils.pay.thulium@Boss Crystalys#2}} | {{guide:spoils.pay.thulium@Boss Crystalys#3}} |
+| Tapasztalat (XP) | {{guide:spoils.pay.experience@Boss Crystalys#1}} | {{guide:spoils.pay.experience@Boss Crystalys#2}} | {{guide:spoils.pay.experience@Boss Crystalys#3}} |
+| Becsület | {{guide:spoils.pay.honor@Boss Crystalys#1}} | {{guide:spoils.pay.honor@Boss Crystalys#2}} | {{guide:spoils.pay.honor@Boss Crystalys#3}} |
 | PvE-pont kilövésenként | 30 | 30 | 30 |
 
 **Zsákmány**: egy láda, annak a pilótának, aki a legtöbb sebzést okozta.
 
-| Tárgy | Esély | Mennyiség |
-| :--- | ---: | ---: |
-| Cataclysite | 100% mind a 2 dobásnál | 8 |
-| Quorvium | 100% mind a 2 dobásnál | 6–10 |
-| Power Core | 30% | 1 |
-| Ancient Control Unit | 15% | 1 |
-| Dark Matter | 4% | 1 |
-| Ultra Core és Experimental Fusion Core, egyenlően elosztva | 100% | összesen 600–1 000 |
-| Egy a 4 Epikus [rakéta](/wiki/06-Items/Rockets.md) közül, véletlenszerűen | 100% | 8–15 |
+| Tárgy |
+| :--- |
+| {{guide:spoils.box@Boss Crystalys#1;Boss Crystalys#2;Boss Crystalys#3}} |
 
 ### Crystalys Guard
 
@@ -82,17 +89,17 @@ Alapja: Crystalys, hajótestének, pajzsának és sebzésének 15%-a; a sebessé
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Hajótest | 38 400 | 57 600 | 76 800 |
-| Pajzs | 24 000 | 36 000 | 48 000 |
-| Lézersebzés (másodpercenként egy sorozat) | 1 500 | 2 250 | 3 000 |
-| Sebesség | 230 | 230 | 230 |
+| Hajótest | {{guide:vitals.hull@Crystalys Guard#1}} | {{guide:vitals.hull@Crystalys Guard#2}} | {{guide:vitals.hull@Crystalys Guard#3}} |
+| Pajzs | {{guide:vitals.shield@Crystalys Guard#1}} | {{guide:vitals.shield@Crystalys Guard#2}} | {{guide:vitals.shield@Crystalys Guard#3}} |
+| Lézersebzés (másodpercenként egy sorozat) | {{guide:vitals.dps@Crystalys Guard#1}} | {{guide:vitals.dps@Crystalys Guard#2}} | {{guide:vitals.dps@Crystalys Guard#3}} |
+| Sebesség | {{guide:vitals.speed@Crystalys Guard#1}} | {{guide:vitals.speed@Crystalys Guard#2}} | {{guide:vitals.speed@Crystalys Guard#3}} |
 | Lézer hatótávja | 900 | 900 | 900 |
 | Aggrósugár | csak ha megtámadják | csak ha megtámadják | csak ha megtámadják |
 | Gyógyítja a vezért, egyenként, másodpercenként (csak hajótest) | 250 | 375 | 500 |
-| Kredit | 125 | 250 | 375 |
-| Thulium | 1 | 2 | 3 |
-| Tapasztalat (XP) | 12 | 24 | 36 |
-| Becsület | 1 | 2 | 3 |
+| Kredit | {{guide:spoils.pay.credits@Crystalys Guard#1}} | {{guide:spoils.pay.credits@Crystalys Guard#2}} | {{guide:spoils.pay.credits@Crystalys Guard#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Crystalys Guard#1}} | {{guide:spoils.pay.thulium@Crystalys Guard#2}} | {{guide:spoils.pay.thulium@Crystalys Guard#3}} |
+| Tapasztalat (XP) | {{guide:spoils.pay.experience@Crystalys Guard#1}} | {{guide:spoils.pay.experience@Crystalys Guard#2}} | {{guide:spoils.pay.experience@Crystalys Guard#3}} |
+| Becsület | {{guide:spoils.pay.honor@Crystalys Guard#1}} | {{guide:spoils.pay.honor@Crystalys Guard#2}} | {{guide:spoils.pay.honor@Crystalys Guard#3}} |
 | PvE-pont kilövésenként | 6 | 6 | 6 |
 
 **Zsákmány**: nincs. A kilövés csak a kreditjét, Thuliumát, XP-jét és becsületét fizeti.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b9bfffab24f7eda8 -->
+<!-- wiki-i18n source: 6acaa0292fff4664 -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker
 
@@ -6,10 +6,10 @@ Seeker är enkla spanings- och rekognoseringsenheter. De är passiva, vilket bet
 
 ## Värden {#stats}
 
-- **Träffpoäng (HP)**: 800
-- **Sköld**: 800
-- **Skada**: 180
-- **Hastighet**: 120
+- **Träffpoäng (HP)**: {{guide:vitals.hull@Seeker#1}}
+- **Sköld**: {{guide:vitals.shield@Seeker#1}}
+- **Skada**: {{guide:vitals.dps@Seeker#1}}
+- **Hastighet**: {{guide:vitals.speed@Seeker#1;Seeker#2;Seeker#3;Seeker#4}}
 - **Vapnens räckvidd**: 600
 - **Beteende**: Passiv
 
@@ -24,10 +24,10 @@ Seeker är enkla spanings- och rekognoseringsenheter. De är passiva, vilket bet
 
 ## Belöningar {#rewards}
 
-- **Krediter**: 1 000
-- **Thulium**: 4
-- **Erfarenhet (XP)**: 100
-- **Heder**: 2
+- **Krediter**: {{guide:spoils.pay.credits@Seeker#1}}
+- **Thulium**: {{guide:spoils.pay.thulium@Seeker#1}}
+- **Erfarenhet (XP)**: {{guide:spoils.pay.experience@Seeker#1}}
+- **Heder**: {{guide:spoils.pay.honor@Seeker#1}}
 - **PvE-poäng per nedskjutning**: 1
 - **Sköldladdning**: 10 per sekund (15 s fördröjning)
 
@@ -37,9 +37,11 @@ Lämnas som en [lastlåda](/wiki/03-Mechanics/Cargo.md) där den exploderar, res
 
 Vad varje föremål används till, och var du annars hittar det: [Resurser](/wiki/06-Items/Resources.md).
 
-- **Ship Fragment**: 20 % chans (Min: 1, Max: 1)
-- **Daraxium**: 50 % chans (Min: 1, Max: 2)
-- **Echo Shard**: 0,8 % chans (Min: 1, Max: 1)
+- {{guide:spoils.box@Seeker#1;Seeker#2;Seeker#3;Seeker#4}}
+
+## Specialförmågor {#special-abilities}
+
+Vissa utomjordingar av den här arten bär en **specialförmåga**: något de gör en enda gång, när hälften av skrovet är borta. Inget syns innan den börjar. [Specialförmågor](/wiki/03-Mechanics/Special-Abilities.md) säger vad varje förmåga gör och hur du möter den.
 
 ## Bakgrund {#lore}
 

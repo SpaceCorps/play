@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 399d33a09b4ac805 -->
+<!-- wiki-i18n source: 0f6a663715a3934a -->
 <!-- wiki-i18n title: Veszélyes szektorok -->
 # Veszélyes szektorok {#danger-sectors}
 
@@ -14,9 +14,10 @@ Itt élt egykor a régi galaxis egy fejlett, lilásfekete civilizációja, amely
 
 - **Óriás kotrógépek.** A `DS-1`, a `DS-2` és a `DS-3` mindegyikében ott van egy pulzár a szezon első napjától, egy fény az égen, és semmi több; a 11. naptól mindegyik mellé egy **óriás kotrógép** kerül. Tölts Dark Mattert a kotrógép tartályába, válassz erőforrást, és kibányássza a pulzárt: Thulium és ritka ércek hullanak körülötte ládákban, amelyeket bárki felvehet. Ez a legtöbbet érő dolog, amiért a veszélyes szektorokban harcolni lehet, és a legveszélyesebb. Lásd: [Óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md). A Betában és a Gammában az óriás kotrógépek a szezon első napjától állnak.
 - **Slumbering Voidok.** Amíg egy kotrógép bányászik, **Slumbering Voidok** érkeznek hullámokban a térkép széléről, és vadásznak a közelében lévő pilótákra. Mások a mocsarat járőrözik. Lásd: [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void).
-- **A Dormant Swamp.** A `DS-4` egyik sarkában áll az elveszett civilizáció bázisa: lövegek, amelyek minden hajóra tüzelnek, amit látnak, őrzőik, az Inert Massek, és középen az Unwakened. Ez egy olyan hely, amelyet a pilótáknak még nem szabad meglátogatniuk. Lásd: [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
+- **A Dormant Swamp.** A `DS-4` egyik sarkában áll az elveszett civilizáció bázisa: lövegek, amelyek minden hajóra tüzelnek, amit látnak, őrzőik, az Inert Massek, és középen az Unwakened. Lásd: [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
 - **Gyorsabb, gazdagabb Dormant-raj.** A raj mostantól a mocsárnál jelenik meg, megsemmisítése után hamarabb tér vissza, és kétszer annyit fizet. Lásd: [Dormant-raj](/wiki/05-Swarms/Dormant-Swarm.md).
 - **A 11. nap előtt** csak a pulzárok ragyognak: a veszélyes szektorok egyébként olyanok, amilyennek az [Utazás az űrtérképen](/wiki/01-General/Spacemap%20Travel.md) leírja őket. A 11. napon vagy később járó világban minden egyszerre megvan. A Betában és a Gammában az óriás kotrógépek a szezon első napjától állnak.
+- **A Threshold.** A Dormant Swamp Unwakenedje most már elpusztítható. Minden világban a szezon első leölése megnyitja annak a világnak a Thresholdját a `DS-4` jobb felső sarkában, ahol a pilótái felépítik a Void Gate-et a [Deep Void](/wiki/03-Mechanics/Deep-Void.md)-ba.
 
 ## Davidski
 

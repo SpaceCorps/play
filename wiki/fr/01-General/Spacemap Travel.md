@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 00f154de4f7e72f2 -->
+<!-- wiki-i18n source: 95e9602370e7a658 -->
 <!-- wiki-i18n title: Navigation spatiale -->
 # Navigation sur la carte spatiale {#spacemap-travel}
 
@@ -45,6 +45,8 @@ La carte de la galaxie ci-dessous montre en temps réel la disposition de l’un
 ```
 
 Avec un [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) installé, la carte sert aussi à choisir votre destination : appuyez sur l’emplacement du CPU dans la barre rapide (**JMP**) et la fenêtre Système stellaire s’ouvre en mode sélection. Les secteurs où le CPU peut vous emmener sont éclairés ; votre propre secteur et les secteurs dangereux ne le sont pas. Pointez un secteur éclairé pour lire le prix, cliquez dessus et confirmez le saut quand la carte le demande (500 Thulium).
+
+**Deep Void.** Un interrupteur en haut de la fenêtre du Système stellaire affiche les cartes **normales** ou celles du **Deep Void**. `DV-1` affiche `???` tant que vous n’y êtes pas allé, avec un indice sur le chemin d’accès : les Signaux, le Void Gate de votre monde dans `DS-4` et, une fois que vous y avez volé, la part que vous en avez explorée. Aucun portail de cette carte n’y mène : la seule entrée est un Void Gate ([Deep Void](/wiki/03-Mechanics/Deep-Void.md)).
 
 ## Comment voyager {#how-to-travel}
 

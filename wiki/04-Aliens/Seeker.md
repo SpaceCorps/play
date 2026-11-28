@@ -4,10 +4,10 @@ Seekers are basic scouting and reconnaissance units. They are passive, meaning t
 
 ## Stats
 
-- **Hitpoints (HP)**: 800
-- **Shield**: 800
-- **Damage**: 180
-- **Speed**: 120
+- **Hitpoints (HP)**: {{guide:vitals.hull@Seeker#1}}
+- **Shield**: {{guide:vitals.shield@Seeker#1}}
+- **Damage**: {{guide:vitals.dps@Seeker#1}}
+- **Speed**: {{guide:vitals.speed@Seeker#1;Seeker#2;Seeker#3;Seeker#4}}
 - **Attack Range**: 600
 - **Behavior**: Passive
 
@@ -22,10 +22,10 @@ Seekers are basic scouting and reconnaissance units. They are passive, meaning t
 
 ## Rewards
 
-- **Credits**: 1,000
-- **Thulium**: 4
-- **Experience (XP)**: 100
-- **Honor**: 2
+- **Credits**: {{guide:spoils.pay.credits@Seeker#1}}
+- **Thulium**: {{guide:spoils.pay.thulium@Seeker#1}}
+- **Experience (XP)**: {{guide:spoils.pay.experience@Seeker#1}}
+- **Honor**: {{guide:spoils.pay.honor@Seeker#1}}
 - **PvE points per kill**: 1
 - **Shield Recharge**: 10 per second (15s delay)
 
@@ -35,9 +35,11 @@ Dropped as a [cargo crate](/wiki/03-Mechanics/Cargo.md) where it blows up, the k
 
 What each drop is for, and where else to find it: [Resources](/wiki/06-Items/Resources.md).
 
-- **Ship Fragment**: 20% chance (Min: 1, Max: 1)
-- **Daraxium**: 50% chance (Min: 1, Max: 2)
-- **Echo Shard**: 0.8% chance (Min: 1, Max: 1)
+- {{guide:spoils.box@Seeker#1;Seeker#2;Seeker#3;Seeker#4}}
+
+## Special Abilities
+
+Some aliens of this kind carry a **special ability**: one thing they do, once, when their hull is half gone. Nothing shows before it starts. [Special Abilities](/wiki/03-Mechanics/Special-Abilities.md) says what each ability does and how to answer it.
 
 ## Lore
 

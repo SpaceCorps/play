@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 00f154de4f7e72f2 -->
+<!-- wiki-i18n source: 95e9602370e7a658 -->
 <!-- wiki-i18n title: Reisen im All -->
 # Reisen auf der Weltraumkarte {#spacemap-travel}
 
@@ -45,6 +45,8 @@ Die Galaxiekarte unten zeigt den Aufbau des bekannten Universums in Echtzeit. Im
 ```
 
 Ist eine [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu) ausgerüstet, wählt die Karte auch dein Ziel: Drücke den Slot der CPU in der Aktionsleiste (**JMP**), und das Fenster Sternensystem öffnet sich im Auswahlmodus. Die Sektoren, zu denen dich die CPU bringen kann, leuchten; dein eigener Sektor und die Gefahrensektoren nicht. Zeige auf einen leuchtenden Sektor, um den Preis zu lesen, klicke ihn an und bestätige den Sprung, wenn die Karte danach fragt (500 Thulium).
+
+**Deep Void.** Ein Schalter oben im Fenster des Sternensystems zeigt die **normalen** Karten oder die Karten der **Deep Void**. `DV-1` zeigt `???`, bis du dort warst, mit einem Hinweis auf den Weg hinein: die Signale, das Void Gate deiner Welt in `DS-4` und, sobald du sie geflogen bist, wie viel du davon erkundet hast. Kein Portal dieser Karte führt dorthin: Der einzige Weg hinein ist ein Void Gate ([Deep Void](/wiki/03-Mechanics/Deep-Void.md)).
 
 ## So reist du {#how-to-travel}
 

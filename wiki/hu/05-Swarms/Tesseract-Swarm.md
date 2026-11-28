@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4e3f459fc0966372 -->
+<!-- wiki-i18n source: 98e91b2bd1dede81 -->
 <!-- wiki-i18n title: Tesseract-raj -->
 # Tesseract-raj {#tesseract-swarm}
 
@@ -13,13 +13,13 @@ A Tesseract-raj egyetlen hatalmas anyahajó, a **Tesseract**, és a **Facetek**,
 - **Hány**: Világonként egy
 - **Megjelenik**: A szezon 4. napjától a wipe-ig (Betában és Gammában: a szezon 1. napjától)
 - **Vezér**: Tesseract
-- **Otthon**: A szektortérkép 25 900, 6 100 pontjától legfeljebb 2 500 egységre
+- **Otthon**: A szektortérkép 25 900, 11 900 pontjától legfeljebb 2 500 egységre
 - **Regeneráció**: Alphában másodpercenként 125 000 HP, előbb a hajótest, aztán a pajzs, miután 5 mp telt el sebzés nélkül
 - **Kísérők**: Legfeljebb 100 × Facet, 5 mp múlva 20 újabb, amíg a vezért találatok érik
 - **A kísérők érkezése**: Csak amíg a vezért az elmúlt 5 mp alatt találat érte, tőle legfeljebb 400 egységre
 - **Vadászok**: Minden Facet saját szakaszokat repül a vezér körül, tőle legfeljebb 3 600 egységre, és senkit sem üldöz. Arra a legközelebbi pilótára tüzel, aki eltalálta a vezért, ha az a hatótávjában van. Ha nincs kire lőnie, tovább repked a vezér körül, és az utolsó találat után 20 mp múlva elmegy
 - **A vezér megsemmisül**: A kísérők a vezér megsemmisülése után 1 perc múlva eltűnnek, akkor is, ha éppen támadnak
-- **Visszatér**: 30 perc azután, hogy a vezér megsemmisült, ugyanabban a szektorban
+- **Visszatér**: {{guide:vitals.respawn@Tesseract#1;Tesseract#2;Tesseract#3}} azután, hogy a vezér megsemmisült, ugyanabban a szektorban
 - **Értesítés**: A szektor pilótái értesülnek arról, mikor jelenik meg a vezér, és mikor semmisül meg. Ezek rendszersorok: a chat **Rendszer** lapján jelennek meg, olvasatlan sorok számlálójával, és nem a **Globális** vagy a **Helyi** lapon. A kill feed megnevezi a pilótát, akinek a kilövést jóváírják.
 
 <!-- tesseract-glance:end -->
@@ -40,6 +40,17 @@ A Tesseract-raj egyetlen hatalmas anyahajó, a **Tesseract**, és a **Facetek**,
 - **A veszélyes szektorok PvP-szektorok.** Egy rivális a harc közepén megtámadhatja a csoportot. A roncsnál nincs láda, amelyre várhatna: a zsákmány minden pilótának, akit a megölés kifizet, egy [privát láda](/wiki/03-Mechanics/Cargo.md#private-boxes), amelyet csak az a pilóta lát és vehet fel. Ne egyedül menj.
 - **A Tesseract visszatér** a *Röviden* listában megadott idő múlva, teljes erővel, a helyén.
 
+## A vezér három lépése {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+A harcának három lépése van ([hogyan működnek](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); mindegyik egyszer történik meg, és elölről kezdődnek, amint teljesen meggyógyult.
+
+- **Kétharmad alatt**: 20 további hajó érkezik egyszerre a szokásos számuk fölött: Facets.
+
+<!-- mob-ladder:end -->
+
 ## Jutalmak és zsákmány {#rewards-and-drops}
 
 A Tesseract azt fizeti, amit a harc megér: annyit, mint sok Crystalys együtt, és a felvett sebzéshez képest többet, mint egy Crystalys, a legjobban fizető idegen. A fizetést a sebzés szerint osztják el a vele harcoló pilóták között ([hogyan fizet egy boss megölése](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). A legtöbb sebzést okozó pilótának nincs külön láda. Minden pilóta, akit a megölés kifizet, saját [privát ládát](/wiki/03-Mechanics/Cargo.md#private-boxes) kap, amelyet csak ő lát és vehet fel, 10 percig. A ládában Reinforced Hull Plate, Velkonite Reinforced Plate, Orvium Reinforced Plate, Power Core, Ancient Control Unit és Dark Matter van. A sebzésből rá eső részre dobják, mint egy [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) zsákmányát: aki a sebzés ötödét okozta, a táblázatbeli mennyiségek nagyjából ötödét kapja, csoportban pedig mindenki a csoport részéből kapja a magáét, ahogy a fizetést is elosztják. A Dark Matterre pilótánként felső határ vonatkozik: egy megölésből legfeljebb 5-öt kap, bármekkora is a részesedése (csoportban előbb mindenki része válik le, és a határ mindenkire külön vonatkozik), és ami a határ fölé esik, elvész, nem kapják meg a többiek. Egy Facet ugyanazt a Kreditet, Thuliumot, XP-t és Becsületet fizeti, mint egy [Phantasm](/wiki/04-Aliens/Phantasm.md); a megölése megölésnek számít (a statisztikádban, az eredményeknél és a drónjaid meg P.E.T.-jeid tapasztalatánál), de nem ejt semmit, és nem ad PvE-pontot.
@@ -57,30 +68,24 @@ Alapja: Crystalys, hajótestének 625%-a; nincs fegyvere, a pajzsa és a sebess�
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Hajótest | 1 600 000 | 2 400 000 | 3 200 000 |
-| Pajzs | 1 200 000 | 1 800 000 | 2 400 000 |
+| Hajótest | {{guide:vitals.hull@Tesseract#1}} | {{guide:vitals.hull@Tesseract#2}} | {{guide:vitals.hull@Tesseract#3}} |
+| Pajzs | {{guide:vitals.shield@Tesseract#1}} | {{guide:vitals.shield@Tesseract#2}} | {{guide:vitals.shield@Tesseract#3}} |
 | Lézersebzés (másodpercenként egy sorozat) | nincs | nincs | nincs |
-| Sebesség | 30 | 30 | 30 |
+| Sebesség | {{guide:vitals.speed@Tesseract#1}} | {{guide:vitals.speed@Tesseract#2}} | {{guide:vitals.speed@Tesseract#3}} |
 | Lézer hatótávja | – | – | – |
 | Aggrósugár | csak ha megtámadják | csak ha megtámadják | csak ha megtámadják |
 | Javít, másodpercenként, 5 mp sebzés nélküli idő után (előbb hajótest, aztán pajzs) | 125 000 | 187 500 | 250 000 |
-| Kredit | 900 000 | 1 800 000 | 2 700 000 |
-| Thulium | 2 400 | 4 800 | 7 200 |
-| Tapasztalat (XP) | 144 000 | 288 000 | 432 000 |
-| Becsület | 624 | 1 248 | 1 872 |
+| Kredit | {{guide:spoils.pay.credits@Tesseract#1}} | {{guide:spoils.pay.credits@Tesseract#2}} | {{guide:spoils.pay.credits@Tesseract#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Tesseract#1}} | {{guide:spoils.pay.thulium@Tesseract#2}} | {{guide:spoils.pay.thulium@Tesseract#3}} |
+| Tapasztalat (XP) | {{guide:spoils.pay.experience@Tesseract#1}} | {{guide:spoils.pay.experience@Tesseract#2}} | {{guide:spoils.pay.experience@Tesseract#3}} |
+| Becsület | {{guide:spoils.pay.honor@Tesseract#1}} | {{guide:spoils.pay.honor@Tesseract#2}} | {{guide:spoils.pay.honor@Tesseract#3}} |
 | PvE-pont kilövésenként | 42 | 42 | 42 |
 
 **Zsákmány minden pilótának, akit a megölés kifizet**: egy láda mindegyiküknek, csak neki, a mennyiségek rá eső részével.
 
-| Tárgy | Esély | Mennyiség |
-| :--- | ---: | ---: |
-| Reinforced Hull Plate | 100% | 3–10 |
-| Velkonite Reinforced Plate | 66% | 7–12 |
-| Orvium Reinforced Plate | 50% | 3–5 |
-| Power Core | 66% | 4–7 |
-| Ancient Control Unit | 100% | 1–4 |
-| Dark Matter | 100% | 10–20, pilótánként legfeljebb 5 |
-| Heartshard | 5% | 1 |
+| Tárgy |
+| :--- |
+| {{guide:spoils.box@Tesseract#1;Tesseract#2;Tesseract#3}} |
 
 ### Facet
 
@@ -88,16 +93,16 @@ Alapja: Seeker, hajótestének 2 500%-a és lézersebzésének 463%-a; a pajzsa
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Hajótest | 20 000 | 30 000 | 40 000 |
-| Pajzs | 16 000 | 24 000 | 32 000 |
-| Lézersebzés (másodpercenként egy sorozat) | 834 | 1 251 | 1 668 |
-| Sebesség | 750 | 750 | 750 |
+| Hajótest | {{guide:vitals.hull@Facet#1}} | {{guide:vitals.hull@Facet#2}} | {{guide:vitals.hull@Facet#3}} |
+| Pajzs | {{guide:vitals.shield@Facet#1}} | {{guide:vitals.shield@Facet#2}} | {{guide:vitals.shield@Facet#3}} |
+| Lézersebzés (másodpercenként egy sorozat) | {{guide:vitals.dps@Facet#1}} | {{guide:vitals.dps@Facet#2}} | {{guide:vitals.dps@Facet#3}} |
+| Sebesség | {{guide:vitals.speed@Facet#1}} | {{guide:vitals.speed@Facet#2}} | {{guide:vitals.speed@Facet#3}} |
 | Lézer hatótávja | 600 | 600 | 600 |
 | Aggrósugár | csak ha megtámadják | csak ha megtámadják | csak ha megtámadják |
-| Kredit | 3 000 | 6 000 | 9 000 |
-| Thulium | 12 | 24 | 36 |
-| Tapasztalat (XP) | 300 | 600 | 900 |
-| Becsület | 6 | 12 | 18 |
+| Kredit | {{guide:spoils.pay.credits@Facet#1}} | {{guide:spoils.pay.credits@Facet#2}} | {{guide:spoils.pay.credits@Facet#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Facet#1}} | {{guide:spoils.pay.thulium@Facet#2}} | {{guide:spoils.pay.thulium@Facet#3}} |
+| Tapasztalat (XP) | {{guide:spoils.pay.experience@Facet#1}} | {{guide:spoils.pay.experience@Facet#2}} | {{guide:spoils.pay.experience@Facet#3}} |
+| Becsület | {{guide:spoils.pay.honor@Facet#1}} | {{guide:spoils.pay.honor@Facet#2}} | {{guide:spoils.pay.honor@Facet#3}} |
 | PvE-pont kilövésenként | 0 | 0 | 0 |
 
 **Zsákmány**: nincs. A kilövés csak a kreditjét, Thuliumát, XP-jét és becsületét fizeti.

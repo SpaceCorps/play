@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9da2aba86c37f5e2 -->
+<!-- wiki-i18n source: 645f14f1a9375995 -->
 <!-- wiki-i18n title: Objets spéciaux -->
 # Objets spéciaux {#special-items}
 
@@ -44,7 +44,7 @@ Termine **une amélioration du Skylab sur-le-champ** : choisissez le module en 
 
 ### Schematics
 
-Retire **24 heures à la recherche en cours**. S’il en reste **24 heures ou moins**, la recherche est **terminée** sur-le-champ ; s’il en reste plus, elle perd 24 heures et continue, et vous pouvez utiliser un autre Schematics dessus. 188 des 210 technologies du [Centre de recherche](/wiki/03-Mechanics/Research.md) demandent 24 heures ou moins : un Schematics les termine donc dès le départ. Les 22 autres demandent plus, 48 ou 72 heures pour la plupart et 96, 168 et 240 heures pour les Rocket Launcher III, IV et V, et exigent de 2 à 10 Schematics.
+Retire **24 heures à la recherche en cours**. S’il en reste **24 heures ou moins**, la recherche est **terminée** sur-le-champ ; s’il en reste plus, elle perd 24 heures et continue, et vous pouvez utiliser un autre Schematics dessus. 190 des 212 technologies du [Centre de recherche](/wiki/03-Mechanics/Research.md) demandent 24 heures ou moins : un Schematics les termine donc dès le départ. Les 22 autres demandent plus, 48 ou 72 heures pour la plupart et 96, 168 et 240 heures pour les Rocket Launcher III, IV et V, et exigent de 2 à 10 Schematics.
 
 - **Des heures de la technologie, pas de l’horloge.** Les 24 heures sont le temps de recherche propre à la technologie, celui de sa fiche. Le boost de Thulium fait avancer une recherche plus vite, mais ne change pas ce qu’une utilisation retire ; si un boost couvrirait la fin de la recherche, une utilisation fait donc gagner moins d’heures d’attente (à double vitesse, une journée de recherche vaut 12 heures d’attente). La confirmation indique ce que le compte à rebours affichera.
 - **La recherche continue comme avant.** Une recherche qui perd 24 heures garde sa place : le boost continue, la file n’est pas touchée et rien ne démarre derrière elle. Une recherche qui attend de la science attend toujours : Schematics donne du temps, pas du carburant.

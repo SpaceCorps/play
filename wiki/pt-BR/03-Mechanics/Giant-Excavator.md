@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e3fa08f52459090c -->
+<!-- wiki-i18n source: d7154b35dd9c47fc -->
 <!-- wiki-i18n title: Escavadeira gigante -->
 # Escavadeira gigante {#giant-excavator}
 
@@ -91,13 +91,13 @@ Uma rodada atrai **Slumbering Voids**, caçadores da civilização perdida que v
 
 - **Ondas.** 3 Slumbering Voids a cada 2 min; as primeiras 1 min depois do início, e nenhuma nos últimos 1 min de uma rodada. No máximo 12 estão vivos ao mesmo tempo num mapa: uma onda que encontra o mapa cheio é pulada.
 - **Chegada.** Uma onda aparece na borda do mapa, 900 unidades para dentro e a pelo menos 2.500 unidades de todo anel de portão, e voa até a escavadeira em cerca de 20 s. A mensagem diz de que lado do mapa ela vem.
-- **Caça.** Um Void caça o piloto mais próximo que consegue ver a até 2.500 unidades, e fica a até 7.000 unidades da escavadeira.
+- **Caça.** Um Void caça o piloto mais próximo que consegue ver a até {{guide:vitals.aggro@Slumbering Void}} unidades, e fica a até 7.000 unidades da escavadeira.
 - **Cerco.** Quando, por 15 s, nenhum piloto que eles consigam ver está a até 7.000 unidades da escavadeira, os Voids atacam a escavadeira, e cada laser causa 25% do dano usual. Em zero a escavadeira é destruída: o combustível se perde, o casco volta a ficar cheio na hora, e ela descansa por 1 h.
 - **Partida.** Quando uma rodada termina, os Voids que sobram ficam mais 90 s e continuam lutando se forem combatidos; depois vão embora.
 
 <!-- excavator-voids:end -->
 
-- **Um Void é um canhão de vidro.** O escudo dele é grande, mas absorve 80% de um acerto, então o casco atrás dele acaba depois de poucas vezes o seu tamanho em dano, e bem antes com penetração de escudo. Quatro pilotos sem penetração de escudo, ou dois com uma boa configuração, seguram uma rodada em Alpha; Beta e Gamma pedem grupos maiores, como para qualquer alienígena.
+- **Um Void é um canhão de vidro.** O escudo dele é grande, mas absorve {{guide:vitals.absorbance@Slumbering Void}} de um acerto, então o casco atrás dele acaba depois de poucas vezes o seu tamanho em dano, e bem antes com penetração de escudo. Quatro pilotos sem penetração de escudo, ou dois com uma boa configuração, seguram uma rodada em Alpha; Beta e Gamma pedem grupos maiores, como para qualquer alienígena.
 - **Um camuflado não defende o local.** Os Voids não veem naves camufladas, então um piloto que se esconde não os afasta da escavadeira; e um piloto que se abriga num anel de portão não pode ser alcançado e também não conta.
 - **Cada Void paga,** conforme o dano que você causou, e solta uma caixa ([como paga o abate de um chefe](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Os abates deles somam aos seus pontos PvE de patente como os de uma nave de enxame.
 

@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 91f3dc3b14f71464 -->
+<!-- wiki-i18n source: f9b2d026af543d87 -->
 <!-- wiki-i18n title: ダンジョン -->
 # ダンジョン {#dungeons}
 
-<!-- wiki-search: dungeon; dungeons; gate; gates; clan gate; clan gates; clan dungeon; summon; warlord; gate warlord; boss; maze; loot zone; chest; card; vote; stage; instance; gate delta; gate epsilon; gate zeta; gate eta; gate theta; gate iota; gate goombah; gate pirate; gate crystalys; portal; clan portal; join; clan gate alerts; clan dungeon window; clan dungeon alerts; dungeon goombah; dungeon pirate; dungeon crystalys; dungeon warlord; 75 percent; three quarters; start room; fog; guards; locked room; boss room; booster; boosters; swarm assist; focus most wanted; zone of chaos; rocket barrage; ダンジョン; ダンジョン; ウォーロード; 迷路; ステージ; 戦利品ゾーン; カード; ポータル; クランポータル; ブースター; 霧; 番人; スタートルーム; 施錠された部屋; 群れの支援; カオスゾーン; クランのダンジョン通知; クランダンジョン; クランダンジョン通知; 4分の3; 75パーセント -->
+<!-- wiki-search: dungeon; dungeons; gate; gates; clan gate; clan gates; clan dungeon; summon; warlord; gate warlord; boss; maze; loot zone; chest; card; vote; stage; instance; gate delta; gate epsilon; gate zeta; gate eta; gate theta; gate iota; gate goombah; gate pirate; gate crystalys; portal; clan portal; join; clan gate alerts; clan dungeon window; clan dungeon alerts; dungeon goombah; dungeon pirate; dungeon crystalys; dungeon warlord; 75 percent; three quarters; start room; fog; guards; locked room; boss room; booster; boosters; swarm assist; focus most wanted; zone of chaos; rocket barrage; ダンジョン; ダンジョン; ウォーロード; 迷路; ステージ; 戦利品ゾーン; カード; ポータル; クランポータル; ブースター; 霧; 番人; スタートルーム; 施錠された部屋; 群れの支援; カオスゾーン; クランのダンジョン通知; クランダンジョン; クランダンジョン通知; 4分の3; 75パーセント; radiation donut; donut; 放射線ドーナツ -->
 
-**ダンジョン**は、最奥に**ウォーロード**が待つ、閉ざされた迷路です（0.5.2より前は、ゲーム内でゲートと呼ばれていました）。[クラン](/wiki/03-Mechanics/Clans.md)の副リーダーまたはリーダーがダンジョンを開き、クランバンクから代金を支払うと、クランのメンバーが1つの[グループ](/wiki/03-Mechanics/Groups.md)として一緒に飛び込みます。迷路のエイリアンを突破し、戦利品ゾーンを開いてそれぞれからカードを1枚選び、ウォーロードを倒します。戦闘に参加したパイロットには、ウォーロードを倒した時点で、後述の上限の範囲内で報酬が支払われます。ダンジョンはクランページの**ダンジョン**タブにあります。
+**ダンジョン**は、最奥に**ウォーロード**が待つ、閉ざされた迷路です（0.5.2より前は、ゲーム内でゲートと呼ばれていました）。[クラン](/wiki/03-Mechanics/Clans.md)の副リーダーまたはリーダーがダンジョンを開き、クランバンクから代金を支払うと、クランのメンバーが1つの[グループ](/wiki/03-Mechanics/Groups.md)として一緒に飛び込みます。迷路のエイリアンを突破し、戦利品ゾーンを開いてそれぞれからカードを1枚選び、ウォーロードを倒します。全員が1つのグループとして飛ぶため、ロケットの範囲ダメージはグループにも及びます。Ember、Scatter、N.U.K.E. の爆発と、N.U.K.E. が残す放射線ゾーンは、あなたとグループのメンバーに、他の艦に与える量の半分のダメージを与えます。どこへ撃つか注意してください（[グループ](/wiki/03-Mechanics/Groups.md#rules-of-engagement)を参照）。戦闘に参加したパイロットには、ウォーロードを倒した時点で、後述の上限の範囲内で報酬が支払われます。ダンジョンはクランページの**ダンジョン**タブにあります。
 
 ダンジョンはエイリアンだけと戦う場所です。中ではクランの仲間を含め、誰も攻撃できません。エイリアンは、モデルとなったゲーム内のエイリアンと同じように、倒れたときに報酬を支払います（[エイリアンの報酬](#what-the-aliens-pay)）。クリアの報酬はウォーロードのものなので、それを受け取る唯一の方法は、ウォーロードが倒れるときに戦闘に参加していることです。
 
@@ -117,17 +117,17 @@
 
 |  | ステージ1 | ステージ2 | ステージ3 |
 | :--- | ---: | ---: | ---: |
-| 船体 | 32,000 | 48,000 | 64,000 |
-| シールド | 48,000 | 72,000 | 96,000 |
-| レーザーのダメージ （毎秒1斉射） | 3,000 | 4,500 | 6,000 |
-| 速度 | 180 | 180 | 180 |
+| 船体 | {{guide:vitals.hull@Dungeon Goombah}} | {{guide:vitals.hull*1.5@Dungeon Goombah}} | {{guide:vitals.hull*2@Dungeon Goombah}} |
+| シールド | {{guide:vitals.shield@Dungeon Goombah}} | {{guide:vitals.shield*1.5@Dungeon Goombah}} | {{guide:vitals.shield*2@Dungeon Goombah}} |
+| レーザーのダメージ （毎秒1斉射） | {{guide:vitals.dps@Dungeon Goombah}} | {{guide:vitals.dps*1.5@Dungeon Goombah}} | {{guide:vitals.dps*2@Dungeon Goombah}} |
+| 速度 | {{guide:vitals.speed@Dungeon Goombah}} | {{guide:vitals.speed@Dungeon Goombah}} | {{guide:vitals.speed@Dungeon Goombah}} |
 | レーザーの射程 | 800 | 800 | 800 |
-| 索敵範囲 | 1,800 | 1,800 | 1,800 |
+| 索敵範囲 | {{guide:vitals.aggro@Dungeon Goombah}} | {{guide:vitals.aggro@Dungeon Goombah}} | {{guide:vitals.aggro@Dungeon Goombah}} |
 | 報酬と戦利品（元の何倍か） | ×1 | ×1.5 | ×2 |
-| 撃破ごとのクレジット | 15,000 | 22,500 | 30,000 |
-| 撃破ごとのThulium | 75 | 113 | 150 |
-| 撃破ごとの経験値 | 3,000 | 4,500 | 6,000 |
-| 撃破ごとの名誉 | 24 | 36 | 48 |
+| 撃破ごとのクレジット | {{guide:spoils.pay.credits@Goombah#1}} | {{guide:spoils.pay.credits*1.5@Goombah#1}} | {{guide:spoils.pay.credits*2@Goombah#1}} |
+| 撃破ごとのThulium | {{guide:spoils.pay.thulium@Goombah#1}} | {{guide:spoils.pay.thulium*1.5@Goombah#1}} | {{guide:spoils.pay.thulium*2@Goombah#1}} |
+| 撃破ごとの経験値 | {{guide:spoils.pay.experience@Goombah#1}} | {{guide:spoils.pay.experience*1.5@Goombah#1}} | {{guide:spoils.pay.experience*2@Goombah#1}} |
+| 撃破ごとの名誉 | {{guide:spoils.pay.honor@Goombah#1}} | {{guide:spoils.pay.honor*1.5@Goombah#1}} | {{guide:spoils.pay.honor*2@Goombah#1}} |
 
 ### Dungeon Pirate
 
@@ -138,18 +138,18 @@
 
 |  | ステージ1 | ステージ2 | ステージ3 |
 | :--- | ---: | ---: | ---: |
-| 船体 | 250,000 | 375,000 | 500,000 |
-| シールド | 50,100 | 75,150 | 100,200 |
-| レーザーのダメージ （毎秒1斉射） | 200 | 300 | 400 |
-| ロケットのダメージ | 5,000 | 7,500 | 10,000 |
-| 速度 | 100 | 100 | 100 |
+| 船体 | {{guide:vitals.hull@Dungeon Pirate}} | {{guide:vitals.hull*1.5@Dungeon Pirate}} | {{guide:vitals.hull*2@Dungeon Pirate}} |
+| シールド | {{guide:vitals.shield@Dungeon Pirate}} | {{guide:vitals.shield*1.5@Dungeon Pirate}} | {{guide:vitals.shield*2@Dungeon Pirate}} |
+| レーザーのダメージ （毎秒1斉射） | {{guide:vitals.dps@Dungeon Pirate}} | {{guide:vitals.dps*1.5@Dungeon Pirate}} | {{guide:vitals.dps*2@Dungeon Pirate}} |
+| ロケットのダメージ | {{guide:behaviour.ability:rocket.damage@Dungeon Pirate}} | {{guide:behaviour.ability:rocket.damage*1.5@Dungeon Pirate}} | {{guide:behaviour.ability:rocket.damage*2@Dungeon Pirate}} |
+| 速度 | {{guide:vitals.speed@Dungeon Pirate}} | {{guide:vitals.speed@Dungeon Pirate}} | {{guide:vitals.speed@Dungeon Pirate}} |
 | レーザーの射程 | 700 | 700 | 700 |
-| 索敵範囲 | 1,800 | 1,800 | 1,800 |
+| 索敵範囲 | {{guide:vitals.aggro@Dungeon Pirate}} | {{guide:vitals.aggro@Dungeon Pirate}} | {{guide:vitals.aggro@Dungeon Pirate}} |
 | 報酬と戦利品（元の何倍か） | ×1 | ×1.5 | ×2 |
-| 撃破ごとのクレジット | 145,000 | 217,500 | 290,000 |
-| 撃破ごとのThulium | 725 | 1,088 | 1,450 |
-| 撃破ごとの経験値 | 29,000 | 43,500 | 58,000 |
-| 撃破ごとの名誉 | 232 | 348 | 464 |
+| 撃破ごとのクレジット | {{guide:spoils.pay.credits@Pirate Boss#1}} | {{guide:spoils.pay.credits*1.5@Pirate Boss#1}} | {{guide:spoils.pay.credits*2@Pirate Boss#1}} |
+| 撃破ごとのThulium | {{guide:spoils.pay.thulium@Pirate Boss#1}} | {{guide:spoils.pay.thulium*1.5@Pirate Boss#1}} | {{guide:spoils.pay.thulium*2@Pirate Boss#1}} |
+| 撃破ごとの経験値 | {{guide:spoils.pay.experience@Pirate Boss#1}} | {{guide:spoils.pay.experience*1.5@Pirate Boss#1}} | {{guide:spoils.pay.experience*2@Pirate Boss#1}} |
+| 撃破ごとの名誉 | {{guide:spoils.pay.honor@Pirate Boss#1}} | {{guide:spoils.pay.honor*1.5@Pirate Boss#1}} | {{guide:spoils.pay.honor*2@Pirate Boss#1}} |
 
 ### Dungeon Crystalys
 
@@ -159,17 +159,17 @@
 
 |  | ステージ1 | ステージ2 | ステージ3 |
 | :--- | ---: | ---: | ---: |
-| 船体 | 256,000 | 384,000 | 512,000 |
-| シールド | 160,000 | 240,000 | 320,000 |
-| レーザーのダメージ （毎秒1斉射） | 10,000 | 15,000 | 20,000 |
-| 速度 | 230 | 230 | 230 |
+| 船体 | {{guide:vitals.hull@Dungeon Crystalys}} | {{guide:vitals.hull*1.5@Dungeon Crystalys}} | {{guide:vitals.hull*2@Dungeon Crystalys}} |
+| シールド | {{guide:vitals.shield@Dungeon Crystalys}} | {{guide:vitals.shield*1.5@Dungeon Crystalys}} | {{guide:vitals.shield*2@Dungeon Crystalys}} |
+| レーザーのダメージ （毎秒1斉射） | {{guide:vitals.dps@Dungeon Crystalys}} | {{guide:vitals.dps*1.5@Dungeon Crystalys}} | {{guide:vitals.dps*2@Dungeon Crystalys}} |
+| 速度 | {{guide:vitals.speed@Dungeon Crystalys}} | {{guide:vitals.speed@Dungeon Crystalys}} | {{guide:vitals.speed@Dungeon Crystalys}} |
 | レーザーの射程 | 900 | 900 | 900 |
-| 索敵範囲 | 2,400 | 2,400 | 2,400 |
+| 索敵範囲 | {{guide:vitals.aggro@Dungeon Crystalys}} | {{guide:vitals.aggro@Dungeon Crystalys}} | {{guide:vitals.aggro@Dungeon Crystalys}} |
 | 報酬と戦利品（元の何倍か） | ×1 | ×1.5 | ×2 |
-| 撃破ごとのクレジット | 75,000 | 112,500 | 150,000 |
-| 撃破ごとのThulium | 200 | 300 | 400 |
-| 撃破ごとの経験値 | 12,000 | 18,000 | 24,000 |
-| 撃破ごとの名誉 | 52 | 78 | 104 |
+| 撃破ごとのクレジット | {{guide:spoils.pay.credits@Crystalys#1}} | {{guide:spoils.pay.credits*1.5@Crystalys#1}} | {{guide:spoils.pay.credits*2@Crystalys#1}} |
+| 撃破ごとのThulium | {{guide:spoils.pay.thulium@Crystalys#1}} | {{guide:spoils.pay.thulium*1.5@Crystalys#1}} | {{guide:spoils.pay.thulium*2@Crystalys#1}} |
+| 撃破ごとの経験値 | {{guide:spoils.pay.experience@Crystalys#1}} | {{guide:spoils.pay.experience*1.5@Crystalys#1}} | {{guide:spoils.pay.experience*2@Crystalys#1}} |
+| 撃破ごとの名誉 | {{guide:spoils.pay.honor@Crystalys#1}} | {{guide:spoils.pay.honor*1.5@Crystalys#1}} | {{guide:spoils.pay.honor*2@Crystalys#1}} |
 
 ### Dungeon Crystalys Twin
 
@@ -179,17 +179,17 @@
 
 |  | ステージ1 | ステージ2 | ステージ3 |
 | :--- | ---: | ---: | ---: |
-| 船体 | 512,000 | 768,000 | 1,024,000 |
-| シールド | 320,000 | 480,000 | 640,000 |
-| レーザーのダメージ （毎秒1斉射） | 20,000 | 30,000 | 40,000 |
-| 速度 | 230 | 230 | 230 |
+| 船体 | {{guide:vitals.hull@Dungeon Crystalys Twin}} | {{guide:vitals.hull*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.hull*2@Dungeon Crystalys Twin}} |
+| シールド | {{guide:vitals.shield@Dungeon Crystalys Twin}} | {{guide:vitals.shield*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.shield*2@Dungeon Crystalys Twin}} |
+| レーザーのダメージ （毎秒1斉射） | {{guide:vitals.dps@Dungeon Crystalys Twin}} | {{guide:vitals.dps*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.dps*2@Dungeon Crystalys Twin}} |
+| 速度 | {{guide:vitals.speed@Dungeon Crystalys Twin}} | {{guide:vitals.speed@Dungeon Crystalys Twin}} | {{guide:vitals.speed@Dungeon Crystalys Twin}} |
 | レーザーの射程 | 900 | 900 | 900 |
-| 索敵範囲 | 2,400 | 2,400 | 2,400 |
+| 索敵範囲 | {{guide:vitals.aggro@Dungeon Crystalys Twin}} | {{guide:vitals.aggro@Dungeon Crystalys Twin}} | {{guide:vitals.aggro@Dungeon Crystalys Twin}} |
 | 報酬と戦利品（元の何倍か） | ×2 | ×3 | ×4 |
-| 撃破ごとのクレジット | 150,000 | 225,000 | 300,000 |
-| 撃破ごとのThulium | 400 | 600 | 800 |
-| 撃破ごとの経験値 | 24,000 | 36,000 | 48,000 |
-| 撃破ごとの名誉 | 104 | 156 | 208 |
+| 撃破ごとのクレジット | {{guide:spoils.pay.credits*2@Crystalys#1}} | {{guide:spoils.pay.credits*3@Crystalys#1}} | {{guide:spoils.pay.credits*4@Crystalys#1}} |
+| 撃破ごとのThulium | {{guide:spoils.pay.thulium*2@Crystalys#1}} | {{guide:spoils.pay.thulium*3@Crystalys#1}} | {{guide:spoils.pay.thulium*4@Crystalys#1}} |
+| 撃破ごとの経験値 | {{guide:spoils.pay.experience*2@Crystalys#1}} | {{guide:spoils.pay.experience*3@Crystalys#1}} | {{guide:spoils.pay.experience*4@Crystalys#1}} |
+| 撃破ごとの名誉 | {{guide:spoils.pay.honor*2@Crystalys#1}} | {{guide:spoils.pay.honor*3@Crystalys#1}} | {{guide:spoils.pay.honor*4@Crystalys#1}} |
 
 <!-- dungeons-enemies:end -->
 
@@ -205,24 +205,24 @@
 
 |  | ステージ1 | ステージ2 | ステージ3 |
 | :--- | ---: | ---: | ---: |
-| 船体 | 10,000,000 | 15,000,000 | 25,000,000 |
-| シールド | 8,000,000 | 12,000,000 | 20,000,000 |
-| レーザーのダメージ （毎秒1斉射） | 17,500–22,500 | 2人のパイロットそれぞれに26,250–33,750 | 2人のパイロットそれぞれに35,000–45,000 |
-| 速度 | 120 | 120 | 120 |
+| 船体 | {{guide:vitals.hull@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} | {{guide:vitals.hull*2.5@Dungeon Warlord}} |
+| シールド | {{guide:vitals.shield@Dungeon Warlord}} | {{guide:vitals.shield*1.5@Dungeon Warlord}} | {{guide:vitals.shield*2.5@Dungeon Warlord}} |
+| レーザーのダメージ （毎秒1斉射） | {{guide:vitals.dps*0.875~1.125@Dungeon Warlord}} | 2人のパイロットそれぞれに{{guide:vitals.dps*1.3125~1.6875@Dungeon Warlord}} | 2人のパイロットそれぞれに{{guide:vitals.dps*1.75~2.25@Dungeon Warlord}} |
+| 速度 | {{guide:vitals.speed@Dungeon Warlord}} | {{guide:vitals.speed@Dungeon Warlord}} | {{guide:vitals.speed@Dungeon Warlord}} |
 | レーザーの射程 | 1,100 | 1,100 | 1,100 |
 
 上の船体とシールドは5人のグループの場合の値です。グループの人数に応じて増え、これはダンジョン開始時のグループのパイロット数に応じたウォーロードの船体とシールドの合計です。
 
 | グループのパイロット数 | ステージ1 | ステージ2 | ステージ3 |
 | :--- | ---: | ---: | ---: |
-| 3 | 10,800,000 | 16,200,000 | 27,000,000 |
-| 4 | 14,400,000 | 21,600,000 | 36,000,000 |
-| 5 | 18,000,000 | 27,000,000 | 45,000,000 |
-| 6 | 21,600,000 | 32,400,000 | 54,000,000 |
-| 7 | 25,200,000 | 37,800,000 | 63,000,000 |
-| 8 | 28,800,000 | 43,200,000 | 72,000,000 |
-| 9 | 32,400,000 | 48,600,000 | 81,000,000 |
-| 10 | 36,000,000 | 54,000,000 | 90,000,000 |
+| 3 | {{guide:vitals.hull*0.6@Dungeon Warlord}} + {{guide:vitals.shield*0.6@Dungeon Warlord}} | {{guide:vitals.hull*0.9@Dungeon Warlord}} + {{guide:vitals.shield*0.9@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} + {{guide:vitals.shield*1.5@Dungeon Warlord}} |
+| 4 | {{guide:vitals.hull*0.8@Dungeon Warlord}} + {{guide:vitals.shield*0.8@Dungeon Warlord}} | {{guide:vitals.hull*1.2@Dungeon Warlord}} + {{guide:vitals.shield*1.2@Dungeon Warlord}} | {{guide:vitals.hull*2@Dungeon Warlord}} + {{guide:vitals.shield*2@Dungeon Warlord}} |
+| 5 | {{guide:vitals.hull@Dungeon Warlord}} + {{guide:vitals.shield@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} + {{guide:vitals.shield*1.5@Dungeon Warlord}} | {{guide:vitals.hull*2.5@Dungeon Warlord}} + {{guide:vitals.shield*2.5@Dungeon Warlord}} |
+| 6 | {{guide:vitals.hull*1.2@Dungeon Warlord}} + {{guide:vitals.shield*1.2@Dungeon Warlord}} | {{guide:vitals.hull*1.8@Dungeon Warlord}} + {{guide:vitals.shield*1.8@Dungeon Warlord}} | {{guide:vitals.hull*3@Dungeon Warlord}} + {{guide:vitals.shield*3@Dungeon Warlord}} |
+| 7 | {{guide:vitals.hull*1.4@Dungeon Warlord}} + {{guide:vitals.shield*1.4@Dungeon Warlord}} | {{guide:vitals.hull*2.1@Dungeon Warlord}} + {{guide:vitals.shield*2.1@Dungeon Warlord}} | {{guide:vitals.hull*3.5@Dungeon Warlord}} + {{guide:vitals.shield*3.5@Dungeon Warlord}} |
+| 8 | {{guide:vitals.hull*1.6@Dungeon Warlord}} + {{guide:vitals.shield*1.6@Dungeon Warlord}} | {{guide:vitals.hull*2.4@Dungeon Warlord}} + {{guide:vitals.shield*2.4@Dungeon Warlord}} | {{guide:vitals.hull*4@Dungeon Warlord}} + {{guide:vitals.shield*4@Dungeon Warlord}} |
+| 9 | {{guide:vitals.hull*1.8@Dungeon Warlord}} + {{guide:vitals.shield*1.8@Dungeon Warlord}} | {{guide:vitals.hull*2.7@Dungeon Warlord}} + {{guide:vitals.shield*2.7@Dungeon Warlord}} | {{guide:vitals.hull*4.5@Dungeon Warlord}} + {{guide:vitals.shield*4.5@Dungeon Warlord}} |
+| 10 | {{guide:vitals.hull*2@Dungeon Warlord}} + {{guide:vitals.shield*2@Dungeon Warlord}} | {{guide:vitals.hull*3@Dungeon Warlord}} + {{guide:vitals.shield*3@Dungeon Warlord}} | {{guide:vitals.hull*5@Dungeon Warlord}} + {{guide:vitals.shield*5@Dungeon Warlord}} |
 
 <!-- dungeons-boss:end -->
 
@@ -241,6 +241,7 @@
 - **群れの支援**は、ウォーロードが Goombah を呼ぶアビリティです。Goombah が生きている間、ウォーロードにはダメージが通らず、撃たず、ほかのアビリティも使いません。すべて倒してください。バナーが残りの数を数えます。1分が過ぎると、ウォーロードにまたダメージが通るようになり、残った Goombah はその場に残って戦い続けます。ボス部屋のために数えられず、何も支払いません。
 - **カオスゾーン**は、ウォーロードの周りの地面にある紫のリングで、続いている間はウォーロードの行く先どこへでもついていきます。リングの中では誰も、レーザーでもロケットでも攻撃できませんが、修理、ステルス、飛行は使えます。ウォーロードとそのエイリアンはいつも通り撃ってきます。リングは効果が出る少し前に現れます。リングから出て、外にとどまってください。リングはウォーロードを追いかけます。リングの外のパイロットは、武器が届く範囲なら撃てます。
 - **ファントムランス**は、ウォーロードを1秒間消します。ウォーロードは部屋の別の場所に、自分の幻影3体とともに戻ってきます。幻影が生きている間、幻影は見えているいちばん近いパイロットをウォーロードの斉射の半分の威力で撃ち、毎秒ウォーロードの船体とシールドを回復します（数値は能力の表にあります）。幻影には専用の船体があります。回復を止めるには幻影を破壊してください。幻影は報酬を支払わず、ウォーロードが倒れると一緒に消えます。幻影が生きている間でも、ウォーロードは破壊できます。
+- **放射線ドーナツ**は、ウォーロードがこの能力を始めたときに立っていた場所の周りに、放射線のリングを3つ、ウォーロードから外側へ順に点灯させます。2つのリングの間には1〜2秒あります。各リングは点灯する少し前に両方の縁を示し、点灯すると中にいるパイロットを数秒間、船体から直接焼きます（時間と毎秒の船体の割合は能力の表にあります）。リングは次のリングが点灯しても消えません。2つのリング、そして高いステージでは3つすべてが同時に燃えることがあります。ウォーロードの周りの穴、リングの間の地面、最後のリングの外の地面は安全です。そこにとどまり、リングが点灯する前にリングから出てください。壁は放射線を止めず、ステルスでも防げません。放射線技術は線量を減らします。
 
 <!-- dungeons-abilities:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -255,19 +256,34 @@
 | **群れの支援** | 2秒 | 最大1分 | 3分 | – | – |
 | **カオスゾーン** | 2秒 | 15秒 | 2分 | 900 | – |
 | **ファントムランス** | 1.5秒 | 1秒 | 2分 | – | – |
+| **放射線ドーナツ** | 1秒 | 最大8.5秒 | 75秒 | 2,150 | – |
 
 | アビリティ | ステージ1 | ステージ2 | ステージ3 |
 | :--- | :--- | :--- | :--- |
-| **ライフスティール オーラ** | 毎秒8,000 | 毎秒10,000 | 毎秒12,000 |
-| **メテオ落下** | 1斉射につきメテオ6発、各80,000 | 1斉射につきメテオ8発、各100,000 | 1斉射につきメテオ10発、各120,000 |
-| **お尋ね者への集中攻撃** | 最も多くダメージを与えたパイロットへの追加弾は1発あたり26,250–33,750、1秒ごとに1発 | 最も多くダメージを与えたパイロットへの追加弾は1発あたり39,375–50,625、1秒ごとに1発 | 最も多くダメージを与えたパイロットへの追加弾は1発あたり52,500–67,500、1秒ごとに1発 |
-| **ロケット弾幕** | 各パイロットにロケット1発100,000–150,000、15秒ごとに1発 | 各パイロットにロケット1発125,000–187,500、15秒ごとに1発 | 各パイロットにロケット1発150,000–225,000、15秒ごとに1発 |
-| **シールド吸収** | 毎秒シールド10,000 | 毎秒シールド12,500 | 毎秒シールド15,000 |
+| **ライフスティール オーラ** | 毎秒{{guide:behaviour.ability:lifesteal.drainPerSec@Dungeon Warlord}} | 毎秒{{guide:behaviour.ability:lifesteal.drainPerSec*1.25@Dungeon Warlord}} | 毎秒{{guide:behaviour.ability:lifesteal.drainPerSec*1.5@Dungeon Warlord}} |
+| **メテオ落下** | 1斉射につきメテオ6発、各{{guide:behaviour.ability:meteor.damage@Dungeon Warlord}} | 1斉射につきメテオ8発、各{{guide:behaviour.ability:meteor.damage*1.25@Dungeon Warlord}} | 1斉射につきメテオ10発、各{{guide:behaviour.ability:meteor.damage*1.5@Dungeon Warlord}} |
+| **お尋ね者への集中攻撃** | 最も多くダメージを与えたパイロットへの追加弾は1発あたり{{guide:vitals.dps*1.3125~1.6875@Dungeon Warlord}}、1秒ごとに1発 | 最も多くダメージを与えたパイロットへの追加弾は1発あたり{{guide:vitals.dps*1.96875~2.53125@Dungeon Warlord}}、1秒ごとに1発 | 最も多くダメージを与えたパイロットへの追加弾は1発あたり{{guide:vitals.dps*2.625~3.375@Dungeon Warlord}}、1秒ごとに1発 |
+| **ロケット弾幕** | 各パイロットにロケット1発{{guide:behaviour.ability:barrage.damageMin@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage@Dungeon Warlord}}、15秒ごとに1発 | 各パイロットにロケット1発{{guide:behaviour.ability:barrage.damageMin*1.25@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage*1.25@Dungeon Warlord}}、15秒ごとに1発 | 各パイロットにロケット1発{{guide:behaviour.ability:barrage.damageMin*1.5@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage*1.5@Dungeon Warlord}}、15秒ごとに1発 |
+| **シールド吸収** | 毎秒シールド{{guide:behaviour.ability:absorb.drainPerSec@Dungeon Warlord}} | 毎秒シールド{{guide:behaviour.ability:absorb.drainPerSec*1.25@Dungeon Warlord}} | 毎秒シールド{{guide:behaviour.ability:absorb.drainPerSec*1.5@Dungeon Warlord}} |
 | **群れの支援** | Goombah 12体 | Goombah 18体 | Goombah 24体 |
 | **カオスゾーン** | リング内のパイロットは攻撃できません | リング内のパイロットは攻撃できません | リング内のパイロットは攻撃できません |
-| **ファントムランス** | 船体500,000の幻影3体。各幻影はウォーロードの斉射の50%を撃ち、生きている間はウォーロードを毎秒、船体50,000・シールド50,000回復します | 船体500,000の幻影3体。各幻影はウォーロードの斉射の50%を撃ち、生きている間はウォーロードを毎秒、船体50,000・シールド50,000回復します | 船体500,000の幻影3体。各幻影はウォーロードの斉射の50%を撃ち、生きている間はウォーロードを毎秒、船体50,000・シールド50,000回復します |
+| **ファントムランス** | 幻影3体。各幻影はウォーロードの斉射の50%を撃ち、生きている間はウォーロードを毎秒、船体50,000・シールド50,000回復します | 幻影3体。各幻影はウォーロードの斉射の50%を撃ち、生きている間はウォーロードを毎秒、船体50,000・シールド50,000回復します | 幻影3体。各幻影はウォーロードの斉射の50%を撃ち、生きている間はウォーロードを毎秒、船体50,000・シールド50,000回復します |
+| **放射線ドーナツ** | リング3個を順に点灯。各リングは2秒燃え、毎秒パイロットの船体の8%を奪います | リング3個を順に点灯。各リングは3秒燃え、毎秒パイロットの船体の8%を奪います | リング3個を順に点灯。各リングは4.5秒燃え、毎秒パイロットの船体の8%を奪います |
 
 <!-- dungeons-abilities:end -->
+
+### その3つの段階 {#its-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Warlord には三つの段階があります([しくみ](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps))。それぞれ一度だけ起こります。
+
+- **三分の二を切ると**: 能力と能力の間隔が4秒に、待機時間が×0.75になります。
+- **三分の一を切ると**: 間隔が2秒に、待機時間が×0.5になり、ダメージが×1.25になります。無料のMeteor一斉射撃を一度行い、Swarmは120秒より短い間隔では戻りません。
+- **段階ごとの小休止。** 段階が始まると、Warlord は3秒の間ダメージを受けません。
+
+<!-- mob-ladder:end -->
 
 ## 戦利品ゾーン {#loot-zones}
 
@@ -351,9 +367,9 @@
 
 | ステージ | 名誉 | 経験値 | クレジット | Thulium | x4弾薬 | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE ポイント |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **ステージ1** | 25,000 | 600,000 | 5,000,000 | 8,000 | 4,000 | 5 | 12 | 5 | 850 |
-| **ステージ2** | 50,000 | 1,500,000 | 10,000,000 | 18,000 | 9,000 | 10 | 8 | 6 | 2,000 |
-| **ステージ3** | 100,000 | 2,400,000 | 17,500,000 | 30,000 | 15,000 | 15 | 8 | 7 | 3,400 |
+| **ステージ1** | 25,000 | 600,000 | 5,000,000 | 8,000 | 4,000 | 5 | 24 | 10 | 850 |
+| **ステージ2** | 50,000 | 1,500,000 | 10,000,000 | 18,000 | 9,000 | 10 | 16 | 12 | 2,000 |
+| **ステージ3** | 100,000 | 2,400,000 | 17,500,000 | 30,000 | 15,000 | 15 | 16 | 14 | 3,400 |
 
 - **Heartshard**：シーズン中に各ステージを初めて報酬付きでクリアしたときに1個、さらに報酬付きでクリアするたびに5%の確率で1個。
 
@@ -367,7 +383,7 @@
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
 - **1日**：ステージの報酬は、UTCの1日につき1回、パイロットに支払われる。ウォーロードが倒れた日が対象
-- **1週間**：パイロットが報酬を受け取れるのは、UTCの1週間（月曜〜日曜）につき最大10回のステージクリアまで
+- **1週間**：パイロットが報酬を受け取れるのは、UTCの1週間（月曜〜日曜）につき最大14回のステージクリアまで
 - **中にいる時間**：合計で2分以上
 - **戦闘への貢献**：次のうち少なくとも1つ：ウォーロードの船体とシールドの0.1%を削った; ダンジョンのエイリアンを10体撃破した; ウォーロードとの戦闘中に他のパイロットを50,000回復した
 
@@ -382,8 +398,8 @@
 
 | パイロットごとの報酬 | 名誉 | 経験値 | クレジット | Thulium | x4弾薬 | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE ポイント |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| 1日、各ステージを1回ずつ | 175,000 | 4,500,000 | 32,500,000 | 56,000 | 28,000 | 30 | 28 | 18 | 6,250 |
-| 最高の週：7 × ステージ3 と 3 × ステージ2 | 850,000 | 21,300,000 | 152,500,000 | 264,000 | 132,000 | 135 | 80 | 67 | 29,800 |
+| 1日、各ステージを1回ずつ | 175,000 | 4,500,000 | 32,500,000 | 56,000 | 28,000 | 30 | 56 | 36 | 6,250 |
+| 最高の週：7 × ステージ3 と 7 × ステージ2 | 1,050,000 | 27,300,000 | 192,500,000 | 336,000 | 168,000 | 175 | 224 | 182 | 37,800 |
 
 報酬を受けたクリアの経験値と名誉は PvE ポイントに加算されます。経験値1,000ごとに1ポイント、名誉100ごとに1ポイントです。
 
@@ -395,7 +411,7 @@
 
 - **誰が報酬を受け取るか。** エイリアンにダメージを与えたパイロットです。与えたダメージに応じて、群れのエイリアンと同じ方式で分けられます。かすった程度のパイロットやグループは何も受け取れず、グループは1つとして扱われ、グループ内では残骸の近くにいて最近撃ったメンバーが、レベルに応じて報酬を分け合います。そのエイリアンにダメージを与えていないパイロットは、どれだけ近くを飛んでいても何も受け取れず、誰もダメージを与えていないエイリアンは誰にも報酬を支払いません。これらのルールで報酬が出るパイロットだけが対象です。退出した、滞在時間が足りない、今日すでにそのステージの報酬を受け取った、または今週の報酬付きクリアをすべて使い切ったパイロットは、エイリアンの報酬を受け取れず、その分は他のパイロットのものになります。撃破では戦闘への貢献は求められません。そのエイリアンにダメージを与えたことが貢献です。グループで最もダメージを与えたメンバーが撃破された、またはマップにいない場合は、残骸の近くにいて最近撃ったメンバーが、その人を除いて報酬を分け合います。
 - **何が支払われるか。** クレジット、Thulium、経験値、名誉が、撃破ごとに1回です。報酬は、元のエイリアンが Alpha で支払う額で、どのワールドでも同じです。ダンジョンにワールド倍率はありません。あなたのブースター、編成、クランのボーナスは通常の撃破と同じように効き、経験値はクリアの経験値と同じく [PvE ポイント](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points)に数えられます。
-- **戦利品。** 元のエイリアンの確率で抽選しますが、Echo Shard だけは確率が2倍です。その後すべての数量に比率を掛けます（1個に満たない端数は、もう1個もらえる確率になります）。残骸の場所に箱として落ち、最初は最もダメージを与えたパイロットとそのクランのもの、その後はマップ上の誰でも取れるようになり、やがて消えます。最もダメージを与えたパイロットの[グループ](/wiki/03-Mechanics/Groups.md)に、エイリアンにダメージを与えてまだダンジョン内を飛んでいるパイロットが2人以上いる場合、戦利品は代わりに[個人用コンテナ](/wiki/03-Mechanics/Cargo.md#personal-crates)に分けられます。与えたダメージに応じて1人に1つずつで、それぞれ最初はそのパイロットだけのもので、その後はマップ上の誰でも取れます。ダメージを与えなかったグループのメンバーや、上のルールで対象外となるメンバーにはコンテナはありません。ほかのグループや単独で飛んでいるパイロットは自分の取り分の報酬を受け取りますが、この戦利品のコンテナはありません。マップに同時に置ける箱の数には限りがあるので、進みながら拾いましょう。ダンジョンが閉じるときにマップに残っているものは、ダンジョンとともに消えます。クリアのアイテムと違い、これはエイリアンの通常のドロップなので、アイテムが取引可能であれば[オークションで売る](/wiki/03-Mechanics/Auction.md#marketable-items)ことができます。
+- **戦利品。** 元のエイリアンの確率で抽選しますが、Echo Shard だけは確率が2倍で、2個ずつ落ちます。その後すべての数量に比率を掛けます（1個に満たない端数は、もう1個もらえる確率になります）。残骸の場所に箱として落ち、最初は最もダメージを与えたパイロットとそのクランのもの、その後はマップ上の誰でも取れるようになり、やがて消えます。最もダメージを与えたパイロットの[グループ](/wiki/03-Mechanics/Groups.md)に、エイリアンにダメージを与えてまだダンジョン内を飛んでいるパイロットが2人以上いる場合、戦利品は代わりに[個人用コンテナ](/wiki/03-Mechanics/Cargo.md#personal-crates)に分けられます。与えたダメージに応じて1人に1つずつで、それぞれ最初はそのパイロットだけのもので、その後はマップ上の誰でも取れます。ダメージを与えなかったグループのメンバーや、上のルールで対象外となるメンバーにはコンテナはありません。ほかのグループや単独で飛んでいるパイロットは自分の取り分の報酬を受け取りますが、この戦利品のコンテナはありません。マップに同時に置ける箱の数には限りがあるので、進みながら拾いましょう。ダンジョンが閉じるときにマップに残っているものは、ダンジョンとともに消えます。クリアのアイテムと違い、これはエイリアンの通常のドロップなので、アイテムが取引可能であれば[オークションで売る](/wiki/03-Mechanics/Auction.md#marketable-items)ことができます。
 - **報酬を出さないもの。** ウォーロードは撃破の報酬を支払わず、クリアの報酬だけを支払います。ウォーロードが呼ぶ Goombah は何も支払いません。戦闘が続く限り、呼び出しが繰り返されるためです。
 - **ゲームの撃破にはなりません。** ダンジョンでの撃破は、クエスト、実績、撃破数、ワイプポイント、撃破によるPvEポイント、ドローン、P.E.T.には数えられません。Dungeon Goombah は、ゲーム内の Goombah ではありません。
 - **制限。** 上の1日と1週間の制限は、クリアの報酬と同じようにエイリアンの報酬も止めます。そのステージの報酬を今日すでに受け取った、または今週の報酬付きクリアを使い切ったパイロットは、エイリアンの報酬も受け取れず、撃破の分は他のパイロットのものになります。クリアされなかったダンジョンは、ルールで報酬が出るパイロットに撃破の報酬を支払い、クリア報酬は支払いません。

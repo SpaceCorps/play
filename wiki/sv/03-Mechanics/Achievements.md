@@ -1,15 +1,15 @@
-<!-- wiki-i18n source: 53a080132ff6f6d9 -->
+<!-- wiki-i18n source: aebf7c489ef3ed62 -->
 <!-- wiki-i18n title: Prestationer -->
 # Prestationer {#achievements}
 
-Prestationer är målen för en pilots hela karriär: förstör din första utomjording, nå nivå 21, ha en miljard krediter, överlev en wipe. Spelet räknar dem åt dig. Det finns **50** av dem, i **8** grupper och **5** klasser. Varje prestation betalar **en gång per konto, för alltid**: krediter för varje och, för de flesta, en **titel** att bära vid sidan av ditt namn. En wipe tar aldrig ifrån dig en prestation, dess belöning eller dess titel.
+Prestationer är målen för en pilots hela karriär: förstör din första utomjording, nå nivå 21, ha en miljard krediter, överlev en wipe. Spelet räknar dem åt dig. Det finns **65** av dem, i **8** grupper och **5** klasser. Varje prestation betalar **en gång per konto, för alltid**: krediter för varje och, för de flesta, en **titel** att bära vid sidan av ditt namn. En wipe tar aldrig ifrån dig en prestation, dess belöning eller dess titel.
 
 **På en minut**
 
 - Öppna **Gemenskap › Prestationer** i stationen för att se varje mål, hur långt du kommit och vad det betalar.
 - Klassen (Vanlig, Ovanlig, Sällsynt, Episk eller Legendarisk) avgör krediterna: ju svårare målet är, desto högre klass.
 - Du får betalt i samma stund som du når ett mål, under flygning eller i stationen. Ett kort visar prestationen och belöningen, och Spelloggen sparar en rad.
-- **5** av de 50 är dolda: sidan visar dem som stängda kort tills du låser upp dem. De räknas bland de 50 och nämns inte här.
+- **5** av de 65 är dolda: sidan visar dem som stängda kort tills du låser upp dem. De räknas bland de 65 och nämns inte här.
 - I Steam-versionen visas dina prestationer också på din Steam-profil när du har länkat ditt konto (se nedan).
 
 ## Klasser och belöningar {#tiers-and-rewards}
@@ -19,16 +19,16 @@ De fem klasserna betalar lika mycket för varje prestation i dem, en gång. Tabe
 | Klass | Prestationer | Krediter per prestation |
 | :--- | ---: | ---: |
 | Vanlig | 11 | 50 000 |
-| Ovanlig | 9 | 150 000 |
-| Sällsynt | 16 | 500 000 |
-| Episk | 8 | 2 000 000 |
-| Legendarisk | 6 | 5 000 000 |
+| Ovanlig | 13 | 150 000 |
+| Sällsynt | 20 | 500 000 |
+| Episk | 12 | 2 000 000 |
+| Legendarisk | 9 | 5 000 000 |
 
-Alla 50 tillsammans betalar **55 900 000** krediter, en gång i en pilots liv.
+Alla 65 tillsammans betalar **81 500 000** krediter, en gång i en pilots liv.
 
 ## Prestationerna {#the-achievements}
 
-De 45 prestationer som inte är dolda, per grupp. Där ett mål räknar något räknar det över hela din karriär.
+De 60 prestationer som inte är dolda, per grupp. Där ett mål räknar något räknar det över hela din karriär.
 
 ### Strid {#group-combat}
 
@@ -77,7 +77,7 @@ De 45 prestationer som inte är dolda, per grupp. Där ett mål räknar något r
 | Stationsbyggare | Bygg 5 olika Skylab-moduler. | Vanlig |
 | Fullt utrustad | Bygg alla 16 Skylab-moduler. | Episk |
 | Lärd | Forska fram 50 tekniker. | Ovanlig |
-| Arkivarie | Forska fram alla 210 tekniker. | Legendarisk |
+| Arkivarie | Forska fram alla 212 tekniker. | Legendarisk |
 
 ### Flotta {#group-fleet}
 
@@ -97,6 +97,21 @@ De 45 prestationer som inte är dolda, per grupp. Där ett mål räknar något r
 | Händelsehorisont | Gå in i farosektor DS-4. | Ovanlig |
 | Prospektör | Förstör 500 asteroider. | Ovanlig |
 | Fjärran horisonter | Slutför 10 Skylab-expeditioner. | Sällsynt |
+| Lykttändare I | Tänd 10 olika Lyktor i Deep Void. | Ovanlig |
+| Lykttändare II | Tänd 39 olika Lyktor i Deep Void. | Sällsynt |
+| Lykttändare III | Tänd alla 78 Lyktor i Deep Void. | Episk |
+| Kartograf I | Utforska 25 % av DV-1 i Deep Void. | Ovanlig |
+| Kartograf II | Utforska 50 % av DV-1 i Deep Void. | Sällsynt |
+| Kartograf III | Utforska 75 % av DV-1 i Deep Void. | Episk |
+| Kartograf IV | Utforska varje ruta av DV-1 i Deep Void. | Legendarisk |
+| Xenolog I | Utforska 10 poster i Resenärens guide helt. | Ovanlig |
+| Xenolog II | Utforska 50 poster i Resenärens guide helt. | Sällsynt |
+| Xenolog III | Utforska 100 poster i Resenärens guide helt. | Episk |
+| Xenolog IV | Utforska varje post i Resenärens guide helt. | Legendarisk |
+| Portbyggare I | Lägg 50 000 Thulium i Void Gates (en Dark Matter Plate räknas som 10 000). | Ovanlig |
+| Portbyggare II | Lägg 250 000 Thulium i Void Gates (en Dark Matter Plate räknas som 10 000). | Sällsynt |
+| Portbyggare III | Lägg 1 000 000 Thulium i Void Gates (en Dark Matter Plate räknas som 10 000). | Episk |
+| Portbyggare IV | Lägg 5 000 000 Thulium i Void Gates (en Dark Matter Plate räknas som 10 000). | Legendarisk |
 
 ### Klan {#group-clan}
 
@@ -123,7 +138,7 @@ En dold prestation som fortfarande är låst är ett stängt kort utan mål och 
 
 ## Titlar {#titles}
 
-En **titel** är en kort textrad bredvid en pilots namn. 32 av de 50 prestationerna ger en, din för alltid när du låser upp prestationen. Titlar kommer också från slutet av en säsong (din grad, den bästa piloten i varje koncern och piloten med flest PvE-poäng) och från spelets team, till exempel titeln **Pioneer** för varje konto som fanns den dag spelet lanserades på Steam.
+En **titel** är en kort textrad bredvid en pilots namn. 32 av de 65 prestationerna ger en, din för alltid när du låser upp prestationen. Titlar kommer också från slutet av en säsong (din grad, den bästa piloten i varje koncern och piloten med flest PvE-poäng) och från spelets team, till exempel titeln **Pioneer** för varje konto som fanns den dag spelet lanserades på Steam.
 
 - Du äger många titlar och **bär en** i taget. Du väljer den på din **pilotprofil** och kan ta av den igen.
 - Din titel visas på din **profil**, i **Ranking**, i **Grupp**-fönstret och när du pekar på ditt namn i **chatten**. Sedan 0.4.27 visas den också på kartan: en liten, dämpad rad i titelns sällsynthetsfärg **ovanför namnet på varje pilots skepp**, ditt eget inräknat. En lång titel kortas av med en ellips. I en folkmassa (fler än åtta piloter på skärmen) behåller bara dina vänner, ditt mål och det skepp du har valt sin titel, så att skärmen förblir läsbar. Den visas inte i målfönstret eller på minikartan.

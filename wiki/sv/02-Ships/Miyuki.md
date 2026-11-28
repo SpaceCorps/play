@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f36888650a9078b3 -->
+<!-- wiki-i18n source: 3c16398b0ab82842 -->
 <!-- wiki-i18n title: Miyuki -->
 # Miyuki
 
@@ -62,6 +62,8 @@ Miyukis förmågor hör till skeppet, inte till en sak: de tar ingen förmågepl
 | **Miyuki V** | 7,5 s, 30 000 + 3 % | 75 000 skrov i sekunden (du 10 000), 100 s | 150 000 + 5 % sköld i sekunden (du 30 000 + 5 %), 80 s |
 
 En länk varar i 5 sekunder och når ett skepp i din grupp eller koncern inom 1 200 enheter. Heal Pod når 600. En Channel Shield återställer utöver sina poäng varje sekund en del av varje skepps egen maxsköld: 3 % på Miyuki III, 4 % på IV och 5 % på V (procenten i tabellen).
+
+Varje nivå har också **Revive**, hennes sista knapp. När en pilot i din grupp eller koncern förstörs blir hans skepp havererat i 30 sekunder; stannar du i 10 sekunder inom 600 enheter är han tillbaka där han förstördes, och Revive vilar i 120 sekunder. Resten står i [Skeppsförmågor](/wiki/03-Mechanics/Abilities.md#ship-abilities).
 
 Din pilotfärdighet [Läkning](/wiki/03-Mechanics/Pilot-Skills.md) verkar på alla tre: på nivå 100 gör den Heal Pod, Channel Heal och Channel Shield (deras poäng och andelen av maxskölden) 30 % starkare och förkortar deras väntan med 10 %, så en Channel Heal som vilar 100 sekunder vilar 90. Tabellerna ovan ger siffrorna utan den.
 

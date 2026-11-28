@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: abb582fd63389ab9 -->
+<!-- wiki-i18n source: 2eff9c368449da99 -->
 <!-- wiki-i18n title: Phantasm 무리 -->
 # Phantasm 무리 {#phantasm-swarm}
 
@@ -17,14 +17,14 @@ Phantasm 무리는 **Boss Phantasm**과 그 **Phantasm Guard**로 이루어집�
 - **부하가 머무는 범위**: 리더로부터 500유닛 이내
 - **회복**: 리더로부터 600유닛 이내에 있는 Phantasm Guard는 한 마리마다 리더의 선체를 회복시킵니다(Alpha에서 초당 30 HP)
 - **리더 격파 후**: 리더가 격파되고 30초 뒤에 부하는 사라집니다. 단, 공격 중이면 남습니다
-- **복귀**: 리더가 격파되고 2분 뒤, 같은 섹터에서
+- **복귀**: 리더가 격파되고 {{guide:vitals.respawn@Boss Phantasm#1;Boss Phantasm#2;Boss Phantasm#3}} 뒤, 같은 섹터에서
 - **알림**: 해당 섹터의 파일럿에게 리더가 나타날 때와 격파될 때 알려 줍니다. 이 줄들은 시스템 줄입니다. 채팅의 **시스템** 탭에 읽지 않은 줄 수와 함께 표시되고, **전체** 탭이나 **지역** 탭에는 나오지 않습니다. 킬 피드에 처치 공로를 인정받은 파일럿의 이름이 나옵니다.
 
 <!-- phantasm-glance:end -->
 
 ## 구성원 {#the-members}
 
-- **Boss Phantasm**: 무리의 색조를 띠고 머리 위에 이름이 표시되는 더 큰 Phantasm입니다. 자체 선체와 실드, 레이저 일제 사격을 갖습니다(수치는 아래에 있습니다). 비공격적이어서 파일럿에게 공격받을 때까지 돌아다니다가, 공격받으면 그 파일럿을 쫓아가 사격하고, 가까이 있는 무리의 함선들이 전투에 합류합니다. 무기 사거리와 속도는 Phantasm 그대로이며, 스스로 선체를 수리하지 않습니다.
+- **Boss Phantasm**: 무리의 색조를 띠고 머리 위에 이름이 표시되는 더 큰 Phantasm입니다. 자체 선체와 실드, 레이저 일제 사격을 갖습니다(수치는 아래에 있습니다). 비공격적이어서 파일럿에게 공격받을 때까지 돌아다니다가, 공격받으면 그 파일럿을 쫓아가 사격하고, 가까이 있는 무리의 함선들이 전투에 합류합니다. 무기 사거리와 속도는 Phantasm 그대로이며, 스스로 선체를 수리하지 않습니다. 대장의 [세 단계](#the-leaders-three-steps)와 [특수 능력](/wiki/03-Mechanics/Special-Abilities.md)은 이를 바꿀 수 있습니다.
 - **Phantasm Guard**: 무리의 색조를 띤 더 작은 Phantasm입니다. Guard는 보스 곁에 머물고, 가까운 무리의 함선이 공격받으면 전투에 합류하며, 보스 가까이에 있는 Guard는 한 마리마다 보스의 선체를 회복시킵니다. Guard는 Phantasm처럼 한동안 쉬면 자기 선체를 수리합니다.
 
 ## 전투의 흐름 {#how-the-fight-goes}
@@ -34,6 +34,19 @@ Phantasm 무리는 **Boss Phantasm**과 그 **Phantasm Guard**로 이루어집�
 - **Beta와 Gamma는 더 어렵습니다.** 그 월드의 무리는 더 강하므로([월드](/wiki/05-Swarms/Swarms.md#the-worlds)) 더 많은 파일럿이나 더 좋은 탄약이 필요합니다.
 - **섹터를 주시하세요.** `x-4`는 Alpha에서 PvP 섹터이고, Beta와 Gamma에서는 `x-3`과 `x-4`가 그렇습니다([월드](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)). 라이벌이 전투에 끼어들거나 상자를 기다릴 수 있습니다. 그룹의 함선 한 척은 경계를 서게 하세요.
 - **보스는 돌아옵니다.** *한눈에 보기* 목록의 시간이 지나면 같은 섹터에 온전한 상태로 나타나며, Guard는 하나씩 차례로 나타납니다.
+
+## 대장의 세 단계 {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+이 전투에는 세 단계가 있습니다([작동 방식](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)). 각각 한 번씩만 일어납니다.
+
+- **시작 시**: Phantasm Guards이(가) 각자 자기 선체의 10%만큼 실드 층을 올립니다.
+- **삼분의 이 아래**: 분신 3개가 나타나고, 진짜는 고리를 두릅니다.
+- **삼분의 일 아래**: 파일럿에게서 약 2,500 유닛 떨어진 곳으로 순간이동하고, Phantasm Guards이(가) 온전한 상태로 그 주위에 돌아옵니다.
+
+<!-- mob-ladder:end -->
 
 ## 보상과 전리품 {#rewards-and-drops}
 
@@ -52,29 +65,23 @@ Boss Phantasm의 보상은 그 전투의 무게에 걸맞습니다. 1분 싸우�
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 선체 | 40,000 | 60,000 | 80,000 |
-| 실드 | 64,000 | 96,000 | 128,000 |
-| 레이저 피해량(초당 일제 사격 1회) | 1,050 | 1,575 | 2,100 |
-| 속도 | 160 | 160 | 160 |
+| 선체 | {{guide:vitals.hull@Boss Phantasm#1}} | {{guide:vitals.hull@Boss Phantasm#2}} | {{guide:vitals.hull@Boss Phantasm#3}} |
+| 실드 | {{guide:vitals.shield@Boss Phantasm#1}} | {{guide:vitals.shield@Boss Phantasm#2}} | {{guide:vitals.shield@Boss Phantasm#3}} |
+| 레이저 피해량(초당 일제 사격 1회) | {{guide:vitals.dps@Boss Phantasm#1}} | {{guide:vitals.dps@Boss Phantasm#2}} | {{guide:vitals.dps@Boss Phantasm#3}} |
+| 속도 | {{guide:vitals.speed@Boss Phantasm#1}} | {{guide:vitals.speed@Boss Phantasm#2}} | {{guide:vitals.speed@Boss Phantasm#3}} |
 | 레이저 사거리 | 700 | 700 | 700 |
 | 어그로 반경 | 공격받을 때만 | 공격받을 때만 | 공격받을 때만 |
-| 크레딧 | 39,000 | 78,000 | 117,000 |
-| Thulium | 195 | 390 | 585 |
-| 경험치(XP) | 7,800 | 15,600 | 23,400 |
-| 명예 | 62 | 124 | 186 |
+| 크레딧 | {{guide:spoils.pay.credits@Boss Phantasm#1}} | {{guide:spoils.pay.credits@Boss Phantasm#2}} | {{guide:spoils.pay.credits@Boss Phantasm#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Boss Phantasm#1}} | {{guide:spoils.pay.thulium@Boss Phantasm#2}} | {{guide:spoils.pay.thulium@Boss Phantasm#3}} |
+| 경험치(XP) | {{guide:spoils.pay.experience@Boss Phantasm#1}} | {{guide:spoils.pay.experience@Boss Phantasm#2}} | {{guide:spoils.pay.experience@Boss Phantasm#3}} |
+| 명예 | {{guide:spoils.pay.honor@Boss Phantasm#1}} | {{guide:spoils.pay.honor@Boss Phantasm#2}} | {{guide:spoils.pay.honor@Boss Phantasm#3}} |
 | 처치당 PvE 포인트 | 8 | 8 | 8 |
 
 **전리품**: 가장 많은 피해를 입힌 파일럿을 위한 상자 하나.
 
-| 아이템 | 확률 | 수량 |
-| :--- | ---: | ---: |
-| Ship Fragment | 13번의 굴림마다 각각 100% | 1 |
-| Daraxium | 13번의 굴림마다 각각 60% | 1–2 |
-| Nyxite | 13번의 굴림마다 각각 60% | 1–2 |
-| Standard Battery | 100% | 600–1,200 |
-| Advanced Plasma | 100% | 60–100 |
-| Ultra Core | 100% | 10–20 |
-| 크레딧으로 살 수 있는 4종의 [로켓](/wiki/06-Items/Rockets.md) 중 무작위 하나 | 100% | 4–6 |
+| 아이템 |
+| :--- |
+| {{guide:spoils.box@Boss Phantasm#1;Boss Phantasm#2;Boss Phantasm#3}} |
 
 ### Phantasm Guard
 
@@ -82,17 +89,17 @@ Boss Phantasm의 보상은 그 전투의 무게에 걸맞습니다. 1분 싸우�
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 선체 | 1,000 | 1,500 | 2,000 |
-| 실드 | 1,600 | 2,400 | 3,200 |
-| 레이저 피해량(초당 일제 사격 1회) | 175 | 263 | 350 |
-| 속도 | 160 | 160 | 160 |
+| 선체 | {{guide:vitals.hull@Phantasm Guard#1}} | {{guide:vitals.hull@Phantasm Guard#2}} | {{guide:vitals.hull@Phantasm Guard#3}} |
+| 실드 | {{guide:vitals.shield@Phantasm Guard#1}} | {{guide:vitals.shield@Phantasm Guard#2}} | {{guide:vitals.shield@Phantasm Guard#3}} |
+| 레이저 피해량(초당 일제 사격 1회) | {{guide:vitals.dps@Phantasm Guard#1}} | {{guide:vitals.dps@Phantasm Guard#2}} | {{guide:vitals.dps@Phantasm Guard#3}} |
+| 속도 | {{guide:vitals.speed@Phantasm Guard#1}} | {{guide:vitals.speed@Phantasm Guard#2}} | {{guide:vitals.speed@Phantasm Guard#3}} |
 | 레이저 사거리 | 700 | 700 | 700 |
 | 어그로 반경 | 공격받을 때만 | 공격받을 때만 | 공격받을 때만 |
 | 리더 회복(한 마리마다 초당, 선체만) | 30 | 45 | 60 |
-| 크레딧 | 125 | 250 | 375 |
-| Thulium | 1 | 2 | 3 |
-| 경험치(XP) | 12 | 24 | 36 |
-| 명예 | 1 | 2 | 3 |
+| 크레딧 | {{guide:spoils.pay.credits@Phantasm Guard#1}} | {{guide:spoils.pay.credits@Phantasm Guard#2}} | {{guide:spoils.pay.credits@Phantasm Guard#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Phantasm Guard#1}} | {{guide:spoils.pay.thulium@Phantasm Guard#2}} | {{guide:spoils.pay.thulium@Phantasm Guard#3}} |
+| 경험치(XP) | {{guide:spoils.pay.experience@Phantasm Guard#1}} | {{guide:spoils.pay.experience@Phantasm Guard#2}} | {{guide:spoils.pay.experience@Phantasm Guard#3}} |
+| 명예 | {{guide:spoils.pay.honor@Phantasm Guard#1}} | {{guide:spoils.pay.honor@Phantasm Guard#2}} | {{guide:spoils.pay.honor@Phantasm Guard#3}} |
 | 처치당 PvE 포인트 | 1 | 1 | 1 |
 
 **전리품**: 없음. 처치로 지급되는 것은 크레딧, Thulium, 경험치, 명예뿐입니다.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5f873edc2b653495 -->
+<!-- wiki-i18n source: 2b3edf7bcb1d9673 -->
 <!-- wiki-i18n title: Crystalys-svärm -->
 # Crystalys-svärm {#crystalys-swarm}
 
@@ -17,14 +17,14 @@ Crystalys-svärmen är en **Boss Crystalys** med sina **Crystalys Guards**: den 
 - **Följeslagarna håller sig inom**: högst 500 enheter från ledaren
 - **Läkning**: Varje Crystalys Guard inom 600 enheter från ledaren läker dess skrov, 250 HP per sekund i Alpha
 - **När ledaren förstörs**: Följeslagarna försvinner 30 s efter att ledaren förstörts, om de inte just attackerar
-- **Kommer tillbaka**: 30 min efter att ledaren förstörts, i samma sektor
+- **Kommer tillbaka**: {{guide:vitals.respawn@Boss Crystalys#1;Boss Crystalys#2;Boss Crystalys#3}} efter att ledaren förstörts, i samma sektor
 - **Meddelanden**: Piloterna i sektorn får veta när ledaren dyker upp och när den förstörs. Det är systemrader: de syns på chattens flik **System**, med en räknare för olästa rader, och inte i **Global** eller **Lokal**. Dödsloggen nämner piloten som nedskjutningen tillskrivs.
 
 <!-- crystalys-glance:end -->
 
 ## Medlemmarna {#the-members}
 
-- **Boss Crystalys**: en större Crystalys, i svärmens nyans och med sitt namn ovanför, med eget skrov, egen sköld och egen lasersalva (värdena står nedan). Den är passiv: den drar omkring tills en pilot träffar den, går sedan efter den piloten och skjuter, och svärmens skepp i närheten ansluter sig till striden. Vapnets räckvidd och hastigheten är desamma som hos en Crystalys, och den reparerar aldrig sitt skrov själv.
+- **Boss Crystalys**: en större Crystalys, i svärmens nyans och med sitt namn ovanför, med eget skrov, egen sköld och egen lasersalva (värdena står nedan). Den är passiv: den drar omkring tills en pilot träffar den, går sedan efter den piloten och skjuter, och svärmens skepp i närheten ansluter sig till striden. Vapnets räckvidd och hastigheten är desamma som hos en Crystalys, och den reparerar aldrig sitt skrov själv. Dess [tre steg](#the-leaders-three-steps) och en [specialförmåga](/wiki/03-Mechanics/Special-Abilities.md) kan ändra på det.
 - **Crystalys Guard**: en mindre Crystalys i svärmens nyans. Guards håller sig nära bossen, ansluter sig till striden när ett svärmskepp i närheten träffas, och var och en som är nära bossen läker dess skrov. En Guard reparerar sitt eget skrov efter en vila, som en Crystalys gör.
 
 ## Hur striden går till {#how-the-fight-goes}
@@ -34,6 +34,19 @@ Crystalys-svärmen är en **Boss Crystalys** med sina **Crystalys Guards**: den 
 - **Beta och Gamma är hårdare.** Svärmarna i de världarna är starkare ([Världar](/wiki/05-Swarms/Swarms.md#the-worlds)), så de kräver fler piloter eller bättre ammunition.
 - **Farosektorerna är PvP.** En rival kan attackera gruppen mitt i striden och vänta på lådan: den tillhör piloten som gjorde mest skada (och dennes klan) i 30 sekunder, och sedan vem som helst ([Last](/wiki/03-Mechanics/Cargo.md)). Kom inte ensam.
 - **Bossen kommer tillbaka** efter tiden i listan *I korthet*, vid full styrka, i samma sektor, och dess Guards kommer en efter en.
+
+## Ledarens tre steg {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Striden har tre steg ([hur de fungerar](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); vart och ett sker en gång.
+
+- **I början**: Tar 50 % av varje träff i 8 s.
+- **Under två tredjedelar**: En ring på 700 enheter träffar varje skepp inuti med 4 av dess salvor, och den avfyrar 4 raketer.
+- **Under en tredjedel**: Läker 20 % av skrovet och skölden (en skadestöt bryter det), och 3 fler Crystalys Guards kommer, högst 6 levande.
+
+<!-- mob-ladder:end -->
 
 ## Belöningar och byte {#rewards-and-drops}
 
@@ -52,29 +65,23 @@ Bygger på Crystalys med 350 % av skrovet och 100 % av laserskadan; hastighet 
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Skrov | 896 000 | 1 344 000 | 1 792 000 |
-| Sköld | 560 000 | 840 000 | 1 120 000 |
-| Laserskada (en salva per sekund) | 10 000 | 15 000 | 20 000 |
-| Hastighet | 230 | 230 | 230 |
+| Skrov | {{guide:vitals.hull@Boss Crystalys#1}} | {{guide:vitals.hull@Boss Crystalys#2}} | {{guide:vitals.hull@Boss Crystalys#3}} |
+| Sköld | {{guide:vitals.shield@Boss Crystalys#1}} | {{guide:vitals.shield@Boss Crystalys#2}} | {{guide:vitals.shield@Boss Crystalys#3}} |
+| Laserskada (en salva per sekund) | {{guide:vitals.dps@Boss Crystalys#1}} | {{guide:vitals.dps@Boss Crystalys#2}} | {{guide:vitals.dps@Boss Crystalys#3}} |
+| Hastighet | {{guide:vitals.speed@Boss Crystalys#1}} | {{guide:vitals.speed@Boss Crystalys#2}} | {{guide:vitals.speed@Boss Crystalys#3}} |
 | Laserräckvidd | 900 | 900 | 900 |
 | Aggroradie | bara när den attackeras | bara när den attackeras | bara när den attackeras |
-| Krediter | 393 750 | 787 500 | 1 181 250 |
-| Thulium | 1 050 | 2 100 | 3 150 |
-| Erfarenhet (XP) | 63 000 | 126 000 | 189 000 |
-| Heder | 273 | 546 | 819 |
+| Krediter | {{guide:spoils.pay.credits@Boss Crystalys#1}} | {{guide:spoils.pay.credits@Boss Crystalys#2}} | {{guide:spoils.pay.credits@Boss Crystalys#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Boss Crystalys#1}} | {{guide:spoils.pay.thulium@Boss Crystalys#2}} | {{guide:spoils.pay.thulium@Boss Crystalys#3}} |
+| Erfarenhet (XP) | {{guide:spoils.pay.experience@Boss Crystalys#1}} | {{guide:spoils.pay.experience@Boss Crystalys#2}} | {{guide:spoils.pay.experience@Boss Crystalys#3}} |
+| Heder | {{guide:spoils.pay.honor@Boss Crystalys#1}} | {{guide:spoils.pay.honor@Boss Crystalys#2}} | {{guide:spoils.pay.honor@Boss Crystalys#3}} |
 | PvE-poäng per nedskjutning | 30 | 30 | 30 |
 
 **Byte**: en låda, för piloten som gjorde mest skada.
 
-| Föremål | Chans | Mängd |
-| :--- | ---: | ---: |
-| Cataclysite | 100 % på vart och ett av 2 slag | 8 |
-| Quorvium | 100 % på vart och ett av 2 slag | 6–10 |
-| Power Core | 30 % | 1 |
-| Ancient Control Unit | 15 % | 1 |
-| Dark Matter | 4 % | 1 |
-| Ultra Core och Experimental Fusion Core, delat lika | 100 % | 600–1 000 totalt |
-| En av de 4 Episka [raketerna](/wiki/06-Items/Rockets.md), slumpmässigt vald | 100 % | 8–15 |
+| Föremål |
+| :--- |
+| {{guide:spoils.box@Boss Crystalys#1;Boss Crystalys#2;Boss Crystalys#3}} |
 
 ### Crystalys Guard
 
@@ -82,17 +89,17 @@ Bygger på Crystalys med 15 % av skrov, sköld och skada; hastighet och räckvi
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Skrov | 38 400 | 57 600 | 76 800 |
-| Sköld | 24 000 | 36 000 | 48 000 |
-| Laserskada (en salva per sekund) | 1 500 | 2 250 | 3 000 |
-| Hastighet | 230 | 230 | 230 |
+| Skrov | {{guide:vitals.hull@Crystalys Guard#1}} | {{guide:vitals.hull@Crystalys Guard#2}} | {{guide:vitals.hull@Crystalys Guard#3}} |
+| Sköld | {{guide:vitals.shield@Crystalys Guard#1}} | {{guide:vitals.shield@Crystalys Guard#2}} | {{guide:vitals.shield@Crystalys Guard#3}} |
+| Laserskada (en salva per sekund) | {{guide:vitals.dps@Crystalys Guard#1}} | {{guide:vitals.dps@Crystalys Guard#2}} | {{guide:vitals.dps@Crystalys Guard#3}} |
+| Hastighet | {{guide:vitals.speed@Crystalys Guard#1}} | {{guide:vitals.speed@Crystalys Guard#2}} | {{guide:vitals.speed@Crystalys Guard#3}} |
 | Laserräckvidd | 900 | 900 | 900 |
 | Aggroradie | bara när den attackeras | bara när den attackeras | bara när den attackeras |
 | Läker ledaren, var och en, per sekund (bara skrovet) | 250 | 375 | 500 |
-| Krediter | 125 | 250 | 375 |
-| Thulium | 1 | 2 | 3 |
-| Erfarenhet (XP) | 12 | 24 | 36 |
-| Heder | 1 | 2 | 3 |
+| Krediter | {{guide:spoils.pay.credits@Crystalys Guard#1}} | {{guide:spoils.pay.credits@Crystalys Guard#2}} | {{guide:spoils.pay.credits@Crystalys Guard#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Crystalys Guard#1}} | {{guide:spoils.pay.thulium@Crystalys Guard#2}} | {{guide:spoils.pay.thulium@Crystalys Guard#3}} |
+| Erfarenhet (XP) | {{guide:spoils.pay.experience@Crystalys Guard#1}} | {{guide:spoils.pay.experience@Crystalys Guard#2}} | {{guide:spoils.pay.experience@Crystalys Guard#3}} |
+| Heder | {{guide:spoils.pay.honor@Crystalys Guard#1}} | {{guide:spoils.pay.honor@Crystalys Guard#2}} | {{guide:spoils.pay.honor@Crystalys Guard#3}} |
 | PvE-poäng per nedskjutning | 6 | 6 | 6 |
 
 **Byte**: inget. Nedskjutningen betalar bara sina krediter, sitt Thulium, sin XP och sin heder.

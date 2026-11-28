@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: abb582fd63389ab9 -->
+<!-- wiki-i18n source: 2eff9c368449da99 -->
 <!-- wiki-i18n title: Enjambre Phantasm -->
 # Enjambre Phantasm {#phantasm-swarm}
 
@@ -17,14 +17,14 @@ El enjambre Phantasm es un **Boss Phantasm** con sus **Phantasm Guards**: un [Ph
 - **Los seguidores se mantienen**: a no más de 500 unidades del líder
 - **Curación**: Cada Phantasm Guard a menos de 600 unidades del líder cura su casco, 30 HP por segundo en Alpha
 - **Líder destruido**: Los seguidores se van 30 s después de que destruyan al líder, salvo que estén atacando
-- **Vuelve**: 2 min después de que destruyan al líder, en el mismo sector
+- **Vuelve**: {{guide:vitals.respawn@Boss Phantasm#1;Boss Phantasm#2;Boss Phantasm#3}} después de que destruyan al líder, en el mismo sector
 - **Avisos**: Se avisa a los pilotos del sector cuándo aparece el líder y cuándo es destruido. Son líneas del Sistema: aparecen en la pestaña **Sistema** del chat, con un contador de no leídas, y no en **Global** ni en **Local**. El registro de bajas nombra al piloto al que se acredita el derribo.
 
 <!-- phantasm-glance:end -->
 
 ## Los miembros {#the-members}
 
-- **Boss Phantasm**: un Phantasm más grande, con el tinte del enjambre y su nombre encima, con casco, escudo y una andanada láser propios (las cifras están más abajo). Es pasivo: merodea hasta que un piloto lo impacta, entonces va tras ese piloto y le dispara, y las naves de su enjambre cercanas se suman al combate. El alcance de su arma y su velocidad son los de un Phantasm, y nunca repara su casco por sí solo.
+- **Boss Phantasm**: un Phantasm más grande, con el tinte del enjambre y su nombre encima, con casco, escudo y una andanada láser propios (las cifras están más abajo). Es pasivo: merodea hasta que un piloto lo impacta, entonces va tras ese piloto y le dispara, y las naves de su enjambre cercanas se suman al combate. El alcance de su arma y su velocidad son los de un Phantasm, y nunca repara su casco por sí solo. Sus [tres pasos](#the-leaders-three-steps) y una [habilidad especial](/wiki/03-Mechanics/Special-Abilities.md) pueden cambiar eso.
 - **Phantasm Guard**: un Phantasm más pequeño con el tinte del enjambre. Los Guards se mantienen cerca del jefe, se suman al combate cuando una nave de enjambre cercana es impactada, y cada uno que está cerca del jefe cura su casco. Un Guard repara su propio casco tras un descanso, como hace un Phantasm.
 
 ## Cómo transcurre el combate {#how-the-fight-goes}
@@ -34,6 +34,19 @@ El enjambre Phantasm es un **Boss Phantasm** con sus **Phantasm Guards**: un [Ph
 - **Beta y Gamma son más duros.** Los enjambres de esos mundos son más fuertes ([Mundos](/wiki/05-Swarms/Swarms.md#the-worlds)), así que piden más pilotos o mejor munición.
 - **Vigila el sector.** `x-4` es un sector PvP en Alpha, y `x-3` y `x-4` lo son en Beta y Gamma ([Mundos](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)): un rival puede unirse al combate o esperar la caja. Deja una nave del grupo de guardia.
 - **El jefe vuelve** pasado el tiempo de la lista *De un vistazo*, con toda su fuerza, en el mismo sector, y sus Guards llegan uno tras otro.
+
+## Los tres pasos del líder {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Su combate tiene tres pasos ([cómo funcionan](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); cada uno ocurre una vez.
+
+- **Al empezar**: Cada uno de sus Phantasm Guards levanta una capa de escudo de 10 % de su propio casco.
+- **Por debajo de dos tercios**: 3 copias suyas aparecen, y la auténtica lleva un anillo.
+- **Por debajo de un tercio**: Salta unas 2.500 unidades lejos de los pilotos, y sus Phantasm Guards vuelven enteros a su alrededor.
+
+<!-- mob-ladder:end -->
 
 ## Recompensas y botín {#rewards-and-drops}
 
@@ -52,29 +65,23 @@ Base: Phantasm, con 2.000 % del casco y 300 % del daño de los láseres; la ve
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Casco | 40.000 | 60.000 | 80.000 |
-| Escudo | 64.000 | 96.000 | 128.000 |
-| Daño de los láseres (una salva por segundo) | 1.050 | 1.575 | 2.100 |
-| Velocidad | 160 | 160 | 160 |
+| Casco | {{guide:vitals.hull@Boss Phantasm#1}} | {{guide:vitals.hull@Boss Phantasm#2}} | {{guide:vitals.hull@Boss Phantasm#3}} |
+| Escudo | {{guide:vitals.shield@Boss Phantasm#1}} | {{guide:vitals.shield@Boss Phantasm#2}} | {{guide:vitals.shield@Boss Phantasm#3}} |
+| Daño de los láseres (una salva por segundo) | {{guide:vitals.dps@Boss Phantasm#1}} | {{guide:vitals.dps@Boss Phantasm#2}} | {{guide:vitals.dps@Boss Phantasm#3}} |
+| Velocidad | {{guide:vitals.speed@Boss Phantasm#1}} | {{guide:vitals.speed@Boss Phantasm#2}} | {{guide:vitals.speed@Boss Phantasm#3}} |
 | Alcance de los láseres | 700 | 700 | 700 |
 | Radio de agresión | solo si lo atacan | solo si lo atacan | solo si lo atacan |
-| Créditos | 39.000 | 78.000 | 117.000 |
-| Thulium | 195 | 390 | 585 |
-| Experiencia (XP) | 7.800 | 15.600 | 23.400 |
-| Honor | 62 | 124 | 186 |
+| Créditos | {{guide:spoils.pay.credits@Boss Phantasm#1}} | {{guide:spoils.pay.credits@Boss Phantasm#2}} | {{guide:spoils.pay.credits@Boss Phantasm#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Boss Phantasm#1}} | {{guide:spoils.pay.thulium@Boss Phantasm#2}} | {{guide:spoils.pay.thulium@Boss Phantasm#3}} |
+| Experiencia (XP) | {{guide:spoils.pay.experience@Boss Phantasm#1}} | {{guide:spoils.pay.experience@Boss Phantasm#2}} | {{guide:spoils.pay.experience@Boss Phantasm#3}} |
+| Honor | {{guide:spoils.pay.honor@Boss Phantasm#1}} | {{guide:spoils.pay.honor@Boss Phantasm#2}} | {{guide:spoils.pay.honor@Boss Phantasm#3}} |
 | Puntos PvE por derribo | 8 | 8 | 8 |
 
 **Botín**: una caja, para el piloto que más daño causó.
 
-| Objeto | Probabilidad | Cantidad |
-| :--- | ---: | ---: |
-| Ship Fragment | 100 % en cada una de 13 tiradas | 1 |
-| Daraxium | 60 % en cada una de 13 tiradas | 1–2 |
-| Nyxite | 60 % en cada una de 13 tiradas | 1–2 |
-| Standard Battery | 100 % | 600–1.200 |
-| Advanced Plasma | 100 % | 60–100 |
-| Ultra Core | 100 % | 10–20 |
-| Uno de los 4 [cohetes](/wiki/06-Items/Rockets.md) que se compran con créditos, elegido al azar | 100 % | 4–6 |
+| Objeto |
+| :--- |
+| {{guide:spoils.box@Boss Phantasm#1;Boss Phantasm#2;Boss Phantasm#3}} |
 
 ### Phantasm Guard
 
@@ -82,17 +89,17 @@ Base: Phantasm, con 50 % de casco, escudo y daño; la velocidad y el alcance so
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Casco | 1.000 | 1.500 | 2.000 |
-| Escudo | 1.600 | 2.400 | 3.200 |
-| Daño de los láseres (una salva por segundo) | 175 | 263 | 350 |
-| Velocidad | 160 | 160 | 160 |
+| Casco | {{guide:vitals.hull@Phantasm Guard#1}} | {{guide:vitals.hull@Phantasm Guard#2}} | {{guide:vitals.hull@Phantasm Guard#3}} |
+| Escudo | {{guide:vitals.shield@Phantasm Guard#1}} | {{guide:vitals.shield@Phantasm Guard#2}} | {{guide:vitals.shield@Phantasm Guard#3}} |
+| Daño de los láseres (una salva por segundo) | {{guide:vitals.dps@Phantasm Guard#1}} | {{guide:vitals.dps@Phantasm Guard#2}} | {{guide:vitals.dps@Phantasm Guard#3}} |
+| Velocidad | {{guide:vitals.speed@Phantasm Guard#1}} | {{guide:vitals.speed@Phantasm Guard#2}} | {{guide:vitals.speed@Phantasm Guard#3}} |
 | Alcance de los láseres | 700 | 700 | 700 |
 | Radio de agresión | solo si lo atacan | solo si lo atacan | solo si lo atacan |
 | Cura al líder, cada uno, por segundo (solo el casco) | 30 | 45 | 60 |
-| Créditos | 125 | 250 | 375 |
-| Thulium | 1 | 2 | 3 |
-| Experiencia (XP) | 12 | 24 | 36 |
-| Honor | 1 | 2 | 3 |
+| Créditos | {{guide:spoils.pay.credits@Phantasm Guard#1}} | {{guide:spoils.pay.credits@Phantasm Guard#2}} | {{guide:spoils.pay.credits@Phantasm Guard#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Phantasm Guard#1}} | {{guide:spoils.pay.thulium@Phantasm Guard#2}} | {{guide:spoils.pay.thulium@Phantasm Guard#3}} |
+| Experiencia (XP) | {{guide:spoils.pay.experience@Phantasm Guard#1}} | {{guide:spoils.pay.experience@Phantasm Guard#2}} | {{guide:spoils.pay.experience@Phantasm Guard#3}} |
+| Honor | {{guide:spoils.pay.honor@Phantasm Guard#1}} | {{guide:spoils.pay.honor@Phantasm Guard#2}} | {{guide:spoils.pay.honor@Phantasm Guard#3}} |
 | Puntos PvE por derribo | 1 | 1 | 1 |
 
 **Botín**: ninguno. El derribo solo paga sus créditos, su Thulium, su XP y su honor.

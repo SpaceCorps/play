@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3ee3985e3f9606e1 -->
+<!-- wiki-i18n source: 8dbe8dc047c34c1c -->
 <!-- wiki-i18n title: Las señales -->
 # Las señales {#the-signals}
 
@@ -13,7 +13,7 @@ Mission Control capta un ruido extraño, **la Estática**, que envía veinte mis
 - **Usos infinitos.** Nada la gasta: no se consume, no se desgasta y ninguna receta la pide.
 - **Solo una.** Solo puedes llevar una Dormant Keycard. Si una reclamación fuera a darte una segunda, la reclamación funciona igualmente y paga todo lo demás; simplemente no recibes otra tarjeta.
 - **Tuya para siempre.** No se puede vender en la Subasta, no se puede tirar en el Hangar y un [reinicio](/wiki/03-Mechanics/Wipe-Timeline.md) no te la quita.
-- **Aún sin uso.** Hoy no abre nada. Una actualización posterior la usará para dar acceso a un mapa nuevo, que todavía no está en el juego. Guarda tu tarjeta hasta entonces.
+- **Abre el Void Gate.** Quien la lleva puede activar el Void Gate abierto de su mundo en `DS-4` y llevar a todos los que estén cerca al [Deep Void](/wiki/03-Mechanics/Deep-Void.md). Activarlo cuesta 5.000 de Thulium; la tarjeta nunca se gasta.
 - **¿Ya reclamaste la última señal?** Un piloto que la había reclamado antes de que existiera la tarjeta (la actualización 0.5.10) recibió la tarjeta una vez, por sí sola, cuando se actualizó el servidor.
 
 ## Cómo funcionan las señales {#how-the-signals-work}

@@ -51,6 +51,7 @@ The tables give every buff at level 1 and at the last level; between them a buff
 | :--- | :--- | ---: | ---: |
 | **Heft** | Hull | +0% | +20% |
 | **Grit** | Damage you take | ×1 | ×0.92 |
+|  | Fear from the dark (Deep Void) | ×1 | ×0.8 |
 | **Reflex** | Speed at which abilities cool down | ×1 | ×1.1 |
 | **Instinct** | Chance of every loot line | +0 points | +7.5 points |
 |  | Orvium and Velkonite from the collectors | ×1 | ×1.5 |
@@ -61,8 +62,10 @@ The tables give every buff at level 1 and at the last level; between them a buff
 | :--- | :--- | ---: | ---: |
 | **Laser tech** (Reflex) | Laser damage | ×1 | ×1.3 |
 |  | Chance a laser volley hits | 80% | 89% |
+|  | Fear from laser volleys (Deep Void) | ×1 | ×0.8 |
 | **Rocket tech** (Reflex) | Rocket damage | ×1 | ×1.3 |
 |  | Chance a rocket is a dud | 10% | 1% |
+|  | Fear from rockets (Deep Void) | ×1 | ×0.8 |
 | **Antimatter** (Instinct) | Dark Matter from pick-ups | ×1 | ×2 |
 
 ### Combat
@@ -86,6 +89,7 @@ The tables give every buff at level 1 and at the last level; between them a buff
 | :--- | :--- | ---: | ---: |
 | **Radiation tech** (Grit) | Dose of radiation | ×1 | ×0.4 |
 | **Thruster theory** (Heft) | Speed | +0% | +10% |
+|  | Fear from flying fast (Deep Void) | ×1 | ×0.8 |
 | **Science** (Instinct) | Science from each unit of fuel | ×1 | ×1.25 |
 
 ### Skylab
@@ -114,7 +118,7 @@ The tables give every buff at level 1 and at the last level; between them a buff
 - **Rockets.** Rocket tech changes the damage of every rocket and the chance that one is a dud ([Rocket tech](/wiki/06-Items/Rockets.md#rocket-tech)).
 - **Taking hits.** Grit takes a share off every hit you take, Evasion adds to the chance that a direct hit does nothing, and Shield absorption adds to the share of a hit that your shields take ([Combat](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). Heft adds to your hull.
 - **Healing.** Healing makes the heals of your own gear stronger: the repair of your Repair Drone, an Emergency Repair, and the Heal Pod, Channel Heal and Channel Shield you use ([Abilities](/wiki/03-Mechanics/Abilities.md#pilot-skills)). On the Miyuki, those three abilities also wait less before the next use. It trains on the hull your heals restore; healing a ship in a safe zone does not count. The Support Rocket always heals the same fixed amount, at any level, and still pays Healing XP.
-- **Cloaking.** Stealth shortens the wait after a cloak ends, for a Cloaking CPU ([Extras](/wiki/06-Items/Extras.md#cloaking-cpu)) and for the Chameleon ([Abilities](/wiki/03-Mechanics/Abilities.md)). It trains on the seconds you spend cloaked; none count in a safe zone or while you give no orders.
+- **Cloaking.** Stealth shortens the wait after a cloak ends, for a Cloaking CPU ([Extras](/wiki/06-Items/Extras.md#cloaking-cpu)) and for the Chameleon ([Abilities](/wiki/03-Mechanics/Abilities.md)). It trains on the seconds you spend cloaked; none count in a safe zone, or while you give no orders and your ship is not flying to the place you sent it (a flight counts for up to 5 minutes after your last order).
 - **Abilities.** Reflex shortens the cooldown of your abilities and Tactics makes them last longer ([Abilities](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Sabotage strengthens the poisons.
 - **Mines.** Sabotage adds to the damage of a Mine, and Marksmanship throws it faster and farther ([Extras](/wiki/06-Items/Extras.md#mine)).
 - **Speed.** Thruster theory adds to your speed, on top of the engines and an Afterburner ([Speed](/wiki/03-Mechanics/Speed.md)).
@@ -158,7 +162,7 @@ The table lists what pays XP, stat by stat. The XP is for each unit of what is n
 | **Tactics** (Reflex) | Each ability you press with a hostile in laser range | 2 | 600 XP an hour |
 | **Shield absorption** (Grit) | Each 1% of your maximum shield that enemy hits take | 0.1 | 300 XP an hour |
 | **Healing** (Heft) | Each 1% of a ship's maximum hull that a heal of yours restores | 0.1 | 300 XP an hour |
-| **Stealth** (Reflex) | Each second you spend cloaked with an order given in the last 1 min, outside the safe zones | 0.1 | None |
+| **Stealth** (Reflex) | Each second you spend cloaked with an order given in the last 1 min or while your ship flies to the place you sent it (up to 5 min after your last order), outside the safe zones | 0.1 | None |
 | **Radiation tech** (Grit) | Each second inside a radiation band | 0.2 | None |
 |  | Each 1% of your maximum hull the radiation takes | 1 |  |
 | **Thruster theory** (Heft) | Each second flown above 80% of your ship's speed, twice as much under an Afterburner | 0.1 | None |

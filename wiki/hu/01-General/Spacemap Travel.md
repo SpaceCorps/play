@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 00f154de4f7e72f2 -->
+<!-- wiki-i18n source: 95e9602370e7a658 -->
 <!-- wiki-i18n title: Utazás az űrtérképen -->
 # Utazás az űrtérképen {#spacemap-travel}
 
@@ -45,6 +45,8 @@ Az alábbi galaxistérkép az ismert univerzum valós idejű elrendezését muta
 ```
 
 Ha fel van szerelve egy [Jump CPU](/wiki/06-Items/Extras.md#jump-cpu), a térkép a célt is kiválasztja: nyomd meg a CPU gyorssáv-helyét (**JMP**), és a Csillagrendszer ablak kijelölő módban nyílik meg. Világítanak azok a szektorok, ahová a CPU elvihet; a saját szektorod és a veszélyes szektorok nem. Mutass egy világító szektorra az ár elolvasásához, kattints rá, és erősítsd meg az ugrást, amikor a térkép kéri (500 Thulium).
+
+**Deep Void.** A Csillagrendszer ablakának tetején egy kapcsoló a **normál** térképeket vagy a **Deep Void** térképeit mutatja. A `DV-1` `???`-t mutat, amíg nem jártál ott, egy tippel a bejutásról: a Jelek, a világod Void Gate-je a `DS-4`-ben, és ha már repültél ott, hogy mennyit derítettél fel belőle. Ennek a térképnek egyetlen portálja sem vezet oda: az egyetlen bejárat egy Void Gate ([Deep Void](/wiki/03-Mechanics/Deep-Void.md)).
 
 ## Hogyan utazz {#how-to-travel}
 

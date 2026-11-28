@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: bb8bc80ba6889fba -->
+<!-- wiki-i18n source: fcba1b51b68a9123 -->
 <!-- wiki-i18n title: Dormant 虫群 -->
 # Dormant 虫群 {#dormant-swarm}
 
-Dormant 虫群由一个 **Dormant Force** 和它的 **Dormant Pulse** 组成：一群从不主动开战、一旦被唤醒就出手极重的舰船。每个世界只有一个。它在各个危险星区之间游荡，是所有虫群中最难的战斗、最丰厚的掉落：这是一场需要由最强舰船组成的大型小队来打的战斗。从赛季第 11 天起，它从 `DS-4` 的 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) 开始，回归更早，奖励翻倍（见*概览*列表）。
+Dormant 虫群由一个 **Dormant Force** 和它的 **Dormant Pulse** 组成：一群从不主动开战、一旦被唤醒就出手极重的舰船。每个世界的危险星区里只有一个（[Deep Void](/wiki/03-Mechanics/Deep-Void.md#the-dormant-swarms-visit) 另有每天一次的独立来访）。它在各个危险星区之间游荡，是所有虫群中最难的战斗、最丰厚的掉落：这是一场需要由最强舰船组成的大型小队来打的战斗。从赛季第 11 天起，它从 `DS-4` 的 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) 开始，回归更早，奖励翻倍（见*概览*列表）。
 
 ## 一览 {#at-a-glance}
 
@@ -18,7 +18,7 @@ Dormant 虫群由一个 **Dormant Force** 和它的 **Dormant Pulse** 组成：�
 - **头领被击毁后**：Dormant Pulse 接任头领
 - **头领被击毁后**：头领被击毁后 30 秒，随从会离开，即使它们正在攻击
 - **移动**：在一张地图上停留 8 至 15 分钟，然后飞向另一个危险星区的传送门。它从不使用通往危险星区之外的传送门，也从不进入黑洞的环带
-- **回归**：整个虫群 被击毁 1 小时 后， 在随机的 危险星区
+- **回归**：整个虫群 被击毁 {{guide:vitals.respawn@Dormant Force#1;Dormant Force#2;Dormant Force#3}} 后， 在随机的 危险星区
 - **从赛季第 11 天起**：它出现在 `DS-4` 的 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)，而不是随机的危险星区；整个虫群被击毁 30 分钟 后回归；每艘飞船的奖励为 ×2（信用点、Thulium、XP 和荣誉；掉落不变）
 - **通知**：整个世界的飞行员会被告知虫群何时出现、何时被击毁。这些是系统行：它们显示在聊天的**系统**标签页中，带有未读计数，不会出现在**全球**或**本地**标签页里。危险星区的地图和星系地图上会标出它。击杀播报会写明获得这次击杀功劳的飞行员。
 
@@ -38,6 +38,19 @@ Dormant 虫群由一个 **Dormant Force** 和它的 **Dormant Pulse** 组成：�
 - **它的激光决定战斗。** 它们加在一起，不到一分钟就能击毁一艘 Paragon，装备最好护盾的也不到两分钟，不用火箭也一样：用你拥有的最好的护盾，尽快打出伤害。
 - **一艘接一艘。** 每艘舰船都有自己的船体和自己的奖励，所以 Force 或某个 Pulse 可能先被击毁。只有整个虫群都被击毁之后，才会在*一览*列表给出的时间后重新出现。
 
+## 首领的三个阶段 {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+这场战斗有三个阶段（[运作方式](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)）；每个只发生一次。
+
+- **开始时**: 只要它的某个Dormant Pulses还活着，它每次只承受 70% 的伤害。
+- **低于三分之二时**: 它的Dormant Pulses在 15 秒 内每隔 2.5 秒 发射一枚火箭。
+- **低于三分之一时**: 只要它的Dormant Pulses全部存活，它们就在 6 秒 内每秒为它修复船体的 5%。
+
+<!-- mob-ladder:end -->
+
 ## 奖励与掉落 {#rewards-and-drops}
 
 每艘舰船都单独支付奖励，按它所受的伤害计算（[Boss 击杀如何支付奖励](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)），并各自为对它造成伤害最多的飞行员掉落一个货箱。**Force 的货箱**是大奖：大量 x3 和 x4 弹药、同一种史诗级火箭，偶尔还有一枚 N.I.K.E. 或 N.U.K.E.。**Pulse** 可能掉落 Ancient Control Unit、Power Core 或 Dark Matter。与这个虫群战斗一分钟的收益高于与 Crystalys（报酬最高的外星人）战斗一分钟。从赛季第 11 天起，每艘飞船的奖励翻倍（见*概览*列表）；货箱不变。
@@ -55,27 +68,24 @@ Dormant 虫群由一个 **Dormant Force** 和它的 **Dormant Pulse** 组成：�
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 船体 | 256,000 | 384,000 | 512,000 |
-| 护盾 | 83,400 | 125,100 | 166,800 |
-| 激光伤害 （每秒一轮齐射） | 3,315 | 4,973 | 6,630 |
-| 速度 | 210 | 210 | 210 |
+| 船体 | {{guide:vitals.hull@Dormant Force#1}} | {{guide:vitals.hull@Dormant Force#2}} | {{guide:vitals.hull@Dormant Force#3}} |
+| 护盾 | {{guide:vitals.shield@Dormant Force#1}} | {{guide:vitals.shield@Dormant Force#2}} | {{guide:vitals.shield@Dormant Force#3}} |
+| 激光伤害 （每秒一轮齐射） | {{guide:vitals.dps@Dormant Force#1}} | {{guide:vitals.dps@Dormant Force#2}} | {{guide:vitals.dps@Dormant Force#3}} |
+| 速度 | {{guide:vitals.speed@Dormant Force#1}} | {{guide:vitals.speed@Dormant Force#2}} | {{guide:vitals.speed@Dormant Force#3}} |
 | 激光射程 | 800 | 800 | 800 |
 | 仇恨范围 | 被攻击时 | 被攻击时 | 被攻击时 |
-| 火箭伤害 （最高） | 7,500 | 11,250 | 15,000 |
-| 信用点 | 185,000 | 370,000 | 555,000 |
-| Thulium | 485 | 970 | 1,455 |
-| 经验值（XP） | 29,200 | 58,400 | 87,600 |
-| 荣誉 | 127 | 254 | 381 |
+| 火箭伤害 （最高） | {{guide:behaviour.ability:rocket.damage@Dormant Force#1}} | {{guide:behaviour.ability:rocket.damage@Dormant Force#2}} | {{guide:behaviour.ability:rocket.damage@Dormant Force#3}} |
+| 信用点 | {{guide:spoils.pay.credits@Dormant Force#1}} | {{guide:spoils.pay.credits@Dormant Force#2}} | {{guide:spoils.pay.credits@Dormant Force#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Dormant Force#1}} | {{guide:spoils.pay.thulium@Dormant Force#2}} | {{guide:spoils.pay.thulium@Dormant Force#3}} |
+| 经验值（XP） | {{guide:spoils.pay.experience@Dormant Force#1}} | {{guide:spoils.pay.experience@Dormant Force#2}} | {{guide:spoils.pay.experience@Dormant Force#3}} |
+| 荣誉 | {{guide:spoils.pay.honor@Dormant Force#1}} | {{guide:spoils.pay.honor@Dormant Force#2}} | {{guide:spoils.pay.honor@Dormant Force#3}} |
 | 每次击杀的 PvE 积分 | 25 | 25 | 25 |
 
 **掉落**：一个货箱，归造成伤害最多的飞行员。
 
-| 物品 | 几率 | 数量 |
-| :--- | ---: | ---: |
-| Ultra Core 和 Experimental Fusion Core， 平均分配 | 100% | 共 2,000–3,000 |
-| 4 种史诗级 [火箭](/wiki/06-Items/Rockets.md) 中随机一种 | 100% | 30–50 |
-| [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) 和 [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) 中随机一种 | 50% | 1 |
-| Heartshard | 5% | 1 |
+| 物品 |
+| :--- |
+| {{guide:spoils.box@Dormant Force#1;Dormant Force#2;Dormant Force#3}} |
 
 ### Dormant Pulse
 
@@ -83,25 +93,23 @@ Dormant 虫群由一个 **Dormant Force** 和它的 **Dormant Pulse** 组成：�
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| 船体 | 128,000 | 192,000 | 256,000 |
-| 护盾 | 64,570 | 96,855 | 129,140 |
-| 激光伤害 （每秒一轮齐射） | 5,100 | 7,650 | 10,200 |
-| 速度 | 270 | 270 | 270 |
+| 船体 | {{guide:vitals.hull@Dormant Pulse#1}} | {{guide:vitals.hull@Dormant Pulse#2}} | {{guide:vitals.hull@Dormant Pulse#3}} |
+| 护盾 | {{guide:vitals.shield@Dormant Pulse#1}} | {{guide:vitals.shield@Dormant Pulse#2}} | {{guide:vitals.shield@Dormant Pulse#3}} |
+| 激光伤害 （每秒一轮齐射） | {{guide:vitals.dps@Dormant Pulse#1}} | {{guide:vitals.dps@Dormant Pulse#2}} | {{guide:vitals.dps@Dormant Pulse#3}} |
+| 速度 | {{guide:vitals.speed@Dormant Pulse#1}} | {{guide:vitals.speed@Dormant Pulse#2}} | {{guide:vitals.speed@Dormant Pulse#3}} |
 | 激光射程 | 800 | 800 | 800 |
 | 仇恨范围 | 被攻击时 | 被攻击时 | 被攻击时 |
-| 火箭伤害 （最高） | 5,000 | 7,500 | 10,000 |
-| 信用点 | 105,000 | 210,000 | 315,000 |
-| Thulium | 275 | 550 | 825 |
-| 经验值（XP） | 16,600 | 33,200 | 49,800 |
-| 荣誉 | 72 | 144 | 216 |
+| 火箭伤害 （最高） | {{guide:behaviour.ability:rocket.damage@Dormant Pulse#1}} | {{guide:behaviour.ability:rocket.damage@Dormant Pulse#2}} | {{guide:behaviour.ability:rocket.damage@Dormant Pulse#3}} |
+| 信用点 | {{guide:spoils.pay.credits@Dormant Pulse#1}} | {{guide:spoils.pay.credits@Dormant Pulse#2}} | {{guide:spoils.pay.credits@Dormant Pulse#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Dormant Pulse#1}} | {{guide:spoils.pay.thulium@Dormant Pulse#2}} | {{guide:spoils.pay.thulium@Dormant Pulse#3}} |
+| 经验值（XP） | {{guide:spoils.pay.experience@Dormant Pulse#1}} | {{guide:spoils.pay.experience@Dormant Pulse#2}} | {{guide:spoils.pay.experience@Dormant Pulse#3}} |
+| 荣誉 | {{guide:spoils.pay.honor@Dormant Pulse#1}} | {{guide:spoils.pay.honor@Dormant Pulse#2}} | {{guide:spoils.pay.honor@Dormant Pulse#3}} |
 | 每次击杀的 PvE 积分 | 11 | 11 | 11 |
 
 **掉落**：一个货箱，归造成伤害最多的飞行员。
 
-| 物品 | 几率 | 数量 |
-| :--- | ---: | ---: |
-| Ancient Control Unit | 20% | 1 |
-| Power Core | 20% | 1 |
-| Dark Matter | 20% | 1–5 |
+| 物品 |
+| :--- |
+| {{guide:spoils.box@Dormant Pulse#1;Dormant Pulse#2;Dormant Pulse#3}} |
 
 <!-- dormant-members:end -->

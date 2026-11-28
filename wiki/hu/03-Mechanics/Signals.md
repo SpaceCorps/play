@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3ee3985e3f9606e1 -->
+<!-- wiki-i18n source: 8dbe8dc047c34c1c -->
 <!-- wiki-i18n title: A jelek -->
 # A jelek {#the-signals}
 
@@ -13,7 +13,7 @@ A Küldetésirányítás furcsa zajt fog, **a Zajt**, és húsz küldetést kül
 - **Végtelen használat.** Semmi nem fogyasztja el: nem használódik el, nem kopik, és egyetlen recept sem kéri.
 - **Csak egy.** Egyetlen Dormant Keycardot vihetsz magaddal. Ha egy átvétel másodikat adna, az átvétel akkor is működik, és minden mást kifizet: egyszerűen nem kapsz még egy kártyát.
 - **Végleg a tiéd.** Nem adható el az Aukción, nem dobható ki a Hangárban, és a [wipe](/wiki/03-Mechanics/Wipe-Timeline.md) sem viszi el.
-- **Még nincs használata.** Ma semmit nem nyit. Egy későbbi frissítés fogja használni egy új térképhez való hozzáférésre, ami még nincs a játékban. Tartsd meg a kártyádat addig.
+- **Megnyitja a Void Gate-et.** Aki magánál tartja, aktiválhatja a világa nyitott Void Gate-jét a `DS-4`-ben, és mindenkit, aki a közelében van, átvihet a [Deep Void](/wiki/03-Mechanics/Deep-Void.md)-ba. Az aktiválás 5 000 Thuliumba kerül; magát a kártyát sosem használja el.
 - **Az utolsó jelet már átvetted?** Az a pilóta, aki még a kártya előtt átvette (a 0.5.10-es frissítés), egyszer, magától megkapta a kártyát, amikor a szerver frissült.
 
 ## Hogyan működnek a jelek {#how-the-signals-work}

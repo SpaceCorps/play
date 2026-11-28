@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7859e3f6a7efac1e -->
+<!-- wiki-i18n source: 38ffa8ba7cbf5000 -->
 <!-- wiki-i18n title: Enxame Goombah -->
 # Enxame Goombah {#goombah-swarm}
 
@@ -17,14 +17,14 @@ O enxame Goombah é um **Boss Goombah** com seus **Goombah Guards**: um [Goombah
 - **Os seguidores ficam a**: até 500 unidades do líder
 - **Cura**: Cada Goombah Guard a até 600 unidades do líder cura o casco dele, 110 HP por segundo em Alpha
 - **Líder destruído**: Os seguidores vão embora 30 s depois que o líder é destruído, a menos que estejam atacando
-- **Volta**: 5 min depois que o líder é destruído, no mesmo setor
+- **Volta**: {{guide:vitals.respawn@Boss Goombah#1;Boss Goombah#2;Boss Goombah#3}} depois que o líder é destruído, no mesmo setor
 - **Avisos**: Os pilotos do setor são avisados quando o líder aparece e quando é destruído. São linhas do Sistema: aparecem na aba **Sistema** do chat, com uma contagem de linhas não lidas, e não em **Global** nem em **Local**. O registro de baixas nomeia o piloto a quem o abate é creditado.
 
 <!-- goombah-glance:end -->
 
 ## Os membros {#the-members}
 
-- **Boss Goombah**: um Goombah maior, com a tonalidade do enxame e o nome por cima, com casco, escudo e salva de laser próprios (os números estão abaixo). É passivo: vagueia até um piloto acertá-lo, então vai atrás desse piloto e atira nele, e as naves do seu enxame que estão perto entram na luta. O alcance da arma e a velocidade são os de um Goombah, e ele nunca conserta o próprio casco.
+- **Boss Goombah**: um Goombah maior, com a tonalidade do enxame e o nome por cima, com casco, escudo e salva de laser próprios (os números estão abaixo). É passivo: vagueia até um piloto acertá-lo, então vai atrás desse piloto e atira nele, e as naves do seu enxame que estão perto entram na luta. O alcance da arma e a velocidade são os de um Goombah, e ele nunca conserta o próprio casco. As suas [três etapas](#the-leaders-three-steps) e uma [habilidade especial](/wiki/03-Mechanics/Special-Abilities.md) podem mudar isso.
 - **Goombah Guard**: um Goombah menor com a tonalidade do enxame. Os Guards ficam perto do chefe, entram na luta quando uma nave de enxame perto deles é acertada, e cada um que está perto do chefe cura o casco dele. Um Guard conserta o próprio casco depois de um descanso, como um Goombah faz.
 
 ## Como a luta transcorre {#how-the-fight-goes}
@@ -34,6 +34,19 @@ O enxame Goombah é um **Boss Goombah** com seus **Goombah Guards**: um [Goombah
 - **Beta e Gamma são mais duros.** Os enxames desses mundos são mais fortes ([Mundos](/wiki/05-Swarms/Swarms.md#the-worlds)), então pedem mais pilotos ou munição melhor.
 - **Fique de olho no setor.** `x-4` é um setor PvP em Alpha, e `x-3` e `x-4` são em Beta e Gamma ([Mundos](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)): um rival pode entrar na luta ou esperar a caixa. Deixe uma nave do grupo de vigia.
 - **O chefe volta** depois do tempo da lista *Resumo rápido*, com a força toda, no mesmo setor, e seus Guards chegam um depois do outro.
+
+## As três etapas do líder {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+A luta tem três etapas ([como funcionam](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); cada uma acontece uma vez.
+
+- **No início**: Recebe 50% de cada golpe por 6 s.
+- **Abaixo de dois terços**: O dano dele é multiplicado por ×1,5 e a velocidade por ×1,25 por 10 s.
+- **Abaixo de um terço**: Recupera 25% do casco e do escudo (uma rajada de dano o interrompe), e seus Goombah Guards o reparam ×2 mais rápido nesse tempo.
+
+<!-- mob-ladder:end -->
 
 ## Recompensas e saque {#rewards-and-drops}
 
@@ -52,30 +65,23 @@ Base: Goombah, com 400% do casco e 100% do dano dos lasers; a velocidade e o alc
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Casco | 128.000 | 192.000 | 256.000 |
-| Escudo | 192.000 | 288.000 | 384.000 |
-| Dano dos lasers (uma salva por segundo) | 3.000 | 4.500 | 6.000 |
-| Velocidade | 180 | 180 | 180 |
+| Casco | {{guide:vitals.hull@Boss Goombah#1}} | {{guide:vitals.hull@Boss Goombah#2}} | {{guide:vitals.hull@Boss Goombah#3}} |
+| Escudo | {{guide:vitals.shield@Boss Goombah#1}} | {{guide:vitals.shield@Boss Goombah#2}} | {{guide:vitals.shield@Boss Goombah#3}} |
+| Dano dos lasers (uma salva por segundo) | {{guide:vitals.dps@Boss Goombah#1}} | {{guide:vitals.dps@Boss Goombah#2}} | {{guide:vitals.dps@Boss Goombah#3}} |
+| Velocidade | {{guide:vitals.speed@Boss Goombah#1}} | {{guide:vitals.speed@Boss Goombah#2}} | {{guide:vitals.speed@Boss Goombah#3}} |
 | Alcance dos lasers | 800 | 800 | 800 |
 | Raio de agressão | só quando atacado | só quando atacado | só quando atacado |
-| Créditos | 120.000 | 240.000 | 360.000 |
-| Thulium | 600 | 1.200 | 1.800 |
-| Experiência (XP) | 24.000 | 48.000 | 72.000 |
-| Honra | 192 | 384 | 576 |
+| Créditos | {{guide:spoils.pay.credits@Boss Goombah#1}} | {{guide:spoils.pay.credits@Boss Goombah#2}} | {{guide:spoils.pay.credits@Boss Goombah#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Boss Goombah#1}} | {{guide:spoils.pay.thulium@Boss Goombah#2}} | {{guide:spoils.pay.thulium@Boss Goombah#3}} |
+| Experiência (XP) | {{guide:spoils.pay.experience@Boss Goombah#1}} | {{guide:spoils.pay.experience@Boss Goombah#2}} | {{guide:spoils.pay.experience@Boss Goombah#3}} |
+| Honra | {{guide:spoils.pay.honor@Boss Goombah#1}} | {{guide:spoils.pay.honor@Boss Goombah#2}} | {{guide:spoils.pay.honor@Boss Goombah#3}} |
 | Pontos PvE por abate | 14 | 14 | 14 |
 
 **Saque**: uma caixa, para o piloto que mais causou dano.
 
-| Item | Chance | Quantidade |
-| :--- | ---: | ---: |
-| Ship Fragment | 100% em cada uma de 8 rolagens | 3 |
-| Reinforced Hull Plate | 60% em cada uma de 8 rolagens | 1 |
-| Power Core | 25% em cada uma de 8 rolagens | 1 |
-| Cataclysite | 100% em cada uma de 8 rolagens | 4 |
-| Quorvium | 100% em cada uma de 8 rolagens | 2–4 |
-| Advanced Plasma | 100% | 100–200 |
-| Ultra Core | 100% | 100–200 |
-| Um dos 4 [foguetes](/wiki/06-Items/Rockets.md) comprados com créditos, escolhido ao acaso | 100% | 6–10 |
+| Item |
+| :--- |
+| {{guide:spoils.box@Boss Goombah#1;Boss Goombah#2;Boss Goombah#3}} |
 
 ### Goombah Guard
 
@@ -83,17 +89,17 @@ Base: Goombah, com 20% de casco, escudo e dano; a velocidade e o alcance são os
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Casco | 6.400 | 9.600 | 12.800 |
-| Escudo | 9.600 | 14.400 | 19.200 |
-| Dano dos lasers (uma salva por segundo) | 600 | 900 | 1.200 |
-| Velocidade | 180 | 180 | 180 |
+| Casco | {{guide:vitals.hull@Goombah Guard#1}} | {{guide:vitals.hull@Goombah Guard#2}} | {{guide:vitals.hull@Goombah Guard#3}} |
+| Escudo | {{guide:vitals.shield@Goombah Guard#1}} | {{guide:vitals.shield@Goombah Guard#2}} | {{guide:vitals.shield@Goombah Guard#3}} |
+| Dano dos lasers (uma salva por segundo) | {{guide:vitals.dps@Goombah Guard#1}} | {{guide:vitals.dps@Goombah Guard#2}} | {{guide:vitals.dps@Goombah Guard#3}} |
+| Velocidade | {{guide:vitals.speed@Goombah Guard#1}} | {{guide:vitals.speed@Goombah Guard#2}} | {{guide:vitals.speed@Goombah Guard#3}} |
 | Alcance dos lasers | 800 | 800 | 800 |
 | Raio de agressão | só quando atacado | só quando atacado | só quando atacado |
 | Cura o líder, cada um, por segundo (só o casco) | 110 | 165 | 220 |
-| Créditos | 125 | 250 | 375 |
-| Thulium | 1 | 2 | 3 |
-| Experiência (XP) | 12 | 24 | 36 |
-| Honra | 1 | 2 | 3 |
+| Créditos | {{guide:spoils.pay.credits@Goombah Guard#1}} | {{guide:spoils.pay.credits@Goombah Guard#2}} | {{guide:spoils.pay.credits@Goombah Guard#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Goombah Guard#1}} | {{guide:spoils.pay.thulium@Goombah Guard#2}} | {{guide:spoils.pay.thulium@Goombah Guard#3}} |
+| Experiência (XP) | {{guide:spoils.pay.experience@Goombah Guard#1}} | {{guide:spoils.pay.experience@Goombah Guard#2}} | {{guide:spoils.pay.experience@Goombah Guard#3}} |
+| Honra | {{guide:spoils.pay.honor@Goombah Guard#1}} | {{guide:spoils.pay.honor@Goombah Guard#2}} | {{guide:spoils.pay.honor@Goombah Guard#3}} |
 | Pontos PvE por abate | 3 | 3 | 3 |
 
 **Saque**: nenhum. O abate paga só os seus créditos, Thulium, XP e honra.

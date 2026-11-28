@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ab422d8b5066fe56 -->
+<!-- wiki-i18n source: 61fa5f21bae46a15 -->
 <!-- wiki-i18n title: Groupes -->
 # Groupes {#groups}
 
@@ -119,7 +119,7 @@ Votre liste d’ignorés et le réglage Masquer Global sont conservés avec votr
 
 ## Règles d’engagement {#rules-of-engagement}
 
-**Les membres d’un même groupe ne peuvent pas se blesser**, quelles que soient leurs corporations : vous ne pouvez pas verrouiller un coéquipier (lasers ou roquettes), vos tirs et vos explosions le traversent, et rien de ce que vous lui faites ne compte comme une élimination, une élimination PvP ou une élimination par le trou noir pour qui que ce soit. Les membres de votre corporation qui ne sont **pas** dans le même groupe restent comme avant : en toucher un avec un laser ou une roquette coûte **100 points d’honneur** quand il est détruit. Quittez le groupe et un ancien coéquipier, ennemi ou non, redevient aussitôt une cible légitime (là où le secteur et la saison permettent de se battre). Tous ceux qui ne sont pas dans votre groupe sont traités comme toujours, et les zones sûres, le Protocole de paix et les règles PvP des secteurs ne changent pour personne.
+**Les membres d’un même groupe ne peuvent pas s’attaquer entre eux**, quelles que soient leurs corporations : vous ne pouvez pas verrouiller un coéquipier (lasers ou roquettes), vos tirs et vos roquettes directes le traversent, et rien de ce que vous lui faites ne compte comme une élimination, une élimination PvP ou une élimination par le trou noir pour qui que ce soit. Le seul dégât de roquette qui atteint tout de même votre groupe est celui de zone : l’explosion d’un Ember, d’un Scatter ou d’une N.U.K.E. et la zone de radiation que laisse une N.U.K.E. ou une Gravitational N.U.K.E. vous blessent, vous et les membres de votre groupe, à la moitié de ce qu’elles font à un autre vaisseau (une zone sûre et la protection d’une réapparition vous en préservent, le Protocole de paix et les secteurs sans PvP non), et si l’une d’elles détruit un membre, personne n’obtient l’élimination. Les membres de votre corporation qui ne sont **pas** dans le même groupe restent comme avant : en toucher un avec un laser ou une roquette coûte **100 points d’honneur** quand il est détruit. Quittez le groupe et un ancien coéquipier, ennemi ou non, redevient aussitôt une cible légitime (là où le secteur et la saison permettent de se battre). Tous ceux qui ne sont pas dans votre groupe sont traités comme toujours, et les zones sûres, le Protocole de paix et les règles PvP des secteurs ne changent pour personne.
 
 ## Amener un ami {#bringing-a-friend}
 

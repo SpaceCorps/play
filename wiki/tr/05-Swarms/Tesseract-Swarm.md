@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4e3f459fc0966372 -->
+<!-- wiki-i18n source: 98e91b2bd1dede81 -->
 <!-- wiki-i18n title: Tesseract sürüsü -->
 # Tesseract sürüsü {#tesseract-swarm}
 
@@ -13,13 +13,13 @@ Tesseract sürüsü, tek bir devasa ana gemi olan **Tesseract** ile vurulduğu s
 - **Kaç tane**: Her dünyada bir tane
 - **Belirme**: Sezonun 4. gününden sıfırlamaya kadar (Beta ve Gamma: sezonun 1. gününden itibaren)
 - **Lider**: Tesseract
-- **Konum**: Sektör haritasının 25.900, 6.100 noktasının 2.500 birim çevresinde
+- **Konum**: Sektör haritasının 25.900, 11.900 noktasının 2.500 birim çevresinde
 - **Yenilenme**: Alpha dünyasında saniyede 125.000 HP; önce gövde, sonra kalkan; 5 sn hasarsız geçtikten sonra
 - **Takipçiler**: En fazla 100 × Facet, lider vurulduğu sürece 5 sn aralıkla 20 tane daha
 - **Takipçiler gelir**: Yalnızca lider son 5 sn içinde vurulduysa, ondan en fazla 400 birim uzakta
 - **Avcılar**: Her Facet, liderin çevresinde, ondan en fazla 3.600 birim uzakta kendi uçuşlarını yapar ve kimsenin peşine düşmez. Lidere vurmuş en yakın pilot menzilindeyse ona ateş eder. Ateş edecek kimse yoksa liderin çevresinde uçmaya devam eder ve son vuruştan 20 sn sonra gider
 - **Lider yok edilince**: Takipçiler, saldırıyor olsalar bile, lider yok edildikten 1 dk sonra ayrılır
-- **Geri gelir**: Lider yok edildikten 30 dk sonra, aynı sektörde
+- **Geri gelir**: Lider yok edildikten {{guide:vitals.respawn@Tesseract#1;Tesseract#2;Tesseract#3}} sonra, aynı sektörde
 - **Duyuru**: Sektördeki pilotlara liderin ne zaman belirdiği ve ne zaman yok edildiği bildirilir. Bunlar Sistem satırlarıdır: sohbetin **Sistem** sekmesinde, okunmamış sayısıyla birlikte görünür; **Genel** ya da **Yerel** sekmesinde görünmez. Öldürme akışı, öldürmeyi alan pilotu adıyla gösterir.
 
 <!-- tesseract-glance:end -->
@@ -40,6 +40,17 @@ Tesseract sürüsü, tek bir devasa ana gemi olan **Tesseract** ile vurulduğu s
 - **Tehlike Sektörleri PvP’dir.** Bir rakip savaşın ortasında gruba saldırabilir. Enkazın başında onun bekleyebileceği bir kutu yoktur: ganimet, öldürmenin ödediği her pilot için bir [özel kutudur](/wiki/03-Mechanics/Cargo.md#private-boxes); onu yalnızca o pilot görüp alabilir. Yalnız gitme.
 - **Tesseract geri gelir**: *Bir bakışta* listesindeki sürenin ardından, tam güçle, yerinde.
 
+## Liderin üç aşaması {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Bu savaşın üç aşaması vardır ([nasıl işlediği](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); her biri bir kez gerçekleşir ve tamamen onarıldığında baştan başlar.
+
+- **Üçte ikinin altında**: Olağan sayılarının üzerinde 20 Facets daha bir kerede gelir.
+
+<!-- mob-ladder:end -->
+
 ## Ödüller ve ganimet {#rewards-and-drops}
 
 Tesseract, olduğu savaşın karşılığını öder: birçok Crystalys’in toplamı kadar, ve yuttuğu hasara göre en çok ödeyen uzaylı olan bir Crystalys’ten daha fazlasını. Ödeme, onunla savaşan pilotlar arasında hasara göre bölüşülür ([patron öldürmesi nasıl öder](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). En çok hasar veren pilot için ayrı bir kutu yoktur. Öldürmenin ödediği her pilot, yalnızca kendisinin görüp alabildiği kendi [özel kutusunu](/wiki/03-Mechanics/Cargo.md#private-boxes) alır; kutu 10 dakika durur ve içinde Reinforced Hull Plate, Velkonite ve Orvium Reinforced Plate, Power Core, Ancient Control Unit ve Dark Matter bulunur. Kutu, [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) ganimeti gibi, pilotun hasar payına göre çekilir: hasarın beşte birini veren, tablodaki miktarların yaklaşık beşte birini alır; grupta ise her pilot, ödemenin paylaşıldığı gibi grubun payından kendi bölümünü alır. Dark Matter için pilot başına bir üst sınır vardır: bir öldürmeden en çok 5 alır, payı ne kadar büyük olursa olsun (grupta önce her pilotun bölümü ayrılır, üst sınır her pilot için ayrı uygulanır), sınırı aşan kısım kaybolur, başkalarına verilmez. Bir Facet, Kredi, Thulium, XP ve Onur olarak bir [Phantasm](/wiki/04-Aliens/Phantasm.md) kadar öder ve öldürülmesi bir öldürme olarak sayılır (istatistiklerinde, başarımlarda, dronlarının ve P.E.T.’lerinin deneyiminde), ama hiçbir şey düşürmez ve PvE puanı vermez.
@@ -57,30 +68,24 @@ Crystalys temel alınarak, gövdesinin %625 kadarıyla yapılmıştır; silahı 
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Gövde | 1.600.000 | 2.400.000 | 3.200.000 |
-| Kalkan | 1.200.000 | 1.800.000 | 2.400.000 |
+| Gövde | {{guide:vitals.hull@Tesseract#1}} | {{guide:vitals.hull@Tesseract#2}} | {{guide:vitals.hull@Tesseract#3}} |
+| Kalkan | {{guide:vitals.shield@Tesseract#1}} | {{guide:vitals.shield@Tesseract#2}} | {{guide:vitals.shield@Tesseract#3}} |
 | Lazer hasarı (saniyede bir salvo) | yok | yok | yok |
-| Hız | 30 | 30 | 30 |
+| Hız | {{guide:vitals.speed@Tesseract#1}} | {{guide:vitals.speed@Tesseract#2}} | {{guide:vitals.speed@Tesseract#3}} |
 | Lazer menzili | – | – | – |
 | Aggro yarıçapı | yalnızca saldırıya uğrayınca | yalnızca saldırıya uğrayınca | yalnızca saldırıya uğrayınca |
 | Saniyede onarır, 5 sn hasarsız kaldıktan sonra (önce gövde, sonra kalkan) | 125.000 | 187.500 | 250.000 |
-| Kredi | 900.000 | 1.800.000 | 2.700.000 |
-| Thulium | 2.400 | 4.800 | 7.200 |
-| Deneyim (XP) | 144.000 | 288.000 | 432.000 |
-| Onur | 624 | 1.248 | 1.872 |
+| Kredi | {{guide:spoils.pay.credits@Tesseract#1}} | {{guide:spoils.pay.credits@Tesseract#2}} | {{guide:spoils.pay.credits@Tesseract#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Tesseract#1}} | {{guide:spoils.pay.thulium@Tesseract#2}} | {{guide:spoils.pay.thulium@Tesseract#3}} |
+| Deneyim (XP) | {{guide:spoils.pay.experience@Tesseract#1}} | {{guide:spoils.pay.experience@Tesseract#2}} | {{guide:spoils.pay.experience@Tesseract#3}} |
+| Onur | {{guide:spoils.pay.honor@Tesseract#1}} | {{guide:spoils.pay.honor@Tesseract#2}} | {{guide:spoils.pay.honor@Tesseract#3}} |
 | Öldürme başına PvE puanı | 42 | 42 | 42 |
 
 **Öldürmenin ödediği her pilota ganimet**: herkese bir kutu, yalnızca ona ait, bu miktarlardan payıyla.
 
-| Eşya | Şans | Miktar |
-| :--- | ---: | ---: |
-| Reinforced Hull Plate | %100 | 3–10 |
-| Velkonite Reinforced Plate | %66 | 7–12 |
-| Orvium Reinforced Plate | %50 | 3–5 |
-| Power Core | %66 | 4–7 |
-| Ancient Control Unit | %100 | 1–4 |
-| Dark Matter | %100 | 10–20, pilot başına en çok 5 |
-| Heartshard | %5 | 1 |
+| Eşya |
+| :--- |
+| {{guide:spoils.box@Tesseract#1;Tesseract#2;Tesseract#3}} |
 
 ### Facet
 
@@ -88,16 +93,16 @@ Seeker temel alınarak, gövdesinin %2.500 kadarıyla ve lazer hasarının %463 
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Gövde | 20.000 | 30.000 | 40.000 |
-| Kalkan | 16.000 | 24.000 | 32.000 |
-| Lazer hasarı (saniyede bir salvo) | 834 | 1.251 | 1.668 |
-| Hız | 750 | 750 | 750 |
+| Gövde | {{guide:vitals.hull@Facet#1}} | {{guide:vitals.hull@Facet#2}} | {{guide:vitals.hull@Facet#3}} |
+| Kalkan | {{guide:vitals.shield@Facet#1}} | {{guide:vitals.shield@Facet#2}} | {{guide:vitals.shield@Facet#3}} |
+| Lazer hasarı (saniyede bir salvo) | {{guide:vitals.dps@Facet#1}} | {{guide:vitals.dps@Facet#2}} | {{guide:vitals.dps@Facet#3}} |
+| Hız | {{guide:vitals.speed@Facet#1}} | {{guide:vitals.speed@Facet#2}} | {{guide:vitals.speed@Facet#3}} |
 | Lazer menzili | 600 | 600 | 600 |
 | Aggro yarıçapı | yalnızca saldırıya uğrayınca | yalnızca saldırıya uğrayınca | yalnızca saldırıya uğrayınca |
-| Kredi | 3.000 | 6.000 | 9.000 |
-| Thulium | 12 | 24 | 36 |
-| Deneyim (XP) | 300 | 600 | 900 |
-| Onur | 6 | 12 | 18 |
+| Kredi | {{guide:spoils.pay.credits@Facet#1}} | {{guide:spoils.pay.credits@Facet#2}} | {{guide:spoils.pay.credits@Facet#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Facet#1}} | {{guide:spoils.pay.thulium@Facet#2}} | {{guide:spoils.pay.thulium@Facet#3}} |
+| Deneyim (XP) | {{guide:spoils.pay.experience@Facet#1}} | {{guide:spoils.pay.experience@Facet#2}} | {{guide:spoils.pay.experience@Facet#3}} |
+| Onur | {{guide:spoils.pay.honor@Facet#1}} | {{guide:spoils.pay.honor@Facet#2}} | {{guide:spoils.pay.honor@Facet#3}} |
 | Öldürme başına PvE puanı | 0 | 0 | 0 |
 
 **Ganimet**: yok. Öldürme yalnızca kredi, Thulium, XP ve onur öder.

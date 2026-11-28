@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e3fa08f52459090c -->
+<!-- wiki-i18n source: d7154b35dd9c47fc -->
 <!-- wiki-i18n title: Escavatore gigante -->
 # Escavatore gigante {#giant-excavator}
 
@@ -91,13 +91,13 @@ Un ciclo attira gli **Slumbering Void**, cacciatori della civiltà perduta che a
 
 - **Ondate.** 3 Slumbering Void ogni 2 min; i primi 1 min dopo l’avvio, e nessuno negli ultimi 1 min di un ciclo. Su una mappa ce ne sono vivi al massimo 12 insieme: un’ondata che trova la mappa piena viene saltata.
 - **Arrivo.** Un’ondata compare al bordo della mappa, 900 unità verso l’interno e ad almeno 2.500 unità da ogni anello di portale, e vola all’escavatore in circa 20 s. Il messaggio indica il lato della mappa da cui arriva.
-- **Caccia.** Un Void dà la caccia al pilota più vicino che vede entro 2.500 unità, e resta entro 7.000 unità dall’escavatore.
+- **Caccia.** Un Void dà la caccia al pilota più vicino che vede entro {{guide:vitals.aggro@Slumbering Void}} unità, e resta entro 7.000 unità dall’escavatore.
 - **Assedio.** Quando per 15 s nessun pilota visibile si trova entro 7.000 unità dall’escavatore, i Void attaccano l’escavatore, e ogni laser fa 25% del suo danno abituale. A zero l’escavatore viene distrutto: il suo carburante è perso, il suo scafo torna subito pieno, e riposa per 1 h.
 - **Partenza.** Quando un ciclo finisce, i Void rimasti restano ancora 90 s e continuano a combattere se vengono combattuti; poi se ne vanno.
 
 <!-- excavator-voids:end -->
 
-- **Un Void è un cannone di vetro.** Il suo scudo è grande ma assorbe l’80% di un colpo, quindi lo scafo dietro è finito dopo poche volte la sua dimensione in danni, e molto prima con la penetrazione dello scudo. Quattro piloti senza penetrazione dello scudo, o due con un buon equipaggiamento, reggono un ciclo in Alpha; Beta e Gamma richiedono gruppi più grandi, come per ogni alieno.
+- **Un Void è un cannone di vetro.** Il suo scudo è grande ma assorbe l’{{guide:vitals.absorbance@Slumbering Void}} di un colpo, quindi lo scafo dietro è finito dopo poche volte la sua dimensione in danni, e molto prima con la penetrazione dello scudo. Quattro piloti senza penetrazione dello scudo, o due con un buon equipaggiamento, reggono un ciclo in Alpha; Beta e Gamma richiedono gruppi più grandi, come per ogni alieno.
 - **Un occultamento non difende il sito.** I Void non vedono le navi occultate, quindi un pilota che si nasconde non li tiene lontani dall’escavatore; e un pilota che si ripara in un anello di portale non può essere raggiunto e non conta nemmeno.
 - **Ogni Void paga,** in base al danno che gli hai inflitto, e lascia una cassa ([come paga l’abbattimento di un boss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). I loro abbattimenti si sommano ai tuoi punti PvE di grado come quelli di una nave di sciame.
 

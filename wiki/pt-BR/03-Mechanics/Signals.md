@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3ee3985e3f9606e1 -->
+<!-- wiki-i18n source: 8dbe8dc047c34c1c -->
 <!-- wiki-i18n title: Os sinais -->
 # Os sinais {#the-signals}
 
@@ -13,7 +13,7 @@ O Mission Control capta um ruído estranho, **a Estática**, que envia vinte mis
 - **Usos infinitos.** Nada o consome: ele não é gasto, não se desgasta e nenhuma receita o pede.
 - **Apenas um.** Você pode ter um único Dormant Keycard. Se um resgate fosse lhe dar um segundo, o resgate funciona do mesmo jeito e paga todo o resto; você só não recebe outro cartão.
 - **Seu para sempre.** Ele não pode ser vendido no Leilão, não pode ser jogado fora no Hangar, e um [reset](/wiki/03-Mechanics/Wipe-Timeline.md) não o leva.
-- **Ainda sem uso.** Hoje ele não abre nada. Uma atualização futura vai usá-lo para dar acesso a um mapa novo, que ainda não está no jogo. Guarde seu cartão até lá.
+- **Ele abre o Void Gate.** Um piloto que o carrega pode ativar o Void Gate aberto do seu mundo em `DS-4` e levar todos que estão perto para o [Deep Void](/wiki/03-Mechanics/Deep-Void.md). Ativar custa 5.000 de Thulium; o cartão em si nunca é gasto.
 - **Já resgatou o último sinal?** Um piloto que o tinha resgatado antes de o cartão existir (a atualização 0.5.10) recebeu o cartão uma vez, sozinho, quando o servidor foi atualizado.
 
 ## Como os sinais funcionam {#how-the-signals-work}

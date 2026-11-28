@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e819db509b714a18 -->
+<!-- wiki-i18n source: 871bca2da0d6e0d7 -->
 <!-- wiki-i18n title: 클랜 -->
 # 클랜 {#clans}
 
@@ -77,11 +77,11 @@
 
 | 클랜 레벨 | 멤버 한도 | 일일 지급 한도 (멤버당) | 업그레이드 비용 (크레딧) |
 | :---: | :---: | :---: | :--- |
-| **레벨 1** | 15 | 1,000,000 크레딧 | — |
-| **레벨 2** | 25 | 2,000,000 크레딧 | 10,000,000 크레딧 |
-| **레벨 3** | 50 | 3,000,000 크레딧 | 100,000,000 크레딧 |
-| **레벨 4** | 75 | 4,000,000 크레딧 | 1,000,000,000 크레딧 |
-| **레벨 5** | 100 | 5,000,000 크레딧 | 10,000,000,000 크레딧 |
+| **레벨 1** | 15 | 2,000,000 크레딧 | — |
+| **레벨 2** | 25 | 4,000,000 크레딧 | 10,000,000 크레딧 |
+| **레벨 3** | 50 | 6,000,000 크레딧 | 100,000,000 크레딧 |
+| **레벨 4** | 75 | 8,000,000 크레딧 | 1,000,000,000 크레딧 |
+| **레벨 5** | 100 | 10,000,000 크레딧 | 10,000,000,000 크레딧 |
 
 ---
 
@@ -115,20 +115,20 @@
 ### 2. 기부 {#2-donations}
 
 - **기부하기**: 어떤 멤버든 클랜 페이지에서 클랜 은행으로 크레딧을 보낼 수 있습니다. 시트에 아직 보낼 수 있는 금액이 표시됩니다.
-- **기부 한도**: 파일럿은 **24시간 동안 클랜에 최대 1,000,000 크레딧**까지 보낼 수 있으며, 그 파일럿이 속했던 모든 클랜을 합산합니다. 클랜을 탈퇴하고 다른 클랜에 가입해도 새로운 한도가 생기지 않습니다.
+- **기부 한도**: 파일럿은 **24시간 동안 클랜에 최대 2,000,000 크레딧**까지 보낼 수 있으며, 그 파일럿이 속했던 모든 클랜을 합산합니다. 클랜을 탈퇴하고 다른 클랜에 가입해도 새로운 한도가 생기지 않습니다.
 - **일일 초기화 없음**: 24시간은 계속 이동합니다. 각 기부는 기부한 지 정확히 24시간이 지나면 집계에서 빠지며, 시트에 가장 오래된 기부가 언제 빠지는지와 얼마가 돌아오는지가 표시됩니다. 남은 한도를 넘는 기부는 통째로 거부됩니다.
 - 일일 세금은 기부가 아니므로 한도를 소모하지 않습니다.
 
 ### 3. 은행 지급 {#3-bank-payouts}
 
 - **지급 한도**: 클랜 리더와 간부는 클랜 은행의 크레딧을 개별 멤버에게 나눠 줄 수 있습니다.
-- **일일 상한**: 멤버는 하루(UTC 기준의 달력상 하루) 동안 지급으로 `1,000,000 * ClanLevel` 크레딧을 넘게 받을 수 없습니다.
+- **일일 상한**: 멤버는 하루(UTC 기준의 달력상 하루) 동안 지급으로 `2,000,000 * ClanLevel` 크레딧을 넘게 받을 수 없습니다.
 
 ### 4. 일일 보너스 {#4-daily-bonus}
 
 리더는 클랜 금고에서 모든 멤버에게 하루에 한 번 정해진 보너스를 지급할 수 있습니다.
 
-- **설정.** 관리의 **일일 보너스** 카드에서 리더가 역할마다 금액을 입력합니다. 파일럿, 원로, 부리더, 리더입니다. **0은 그 역할을 끕니다**. 그 밖의 금액은 **1,000~1,000,000 크레딧**입니다. 부리더는 카드를 볼 수 있지만 바꿀 수 없습니다. 저장해도 금고에서 아무것도 빠지지 않습니다. 카드에는 모든 파일럿이 플레이할 경우 하루에 드는 금액과 금고가 며칠을 버틸지가 표시됩니다.
+- **설정.** 관리의 **일일 보너스** 카드에서 리더가 역할마다 금액을 입력합니다. 파일럿, 원로, 부리더, 리더입니다. **0은 그 역할을 끕니다**. 그 밖의 금액은 **1,000~2,000,000 크레딧**입니다. 부리더는 카드를 볼 수 있지만 바꿀 수 없습니다. 저장해도 금고에서 아무것도 빠지지 않습니다. 카드에는 모든 파일럿이 플레이할 경우 하루에 드는 금액과 금고가 며칠을 버틸지가 표시됩니다.
 - **지급.** 멤버는 **하루에 한 번**, 그날의 첫 확인 때 지급받습니다. 접속할 때, 온라인 상태에서 날짜가 바뀔 때, 리더가 새 금액을 저장할 때입니다. 그 하루는 클랜 라인의 하루이며, **UTC 00:00:00**에 바뀝니다([하루](#the-day)). 파일럿에게는 시스템 줄과 게임 로그 줄이 가고, 개요에는 '일일 보너스: X 크레딧'과 오늘 지급되었는지가 표시됩니다.
 - **대상.** 클랜에 **24시간 이상** 있었던 파일럿이며, **어느 클랜이든 파일럿 한 명당 하루에 하나**입니다. 클랜을 옮겨 다니며 더 받으려 해도 한 번만 지급됩니다.
 - **금고가 모자랄 때.** 금고는 가진 만큼만 지급하며 0 아래로 내려가지 않습니다. 멤버의 금액을 지급할 수 없으면, 같은 날 나중에 금고가 채워지더라도 그날은 그 멤버를 건너뛰며, [클랜 로그](#fleet-log)에 한 번 기록됩니다. 파일럿은 금고가 바닥날 때까지 접속한 순서대로 지급받습니다.
@@ -246,7 +246,7 @@
 ### 누가 집계되는가 {#who-counts}
 
 - **클랜의 합계가 집계됩니다.** 작전 탭의 막대는 클랜 전체의 것입니다.
-- **내 최소 기준.** 그날의 보상을 나눠 받으려면 **그날 작업의 5%**, 실제 사냥으로 8분쯤을 해내야 합니다. 탭에는 '오늘 내 작업량: 312 / 469 유닛'처럼 표시됩니다. 작업 유닛은 플레이 1초입니다. 처치는 그 외계인을 찾아 쓰러뜨리는 데 걸리는 시간만큼, 비행은 그 거리를 나는 데 걸리는 시간만큼 집계됩니다. 베테랑 클랜에서는 Seeker 한 마리가 약 12유닛, Phantasm이 22, Bulwark가 123, 비행 1,000유닛이 약 5입니다. 최소 기준은 날이나 등급과 상관없이 446~480유닛입니다.
+- **내 최소 기준.** 그날의 보상을 나눠 받으려면 **그날 작업의 5%**, 실제 사냥으로 8분쯤을 해내야 합니다. 탭에는 '오늘 내 작업량: 312 / 469 유닛'처럼 표시됩니다. 작업 유닛은 플레이 1초입니다. 처치는 그 외계인을 찾아 쓰러뜨리는 데 걸리는 시간만큼, 비행은 그 거리를 나는 데 걸리는 시간만큼 집계됩니다. 베테랑 클랜에서는 Seeker 한 마리가 약 12유닛, Phantasm이 22, Bulwark가 123, 비행 1,000유닛이 약 5입니다. 최소 기준은 날이나 등급과 상관없이 454~486유닛입니다.
 - 단계를 완료하려면 **최소 3명의 멤버**가 최소 기준에 도달해 있어야 합니다. 단계가 가득 찼는데 도달한 멤버가 부족하면 **대기**하며('3단계는 가득 찼지만 최소 기준에 도달한 멤버는 2명뿐입니다'), 3번째 멤버가 도달할 때까지 그 단계 외계인의 처치는 처치한 멤버의 작업에 계속 더해집니다. 파일럿이 3명 미만인 클랜은 단계를 완료할 수 없습니다.
 - **처치는 누구 몫인가.** 처치에 대한 보상을 받는 파일럿과, 8,000유닛 이내에서 최근 15초 안에 사격한 그룹 동료입니다([그룹](/wiki/03-Mechanics/Groups.md#sharing-kills)). 클랜은 그룹에 클랜원이 몇 명 있든 처치를 **한 번만** 집계하며, 그 처치의 작업은 그들끼리 균등하게 나뉩니다. 한 그룹에 클랜이 둘 있으면 각각 한 번씩 집계합니다.
 - **어떤 처치인가.** 진행 중인 단계의 외계인만입니다. 일반 Seeker, Phantasm, Bulwark, Goombah입니다. 무리의 함선, 다른 파일럿, 워든의 부하는 해당 외계인으로 집계되지 않습니다. 처치는 그것이 일어난 월드의 것으로 집계되며, 더 강한 월드에서는 더 많이 집계됩니다. **Alpha는 1, Beta는 1.5, Gamma는 2**입니다([월드](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)). 보스 단계는 [무리](/wiki/05-Swarms/Swarms.md)의 보스를 집계하며, 피해의 5% 이상을 준 파일럿이 있는 클랜마다 한 마리로 칩니다.
@@ -290,7 +290,7 @@
 | :--- | :--- | :--- | :--- |
 | **Brood Warden** | 1, 4, 7, 10 … | 벌집 파수꾼: 화력을 나누세요 | 처음 공격한 파일럿에게 날아갑니다. 작은 **Brood Drone** 4기가 선체를 치료하며, 살아 있는 드론이 4기 미만인 동안 8초마다 새 드론이 나옵니다(Brood Warden III는 16초마다). 드론을 먼저, 그다음 워든을 쏘세요. |
 | **Siege Warden** | 2, 5, 8, 11 … | 공성 파괴자: 계속 움직이세요 | 처음 공격한 파일럿에게 날아가 그에게 직선으로 날아가는 [Rivet 로켓](/wiki/06-Items/Rockets.md#the-twelve-rockets)을 쏘고, 스스로 수리합니다. **Siege Escort** 2기가 레이저 사격을 더합니다. 계속 움직이고 번갈아 표적이 되세요. |
-| **Wrath Warden** | 3, 6, 9, 12 … | 전쟁군주: 분노를 이겨내세요 | 처음 공격한 파일럿에게 날아가 레이저 사거리 안에서 멈추고 스스로 수리합니다. 선체가 절반 아래로 떨어지면 레이저 위력이 **1.5배**가 됩니다. **Wrath Guard** 2기가 곁에 머물며 레이저 사격을 더합니다. 빠르게 쓰러뜨리고 실드를 유지하세요. |
+| **Wrath Warden** | 3, 6, 9, 12 … | 전쟁군주: 분노를 이겨내세요 | 처음 공격한 파일럿에게 날아가 레이저 사거리 안에서 멈추고 스스로 수리합니다. 선체가 3분의 2 아래로 떨어지면 레이저 위력이 **1.25배**, 3분의 1 아래로 떨어지면 **1.5배**가 됩니다. **Wrath Guard** 2기가 곁에 머물며 레이저 사격을 더합니다. 빠르게 쓰러뜨리고 실드를 유지하세요. |
 
 ### 워든 소환하기 {#calling-a-warden}
 
@@ -298,19 +298,34 @@
 - **누가.** 리더나 부리더입니다.
 - **어떻게.** 비행 중에 합니다. 4단계가 완료되면 비행 화면에 **여기서 소환** 버튼이 나타나고, 확인을 요구합니다. 안전 구역 밖, 내 월드의 기업 섹터 **x-2, x-3, x-4**(어느 기업의 것이든 상관없음)에 있어야 합니다. 작전 탭(정거장에서는 클랜 페이지, 비행 중에는 클랜 창)은 오늘의 워든, 남은 소환 횟수, 버튼이 흐린 이유를 보여 줍니다. 정거장에서는 워든을 함선에서 소환하므로 버튼이 늘 흐리고, 클랜 창에서는 그 버튼을 실제로 누를 수 있으며 안전 지대 안과 기업 섹터 x-2~x-4 밖에서는 서버가 알려 주는 이유와 함께 흐려집니다.
 - **어디에 나타나는가.** 내 함선에서 3,000~4,500유닛 떨어진 곳, 내 월드 안입니다. 그 월드의 파일럿만 닿을 수 있습니다. 탭은 **신병 클랜에는 x-2, 베테랑에는 x-3, 엘리트에는 x-4**를 권장합니다. 고른 섹터의 평소 [PvP 규칙](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)은 그대로 적용됩니다.
-- **준비 시간.** 워든은 **90초 동안** 실드를 두르고 가만히 있으며('가동 준비 중'), 온라인인 클랜 파일럿 모두에게 위치가 알려집니다. 준비하는 동안 날아가세요. 90초가 지나면 가동됩니다. 비행 화면의 안전 구역 표시 아래 캡슐이 이를 따라 보여 줍니다. 이름, '가동 준비 중'과 남은 시간, 이어서 '가동 중'과 섹터 및 철수까지 남은 시간, 그리고 Wrath Warden의 선체가 절반 아래로 내려가면 '격노'입니다.
+- **준비 시간.** 워든은 **90초 동안** 실드를 두르고 가만히 있으며('가동 준비 중'), 온라인인 클랜 파일럿 모두에게 위치가 알려집니다. 준비하는 동안 날아가세요. 90초가 지나면 가동됩니다. 비행 화면의 안전 구역 표시 아래 캡슐이 이를 따라 보여 줍니다. 이름, '가동 준비 중'과 남은 시간, 이어서 '가동 중'과 섹터 및 철수까지 남은 시간, 그리고 Wrath Warden의 선체가 3분의 1 아래로 내려가면 '격노'입니다.
 - **우리 클랜만.** 다른 클랜 파일럿의 사격은 무시되며, 반격을 유발하지도 않습니다.
 - **어떻게 끝나는가.** 쓰러졌을 때입니다. 가동 40분 뒤, 하루가 끝났을 때, 클랜 파일럿이 아무도 2분 동안 그 맵에서 비행하지 않았을 때, 서버가 재시작할 때(그 소환은 돌려받습니다) **철수**합니다. 철수한 워든은 소환 1회를 소모하며, 다음 호출은 그때 모인 승무원에 맞춘 워든을 다시 불러옵니다([승무원이 워든을 바꾸는 방식](#strength-by-the-crew)).
 
 ### 워든과 싸우기 {#fighting-a-warden}
 
 - **워든은 처음 공격한 파일럿과 싸웁니다.** 다른 보스와 같습니다. 승무원 중 가장 튼튼한 함선이 먼저 시작하게 하고, [Shield Surge와 Emergency Repair](/wiki/03-Mechanics/Abilities.md)를 쓰세요.
-- **모을 수 있는 가장 큰 승무원과 x2 탄약을 준비하세요**([레이저](/wiki/06-Items/Lasers.md#laser-ammunition)). 0.4.13 이전에 이기던 승무원(7명쯤)은 이제 집니다. 아래 표는 계산이며 최선의 경우입니다. 그 표에서도 10명은 어떤 워든에게도 지고, 이길 수 있는 가장 작은 승무원은 x2 탄약으로 15~25명, x1 탄약으로 23~38명입니다. 아래의 웨이브는 그 계산에 들어 있지 않습니다. 아래 표는 온전한 힘의 워든 기준입니다. 승무원이 적어도 선체와 실드는 같지만, 워든의 피해와 치료량은 줄고 부르는 외계인도 줄어듭니다([승무원이 워든을 바꾸는 방식](#strength-by-the-crew)).
+- **모을 수 있는 가장 큰 승무원과 x2 탄약을 준비하세요**([레이저](/wiki/06-Items/Lasers.md#laser-ammunition)). 0.4.13 이전에 이기던 승무원(7명쯤)은 이제 집니다. 아래 표는 계산이며 최선의 경우입니다. 그 표에서도 10명은 어떤 워든에게도 지고, 이길 수 있는 가장 작은 승무원은 x2 탄약으로 15~25명, x1 탄약으로 24~37명입니다. 아래의 웨이브는 그 계산에 들어 있지 않습니다. 아래 표는 온전한 힘의 워든 기준입니다. 승무원이 적어도 선체와 실드는 같지만, 워든의 피해와 치료량은 줄고 부르는 외계인도 줄어듭니다([승무원이 워든을 바꾸는 방식](#strength-by-the-crew)).
 - **Brood:** 드론이 선체를 치료하므로, 드론을 무시하는 승무원은 파일럿이 약 3분의 1 더 필요합니다. 드론을 먼저 쏘고 계속 쏘세요. 새 드론이 8초 뒤에 나옵니다(Brood Warden III는 16초 뒤). 0.4.22부터 Brood Warden은 자신을 공격한 파일럿에게 날아가고, 드론도 함께 날아가며 계속 치료합니다.
 - **Siege:** 로켓은 직선으로 날아가며 유도되지 않으므로, 계속 움직이는 함선은 대부분 피합니다. 계속 움직이고 번갈아 표적이 되세요. 0.4.22부터는 더 이상 돌아다니지 않습니다. 처음 공격한 파일럿에게 날아가, 최대 1,000 유닛 거리에서 그에게 Rivet을 쏩니다.
-- **Wrath:** 선체가 절반 아래로 내려가면 한 번의 일제 사격이 1.5배의 위력을 내므로, 전투의 후반이 위험합니다. 전반은 빠르게 깎고, 실드를 유지하고, Emergency Repair는 분노에 대비해 아껴 두세요. 0.4.20부터 가만히 서 있지 않습니다. 처음 공격한 파일럿에게 초당 90 유닛으로 날아가 레이저 사거리(강함에 따라 700, 800, 900 유닛) 안에 들어오면 거기서 쏘기 때문에, 사거리가 더 긴 무기로도 더는 일방적으로 쏠 수 없습니다.
+- **Wrath:** 선체가 3분의 2 아래로 내려가면 한 번의 일제 사격이 1.25배, 3분의 1 아래로 내려가면 1.5배의 위력을 내므로, 전투의 마지막 3분의 1이 위험합니다. 처음 3분의 2는 빠르게 깎고, 실드를 유지하고, Emergency Repair는 분노에 대비해 아껴 두세요. 0.4.20부터 가만히 서 있지 않습니다. 처음 공격한 파일럿에게 초당 90 유닛으로 날아가 레이저 사거리(강함에 따라 700, 800, 900 유닛) 안에 들어오면 거기서 쏘기 때문에, 사거리가 더 긴 무기로도 더는 일방적으로 쏠 수 없습니다.
 - **아홉 모두 자신을 공격한 파일럿에게 날아갑니다(0.4.22).** Brood와 Siege Warden은 0.4.20부터 Wrath Warden이 하던 대로 합니다. 속도는 각자의 것이고(Brood와 Wrath Warden은 초당 90 유닛, Siege Warden은 110), 레이저 사거리(Brood와 Siege Warden은 강함에 따라 600, 700, 800 유닛, Wrath Warden은 700, 800, 900 유닛) 안에 들어올 때까지 날아가므로, 사거리가 더 긴 무기로도 더는 일방적으로 쏠 수 없습니다. 10초 동안 아무도 공격하지 않으면 파일럿을 놓아 주고 있는 자리에 머뭅니다. 소환된 자리로 돌아가지 않습니다. 보호받는 파일럿(안전 구역 안, 또는 리스폰 직후의 보호 중)은 즉시 놓아 줍니다.
 - **워든이 데려오는 것은 워든을 공격한 파일럿에게 향합니다.** 0.4.20부터 웨이브의 모든 외계인과, 워든과 싸우는 동안 나타나는 모든 드론, 호위, 경비는 나타나는 순간 워든을 공격한 파일럿들에게 향합니다. 첫 번째 파일럿이 먼저이며, 자신이 공격받을 필요는 없습니다.
+
+### 세 단계 {#the-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Warden에게도 세 단계가 있습니다([작동 방식](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)). 강도가 달라도 같습니다.
+
+| Warden | 시작 시 | 삼분의 이 아래 | 삼분의 일 아래 |
+| :--- | :--- | :--- | :--- |
+| **Brood Warden** (I, II, III) | 드론 4대 모두가 한꺼번에 곁으로 옵니다. | 드론이 15초 동안 ×1.5의 속도로 회복시켜 줍니다. | 평소 수를 넘어 드론이 2대 더 30초 동안 옵니다. 보상은 없습니다. |
+| **Siege Warden** (I, II, III) | – | 20초 동안 로켓을 ×2의 빈도로 쏩니다. | 선체와 실드의 15%를 회복합니다(피해의 몰아치기로 중단됩니다). |
+| **Wrath Warden** (I, II, III) | – | 레이저의 위력은 ×1.25가 됩니다. | 레이저의 위력은 모두 합쳐 ×1.5가 됩니다(이전 단계 위에 더해지는 것이 아닙니다). |
+
+<!-- mob-ladder:end -->
 
 ### 외계인 웨이브 {#waves-of-aliens}
 
@@ -322,34 +337,34 @@
 | x-3 | Phantasm 5마리 , Bulwark 3마리 , Goombah 2마리 | 30, 그리고 최대 Crystalys 3기 |
 | x-4 | Phantasm 5마리 , Bulwark 3마리 , Goombah 2마리 | 30, 그리고 최대 Crystalys 3기 |
 
-- **Warden I은 Goombah를 부르지 않습니다.** 신병 등급 클랜(평균 레벨 4 미만)의 워든은 Phantasm과 Bulwark만 보내며, Phantasm 세 마리에 Bulwark 한 마리의 비율로, 웨이브 크기는 같습니다. **x-2에서는 Phantasm 4마리와 Bulwark 1마리, x-3과 x-4에서는 Phantasm 8마리와 Bulwark 2마리**입니다. 웨이브 하나는 Alpha에서 x-2는 17,000 크레딧, x-3과 x-4는 34,000 크레딧을 주고, Crystalys를 포함하면 각각 92,000과 109,000을 줍니다. 동시에 살아 있는 최대 수는 표와 같습니다.
+- **Warden I은 Goombah를 부르지 않습니다.** 신병 등급 클랜(평균 레벨 4 미만)의 워든은 Phantasm과 Bulwark만 보내며, Phantasm 세 마리에 Bulwark 한 마리의 비율로, 웨이브 크기는 같습니다. **x-2에서는 Phantasm 4마리와 Bulwark 1마리, x-3과 x-4에서는 Phantasm 8마리와 Bulwark 2마리**입니다. 동시에 살아 있는 최대 수는 표와 같습니다.
 - **살아 있는 웨이브는 최대 3개입니다.** 웨이브는 그 외계인이 한 마리라도 살아 있는 동안 살아 있습니다. 3개가 살아 있을 때 올 차례가 된 웨이브는 나중으로 미뤄지지 않고 건너뜁니다. 다음 웨이브는 1분 뒤입니다.
 - **일반 외계인입니다.** 맵이 만드는 방식 그대로 만들어집니다. 더 강한 월드는 선체, 실드, 피해를 더 크게 줍니다([월드](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)). 워든 자신의 강함과는 상관없습니다. Bulwark와 Goombah는 모든 맵에 오며, 평소에는 둘 다 살지 않는 x-2 섹터에도 옵니다. 워든에게서 500~1,200유닛 떨어진 곳에 주위로 흩어져 나타납니다.
-- **워든전의 일부가 아닙니다.** 아무것도 치료하지 않으며, 쏴도 워든에 대한 내 피해 몫에는 더해지지 않습니다. 맵의 어떤 파일럿이든 처치할 수 있습니다. 각각 그 외계인 본래의 보상을 내 월드 기준으로 지급하고 PvE 포인트도 줍니다. 표의 웨이브 하나는 Alpha에서 x-2(외계인 5마리)는 29,000 크레딧, x-3과 x-4(외계인 10마리)는 60,000 크레딧이고, Warden I의 웨이브는 17,000과 34,000 크레딧이며, 모두 해당 워든 자신이 주는 보상의 2% 미만입니다.
+- **워든전의 일부가 아닙니다.** 아무것도 치료하지 않으며, 쏴도 워든에 대한 내 피해 몫에는 더해지지 않습니다. 맵의 어떤 파일럿이든 처치할 수 있습니다. 각각 그 외계인 본래의 보상을 내 월드 기준으로 지급하고 PvE 포인트도 줍니다. 웨이브 하나의 보상은 모두 해당 워든 자신이 주는 보상의 2% 미만입니다.
 - **워든과 함께 멈춥니다.** 워든이 파괴되거나 물러나면 더 이상 오지 않으며, 이미 나온 외계인은 종류와 상관없이, 싸우고 있든 아니든 **20초 뒤에 맵을 떠납니다**. 그 안에 처치하거나 끌고 가세요(0.5.6까지는 5분 이상 남아 있었고, 나중에 온 파일럿이 마주쳤습니다). 조용히 사라지며 처치로도 보상으로도 치지 않습니다. 서버를 다시 시작해도 워든과 함께 멈춥니다.
 - **클랜에 알려 줍니다.** 각 웨이브는 채팅의 시스템 탭과 게임 로그에, 들어 있는 외계인 종류마다 한 줄씩 알려집니다. 'Brood Warden II이(가) M-3에서 지원군을 불렀습니다: Phantasm 5기.', 'Brood Warden II이(가) M-3에서 지원군을 불렀습니다: Bulwark 3기.', 'Brood Warden II이(가) M-3에서 지원군을 불렀습니다: Goombah 2기.' (Warden I은 Goombah가 없으므로 두 줄로 알립니다)
 - **겨냥한 채로 옵니다(0.4.20).** 웨이브의 외계인은 워든이 누구와 싸우는지 알고 나타납니다. 나타나는 순간부터 워든을 공격한 파일럿들에게 향하고, 첫 번째 파일럿이 먼저이며, 워든이 공격받는 동안 계속 그들을 쫓습니다. 아무도 싸우지 않는 워든은 돌아다니는 외계인을 보냅니다. Phantasm과 Bulwark는 예전처럼 가까이 온 상대에게 끌리고, 스스로 싸움을 시작하지 않는 Goombah는 누군가 쏠 때까지 돌아다닙니다.
 
 #### 모든 워든의 Crystalys {#crystalys-waves}
 
-0.4.22부터 **모든 워든**이 0.4.20부터 Wrath Warden III가 하던 대로 합니다. 선체가 절반 아래로 떨어지면(Wrath Warden이 격노하는 선입니다) **보내는 웨이브마다 Crystalys가 하나 더** 들어갑니다. 웨이브 규모에 더해서입니다. Brood, Siege, Wrath 모두, 세 가지 강함 모두 같습니다. 선체가 절반 위일 때는 웨이브가 Crystalys 없이 오고, 절반 위까지 수리된 워든은 다음 웨이브를 다시 Crystalys 없이 보냅니다.
+0.4.22부터 **모든 워든**이 0.4.20부터 Wrath Warden III가 하던 대로 합니다. 선체가 절반 아래로 떨어지면 **보내는 웨이브마다 Crystalys가 하나 더** 들어갑니다. 웨이브 규모에 더해서입니다. Brood, Siege, Wrath 모두, 세 가지 강함 모두 같습니다. 선체가 절반 위일 때는 웨이브가 Crystalys 없이 오고, 절반 위까지 수리된 워든은 다음 웨이브를 다시 Crystalys 없이 보냅니다.
 
-- **Crystalys**는 게임에서 가장 무거운 일반 외계인입니다. 선체 256,000, 실드 160,000, 900 유닛에서 일제 사격당 피해 10,000, 속도 230입니다(더 강한 월드에서는 선체, 실드, 피해가 더 큽니다). 어느 Crystalys든 주는 보상을 줍니다. **Alpha에서 75,000 크레딧, Thulium 200, XP 12,000, 명예 52**(Beta에서는 2배, Gamma에서는 3배)이며, 일반 전리품을 떨어뜨립니다. 자기 웨이브의 일부입니다. 웨이브는 Crystalys가 살아 있는 동안 살아 있으므로, 남아 있는 Crystalys는 웨이브 하나를 살려 둡니다(최대 3개, Wrath Warden III는 4개). 최대 수가 살아 있을 때 때가 된 웨이브는 건너뜁니다.
+- **Crystalys**는 게임에서 가장 무거운 일반 외계인입니다. 선체 {{guide:vitals.hull@Crystalys#1}}, 실드 {{guide:vitals.shield@Crystalys#1}}, 900 유닛에서 일제 사격당 피해 {{guide:vitals.dps@Crystalys#1}}, 속도 {{guide:vitals.speed@Crystalys#1;Crystalys#2;Crystalys#3;Crystalys#4}}입니다(더 강한 월드에서는 선체, 실드, 피해가 더 큽니다). 어느 Crystalys든 주는 보상을 줍니다. **Alpha에서 {{guide:spoils.pay.credits@Crystalys#1}} 크레딧, Thulium {{guide:spoils.pay.thulium@Crystalys#1}}, XP {{guide:spoils.pay.experience@Crystalys#1}}, 명예 {{guide:spoils.pay.honor@Crystalys#1}}**(Beta에서는 2배, Gamma에서는 3배)이며, 일반 전리품을 떨어뜨립니다. 자기 웨이브의 일부입니다. 웨이브는 Crystalys가 살아 있는 동안 살아 있으므로, 남아 있는 Crystalys는 웨이브 하나를 살려 둡니다(최대 3개, Wrath Warden III는 4개). 최대 수가 살아 있을 때 때가 된 웨이브는 건너뜁니다.
 - **한 줄을 따로 알려 줍니다**: 혼합의 줄들 뒤에, 'Wrath Warden III이(가) M-3에서 지원군을 불렀습니다: Phantasm 7기.', '…: Bulwark 4기.', '…: Goombah 4기.', 'Wrath Warden III이(가) M-3에서 지원군을 불렀습니다: Crystalys 1기.'
-- **보상.** 10기의 외계인으로 이루어진 웨이브 하나는 Alpha에서 Warden I은 34,000 크레딧, Warden II는 60,000 크레딧을 주고, Crystalys를 포함하면 각각 109,000과 135,000을 줍니다. Warden I이 주는 2,700,000의 약 4%이고 Warden II가 주는 3,600,000의 4% 미만이며, Warden III는 그보다 더 적습니다.
-- **승무원에게 요구하는 것.** [승무원은 몇 명이 필요한가](#how-big-a-crew)의 계산에 웨이브와 그 Crystalys를 넣으면, x2 탄약으로 워든 자신의 등급 장비를 갖춘 가장 작은 승무원은 Alpha에서 아래와 같습니다. 레벨 3 클랜은 50명, 레벨 5 클랜은 100명을 받습니다. 0.5.0부터는 혼합의 Bulwark와 Goombah 때문에 웨이브가 더 어려워졌지만, Warden I은 Goombah를 부르지 않으므로 레벨 3 클랜은 모든 맵에서 모든 워든을 상대할 파일럿을 충분히 받습니다. 거기 있는 표처럼 계산한 값이지 측정한 값이 아니며, 최선의 경우입니다. 웨이브의 외계인이 두 배 강한 Gamma에서는 더 커지고, x-3과 x-4에서는 레벨 3 클랜이 일부 워든에게는 인원이 모자랍니다.
+- **보상.** 10기의 외계인으로 이루어진 웨이브 하나는 Crystalys를 포함해 Warden I이 주는 보상의 약 4%, Warden II가 주는 보상의 4% 미만을 주며, Warden III는 그보다 더 적습니다.
+- **승무원에게 요구하는 것.** [승무원은 몇 명이 필요한가](#how-big-a-crew)의 계산에 웨이브와 그 Crystalys를 넣으면, x2 탄약으로 워든 자신의 등급 장비를 갖춘 가장 작은 승무원은 Alpha에서 아래와 같습니다. 레벨 3 클랜은 50명, 레벨 4 클랜은 75명, 레벨 5 클랜은 100명을 받습니다. 0.5.0부터는 혼합의 Bulwark와 Goombah 때문에 웨이브가 더 어려워졌고, Warden I은 Goombah를 부르지 않지만 Brood Warden I(57명)과 Siege Warden I(52명)은 x-3과 x-4에서 레벨 3 클랜이 받는 인원보다 더 많이 요구합니다. 다른 워든은 모두 모든 맵에서 레벨 3 클랜에 들어가고, 레벨 4 클랜은 모든 워든을 상대할 파일럿을 충분히 받습니다. 거기 있는 표처럼 계산한 값이지 측정한 값이 아니며, 최선의 경우입니다. 웨이브의 외계인이 두 배 강한 Gamma에서는 더 커지고, 모든 맵에서 레벨 3 클랜이 일부 워든에게는 인원이 모자랍니다.
 
 | 워든 | x-2 | x-3 | x-4 |
 | :--- | ---: | ---: | ---: |
-| Brood Warden I | 41 | 44 | 44 |
-| Siege Warden I | 37 | 40 | 40 |
-| Wrath Warden I | 42 | 45 | 45 |
-| Brood Warden II | 39 | 44 | 44 |
-| Siege Warden II | 31 | 35 | 35 |
-| Wrath Warden II | 35 | 40 | 40 |
-| Brood Warden III | 21 | 22 | 22 |
-| Siege Warden III | 26 | 27 | 27 |
-| Wrath Warden III | 34 | 39 | 39 |
+| Brood Warden I | 41 | 57 | 57 |
+| Siege Warden I | 46 | 52 | 52 |
+| Wrath Warden I | 42 | 44 | 44 |
+| Brood Warden II | 38 | 43 | 43 |
+| Siege Warden II | 33 | 40 | 40 |
+| Wrath Warden II | 35 | 39 | 39 |
+| Brood Warden III | 21 | 23 | 23 |
+| Siege Warden III | 26 | 28 | 28 |
+| Wrath Warden III | 34 | 38 | 38 |
 
 #### Wrath Warden III의 웨이브 {#wrath-iii-waves}
 
@@ -362,30 +377,30 @@
 | x-4 | Phantasm 7마리 , Bulwark 4마리 , Goombah 4마리 | 60, 그리고 최대 Crystalys 4기 |
 
 - **살아 있는 웨이브는 최대 4개입니다.** 4개가 살아 있을 때 때가 된 웨이브는 다른 워든과 마찬가지로 건너뜁니다.
-- **보상.** 15기의 외계인으로 이루어진 웨이브 하나는 Alpha에서 101,000 크레딧을, Crystalys를 포함하면 176,000을 줍니다. 워든 자신이 주는 7,200,000의 약 2%입니다.
-- **승무원에게 요구하는 것.** [승무원은 몇 명이 필요한가](#how-big-a-crew)의 계산에 이 웨이브와 Crystalys를 넣으면, x2 탄약으로 **x-2는 34명, x-3은 39명, x-4는 39명**(웨이브 없이는 25명)이고, 웨이브의 외계인이 두 배 강한 Gamma에서는 45명, 51명, 51명입니다. 레벨 3 클랜은 50명을 받으므로, Gamma의 x-3과 x-4에서는 충분히 보낼 수 없습니다. 레벨 5 클랜은 100명을 받습니다. 거기 있는 표처럼 계산한 값이지 측정한 값이 아니며, 최선의 경우입니다.
+- **보상.** 15기의 외계인으로 이루어진 웨이브 하나는 Crystalys를 포함해 워든 자신이 주는 보상의 약 2%를 줍니다.
+- **승무원에게 요구하는 것.** [승무원은 몇 명이 필요한가](#how-big-a-crew)의 계산에 이 웨이브와 Crystalys를 넣으면, x2 탄약으로 **x-2는 34명, x-3은 38명, x-4는 38명**(웨이브 없이는 25명)이고, 웨이브의 외계인이 두 배 강한 Gamma에서는 44명, 50명, 50명입니다. 레벨 3 클랜은 50명을 받으므로 Gamma를 포함해 모든 맵에서 충분하지만, x-3과 x-4에서는 겨우 충분합니다. 레벨 5 클랜은 100명을 받습니다. 거기 있는 표처럼 계산한 값이지 측정한 값이 아니며, 최선의 경우입니다.
 
 ### 승무원이 워든을 바꾸는 방식 {#strength-by-the-crew}
 
 0.5.7부터 워든은 **전투 태세에 들어갈 때 그 자리에 있는 승무원에 맞춰 싸웁니다**. 90초의 예열이 끝나면 게임은 **워든이 있는 맵에서 안전 지대 밖을 날고 있는** 내 클랜의 파일럿을 셉니다. 다른 클랜의 파일럿, 안전 지대 안의 파일럿, 다른 맵의 파일럿은 세지 않습니다. 워든은 그 인원수에 대해 표가 정한 힘의 비율로 **전투 내내** 싸웁니다. 나중에 온 파일럿은 아무것도 바꾸지 못하므로 예열 동안 모이세요. **선체와 실드는 절대 줄지 않습니다**(0.5.10부터). 승무원이 몇 명이든 워든과 부하는 아래 표에 적힌 온전한 선체와 실드를 가지며, 3명이어도 전원이 모인 클랜과 같은 것을 상대합니다. 나머지는 함께 줄어듭니다. 워든과 부하의 레이저 피해, 실드 재충전, 치료량, Siege Warden의 로켓, 그리고 [웨이브](#waves-of-aliens)마다 오는 외계인의 수입니다. Crystalys도 포함되며 힘이 절반 이상일 때만 나옵니다. 보상, 전리품, 모든 시간은 그대로입니다.
 
-표의 계수는 0.5.7에서 [승무원은 몇 명이 필요한가](#how-big-a-crew)와 같은 싸움으로, 워든 자신의 등급에 맞는 승무원을 기준으로, 선체와 실드도 함께 줄어드는 조건에서 계산했습니다. 5명이 있는 클랜은 계산상 5분의 1 적은 인원이 이기는 워든과 싸웠습니다. 계산은 최선의 경우이고 실제 싸움은 더 어렵기 때문입니다. 선체와 실드가 온전하므로 적은 승무원은 그 계산이 예상한 것보다 쓰러뜨릴 것이 많습니다. 가능한 한 많은 파일럿을 데려오세요. **5명**인 클랜은 피해, 치료량, 웨이브가 전체의 **12 23%**인 워든과, **8명**인 클랜은 **16 29%**인 워든과 싸우며, 전체 수치는 워든에 따라 **28 72명**부터입니다. 그 사이에서는 표의 한 단계에서 다음 단계까지 직선으로 오르고, 3명 미만은 3명과 같은 워든과 싸웁니다. 워든이 전투 태세에 들어가면 클랜은 채팅에서 한 줄을 읽습니다. “참여 인원: 5. Brood Warden II은(는) 선체와 실드가 온전합니다. 피해, 치료량, 지원군은 16%입니다.”
+표의 계수는 0.5.7에서 [승무원은 몇 명이 필요한가](#how-big-a-crew)와 같은 싸움으로, 워든 자신의 등급에 맞는 승무원을 기준으로, 선체와 실드도 함께 줄어드는 조건에서 계산했습니다. 5명이 있는 클랜은 계산상 5분의 1 적은 인원이 이기는 워든과 싸웠습니다. 계산은 최선의 경우이고 실제 싸움은 더 어렵기 때문입니다. 선체와 실드가 온전하므로 적은 승무원은 그 계산이 예상한 것보다 쓰러뜨릴 것이 많습니다. 가능한 한 많은 파일럿을 데려오세요. **5명**인 클랜은 피해, 치료량, 웨이브가 전체의 **12 23%**인 워든과, **8명**인 클랜은 **17 29%**인 워든과 싸우며, 전체 수치는 워든에 따라 **29 72명**부터입니다. 그 사이에서는 표의 한 단계에서 다음 단계까지 직선으로 오르고, 3명 미만은 3명과 같은 워든과 싸웁니다. 워든이 전투 태세에 들어가면 클랜은 채팅에서 한 줄을 읽습니다. “참여 인원: 5. Brood Warden II은(는) 선체와 실드가 온전합니다. 피해, 치료량, 지원군은 16%입니다.” 0.5.12부터 계수는 전투에서 워든이 선체 3분의 2와 3분의 1에서 하는 새 행동을 넣어 다시 계산했으므로 조금 달라졌고, Siege Warden이 가장 많이 달라졌습니다.
 
 ### 승무원은 몇 명이 필요한가 {#how-big-a-crew}
 
 > [!NOTE]
 > 0.4.13부터 모든 워든과 모든 부하는 선체, 실드, 레이저 피해, 자가 수리, 치료가 0.4.12의 **다섯 배**입니다(속도, 사거리, 부하의 수는 그대로입니다). 0.4.16부터 Brood Warden III는 그 선체와 실드가 절반이고 드론의 치료도 절반입니다. 쓰러뜨리는 데 다섯 배의 시간이 걸리고 그동안 내내 다섯 배 강하게 공격하므로, 예전에 이기던 승무원은 이제 집니다. **새 워든과는 아직 게임에서 싸워 보지 않았으며, 아래 시간은 측정이 아니라 계산한 것입니다.** 이것은 승무원의 **최선의 경우**입니다. 승무원은 등급에 맞는 함선과 장비를 갖추고, 모든 파일럿이 Shield Surge와 Emergency Repair를 준비되는 즉시 쓰며, 그편이 낫다면 승무원이 워든의 부하를 먼저 쏘고, 워든과 부하는 모두 처음 공격한 파일럿을 쏘고, 아무도 회피하지 않습니다. 0.4.12에서는 같은 계산이 게임 안에서 스크립트로 움직이는 파일럿으로 치른 전투보다 낙관적이었습니다. 그래서 실제 전투는 표보다 어려울 수 있고, 실력 좋은 승무원은 더 잘할 수도 있습니다. 약속이 아니라 길잡이로 보세요. **외계인 웨이브는 계산에 들어 있지 않으므로** 실제 전투는 표보다 어렵습니다.
 
-표는 최선의 경우입니다. 실제로는 데려올 수 있는 만큼 모두 데려오세요.
+표는 최선의 경우입니다. 실제로는 데려올 수 있는 만큼 모두 데려오세요. 0.5.12부터 계산에는 워든이 선체 3분의 2와 3분의 1에서 하는 새 행동도 들어 있습니다.
 
 | 승무원 | x2 탄약 | x1 탄약 |
 | :--- | :--- | :--- |
-| 5명 | 모든 워든에게 짐. 워든이 선체와 실드의 84~96%를 유지함 | 짐 |
-| 10명 | 모든 워든에게 짐. 워든이 선체와 실드의 55~84%를 유지함 | 짐 |
-| 20명 | Siege Warden I과 II에게는 6.2~6.4분에 이기고 4~5척을 잃으며, Brood Warden III에게는 3.5분에 이기고 8척을 잃음 | 짐 |
-| 30명 | 모든 워든에게 1.9~4.9분에 이기고, 2~10척을 잃음 | Siege Warden I과 II에게는 8.8~9.2분에 이기고 6~8척을 잃으며, Brood Warden III에게는 4.8분에 이기고 11척을 잃음 |
+| 5명 | 모든 워든에게 짐 | 짐 |
+| 10명 | 모든 워든에게 짐 | 짐 |
+| 20명 | Siege Warden I과 II에게는 7.1~7.4분에 이기고 4~6척을 잃으며, Brood Warden III에게는 3.5분에 이기고 8척을 잃으며, Wrath Warden II에게는 10.1분에 이기고 14척을 잃음 | 짐 |
+| 30명 | 모든 워든에게 2.0~4.7분에 이기고, 2~10척을 잃음 | Siege Warden I과 II에게는 10.1~10.6분에 이기고 6~9척을 잃으며, Brood Warden III에게는 4.8분에 이기고 11척을 잃음 |
 
-계산에서 x2 탄약으로 이기는 가장 작은 승무원은 **15~25명**(Siege Warden I과 II에게 가장 적음)이며 그러는 동안 **7~18**척을 잃습니다. x1 탄약으로는 **23~38명**이고 11~25척을 잃습니다. 워든의 레이저는 강함 I에서 일제 사격마다 수백(240~645), 강함 III에서 수천(9,225~15,450)의 피해를 주고, 부하의 사격이 더해집니다. 워든이 싸우는 함선은 18~70초 안에 쓰러지고, 그다음 함선으로 넘어가므로 이기는 승무원도 많은 함선을 잃습니다.
+계산에서 x2 탄약으로 이기는 가장 작은 승무원은 **15~25명**(Siege Warden II에게 가장 적음)이며 그러는 동안 **10~16**척을 잃습니다. x1 탄약으로는 **24~37명**이고 12~24척을 잃습니다. 워든의 레이저는 강함 I에서 일제 사격마다 수백, 강함 III에서 수천의 피해를 주고, 부하의 사격이 더해집니다. 워든이 싸우는 함선은 18~70초 안에 쓰러지고, 그다음 함선으로 넘어가므로 이기는 승무원도 많은 함선을 잃습니다.
 
 표는 워든과 같은 등급의 장비를 갖춘 승무원 기준입니다. 더 약한 함선은 더 나쁩니다. **우리** 클랜의 워든은 항상 **우리** 등급에 맞으며, 그 등급은 클랜의 상위 파일럿 5명이 정하므로 그들을 데려오세요.
 
@@ -393,31 +408,31 @@
 
 ### 워든 수치 {#warden-numbers}
 
-워든의 수치는 모든 월드에서 같고(Alpha의 수치), 보상도 같습니다. 드론, 호위, 경비병은 두 번째 표의 수치를 가지며 워든 곁에 있습니다. Brood Drone은 워든의 선체를 치료하고, Siege Escort와 Wrath Guard는 레이저를 쏩니다. 일제 사격은 함선의 모든 레이저가 1초 동안 쏘는 사격이며, 표에 적힌 수치의 80~100% 사이에서 무작위로 정해집니다. 선체가 절반 아래로 떨어진 Wrath Warden은 1.5배 강하게 공격합니다. 워든과 부하는 모두 워든이 싸우는 파일럿을 쏘므로 사격이 합쳐집니다. Brood Warden III와 드론 4기는 한 척에 초당 최대 21,750을 퍼붓습니다. Siege Warden의 [Rivet 로켓](/wiki/06-Items/Rockets.md#the-twelve-rockets)은 수치가 무작위로 정해지지 않습니다. 강함 I에서는 최대 **2,500**, 강함 II에서는 **5,000**, 강함 III에서는 **7,500**의 피해를 주며, 파일럿의 Rivet은 최솟값과 최댓값 사이에서 무작위로 정해집니다. 로켓은 직선으로 날아가므로 계속 움직이는 함선은 맞지 않습니다.
+워든의 수치는 모든 월드에서 같고(Alpha의 수치), 보상도 같습니다. 드론, 호위, 경비병은 두 번째 표의 수치를 가지며 워든 곁에 있습니다. Brood Drone은 워든의 선체를 치료하고, Siege Escort와 Wrath Guard는 레이저를 쏩니다. 일제 사격은 함선의 모든 레이저가 1초 동안 쏘는 사격이며, 표에 적힌 수치의 80~100% 사이에서 무작위로 정해집니다. Wrath Warden은 선체가 3분의 2 아래로 떨어지면 1.25배, 3분의 1 아래로 떨어지면 1.5배 강하게 공격합니다. 워든과 부하는 모두 워든이 싸우는 파일럿을 쏘므로 사격이 합쳐집니다. Siege Warden의 [Rivet 로켓](/wiki/06-Items/Rockets.md#the-twelve-rockets)은 수치가 무작위로 정해지지 않습니다. 강함 I에서는 최대 **{{guide:behaviour.ability:rocket.damage@Siege Warden I}}**, 강함 II에서는 **{{guide:behaviour.ability:rocket.damage@Siege Warden II}}**, 강함 III에서는 **{{guide:behaviour.ability:rocket.damage@Siege Warden III}}**의 피해를 주며, 파일럿의 Rivet은 최솟값과 최댓값 사이에서 무작위로 정해집니다. 로켓은 직선으로 날아가므로 계속 움직이는 함선은 맞지 않습니다.
 
 | 워든 | 선체 | 실드 | 레이저 피해량(초당 일제 사격 1회) | 속도 | 레이저 사거리 | 스스로 수리(초당 선체) | 로켓과 발사 간격(초) |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | :--- |
-| Brood Warden I | 830,000 | 680,000 | 645 | 90 | 600 | – | – |
-| Brood Warden II | 1,440,000 | 1,180,000 | 3,885 | 90 | 700 | – | – |
-| Brood Warden III | 2,650,000 | 2,175,000 | 15,450 | 90 | 800 | – | – |
-| Siege Warden I | 715,000 | 585,000 | 240 | 110 | 600 | 1,075 | Warden Rivet I: 24 |
-| Siege Warden II | 1,240,000 | 1,015,000 | 1,455 | 110 | 700 | 1,875 | Warden Rivet II: 12 |
-| Siege Warden III | 4,575,000 | 3,725,000 | 9,225 | 110 | 800 | 6,925 | Warden Rivet III: 8 |
-| Wrath Warden I | 815,000 | 665,000 | 480 | 90 | 700 | 1,075 | – |
-| Wrath Warden II | 1,410,000 | 1,155,000 | 2,910 | 90 | 800 | 1,875 | – |
-| Wrath Warden III | 5,200,000 | 4,250,000 | 12,300 | 90 | 900 | 6,925 | – |
+| Brood Warden I | {{guide:vitals.hull@Brood Warden I}} | {{guide:vitals.shield@Brood Warden I}} | {{guide:vitals.dps@Brood Warden I}} | {{guide:vitals.speed@Brood Warden I}} | 600 | – | – |
+| Brood Warden II | {{guide:vitals.hull@Brood Warden II}} | {{guide:vitals.shield@Brood Warden II}} | {{guide:vitals.dps@Brood Warden II}} | {{guide:vitals.speed@Brood Warden II}} | 700 | – | – |
+| Brood Warden III | {{guide:vitals.hull@Brood Warden III}} | {{guide:vitals.shield@Brood Warden III}} | {{guide:vitals.dps@Brood Warden III}} | {{guide:vitals.speed@Brood Warden III}} | 800 | – | – |
+| Siege Warden I | {{guide:vitals.hull@Siege Warden I}} | {{guide:vitals.shield@Siege Warden I}} | {{guide:vitals.dps@Siege Warden I}} | {{guide:vitals.speed@Siege Warden I}} | 600 | 1,075 | Warden Rivet I: 24 |
+| Siege Warden II | {{guide:vitals.hull@Siege Warden II}} | {{guide:vitals.shield@Siege Warden II}} | {{guide:vitals.dps@Siege Warden II}} | {{guide:vitals.speed@Siege Warden II}} | 700 | 1,875 | Warden Rivet II: 12 |
+| Siege Warden III | {{guide:vitals.hull@Siege Warden III}} | {{guide:vitals.shield@Siege Warden III}} | {{guide:vitals.dps@Siege Warden III}} | {{guide:vitals.speed@Siege Warden III}} | 800 | 6,925 | Warden Rivet III: 8 |
+| Wrath Warden I | {{guide:vitals.hull@Wrath Warden I}} | {{guide:vitals.shield@Wrath Warden I}} | {{guide:vitals.dps@Wrath Warden I}} | {{guide:vitals.speed@Wrath Warden I}} | 700 | 1,075 | – |
+| Wrath Warden II | {{guide:vitals.hull@Wrath Warden II}} | {{guide:vitals.shield@Wrath Warden II}} | {{guide:vitals.dps@Wrath Warden II}} | {{guide:vitals.speed@Wrath Warden II}} | 800 | 1,875 | – |
+| Wrath Warden III | {{guide:vitals.hull@Wrath Warden III}} | {{guide:vitals.shield@Wrath Warden III}} | {{guide:vitals.dps@Wrath Warden III}} | {{guide:vitals.speed@Wrath Warden III}} | 900 | 6,925 | – |
 
 | 부하 | 수 | 선체 | 실드 | 레이저 피해량(초당 일제 사격 1회) | 속도 | 워든 치료(초당 선체) |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| Brood Drone I | 4 | 3,500 | 2,500 | 60 | 170 | 600 |
-| Brood Drone II | 4 | 6,000 | 4,500 | 390 | 170 | 1,050 |
-| Brood Drone III | 4 | 20,000 | 17,500 | 1,575 | 170 | 1,925 |
-| Siege Escort I | 2 | 21,500 | 17,500 | 30 | 175 | – |
-| Siege Escort II | 2 | 37,000 | 30,500 | 225 | 175 | – |
-| Siege Escort III | 2 | 137,500 | 112,500 | 1,425 | 175 | – |
-| Wrath Guard I | 2 | 24,500 | 20,000 | 90 | 180 | – |
-| Wrath Guard II | 2 | 42,500 | 34,500 | 585 | 180 | – |
-| Wrath Guard III | 2 | 155,000 | 127,500 | 2,475 | 180 | – |
+| Brood Drone I | 4 | {{guide:vitals.hull@Brood Drone I}} | {{guide:vitals.shield@Brood Drone I}} | {{guide:vitals.dps@Brood Drone I}} | {{guide:vitals.speed@Brood Drone I}} | 600 |
+| Brood Drone II | 4 | {{guide:vitals.hull@Brood Drone II}} | {{guide:vitals.shield@Brood Drone II}} | {{guide:vitals.dps@Brood Drone II}} | {{guide:vitals.speed@Brood Drone II}} | 1,050 |
+| Brood Drone III | 4 | {{guide:vitals.hull@Brood Drone III}} | {{guide:vitals.shield@Brood Drone III}} | {{guide:vitals.dps@Brood Drone III}} | {{guide:vitals.speed@Brood Drone III}} | 1,925 |
+| Siege Escort I | 2 | {{guide:vitals.hull@Siege Escort I}} | {{guide:vitals.shield@Siege Escort I}} | {{guide:vitals.dps@Siege Escort I}} | {{guide:vitals.speed@Siege Escort I}} | – |
+| Siege Escort II | 2 | {{guide:vitals.hull@Siege Escort II}} | {{guide:vitals.shield@Siege Escort II}} | {{guide:vitals.dps@Siege Escort II}} | {{guide:vitals.speed@Siege Escort II}} | – |
+| Siege Escort III | 2 | {{guide:vitals.hull@Siege Escort III}} | {{guide:vitals.shield@Siege Escort III}} | {{guide:vitals.dps@Siege Escort III}} | {{guide:vitals.speed@Siege Escort III}} | – |
+| Wrath Guard I | 2 | {{guide:vitals.hull@Wrath Guard I}} | {{guide:vitals.shield@Wrath Guard I}} | {{guide:vitals.dps@Wrath Guard I}} | {{guide:vitals.speed@Wrath Guard I}} | – |
+| Wrath Guard II | 2 | {{guide:vitals.hull@Wrath Guard II}} | {{guide:vitals.shield@Wrath Guard II}} | {{guide:vitals.dps@Wrath Guard II}} | {{guide:vitals.speed@Wrath Guard II}} | – |
+| Wrath Guard III | 2 | {{guide:vitals.hull@Wrath Guard III}} | {{guide:vitals.shield@Wrath Guard III}} | {{guide:vitals.dps@Wrath Guard III}} | {{guide:vitals.speed@Wrath Guard III}} | – |
 
 ### 보상과 전리품 {#warden-pay-and-loot}
 
@@ -425,31 +440,17 @@
 
 | 워든의 강함 | 크레딧 | Thulium | 경험치(XP) | 명예 |
 | :--- | ---: | ---: | ---: | ---: |
-| I | 2,700,000 | 10,800 | 270,000 | 5,400 |
-| II | 3,600,000 | 18,000 | 576,000 | 7,200 |
-| III | 7,200,000 | 36,000 | 1,440,000 | 11,520 |
+| I | {{guide:spoils.pay.credits@Brood Warden I;Siege Warden I;Wrath Warden I}} | {{guide:spoils.pay.thulium@Brood Warden I;Siege Warden I;Wrath Warden I}} | {{guide:spoils.pay.experience@Brood Warden I;Siege Warden I;Wrath Warden I}} | {{guide:spoils.pay.honor@Brood Warden I;Siege Warden I;Wrath Warden I}} |
+| II | {{guide:spoils.pay.credits@Brood Warden II;Siege Warden II;Wrath Warden II}} | {{guide:spoils.pay.thulium@Brood Warden II;Siege Warden II;Wrath Warden II}} | {{guide:spoils.pay.experience@Brood Warden II;Siege Warden II;Wrath Warden II}} | {{guide:spoils.pay.honor@Brood Warden II;Siege Warden II;Wrath Warden II}} |
+| III | {{guide:spoils.pay.credits@Brood Warden III;Siege Warden III;Wrath Warden III}} | {{guide:spoils.pay.thulium@Brood Warden III;Siege Warden III;Wrath Warden III}} | {{guide:spoils.pay.experience@Brood Warden III;Siege Warden III;Wrath Warden III}} | {{guide:spoils.pay.honor@Brood Warden III;Siege Warden III;Wrath Warden III}} |
 
 **보상을 받는 파일럿은 모두 잔해 자리에 자기만의 상자를 받습니다**. 안에는 전리품 중 자기 몫이 들어 있습니다. 표에는 처치 전체가 추첨하는 양이 적혀 있으며, 피해의 20%를 준 파일럿은 각 양의 약 5분의 1을 추첨합니다. 몫은 무작위로 반올림되므로 평균은 정확하고, 작은 몫도 가끔 희귀한 줄을 얻습니다. **내 상자는 나만 볼 수 있고 나만 가져갈 수 있습니다**. 클랜도 그룹도 못 봅니다. 상자는 **10분** 동안 남아 있으며 30초 대기가 없습니다([개인 상자](/wiki/03-Mechanics/Cargo.md#private-boxes)). [그룹](/wiki/03-Mechanics/Groups.md#sharing-kills)에서는 그룹원이 5% 계산에서 한 명의 파일럿으로 취급되고, 그 몫은 그룹에서 일반 처치를 나누는 것과 같게(가까이서 사격 중인 그룹원끼리 레벨에 따라) 나뉩니다. 몫을 받은 그룹원은 그 몫만큼의 개인 상자를 받습니다. 게임 로그에 내 몫이 표시됩니다. 피해가 5% 미만인 파일럿은 보상을 받지 못하고 상자도 놓이지 않으며, 게임 로그가 그렇게 알려 줍니다. 괄호 안의 확률은 표시된 횟수 각각에 적용됩니다. (5 × 50%)는 각각 50% 확률의 5번 추첨입니다. 처치의 전리품은 한 번만 굴려져 보상을 받는 파일럿들 사이에서 나뉘므로, 같은 아이템이 두 상자에 들어가는 일은 없습니다. 똑같이 나눌 수 없는 아이템(희귀한 부품 하나)은 몫에 비례한 추첨으로 한 파일럿에게만 갑니다.
 
 | 워든 | 아이템 | I | II | III |
 | :--- | :--- | :---: | :---: | :---: |
-| Brood Warden | Ship Fragment | 30–50 | 80–120 | 150–250 |
-| Brood Warden | Advanced Plasma | 6,000–12,000 | 18,000–36,000 | – |
-| Brood Warden | Daraxium | 10–20 (5 × 50%) | – | – |
-| Brood Warden | Nyxite | – | 20–40 (5 × 50%) | – |
-| Brood Warden | Ultra Core | – | – | 18,000–30,000 |
-| Brood Warden | Quorvium | – | – | 50–100 (60%) |
-| Siege Warden | Ship Fragment | 20–40 | 60–100 | 120–200 |
-| Siege Warden | Siphon Battery | 6,000–12,000 | 18,000–30,000 | 48,000–72,000 |
-| Siege Warden | 크레딧으로 사는 로켓(1종, 무작위) | 20–30 | 50–80 | 80–120 |
-| Siege Warden | Reinforced Hull Plate | – | 10 (30%) | – |
-| Siege Warden | 에픽 로켓(1종, 무작위) | – | – | 10–20 (50%) |
-| Wrath Warden | Ship Fragment | 40–60 | 80–120 | – |
-| Wrath Warden | Cataclysite | 30–50 | 50–100 | – |
-| Wrath Warden | Reinforced Hull Plate | 10 (25%) | 10 (50%) | 10–20 (70%) |
-| Wrath Warden | Power Core | – | 10 (15%) | 10 (35%) |
-| Wrath Warden | Quorvium | – | – | 50–100 (70%) |
-| Wrath Warden | Ancient Control Unit | – | – | 10 (8%) |
+| Brood Warden | – | {{guide:spoils.box@Brood Warden I}} | {{guide:spoils.box@Brood Warden II}} | {{guide:spoils.box@Brood Warden III}} |
+| Siege Warden | – | {{guide:spoils.box@Siege Warden I}} | {{guide:spoils.box@Siege Warden II}} | {{guide:spoils.box@Siege Warden III}} |
+| Wrath Warden | – | {{guide:spoils.box@Wrath Warden I}} | {{guide:spoils.box@Wrath Warden II}} | {{guide:spoils.box@Wrath Warden III}} |
 
 0.4.16부터 레이저 탄약 줄(Advanced Plasma, Ultra Core, Siphon Battery)은 이전의 세 배입니다. 나머지 줄은 그대로입니다.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6fe66f282236a0de -->
+<!-- wiki-i18n source: b4ceac9f501a1ec2 -->
 <!-- wiki-i18n title: Portes solo -->
 # Portes solo {#solo-gates}
 
@@ -136,33 +136,40 @@ Certaines vagues amènent un **essaim** : un boss PNJ du jeu (un Boss Seeker, B
 
 Un boss est le vaisseau d’un alien agrandi, avec une coque, un bouclier et une salve à lui, qu’aucun réglage de la porte ni du monde ne change. Une phase commence quand la coque du boss tombe au chiffre du tableau : son bouclier peut être refixé, sa salve ou tous ses dégâts changent, et il peut lancer une attaque. Chaque attaque est annoncée : un cercle, un anneau ou une marque sur votre vaisseau la montre un instant avant qu’elle ne frappe. Les aliens qu’un boss appelle ne paient ni ne lâchent rien.
 
-**Evil Davidski**, le boss de Davidski's Nightmare, pilote l’Ironclad de Davidski lui-même, dans un or plus sombre. Il tire des Dormant Lance, des roquettes guidées qui vous suivent sur une longue distance, et se bat avec des météores, un anneau et des vaisseaux Evil qu’il appelle. À mi-coque, il devient **DAVIDSKI FURIEUX** : son thème se joue, il frappe plus fort, et un **vaisseau doré de chaque vaisseau du jeu** apparaît autour de lui. Tant qu’un des vaisseaux dorés est en vie, il est invulnérable : vos lasers et vos roquettes ne peuvent pas le verrouiller et rien de ce que vous faites n’atteint sa coque ni son bouclier, donc vous vous frayez d’abord un chemin à travers eux. Quand le dernier tombe, la protection disparaît pour de bon. Il se moque de vous depuis sa propre fenêtre au début de chaque vague. Le tuer compte comme une élimination de Davidski pour les missions qui en demandent une, dans une porte comme dans les secteurs dangereux. Un jeu qui n’est pas à jour n’affiche pas la porte.
+**Evil Davidski**, le boss de Davidski's Nightmare, pilote l’Ironclad de Davidski lui-même, dans un or plus sombre. Il tire des Dormant Lance, des roquettes guidées qui vous suivent sur une longue distance, et se bat avec des météores, un anneau et des vaisseaux Evil qu’il appelle. Au tiers de sa coque, il devient **DAVIDSKI FURIEUX** : son thème se joue, il frappe plus fort, et un **vaisseau doré de chaque vaisseau du jeu** apparaît autour de lui. Tant qu’un des vaisseaux dorés est en vie, il est invulnérable : vos lasers et vos roquettes ne peuvent pas le verrouiller et rien de ce que vous faites n’atteint sa coque ni son bouclier, donc vous vous frayez d’abord un chemin à travers eux. Quand le dernier tombe, la protection disparaît pour de bon. Il se moque de vous depuis sa propre fenêtre au début de chaque vague. Le tuer compte comme une élimination de Davidski pour les missions qui en demandent une, dans une porte comme dans les secteurs dangereux. Un jeu qui n’est pas à jour n’affiche pas la porte.
 
 <!-- solo-bosses:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
 
 | Boss | Porte | Coque | Bouclier | Salve laser |
 | :--- | :--- | ---: | ---: | ---: |
-| **Enhanced Phantasm** | Alpha Rift | 330 000 | 530 000 | 5 700–7 000 |
-| **Enhanced Bulwark** | Beta Breach | 690 000 | 170 000 | 4 500–5 500 |
-| **Elite Crystalys** | Gamma Foundry | 620 000 | 250 000 | 3 800–4 700 |
-| **Siege Construct** | Delta Siege | 1 150 000 | 1 730 000 | 3 400–4 200 |
-| **Omega Guardian** | Omega Vault | 1 340 000 | 840 000 | 2 600–3 200 |
-| **Evil Davidski** | Davidski's Nightmare | 5 500 000 | 6 600 000 | 7 800–9 600 |
+| **Enhanced Phantasm** | Alpha Rift | {{guide:vitals.hull@Enhanced Phantasm}} | {{guide:vitals.shield@Enhanced Phantasm}} | {{guide:vitals.dps*0.9007633587786259~1.099236641221374@Enhanced Phantasm}} |
+| **Enhanced Bulwark** | Beta Breach | {{guide:vitals.hull@Enhanced Bulwark}} | {{guide:vitals.shield@Enhanced Bulwark}} | {{guide:vitals.dps*0.9019607843137255~1.0980392156862746@Enhanced Bulwark}} |
+| **Elite Crystalys** | Gamma Foundry | {{guide:vitals.hull@Elite Crystalys}} | {{guide:vitals.shield@Elite Crystalys}} | {{guide:vitals.dps*0.896551724137931~1.103448275862069@Elite Crystalys}} |
+| **Siege Construct** | Delta Siege | {{guide:vitals.hull@Siege Construct}} | {{guide:vitals.shield@Siege Construct}} | {{guide:vitals.dps*0.8974358974358975~1.1025641025641026@Siege Construct}} |
+| **Omega Guardian** | Omega Vault | {{guide:vitals.hull@Omega Guardian}} | {{guide:vitals.shield@Omega Guardian}} | {{guide:vitals.dps*0.896551724137931~1.103448275862069@Omega Guardian}} |
+| **Evil Davidski** | Davidski's Nightmare | {{guide:vitals.hull@Evil Davidski}} | {{guide:vitals.shield@Evil Davidski}} | {{guide:vitals.dps*0.896551724137931~1.103448275862069@Evil Davidski}} |
 
 | Boss | Phase | Coque restante | Ce qu’il fait |
 | :--- | :--- | :--- | :--- |
-| **Enhanced Phantasm** | Enhanced Phantasm | 100 % à 0 % | Il ne fait que tirer. |
-| **Enhanced Bulwark** | Shielded | 100 % à 50 % | Son bouclier est fixé à ×4 de celui du boss. |
-|  | Second attack | 50 % à 0 % | Sa salve est ×1,3. Il vous tire 4 roquettes Dormant Lance, de 61 000 chacune, une toutes les 0,5 s, en une rafale toutes les 30 s. |
-| **Elite Crystalys** | Elite | 100 % à 50 % | Il ne fait que tirer. |
-|  | Reinforced | 50 % à 0 % | Son bouclier est fixé à ×2 de celui du boss. Toutes les 10 min, il appelle 10 Goombah, au plus 10 en vie ; ils ne paient ni ne lâchent rien. |
-| **Siege Construct** | Siege Construct | 100 % à 0 % | Toutes les 1 min, il fait tomber 3 salves de 8 météores, de 5 500 chacun sur tout ce qui se trouve à moins de 420 unités de leur point de chute, 50 % d’entre eux visés sur vous ; chaque cercle s’affiche 3 s avant la chute. Il vous tire 6 roquettes Dormant Lance, de 9 000 chacune, une toutes les 0,5 s, en une rafale toutes les 1 min. |
-| **Omega Guardian** | Shield Fortress | 100 % à 70 % | Son bouclier est fixé à ×1,5 de celui du boss. Toutes les 40 s, il appelle 6 Bulwark, au plus 12 en vie ; ils ne paient ni ne lâchent rien. |
-|  | Swarm Protocol | 70 % à 35 % | Toutes les 25 s, il appelle 12 Phantasm, au plus 24 en vie ; ils ne paient ni ne lâchent rien. Toutes les 30 s, une explosion de 140 000 touche tout ce qui se trouve à moins de 700 unités du boss ; l’anneau s’affiche 2 s avant la chute. |
-|  | Overload | 35 % à 0 % | Son bouclier est fixé à ×0,1 de celui du boss. Tous ses dégâts sont ×2,5. Après 2 min dans la phase, tous ses dégâts sont encore ×2. Toutes les 25 s, une explosion de 28 000 touche tout ce qui se trouve à moins de 700 unités du boss ; l’anneau s’affiche 2 s avant la chute. |
-| **Evil Davidski** | Evil Davidski | 100 % à 50 % | Il vous tire 6 roquettes Dormant Lance, de 14 700 chacune, une toutes les 0,5 s, en une rafale toutes les 30 s. Toutes les 1 min, il fait tomber 2 salves de 8 météores, de 33 000 chacun sur tout ce qui se trouve à moins de 400 unités de leur point de chute, 50 % d’entre eux visés sur vous ; chaque cercle s’affiche 3 s avant la chute. Toutes les 40 s, il appelle 5 Evil Protos, au plus 10 en vie ; ils ne paient ni ne lâchent rien. |
-|  | Angry | 50 % à 0 % | Son bouclier est fixé à ×0,5 de celui du boss. Tous ses dégâts sont ×1,5. Après 8 min dans la phase, tous ses dégâts sont encore ×2. Il vous tire 6 roquettes Dormant Lance, de 7 800 chacune, une toutes les 0,4 s, en une rafale toutes les 30 s. Toutes les 1 min, il fait tomber 3 salves de 8 météores, de 10 200 chacun sur tout ce qui se trouve à moins de 420 unités de leur point de chute, 50 % d’entre eux visés sur vous ; chaque cercle s’affiche 3 s avant la chute. Toutes les 45 s, une explosion de 105 000 touche tout ce qui se trouve à moins de 700 unités du boss ; l’anneau s’affiche 2 s avant la chute. Toutes les 40 s, il appelle 3 Evil Kitefin, au plus 6 en vie ; ils ne paient ni ne lâchent rien. |
+| **Enhanced Phantasm** | Enhanced Phantasm | 100 % à 66 % | Il ne fait que tirer. |
+|  | Reinforced | 66 % à 33 % | Son bouclier est fixé à ×1 de celui du boss. Toutes les 10 min, il appelle 4 Phantasm, au plus 4 en vie ; ils ne paient ni ne lâchent rien. |
+|  | Second attack | 33 % à 0 % | Sa salve est ×1,3. Toutes les 30 s, une explosion de {{guide:behaviour.ability:phases.ringBlast@Enhanced Phantasm}} touche tout ce qui se trouve à moins de 500 unités du boss ; l’anneau s’affiche 2 s avant la chute. |
+| **Enhanced Bulwark** | Shielded | 100 % à 66 % | Son bouclier est fixé à ×4 de celui du boss. |
+|  | Rocket barrage | 66 % à 33 % | Il vous tire 4 roquettes Dormant Lance, de {{guide:behaviour.ability:phases.rocketBarrage@Enhanced Bulwark}} chacune, une toutes les 0,5 s, en une rafale toutes les 30 s. |
+|  | Second attack | 33 % à 0 % | Sa salve est ×1,3. Toutes les 10 min, il appelle 4 Phantasm, au plus 4 en vie ; ils ne paient ni ne lâchent rien. |
+| **Elite Crystalys** | Elite | 100 % à 66 % | Il ne fait que tirer. |
+|  | Renewed shield | 66 % à 33 % | Son bouclier est fixé à ×1 de celui du boss. |
+|  | Reinforced | 33 % à 0 % | Son bouclier est fixé à ×2 de celui du boss. Toutes les 10 min, il appelle 10 Goombah, au plus 10 en vie ; ils ne paient ni ne lâchent rien. |
+| **Siege Construct** | Siege Construct | 100 % à 66 % | Toutes les 1 min, il fait tomber 3 salves de 8 météores, de {{guide:behaviour.ability:phases.meteors@Siege Construct}} chacun sur tout ce qui se trouve à moins de 420 unités de leur point de chute, 50 % d’entre eux visés sur vous ; chaque cercle s’affiche 3 s avant la chute. |
+|  | Rocket barrage | 66 % à 33 % | Toutes les 1 min, il fait tomber 3 salves de 8 météores, de {{guide:behaviour.ability:phases.meteors2@Siege Construct}} chacun sur tout ce qui se trouve à moins de 420 unités de leur point de chute, 50 % d’entre eux visés sur vous ; chaque cercle s’affiche 3 s avant la chute. Il vous tire 6 roquettes Dormant Lance, de {{guide:behaviour.ability:phases.rocketBarrage@Siege Construct}} chacune, une toutes les 0,5 s, en une rafale toutes les 1 min. |
+|  | Frenzy | 33 % à 0 % | Toutes les 30 s, il fait tomber 3 salves de 8 météores, de {{guide:behaviour.ability:phases.meteors3@Siege Construct}} chacun sur tout ce qui se trouve à moins de 420 unités de leur point de chute, 50 % d’entre eux visés sur vous ; chaque cercle s’affiche 3 s avant la chute. Il vous tire 6 roquettes Dormant Lance, de {{guide:behaviour.ability:phases.rocketBarrage2@Siege Construct}} chacune, une toutes les 0,5 s, en une rafale toutes les 30 s. |
+| **Omega Guardian** | Shield Fortress | 100 % à 66 % | Son bouclier est fixé à ×1,5 de celui du boss. Toutes les 40 s, il appelle 6 Bulwark, au plus 12 en vie ; ils ne paient ni ne lâchent rien. |
+|  | Swarm Protocol | 66 % à 33 % | Toutes les 25 s, il appelle 12 Phantasm, au plus 24 en vie ; ils ne paient ni ne lâchent rien. Toutes les 30 s, une explosion de {{guide:behaviour.ability:phases.ringBlast@Omega Guardian}} touche tout ce qui se trouve à moins de 700 unités du boss ; l’anneau s’affiche 2 s avant la chute. |
+|  | Overload | 33 % à 0 % | Son bouclier est fixé à ×0,1 de celui du boss. Tous ses dégâts sont ×2,5. Après 2 min dans la phase, tous ses dégâts sont encore ×2. Toutes les 25 s, une explosion de {{guide:behaviour.ability:phases.ringBlast2@Omega Guardian}} touche tout ce qui se trouve à moins de 700 unités du boss ; l’anneau s’affiche 2 s avant la chute. |
+| **Evil Davidski** | Evil Davidski | 100 % à 66 % | Il ne fait que tirer. |
+|  | Davidski attacks | 66 % à 33 % | Il vous tire 6 roquettes Dormant Lance, de {{guide:behaviour.ability:phases.rocketBarrage@Evil Davidski}} chacune, une toutes les 0,5 s, en une rafale toutes les 30 s. Toutes les 1 min, il fait tomber 2 salves de 8 météores, de {{guide:behaviour.ability:phases.meteors@Evil Davidski}} chacun sur tout ce qui se trouve à moins de 400 unités de leur point de chute, 50 % d’entre eux visés sur vous ; chaque cercle s’affiche 3 s avant la chute. Toutes les 40 s, il appelle 5 Evil Protos, au plus 10 en vie ; ils ne paient ni ne lâchent rien. |
+|  | Angry | 33 % à 0 % | Son bouclier est fixé à ×0,5 de celui du boss. Tous ses dégâts sont ×1,5. Après 8 min dans la phase, tous ses dégâts sont encore ×2. Il vous tire 6 roquettes Dormant Lance, de {{guide:behaviour.ability:phases.rocketBarrage2@Evil Davidski}} chacune, une toutes les 0,4 s, en une rafale toutes les 30 s. Toutes les 1 min, il fait tomber 3 salves de 8 météores, de {{guide:behaviour.ability:phases.meteors2@Evil Davidski}} chacun sur tout ce qui se trouve à moins de 420 unités de leur point de chute, 50 % d’entre eux visés sur vous ; chaque cercle s’affiche 3 s avant la chute. Toutes les 45 s, une explosion de {{guide:behaviour.ability:phases.ringBlast@Evil Davidski}} touche tout ce qui se trouve à moins de 700 unités du boss ; l’anneau s’affiche 2 s avant la chute. Toutes les 40 s, il appelle 3 Evil Kitefin, au plus 6 en vie ; ils ne paient ni ne lâchent rien. |
 
 <!-- solo-bosses:end -->
 
@@ -203,27 +210,27 @@ Chaque alien que vous tuez dans une porte paie aux chiffres qu’il a dans Alpha
 
 | Alien | Crédits | Thulium | XP | Honneur |
 | :--- | ---: | ---: | ---: | ---: |
-| **Seeker** | 1 000 | 4 | 100 | 2 |
-| **Phantasm** | 3 000 | 12 | 300 | 6 |
-| **Bulwark** | 5 000 | 25 | 800 | 10 |
-| **Goombah** | 15 000 | 75 | 3 000 | 24 |
-| **Crystalys** | 75 000 | 200 | 12 000 | 52 |
-| **Boss Seeker** | 10 000 | 40 | 1 000 | 20 |
-| **Seeker Slave** | 125 | 1 | 12 | 1 |
-| **Boss Phantasm** | 39 000 | 195 | 7 800 | 62 |
-| **Phantasm Guard** | 125 | 1 | 12 | 1 |
-| **Boss Goombah** | 120 000 | 600 | 24 000 | 192 |
-| **Goombah Guard** | 125 | 1 | 12 | 1 |
-| **Boss Crystalys** | 393 750 | 1 050 | 63 000 | 273 |
-| **Crystalys Guard** | 125 | 1 | 12 | 1 |
-| **Evil Protos** | 4 250 | 17 | 725 | 6 |
-| **Evil Kitefin** | 12 850 | 53 | 2 175 | 18 |
-| **Evil Ostirion** | 34 350 | 141 | 5 800 | 48 |
-| **Evil Nomad** | 59 600 | 245 | 10 060 | 84 |
-| **Evil Paragon** | 68 700 | 283 | 11 600 | 97 |
-| **Evil Storm** | 96 600 | 398 | 16 315 | 136 |
-| **Evil Wraith** | 137 450 | 566 | 23 205 | 194 |
-| **Evil Ironclad** | 268 450 | 1 105 | 45 330 | 379 |
+| **Seeker** | {{guide:spoils.pay.credits@Seeker#1}} | {{guide:spoils.pay.thulium@Seeker#1}} | {{guide:spoils.pay.experience@Seeker#1}} | {{guide:spoils.pay.honor@Seeker#1}} |
+| **Phantasm** | {{guide:spoils.pay.credits@Phantasm#1}} | {{guide:spoils.pay.thulium@Phantasm#1}} | {{guide:spoils.pay.experience@Phantasm#1}} | {{guide:spoils.pay.honor@Phantasm#1}} |
+| **Bulwark** | {{guide:spoils.pay.credits@Bulwark#1}} | {{guide:spoils.pay.thulium@Bulwark#1}} | {{guide:spoils.pay.experience@Bulwark#1}} | {{guide:spoils.pay.honor@Bulwark#1}} |
+| **Goombah** | {{guide:spoils.pay.credits@Goombah#1}} | {{guide:spoils.pay.thulium@Goombah#1}} | {{guide:spoils.pay.experience@Goombah#1}} | {{guide:spoils.pay.honor@Goombah#1}} |
+| **Crystalys** | {{guide:spoils.pay.credits@Crystalys#1}} | {{guide:spoils.pay.thulium@Crystalys#1}} | {{guide:spoils.pay.experience@Crystalys#1}} | {{guide:spoils.pay.honor@Crystalys#1}} |
+| **Boss Seeker** | {{guide:spoils.pay.credits@Boss Seeker#1}} | {{guide:spoils.pay.thulium@Boss Seeker#1}} | {{guide:spoils.pay.experience@Boss Seeker#1}} | {{guide:spoils.pay.honor@Boss Seeker#1}} |
+| **Seeker Slave** | {{guide:spoils.pay.credits@Seeker Slave#1}} | {{guide:spoils.pay.thulium@Seeker Slave#1}} | {{guide:spoils.pay.experience@Seeker Slave#1}} | {{guide:spoils.pay.honor@Seeker Slave#1}} |
+| **Boss Phantasm** | {{guide:spoils.pay.credits@Boss Phantasm#1}} | {{guide:spoils.pay.thulium@Boss Phantasm#1}} | {{guide:spoils.pay.experience@Boss Phantasm#1}} | {{guide:spoils.pay.honor@Boss Phantasm#1}} |
+| **Phantasm Guard** | {{guide:spoils.pay.credits@Phantasm Guard#1}} | {{guide:spoils.pay.thulium@Phantasm Guard#1}} | {{guide:spoils.pay.experience@Phantasm Guard#1}} | {{guide:spoils.pay.honor@Phantasm Guard#1}} |
+| **Boss Goombah** | {{guide:spoils.pay.credits@Boss Goombah#1}} | {{guide:spoils.pay.thulium@Boss Goombah#1}} | {{guide:spoils.pay.experience@Boss Goombah#1}} | {{guide:spoils.pay.honor@Boss Goombah#1}} |
+| **Goombah Guard** | {{guide:spoils.pay.credits@Goombah Guard#1}} | {{guide:spoils.pay.thulium@Goombah Guard#1}} | {{guide:spoils.pay.experience@Goombah Guard#1}} | {{guide:spoils.pay.honor@Goombah Guard#1}} |
+| **Boss Crystalys** | {{guide:spoils.pay.credits@Boss Crystalys#1}} | {{guide:spoils.pay.thulium@Boss Crystalys#1}} | {{guide:spoils.pay.experience@Boss Crystalys#1}} | {{guide:spoils.pay.honor@Boss Crystalys#1}} |
+| **Crystalys Guard** | {{guide:spoils.pay.credits@Crystalys Guard#1}} | {{guide:spoils.pay.thulium@Crystalys Guard#1}} | {{guide:spoils.pay.experience@Crystalys Guard#1}} | {{guide:spoils.pay.honor@Crystalys Guard#1}} |
+| **Evil Protos** | {{guide:spoils.pay.credits@Evil Protos}} | {{guide:spoils.pay.thulium@Evil Protos}} | {{guide:spoils.pay.experience@Evil Protos}} | {{guide:spoils.pay.honor@Evil Protos}} |
+| **Evil Kitefin** | {{guide:spoils.pay.credits@Evil Kitefin}} | {{guide:spoils.pay.thulium@Evil Kitefin}} | {{guide:spoils.pay.experience@Evil Kitefin}} | {{guide:spoils.pay.honor@Evil Kitefin}} |
+| **Evil Ostirion** | {{guide:spoils.pay.credits@Evil Ostirion}} | {{guide:spoils.pay.thulium@Evil Ostirion}} | {{guide:spoils.pay.experience@Evil Ostirion}} | {{guide:spoils.pay.honor@Evil Ostirion}} |
+| **Evil Nomad** | {{guide:spoils.pay.credits@Evil Nomad}} | {{guide:spoils.pay.thulium@Evil Nomad}} | {{guide:spoils.pay.experience@Evil Nomad}} | {{guide:spoils.pay.honor@Evil Nomad}} |
+| **Evil Paragon** | {{guide:spoils.pay.credits@Evil Paragon}} | {{guide:spoils.pay.thulium@Evil Paragon}} | {{guide:spoils.pay.experience@Evil Paragon}} | {{guide:spoils.pay.honor@Evil Paragon}} |
+| **Evil Storm** | {{guide:spoils.pay.credits@Evil Storm}} | {{guide:spoils.pay.thulium@Evil Storm}} | {{guide:spoils.pay.experience@Evil Storm}} | {{guide:spoils.pay.honor@Evil Storm}} |
+| **Evil Wraith** | {{guide:spoils.pay.credits@Evil Wraith}} | {{guide:spoils.pay.thulium@Evil Wraith}} | {{guide:spoils.pay.experience@Evil Wraith}} | {{guide:spoils.pay.honor@Evil Wraith}} |
+| **Evil Ironclad** | {{guide:spoils.pay.credits@Evil Ironclad}} | {{guide:spoils.pay.thulium@Evil Ironclad}} | {{guide:spoils.pay.experience@Evil Ironclad}} | {{guide:spoils.pay.honor@Evil Ironclad}} |
 
 | Porte | Crédits | Thulium | XP | Honneur |
 | :--- | ---: | ---: | ---: | ---: |

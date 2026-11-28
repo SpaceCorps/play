@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 91f3dc3b14f71464 -->
+<!-- wiki-i18n source: f9b2d026af543d87 -->
 <!-- wiki-i18n title: Donjons -->
 # Donjons {#dungeons}
 
-<!-- wiki-search: dungeon; dungeons; gate; gates; clan gate; clan gates; clan dungeon; summon; warlord; gate warlord; boss; maze; loot zone; chest; card; vote; stage; instance; gate delta; gate epsilon; gate zeta; gate eta; gate theta; gate iota; gate goombah; gate pirate; gate crystalys; portal; clan portal; join; clan gate alerts; clan dungeon window; clan dungeon alerts; dungeon goombah; dungeon pirate; dungeon crystalys; dungeon warlord; 75 percent; three quarters; start room; fog; guards; locked room; boss room; booster; boosters; swarm assist; focus most wanted; zone of chaos; rocket barrage; donjon; donjons; porte; portes; seigneur de guerre; labyrinthe; étape; zone de butin; carte; portail; portail du clan; booster; boosters; brouillard; gardiens; salle de départ; salle verrouillée; renfort d’essaim; zone du chaos; alertes de porte du clan; donjon de clan; alertes de donjon du clan; trois quarts; 75 pour cent -->
+<!-- wiki-search: dungeon; dungeons; gate; gates; clan gate; clan gates; clan dungeon; summon; warlord; gate warlord; boss; maze; loot zone; chest; card; vote; stage; instance; gate delta; gate epsilon; gate zeta; gate eta; gate theta; gate iota; gate goombah; gate pirate; gate crystalys; portal; clan portal; join; clan gate alerts; clan dungeon window; clan dungeon alerts; dungeon goombah; dungeon pirate; dungeon crystalys; dungeon warlord; 75 percent; three quarters; start room; fog; guards; locked room; boss room; booster; boosters; swarm assist; focus most wanted; zone of chaos; rocket barrage; donjon; donjons; porte; portes; seigneur de guerre; labyrinthe; étape; zone de butin; carte; portail; portail du clan; booster; boosters; brouillard; gardiens; salle de départ; salle verrouillée; renfort d’essaim; zone du chaos; alertes de porte du clan; donjon de clan; alertes de donjon du clan; trois quarts; 75 pour cent; radiation donut; donut; donut de radiation -->
 
-Un **donjon** est un labyrinthe fermé avec un **Seigneur de guerre** au bout (avant la 0.5.2, le jeu l’appelait une porte). Un chef adjoint ou le chef d’un [clan](/wiki/03-Mechanics/Clans.md) en ouvre une et la paie avec la banque du clan, et les membres du clan y volent ensemble en un seul [groupe](/wiki/03-Mechanics/Groups.md). Ils se frayent un chemin parmi les aliens du labyrinthe, ouvrent des zones de butin pour choisir une carte dans chacune, et abattent le Seigneur de guerre. Tout pilote qui a pris part au combat est payé à la chute du Seigneur de guerre, dans les limites plus bas. Les donjons se trouvent dans l’onglet **Donjons** de la page du clan.
+Un **donjon** est un labyrinthe fermé avec un **Seigneur de guerre** au bout (avant la 0.5.2, le jeu l’appelait une porte). Un chef adjoint ou le chef d’un [clan](/wiki/03-Mechanics/Clans.md) en ouvre une et la paie avec la banque du clan, et les membres du clan y volent ensemble en un seul [groupe](/wiki/03-Mechanics/Groups.md). Ils se frayent un chemin parmi les aliens du labyrinthe, ouvrent des zones de butin pour choisir une carte dans chacune, et abattent le Seigneur de guerre. Tous volent en un seul groupe, et un groupe n’échappe pas aux dégâts de zone d’une roquette : l’explosion d’un Ember, d’un Scatter ou d’une N.U.K.E. et la zone de radiation que laisse une N.U.K.E. vous blessent, vous et les membres de votre groupe, à la moitié de ce qu’elles font à un autre vaisseau. Regardez donc où vous tirez (voir [Groupes](/wiki/03-Mechanics/Groups.md#rules-of-engagement)). Tout pilote qui a pris part au combat est payé à la chute du Seigneur de guerre, dans les limites plus bas. Les donjons se trouvent dans l’onglet **Donjons** de la page du clan.
 
 Un donjon est un combat contre les aliens uniquement : personne ne peut y attaquer un camarade de clan, ni qui que ce soit d’autre. Les aliens paient en tombant, comme les aliens du jeu dont ils s’inspirent ([ce que paient les aliens](#what-the-aliens-pay)). La réussite appartient au Seigneur de guerre : la seule façon d’être payé pour elle est d’être dans le combat quand il tombe.
 
@@ -117,17 +117,17 @@ Chaque sorte à tour de rôle. La coque et le bouclier sont les valeurs habituel
 
 |  | Étape 1 | Étape 2 | Étape 3 |
 | :--- | ---: | ---: | ---: |
-| Coque | 32 000 | 48 000 | 64 000 |
-| Bouclier | 48 000 | 72 000 | 96 000 |
-| Dégâts des lasers (une salve par seconde) | 3 000 | 4 500 | 6 000 |
-| Vitesse | 180 | 180 | 180 |
+| Coque | {{guide:vitals.hull@Dungeon Goombah}} | {{guide:vitals.hull*1.5@Dungeon Goombah}} | {{guide:vitals.hull*2@Dungeon Goombah}} |
+| Bouclier | {{guide:vitals.shield@Dungeon Goombah}} | {{guide:vitals.shield*1.5@Dungeon Goombah}} | {{guide:vitals.shield*2@Dungeon Goombah}} |
+| Dégâts des lasers (une salve par seconde) | {{guide:vitals.dps@Dungeon Goombah}} | {{guide:vitals.dps*1.5@Dungeon Goombah}} | {{guide:vitals.dps*2@Dungeon Goombah}} |
+| Vitesse | {{guide:vitals.speed@Dungeon Goombah}} | {{guide:vitals.speed@Dungeon Goombah}} | {{guide:vitals.speed@Dungeon Goombah}} |
 | Portée des lasers | 800 | 800 | 800 |
-| Rayon d’aggro | 1 800 | 1 800 | 1 800 |
+| Rayon d’aggro | {{guide:vitals.aggro@Dungeon Goombah}} | {{guide:vitals.aggro@Dungeon Goombah}} | {{guide:vitals.aggro@Dungeon Goombah}} |
 | Gains et butin, multiples de l’original | ×1 | ×1,5 | ×2 |
-| Crédits par destruction | 15 000 | 22 500 | 30 000 |
-| Thulium par destruction | 75 | 113 | 150 |
-| Expérience par destruction | 3 000 | 4 500 | 6 000 |
-| Honneur par destruction | 24 | 36 | 48 |
+| Crédits par destruction | {{guide:spoils.pay.credits@Goombah#1}} | {{guide:spoils.pay.credits*1.5@Goombah#1}} | {{guide:spoils.pay.credits*2@Goombah#1}} |
+| Thulium par destruction | {{guide:spoils.pay.thulium@Goombah#1}} | {{guide:spoils.pay.thulium*1.5@Goombah#1}} | {{guide:spoils.pay.thulium*2@Goombah#1}} |
+| Expérience par destruction | {{guide:spoils.pay.experience@Goombah#1}} | {{guide:spoils.pay.experience*1.5@Goombah#1}} | {{guide:spoils.pay.experience*2@Goombah#1}} |
+| Honneur par destruction | {{guide:spoils.pay.honor@Goombah#1}} | {{guide:spoils.pay.honor*1.5@Goombah#1}} | {{guide:spoils.pay.honor*2@Goombah#1}} |
 
 ### Dungeon Pirate
 
@@ -138,18 +138,18 @@ Chaque sorte à tour de rôle. La coque et le bouclier sont les valeurs habituel
 
 |  | Étape 1 | Étape 2 | Étape 3 |
 | :--- | ---: | ---: | ---: |
-| Coque | 250 000 | 375 000 | 500 000 |
-| Bouclier | 50 100 | 75 150 | 100 200 |
-| Dégâts des lasers (une salve par seconde) | 200 | 300 | 400 |
-| Dégâts de roquette | 5 000 | 7 500 | 10 000 |
-| Vitesse | 100 | 100 | 100 |
+| Coque | {{guide:vitals.hull@Dungeon Pirate}} | {{guide:vitals.hull*1.5@Dungeon Pirate}} | {{guide:vitals.hull*2@Dungeon Pirate}} |
+| Bouclier | {{guide:vitals.shield@Dungeon Pirate}} | {{guide:vitals.shield*1.5@Dungeon Pirate}} | {{guide:vitals.shield*2@Dungeon Pirate}} |
+| Dégâts des lasers (une salve par seconde) | {{guide:vitals.dps@Dungeon Pirate}} | {{guide:vitals.dps*1.5@Dungeon Pirate}} | {{guide:vitals.dps*2@Dungeon Pirate}} |
+| Dégâts de roquette | {{guide:behaviour.ability:rocket.damage@Dungeon Pirate}} | {{guide:behaviour.ability:rocket.damage*1.5@Dungeon Pirate}} | {{guide:behaviour.ability:rocket.damage*2@Dungeon Pirate}} |
+| Vitesse | {{guide:vitals.speed@Dungeon Pirate}} | {{guide:vitals.speed@Dungeon Pirate}} | {{guide:vitals.speed@Dungeon Pirate}} |
 | Portée des lasers | 700 | 700 | 700 |
-| Rayon d’aggro | 1 800 | 1 800 | 1 800 |
+| Rayon d’aggro | {{guide:vitals.aggro@Dungeon Pirate}} | {{guide:vitals.aggro@Dungeon Pirate}} | {{guide:vitals.aggro@Dungeon Pirate}} |
 | Gains et butin, multiples de l’original | ×1 | ×1,5 | ×2 |
-| Crédits par destruction | 145 000 | 217 500 | 290 000 |
-| Thulium par destruction | 725 | 1 088 | 1 450 |
-| Expérience par destruction | 29 000 | 43 500 | 58 000 |
-| Honneur par destruction | 232 | 348 | 464 |
+| Crédits par destruction | {{guide:spoils.pay.credits@Pirate Boss#1}} | {{guide:spoils.pay.credits*1.5@Pirate Boss#1}} | {{guide:spoils.pay.credits*2@Pirate Boss#1}} |
+| Thulium par destruction | {{guide:spoils.pay.thulium@Pirate Boss#1}} | {{guide:spoils.pay.thulium*1.5@Pirate Boss#1}} | {{guide:spoils.pay.thulium*2@Pirate Boss#1}} |
+| Expérience par destruction | {{guide:spoils.pay.experience@Pirate Boss#1}} | {{guide:spoils.pay.experience*1.5@Pirate Boss#1}} | {{guide:spoils.pay.experience*2@Pirate Boss#1}} |
+| Honneur par destruction | {{guide:spoils.pay.honor@Pirate Boss#1}} | {{guide:spoils.pay.honor*1.5@Pirate Boss#1}} | {{guide:spoils.pay.honor*2@Pirate Boss#1}} |
 
 ### Dungeon Crystalys
 
@@ -159,17 +159,17 @@ Chaque sorte à tour de rôle. La coque et le bouclier sont les valeurs habituel
 
 |  | Étape 1 | Étape 2 | Étape 3 |
 | :--- | ---: | ---: | ---: |
-| Coque | 256 000 | 384 000 | 512 000 |
-| Bouclier | 160 000 | 240 000 | 320 000 |
-| Dégâts des lasers (une salve par seconde) | 10 000 | 15 000 | 20 000 |
-| Vitesse | 230 | 230 | 230 |
+| Coque | {{guide:vitals.hull@Dungeon Crystalys}} | {{guide:vitals.hull*1.5@Dungeon Crystalys}} | {{guide:vitals.hull*2@Dungeon Crystalys}} |
+| Bouclier | {{guide:vitals.shield@Dungeon Crystalys}} | {{guide:vitals.shield*1.5@Dungeon Crystalys}} | {{guide:vitals.shield*2@Dungeon Crystalys}} |
+| Dégâts des lasers (une salve par seconde) | {{guide:vitals.dps@Dungeon Crystalys}} | {{guide:vitals.dps*1.5@Dungeon Crystalys}} | {{guide:vitals.dps*2@Dungeon Crystalys}} |
+| Vitesse | {{guide:vitals.speed@Dungeon Crystalys}} | {{guide:vitals.speed@Dungeon Crystalys}} | {{guide:vitals.speed@Dungeon Crystalys}} |
 | Portée des lasers | 900 | 900 | 900 |
-| Rayon d’aggro | 2 400 | 2 400 | 2 400 |
+| Rayon d’aggro | {{guide:vitals.aggro@Dungeon Crystalys}} | {{guide:vitals.aggro@Dungeon Crystalys}} | {{guide:vitals.aggro@Dungeon Crystalys}} |
 | Gains et butin, multiples de l’original | ×1 | ×1,5 | ×2 |
-| Crédits par destruction | 75 000 | 112 500 | 150 000 |
-| Thulium par destruction | 200 | 300 | 400 |
-| Expérience par destruction | 12 000 | 18 000 | 24 000 |
-| Honneur par destruction | 52 | 78 | 104 |
+| Crédits par destruction | {{guide:spoils.pay.credits@Crystalys#1}} | {{guide:spoils.pay.credits*1.5@Crystalys#1}} | {{guide:spoils.pay.credits*2@Crystalys#1}} |
+| Thulium par destruction | {{guide:spoils.pay.thulium@Crystalys#1}} | {{guide:spoils.pay.thulium*1.5@Crystalys#1}} | {{guide:spoils.pay.thulium*2@Crystalys#1}} |
+| Expérience par destruction | {{guide:spoils.pay.experience@Crystalys#1}} | {{guide:spoils.pay.experience*1.5@Crystalys#1}} | {{guide:spoils.pay.experience*2@Crystalys#1}} |
+| Honneur par destruction | {{guide:spoils.pay.honor@Crystalys#1}} | {{guide:spoils.pay.honor*1.5@Crystalys#1}} | {{guide:spoils.pay.honor*2@Crystalys#1}} |
 
 ### Dungeon Crystalys Twin
 
@@ -179,17 +179,17 @@ Chaque sorte à tour de rôle. La coque et le bouclier sont les valeurs habituel
 
 |  | Étape 1 | Étape 2 | Étape 3 |
 | :--- | ---: | ---: | ---: |
-| Coque | 512 000 | 768 000 | 1 024 000 |
-| Bouclier | 320 000 | 480 000 | 640 000 |
-| Dégâts des lasers (une salve par seconde) | 20 000 | 30 000 | 40 000 |
-| Vitesse | 230 | 230 | 230 |
+| Coque | {{guide:vitals.hull@Dungeon Crystalys Twin}} | {{guide:vitals.hull*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.hull*2@Dungeon Crystalys Twin}} |
+| Bouclier | {{guide:vitals.shield@Dungeon Crystalys Twin}} | {{guide:vitals.shield*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.shield*2@Dungeon Crystalys Twin}} |
+| Dégâts des lasers (une salve par seconde) | {{guide:vitals.dps@Dungeon Crystalys Twin}} | {{guide:vitals.dps*1.5@Dungeon Crystalys Twin}} | {{guide:vitals.dps*2@Dungeon Crystalys Twin}} |
+| Vitesse | {{guide:vitals.speed@Dungeon Crystalys Twin}} | {{guide:vitals.speed@Dungeon Crystalys Twin}} | {{guide:vitals.speed@Dungeon Crystalys Twin}} |
 | Portée des lasers | 900 | 900 | 900 |
-| Rayon d’aggro | 2 400 | 2 400 | 2 400 |
+| Rayon d’aggro | {{guide:vitals.aggro@Dungeon Crystalys Twin}} | {{guide:vitals.aggro@Dungeon Crystalys Twin}} | {{guide:vitals.aggro@Dungeon Crystalys Twin}} |
 | Gains et butin, multiples de l’original | ×2 | ×3 | ×4 |
-| Crédits par destruction | 150 000 | 225 000 | 300 000 |
-| Thulium par destruction | 400 | 600 | 800 |
-| Expérience par destruction | 24 000 | 36 000 | 48 000 |
-| Honneur par destruction | 104 | 156 | 208 |
+| Crédits par destruction | {{guide:spoils.pay.credits*2@Crystalys#1}} | {{guide:spoils.pay.credits*3@Crystalys#1}} | {{guide:spoils.pay.credits*4@Crystalys#1}} |
+| Thulium par destruction | {{guide:spoils.pay.thulium*2@Crystalys#1}} | {{guide:spoils.pay.thulium*3@Crystalys#1}} | {{guide:spoils.pay.thulium*4@Crystalys#1}} |
+| Expérience par destruction | {{guide:spoils.pay.experience*2@Crystalys#1}} | {{guide:spoils.pay.experience*3@Crystalys#1}} | {{guide:spoils.pay.experience*4@Crystalys#1}} |
+| Honneur par destruction | {{guide:spoils.pay.honor*2@Crystalys#1}} | {{guide:spoils.pay.honor*3@Crystalys#1}} | {{guide:spoils.pay.honor*4@Crystalys#1}} |
 
 <!-- dungeons-enemies:end -->
 
@@ -205,24 +205,24 @@ Le Seigneur de guerre attend dans la salle au bout du labyrinthe, et c’est sa 
 
 |  | Étape 1 | Étape 2 | Étape 3 |
 | :--- | ---: | ---: | ---: |
-| Coque | 10 000 000 | 15 000 000 | 25 000 000 |
-| Bouclier | 8 000 000 | 12 000 000 | 20 000 000 |
-| Dégâts des lasers (une salve par seconde) | 17 500–22 500 | 26 250–33 750 sur chacun de 2 pilotes | 35 000–45 000 sur chacun de 2 pilotes |
-| Vitesse | 120 | 120 | 120 |
+| Coque | {{guide:vitals.hull@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} | {{guide:vitals.hull*2.5@Dungeon Warlord}} |
+| Bouclier | {{guide:vitals.shield@Dungeon Warlord}} | {{guide:vitals.shield*1.5@Dungeon Warlord}} | {{guide:vitals.shield*2.5@Dungeon Warlord}} |
+| Dégâts des lasers (une salve par seconde) | {{guide:vitals.dps*0.875~1.125@Dungeon Warlord}} | {{guide:vitals.dps*1.3125~1.6875@Dungeon Warlord}} sur chacun de 2 pilotes | {{guide:vitals.dps*1.75~2.25@Dungeon Warlord}} sur chacun de 2 pilotes |
+| Vitesse | {{guide:vitals.speed@Dungeon Warlord}} | {{guide:vitals.speed@Dungeon Warlord}} | {{guide:vitals.speed@Dungeon Warlord}} |
 | Portée des lasers | 1 100 | 1 100 | 1 100 |
 
 La coque et le bouclier ci-dessus valent pour un groupe de 5. Ils croissent avec le groupe : ce sont la coque et le bouclier du Seigneur de guerre réunis, selon le nombre de pilotes du groupe au lancement du donjon.
 
 | Pilotes dans le groupe | Étape 1 | Étape 2 | Étape 3 |
 | :--- | ---: | ---: | ---: |
-| 3 | 10 800 000 | 16 200 000 | 27 000 000 |
-| 4 | 14 400 000 | 21 600 000 | 36 000 000 |
-| 5 | 18 000 000 | 27 000 000 | 45 000 000 |
-| 6 | 21 600 000 | 32 400 000 | 54 000 000 |
-| 7 | 25 200 000 | 37 800 000 | 63 000 000 |
-| 8 | 28 800 000 | 43 200 000 | 72 000 000 |
-| 9 | 32 400 000 | 48 600 000 | 81 000 000 |
-| 10 | 36 000 000 | 54 000 000 | 90 000 000 |
+| 3 | {{guide:vitals.hull*0.6@Dungeon Warlord}} + {{guide:vitals.shield*0.6@Dungeon Warlord}} | {{guide:vitals.hull*0.9@Dungeon Warlord}} + {{guide:vitals.shield*0.9@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} + {{guide:vitals.shield*1.5@Dungeon Warlord}} |
+| 4 | {{guide:vitals.hull*0.8@Dungeon Warlord}} + {{guide:vitals.shield*0.8@Dungeon Warlord}} | {{guide:vitals.hull*1.2@Dungeon Warlord}} + {{guide:vitals.shield*1.2@Dungeon Warlord}} | {{guide:vitals.hull*2@Dungeon Warlord}} + {{guide:vitals.shield*2@Dungeon Warlord}} |
+| 5 | {{guide:vitals.hull@Dungeon Warlord}} + {{guide:vitals.shield@Dungeon Warlord}} | {{guide:vitals.hull*1.5@Dungeon Warlord}} + {{guide:vitals.shield*1.5@Dungeon Warlord}} | {{guide:vitals.hull*2.5@Dungeon Warlord}} + {{guide:vitals.shield*2.5@Dungeon Warlord}} |
+| 6 | {{guide:vitals.hull*1.2@Dungeon Warlord}} + {{guide:vitals.shield*1.2@Dungeon Warlord}} | {{guide:vitals.hull*1.8@Dungeon Warlord}} + {{guide:vitals.shield*1.8@Dungeon Warlord}} | {{guide:vitals.hull*3@Dungeon Warlord}} + {{guide:vitals.shield*3@Dungeon Warlord}} |
+| 7 | {{guide:vitals.hull*1.4@Dungeon Warlord}} + {{guide:vitals.shield*1.4@Dungeon Warlord}} | {{guide:vitals.hull*2.1@Dungeon Warlord}} + {{guide:vitals.shield*2.1@Dungeon Warlord}} | {{guide:vitals.hull*3.5@Dungeon Warlord}} + {{guide:vitals.shield*3.5@Dungeon Warlord}} |
+| 8 | {{guide:vitals.hull*1.6@Dungeon Warlord}} + {{guide:vitals.shield*1.6@Dungeon Warlord}} | {{guide:vitals.hull*2.4@Dungeon Warlord}} + {{guide:vitals.shield*2.4@Dungeon Warlord}} | {{guide:vitals.hull*4@Dungeon Warlord}} + {{guide:vitals.shield*4@Dungeon Warlord}} |
+| 9 | {{guide:vitals.hull*1.8@Dungeon Warlord}} + {{guide:vitals.shield*1.8@Dungeon Warlord}} | {{guide:vitals.hull*2.7@Dungeon Warlord}} + {{guide:vitals.shield*2.7@Dungeon Warlord}} | {{guide:vitals.hull*4.5@Dungeon Warlord}} + {{guide:vitals.shield*4.5@Dungeon Warlord}} |
+| 10 | {{guide:vitals.hull*2@Dungeon Warlord}} + {{guide:vitals.shield*2@Dungeon Warlord}} | {{guide:vitals.hull*3@Dungeon Warlord}} + {{guide:vitals.shield*3@Dungeon Warlord}} | {{guide:vitals.hull*5@Dungeon Warlord}} + {{guide:vitals.shield*5@Dungeon Warlord}} |
 
 <!-- dungeons-boss:end -->
 
@@ -241,6 +241,7 @@ La fenêtre Donjon de clan compte combien d’entre eux il reste à détruire po
 - **Le Renfort d’essaim** est le Seigneur de guerre qui appelle ses Goombahs. Tant qu’ils vivent, il ne peut pas être blessé, et il ne tire pas et n’utilise aucune autre compétence. Détruisez-les tous : la bannière compte combien il en reste. Si une minute passe, le Seigneur de guerre peut de nouveau être blessé et les Goombahs qui restent continuent le combat. Ils ne comptent pas pour la salle du boss, et ils ne paient rien.
 - **La Zone du Chaos** est un anneau violet au sol, autour du Seigneur de guerre, et tant qu’elle dure, il va partout où va le Seigneur de guerre. Personne dans l’anneau ne peut attaquer, ni avec des lasers ni avec des roquettes, mais les réparations, l’occultation et le vol fonctionnent toujours, et le Seigneur de guerre et ses aliens tirent comme toujours. L’anneau apparaît un instant avant de faire effet : sortez-en et restez dehors, car il suit le Seigneur de guerre. Un pilote à l’extérieur peut toujours tirer, aussi loin que portent ses armes.
 - **La Lance fantôme** fait disparaître le Seigneur de guerre pendant une seconde. Il revient ailleurs dans sa salle avec trois illusions de lui-même. Tant qu’une illusion vit, elle tire sur le pilote le plus proche qu’elle voit avec la moitié de la salve du Seigneur de guerre et soigne chaque seconde la coque et le bouclier du Seigneur de guerre (les chiffres sont dans le tableau des compétences). Les illusions ont une coque à elles : détruisez-les pour arrêter les soins. Elles ne paient rien et partent avec le Seigneur de guerre quand il tombe. Le Seigneur de guerre peut être détruit tant qu’elles vivent.
+- **Le Donut de radiation** allume trois anneaux de radiation autour de l’endroit où se tenait le Seigneur de guerre quand il a commencé la capacité, l’un après l’autre à partir du Seigneur de guerre vers l’extérieur, avec une à deux secondes entre deux anneaux. Chaque anneau montre ses deux bords un instant avant de s’allumer, puis brûle chaque pilote qui s’y trouve pendant quelques secondes, directement sur la coque (le tableau des compétences donne les durées et la part de la coque par seconde). Un anneau ne s’éteint pas quand le suivant s’allume : deux anneaux, et aux étapes les plus hautes les trois, peuvent brûler en même temps. Le trou autour du Seigneur de guerre, le sol entre les anneaux et le sol au-delà du dernier sont sûrs : restez dessus et quittez un anneau avant qu’il ne s’allume. Un mur n’arrête pas la radiation et une occultation n’en protège pas un pilote ; la Technique anti-radiations réduit la dose.
 
 <!-- dungeons-abilities:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -255,19 +256,34 @@ La fenêtre Donjon de clan compte combien d’entre eux il reste à détruire po
 | **Renfort d’essaim** | 2 s | Jusqu’à 1 min | 3 min | – | – |
 | **Zone du Chaos** | 2 s | 15 s | 2 min | 900 | – |
 | **Lance fantôme** | 1,5 s | 1 s | 2 min | – | – |
+| **Donut de radiation** | 1 s | Jusqu’à 8,5 s | 75 s | 2 150 | – |
 
 | Compétence | Étape 1 | Étape 2 | Étape 3 |
 | :--- | :--- | :--- | :--- |
-| **Aura de vol de vie** | 8 000 par seconde | 10 000 par seconde | 12 000 par seconde |
-| **Chute de météores** | 6 météores par salve, 80 000 chacun | 8 météores par salve, 100 000 chacun | 10 météores par salve, 120 000 chacun |
-| **Focus sur le plus recherché** | 26 250–33 750 par tir supplémentaire sur le pilote ayant infligé le plus de dégâts, un toutes les 1 s | 39 375–50 625 par tir supplémentaire sur le pilote ayant infligé le plus de dégâts, un toutes les 1 s | 52 500–67 500 par tir supplémentaire sur le pilote ayant infligé le plus de dégâts, un toutes les 1 s |
-| **Salve de roquettes** | 100 000–150 000 par roquette sur chaque pilote, une toutes les 15 s | 125 000–187 500 par roquette sur chaque pilote, une toutes les 15 s | 150 000–225 000 par roquette sur chaque pilote, une toutes les 15 s |
-| **Absorption de bouclier** | 10 000 de bouclier par seconde | 12 500 de bouclier par seconde | 15 000 de bouclier par seconde |
+| **Aura de vol de vie** | {{guide:behaviour.ability:lifesteal.drainPerSec@Dungeon Warlord}} par seconde | {{guide:behaviour.ability:lifesteal.drainPerSec*1.25@Dungeon Warlord}} par seconde | {{guide:behaviour.ability:lifesteal.drainPerSec*1.5@Dungeon Warlord}} par seconde |
+| **Chute de météores** | 6 météores par salve, {{guide:behaviour.ability:meteor.damage@Dungeon Warlord}} chacun | 8 météores par salve, {{guide:behaviour.ability:meteor.damage*1.25@Dungeon Warlord}} chacun | 10 météores par salve, {{guide:behaviour.ability:meteor.damage*1.5@Dungeon Warlord}} chacun |
+| **Focus sur le plus recherché** | {{guide:vitals.dps*1.3125~1.6875@Dungeon Warlord}} par tir supplémentaire sur le pilote ayant infligé le plus de dégâts, un toutes les 1 s | {{guide:vitals.dps*1.96875~2.53125@Dungeon Warlord}} par tir supplémentaire sur le pilote ayant infligé le plus de dégâts, un toutes les 1 s | {{guide:vitals.dps*2.625~3.375@Dungeon Warlord}} par tir supplémentaire sur le pilote ayant infligé le plus de dégâts, un toutes les 1 s |
+| **Salve de roquettes** | {{guide:behaviour.ability:barrage.damageMin@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage@Dungeon Warlord}} par roquette sur chaque pilote, une toutes les 15 s | {{guide:behaviour.ability:barrage.damageMin*1.25@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage*1.25@Dungeon Warlord}} par roquette sur chaque pilote, une toutes les 15 s | {{guide:behaviour.ability:barrage.damageMin*1.5@Dungeon Warlord}}–{{guide:behaviour.ability:barrage.damage*1.5@Dungeon Warlord}} par roquette sur chaque pilote, une toutes les 15 s |
+| **Absorption de bouclier** | {{guide:behaviour.ability:absorb.drainPerSec@Dungeon Warlord}} de bouclier par seconde | {{guide:behaviour.ability:absorb.drainPerSec*1.25@Dungeon Warlord}} de bouclier par seconde | {{guide:behaviour.ability:absorb.drainPerSec*1.5@Dungeon Warlord}} de bouclier par seconde |
 | **Renfort d’essaim** | 12 Goombahs | 18 Goombahs | 24 Goombahs |
 | **Zone du Chaos** | Les pilotes dans l’anneau ne peuvent pas attaquer | Les pilotes dans l’anneau ne peuvent pas attaquer | Les pilotes dans l’anneau ne peuvent pas attaquer |
-| **Lance fantôme** | 3 illusions de 500 000 de coque chacune ; chacune tire 50 % de la salve du Seigneur de guerre et, tant qu’elle vit, soigne le Seigneur de guerre de 50 000 de coque et de 50 000 de bouclier par seconde | 3 illusions de 500 000 de coque chacune ; chacune tire 50 % de la salve du Seigneur de guerre et, tant qu’elle vit, soigne le Seigneur de guerre de 50 000 de coque et de 50 000 de bouclier par seconde | 3 illusions de 500 000 de coque chacune ; chacune tire 50 % de la salve du Seigneur de guerre et, tant qu’elle vit, soigne le Seigneur de guerre de 50 000 de coque et de 50 000 de bouclier par seconde |
+| **Lance fantôme** | 3 illusions ; chacune tire 50 % de la salve du Seigneur de guerre et, tant qu’elle vit, soigne le Seigneur de guerre de 50 000 de coque et de 50 000 de bouclier par seconde | 3 illusions ; chacune tire 50 % de la salve du Seigneur de guerre et, tant qu’elle vit, soigne le Seigneur de guerre de 50 000 de coque et de 50 000 de bouclier par seconde | 3 illusions ; chacune tire 50 % de la salve du Seigneur de guerre et, tant qu’elle vit, soigne le Seigneur de guerre de 50 000 de coque et de 50 000 de bouclier par seconde |
+| **Donut de radiation** | 3 anneaux, allumés l’un après l’autre ; chacun brûle pendant 2 s et prend 8 % de la coque d’un pilote par seconde | 3 anneaux, allumés l’un après l’autre ; chacun brûle pendant 3 s et prend 8 % de la coque d’un pilote par seconde | 3 anneaux, allumés l’un après l’autre ; chacun brûle pendant 4,5 s et prend 8 % de la coque d’un pilote par seconde |
 
 <!-- dungeons-abilities:end -->
+
+### Ses trois étapes {#its-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Le Seigneur de guerre a trois étapes ([comment elles marchent](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)) ; chacune a lieu une fois.
+
+- **Sous les deux tiers**: La pause entre ses capacités tombe à 4 s et leurs attentes à ×0,75.
+- **Sous un tiers**: La pause tombe à 2 s, leurs attentes à ×0,5 et ses dégâts montent à ×1,25 ; il lance une salve de Meteor gratuite, et son Swarm ne revient jamais plus vite que toutes les 120 s.
+- **Une pause à chaque étape.** Quand une étape commence, le Seigneur de guerre ne peut pas être blessé pendant 3 s.
+
+<!-- mob-ladder:end -->
 
 ## Zones de butin {#loot-zones}
 
@@ -351,9 +367,9 @@ Les **Orvium Reinforced Plates** et les **Echo Shards** et **Lattice Shards** de
 
 | Étape | Honneur | Expérience | Crédits | Thulium | Munitions x4 | Orvium Reinforced Plates | Echo Shards | Lattice Shards | Points de classement PvE |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Étape 1** | 25 000 | 600 000 | 5 000 000 | 8 000 | 4 000 | 5 | 12 | 5 | 850 |
-| **Étape 2** | 50 000 | 1 500 000 | 10 000 000 | 18 000 | 9 000 | 10 | 8 | 6 | 2 000 |
-| **Étape 3** | 100 000 | 2 400 000 | 17 500 000 | 30 000 | 15 000 | 15 | 8 | 7 | 3 400 |
+| **Étape 1** | 25 000 | 600 000 | 5 000 000 | 8 000 | 4 000 | 5 | 24 | 10 | 850 |
+| **Étape 2** | 50 000 | 1 500 000 | 10 000 000 | 18 000 | 9 000 | 10 | 16 | 12 | 2 000 |
+| **Étape 3** | 100 000 | 2 400 000 | 17 500 000 | 30 000 | 15 000 | 15 | 16 | 14 | 3 400 |
 
 - **Heartshards** : 1 à la première réussite payée de chaque étape d’une saison, et 5 % de chances d’en obtenir un de plus à chaque réussite payée.
 
@@ -367,7 +383,7 @@ Ces règles décident qui est payé **pour la réussite**. Une partie se joue en
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
 - **Un jour** : Une étape paie un pilote une fois par jour UTC : le jour où le Seigneur de guerre tombe
-- **Une semaine** : Un pilote est payé pour un maximum de 10 étapes terminées par semaine UTC, du lundi au dimanche
+- **Une semaine** : Un pilote est payé pour un maximum de 14 étapes terminées par semaine UTC, du lundi au dimanche
 - **À l’intérieur** : Au moins 2 min en tout
 - **Part au combat** : Au moins l’un de ceux-ci : a infligé 0,1 % de la coque et du bouclier du Seigneur de guerre; a détruit 10 aliens du donjon; a soigné d’autres pilotes à hauteur de 50 000 pendant le combat contre le Seigneur de guerre
 
@@ -382,8 +398,8 @@ Ce qu’un pilote peut toucher en un jour, et dans la meilleure semaine que perm
 
 | Paie de chaque pilote | Honneur | Expérience | Crédits | Thulium | Munitions x4 | Orvium Reinforced Plates | Echo Shards | Lattice Shards | Points de classement PvE |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Un jour, chaque étape une fois | 175 000 | 4 500 000 | 32 500 000 | 56 000 | 28 000 | 30 | 28 | 18 | 6 250 |
-| La meilleure semaine : 7 × Étape 3 et 3 × Étape 2 | 850 000 | 21 300 000 | 152 500 000 | 264 000 | 132 000 | 135 | 80 | 67 | 29 800 |
+| Un jour, chaque étape une fois | 175 000 | 4 500 000 | 32 500 000 | 56 000 | 28 000 | 30 | 56 | 36 | 6 250 |
+| La meilleure semaine : 7 × Étape 3 et 7 × Étape 2 | 1 050 000 | 27 300 000 | 192 500 000 | 336 000 | 168 000 | 175 | 224 | 182 | 37 800 |
 
 L’expérience et l’honneur d’une étape terminée et payée comptent pour vos points de classement PvE : un point pour chaque tranche de 1 000 d’expérience et un pour chaque tranche de 100 d’honneur.
 
@@ -395,7 +411,7 @@ Chaque alien d’un donjon paie en tombant, et lâche du butin, comme l’alien 
 
 - **Qui est payé.** Les pilotes qui ont blessé l’alien, selon les dégâts infligés, comme pour les aliens des essaims : un pilote ou un groupe qui l’a seulement effleuré ne reçoit rien, un groupe est payé comme un seul, et dans un groupe les membres proches de l’épave qui ont tiré récemment se partagent la paie selon leur niveau. Un pilote qui n’a infligé aucun dégât à l’alien ne reçoit rien pour lui, même s’il volait tout près, et un alien qu’aucun pilote n’a blessé ne paie personne. Seuls entrent les pilotes que les règles ci-dessus paient. Celui qui est parti, qui n’est pas resté assez longtemps, qui a déjà été payé pour l’étape aujourd’hui ou qui a eu toutes les réussites payées de la semaine ne reçoit rien pour les aliens, et les autres ont sa part. Une destruction ne demande pas la part au combat, car avoir blessé l’alien en est la part. Si le membre d’un groupe qui a infligé le plus de dégâts a été détruit ou n’est plus sur la carte, les membres proches de l’épave qui ont tiré récemment se partagent la paie sans lui.
 - **Ce qui est payé.** Crédits, Thulium, expérience et honneur, une fois par destruction. La paie est celle de l’original en Alpha, dans tous les mondes : un donjon n’a pas de multiplicateur de monde. Vos boosters, formation et les bonus de votre clan comptent comme pour toute destruction, et l’expérience compte pour vos [points PvE](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points) comme celle de la réussite.
-- **Le butin.** Il est tiré avec les chances de l’original, sauf l’Echo Shard, deux fois plus probable, puis chaque quantité est multipliée par le rapport (une fraction d’unité est une chance d’en avoir une de plus). Il tombe dans une caisse sur l’épave, d’abord pour le pilote qui a infligé le plus de dégâts et son clan, puis pour n’importe qui sur la carte, et ensuite il disparaît. Si le [groupe](/wiki/03-Mechanics/Groups.md) du pilote qui a infligé le plus de dégâts compte au moins deux pilotes qui ont endommagé l’alien et volent encore dans le donjon, le butin est plutôt réparti en [caisses personnelles](/wiki/03-Mechanics/Cargo.md#personal-crates), une pour chacun selon les dégâts infligés, chacune d’abord à son pilote seul, puis à n’importe qui sur la carte. Un coéquipier du groupe qui n’a infligé aucun dégât, ou que les règles ci-dessus écartent, n’a pas de caisse. Les autres groupes et les pilotes qui volent seuls sont payés pour leur part et n’ont pas de caisse sur ce butin. La carte ne tient qu’un certain nombre de caisses à la fois : ramassez-les au fil du combat, et ce qui reste sur la carte à la fermeture du donjon part avec lui. Contrairement aux objets de la réussite, ce sont des butins ordinaires d’alien : on peut les [vendre aux Enchères](/wiki/03-Mechanics/Auction.md#marketable-items) quand l’objet est vendable.
+- **Le butin.** Il est tiré avec les chances de l’original, sauf l’Echo Shard, deux fois plus probable et lâché par deux, puis chaque quantité est multipliée par le rapport (une fraction d’unité est une chance d’en avoir une de plus). Il tombe dans une caisse sur l’épave, d’abord pour le pilote qui a infligé le plus de dégâts et son clan, puis pour n’importe qui sur la carte, et ensuite il disparaît. Si le [groupe](/wiki/03-Mechanics/Groups.md) du pilote qui a infligé le plus de dégâts compte au moins deux pilotes qui ont endommagé l’alien et volent encore dans le donjon, le butin est plutôt réparti en [caisses personnelles](/wiki/03-Mechanics/Cargo.md#personal-crates), une pour chacun selon les dégâts infligés, chacune d’abord à son pilote seul, puis à n’importe qui sur la carte. Un coéquipier du groupe qui n’a infligé aucun dégât, ou que les règles ci-dessus écartent, n’a pas de caisse. Les autres groupes et les pilotes qui volent seuls sont payés pour leur part et n’ont pas de caisse sur ce butin. La carte ne tient qu’un certain nombre de caisses à la fois : ramassez-les au fil du combat, et ce qui reste sur la carte à la fermeture du donjon part avec lui. Contrairement aux objets de la réussite, ce sont des butins ordinaires d’alien : on peut les [vendre aux Enchères](/wiki/03-Mechanics/Auction.md#marketable-items) quand l’objet est vendable.
 - **Ce qui ne paie pas.** Le Seigneur de guerre ne paie pas de destruction, seulement la réussite. Les Goombahs qu’il appelle ne paient rien, car l’appel revient tant que le combat dure.
 - **Pas une destruction du jeu.** Une destruction dans un donjon ne compte ni pour les quêtes, ni pour les succès, ni pour les compteurs de destructions, ni pour les points de réinitialisation, ni pour les points PvE d’une destruction, ni pour les drones ou les P.E.T.s : un Dungeon Goombah n’est pas un Goombah du jeu.
 - **Les limites.** Les limites du jour et de la semaine ci-dessus retiennent la paie des aliens comme celle de la réussite. Un pilote déjà payé pour l’étape aujourd’hui, ou qui a eu toutes les réussites payées de la semaine, ne reçoit rien non plus pour ses aliens, et la cagnotte d’une destruction va aux autres. Un donjon qui n’est pas réussi paie ses destructions aux pilotes que les règles paient, et rien pour la réussite.

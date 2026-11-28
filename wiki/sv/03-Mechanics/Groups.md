@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ab422d8b5066fe56 -->
+<!-- wiki-i18n source: 61fa5f21bae46a15 -->
 <!-- wiki-i18n title: Grupper -->
 # Grupper {#groups}
 
@@ -119,7 +119,7 @@ Din ignoreringslista och reglaget Dölj Global sparas med ditt konto, så de fö
 
 ## Stridsregler {#rules-of-engagement}
 
-**Medlemmar i samma grupp kan inte skada varandra**, oavsett koncern: du kan inte låsa på en gruppmedlem (lasrar eller raketer), dina skott och explosioner går rakt igenom dem, och ingenting du gör mot en räknas som en nedskjutning, en PvP-nedskjutning eller en nedskjutning genom det svarta hålet för någon. Koncernkamrater som **inte** är i samma grupp gäller som förut: att träffa en med en laser eller en raket kostar **100 heder** när den förstörs. Lämna gruppen så är en tidigare kamrat, fiende eller inte, fritt villebråd igen direkt (där sektorn och säsongen över huvud taget tillåter strid). Alla utanför din grupp behandlas som alltid, och säkra zoner, Fredsprotokollet och sektorernas PvP-regler ändras inte för någon.
+**Medlemmar i samma grupp kan inte attackera varandra**, oavsett koncern: du kan inte låsa på en gruppmedlem (lasrar eller raketer), dina skott och direkta raketer går rakt igenom dem, och ingenting du gör mot en räknas som en nedskjutning, en PvP-nedskjutning eller en nedskjutning genom det svarta hålet för någon. Den enda raketskada som ändå når din grupp är områdesskadan: explosionen från en Ember, en Scatter eller en N.U.K.E. och strålningszonen som en N.U.K.E. eller en Gravitational N.U.K.E. lämnar skadar dig och medlemmarna i din grupp för hälften av vad de gör mot ett annat skepp (en säker zon och en respawns skydd skonar dig från dem, Fredsprotokollet och sektorerna utan PvP gör det inte), och om en av dem förstör en medlem får ingen nedskjutningen. Koncernkamrater som **inte** är i samma grupp gäller som förut: att träffa en med en laser eller en raket kostar **100 heder** när den förstörs. Lämna gruppen så är en tidigare kamrat, fiende eller inte, fritt villebråd igen direkt (där sektorn och säsongen över huvud taget tillåter strid). Alla utanför din grupp behandlas som alltid, och säkra zoner, Fredsprotokollet och sektorernas PvP-regler ändras inte för någon.
 
 ## Ta med en vän {#bringing-a-friend}
 

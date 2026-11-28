@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c205efd6ca83bd6f -->
+<!-- wiki-i18n source: 26bbf6eb36f9c7f8 -->
 <!-- wiki-i18n title: Sköldar -->
 # Sköldmekanik {#shield-mechanics}
 
@@ -43,7 +43,7 @@ Vissa attacker har en **sköldgenomträngning**: punkter som dras av från din a
 - Sköldarna tar högst `round(damage x share)` av träffen; skrovet tar resten. En sköld som är för låg för sin andel för över skillnaden till HP, och är sköldarna på 0 går all skada direkt på HP.
 - **Varifrån genomträngning kommer**: en enkelmålsrakets *sköldgenomträngning* (Lancet I 10 %, Lancet II 25 %, Lancet III 35 %, Rivet I 5 %, Rivet II 25 %, Rivet III 35 %, N.I.K.E. 35 %; områdesskada har ingen, se [Raketer](/wiki/06-Items/Rockets.md)) och laserammunitionens (Ultra Core 5 %, Experimental Fusion Core 10 %; se [Lasrar och ammunition](/wiki/06-Items/Lasers.md)). Utomjordingar har ingen, och det har inte heller x1- och x2-ammunitionen. En laserträff drar också av Penetration Amps i skyttens lasrar (+5 % till +20 % per plats, medelvärdet över dess lasrar) och en drönarformations genomträngning (Gemini +15 %; Stiletto ger +35 % bara åt en direkt raket); en direkt raket lägger formationens till sin egen. **Inget sätter tak för summan**: sköldarna tar absorptionen minus allt detta, ner till ingenting av träffen ([så läggs en laserträff ihop](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
 - **Exempel**: 91 % absorption mot en Lancet III (35 %): sköldarna tar 56 % av träffen, skrovet 44 %. 100 % mot den: 65 % och 35 %. 112 % mot 12 % genomträngning: hela träffen. 45 % (en Light Shield Core ensam) mot 35 %: 10 % på skölden, resten på skrovet. En raket ensam tränger inte helt igenom någon kärna, men en Lancet III med en Stiletto (35 % + 35 % = 70 %) lämnar ingenting av träffen åt en Light Shield Core ensam (45 %), och det gör den bästa lasern (85 %) också: mot den lasern tar den bästa skölden (91 %) 6 % av träffen och skrovet 94 %.
-- Utomjordingar har inget absorptionsvärde: de delar varje träff 80 % / 20 %, minus träffens genomträngning.
+- Utomjordingar har inget absorptionsvärde: de delar varje träff 80 % / 20 %, minus träffens genomträngning. Varelserna i Deep Void är undantaget: de delar varje träff 90 % / 10 %.
 - Skadan från en Siphon Battery tas enbart ur målets sköld: absorption och genomträngning spelar ingen roll.
 
 **Där sköldarna inte tar något.** En genomträngning som är lika med eller större än absorptionen lämnar sköldarna ingenting av träffen: skrovet tar allt. Tabellen visar vad sköldarna tar av en träff från den bästa lasern (100 %; en Antimatter Battery i stället för Experimental Fusion Core ger 110 % vid x3 skada) och den bästa enkelmålsraketen (en Lancet III eller en Rivet III med en Stiletto, 70 %):

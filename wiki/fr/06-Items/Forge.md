@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0684c16b2f2d0dbe -->
+<!-- wiki-i18n source: d6376f646044a759 -->
 <!-- wiki-i18n title: Forge -->
 # La Forge {#the-forge}
 
@@ -98,9 +98,9 @@ Accorder les quatre emplacements d’une pièce coûte 150 Echo Shards (10 + 20 
 | Porte solo : Delta Siege | 29 | 44 |
 | Porte solo : Omega Vault | 34 | 54 |
 | Porte solo : Davidski's Nightmare | 34 | 54 |
-| Donjon de clan : étape 1 | 12 | 5 |
-| Donjon de clan : étape 2 | 8 | 6 |
-| Donjon de clan : étape 3 | 8 | 7 |
+| Donjon de clan : étape 1 | 24 | 10 |
+| Donjon de clan : étape 2 | 16 | 12 |
+| Donjon de clan : étape 3 | 16 | 14 |
 
 - Les **portes solo** paient leurs shards à chaque réussite, les **donjons de clan** à chaque réussite payée d’une étape.
 - Les **Heartshards** viennent avec la première réussite de chaque porte et de chaque étape de donjon d’une saison (1) et avec 5 % de chances d’en obtenir 1 de plus à chaque réussite. Les PNJ rares en lâchent aussi : 10 % pour Davidski, 5 % pour Dormant Force et pour Tesseract. La page [Ressources](/wiki/06-Items/Resources.md#heartshard) donne le reste.

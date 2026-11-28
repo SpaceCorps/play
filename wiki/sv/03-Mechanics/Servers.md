@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 397d7b3564593bb7 -->
+<!-- wiki-i18n source: f77c8c8ae352b4a0 -->
 <!-- wiki-i18n title: Servrar -->
 # Servrar {#servers}
 
@@ -37,7 +37,7 @@ Om spelet stängs eller anslutningen bryts väntar den regionala servern på dig
 | [Soloportar](/wiki/03-Mechanics/Solo-Gates.md#going-in) | själva porten beskrivs där |
 | [Prestationer](/wiki/03-Mechanics/Achievements.md) | beskrivs där |
 | [Klan-dungeons](/wiki/03-Mechanics/Dungeons.md) och väktarna | bara i Helsinki |
-| [Davidski](/wiki/03-Mechanics/Davidski.md) | han dyker upp, men betalar ingenting på en regional server: hans dödade betalas i Helsinki |
+| [Davidski](/wiki/03-Mechanics/Davidski.md) | han dyker upp, men betalar ingenting på en regional server; hans belöningar betalas bara för en nedskjutning på hemservern (EU), och en nedskjutning på vilken server som helst räknas för de uppdrag som nämner honom |
 | Hangaren, [Skylab](/wiki/03-Mechanics/Skylab.md), Monteringen, Auktionen, butiken, forskningen, klansidan och Galaxportarna | på stationen: under flygning säger fönstret det, och **Tillbaka till basen** tar dig dit |
 
 ## Välja en server {#choosing-a-server}

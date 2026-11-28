@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e3fa08f52459090c -->
+<!-- wiki-i18n source: d7154b35dd9c47fc -->
 <!-- wiki-i18n title: Dev ekskavatör -->
 # Dev ekskavatör {#giant-excavator}
 
@@ -91,13 +91,13 @@ Bir çalışma, kayıp uygarlığın avcıları **Slumbering Void** uzaylıları
 
 - **Dalgalar.** 2 dk aralıkla 3 Slumbering Void; ilki başlangıçtan 1 dk sonra, bir çalışmanın son 1 dk süresinde hiçbiri yok. Bir haritada aynı anda en fazla 12 canlı olabilir: haritayı dolu bulan bir dalga atlanır.
 - **Geliş.** Bir dalga haritanın kenarında, kenardan 900 birim içeride ve her geçit halkasından en az 2.500 birim uzakta belirir ve yaklaşık 20 sn içinde ekskavatöre uçar. Mesaj, dalganın geldiği yönü bildirir.
-- **Avlanma.** Bir Void, 2.500 birim içinde görebildiği en yakın pilotu avlar ve ekskavatörün 7.000 birim yakınında kalır.
+- **Avlanma.** Bir Void, {{guide:vitals.aggro@Slumbering Void}} birim içinde görebildiği en yakın pilotu avlar ve ekskavatörün 7.000 birim yakınında kalır.
 - **Kuşatma.** Görebildiği hiçbir pilot 15 sn boyunca ekskavatörün 7.000 birim yakınında olmadığında, Void ekskavatöre saldırır ve her lazer olağan hasarının %25 kadarını verir. Sıfıra inince ekskavatör yok edilir: yakıtı kaybolur, gövdesi bir anda yeniden dolar ve 1 sa dinlenir.
 - **Ayrılma.** Bir çalışma bittiğinde kalan Void 90 sn daha kalır ve kendisine saldırılırsa savaşmaya devam eder; sonra gider.
 
 <!-- excavator-voids:end -->
 
-- **Bir Void bir “cam top”tur.** Kalkanı büyüktür ama vuruşun %80’ini alır; bu yüzden arkasındaki gövde, kendi büyüklüğünün birkaç katı kadar hasardan sonra düşer, kalkan delmeyle çok daha çabuk. Alpha’da kalkan delmesi olmayan dört pilot ya da iyi bir donanımla iki pilot bir çalışmayı tutar; Beta ve Gamma, her uzaylıda olduğu gibi, daha büyük gruplar ister.
+- **Bir Void bir “cam top”tur.** Kalkanı büyüktür ama vuruşun {{guide:vitals.absorbance@Slumbering Void}}’ini alır; bu yüzden arkasındaki gövde, kendi büyüklüğünün birkaç katı kadar hasardan sonra düşer, kalkan delmeyle çok daha çabuk. Alpha’da kalkan delmesi olmayan dört pilot ya da iyi bir donanımla iki pilot bir çalışmayı tutar; Beta ve Gamma, her uzaylıda olduğu gibi, daha büyük gruplar ister.
 - **Gizlenme alanı savunmaz.** Void uzaylıları gizlenmiş gemileri görmez; bu yüzden saklanan bir pilot onları ekskavatörden uzak tutmaz; bir geçit halkasına sığınan pilota da ulaşılamaz ve o da sayılmaz.
 - **Her Void ödeme yapar**, ona verdiğin hasara göre, ve bir kutu düşürür ([bir patron öldürmenin nasıl ödediği](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Öldürmeleri, bir sürü gemisininki gibi, PvE sıralama puanına eklenir.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c205efd6ca83bd6f -->
+<!-- wiki-i18n source: 26bbf6eb36f9c7f8 -->
 <!-- wiki-i18n title: Schilde -->
 # Schildmechanik {#shield-mechanics}
 
@@ -43,7 +43,7 @@ Manche Angriffe haben eine **Schilddurchdringung**: Punkte, die für diesen Tref
 - Die Schilde nehmen höchstens `round(damage x share)` des Treffers; die Hülle nimmt den Rest. Ein Schild, der für seinen Anteil zu niedrig ist, gibt die Differenz an die HP weiter, und stehen die Schilde auf 0, trifft der gesamte Schaden direkt die HP.
 - **Woher die Durchdringung kommt**: die *Schilddurchdringung* einer direkten Rakete (Lancet I 10 %, Lancet II 25 %, Lancet III 35 %, Rivet I 5 %, Rivet II 25 %, Rivet III 35 %, N.I.K.E. 35 %; Flächenschaden hat keine, siehe [Raketen](/wiki/06-Items/Rockets.md)) und die der Lasermunition (Ultra Core 5 %, Experimental Fusion Core 10 %; siehe [Laser & Munition](/wiki/06-Items/Lasers.md)). Aliens haben keine, ebenso wenig die Munition x1 und x2. Ein Lasertreffer nimmt außerdem die Penetration Amps der Laser des Schützen (+5 % bis +20 % pro Slot, der Mittelwert über seine Laser) und die Durchdringung einer Drohnenformation (Gemini +15 %; die Stiletto gibt nur einer direkten Rakete +35 %); eine direkte Rakete addiert die der Formation zu ihrer eigenen. **Nichts begrenzt die Summe**: Die Schilde fangen die Absorption abzüglich all dessen ab, bis hinunter zu nichts vom Treffer ([so setzt sich ein Lasertreffer zusammen](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
 - **Beispiele**: 91 % Absorption gegen eine Lancet III (35 %): Die Schilde nehmen 56 % des Treffers, die Hülle 44 %. 100 % dagegen: 65 % und 35 %. 112 % gegen 12 % Durchdringung: der ganze Treffer. 45 % (ein Light Shield Core allein) gegen 35 %: 10 % auf den Schild, der Rest auf die Hülle. Eine Rakete allein durchdringt keinen Kern vollständig, aber eine Lancet III mit einer Stiletto (35 % + 35 % = 70 %) lässt einem Light Shield Core allein (45 %) nichts vom Treffer, und der beste Laser (85 %) ebenso: Gegen diesen Laser nimmt der beste Schild (91 %) 6 % des Treffers und die Hülle 94 %.
-- Aliens haben keinen Absorptionswert: Sie teilen jeden Treffer 80 % / 20 % auf, abzüglich der Durchdringung des Treffers.
+- Aliens haben keinen Absorptionswert: Sie teilen jeden Treffer 80 % / 20 % auf, abzüglich der Durchdringung des Treffers. Die Kreaturen der Deep Void sind die Ausnahme: Sie teilen jeden Treffer 90 % / 10 % auf.
 - Der Schaden einer Siphon Battery geht allein vom Schild ab: Absorption und Durchdringung spielen dabei keine Rolle.
 
 **Wo die Schilde nichts nehmen.** Eine Durchdringung in Höhe der Absorption oder darüber lässt den Schilden nichts vom Treffer: Die Hülle nimmt alles. Die Tabelle zeigt, was die Schilde von einem Treffer des besten Lasers (100 %; ein Antimatter Battery statt des Experimental Fusion Core ergibt 110 % bei x3 Schaden) und der besten direkten Rakete (eine Lancet III oder eine Rivet III mit einer Stiletto, 70 %) nehmen:

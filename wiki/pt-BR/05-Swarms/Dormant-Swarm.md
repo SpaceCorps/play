@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: bb8bc80ba6889fba -->
+<!-- wiki-i18n source: fcba1b51b68a9123 -->
 <!-- wiki-i18n title: Enxame Dormant -->
 # Enxame Dormant {#dormant-swarm}
 
-O enxame Dormant é uma **Dormant Force** com suas **Dormant Pulses**: um grupo de naves que nunca começam uma luta e batem muito forte depois de acordadas. Há só um em cada mundo. Ele vagueia de um setor de perigo para o seguinte e é a luta mais dura e o saque mais rico dos enxames: uma luta para um grupo grande das naves mais fortes. A partir do dia 11 da temporada ele começa no [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) de `DS-4`, volta mais cedo e paga o dobro (veja a lista *Em resumo*).
+O enxame Dormant é uma **Dormant Force** com suas **Dormant Pulses**: um grupo de naves que nunca começam uma luta e batem muito forte depois de acordadas. Há só um nos setores de perigo de cada mundo (o [Deep Void](/wiki/03-Mechanics/Deep-Void.md#the-dormant-swarms-visit) tem uma visita própria, uma vez por dia). Ele vagueia de um setor de perigo para o seguinte e é a luta mais dura e o saque mais rico dos enxames: uma luta para um grupo grande das naves mais fortes. A partir do dia 11 da temporada ele começa no [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) de `DS-4`, volta mais cedo e paga o dobro (veja a lista *Em resumo*).
 
 ## Resumo rápido {#at-a-glance}
 
@@ -18,7 +18,7 @@ O enxame Dormant é uma **Dormant Force** com suas **Dormant Pulses**: um grupo 
 - **Líder destruído**: Dormant Pulse assume a liderança
 - **Líder destruído**: Os seguidores vão embora 30 s depois que o líder é destruído, estejam atacando ou não
 - **Deslocamento**: Fica 8 a 15 min num mapa, depois voa até o portão de outro setor de perigo. Nunca usa os portões que saem dos setores de perigo e nunca entra no anel do buraco negro
-- **Volta**: 1 h depois que o enxame inteiro é destruído, num setor de perigo aleatório
+- **Volta**: {{guide:vitals.respawn@Dormant Force#1;Dormant Force#2;Dormant Force#3}} depois que o enxame inteiro é destruído, num setor de perigo aleatório
 - **A partir do dia 11 da temporada**: Aparece no [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) de `DS-4` em vez de num setor de perigo aleatório, volta 30 min depois que o enxame inteiro é destruído, e cada nave paga ×2 (créditos, Thulium, XP e honra; o espólio continua o mesmo)
 - **Avisos**: Os pilotos do mundo inteiro são avisados quando o enxame aparece e quando é destruído. São linhas do Sistema: aparecem na aba **Sistema** do chat, com uma contagem de linhas não lidas, e não em **Global** nem em **Local**. Um marcador o mostra nos mapas dos setores de perigo e no mapa da galáxia. O registro de baixas nomeia o piloto a quem o abate é creditado.
 
@@ -38,6 +38,19 @@ São passivas: nunca vão atrás de um piloto. Se uma delas é acertada, as outr
 - **Os lasers dele decidem a luta.** Juntos, podem destruir uma Paragon em menos de um minuto, e até uma com os melhores escudos em menos de dois, com foguetes ou sem: leve o seu dano rápido, com os melhores escudos que tiver.
 - **Nave por nave.** Cada nave tem o seu casco e o seu pagamento, então a Force ou uma Pulse pode ser destruída primeiro. O enxame só é substituído quando é destruído por inteiro, depois do tempo da lista *Resumo rápido*.
 
+## As três etapas do líder {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+A luta tem três etapas ([como funcionam](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); cada uma acontece uma vez.
+
+- **No início**: Recebe 70% de cada golpe enquanto um dos seus Dormant Pulses estiver vivo.
+- **Abaixo de dois terços**: Seus Dormant Pulses disparam um foguete a cada 2,5 s por 15 s.
+- **Abaixo de um terço**: Enquanto todos os seus Dormant Pulses estiverem vivos, eles o reparam em 5% do casco por segundo por 6 s.
+
+<!-- mob-ladder:end -->
+
 ## Recompensas e saque {#rewards-and-drops}
 
 Cada nave paga por si, pelo dano causado a ela ([como o abate de um chefe paga](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)), e cada uma larga uma caixa para o piloto que mais lhe causou dano. A **caixa da Force** é o prêmio: muita munição x3 e x4, foguetes Épicos de um só tipo e, de vez em quando, um N.I.K.E. ou um N.U.K.E. As **Pulses** podem largar uma Ancient Control Unit, um Power Core ou Dark Matter. Um minuto de luta contra o enxame paga mais do que um minuto de luta contra o Crystalys, o alienígena mais bem pago. A partir do dia 11 da temporada cada nave paga o dobro (veja a lista *Em resumo*); as caixas são as mesmas.
@@ -55,27 +68,24 @@ Base: Wraith, com 100% do casco e 300% do dano dos lasers; a velocidade e o alca
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Casco | 256.000 | 384.000 | 512.000 |
-| Escudo | 83.400 | 125.100 | 166.800 |
-| Dano dos lasers (uma salva por segundo) | 3.315 | 4.973 | 6.630 |
-| Velocidade | 210 | 210 | 210 |
+| Casco | {{guide:vitals.hull@Dormant Force#1}} | {{guide:vitals.hull@Dormant Force#2}} | {{guide:vitals.hull@Dormant Force#3}} |
+| Escudo | {{guide:vitals.shield@Dormant Force#1}} | {{guide:vitals.shield@Dormant Force#2}} | {{guide:vitals.shield@Dormant Force#3}} |
+| Dano dos lasers (uma salva por segundo) | {{guide:vitals.dps@Dormant Force#1}} | {{guide:vitals.dps@Dormant Force#2}} | {{guide:vitals.dps@Dormant Force#3}} |
+| Velocidade | {{guide:vitals.speed@Dormant Force#1}} | {{guide:vitals.speed@Dormant Force#2}} | {{guide:vitals.speed@Dormant Force#3}} |
 | Alcance dos lasers | 800 | 800 | 800 |
 | Raio de agressão | só quando atacado | só quando atacado | só quando atacado |
-| Dano dos foguetes, no máximo | 7.500 | 11.250 | 15.000 |
-| Créditos | 185.000 | 370.000 | 555.000 |
-| Thulium | 485 | 970 | 1.455 |
-| Experiência (XP) | 29.200 | 58.400 | 87.600 |
-| Honra | 127 | 254 | 381 |
+| Dano dos foguetes, no máximo | {{guide:behaviour.ability:rocket.damage@Dormant Force#1}} | {{guide:behaviour.ability:rocket.damage@Dormant Force#2}} | {{guide:behaviour.ability:rocket.damage@Dormant Force#3}} |
+| Créditos | {{guide:spoils.pay.credits@Dormant Force#1}} | {{guide:spoils.pay.credits@Dormant Force#2}} | {{guide:spoils.pay.credits@Dormant Force#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Dormant Force#1}} | {{guide:spoils.pay.thulium@Dormant Force#2}} | {{guide:spoils.pay.thulium@Dormant Force#3}} |
+| Experiência (XP) | {{guide:spoils.pay.experience@Dormant Force#1}} | {{guide:spoils.pay.experience@Dormant Force#2}} | {{guide:spoils.pay.experience@Dormant Force#3}} |
+| Honra | {{guide:spoils.pay.honor@Dormant Force#1}} | {{guide:spoils.pay.honor@Dormant Force#2}} | {{guide:spoils.pay.honor@Dormant Force#3}} |
 | Pontos PvE por abate | 25 | 25 | 25 |
 
 **Saque**: uma caixa, para o piloto que mais causou dano.
 
-| Item | Chance | Quantidade |
-| :--- | ---: | ---: |
-| Ultra Core e Experimental Fusion Core, divididos igualmente | 100% | 2.000–3.000 no total |
-| Um dos 4 [foguetes](/wiki/06-Items/Rockets.md) Épicos, escolhido ao acaso | 100% | 30–50 |
-| Um entre [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) e [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets), escolhido ao acaso | 50% | 1 |
-| Heartshard | 5% | 1 |
+| Item |
+| :--- |
+| {{guide:spoils.box@Dormant Force#1;Dormant Force#2;Dormant Force#3}} |
 
 ### Dormant Pulse
 
@@ -83,25 +93,23 @@ Base: Paragon, com 100% do casco e 600% do dano dos lasers; a velocidade e o alc
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Casco | 128.000 | 192.000 | 256.000 |
-| Escudo | 64.570 | 96.855 | 129.140 |
-| Dano dos lasers (uma salva por segundo) | 5.100 | 7.650 | 10.200 |
-| Velocidade | 270 | 270 | 270 |
+| Casco | {{guide:vitals.hull@Dormant Pulse#1}} | {{guide:vitals.hull@Dormant Pulse#2}} | {{guide:vitals.hull@Dormant Pulse#3}} |
+| Escudo | {{guide:vitals.shield@Dormant Pulse#1}} | {{guide:vitals.shield@Dormant Pulse#2}} | {{guide:vitals.shield@Dormant Pulse#3}} |
+| Dano dos lasers (uma salva por segundo) | {{guide:vitals.dps@Dormant Pulse#1}} | {{guide:vitals.dps@Dormant Pulse#2}} | {{guide:vitals.dps@Dormant Pulse#3}} |
+| Velocidade | {{guide:vitals.speed@Dormant Pulse#1}} | {{guide:vitals.speed@Dormant Pulse#2}} | {{guide:vitals.speed@Dormant Pulse#3}} |
 | Alcance dos lasers | 800 | 800 | 800 |
 | Raio de agressão | só quando atacado | só quando atacado | só quando atacado |
-| Dano dos foguetes, no máximo | 5.000 | 7.500 | 10.000 |
-| Créditos | 105.000 | 210.000 | 315.000 |
-| Thulium | 275 | 550 | 825 |
-| Experiência (XP) | 16.600 | 33.200 | 49.800 |
-| Honra | 72 | 144 | 216 |
+| Dano dos foguetes, no máximo | {{guide:behaviour.ability:rocket.damage@Dormant Pulse#1}} | {{guide:behaviour.ability:rocket.damage@Dormant Pulse#2}} | {{guide:behaviour.ability:rocket.damage@Dormant Pulse#3}} |
+| Créditos | {{guide:spoils.pay.credits@Dormant Pulse#1}} | {{guide:spoils.pay.credits@Dormant Pulse#2}} | {{guide:spoils.pay.credits@Dormant Pulse#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Dormant Pulse#1}} | {{guide:spoils.pay.thulium@Dormant Pulse#2}} | {{guide:spoils.pay.thulium@Dormant Pulse#3}} |
+| Experiência (XP) | {{guide:spoils.pay.experience@Dormant Pulse#1}} | {{guide:spoils.pay.experience@Dormant Pulse#2}} | {{guide:spoils.pay.experience@Dormant Pulse#3}} |
+| Honra | {{guide:spoils.pay.honor@Dormant Pulse#1}} | {{guide:spoils.pay.honor@Dormant Pulse#2}} | {{guide:spoils.pay.honor@Dormant Pulse#3}} |
 | Pontos PvE por abate | 11 | 11 | 11 |
 
 **Saque**: uma caixa, para o piloto que mais causou dano.
 
-| Item | Chance | Quantidade |
-| :--- | ---: | ---: |
-| Ancient Control Unit | 20% | 1 |
-| Power Core | 20% | 1 |
-| Dark Matter | 20% | 1–5 |
+| Item |
+| :--- |
+| {{guide:spoils.box@Dormant Pulse#1;Dormant Pulse#2;Dormant Pulse#3}} |
 
 <!-- dormant-members:end -->

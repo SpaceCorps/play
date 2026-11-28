@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ed1159b36e9dc853 -->
+<!-- wiki-i18n source: 33448f95d2520b3a -->
 <!-- wiki-i18n title: Sciame Pirate -->
 # Sciame Pirate {#pirate-swarm}
 
@@ -17,14 +17,14 @@ Lo sciame Pirate è un **Pirate Boss** con i suoi **Pirate Scout**: una nave eno
 - **I seguaci restano vicini**: al massimo 900 unità dal capo
 - **Cura**: Ogni Pirate Scout entro 600 unità dal capo ne cura lo scafo, 40 HP al secondo in Alpha
 - **Capo distrutto**: I seguaci se ne vanno 1 min dopo la distruzione del capo, a meno che stiano attaccando
-- **Ritorna**: 2 min dopo la distruzione del capo, nello stesso settore
+- **Ritorna**: {{guide:vitals.respawn@Pirate Boss#1;Pirate Boss#2;Pirate Boss#3}} dopo la distruzione del capo, nello stesso settore
 - **Avvisi**: I piloti del settore vengono avvisati quando il capo compare e quando viene distrutto. Sono righe di Sistema: compaiono nella scheda **Sistema** della chat, con un conteggio delle righe non lette, e non in **Globale** né in **Locale**. Il kill feed nomina il pilota a cui viene accreditato l’abbattimento.
 
 <!-- pirate-glance:end -->
 
 ## I membri {#the-members}
 
-- **Pirate Boss**: una nave costruita sulla Ironclad, con una parte della sua forza (i valori sono qui sotto). È passivo e non spara **nessun laser**: la sua unica arma è un **razzo dritto** ([Razzi](/wiki/06-Items/Rockets.md); quale dipende dal settore, vedi la tabella) contro il pilota che lo ha attaccato, e continua a vagare mentre spara. Non ripara mai da solo il suo scafo.
+- **Pirate Boss**: una nave costruita sulla Ironclad, con una parte della sua forza (i valori sono qui sotto). È passivo e non spara **nessun laser**: la sua unica arma è un **razzo dritto** ([Razzi](/wiki/06-Items/Rockets.md); quale dipende dal settore, vedi la tabella) contro il pilota che lo ha attaccato, e continua a vagare mentre spara. Non ripara mai da solo il suo scafo. Le sue [tre fasi](#the-leaders-three-steps) e un’[abilità speciale](/wiki/03-Mechanics/Special-Abilities.md) possono cambiare questo.
 - **Pirate Scout**: una nave costruita sulla Kitefin, con una parte della sua forza. Gli Scout attaccano qualsiasi pilota si avvicini, restano vicini al boss, e ognuno che è vicino al boss ne cura lo scafo.
 
 ## Come va lo scontro {#how-the-fight-goes}
@@ -34,6 +34,19 @@ Lo sciame Pirate è un **Pirate Boss** con i suoi **Pirate Scout**: una nave eno
 - **Resta in movimento.** Il razzo del boss è dritto e non guidato: una nave che resta in movimento lo schiva, una ferma viene colpita.
 - **Porta un gruppo.** Tre piloti su Ostirion con munizioni x2 lo vincono su `x-2` senza perdere una nave, anche se di poco, e vengono distrutti su `x-3`, anche finché i colpi sono distribuiti; quattro lo abbattono in circa tre minuti in Alpha. Con munizioni x4 tre lo abbattono su `x-3` in circa due minuti. Cinque lo abbattono in circa due minuti e mezzo quando i colpi sono distribuiti e in circa tre quando un pilota prende tutto il fuoco, e allora perdono due navi: un gruppo che lascia a un pilota tutto il fuoco ne richiede cinque. In Beta servono cinque piloti e in Gamma sette, con i colpi distribuiti (il boss lì è più grande e i suoi Scout curano di più). In Alpha, su `x-3` con munizioni x2, un’Ostirion da sola non ce la fa, una Paragon da sola non ce la fa neppure, e due Paragon ce la fanno senza rischi. In Beta e Gamma, su `x-3`, una Paragon da sola viene distrutta con munizioni x2 e con munizioni x4. Il boss risponde al primo pilota che lo ha colpito, quindi lascia cominciare la nave più robusta, e usa le tue abilità (Emergency Repair, Shield Surge: [Abilità](/wiki/03-Mechanics/Abilities.md)) in uno scontro così lungo. I piloti ancora di livello 2 o 3 sono troppo deboli per lui, anche dove volano: stai lontano finché non sei più forte.
 - **Il boss ritorna** dopo il tempo indicato nell’elenco *In breve*, nello stesso settore.
+
+## Le tre fasi del capo {#the-leaders-three-steps}
+
+<!-- mob-ladder:begin -->
+<!-- Generated from server/Resources/MobAbilities.json (and the client's locales/<language>/mobs.toml) by scripts/mob-abilities-wiki.sh: don't edit by hand. -->
+
+Il suo scontro ha tre fasi ([come funzionano](/wiki/03-Mechanics/Special-Abilities.md#the-bosses-three-steps)); ognuna avviene una volta.
+
+- **All’inizio**: Spara un ventaglio di 3 razzi, distanziati di 12 gradi, contro il primo pilota che l’ha colpito.
+- **Sotto i due terzi**: Chiama 5 Pirate Scouts in più in una volta, al massimo 10 vivi. Non pagano nulla e se ne vanno dopo 45 s.
+- **Sotto un terzo**: Vola a velocità ×1,8 verso la porta più vicina per 10 s, poi si rivolta contro i piloti.
+
+<!-- mob-ladder:end -->
 
 ## Ricompense e bottino {#rewards-and-drops}
 
@@ -52,26 +65,24 @@ Base: Ironclad, con il 50% di scafo, scudo e danno; velocità e portata sono que
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Scafo | 250.000 | 375.000 | 500.000 |
-| Scudo | 50.100 | 75.150 | 100.200 |
+| Scafo | {{guide:vitals.hull@Pirate Boss#1}} | {{guide:vitals.hull@Pirate Boss#2}} | {{guide:vitals.hull@Pirate Boss#3}} |
+| Scudo | {{guide:vitals.shield@Pirate Boss#1}} | {{guide:vitals.shield@Pirate Boss#2}} | {{guide:vitals.shield@Pirate Boss#3}} |
 | Danno dei laser (una raffica al secondo) | nessuno | nessuno | nessuno |
-| Velocità | 100 | 100 | 100 |
+| Velocità | {{guide:vitals.speed@Pirate Boss#1}} | {{guide:vitals.speed@Pirate Boss#2}} | {{guide:vitals.speed@Pirate Boss#3}} |
 | Portata dei laser | – | – | – |
 | Raggio di aggressione | solo se attaccato | solo se attaccato | solo se attaccato |
-| Danno dei razzi, al massimo | 2.500 (Rivet I) / 5.000 (Rivet II) | 3.750 (Rivet I) / 7.500 (Rivet II) | 5.000 (Rivet I) / 10.000 (Rivet II) |
-| Crediti | 145.000 | 290.000 | 435.000 |
-| Thulium | 725 | 1.450 | 2.175 |
-| Esperienza (XP) | 29.000 | 58.000 | 87.000 |
-| Onore | 232 | 464 | 696 |
+| Danno dei razzi, al massimo | {{guide:behaviour.ability:rocket.damage@Pirate Boss#1}} | {{guide:behaviour.ability:rocket.damage@Pirate Boss#2}} | {{guide:behaviour.ability:rocket.damage@Pirate Boss#3}} |
+| Crediti | {{guide:spoils.pay.credits@Pirate Boss#1}} | {{guide:spoils.pay.credits@Pirate Boss#2}} | {{guide:spoils.pay.credits@Pirate Boss#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Pirate Boss#1}} | {{guide:spoils.pay.thulium@Pirate Boss#2}} | {{guide:spoils.pay.thulium@Pirate Boss#3}} |
+| Esperienza (XP) | {{guide:spoils.pay.experience@Pirate Boss#1}} | {{guide:spoils.pay.experience@Pirate Boss#2}} | {{guide:spoils.pay.experience@Pirate Boss#3}} |
+| Onore | {{guide:spoils.pay.honor@Pirate Boss#1}} | {{guide:spoils.pay.honor@Pirate Boss#2}} | {{guide:spoils.pay.honor@Pirate Boss#3}} |
 | Punti PvE per abbattimento | 15 | 15 | 15 |
 
 **Bottino**: una cassa, per il pilota che ha inflitto più danno.
 
-| Oggetto | Probabilità | Quantità |
-| :--- | ---: | ---: |
-| Reinforced Hull Plate | 50% | 1 |
-| Uno dei 4 [razzi](/wiki/06-Items/Rockets.md) acquistabili con i crediti, scelto a caso | 100% | 5–10 |
-| Uno tra Advanced Plasma, Siphon Battery e Siphon Battery II, scelto a caso | 100% | 1.000–2.000 |
+| Oggetto |
+| :--- |
+| {{guide:spoils.box@Pirate Boss#1;Pirate Boss#2;Pirate Boss#3}} |
 
 ### Pirate Scout
 
@@ -79,17 +90,17 @@ Base: Kitefin; rispetto all’originale, scafo 50% e danno dei laser 113%; veloc
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Scafo | 12.000 | 18.000 | 24.000 |
-| Scudo | 9.818 | 14.727 | 19.636 |
-| Danno dei laser (una raffica al secondo) | 315 | 473 | 630 |
-| Velocità | 220 | 220 | 220 |
+| Scafo | {{guide:vitals.hull@Pirate Scout#1}} | {{guide:vitals.hull@Pirate Scout#2}} | {{guide:vitals.hull@Pirate Scout#3}} |
+| Scudo | {{guide:vitals.shield@Pirate Scout#1}} | {{guide:vitals.shield@Pirate Scout#2}} | {{guide:vitals.shield@Pirate Scout#3}} |
+| Danno dei laser (una raffica al secondo) | {{guide:vitals.dps@Pirate Scout#1}} | {{guide:vitals.dps@Pirate Scout#2}} | {{guide:vitals.dps@Pirate Scout#3}} |
+| Velocità | {{guide:vitals.speed@Pirate Scout#1}} | {{guide:vitals.speed@Pirate Scout#2}} | {{guide:vitals.speed@Pirate Scout#3}} |
 | Portata dei laser | 700 | 700 | 700 |
-| Raggio di aggressione | 700 | 700 | 700 |
+| Raggio di aggressione | {{guide:vitals.aggro@Pirate Scout#1}} | {{guide:vitals.aggro@Pirate Scout#2}} | {{guide:vitals.aggro@Pirate Scout#3}} |
 | Cura il capo, ciascuno, al secondo (solo scafo) | 40 | 60 | 80 |
-| Crediti | 1.000 | 2.000 | 3.000 |
-| Thulium | 4 | 8 | 12 |
-| Esperienza (XP) | 100 | 200 | 300 |
-| Onore | 2 | 4 | 6 |
+| Crediti | {{guide:spoils.pay.credits@Pirate Scout#1}} | {{guide:spoils.pay.credits@Pirate Scout#2}} | {{guide:spoils.pay.credits@Pirate Scout#3}} |
+| Thulium | {{guide:spoils.pay.thulium@Pirate Scout#1}} | {{guide:spoils.pay.thulium@Pirate Scout#2}} | {{guide:spoils.pay.thulium@Pirate Scout#3}} |
+| Esperienza (XP) | {{guide:spoils.pay.experience@Pirate Scout#1}} | {{guide:spoils.pay.experience@Pirate Scout#2}} | {{guide:spoils.pay.experience@Pirate Scout#3}} |
+| Onore | {{guide:spoils.pay.honor@Pirate Scout#1}} | {{guide:spoils.pay.honor@Pirate Scout#2}} | {{guide:spoils.pay.honor@Pirate Scout#3}} |
 | Punti PvE per abbattimento | 4 | 4 | 4 |
 
 **Bottino**: nessuno. L’abbattimento paga solo i suoi crediti, il Thulium, l’XP e l’onore.
